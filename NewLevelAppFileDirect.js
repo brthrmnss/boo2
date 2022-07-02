@@ -96,7 +96,7 @@ function NewLevelAppFileDirect() {
     p.loadJQuery = function loadJQuery(a) {
         let url = 'http://192.168.1.179:10110/jquery.js'
         if (   self.settings.isRemoteItem  ){
-            url = '/jquery.js'
+            url = 'jquery.js'
         }
         window.loadJS2(url, self.loadQuickLoader)
     }
@@ -105,7 +105,7 @@ function NewLevelAppFileDirect() {
         let url = 'http://192.168.1.179:10110'
             + '/grid/grid/G:/Dropbox/projects/crypto/mp/GrammarHelperServer/sharedResourcesGrid/js/quick_base/quickloadv2.js'
         if (   self.settings.isRemoteItem  ){
-            url = '/quickloadv2.js'
+            url = 'quickloadv2.js'
         }
         if (window.QuickLoadV2 == null) {
             window.loadJS2(url, self.onLoadedQuickLoad)
