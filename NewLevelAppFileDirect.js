@@ -31,7 +31,7 @@ function NewLevelAppFileDirect() {
         window.setZoomDefaultDisable = true
 
         if (window.location.toString().includes('192') == false || window.location.toString().includes(':11200')) {
-            if (window.location.toString().includes('liveMode2')) {
+            if (window.location.toString().includes('liveMode2')!=true) {
                 self.settings.isRemoteItem = true
             }
 
