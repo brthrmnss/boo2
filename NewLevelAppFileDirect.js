@@ -8,14 +8,14 @@ function NewLevelAppFileDirect() {
     p.init = function initNewLevelAppFileDirect(config = {}) {
 
 
-        if ( window.githubLiveMode ) {
+        if (window.githubLiveMode) {
             window.fxRedirectUrls2 = function fxRedier(url) {
-                url = url    .after('trash/')
+                url = url.after('trash/')
                 return url
             }
         }
 
-        if ( window.fdCachedMode ) {
+        if (window.fdCachedMode) {
             window.qlv2 = true;
             /*
           //http://localhost:10110/fonts/glyphicons-halflings-regular.woff2
@@ -30,8 +30,11 @@ function NewLevelAppFileDirect() {
         self.settings = config
         window.setZoomDefaultDisable = true
 
-        if (window.location.toString().includes('192')==false || window.location.toString().includes(':11200')){
-           self.settings.isRemoteItem = true
+        if (window.location.toString().includes('192') == false || window.location.toString().includes(':11200')) {
+            if (window.location.toString().includes('liveMode2')) {
+                self.settings.isRemoteItem = true
+            }
+
         }
 
 
@@ -47,7 +50,7 @@ function NewLevelAppFileDirect() {
 
         loadJS2 = function loadJS2(src, fx) {
 
-            if ( window.navigator.userAgent.includes('Macintosh') == true) {
+            if (window.navigator.userAgent.includes('Macintosh') == true) {
                 src = src.replace('192.168.1.179', '127.0.0.1')
             }
 
@@ -92,10 +95,9 @@ function NewLevelAppFileDirect() {
     }
 
 
-
     p.loadJQuery = function loadJQuery(a) {
         let url = 'http://192.168.1.179:10110/jquery.js'
-        if (   self.settings.isRemoteItem  ){
+        if (self.settings.isRemoteItem) {
             url = 'jquery.js'
         }
         window.loadJS2(url, self.loadQuickLoader)
@@ -104,7 +106,7 @@ function NewLevelAppFileDirect() {
     p.loadQuickLoader = function loadQuickLoader(a) {
         let url = 'http://192.168.1.179:10110'
             + '/grid/grid/G:/Dropbox/projects/crypto/mp/GrammarHelperServer/sharedResourcesGrid/js/quick_base/quickloadv2.js'
-        if (   self.settings.isRemoteItem  ){
+        if (self.settings.isRemoteItem) {
             url = 'quickloadv2.js'
         }
         if (window.QuickLoadV2 == null) {
@@ -131,7 +133,7 @@ function NewLevelAppFileDirect() {
             //'/comps
             window.urlGPreUrl = '/mnt/db/Dropbox/projects/crypto/mp/' +
                 'GrammarHelperServer/sharedResourcesGrid'// +
-            window.urlGPreUrl =   'http://localhost:10110/api/fileList?file=' + ( window.urlGPreUrl)
+            window.urlGPreUrl = 'http://localhost:10110/api/fileList?file=' + (window.urlGPreUrl)
         }
 
 
@@ -146,8 +148,8 @@ function NewLevelAppFileDirect() {
         //window.urlPreUI = ''
         var instance = new QuickLoadV2();
         var config = {};
-        if ( window.fdCachedMode ) {
-            config.cacheFile = 'http://localhost:10110/api/fileList?file='+('/home/user1/trash/storedFiles2_Presentation/react.templates.min.html')
+        if (window.fdCachedMode) {
+            config.cacheFile = 'http://localhost:10110/api/fileList?file=' + ('/home/user1/trash/storedFiles2_Presentation/react.templates.min.html')
         }
         //config.saveFileCache = true
         instance.init(config)
@@ -159,10 +161,8 @@ function NewLevelAppFileDirect() {
 */
 
 
-
-
-        if ( window.fxUpdateFxToLoadNLAF ) {
-            window.fxUpdateFxToLoadNLAF( instance )
+        if (window.fxUpdateFxToLoadNLAF) {
+            window.fxUpdateFxToLoadNLAF(instance)
         } else {
             let dirBase = '/mnt/db/Dropbox/projects/crypto/mp/Evernote/logViewer/public_html/rrr/'
             window.urlPreUI_BaseOverride = dirBase

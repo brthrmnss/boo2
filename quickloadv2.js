@@ -1375,9 +1375,24 @@ min-height: 300px;
                     'http://localhost:10110/styles2/qstyles.css',
                     'http://localhost:10110/styles2/login.css',
                     'http://localhost:10110/styles2/better.css',
-                    'http://localhost:10110/styles2/fonts.css',
                     'http://localhost:10110/styles2/list_styles.css',
                 ]
+
+                if (window.githubLiveMode!=true){
+                    scripts2.push('http://localhost:10110/styles2/fonts.css')
+                }
+
+                /*scripts2 = [
+                    'http://localhost:10110/lib/bootstrap.min.css',
+                    //'http://localhost:10110/lib/jquery-ui.css',
+                    'http://localhost:10110/styles2/qstyles.css',
+                    'http://localhost:10110/styles2/login.css',
+                    'http://localhost:10110/styles2/better.css',
+                    'http://localhost:10110/styles2/fonts.css',
+                    'http://localhost:10110/styles2/list_styles.css',
+                ]*/
+
+
                 self.loadScript2(scripts2.concat(), self.loadStuff4);
             }
             p.loadStuff4 = function loadStuff4(config) {
@@ -1443,11 +1458,12 @@ min-height: 300px;
                 fontObj.fontStyle = sh.dv(fontObj.fontStyle, 'normal')
                 fontObj.fontSrcs = sh.dv(fontObj.fontSrcs, [])
                 fontObj.fontSrcs.push(fontObj.name);
-
+                debugger
                 let yyy = []
                 //let urlFontBase
 
                 fontObj.urlFontBase = self.utils.unlocalize(fontObj.urlFontBase)
+
 
                 fontObj.urlFontBase = sh.ensureEndsWith(fontObj.urlFontBase, '/')
                 sh.throwIf(fontObj.urlFontBase, 'need a font base')

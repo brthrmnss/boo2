@@ -216,7 +216,11 @@
         //debugger
         //console.error('err', url)
         if (url.includes('uploadBooksV2022')){
-
+            if ( window.location.toString().includes('github.io')  ) {
+                return  'https://raw.githubusercontent.com/brthrmnss/boo2/main/'+
+                    url.after('extracted/')
+            }
+         //   https://raw.githubusercontent.com/brthrmnss/boo2/main/_home_user1_Dropbox_Books2_David_M_Bourg_Physics_for_Game_Developers__7542__Physics_for_Game_Developers___David_M_Bourg_epub/toc.json
             return url.after('extracted/')
         }
         return url
