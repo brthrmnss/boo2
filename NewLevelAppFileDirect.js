@@ -30,6 +30,9 @@ function NewLevelAppFileDirect() {
         self.settings = config
         window.setZoomDefaultDisable = true
 
+        if (window.location.toString().includes('192')==false || window.location.toString().includes(':11200')){
+           self.settings.isRemoteItem = true
+        }
 
 
     }
@@ -88,14 +91,22 @@ function NewLevelAppFileDirect() {
         window.debuggerM = true;
     }
 
+
+
     p.loadJQuery = function loadJQuery(a) {
         let url = 'http://192.168.1.179:10110/jquery.js'
+        if (   self.settings.isRemoteItem  ){
+            url = '/jquery.js'
+        }
         window.loadJS2(url, self.loadQuickLoader)
     }
 
     p.loadQuickLoader = function loadQuickLoader(a) {
         let url = 'http://192.168.1.179:10110'
             + '/grid/grid/G:/Dropbox/projects/crypto/mp/GrammarHelperServer/sharedResourcesGrid/js/quick_base/quickloadv2.js'
+        if (   self.settings.isRemoteItem  ){
+            url = '/quickloadv2.js'
+        }
         if (window.QuickLoadV2 == null) {
             window.loadJS2(url, self.onLoadedQuickLoad)
         } else {
