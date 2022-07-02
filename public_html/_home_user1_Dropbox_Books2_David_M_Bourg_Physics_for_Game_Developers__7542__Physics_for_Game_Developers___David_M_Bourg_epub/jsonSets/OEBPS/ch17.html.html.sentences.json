@@ -1,0 +1,9528 @@
+[
+	{
+		"txt": "",
+		"why": "br tag like",
+		"sentenceIndex": 9414,
+		"nouns": [],
+		"dOIndex": 0,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 17. Cars and Hovercraft",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9415,
+		"nouns": [
+			"Chapter",
+			"Cars",
+			"Hovercraft"
+		],
+		"dOIndex": 1,
+		"nouns2": [
+			"Chapter",
+			"Hovercraft"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "What cars and ",
+		"why": "link",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 9416,
+		"nouns": [
+			"cars"
+		],
+		"dOIndex": 2,
+		"isQuote": false
+	},
+	{
+		"txt": "hovercraft have in common is that they operate in an essentially 2D manner. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9417,
+		"nouns": [
+			"hovercraft",
+			"D",
+			"manner"
+		],
+		"dOIndex": 3,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hovercraft"
+		]
+	},
+	{
+		"txt": " Unless they have jumped a ramp, both vehicles remain on the ground or water plane. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9418,
+		"nouns": [
+			"ramp",
+			"both",
+			"vehicles",
+			"ground",
+			"water",
+			"plane"
+		],
+		"dOIndex": 4,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Unless",
+			"vehicles"
+		]
+	},
+	{
+		"txt": " In this chapter we'll discuss the forces behind each vehicle's method of travel and discuss how to accurately model them in your simulations.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9419,
+		"nouns": [
+			"chapter",
+			"ll",
+			"forces",
+			"vehicle",
+			"method",
+			"travel",
+			"model",
+			"simulations"
+		],
+		"dOIndex": 5,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"chapter",
+			"vehicle",
+			"simulations"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 9420,
+		"nouns": [],
+		"dOIndex": 6,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9421,
+		"nouns": [],
+		"dOIndex": 7,
+		"isQuote": false
+	},
+	{
+		"txt": "Cars",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9422,
+		"nouns": [
+			"Cars"
+		],
+		"dOIndex": 8,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9423,
+		"nouns": [],
+		"dOIndex": 9,
+		"isQuote": false
+	},
+	{
+		"txt": "In the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9424,
+		"nouns": [],
+		"dOIndex": 10,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "following sections we want to discuss certain aspects of the physics behind automobile motion. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9425,
+		"nouns": [
+			"sections",
+			"aspects",
+			"physics",
+			"automobile",
+			"motion"
+		],
+		"dOIndex": 11,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"sections",
+			"aspects",
+			"physics",
+			"automobile"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.13333333333333333,
+			"words": [
+				"certain",
+				"want"
+			],
+			"positive": [
+				"certain",
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Like the previous four chapters, the purpose of this chapter is to explain, by example, certain physical phenomena. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9426,
+		"nouns": [
+			"four",
+			"chapters",
+			"purpose",
+			"chapter",
+			"example",
+			"phenomena"
+		],
+		"dOIndex": 12,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"chapters",
+			"purpose",
+			"chapter",
+			"example",
+			"phenomena"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.15,
+			"words": [
+				"certain",
+				"like"
+			],
+			"positive": [
+				"certain",
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " We also want to give you a basic understanding of the mechanics involved in automobile motion in case you want to simulate one in your games. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9427,
+		"nouns": [
+			"mechanics",
+			"automobile",
+			"motion",
+			"case",
+			"one",
+			"games"
+		],
+		"dOIndex": 13,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"mechanics",
+			"automobile"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.07142857142857142,
+			"words": [
+				"want",
+				"want"
+			],
+			"positive": [
+				"want",
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " In keeping with the theme of this book, we'll be talking about mechanics in the sense of rigid body motion, and not in the sense of how an internal combustion engine works, or how power is transferred through the transmission system to the wheels, etc. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9428,
+		"nouns": [
+			"theme",
+			"book",
+			"ll",
+			"mechanics",
+			"sense",
+			"body",
+			"motion",
+			"sense",
+			"combustion",
+			"engine",
+			"works",
+			"power",
+			"transmission",
+			"system",
+			"wheels"
+		],
+		"dOIndex": 14,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"mechanics",
+			"combustion",
+			"transmission"
+		]
+	},
+	{
+		"txt": " Those are all internal to the car as a rigid body, and we'll focus on the external forces. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9429,
+		"nouns": [
+			"are",
+			"car",
+			"body",
+			"ll",
+			"focus",
+			"forces"
+		],
+		"dOIndex": 15,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " We will, however, discuss how the torque applied to the drive wheel is translated to a force that pushes the car along.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9430,
+		"nouns": [
+			"torque",
+			"drive",
+			"wheel",
+			"force",
+			"car"
+		],
+		"dOIndex": 16,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9431,
+		"nouns": [],
+		"dOIndex": 17,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9432,
+		"nouns": [],
+		"dOIndex": 18,
+		"isQuote": false
+	},
+	{
+		"txt": "Resistance",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9433,
+		"nouns": [
+			"Resistance"
+		],
+		"dOIndex": 19,
+		"nouns2": [
+			"Resistance"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9434,
+		"nouns": [],
+		"dOIndex": 20,
+		"isQuote": false
+	},
+	{
+		"txt": "Before we talk ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9435,
+		"nouns": [],
+		"dOIndex": 21,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Before"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9436,
+		"nouns": [],
+		"dOIndex": 22,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9437,
+		"nouns": [],
+		"dOIndex": 23,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "about why cars move forward, let's talk about what slows them down. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9438,
+		"nouns": [
+			"cars",
+			"move"
+		],
+		"dOIndex": 24,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " When a car drives down a road, it experiences two main components of resistance that try to slow it down. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9439,
+		"nouns": [
+			"car",
+			"drives",
+			"road",
+			"experiences",
+			"two",
+			"components",
+			"resistance"
+		],
+		"dOIndex": 25,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"experiences",
+			"components",
+			"resistance"
+		]
+	},
+	{
+		"txt": " The first ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9440,
+		"nouns": [
+			"first"
+		],
+		"dOIndex": 26,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "component is aerodynamic drag, and the second is called rolling resistance",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9441,
+		"nouns": [
+			"component",
+			"drag",
+			"second",
+			"resistance"
+		],
+		"dOIndex": 27,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"component",
+			"resistance"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.09090909090909091,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9442,
+		"nouns": [],
+		"dOIndex": 28,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " The total resistance felt by the car is the sum of these two components:Rtotal = Rair + Rrolling",
+		"why": "p",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9443,
+		"nouns": [
+			"resistance",
+			"car",
+			"sum",
+			"two",
+			"components",
+			"Rair"
+		],
+		"dOIndex": 29,
+		"nouns2": [
+			"resistance",
+			"components",
+			"Rtotal",
+			"Rrolling"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9444,
+		"nouns": [],
+		"dOIndex": 30,
+		"isQuote": false
+	},
+	{
+		"txt": "The aerodynamic drag is primarily skin friction ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9445,
+		"nouns": [
+			"drag",
+			"skin",
+			"friction"
+		],
+		"dOIndex": 31,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"friction"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.125,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9446,
+		"nouns": [],
+		"dOIndex": 32,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "and pressure drag similar to that experienced by the projectiles discussed in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9447,
+		"nouns": [
+			"pressure",
+			"drag",
+			"projectiles"
+		],
+		"dOIndex": 33,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure",
+			"projectiles"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.15384615384615385,
+			"words": [
+				"drag",
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"drag",
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": "Chapter 6",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9448,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 34,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " , and the planes and boats discussed in earlier chapters. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9449,
+		"nouns": [
+			"planes",
+			"boats",
+			"chapters"
+		],
+		"dOIndex": 35,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"chapters"
+		]
+	},
+	{
+		"txt": " Here again, you can use the familiar drag formula:Rair = (1/2) ρ V2 Sp Cd",
+		"why": "p",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9450,
+		"nouns": [
+			"use",
+			"drag",
+			"formula",
+			"Rair",
+			"/",
+			"ρ",
+			"V",
+			"Sp",
+			"Cd"
+		],
+		"dOIndex": 36,
+		"nouns2": [
+			"formula"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.0625,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "Here ρ (rho) is the mass density of air, V is the speed of the car, Sp is the projected frontal area of the car normal to the direction of V, and Cd is the drag coefficient. ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9451,
+		"nouns": [
+			"ρ",
+			"rho",
+			"mass",
+			"density",
+			"air",
+			"V",
+			"car",
+			"Sp",
+			"area",
+			"car",
+			"direction",
+			"V",
+			"Cd",
+			"drag",
+			"coefficient"
+		],
+		"dOIndex": 37,
+		"nouns2": [
+			"density",
+			"direction",
+			"coefficient"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.02631578947368421,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9452,
+		"nouns": [],
+		"dOIndex": 38,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Typical ranges of drag coefficients for different types of vehicles are 0.29 to 0.4 for sports cars, 0.43 to 0.5 for pickup trucks, 0.6 to 0.9 for tractor trailers, and 0.4 to 0.5 for the average economy car. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9453,
+		"nouns": [
+			"ranges",
+			"drag",
+			"coefficients",
+			"types",
+			"vehicles",
+			"sports",
+			"cars",
+			"pickup",
+			"trucks",
+			"tractor",
+			"trailers",
+			"economy",
+			"car"
+		],
+		"dOIndex": 39,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Typical",
+			"coefficients",
+			"vehicles",
+			"tractor",
+			"trailers",
+			"economy"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.02564102564102564,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " Drag coefficient is a function of the shape of the vehicle that is, the degree of boxiness or streamline. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9454,
+		"nouns": [
+			"coefficient",
+			"function",
+			"shape",
+			"vehicle",
+			"degree",
+			"boxiness"
+		],
+		"dOIndex": 40,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coefficient",
+			"function",
+			"vehicle",
+			"boxiness"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.047619047619047616,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " Streamlined body styles have lower drag coefficients; for example, the Chevy Corvette has a low drag coefficient of 0.29, while the typical tractor trailer without fairings has a high drag coefficient of up to 0.9. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9455,
+		"nouns": [
+			"body",
+			"styles",
+			"drag",
+			"coefficients",
+			"example",
+			"Chevy Corvette",
+			"drag",
+			"coefficient",
+			"tractor",
+			"trailer",
+			"fairings",
+			"drag",
+			"coefficient"
+		],
+		"dOIndex": 41,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Streamlined",
+			"coefficients",
+			"example",
+			"Corvette",
+			"coefficient",
+			"tractor",
+			"trailer",
+			"fairings"
+		],
+		"highfreq": {
+			"drag": 3
+		},
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.08108108108108109,
+			"words": [
+				"drag",
+				"drag",
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag",
+				"drag",
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " You can use these coefficients in your simulations to tune the behavior of different types and shapes of vehicles.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9456,
+		"nouns": [
+			"use",
+			"coefficients",
+			"simulations",
+			"tune",
+			"behavior",
+			"types",
+			"shapes",
+			"vehicles"
+		],
+		"dOIndex": 42,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coefficients",
+			"simulations",
+			"behavior",
+			"vehicles"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9457,
+		"nouns": [],
+		"dOIndex": 43,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9458,
+		"nouns": [],
+		"dOIndex": 44,
+		"isQuote": false
+	},
+	{
+		"txt": "When a tire rolls on a road, it experiences ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9459,
+		"nouns": [
+			"tire",
+			"rolls",
+			"road",
+			"experiences"
+		],
+		"dOIndex": 45,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"experiences"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9460,
+		"nouns": [],
+		"dOIndex": 46,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "rolling resistance, which tends to retard its motion. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9461,
+		"nouns": [
+			"resistance",
+			"motion"
+		],
+		"dOIndex": 47,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"resistance"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.2222222222222222,
+			"words": [
+				"retard"
+			],
+			"positive": [],
+			"negative": [
+				"retard"
+			]
+		}
+	},
+	{
+		"txt": " Rolling resistance is not frictional resistance, but instead has to do with the deformation of the tire while rolling. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9462,
+		"nouns": [
+			"resistance",
+			"resistance",
+			"deformation",
+			"tire"
+		],
+		"dOIndex": 48,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Rolling",
+			"resistance",
+			"deformation"
+		]
+	},
+	{
+		"txt": " It's a difficult quantity to calculate theoretically since it's a function of a number of complicated factors such as tire and road deformation, the pressure over the contact area of the tire, the elastic properties of the tire and road materials, the roughness of the tire and road surfaces, and tire pressure, to name a few so instead you'll have to rely on an empirical formula. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9463,
+		"nouns": [
+			"quantity",
+			"function",
+			"number",
+			"factors",
+			"tire",
+			"road",
+			"deformation",
+			"pressure",
+			"contact",
+			"area",
+			"tire",
+			"properties",
+			"tire",
+			"road",
+			"materials",
+			"roughness",
+			"tire",
+			"road",
+			"surfaces",
+			"tire",
+			"pressure",
+			"name",
+			"ll",
+			"formula"
+		],
+		"dOIndex": 49,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quantity",
+			"function",
+			"factors",
+			"deformation",
+			"pressure",
+			"contact",
+			"properties",
+			"materials",
+			"roughness",
+			"surfaces",
+			"formula"
+		],
+		"highfreq": {
+			"tire": 5,
+			"road": 3
+		},
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.04411764705882353,
+			"words": [
+				"pressure",
+				"pressure",
+				"difficult"
+			],
+			"positive": [],
+			"negative": [
+				"pressure",
+				"pressure",
+				"difficult"
+			]
+		}
+	},
+	{
+		"txt": " The formula to use is as follows:Rrolling = Cr w",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9464,
+		"nouns": [
+			"formula",
+			"use",
+			"Cr"
+		],
+		"dOIndex": 50,
+		"nouns2": [
+			"formula",
+			"Rrolling"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9465,
+		"nouns": [],
+		"dOIndex": 51,
+		"isQuote": false
+	},
+	{
+		"txt": "This gives you the rolling resistance per tire, where w is the weight supported by the tire, ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9466,
+		"nouns": [
+			"resistance",
+			"tire",
+			"weight",
+			"tire"
+		],
+		"dOIndex": 52,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"resistance"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.1111111111111111,
+			"words": [
+				"supported"
+			],
+			"positive": [
+				"supported"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "and Cr is the coefficient of rolling resistance",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9467,
+		"nouns": [
+			"Cr",
+			"coefficient",
+			"resistance"
+		],
+		"dOIndex": 53,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coefficient",
+			"resistance"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9468,
+		"nouns": [],
+		"dOIndex": 54,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Cr is simply the ratio of the rolling resistance force to the weight supported by the tire. ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9469,
+		"nouns": [
+			"Cr",
+			"ratio",
+			"resistance",
+			"force",
+			"weight",
+			"tire"
+		],
+		"dOIndex": 55,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"resistance"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.10526315789473684,
+			"words": [
+				"supported"
+			],
+			"positive": [
+				"supported"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Luckily for you, tire manufacturers generally provide the coefficient of rolling resistance for their tires under design conditions. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9470,
+		"nouns": [
+			"tire",
+			"manufacturers",
+			"coefficient",
+			"resistance",
+			"tires",
+			"design",
+			"conditions"
+		],
+		"dOIndex": 56,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Luckily",
+			"manufacturers",
+			"coefficient",
+			"resistance",
+			"conditions"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.15,
+			"words": [
+				"luckily"
+			],
+			"positive": [
+				"luckily"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Typical car tires have a Cr of about 0.015, while truck tires fall within the range of 0.006 to 0.01. ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9471,
+		"nouns": [
+			"car",
+			"tires",
+			"Cr",
+			"truck",
+			"tires",
+			"fall",
+			"range"
+		],
+		"dOIndex": 57,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Typical"
+		]
+	},
+	{
+		"txt": " If you assume that a car has four identical tires, then you can estimate the total rolling resistance for the car by substituting the total car weight for w in the preceding equation.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9472,
+		"nouns": [
+			"car",
+			"four",
+			"tires",
+			"estimate",
+			"resistance",
+			"car",
+			"car",
+			"weight",
+			"equation"
+		],
+		"dOIndex": 58,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"estimate",
+			"resistance",
+			"equation"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9473,
+		"nouns": [],
+		"dOIndex": 59,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9474,
+		"nouns": [],
+		"dOIndex": 60,
+		"isQuote": false
+	},
+	{
+		"txt": "Power",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9475,
+		"nouns": [
+			"Power"
+		],
+		"dOIndex": 61,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9476,
+		"nouns": [],
+		"dOIndex": 62,
+		"isQuote": false
+	},
+	{
+		"txt": "Now that you know ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9477,
+		"nouns": [],
+		"dOIndex": 63,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9478,
+		"nouns": [],
+		"dOIndex": 64,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9479,
+		"nouns": [],
+		"dOIndex": 65,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9480,
+		"nouns": [],
+		"dOIndex": 66,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "how to calculate the total resistance on your car, you can easily calculate the power required to overcome the resistance at a given speed. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9481,
+		"nouns": [
+			"resistance",
+			"car",
+			"power",
+			"resistance"
+		],
+		"dOIndex": 67,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"resistance"
+		]
+	},
+	{
+		"txt": " Power is a measure of the amount of work done by a force, or torque, over time. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9482,
+		"nouns": [
+			"Power",
+			"measure",
+			"amount",
+			"work",
+			"force",
+			"torque",
+			"time"
+		],
+		"dOIndex": 68,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"measure"
+		]
+	},
+	{
+		"txt": " Mechanical work done by a force is equal to the force times the distance an object moves under the action of that force. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9483,
+		"nouns": [
+			"work",
+			"force",
+			"force",
+			"times",
+			"distance",
+			"object",
+			"moves",
+			"action",
+			"force"
+		],
+		"dOIndex": 69,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Mechanical",
+			"distance"
+		],
+		"highfreq": {
+			"force": 3
+		}
+	},
+	{
+		"txt": " It's expressed in units such as foot pounds. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9484,
+		"nouns": [
+			"units",
+			"foot",
+			"pounds"
+		],
+		"dOIndex": 70,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Since power is a measure of work done over time, its units are, for example, foot pounds per second. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9485,
+		"nouns": [
+			"power",
+			"measure",
+			"work",
+			"time",
+			"units",
+			"example",
+			"foot",
+			"pounds",
+			"second"
+		],
+		"dOIndex": 71,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"measure",
+			"example"
+		]
+	},
+	{
+		"txt": " Usually power in the context of car engine output is expressed in units of horsepower , where 1 horsepower equals 550 ft lbs/s.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9486,
+		"nouns": [
+			"power",
+			"context",
+			"car",
+			"engine",
+			"output",
+			"units",
+			"horsepower",
+			"horsepower",
+			"ft",
+			"lbs",
+			"/"
+		],
+		"dOIndex": 72,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Usually",
+			"context",
+			"horsepower"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9487,
+		"nouns": [],
+		"dOIndex": 73,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9488,
+		"nouns": [],
+		"dOIndex": 74,
+		"isQuote": false
+	},
+	{
+		"txt": "To calculate the horsepower required to overcome total resistance at a given speed, you simply use this formula:P = (Rtotal V) / 550",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9489,
+		"nouns": [
+			"horsepower",
+			"resistance",
+			"use",
+			"formula",
+			"P",
+			"V",
+			"/"
+		],
+		"dOIndex": 75,
+		"nouns2": [
+			"horsepower",
+			"resistance",
+			"formula",
+			"Rtotal"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9490,
+		"nouns": [],
+		"dOIndex": 76,
+		"isQuote": false
+	},
+	{
+		"txt": "Here P is power in units of horsepower, and Rtotal is the total resistance corresponding to the car's speed, V . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9491,
+		"nouns": [
+			"P",
+			"power",
+			"units",
+			"horsepower",
+			"resistance",
+			"car",
+			"V"
+		],
+		"dOIndex": 77,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"horsepower",
+			"Rtotal",
+			"resistance"
+		]
+	},
+	{
+		"txt": " Note, in this equation Rtotal must be in pound units and V must be in units of feet per second.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9492,
+		"nouns": [
+			"equation",
+			"pound",
+			"units",
+			"V",
+			"units",
+			"feet",
+			"second"
+		],
+		"dOIndex": 78,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equation",
+			"Rtotal"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9493,
+		"nouns": [],
+		"dOIndex": 79,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9494,
+		"nouns": [],
+		"dOIndex": 80,
+		"isQuote": false
+	},
+	{
+		"txt": "Now this is not the engine output power required to reach the speed V for your car; rather, it is the required power delivered by the drive wheel to reach the speed V . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9495,
+		"nouns": [
+			"engine",
+			"output",
+			"power",
+			"V",
+			"car",
+			"power",
+			"drive",
+			"wheel",
+			"V"
+		],
+		"dOIndex": 81,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.05714285714285714,
+			"words": [
+				"reach",
+				"reach"
+			],
+			"positive": [
+				"reach",
+				"reach"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The installed engine power will be higher for several reasons. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9496,
+		"nouns": [
+			"engine",
+			"power",
+			"reasons"
+		],
+		"dOIndex": 82,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"reasons"
+		]
+	},
+	{
+		"txt": " First, there will be mechanical losses associated with delivering the power from the engine through the transmission and drive train to the tire. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9497,
+		"nouns": [
+			"First",
+			"losses",
+			"power",
+			"engine",
+			"transmission",
+			"drive",
+			"train",
+			"tire"
+		],
+		"dOIndex": 83,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"transmission"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.12,
+			"words": [
+				"losses"
+			],
+			"positive": [],
+			"negative": [
+				"losses"
+			]
+		}
+	},
+	{
+		"txt": " The power will actually reach the tire in the form of torque, which given the radius of the tire will create a force Fw that will overcome the total resistance. ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9498,
+		"nouns": [
+			"power",
+			"tire",
+			"form",
+			"torque",
+			"radius",
+			"tire",
+			"force",
+			"Fw",
+			"resistance"
+		],
+		"dOIndex": 84,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"resistance"
+		],
+		"highfreq": {
+			"will": 3
+		},
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.03125,
+			"words": [
+				"reach"
+			],
+			"positive": [
+				"reach"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " This force is calculated as follows:Fw = Tw/r",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9499,
+		"nouns": [
+			"force",
+			"Fw",
+			"Tw",
+			"/",
+			"r"
+		],
+		"dOIndex": 85,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9500,
+		"nouns": [],
+		"dOIndex": 86,
+		"isQuote": false
+	},
+	{
+		"txt": "Here Fw is the force delivered by the tire to the road to push the car along, Tw is the torque on the tire, and r is the radius of the tire. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9501,
+		"nouns": [
+			"Fw",
+			"force",
+			"tire",
+			"road",
+			"car",
+			"Tw",
+			"torque",
+			"tire",
+			"r",
+			"radius",
+			"tire"
+		],
+		"dOIndex": 87,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"highfreq": {
+			"tire": 3
+		}
+	},
+	{
+		"txt": " The second reason the installed engine power will be greater is because some engine power will be transferred to other systems in the car. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9502,
+		"nouns": [
+			"second",
+			"reason",
+			"engine",
+			"power",
+			"engine",
+			"power",
+			"systems",
+			"car"
+		],
+		"dOIndex": 88,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"systems"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.11538461538461539,
+			"words": [
+				"greater"
+			],
+			"positive": [
+				"greater"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " For example, power is required to charge the battery and to run the air conditioner.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9503,
+		"nouns": [
+			"example",
+			"power",
+			"charge",
+			"battery",
+			"air",
+			"conditioner"
+		],
+		"dOIndex": 89,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"battery",
+			"conditioner"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9504,
+		"nouns": [],
+		"dOIndex": 90,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9505,
+		"nouns": [],
+		"dOIndex": 91,
+		"isQuote": false
+	},
+	{
+		"txt": "Stopping Distance",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9506,
+		"nouns": [
+			"Distance"
+		],
+		"dOIndex": 92,
+		"nouns2": [
+			"Stopping",
+			"Distance"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.5,
+			"words": [
+				"stopping"
+			],
+			"positive": [],
+			"negative": [
+				"stopping"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9507,
+		"nouns": [],
+		"dOIndex": 93,
+		"isQuote": false
+	},
+	{
+		"txt": "Under normal ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9508,
+		"nouns": [],
+		"dOIndex": 94,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9509,
+		"nouns": [],
+		"dOIndex": 95,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9510,
+		"nouns": [],
+		"dOIndex": 96,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "conditions, stopping distance is a function of the braking system and how hard the driver applies the brakes: the harder the brakes are applied, the shorter the stopping distance. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9511,
+		"nouns": [
+			"conditions",
+			"distance",
+			"function",
+			"system",
+			"driver",
+			"brakes",
+			"brakes",
+			"distance"
+		],
+		"dOIndex": 97,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"conditions",
+			"distance",
+			"function"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.1,
+			"words": [
+				"stopping",
+				"hard",
+				"stopping"
+			],
+			"positive": [],
+			"negative": [
+				"stopping",
+				"hard",
+				"stopping"
+			]
+		}
+	},
+	{
+		"txt": " That's not the case when the tires start to skid. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9512,
+		"nouns": [
+			"case",
+			"tires",
+			"skid"
+		],
+		"dOIndex": 98,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Under skidding conditions, stopping distance is a function of the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9513,
+		"nouns": [
+			"conditions",
+			"distance",
+			"function"
+		],
+		"dOIndex": 99,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"conditions",
+			"distance",
+			"function"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.08333333333333333,
+			"words": [
+				"stopping"
+			],
+			"positive": [],
+			"negative": [
+				"stopping"
+			]
+		}
+	},
+	{
+		"txt": "frictional force that develops between the tires and the road, in addition to the inclination of the roadway. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9514,
+		"nouns": [
+			"force",
+			"tires",
+			"road",
+			"addition",
+			"inclination",
+			"roadway"
+		],
+		"dOIndex": 100,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"addition",
+			"inclination",
+			"roadway"
+		]
+	},
+	{
+		"txt": " If the car is traveling uphill, the skidding distance will be shorter because gravity helps slow the car, while it will tend to accelerate the car and increase the skidding distance when the car is traveling downhill.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9515,
+		"nouns": [
+			"car",
+			"distance",
+			"gravity",
+			"car",
+			"car",
+			"increase",
+			"distance",
+			"car"
+		],
+		"dOIndex": 101,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distance",
+			"gravity",
+			"increase"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.07894736842105263,
+			"words": [
+				"increase",
+				"helps"
+			],
+			"positive": [
+				"increase",
+				"helps"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9516,
+		"nouns": [],
+		"dOIndex": 102,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9517,
+		"nouns": [],
+		"dOIndex": 103,
+		"isQuote": false
+	},
+	{
+		"txt": "There's a simple formula that considers these factors that you can use to calculate skidding distance:ds = V2 / [2g ( µ cos φ + sin φ)]",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9518,
+		"nouns": [
+			"formula",
+			"factors",
+			"use",
+			"distance",
+			"ds",
+			"V",
+			"/",
+			"g",
+			"µ",
+			"cos",
+			"φ",
+			"sin",
+			"φ"
+		],
+		"dOIndex": 104,
+		"nouns2": [
+			"formula",
+			"factors",
+			"distance"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.07407407407407407,
+			"words": [
+				"sin"
+			],
+			"positive": [],
+			"negative": [
+				"sin"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9519,
+		"nouns": [],
+		"dOIndex": 105,
+		"isQuote": false
+	},
+	{
+		"txt": "Here ds is the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9520,
+		"nouns": [
+			"ds"
+		],
+		"dOIndex": 106,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9521,
+		"nouns": [],
+		"dOIndex": 107,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "skidding distance, g the acceleration due to gravity, µ the coefficient of friction between the tires and road, V the initial speed of the car, and φ the inclination of the roadway (where a positive angle means uphill and a negative angle means downhill). ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9522,
+		"nouns": [
+			"distance",
+			"g",
+			"acceleration",
+			"gravity",
+			"µ",
+			"coefficient",
+			"friction",
+			"tires",
+			"road",
+			"V",
+			"car",
+			"φ",
+			"inclination",
+			"roadway",
+			"angle",
+			"angle"
+		],
+		"dOIndex": 108,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distance",
+			"acceleration",
+			"gravity",
+			"coefficient",
+			"friction",
+			"inclination",
+			"roadway"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"negative",
+				"positive"
+			],
+			"positive": [
+				"positive"
+			],
+			"negative": [
+				"negative"
+			]
+		}
+	},
+	{
+		"txt": " Note that this equation does not take into account any aerodynamic drag that will help slow the car down.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9523,
+		"nouns": [
+			"equation",
+			"account",
+			"drag",
+			"car"
+		],
+		"dOIndex": 109,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equation",
+			"account"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.05,
+			"words": [
+				"help",
+				"drag"
+			],
+			"positive": [
+				"help"
+			],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9524,
+		"nouns": [],
+		"dOIndex": 110,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9525,
+		"nouns": [],
+		"dOIndex": 111,
+		"isQuote": false
+	},
+	{
+		"txt": "The coefficient of friction will vary depending on the condition of the tires and surface of the road, but for rubber on pavement the dynamic friction coefficient is typically around 0.4, while the static coefficient is around 0.55.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9526,
+		"nouns": [
+			"coefficient",
+			"friction",
+			"condition",
+			"tires",
+			"surface",
+			"road",
+			"rubber",
+			"pavement",
+			"friction",
+			"coefficient",
+			"coefficient"
+		],
+		"dOIndex": 112,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coefficient",
+			"friction",
+			"condition",
+			"surface",
+			"pavement"
+		],
+		"highfreq": {
+			"coefficient": 3
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9527,
+		"nouns": [],
+		"dOIndex": 113,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9528,
+		"nouns": [],
+		"dOIndex": 114,
+		"isQuote": false
+	},
+	{
+		"txt": "When calculating the actual frictional force between the tire and road, say in a real time simulation, you'll use the same formula that we showed you in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9529,
+		"nouns": [
+			"force",
+			"tire",
+			"road",
+			"time",
+			"simulation",
+			"ll",
+			"use",
+			"formula"
+		],
+		"dOIndex": 115,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulation",
+			"formula"
+		]
+	},
+	{
+		"txt": "Chapter 3:Ff = µ W",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9530,
+		"nouns": [
+			"Chapter",
+			"Ff",
+			"µ W"
+		],
+		"dOIndex": 116,
+		"nouns2": [
+			"Chapter"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 9531,
+		"nouns": [],
+		"dOIndex": 117,
+		"isQuote": false
+	},
+	{
+		"txt": "Here Ff is the friction force applied to each tire, assuming it's not rolling, and W is the weight supported by each tire. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9532,
+		"nouns": [
+			"Ff",
+			"friction",
+			"force",
+			"tire",
+			"W",
+			"weight",
+			"tire"
+		],
+		"dOIndex": 118,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"friction"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08333333333333333,
+			"words": [
+				"supported"
+			],
+			"positive": [
+				"supported"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " If you assume that all tires are identical, then you can use the total weight of the car in the preceding formula to determine the total friction force applied to all tires.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9533,
+		"nouns": [
+			"tires",
+			"use",
+			"weight",
+			"car",
+			"formula",
+			"friction",
+			"force",
+			"tires"
+		],
+		"dOIndex": 119,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"formula",
+			"friction"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9534,
+		"nouns": [],
+		"dOIndex": 120,
+		"isQuote": false
+	},
+	{
+		"txt": "Steering",
+		"why": "p",
+		"tags": [
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9535,
+		"nouns": [],
+		"dOIndex": 121,
+		"nouns2": [
+			"Steering"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "When you turn the ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9536,
+		"nouns": [],
+		"dOIndex": 122,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9537,
+		"nouns": [],
+		"dOIndex": 123,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "steering wheel of a car, the front wheels exert a side force such that the car starts to turn. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9538,
+		"nouns": [
+			"wheel",
+			"car",
+			"front",
+			"wheels",
+			"side",
+			"force",
+			"car"
+		],
+		"dOIndex": 124,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " In terms of ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9539,
+		"nouns": [
+			"terms"
+		],
+		"dOIndex": 125,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Euler angles, this would be yaw, although Euler angles aren't usually used in discussions about turning cars. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9540,
+		"nouns": [
+			"Euler",
+			"angles",
+			"yaw",
+			"Euler",
+			"angles",
+			"aren",
+			"t",
+			"discussions",
+			"cars"
+		],
+		"dOIndex": 126,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"discussions"
+		]
+	},
+	{
+		"txt": " Even if the car's speed is constant, it experiences acceleration due to the fact that its velocity vector has changed direction. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9541,
+		"nouns": [
+			"car",
+			"experiences",
+			"acceleration",
+			"fact",
+			"velocity",
+			"vector",
+			"direction"
+		],
+		"dOIndex": 127,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"experiences",
+			"acceleration",
+			"velocity",
+			"direction"
+		]
+	},
+	{
+		"txt": " Remember, acceleration is the time rate of change in velocity, which has both magnitude and direction.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9542,
+		"nouns": [
+			"acceleration",
+			"time",
+			"rate",
+			"change",
+			"velocity",
+			"both",
+			"magnitude",
+			"direction"
+		],
+		"dOIndex": 128,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Remember",
+			"acceleration",
+			"velocity",
+			"magnitude",
+			"direction"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9543,
+		"nouns": [],
+		"dOIndex": 129,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9544,
+		"nouns": [],
+		"dOIndex": 130,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": true,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "For a car to maintain its curved path, there must ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9545,
+		"nouns": [
+			"car",
+			"path"
+		],
+		"dOIndex": 131,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"car",
+			"path"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9546,
+		"nouns": [],
+		"dOIndex": 132,
+		"ignoreDOBcNoQuotes": false,
+		"isQuote": false,
+		"nounsProcAll": [],
+		"sfxfx": []
+	},
+	{
+		"txt": "be a centripetal force (\"center seeking\" ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9547,
+		"nouns": [
+			"force",
+			"center"
+		],
+		"dOIndex": 133,
+		"isQuote": true,
+		"nounsProcAll": [
+			"force",
+			"center"
+		],
+		"sfxfx": [],
+		"gspkNameUnknown": "Greek"
+	},
+	{
+		"txt": " in Greek) that acts on the car. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9548,
+		"nouns": [
+			"Greek",
+			"acts",
+			"car"
+		],
+		"dOIndex": 134,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [
+			"Greek",
+			"acts",
+			"car"
+		],
+		"sfxfx": []
+	},
+	{
+		"txt": " When riding in a turning car, you feel an ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9549,
+		"nouns": [
+			"car"
+		],
+		"dOIndex": 135,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"car"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9550,
+		"nouns": [],
+		"dOIndex": 136,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9551,
+		"nouns": [],
+		"dOIndex": 137,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "apparent centrifugal acceleration, or force directed away from the center of the turn. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9552,
+		"nouns": [
+			"acceleration",
+			"force",
+			"center",
+			"turn"
+		],
+		"dOIndex": 138,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"acceleration",
+			"force",
+			"center",
+			"turn"
+		],
+		"nouns2": [
+			"acceleration"
+		]
+	},
+	{
+		"txt": " This acceleration is really a result of inertia , the tendency of your body and the car to continue on their original path, and is not a real force acting on the car or your body. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9553,
+		"nouns": [
+			"acceleration",
+			"result",
+			"inertia",
+			"tendency",
+			"body",
+			"car",
+			"path",
+			"force",
+			"car",
+			"body"
+		],
+		"dOIndex": 139,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"acceleration",
+			"result",
+			"inertia",
+			"tendency",
+			"body",
+			"car",
+			"path",
+			"force",
+			"car",
+			"body"
+		],
+		"nouns2": [
+			"acceleration",
+			"inertia",
+			"tendency"
+		]
+	},
+	{
+		"txt": " The real force is the centripetal force, and without it your car would continue on its straight path and not along the curve.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9554,
+		"nouns": [
+			"force",
+			"force",
+			"car",
+			"path",
+			"curve"
+		],
+		"dOIndex": 140,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"force",
+			"force",
+			"car",
+			"path",
+			"curve"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.041666666666666664,
+			"words": [
+				"straight"
+			],
+			"positive": [
+				"straight"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9555,
+		"nouns": [],
+		"dOIndex": 141,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9556,
+		"nouns": [],
+		"dOIndex": 142,
+		"isQuote": false
+	},
+	{
+		"txt": "One of the most important aspects of racing is taking turns as fast as possible but without losing control. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9557,
+		"nouns": [
+			"One",
+			"aspects",
+			"control"
+		],
+		"dOIndex": 143,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"aspects",
+			"control"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.05,
+			"words": [
+				"losing",
+				"important"
+			],
+			"positive": [
+				"important"
+			],
+			"negative": [
+				"losing"
+			]
+		}
+	},
+	{
+		"txt": " The longer you can wait to decelerate for the turn, and the sooner you can start accelerating again, the higher your average speed will be. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9558,
+		"nouns": [
+			"turn"
+		],
+		"dOIndex": 144,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " It is interesting to note that when people ride in racecars, what really surprises them isn't the acceleration but the massive decelerations they can create through braking forces. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9559,
+		"nouns": [
+			"note",
+			"people",
+			"racecars",
+			"surprises",
+			"isn",
+			"t",
+			"acceleration",
+			"decelerations",
+			"forces"
+		],
+		"dOIndex": 145,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"racecars",
+			"surprises",
+			"acceleration",
+			"decelerations"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.06666666666666667,
+			"words": [
+				"interesting"
+			],
+			"positive": [
+				"interesting"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " A Formula One car regularly experiences decelerations of 4g, with 5–6g being the extreme value for certain race courses. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9560,
+		"nouns": [
+			"Formula",
+			"One",
+			"car",
+			"experiences",
+			"decelerations",
+			"g",
+			"–",
+			"g",
+			"value",
+			"race",
+			"courses"
+		],
+		"dOIndex": 146,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Formula",
+			"experiences",
+			"decelerations",
+			"courses"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.047619047619047616,
+			"words": [
+				"certain"
+			],
+			"positive": [
+				"certain"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Most road legal sports cars can achieve about 1g of braking force. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9561,
+		"nouns": [
+			"road",
+			"sports",
+			"cars",
+			"g",
+			"force"
+		],
+		"dOIndex": 147,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.07142857142857142,
+			"words": [
+				"legal"
+			],
+			"positive": [
+				"legal"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " This allows the racecars to maintain speed until just entering the corner.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9562,
+		"nouns": [
+			"racecars",
+			"corner"
+		],
+		"dOIndex": 148,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"racecars"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9563,
+		"nouns": [],
+		"dOIndex": 149,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9564,
+		"nouns": [],
+		"dOIndex": 150,
+		"isQuote": false
+	},
+	{
+		"txt": "When you turn the steering wheel in a car, the tires produce a centripetal force toward the center of the curve via friction with the surface of the road. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9565,
+		"nouns": [
+			"wheel",
+			"car",
+			"tires",
+			"force",
+			"center",
+			"curve",
+			"friction",
+			"surface",
+			"road"
+		],
+		"dOIndex": 151,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"friction",
+			"surface"
+		]
+	},
+	{
+		"txt": " It follows that the maximum static frictional force between the tires and the road must exceed the required centripetal force. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9566,
+		"nouns": [
+			"force",
+			"tires",
+			"road",
+			"force"
+		],
+		"dOIndex": 152,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Mathematically, this takes on the following inequality:µ sN > mv2/r",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9567,
+		"nouns": [
+			"inequality",
+			"µ",
+			"sN",
+			"mv",
+			"/",
+			"r"
+		],
+		"dOIndex": 153,
+		"nouns2": [
+			"Mathematically",
+			"inequality"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9568,
+		"nouns": [],
+		"dOIndex": 154,
+		"isQuote": false
+	},
+	{
+		"txt": "Centripetal acceleration is the square of the tangential velocity, v, divided by the radius of the turn, r . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9569,
+		"nouns": [
+			"acceleration",
+			"square",
+			"velocity",
+			"v",
+			"radius",
+			"turn",
+			"r"
+		],
+		"dOIndex": 155,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Centripetal",
+			"acceleration",
+			"velocity"
+		]
+	},
+	{
+		"txt": " This multiplied by mass of the vehicle, m , gives the force required to make a turn. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9570,
+		"nouns": [
+			"mass",
+			"vehicle",
+			"m",
+			"force",
+			"turn"
+		],
+		"dOIndex": 156,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"vehicle"
+		]
+	},
+	{
+		"txt": " The available force is the static coefficient of friction times the normal force, N . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9571,
+		"nouns": [
+			"force",
+			"coefficient",
+			"friction",
+			"times",
+			"force",
+			"N"
+		],
+		"dOIndex": 157,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coefficient",
+			"friction"
+		]
+	},
+	{
+		"txt": " Rewriting this formula, we can develop a simplified maximum cornering speed as follows:vlimit < ",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9572,
+		"nouns": [
+			"formula",
+			"vlimit"
+		],
+		"dOIndex": 158,
+		"nouns2": [
+			"Rewriting",
+			"formula"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9573,
+		"nouns": [],
+		"dOIndex": 159,
+		"isQuote": false
+	},
+	{
+		"txt": "If this speed is exceeded, the cornering force will exceed the static coefficient of friction and the tires will begin to slide. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9574,
+		"nouns": [
+			"force",
+			"coefficient",
+			"friction",
+			"tires",
+			"slide"
+		],
+		"dOIndex": 160,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coefficient",
+			"friction"
+		]
+	},
+	{
+		"txt": " It may be tempting to replace the normal force, N , with the weight of the vehicle (mass times gravity) and cancel out the mass of the car, but the normal force may not always be simplified as such, as we'll discuss in a moment. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9575,
+		"nouns": [
+			"force",
+			"N",
+			"weight",
+			"vehicle",
+			"mass",
+			"times",
+			"gravity",
+			"mass",
+			"car",
+			"force",
+			"ll",
+			"moment"
+		],
+		"dOIndex": 161,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"vehicle",
+			"gravity"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.02127659574468085,
+			"words": [
+				"cancel"
+			],
+			"positive": [],
+			"negative": [
+				"cancel"
+			]
+		}
+	},
+	{
+		"txt": " Also, in real life, the weight of a vehicle is rarely evenly distributed among all four tires and is definitely not when the car is acceleration or decelerating. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9576,
+		"nouns": [
+			"life",
+			"weight",
+			"vehicle",
+			"four",
+			"tires",
+			"car",
+			"acceleration"
+		],
+		"dOIndex": 162,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"vehicle",
+			"acceleration"
+		]
+	},
+	{
+		"txt": " In general, acceleration causes a weight shift to the aft tires, and deceleration causes weight to shift to the forward tires. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9577,
+		"nouns": [
+			"acceleration",
+			"causes",
+			"weight",
+			"shift",
+			"tires",
+			"deceleration",
+			"causes",
+			"weight",
+			"shift",
+			"tires"
+		],
+		"dOIndex": 163,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"acceleration",
+			"deceleration"
+		]
+	},
+	{
+		"txt": " This is important because, depending on where the weight is, the front or back tires will tend to have less available friction. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9578,
+		"nouns": [
+			"weight",
+			"front",
+			"tires",
+			"friction"
+		],
+		"dOIndex": 164,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"friction"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08333333333333333,
+			"words": [
+				"important"
+			],
+			"positive": [
+				"important"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " If one or the other sets of tires begins to slide, the car will either ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9579,
+		"nouns": [
+			"one",
+			"sets",
+			"tires",
+			"slide",
+			"car"
+		],
+		"dOIndex": 165,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9580,
+		"nouns": [],
+		"dOIndex": 166,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "understeer or oversteer (see ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9581,
+		"nouns": [
+			"understeer",
+			"oversteer"
+		],
+		"dOIndex": 167,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"understeer",
+			"oversteer"
+		]
+	},
+	{
+		"txt": "Figure 17 1",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9582,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 168,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " ).",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9583,
+		"nouns": [],
+		"dOIndex": 169,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9584,
+		"nouns": [],
+		"dOIndex": 170,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9585,
+		"nouns": [],
+		"dOIndex": 171,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9586,
+		"nouns": [],
+		"dOIndex": 172,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9587,
+		"nouns": [],
+		"dOIndex": 173,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9588,
+		"nouns": [],
+		"dOIndex": 174,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 17 1. Understeer on right, oversteer on left",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9589,
+		"nouns": [
+			"Figure",
+			"Understeer",
+			"right",
+			"oversteer"
+		],
+		"dOIndex": 175,
+		"nouns2": [
+			"Figure",
+			"Understeer",
+			"oversteer"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9590,
+		"nouns": [],
+		"dOIndex": 176,
+		"isQuote": false
+	},
+	{
+		"txt": "If the front wheels slide, the car understeers and the arc is larger than the driver intended. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9591,
+		"nouns": [
+			"front",
+			"wheels",
+			"slide",
+			"car",
+			"understeers",
+			"arc",
+			"driver"
+		],
+		"dOIndex": 177,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"understeers"
+		]
+	},
+	{
+		"txt": " This is commonly caused by traveling too fast through a corner and trying to take the corner too tightly. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9592,
+		"nouns": [
+			"corner",
+			"corner"
+		],
+		"dOIndex": 178,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " However, if the driver breaks hard or even just lets off the gas, there will be a weight shift forward. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9593,
+		"nouns": [
+			"driver",
+			"breaks",
+			"gas",
+			"weight",
+			"shift"
+		],
+		"dOIndex": 179,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.045454545454545456,
+			"words": [
+				"hard"
+			],
+			"positive": [],
+			"negative": [
+				"hard"
+			]
+		}
+	},
+	{
+		"txt": " This will keep the forward wheels from slipping but if too aggressive will cause the rear wheels to slip as weight is transferred away from them. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9594,
+		"nouns": [
+			"wheels",
+			"cause",
+			"wheels",
+			"weight"
+		],
+		"dOIndex": 180,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.10714285714285714,
+			"words": [
+				"slip",
+				"aggressive"
+			],
+			"positive": [],
+			"negative": [
+				"slip",
+				"aggressive"
+			]
+		}
+	},
+	{
+		"txt": " This causes the car to turn more than the driver intended, and can even result in a spin. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9595,
+		"nouns": [
+			"causes",
+			"car",
+			"driver",
+			"result",
+			"spin"
+		],
+		"dOIndex": 181,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " These two conditions limit the speed at which a car can complete a turn and also the amount of deceleration the car can handle once the turn is initiated.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9596,
+		"nouns": [
+			"two",
+			"conditions",
+			"limit",
+			"car",
+			"turn",
+			"amount",
+			"deceleration",
+			"car",
+			"turn"
+		],
+		"dOIndex": 182,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"conditions",
+			"deceleration"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9597,
+		"nouns": [],
+		"dOIndex": 183,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9598,
+		"nouns": [],
+		"dOIndex": 184,
+		"isQuote": false
+	},
+	{
+		"txt": "To increase the limit speed, vlimit , we must increase the normal force. ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9599,
+		"nouns": [
+			"increase",
+			"limit",
+			"vlimit",
+			"increase",
+			"force"
+		],
+		"dOIndex": 185,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"increase"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.14285714285714285,
+			"words": [
+				"increase",
+				"increase"
+			],
+			"positive": [
+				"increase",
+				"increase"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " We could do so by increasing the car's mass, but this would have negative effects on the car's ability to accelerate or decelerate. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9600,
+		"nouns": [
+			"car",
+			"mass",
+			"effects",
+			"car",
+			"ability"
+		],
+		"dOIndex": 186,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"effects",
+			"ability"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"ability",
+				"negative"
+			],
+			"positive": [
+				"ability"
+			],
+			"negative": [
+				"negative"
+			]
+		}
+	},
+	{
+		"txt": " A better solution is the use of aerodynamic features to create what is called downforce . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9601,
+		"nouns": [
+			"solution",
+			"use",
+			"features",
+			"downforce"
+		],
+		"dOIndex": 187,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"solution",
+			"features",
+			"downforce"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.16666666666666666,
+			"words": [
+				"solution",
+				"better"
+			],
+			"positive": [
+				"solution",
+				"better"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " You may have seen racecars or even street cars with large wing like features called spoilers on their trunks. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9602,
+		"nouns": [
+			"racecars",
+			"street",
+			"cars",
+			"features",
+			"spoilers",
+			"trunks"
+		],
+		"dOIndex": 188,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"racecars",
+			"features",
+			"spoilers"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.09523809523809523,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Formula 1 cars also have wing like appendages on the front of the car. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9603,
+		"nouns": [
+			"Formula",
+			"cars",
+			"appendages",
+			"front",
+			"car"
+		],
+		"dOIndex": 189,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Formula",
+			"appendages"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.125,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " These are like the wings of an airplane but inverted so that instead of pulling the vehicle up, they actually push the vehicle down. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9604,
+		"nouns": [
+			"are",
+			"wings",
+			"airplane",
+			"vehicle",
+			"vehicle"
+		],
+		"dOIndex": 190,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"airplane",
+			"vehicle"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.07692307692307693,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " These wings, therefore, increase the normal force, and their effects are proportional to speed so that more downforce is available at higher speeds...just when you need it. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9605,
+		"nouns": [
+			"wings",
+			"increase",
+			"force",
+			"effects",
+			"downforce",
+			"speeds"
+		],
+		"dOIndex": 191,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"increase",
+			"effects",
+			"downforce"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.034482758620689655,
+			"words": [
+				"increase"
+			],
+			"positive": [
+				"increase"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " In fact, some very fast cars create so much downforce that if the road were inverted, the car would remain glued to the pavement and be able to drive upside down.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9606,
+		"nouns": [
+			"fact",
+			"cars",
+			"downforce",
+			"road",
+			"car",
+			"pavement",
+			"drive"
+		],
+		"dOIndex": 192,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"downforce",
+			"pavement"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9607,
+		"nouns": [],
+		"dOIndex": 193,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9608,
+		"nouns": [],
+		"dOIndex": 194,
+		"isQuote": false
+	},
+	{
+		"txt": "The trade off for this increased cornering limit speed is increased drag caused by the airfoils. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9609,
+		"nouns": [
+			"trade",
+			"limit",
+			"drag",
+			"airfoils"
+		],
+		"dOIndex": 195,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"airfoils"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.058823529411764705,
+			"words": [
+				"drag",
+				"increased",
+				"increased"
+			],
+			"positive": [
+				"increased",
+				"increased"
+			],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " This limits the top speed of the vehicle in areas of road that have no corners. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9610,
+		"nouns": [
+			"limits",
+			"vehicle",
+			"areas",
+			"road",
+			"corners"
+		],
+		"dOIndex": 196,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"vehicle",
+			"corners"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"no",
+				"top",
+				"limits"
+			],
+			"positive": [
+				"top"
+			],
+			"negative": [
+				"no",
+				"limits"
+			]
+		}
+	},
+	{
+		"txt": " It is good practice to allow users to select an angle of attack for their vehicle's airfoils. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9611,
+		"nouns": [
+			"practice",
+			"users",
+			"angle",
+			"attack",
+			"vehicle",
+			"airfoils"
+		],
+		"dOIndex": 197,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"practice",
+			"vehicle",
+			"airfoils"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.15789473684210525,
+			"words": [
+				"attack",
+				"allow",
+				"good"
+			],
+			"positive": [
+				"allow",
+				"good"
+			],
+			"negative": [
+				"attack"
+			]
+		}
+	},
+	{
+		"txt": " This forces them to choose between the option of higher top speed with slower cornering or faster cornering with lower top speed.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9612,
+		"nouns": [
+			"forces",
+			"option"
+		],
+		"dOIndex": 198,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.17391304347826086,
+			"words": [
+				"top",
+				"top"
+			],
+			"positive": [
+				"top",
+				"top"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9613,
+		"nouns": [],
+		"dOIndex": 199,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9614,
+		"nouns": [],
+		"dOIndex": 200,
+		"isQuote": false
+	},
+	{
+		"txt": "You may notice that on some raceways, the corners are not flat. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9615,
+		"nouns": [
+			"notice",
+			"raceways",
+			"corners"
+		],
+		"dOIndex": 201,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"raceways",
+			"corners"
+		]
+	},
+	{
+		"txt": " This is called ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9616,
+		"nouns": [],
+		"dOIndex": 202,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9617,
+		"nouns": [],
+		"dOIndex": 203,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "roadway bank or superelevation . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9618,
+		"nouns": [
+			"roadway",
+			"bank",
+			"superelevation"
+		],
+		"dOIndex": 204,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"roadway",
+			"superelevation"
+		]
+	},
+	{
+		"txt": " In a corner where the car would normally skid, the superelevation helps keep the car in the turn because as the car is inclined, a force component develops that acts toward the center of curvature of the turn (see ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9619,
+		"nouns": [
+			"corner",
+			"car",
+			"skid",
+			"superelevation",
+			"car",
+			"turn",
+			"car",
+			"force",
+			"component",
+			"acts",
+			"center",
+			"curvature",
+			"turn"
+		],
+		"dOIndex": 205,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"superelevation",
+			"component",
+			"curvature"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.04878048780487805,
+			"words": [
+				"helps"
+			],
+			"positive": [
+				"helps"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "Figure 17 2",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9620,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 206,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " ).",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9621,
+		"nouns": [],
+		"dOIndex": 207,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9622,
+		"nouns": [],
+		"dOIndex": 208,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9623,
+		"nouns": [],
+		"dOIndex": 209,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9624,
+		"nouns": [],
+		"dOIndex": 210,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9625,
+		"nouns": [],
+		"dOIndex": 211,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9626,
+		"nouns": [],
+		"dOIndex": 212,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 17 2. Superelevation",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9627,
+		"nouns": [
+			"Figure",
+			"Superelevation"
+		],
+		"dOIndex": 213,
+		"nouns2": [
+			"Figure",
+			"Superelevation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9628,
+		"nouns": [],
+		"dOIndex": 214,
+		"isQuote": false
+	},
+	{
+		"txt": "The following simple formula relates the superelevation angle of a roadway to the speed of the car and the coefficient of friction between the tires and road:tan φ = Vt2/(g r) – µs",
+		"why": "p",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9629,
+		"nouns": [
+			"formula",
+			"superelevation",
+			"angle",
+			"roadway",
+			"car",
+			"coefficient",
+			"friction",
+			"tires",
+			"road",
+			"φ",
+			"Vt",
+			"/",
+			"g",
+			"r",
+			"–",
+			"µs"
+		],
+		"dOIndex": 215,
+		"nouns2": [
+			"formula",
+			"superelevation",
+			"roadway",
+			"coefficient",
+			"friction"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9630,
+		"nouns": [],
+		"dOIndex": 216,
+		"isQuote": false
+	},
+	{
+		"txt": "Here, φ is the superelevation angle (as shown in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9631,
+		"nouns": [
+			"φ",
+			"superelevation",
+			"angle"
+		],
+		"dOIndex": 217,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"superelevation"
+		]
+	},
+	{
+		"txt": "Figure 17 2), Vt is the tangential component of velocity of the car going around the turn, g is the acceleration due to gravity, r is the radius of the curve, and µs",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"sub",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9632,
+		"nouns": [
+			"Figure",
+			"Vt",
+			"component",
+			"velocity",
+			"car",
+			"turn",
+			"g",
+			"acceleration",
+			"gravity",
+			"r",
+			"radius",
+			"curve",
+			"µs"
+		],
+		"dOIndex": 218,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure",
+			"component",
+			"velocity",
+			"acceleration",
+			"gravity"
+		]
+	},
+	{
+		"txt": " is the static coefficient of friction between the tires and the road. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9633,
+		"nouns": [
+			"coefficient",
+			"friction",
+			"tires",
+			"road"
+		],
+		"dOIndex": 219,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coefficient",
+			"friction"
+		]
+	},
+	{
+		"txt": " If you know φ, r , and µ, then you can calculate the speed at which the car will begin to slip out of the turn and off the road.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9634,
+		"nouns": [
+			"φ",
+			"r",
+			"µ",
+			"car",
+			"turn",
+			"road"
+		],
+		"dOIndex": 220,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.03225806451612903,
+			"words": [
+				"slip"
+			],
+			"positive": [],
+			"negative": [
+				"slip"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9635,
+		"nouns": [],
+		"dOIndex": 221,
+		"isQuote": false
+	},
+	{
+		"txt": "Vehicle dynamics is a complex field, and if you are interested in a highly realistic driving simulation game, we recommend reading up on the subject. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9636,
+		"nouns": [
+			"Vehicle",
+			"dynamics",
+			"field",
+			"simulation",
+			"game",
+			"subject"
+		],
+		"dOIndex": 222,
+		"nouns2": [
+			"Vehicle",
+			"dynamics",
+			"simulation",
+			"subject"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.15384615384615385,
+			"words": [
+				"recommend",
+				"interested"
+			],
+			"positive": [
+				"recommend",
+				"interested"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " A good ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9637,
+		"nouns": [],
+		"dOIndex": 223,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.75,
+			"words": [
+				"good"
+			],
+			"positive": [
+				"good"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9638,
+		"nouns": [],
+		"dOIndex": 224,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "starting place is Fundamentals of Vehicle Dynamics by ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9639,
+		"nouns": [
+			"place",
+			"Fundamentals",
+			"Vehicle Dynamics"
+		],
+		"dOIndex": 225,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Fundamentals",
+			"Vehicle",
+			"Dynamics"
+		]
+	},
+	{
+		"txt": "Thomas Gillespie (Society of Automobile Engineers).",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9640,
+		"nouns": [
+			"Thomas Gillespie",
+			"Society",
+			"Automobile Engineers"
+		],
+		"dOIndex": 226,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Thomas",
+			"Gillespie",
+			"Society",
+			"Automobile",
+			"Engineers"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9641,
+		"nouns": [],
+		"dOIndex": 227,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9642,
+		"nouns": [],
+		"dOIndex": 228,
+		"isQuote": false
+	},
+	{
+		"txt": "Hovercraft",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9643,
+		"nouns": [
+			"Hovercraft"
+		],
+		"dOIndex": 229,
+		"nouns2": [
+			"Hovercraft"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9644,
+		"nouns": [],
+		"dOIndex": 230,
+		"isQuote": false
+	},
+	{
+		"txt": "Hovercraft, or air cushion vehicles (ACVs), ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9645,
+		"nouns": [
+			"Hovercraft",
+			"air",
+			"cushion",
+			"vehicles",
+			"ACVs"
+		],
+		"dOIndex": 231,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Hovercraft",
+			"cushion",
+			"vehicles"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9646,
+		"nouns": [],
+		"dOIndex": 232,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9647,
+		"nouns": [],
+		"dOIndex": 233,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "have made their way into a video game or two recently. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9648,
+		"nouns": [
+			"way",
+			"video",
+			"game",
+			"two"
+		],
+		"dOIndex": 234,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Their appeal seems to stem from their futuristic aura, high speed, and levitating ability, which lets them go anywhere. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9649,
+		"nouns": [
+			"aura",
+			"ability"
+		],
+		"dOIndex": 235,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"ability"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.14285714285714285,
+			"words": [
+				"ability",
+				"aura"
+			],
+			"positive": [
+				"ability",
+				"aura"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " In real life, hovercraft have been around since the 1950s and have been used in combat, search and rescue, cargo transport, ferrying, and recreational roles. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9650,
+		"nouns": [
+			"life",
+			"hovercraft",
+			"combat",
+			"search",
+			"rescue",
+			"cargo",
+			"transport",
+			"roles"
+		],
+		"dOIndex": 236,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hovercraft",
+			"transport"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.037037037037037035,
+			"words": [
+				"rescue",
+				"combat"
+			],
+			"positive": [
+				"rescue"
+			],
+			"negative": [
+				"combat"
+			]
+		}
+	},
+	{
+		"txt": " They come in all shapes and sizes, but they all pretty much work the same, with the basic idea of getting the craft off the land or water to reduce its drag. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9651,
+		"nouns": [
+			"shapes",
+			"sizes",
+			"work",
+			"idea",
+			"craft",
+			"land",
+			"water",
+			"drag"
+		],
+		"dOIndex": 237,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"drag",
+				"pretty"
+			],
+			"positive": [
+				"pretty"
+			],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " In ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9652,
+		"nouns": [],
+		"dOIndex": 238,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 9",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9653,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 239,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " , we touched on what forces you have to model when considering hovercraft, and now we'll talk about them in more detail.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9654,
+		"nouns": [
+			"forces",
+			"model",
+			"hovercraft",
+			"ll",
+			"detail"
+		],
+		"dOIndex": 240,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hovercraft"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9655,
+		"nouns": [],
+		"dOIndex": 241,
+		"isQuote": false
+	},
+	{
+		"txt": "How Hovercraft Work",
+		"why": "p",
+		"tags": [
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9656,
+		"nouns": [
+			"Hovercraft",
+			"Work"
+		],
+		"dOIndex": 242,
+		"nouns2": [
+			"Hovercraft"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "The first hovercraft designs pumped air through an annular nozzle around the periphery of the craft (see ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9657,
+		"nouns": [
+			"first",
+			"hovercraft",
+			"designs",
+			"air",
+			"annular",
+			"nozzle",
+			"periphery",
+			"craft"
+		],
+		"dOIndex": 243,
+		"nouns2": [
+			"hovercraft",
+			"designs",
+			"annular",
+			"periphery"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 17 3",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9658,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 244,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " ). ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9659,
+		"nouns": [],
+		"dOIndex": 245,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Large fans are used to feed the air through the nozzle under the craft. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9660,
+		"nouns": [
+			"fans",
+			"air",
+			"nozzle",
+			"craft"
+		],
+		"dOIndex": 246,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " This jet of air creates a region of relatively high pressure over the area underneath the craft, which results in a net lifting force. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9661,
+		"nouns": [
+			"jet",
+			"air",
+			"region",
+			"pressure",
+			"area",
+			"craft",
+			"results",
+			"force"
+		],
+		"dOIndex": 247,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure",
+			"results"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.038461538461538464,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " The lifting force must equal the weight of the craft if it is to attain hovering flight. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9662,
+		"nouns": [
+			"force",
+			"weight",
+			"craft",
+			"flight"
+		],
+		"dOIndex": 248,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " This sort of lifting is known as aerostatic lift. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9663,
+		"nouns": [
+			"sort",
+			"aerostatic"
+		],
+		"dOIndex": 249,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"aerostatic"
+		]
+	},
+	{
+		"txt": " The ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9664,
+		"nouns": [],
+		"dOIndex": 250,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9665,
+		"nouns": [],
+		"dOIndex": 251,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "hover height is limited by the amount of ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9666,
+		"nouns": [
+			"height",
+			"amount"
+		],
+		"dOIndex": 252,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.1111111111111111,
+			"words": [
+				"limited"
+			],
+			"positive": [],
+			"negative": [
+				"limited"
+			]
+		}
+	},
+	{
+		"txt": "power available and the lifting fan's ability to pump enough air through the nozzle: the higher the hover height, the greater the power demand.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9667,
+		"nouns": [
+			"power",
+			"fan",
+			"ability",
+			"air",
+			"nozzle",
+			"hover",
+			"height",
+			"power",
+			"demand"
+		],
+		"dOIndex": 253,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"ability"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.16666666666666666,
+			"words": [
+				"demand",
+				"greater",
+				"ability"
+			],
+			"positive": [
+				"greater",
+				"ability"
+			],
+			"negative": [
+				"demand"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9668,
+		"nouns": [],
+		"dOIndex": 254,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9669,
+		"nouns": [],
+		"dOIndex": 255,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9670,
+		"nouns": [],
+		"dOIndex": 256,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9671,
+		"nouns": [],
+		"dOIndex": 257,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9672,
+		"nouns": [],
+		"dOIndex": 258,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 17 3. Hovercraft configurations",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9673,
+		"nouns": [
+			"Figure",
+			"Hovercraft",
+			"configurations"
+		],
+		"dOIndex": 259,
+		"nouns2": [
+			"Figure",
+			"Hovercraft",
+			"configurations"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9674,
+		"nouns": [],
+		"dOIndex": 260,
+		"isQuote": false
+	},
+	{
+		"txt": "This approach proved impractical because hover heights were very limited and made the clearance between the hard structure of the craft and the ground (or water) too small to overcome all but the smallest obstacles. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9675,
+		"nouns": [
+			"approach",
+			"heights",
+			"clearance",
+			"structure",
+			"craft",
+			"ground",
+			"water",
+			"obstacles"
+		],
+		"dOIndex": 261,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"approach",
+			"heights",
+			"clearance",
+			"structure",
+			"obstacles"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.1111111111111111,
+			"words": [
+				"obstacles",
+				"hard",
+				"limited"
+			],
+			"positive": [],
+			"negative": [
+				"obstacles",
+				"hard",
+				"limited"
+			]
+		}
+	},
+	{
+		"txt": " The solution to this problem was to fit a flexible skirt around the craft to contain the air cushion in what's called ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9676,
+		"nouns": [
+			"solution",
+			"problem",
+			"skirt",
+			"craft",
+			"air",
+			"cushion"
+		],
+		"dOIndex": 262,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"solution",
+			"problem",
+			"cushion"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"fit",
+				"problem",
+				"solution"
+			],
+			"positive": [
+				"fit",
+				"solution"
+			],
+			"negative": [
+				"problem"
+			]
+		}
+	},
+	{
+		"txt": "the plenum chamber (see ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9677,
+		"nouns": [
+			"plenum",
+			"chamber"
+		],
+		"dOIndex": 263,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"chamber"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9678,
+		"nouns": [],
+		"dOIndex": 264,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 17 3 ). ",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9679,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 265,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " This approach extended the clearance between the ground and the hard structure of the craft significantly even though the gap between the bottom of the skirt and the ground was very small. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9680,
+		"nouns": [
+			"approach",
+			"clearance",
+			"ground",
+			"structure",
+			"craft",
+			"gap",
+			"bottom",
+			"skirt",
+			"ground"
+		],
+		"dOIndex": 266,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"approach",
+			"clearance",
+			"structure"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.029411764705882353,
+			"words": [
+				"hard"
+			],
+			"positive": [],
+			"negative": [
+				"hard"
+			]
+		}
+	},
+	{
+		"txt": " This is the basic configuration of most hovercraft in operation today, although there are all sorts of skirt designs. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9681,
+		"nouns": [
+			"configuration",
+			"hovercraft",
+			"operation",
+			"today",
+			"sorts",
+			"skirt",
+			"designs"
+		],
+		"dOIndex": 267,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"configuration",
+			"hovercraft",
+			"operation",
+			"designs"
+		]
+	},
+	{
+		"txt": " Some of these skirts are simple curtains, while others are sophisticated pressurized bag and finger arrangements. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9682,
+		"nouns": [
+			"skirts",
+			"curtains",
+			"others",
+			"bag",
+			"finger",
+			"arrangements"
+		],
+		"dOIndex": 268,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"curtains",
+			"arrangements"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.1111111111111111,
+			"words": [
+				"sophisticated"
+			],
+			"positive": [
+				"sophisticated"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The end result is that hovercraft fitted with skirts can clear relatively large obstacles without damage to their hard structure, and the skirt simply distorts and conforms to the terrain over which the craft operates.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9683,
+		"nouns": [
+			"end",
+			"result",
+			"hovercraft",
+			"skirts",
+			"obstacles",
+			"damage",
+			"structure",
+			"skirt",
+			"terrain",
+			"craft"
+		],
+		"dOIndex": 269,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hovercraft",
+			"obstacles",
+			"structure",
+			"terrain"
+		],
+		"sentiment": {
+			"score": -7,
+			"comparative": -0.19444444444444445,
+			"words": [
+				"distorts",
+				"hard",
+				"damage",
+				"obstacles",
+				"clear"
+			],
+			"positive": [
+				"clear"
+			],
+			"negative": [
+				"distorts",
+				"hard",
+				"damage",
+				"obstacles"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9684,
+		"nouns": [],
+		"dOIndex": 270,
+		"isQuote": false
+	},
+	{
+		"txt": "The actual calculation of the aerostatic lift force is fairly complicated because the pressure distribution within the air cushion is nonuniform and because you must also take into account the performance of the lift fan system. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9685,
+		"nouns": [
+			"calculation",
+			"aerostatic",
+			"force",
+			"pressure",
+			"distribution",
+			"air",
+			"cushion",
+			"nonuniform",
+			"account",
+			"performance",
+			"lift",
+			"fan",
+			"system"
+		],
+		"dOIndex": 271,
+		"nouns2": [
+			"calculation",
+			"aerostatic",
+			"pressure",
+			"distribution",
+			"cushion",
+			"nonuniform",
+			"account",
+			"performance"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.05405405405405406,
+			"words": [
+				"fan",
+				"pressure"
+			],
+			"positive": [
+				"fan"
+			],
+			"negative": [
+				"pressure"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " There are theories available to treat both the annular jet and plenum chamber configurations, but they are beyond the scope of this book. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9686,
+		"nouns": [
+			"theories",
+			"both",
+			"annular",
+			"jet",
+			"plenum",
+			"chamber",
+			"configurations",
+			"scope",
+			"book"
+		],
+		"dOIndex": 272,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"theories",
+			"annular",
+			"chamber",
+			"configurations"
+		]
+	},
+	{
+		"txt": " Besides, for a game simulation, what's important is that you realize that the lift force must equal the weight of the craft in order for it to maintain equilibrium in hovering flight.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9687,
+		"nouns": [
+			"game",
+			"simulation",
+			"lift",
+			"force",
+			"weight",
+			"craft",
+			"order",
+			"equilibrium",
+			"flight"
+		],
+		"dOIndex": 273,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Besides",
+			"simulation",
+			"equilibrium"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.06060606060606061,
+			"words": [
+				"important"
+			],
+			"positive": [
+				"important"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9688,
+		"nouns": [],
+		"dOIndex": 274,
+		"isQuote": false
+	},
+	{
+		"txt": "Ideally, the ability of a hovercraft to eliminate contact with the ground (or water) over which it operates means that it can travel relatively fast since it no longer experiences contact drag forces. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9689,
+		"nouns": [
+			"ability",
+			"hovercraft",
+			"contact",
+			"ground",
+			"water",
+			"travel",
+			"experiences",
+			"contact",
+			"drag",
+			"forces"
+		],
+		"dOIndex": 275,
+		"nouns2": [
+			"Ideally",
+			"ability",
+			"hovercraft",
+			"contact",
+			"experiences"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"drag",
+				"no",
+				"ability"
+			],
+			"positive": [
+				"ability"
+			],
+			"negative": [
+				"drag",
+				"no"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " Notice we said ideally . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9690,
+		"nouns": [
+			"Notice"
+		],
+		"dOIndex": 276,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Notice"
+		]
+	},
+	{
+		"txt": " In reality, hovercraft often pitch and roll, causing parts of the skirt to drag, and any obstacle that comes into contact with the skirt will cause more drag. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9691,
+		"nouns": [
+			"reality",
+			"hovercraft",
+			"pitch",
+			"roll",
+			"parts",
+			"skirt",
+			"drag",
+			"obstacle",
+			"contact",
+			"skirt",
+			"cause",
+			"drag"
+		],
+		"dOIndex": 277,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"reality",
+			"hovercraft",
+			"obstacle",
+			"contact"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.13333333333333333,
+			"words": [
+				"drag",
+				"obstacle",
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag",
+				"obstacle",
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " At any rate, while eliminating ground contact is good for speed, it's not so good for maneuverability.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9692,
+		"nouns": [
+			"rate",
+			"ground",
+			"contact",
+			"maneuverability"
+		],
+		"dOIndex": 278,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"contact",
+			"maneuverability"
+		],
+		"sentiment": {
+			"score": 6,
+			"comparative": 0.3333333333333333,
+			"words": [
+				"good",
+				"good"
+			],
+			"positive": [
+				"good",
+				"good"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9693,
+		"nouns": [],
+		"dOIndex": 279,
+		"isQuote": false
+	},
+	{
+		"txt": "Hovercraft are ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9694,
+		"nouns": [
+			"Hovercraft"
+		],
+		"dOIndex": 280,
+		"nouns2": [
+			"Hovercraft"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9695,
+		"nouns": [],
+		"dOIndex": 281,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "notoriously difficult to control since they glide across the ground. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9696,
+		"nouns": [
+			"control",
+			"ground"
+		],
+		"dOIndex": 282,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"control"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.09090909090909091,
+			"words": [
+				"difficult"
+			],
+			"positive": [],
+			"negative": [
+				"difficult"
+			]
+		}
+	},
+	{
+		"txt": " They tend to continue on their original trajectory even after you try to turn them. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9697,
+		"nouns": [
+			"trajectory"
+		],
+		"dOIndex": 283,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"trajectory"
+		]
+	},
+	{
+		"txt": " Currently, there are several means employed in various configurations for directional control. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9698,
+		"nouns": [
+			"configurations",
+			"control"
+		],
+		"dOIndex": 284,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Currently",
+			"configurations",
+			"control"
+		]
+	},
+	{
+		"txt": " Some hovercraft use vertical tail rudders much like an airplane, while others actually vector their propulsion thrust. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9699,
+		"nouns": [
+			"hovercraft",
+			"use",
+			"tail",
+			"rudders",
+			"airplane",
+			"others",
+			"vector",
+			"propulsion",
+			"thrust"
+		],
+		"dOIndex": 285,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hovercraft",
+			"rudders",
+			"airplane",
+			"propulsion"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.10526315789473684,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Still others use bow thrusters, which offer very good control. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9700,
+		"nouns": [
+			"others",
+			"use",
+			"bow",
+			"thrusters",
+			"offer",
+			"control"
+		],
+		"dOIndex": 286,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"thrusters",
+			"control"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.25,
+			"words": [
+				"good"
+			],
+			"positive": [
+				"good"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " All of these means are fairly easy to model in a simulation; they are all simply forces acting on the craft at some distance from its center of gravity so as to create a yawing moment. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9701,
+		"nouns": [
+			"model",
+			"simulation",
+			"forces",
+			"craft",
+			"distance",
+			"center",
+			"gravity",
+			"moment"
+		],
+		"dOIndex": 287,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulation",
+			"distance",
+			"gravity"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.02631578947368421,
+			"words": [
+				"easy"
+			],
+			"positive": [
+				"easy"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The 2D simulation that we walked you through in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9702,
+		"nouns": [
+			"D",
+			"simulation"
+		],
+		"dOIndex": 288,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulation"
+		]
+	},
+	{
+		"txt": "Chapter 9",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9703,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 289,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " shows how to handle bow thrusters. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9704,
+		"nouns": [
+			"bow",
+			"thrusters"
+		],
+		"dOIndex": 290,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"thrusters"
+		]
+	},
+	{
+		"txt": " You can handle vertical tail rudders as we showed you ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9705,
+		"nouns": [
+			"tail",
+			"rudders"
+		],
+		"dOIndex": 291,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"rudders"
+		]
+	},
+	{
+		"txt": "in ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9706,
+		"nouns": [],
+		"dOIndex": 292,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9707,
+		"nouns": [],
+		"dOIndex": 293,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 15 .",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9708,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 294,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9709,
+		"nouns": [],
+		"dOIndex": 295,
+		"isQuote": false
+	},
+	{
+		"txt": "Resistance",
+		"why": "p",
+		"tags": [
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9710,
+		"nouns": [
+			"Resistance"
+		],
+		"dOIndex": 296,
+		"nouns2": [
+			"Resistance"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Let's take a ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9711,
+		"nouns": [],
+		"dOIndex": 297,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9712,
+		"nouns": [],
+		"dOIndex": 298,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "look now at some of the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9713,
+		"nouns": [],
+		"dOIndex": 299,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "drag forces acting on a hovercraft during flight. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9714,
+		"nouns": [
+			"drag",
+			"forces",
+			"hovercraft",
+			"flight"
+		],
+		"dOIndex": 300,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hovercraft"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.1111111111111111,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " To do this, we'll handle operation over land separately from operation over water since there are some specific differences in the drag forces experienced by the hovercraft.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9715,
+		"nouns": [
+			"ll",
+			"operation",
+			"land",
+			"operation",
+			"water",
+			"differences",
+			"drag",
+			"forces",
+			"hovercraft"
+		],
+		"dOIndex": 301,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"operation",
+			"differences",
+			"hovercraft"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.03571428571428571,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9716,
+		"nouns": [],
+		"dOIndex": 302,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9717,
+		"nouns": [],
+		"dOIndex": 303,
+		"isQuote": false
+	},
+	{
+		"txt": "When a hovercraft is operating over smooth land, the total drag acting against the hovercraft is ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9718,
+		"nouns": [
+			"hovercraft",
+			"land",
+			"drag",
+			"hovercraft"
+		],
+		"dOIndex": 304,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hovercraft"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.058823529411764705,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9719,
+		"nouns": [],
+		"dOIndex": 305,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "aerodynamic in nature. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9720,
+		"nouns": [
+			"nature"
+		],
+		"dOIndex": 306,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " This assumes that drag induced by dragging the skirt or hitting obstacles is ignored. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9721,
+		"nouns": [
+			"drag",
+			"skirt",
+			"obstacles"
+		],
+		"dOIndex": 307,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"obstacles"
+		],
+		"sentiment": {
+			"score": -5,
+			"comparative": -0.3125,
+			"words": [
+				"ignored",
+				"obstacles",
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"ignored",
+				"obstacles",
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " The three components of aerodynamic drag are:",
+		"why": "list tag",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9722,
+		"nouns": [
+			"three",
+			"components",
+			"drag"
+		],
+		"dOIndex": 308,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"components"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.125,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 9723,
+		"nouns": [],
+		"dOIndex": 309,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9724,
+		"nouns": [],
+		"dOIndex": 310,
+		"isQuote": false
+	},
+	{
+		"txt": "Skin friction and ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"li",
+			"ul",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9725,
+		"nouns": [
+			"Skin",
+			"friction"
+		],
+		"dOIndex": 311,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"friction"
+		]
+	},
+	{
+		"txt": "viscous pressure drag on the body of the craft",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"li",
+			"ul",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9726,
+		"nouns": [
+			"pressure",
+			"drag",
+			"body",
+			"craft"
+		],
+		"dOIndex": 312,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.2222222222222222,
+			"words": [
+				"drag",
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"drag",
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 9727,
+		"nouns": [],
+		"dOIndex": 313,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9728,
+		"nouns": [],
+		"dOIndex": 314,
+		"isQuote": false
+	},
+	{
+		"txt": "Induced drag",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"li",
+			"ul",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9729,
+		"nouns": [
+			"drag"
+		],
+		"dOIndex": 315,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Induced"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.5,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " when the craft is pitched",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"li",
+			"ul",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9730,
+		"nouns": [
+			"craft"
+		],
+		"dOIndex": 316,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 9731,
+		"nouns": [],
+		"dOIndex": 317,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9732,
+		"nouns": [],
+		"dOIndex": 318,
+		"isQuote": false
+	},
+	{
+		"txt": "Momentum drag",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"li",
+			"ul",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9733,
+		"nouns": [
+			"Momentum",
+			"drag"
+		],
+		"dOIndex": 319,
+		"nouns2": [
+			"Momentum"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.5,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9734,
+		"nouns": [],
+		"dOIndex": 320,
+		"isQuote": false
+	},
+	{
+		"txt": "In equation form, the total drag is as follows:Rtotal = Rviscous + Rinduced + Rmomentum",
+		"why": "p",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9735,
+		"nouns": [
+			"equation",
+			"form",
+			"drag",
+			"Rviscous",
+			"Rmomentum"
+		],
+		"dOIndex": 321,
+		"nouns2": [
+			"equation",
+			"Rtotal",
+			"Rviscous",
+			"Rinduced",
+			"Rmomentum"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.06666666666666667,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9736,
+		"nouns": [],
+		"dOIndex": 322,
+		"isQuote": false
+	},
+	{
+		"txt": "The first of these components, the viscous drag",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9737,
+		"nouns": [
+			"first",
+			"components",
+			"drag"
+		],
+		"dOIndex": 323,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"components"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.125,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " on the body of the craft, is the same sort of drag experienced by projectiles flying through the air, as explained in ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9738,
+		"nouns": [
+			"body",
+			"craft",
+			"sort",
+			"drag",
+			"projectiles",
+			"air"
+		],
+		"dOIndex": 324,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"projectiles"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.041666666666666664,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9739,
+		"nouns": [],
+		"dOIndex": 325,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 6 . ",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9740,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 326,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " This drag is estimated using the by now familiar formula:Rviscous = (1/2) ρ V2 Sp Cd",
+		"why": "p",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9741,
+		"nouns": [
+			"drag",
+			"formula",
+			"Rviscous",
+			"/",
+			"ρ",
+			"V",
+			"Sp",
+			"Cd"
+		],
+		"dOIndex": 327,
+		"nouns2": [
+			"formula",
+			"Rviscous"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.058823529411764705,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "Here ρ is the mass density of air, V the speed of the hovercraft, Sp the projected frontal area of the craft normal to the direction of V, and Cd the drag coefficient. ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9742,
+		"nouns": [
+			"ρ",
+			"mass",
+			"density",
+			"air",
+			"V",
+			"hovercraft",
+			"Sp",
+			"area",
+			"craft",
+			"direction",
+			"V",
+			"Cd",
+			"drag",
+			"coefficient"
+		],
+		"dOIndex": 328,
+		"nouns2": [
+			"density",
+			"hovercraft",
+			"direction",
+			"coefficient"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.029411764705882353,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9743,
+		"nouns": [],
+		"dOIndex": 329,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Typical values of Cd for craft in operation today range from 0.25 to 0.4.",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9744,
+		"nouns": [
+			"values",
+			"Cd",
+			"craft",
+			"operation",
+			"today",
+			"range"
+		],
+		"dOIndex": 330,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Typical",
+			"operation"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9745,
+		"nouns": [],
+		"dOIndex": 331,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9746,
+		"nouns": [],
+		"dOIndex": 332,
+		"isQuote": false
+	},
+	{
+		"txt": "The next drag component, the induced drag, is a result of the craft assuming a pitched attitude when moving. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9747,
+		"nouns": [
+			"drag",
+			"component",
+			"drag",
+			"result",
+			"craft",
+			"attitude"
+		],
+		"dOIndex": 333,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"component",
+			"attitude"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.1,
+			"words": [
+				"drag",
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag",
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " When the bow of the craft pitches up by an angle τ, there will be a component of the aerostatic lift vector that acts in a direction opposing V . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9748,
+		"nouns": [
+			"bow",
+			"craft",
+			"pitches",
+			"angle",
+			"τ",
+			"component",
+			"aerostatic",
+			"vector",
+			"acts",
+			"direction",
+			"V"
+		],
+		"dOIndex": 334,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pitches",
+			"component",
+			"aerostatic",
+			"direction"
+		]
+	},
+	{
+		"txt": " This component is approximately equal to the weight of the craft times the tangent of the pitch angle:Rinduced ≈ W (tan τ)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9749,
+		"nouns": [
+			"component",
+			"weight",
+			"craft",
+			"times",
+			"pitch",
+			"angle",
+			"≈ W",
+			"τ"
+		],
+		"dOIndex": 335,
+		"nouns2": [
+			"component",
+			"Rinduced"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9750,
+		"nouns": [],
+		"dOIndex": 336,
+		"isQuote": false
+	},
+	{
+		"txt": "Finally, momentum drag",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9751,
+		"nouns": [
+			"momentum",
+			"drag"
+		],
+		"dOIndex": 337,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Finally",
+			"momentum"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.3333333333333333,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " results from the destruction of horizontal momentum of air, relative to the craft entering the lift fan intake. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9752,
+		"nouns": [
+			"results",
+			"destruction",
+			"momentum",
+			"air",
+			"craft",
+			"lift",
+			"fan",
+			"intake"
+		],
+		"dOIndex": 338,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"results",
+			"destruction",
+			"momentum"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"fan",
+				"destruction"
+			],
+			"positive": [
+				"fan"
+			],
+			"negative": [
+				"destruction"
+			]
+		}
+	},
+	{
+		"txt": " This component is difficult to compute unless you know the properties of the entire lifting system such that the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9753,
+		"nouns": [
+			"component",
+			"properties",
+			"system"
+		],
+		"dOIndex": 339,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"component",
+			"properties"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.047619047619047616,
+			"words": [
+				"difficult"
+			],
+			"positive": [],
+			"negative": [
+				"difficult"
+			]
+		}
+	},
+	{
+		"txt": "mass flow rate of air into the fan is known. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9754,
+		"nouns": [
+			"mass",
+			"flow",
+			"rate",
+			"air",
+			"fan"
+		],
+		"dOIndex": 340,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.2727272727272727,
+			"words": [
+				"fan"
+			],
+			"positive": [
+				"fan"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Given the mass flow rate, Rmomentum is equal to the mass flow rate times the velocity of the craft:Rmomentum = (dmfan/dt) V",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9755,
+		"nouns": [
+			"mass",
+			"flow",
+			"rate",
+			"Rmomentum",
+			"mass",
+			"flow",
+			"rate",
+			"times",
+			"velocity",
+			"craft",
+			"Rmomentum",
+			"dmfan",
+			"/",
+			"dt",
+			"V"
+		],
+		"dOIndex": 341,
+		"nouns2": [
+			"Rmomentum",
+			"velocity"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9756,
+		"nouns": [],
+		"dOIndex": 342,
+		"isQuote": false
+	},
+	{
+		"txt": "Mass flow rate is expressed in units such as kg/s, which when multiplied by velocity in m/s yields N .",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9757,
+		"nouns": [
+			"Mass",
+			"flow",
+			"rate",
+			"units",
+			"kg",
+			"/",
+			"velocity",
+			"m",
+			"/",
+			"yields",
+			"N"
+		],
+		"dOIndex": 343,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9758,
+		"nouns": [],
+		"dOIndex": 344,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9759,
+		"nouns": [],
+		"dOIndex": 345,
+		"isQuote": false
+	},
+	{
+		"txt": "In ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9760,
+		"nouns": [],
+		"dOIndex": 346,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 9",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9761,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 347,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " we mentioned that it is beneficial to have the center of this drag be behind the center of gravity. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9762,
+		"nouns": [
+			"center",
+			"drag",
+			"center",
+			"gravity"
+		],
+		"dOIndex": 348,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"gravity"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.047619047619047616,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " This gives directional stability, as the vessel will tend to try to point into the apparent wind. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9763,
+		"nouns": [
+			"stability",
+			"vessel",
+			"point",
+			"wind"
+		],
+		"dOIndex": 349,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"stability"
+		]
+	},
+	{
+		"txt": " Consider if the vessel yaws some angle, the forward velocity is creating a wind that is now hitting the side of the hovercraft. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9764,
+		"nouns": [
+			"vessel",
+			"yaws",
+			"angle",
+			"velocity",
+			"wind",
+			"side",
+			"hovercraft"
+		],
+		"dOIndex": 350,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Consider",
+			"velocity",
+			"hovercraft"
+		]
+	},
+	{
+		"txt": " If the center of effort of this force is forward of the center of gravity, it will want to yaw the vessel more, increasing the side force and causing even greater drag until the vessel spins 180 degrees! ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9765,
+		"nouns": [
+			"center",
+			"effort",
+			"force",
+			"center",
+			"gravity",
+			"yaw",
+			"vessel",
+			"side",
+			"force",
+			"drag",
+			"vessel",
+			"degrees"
+		],
+		"dOIndex": 351,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"gravity",
+			"degrees"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.075,
+			"words": [
+				"drag",
+				"greater",
+				"want"
+			],
+			"positive": [
+				"greater",
+				"want"
+			],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " If the center of effort of the wind is aft of the center of gravity, the vessel will spin back into the wind. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9766,
+		"nouns": [
+			"center",
+			"effort",
+			"wind",
+			"center",
+			"gravity",
+			"vessel",
+			"wind"
+		],
+		"dOIndex": 352,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"gravity"
+		]
+	},
+	{
+		"txt": " You don't want the center of effort so far aft that it is too difficult to turn the vessel, but it is generally better to have the vessel naturally straighten out than to require constant steering input to maintain a steady course. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9767,
+		"nouns": [
+			"t",
+			"center",
+			"effort",
+			"vessel",
+			"vessel",
+			"input",
+			"course"
+		],
+		"dOIndex": 353,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"better",
+				"difficult",
+				"want"
+			],
+			"positive": [
+				"better"
+			],
+			"negative": [
+				"difficult",
+				"want"
+			]
+		}
+	},
+	{
+		"txt": " This is also true of sailboats and is called weather helm . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9768,
+		"nouns": [
+			"sailboats",
+			"weather",
+			"helm"
+		],
+		"dOIndex": 354,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"sailboats",
+			"weather"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.14285714285714285,
+			"words": [
+				"true"
+			],
+			"positive": [
+				"true"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9769,
+		"nouns": [],
+		"dOIndex": 355,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9770,
+		"nouns": [],
+		"dOIndex": 356,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "This also occurs in airplanes. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9771,
+		"nouns": [
+			"airplanes"
+		],
+		"dOIndex": 357,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"airplanes"
+		]
+	},
+	{
+		"txt": " The solution in airplanes is similar to that of hovercraft: to fit tail fins that move the center of the area aft, increasing its directional stability. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9772,
+		"nouns": [
+			"solution",
+			"airplanes",
+			"hovercraft",
+			"tail",
+			"fins",
+			"move",
+			"center",
+			"area",
+			"stability"
+		],
+		"dOIndex": 358,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"solution",
+			"airplanes",
+			"hovercraft",
+			"stability"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.07142857142857142,
+			"words": [
+				"fit",
+				"solution"
+			],
+			"positive": [
+				"fit",
+				"solution"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " If you choose to model damage in your simulation, the loss of a tail fin will cause the vessel to be very difficult to control.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9773,
+		"nouns": [
+			"model",
+			"damage",
+			"simulation",
+			"loss",
+			"tail",
+			"fin",
+			"cause",
+			"vessel",
+			"control"
+		],
+		"dOIndex": 359,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulation",
+			"control"
+		],
+		"sentiment": {
+			"score": -7,
+			"comparative": -0.2692307692307692,
+			"words": [
+				"difficult",
+				"loss",
+				"damage"
+			],
+			"positive": [],
+			"negative": [
+				"difficult",
+				"loss",
+				"damage"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9774,
+		"nouns": [],
+		"dOIndex": 360,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9775,
+		"nouns": [],
+		"dOIndex": 361,
+		"isQuote": false
+	},
+	{
+		"txt": "In addition to these three drag components, hovercraft will experience other forms of resistance when operating over water. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9776,
+		"nouns": [
+			"addition",
+			"three",
+			"drag",
+			"components",
+			"hovercraft",
+			"experience",
+			"forms",
+			"resistance",
+			"water"
+		],
+		"dOIndex": 362,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"addition",
+			"components",
+			"hovercraft",
+			"experience",
+			"resistance"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.05263157894736842,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " These additional components ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9777,
+		"nouns": [
+			"components"
+		],
+		"dOIndex": 363,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"components"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9778,
+		"nouns": [],
+		"dOIndex": 364,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "are wave drag and wetted drag. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9779,
+		"nouns": [
+			"wave",
+			"drag",
+			"drag"
+		],
+		"dOIndex": 365,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.2857142857142857,
+			"words": [
+				"drag",
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag",
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " The equation for total drag can thus be revised for operation over water as follows:Rtotal = Rviscous + Rinduced + Rmomentum + Rwave + Rwetted",
+		"why": "p",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9780,
+		"nouns": [
+			"equation",
+			"drag",
+			"operation",
+			"water",
+			"Rviscous",
+			"Rmomentum",
+			"Rwave"
+		],
+		"dOIndex": 366,
+		"nouns2": [
+			"equation",
+			"operation",
+			"Rtotal",
+			"Rviscous",
+			"Rinduced",
+			"Rmomentum",
+			"Rwetted"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.038461538461538464,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9781,
+		"nouns": [],
+		"dOIndex": 367,
+		"isQuote": false
+	},
+	{
+		"txt": "When a hovercraft operates over water, its air cushion creates a depression in the water surface due to cushion pressure (see ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9782,
+		"nouns": [
+			"hovercraft",
+			"water",
+			"air",
+			"cushion",
+			"depression",
+			"water",
+			"surface",
+			"cushion",
+			"pressure"
+		],
+		"dOIndex": 368,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hovercraft",
+			"cushion",
+			"depression",
+			"surface",
+			"pressure"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.045454545454545456,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": "Figure 17 4",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9783,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 369,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " ). ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9784,
+		"nouns": [],
+		"dOIndex": 370,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " At zero to low speeds, the weight of this displaced volume of water is equal to the weight of the craft, just as if the craft were floating in the water supported by buoyancy. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9785,
+		"nouns": [
+			"zero",
+			"speeds",
+			"weight",
+			"volume",
+			"water",
+			"weight",
+			"craft",
+			"craft",
+			"water",
+			"buoyancy"
+		],
+		"dOIndex": 371,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"buoyancy"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.05555555555555555,
+			"words": [
+				"supported"
+			],
+			"positive": [
+				"supported"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " As the craft starts to move forward, it tends to pitch up by the bow. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9786,
+		"nouns": [
+			"craft",
+			"move",
+			"pitch",
+			"bow"
+		],
+		"dOIndex": 372,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " When that happens, the surface of the water in the depressed region is approximately parallel to the bottom of the craft. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9787,
+		"nouns": [
+			"surface",
+			"water",
+			"region",
+			"bottom",
+			"craft"
+		],
+		"dOIndex": 373,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"surface"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.08695652173913043,
+			"words": [
+				"depressed"
+			],
+			"positive": [],
+			"negative": [
+				"depressed"
+			]
+		}
+	},
+	{
+		"txt": " As speed increases, the depression is reduced and the pitch angle tends to decrease.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9788,
+		"nouns": [
+			"increases",
+			"depression",
+			"pitch",
+			"angle",
+			"decrease"
+		],
+		"dOIndex": 374,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"increases",
+			"depression",
+			"decrease"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9789,
+		"nouns": [],
+		"dOIndex": 375,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9790,
+		"nouns": [],
+		"dOIndex": 376,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9791,
+		"nouns": [],
+		"dOIndex": 377,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9792,
+		"nouns": [],
+		"dOIndex": 378,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9793,
+		"nouns": [],
+		"dOIndex": 379,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 17 4. Hovercraft over water",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9794,
+		"nouns": [
+			"Figure",
+			"Hovercraft",
+			"water"
+		],
+		"dOIndex": 380,
+		"nouns2": [
+			"Figure",
+			"Hovercraft"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9795,
+		"nouns": [],
+		"dOIndex": 381,
+		"isQuote": false
+	},
+	{
+		"txt": "Wave drag is a result of this depression and is equal to the horizontal components of pressure forces acting on the water surface in the depressed region. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9796,
+		"nouns": [
+			"Wave",
+			"drag",
+			"result",
+			"depression",
+			"components",
+			"pressure",
+			"forces",
+			"water",
+			"surface",
+			"region"
+		],
+		"dOIndex": 382,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"depression",
+			"components",
+			"pressure",
+			"surface"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.14285714285714285,
+			"words": [
+				"depressed",
+				"pressure",
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"depressed",
+				"pressure",
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " As it turns out, for small pitch angles and at low speeds, wave drag is on the same order of magnitude as the induced drag:Rwave ≈ W (tan τ)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9797,
+		"nouns": [
+			"pitch",
+			"angles",
+			"speeds",
+			"wave",
+			"drag",
+			"order",
+			"magnitude",
+			"drag",
+			"Rwave",
+			"≈ W",
+			"τ"
+		],
+		"dOIndex": 383,
+		"nouns2": [
+			"magnitude"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.03333333333333333,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9798,
+		"nouns": [],
+		"dOIndex": 384,
+		"isQuote": false
+	},
+	{
+		"txt": "Since wave drag is proportional to the size of the depression, it tends to be highest at low speeds and decreases at higher operational speeds. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9799,
+		"nouns": [
+			"wave",
+			"drag",
+			"size",
+			"depression",
+			"speeds",
+			"decreases",
+			"speeds"
+		],
+		"dOIndex": 385,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"depression",
+			"decreases"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.038461538461538464,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " If you were to plot the wave drag curve as a function of speed for a typical hovercraft, you'd find that it is not a straight or even parabolic curve, but rather it has a hump in the curve at the lower speed range, as illustrated in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9800,
+		"nouns": [
+			"plot",
+			"wave",
+			"drag",
+			"curve",
+			"function",
+			"hovercraft",
+			"parabolic",
+			"curve",
+			"hump",
+			"curve",
+			"range"
+		],
+		"dOIndex": 386,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function",
+			"hovercraft",
+			"parabolic"
+		],
+		"highfreq": {
+			"curve": 3
+		},
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"straight",
+				"drag"
+			],
+			"positive": [
+				"straight"
+			],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": "Figure 17 5",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9801,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 387,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9802,
+		"nouns": [],
+		"dOIndex": 388,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9803,
+		"nouns": [],
+		"dOIndex": 389,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9804,
+		"nouns": [],
+		"dOIndex": 390,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9805,
+		"nouns": [],
+		"dOIndex": 391,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9806,
+		"nouns": [],
+		"dOIndex": 392,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9807,
+		"nouns": [],
+		"dOIndex": 393,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 17 5. Wave drag",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9808,
+		"nouns": [
+			"Figure",
+			"Wave",
+			"drag"
+		],
+		"dOIndex": 394,
+		"nouns2": [
+			"Figure"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.3333333333333333,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9809,
+		"nouns": [],
+		"dOIndex": 395,
+		"isQuote": false
+	},
+	{
+		"txt": "There are several theoretical treatments of wave drag in the literature that aim to predict the speed at which this hump occurs along with its magnitude. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9810,
+		"nouns": [
+			"treatments",
+			"wave",
+			"drag",
+			"literature",
+			"aim",
+			"hump",
+			"magnitude"
+		],
+		"dOIndex": 396,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"treatments",
+			"literature",
+			"magnitude"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.037037037037037035,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " These theories indicate that the hump depends on the planform geometry of the hovercraft, and it tends to occur at speeds in the range of to , where g is the acceleration due to gravity and L is the length of the air cushion. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9811,
+		"nouns": [
+			"theories",
+			"hump",
+			"planform",
+			"geometry",
+			"hovercraft",
+			"speeds",
+			"range",
+			"g",
+			"acceleration",
+			"gravity",
+			"L",
+			"length",
+			"air",
+			"cushion"
+		],
+		"dOIndex": 397,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"theories",
+			"planform",
+			"geometry",
+			"hovercraft",
+			"acceleration",
+			"gravity",
+			"cushion"
+		]
+	},
+	{
+		"txt": " In practice, the characteristics of a particular hovercraft's wave drag are usually best determined through scale model testing.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9812,
+		"nouns": [
+			"practice",
+			"characteristics",
+			"hovercraft",
+			"wave",
+			"drag",
+			"scale",
+			"model"
+		],
+		"dOIndex": 398,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"practice",
+			"characteristics",
+			"hovercraft"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.21052631578947367,
+			"words": [
+				"determined",
+				"best",
+				"drag"
+			],
+			"positive": [
+				"determined",
+				"best"
+			],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9813,
+		"nouns": [],
+		"dOIndex": 399,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9814,
+		"nouns": [],
+		"dOIndex": 400,
+		"isQuote": false
+	},
+	{
+		"txt": "The so called wetted drag is a function of several things:",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9815,
+		"nouns": [
+			"drag",
+			"function",
+			"things"
+		],
+		"dOIndex": 401,
+		"nouns2": [
+			"function"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.09090909090909091,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9816,
+		"nouns": [],
+		"dOIndex": 402,
+		"isQuote": false
+	},
+	{
+		"txt": "The fact that parts of the hull and skirt tend to hit the water surface during flight",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"li",
+			"ul",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9817,
+		"nouns": [
+			"fact",
+			"parts",
+			"hull",
+			"skirt",
+			"water",
+			"surface",
+			"flight"
+		],
+		"dOIndex": 403,
+		"nouns2": [
+			"surface"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9818,
+		"nouns": [],
+		"dOIndex": 404,
+		"isQuote": false
+	},
+	{
+		"txt": "The impact of spray on the hull and skirt",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"li",
+			"ul",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9819,
+		"nouns": [
+			"impact",
+			"spray",
+			"hull",
+			"skirt"
+		],
+		"dOIndex": 405,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9820,
+		"nouns": [],
+		"dOIndex": 406,
+		"isQuote": false
+	},
+	{
+		"txt": "The increase in weight as the hovercraft gets wet and sometimes takes on water",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"li",
+			"ul",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9821,
+		"nouns": [
+			"increase",
+			"weight",
+			"hovercraft",
+			"water"
+		],
+		"dOIndex": 407,
+		"nouns2": [
+			"increase",
+			"hovercraft"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.07142857142857142,
+			"words": [
+				"increase"
+			],
+			"positive": [
+				"increase"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9822,
+		"nouns": [],
+		"dOIndex": 408,
+		"isQuote": false
+	},
+	{
+		"txt": "Wetted drag is difficult to predict, and in practice model tests are relied on to determine its magnitude for a particular design. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9823,
+		"nouns": [
+			"drag",
+			"practice",
+			"model",
+			"tests",
+			"magnitude",
+			"design"
+		],
+		"dOIndex": 409,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Wetted",
+			"practice",
+			"magnitude"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.08695652173913043,
+			"words": [
+				"difficult",
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"difficult",
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " It's important to note, however, that this tends to be a significant drag component, sometimes accounting for as much as 30% of the total ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9824,
+		"nouns": [
+			"note",
+			"drag",
+			"component",
+			"%"
+		],
+		"dOIndex": 410,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"component"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.07692307692307693,
+			"words": [
+				"drag",
+				"significant",
+				"important"
+			],
+			"positive": [
+				"significant",
+				"important"
+			],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9825,
+		"nouns": [],
+		"dOIndex": 411,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9826,
+		"nouns": [],
+		"dOIndex": 412,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9827,
+		"nouns": [],
+		"dOIndex": 413,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9828,
+		"nouns": [],
+		"dOIndex": 414,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9829,
+		"nouns": [],
+		"dOIndex": 415,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "drag force.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9830,
+		"nouns": [
+			"drag",
+			"force"
+		],
+		"dOIndex": 416,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.5,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9831,
+		"nouns": [],
+		"dOIndex": 417,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9832,
+		"nouns": [],
+		"dOIndex": 418,
+		"isQuote": false
+	},
+	{
+		"txt": "Steering",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9833,
+		"nouns": [],
+		"dOIndex": 419,
+		"nouns2": [
+			"Steering"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9834,
+		"nouns": [],
+		"dOIndex": 420,
+		"isQuote": false
+	},
+	{
+		"txt": "In ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9835,
+		"nouns": [],
+		"dOIndex": 421,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 9, the ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9836,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 422,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9837,
+		"nouns": [],
+		"dOIndex": 423,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9838,
+		"nouns": [],
+		"dOIndex": 424,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "hovercraft was steered using a bow thruster that pushed transversely forward of the center of gravity. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9839,
+		"nouns": [
+			"hovercraft",
+			"bow",
+			"thruster",
+			"center",
+			"gravity"
+		],
+		"dOIndex": 425,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hovercraft",
+			"thruster",
+			"gravity"
+		]
+	},
+	{
+		"txt": " In reality, most hovercraft are steered by vectoring the thrust of the propulsion fan via rudders attached directly aft of the fans. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9840,
+		"nouns": [
+			"reality",
+			"hovercraft",
+			"thrust",
+			"propulsion",
+			"fan",
+			"rudders",
+			"fans"
+		],
+		"dOIndex": 426,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"reality",
+			"hovercraft",
+			"propulsion",
+			"rudders"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.125,
+			"words": [
+				"fan"
+			],
+			"positive": [
+				"fan"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " This can be modeled by angling the propulsive thrust.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9841,
+		"nouns": [
+			"thrust"
+		],
+		"dOIndex": 427,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9842,
+		"nouns": [],
+		"dOIndex": 428,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9843,
+		"nouns": [],
+		"dOIndex": 429
+	},
+	{
+		"txt": "The most important characteristic to remember about steering hovercraft is that they will not turn like a car or boat. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9844,
+		"nouns": [
+			"hovercraft",
+			"car",
+			"boat"
+		],
+		"dOIndex": 430,
+		"nouns2": [
+			"hovercraft"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.19047619047619047,
+			"words": [
+				"like",
+				"important"
+			],
+			"positive": [
+				"like",
+				"important"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The hovercraft, because it has lower friction with its environment, will take longer to turn and tends to continue in the direction it was heading while rotating. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9845,
+		"nouns": [
+			"hovercraft",
+			"friction",
+			"environment",
+			"direction"
+		],
+		"dOIndex": 431,
+		"nouns2": [
+			"hovercraft",
+			"friction",
+			"environment",
+			"direction"
+		]
+	},
+	{
+		"txt": " Once rotated, the thrust acts along a new vector. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9846,
+		"nouns": [
+			"thrust",
+			"acts",
+			"vector"
+		],
+		"dOIndex": 432
+	},
+	{
+		"txt": " One possible maneuver in a hovercraft is to quickly rotate the vessel and then shut down the propulsive thrust. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9847,
+		"nouns": [
+			"One",
+			"maneuver",
+			"hovercraft",
+			"vessel",
+			"thrust"
+		],
+		"dOIndex": 433,
+		"nouns2": [
+			"maneuver",
+			"hovercraft"
+		]
+	},
+	{
+		"txt": " This would allow you to travel in one direction and point in another for as long as your momentum carries you. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9848,
+		"nouns": [
+			"travel",
+			"one",
+			"direction",
+			"point",
+			"momentum"
+		],
+		"dOIndex": 434,
+		"nouns2": [
+			"direction",
+			"momentum"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.043478260869565216,
+			"words": [
+				"allow"
+			],
+			"positive": [
+				"allow"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " This could be very useful in strafing enemies or just racking up style points.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9849,
+		"nouns": [
+			"enemies",
+			"style",
+			"points"
+		],
+		"dOIndex": 435,
+		"nouns2": [
+			"enemies"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"enemies",
+				"useful"
+			],
+			"positive": [
+				"useful"
+			],
+			"negative": [
+				"enemies"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9850,
+		"nouns": [],
+		"dOIndex": 436
+	}
+]

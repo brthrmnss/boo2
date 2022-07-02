@@ -1,0 +1,4984 @@
+[
+	{
+		"txt": "",
+		"why": "br tag like",
+		"sentenceIndex": 14139,
+		"nouns": [],
+		"dOIndex": 0,
+		"isQuote": false
+	},
+	{
+		"txt": "Appendix A. Vector Operations",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14140,
+		"nouns": [
+			"Appendix",
+			"Vector Operations"
+		],
+		"dOIndex": 1,
+		"nouns2": [
+			"Appendix",
+			"Vector",
+			"Operations"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "This appendix implements a class called Vector that encapsulates all of the vector operations that you need when writing 2D or 3D rigid body simulations. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 14141,
+		"nouns": [
+			"appendix",
+			"implements",
+			"class",
+			"Vector",
+			"encapsulates",
+			"vector",
+			"operations",
+			"D",
+			"D",
+			"body",
+			"simulations"
+		],
+		"dOIndex": 2,
+		"nouns2": [
+			"appendix",
+			"implements",
+			"Vector",
+			"encapsulates",
+			"operations",
+			"simulations"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " Although Vector represents 3D vectors, you can easily reduce it to handle 2D vectors by eliminating all of the z terms or simply constraining the z terms to 0 where appropriate in your implementation.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 14142,
+		"nouns": [
+			"Vector",
+			"D",
+			"vectors",
+			"D",
+			"vectors",
+			"z",
+			"terms",
+			"z",
+			"terms",
+			"implementation"
+		],
+		"dOIndex": 3,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Although",
+			"Vector",
+			"vectors",
+			"implementation"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.05714285714285714,
+			"words": [
+				"appropriate"
+			],
+			"positive": [
+				"appropriate"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 14143,
+		"nouns": [],
+		"dOIndex": 4,
+		"isQuote": false
+	},
+	{
+		"txt": "Vector Class",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14144,
+		"nouns": [
+			"Vector Class"
+		],
+		"dOIndex": 5,
+		"nouns2": [
+			"Vector"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "The Vector class is ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14145,
+		"nouns": [
+			"Vector",
+			"class"
+		],
+		"dOIndex": 6,
+		"nouns2": [
+			"Vector"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14146,
+		"nouns": [],
+		"dOIndex": 7,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "defined with three components x, y, and z  along with several methods and operators that implement basic vector operations. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14147,
+		"nouns": [
+			"three",
+			"components",
+			"x",
+			"y",
+			"z",
+			"methods",
+			"operators",
+			"vector",
+			"operations"
+		],
+		"dOIndex": 8,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"components",
+			"methods",
+			"operators",
+			"operations"
+		]
+	},
+	{
+		"txt": " The class has two constructors, one of which initializes the vector components to 0, and the other of which initializes the vector components to those passed to the constructor:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14148,
+		"nouns": [
+			"class",
+			"two",
+			"constructors",
+			"one",
+			"initializes",
+			"vector",
+			"components",
+			"initializes",
+			"vector",
+			"components",
+			"constructor"
+		],
+		"dOIndex": 9,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"constructors",
+			"initializes",
+			"components",
+			"constructor"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14149,
+		"nouns": [],
+		"dOIndex": 10,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14150,
+		"nouns": [],
+		"dOIndex": 11,
+		"isQuote": false
+	},
+	{
+		"txt": "Magnitude",
+		"why": "p",
+		"tags": [
+			"h3",
+			"div",
+			"div",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14151,
+		"nouns": [
+			"Magnitude"
+		],
+		"dOIndex": 12,
+		"nouns2": [
+			"Magnitude"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14152,
+		"nouns": [],
+		"dOIndex": 13,
+		"isQuote": false
+	},
+	{
+		"txt": "The Magnitude method ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14153,
+		"nouns": [
+			"Magnitude",
+			"method"
+		],
+		"dOIndex": 14,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Magnitude"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14154,
+		"nouns": [],
+		"dOIndex": 15,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14155,
+		"nouns": [],
+		"dOIndex": 16,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "simply calculates the scalar magnitude of the vector according to the formula:|v| = ",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14156,
+		"nouns": [
+			"magnitude",
+			"vector",
+			"formula",
+			"|v|"
+		],
+		"dOIndex": 17,
+		"nouns2": [
+			"magnitude",
+			"formula"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14157,
+		"nouns": [],
+		"dOIndex": 18,
+		"isQuote": false
+	},
+	{
+		"txt": "This is for a zero based vector where the components are specified relative to the origin. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14158,
+		"nouns": [
+			"zero",
+			"vector",
+			"components",
+			"origin"
+		],
+		"dOIndex": 19,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"components"
+		]
+	},
+	{
+		"txt": " The magnitude of a vector is equal to its length, as illustrated in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14159,
+		"nouns": [
+			"magnitude",
+			"vector",
+			"length"
+		],
+		"dOIndex": 20,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"magnitude"
+		]
+	},
+	{
+		"txt": "Figure A 1",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14160,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 21,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14161,
+		"nouns": [],
+		"dOIndex": 22,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14162,
+		"nouns": [],
+		"dOIndex": 23,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14163,
+		"nouns": [],
+		"dOIndex": 24,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14164,
+		"nouns": [],
+		"dOIndex": 25,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14165,
+		"nouns": [],
+		"dOIndex": 26,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14166,
+		"nouns": [],
+		"dOIndex": 27,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure A 1. Vector length (magnitude)",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14167,
+		"nouns": [
+			"Figure",
+			"Vector",
+			"length",
+			"magnitude"
+		],
+		"dOIndex": 28,
+		"nouns2": [
+			"Figure",
+			"Vector",
+			"magnitude"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14168,
+		"nouns": [],
+		"dOIndex": 29,
+		"isQuote": false
+	},
+	{
+		"txt": "Here's the code that calculates the vector magnitude for our Vector class:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14169,
+		"nouns": [
+			"code",
+			"vector",
+			"magnitude",
+			"Vector",
+			"class"
+		],
+		"dOIndex": 30,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"magnitude",
+			"Vector"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 14170,
+		"nouns": [],
+		"dOIndex": 31,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14171,
+		"nouns": [],
+		"dOIndex": 32,
+		"isQuote": false
+	},
+	{
+		"txt": "Note, you can calculate the components of a vector if you know its length ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14172,
+		"nouns": [
+			"components",
+			"vector",
+			"length"
+		],
+		"dOIndex": 33,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"components"
+		]
+	},
+	{
+		"txt": "and direction angles",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14173,
+		"nouns": [
+			"direction",
+			"angles"
+		],
+		"dOIndex": 34,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"direction"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14174,
+		"nouns": [],
+		"dOIndex": 35,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Direction angles are the angles between each coordinate axis and the vector, as shown in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14175,
+		"nouns": [
+			"Direction",
+			"angles",
+			"angles",
+			"coordinate",
+			"axis",
+			"vector"
+		],
+		"dOIndex": 36,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Direction",
+			"coordinate"
+		]
+	},
+	{
+		"txt": "Figure A 2",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14176,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 37,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14177,
+		"nouns": [],
+		"dOIndex": 38,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14178,
+		"nouns": [],
+		"dOIndex": 39,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14179,
+		"nouns": [],
+		"dOIndex": 40,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14180,
+		"nouns": [],
+		"dOIndex": 41,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14181,
+		"nouns": [],
+		"dOIndex": 42,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14182,
+		"nouns": [],
+		"dOIndex": 43,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure A 2. Direction angles",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14183,
+		"nouns": [
+			"Figure",
+			"Direction",
+			"angles"
+		],
+		"dOIndex": 44,
+		"nouns2": [
+			"Figure",
+			"Direction"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14184,
+		"nouns": [],
+		"dOIndex": 45,
+		"isQuote": false
+	},
+	{
+		"txt": "The components of the vector shown in this figure are:vx = |v| cos φxvy = |v| cos φyvz = |v| cos φz",
+		"why": "p",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14185,
+		"nouns": [
+			"components",
+			"vector",
+			"figure",
+			"vx",
+			"|v|",
+			"cos",
+			"φxvy",
+			"|v|",
+			"cos",
+			"φyvz",
+			"|v|",
+			"cos",
+			"φz"
+		],
+		"dOIndex": 46,
+		"nouns2": [
+			"components"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14186,
+		"nouns": [],
+		"dOIndex": 47,
+		"isQuote": false
+	},
+	{
+		"txt": "The cosines of the direction angles seen in these equations are known ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14187,
+		"nouns": [
+			"cosines",
+			"direction",
+			"angles",
+			"equations"
+		],
+		"dOIndex": 48,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"cosines",
+			"direction",
+			"equations"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14188,
+		"nouns": [],
+		"dOIndex": 49,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "as direction cosines . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14189,
+		"nouns": [
+			"direction",
+			"cosines"
+		],
+		"dOIndex": 50,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"direction",
+			"cosines"
+		]
+	},
+	{
+		"txt": " The sum of the squares of the direction cosines is always equal to 1:cos2 φx + cos2 φy + cos2 φz = 1",
+		"why": "br tag like",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14190,
+		"nouns": [
+			"sum",
+			"squares",
+			"direction",
+			"cosines",
+			"cos",
+			"φx",
+			"cos",
+			"φy",
+			"cos",
+			"φz"
+		],
+		"dOIndex": 51,
+		"nouns2": [
+			"squares",
+			"direction",
+			"cosines"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14191,
+		"nouns": [],
+		"dOIndex": 52,
+		"isQuote": false
+	},
+	{
+		"txt": "Normalize",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14192,
+		"nouns": [],
+		"dOIndex": 53,
+		"nouns2": [
+			"Normalize"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14193,
+		"nouns": [],
+		"dOIndex": 54,
+		"isQuote": false
+	},
+	{
+		"txt": "The Normalize method normalizes, ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14194,
+		"nouns": [
+			"Normalize",
+			"method",
+			"normalizes"
+		],
+		"dOIndex": 55,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Normalize",
+			"normalizes"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14195,
+		"nouns": [],
+		"dOIndex": 56,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "or converts, the vector to a unit vector satisfying the following equation:|v| = ",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14196,
+		"nouns": [
+			"converts",
+			"vector",
+			"unit",
+			"vector",
+			"equation",
+			"|v|"
+		],
+		"dOIndex": 57,
+		"nouns2": [
+			"converts",
+			"equation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14197,
+		"nouns": [],
+		"dOIndex": 58,
+		"isQuote": false
+	},
+	{
+		"txt": "In other words, the length of the normalized vector is 1 unit. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14198,
+		"nouns": [
+			"words",
+			"length",
+			"vector",
+			"unit"
+		],
+		"dOIndex": 59,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " If v is a non unit vector with components x, y, and z, then we can calculate the unit vector u from v as follows:u = v / |v| = (x / |v|) I + (y / |v|) j + (z / |v|) k",
+		"why": "p",
+		"tags": [
+			"strong",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14199,
+		"nouns": [
+			"v",
+			"unit",
+			"vector",
+			"components",
+			"x",
+			"y",
+			"z",
+			"unit",
+			"vector",
+			"v",
+			"v",
+			"/",
+			"|v|",
+			"x",
+			"/",
+			"|v|",
+			"y",
+			"/",
+			"|v|",
+			"j",
+			"z",
+			"/",
+			"|v|",
+			"k"
+		],
+		"dOIndex": 60,
+		"nouns2": [
+			"components"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14200,
+		"nouns": [],
+		"dOIndex": 61,
+		"isQuote": false
+	},
+	{
+		"txt": "Here |v| is simply the magnitude, or length, of vector v as described earlier.",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14201,
+		"nouns": [
+			"|v|",
+			"magnitude",
+			"length",
+			"vector",
+			"v"
+		],
+		"dOIndex": 62,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"magnitude"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14202,
+		"nouns": [],
+		"dOIndex": 63,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14203,
+		"nouns": [],
+		"dOIndex": 64,
+		"isQuote": false
+	},
+	{
+		"txt": "Here's the code that converts our Vector class vector to a unit vector:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14204,
+		"nouns": [
+			"code",
+			"converts",
+			"Vector",
+			"class",
+			"vector",
+			"unit",
+			"vector"
+		],
+		"dOIndex": 65,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"converts",
+			"Vector"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 14205,
+		"nouns": [],
+		"dOIndex": 66,
+		"isQuote": false
+	},
+	{
+		"txt": "In this function, tol is a float type tolerance; for example:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14206,
+		"nouns": [
+			"function",
+			"tol",
+			"float",
+			"type",
+			"tolerance",
+			"example"
+		],
+		"dOIndex": 67,
+		"nouns2": [
+			"function",
+			"tolerance",
+			"example"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.18181818181818182,
+			"words": [
+				"tolerance"
+			],
+			"positive": [
+				"tolerance"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14207,
+		"nouns": [],
+		"dOIndex": 68,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14208,
+		"nouns": [],
+		"dOIndex": 69,
+		"isQuote": false
+	},
+	{
+		"txt": "Reverse",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14209,
+		"nouns": [],
+		"dOIndex": 70,
+		"nouns2": [
+			"Reverse"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14210,
+		"nouns": [],
+		"dOIndex": 71,
+		"isQuote": false
+	},
+	{
+		"txt": "The Reverse method reverses the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14211,
+		"nouns": [
+			"Reverse",
+			"method"
+		],
+		"dOIndex": 72,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Reverse"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14212,
+		"nouns": [],
+		"dOIndex": 73,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "direction of the vector, which is accomplished by simply taking the negative of each component. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14213,
+		"nouns": [
+			"direction",
+			"vector",
+			"component"
+		],
+		"dOIndex": 74,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"direction",
+			"component"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"negative",
+				"accomplished"
+			],
+			"positive": [
+				"accomplished"
+			],
+			"negative": [
+				"negative"
+			]
+		}
+	},
+	{
+		"txt": " After calling Reverse, the vector will point in a direction opposite to the direction it was pointing before Reverse was called:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14214,
+		"nouns": [
+			"vector",
+			"point",
+			"direction",
+			"direction"
+		],
+		"dOIndex": 75,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Reverse",
+			"direction"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 14215,
+		"nouns": [],
+		"dOIndex": 76,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14216,
+		"nouns": [],
+		"dOIndex": 77,
+		"isQuote": false
+	},
+	{
+		"txt": "This operation is illustrated in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14217,
+		"nouns": [
+			"operation"
+		],
+		"dOIndex": 78,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"operation"
+		]
+	},
+	{
+		"txt": "Figure A 3",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14218,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 79,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14219,
+		"nouns": [],
+		"dOIndex": 80,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14220,
+		"nouns": [],
+		"dOIndex": 81,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14221,
+		"nouns": [],
+		"dOIndex": 82,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14222,
+		"nouns": [],
+		"dOIndex": 83,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14223,
+		"nouns": [],
+		"dOIndex": 84,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14224,
+		"nouns": [],
+		"dOIndex": 85,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure A 3. Vector reversal",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14225,
+		"nouns": [
+			"Figure",
+			"Vector"
+		],
+		"dOIndex": 86,
+		"nouns2": [
+			"Figure",
+			"Vector"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14226,
+		"nouns": [],
+		"dOIndex": 87,
+		"isQuote": false
+	},
+	{
+		"txt": "Vector Addition: The += Operator",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14227,
+		"nouns": [
+			"Vector",
+			"Addition",
+			"+=",
+			"Operator"
+		],
+		"dOIndex": 88,
+		"nouns2": [
+			"Vector",
+			"Addition",
+			"Operator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14228,
+		"nouns": [],
+		"dOIndex": 89,
+		"isQuote": false
+	},
+	{
+		"txt": "This summation operator is ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14229,
+		"nouns": [
+			"summation",
+			"operator"
+		],
+		"dOIndex": 90,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"summation",
+			"operator"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14230,
+		"nouns": [],
+		"dOIndex": 91,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14231,
+		"nouns": [],
+		"dOIndex": 92,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14232,
+		"nouns": [],
+		"dOIndex": 93,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14233,
+		"nouns": [],
+		"dOIndex": 94,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "used for vector addition, whereby the passed vector is added to the current vector, component by component. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14234,
+		"nouns": [
+			"vector",
+			"addition",
+			"vector",
+			"vector",
+			"component",
+			"component"
+		],
+		"dOIndex": 95,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"addition",
+			"component"
+		],
+		"highfreq": {
+			"vector": 3
+		}
+	},
+	{
+		"txt": " Graphically, vectors are added in tip to tail fashion, as illustrated in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14235,
+		"nouns": [
+			"vectors",
+			"tip",
+			"tail",
+			"fashion"
+		],
+		"dOIndex": 96,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Graphically",
+			"vectors",
+			"fashion"
+		]
+	},
+	{
+		"txt": "Figure A 4",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14236,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 97,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14237,
+		"nouns": [],
+		"dOIndex": 98,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14238,
+		"nouns": [],
+		"dOIndex": 99,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14239,
+		"nouns": [],
+		"dOIndex": 100,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14240,
+		"nouns": [],
+		"dOIndex": 101,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14241,
+		"nouns": [],
+		"dOIndex": 102,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14242,
+		"nouns": [],
+		"dOIndex": 103,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure A 4. Vector addition",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14243,
+		"nouns": [
+			"Figure",
+			"Vector",
+			"addition"
+		],
+		"dOIndex": 104,
+		"nouns2": [
+			"Figure",
+			"Vector",
+			"addition"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14244,
+		"nouns": [],
+		"dOIndex": 105,
+		"isQuote": false
+	},
+	{
+		"txt": "Here's the code that adds the vector u to our Vector class vector:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14245,
+		"nouns": [
+			"code",
+			"vector",
+			"Vector",
+			"class",
+			"vector"
+		],
+		"dOIndex": 106,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Vector"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14246,
+		"nouns": [],
+		"dOIndex": 107,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14247,
+		"nouns": [],
+		"dOIndex": 108,
+		"isQuote": false
+	},
+	{
+		"txt": "Vector Subtraction: The −= Operator",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14248,
+		"nouns": [
+			"Vector",
+			"Subtraction",
+			"−=",
+			"Operator"
+		],
+		"dOIndex": 109,
+		"nouns2": [
+			"Vector",
+			"Subtraction",
+			"Operator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14249,
+		"nouns": [],
+		"dOIndex": 110,
+		"isQuote": false
+	},
+	{
+		"txt": "This subtraction operator is ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14250,
+		"nouns": [
+			"subtraction",
+			"operator"
+		],
+		"dOIndex": 111,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"subtraction",
+			"operator"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14251,
+		"nouns": [],
+		"dOIndex": 112,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14252,
+		"nouns": [],
+		"dOIndex": 113,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14253,
+		"nouns": [],
+		"dOIndex": 114,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14254,
+		"nouns": [],
+		"dOIndex": 115,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "used to subtract the passed vector from the current one, which is performed on a component by component basis. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14255,
+		"nouns": [
+			"vector",
+			"one",
+			"component",
+			"component",
+			"basis"
+		],
+		"dOIndex": 116,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"component"
+		]
+	},
+	{
+		"txt": " Vector subtraction is very similar to vector addition except that you take the reverse of the second vector and add it to the first, as illustrated in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14256,
+		"nouns": [
+			"Vector",
+			"subtraction",
+			"vector",
+			"addition",
+			"reverse",
+			"second",
+			"vector",
+			"first"
+		],
+		"dOIndex": 117,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Vector",
+			"subtraction",
+			"addition",
+			"reverse"
+		]
+	},
+	{
+		"txt": "Figure A 5",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14257,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 118,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14258,
+		"nouns": [],
+		"dOIndex": 119,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14259,
+		"nouns": [],
+		"dOIndex": 120,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14260,
+		"nouns": [],
+		"dOIndex": 121,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14261,
+		"nouns": [],
+		"dOIndex": 122,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14262,
+		"nouns": [],
+		"dOIndex": 123,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14263,
+		"nouns": [],
+		"dOIndex": 124,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure A 5. Vector subtraction",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14264,
+		"nouns": [
+			"Figure",
+			"Vector",
+			"subtraction"
+		],
+		"dOIndex": 125,
+		"nouns2": [
+			"Figure",
+			"Vector",
+			"subtraction"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14265,
+		"nouns": [],
+		"dOIndex": 126,
+		"isQuote": false
+	},
+	{
+		"txt": "Here's the code that subtracts vector u from our Vector class vector:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14266,
+		"nouns": [
+			"code",
+			"subtracts",
+			"vector",
+			"Vector",
+			"class",
+			"vector"
+		],
+		"dOIndex": 127,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"subtracts",
+			"Vector"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14267,
+		"nouns": [],
+		"dOIndex": 128,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14268,
+		"nouns": [],
+		"dOIndex": 129,
+		"isQuote": false
+	},
+	{
+		"txt": "Scalar Multiplication: The *= Operator",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14269,
+		"nouns": [
+			"Multiplication",
+			"*=",
+			"Operator"
+		],
+		"dOIndex": 130,
+		"nouns2": [
+			"Scalar",
+			"Multiplication",
+			"Operator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14270,
+		"nouns": [],
+		"dOIndex": 131,
+		"isQuote": false
+	},
+	{
+		"txt": "This is the scalar ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14271,
+		"nouns": [],
+		"dOIndex": 132,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14272,
+		"nouns": [],
+		"dOIndex": 133,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14273,
+		"nouns": [],
+		"dOIndex": 134,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14274,
+		"nouns": [],
+		"dOIndex": 135,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14275,
+		"nouns": [],
+		"dOIndex": 136,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "multiplication operator that's used to multiply a vector by a scalar, effectively scaling the vector's length. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14276,
+		"nouns": [
+			"multiplication",
+			"operator",
+			"vector",
+			"vector",
+			"length"
+		],
+		"dOIndex": 137,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"multiplication",
+			"operator"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.11764705882352941,
+			"words": [
+				"effectively"
+			],
+			"positive": [
+				"effectively"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " When you multiply a vector by a scalar, you simply multiply each vector component by the scalar quantity to obtain the new vector. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14277,
+		"nouns": [
+			"vector",
+			"vector",
+			"component",
+			"quantity",
+			"vector"
+		],
+		"dOIndex": 138,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"component",
+			"quantity"
+		],
+		"highfreq": {
+			"vector": 3
+		}
+	},
+	{
+		"txt": " The new vector points in the same direction as the unscaled one, but its length will be different (unless the scale factor is 1). ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14278,
+		"nouns": [
+			"vector",
+			"points",
+			"direction",
+			"one",
+			"length",
+			"scale",
+			"factor"
+		],
+		"dOIndex": 139,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"direction"
+		]
+	},
+	{
+		"txt": " This is illustrated in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14279,
+		"nouns": [],
+		"dOIndex": 140,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure A 6",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14280,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 141,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14281,
+		"nouns": [],
+		"dOIndex": 142,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14282,
+		"nouns": [],
+		"dOIndex": 143,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14283,
+		"nouns": [],
+		"dOIndex": 144,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14284,
+		"nouns": [],
+		"dOIndex": 145,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14285,
+		"nouns": [],
+		"dOIndex": 146,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14286,
+		"nouns": [],
+		"dOIndex": 147,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure A 6. Scalar multiplication",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14287,
+		"nouns": [
+			"Figure",
+			"multiplication"
+		],
+		"dOIndex": 148,
+		"nouns2": [
+			"Figure",
+			"Scalar",
+			"multiplication"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14288,
+		"nouns": [],
+		"dOIndex": 149,
+		"isQuote": false
+	},
+	{
+		"txt": "Here's the code that scales our Vector class vector:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14289,
+		"nouns": [
+			"code",
+			"scales",
+			"Vector",
+			"class",
+			"vector"
+		],
+		"dOIndex": 150,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Vector"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14290,
+		"nouns": [],
+		"dOIndex": 151,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14291,
+		"nouns": [],
+		"dOIndex": 152,
+		"isQuote": false
+	},
+	{
+		"txt": "Scalar Division: The /= Operator",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14292,
+		"nouns": [
+			"Division",
+			"/",
+			"Operator"
+		],
+		"dOIndex": 153,
+		"nouns2": [
+			"Scalar",
+			"Division",
+			"Operator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14293,
+		"nouns": [],
+		"dOIndex": 154,
+		"isQuote": false
+	},
+	{
+		"txt": "This scalar ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14294,
+		"nouns": [],
+		"dOIndex": 155,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14295,
+		"nouns": [],
+		"dOIndex": 156,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14296,
+		"nouns": [],
+		"dOIndex": 157,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14297,
+		"nouns": [],
+		"dOIndex": 158,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14298,
+		"nouns": [],
+		"dOIndex": 159,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "division operator is similar to the scalar multiplication operator except each vector component is divided by the passed scalar quantity:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14299,
+		"nouns": [
+			"division",
+			"operator",
+			"multiplication",
+			"operator",
+			"vector",
+			"component",
+			"quantity"
+		],
+		"dOIndex": 160,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"division",
+			"operator",
+			"multiplication",
+			"component",
+			"quantity"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14300,
+		"nouns": [],
+		"dOIndex": 161,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14301,
+		"nouns": [],
+		"dOIndex": 162,
+		"isQuote": false
+	},
+	{
+		"txt": "Conjugate: The − Operator",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14302,
+		"nouns": [
+			"Conjugate",
+			"−",
+			"Operator"
+		],
+		"dOIndex": 163,
+		"nouns2": [
+			"Conjugate",
+			"Operator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14303,
+		"nouns": [],
+		"dOIndex": 164,
+		"isQuote": false
+	},
+	{
+		"txt": "The conjugate ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14304,
+		"nouns": [
+			"conjugate"
+		],
+		"dOIndex": 165,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"conjugate"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14305,
+		"nouns": [],
+		"dOIndex": 166,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14306,
+		"nouns": [],
+		"dOIndex": 167,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14307,
+		"nouns": [],
+		"dOIndex": 168,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "operator simply takes the negative of each vector component and can be used when you are subtracting one vector from another or for reversing the direction of the vector. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14308,
+		"nouns": [
+			"operator",
+			"vector",
+			"component",
+			"one",
+			"vector",
+			"direction",
+			"vector"
+		],
+		"dOIndex": 169,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"operator",
+			"component",
+			"direction"
+		],
+		"highfreq": {
+			"vector": 3
+		},
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.06666666666666667,
+			"words": [
+				"negative"
+			],
+			"positive": [],
+			"negative": [
+				"negative"
+			]
+		}
+	},
+	{
+		"txt": " Applying the conjugate operator is the same as reversing a vector, as ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14309,
+		"nouns": [
+			"conjugate",
+			"operator",
+			"vector"
+		],
+		"dOIndex": 170,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Applying",
+			"conjugate",
+			"operator"
+		]
+	},
+	{
+		"txt": "discussed earlier:",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14310,
+		"nouns": [],
+		"dOIndex": 171,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14311,
+		"nouns": [],
+		"dOIndex": 172,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14312,
+		"nouns": [],
+		"dOIndex": 173,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14313,
+		"nouns": [],
+		"dOIndex": 174,
+		"isQuote": false
+	},
+	{
+		"txt": "Vector Functions and Operators",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14314,
+		"nouns": [
+			"Vector Functions",
+			"Operators"
+		],
+		"dOIndex": 175,
+		"nouns2": [
+			"Vector",
+			"Functions",
+			"Operators"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14315,
+		"nouns": [],
+		"dOIndex": 176,
+		"isQuote": false
+	},
+	{
+		"txt": "The following ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14316,
+		"nouns": [],
+		"dOIndex": 177,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "functions and overloaded operators are useful when you are performing operations with two vectors, or with a vector and a scalar, where the vector is based on the Vector",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14317,
+		"nouns": [
+			"functions",
+			"operators",
+			"operations",
+			"two",
+			"vectors",
+			"vector",
+			"vector",
+			"Vector"
+		],
+		"dOIndex": 178,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"functions",
+			"operators",
+			"operations",
+			"vectors",
+			"Vector"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.06896551724137931,
+			"words": [
+				"useful"
+			],
+			"positive": [
+				"useful"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " class.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14318,
+		"nouns": [
+			"class"
+		],
+		"dOIndex": 179,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14319,
+		"nouns": [],
+		"dOIndex": 180,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14320,
+		"nouns": [],
+		"dOIndex": 181,
+		"isQuote": false
+	},
+	{
+		"txt": "Vector Addition: The + Operator",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14321,
+		"nouns": [
+			"Vector",
+			"Addition",
+			"Operator"
+		],
+		"dOIndex": 182,
+		"nouns2": [
+			"Vector",
+			"Addition",
+			"Operator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14322,
+		"nouns": [],
+		"dOIndex": 183,
+		"isQuote": false
+	},
+	{
+		"txt": "This addition ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14323,
+		"nouns": [
+			"addition"
+		],
+		"dOIndex": 184,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"addition"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14324,
+		"nouns": [],
+		"dOIndex": 185,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14325,
+		"nouns": [],
+		"dOIndex": 186,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14326,
+		"nouns": [],
+		"dOIndex": 187,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "operator adds vector v to vector u according to the formula:u + v = (ux + vx) i + (uy + vy) j + (uz + vz) k",
+		"why": "p",
+		"tags": [
+			"strong",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14327,
+		"nouns": [
+			"operator",
+			"vector",
+			"v",
+			"vector",
+			"formula",
+			"v",
+			"ux",
+			"vx",
+			"uy",
+			"vy",
+			"j",
+			"uz",
+			"vz",
+			"k"
+		],
+		"dOIndex": 188,
+		"nouns2": [
+			"operator",
+			"formula"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14328,
+		"nouns": [],
+		"dOIndex": 189,
+		"isQuote": false
+	},
+	{
+		"txt": "Here's the code:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14329,
+		"nouns": [
+			"code"
+		],
+		"dOIndex": 190,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14330,
+		"nouns": [],
+		"dOIndex": 191,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14331,
+		"nouns": [],
+		"dOIndex": 192,
+		"isQuote": false
+	},
+	{
+		"txt": "Vector Subtraction: The − Operator",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14332,
+		"nouns": [
+			"Vector",
+			"Subtraction",
+			"−",
+			"Operator"
+		],
+		"dOIndex": 193,
+		"nouns2": [
+			"Vector",
+			"Subtraction",
+			"Operator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14333,
+		"nouns": [],
+		"dOIndex": 194,
+		"isQuote": false
+	},
+	{
+		"txt": "This subtraction",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14334,
+		"nouns": [
+			"subtraction"
+		],
+		"dOIndex": 195,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"subtraction"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14335,
+		"nouns": [],
+		"dOIndex": 196,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14336,
+		"nouns": [],
+		"dOIndex": 197,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14337,
+		"nouns": [],
+		"dOIndex": 198,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " operator subtracts vector v from vector u according to the formula:u − v = (ux − vx) i + (uy − vy) j + (uz − vz) k",
+		"why": "p",
+		"tags": [
+			"strong",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14338,
+		"nouns": [
+			"operator",
+			"subtracts",
+			"vector",
+			"v",
+			"vector",
+			"formula",
+			"−",
+			"v",
+			"ux",
+			"−",
+			"vx",
+			"uy",
+			"−",
+			"vy",
+			"j",
+			"uz",
+			"−",
+			"vz",
+			"k"
+		],
+		"dOIndex": 199,
+		"nouns2": [
+			"operator",
+			"subtracts",
+			"formula"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14339,
+		"nouns": [],
+		"dOIndex": 200,
+		"isQuote": false
+	},
+	{
+		"txt": "Here's the code:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14340,
+		"nouns": [
+			"code"
+		],
+		"dOIndex": 201,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14341,
+		"nouns": [],
+		"dOIndex": 202,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14342,
+		"nouns": [],
+		"dOIndex": 203,
+		"isQuote": false
+	},
+	{
+		"txt": "Vector Cross Product: The ^ Operator",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14343,
+		"nouns": [
+			"Vector Cross",
+			"Product",
+			"^",
+			"Operator"
+		],
+		"dOIndex": 204,
+		"nouns2": [
+			"Vector",
+			"Product",
+			"Operator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14344,
+		"nouns": [],
+		"dOIndex": 205,
+		"isQuote": false
+	},
+	{
+		"txt": "This cross product operator ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14345,
+		"nouns": [
+			"cross",
+			"product",
+			"operator"
+		],
+		"dOIndex": 206,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"product",
+			"operator"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14346,
+		"nouns": [],
+		"dOIndex": 207,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14347,
+		"nouns": [],
+		"dOIndex": 208,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14348,
+		"nouns": [],
+		"dOIndex": 209,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "takes the vector cross product between vectors u and v (u × v) and returns a vector perpendicular to both u and v according to the formula:u × v = (uy * vz − uz * vy) i + (−ux * vz + uz * vx) j + (ux * vy − uy * vx) k",
+		"why": "p",
+		"tags": [
+			"strong",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14349,
+		"nouns": [
+			"vector",
+			"product",
+			"vectors",
+			"v",
+			"×",
+			"v",
+			"returns",
+			"vector",
+			"both",
+			"v",
+			"formula",
+			"×",
+			"v",
+			"uy",
+			"vz",
+			"−",
+			"uz",
+			"vy",
+			"−ux",
+			"vz",
+			"uz",
+			"vx",
+			"j",
+			"ux",
+			"vy",
+			"−",
+			"uy",
+			"vx",
+			"k"
+		],
+		"dOIndex": 210,
+		"nouns2": [
+			"product",
+			"vectors",
+			"returns",
+			"formula"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14350,
+		"nouns": [],
+		"dOIndex": 211,
+		"isQuote": false
+	},
+	{
+		"txt": "The resulting vector is perpendicular to the plane that contains vectors u and v . ",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14351,
+		"nouns": [
+			"vector",
+			"plane",
+			"vectors",
+			"v"
+		],
+		"dOIndex": 212,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"vectors"
+		]
+	},
+	{
+		"txt": " The direction in which this resulting vector points can be determined by the right hand rule . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14352,
+		"nouns": [
+			"direction",
+			"vector",
+			"points",
+			"right",
+			"hand",
+			"rule"
+		],
+		"dOIndex": 213,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"direction"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.10526315789473684,
+			"words": [
+				"determined"
+			],
+			"positive": [
+				"determined"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " If you place the two vectors u and v tail to tail, as shown in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14353,
+		"nouns": [
+			"place",
+			"two",
+			"vectors",
+			"v",
+			"tail",
+			"tail"
+		],
+		"dOIndex": 214,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"vectors"
+		]
+	},
+	{
+		"txt": "Figure A 7, and curl your fingers (of your right hand) in the direction from u to v",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"strong",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14354,
+		"nouns": [
+			"Figure",
+			"fingers",
+			"right",
+			"hand",
+			"direction",
+			"v"
+		],
+		"dOIndex": 215,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure",
+			"fingers",
+			"direction"
+		]
+	},
+	{
+		"txt": " , then your thumb will point in the direction of the resulting vector.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14355,
+		"nouns": [
+			"thumb",
+			"point",
+			"direction",
+			"vector"
+		],
+		"dOIndex": 216,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"direction"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14356,
+		"nouns": [],
+		"dOIndex": 217,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14357,
+		"nouns": [],
+		"dOIndex": 218,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14358,
+		"nouns": [],
+		"dOIndex": 219,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14359,
+		"nouns": [],
+		"dOIndex": 220,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14360,
+		"nouns": [],
+		"dOIndex": 221,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure A 7. Vector cross product",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14361,
+		"nouns": [
+			"Figure",
+			"Vector",
+			"product"
+		],
+		"dOIndex": 222,
+		"nouns2": [
+			"Figure",
+			"Vector",
+			"product"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14362,
+		"nouns": [],
+		"dOIndex": 223,
+		"isQuote": false
+	},
+	{
+		"txt": "In this case, the resulting vector points out of the page along the z axis since the vectors u and v lie in the plane formed by the x  and y axes.",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14363,
+		"nouns": [
+			"case",
+			"vector",
+			"points",
+			"page",
+			"z",
+			"axis",
+			"vectors",
+			"v",
+			"plane",
+			"x",
+			"y",
+			"axes"
+		],
+		"dOIndex": 224,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"vectors"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14364,
+		"nouns": [],
+		"dOIndex": 225,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14365,
+		"nouns": [],
+		"dOIndex": 226,
+		"isQuote": false
+	},
+	{
+		"txt": "If two vectors are parallel, then their cross product will be 0. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14366,
+		"nouns": [
+			"two",
+			"vectors",
+			"product"
+		],
+		"dOIndex": 227,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"vectors",
+			"product"
+		]
+	},
+	{
+		"txt": " This is useful when you need to determine whether or not two vectors are indeed parallel.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14367,
+		"nouns": [
+			"two",
+			"vectors"
+		],
+		"dOIndex": 228,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"vectors"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.11764705882352941,
+			"words": [
+				"useful"
+			],
+			"positive": [
+				"useful"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14368,
+		"nouns": [],
+		"dOIndex": 229,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14369,
+		"nouns": [],
+		"dOIndex": 230,
+		"isQuote": false
+	},
+	{
+		"txt": "The cross product operation is distributive; however, it is not commutative:u × v ≠ v × uu × v = −(v × u)s (u × v) = (s)(u) × v = u × (s)(v)u × ( v + p) = (u × v) + (u × p)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14370,
+		"nouns": [
+			"cross",
+			"product",
+			"operation",
+			"commutative",
+			"×",
+			"v",
+			"≠",
+			"v",
+			"×",
+			"uu",
+			"×",
+			"v",
+			"−",
+			"v",
+			"×",
+			"×",
+			"v",
+			"×",
+			"v",
+			"×",
+			"v",
+			"×",
+			"v",
+			"p",
+			"×",
+			"v",
+			"×",
+			"p"
+		],
+		"dOIndex": 231,
+		"nouns2": [
+			"product",
+			"operation",
+			"commutative"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14371,
+		"nouns": [],
+		"dOIndex": 232,
+		"isQuote": false
+	},
+	{
+		"txt": "Here's the code that takes the cross product of vectors u and v:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14372,
+		"nouns": [
+			"code",
+			"cross",
+			"product",
+			"vectors",
+			"v"
+		],
+		"dOIndex": 233,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"product",
+			"vectors"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 14373,
+		"nouns": [],
+		"dOIndex": 234,
+		"isQuote": false
+	},
+	{
+		"txt": "Vector cross products are handy when you need to find normal (perpendicular) vectors. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14374,
+		"nouns": [
+			"Vector",
+			"products",
+			"vectors"
+		],
+		"dOIndex": 235,
+		"nouns2": [
+			"Vector",
+			"products",
+			"vectors"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " For example, when performing collision detection you often need to find the vector normal to the face of a polygon. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14375,
+		"nouns": [
+			"example",
+			"collision",
+			"detection",
+			"vector",
+			"face",
+			"polygon"
+		],
+		"dOIndex": 236,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"collision",
+			"detection",
+			"polygon"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.09090909090909091,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " You can construct two vectors in the plane of the polygon using the polygon's vertices and then take the cross product of these two vectors to get normal vector.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14376,
+		"nouns": [
+			"two",
+			"vectors",
+			"plane",
+			"polygon",
+			"polygon",
+			"vertices",
+			"cross",
+			"product",
+			"two",
+			"vectors",
+			"vector"
+		],
+		"dOIndex": 237,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"vectors",
+			"polygon",
+			"vertices",
+			"product"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14377,
+		"nouns": [],
+		"dOIndex": 238,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14378,
+		"nouns": [],
+		"dOIndex": 239,
+		"isQuote": false
+	},
+	{
+		"txt": "Vector Dot Product: The * Operator",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14379,
+		"nouns": [
+			"Vector",
+			"Dot Product",
+			"Operator"
+		],
+		"dOIndex": 240,
+		"nouns2": [
+			"Vector",
+			"Product",
+			"Operator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14380,
+		"nouns": [],
+		"dOIndex": 241,
+		"isQuote": false
+	},
+	{
+		"txt": "This operator ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14381,
+		"nouns": [
+			"operator"
+		],
+		"dOIndex": 242,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"operator"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14382,
+		"nouns": [],
+		"dOIndex": 243,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14383,
+		"nouns": [],
+		"dOIndex": 244,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14384,
+		"nouns": [],
+		"dOIndex": 245,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14385,
+		"nouns": [],
+		"dOIndex": 246,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "takes the vector dot product between the vectors u and v, according to the formula:u • v = (ux * vx) + (uy * vy) + (uz * vz)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14386,
+		"nouns": [
+			"vector",
+			"dot",
+			"product",
+			"vectors",
+			"v",
+			"formula",
+			"•",
+			"v",
+			"ux",
+			"vx",
+			"uy",
+			"vy",
+			"uz",
+			"vz"
+		],
+		"dOIndex": 247,
+		"nouns2": [
+			"product",
+			"vectors",
+			"formula"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14387,
+		"nouns": [],
+		"dOIndex": 248,
+		"isQuote": false
+	},
+	{
+		"txt": "The dot product represents the projection of the vector u onto the vector v, as illustrated in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14388,
+		"nouns": [
+			"dot",
+			"product",
+			"projection",
+			"vector",
+			"vector",
+			"v"
+		],
+		"dOIndex": 249,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"product",
+			"projection"
+		]
+	},
+	{
+		"txt": "Figure A 8",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14389,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 250,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14390,
+		"nouns": [],
+		"dOIndex": 251,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14391,
+		"nouns": [],
+		"dOIndex": 252,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14392,
+		"nouns": [],
+		"dOIndex": 253,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14393,
+		"nouns": [],
+		"dOIndex": 254,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14394,
+		"nouns": [],
+		"dOIndex": 255,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14395,
+		"nouns": [],
+		"dOIndex": 256,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure A 8. Vector dot product",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14396,
+		"nouns": [
+			"Figure",
+			"Vector",
+			"dot",
+			"product"
+		],
+		"dOIndex": 257,
+		"nouns2": [
+			"Figure",
+			"Vector",
+			"product"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14397,
+		"nouns": [],
+		"dOIndex": 258,
+		"isQuote": false
+	},
+	{
+		"txt": "In this figure, P is the result of the dot product, and it is a scalar. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14398,
+		"nouns": [
+			"figure",
+			"P",
+			"result",
+			"dot",
+			"product"
+		],
+		"dOIndex": 259,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"product"
+		]
+	},
+	{
+		"txt": " You can also calculate the dot product if you the know the angle between the vectors:P = u • v = |u| |v| cos θ",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14399,
+		"nouns": [
+			"dot",
+			"product",
+			"know",
+			"angle",
+			"vectors",
+			"P",
+			"•",
+			"v",
+			"|u|",
+			"|v|",
+			"cos",
+			"θ"
+		],
+		"dOIndex": 260,
+		"nouns2": [
+			"product",
+			"vectors"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14400,
+		"nouns": [],
+		"dOIndex": 261,
+		"isQuote": false
+	},
+	{
+		"txt": "Here's the code that takes the dot product of u and v:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14401,
+		"nouns": [
+			"code",
+			"dot",
+			"product",
+			"v"
+		],
+		"dOIndex": 262,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"product"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 14402,
+		"nouns": [],
+		"dOIndex": 263,
+		"isQuote": false
+	},
+	{
+		"txt": "Vector dot products are handy when you need to find the magnitude of a vector projected onto another one. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14403,
+		"nouns": [
+			"Vector",
+			"dot",
+			"products",
+			"magnitude",
+			"vector",
+			"one"
+		],
+		"dOIndex": 264,
+		"nouns2": [
+			"Vector",
+			"products",
+			"magnitude"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " Going back to collision detection as an example, you often have to determine the closest distance from a point, which may be a polygon vertex on one body (body 1) to a polygon face on another body (body 2). ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14404,
+		"nouns": [
+			"collision",
+			"detection",
+			"example",
+			"distance",
+			"point",
+			"polygon",
+			"vertex",
+			"one",
+			"body",
+			"body",
+			"polygon",
+			"face",
+			"body",
+			"body"
+		],
+		"dOIndex": 265,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"detection",
+			"example",
+			"distance",
+			"polygon"
+		],
+		"highfreq": {
+			"body": 4
+		},
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.04878048780487805,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " If you construct a vector from the face under consideration on body 2, using any of its vertices, to the point under consideration from body 1, then you can find the closest distance of that point from the plane of body 2's face by taking the dot product of that point with the normal vector to the plane. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14405,
+		"nouns": [
+			"vector",
+			"face",
+			"consideration",
+			"body",
+			"vertices",
+			"point",
+			"consideration",
+			"body",
+			"distance",
+			"point",
+			"plane",
+			"body",
+			"face",
+			"dot",
+			"product",
+			"point",
+			"vector",
+			"plane"
+		],
+		"dOIndex": 266,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"consideration",
+			"vertices",
+			"distance",
+			"product"
+		],
+		"highfreq": {
+			"from": 3,
+			"body": 3,
+			"point": 3
+		}
+	},
+	{
+		"txt": " (If the normal vector is not of unit length, then you'll have to divide the result by the magnitude of the normal vector.)",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14406,
+		"nouns": [
+			"vector",
+			"unit",
+			"length",
+			"ll",
+			"result",
+			"magnitude",
+			"vector"
+		],
+		"dOIndex": 267,
+		"nouns2": [
+			"magnitude"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14407,
+		"nouns": [],
+		"dOIndex": 268,
+		"isQuote": false
+	},
+	{
+		"txt": "Scalar Multiplication: The * Operator",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14408,
+		"nouns": [
+			"Multiplication",
+			"Operator"
+		],
+		"dOIndex": 269,
+		"nouns2": [
+			"Scalar",
+			"Multiplication",
+			"Operator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14409,
+		"nouns": [],
+		"dOIndex": 270,
+		"isQuote": false
+	},
+	{
+		"txt": "This operator ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14410,
+		"nouns": [
+			"operator"
+		],
+		"dOIndex": 271,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"operator"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14411,
+		"nouns": [],
+		"dOIndex": 272,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14412,
+		"nouns": [],
+		"dOIndex": 273,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14413,
+		"nouns": [],
+		"dOIndex": 274,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "multiplies the vector u by the scalar s on a component by component basis. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14414,
+		"nouns": [
+			"vector",
+			"component",
+			"component",
+			"basis"
+		],
+		"dOIndex": 275,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"component"
+		]
+	},
+	{
+		"txt": " There are two versions of this overloaded operator depending on the order in which the vector and scalar are encountered:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14415,
+		"nouns": [
+			"two",
+			"versions",
+			"operator",
+			"order",
+			"vector"
+		],
+		"dOIndex": 276,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"versions",
+			"operator"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14416,
+		"nouns": [],
+		"dOIndex": 277,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14417,
+		"nouns": [],
+		"dOIndex": 278,
+		"isQuote": false
+	},
+	{
+		"txt": "Scalar Division: The / Operator",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14418,
+		"nouns": [
+			"Division",
+			"/",
+			"Operator"
+		],
+		"dOIndex": 279,
+		"nouns2": [
+			"Scalar",
+			"Division",
+			"Operator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14419,
+		"nouns": [],
+		"dOIndex": 280,
+		"isQuote": false
+	},
+	{
+		"txt": "This operator divides the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14420,
+		"nouns": [
+			"operator"
+		],
+		"dOIndex": 281,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"operator"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14421,
+		"nouns": [],
+		"dOIndex": 282,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14422,
+		"nouns": [],
+		"dOIndex": 283,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14423,
+		"nouns": [],
+		"dOIndex": 284,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "vector u by the scalar s on a component by component basis:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14424,
+		"nouns": [
+			"vector",
+			"component",
+			"component",
+			"basis"
+		],
+		"dOIndex": 285,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"component"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14425,
+		"nouns": [],
+		"dOIndex": 286,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14426,
+		"nouns": [],
+		"dOIndex": 287,
+		"isQuote": false
+	},
+	{
+		"txt": "Triple Scalar Product",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14427,
+		"nouns": [
+			"Triple",
+			"Product"
+		],
+		"dOIndex": 288,
+		"nouns2": [
+			"Triple",
+			"Scalar",
+			"Product"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14428,
+		"nouns": [],
+		"dOIndex": 289,
+		"isQuote": false
+	},
+	{
+		"txt": "This function ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14429,
+		"nouns": [
+			"function"
+		],
+		"dOIndex": 290,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14430,
+		"nouns": [],
+		"dOIndex": 291,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14431,
+		"nouns": [],
+		"dOIndex": 292,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "takes the triple scalar product of the vectors u, v, and w according to the formula:s = u • (v × w)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14432,
+		"nouns": [
+			"product",
+			"vectors",
+			"v",
+			"formula",
+			"•",
+			"v",
+			"×"
+		],
+		"dOIndex": 293,
+		"nouns2": [
+			"product",
+			"vectors",
+			"formula"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14433,
+		"nouns": [],
+		"dOIndex": 294
+	},
+	{
+		"txt": "Here, the result, s , is a scalar. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14434,
+		"nouns": [
+			"result"
+		],
+		"dOIndex": 295
+	},
+	{
+		"txt": " The code is as ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14435,
+		"nouns": [
+			"code"
+		],
+		"dOIndex": 296
+	},
+	{
+		"txt": "follows:",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14436,
+		"nouns": [],
+		"dOIndex": 297
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14437,
+		"nouns": [],
+		"dOIndex": 298
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14438,
+		"nouns": [],
+		"dOIndex": 299
+	}
+]

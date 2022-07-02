@@ -1,0 +1,225 @@
+[
+	{
+		"txt": "",
+		"why": "br tag like",
+		"sentenceIndex": 448,
+		"nouns": [],
+		"dOIndex": 0,
+		"isQuote": false
+	},
+	{
+		"txt": "Part I. Fundamentals",
+		"why": "p",
+		"tags": [
+			"h1",
+			"div",
+			"div",
+			"div",
+			"div"
+		],
+		"sentenceIndex": 449,
+		"nouns": [
+			"Part",
+			"Fundamentals"
+		],
+		"dOIndex": 1,
+		"nouns2": [
+			"Fundamentals"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 450,
+		"nouns": [],
+		"dOIndex": 2
+	},
+	{
+		"txt": "Part I focuses on fundamental topics in Newtonian mechanics such as kinematics and kinetics . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"div",
+			"div"
+		],
+		"sentenceIndex": 451,
+		"nouns": [
+			"Part",
+			"topics",
+			"mechanics",
+			"kinematics",
+			"kinetics"
+		],
+		"dOIndex": 3,
+		"nouns2": [
+			"Newtonian",
+			"mechanics",
+			"kinematics",
+			"kinetics"
+		]
+	},
+	{
+		"txt": " Kinematics deals with the motion of objects; we'll cover both linear and angular velocity and acceleration. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 452,
+		"nouns": [
+			"Kinematics",
+			"deals",
+			"motion",
+			"objects",
+			"ll",
+			"both",
+			"velocity",
+			"acceleration"
+		],
+		"dOIndex": 4,
+		"nouns2": [
+			"Kinematics",
+			"objects",
+			"velocity",
+			"acceleration"
+		]
+	},
+	{
+		"txt": " Kinetics deals with forces and resulting motion. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 453,
+		"nouns": [
+			"Kinetics",
+			"deals",
+			"forces",
+			"motion"
+		],
+		"dOIndex": 5,
+		"nouns2": [
+			"Kinetics"
+		]
+	},
+	{
+		"txt": " ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"div"
+		],
+		"sentenceIndex": 454,
+		"nouns": [],
+		"dOIndex": 6
+	},
+	{
+		"txt": "Part I serves as a primer for ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"div"
+		],
+		"sentenceIndex": 455,
+		"nouns": [
+			"Part",
+			"primer"
+		],
+		"dOIndex": 7
+	},
+	{
+		"txt": "Part II",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div"
+		],
+		"sentenceIndex": 456,
+		"nouns": [
+			"Part",
+			"II"
+		],
+		"dOIndex": 8
+	},
+	{
+		"txt": " , which covers rigid body dynamics. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 457,
+		"nouns": [
+			"body",
+			"dynamics"
+		],
+		"dOIndex": 9,
+		"nouns2": [
+			"dynamics"
+		]
+	},
+	{
+		"txt": " Readers already versed in classical mechanics can skip ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"div"
+		],
+		"sentenceIndex": 458,
+		"nouns": [
+			"Readers",
+			"mechanics"
+		],
+		"dOIndex": 10,
+		"nouns2": [
+			"Readers",
+			"mechanics"
+		]
+	},
+	{
+		"txt": "Part I",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div"
+		],
+		"sentenceIndex": 459,
+		"nouns": [
+			"Part"
+		],
+		"dOIndex": 11
+	},
+	{
+		"txt": " without loss of continuity. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 460,
+		"nouns": [
+			"loss",
+			"continuity"
+		],
+		"dOIndex": 12,
+		"nouns2": [
+			"continuity"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.5,
+			"words": [
+				"loss"
+			],
+			"positive": [],
+			"negative": [
+				"loss"
+			]
+		}
+	}
+]

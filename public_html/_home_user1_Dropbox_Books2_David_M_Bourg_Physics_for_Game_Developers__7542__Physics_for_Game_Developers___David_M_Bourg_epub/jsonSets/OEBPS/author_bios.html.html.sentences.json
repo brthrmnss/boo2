@@ -1,0 +1,632 @@
+[
+	{
+		"txt": "",
+		"why": "br tag like",
+		"sentenceIndex": 18124,
+		"nouns": [],
+		"dOIndex": 0,
+		"isQuote": false
+	},
+	{
+		"txt": "About the Authors",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div"
+		],
+		"sentenceIndex": 18125,
+		"nouns": [
+			"Authors"
+		],
+		"dOIndex": 1,
+		"nouns2": [
+			"Authors"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "David Bourg is a Naval Architect involved in various military and commercial proposal, design, and construction efforts. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 18126,
+		"nouns": [
+			"David",
+			"Bourg",
+			"Architect",
+			"design",
+			"construction",
+			"efforts"
+		],
+		"dOIndex": 2,
+		"nouns2": [
+			"Architect",
+			"construction",
+			"efforts"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " Since 1998, David has served as an independent consultant working for various regional clients engaged in both commercial and military shipbuilding where he provides design and analysis services including but not limited to concept design, proposal writing, detailed design and analysis, visualization, and software development among other services. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 18127,
+		"nouns": [
+			"David",
+			"consultant",
+			"clients",
+			"both",
+			"design",
+			"analysis",
+			"services",
+			"concept",
+			"design",
+			"design",
+			"analysis",
+			"visualization",
+			"software",
+			"development",
+			"services"
+		],
+		"dOIndex": 3,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"consultant",
+			"clients",
+			"analysis",
+			"services",
+			"concept",
+			"visualization",
+			"software",
+			"development"
+		],
+		"highfreq": {
+			"design": 3
+		},
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.02,
+			"words": [
+				"limited"
+			],
+			"positive": [
+				"limited"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " He coordinated and led the winning design and proposal effort for the US Coast Guard Point Class (patrol boat) Replacement Program. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 18128,
+		"nouns": [
+			"design",
+			"effort",
+			"Coast Guard",
+			"Point Class",
+			"patrol",
+			"boat",
+			"Replacement",
+			"Program"
+		],
+		"dOIndex": 4,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Replacement",
+			"Program"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.17391304347826086,
+			"words": [
+				"winning"
+			],
+			"positive": [
+				"winning"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " In 2006, David joined fellow Naval Architect Kenneth Humphreys to form MiNO Marine, LLC, a naval architecture and marine professional services firm.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 18129,
+		"nouns": [
+			"David",
+			"fellow",
+			"Architect Kenneth",
+			"Humphreys",
+			"form",
+			"MiNO Marine",
+			"LLC",
+			"architecture",
+			"marine",
+			"services",
+			"firm"
+		],
+		"dOIndex": 5,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Architect",
+			"Kenneth",
+			"Humphreys",
+			"Marine",
+			"architecture",
+			"services"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"div"
+		],
+		"sentenceIndex": 18130,
+		"nouns": [],
+		"dOIndex": 6,
+		"isQuote": false
+	},
+	{
+		"txt": "In addition to Physics for Game Developers , David has published two other books. ",
+		"why": "split inside sentence",
+		"tags": [
+			"i",
+			"p",
+			"div",
+			"div"
+		],
+		"sentenceIndex": 18131,
+		"nouns": [
+			"addition",
+			"Physics",
+			"Game",
+			"Developers",
+			"David",
+			"two",
+			"books"
+		],
+		"dOIndex": 7,
+		"nouns2": [
+			"addition",
+			"Physics",
+			"Developers"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " He earned a PhD in Engineering and Applied Science in 2008 from the University of New Orleans. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 18132,
+		"nouns": [
+			"PhD",
+			"Science",
+			"University",
+			"New Orleans"
+		],
+		"dOIndex": 8,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Engineering",
+			"Applied",
+			"Science",
+			"University",
+			"Orleans"
+		]
+	},
+	{
+		"txt": " He has served as an Adjunct Professor at the University of New Orleans School of Naval Architecture and Marine Engineering, where he has taught various courses since 1993.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 18133,
+		"nouns": [
+			"Adjunct Professor",
+			"University",
+			"New Orleans",
+			"School",
+			"Architecture",
+			"Marine",
+			"courses"
+		],
+		"dOIndex": 9,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Adjunct",
+			"Professor",
+			"University",
+			"Orleans",
+			"School",
+			"Architecture",
+			"Marine",
+			"Engineering",
+			"courses"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"div"
+		],
+		"sentenceIndex": 18134,
+		"nouns": [],
+		"dOIndex": 10,
+		"isQuote": false
+	},
+	{
+		"txt": "Ever since his father read A Brief History of Time to him in middle school, Bryan Bywalec wanted to be an astrophysicist. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 18135,
+		"nouns": [
+			"father",
+			"Brief",
+			"History",
+			"Time",
+			"middle",
+			"school",
+			"Bryan",
+			"Bywalec",
+			"astrophysicist"
+		],
+		"dOIndex": 11,
+		"nouns2": [
+			"History",
+			"Bywalec",
+			"astrophysicist"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " While he will always have a passion for pure physics, he became more and more obsessed in high school with the application of those physical principles he was learning. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 18136,
+		"nouns": [
+			"passion",
+			"physics",
+			"school",
+			"application",
+			"principles"
+		],
+		"dOIndex": 12,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"passion",
+			"physics",
+			"application",
+			"principles"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.12903225806451613,
+			"words": [
+				"obsessed",
+				"pure",
+				"passion"
+			],
+			"positive": [
+				"obsessed",
+				"pure",
+				"passion"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Having been around sailboats his entire life, his decision to seek a degree in Naval Architecture at the University of New Orleans surprised few.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 18137,
+		"nouns": [
+			"sailboats",
+			"life",
+			"decision",
+			"degree",
+			"Architecture",
+			"University",
+			"New Orleans"
+		],
+		"dOIndex": 13,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Having",
+			"sailboats",
+			"decision",
+			"Architecture",
+			"University",
+			"Orleans"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"div"
+		],
+		"sentenceIndex": 18138,
+		"nouns": [],
+		"dOIndex": 14,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 18139,
+		"nouns": [],
+		"dOIndex": 15,
+		"isQuote": false
+	},
+	{
+		"txt": "While working on his degree, Mr. Bywalec was employed as a network administrator for the College of Engineering. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 18140,
+		"nouns": [
+			"degree",
+			"Mr. Bywalec",
+			"Bywalec",
+			"network",
+			"administrator",
+			"College"
+		],
+		"dOIndex": 16,
+		"nouns2": [
+			"Bywalec",
+			"network",
+			"administrator",
+			"College",
+			"Engineering"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " Having an office in an electronics lab, he explored the world of enterprise computing and became very interested in high performance clusters, remote administration of desktops, and robotics.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 18141,
+		"nouns": [
+			"office",
+			"electronics",
+			"lab",
+			"world",
+			"enterprise",
+			"performance",
+			"clusters",
+			"administration",
+			"desktops",
+			"robotics"
+		],
+		"dOIndex": 17,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Having",
+			"electronics",
+			"enterprise",
+			"performance",
+			"clusters",
+			"administration",
+			"desktops",
+			"robotics"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.06896551724137931,
+			"words": [
+				"interested"
+			],
+			"positive": [
+				"interested"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"div"
+		],
+		"sentenceIndex": 18142,
+		"nouns": [],
+		"dOIndex": 18,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 18143,
+		"nouns": [],
+		"dOIndex": 19,
+		"isQuote": false
+	},
+	{
+		"txt": "Upon graduating in 2007, he began his career at MiNO Marine, LLC and, under the guidance of David Bourg and Kenneth Humphreys, now focuses on finite element analysis of complex welded steel structures. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 18144,
+		"nouns": [
+			"career",
+			"MiNO Marine",
+			"LLC",
+			"guidance",
+			"David",
+			"Bourg",
+			"Kenneth Humphreys",
+			"element",
+			"analysis",
+			"steel",
+			"structures"
+		],
+		"dOIndex": 20,
+		"nouns2": [
+			"Marine",
+			"guidance",
+			"Kenneth",
+			"Humphreys",
+			"element",
+			"analysis",
+			"structures"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " His structural analysis work depends largely on the accurate approximations of non linear physical systems. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 18145,
+		"nouns": [
+			"analysis",
+			"work",
+			"approximations",
+			"systems"
+		],
+		"dOIndex": 21,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"analysis",
+			"approximations",
+			"systems"
+		]
+	},
+	{
+		"txt": " Bryan has completed several computational fluid dynamics simulations of exhaust gases from ship stacks and current flow around offshore structures.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 18146,
+		"nouns": [
+			"Bryan",
+			"fluid",
+			"dynamics",
+			"simulations",
+			"exhaust",
+			"gases",
+			"ship",
+			"stacks",
+			"flow",
+			"structures"
+		],
+		"dOIndex": 22,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"dynamics",
+			"simulations",
+			"exhaust",
+			"structures"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"div"
+		],
+		"sentenceIndex": 18147,
+		"nouns": [],
+		"dOIndex": 23,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 18148,
+		"nouns": [],
+		"dOIndex": 24,
+		"isQuote": false
+	},
+	{
+		"txt": "In addition to his work as a naval architect, Bryan strives to create innovative ways to connect everyday objects to various control networks. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 18149,
+		"nouns": [
+			"addition",
+			"work",
+			"architect",
+			"Bryan",
+			"ways",
+			"objects",
+			"control",
+			"networks"
+		],
+		"dOIndex": 25,
+		"nouns2": [
+			"addition",
+			"architect",
+			"objects",
+			"control",
+			"networks"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08333333333333333,
+			"words": [
+				"innovative"
+			],
+			"positive": [
+				"innovative"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " From unlocking door locks via text message to developing a real time street car tracking program, he constantly searches for opportunities to integrate technology into his life.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 18150,
+		"nouns": [
+			"door",
+			"locks",
+			"text",
+			"message",
+			"time",
+			"street",
+			"car",
+			"program",
+			"searches",
+			"opportunities",
+			"technology",
+			"life"
+		],
+		"dOIndex": 26,
+		"nouns2": [
+			"message",
+			"program",
+			"searches",
+			"opportunities",
+			"technology"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.07142857142857142,
+			"words": [
+				"opportunities"
+			],
+			"positive": [
+				"opportunities"
+			],
+			"negative": []
+		}
+	}
+]

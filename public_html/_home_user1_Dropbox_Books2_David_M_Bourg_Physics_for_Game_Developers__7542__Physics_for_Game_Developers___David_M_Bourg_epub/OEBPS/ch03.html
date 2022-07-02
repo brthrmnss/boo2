@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg"><head><title>Chapter 3. Force</title><link rel="stylesheet" type="text/css" href="core.css"/><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"/><link rel="up" href="pt01.html" title="Part I. Fundamentals"/><link rel="prev" href="ch02.html" title="Chapter 2. Kinematics"/><link rel="next" href="ch04.html" title="Chapter 4. Kinetics"/></head><body><section class="chapter" title="Chapter 3. Force" epub:type="chapter" id="force"><div class="titlepage"><div><div><h2 class="title">Chapter 3. Force</h2></div></div></div><p>This chapter is a prerequisite to <a class="xref" href="ch04.html" title="Chapter 4. Kinetics">Chapter 4</a>, which addresses the subject of
+    kinetics. The aim here is to provide you with enough of a background on forces so you can
+    readily appreciate the subject of kinetics. This chapter is not meant to be the final word on
+    the subject of force. In fact, we feel that the subject of force is so important to realistic
+    simulations that we’ll revisit it several times in various contexts throughout the remainder of
+    this book. In this chapter, we’ll discuss the two fundamental categories of force and briefly
+    explain some important specific types of force. We’ll also explain the relationship between
+    force and torque.</p><div class="sect1" title="Forces"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="forces">Forces</h2></div></div></div><p>As we mentioned in <a class="xref" href="ch02.html" title="Chapter 2. Kinematics">Chapter 2</a>, you need to <a id="I_indexterm3_id303234" class="indexterm"/>understand the concept of force before you can fully understand the subject of
+      kinetics. Kinematics is only half the battle. You are already familiar with the concept of
+      force from your daily experiences. You exert a force on this book as you hold it in your
+      hands, counteracting gravity. You exert force on your mouse as you move it from one point to
+      another. When you play soccer, you exert force on the ball as you kick it. In general, force
+      is what makes an object move, or more precisely, what produces an acceleration that changes
+      the velocity. Even as you hold this book, although it may not be moving, you’ve effectively
+      produced an acceleration that cancels the acceleration from gravity. When you kick that soccer
+      ball, you change its velocity from, say, 0 when the ball is at rest to some positive value as
+      the ball leaves your foot. These are some examples of externally <a id="I_indexterm3_id303254" class="indexterm"/>applied <span class="emphasis"><em>contact</em></span> forces.</p><p>There’s another broad category of forces, in addition to contact forces, <a id="I_indexterm3_id303272" class="indexterm"/>called <span class="emphasis"><em>field</em></span> forces or <a id="I_indexterm3_id303286" class="indexterm"/>sometimes <span class="emphasis"><em>forces at a distance</em></span>. These forces can act on a
+      body without actually having to make contact with it. A good example is the gravitational
+      attraction between objects. Another example is the electromagnetic attraction between charged
+      particles. The concept of a force field was developed long ago to help us visualize the
+      interaction between objects subject to forces at a distance. You can say that an object is
+      subjected to the gravitational field of another object. Thinking in terms of force fields can
+      help you grasp the fact that an object can exert a force on another object without having to
+      physically touch it.</p><p>Within these two broad categories of forces, there are specific types of forces related to
+      various physical phenomena—forces due to friction, buoyancy, and pressure, among others. We’ll
+      discuss idealizations of several of these types of forces in this chapter. Later in this book,
+      we’ll revisit these forces from a more practical point of view.</p><p>Before going further, we need to explain the implications of Newton’s <a id="I_indexterm3_id303313" class="indexterm"/>third law as introduced in <a class="xref" href="ch01.html" title="Chapter 1. Basic Concepts">Chapter 1</a>. Remember, Newton’s
+      third law states that for every force acting on a body, there is an equal and opposite
+      reacting force. This means that forces must exist in pairs—a single force can’t exist by
+      itself.</p><p>Consider the gravitational attraction between the earth and yourself. The earth is
+      exerting a force—your weight—on you, accelerating you toward its center. Likewise, you are
+      exerting a force on the earth, accelerating it toward you. The huge difference between your
+      mass and the earth’s makes the acceleration of the earth in this case so small that it’s
+      negligible. Earlier we said you are exerting a force on this book to hold it up; likewise,
+      this book is exerting a force on your hands equal in magnitude but opposite in direction to
+      the force you are exerting on it. You feel this reaction force as the book’s weight.</p><p>This phenomenon of action-reaction is the basis for rocket propulsion. A rocket engine
+      exerts force on the fuel molecules that are accelerated out of the engine exhaust nozzle. The
+      force required to accelerate these molecules is exerted back against the rocket as a reaction
+      force <a id="I_indexterm3_id303347" class="indexterm"/>called <span class="emphasis"><em>thrust</em></span>. Throughout the remainder of this book, you’ll
+      see many other examples of action-reaction, which is an important phenomenon in rigid-body
+      dynamics. It is especially important when we are dealing with collisions and objects in
+      contact, as you’ll see later.</p></div><div class="sect1" title="Force Fields"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="force_fields">Force Fields</h2></div></div></div><p>The best example of a <a id="I_indexterm3_id303377" class="indexterm"/><a id="I_indexterm3_id303388" class="indexterm"/>force field or force at a distance is the gravitational attraction between
+      objects. <span class="emphasis"><em>Newton’s law of gravitation</em></span>
+      <a id="I_indexterm3_id303399" class="indexterm"/><a id="I_indexterm3_id303409" class="indexterm"/>states that the force of attraction between two masses is directly proportional to
+      the product of the masses and inversely proportional to the square of the distances separating
+      the centers of each mass. Further, this law states that the line of action of the force of
+      attraction is along the line that connects the centers of the two masses. This is written as
+      follows:</p><table style="border: 0; " class="simplelist"><tr><td>F<sub>a</sub> = (G m<sub>1</sub> m<sub>2</sub>) /
+          r<sup>2</sup></td></tr></table><p>where <span class="emphasis"><em>G</em></span> is the gravitational constant, Newton’s so-called<a id="I_indexterm3_id303457" class="indexterm"/>
+      <span class="emphasis"><em>universal constant</em></span>. <span class="emphasis"><em>G</em></span> was first measured
+      experimentally by Sir Henry Cavendish <a id="I_indexterm3_id303472" class="indexterm"/>in 1798 and equals 6.673×10<sup>−11</sup>
+        (N–m<sup>2</sup>)/kg<sup>2</sup> in metric units or
+        3.436×10<sup>−8</sup>
+        ft<sup>4</sup>/(lb-s<sup>4</sup>) in English units.</p><p>So far in this book, I’ve been using the acceleration due to gravity,
+        <span class="emphasis"><em>g</em></span>, as a constant 9.8 m/s<sup>2</sup> (32.174
+        ft/s<sup>2</sup>). This is true when you are near the earth’s surface—for
+      example, at sea level. In reality, <span class="emphasis"><em>g</em></span> varies with <a id="I_indexterm3_id303520" class="indexterm"/>altitude—maybe not by much for our purposes, but it does. Consider Newton’s second
+      law along with the <a id="I_indexterm3_id303533" class="indexterm"/>law of gravitation for a body near the earth. Equating these two laws, in equation
+      form, yields:</p><table style="border: 0; " class="simplelist"><tr><td>m a = (G M<sub>e</sub> m) / (R<sub>e</sub> +
+          h)<sup>2</sup></td></tr></table><p>where <span class="emphasis"><em>m</em></span> is the mass of the body, <span class="emphasis"><em>a</em></span> is the
+      acceleration of the body due to the gravitational attraction between it and the earth,
+        <span class="emphasis"><em>M</em></span><sub>e</sub> is the earth’s mass,
+        <span class="emphasis"><em>R</em></span><sub>e</sub> is the radius of the earth, and
+        <span class="emphasis"><em>h</em></span> is the altitude of the body. If you solve this equation for
+        <span class="emphasis"><em>a</em></span>, you’ll have a formula for the acceleration due to gravity as a
+      function of altitude:</p><table style="border: 0; " class="simplelist"><tr><td>a = g’ = (G M<sub>e</sub>) / (R<sub>e</sub> +
+          h)<sup>2</sup></td></tr></table><p>The radius of the earth is approximately 6.38×10<sup>6</sup> m, and its
+      mass is about 5.98×10<sup>24</sup> kgs. Substituting these values in the
+      preceding equation and assuming 0 altitude (sea level) yields the constant
+        <span class="emphasis"><em>g</em></span> that we’ve been using so far—that is, <span class="emphasis"><em>g</em></span> at sea
+      level equals 9.8 m/s<sup>2</sup>.</p></div><div class="sect1" title="Friction"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="friction">Friction</h2></div></div></div><p>Frictional forces (friction) <a id="fr3.3" class="indexterm"/>always resist motion and are due to the interaction between contacting surfaces.
+      Thus, friction is a <a id="co3.3" class="indexterm"/>contact force. Friction is always parallel to the contacting surfaces at the point
+      of contact—that is, friction is tangential to the contacting surfaces. The magnitude of the
+      frictional force is a function of the normal force between the contacting surfaces and the
+      surface roughness.</p><p>This is easiest to visualize by looking at a simple block on a horizontal surface, as
+      shown in <a class="xref" href="ch03.html#friction_colon_block_in_contact_with_hor" title="Figure 3-1. Friction: block in contact with horizontal surface">Figure 3-1</a>.</p><div class="figure"><a id="friction_colon_block_in_contact_with_hor"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject3_id303713"/><img src="httpatomoreillycomsourceoreillyimages1598897.png" alt="Friction: block in contact with horizontal surface"/></div></div><div class="figure-title">Figure 3-1. Friction: block in contact with horizontal surface</div></div><p>In <a class="xref" href="ch03.html#friction_colon_block_in_contact_with_hor" title="Figure 3-1. Friction: block in contact with horizontal surface">Figure 3-1</a>, the block is resting on the
+      horizontal surface with a small force, <span class="emphasis"><em>F</em></span><sub>a</sub>, applied
+      to the block on a line of action through the block’s center of mass. As this applied force
+      increases, a frictional force will develop between the block and the horizontal surface,
+      tending to resist the motion of the block. The maximum value of this <a id="I_indexterm3_id303746" class="indexterm"/>frictional force is:</p><table style="border: 0; " class="simplelist"><tr><td>F<sub>fmax</sub> = µ<sub>s</sub> N</td></tr></table><p>where µ<sub>s</sub> is the experimentally determined coefficient <a id="I_indexterm3_id303786" class="indexterm"/><a id="I_indexterm3_id303792" class="indexterm"/>of static<sup>[<a id="CHP-3-FN-1" href="#ftn.CHP-3-FN-1" epub:type="noteref" class="footnote">9</a>]</sup> friction and <span class="emphasis"><em>N</em></span> is the normal (perpendicular) force between
+      the block and the surface, which equals the weight of the block in this case. As the applied
+      force increases but is still less than <span class="emphasis"><em>F</em></span><sub>fmax</sub>, the
+      block will remain static and <span class="emphasis"><em>F</em></span><sub>f</sub> will be equal in
+      magnitude to the applied force. The block is in static equilibrium. When the applied force
+      becomes greater than <span class="emphasis"><em>F</em></span><sub>fmax</sub>, the frictional force
+      can no longer impede the block’s motion and the block will accelerate under the influence of
+      the applied force. Immediately after the block starts its motion, the frictional force will
+      decrease from <span class="emphasis"><em>F</em></span><sub>fmax</sub> to
+        <span class="emphasis"><em>F</em></span><sub>fk</sub>, where
+        <span class="emphasis"><em>F</em></span><sub>fk</sub> is:</p><table style="border: 0; " class="simplelist"><tr><td>F<sub>fk</sub> = µ<sub>k</sub> N</td></tr></table><p>Here <span class="emphasis"><em>k</em></span> means kinetic since the block is in motion, <a id="I_indexterm3_id303886" class="indexterm"/><a id="I_indexterm3_id303892" class="indexterm"/>and µ<sub>k</sub>, the coefficient of kinetic friction,<sup>[<a id="CHP-3-FN-2" href="#ftn.CHP-3-FN-2" epub:type="noteref" class="footnote">10</a>]</sup> is less than µ<sub>s</sub>. Like the static coefficient of friction,
+      the kinetic coefficient of friction is determined experimentally. <a class="xref" href="ch03.html#coefficients_of_friction_of_common_surfa" title="Table 3-1. Coefficients of friction of common surfaces">Table 3-1</a> shows typical coefficients of friction
+      for several surfaces in contact.</p><div class="table"><a id="coefficients_of_friction_of_common_surfa"/><div class="table-title">Table 3-1. Coefficients of friction of common surfaces</div><div class="table-contents"><table style="border-collapse: collapse; border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; "><colgroup><col class="col1"/><col class="col2"/><col class="col3"/><col class="col4"/></colgroup><thead><tr><td style="text-align: left; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>Surface condition</p>
+            </td><td style="text-align: left; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>Μ<sub>s</sub></p>
+            </td><td style="text-align: left; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>Μ<sub>u</sub></p>
+            </td><td style="text-align: left; vertical-align: bottom; border-bottom: 0.5pt solid ; ">
+              <p>% difference</p>
+            </td></tr></thead><tbody><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>Dry glass on glass</p>
+            </td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>0.94</p>
+            </td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>0.4</p>
+            </td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; ">
+              <p>54%</p>
+            </td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>Dry iron on iron</p>
+            </td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>1.1</p>
+            </td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>0.15</p>
+            </td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; ">
+              <p>86%</p>
+            </td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>Dry rubber on pavement</p>
+            </td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>0.55</p>
+            </td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>0.4</p>
+            </td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; ">
+              <p>27%</p>
+            </td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>Dry steel on steel</p>
+            </td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>0.78</p>
+            </td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>0.42</p>
+            </td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; ">
+              <p>46%</p>
+            </td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>Dry Teflon on Teflon</p>
+            </td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>0.04</p>
+            </td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>0.04</p>
+            </td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; ">
+              <p>—</p>
+            </td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>Dry wood on wood</p>
+            </td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>0.38</p>
+            </td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>0.2</p>
+            </td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; ">
+              <p>47%</p>
+            </td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>Ice on ice</p>
+            </td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>0.1</p>
+            </td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>0.03</p>
+            </td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; ">
+              <p>70%</p>
+            </td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; ">
+              <p>Oiled steel on steel</p>
+            </td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; ">
+              <p>0.10</p>
+            </td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; ">
+              <p>0.08</p>
+            </td><td style="text-align: left; vertical-align: top; ">
+              <p>20%</p>
+            </td></tr></tbody></table></div></div><p>The data in <a class="xref" href="ch03.html#coefficients_of_friction_of_common_surfa" title="Table 3-1. Coefficients of friction of common surfaces">Table 3-1</a> is provided here to
+      show you the magnitude of some typical friction coefficients and the relative difference
+      between the static and kinetic coefficients for certain surface conditions. Other data is
+      available for these and other surface conditions in the technical literature (see the <a class="link" href="apd.html" title="Appendix D. Bibliography">Bibliography</a> for sources). Note that experimentally determined
+      friction coefficient data will vary, even for the same surface conditions, depending on the
+      specific condition of the material used in the experiments and the execution of the <a id="I_indexterm3_id304475" class="indexterm"/><a id="I_indexterm3_id304485" class="indexterm"/>experiment itself.</p></div><div class="sect1" title="Fluid Dynamic Drag"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="fluid_dynamic_drag">Fluid Dynamic Drag</h2></div></div></div><p>Fluid dynamic <a id="I_indexterm3_id304509" class="indexterm"/><a id="I_indexterm3_id304519" class="indexterm"/><a id="I_indexterm3_id304529" class="indexterm"/>drag forces oppose motion like friction. In fact, a major component of fluid
+      dynamic drag is friction that results from the relative flow of the fluid over (and in contact
+      with) the body’s surface. Friction is not the only component of fluid dynamic drag, though.
+      Depending on the shape of the body, its speed, and the nature of the fluid, fluid dynamic drag
+      will have additional components due to pressure variations in the fluid as it flows around the
+      body. If the body is located at the interface between two fluids (like a ship on the ocean
+      where the two fluids are air and water), an additional component of drag will exist due to the
+      wave generation.</p><p>In general, fluid dynamic drag is a complicated phenomenon that is a function of several
+      factors. We won’t go into detail in this section on all these factors, since we’ll revisit
+      this subject later. However, we do want to discuss how <a id="I_indexterm3_id304552" class="indexterm"/>the <span class="emphasis"><em>viscous</em></span> (frictional) component of these drag forces is
+      typically idealized.</p><p>Ideal viscous drag is a function of velocity and some experimentally <a id="I_indexterm3_id304570" class="indexterm"/><a id="I_indexterm3_id304580" class="indexterm"/>determined <span class="emphasis"><em>drag coefficient</em></span> that’s supposed to take into
+      account the surface conditions of the body, the fluid properties (density and viscosity), and
+      the flow conditions. You’ll typically see a formula for viscous drag force in the form:</p><table style="border: 0; " class="simplelist"><tr><td>F<sub>v</sub> = –C<sub>f</sub> v</td></tr></table><p>where <span class="emphasis"><em>C</em></span><sub>f</sub> is the drag coefficient,
+        <span class="emphasis"><em>v</em></span> is the body’s speed, and the minus sign means that the force opposes
+      motion. This formula is valid for slow-moving objects in a viscous fluid. “Slow moving”
+      implies that the <a id="I_indexterm3_id304631" class="indexterm"/><a id="I_indexterm3_id304637" class="indexterm"/>flow around the body is <span class="emphasis"><em>laminar</em></span>, which means that the flow
+      streamlines are undisturbed and parallel.</p><p>For fast-moving objects, you’ll use the formula for
+        <span class="emphasis"><em>F</em></span><sub>v</sub> written as a function of speed squared as
+      follows:</p><table style="border: 0; " class="simplelist"><tr><td>F<sub>v</sub> = –C<sub>f</sub>
+        v<sup>2</sup></td></tr></table><p>“Fast moving” implies that the flow around the <a id="I_indexterm3_id304687" class="indexterm"/><a id="I_indexterm3_id304693" class="indexterm"/>object is <span class="emphasis"><em>turbulent</em></span>, which means that the flow streamlines
+      are no longer parallel and there is a sort of mixing effect in the flow around the object.
+      Note that the values of <span class="emphasis"><em>C</em></span><sub>f</sub> are generally not the
+      same for these two equations. In addition to the factors mentioned earlier,
+        <span class="emphasis"><em>C</em></span><sub>f</sub> depends significantly on whether the flow is
+      laminar or turbulent.</p><p>Both of these equations are very simplified and inadequate for practical analysis of fluid
+      flow problems. However, they do offer certain advantages in computer game simulations. Most
+      obviously, these formulas are easy to implement—you need only know the velocity of the body
+      under consideration, which you get from your kinematic equations, and an assumed value for the
+      drag coefficient. This is convenient, as your game world will typically have many different
+      types of objects of all sizes and shapes that would make rigorous analysis of each of their
+      drag properties impractical. If the illusion of realism is all you need, not real-life
+      accuracy, then these formulas may be sufficient.</p><p>Another advantage of using these idealized formulas is that you can tweak the drag
+      coefficients as you see fit to help reduce numerical instabilities when solving the equations
+      of motion, while maintaining the illusion of realistic behavior. If real-life accuracy is what
+      you’re going for, then you’ll have no choice but to consider a more involved (read:
+      complicated) approach for determining fluid dynamic drag. We’ll talk more about drag in <a class="xref" href="ch06.html" title="Chapter 6. Projectiles">Chapter 6</a> through <a class="xref" href="ch10.html" title="Chapter 10. Implementing Collision Response">Chapter 10</a>.</p></div><div class="sect1" title="Pressure"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="pressure">Pressure</h2></div></div></div><p>Many people confuse <a id="I_indexterm3_id304761" class="indexterm"/><a id="I_indexterm3_id304771" class="indexterm"/>pressure with force. You have probably heard people say, when explaining a
+      phenomenon, something like, “It pushed with a force of 100 pounds per square inch.” While you
+      understand what they mean, they are technically referring to pressure, not force. Pressure is
+      force per unit area, thus the <a id="I_indexterm3_id304785" class="indexterm"/><a id="I_indexterm3_id304797" class="indexterm"/><a id="I_indexterm3_id304804" class="indexterm"/>units <span class="emphasis"><em>pounds per square inch</em></span> (psi) or <span class="emphasis"><em>pounds per
+        square foot</em></span> (psf) <a id="I_indexterm3_id304818" class="indexterm"/><a id="I_indexterm3_id304824" class="indexterm"/>and so on. Given the pressure, you’ll need to know the total area acted on by this
+      pressure in order to determine the resultant force. Force equals pressure times area:</p><table style="border: 0; " class="simplelist"><tr><td>F = PA</td></tr></table><p>This formula tells you that for constant pressure, the greater the area acted upon, the
+      greater the resultant force. If you rearrange this equation solving for pressure, you’ll see
+      that pressure is inversely proportional to area—that is, the greater the area for a given
+      applied force, the smaller the resulting pressure and vice versa.</p><table style="border: 0; " class="simplelist"><tr><td>P = F/A</td></tr></table><p>An important characteristic of pressure is that it always acts normally (perpendicularly)
+      to the surface of the body or object it is acting on. This fact gives you a clue as to the
+      direction of the resultant force vector.</p><p>We wanted to mention pressure here because you’ll be working with it to calculate forces
+      when you get to the chapters in this book that cover the mechanics of ships, boats, and
+      hovercraft. There, the pressures that you’ll consider are <a id="I_indexterm3_id304868" class="indexterm"/><a id="I_indexterm3_id304875" class="indexterm"/>hydrostatic pressure (buoyancy) and aerostatic lift. We’ll take a brief look at
+      buoyancy next.</p></div><div class="sect1" title="Buoyancy"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="buoyancy">Buoyancy</h2></div></div></div><p>You’ve no doubt felt the <a id="fo3.6" class="indexterm"/><a id="bu3.6" class="indexterm"/>effects of buoyancy when immersing yourself in the bathtub. Buoyancy is why you
+      feel lighter in water than you do in air and why some people can float on their backs in a
+      swimming pool.</p><p>Buoyancy is a force that develops when an object is immersed in a fluid. It’s a function
+      of the volume of the object and the density of the fluid and results from the pressure
+      differential between the fluid just above the object and the fluid just below the object.
+      Pressure <a id="I_indexterm3_id304939" class="indexterm"/><a id="I_indexterm3_id304949" class="indexterm"/>increases the deeper you go in a fluid, thus the pressure is greater at the bottom
+      of an object of a given height than it is at the top of the object. Consider the cube shown in
+        <a class="xref" href="ch03.html#immersed_cube" title="Figure 3-2. Immersed cube">Figure 3-2</a>.</p><div class="figure"><a id="immersed_cube"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject3_id304978"/><img src="httpatomoreillycomsourceoreillyimages1598898.png" alt="Immersed cube"/></div></div><div class="figure-title">Figure 3-2. Immersed cube</div></div><p>Let <span class="emphasis"><em>s</em></span> denote the cube’s length, width, and height, which are all
+      equal. Further, let <span class="emphasis"><em>h</em></span><sub>t</sub> denote the depth to the top
+      of the cube and <span class="emphasis"><em>h</em></span><sub>b</sub> the depth to the bottom of the
+      cube. The pressure at the top of the cube is <span class="emphasis"><em>P</em></span><sub>t</sub>
+      <span class="emphasis"><em>=</em></span> ρ <span class="emphasis"><em>g h</em></span><sub>t</sub>, which acts over the
+      entire surface area of the top of the cube, normal to the surface in the downward direction.
+      The pressure at the bottom of the cube is <span class="emphasis"><em>P</em></span><sub>b</sub>
+      <span class="emphasis"><em>=</em></span> ρ <span class="emphasis"><em>g h</em></span><sub>b</sub>, which acts over the
+      entire surface area of the bottom of the cube, normal to the surface in the upward direction.
+      Note that the pressure acting on the sides of the cube increases linearly with submergence,
+      from <span class="emphasis"><em>P</em></span><sub>t</sub> to
+        <span class="emphasis"><em>P</em></span><sub>b</sub>. Also, note that since the side pressure is
+      symmetric, equal and opposite, the net side pressure is 0, which means that the net side force
+      (due to pressure) is also 0. The same is not true of the top and bottom pressures, which are
+      obviously not equal, although they are opposite.</p><p>The force acting down on the top of the cube is equal to the pressure at the top of the
+      cube times the surface area of the top. This can be written as follows:</p><table style="border: 0; " class="simplelist"><tr><td>F<sub>t</sub> = P<sub>t</sub>
+        A<sub>t</sub></td></tr><tr><td>F<sub>t</sub> = (ρ g h<sub>t</sub>)
+          (s<sup>2</sup>)</td></tr></table><p>Similarly, the force acting upward on the bottom of the cube is equal to the pressure at
+      the bottom times the surface area of the bottom.</p><table style="border: 0; " class="simplelist"><tr><td>F<sub>b</sub> = P<sub>b</sub>
+        A<sub>b</sub></td></tr><tr><td>F<sub>b</sub> = (ρ g h<sub>b</sub>)
+          (s<sup>2</sup>)</td></tr></table><p>The net vertical force (buoyancy) equals the difference between the top and bottom
+      forces:</p><table style="border: 0; " class="simplelist"><tr><td>F<sub>B</sub> = F<sub>b</sub> –
+        F<sub>t</sub></td></tr><tr><td>F<sub>B</sub> = (ρ g h<sub>b</sub>)
+          (s<sup>2</sup>) – (ρ g h<sub>t</sub>)
+          (s<sup>2</sup>)</td></tr><tr><td>F<sub>B</sub> = (ρ g) (s<sup>2</sup>)
+          (h<sub>b</sub> – h<sub>t</sub>)</td></tr></table><p>This formula gives the magnitude of the buoyancy force. Its direction is straight up,
+      counteracting the weight of the object.</p><p>There is an important observation we need to make here. Notice that
+        (<span class="emphasis"><em>h</em></span><sub>b</sub>
+      <span class="emphasis"><em>– h</em></span><sub>t</sub>) is simply the height of the cube, which is
+        <span class="emphasis"><em>s</em></span> in this case. Substituting <span class="emphasis"><em>s</em></span> in place of
+        (<span class="emphasis"><em>h</em></span><sub>b</sub>
+      <span class="emphasis"><em>– h</em></span><sub>t</sub>) reveals that the buoyancy force is a
+      function of the volume of the cube.</p><table style="border: 0; " class="simplelist"><tr><td>F<sub>B</sub> = (ρ g) (s<sup>3</sup>)</td></tr></table><p>This is great since it means that all you need to do in order to calculate <a id="I_indexterm3_id305275" class="indexterm"/>buoyancy is to first calculate the volume of the object and then multiply that
+      volume by the specific <a id="I_indexterm3_id305287" class="indexterm"/>weight<sup>[<a id="CHP-3-FN-3" href="#ftn.CHP-3-FN-3" epub:type="noteref" class="footnote">11</a>]</sup> (ρ <span class="emphasis"><em>g</em></span>) of the fluid. In truth, that’s a little easier said
+      than done for all but the simplest geometries. If you’re dealing with spheres, cubes,
+      cylinders, and the like, then calculating volume is easy. However, if you’re dealing with any
+      arbitrary geometry, then the volume calculation becomes more difficult. There are two ways to
+      handle this difficulty. The first way is to simply divide the object into a number of smaller
+      objects of simpler geometry, calculate their volumes, and then add them all up. The second way
+      is to use numerical integration techniques to calculate volume by integrating over the surface
+      of the object.</p><p>You should also note that buoyancy is a function of fluid density, and you don’t have to
+      be in a fluid as dense as water to experience the force of buoyancy. In fact, there are
+      buoyant forces acting on you right now, although they are very small, due to the fact that you
+      are immersed in air. Water is many times more dense than air, which is why you notice the
+      force of buoyancy when in water and not in air. Keep in mind, though, that for very light
+      objects with relatively large volumes, the buoyant forces in air may be significant. For
+      example, consider simulating a large <a id="I_indexterm3_id305332" class="indexterm"/><a id="I_indexterm3_id305341" class="indexterm"/>balloon.</p></div><div class="sect1" title="Springs and Dampers"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="springs_and_dampers">Springs and Dampers</h2></div></div></div><p>Springs are <a id="I_indexterm3_id305365" class="indexterm"/><a id="I_indexterm3_id305375" class="indexterm"/>structural elements that, when connected between two objects, apply equal and
+      opposite forces to each object. This spring force follows <a id="I_indexterm3_id305388" class="indexterm"/>Hooke’s law and is a function of the stretched or compressed length of the spring
+      relative to the rest length of the spring and the spring constant of the spring. Hooke’s law
+      states that the amount of stretch or compression is directly proportional to the force being
+      applied. The spring <a id="I_indexterm3_id305397" class="indexterm"/>constant is a quantity that relates the force exerted by the spring to its
+      deflection:</p><table style="border: 0; " class="simplelist"><tr><td>F<sub>s</sub> = k<sub>s</sub> (L – r)</td></tr></table><p>Here, <span class="emphasis"><em>F</em></span><sub>s</sub> is the spring force,
+        <span class="emphasis"><em>k</em></span><sub>s</sub> is the spring constant,
+        <span class="emphasis"><em>L</em></span> is the stretched or compressed length of the spring, and
+        <span class="emphasis"><em>r</em></span> is the rest length of the spring. In the metric system of units,
+        <span class="emphasis"><em>F</em></span><sub>s</sub> would be measured in newtons (1 N = 1
+        kg-m/s<sup>2</sup>), <span class="emphasis"><em>L</em></span> and <span class="emphasis"><em>r</em></span> in
+      meters, and <span class="emphasis"><em>k</em></span><sub>s</sub> in
+      kg/s<sup>2</sup>. If the spring is connected between two objects, it exerts a
+      force of <span class="emphasis"><em>F</em></span><sub>s</sub> on one object and
+        –<span class="emphasis"><em>F</em></span><sub>s</sub> on the other; these<a id="I_indexterm3_id305492" class="indexterm"/><a id="I_indexterm3_id305502" class="indexterm"/><a id="I_indexterm3_id305511" class="indexterm"/> are <span class="emphasis"><em>equal and opposite</em></span> forces.</p><p>Dampers are usually <a id="I_indexterm3_id305523" class="indexterm"/>used in conjunction with springs in numerical simulations. They act like viscous
+      drag in that they act against velocity. In this case, if the damper is connected between two
+      objects that are moving toward or away from each other, the damper acts to slow the relative
+      velocity between the two objects. The force developed by a damper is proportional to the
+      relative velocity of the connected objects and a damping constant,
+        <span class="emphasis"><em>k</em></span><sub>d</sub>, that relates relative velocity to damping
+      force.</p><table style="border: 0; " class="simplelist"><tr><td>F<sub>d</sub> = k<sub>d</sub> (v<sub>1</sub> –
+          v<sub>2</sub>)</td></tr></table><p>This equation shows the <a id="I_indexterm3_id305573" class="indexterm"/>damping force, <span class="emphasis"><em>F</em></span><sub>d</sub>, as a function of
+      the damping constant and the relative velocity of the connected points on the two connected
+      bodies. In metric units, where the damping force is measured in newtons and velocity in m/s,
+        <span class="emphasis"><em>k</em></span><sub>d</sub> has units of kg/s.</p><p>Typically, springs and dampers are combined into a single spring-damper element, where a
+      single formula represents the combined force. Using vector notation, we can write the formula
+      for a <a id="I_indexterm3_id305603" class="indexterm"/>spring-damper element connecting two bodies as follows:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>F</strong></span><sub>1</sub> =
+          –{k<sub>s</sub> (L – r) + k<sub>d</sub> ((<span class="strong"><strong>v</strong></span><sub>1</sub> – <span class="strong"><strong>v</strong></span><sub>2</sub>) • <span class="strong"><strong>L</strong></span>)/L}
+          <span class="strong"><strong>L</strong></span>/L</td></tr></table><p>Here, <span class="strong"><strong>F</strong></span><sub>1</sub> is the force exerted on
+      body 1, while the force, <span class="strong"><strong>F</strong></span><sub>2</sub>, exerted
+      on body 2 is:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>F</strong></span><sub>2</sub> = –<span class="strong"><strong>F</strong></span><sub>1</sub></td></tr></table><p><span class="strong"><strong>L</strong></span> is the length of the spring-damper
+        (<span class="emphasis"><em>L</em></span>, not in bold print, is the magnitude of the vector <span class="strong"><strong>L</strong></span>), which is equal to the vector difference in position between the
+      connected points on bodies 1 and 2. If the connected objects are particles, then <span class="strong"><strong>L</strong></span> is equal to the position of body 1 minus the position of body 2.
+      Similarly, <span class="strong"><strong>v</strong></span><sub>1</sub> and <span class="strong"><strong>v</strong></span><sub>2</sub> are the velocities of the connected
+      points on bodies 1 and 2. The quantity (<span class="strong"><strong>v</strong></span><sub>1</sub> – <span class="strong"><strong>v</strong></span><sub>2</sub>) represents the relative velocity between the
+      connected bodies.</p><p>Springs and dampers are useful when you want to <a id="I_indexterm3_id305773" class="indexterm"/><a id="I_indexterm3_id305785" class="indexterm"/><a id="I_indexterm3_id305795" class="indexterm"/>simulate collections of connected particles or rigid bodies. The spring force
+      provides the structure, or glue, that holds the bodies together (or keeps them separated by a
+      certain distance), while the damper helps smooth out the motion between the connected bodies
+      so it’s not too jerky or springy. These dampers are also very important from a numerical
+      stability point of view in that they help keep your simulations from blowing up. We’re getting
+      a little ahead of ourselves here, but we’ll show you how to use these spring-dampers in
+      real-time simulations in <a class="xref" href="ch13.html" title="Chapter 13. Connecting Objects">Chapter 13</a>.</p></div><div class="sect1" title="Force and Torque"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="force_and_torque">Force and Torque</h2></div></div></div><p>We need to make the <a id="fo3.8" class="indexterm"/><a id="to3.8" class="indexterm"/>distinction here between force and torque.<sup>[<a id="CHP-3-FN-4" href="#ftn.CHP-3-FN-4" epub:type="noteref" class="footnote">12</a>]</sup> Force is what causes <a id="I_indexterm3_id305877" class="indexterm"/><a id="I_indexterm3_id305887" class="indexterm"/><a id="I_indexterm3_id305897" class="indexterm"/><a id="I_indexterm3_id305907" class="indexterm"/><a id="I_indexterm3_id305917" class="indexterm"/><a id="I_indexterm3_id305926" class="indexterm"/>linear acceleration, while <a id="I_indexterm3_id305934" class="indexterm"/>torque is what causes rotational acceleration. Torque is force times distance.
+      Specifically, to calculate the <a id="I_indexterm3_id305946" class="indexterm"/>torque applied by a force acting on an object, you need to calculate the
+      perpendicular distance from the axis of rotation to the line of action of the force and then
+      multiply this distance by the magnitude of the force.</p><p>This calculation gives the magnitude of the torque. Typical units for force are pounds,
+      newtons, and tons. Since torque is force times a distance, its units take the form of a length
+      unit times a force unit (e.g., foot-pounds, newton-meters, or foot-tons).</p><p>Since both force and torque are vector quantities, you must also determine the direction
+      of the torque vector. The force vector is easy to visualize: its line of action passes through
+      the point of application of the force, with its direction determined by the direction in which
+      the force is applied. As a vector, the torque’s line of action is along the axis of rotation,
+      with the direction determined by the <a id="I_indexterm3_id305973" class="indexterm"/>direction of rotation and <a id="I_indexterm3_id305986" class="indexterm"/>the <span class="emphasis"><em>right hand rule</em></span> (see <a class="xref" href="ch03.html#force_and_torque-id1" title="Figure 3-3. Force and torque">Figure 3-3</a>). As noted in <a class="xref" href="ch02.html" title="Chapter 2. Kinematics">Chapter 2</a>, the right hand rule is a simple trick to help
+      you keep track of vector directions—in this case, the torque vector. Pretend to curl the
+      fingers of your right hand around the axis of rotation with your fingertips pointing in the
+      direction of rotation. Now extend your thumb, as though you are giving a thumbs up, while
+      keeping your fingers curled around the axis. The direction that your thumb is pointing
+      indicates the direction of the torque vector. Note that this makes the torque vector
+      perpendicular to the applied force vector, as shown in <a class="xref" href="ch03.html#force_and_torque-id1" title="Figure 3-3. Force and torque">Figure 3-3</a>.</p><div class="figure"><a id="force_and_torque-id1"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject3_id306026"/><img src="httpatomoreillycomsourceoreillyimages1598899.png" alt="Force and torque"/></div></div><div class="figure-title">Figure 3-3. Force and torque</div></div><p>We said earlier that you find the magnitude of <a id="I_indexterm3_id306047" class="indexterm"/><a id="I_indexterm3_id306057" class="indexterm"/>torque by multiplying the magnitude of the applied force times the perpendicular
+      distance between the axis of rotation and the line of action of the force. This calculation is
+      easy to perform in two dimensions where the perpendicular distance (<span class="emphasis"><em>d</em></span> in
+        <a class="xref" href="ch03.html#force_and_torque-id1" title="Figure 3-3. Force and torque">Figure 3-3</a>) is readily calculable.</p><p>However, in three dimensions you’ll want to be able to calculate torque by knowing only
+      the force vector and the coordinates of its point of application on the body relative to the
+      axis of rotation. You can accomplish this by using the following formula:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>M</strong></span> = <span class="strong"><strong>r</strong></span> ×
+          <span class="strong"><strong>F</strong></span></td></tr></table><p>The torque, <span class="strong"><strong>M</strong></span>, is the vector cross product of the
+      position vector, <span class="strong"><strong>r</strong></span>, and the force vector, <span class="strong"><strong>F</strong></span>.</p><p>In rectangular coordinates you can write the distance, force, and torque vectors as
+      follows:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>r</strong></span> = x <span class="strong"><strong>i</strong></span> + y
+          <span class="strong"><strong>j</strong></span> + z <span class="strong"><strong>k</strong></span></td></tr><tr><td><span class="strong"><strong>F</strong></span> = F<sub>x</sub>
+        <span class="strong"><strong>i</strong></span> + F<sub>y</sub>
+        <span class="strong"><strong>j</strong></span> + F<sub>z</sub>
+        <span class="strong"><strong>k</strong></span></td></tr><tr><td><span class="strong"><strong>M</strong></span> = M<sub>x</sub>
+        <span class="strong"><strong>i</strong></span> + M<sub>y</sub>
+        <span class="strong"><strong>j</strong></span> + M<sub>z</sub>
+        <span class="strong"><strong>k</strong></span></td></tr></table><p>The scalar components of <span class="strong"><strong>r</strong></span> (<span class="emphasis"><em>x</em></span>,
+        <span class="emphasis"><em>y</em></span>, and <span class="emphasis"><em>z</em></span>) are the coordinate distances from the
+      axis of rotation to the point of application of the force, <span class="strong"><strong>F</strong></span>. The scalar components of the torque vector, <span class="strong"><strong>M</strong></span>, are defined by the following:</p><table style="border: 0; " class="simplelist"><tr><td>M<sub>x</sub> = y F<sub>z</sub> – z
+        F<sub>y</sub></td></tr><tr><td>M<sub>y</sub> = z F<sub>x</sub> – x
+        F<sub>z</sub></td></tr><tr><td>M<sub>z</sub> = x F<sub>y</sub> – y
+        F<sub>x</sub></td></tr></table><p>Consider the rigid body shown in <a class="xref" href="ch03.html#torque_example" title="Figure 3-4. Torque example">Figure 3-4</a> acted upon by the force
+        <span class="strong"><strong>F</strong></span> at a point away from the body’s center of mass.</p><div class="figure"><a id="torque_example"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject3_id306350"/><img src="httpatomoreillycomsourceoreillyimages1598900.png" alt="Torque example"/></div></div><div class="figure-title">Figure 3-4. Torque example</div></div><p>In this example <span class="strong"><strong>F</strong></span>, <span class="emphasis"><em>a</em></span>, and
+        <span class="emphasis"><em>b</em></span> are given and are as follows:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>F</strong></span> = (−90 lbs) <span class="strong"><strong>i</strong></span>
+        + (156 lbs) <span class="strong"><strong>j</strong></span> + (0) <span class="strong"><strong>k</strong></span></td></tr><tr><td>a = 0.66 ft</td></tr><tr><td>b = 0.525 ft</td></tr></table><p>Calculate the torque about the body’s center of mass due to the force <span class="strong"><strong>F</strong></span>.</p><p>The first step is to put together the distance vector from the point of application of
+        <span class="strong"><strong>F</strong></span> to the body’s center of mass. Since the local
+      coordinates <span class="emphasis"><em>a</em></span> and <span class="emphasis"><em>b</em></span> are given, <span class="strong"><strong>r</strong></span> is simply:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>r</strong></span> = (0.66 ft) <span class="strong"><strong>i</strong></span>
+        + (0.525 ft) <span class="strong"><strong>j</strong></span> + (0) <span class="strong"><strong>k</strong></span></td></tr></table><p>Now using the formula <span class="strong"><strong>M</strong></span> = <span class="strong"><strong>r</strong></span> × <span class="strong"><strong>F</strong></span> (or the formulas for the components of
+      the torque vector shown earlier), you can write:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>M</strong></span> = [(0.66 ft) <span class="strong"><strong>i</strong></span>
+        + (0.525 ft) <span class="strong"><strong>j</strong></span> + (0) <span class="strong"><strong>k</strong></span>] × [(−90 lbs) <span class="strong"><strong>i</strong></span> + (156 lbs) <span class="strong"><strong>j</strong></span> + (0) <span class="strong"><strong>k</strong></span>]</td></tr><tr><td><span class="strong"><strong>M</strong></span> = [(0.66 ft) (156 lbs) – (0.525 ft) (−90 lbs)]
+          <span class="strong"><strong>k</strong></span></td></tr><tr><td><span class="strong"><strong>M</strong></span> = (150.2 ft-lbs) <span class="strong"><strong>k</strong></span></td></tr></table><p>Note that the <span class="emphasis"><em>x</em></span> and <span class="emphasis"><em>y</em></span> components of the torque
+      vector are 0; thus, the torque moment is pointing directly along the z-axis. The torque vector
+      would be pointing out of the page of this book in this case.</p><p>In dynamics you need to consider the sum, or total, of all forces acting on an object
+      separately from the sum of all torques acting on a body. When summing forces, you simply add,
+      vectorally, all of the forces without regard to their point of application. However, when
+      summing torques you must take into account the point of application of the forces to calculate
+      the torques, as shown in the previous example. Then you can take the vector sum of all torques
+      acting on the body.</p><p>When you are considering rigid bodies that are not physically constrained to rotate about
+      a fixed axis, any force acting through <a id="I_indexterm3_id306615" class="indexterm"/>the body’s center of mass will not produce a torque on the body about its center
+      of gravity. In this case, the axis of rotation passes through the center of mass of the body
+      and the vector <span class="strong"><strong>r</strong></span> would be 0 (all components 0). When a
+      force acts through a point on the body some distance away from its center of mass, a torque on
+      the body will develop, and the angular motion of the body will be affected. Generally, <a id="I_indexterm3_id306636" class="indexterm"/><a id="I_indexterm3_id306646" class="indexterm"/>field forces, which are forces at a distance, are assumed to act through a body’s
+      center of mass; thus, only the body’s linear motion will be affected unless the body is
+      constrained to rotate about a fixed point. Other contact forces, however, generally do not act
+      through a body’s center of mass (they could but aren’t necessarily assumed to) and tend to
+      affect the body’s angular motion as well as its <a id="I_indexterm3_id306660" class="indexterm"/><a id="I_indexterm3_id306668" class="indexterm"/>linear motion.</p></div><div class="sect1" title="Summary"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="summary">Summary</h2></div></div></div><p>As we said earlier, this chapter on forces is your bridge from kinematics to kinetics.
+      Here you’ve looked at the major force categories—contact forces and force fields—and some
+      important specific types of forces. This chapter was meant to give you enough theoretical
+      background on forces so you can fully appreciate the subject of kinetics that’s covered in the
+      next chapter. In <a class="xref" href="ch15.html" title="Chapter 15. Aircraft">Chapter 15</a> through <a class="xref" href="ch19.html" title="Chapter 19. Sports">Chapter 19</a>, you’ll revisit the subject of forces from a
+      much more practical point of view when we investigate specific real-life problems. We’ll also
+      introduce some new specific types of force in those chapters that we didn’t cover here.</p></div><div class="footnotes" epub:type="footnotes"><br/><hr style="width: 100; align: left;"/><div class="footnote" epub:type="footnote" id="ftn.CHP-3-FN-1"><p><sup>[<a href="#CHP-3-FN-1" class="para">9</a>] </sup><span class="emphasis"><em>Static</em></span> here implies that there is no motion; the block is sitting
+          still with all forces balancing.</p></div><div class="footnote" epub:type="footnote" id="ftn.CHP-3-FN-2"><p><sup>[<a href="#CHP-3-FN-2" class="para">10</a>] </sup>The term <span class="emphasis"><em>dynamic</em></span> is sometimes used here instead of
+            <span class="emphasis"><em>kinetic</em></span>.</p></div><div class="footnote" epub:type="footnote" id="ftn.CHP-3-FN-3"><p><sup>[<a href="#CHP-3-FN-3" class="para">11</a>] </sup>Specific weight is density times the acceleration due to gravity. Typical units are
+            lbs/ft<sup>3</sup> and N/m<sup>3</sup>.</p></div><div class="footnote" epub:type="footnote" id="ftn.CHP-3-FN-4"><p><sup>[<a href="#CHP-3-FN-4" class="para">12</a>] </sup>Another common term for torque is <span class="emphasis"><em>moment</em></span>.</p></div></div></section></body></html>

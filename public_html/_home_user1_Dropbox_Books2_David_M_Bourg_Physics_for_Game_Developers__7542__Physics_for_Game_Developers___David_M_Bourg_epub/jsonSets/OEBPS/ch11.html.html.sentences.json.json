@@ -1,0 +1,3060 @@
+[
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 0
+	},
+	{
+		"index": 2,
+		"txt": "Chapter 11. Rotation in 3D Rigid Body Simulators",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 11_ Rotation_in_3D_Rigid_Bo__3D_Rigid_Body_Simulators____.wav",
+		"duration": 1.56,
+		"sentenceIndex": 6467,
+		"timestamp": 0.5
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 2.06
+	},
+	{
+		"index": 3,
+		"txt": "A fundamental difference between",
+		"file": "/home/user1/trash/dirOutputSet/_100_A_fundamental_difference_between_mental_difference_between____.wav",
+		"duration": 0.69,
+		"sentenceIndex": 6468,
+		"timestamp": 2.56
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 3.25
+	},
+	{
+		"index": 7,
+		"txt": "particles and rigid bodies is that we cannot ignore rotation of rigid bodies.",
+		"file": "/home/user1/trash/dirOutputSet/_100_particles_and_rigid_bodies_is_that__rotation_of_rigid_bodies_____.wav",
+		"duration": 1.63,
+		"sentenceIndex": 6472,
+		"timestamp": 3.75
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 5.38
+	},
+	{
+		"index": 8,
+		"txt": "This applies to both 2D and 3D rigid bodies.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_applies_to_both_2D_and_3D_rigi_h_2D_and_3D_rigid_bodies_____.wav",
+		"duration": 1.15,
+		"sentenceIndex": 6473,
+		"timestamp": 5.88
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 7.029999999999999
+	},
+	{
+		"index": 9,
+		"txt": "In two dimensions, it's quite easy to express the",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_two_dimensions__it_s_quite_easy__quite_easy_to_express_the____.wav",
+		"duration": 1.06,
+		"sentenceIndex": 6474,
+		"timestamp": 7.529999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 8.59
+	},
+	{
+		"index": 10,
+		"txt": "orientation of a rigid body; you need only a single scalar to represent the body's rotation about a single axis.",
+		"file": "/home/user1/trash/dirOutputSet/_100_orientation_of_a_rigid_body__you_ne_tion_about_a_single_axis_____.wav",
+		"duration": 2.43,
+		"sentenceIndex": 6475,
+		"timestamp": 9.09
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 11.52
+	},
+	{
+		"index": 11,
+		"txt": "In three dimensions, however, there are three primary coordinate axes about each of which a rigid body may rotate.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_three_dimensions__however__there__a_rigid_body_may_rotate_____.wav",
+		"duration": 2.39,
+		"sentenceIndex": 6476,
+		"timestamp": 12.02
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 14.41
+	},
+	{
+		"index": 12,
+		"txt": "Moreover, a rigid body in three dimensions may rotate about any arbitrary axis, not necessarily one of the coordinate axes.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Moreover__a_rigid_body_in_three_dim_e_of_the_coordinate_axes_____.wav",
+		"duration": 2.86,
+		"sentenceIndex": 6477,
+		"timestamp": 14.91
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 17.77
+	},
+	{
+		"index": 15,
+		"txt": "In two dimensions, we say that a rigid body has only one rotational degree of freedom, whereas in three dimensions we say that a rigid body has three rotational",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_two_dimensions__we_say_that_a_ri_body_has_three_rotational____.wav",
+		"duration": 3.34,
+		"sentenceIndex": 6480,
+		"timestamp": 18.27
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 21.61
+	},
+	{
+		"index": 16,
+		"txt": "degrees of freedom.",
+		"file": "/home/user1/trash/dirOutputSet/_100_degrees_of_freedom__degrees_of_freedom_____.wav",
+		"duration": 0.43,
+		"sentenceIndex": 6481,
+		"timestamp": 22.11
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 22.54
+	},
+	{
+		"index": 17,
+		"txt": "This may lead you to infer that in three dimensions, you must have three scalar quantities to represent a body's rotation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_may_lead_you_to_infer_that_in__resent_a_body_s_rotation_____.wav",
+		"duration": 2.49,
+		"sentenceIndex": 6482,
+		"timestamp": 23.04
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 25.53
+	},
+	{
+		"index": 18,
+		"txt": "Indeed, this is a minimum requirement, and you're probably already familiar with a set of angles that represent the orientation of a rigid body in 3D namely, the three",
+		"file": "/home/user1/trash/dirOutputSet/_100_Indeed__this_is_a_minimum_requireme_y_in_3D_namely__the_three____.wav",
+		"duration": 3.66,
+		"sentenceIndex": 6483,
+		"timestamp": 26.03
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 29.69
+	},
+	{
+		"index": 19,
+		"txt": "Euler angles (roll, pitch, and yaw) that we'll talk about in",
+		"file": "/home/user1/trash/dirOutputSet/_100_Euler_angles__roll__pitch__and_yaw___that_we_ll_talk_about_in____.wav",
+		"duration": 1.55,
+		"sentenceIndex": 6484,
+		"timestamp": 30.19
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 31.740000000000002
+	},
+	{
+		"index": 21,
+		"txt": "Chapter 15 .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 15___Chapter 15______.wav",
+		"duration": 0.43,
+		"sentenceIndex": 6486,
+		"timestamp": 32.24
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 32.67
+	},
+	{
+		"index": 23,
+		"txt": "These three angles roll, pitch, and yaw are very intuitive and easy for us to visualize.",
+		"file": "/home/user1/trash/dirOutputSet/_100_These_three_angles_roll__pitch__and_easy_for_us_to_visualize_____.wav",
+		"duration": 2.02,
+		"sentenceIndex": 6488,
+		"timestamp": 33.17
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 35.190000000000005
+	},
+	{
+		"index": 24,
+		"txt": "For example, in an airplane the nose",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_example__in_an_airplane_the_nos___in_an_airplane_the_nose____.wav",
+		"duration": 0.91,
+		"sentenceIndex": 6489,
+		"timestamp": 35.690000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 36.6
+	},
+	{
+		"index": 26,
+		"txt": "pitches up or down, the plane",
+		"file": "/home/user1/trash/dirOutputSet/_100_pitches_up_or_down__the_plane_hes_up_or_down__the_plane____.wav",
+		"duration": 0.75,
+		"sentenceIndex": 6491,
+		"timestamp": 37.1
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 37.85
+	},
+	{
+		"index": 27,
+		"txt": "rolls (or banks) left or right, and the",
+		"file": "/home/user1/trash/dirOutputSet/_100_rolls__or_banks__left_or_right__and_s__left_or_right__and_the____.wav",
+		"duration": 1.13,
+		"sentenceIndex": 6492,
+		"timestamp": 38.35
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 39.480000000000004
+	},
+	{
+		"index": 30,
+		"txt": "yaw (or heading) changes to the left or right.",
+		"file": "/home/user1/trash/dirOutputSet/_100_yaw__or_heading__changes_to_the_lef_ges_to_the_left_or_right_____.wav",
+		"duration": 1.06,
+		"sentenceIndex": 6495,
+		"timestamp": 39.980000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 41.040000000000006
+	},
+	{
+		"index": 31,
+		"txt": "Unfortunately, there's a problem with using these three Euler angles in rigid body simulations.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Unfortunately__there_s_a_problem_wi_n_rigid_body_simulations_____.wav",
+		"duration": 2,
+		"sentenceIndex": 6496,
+		"timestamp": 41.540000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 43.540000000000006
+	},
+	{
+		"index": 32,
+		"txt": "The problem is a numerical one that occurs when the pitch angle reaches plus or minus 90 degrees (π/2).",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_problem_is_a_numerical_one_that_r_minus_90_degrees____2______.wav",
+		"duration": 2.87,
+		"sentenceIndex": 6497,
+		"timestamp": 44.040000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 46.910000000000004
+	},
+	{
+		"index": 33,
+		"txt": "When this happens, roll and yaw become ambiguous.",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_this_happens__roll_and_yaw_bec_and_yaw_become_ambiguous_____.wav",
+		"duration": 1.14,
+		"sentenceIndex": 6498,
+		"timestamp": 47.410000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 48.550000000000004
+	},
+	{
+		"index": 34,
+		"txt": "Worse yet, the angular equations of motion written in terms of Euler angles contain terms involving the cosine of the pitch angle in the denominator, which means that when the pitch angle is plus or minus 90 degrees the equations become singular (i.e., there's division by 0).",
+		"file": "/home/user1/trash/dirOutputSet/_100_Worse_yet__the_angular_equations_of___there_s_division_by_0______.wav",
+		"duration": 5.81,
+		"sentenceIndex": 6499,
+		"timestamp": 49.050000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 54.86000000000001
+	},
+	{
+		"index": 35,
+		"txt": "If this happens in your simulation, the results would be unpredictable to say the least.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_this_happens_in_your_simulation__ictable_to_say_the_least_____.wav",
+		"duration": 1.72,
+		"sentenceIndex": 6500,
+		"timestamp": 55.36000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 57.080000000000005
+	},
+	{
+		"index": 36,
+		"txt": "Given this problem with Euler angles, you must use some other means of keeping track of orientation in your simulation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Given_this_problem_with_Euler_angle_ation_in_your_simulation_____.wav",
+		"duration": 2.36,
+		"sentenceIndex": 6501,
+		"timestamp": 57.580000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 59.940000000000005
+	},
+	{
+		"index": 37,
+		"txt": "We'll discuss two such means in this chapter specifically, rotation matrices and quaternions.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ll_discuss_two_such_means_in_thi_matrices_and_quaternions_____.wav",
+		"duration": 2.1,
+		"sentenceIndex": 6502,
+		"timestamp": 60.440000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 62.540000000000006
+	},
+	{
+		"index": 40,
+		"txt": "Virtually every computer graphics book that we've read contains a chapter or section on using rotation matrices.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Virtually_every_computer_graphics_b__using_rotation_matrices_____.wav",
+		"duration": 2.36,
+		"sentenceIndex": 6505,
+		"timestamp": 63.040000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 65.4
+	},
+	{
+		"index": 41,
+		"txt": "Far fewer discuss quaternions, but if you're familiar with quaternions, it's probably in the same context as rotation matrices that is, how they are used to rotate 3D points, objects, scenes, and points of view.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Far_fewer_discuss_quaternions__but__enes__and_points_of_view_____.wav",
+		"duration": 4.98,
+		"sentenceIndex": 6506,
+		"timestamp": 65.9
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 70.88000000000001
+	},
+	{
+		"index": 42,
+		"txt": "In a simulation, however, you need to get a little more out of rotation matrices or quaternions and will use them in a different context than what you might be accustomed to.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_a_simulation__however__you_need__u_might_be_accustomed_to_____.wav",
+		"duration": 3.43,
+		"sentenceIndex": 6507,
+		"timestamp": 71.38000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 74.81000000000002
+	},
+	{
+		"index": 43,
+		"txt": "Specifically, you need to keep track of a body's orientation in space and, moreover, the change in orientation over time.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Specifically__you_need_to_keep_trac_in_orientation_over_time_____.wav",
+		"duration": 2.84,
+		"sentenceIndex": 6508,
+		"timestamp": 75.31000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 78.15000000000002
+	},
+	{
+		"index": 44,
+		"txt": "So it's in this light that we'll discuss rotation matrices and quaternions.",
+		"file": "/home/user1/trash/dirOutputSet/_100_So_it_s_in_this_light_that_we_ll_di_matrices_and_quaternions_____.wav",
+		"duration": 1.57,
+		"sentenceIndex": 6509,
+		"timestamp": 78.65000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 80.22000000000001
+	},
+	{
+		"index": 45,
+		"txt": "We'll try to be as concise as possible so as not to cloud the water with the proofs and derivations that you can find in the texts referred to in the",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ll_try_to_be_as_concise_as_possi__texts_referred_to_in_the____.wav",
+		"duration": 2.92,
+		"sentenceIndex": 6510,
+		"timestamp": 80.72000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 83.64000000000001
+	},
+	{
+		"index": 46,
+		"txt": "Bibliography",
+		"file": "/home/user1/trash/dirOutputSet/_100_Bibliography_Bibliography____.wav",
+		"duration": 0.34,
+		"sentenceIndex": 6511,
+		"timestamp": 84.14000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 84.48000000000002
+	},
+	{
+		"index": 49,
+		"txt": "Rotation Matrices",
+		"file": "/home/user1/trash/dirOutputSet/_100_Rotation_Matrices_Rotation_Matrices____.wav",
+		"duration": 0.5,
+		"sentenceIndex": 6514,
+		"timestamp": 84.98000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 85.48000000000002
+	},
+	{
+		"index": 50,
+		"txt": "A rotation matrix is a 3×3 matrix that,",
+		"file": "/home/user1/trash/dirOutputSet/_100_A_rotation_matrix_is_a_3_3_matrix_t_rix_is_a_3_3_matrix_that_____.wav",
+		"duration": 1.55,
+		"sentenceIndex": 6515,
+		"timestamp": 85.98000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 87.53000000000002
+	},
+	{
+		"index": 52,
+		"txt": "when multiplied with a point or vector, results in the rotation of that point about some axis, yielding a new set of coordinates.",
+		"file": "/home/user1/trash/dirOutputSet/_100_when_multiplied_with_a_point_or_vec_a_new_set_of_coordinates_____.wav",
+		"duration": 2.66,
+		"sentenceIndex": 6517,
+		"timestamp": 88.03000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 90.69000000000001
+	},
+	{
+		"index": 53,
+		"txt": "You can rotate points about axes in one coordinate system or you can use rotation matrices to convert points from one coordinate system to another, where one is rotated relative to the other.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_rotate_points_about_axes_in_ed_relative_to_the_other_____.wav",
+		"duration": 3.87,
+		"sentenceIndex": 6518,
+		"timestamp": 91.19000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 95.06000000000002
+	},
+	{
+		"index": 56,
+		"txt": "Rotating a vector by a rotation matrix is typically written as follows: if v is a vector, and R is a rotation matrix, then v' is v rotated by R according to the formula:v' = R v",
+		"file": "/home/user1/trash/dirOutputSet/_100_Rotating_a_vector_by_a_rotation_mat_g_to_the_formula_v____R_v____.wav",
+		"duration": 4.31,
+		"sentenceIndex": 6521,
+		"timestamp": 95.56000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 99.87000000000002
+	},
+	{
+		"index": 58,
+		"txt": "You can combine multiple rotation matrices reflecting multiple sequential rotations into a single rotation matrix using usual matrix multiplication.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_combine_multiple_rotation_m_al_matrix_multiplication_____.wav",
+		"duration": 3.43,
+		"sentenceIndex": 6523,
+		"timestamp": 100.37000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 103.80000000000003
+	},
+	{
+		"index": 59,
+		"txt": "If the rotation matrices are expressed in terms of fixed, global coordinates, then they are combined as follows:Rc = R1R2",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_the_rotation_matrices_are_expres_ined_as_follows_Rc___R1R2____.wav",
+		"duration": 3.17,
+		"sentenceIndex": 6524,
+		"timestamp": 104.30000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 107.47000000000003
+	},
+	{
+		"index": 61,
+		"txt": "Here Rc is the combined rotation matrix reflecting a rotation first by R1 and then by R2 .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_Rc_is_the_combined_rotation_ma_st_by_R1_and_then_by_R2______.wav",
+		"duration": 2.22,
+		"sentenceIndex": 6526,
+		"timestamp": 107.97000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 110.19000000000003
+	},
+	{
+		"index": 62,
+		"txt": "If the rotation matrices are expressed in terms of rotating, body fixed coordinates, then they are combined in the reverse order as follows:Rc = R2R1",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_the_rotation_matrices_are_expres_rder_as_follows_Rc___R2R1____.wav",
+		"duration": 3.8,
+		"sentenceIndex": 6527,
+		"timestamp": 110.69000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 114.49000000000002
+	},
+	{
+		"index": 64,
+		"txt": "We won't go into the proof of this relation, but the reason it's different depending on how you've defined your rotation matrices is that rotation matrices defined in fixed coordinates are unaffected by the rotation itself since the coordinate axes stay fixed.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_won_t_go_into_the_proof_of_this__ordinate_axes_stay_fixed_____.wav",
+		"duration": 5.23,
+		"sentenceIndex": 6529,
+		"timestamp": 114.99000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 120.22000000000003
+	},
+	{
+		"index": 65,
+		"txt": "On the other hand, if the rotation matrices are defined relative to a coordinate system that is rotating due to sequential application of rotation matrices, then all rotation matrices after the first will be affected since they were first defined relative to the original state of the coordinate system that is, before the first rotation matrix was applied.",
+		"file": "/home/user1/trash/dirOutputSet/_100_On_the_other_hand__if_the_rotation__ation_matrix_was_applied_____.wav",
+		"duration": 7.26,
+		"sentenceIndex": 6530,
+		"timestamp": 120.72000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 127.98000000000003
+	},
+	{
+		"index": 66,
+		"txt": "This means that the subsequent rotation matrices must be corrected to reflect the new system as affected by the previous rotation before they can be correctly applied.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_means_that_the_subsequent_rota_can_be_correctly_applied_____.wav",
+		"duration": 3.26,
+		"sentenceIndex": 6531,
+		"timestamp": 128.48000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 131.74
+	},
+	{
+		"index": 67,
+		"txt": "In other words, you have to rotate R2 by R1 to get a new R2 before applying it.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_other_words__you_have_to_rotate__ew_R2_before_applying_it_____.wav",
+		"duration": 1.86,
+		"sentenceIndex": 6532,
+		"timestamp": 132.24
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 134.10000000000002
+	},
+	{
+		"index": 68,
+		"txt": "All this happens to work out in such a way that you reverse the order of multiplication of rotation matrices when they are defined in a r",
+		"file": "/home/user1/trash/dirOutputSet/_100_All_this_happens_to_work_out_in_suc_n_they_are_defined_in_a_r____.wav",
+		"duration": 2.79,
+		"sentenceIndex": 6533,
+		"timestamp": 134.60000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 137.39000000000001
+	},
+	{
+		"index": 69,
+		"txt": "otating coordinate system.",
+		"file": "/home/user1/trash/dirOutputSet/_100_otating_coordinate_system__tating_coordinate_system_____.wav",
+		"duration": 0.59,
+		"sentenceIndex": 6534,
+		"timestamp": 137.89000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 138.48000000000002
+	},
+	{
+		"index": 72,
+		"txt": "Figure 11 1 shows a right handed coordinate system that illustrates the directions of positive rotation about each coordinate axis.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 11_1_shows_a_right_handed_co_out_each_coordinate_axis_____.wav",
+		"duration": 2.94,
+		"sentenceIndex": 6537,
+		"timestamp": 138.98000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 141.92000000000002
+	},
+	{
+		"index": 78,
+		"txt": "Figure 11 1. Right handed coordinate system",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 11_1_ Right_handed_coordinat__handed_coordinate_system____.wav",
+		"duration": 1.35,
+		"sentenceIndex": 6543,
+		"timestamp": 142.42000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 143.77
+	},
+	{
+		"index": 80,
+		"txt": "Let's consider rotation around the",
+		"file": "/home/user1/trash/dirOutputSet/_100_Let_s_consider_rotation_around_the_sider_rotation_around_the____.wav",
+		"duration": 0.68,
+		"sentenceIndex": 6545,
+		"timestamp": 144.27
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 144.95000000000002
+	},
+	{
+		"index": 81,
+		"txt": "z axis where the point shown in",
+		"file": "/home/user1/trash/dirOutputSet/_100_z_axis_where_the_point_shown_in__where_the_point_shown_in____.wav",
+		"duration": 0.73,
+		"sentenceIndex": 6546,
+		"timestamp": 145.45000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 146.18
+	},
+	{
+		"index": 83,
+		"txt": "Figure 11 2 is rotated through an angle θ.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 11_2_is_rotated_through_an_a_tated_through_an_angle_______.wav",
+		"duration": 1.64,
+		"sentenceIndex": 6548,
+		"timestamp": 146.68
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 148.32
+	},
+	{
+		"index": 89,
+		"txt": "Figure 11 2. Rotation around the z axis",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 11_2_ Rotation_around_the_z__otation_around_the_z_axis____.wav",
+		"duration": 1.39,
+		"sentenceIndex": 6554,
+		"timestamp": 148.82
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 150.20999999999998
+	},
+	{
+		"index": 91,
+		"txt": "The coordinates of the point before the rotation are (x,y,z) and after the rotation the coordinates are (xr, yr, zr ).",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_coordinates_of_the_point_before_inates_are__xr__yr__zr_______.wav",
+		"duration": 3.52,
+		"sentenceIndex": 6556,
+		"timestamp": 150.70999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 154.23
+	},
+	{
+		"index": 92,
+		"txt": "The rotated coordinates are related to the original coordinates and the rotation angle by the following:xr = x cos θ − y sin θyr = x sin θ + y cos θzr = z",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_rotated_coordinates_are_related___x_sin_____y_cos__zr___z____.wav",
+		"duration": 5.75,
+		"sentenceIndex": 6557,
+		"timestamp": 154.73
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 160.48
+	},
+	{
+		"index": 94,
+		"txt": "Notice that since the point is rotating about the z axis, its z coordinate remains unchanged.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Notice_that_since_the_point_is_rota_dinate_remains_unchanged_____.wav",
+		"duration": 2.04,
+		"sentenceIndex": 6559,
+		"timestamp": 160.98
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 163.01999999999998
+	},
+	{
+		"index": 95,
+		"txt": "To write this in the vector matrix notation, v' = R v, let v= [x y z] and let R be the matrix:",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_write_this_in_the_vector_matrix___and_let_R_be_the_matrix_____.wav",
+		"duration": 3.03,
+		"sentenceIndex": 6560,
+		"timestamp": 163.51999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 166.54999999999998
+	},
+	{
+		"index": 100,
+		"txt": "Here v' will be the new, rotated vector, v' = [xryrzr] .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_v__will_be_the_new__rotated_ve_d_vector__v_____xryrzr_______.wav",
+		"duration": 1.63,
+		"sentenceIndex": 6565,
+		"timestamp": 167.04999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 168.67999999999998
+	},
+	{
+		"index": 103,
+		"txt": "Rotation about",
+		"file": "/home/user1/trash/dirOutputSet/_100_Rotation_about_Rotation_about____.wav",
+		"duration": 0.36,
+		"sentenceIndex": 6568,
+		"timestamp": 169.17999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 169.54
+	},
+	{
+		"index": 105,
+		"txt": "the x  and y axes is similar to the z axis; however, in those cases the x and y coordinates remain constant during rotations about each axis, respectively.",
+		"file": "/home/user1/trash/dirOutputSet/_100_the_x__and_y_axes_is_similar_to_the__each_axis__respectively_____.wav",
+		"duration": 3.69,
+		"sentenceIndex": 6570,
+		"timestamp": 170.04
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 173.73
+	},
+	{
+		"index": 106,
+		"txt": "Looking at rotation about each axis separately will yield three rotation matrices similar to the one we just showed you for rotation about the z axis.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Looking_at_rotation_about_each_axis_otation_about_the_z_axis_____.wav",
+		"duration": 3.12,
+		"sentenceIndex": 6571,
+		"timestamp": 174.23
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 177.35
+	},
+	{
+		"index": 109,
+		"txt": "For rotation about the x axis, the matrix is:",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_rotation_about_the_x_axis__the__he_x_axis__the_matrix_is_____.wav",
+		"duration": 1.29,
+		"sentenceIndex": 6574,
+		"timestamp": 177.85
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 179.14
+	},
+	{
+		"index": 114,
+		"txt": "And for rotation about the y axis, the matrix is:",
+		"file": "/home/user1/trash/dirOutputSet/_100_And_for_rotation_about_the_y_axis___he_y_axis__the_matrix_is_____.wav",
+		"duration": 1.31,
+		"sentenceIndex": 6579,
+		"timestamp": 179.64
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 180.95
+	},
+	{
+		"index": 119,
+		"txt": "These are the rotation matrices you typically see in computer graphics texts in the context of matrix transforms, such as translation, scaling, and rotation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_These_are_the_rotation_matrices_you_n__scaling__and_rotation_____.wav",
+		"duration": 3.63,
+		"sentenceIndex": 6584,
+		"timestamp": 181.45
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 185.07999999999998
+	},
+	{
+		"index": 120,
+		"txt": "You can combine all three of these matrices into a single rotation matrix to represent combinations of rotations about each coordinate axis, using matrix multiplication as mentioned earlier.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_combine_all_three_of_these__ion_as_mentioned_earlier_____.wav",
+		"duration": 4.2,
+		"sentenceIndex": 6585,
+		"timestamp": 185.57999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 189.77999999999997
+	},
+	{
+		"index": 123,
+		"txt": "In rigid body simulations, you can use a rotation matrix to represent the",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_rigid_body_simulations__you_can__n_matrix_to_represent_the____.wav",
+		"duration": 1.7,
+		"sentenceIndex": 6588,
+		"timestamp": 190.27999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 191.97999999999996
+	},
+	{
+		"index": 124,
+		"txt": "orientation of a rigid body.",
+		"file": "/home/user1/trash/dirOutputSet/_100_orientation_of_a_rigid_body__entation_of_a_rigid_body_____.wav",
+		"duration": 0.67,
+		"sentenceIndex": 6589,
+		"timestamp": 192.47999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 193.14999999999995
+	},
+	{
+		"index": 125,
+		"txt": "Another way to think of it is the rotation matrix, when applied to the unrotated rigid body aligned with the fixed global coordinate system, will rotate the rigid body's coordinates so as to resemble the body's current orientation at any given time.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Another_way_to_think_of_it_is_the_r_tation_at_any_given_time_____.wav",
+		"duration": 5.04,
+		"sentenceIndex": 6590,
+		"timestamp": 193.64999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 198.68999999999994
+	},
+	{
+		"index": 126,
+		"txt": "This leads to another important consideration when using rotation matrices to keep track of orientation in rigid body simulations: the fact that the rotation matrix will be a function of time.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_leads_to_another_important_con_ll_be_a_function_of_time_____.wav",
+		"duration": 4,
+		"sentenceIndex": 6591,
+		"timestamp": 199.18999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 203.18999999999994
+	},
+	{
+		"index": 129,
+		"txt": "Once you set up your initial rotation matrix for the rigid body, you'll never directly calculate it again from orientation angles; instead, the forces and moments applied to the rigid body will change the body's angular velocity,",
+		"file": "/home/user1/trash/dirOutputSet/_100_Once_you_set_up_your_initial_rotati__body_s_angular_velocity_____.wav",
+		"duration": 4.88,
+		"sentenceIndex": 6594,
+		"timestamp": 203.68999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 208.56999999999994
+	},
+	{
+		"index": 131,
+		"txt": "likewise causing small changes in orientation at each time step throughout the simulation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_likewise_causing_small_changes_in_o_hroughout_the_simulation_____.wav",
+		"duration": 1.82,
+		"sentenceIndex": 6596,
+		"timestamp": 209.06999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 210.88999999999993
+	},
+	{
+		"index": 132,
+		"txt": "Thus, you can see that you must have a means of relating the rotation matrix to angular velocity so that you can update the orientation accordingly.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Thus__you_can_see_that_you_must_hav__orientation_accordingly_____.wav",
+		"duration": 2.99,
+		"sentenceIndex": 6597,
+		"timestamp": 211.38999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 214.37999999999994
+	},
+	{
+		"index": 133,
+		"txt": "The formula you need is as follows:d R / dt = Ω R",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_formula_you_need_is_as_follows__as_follows_d_R___dt_____R____.wav",
+		"duration": 1.92,
+		"sentenceIndex": 6598,
+		"timestamp": 214.87999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 216.79999999999993
+	},
+	{
+		"index": 135,
+		"txt": "Here, Ω is a skew symmetric matrix built from the angular velocity vector components as follows:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here____is_a_skew_symmetric_matrix__or_components_as_follows_____.wav",
+		"duration": 2.67,
+		"sentenceIndex": 6600,
+		"timestamp": 217.29999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 219.9699999999999
+	},
+	{
+		"index": 140,
+		"txt": "Notwithstanding a rigorous proof of this relation, it's easy to see its beauty, which is that you can differentiate the rotation matrix by simply matrix multiplying by the angular velocity (in the form of Ω ).",
+		"file": "/home/user1/trash/dirOutputSet/_100_Notwithstanding_a_rigorous_proof_of_city__in_the_form_of_________.wav",
+		"duration": 4.99,
+		"sentenceIndex": 6605,
+		"timestamp": 220.4699999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 225.45999999999992
+	},
+	{
+		"index": 141,
+		"txt": "In a simulation you'll know your initial rotation matrix, and you'll calculate the angular velocity at each time step; thus, you can easily progress, or integrate, the rotation matrix.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_a_simulation_you_ll_know_your_in_ate__the_rotation_matrix_____.wav",
+		"duration": 4.08,
+		"sentenceIndex": 6606,
+		"timestamp": 225.95999999999992
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 230.03999999999994
+	},
+	{
+		"index": 144,
+		"txt": "You should be able to see here that since you'll only explicitly calculate the rotation matrix once and will update it with a matrix multiply, you won't have to use computationally expensive trigonometric functions during each time step.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_should_be_able_to_see_here_that_ns_during_each_time_step_____.wav",
+		"duration": 4.68,
+		"sentenceIndex": 6609,
+		"timestamp": 230.53999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 235.21999999999994
+	},
+	{
+		"index": 145,
+		"txt": "Further, you avoid the singularity problem mentioned in the introduction to this chapter.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Further__you_avoid_the_singularity__oduction_to_this_chapter_____.wav",
+		"duration": 1.74,
+		"sentenceIndex": 6610,
+		"timestamp": 235.71999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 237.45999999999995
+	},
+	{
+		"index": 148,
+		"txt": "It should also be obvious that you gain these benefits at some price.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_should_also_be_obvious_that_you__e_benefits_at_some_price_____.wav",
+		"duration": 1.35,
+		"sentenceIndex": 6613,
+		"timestamp": 237.95999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 239.30999999999995
+	},
+	{
+		"index": 149,
+		"txt": "First, you have to deal with nine parameters in the rotation matrix (each element in the 3×3 rotation matrix) to represent three angular degrees of freedom.",
+		"file": "/home/user1/trash/dirOutputSet/_100_First__you_have_to_deal_with_nine_p_gular_degrees_of_freedom_____.wav",
+		"duration": 3.94,
+		"sentenceIndex": 6614,
+		"timestamp": 239.80999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 243.74999999999994
+	},
+	{
+		"index": 150,
+		"txt": "Secondly, in order to do that, you need to impose constraints on the rotation matrix; specifically, you need to enforce the constraint that the matrix be orthogonal with a determinant of 1 so that it satisfies the following (each column in the matrix",
+		"file": "/home/user1/trash/dirOutputSet/_100_Secondly__in_order_to_do_that__you__each_column_in_the_matrix____.wav",
+		"duration": 5.28,
+		"sentenceIndex": 6615,
+		"timestamp": 244.24999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 249.52999999999994
+	},
+	{
+		"index": 151,
+		"txt": "represents a unit vector, and they are all at right angles to each other):[",
+		"file": "/home/user1/trash/dirOutputSet/_100_represents_a_unit_vector__and_they__t_angles_to_each_other_______.wav",
+		"duration": 1.49,
+		"sentenceIndex": 6616,
+		"timestamp": 250.02999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 251.51999999999995
+	},
+	{
+		"index": 153,
+		"txt": "20]RTR = I",
+		"file": "/home/user1/trash/dirOutputSet/_100_20_RTR___I_20_RTR___I____.wav",
+		"duration": 0.76,
+		"sentenceIndex": 6618,
+		"timestamp": 252.01999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 252.77999999999994
+	},
+	{
+		"index": 154,
+		"txt": "Here RTis the transpose of R, and I is the identity matrix.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_RTis_the_transpose_of_R__and_I_I_is_the_identity_matrix_____.wav",
+		"duration": 1.37,
+		"sentenceIndex": 6619,
+		"timestamp": 253.27999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 254.64999999999995
+	},
+	{
+		"index": 155,
+		"txt": "Due to numerical errors such as roundoff and truncation, you'll have to enforce this constraint very often in your simulation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Due_to_numerical_errors_such_as_rou_often_in_your_simulation_____.wav",
+		"duration": 2.57,
+		"sentenceIndex": 6620,
+		"timestamp": 255.14999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 257.71999999999997
+	},
+	{
+		"index": 156,
+		"txt": "Otherwise, your rotation matrix will do more than rotate your objects, it may scale or translate them too.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Otherwise__your_rotation_matrix_wil_le_or_translate_them_too_____.wav",
+		"duration": 2.35,
+		"sentenceIndex": 6621,
+		"timestamp": 258.21999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 260.57
+	},
+	{
+		"index": 158,
+		"txt": "Instead of dealing with nine parameters and trying to constrain six degrees of freedom so that only the three you want can be represented, you could take an alternative approach that lets you keep the advantages rotation matrices have to offer, but at a cheaper price.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Instead_of_dealing_with_nine_parame___but_at_a_cheaper_price_____.wav",
+		"duration": 5.13,
+		"sentenceIndex": 6623,
+		"timestamp": 261.07
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 266.2
+	},
+	{
+		"index": 159,
+		"txt": "That alternative, quaternions, is the subject of the next",
+		"file": "/home/user1/trash/dirOutputSet/_100_That_alternative__quaternions__is_t_s_the_subject_of_the_next____.wav",
+		"duration": 1.34,
+		"sentenceIndex": 6624,
+		"timestamp": 266.7
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 268.03999999999996
+	},
+	{
+		"index": 161,
+		"txt": "section.",
+		"file": "/home/user1/trash/dirOutputSet/_100_section__section_____.wav",
+		"duration": 0.24,
+		"sentenceIndex": 6626,
+		"timestamp": 268.53999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 268.78
+	},
+	{
+		"index": 164,
+		"txt": "Quaternions",
+		"file": "/home/user1/trash/dirOutputSet/_100_Quaternions_Quaternions____.wav",
+		"duration": 0.34,
+		"sentenceIndex": 6629,
+		"timestamp": 269.28
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 269.61999999999995
+	},
+	{
+		"index": 166,
+		"txt": "Quaternions are somewhat of a",
+		"file": "/home/user1/trash/dirOutputSet/_100_Quaternions_are_somewhat_of_a_ernions_are_somewhat_of_a____.wav",
+		"duration": 0.71,
+		"sentenceIndex": 6631,
+		"timestamp": 270.11999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 270.8299999999999
+	},
+	{
+		"index": 168,
+		"txt": "mathematical oddity.",
+		"file": "/home/user1/trash/dirOutputSet/_100_mathematical_oddity__mathematical_oddity_____.wav",
+		"duration": 0.52,
+		"sentenceIndex": 6633,
+		"timestamp": 271.3299999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 271.8499999999999
+	},
+	{
+		"index": 169,
+		"txt": "They were developed over 100 years ago by",
+		"file": "/home/user1/trash/dirOutputSet/_100_They_were_developed_over_100_years__ped_over_100_years_ago_by____.wav",
+		"duration": 1.02,
+		"sentenceIndex": 6634,
+		"timestamp": 272.3499999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 273.3699999999999
+	},
+	{
+		"index": 170,
+		"txt": "William Hamilton through his work in complex (imaginary) math but have found very little practical use.",
+		"file": "/home/user1/trash/dirOutputSet/_100_William_Hamilton_through_his_work_i_ery_little_practical_use_____.wav",
+		"duration": 2.26,
+		"sentenceIndex": 6635,
+		"timestamp": 273.8699999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 276.1299999999999
+	},
+	{
+		"index": 171,
+		"txt": "A quaternion is a quantity, kind of like a vector, but made up of four components.",
+		"file": "/home/user1/trash/dirOutputSet/_100_A_quaternion_is_a_quantity__kind_of_de_up_of_four_components_____.wav",
+		"duration": 1.77,
+		"sentenceIndex": 6636,
+		"timestamp": 276.6299999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 278.39999999999986
+	},
+	{
+		"index": 172,
+		"txt": "It is typically written in the form:q = q0 + qxi + qyj + qzk",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_is_typically_written_in_the_form__q___q0___qxi___qyj___qzk____.wav",
+		"duration": 2.04,
+		"sentenceIndex": 6637,
+		"timestamp": 278.89999999999986
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 280.9399999999999
+	},
+	{
+		"index": 174,
+		"txt": "A quaternion is really a four dimensional",
+		"file": "/home/user1/trash/dirOutputSet/_100_A_quaternion_is_really_a_four_dimen_really_a_four_dimensional____.wav",
+		"duration": 0.77,
+		"sentenceIndex": 6639,
+		"timestamp": 281.4399999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 282.20999999999987
+	},
+	{
+		"index": 175,
+		"txt": "quantity in complex space and, unfortunately, does not lend itself to visualization.",
+		"file": "/home/user1/trash/dirOutputSet/_100_quantity_in_complex_space_and__unfo__itself_to_visualization_____.wav",
+		"duration": 2.02,
+		"sentenceIndex": 6640,
+		"timestamp": 282.70999999999987
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 284.72999999999985
+	},
+	{
+		"index": 176,
+		"txt": "Don't worry, though: our use of quaternions to",
+		"file": "/home/user1/trash/dirOutputSet/_100_Don_t_worry__though__our_use_of_qua_our_use_of_quaternions_to____.wav",
+		"duration": 1.15,
+		"sentenceIndex": 6641,
+		"timestamp": 285.22999999999985
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 286.3799999999998
+	},
+	{
+		"index": 177,
+		"txt": "represent orientation in three dimensions does allow us to attach a physical meaning to them, as you'll see in a moment.",
+		"file": "/home/user1/trash/dirOutputSet/_100_represent_orientation_in_three_dime_s_you_ll_see_in_a_moment_____.wav",
+		"duration": 2.41,
+		"sentenceIndex": 6642,
+		"timestamp": 286.8799999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 289.28999999999985
+	},
+	{
+		"index": 180,
+		"txt": "Of particular interest to us is what's known as a unit quaternion that satisfies the following:q02 + qx2 + qy2 + qz2 = 1",
+		"file": "/home/user1/trash/dirOutputSet/_100_Of_particular_interest_to_us_is_wha_q02___qx2___qy2___qz2___1____.wav",
+		"duration": 3.33,
+		"sentenceIndex": 6645,
+		"timestamp": 289.78999999999985
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 293.11999999999983
+	},
+	{
+		"index": 182,
+		"txt": "This is analogous to a normalized, or unit, vector.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_analogous_to_a_normalized___malized__or_unit__vector_____.wav",
+		"duration": 1.26,
+		"sentenceIndex": 6647,
+		"timestamp": 293.61999999999983
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 294.8799999999998
+	},
+	{
+		"index": 185,
+		"txt": "You can also write a quaternion in the form q = [q0, v], where v is the vector, qxi + qyj + qzk, and q0 is a scalar.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_also_write_a_quaternion_in___qzk__and_q0_is_a_scalar_____.wav",
+		"duration": 3.63,
+		"sentenceIndex": 6650,
+		"timestamp": 295.3799999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 299.0099999999998
+	},
+	{
+		"index": 186,
+		"txt": "In the context of rotation, v represents the direction in which the axis of rotation points.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_the_context_of_rotation__v_repre__axis_of_rotation_points_____.wav",
+		"duration": 2.03,
+		"sentenceIndex": 6651,
+		"timestamp": 299.5099999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 301.5399999999998
+	},
+	{
+		"index": 187,
+		"txt": "For a given rotation, θ, about an arbitrary axis represented by the unit vector u, the representative quaternion can be written as follows:q = [cos(θ/2) , sin(θ/2) u]",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_a_given_rotation_____about_an_a____cos___2____sin___2__u_____.wav",
+		"duration": 5.92,
+		"sentenceIndex": 6652,
+		"timestamp": 302.0399999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 307.9599999999998
+	},
+	{
+		"index": 189,
+		"txt": "This is illustrated in",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_illustrated_in_This_is_illustrated_in____.wav",
+		"duration": 0.55,
+		"sentenceIndex": 6654,
+		"timestamp": 308.4599999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 309.0099999999998
+	},
+	{
+		"index": 190,
+		"txt": "Figure 11 3 for an arbitrary rigid body rotating about an axis passing through its",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 11_3_for_an_arbitrary_rigid___axis_passing_through_its____.wav",
+		"duration": 2.15,
+		"sentenceIndex": 6655,
+		"timestamp": 309.5099999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 311.6599999999998
+	},
+	{
+		"index": 192,
+		"txt": "center of gravity.",
+		"file": "/home/user1/trash/dirOutputSet/_100_center_of_gravity__center_of_gravity_____.wav",
+		"duration": 0.44,
+		"sentenceIndex": 6657,
+		"timestamp": 312.1599999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 312.5999999999998
+	},
+	{
+		"index": 193,
+		"txt": "The rigid body rotates through an angle θ from the position shown in light gray to the position shown in dark gray.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_rigid_body_rotates_through_an_a_ition_shown_in_dark_gray_____.wav",
+		"duration": 2.49,
+		"sentenceIndex": 6658,
+		"timestamp": 313.0999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 315.5899999999998
+	},
+	{
+		"index": 194,
+		"txt": "Here, the unit vector u is the vector v normalized to unit length.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here__the_unit_vector_u_is_the_vect_ormalized_to_unit_length_____.wav",
+		"duration": 1.45,
+		"sentenceIndex": 6659,
+		"timestamp": 316.0899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 317.5399999999998
+	},
+	{
+		"index": 200,
+		"txt": "Figure 11 3. Quaternion rotation",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 11_3_ Quaternion_rotation_11_3_ Quaternion_rotation____.wav",
+		"duration": 1.21,
+		"sentenceIndex": 6665,
+		"timestamp": 318.0399999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 319.2499999999998
+	},
+	{
+		"index": 202,
+		"txt": "You can readily see that quaternions, when used to represent rotation or orientation, require you to deal with only four parameters instead of nine, subject to the easily satisfied constraint that the quaternion be a unit quaternion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_readily_see_that_quaternion_ion_be_a_unit_quaternion_____.wav",
+		"duration": 4.96,
+		"sentenceIndex": 6667,
+		"timestamp": 319.7499999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 324.70999999999975
+	},
+	{
+		"index": 205,
+		"txt": "The use of quaternions to represent orientation is similar to how you would use rotation matrices.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_use_of_quaternions_to_represent_ld_use_rotation_matrices_____.wav",
+		"duration": 2.03,
+		"sentenceIndex": 6670,
+		"timestamp": 325.20999999999975
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 327.2399999999997
+	},
+	{
+		"index": 206,
+		"txt": "First, you set up a quaternion that represents the initial orientation of the rigid body at time 0 (this is the only time you'll calculate the quaternion explicitly).",
+		"file": "/home/user1/trash/dirOutputSet/_100_First__you_set_up_a_quaternion_that_e_quaternion_explicitly______.wav",
+		"duration": 3.65,
+		"sentenceIndex": 6671,
+		"timestamp": 327.7399999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 331.3899999999997
+	},
+	{
+		"index": 207,
+		"txt": "Then you update the orientation to reflect the new orientation at a given instant in time using the angular velocities that are calculated for that instant.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Then_you_update_the_orientation_to__culated_for_that_instant_____.wav",
+		"duration": 2.98,
+		"sentenceIndex": 6672,
+		"timestamp": 331.8899999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 334.8699999999997
+	},
+	{
+		"index": 208,
+		"txt": "As you can see here, the differential equation relating an orientation quaternion to",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_you_can_see_here__the_differenti_orientation_quaternion_to____.wav",
+		"duration": 1.78,
+		"sentenceIndex": 6673,
+		"timestamp": 335.3699999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 337.1499999999997
+	},
+	{
+		"index": 210,
+		"txt": "angular velocity is very similar to that for rotation matrices:dq/dt = (1/2) ω q",
+		"file": "/home/user1/trash/dirOutputSet/_100_angular_velocity_is_very_similar_to_atrices_dq_dt____1_2____q____.wav",
+		"duration": 2.83,
+		"sentenceIndex": 6675,
+		"timestamp": 337.6499999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 340.4799999999997
+	},
+	{
+		"index": 212,
+		"txt": "Here, the angular velocity is written in quaternion form as [0, ω ] and is expressed in fixed, global coordinates.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here__the_angular_velocity_is_writt_ixed__global_coordinates_____.wav",
+		"duration": 3.22,
+		"sentenceIndex": 6677,
+		"timestamp": 340.9799999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 344.1999999999997
+	},
+	{
+		"index": 213,
+		"txt": "(ω is still angular velocity, but you have to put it in quaternion form instead of vector form when multiplying it by a quaternion q.) If ω is expressed in rotating, body fixed coordinates, then you need to use this equation:dq/dt = (1/2) q ω",
+		"file": "/home/user1/trash/dirOutputSet/_100____is_still_angular_velocity__but_y_quation_dq_dt____1_2__q______.wav",
+		"duration": 6.78,
+		"sentenceIndex": 6678,
+		"timestamp": 344.6999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 351.4799999999997
+	},
+	{
+		"index": 215,
+		"txt": "As with rotation matrices, you can use quaternions to rotate points or vectors.",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_with_rotation_matrices__you_can__rotate_points_or_vectors_____.wav",
+		"duration": 1.88,
+		"sentenceIndex": 6680,
+		"timestamp": 351.9799999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 353.8599999999997
+	},
+	{
+		"index": 216,
+		"txt": "If v is a vector, then v' is the rotated vector subject to the quaternion q:v' = qvq*",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_v_is_a_vector__then_v__is_the_ro_he_quaternion_q_v____qvq_____.wav",
+		"duration": 2.18,
+		"sentenceIndex": 6681,
+		"timestamp": 354.3599999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 356.5399999999997
+	},
+	{
+		"index": 218,
+		"txt": "Here q* is the conjugate of the quaternion q defined as:q* = q0 – qxi – qyj – qzk",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_q__is_the_conjugate_of_the_qua_q____q0___qxi___qyj___qzk____.wav",
+		"duration": 2.76,
+		"sentenceIndex": 6683,
+		"timestamp": 357.0399999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 359.79999999999967
+	},
+	{
+		"index": 220,
+		"txt": "You can also use the preceding formula to convert vectors from one coordinate system to another, where one is rotated relative to the other.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_also_use_the_preceding_form_ed_relative_to_the_other_____.wav",
+		"duration": 2.76,
+		"sentenceIndex": 6685,
+		"timestamp": 360.29999999999967
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 363.05999999999966
+	},
+	{
+		"index": 221,
+		"txt": "You have to do this, for example, in your simulations where you are converting forces defined in fixed, global coordinates to rotating, body fixed coordinates so that you can apply the forces to the body; or you might have to convert a body's velocity defined in global coordinates to body coordinates so that you can use the velocity in force calculations.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_have_to_do_this__for_example__i_ty_in_force_calculations_____.wav",
+		"duration": 7.26,
+		"sentenceIndex": 6686,
+		"timestamp": 363.55999999999966
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 370.81999999999965
+	},
+	{
+		"index": 224,
+		"txt": "Quaternion Operations",
+		"file": "/home/user1/trash/dirOutputSet/_100_Quaternion_Operations_Quaternion_Operations____.wav",
+		"duration": 0.53,
+		"sentenceIndex": 6689,
+		"timestamp": 371.31999999999965
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 371.8499999999996
+	},
+	{
+		"index": 226,
+		"txt": "As with vectors and matrices, quaternions have their own rules for the various operations that you'll need, such as multiplication, addition, subtraction, and so on.",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_with_vectors_and_matrices__quate___subtraction__and_so_on_____.wav",
+		"duration": 3.67,
+		"sentenceIndex": 6691,
+		"timestamp": 372.3499999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 376.01999999999964
+	},
+	{
+		"index": 227,
+		"txt": "To make it easy on you, we've included sample code in",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_make_it_easy_on_you__we_ve_inclu_e_included_sample_code_in____.wav",
+		"duration": 1.2,
+		"sentenceIndex": 6692,
+		"timestamp": 376.51999999999964
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 377.71999999999963
+	},
+	{
+		"index": 228,
+		"txt": "Appendix C",
+		"file": "/home/user1/trash/dirOutputSet/_100_Appendix C_Appendix C____.wav",
+		"duration": 0.43,
+		"sentenceIndex": 6693,
+		"timestamp": 378.21999999999963
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 378.64999999999964
+	},
+	{
+		"index": 229,
+		"txt": "that implements all of the quaternion operations you'll need; however, we want to highlight a few of the more important ones here.",
+		"file": "/home/user1/trash/dirOutputSet/_100_that_implements_all_of_the_quaterni_more_important_ones_here_____.wav",
+		"duration": 2.57,
+		"sentenceIndex": 6694,
+		"timestamp": 379.14999999999964
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 381.71999999999963
+	},
+	{
+		"index": 231,
+		"txt": "The Quaternion class is",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_Quaternion_class_is_The_Quaternion_class_is____.wav",
+		"duration": 0.58,
+		"sentenceIndex": 6696,
+		"timestamp": 382.21999999999963
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 382.7999999999996
+	},
+	{
+		"index": 233,
+		"txt": "defined with a scalar component, n, and vector component, v, where v is the vector, xi + yj + zk .",
+		"file": "/home/user1/trash/dirOutputSet/_100_defined_with_a_scalar_component__n__he_vector__xi___yj___zk______.wav",
+		"duration": 2.72,
+		"sentenceIndex": 6698,
+		"timestamp": 383.2999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 386.01999999999964
+	},
+	{
+		"index": 234,
+		"txt": "The class has two constructors, one of which initializes the quaternion to 0, and the other of which initializes the elements to those passed to the constructor:",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_class_has_two_constructors__one_assed_to_the_constructor_____.wav",
+		"duration": 3.13,
+		"sentenceIndex": 6699,
+		"timestamp": 386.51999999999964
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 389.64999999999964
+	},
+	{
+		"index": 237,
+		"txt": "Magnitude",
+		"file": "/home/user1/trash/dirOutputSet/_100_Magnitude_Magnitude____.wav",
+		"duration": 0.3,
+		"sentenceIndex": 6702,
+		"timestamp": 390.14999999999964
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 390.44999999999965
+	},
+	{
+		"index": 239,
+		"txt": "The Magnitude method",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_Magnitude_method_The_Magnitude_method____.wav",
+		"duration": 0.5,
+		"sentenceIndex": 6704,
+		"timestamp": 390.94999999999965
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 391.44999999999965
+	},
+	{
+		"index": 241,
+		"txt": "returns the magnitude of the quaternion according to the following formula:|q| =",
+		"file": "/home/user1/trash/dirOutputSet/_100_returns_the_magnitude_of_the_quater_e_following_formula__q_______.wav",
+		"duration": 2.38,
+		"sentenceIndex": 6706,
+		"timestamp": 391.94999999999965
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 394.32999999999964
+	},
+	{
+		"index": 243,
+		"txt": "This is similar to calculating the magnitude of a vector, except that for quaternions you have to take the fourth term, the scalar n , into account.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_similar_to_calculating_the___scalar_n___into_account_____.wav",
+		"duration": 3.11,
+		"sentenceIndex": 6708,
+		"timestamp": 394.82999999999964
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 397.93999999999966
+	},
+	{
+		"index": 246,
+		"txt": "Here's the code that calculates the magnitude for our Quaternion class:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_the_code_that_calculates_the_for_our_Quaternion_class_____.wav",
+		"duration": 1.45,
+		"sentenceIndex": 6711,
+		"timestamp": 398.43999999999966
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 399.88999999999965
+	},
+	{
+		"index": 249,
+		"txt": "Conjugate: The ~ operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Conjugate__The___operator_Conjugate__The___operator____.wav",
+		"duration": 0.62,
+		"sentenceIndex": 6714,
+		"timestamp": 400.38999999999965
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 401.00999999999965
+	},
+	{
+		"index": 251,
+		"txt": "The conjugate of the product of",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_conjugate_of_the_product_of_njugate_of_the_product_of____.wav",
+		"duration": 0.6,
+		"sentenceIndex": 6716,
+		"timestamp": 401.50999999999965
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 402.1099999999997
+	},
+	{
+		"index": 255,
+		"txt": "quaternions is equal to the product of the quaternion conjugates, but in reverse order:~(qp) = (~p)(~q)",
+		"file": "/home/user1/trash/dirOutputSet/_100_quaternions_is_equal_to_the_product_se_order___qp______p___q_____.wav",
+		"duration": 2.92,
+		"sentenceIndex": 6720,
+		"timestamp": 402.6099999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 405.5299999999997
+	},
+	{
+		"index": 257,
+		"txt": "Here's the code that computes the conjugate for our Quaternion class:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_the_code_that_computes_the_c_for_our_Quaternion_class_____.wav",
+		"duration": 1.32,
+		"sentenceIndex": 6722,
+		"timestamp": 406.0299999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 407.3499999999997
+	},
+	{
+		"index": 260,
+		"txt": "QVRotate",
+		"file": "/home/user1/trash/dirOutputSet/_100_QVRotate_QVRotate____.wav",
+		"duration": 0.41,
+		"sentenceIndex": 6725,
+		"timestamp": 407.8499999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 408.2599999999997
+	},
+	{
+		"index": 262,
+		"txt": "This function rotates",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_function_rotates_This_function_rotates____.wav",
+		"duration": 0.48,
+		"sentenceIndex": 6727,
+		"timestamp": 408.7599999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 409.2399999999997
+	},
+	{
+		"index": 264,
+		"txt": "the vector v by the unit quaternion q according to this formula:p' = (q)(v)(~q)",
+		"file": "/home/user1/trash/dirOutputSet/_100_the_vector_v_by_the_unit_quaternion_s_formula_p_____q__v___q_____.wav",
+		"duration": 1.93,
+		"sentenceIndex": 6729,
+		"timestamp": 409.7399999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 411.66999999999973
+	},
+	{
+		"index": 266,
+		"txt": "Here, ~q is the conjugate of the unit quaternion, q:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here___q_is_the_conjugate_of_the_un_f_the_unit_quaternion__q_____.wav",
+		"duration": 1.39,
+		"sentenceIndex": 6731,
+		"timestamp": 412.16999999999973
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 413.5599999999997
+	},
+	{
+		"index": 268,
+		"txt": "This operator takes the conjugate of the quaternion, ~q , which is simply the negative of the vector part.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_operator_takes_the_conjugate_o_ative_of_the_vector_part_____.wav",
+		"duration": 2.12,
+		"sentenceIndex": 6733,
+		"timestamp": 414.0599999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 416.1799999999997
+	},
+	{
+		"index": 269,
+		"txt": "If q = [n, xi + yj + zk], then ~q = [n, (−x) i + (−y) j + (−z) k ].",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_q____n__xi___yj___zk___then__q___x__i_____y__j_____z__k_______.wav",
+		"duration": 3.53,
+		"sentenceIndex": 6734,
+		"timestamp": 416.6799999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 420.2099999999997
+	},
+	{
+		"index": 272,
+		"txt": "Quaternion multiplication: The * operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Quaternion_multiplication__The___op_plication__The___operator____.wav",
+		"duration": 0.94,
+		"sentenceIndex": 6737,
+		"timestamp": 420.7099999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 421.6499999999997
+	},
+	{
+		"index": 274,
+		"txt": "This operator performs",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_operator_performs_This_operator_performs____.wav",
+		"duration": 0.54,
+		"sentenceIndex": 6739,
+		"timestamp": 422.1499999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 422.6899999999997
+	},
+	{
+		"index": 278,
+		"txt": "quaternion multiplication according to the following formula:q p = nq np − vq  vp + nqvp + npvq + (vq × vp)",
+		"file": "/home/user1/trash/dirOutputSet/_100_quaternion_multiplication_according___nqvp___npvq____vq___vp_____.wav",
+		"duration": 3.86,
+		"sentenceIndex": 6743,
+		"timestamp": 423.1899999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 427.0499999999997
+	},
+	{
+		"index": 280,
+		"txt": "Here, nqnp − vq  vp is the scalar part of the result while nqvp + npvq + (vq × vp ) is the vector part.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here__nqnp___vq__vp_is_the_scalar_p__vp___is_the_vector_part_____.wav",
+		"duration": 3.65,
+		"sentenceIndex": 6745,
+		"timestamp": 427.5499999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 431.1999999999997
+	},
+	{
+		"index": 281,
+		"txt": "Also note that vq and vp are the vector parts of q and p , respectively,  is the vector dot product operator, and × is the vector cross product operator.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Also_note_that_vq_and_vp_are_the_ve_r_cross_product_operator_____.wav",
+		"duration": 3.78,
+		"sentenceIndex": 6746,
+		"timestamp": 431.6999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 435.4799999999997
+	},
+	{
+		"index": 284,
+		"txt": "Quaternion multiplication is associative but not commutative, thus:q(ph) = (qp)hqp ≠ pq",
+		"file": "/home/user1/trash/dirOutputSet/_100_Quaternion_multiplication_is_associ_thus_q_ph_____qp_hqp___pq____.wav",
+		"duration": 2.67,
+		"sentenceIndex": 6749,
+		"timestamp": 435.9799999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 438.6499999999997
+	},
+	{
+		"index": 286,
+		"txt": "Here's the code that multiplies two Quaternions, q1 and q2:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_the_code_that_multiplies_two_o_Quaternions__q1_and_q2_____.wav",
+		"duration": 1.6,
+		"sentenceIndex": 6751,
+		"timestamp": 439.1499999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 440.7499999999997
+	},
+	{
+		"index": 289,
+		"txt": "Vector multiplication: The * operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Vector_multiplication__The___operat_plication__The___operator____.wav",
+		"duration": 0.85,
+		"sentenceIndex": 6754,
+		"timestamp": 441.2499999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 442.09999999999974
+	},
+	{
+		"index": 291,
+		"txt": "This operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_operator_This_operator____.wav",
+		"duration": 0.33,
+		"sentenceIndex": 6756,
+		"timestamp": 442.59999999999974
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 442.9299999999997
+	},
+	{
+		"index": 295,
+		"txt": "multiplies the quaternion, q, by the vector v as though the vector v were a quaternion with its scalar component equal to 0.",
+		"file": "/home/user1/trash/dirOutputSet/_100_multiplies_the_quaternion__q__by_th_lar_component_equal_to_0_____.wav",
+		"duration": 2.62,
+		"sentenceIndex": 6760,
+		"timestamp": 443.4299999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 446.0499999999997
+	},
+	{
+		"index": 296,
+		"txt": "There are two forms of this operator depending on the order in which the quaternion and vector are encountered.",
+		"file": "/home/user1/trash/dirOutputSet/_100_There_are_two_forms_of_this_operato_d_vector_are_encountered_____.wav",
+		"duration": 2.05,
+		"sentenceIndex": 6761,
+		"timestamp": 446.5499999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 448.59999999999974
+	},
+	{
+		"index": 297,
+		"txt": "Since v is assumed to be a quaternion with its scalar part equal to 0, the rules of multiplication follow those outlined earlier for quaternion multiplication:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Since_v_is_assumed_to_be_a_quaterni_uaternion_multiplication_____.wav",
+		"duration": 3.39,
+		"sentenceIndex": 6762,
+		"timestamp": 449.09999999999974
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 452.4899999999997
+	},
+	{
+		"index": 300,
+		"txt": "MakeQFromEulerAngles",
+		"file": "/home/user1/trash/dirOutputSet/_100_MakeQFromEulerAngles_MakeQFromEulerAngles____.wav",
+		"duration": 0.62,
+		"sentenceIndex": 6765,
+		"timestamp": 452.9899999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 453.60999999999973
+	},
+	{
+		"index": 302,
+		"txt": "This function",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_function_This_function____.wav",
+		"duration": 0.32,
+		"sentenceIndex": 6767,
+		"timestamp": 454.10999999999973
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 454.4299999999997
+	},
+	{
+		"index": 305,
+		"txt": "constructs a quaternion from a set of Euler angles.",
+		"file": "/home/user1/trash/dirOutputSet/_100_constructs_a_quaternion_from_a_set__om_a_set_of_Euler_angles_____.wav",
+		"duration": 0.96,
+		"sentenceIndex": 6770,
+		"timestamp": 454.9299999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 455.8899999999997
+	},
+	{
+		"index": 308,
+		"txt": "For a given set of Euler angles, yaw (ψ), pitch (τ), and roll (φ), defining rotation about the z axis, then the y axis, and then the x axis, you can construct the representative rotation quaternion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_a_given_set_of_Euler_angles__ya_tive_rotation_quaternion_____.wav",
+		"duration": 5.87,
+		"sentenceIndex": 6773,
+		"timestamp": 456.3899999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 462.2599999999997
+	},
+	{
+		"index": 309,
+		"txt": "You do this by first constructing a quaternion for each Euler angle and then multiplying the three quaternions following the rules of quaternion multiplication.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_do_this_by_first_constructing_a_uaternion_multiplication_____.wav",
+		"duration": 3.06,
+		"sentenceIndex": 6774,
+		"timestamp": 462.7599999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 465.8199999999997
+	},
+	{
+		"index": 310,
+		"txt": "Here are the three quaternions representing each Euler rotation angle:qroll = [cos(φ/2), (sin(φ/2)) i + 0 j + 0 k]qpitch = [cos(τ /2), 0 i + (sin(τ /2)) j + 0 k]qyaw = [cos(ψ /2), 0 i + 0 j + (sin(ψ /2)) k]",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_are_the_three_quaternions_repr__i___0_j____sin____2___k_____.wav",
+		"duration": 10.49,
+		"sentenceIndex": 6775,
+		"timestamp": 466.3199999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 476.8099999999997
+	},
+	{
+		"index": 312,
+		"txt": "Each one of these quaternions is of unit length.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Each_one_of_these_quaternions_is_of_rnions_is_of_unit_length_____.wav",
+		"duration": 1.02,
+		"sentenceIndex": 6777,
+		"timestamp": 477.3099999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 478.3299999999997
+	},
+	{
+		"index": 314,
+		"txt": "21]",
+		"file": "/home/user1/trash/dirOutputSet/_100_21__21_____.wav",
+		"duration": 0.31,
+		"sentenceIndex": 6779,
+		"timestamp": 478.8299999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 479.1399999999997
+	},
+	{
+		"index": 316,
+		"txt": "Now you can multiply these quaternions to obtain a single one that represents the rotation, or orientation, defined by the three Euler angles:q = qyawqpitchqroll",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now_you_can_multiply_these_quaterni_ngles_q___qyawqpitchqroll____.wav",
+		"duration": 3.73,
+		"sentenceIndex": 6781,
+		"timestamp": 479.6399999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 483.3699999999997
+	},
+	{
+		"index": 317,
+		"txt": "Performing this multiplication yields:q = [{cos(φ/2) cos(τ /2) cos(ψ /2) + sin(φ/2) sin(τ /2) sin(ψ /2)},{sin(φ/2) cos(τ /2) cos(ψ /2) − cos(φ/2) sin(τ /2) sin(ψ /2)} i +{cos(φ/2) sin(τ /2) cos(ψ /2) + sin(φ/2) cos(τ /2) sin(ψ /2)} j +{cos(φ/2) cos(τ /2) sin(ψ /2) − sin(φ/2) sin(τ /2) cos(ψ /2)} k]",
+		"file": "/home/user1/trash/dirOutputSet/_100_Performing_this_multiplication_yiel___sin____2__cos____2___k_____.wav",
+		"duration": 21.7,
+		"sentenceIndex": 6782,
+		"timestamp": 483.8699999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 505.5699999999997
+	},
+	{
+		"index": 318,
+		"txt": "Here's the code that takes three Euler angles and returns a quaternion:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_the_code_that_takes_three_Eu_and_returns_a_quaternion_____.wav",
+		"duration": 1.38,
+		"sentenceIndex": 6783,
+		"timestamp": 506.0699999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 507.4499999999997
+	},
+	{
+		"index": 321,
+		"txt": "MakeEulerAnglesFromQ",
+		"file": "/home/user1/trash/dirOutputSet/_100_MakeEulerAnglesFromQ_MakeEulerAnglesFromQ____.wav",
+		"duration": 0.6,
+		"sentenceIndex": 6786,
+		"timestamp": 507.9499999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 508.5499999999997
+	},
+	{
+		"index": 323,
+		"txt": "This function",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_function_This_function____.wav",
+		"duration": 0.32,
+		"sentenceIndex": 6788,
+		"timestamp": 509.0499999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 509.3699999999997
+	},
+	{
+		"index": 326,
+		"txt": "extracts the three Euler angles from a given quaternion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_extracts_the_three_Euler_angles_fro__from_a_given_quaternion_____.wav",
+		"duration": 1.14,
+		"sentenceIndex": 6791,
+		"timestamp": 509.8699999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 511.0099999999997
+	},
+	{
+		"index": 329,
+		"txt": "You can extract the three Euler angles from a quaternion by first converting the quaternion to a rotation matrix and then extracting the Euler angles from the rotation matrix.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_extract_the_three_Euler_ang_from_the_rotation_matrix_____.wav",
+		"duration": 3.33,
+		"sentenceIndex": 6794,
+		"timestamp": 511.5099999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 514.8399999999997
+	},
+	{
+		"index": 330,
+		"txt": "Let R be a nine element rotation matrix:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Let_R_be_a_nine_element_rotation_ma__element_rotation_matrix_____.wav",
+		"duration": 1.01,
+		"sentenceIndex": 6795,
+		"timestamp": 515.3399999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 516.3499999999997
+	},
+	{
+		"index": 335,
+		"txt": "and let q be a quaternion:q = [n, x i + y j + z k]",
+		"file": "/home/user1/trash/dirOutputSet/_100_and_let_q_be_a_quaternion_q____n__x__q____n__x_i___y_j___z_k_____.wav",
+		"duration": 1.97,
+		"sentenceIndex": 6800,
+		"timestamp": 516.8499999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 518.8199999999997
+	},
+	{
+		"index": 337,
+		"txt": "Then each element in R is calculated from q as follows:r11 = n2 + x2 − y2 − z2r21 = 2xy+2znr31 = 2zx − 2ynr12 = 2xy − 2znr22 = n2 − x2 + y2 − z2r32 = 2zy + 2xnr13 = 2xz + 2ynr23 = 2yz − 2xnr33 = n2 − x2 − y2 + z2",
+		"file": "/home/user1/trash/dirOutputSet/_100_Then_each_element_in_R_is_calculate_xnr33___n2___x2___y2___z2____.wav",
+		"duration": 10.89,
+		"sentenceIndex": 6802,
+		"timestamp": 519.3199999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 530.2099999999997
+	},
+	{
+		"index": 339,
+		"txt": "To extract the Euler angles, yaw (ψ), pitch (τ), and roll (φ), from R, you can use these relations:tan ψ = r21 / r11sin τ = –r31tan φ = r32 / r33",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_extract_the_Euler_angles__yaw_________r31tan_____r32___r33____.wav",
+		"duration": 7.36,
+		"sentenceIndex": 6804,
+		"timestamp": 530.7099999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 538.0699999999997
+	},
+	{
+		"index": 341,
+		"txt": "Here's the code that extracts the three Euler angles, returned in the form of a Vector, from a given",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_the_code_that_extracts_the_t_of_a_Vector__from_a_given____.wav",
+		"duration": 2.07,
+		"sentenceIndex": 6806,
+		"timestamp": 538.5699999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 540.6399999999998
+	},
+	{
+		"index": 342,
+		"txt": "quaternion:",
+		"file": "/home/user1/trash/dirOutputSet/_100_quaternion__quaternion_____.wav",
+		"duration": 0.33,
+		"sentenceIndex": 6807,
+		"timestamp": 541.1399999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 541.4699999999998
+	},
+	{
+		"index": 346,
+		"txt": "Quaternions in 3D Simulators",
+		"file": "/home/user1/trash/dirOutputSet/_100_Quaternions_in_3D_Simulators_ternions_in_3D_Simulators____.wav",
+		"duration": 0.87,
+		"sentenceIndex": 6811,
+		"timestamp": 541.9699999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 542.8399999999998
+	},
+	{
+		"index": 348,
+		"txt": "The quaternion operations just",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_quaternion_operations_just_uaternion_operations_just____.wav",
+		"duration": 0.74,
+		"sentenceIndex": 6813,
+		"timestamp": 543.3399999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 544.0799999999998
+	},
+	{
+		"index": 350,
+		"txt": "presented are required when you are using",
+		"file": "/home/user1/trash/dirOutputSet/_100_presented_are_required_when_you_are_quired_when_you_are_using____.wav",
+		"duration": 0.8,
+		"sentenceIndex": 6815,
+		"timestamp": 544.5799999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 545.3799999999998
+	},
+	{
+		"index": 351,
+		"txt": "quaternions to represent orientation in 3D simulations.",
+		"file": "/home/user1/trash/dirOutputSet/_100_quaternions_to_represent_orientatio_tation_in_3D_simulations_____.wav",
+		"duration": 1.45,
+		"sentenceIndex": 6816,
+		"timestamp": 545.8799999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 547.3299999999998
+	},
+	{
+		"index": 352,
+		"txt": "All the 3D simulations discussed in this book use these quaternion operations, and in this section we'll highlight where they are used in the context of the airplane example presented in",
+		"file": "/home/user1/trash/dirOutputSet/_100_All_the_3D_simulations_discussed_in_lane_example_presented_in____.wav",
+		"duration": 3.84,
+		"sentenceIndex": 6817,
+		"timestamp": 547.8299999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 551.6699999999998
+	},
+	{
+		"index": 353,
+		"txt": "Chapter 15",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 15_Chapter 15____.wav",
+		"duration": 0.43,
+		"sentenceIndex": 6818,
+		"timestamp": 552.1699999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 552.5999999999998
+	},
+	{
+		"index": 356,
+		"txt": "When initializing the",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_initializing_the_When_initializing_the____.wav",
+		"duration": 0.44,
+		"sentenceIndex": 6821,
+		"timestamp": 553.0999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 553.5399999999998
+	},
+	{
+		"index": 357,
+		"txt": "orientation of the airplane, you have to set its orientation quaternion to something corresponding to the Euler angles you desire.",
+		"file": "/home/user1/trash/dirOutputSet/_100_orientation_of_the_airplane__you_ha__Euler_angles_you_desire_____.wav",
+		"duration": 2.66,
+		"sentenceIndex": 6822,
+		"timestamp": 554.0399999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 556.6999999999998
+	},
+	{
+		"index": 358,
+		"txt": "You do so as follows:",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_do_so_as_follows__You_do_so_as_follows_____.wav",
+		"duration": 0.56,
+		"sentenceIndex": 6823,
+		"timestamp": 557.1999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 557.7599999999998
+	},
+	{
+		"index": 360,
+		"txt": "In this code sample, Airplane is a rigid body class with the property qOrientation, which represents the orientation quaternion, which is a Quaternion class.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_this_code_sample__Airplane_is_a__ch_is_a_Quaternion_class_____.wav",
+		"duration": 3.36,
+		"sentenceIndex": 6825,
+		"timestamp": 558.2599999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 561.6199999999998
+	},
+	{
+		"index": 361,
+		"txt": "iRoll, iPitch, and iYaw are the three Euler angles describing the orientation of the airplane.",
+		"file": "/home/user1/trash/dirOutputSet/_100_iRoll__iPitch__and_iYaw_are_the_thr_entation_of_the_airplane_____.wav",
+		"duration": 2.09,
+		"sentenceIndex": 6826,
+		"timestamp": 562.1199999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 564.2099999999998
+	},
+	{
+		"index": 363,
+		"txt": "If at any time you want to report the Euler angles for example, in a heads up display like interface for the game player you can use MakeEulerAnglesFromQ, as follows:",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_at_any_time_you_want_to_report_t_rAnglesFromQ__as_follows_____.wav",
+		"duration": 3.62,
+		"sentenceIndex": 6828,
+		"timestamp": 564.7099999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 568.3299999999998
+	},
+	{
+		"index": 366,
+		"txt": "Very often, it's more convenient to calculate loads on an object like the airplane using body fixed coordinates.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Very_often__it_s_more_convenient_to_g_body_fixed_coordinates_____.wav",
+		"duration": 2.38,
+		"sentenceIndex": 6831,
+		"timestamp": 568.8299999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 571.2099999999998
+	},
+	{
+		"index": 367,
+		"txt": "For example, when computing aerodynamic drag on the airplane, you'll want to know the relative air velocity over the aircraft in body fixed coordinates.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_example__when_computing_aerodyn_n_body_fixed_coordinates_____.wav",
+		"duration": 3.1,
+		"sentenceIndex": 6832,
+		"timestamp": 571.7099999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 574.8099999999998
+	},
+	{
+		"index": 368,
+		"txt": "The resulting drag force will also be in body fixed coordinates.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_resulting_drag_force_will_also__n_body_fixed_coordinates_____.wav",
+		"duration": 1.4,
+		"sentenceIndex": 6833,
+		"timestamp": 575.3099999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 576.7099999999998
+	},
+	{
+		"index": 369,
+		"txt": "However, when resolving all the loads on the aircraft to determine its motion in earth fixed coordinates, you'll want to convert those forces from body fixed coordinates to earth fixed coordinates.",
+		"file": "/home/user1/trash/dirOutputSet/_100_However__when_resolving_all_the_loa__earth_fixed_coordinates_____.wav",
+		"duration": 3.82,
+		"sentenceIndex": 6834,
+		"timestamp": 577.2099999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 581.0299999999999
+	},
+	{
+		"index": 370,
+		"txt": "You can use QVRotate to rotate any vector, such as a force vector, from one coordinate system to another.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_use_QVRotate_to_rotate_any__dinate_system_to_another_____.wav",
+		"duration": 2.39,
+		"sentenceIndex": 6835,
+		"timestamp": 581.5299999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 583.9199999999998
+	},
+	{
+		"index": 371,
+		"txt": "The following code sample",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_following_code_sample_The_following_code_sample____.wav",
+		"duration": 0.54,
+		"sentenceIndex": 6836,
+		"timestamp": 584.4199999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 584.9599999999998
+	},
+	{
+		"index": 373,
+		"txt": "shows how QVRotate is used to convert a force vector in body fixed coordinates to the equivalent force in earth fixed coordinates.",
+		"file": "/home/user1/trash/dirOutputSet/_100_shows_how_QVRotate_is_used_to_conve__earth_fixed_coordinates_____.wav",
+		"duration": 2.66,
+		"sentenceIndex": 6838,
+		"timestamp": 585.4599999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 588.1199999999998
+	},
+	{
+		"index": 376,
+		"txt": "Throughout the simulation, you'll have to update the airplane's orientation by integrating the angular equations of motion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Throughout_the_simulation__you_ll_h_ular_equations_of_motion_____.wav",
+		"duration": 2.44,
+		"sentenceIndex": 6841,
+		"timestamp": 588.6199999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 591.0599999999998
+	},
+	{
+		"index": 377,
+		"txt": "The first step in handling angular motion is to calculate the new angular velocity at a given time step based on the previously calculated moments acting on the airplane and its mass properties.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_first_step_in_handling_angular___and_its_mass_properties_____.wav",
+		"duration": 3.95,
+		"sentenceIndex": 6842,
+		"timestamp": 591.5599999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 595.5099999999999
+	},
+	{
+		"index": 378,
+		"txt": "We do this in body coordinates using the angular equation of motion:∑ Mcg = dHcg/dt = I (dω/dt) + (ω × (I ω))",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_do_this_in_body_coordinates_usin___I__d__dt__________I________.wav",
+		"duration": 4.85,
+		"sentenceIndex": 6843,
+		"timestamp": 596.0099999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 600.8599999999999
+	},
+	{
+		"index": 379,
+		"txt": "The next step is to integrate again to update the airplane's orientation, which is expressed as a quaternion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_next_step_is_to_integrate_again_xpressed_as_a_quaternion_____.wav",
+		"duration": 2.21,
+		"sentenceIndex": 6844,
+		"timestamp": 601.3599999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 603.5699999999999
+	},
+	{
+		"index": 380,
+		"txt": "Here, you need to use the differential equation relating an orientation quaternion to angular velocity that we discussed earlier:dq/dt = (1/2) ω q",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here__you_need_to_use_the_different_earlier_dq_dt____1_2____q____.wav",
+		"duration": 4,
+		"sentenceIndex": 6845,
+		"timestamp": 604.0699999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 608.0699999999999
+	},
+	{
+		"index": 382,
+		"txt": "Next, to enforce the constraint that this orientation quaternion",
+		"file": "/home/user1/trash/dirOutputSet/_100_Next__to_enforce_the_constraint_tha_is_orientation_quaternion____.wav",
+		"duration": 1.41,
+		"sentenceIndex": 6847,
+		"timestamp": 608.5699999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 609.9799999999999
+	},
+	{
+		"index": 383,
+		"txt": "be a unit",
+		"file": "/home/user1/trash/dirOutputSet/_100_be_a_unit_be_a_unit____.wav",
+		"duration": 0.3,
+		"sentenceIndex": 6848,
+		"timestamp": 610.4799999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 610.7799999999999
+	},
+	{
+		"index": 384,
+		"txt": "quaternion, you must normalize the orientation quaternion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_quaternion__you_must_normalize_the__e_orientation_quaternion_____.wav",
+		"duration": 1.24,
+		"sentenceIndex": 6849,
+		"timestamp": 611.2799999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 612.5199999999999
+	},
+	{
+		"index": 385,
+		"txt": "The following code sample illustrates these steps:",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_following_code_sample_illustrat__illustrates_these_steps_____.wav",
+		"duration": 1.06,
+		"sentenceIndex": 6850,
+		"timestamp": 613.0199999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 614.0799999999998
+	},
+	{
+		"index": 388,
+		"txt": "Notice the last line of code in the preceding sample.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Notice_the_last_line_of_code_in_the__in_the_preceding_sample_____.wav",
+		"duration": 1.07,
+		"sentenceIndex": 6853,
+		"timestamp": 614.5799999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 615.6499999999999
+	},
+	{
+		"index": 389,
+		"txt": "That line converts the airplane's velocity vector from earth fixed coordinates to body fixed coordinates using QVRotate .",
+		"file": "/home/user1/trash/dirOutputSet/_100_That_line_converts_the_airplane_s_v_rdinates_using_QVRotate______.wav",
+		"duration": 2.64,
+		"sentenceIndex": 6854,
+		"timestamp": 616.1499999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 618.7899999999998
+	},
+	{
+		"index": 390,
+		"txt": "Recall that it's more convenient to compute body forces in body fixed coordinates.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Recall_that_it_s_more_convenient_to_n_body_fixed_coordinates_____.wav",
+		"duration": 1.72,
+		"sentenceIndex": 6855,
+		"timestamp": 619.2899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 621.0099999999999
+	},
+	{
+		"index": 391,
+		"txt": "QVRotate allows you to work with vectors back and forth from body fixed to earth fixed",
+		"file": "/home/user1/trash/dirOutputSet/_100_QVRotate_allows_you_to_work_with_ve_body_fixed_to_earth_fixed____.wav",
+		"duration": 1.92,
+		"sentenceIndex": 6856,
+		"timestamp": 621.5099999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 623.4299999999998
+	},
+	{
+		"index": 399,
+		"txt": "coordinates.",
+		"file": "/home/user1/trash/dirOutputSet/_100_coordinates__coordinates_____.wav",
+		"duration": 0.27,
+		"sentenceIndex": 6864,
+		"timestamp": 623.9299999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 624.1999999999998
+	},
+	{
+		"index": 406,
+		"txt": "20",
+		"file": "/home/user1/trash/dirOutputSet/_100_20_20____.wav",
+		"duration": 0.18,
+		"sentenceIndex": 6871,
+		"timestamp": 624.6999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 624.8799999999998
+	},
+	{
+		"index": 407,
+		"txt": "] Two vectors are orthogonal if their dot product is 0.",
+		"file": "/home/user1/trash/dirOutputSet/_100___Two_vectors_are_orthogonal_if_the_f_their_dot_product_is_0_____.wav",
+		"duration": 1.17,
+		"sentenceIndex": 6872,
+		"timestamp": 625.3799999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 626.5499999999997
+	},
+	{
+		"index": 410,
+		"txt": "21] You can verify this by recalling the trigonometric relation cos2θ + sin2",
+		"file": "/home/user1/trash/dirOutputSet/_100_21__You_can_verify_this_by_recallin_ric_relation_cos2____sin2____.wav",
+		"duration": 2.48,
+		"sentenceIndex": 6875,
+		"timestamp": 627.0499999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 629.5299999999997
+	},
+	{
+		"index": 411,
+		"txt": "θ = 1.",
+		"file": "/home/user1/trash/dirOutputSet/_100_____1______1_____.wav",
+		"duration": 0.81,
+		"sentenceIndex": 6876,
+		"timestamp": 630.0299999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 630.8399999999997
+	}
+]

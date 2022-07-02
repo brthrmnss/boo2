@@ -1,0 +1,3914 @@
+[
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 0
+	},
+	{
+		"index": 2,
+		"txt": "Chapter 5. Collisions",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 5_ Collisions_Chapter 5_ Collisions____.wav",
+		"duration": 0.7,
+		"sentenceIndex": 3450,
+		"timestamp": 0.5
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 1.2
+	},
+	{
+		"index": 3,
+		"txt": "Now that you understand the",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now_that_you_understand_the_w_that_you_understand_the____.wav",
+		"duration": 0.53,
+		"sentenceIndex": 3451,
+		"timestamp": 1.7
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 2.23
+	},
+	{
+		"index": 4,
+		"txt": "motion of particles and rigid bodies, you need to consider what happens when they run into each other.",
+		"file": "/home/user1/trash/dirOutputSet/_100_motion_of_particles_and_rigid_bodie_they_run_into_each_other_____.wav",
+		"duration": 1.97,
+		"sentenceIndex": 3452,
+		"timestamp": 2.73
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 4.7
+	},
+	{
+		"index": 5,
+		"txt": "That's what we'll address in this chapter; specifically, we'll show you how to handle particle and, more interestingly, rigid body collision response.",
+		"file": "/home/user1/trash/dirOutputSet/_100_That_s_what_we_ll_address_in_this_c__body_collision_response_____.wav",
+		"duration": 3.14,
+		"sentenceIndex": 3453,
+		"timestamp": 5.2
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 8.34
+	},
+	{
+		"index": 8,
+		"txt": "Before moving forward, we need to make a distinction between collision detection and collision response .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Before_moving_forward__we_need_to_m__and_collision_response______.wav",
+		"duration": 2.1,
+		"sentenceIndex": 3456,
+		"timestamp": 8.84
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 10.94
+	},
+	{
+		"index": 10,
+		"txt": "Collision detection is a computational geometry problem involving the determination of whether and where two or more objects have collided.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Collision_detection_is_a_computatio_re_objects_have_collided_____.wav",
+		"duration": 2.67,
+		"sentenceIndex": 3458,
+		"timestamp": 11.44
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 14.11
+	},
+	{
+		"index": 12,
+		"txt": "Collision response is a kinetics problem involving the motion of two or more objects after they have collided.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Collision_response_is_a_kinetics_pr_after_they_have_collided_____.wav",
+		"duration": 2.14,
+		"sentenceIndex": 3460,
+		"timestamp": 14.61
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 16.75
+	},
+	{
+		"index": 13,
+		"txt": "While the two problems are intimately related, we'll focus solely on the problem of collision response in this chapter.",
+		"file": "/home/user1/trash/dirOutputSet/_100_While_the_two_problems_are_intimate_response_in_this_chapter_____.wav",
+		"duration": 2.42,
+		"sentenceIndex": 3461,
+		"timestamp": 17.25
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 19.67
+	},
+	{
+		"index": 14,
+		"txt": "Later, in",
+		"file": "/home/user1/trash/dirOutputSet/_100_Later__in_Later__in____.wav",
+		"duration": 0.4,
+		"sentenceIndex": 3462,
+		"timestamp": 20.17
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 20.57
+	},
+	{
+		"index": 15,
+		"txt": "Chapter 7 through",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 7_through_Chapter 7_through____.wav",
+		"duration": 0.48,
+		"sentenceIndex": 3463,
+		"timestamp": 21.07
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 21.55
+	},
+	{
+		"index": 17,
+		"txt": "Chapter 13 , we'll show you how to implement collision detection and response in various real time simulations, which draw upon concepts presented in this chapter.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 13___we_ll_show_you_how_to__resented_in_this_chapter_____.wav",
+		"duration": 3.59,
+		"sentenceIndex": 3465,
+		"timestamp": 22.05
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 25.64
+	},
+	{
+		"index": 19,
+		"txt": "Our treatment of rigid body collision response in this chapter is based on classical (Newtonian) impact principles.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Our_treatment_of_rigid_body_collisi_onian__impact_principles_____.wav",
+		"duration": 2.52,
+		"sentenceIndex": 3467,
+		"timestamp": 26.14
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 28.66
+	},
+	{
+		"index": 20,
+		"txt": "Here, colliding bodies are treated as rigid irrespective of their construction and material.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here__colliding_bodies_are_treated__onstruction_and_material_____.wav",
+		"duration": 1.81,
+		"sentenceIndex": 3468,
+		"timestamp": 29.16
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 30.97
+	},
+	{
+		"index": 21,
+		"txt": "As in earlier chapters, the rigid bodies discussed here do not change shape even upon impact.",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_in_earlier_chapters__the_rigid_b_e_shape_even_upon_impact_____.wav",
+		"duration": 2.03,
+		"sentenceIndex": 3469,
+		"timestamp": 31.47
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 33.5
+	},
+	{
+		"index": 22,
+		"txt": "This, of course, is an idealization.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This__of_course__is_an_idealization_urse__is_an_idealization_____.wav",
+		"duration": 1.04,
+		"sentenceIndex": 3470,
+		"timestamp": 34
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 35.04
+	},
+	{
+		"index": 23,
+		"txt": "You know from your everyday experience that when objects collide they dent, bend, compress, or crumple.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_know_from_your_everyday_experie_nd__compress__or_crumple_____.wav",
+		"duration": 2.18,
+		"sentenceIndex": 3471,
+		"timestamp": 35.54
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 37.72
+	},
+	{
+		"index": 24,
+		"txt": "For example, when a baseball strikes a bat, it may compress as much as three quarters of an inch during the millisecond of impact.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_example__when_a_baseball_strike_he_millisecond_of_impact_____.wav",
+		"duration": 2.59,
+		"sentenceIndex": 3472,
+		"timestamp": 38.22
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 40.81
+	},
+	{
+		"index": 25,
+		"txt": "Notwithstanding this reality, we'll rely on well established analytical and empirical methods to approximate rigid body collisions.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Notwithstanding_this_reality__we_ll_te_rigid_body_collisions_____.wav",
+		"duration": 2.73,
+		"sentenceIndex": 3473,
+		"timestamp": 41.31
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 44.04
+	},
+	{
+		"index": 27,
+		"txt": "This classical approach is widely used in engineering machine design, analysis, and simulations; however, for",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_classical_approach_is_widely_u_simulations__however__for____.wav",
+		"duration": 2.73,
+		"sentenceIndex": 3475,
+		"timestamp": 44.54
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 47.269999999999996
+	},
+	{
+		"index": 28,
+		"txt": "rigid body simulations there is another class of methods, known",
+		"file": "/home/user1/trash/dirOutputSet/_100_rigid_body_simulations_there_is_ano_r_class_of_methods__known____.wav",
+		"duration": 1.44,
+		"sentenceIndex": 3476,
+		"timestamp": 47.769999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 49.209999999999994
+	},
+	{
+		"index": 30,
+		"txt": "as penalty methods , at your disposal.",
+		"file": "/home/user1/trash/dirOutputSet/_100_as_penalty_methods___at_your_dispos_thods___at_your_disposal_____.wav",
+		"duration": 0.9,
+		"sentenceIndex": 3478,
+		"timestamp": 49.709999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 50.60999999999999
+	},
+	{
+		"index": 32,
+		"txt": "13",
+		"file": "/home/user1/trash/dirOutputSet/_100_13_13____.wav",
+		"duration": 0.3,
+		"sentenceIndex": 3480,
+		"timestamp": 51.10999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 51.40999999999999
+	},
+	{
+		"index": 33,
+		"txt": "] In penalty methods, the force at impact is represented by a temporary spring that gets compressed between the objects at the point of impact.",
+		"file": "/home/user1/trash/dirOutputSet/_100___In_penalty_methods__the_force_at__s_at_the_point_of_impact_____.wav",
+		"duration": 2.93,
+		"sentenceIndex": 3481,
+		"timestamp": 51.90999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 54.83999999999999
+	},
+	{
+		"index": 34,
+		"txt": "This spring compresses over a very short time and applies equal and opposite forces to the colliding bodies to simulate collision response.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_spring_compresses_over_a_very__ulate_collision_response_____.wav",
+		"duration": 2.84,
+		"sentenceIndex": 3482,
+		"timestamp": 55.33999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 58.17999999999999
+	},
+	{
+		"index": 35,
+		"txt": "Proponents of this method say it has the advantage of ease of implementation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Proponents_of_this_method_say_it_ha_f_ease_of_implementation_____.wav",
+		"duration": 1.51,
+		"sentenceIndex": 3483,
+		"timestamp": 58.67999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 60.18999999999999
+	},
+	{
+		"index": 36,
+		"txt": "However, one of the difficulties encountered in its implementation is numerical instability.",
+		"file": "/home/user1/trash/dirOutputSet/_100_However__one_of_the_difficulties_en_is_numerical_instability_____.wav",
+		"duration": 1.86,
+		"sentenceIndex": 3484,
+		"timestamp": 60.68999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 62.54999999999999
+	},
+	{
+		"index": 37,
+		"txt": "There are other arguments for and against the use of penalty methods, but we won't get into the debate here.",
+		"file": "/home/user1/trash/dirOutputSet/_100_There_are_other_arguments_for_and_a_get_into_the_debate_here_____.wav",
+		"duration": 2,
+		"sentenceIndex": 3485,
+		"timestamp": 63.04999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 65.04999999999998
+	},
+	{
+		"index": 38,
+		"txt": "Instead, we've included several references in the",
+		"file": "/home/user1/trash/dirOutputSet/_100_Instead__we_ve_included_several_ref_several_references_in_the____.wav",
+		"duration": 1.02,
+		"sentenceIndex": 3486,
+		"timestamp": 65.54999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 66.56999999999998
+	},
+	{
+		"index": 39,
+		"txt": "Bibliography",
+		"file": "/home/user1/trash/dirOutputSet/_100_Bibliography_Bibliography____.wav",
+		"duration": 0.34,
+		"sentenceIndex": 3487,
+		"timestamp": 67.06999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 67.40999999999998
+	},
+	{
+		"index": 40,
+		"txt": "for you to review if you are so inclined.",
+		"file": "/home/user1/trash/dirOutputSet/_100_for_you_to_review_if_you_are_so_inc_w_if_you_are_so_inclined_____.wav",
+		"duration": 0.83,
+		"sentenceIndex": 3488,
+		"timestamp": 67.90999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 68.73999999999998
+	},
+	{
+		"index": 41,
+		"txt": "Other methods of modeling collisions exist as well.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Other_methods_of_modeling_collision_collisions_exist_as_well_____.wav",
+		"duration": 1.03,
+		"sentenceIndex": 3489,
+		"timestamp": 69.23999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 70.26999999999998
+	},
+	{
+		"index": 42,
+		"txt": "For example, nonlinear finite element simulations are commonly used to model collisions during product design, such as the impact of a cellphone with the ground.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_example__nonlinear_finite_eleme_ellphone_with_the_ground_____.wav",
+		"duration": 3.41,
+		"sentenceIndex": 3490,
+		"timestamp": 70.76999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 74.17999999999998
+	},
+	{
+		"index": 43,
+		"txt": "These methods can be quite accurate; however, they are too slow for real time applications.",
+		"file": "/home/user1/trash/dirOutputSet/_100_These_methods_can_be_quite_accurate_r_real_time_applications_____.wav",
+		"duration": 1.9,
+		"sentenceIndex": 3491,
+		"timestamp": 74.67999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 76.57999999999998
+	},
+	{
+		"index": 44,
+		"txt": "Further, they are overkill for games.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Further__they_are_overkill_for_game_y_are_overkill_for_games_____.wav",
+		"duration": 0.78,
+		"sentenceIndex": 3492,
+		"timestamp": 77.07999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 77.85999999999999
+	},
+	{
+		"index": 46,
+		"txt": "Impulse Momentum Principle",
+		"file": "/home/user1/trash/dirOutputSet/_100_Impulse_Momentum_Principle_mpulse_Momentum_Principle____.wav",
+		"duration": 0.63,
+		"sentenceIndex": 3494,
+		"timestamp": 78.35999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 78.98999999999998
+	},
+	{
+		"index": 47,
+		"txt": "Impulse is defined",
+		"file": "/home/user1/trash/dirOutputSet/_100_Impulse_is_defined_Impulse_is_defined____.wav",
+		"duration": 0.45,
+		"sentenceIndex": 3495,
+		"timestamp": 79.48999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 79.93999999999998
+	},
+	{
+		"index": 52,
+		"txt": "as a force that acts over a very short period of time.",
+		"file": "/home/user1/trash/dirOutputSet/_100_as_a_force_that_acts_over_a_very_sh_ery_short_period_of_time_____.wav",
+		"duration": 1.17,
+		"sentenceIndex": 3500,
+		"timestamp": 80.43999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 81.60999999999999
+	},
+	{
+		"index": 53,
+		"txt": "For example, the force exerted on a",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_example__the_force_exerted_on_a_e__the_force_exerted_on_a____.wav",
+		"duration": 0.98,
+		"sentenceIndex": 3501,
+		"timestamp": 82.10999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 83.08999999999999
+	},
+	{
+		"index": 54,
+		"txt": "bullet when fired from a gun is an impulse force.",
+		"file": "/home/user1/trash/dirOutputSet/_100_bullet_when_fired_from_a_gun_is_an___gun_is_an_impulse_force_____.wav",
+		"duration": 1.03,
+		"sentenceIndex": 3502,
+		"timestamp": 83.58999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 84.61999999999999
+	},
+	{
+		"index": 55,
+		"txt": "The collision forces between two colliding objects are impulse forces, as when you kick a football or hit a baseball with a bat.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_collision_forces_between_two_co_it_a_baseball_with_a_bat_____.wav",
+		"duration": 2.51,
+		"sentenceIndex": 3503,
+		"timestamp": 85.11999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 87.63
+	},
+	{
+		"index": 58,
+		"txt": "More specifically, impulse is a vector quantity equal to the change in momentum.",
+		"file": "/home/user1/trash/dirOutputSet/_100_More_specifically__impulse_is_a_vec_o_the_change_in_momentum_____.wav",
+		"duration": 1.71,
+		"sentenceIndex": 3506,
+		"timestamp": 88.13
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 89.83999999999999
+	},
+	{
+		"index": 59,
+		"txt": "The so called impulse momentum principle says that the change in moment is equal to the applied impulse.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_so_called_impulse_momentum_prin_l_to_the_applied_impulse_____.wav",
+		"duration": 2.13,
+		"sentenceIndex": 3507,
+		"timestamp": 90.33999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 92.46999999999998
+	},
+	{
+		"index": 60,
+		"txt": "For problems involving constant",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_problems_involving_constant_oblems_involving_constant____.wav",
+		"duration": 0.66,
+		"sentenceIndex": 3508,
+		"timestamp": 92.96999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 93.62999999999998
+	},
+	{
+		"index": 64,
+		"txt": "mass and moment of inertia, you can write:Linear impulse = o (t– to t+)F dt = m (v+ – v–)Angular impulse = o (t– to t+)M dt = I (ω+ – ω–)",
+		"file": "/home/user1/trash/dirOutputSet/_100_mass_and_moment_of_inertia__you_can__to_t__M_dt___I______________.wav",
+		"duration": 6.6,
+		"sentenceIndex": 3512,
+		"timestamp": 94.12999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 100.72999999999998
+	},
+	{
+		"index": 66,
+		"txt": "In these equations, F is the impulsive force, M is the impulsive torque",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_these_equations__F_is_the_impuls_M_is_the_impulsive_torque____.wav",
+		"duration": 1.61,
+		"sentenceIndex": 3514,
+		"timestamp": 101.22999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 102.83999999999997
+	},
+	{
+		"index": 68,
+		"txt": "(or moment), t is time, v is velocity, the subscript – refers to the instant just prior to impact, and the subscript + refers to the instant just after impact.",
+		"file": "/home/user1/trash/dirOutputSet/_100__or_moment___t_is_time__v_is_veloci_nstant_just_after_impact_____.wav",
+		"duration": 3.85,
+		"sentenceIndex": 3516,
+		"timestamp": 103.33999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 107.18999999999997
+	},
+	{
+		"index": 69,
+		"txt": "You can calculate the average impulse force and torque using the following equations:F = m (v+ – v–) / (t+ – t–)M = I (ω+ – ω–) / (t+ – t–)",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_calculate_the_average_impul___I______________t____t______.wav",
+		"duration": 6.25,
+		"sentenceIndex": 3517,
+		"timestamp": 107.68999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 113.93999999999997
+	},
+	{
+		"index": 71,
+		"txt": "Consider this simple example: a 150 gram (0.15 kg) bullet is fired from a gun at a muzzle velocity of 756 m/s.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Consider_this_simple_example__a_150_zzle_velocity_of_756_m_s_____.wav",
+		"duration": 4.06,
+		"sentenceIndex": 3519,
+		"timestamp": 114.43999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 118.49999999999997
+	},
+	{
+		"index": 72,
+		"txt": "The bullet takes 0.0008 seconds to travel through the 610 mm (0.610 m) rifle barrel.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_bullet_takes_0_0008_seconds_to__m__0_610_m__rifle_barrel_____.wav",
+		"duration": 3.4,
+		"sentenceIndex": 3520,
+		"timestamp": 118.99999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 122.39999999999998
+	},
+	{
+		"index": 73,
+		"txt": "Calculate the impulse and the average impulsive force exerted on the bullet.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Calculate_the_impulse_and_the_avera_ce_exerted_on_the_bullet_____.wav",
+		"duration": 1.43,
+		"sentenceIndex": 3521,
+		"timestamp": 122.89999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 124.32999999999998
+	},
+	{
+		"index": 74,
+		"txt": "In this example, the bullet's mass is a constant 150 grams and its initial velocity is 0, thus its initial momentum is 0.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_this_example__the_bullet_s_mass__ts_initial_momentum_is_0_____.wav",
+		"duration": 3.17,
+		"sentenceIndex": 3522,
+		"timestamp": 124.82999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 127.99999999999999
+	},
+	{
+		"index": 75,
+		"txt": "Immediately after the gun is fired, the bullet's momentum is its mass times the muzzle velocity, which yields a momentum of 113.4 kg m/s.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Immediately_after_the_gun_is_fired__momentum_of_113_4_kg_m_s_____.wav",
+		"duration": 3.95,
+		"sentenceIndex": 3523,
+		"timestamp": 128.5
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 132.45
+	},
+	{
+		"index": 76,
+		"txt": "The impulse is equal to the change in momentum, and is simply 113.4 kg m/s.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_impulse_is_equal_to_the_change__d_is_simply_113_4_kg_m_s_____.wav",
+		"duration": 2.63,
+		"sentenceIndex": 3524,
+		"timestamp": 132.95
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 135.57999999999998
+	},
+	{
+		"index": 77,
+		"txt": "The average impulse force is equal to the impulse divided by the duration of application of the force, or in this case:link https:Average impulse force = 141,750 N",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_average_impulse_force_is_equal__impulse_force___141_750_N____.wav",
+		"duration": 4.65,
+		"sentenceIndex": 3525,
+		"timestamp": 136.07999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 140.73
+	},
+	{
+		"index": 79,
+		"txt": "This is a simple but important illustration of the concept of impulse, and you'll use the same principle when dealing with rigid body impacts.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_a_simple_but_important_illu__with_rigid_body_impacts_____.wav",
+		"duration": 2.8,
+		"sentenceIndex": 3527,
+		"timestamp": 141.23
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 144.03
+	},
+	{
+		"index": 80,
+		"txt": "During impacts, the forces of impact are usually very high and the duration of impact is usually very short.",
+		"file": "/home/user1/trash/dirOutputSet/_100_During_impacts__the_forces_of_impac_ct_is_usually_very_short_____.wav",
+		"duration": 2.33,
+		"sentenceIndex": 3528,
+		"timestamp": 144.53
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 146.86
+	},
+	{
+		"index": 81,
+		"txt": "When two objects collide, each applies an impulse force to the other; these forces are equal in magnitude but opposite in direction.",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_two_objects_collide__each_appl_ut_opposite_in_direction_____.wav",
+		"duration": 2.78,
+		"sentenceIndex": 3529,
+		"timestamp": 147.36
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 150.14000000000001
+	},
+	{
+		"index": 82,
+		"txt": "In the gun example, the impulse applied to the bullet to set it in motion is also applied in the opposite direction to the gun, giving you a nice kick in the shoulder.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_the_gun_example__the_impulse_app_ice_kick_in_the_shoulder_____.wav",
+		"duration": 3.18,
+		"sentenceIndex": 3530,
+		"timestamp": 150.64000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 153.82000000000002
+	},
+	{
+		"index": 83,
+		"txt": "This is simply",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_simply_This_is_simply____.wav",
+		"duration": 0.36,
+		"sentenceIndex": 3531,
+		"timestamp": 154.32000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 154.68000000000004
+	},
+	{
+		"index": 84,
+		"txt": "Newton's third law in action.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Newton_s_third_law_in_action__on_s_third_law_in_action_____.wav",
+		"duration": 0.6,
+		"sentenceIndex": 3532,
+		"timestamp": 155.18000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 155.78000000000003
+	},
+	{
+		"index": 87,
+		"txt": "Impact",
+		"file": "/home/user1/trash/dirOutputSet/_100_Impact_Impact____.wav",
+		"duration": 0.22,
+		"sentenceIndex": 3535,
+		"timestamp": 156.28000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 156.50000000000003
+	},
+	{
+		"index": 89,
+		"txt": "In addition to the impulse momentum principle discussed in the previous section, our classical impact, or",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_addition_to_the_impulse_momentum__our_classical_impact__or____.wav",
+		"duration": 2.27,
+		"sentenceIndex": 3537,
+		"timestamp": 157.00000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 159.27000000000004
+	},
+	{
+		"index": 93,
+		"txt": "collision response, analysis relies on another fundamental principle: Newton's principle of",
+		"file": "/home/user1/trash/dirOutputSet/_100_collision_response__analysis_relies_le__Newton_s_principle_of____.wav",
+		"duration": 2.03,
+		"sentenceIndex": 3541,
+		"timestamp": 159.77000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 161.80000000000004
+	},
+	{
+		"index": 97,
+		"txt": "conservation of momentum, which states that when a system of",
+		"file": "/home/user1/trash/dirOutputSet/_100_conservation_of_momentum__which_sta_tes_that_when_a_system_of____.wav",
+		"duration": 1.23,
+		"sentenceIndex": 3545,
+		"timestamp": 162.30000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 163.53000000000003
+	},
+	{
+		"index": 98,
+		"txt": "rigid bodies collide, momentum is conserved.",
+		"file": "/home/user1/trash/dirOutputSet/_100_rigid_bodies_collide__momentum_is_c_e__momentum_is_conserved_____.wav",
+		"duration": 1.08,
+		"sentenceIndex": 3546,
+		"timestamp": 164.03000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 165.11000000000004
+	},
+	{
+		"index": 99,
+		"txt": "This means that for bodies of constant mass, the sum of their masses times their respective velocities before the impact is equal to the sum of their masses times their respective velocities after the impact:m1v1– + m2v2– = m1v1+ + m2v2+",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_means_that_for_bodies_of_const_____m2v2____m1v1____m2v2_____.wav",
+		"duration": 6.45,
+		"sentenceIndex": 3547,
+		"timestamp": 165.61000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 172.06000000000003
+	},
+	{
+		"index": 101,
+		"txt": "Here, m refers to mass, v refers to velocity, subscript 1 refers to body one, subscript 2 refers to body two, subscript – refers to the instant just prior to impact, and subscript + refers to the instant just after impact.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here__m_refers_to_mass__v_refers_to_nstant_just_after_impact_____.wav",
+		"duration": 5.65,
+		"sentenceIndex": 3549,
+		"timestamp": 172.56000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 178.21000000000004
+	},
+	{
+		"index": 104,
+		"txt": "A crucial assumption of this method is that during the instant of impact the only force that matters is the impact force; all other forces are assumed negligible over that very short duration.",
+		"file": "/home/user1/trash/dirOutputSet/_100_A_crucial_assumption_of_this_method_that_very_short_duration_____.wav",
+		"duration": 3.86,
+		"sentenceIndex": 3552,
+		"timestamp": 178.71000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 182.57000000000005
+	},
+	{
+		"index": 105,
+		"txt": "Remember this assumption, because in",
+		"file": "/home/user1/trash/dirOutputSet/_100_Remember_this_assumption__because_i_is_assumption__because_in____.wav",
+		"duration": 0.83,
+		"sentenceIndex": 3553,
+		"timestamp": 183.07000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 183.90000000000006
+	},
+	{
+		"index": 106,
+		"txt": "Chapter 10",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 10_Chapter 10____.wav",
+		"duration": 0.32,
+		"sentenceIndex": 3554,
+		"timestamp": 184.40000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 184.72000000000006
+	},
+	{
+		"index": 107,
+		"txt": "we'll rely on it when implementing collision response in an example 2D real time simulation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_we_ll_rely_on_it_when_implementing___2D_real_time_simulation_____.wav",
+		"duration": 2.02,
+		"sentenceIndex": 3555,
+		"timestamp": 185.22000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 187.24000000000007
+	},
+	{
+		"index": 109,
+		"txt": "We've already stated that rigid bodies don't change shape during impacts, and you know from your own experience that real objects do change shape during impacts.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ve_already_stated_that_rigid_bod_nge_shape_during_impacts_____.wav",
+		"duration": 3.18,
+		"sentenceIndex": 3557,
+		"timestamp": 187.74000000000007
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 190.92000000000007
+	},
+	{
+		"index": 110,
+		"txt": "What's happening in real life is",
+		"file": "/home/user1/trash/dirOutputSet/_100_What_s_happening_in_real_life_is_happening_in_real_life_is____.wav",
+		"duration": 0.66,
+		"sentenceIndex": 3558,
+		"timestamp": 191.42000000000007
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 192.08000000000007
+	},
+	{
+		"index": 111,
+		"txt": "that kinetic energy is being converted to",
+		"file": "/home/user1/trash/dirOutputSet/_100_that_kinetic_energy_is_being_conver_rgy_is_being_converted_to____.wav",
+		"duration": 0.91,
+		"sentenceIndex": 3559,
+		"timestamp": 192.58000000000007
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 193.49000000000007
+	},
+	{
+		"index": 113,
+		"txt": "strain energy to cause the objects to deform.",
+		"file": "/home/user1/trash/dirOutputSet/_100_strain_energy_to_cause_the_objects__se_the_objects_to_deform_____.wav",
+		"duration": 0.93,
+		"sentenceIndex": 3561,
+		"timestamp": 193.99000000000007
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 194.92000000000007
+	},
+	{
+		"index": 114,
+		"txt": "(See the sidebar",
+		"file": "/home/user1/trash/dirOutputSet/_100__See_the_sidebar__See_the_sidebar____.wav",
+		"duration": 0.38,
+		"sentenceIndex": 3562,
+		"timestamp": 195.42000000000007
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 195.80000000000007
+	},
+	{
+		"index": 115,
+		"txt": "Kinetic Energy",
+		"file": "/home/user1/trash/dirOutputSet/_100_Kinetic_Energy_Kinetic_Energy____.wav",
+		"duration": 0.38,
+		"sentenceIndex": 3563,
+		"timestamp": 196.30000000000007
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 196.68000000000006
+	},
+	{
+		"index": 116,
+		"txt": "for further details on this topic.) When the deformation in the objects is permanent, energy is lost and thus kinetic energy is not conserved.",
+		"file": "/home/user1/trash/dirOutputSet/_100_for_further_details_on_this_topic____energy_is_not_conserved_____.wav",
+		"duration": 2.96,
+		"sentenceIndex": 3564,
+		"timestamp": 197.18000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 200.14000000000007
+	},
+	{
+		"index": 118,
+		"txt": "Kinetic Energy",
+		"file": "/home/user1/trash/dirOutputSet/_100_Kinetic_Energy_Kinetic_Energy____.wav",
+		"duration": 0.38,
+		"sentenceIndex": 3566,
+		"timestamp": 200.64000000000007
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 201.02000000000007
+	},
+	{
+		"index": 120,
+		"txt": "Kinetic energy is a",
+		"file": "/home/user1/trash/dirOutputSet/_100_Kinetic_energy_is_a_Kinetic_energy_is_a____.wav",
+		"duration": 0.52,
+		"sentenceIndex": 3568,
+		"timestamp": 201.52000000000007
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 202.04000000000008
+	},
+	{
+		"index": 121,
+		"txt": "form of energy associated with moving bodies.",
+		"file": "/home/user1/trash/dirOutputSet/_100_form_of_energy_associated_with_movi_iated_with_moving_bodies_____.wav",
+		"duration": 0.97,
+		"sentenceIndex": 3569,
+		"timestamp": 202.54000000000008
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 203.51000000000008
+	},
+	{
+		"index": 122,
+		"txt": "It is equal to the energy required to accelerate the body from rest, which is also equal to the energy required to bring the moving body to a stop.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_is_equal_to_the_energy_required__he_moving_body_to_a_stop_____.wav",
+		"duration": 3,
+		"sentenceIndex": 3570,
+		"timestamp": 204.01000000000008
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 207.01000000000008
+	},
+	{
+		"index": 123,
+		"txt": "As you might expect, kinetic energy is a function of the body's speed, or velocity, in addition to its mass.",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_you_might_expect__kinetic_energy__in_addition_to_its_mass_____.wav",
+		"duration": 2.44,
+		"sentenceIndex": 3571,
+		"timestamp": 207.51000000000008
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 209.95000000000007
+	},
+	{
+		"index": 124,
+		"txt": "The formula for",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_formula_for_The_formula_for____.wav",
+		"duration": 0.39,
+		"sentenceIndex": 3572,
+		"timestamp": 210.45000000000007
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 210.84000000000006
+	},
+	{
+		"index": 125,
+		"txt": "linear kinetic energy is:KElinear = (1/2) m v2",
+		"file": "/home/user1/trash/dirOutputSet/_100_linear_kinetic_energy_is_KElinear____is_KElinear____1_2__m_v2____.wav",
+		"duration": 1.55,
+		"sentenceIndex": 3573,
+		"timestamp": 211.34000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 212.89000000000007
+	},
+	{
+		"index": 128,
+		"txt": "Angular, or rotational,",
+		"file": "/home/user1/trash/dirOutputSet/_100_Angular__or_rotational__Angular__or_rotational_____.wav",
+		"duration": 0.66,
+		"sentenceIndex": 3576,
+		"timestamp": 213.39000000000007
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 214.05000000000007
+	},
+	{
+		"index": 129,
+		"txt": "kinetic energy is a function of the body's inertia and angular velocity:KEangular = (1/2) I ω2",
+		"file": "/home/user1/trash/dirOutputSet/_100_kinetic_energy_is_a_function_of_the_ty_KEangular____1_2__I__2____.wav",
+		"duration": 2.72,
+		"sentenceIndex": 3577,
+		"timestamp": 214.55000000000007
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 217.27000000000007
+	},
+	{
+		"index": 132,
+		"txt": "Conservation of kinetic energy between two colliding bodies means that the sum of kinetic energy of both bodies prior to impact is equal to the sum of the kinetic energy of both bodies after impact:m1v21– + m2v22– = m1v21+ + m2v22+",
+		"file": "/home/user1/trash/dirOutputSet/_100_Conservation_of_kinetic_energy_betw__m2v22____m1v21____m2v22_____.wav",
+		"duration": 6.94,
+		"sentenceIndex": 3580,
+		"timestamp": 217.77000000000007
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 224.71000000000006
+	},
+	{
+		"index": 134,
+		"txt": "Collisions that involve losses in kinetic energy are",
+		"file": "/home/user1/trash/dirOutputSet/_100_Collisions_that_involve_losses_in_k_ses_in_kinetic_energy_are____.wav",
+		"duration": 1.12,
+		"sentenceIndex": 3582,
+		"timestamp": 225.21000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 226.33000000000007
+	},
+	{
+		"index": 138,
+		"txt": "said to be inelastic, or plastic , collisions.",
+		"file": "/home/user1/trash/dirOutputSet/_100_said_to_be_inelastic__or_plastic_____or_plastic___collisions_____.wav",
+		"duration": 1.13,
+		"sentenceIndex": 3586,
+		"timestamp": 226.83000000000007
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 227.96000000000006
+	},
+	{
+		"index": 139,
+		"txt": "For example, if you throw two clay balls against each other, their kinetic energy is converted to permanent strain energy in deforming the clay balls, and their collision response that is, their motion after impact is less than spectacular.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_example__if_you_throw_two_clay__is_less_than_spectacular_____.wav",
+		"duration": 4.94,
+		"sentenceIndex": 3587,
+		"timestamp": 228.46000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 233.40000000000006
+	},
+	{
+		"index": 140,
+		"txt": "If the collision is perfectly inelastic , then the two balls of clay will stick to each other and move together at the same velocity after impact.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_the_collision_is_perfectly_inela_me_velocity_after_impact_____.wav",
+		"duration": 2.86,
+		"sentenceIndex": 3588,
+		"timestamp": 233.90000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 236.76000000000008
+	},
+	{
+		"index": 141,
+		"txt": "Collisions where kinetic energy is conserved are called perfectly elastic .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Collisions_where_kinetic_energy_is__alled_perfectly_elastic______.wav",
+		"duration": 1.53,
+		"sentenceIndex": 3589,
+		"timestamp": 237.26000000000008
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 238.79000000000008
+	},
+	{
+		"index": 142,
+		"txt": "In these collisions, the sum of kinetic energy of all objects before the impact is equal to the sum of kinetic energy of all objects after the impact.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_these_collisions__the_sum_of_kin_objects_after_the_impact_____.wav",
+		"duration": 3.06,
+		"sentenceIndex": 3590,
+		"timestamp": 239.29000000000008
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 242.35000000000008
+	},
+	{
+		"index": 143,
+		"txt": "A good example of elastic impact (though not perfectly elastic) is the collision between two billiard balls where the ball deformation is negligible and certainly not permanent under normal circumstances.",
+		"file": "/home/user1/trash/dirOutputSet/_100_A_good_example_of_elastic_impact__t_der_normal_circumstances_____.wav",
+		"duration": 4.16,
+		"sentenceIndex": 3591,
+		"timestamp": 242.85000000000008
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 247.01000000000008
+	},
+	{
+		"index": 146,
+		"txt": "Of course, in reality, impacts are somewhere between perfectly elastic and perfectly inelastic.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Of_course__in_reality__impacts_are___and_perfectly_inelastic_____.wav",
+		"duration": 2.15,
+		"sentenceIndex": 3594,
+		"timestamp": 247.51000000000008
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 249.66000000000008
+	},
+	{
+		"index": 147,
+		"txt": "This means that for rigid bodies, which don't change shape at all, we'll have to rely on an empirical relation to quantify the degree of elasticity of the impact(s) that we're trying to simulate.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_means_that_for_rigid_bodies__w_we_re_trying_to_simulate_____.wav",
+		"duration": 3.91,
+		"sentenceIndex": 3595,
+		"timestamp": 250.16000000000008
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 254.07000000000008
+	},
+	{
+		"index": 148,
+		"txt": "The relation that we'll use is the ratio of the relative separation velocity to the relative approach velocity of the colliding objects:e = −(v1+ − v2+) / (v1− − v2−)",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_relation_that_we_ll_use_is_the___v1____v2______v1____v2______.wav",
+		"duration": 4.12,
+		"sentenceIndex": 3596,
+		"timestamp": 254.57000000000008
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 258.69000000000005
+	},
+	{
+		"index": 150,
+		"txt": "Here e is known as the coefficient of restitution and",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_e_is_known_as_the_coefficient__icient_of_restitution_and____.wav",
+		"duration": 1.1,
+		"sentenceIndex": 3598,
+		"timestamp": 259.19000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 260.2900000000001
+	},
+	{
+		"index": 152,
+		"txt": "is a function of the colliding objects' material, construction, and geometry.",
+		"file": "/home/user1/trash/dirOutputSet/_100_is_a_function_of_the_colliding_obje_nstruction__and_geometry_____.wav",
+		"duration": 1.62,
+		"sentenceIndex": 3600,
+		"timestamp": 260.7900000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 262.4100000000001
+	},
+	{
+		"index": 153,
+		"txt": "This coefficient can be experimentally determined for specific impact scenarios for example, the collision between a baseball and bat, or a golf club and ball.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_coefficient_can_be_experimenta__or_a_golf_club_and_ball_____.wav",
+		"duration": 3.46,
+		"sentenceIndex": 3601,
+		"timestamp": 262.9100000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 266.37000000000006
+	},
+	{
+		"index": 154,
+		"txt": "For perfectly inelastic collisions, e is 0, and for perfectly elastic collisions, e is 1.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_perfectly_inelastic_collisions__astic_collisions__e_is_1_____.wav",
+		"duration": 2.23,
+		"sentenceIndex": 3602,
+		"timestamp": 266.87000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 269.1000000000001
+	},
+	{
+		"index": 155,
+		"txt": "For collisions that are neither perfectly inelastic nor perfectly elastic, e can be any value between 0 and 1.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_collisions_that_are_neither_per_ny_value_between_0_and_1_____.wav",
+		"duration": 2.51,
+		"sentenceIndex": 3603,
+		"timestamp": 269.6000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 272.11000000000007
+	},
+	{
+		"index": 156,
+		"txt": "In this regard, the velocities considered are along the line of action of the",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_this_regard__the_velocities_cons_the_line_of_action_of_the____.wav",
+		"duration": 1.61,
+		"sentenceIndex": 3604,
+		"timestamp": 272.61000000000007
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 274.2200000000001
+	},
+	{
+		"index": 157,
+		"txt": "collision.",
+		"file": "/home/user1/trash/dirOutputSet/_100_collision__collision_____.wav",
+		"duration": 0.23,
+		"sentenceIndex": 3605,
+		"timestamp": 274.7200000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 274.9500000000001
+	},
+	{
+		"index": 160,
+		"txt": "In frictionless collisions, the line of action of impact is a line perpendicular (or normal) to the colliding surfaces.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_frictionless_collisions__the_lin_o_the_colliding_surfaces_____.wav",
+		"duration": 2.64,
+		"sentenceIndex": 3608,
+		"timestamp": 275.4500000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 278.0900000000001
+	},
+	{
+		"index": 161,
+		"txt": "When the velocity of the bodies is along the line of action, the impact is said to be direct .",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_the_velocity_of_the_bodies_is__ct_is_said_to_be_direct______.wav",
+		"duration": 1.9,
+		"sentenceIndex": 3609,
+		"timestamp": 278.5900000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 280.49000000000007
+	},
+	{
+		"index": 164,
+		"txt": "When the line of action passes through the center of mass of the bodies, the collision is said to",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_the_line_of_action_passes_thro__the_collision_is_said_to____.wav",
+		"duration": 1.89,
+		"sentenceIndex": 3612,
+		"timestamp": 280.99000000000007
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 282.88000000000005
+	},
+	{
+		"index": 166,
+		"txt": "be central .",
+		"file": "/home/user1/trash/dirOutputSet/_100_be_central___be_central______.wav",
+		"duration": 0.31,
+		"sentenceIndex": 3614,
+		"timestamp": 283.38000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 283.69000000000005
+	},
+	{
+		"index": 167,
+		"txt": "Particles and spheres of uniform mass distribution always experience central impact.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Particles_and_spheres_of_uniform_ma_xperience_central_impact_____.wav",
+		"duration": 1.82,
+		"sentenceIndex": 3615,
+		"timestamp": 284.19000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 286.01000000000005
+	},
+	{
+		"index": 168,
+		"txt": "Direct central impact",
+		"file": "/home/user1/trash/dirOutputSet/_100_Direct_central_impact_Direct_central_impact____.wav",
+		"duration": 0.45,
+		"sentenceIndex": 3616,
+		"timestamp": 286.51000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 286.96000000000004
+	},
+	{
+		"index": 170,
+		"txt": "occurs when the line of action passes through the centers of mass of the colliding bodies and their velocity is along the line of action.",
+		"file": "/home/user1/trash/dirOutputSet/_100_occurs_when_the_line_of_action_pass_along_the_line_of_action_____.wav",
+		"duration": 2.57,
+		"sentenceIndex": 3618,
+		"timestamp": 287.46000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 290.03000000000003
+	},
+	{
+		"index": 171,
+		"txt": "When the velocities of the bodies are not along the line of action, the impact is said to",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_the_velocities_of_the_bodies_a_on__the_impact_is_said_to____.wav",
+		"duration": 1.85,
+		"sentenceIndex": 3619,
+		"timestamp": 290.53000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 292.38000000000005
+	},
+	{
+		"index": 173,
+		"txt": "be oblique .",
+		"file": "/home/user1/trash/dirOutputSet/_100_be_oblique___be_oblique______.wav",
+		"duration": 0.25,
+		"sentenceIndex": 3621,
+		"timestamp": 292.88000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 293.13000000000005
+	},
+	{
+		"index": 174,
+		"txt": "You can analyze oblique impacts in terms of component coordinates where the component parallel to the line of action experiences the impact, but the component perpendicular to the line of action does not.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_analyze_oblique_impacts_in___line_of_action_does_not_____.wav",
+		"duration": 4.06,
+		"sentenceIndex": 3622,
+		"timestamp": 293.63000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 297.69000000000005
+	},
+	{
+		"index": 176,
+		"txt": "Figure 5 1",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 5_1_Figure 5_1____.wav",
+		"duration": 0.53,
+		"sentenceIndex": 3624,
+		"timestamp": 298.19000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 298.72
+	},
+	{
+		"index": 177,
+		"txt": "illustrates these impacts.",
+		"file": "/home/user1/trash/dirOutputSet/_100_illustrates_these_impacts__llustrates_these_impacts_____.wav",
+		"duration": 0.56,
+		"sentenceIndex": 3625,
+		"timestamp": 299.22
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 299.78000000000003
+	},
+	{
+		"index": 183,
+		"txt": "Figure 5 1. Types of impact",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 5_1_ Types_of_impact_gure 5_1_ Types_of_impact____.wav",
+		"duration": 1.1,
+		"sentenceIndex": 3631,
+		"timestamp": 300.28000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 301.38000000000005
+	},
+	{
+		"index": 185,
+		"txt": "As an example, consider the collision between two",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_an_example__consider_the_collisi_the_collision_between_two____.wav",
+		"duration": 1.06,
+		"sentenceIndex": 3633,
+		"timestamp": 301.88000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 302.94000000000005
+	},
+	{
+		"index": 188,
+		"txt": "billiard balls illustrated in",
+		"file": "/home/user1/trash/dirOutputSet/_100_billiard_balls_illustrated_in_iard_balls_illustrated_in____.wav",
+		"duration": 0.68,
+		"sentenceIndex": 3636,
+		"timestamp": 303.44000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 304.12000000000006
+	},
+	{
+		"index": 189,
+		"txt": "Figure 5 2",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 5_2_Figure 5_2____.wav",
+		"duration": 0.55,
+		"sentenceIndex": 3637,
+		"timestamp": 304.62000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 305.1700000000001
+	},
+	{
+		"index": 196,
+		"txt": "Figure 5 2. Example billiard ball collision",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 5_2_ Example_billiard_ball_c_e_billiard_ball_collision____.wav",
+		"duration": 1.31,
+		"sentenceIndex": 3644,
+		"timestamp": 305.6700000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 306.9800000000001
+	},
+	{
+		"index": 198,
+		"txt": "Both balls are a standard 57 mm in diameter, and each weighs 156 grams.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Both_balls_are_a_standard_57_mm_in__nd_each_weighs_156_grams_____.wav",
+		"duration": 2.46,
+		"sentenceIndex": 3646,
+		"timestamp": 307.4800000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 309.94000000000005
+	},
+	{
+		"index": 199,
+		"txt": "Assume that the collision is nearly perfectly elastic and the coefficient of restitution is 0.9.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Assume_that_the_collision_is_nearly_nt_of_restitution_is_0_9_____.wav",
+		"duration": 2.2,
+		"sentenceIndex": 3647,
+		"timestamp": 310.44000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 312.64000000000004
+	},
+	{
+		"index": 200,
+		"txt": "If the velocity of ball 1 when it strikes ball 2 is 6 m/s in the x direction, as shown in",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_the_velocity_of_ball_1_when_it_s__x_direction__as_shown_in____.wav",
+		"duration": 2.38,
+		"sentenceIndex": 3648,
+		"timestamp": 313.14000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 315.52000000000004
+	},
+	{
+		"index": 201,
+		"txt": "Figure 5 2",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 5_2_Figure 5_2____.wav",
+		"duration": 0.55,
+		"sentenceIndex": 3649,
+		"timestamp": 316.02000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 316.57000000000005
+	},
+	{
+		"index": 202,
+		"txt": ", calculate the velocities of both balls after the collision assuming that this is a frictionless collision.",
+		"file": "/home/user1/trash/dirOutputSet/_100___calculate_the_velocities_of_both__a_frictionless_collision_____.wav",
+		"duration": 1.93,
+		"sentenceIndex": 3650,
+		"timestamp": 317.07000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 319.00000000000006
+	},
+	{
+		"index": 204,
+		"txt": "The first thing you need to do is recognize that the line of action of impact is along the line connecting the centers of gravity of both balls, which, since these are spheres, is also normal to both surfaces.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_first_thing_you_need_to_do_is_r__normal_to_both_surfaces_____.wav",
+		"duration": 4.39,
+		"sentenceIndex": 3652,
+		"timestamp": 319.50000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 323.89000000000004
+	},
+	{
+		"index": 205,
+		"txt": "You can then write the unit normal vector as follows:n = n = (0.866) i – (0.5)j",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_then_write_the_unit_normal_____n____0_866__i____0_5_j____.wav",
+		"duration": 3.16,
+		"sentenceIndex": 3653,
+		"timestamp": 324.39000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 327.55000000000007
+	},
+	{
+		"index": 206,
+		"txt": "where n is the unit normal vector, r is the ball radius, and i and j represent unit vectors in the x  and y directions, respectively.",
+		"file": "/home/user1/trash/dirOutputSet/_100_where_n_is_the_unit_normal_vector___directions__respectively_____.wav",
+		"duration": 3.16,
+		"sentenceIndex": 3654,
+		"timestamp": 328.05000000000007
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 331.2100000000001
+	},
+	{
+		"index": 208,
+		"txt": "Now that you have the line of action of the collision, or the unit normal vector, you can calculate the relative normal velocity between the balls at the instant of collision.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now_that_you_have_the_line_of_actio_the_instant_of_collision_____.wav",
+		"duration": 3.44,
+		"sentenceIndex": 3656,
+		"timestamp": 331.7100000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 335.1500000000001
+	},
+	{
+		"index": 209,
+		"txt": "vrn = [v1– – v2–]  nvrn = [(6 m/s) i + (0 m/s) j ]  [ (0.864) i – (0.5) j]vrnlink https:",
+		"file": "/home/user1/trash/dirOutputSet/_100_vrn____v1____v2____nvrn_____6_m_s_______0_5__j_vrnlink_https_____.wav",
+		"duration": 6.29,
+		"sentenceIndex": 3657,
+		"timestamp": 335.6500000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 341.9400000000001
+	},
+	{
+		"index": 210,
+		"txt": "This will be used as v1n– in the following equations.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_will_be_used_as_v1n__in_the_fo__the_following_equations_____.wav",
+		"duration": 1.42,
+		"sentenceIndex": 3658,
+		"timestamp": 342.4400000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 343.8600000000001
+	},
+	{
+		"index": 211,
+		"txt": "Notice here that since ball 2 is initially at rest, v2– is 0.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Notice_here_that_since_ball_2_is_in_tially_at_rest__v2__is_0_____.wav",
+		"duration": 1.83,
+		"sentenceIndex": 3659,
+		"timestamp": 344.3600000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 346.1900000000001
+	},
+	{
+		"index": 213,
+		"txt": "Now you can apply the principle of conservation of momentum in the normal direction as follows:m1 v1n– + m2 v2n– = m1 v1n+ + m2 v2n+",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now_you_can_apply_the_principle_of___v2n____m1_v1n____m2_v2n_____.wav",
+		"duration": 4.44,
+		"sentenceIndex": 3661,
+		"timestamp": 346.6900000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 351.1300000000001
+	},
+	{
+		"index": 214,
+		"txt": "Noting that m1 equals m2 since the balls are identical, and that v2n– is 0, and then solving for v1n+ yields:v1n+ = v1n– – v2n+",
+		"file": "/home/user1/trash/dirOutputSet/_100_Noting_that_m1_equals_m2_since_the__yields_v1n____v1n____v2n_____.wav",
+		"duration": 4.75,
+		"sentenceIndex": 3662,
+		"timestamp": 351.6300000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 356.3800000000001
+	},
+	{
+		"index": 215,
+		"txt": "To actually solve for these velocities, you need to use the equation for coefficient of restitution and make the substitution for v1n+ .",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_actually_solve_for_these_velocit_e_substitution_for_v1n_______.wav",
+		"duration": 3.03,
+		"sentenceIndex": 3663,
+		"timestamp": 356.8800000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 359.9100000000001
+	},
+	{
+		"index": 216,
+		"txt": "Then, you'll be able to solve for v2n+ .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Then__you_ll_be_able_to_solve_for_v__able_to_solve_for_v2n_______.wav",
+		"duration": 1.1,
+		"sentenceIndex": 3664,
+		"timestamp": 360.4100000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 361.5100000000001
+	},
+	{
+		"index": 217,
+		"txt": "Here's how to proceed:e = (–v1n+ + v2n+) / (v1n– – v2n–)e v1n– = –(v1n– – v2n+) + v2n+v2n+ = v1n– (e + 1) / 2v2n+link https:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_how_to_proceed_e_____v1n_____e___1____2v2n_link_https_____.wav",
+		"duration": 8.07,
+		"sentenceIndex": 3665,
+		"timestamp": 362.0100000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 370.0800000000001
+	},
+	{
+		"index": 218,
+		"txt": "Using this result and the formula for v1n+ yields:v1n+link https:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Using_this_result_and_the_formula_f_n__yields_v1n_link_https_____.wav",
+		"duration": 2.22,
+		"sentenceIndex": 3666,
+		"timestamp": 370.5800000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 372.8000000000001
+	},
+	{
+		"index": 219,
+		"txt": "Since the collision is frictionless, there is no impulse acting in the tangential direction.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Since_the_collision_is_frictionless_the_tangential_direction_____.wav",
+		"duration": 1.87,
+		"sentenceIndex": 3667,
+		"timestamp": 373.3000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 375.17000000000013
+	},
+	{
+		"index": 220,
+		"txt": "This means that momentum is conserved in that direction too and that the final tangential speed of ball 1 is equal to its initial tangential speed, which in this case is equal to 3 m/s (this equals (6m/s) sin 30°).",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_means_that_momentum_is_conserv_s_equals__6m_s__sin_30_______.wav",
+		"duration": 5.6,
+		"sentenceIndex": 3668,
+		"timestamp": 375.67000000000013
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 381.27000000000015
+	},
+	{
+		"index": 221,
+		"txt": "Since ball 2 had no initial tangential speed, its velocity after impact is solely in the normal direction.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Since_ball_2_had_no_initial_tangent__in_the_normal_direction_____.wav",
+		"duration": 2.35,
+		"sentenceIndex": 3669,
+		"timestamp": 381.77000000000015
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 384.1200000000002
+	},
+	{
+		"index": 222,
+		"txt": "Converting these results back to x y coordinates instead of normal and tangential coordinates yields the following velocities for each ball after impact:v2+link https:ilink https:jv1+link https:i +link https:jv1+link https:ilink https:j",
+		"file": "/home/user1/trash/dirOutputSet/_100_Converting_these_results_back_to_x___link_https_ilink_https_j____.wav",
+		"duration": 7.51,
+		"sentenceIndex": 3670,
+		"timestamp": 384.6200000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 392.13000000000017
+	},
+	{
+		"index": 223,
+		"txt": "To further",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_further_To_further____.wav",
+		"duration": 0.23,
+		"sentenceIndex": 3671,
+		"timestamp": 392.63000000000017
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 392.8600000000002
+	},
+	{
+		"index": 226,
+		"txt": "illustrate the application of these collision response principles, consider another example, this time the collision between a",
+		"file": "/home/user1/trash/dirOutputSet/_100_illustrate_the_application_of_these_e_the_collision_between_a____.wav",
+		"duration": 2.58,
+		"sentenceIndex": 3674,
+		"timestamp": 393.3600000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 395.94000000000017
+	},
+	{
+		"index": 229,
+		"txt": "baseball bat and baseball (as shown in",
+		"file": "/home/user1/trash/dirOutputSet/_100_baseball_bat_and_baseball__as_shown_and_baseball__as_shown_in____.wav",
+		"duration": 0.97,
+		"sentenceIndex": 3677,
+		"timestamp": 396.44000000000017
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 397.4100000000002
+	},
+	{
+		"index": 230,
+		"txt": "Figure 5 3",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 5_3_Figure 5_3____.wav",
+		"duration": 0.54,
+		"sentenceIndex": 3678,
+		"timestamp": 397.9100000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 398.4500000000002
+	},
+	{
+		"index": 232,
+		"txt": "We are looking at a side view, staring down the barrel of the bat.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_are_looking_at_a_side_view__star_wn_the_barrel_of_the_bat_____.wav",
+		"duration": 1.38,
+		"sentenceIndex": 3680,
+		"timestamp": 398.9500000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 400.3300000000002
+	},
+	{
+		"index": 238,
+		"txt": "Figure 5 3. Example baseball and bat collision",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 5_3_ Example_baseball_and_ba_aseball_and_bat_collision____.wav",
+		"duration": 1.39,
+		"sentenceIndex": 3686,
+		"timestamp": 400.8300000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 402.2200000000002
+	},
+	{
+		"index": 240,
+		"txt": "To a reasonable degree of accuracy, the motion of a baseball bat at the instant of collision can generally be described as independent of the batter in other words, you can assume that the bat is moving freely and pivoting about a point located near the handle end of the bat.",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_a_reasonable_degree_of_accuracy__he_handle_end_of_the_bat_____.wav",
+		"duration": 5.34,
+		"sentenceIndex": 3688,
+		"timestamp": 402.7200000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 408.0600000000002
+	},
+	{
+		"index": 241,
+		"txt": "Assume that the ball strikes the bat on the sweet spot that is, a point near the",
+		"file": "/home/user1/trash/dirOutputSet/_100_Assume_that_the_ball_strikes_the_ba_that_is__a_point_near_the____.wav",
+		"duration": 1.51,
+		"sentenceIndex": 3689,
+		"timestamp": 408.5600000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 410.07000000000016
+	},
+	{
+		"index": 243,
+		"txt": "center of percussion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_center_of_percussion__center_of_percussion_____.wav",
+		"duration": 0.45,
+		"sentenceIndex": 3691,
+		"timestamp": 410.57000000000016
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 411.02000000000015
+	},
+	{
+		"index": 245,
+		"txt": "14",
+		"file": "/home/user1/trash/dirOutputSet/_100_14_14____.wav",
+		"duration": 0.33,
+		"sentenceIndex": 3693,
+		"timestamp": 411.52000000000015
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 411.85000000000014
+	},
+	{
+		"index": 246,
+		"txt": "] Further assume that the bat is swung in the horizontal plane and that the baseball is traveling in the horizontal plane when it strikes the bat.",
+		"file": "/home/user1/trash/dirOutputSet/_100___Further_assume_that_the_bat_is_sw__when_it_strikes_the_bat_____.wav",
+		"duration": 2.65,
+		"sentenceIndex": 3694,
+		"timestamp": 412.35000000000014
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 415.0000000000001
+	},
+	{
+		"index": 247,
+		"txt": "The bat is of standard dimensions with a maximum diameter of 70 mm and a weight of 1.02 kg.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_bat_is_of_standard_dimensions_w__and_a_weight_of_1_02_kg_____.wav",
+		"duration": 2.61,
+		"sentenceIndex": 3695,
+		"timestamp": 415.5000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 418.1100000000001
+	},
+	{
+		"index": 248,
+		"txt": "The ball is also of standard dimensions with a radius of 37 mm and a weight of 0.15 kg.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_ball_is_also_of_standard_dimens__and_a_weight_of_0_15_kg_____.wav",
+		"duration": 2.76,
+		"sentenceIndex": 3696,
+		"timestamp": 418.6100000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 421.3700000000001
+	},
+	{
+		"index": 249,
+		"txt": "The ball reaches a speed of 40 m/s (90 mph) at the instant it strikes the bat, and the speed of the bat at the point of impact is 31 m/s (70 mph).",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_ball_reaches_a_speed_of_40_m_s__mpact_is_31_m_s__70_mph______.wav",
+		"duration": 4.39,
+		"sentenceIndex": 3697,
+		"timestamp": 421.8700000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 426.2600000000001
+	},
+	{
+		"index": 250,
+		"txt": "For this collision, the coefficient of restitution is 0.46.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_this_collision__the_coefficient_t_of_restitution_is_0_46_____.wav",
+		"duration": 1.64,
+		"sentenceIndex": 3698,
+		"timestamp": 426.7600000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 428.4000000000001
+	},
+	{
+		"index": 251,
+		"txt": "In the millisecond of impact that occurs, the baseball compresses quite a bit; however, in this analysis assume that both the bat and the ball are rigid.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_the_millisecond_of_impact_that_o_t_and_the_ball_are_rigid_____.wav",
+		"duration": 3.08,
+		"sentenceIndex": 3699,
+		"timestamp": 428.9000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 431.9800000000001
+	},
+	{
+		"index": 252,
+		"txt": "Finally, assume that this impact is frictionless.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Finally__assume_that_this_impact_is_s_impact_is_frictionless_____.wav",
+		"duration": 1.09,
+		"sentenceIndex": 3700,
+		"timestamp": 432.4800000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 433.57000000000005
+	},
+	{
+		"index": 254,
+		"txt": "As in the previous example, the line of action of impact is along the line connecting the",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_in_the_previous_example__the_lin_g_the_line_connecting_the____.wav",
+		"duration": 1.83,
+		"sentenceIndex": 3702,
+		"timestamp": 434.07000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 435.90000000000003
+	},
+	{
+		"index": 256,
+		"txt": "centers of gravity of the bat and ball; thus, the unit normal vector is:n = n = (0.875) i + (0.484) j",
+		"file": "/home/user1/trash/dirOutputSet/_100_centers_of_gravity_of_the_bat_and_b_n____0_875__i____0_484__j____.wav",
+		"duration": 4.09,
+		"sentenceIndex": 3704,
+		"timestamp": 436.40000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 440.49
+	},
+	{
+		"index": 258,
+		"txt": "Here the subscripts 1 and 2 denote the bat and ball, respectively.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_the_subscripts_1_and_2_denote__t_and_ball__respectively_____.wav",
+		"duration": 1.46,
+		"sentenceIndex": 3706,
+		"timestamp": 440.99
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 442.45
+	},
+	{
+		"index": 261,
+		"txt": "The relative normal velocity between the bat and ball is:vrn = [v1− − v2−]  nvrn = [(71 m/s) i + (0 m/s) j ]  [ (0.875) i − (0.484) j]vrnlink https:",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_relative_normal_velocity_betwee___0_484__j_vrnlink_https_____.wav",
+		"duration": 6.9,
+		"sentenceIndex": 3709,
+		"timestamp": 442.95
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 449.84999999999997
+	},
+	{
+		"index": 263,
+		"txt": "The velocity components of the bat and ball in the normal direction are:v1n− = v1−  nlink https:v2n− = v2−  nlink https:",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_velocity_components_of_the_bat___v2n____v2___nlink_https_____.wav",
+		"duration": 3.87,
+		"sentenceIndex": 3711,
+		"timestamp": 450.34999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 454.21999999999997
+	},
+	{
+		"index": 265,
+		"txt": "Applying the principle of conservation of momentum",
+		"file": "/home/user1/trash/dirOutputSet/_100_Applying_the_principle_of_conservat__conservation_of_momentum____.wav",
+		"duration": 1.02,
+		"sentenceIndex": 3713,
+		"timestamp": 454.71999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 455.73999999999995
+	},
+	{
+		"index": 271,
+		"txt": "in the normal direction and solving for v1n+ yields:m1 v1n− + m2 v2n− = m1 v1n+ + m2 v2n+link https:=(1.02 kg) v1n+ + (0.15 kg) v2n+v1n+link https:2n+",
+		"file": "/home/user1/trash/dirOutputSet/_100_in_the_normal_direction_and_solving_g__v2n_v1n_link_https_2n_____.wav",
+		"duration": 8.15,
+		"sentenceIndex": 3719,
+		"timestamp": 456.23999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 464.38999999999993
+	},
+	{
+		"index": 273,
+		"txt": "As in the previous example, applying the formula for coefficient of restitution",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_in_the_previous_example__applyin_oefficient_of_restitution____.wav",
+		"duration": 1.61,
+		"sentenceIndex": 3721,
+		"timestamp": 464.88999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 466.49999999999994
+	},
+	{
+		"index": 274,
+		"txt": "with the preceding formula for v1n+ yields:e = (−v1n+ + v2n+) / (v1n− − v2n−)link https:2n+ + v2n+link https:v2n+link https:and v1n+link https:",
+		"file": "/home/user1/trash/dirOutputSet/_100_with_the_preceding_formula_for_v1n__https_and_v1n_link_https_____.wav",
+		"duration": 6.97,
+		"sentenceIndex": 3722,
+		"timestamp": 466.99999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 473.96999999999997
+	},
+	{
+		"index": 277,
+		"txt": "Here again, since this impact is frictionless, each object retains its original",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_again__since_this_impact_is_fr_ject_retains_its_original____.wav",
+		"duration": 1.89,
+		"sentenceIndex": 3725,
+		"timestamp": 474.46999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 476.35999999999996
+	},
+	{
+		"index": 279,
+		"txt": "tangential velocity component.",
+		"file": "/home/user1/trash/dirOutputSet/_100_tangential_velocity_component__ntial_velocity_component_____.wav",
+		"duration": 0.7,
+		"sentenceIndex": 3727,
+		"timestamp": 476.85999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 477.55999999999995
+	},
+	{
+		"index": 280,
+		"txt": "For the bat, this component is 15 m/s, while for the ball it's −19.3 m/s.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_the_bat__this_component_is_15_m__the_ball_it_s__19_3_m_s_____.wav",
+		"duration": 2.47,
+		"sentenceIndex": 3728,
+		"timestamp": 478.05999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 480.53
+	},
+	{
+		"index": 281,
+		"txt": "Converting these normal and tangential components to x y coordinates yields the following bat and ball velocities for the instant just after impact:v1+link https:ilink https:jv2+ = 30 m/s ilink https:j",
+		"file": "/home/user1/trash/dirOutputSet/_100_Converting_these_normal_and_tangent_2____30_m_s_ilink_https_j____.wav",
+		"duration": 5.88,
+		"sentenceIndex": 3729,
+		"timestamp": 481.03
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 486.90999999999997
+	},
+	{
+		"index": 283,
+		"txt": "Both of these examples illustrate fundamental impact analysis using the classical approach.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Both_of_these_examples_illustrate_f_g_the_classical_approach_____.wav",
+		"duration": 1.93,
+		"sentenceIndex": 3731,
+		"timestamp": 487.40999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 489.34
+	},
+	{
+		"index": 284,
+		"txt": "They also share an important assumption that the impacts are frictionless.",
+		"file": "/home/user1/trash/dirOutputSet/_100_They_also_share_an_important_assump_impacts_are_frictionless_____.wav",
+		"duration": 1.41,
+		"sentenceIndex": 3732,
+		"timestamp": 489.84
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 491.25
+	},
+	{
+		"index": 285,
+		"txt": "In reality, you know that billiard balls and baseballs and bats collide with friction; otherwise, you would not be able to apply English in billiards or create lift generating spin on baseballs.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_reality__you_know_that_billiard__rating_spin_on_baseballs_____.wav",
+		"duration": 4.14,
+		"sentenceIndex": 3733,
+		"timestamp": 491.75
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 495.89
+	},
+	{
+		"index": 286,
+		"txt": "Later in this chapter we'll discuss how to include friction in your impact",
+		"file": "/home/user1/trash/dirOutputSet/_100_Later_in_this_chapter_we_ll_discuss_e_friction_in_your_impact____.wav",
+		"duration": 1.46,
+		"sentenceIndex": 3734,
+		"timestamp": 496.39
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 497.84999999999997
+	},
+	{
+		"index": 292,
+		"txt": "analysis.",
+		"file": "/home/user1/trash/dirOutputSet/_100_analysis__analysis_____.wav",
+		"duration": 0.29,
+		"sentenceIndex": 3740,
+		"timestamp": 498.34999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 498.64
+	},
+	{
+		"index": 295,
+		"txt": "Linear and Angular Impulse",
+		"file": "/home/user1/trash/dirOutputSet/_100_Linear_and_Angular_Impulse_inear_and_Angular_Impulse____.wav",
+		"duration": 0.65,
+		"sentenceIndex": 3743,
+		"timestamp": 499.14
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 499.78999999999996
+	},
+	{
+		"index": 297,
+		"txt": "In the previous",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_the_previous_In_the_previous____.wav",
+		"duration": 0.34,
+		"sentenceIndex": 3745,
+		"timestamp": 500.28999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 500.62999999999994
+	},
+	{
+		"index": 303,
+		"txt": "section, you were able to work through the specific examples by hand using the principle of conservation of momentum and the coefficient of restitution.",
+		"file": "/home/user1/trash/dirOutputSet/_100_section__you_were_able_to_work_thro_efficient_of_restitution_____.wav",
+		"duration": 2.95,
+		"sentenceIndex": 3751,
+		"timestamp": 501.12999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 504.0799999999999
+	},
+	{
+		"index": 304,
+		"txt": "This approach will suffice if you're writing games where the collision events are well defined and anticipated.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_approach_will_suffice_if_you_r__defined_and_anticipated_____.wav",
+		"duration": 1.94,
+		"sentenceIndex": 3752,
+		"timestamp": 504.5799999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 506.5199999999999
+	},
+	{
+		"index": 305,
+		"txt": "However, if you're writing a real time simulation where objects, especially arbitrarily shaped rigid bodies, may or may not collide, then you'll want to use a more general approach.",
+		"file": "/home/user1/trash/dirOutputSet/_100_However__if_you_re_writing_a_real_t__a_more_general_approach_____.wav",
+		"duration": 3.91,
+		"sentenceIndex": 3753,
+		"timestamp": 507.0199999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 510.92999999999995
+	},
+	{
+		"index": 306,
+		"txt": "This approach involves the use of formulas to calculate the actual impulse between colliding objects so that you can apply this impulse to each object, instantly changing its velocity.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_approach_involves_the_use_of_f_ly_changing_its_velocity_____.wav",
+		"duration": 3.67,
+		"sentenceIndex": 3754,
+		"timestamp": 511.42999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 515.0999999999999
+	},
+	{
+		"index": 307,
+		"txt": "In this section, we'll derive the equations for impulse, both linear and angular, and we'll show you how to implement these equations in code in",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_this_section__we_ll_derive_the_e_hese_equations_in_code_in____.wav",
+		"duration": 3.1,
+		"sentenceIndex": 3755,
+		"timestamp": 515.5999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 518.6999999999999
+	},
+	{
+		"index": 308,
+		"txt": "Chapter 10",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 10_Chapter 10____.wav",
+		"duration": 0.32,
+		"sentenceIndex": 3756,
+		"timestamp": 519.1999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 519.52
+	},
+	{
+		"index": 311,
+		"txt": "When you're dealing with particles or spheres, the only impulse formula that you'll need is that for linear impulse, which will allow you to calculate the new linear velocities of the objects after impact.",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_you_re_dealing_with_particles__the_objects_after_impact_____.wav",
+		"duration": 4.07,
+		"sentenceIndex": 3759,
+		"timestamp": 520.02
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 524.09
+	},
+	{
+		"index": 312,
+		"txt": "So, the first formula that we'll derive for you is that for linear impulse between two colliding objects, as shown in",
+		"file": "/home/user1/trash/dirOutputSet/_100_So__the_first_formula_that_we_ll_de_ding_objects__as_shown_in____.wav",
+		"duration": 2.56,
+		"sentenceIndex": 3760,
+		"timestamp": 524.59
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 527.15
+	},
+	{
+		"index": 313,
+		"txt": "Figure 5 4",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 5_4_Figure 5_4____.wav",
+		"duration": 0.57,
+		"sentenceIndex": 3761,
+		"timestamp": 527.65
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 528.22
+	},
+	{
+		"index": 320,
+		"txt": "Figure 5 4. Two colliding particles (or spheres)",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 5_4_ Two_colliding_particles_ng_particles__or_spheres_____.wav",
+		"duration": 1.54,
+		"sentenceIndex": 3768,
+		"timestamp": 528.72
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 530.26
+	},
+	{
+		"index": 322,
+		"txt": "For now, assume the collision is frictionless and the line of action of the impulse is along the line connecting the centers of mass of the two objects.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_now__assume_the_collision_is_fr__mass_of_the_two_objects_____.wav",
+		"duration": 2.99,
+		"sentenceIndex": 3770,
+		"timestamp": 530.76
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 533.75
+	},
+	{
+		"index": 323,
+		"txt": "This line is normal to the surfaces of both objects.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_line_is_normal_to_the_surfaces_surfaces_of_both_objects_____.wav",
+		"duration": 1.03,
+		"sentenceIndex": 3771,
+		"timestamp": 534.25
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 535.28
+	},
+	{
+		"index": 326,
+		"txt": "To derive the formula for linear impulse, you have to consider the formula from the definition of impulse along with the formula for coefficient of restitution.",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_derive_the_formula_for_linear_im_efficient_of_restitution_____.wav",
+		"duration": 3.06,
+		"sentenceIndex": 3774,
+		"timestamp": 535.78
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 538.8399999999999
+	},
+	{
+		"index": 327,
+		"txt": "Here let J represent the impulse:|J| = m (|v+| − |v−|)e = −(|v1+| − |v2+|)/(|v1−| − |v2−|)",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_let_J_represent_the_impulse__J_____v2______v1______v2_______.wav",
+		"duration": 7.54,
+		"sentenceIndex": 3775,
+		"timestamp": 539.3399999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 546.8799999999999
+	},
+	{
+		"index": 329,
+		"txt": "In these equations the velocities are those along the line of action of the impact, which in this case is a line connecting the centers of mass of the two objects.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_these_equations_the_velocities_a__mass_of_the_two_objects_____.wav",
+		"duration": 3.17,
+		"sentenceIndex": 3777,
+		"timestamp": 547.3799999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 550.5499999999998
+	},
+	{
+		"index": 330,
+		"txt": "Since the same impulse applies to each object (just in opposite directions), you actually have three equations to deal with:|J| = m1 (|v1+| − |v1−|)|−J| = m2 (|v2+| − |v2−|)e = −(|v1+|− |v2+|)/(|v1−| − |v2 |)",
+		"file": "/home/user1/trash/dirOutputSet/_100_Since_the_same_impulse_applies_to_e_____v2______v1______v2_______.wav",
+		"duration": 12.47,
+		"sentenceIndex": 3778,
+		"timestamp": 551.0499999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 563.5199999999999
+	},
+	{
+		"index": 332,
+		"txt": "Notice we've assumed that J acts positively on body 1 and its negation, –J , acts on body 2.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Notice_we_ve_assumed_that_J_acts_po_ion___J___acts_on_body_2_____.wav",
+		"duration": 2.57,
+		"sentenceIndex": 3780,
+		"timestamp": 564.0199999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 566.5899999999999
+	},
+	{
+		"index": 333,
+		"txt": "Also notice that there are three unknowns in these equations: the impulse and the velocities of both bodies after the impact.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Also_notice_that_there_are_three_un__bodies_after_the_impact_____.wav",
+		"duration": 2.52,
+		"sentenceIndex": 3781,
+		"timestamp": 567.0899999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 569.6099999999999
+	},
+	{
+		"index": 334,
+		"txt": "Since there are three equations and three unknowns, you can solve for each unknown by rearranging the two impulse equations and substituting them into the equation for e .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Since_there_are_three_equations_and_into_the_equation_for_e______.wav",
+		"duration": 3.41,
+		"sentenceIndex": 3782,
+		"timestamp": 570.1099999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 573.5199999999999
+	},
+	{
+		"index": 335,
+		"txt": "After some algebra, you'll end up with a formula for J that you can then use to determine the velocities of each body just after impact.",
+		"file": "/home/user1/trash/dirOutputSet/_100_After_some_algebra__you_ll_end_up_w_h_body_just_after_impact_____.wav",
+		"duration": 2.78,
+		"sentenceIndex": 3783,
+		"timestamp": 574.0199999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 576.7999999999998
+	},
+	{
+		"index": 336,
+		"txt": "Here's how that's done:For body 1: |v1+| = |J|/m1 + |v1–|For body 2: |v2+| = –|J|/m2 + |v2–|",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_how_that_s_done_For_body_1______v2_______J__m2____v2______.wav",
+		"duration": 6.84,
+		"sentenceIndex": 3784,
+		"timestamp": 577.2999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 584.1399999999999
+	},
+	{
+		"index": 338,
+		"txt": "Substituting |v1+| and |v2+| into the equation for e yields:e (|v1–| – |v2–|) = –[( |J|/m1 + |v1–|) – (–|J|/m2 + |v2–|)]e (|v1 | – |v2–|) + |v1–| – |v2–| = –J (1/m1 + 1/m2)",
+		"file": "/home/user1/trash/dirOutputSet/_100_Substituting__v1___and__v2___into_t___v2______J__1_m1___1_m2_____.wav",
+		"duration": 14.9,
+		"sentenceIndex": 3786,
+		"timestamp": 584.6399999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 599.5399999999998
+	},
+	{
+		"index": 340,
+		"txt": "Let |vr| = (|v1–| – |v2–|); then:e |vr| + |vr| = –|J| (1/m1 + 1/m2)|J| = –|vr|(e + 1)/(1/m1 + 1/m2)",
+		"file": "/home/user1/trash/dirOutputSet/_100_Let__vr______v1______v2_____then_e___vr__e___1___1_m1___1_m2_____.wav",
+		"duration": 9.55,
+		"sentenceIndex": 3788,
+		"timestamp": 600.0399999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 609.5899999999998
+	},
+	{
+		"index": 342,
+		"txt": "Since the line of action is normal to the colliding surfaces, vr is the relative velocity along the line of action of impact, and J acts along the line of action of impact, which in this case is normal to the surfaces, as we've already stated.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Since_the_line_of_action_is_normal___as_we_ve_already_stated_____.wav",
+		"duration": 5.23,
+		"sentenceIndex": 3790,
+		"timestamp": 610.0899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 615.3199999999998
+	},
+	{
+		"index": 345,
+		"txt": "Now that you have a formula for the impulse, you can use the definition of impulse along with this formula to calculate the change in linear velocity of the objects involved in the impact.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now_that_you_have_a_formula_for_the_s_involved_in_the_impact_____.wav",
+		"duration": 3.67,
+		"sentenceIndex": 3793,
+		"timestamp": 615.8199999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 619.4899999999998
+	},
+	{
+		"index": 346,
+		"txt": "Here's how that's done in the case of two objects colliding:v1+ = v1– + (|J| n)/m1v2+ = v2– + (–|J| n)/m2",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_how_that_s_done_in_the_case__m1v2____v2_______J__n__m2____.wav",
+		"duration": 5.51,
+		"sentenceIndex": 3794,
+		"timestamp": 619.9899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 625.4999999999998
+	},
+	{
+		"index": 348,
+		"txt": "Notice that for the second object, the negative of the impulse is applied since it acts on both objects equally but in opposite directions.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Notice_that_for_the_second_object___t_in_opposite_directions_____.wav",
+		"duration": 2.71,
+		"sentenceIndex": 3796,
+		"timestamp": 625.9999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 628.7099999999998
+	},
+	{
+		"index": 351,
+		"txt": "When dealing with rigid bodies that rotate, you'll have to derive a new equation for impulse that includes angular effects.",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_dealing_with_rigid_bodies_that_includes_angular_effects_____.wav",
+		"duration": 2.37,
+		"sentenceIndex": 3799,
+		"timestamp": 629.2099999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 631.5799999999998
+	},
+	{
+		"index": 352,
+		"txt": "You'll use this impulse to calculate new linear and angular velocities of the objects just after impact.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_ll_use_this_impulse_to_calculat_bjects_just_after_impact_____.wav",
+		"duration": 2.19,
+		"sentenceIndex": 3800,
+		"timestamp": 632.0799999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 634.2699999999999
+	},
+	{
+		"index": 353,
+		"txt": "Consider the two objects colliding at point P, as shown in",
+		"file": "/home/user1/trash/dirOutputSet/_100_Consider_the_two_objects_colliding__g_at_point_P__as_shown_in____.wav",
+		"duration": 1.37,
+		"sentenceIndex": 3801,
+		"timestamp": 634.7699999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 636.1399999999999
+	},
+	{
+		"index": 354,
+		"txt": "Figure 5 5",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 5_5_Figure 5_5____.wav",
+		"duration": 0.58,
+		"sentenceIndex": 3802,
+		"timestamp": 636.6399999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 637.2199999999999
+	},
+	{
+		"index": 361,
+		"txt": "Figure 5 5. Two colliding rigid bodies",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 5_5_ Two_colliding_rigid_bod_wo_colliding_rigid_bodies____.wav",
+		"duration": 1.25,
+		"sentenceIndex": 3809,
+		"timestamp": 637.7199999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 638.9699999999999
+	},
+	{
+		"index": 363,
+		"txt": "There's a crucial distinction between this collision and that discussed earlier.",
+		"file": "/home/user1/trash/dirOutputSet/_100_There_s_a_crucial_distinction_betwe_d_that_discussed_earlier_____.wav",
+		"duration": 1.41,
+		"sentenceIndex": 3811,
+		"timestamp": 639.4699999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 640.8799999999999
+	},
+	{
+		"index": 364,
+		"txt": "In this case, the velocity at the point of contact on each body is a function of not only the objects' linear velocity but also their angular velocities, and you'll have to recall from",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_this_case__the_velocity_at_the_p_ou_ll_have_to_recall_from____.wav",
+		"duration": 3.72,
+		"sentenceIndex": 3812,
+		"timestamp": 641.3799999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 645.0999999999999
+	},
+	{
+		"index": 365,
+		"txt": "Chapter 2 the following formula in order to calculate the velocities at the impact point on each body:vp = vg + (ω × r)",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 2_the_following_formula_in__ch_body_vp___vg________r_____.wav",
+		"duration": 3.57,
+		"sentenceIndex": 3813,
+		"timestamp": 645.5999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 649.17
+	},
+	{
+		"index": 367,
+		"txt": "In this relation, r is the vector from the body's center of gravity to the point P .",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_this_relation__r_is_the_vector_f__gravity_to_the_point_P______.wav",
+		"duration": 1.72,
+		"sentenceIndex": 3815,
+		"timestamp": 649.67
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 651.39
+	},
+	{
+		"index": 369,
+		"txt": "Using this formula, you can rewrite the two formulas relating the linear velocity after impact to the impulse and initial velocity as follows:For body 1: v1g+ + (ω1+ × r1) = J/m1 + v1g– + (ω1– × r1)For body 2: v2g+ + (ω2+ × r2) = –J/m2 + v2g– + (ω2– × r2)",
+		"file": "/home/user1/trash/dirOutputSet/_100_Using_this_formula__you_can_rewrite__J_m2___v2g______2____r2_____.wav",
+		"duration": 12.78,
+		"sentenceIndex": 3817,
+		"timestamp": 651.89
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 664.67
+	},
+	{
+		"index": 370,
+		"txt": "There are two additional unknowns here, the angular velocities after impact, which means that you need two additional equations.",
+		"file": "/home/user1/trash/dirOutputSet/_100_There_are_two_additional_unknowns_h_two_additional_equations_____.wav",
+		"duration": 2.66,
+		"sentenceIndex": 3818,
+		"timestamp": 665.17
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 667.8299999999999
+	},
+	{
+		"index": 371,
+		"txt": "You can get these equations from the definition of angular impulse:For body 1: (r1 × J) = I1 (ω1+ – ω1–)For body 2: (r2 × –J) = I2 (ω2+ – ω2–)",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_get_these_equations_from_th_r2____J____I2___2_____2______.wav",
+		"duration": 7.68,
+		"sentenceIndex": 3819,
+		"timestamp": 668.3299999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 676.0099999999999
+	},
+	{
+		"index": 372,
+		"txt": "Here we calculate the moment due to the impulse by taking the vector cross product of the impulse with the distance from the body's center of gravity to the point of application of the impulse.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_we_calculate_the_moment_due_to_plication_of_the_impulse_____.wav",
+		"duration": 3.5,
+		"sentenceIndex": 3820,
+		"timestamp": 676.5099999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 680.0099999999999
+	},
+	{
+		"index": 374,
+		"txt": "By combining all of these equations with the equation for e and following the same procedure used when deriving the linear impulse formula, you'll end up with a formula for |J | that takes into account both linear and angular effects, which you can then use to find the linear and angular velocities of each body immediately after impact.",
+		"file": "/home/user1/trash/dirOutputSet/_100_By_combining_all_of_these_equations_immediately_after_impact_____.wav",
+		"duration": 7.1,
+		"sentenceIndex": 3822,
+		"timestamp": 680.5099999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 687.6099999999999
+	},
+	{
+		"index": 375,
+		"txt": "Here's the result:|J| = –(vr n)(e + 1)/[1/m1 + 1/m2 + n ((r1 × n)/I1) × r1 + n  ((r2 × n)/I2) × r2]",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_the_result__J______vr_n__e______n____r2___n__I2____r2_____.wav",
+		"duration": 6.94,
+		"sentenceIndex": 3823,
+		"timestamp": 688.1099999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 695.05
+	},
+	{
+		"index": 376,
+		"txt": "Here vr is the relative velocity along the line of action at the impact point P, and n is a unit vector along the line of action at the impact point pointing out from body 1.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_vr_is_the_relative_velocity_al_pointing_out_from_body_1_____.wav",
+		"duration": 3.7,
+		"sentenceIndex": 3824,
+		"timestamp": 695.55
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 699.25
+	},
+	{
+		"index": 378,
+		"txt": "With this new formula for |J|, you can calculate the change in linear and angular velocities of the objects involved in the collision using these formulas:v1+ = v1− + (|J| n)/m1v2+ = v2− + (−|J| n)/m2ω1+ = ω1− + (r1 × |J| n)/I1ω2+ = ω2− + (r2 × −|J| n)/I2",
+		"file": "/home/user1/trash/dirOutputSet/_100_With_this_new_formula_for__J___you______2_____r2_____J__n__I2____.wav",
+		"duration": 14.14,
+		"sentenceIndex": 3826,
+		"timestamp": 699.75
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 713.89
+	},
+	{
+		"index": 379,
+		"txt": "As we said earlier, we'll show you how to implement these formulas for",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_we_said_earlier__we_ll_show_you__lement_these_formulas_for____.wav",
+		"duration": 1.51,
+		"sentenceIndex": 3827,
+		"timestamp": 714.39
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 715.9
+	},
+	{
+		"index": 385,
+		"txt": "impulse in code when you get to",
+		"file": "/home/user1/trash/dirOutputSet/_100_impulse_in_code_when_you_get_to_e_in_code_when_you_get_to____.wav",
+		"duration": 0.7,
+		"sentenceIndex": 3833,
+		"timestamp": 716.4
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 717.1
+	},
+	{
+		"index": 386,
+		"txt": "Chapter 10",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 10_Chapter 10____.wav",
+		"duration": 0.32,
+		"sentenceIndex": 3834,
+		"timestamp": 717.6
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 717.9200000000001
+	},
+	{
+		"index": 389,
+		"txt": "Friction",
+		"file": "/home/user1/trash/dirOutputSet/_100_Friction_Friction____.wav",
+		"duration": 0.21,
+		"sentenceIndex": 3837,
+		"timestamp": 718.4200000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 718.6300000000001
+	},
+	{
+		"index": 390,
+		"txt": "Friction acts between",
+		"file": "/home/user1/trash/dirOutputSet/_100_Friction_acts_between_Friction_acts_between____.wav",
+		"duration": 0.52,
+		"sentenceIndex": 3838,
+		"timestamp": 719.1300000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 719.6500000000001
+	},
+	{
+		"index": 392,
+		"txt": "contacting surfaces to resist motion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_contacting_surfaces_to_resist_motio_urfaces_to_resist_motion_____.wav",
+		"duration": 0.85,
+		"sentenceIndex": 3840,
+		"timestamp": 720.1500000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 721.0000000000001
+	},
+	{
+		"index": 393,
+		"txt": "When objects collide in any type of collision except direct impact, for that very brief moment of contact, they will experience a friction force that acts tangentially to the contacting surfaces.",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_objects_collide_in_any_type_of__the_contacting_surfaces_____.wav",
+		"duration": 3.99,
+		"sentenceIndex": 3841,
+		"timestamp": 721.5000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 725.4900000000001
+	},
+	{
+		"index": 394,
+		"txt": "Not only will this tangential force change the linear velocities of the colliding objects in the tangential direction, but it will also create a moment (torque) on the objects, which tends to change their angular velocities.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Not_only_will_this_tangential_force_their_angular_velocities_____.wav",
+		"duration": 4.58,
+		"sentenceIndex": 3842,
+		"timestamp": 725.9900000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 730.5700000000002
+	},
+	{
+		"index": 395,
+		"txt": "This tangential impulse combined with the normal impulse results in an effective line of action of the total collision impulse that is no longer perpendicular to the contacting surfaces.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_tangential_impulse_combined_wi__the_contacting_surfaces_____.wav",
+		"duration": 3.76,
+		"sentenceIndex": 3843,
+		"timestamp": 731.0700000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 734.8300000000002
+	},
+	{
+		"index": 398,
+		"txt": "In practice, it is very difficult to quantify this collision friction force due to the fact that the friction force is not necessarily constant if the collision is such that the friction force does not develop beyond the maximum static friction force.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_practice__it_is_very_difficult_t_um_static_friction_force_____.wav",
+		"duration": 4.94,
+		"sentenceIndex": 3846,
+		"timestamp": 735.3300000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 740.2700000000002
+	},
+	{
+		"index": 399,
+		"txt": "Further complications stem from the fact that objects do tend to deform when they collide, creating an additional source of resistance.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Further_complications_stem_from_the_nal_source_of_resistance_____.wav",
+		"duration": 2.62,
+		"sentenceIndex": 3847,
+		"timestamp": 740.7700000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 743.3900000000002
+	},
+	{
+		"index": 400,
+		"txt": "That said, since the friction force is a function of the normal force between the contacting surfaces, you know that the ratio of the normal force to the friction force is equal to the coefficient of friction.",
+		"file": "/home/user1/trash/dirOutputSet/_100_That_said__since_the_friction_force__coefficient_of_friction_____.wav",
+		"duration": 4.08,
+		"sentenceIndex": 3848,
+		"timestamp": 743.8900000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 747.9700000000003
+	},
+	{
+		"index": 401,
+		"txt": "If you assume that the collisions are such that the kinetic coefficient of friction is applicable, then this ratio is constant.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_you_assume_that_the_collisions_a_n_this_ratio_is_constant_____.wav",
+		"duration": 2.44,
+		"sentenceIndex": 3849,
+		"timestamp": 748.4700000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 750.9100000000003
+	},
+	{
+		"index": 402,
+		"txt": "µk = Ff / Fn",
+		"file": "/home/user1/trash/dirOutputSet/_100__k___Ff___Fn__k___Ff___Fn____.wav",
+		"duration": 0.82,
+		"sentenceIndex": 3850,
+		"timestamp": 751.4100000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 752.2300000000004
+	},
+	{
+		"index": 404,
+		"txt": "Here, Ff is the tangential friction force and Fn is the normal impact force.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here__Ff_is_the_tangential_friction__the_normal_impact_force_____.wav",
+		"duration": 1.79,
+		"sentenceIndex": 3852,
+		"timestamp": 752.7300000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 754.5200000000003
+	},
+	{
+		"index": 405,
+		"txt": "You can extend this to say that the ratio of the tangential impulse to normal impulse is equal to the coefficient of friction.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_extend_this_to_say_that_the__coefficient_of_friction_____.wav",
+		"duration": 2.5,
+		"sentenceIndex": 3853,
+		"timestamp": 755.0200000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 757.5200000000003
+	},
+	{
+		"index": 408,
+		"txt": "Consider the collision between the",
+		"file": "/home/user1/trash/dirOutputSet/_100_Consider_the_collision_between_the_the_collision_between_the____.wav",
+		"duration": 0.57,
+		"sentenceIndex": 3856,
+		"timestamp": 758.0200000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 758.5900000000004
+	},
+	{
+		"index": 411,
+		"txt": "golf club head and golf ball illustrated in",
+		"file": "/home/user1/trash/dirOutputSet/_100_golf_club_head_and_golf_ball_illust__golf_ball_illustrated_in____.wav",
+		"duration": 1.06,
+		"sentenceIndex": 3859,
+		"timestamp": 759.0900000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 760.1500000000003
+	},
+	{
+		"index": 412,
+		"txt": "Figure 5 6",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 5_6_Figure 5_6____.wav",
+		"duration": 0.56,
+		"sentenceIndex": 3860,
+		"timestamp": 760.6500000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 761.2100000000003
+	},
+	{
+		"index": 419,
+		"txt": "Figure 5 6. Golf club–golf ball collision",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 5_6_ Golf_club_golf_ball_col__club_golf_ball_collision____.wav",
+		"duration": 1.59,
+		"sentenceIndex": 3867,
+		"timestamp": 761.7100000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 763.3000000000003
+	},
+	{
+		"index": 421,
+		"txt": "In the upper velocity diagram, v– represents the relative velocity between the ball and club head at the instant of impact, v+ represents the velocity of the ball just after impact, vt– and vt+ represent the tangential components of the ball velocity at and just after the instant of impact, respectively.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_the_upper_velocity_diagram__v__r__of_impact__respectively_____.wav",
+		"duration": 7.2,
+		"sentenceIndex": 3869,
+		"timestamp": 763.8000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 771.0000000000003
+	},
+	{
+		"index": 424,
+		"txt": "If this were a frictionless collision, vt– and vt+ would be equal, as would the angles α and θ.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_this_were_a_frictionless_collisi_would_the_angles___and_______.wav",
+		"duration": 3.29,
+		"sentenceIndex": 3872,
+		"timestamp": 771.5000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 774.7900000000003
+	},
+	{
+		"index": 425,
+		"txt": "However, with friction the tangential velocity of the ball is reduced, making vt+ less than vt– , which also means that α will be less than θ.",
+		"file": "/home/user1/trash/dirOutputSet/_100_However__with_friction_the_tangenti_at___will_be_less_than_______.wav",
+		"duration": 4.41,
+		"sentenceIndex": 3873,
+		"timestamp": 775.2900000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 779.7000000000003
+	},
+	{
+		"index": 428,
+		"txt": "The lower force diagram in",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_lower_force_diagram_in_he_lower_force_diagram_in____.wav",
+		"duration": 0.65,
+		"sentenceIndex": 3876,
+		"timestamp": 780.2000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 780.8500000000003
+	},
+	{
+		"index": 429,
+		"txt": "Figure 5 6",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 5_6_Figure 5_6____.wav",
+		"duration": 0.56,
+		"sentenceIndex": 3877,
+		"timestamp": 781.3500000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 781.9100000000002
+	},
+	{
+		"index": 430,
+		"txt": "illustrates the forces involved in this collision with friction.",
+		"file": "/home/user1/trash/dirOutputSet/_100_illustrates_the_forces_involved_in___collision_with_friction_____.wav",
+		"duration": 1.17,
+		"sentenceIndex": 3878,
+		"timestamp": 782.4100000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 783.5800000000002
+	},
+	{
+		"index": 431,
+		"txt": "Since the ratio of the tangential friction force to the normal collision force is equal to the coefficient of friction, you can develop an equation relating the angle φ to the coefficient of friction.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Since_the_ratio_of_the_tangential_f__coefficient_of_friction_____.wav",
+		"duration": 4.12,
+		"sentenceIndex": 3879,
+		"timestamp": 784.0800000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 788.2000000000002
+	},
+	{
+		"index": 432,
+		"txt": "tan φ = Ff / Fn = µ",
+		"file": "/home/user1/trash/dirOutputSet/_100_tan_____Ff___Fn_____tan_____Ff___Fn________.wav",
+		"duration": 1.43,
+		"sentenceIndex": 3880,
+		"timestamp": 788.7000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 790.1300000000001
+	},
+	{
+		"index": 433,
+		"txt": "In addition to this friction force changing the linear velocity of the ball in the tangential direction, it will also change the angular velocity of the ball.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_addition_to_this_friction_force__lar_velocity_of_the_ball_____.wav",
+		"duration": 3.07,
+		"sentenceIndex": 3881,
+		"timestamp": 790.6300000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 793.7000000000002
+	},
+	{
+		"index": 434,
+		"txt": "Since the friction force is acting on the ball's surface some distance from its center of gravity, it creates a moment (torque) about the ball's center of gravity, which causes the ball to spin.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Since_the_friction_force_is_acting___causes_the_ball_to_spin_____.wav",
+		"duration": 4,
+		"sentenceIndex": 3882,
+		"timestamp": 794.2000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 798.2000000000002
+	},
+	{
+		"index": 435,
+		"txt": "You can develop an equation for the new angular velocity of the ball in terms of the normal impact force or impulse:Σ Mcg = Ff r = Icg dω/dtµ Fn r = Icg dω/dtµ Fn r dt = Icg dωo(t– to t+) Fn dt = Icg / (µ r) o(ω– to ω+) ω dω",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_develop_an_equation_for_the_______r__o____to_______d_____.wav",
+		"duration": 9.3,
+		"sentenceIndex": 3883,
+		"timestamp": 798.7000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 808.0000000000001
+	},
+	{
+		"index": 436,
+		"txt": "Notice here that the integral on the left is the normal impulse; thus:Impulse = Icg / (µ r) (ω+ – ω–)ω+ = (Impulse) (µ r) / Icg + ω–",
+		"file": "/home/user1/trash/dirOutputSet/_100_Notice_here_that_the_integral_on_th_Impulse_____r____Icg_________.wav",
+		"duration": 5.6,
+		"sentenceIndex": 3884,
+		"timestamp": 808.5000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 814.1000000000001
+	},
+	{
+		"index": 437,
+		"txt": "This relation looks very similar to the",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_relation_looks_very_similar_to_looks_very_similar_to_the____.wav",
+		"duration": 0.8,
+		"sentenceIndex": 3885,
+		"timestamp": 814.6000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 815.4000000000001
+	},
+	{
+		"index": 440,
+		"txt": "angular impulse equation that we showed you earlier in this chapter, and you can use it to approximate the friction induced spin in specific collision problems.",
+		"file": "/home/user1/trash/dirOutputSet/_100_angular_impulse_equation_that_we_sh_cific_collision_problems_____.wav",
+		"duration": 3.01,
+		"sentenceIndex": 3888,
+		"timestamp": 815.9000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 818.9100000000001
+	},
+	{
+		"index": 443,
+		"txt": "Turn back to the equation for impulse, J , in the last section that includes both linear and angular effects.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Turn_back_to_the_equation_for_impul_near_and_angular_effects_____.wav",
+		"duration": 2.45,
+		"sentenceIndex": 3891,
+		"timestamp": 819.4100000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 821.8600000000001
+	},
+	{
+		"index": 444,
+		"txt": "Here it is again for convenience:|J| = –(vr n)(e + 1) / [1/m1 + 1/m2 + n ((r1 × n)/I1) × r1 + n  ((r2 × n)/I2) × r2]",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_it_is_again_for_convenience__J____n____r2___n__I2____r2_____.wav",
+		"duration": 7.2,
+		"sentenceIndex": 3892,
+		"timestamp": 822.3600000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 829.5600000000002
+	},
+	{
+		"index": 446,
+		"txt": "This formula gives you the collision impulse in the normal direction.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_formula_gives_you_the_collisio__in_the_normal_direction_____.wav",
+		"duration": 1.25,
+		"sentenceIndex": 3894,
+		"timestamp": 830.0600000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 831.3100000000002
+	},
+	{
+		"index": 447,
+		"txt": "To see how friction fits in you must keep in mind that friction acts tangentially to the contacting surfaces, that combining the friction force with the normal impact force yields a new effective line of action for the collision, and that the friction force (and impulse) is a function of the normal force (impulse) and coefficient of friction.",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_see_how_friction_fits_in_you_mus__coefficient_of_friction_____.wav",
+		"duration": 6.84,
+		"sentenceIndex": 3895,
+		"timestamp": 831.8100000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 838.6500000000002
+	},
+	{
+		"index": 448,
+		"txt": "Considering all these factors, the new equations to calculate the change in linear and angular velocities of two colliding objects are as follows:v1+ = v1– + (J n + (µ J) t) / m1v2+ = v2– + (–J n + (µ J) t) / m2ω1+ = ω1– + (r1 × (J n+ (µ J) t)) / Icgω2+ = ω2– + (r2 × (–J n+ (µ J) t)) / Icg",
+		"file": "/home/user1/trash/dirOutputSet/_100_Considering_all_these_factors__the_______J_n_____J__t_____Icg____.wav",
+		"duration": 14.7,
+		"sentenceIndex": 3896,
+		"timestamp": 839.1500000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 853.8500000000003
+	},
+	{
+		"index": 450,
+		"txt": "In these equations, t is the unit tangent vector, which is tangent to the collision surfaces and at a right angle to the unit normal vector.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_these_equations__t_is_the_unit_t_o_the_unit_normal_vector_____.wav",
+		"duration": 2.86,
+		"sentenceIndex": 3898,
+		"timestamp": 854.3500000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 857.2100000000003
+	},
+	{
+		"index": 451,
+		"txt": "You can calculate the tangent vector if you know the unit normal vector and the relative velocity vector in the same plane as the normal vector.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_calculate_the_tangent_vecto_ane_as_the_normal_vector_____.wav",
+		"duration": 2.79,
+		"sentenceIndex": 3899,
+		"timestamp": 857.7100000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 860.5000000000002
+	},
+	{
+		"index": 452,
+		"txt": "t = (n × vr) × nt = t / |t|",
+		"file": "/home/user1/trash/dirOutputSet/_100_t____n___vr____nt___t____t_____n___vr____nt___t____t_____.wav",
+		"duration": 2.69,
+		"sentenceIndex": 3900,
+		"timestamp": 861.0000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 863.6900000000003
+	},
+	{
+		"index": 454,
+		"txt": "For many problems that you'll face, you may be able to reasonably neglect friction in your collision response routines since its effect may be small compared to the effect of the normal impulse itself.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_many_problems_that_you_ll_face__he_normal_impulse_itself_____.wav",
+		"duration": 3.9,
+		"sentenceIndex": 3902,
+		"timestamp": 864.1900000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 868.0900000000003
+	},
+	{
+		"index": 455,
+		"txt": "However, for some types of problems, friction is crucial.",
+		"file": "/home/user1/trash/dirOutputSet/_100_However__for_some_types_of_problems_ems__friction_is_crucial_____.wav",
+		"duration": 1.33,
+		"sentenceIndex": 3903,
+		"timestamp": 868.5900000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 869.9200000000003
+	},
+	{
+		"index": 456,
+		"txt": "For example, the flight trajectory of a golf ball depends greatly on the spin imparted to it as a result of the club–ball collision.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_example__the_flight_trajectory___the_club_ball_collision_____.wav",
+		"duration": 2.77,
+		"sentenceIndex": 3904,
+		"timestamp": 870.4200000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 873.1900000000003
+	},
+	{
+		"index": 457,
+		"txt": "We'll discuss how spin affects trajectory in the next chapter, which covers projectile",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ll_discuss_how_spin_affects_traj___which_covers_projectile____.wav",
+		"duration": 1.75,
+		"sentenceIndex": 3905,
+		"timestamp": 873.6900000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 875.4400000000003
+	},
+	{
+		"index": 462,
+		"txt": "motion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_motion__motion_____.wav",
+		"duration": 0.21,
+		"sentenceIndex": 3910,
+		"timestamp": 875.9400000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 876.1500000000003
+	},
+	{
+		"index": 469,
+		"txt": "13",
+		"file": "/home/user1/trash/dirOutputSet/_100_13_13____.wav",
+		"duration": 0.3,
+		"sentenceIndex": 3917,
+		"timestamp": 876.6500000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 876.9500000000003
+	},
+	{
+		"index": 470,
+		"txt": "] We use the classical approach in this book and are mentioning penalty methods only to let you know that the method we're going to show is not the only one.",
+		"file": "/home/user1/trash/dirOutputSet/_100___We_use_the_classical_approach_in__show_is_not_the_only_one_____.wav",
+		"duration": 2.75,
+		"sentenceIndex": 3918,
+		"timestamp": 877.4500000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 880.2000000000003
+	},
+	{
+		"index": 471,
+		"txt": "Roughly speaking, the penalty in penalty methods refers to the numerical spring constants, which are usually large, that are used to represent the stiffness of the springs and thus the hardness (or softness) of the colliding bodies.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Roughly_speaking__the_penalty_in_pe__of_the_colliding_bodies_____.wav",
+		"duration": 4.74,
+		"sentenceIndex": 3919,
+		"timestamp": 880.7000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 885.4400000000003
+	},
+	{
+		"index": 472,
+		"txt": "These constants are used in the system of equations of motion describing the motion of all the bodies under consideration before and after the collision.",
+		"file": "/home/user1/trash/dirOutputSet/_100_These_constants_are_used_in_the_sys__and_after_the_collision_____.wav",
+		"duration": 3.07,
+		"sentenceIndex": 3920,
+		"timestamp": 885.9400000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 889.0100000000003
+	},
+	{
+		"index": 475,
+		"txt": "14]",
+		"file": "/home/user1/trash/dirOutputSet/_100_14__14_____.wav",
+		"duration": 0.33,
+		"sentenceIndex": 3923,
+		"timestamp": 889.5100000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 889.8400000000004
+	},
+	{
+		"index": 476,
+		"txt": "The center of percussion is a point located near one of the nodes of natural vibration, and is the point at which, when the bat strikes the ball, no force is transmitted to the handle of the bat.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_center_of_percussion_is_a_point_to_the_handle_of_the_bat_____.wav",
+		"duration": 3.77,
+		"sentenceIndex": 3924,
+		"timestamp": 890.3400000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 894.1100000000004
+	},
+	{
+		"index": 477,
+		"txt": "If you've ever hit a baseball incorrectly such that you get a painful vibrating sensation in your hands, then you know what it feels like to miss the center of percussion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_you_ve_ever_hit_a_baseball_incor_the_center_of_percussion_____.wav",
+		"duration": 3.36,
+		"sentenceIndex": 3925,
+		"timestamp": 894.6100000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 897.9700000000004
+	}
+]

@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg"><head><title>Chapter 12. 3D Rigid-Body Simulator</title><link rel="stylesheet" type="text/css" href="core.css"/><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"/><link rel="up" href="pt02.html" title="Part II. Rigid-Body Dynamics"/><link rel="prev" href="ch11.html" title="Chapter 11. Rotation in 3D Rigid-Body Simulators"/><link rel="next" href="ch13.html" title="Chapter 13. Connecting Objects"/></head><body><section class="chapter" title="Chapter 12. 3D Rigid-Body Simulator" epub:type="chapter" id="d_rigid-body_simulator-id1"><div class="titlepage"><div><div><h2 class="title">Chapter 12. 3D Rigid-Body Simulator</h2></div></div></div><p>In this chapter <a id="I_indexterm6_id332372" class="indexterm"/><a id="si12.0" class="indexterm"/><a id="ri12.0" class="indexterm"/>we’ll show you how to make the leap from 2D to 3D by implementing a rigid-body
+    simulation of an airplane. Specifically, this is a simulation of the hypothetical airplane model
+    that we’ll discuss extensively in <a class="xref" href="ch15.html" title="Chapter 15. Aircraft">Chapter 15</a>. This airplane is of typical
+    configuration with its large wings forward, its elevators aft, a single vertical tail, and plain
+    flaps fitted on the wings.</p><p>As with the 2D simulator in previous chapters, we’ll concentrate on the code that implements
+    the physics part of the simulator and not the platform-specific GUI aspects of the
+    simulations.</p><p>As in 2D, there are four main elements to this 3D simulation—the model, integrator, user
+    input, and rendering. Remember, the model refers to your idealization of the thing—an airplane,
+    in this case—that you are trying to simulate, while the integrator refers to the method by which
+    you integrate the differential equations of motion. These two elements take care of most of the
+    physics of the simulation. The user input and rendering elements refer to how you’ll allow the
+    user to interact with and view your simulation.</p><p>In this simulation, the world <a id="I_indexterm6_id332446" class="indexterm"/>coordinate system has its positive x-axis pointing into the screen, its positive
+    y-axis pointing to the left of your screen, and the positive z-axis pointing up. Also, the
+    local, or body-fixed, coordinate system has its positive x-axis pointing toward the front of the
+    airplane, its positive y-axis pointing to the port side (left side), and its positive z-axis
+    pointing up. Since this is a 3D simulation of an airplane, once you get it running, you’ll be
+    able to fly in any direction, looping, banking, diving, and climbing, or performing any other
+    aerobatic maneuver you desire.</p><div class="sect1" title="Model"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="model-id1">Model</h2></div></div></div><p>One of the most <a id="th12.1" class="indexterm"/><a id="mo12.1" class="indexterm"/>important aspects of this simulation is the flight model. We’ll spend all of <a class="xref" href="ch15.html" title="Chapter 15. Aircraft">Chapter 15</a> discussing the physics behind this flight model, so we won’t include
+      that discussion here except to introduce a few key bits of code.</p><p>To implement the flight model, you first need to prepare a rigid-body structure to
+      encapsulate all of the data required to completely define the state of the rigid body at any
+      instant during the simulation. We’ve defined a structure called <code class="literal">RigidBody</code> for this purpose:</p><a id="I_programlisting6_id332530"/><pre class="programlisting">typedef struct _RigidBody {
+
+     float         fMass;           // total mass
+     Matrix3x3     mInertia;        // mass moment of inertia
+                                    // in body coordinates
+
+     Matrix3x3     mInertiaInverse; // inverse of mass moment of inertia
+     Vector        vPosition;       // position in earth coordinates
+     Vector        vVelocity;       // velocity in earth coordinates
+     Vector        vVelocityBody;   // velocity in body coordinates
+     Vector        vAngularVelocity;// angular velocity in body coordinates
+     Vector        vEulerAngles;    // Euler angles in body coordinates
+     float         fSpeed;          // speed (magnitude of the velocity)
+     Quaternion    qOrientation;    // orientation in earth coordinates
+     Vector        vForces;         // total force on body
+     Vector        vMoments;        // total moment (torque) on body
+} RigidBody, *pRigidBody;</pre><p>You’ll notice that it is very similar to the <code class="literal">RigidBody2D</code> structure that we used in the 2D hovercraft simulation. One
+      significant difference, however, is that in the 2D case, <a id="I_indexterm6_id332556" class="indexterm"/>orientation was a single <code class="literal">float</code> value, and now
+      in 3D it’s a quaternion of type <code class="literal">Quaternion</code>. We discussed
+      the use of quaternions for tracking rigid-body orientation in the previous chapter, and <a class="xref" href="apc.html" title="Appendix C. Quaternion Operations">Appendix C</a> contains a complete definition of the <code class="literal">Quaternion</code> class.</p><p>The next step in defining the flight model is to prepare an initialization function to
+      initialize the airplane at the start of the simulation. For this purpose, we’ve prepared a
+      function called <code class="literal">InitializeAirplane</code>:</p><a id="I_programlisting6_id332603"/><pre class="programlisting">RigidBody    Airplane;    // global variable representing the airplane
+.
+.
+.
+
+void     InitializeAirplane(void)
+{
+     float iRoll, iPitch, iYaw;
+
+     // Set initial position
+     Airplane.vPosition.x = −5000.0f;
+     Airplane.vPosition.y = 0.0f;
+     Airplane.vPosition.z = 2000.0f;
+
+     // Set initial velocity
+     Airplane.vVelocity.x = 60.0f;
+     Airplane.vVelocity.y = 0.0f;
+     Airplane.vVelocity.z = 0.0f;
+     Airplane.fSpeed = 60.0f;
+
+     // Set initial angular velocity
+     Airplane.vAngularVelocity.x = 0.0f;
+     Airplane.vAngularVelocity.y = 0.0f;
+     Airplane.vAngularVelocity.z = 0.0f;
+
+     // Set the initial thrust, forces, and moments
+     Airplane.vForces.x = 500.0f;
+     Airplane.vForces.y = 0.0f;
+     Airplane.vForces.z = 0.0f;
+     ThrustForce = 500.0;
+
+     Airplane.vMoments.x = 0.0f;
+     Airplane.vMoments.y = 0.0f;
+     Airplane.vMoments.z = 0.0f;
+
+     // Zero the velocity in body space coordinates
+     Airplane.vVelocityBody.x = 0.0f;
+     Airplane.vVelocityBody.y = 0.0f;
+     Airplane.vVelocityBody.z = 0.0f;
+
+     // Set these to false at first,
+     // you can control later using the keyboard
+     Stalling = false;
+     Flaps = false;
+
+     // Set the initial orientation
+     iRoll = 0.0f;
+     iPitch = 0.0f;
+     iYaw = 0.0f;
+     Airplane.qOrientation = MakeQFromEulerAngles(iRoll, iPitch, iYaw);
+
+     // Now go ahead and calculate the plane's mass properties
+     CalcAirplaneMassProperties();
+}</pre><p>This function sets the initial location, speed, attitude, and thrust for the airplane and
+      goes on to calculate its mass properties by making a call to <code class="literal">CalcAirplaneMassProperties</code>. You’ll see much more of this function in <a class="xref" href="ch15.html" title="Chapter 15. Aircraft">Chapter 15</a>, so we won’t show the whole thing here. We do want to point out a
+      portion of the code that is distinctly different from what you do in a 2D simulation, and
+      that’s the calculation of the moment of <a id="I_indexterm6_id332637" class="indexterm"/><a id="I_indexterm6_id332647" class="indexterm"/><a id="I_indexterm6_id332657" class="indexterm"/>inertia tensor:</p><a id="I_programlisting6_id332669"/><pre class="programlisting">void     CalcAirplaneMassProperties(void)
+{
+     .
+     .
+     .
+
+     // Now calculate the moments and products of inertia for the
+     // combined elements.
+     // (This inertia matrix (tensor) is in body coordinates)
+     Ixx = 0;     Iyy = 0;     Izz = 0;
+     Ixy = 0;     Ixz = 0;     Iyz = 0;
+     for (i = 0; i&lt; 8; i++)
+     {
+          Ixx += Element[i].vLocalInertia.x + Element[i].fMass *
+                 (Element[i].vCGCoords.y*Element[i].vCGCoords.y +
+                  Element[i].vCGCoords.z*Element[i].vCGCoords.z);
+          Iyy += Element[i].vLocalInertia.y + Element[i].fMass *
+                 (Element[i].vCGCoords.z*Element[i].vCGCoords.z +
+                  Element[i].vCGCoords.x*Element[i].vCGCoords.x);
+          Izz += Element[i].vLocalInertia.z + Element[i].fMass *
+                 (Element[i].vCGCoords.x*Element[i].vCGCoords.x +
+                  Element[i].vCGCoords.y*Element[i].vCGCoords.y);
+          Ixy += Element[i].fMass * (Element[i].vCGCoords.x *
+                 Element[i].vCGCoords.y);
+          Ixz += Element[i].fMass * (Element[i].vCGCoords.x *
+                 Element[i].vCGCoords.z);
+          Iyz += Element[i].fMass * (Element[i].vCGCoords.y *
+                 Element[i].vCGCoords.z);
+     }
+
+     // Finally set up the airplane's mass and its inertia matrix and take the
+     // inverse of the inertia matrix
+     Airplane.fMass = mass;
+     Airplane.mInertia.e11 = Ixx;
+     Airplane.mInertia.e12 = -Ixy;
+     Airplane.mInertia.e13 = -Ixz;
+     Airplane.mInertia.e21 = -Ixy;
+     Airplane.mInertia.e22 = Iyy;
+     Airplane.mInertia.e23 = -Iyz;
+     Airplane.mInertia.e31 = -Ixz;
+     Airplane.mInertia.e32 = -Iyz;
+     Airplane.mInertia.e33 = Izz;
+
+     Airplane.mInertiaInverse = Airplane.mInertia.Inverse();
+}</pre><p>The airplane is modeled by a number of elements, each representing a different part of the
+      airplane’s structure—for example, the tail rudder, elevators, wings, and fuselage (see <a class="xref" href="ch15.html" title="Chapter 15. Aircraft">Chapter 15</a> for more details). The code specified here takes the mass properties of
+      each element and combines them, using the techniques discussed in <a class="xref" href="ch07.html" title="Chapter 7. Real-Time Simulations">Chapter 7</a> to come up with the combined inertia tensor for the entire
+      aircraft. The important distinction between these calculations in a 3D simulation and the 2D
+      simulation is that here the inertia is a tensor and in 2D it is a single scalar.</p><p><code class="literal">InitializeAirplane</code> is called at the very start of the
+      program. We found it convenient to make the call right after the application’s main window is
+      created.</p><p>The final part of the flight model has to do with calculating the forces and moments that
+      act on the airplane at any given instant in time during the simulation. As in the 2D
+      hovercraft simulation, without this sort of function, the airplane will do nothing. For this
+      purpose we’ve defined a function called <code class="literal">CalcAirplaneLoads</code>,
+      which is called at every step through the simulation. This function relies on a couple of
+      other functions—namely, <code class="literal">LiftCoefficient</code>, <code class="literal">DragCoefficient</code>, <code class="literal">RudderLiftCoefficient</code>, and <code class="literal">RudderDragCoefficient</code>. All of these functions are shown and discussed in detail
+      in the section <a class="xref" href="ch15.html#modeling" title="Modeling">Modeling</a> in <a class="xref" href="ch15.html" title="Chapter 15. Aircraft">Chapter 15</a>.</p><p>For the most part, the code contained in <code class="literal">CalcAirplaneLoads</code> is similar to the code you’ve seen in the <code class="literal">CalcLoads</code> function of the hovercraft simulation. <code class="literal">CalcAirplanLoads</code> is a little more involved since the airplane is
+      modeled by a number of elements that contribute to the total lift and drag on the airplane.
+      There’s also another difference that we’ve noted here:</p><a id="I_programlisting6_id332789"/><pre class="programlisting">void     CalcAirplaneLoads(void)
+{
+     .
+     .
+     .
+
+     // Convert forces from model space to earth space
+     Airplane.vForces = QVRotate(Airplane.qOrientation, Fb);
+
+     // Apply gravity (g is defined as −32.174 ft/s^2)
+     Airplane.vForces.z += g * Airplane.fMass;
+
+     .
+     .
+     .
+}</pre><p>Just about all of the forces acting on the airplane are first calculated in body-fixed
+      coordinates and then converted to earth-fixed coordinates before the gravity force is applied.
+      The coordinate conversion is effected through the use of the function <code class="literal">QVRotate</code>, which <a id="I_indexterm6_id332808" class="indexterm"/><a id="I_indexterm6_id332815" class="indexterm"/>rotates the force vector based on the airplane’s current orientation, represented
+      by a <a id="I_indexterm6_id332826" class="indexterm"/><a id="I_indexterm6_id332836" class="indexterm"/>quaternion.<sup>[<a id="CHP-12-FN-1" href="#ftn.CHP-12-FN-1" epub:type="noteref" class="footnote">22</a>]</sup></p></div><div class="sect1" title="Integration"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="integration">Integration</h2></div></div></div><p>Now that the code to <a id="th12.2" class="indexterm"/><a id="in12.2" class="indexterm"/>define, initialize, and calculate loads on the airplane is complete, you need to
+      develop the code to actually integrate the equations of motion so that the simulation can
+      progress through time. The first thing you need to do is decide on the integration scheme that
+      you want to use. In this example, we decided to go with the basic <a id="I_indexterm6_id332915" class="indexterm"/>Euler’s method. We’ve already discussed some better methods in <a class="xref" href="ch07.html" title="Chapter 7. Real-Time Simulations">Chapter 7</a>. We’re going with Euler’s method here because it’s simple
+      and we didn’t want to make the code here overly complex, burying some key code that we need to
+      point out to you. In practice, you’re better off using one of the other methods we discuss in
+        <a class="xref" href="ch07.html" title="Chapter 7. Real-Time Simulations">Chapter 7</a> instead of Euler’s method. With that said, we’ve
+      prepared a function called <code class="literal">StepSimulation</code> that handles all
+      of the integration necessary to actually propagate the simulation:</p><a id="I_programlisting6_id332947"/><pre class="programlisting">void     StepSimulation(float dt)
+{
+     // Take care of translation first:
+     // (If this body were a particle, this is all you would need to do.)
+
+          Vector Ae;
+
+          // calculate all of the forces and moments on the airplane:
+          CalcAirplaneLoads();
+
+          // calculate the acceleration of the airplane in earth space:
+          Ae = Airplane.vForces / Airplane.fMass;
+
+          // calculate the velocity of the airplane in earth space:
+          Airplane.vVelocity += Ae * dt;
+
+          // calculate the position of the airplane in earth space:
+          Airplane.vPosition += Airplane.vVelocity * dt;
+
+
+     // Now handle the rotations:
+          float  mag;
+
+          // calculate the angular velocity of the airplane in body space:
+          Airplane.vAngularVelocity += Airplane.mInertiaInverse *
+                                       (Airplane.vMoments -
+                                       (Airplane.vAngularVelocity^
+                                       (Airplane.mInertia *
+                                         Airplane.vAngularVelocity)))
+                                        * dt;
+
+          // calculate the new rotation quaternion:
+          Airplane.qOrientation += (Airplane.qOrientation *
+                                    Airplane.vAngularVelocity) *
+                                   (0.5f * dt);
+
+          // now normalize the orientation quaternion:
+          mag = Airplane.qOrientation.Magnitude();
+          if (mag != 0)
+               Airplane.qOrientation /= mag;
+
+          // calculate the velocity in body space:
+          // (we'll need this to calculate lift and drag forces)
+          Airplane.vVelocityBody = QVRotate(~Airplane.qOrientation,
+                                            Airplane.vVelocity);
+
+          // calculate the air speed:
+          Airplane.fSpeed = Airplane.vVelocity.Magnitude();
+
+          // get the Euler angles for our information
+          Vector u;
+
+          u = MakeEulerAnglesFromQ(Airplane.qOrientation);
+          Airplane.vEulerAngles.x = u.x;     // roll
+          Airplane.vEulerAngles.y = u.y;     // pitch
+          Airplane.vEulerAngles.z = u.z;     // yaw
+
+}</pre><p>The very first thing that <code class="literal">StepSimulation</code> does is call
+        <code class="literal">CalcAirplaneLoads</code> to calculate the loads acting on the
+      airplane at the current instant in time. <code class="literal">StepSimulation</code>
+      then goes on to calculate the linear acceleration of the airplane based on current loads.
+      Next, the function goes on to integrate, using Euler’s method, once to calculate the
+      airplane’s linear velocity and then a second time to calculate the airplane’s position. As
+      we’ve commented in the code, if you were simulating a particle this is all you would have to
+      do; however, since this is not a particle, you need to handle angular motion.</p><p>The first step in handling angular motion is to calculate the new <a id="I_indexterm6_id332998" class="indexterm"/><a id="I_indexterm6_id333010" class="indexterm"/>angular velocity at this time step, using Euler integration, based on the
+      previously calculated moments acting on the airplane and its mass properties. We do this in
+      body coordinates using the following equation of angular motion but rewritten to solve for
+        <span class="emphasis"><em>d</em></span>ω:</p><table style="border: 0; " class="simplelist"><tr><td>∑ <span class="strong"><strong>M</strong></span><sub>cg</sub> = d<span class="strong"><strong>H</strong></span><sub>cg</sub>/dt = <span class="strong"><strong>I</strong></span> (d<span class="strong"><strong>ω</strong></span>/dt) + (<span class="strong"><strong>ω</strong></span> × (<span class="strong"><strong>I ω</strong></span>))</td></tr></table><p>The next step is to integrate again to update the <a id="I_indexterm6_id333082" class="indexterm"/>airplane’s orientation, which is expressed as a quaternion. Here, you need to use
+      the differential equation relating an orientation quaternion to angular velocity that we
+      showed you in <a class="xref" href="ch11.html" title="Chapter 11. Rotation in 3D Rigid-Body Simulators">Chapter 11</a>:</p><table style="border: 0; " class="simplelist"><tr><td>d<span class="strong"><strong>q</strong></span>/dt = (1/2) <span class="strong"><strong>ω
+          q</strong></span></td></tr></table><p>Next, to enforce the constraint that this orientation quaternion be<a id="I_indexterm6_id333124" class="indexterm"/> a <span class="emphasis"><em>unit</em></span> quaternion, the function goes ahead and normalizes
+      the orientation quaternion.</p><p>Since the linear velocity was previously calculated in global coordinates (the fixed
+      coordinate system), and since <code class="literal">CalcAirplaneLoads</code> needs the
+      velocity in the body-fixed (rotating) coordinates system, the function goes ahead and rotates
+      the velocity vector, storing the body-fixed vector in the <code class="literal">vVelocityBody</code> member of the <code class="literal">RigidBody</code>
+      structure. This is done here as a matter of convenience and uses the quaternion rotation
+      function <code class="literal">QVRotate</code> to rotate the vector based on the
+      airplane’s current orientation. Notice here that we use the conjugate of the orientation
+      quaternion since we’re now rotating from global coordinates to body coordinates.</p><p>As another convenience, we calculate the air speed, which is simply the magnitude of the
+      linear velocity vector. This is used to report the air speed in the main window title
+      bar.</p><p>Lastly, the three Euler angles—roll, pitch, and yaw—are extracted from the orientation
+      quaternion so that they can also be reported in the main window title bar. The function to use
+      here <a id="I_indexterm6_id333178" class="indexterm"/><a id="I_indexterm6_id333189" class="indexterm"/><a id="I_indexterm6_id333195" class="indexterm"/>is <code class="literal">MakeEulerAnglesFromQ</code>, which is defined in
+        <a class="xref" href="apc.html" title="Appendix C. Quaternion Operations">Appendix C</a>.</p><p>Don’t forget, <code class="literal">StepSimulation</code> must be called once per
+        <a id="I_indexterm6_id333227" class="indexterm"/><a id="I_indexterm6_id333236" class="indexterm"/>simulation cycle.</p></div><div class="sect1" title="Flight Controls"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="flight_controls">Flight Controls</h2></div></div></div><p>At this point, the <a id="th12.3" class="indexterm"/><a id="fl12.3" class="indexterm"/><a id="ai12.3" class="indexterm"/>simulation still won’t work very well because you have not implemented the flight
+      controls. The flight controls allow you to interact with the airplane’s various controls
+      surfaces in order to actually fly the plane. We’ll use the keyboard as the main input device
+      for the flight controls. Remember, in a physics-based simulation such as this one, you don’t
+      directly control the motion of the airplane; you control only how various forces are applied
+      to the airplane, which then, by integration over time, affect the airplane’s motion.</p><p>For this simulation, the flight stick is simulated by the arrow keys. The down arrow pulls
+      back on the stick, raising the nose; the up arrow pushes the stick forward, causing the nose
+      to dive; the left arrow rolls the plane to the left (port side); and the right arrow <a id="I_indexterm6_id333318" class="indexterm"/>rolls the plane to the right (starboard side). The X key applies left rudder
+      action to cause the nose of the plane to yaw toward the left, while the C key applies right
+      rudder action to cause the nose to <a id="I_indexterm6_id333330" class="indexterm"/>yaw toward the right. Thrust is <a id="I_indexterm6_id333342" class="indexterm"/>controlled by the A and Z keys. The A key increments the propeller thrust by 100
+      pounds, and the Z key decrements the thrust by 100 pounds. The minimum thrust is 0, while the
+      maximum available thrust is 3,000 pounds. The F key activates the landing flaps to increase
+      lift at low speed, while the D key deactivates the landing flaps.</p><p>We control pitch <a id="I_indexterm6_id333359" class="indexterm"/>by deflecting the flaps on the aft elevators; for example, to pitch the nose up,
+      we deflect the aft elevator flaps upward (that is, the trailing edge of the elevator is raised
+      with respect to the leading edge). We control roll in this simulation by applying the flaps
+      differentially; for example, to roll right, we deflect the right flap upward and the left flap
+      downward. Finally, we control yaw by deflecting the vertical tail rudder; for example, to yaw
+      left, we deflect the trailing edge of the tail rudder toward the left.</p><p>We’ve prepared several functions to handle the flight controls that should be called
+      whenever the user is pressing one of the flight control keys. There are two functions for the
+      propeller thrust:</p><a id="I_programlisting6_id333382"/><pre class="programlisting">void     IncThrust(void)
+{
+     ThrustForce += _DTHRUST;
+     if(ThrustForce &gt; _MAXTHRUST)
+          ThrustForce = _MAXTHRUST;
+}
+
+void     DecThrust(void)
+{
+     ThrustForce -= _DTHRUST;
+     if(ThrustForce &lt; 0)
+          ThrustForce = 0;
+}</pre><p><code class="literal">IncThrust</code> simply increases the thrust by <code class="literal">_DTHRUST</code> checking to make sure it does not exceed <code class="literal">_MAXTHRUST</code>. We’ve defined <code class="literal">_DTHRUST</code> and <code class="literal">_MAXTHRUST</code> as follows:</p><a id="I_programlisting6_id333422"/><pre class="programlisting">#define    _DTHRUST      100.0f
+#define    _MAXTHRUST    3000.0f</pre><p><code class="literal">DecThrust</code>, on the other hand, decreases the thrust by
+        <code class="literal">_DTHRUST</code> checking to make sure it does not fall below
+      0.</p><p>To control yaw, we’ve prepared three functions that manipulate the rudder:</p><a id="I_programlisting6_id333447"/><pre class="programlisting">void     LeftRudder(void)
+{
+     Element[6].fIncidence = 16;
+}
+
+void     RightRudder(void)
+{
+     Element[6].fIncidence = −16;
+}
+
+void     ZeroRudder(void)
+{
+     Element[6].fIncidence = 0;
+}</pre><p><code class="literal">LeftRudder</code> changes the incidence angle of <code class="literal">Element[6]</code>, the vertical tail rudder, to 16 degrees, while
+        <code class="literal">RightRudder</code> changes the incidence angle to −16 degrees.
+        <code class="literal">ZeroRudder</code> centers the rudder at 0 degrees.</p><p>The ailerons, or flaps, are <a id="I_indexterm6_id333485" class="indexterm"/><a id="I_indexterm6_id333492" class="indexterm"/>manipulated by these functions to control roll:</p><a id="I_programlisting6_id333500"/><pre class="programlisting">void     RollLeft(void)
+{
+     Element[0].iFlap = 1;
+     Element[3].iFlap = −1;
+}
+
+void     RollRight(void)
+{
+     Element[0].iFlap = −1;
+     Element[3].iFlap = 1;
+}
+
+void     ZeroAilerons(void)
+{
+     Element[0].iFlap = 0;
+     Element[3].iFlap = 0;
+}</pre><p><code class="literal">RollLeft</code> deflects the port aileron, located on the port
+      wing section (<code class="literal">Element[0]</code>), upward, and the starboard
+      aileron, located on the starboard wing section (<code class="literal">Element[3]</code>), downward. <code class="literal">RollRight</code> does just the
+      opposite, and <code class="literal">ZeroAilerons</code> resets the flaps back to their
+      undeflected positions.</p><p>We’ve defined yet another set of functions to control the aft <a id="I_indexterm6_id333544" class="indexterm"/>elevators so as to control <a id="I_indexterm6_id333553" class="indexterm"/>pitch:</p><a id="I_programlisting6_id333565"/><pre class="programlisting">void     PitchUp(void)
+{
+     Element[4].iFlap = 1;
+     Element[5].iFlap = 1;
+}
+
+void     PitchDown(void)
+{
+     Element[4].iFlap = −1;
+     Element[5].iFlap = −1;
+}
+
+
+void     ZeroElevators(void)
+{
+     Element[4].iFlap = 0;
+     Element[5].iFlap = 0;
+}</pre><p><code class="literal">Element[4]</code> and <code class="literal">Element[5]</code> are the elevators. <code class="literal">PitchUp</code> deflects
+      their flaps upward, and <code class="literal">PitchDown</code> deflects their flaps
+      downward. <code class="literal">ZeroElevators</code> resets their flaps back to their
+      undeflected positions.</p><p>Finally, there are two more functions to control the landing flaps:</p><a id="I_programlisting6_id333610"/><pre class="programlisting">void     FlapsDown(void)
+{
+     Element[1].iFlap = −1;
+     Element[2].iFlap = −1;
+     Flaps = true;
+}
+
+void     ZeroFlaps(void)
+{
+     Element[1].iFlap = 0;
+     Element[2].iFlap = 0;
+     Flaps = false;
+}</pre><p>The landing flaps are fitted on the inboard wings sections, port and starboard, which are
+        <code class="literal">Element[1]</code> and <code class="literal">Element[2]</code>. <code class="literal">FlapsDown</code> deflects the flaps
+      downward, while <code class="literal">ZeroFlaps</code> resets them back to their
+      undeflected position.</p><p>As we said, these functions should be called when the user is pressing the flight control
+      keys. Further, they need to be called before <code class="literal">StepSimulation</code>
+      is called so that they can be included in the current time step’s force and moment
+      calculations. The sequence of calls should look something like this:</p><a id="I_programlisting6_id333659"/><pre class="programlisting">.
+.
+.
+
+     ZeroRudder();
+     ZeroAilerons();
+     ZeroElevators();
+
+     // pitch down
+     if (IsKeyDown(VK_UP))
+          PitchDown();
+
+     // pitch up
+     if (IsKeyDown(VK_DOWN))
+          PitchUp();
+
+     // roll left
+     if (IsKeyDown(VK_LEFT))
+          RollLeft();
+
+     // roll right
+     if (IsKeyDown(VK_RIGHT))
+          RollRight();
+
+     //  Increase thrust
+     if (IsKeyDown(0x41)) // A
+          IncThrust();
+
+     //  Decrease thrust
+     if (IsKeyDown(0x5A)) // Z
+          DecThrust();
+
+     // yaw left
+     if (IsKeyDown(0x58)) // x
+          LeftRudder();
+
+     // yaw right
+     if (IsKeyDown(0x43)) // c
+          RightRudder();
+
+     // landing flaps down
+     if (IsKeyDown(0x46)) //f
+          FlapsDown();
+
+     // landing flaps up
+     if (IsKeyDown(0x44)) // d
+          ZeroFlaps();
+
+     StepSimulation(dt);
+.
+.
+.</pre><p>Before <code class="literal">StepSimulation</code> is called, we check each of the
+      flight control keys to see if it is being pressed. If so, then the appropriate function is
+      called.</p><p>The function <code class="literal">IsKeyDown</code>, which checks whether a certain
+      key is pressed, looks like this in a Windows implementation:</p><a id="I_programlisting6_id333693"/><pre class="programlisting">BOOL IsKeyDown(short KeyCode)
+{
+
+    SHORT    retval;
+
+    retval = GetAsyncKeyState(KeyCode);
+
+    if (HIBYTE(retval))
+        return TRUE;
+
+    return FALSE;
+}</pre><p>The important thing to note here is that the keys are being checked asynchronously because
+      it is possible that more than one key will be pressed at any given time, and they must be
+      handled simultaneously instead of one at a time (as would be the case in the standard Windows
+      message processing function).</p><p>The addition of flight control code pretty much completes the physics part of the
+      simulation. So far, you have the model, the integrator, and the user input or flight control
+      elements completed. All that remains is setting up the application’s main window and actually
+      drawing something that represents what you’re simulating. We’ll leave that part up to you, or
+      you can look at the example we’ve included on the book’s website to see what we did on a
+      Windows <a id="I_indexterm6_id333714" class="indexterm"/><a id="I_indexterm6_id333723" class="indexterm"/><a id="I_indexterm6_id333733" class="indexterm"/><a id="I_indexterm6_id333742" class="indexterm"/><a id="I_indexterm6_id333751" class="indexterm"/>machine.</p></div><div class="footnotes" epub:type="footnotes"><br/><hr style="width: 100; align: left;"/><div class="footnote" epub:type="footnote" id="ftn.CHP-12-FN-1"><p><sup>[<a href="#CHP-12-FN-1" class="para">22</a>] </sup><code class="literal">QVRotate</code> is defined in <a class="xref" href="apc.html" title="Appendix C. Quaternion Operations">Appendix C</a>.</p></div></div></section></body></html>

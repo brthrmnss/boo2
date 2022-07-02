@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg"><head><title>Chapter 13. Connecting Objects</title><link rel="stylesheet" type="text/css" href="core.css"/><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"/><link rel="up" href="pt02.html" title="Part II. Rigid-Body Dynamics"/><link rel="prev" href="ch12.html" title="Chapter 12. 3D Rigid-Body Simulator"/><link rel="next" href="ch14.html" title="Chapter 14. Physics Engines"/></head><body><section class="chapter" title="Chapter 13. Connecting Objects" epub:type="chapter" id="connecting_objects"><div class="titlepage"><div><div><h2 class="title">Chapter 13. Connecting Objects</h2></div></div></div><p>Simulating particles and rigid bodies is <a id="ob13.0" class="indexterm"/><a id="I_indexterm7_id333789" class="indexterm"/><a id="mo13.0" class="indexterm"/>great fun, and with these simple entities you can achieve a
+  wide variety of effects or simulate a wide variety of objects. In this
+  chapter we’ll take things a step further, showing you how to simulate
+  connected particles and rigid bodies. Doing so opens a whole new realm of
+  possibilities. In this book’s first edition, David showed you how to use
+  <a id="I_indexterm7_id333818" class="indexterm"/><a id="I_indexterm7_id333827" class="indexterm"/>springs and particles to simulate cloth. <a class="xref" href="ch17.html" title="Chapter 17. Cars and Hovercraft">Chapter 17</a> in the first edition covers that, and the
+  <a id="I_indexterm7_id333844" class="indexterm"/><a id="I_indexterm7_id333850" class="indexterm"/>corresponding “Cloth Simulation” example on the book’s website
+  implements the model. As shown in <a class="xref" href="ch13.html#network_of_particles_and_springs" title="Figure 13-1. Network of particles and springs">Figure 13-1</a>, the <a id="I_indexterm7_id333867" class="indexterm"/>flag model is simply a collection of particles initially laid
+  out in a grid pattern connected by linear springs that are then rendered to
+  look like cloth. The springs give structure to the particles, keeping them
+  organized in a mesh that can be rendered while allowing them to move,
+  emulating the movement of a flowing fabric.</p><div class="figure"><a id="network_of_particles_and_springs"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject7_id333887"/><img src="httpatomoreillycomsourceoreillyimages1598954.png.jpg" alt="Network of particles and springs"/></div></div><div class="figure-title">Figure 13-1. Network of particles and springs</div></div><p>Each line in the wireframe flag shown in <a class="xref" href="ch13.html#network_of_particles_and_springs" title="Figure 13-1. Network of particles and springs">Figure 13-1</a> represents a spring-damper
+  element, while the nodes where these springs intersect represent the
+  particles. We modeled the springs using the <a id="I_indexterm7_id333914" class="indexterm"/>spring-damper formulas that we showed you back in <a class="xref" href="ch03.html" title="Chapter 3. Force">Chapter 3</a>. The (initially) horizontal and vertical springs provide
+  the basic structure for the flag, while the diagonal springs are there to
+  resist shear forces and lend further strength to the cloth. Without these
+  shear springs, the cloth would be quite stretchy. Note that there are no
+  particles located at the intersection of the diagonal springs.</p><p>In this chapter, we’ll show you how to use those same techniques to
+  simulate something like a hanging rope or vine. You can use these techniques
+  to simulate all sorts of things besides cloth and rope or vines. For
+  example, you can model the swing of a golf club if you can imagine one rigid
+  body representing the arm and another representing the golf club. We’ll get
+  to that example in <a class="xref" href="ch19.html" title="Chapter 19. Sports">Chapter 19</a>, but for now let’s see how to
+  model a hanging rope or vine and some other springy objects.</p><p>Application of linear springs is not the only method available to connect objects, but it
+    has the advantages of being conceptually simple, easy to implement, and effective. One of the
+    potential disadvantages is that you can run into numerical stability problems if the springs are
+    too stiff. We’ll talk more about these issues throughout this chapter. Also, the examples we’ll
+    cover are in 2D for simplicity, but the techniques apply in 3D, too.</p><div class="sect1" title="Springs and Dampers"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="springs_and_dampers-id1">Springs and Dampers</h2></div></div></div><p>You learned in <a class="xref" href="ch03.html" title="Chapter 3. Force">Chapter 3</a> that <a id="I_indexterm7_id333971" class="indexterm"/><a id="I_indexterm7_id333981" class="indexterm"/>springs are structural elements that, when connected between
+    two objects, apply equal and opposite forces to each object. This spring
+    force follows <a id="I_indexterm7_id333993" class="indexterm"/>Hooke’s law and is a function of the stretched or compressed
+    length of the spring relative to the rest length of the spring and the
+    spring constant. The spring constant<a id="I_indexterm7_id334002" class="indexterm"/> is a quantity that relates the force exerted by the spring
+    to its deflection:</p><table style="border: 0; " class="simplelist"><tr><td>F<sub>s</sub> = –k<sub>s</sub> (L –
+      r)</td></tr></table><p>Here, <span class="emphasis"><em>F</em></span><sub>s</sub> is the spring
+    force, <span class="emphasis"><em>k</em></span><sub>s</sub> is the spring
+    constant, <span class="emphasis"><em>L</em></span> is the stretched or compressed length of
+    the spring, and <span class="emphasis"><em>r</em></span> is the rest length of the spring.
+    The negative sign in the preceding equation just means that the force is
+    in the opposite direction of the displacement.</p><p>Dampers are usually used in conjunction with springs in numerical
+    simulations. They act like viscous drag in that dampers act against
+    velocity. The force developed by a damper is proportional to the relative
+    velocity of the connected objects and a<a id="I_indexterm7_id334062" class="indexterm"/> damping constant,
+    <span class="emphasis"><em>k</em></span><sub>d</sub>, that relates relative
+    velocity to damping force.</p><table style="border: 0; " class="simplelist"><tr><td>F<sub>d</sub> = –k<sub>d</sub>
+      (v<sub>1</sub> – v<sub>2</sub>)</td></tr></table><p>This equation shows the damping force,
+    <span class="emphasis"><em>F</em></span><sub>d</sub>, as a function of the
+    damping constant and the relative velocity of the connected points on the
+    two connected bodies.</p><p>Typically, springs and dampers are combined into a single <a id="I_indexterm7_id334119" class="indexterm"/>spring-damper element where a single formula is used to
+    represent the combined force. In vector notation, the formula for a
+    spring-damper element connecting two bodies is:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>F</strong></span><sub>1</sub> =
+      –{k<sub>s</sub> (L – r) + k<sub>d</sub>
+      ((<span class="strong"><strong>v</strong></span><sub>1</sub> –
+      <span class="strong"><strong>v</strong></span><sub>2</sub>) •
+      <span class="strong"><strong>L</strong></span>)/L} <span class="strong"><strong>L</strong></span>/L</td></tr></table><p>Here, <span class="strong"><strong>F</strong></span><sub>1</sub>
+    is the force exerted on body 1, while the force, <span class="strong"><strong>F</strong></span><sub>2</sub>, exerted on body 2
+    is:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>F</strong></span><sub>2</sub> =
+      –<span class="strong"><strong>F</strong></span><sub>1</sub></td></tr></table><p><span class="strong"><strong>L</strong></span> is the length of the
+    spring-damper (<span class="emphasis"><em>L</em></span>, not in bold print, is the magnitude
+    of the vector <span class="strong"><strong>L</strong></span>), which is equal to the
+    vector difference in position between the connected points on bodies 1 and
+    2. If the connected objects are particles, then <span class="strong"><strong>L</strong></span> is equal to the position of body 1 minus the
+    position of body 2. Similarly, <span class="strong"><strong>v</strong></span><sub>1</sub> and <span class="strong"><strong>v</strong></span><sub>2</sub> are the velocities of
+    the connected points on bodies 1 and 2. The quantity (<span class="strong"><strong>v</strong></span><sub>1</sub> – <span class="strong"><strong>v</strong></span><sub>2</sub>) represents the
+    <a id="I_indexterm7_id334288" class="indexterm"/><a id="I_indexterm7_id334299" class="indexterm"/>relative velocity between the connected bodies.</p><p>It’s fairly straightforward to connect particles with springs (and
+    dampers); you need only specify the particles to which the spring is
+    connected and compute the stretched or compressed length of the spring as
+    the particles move relative to each other. The force generated by the
+    spring is then applied equally (but in opposite directions) to the
+    connected particles. This is a linear force.</p><p>For rigid bodies, things are a bit more complicated. First, not only
+    do you have to specify to which body the spring is attached, but you must
+    also specify the precise points on each object where the spring attaches.
+    Then, in addition to the linear force applied by the spring to each body,
+    you must also compute the resulting moment on each body causing each to
+    rotate.</p></div><div class="sect1" title="Connecting Particles"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="connecting_particles">Connecting Particles</h2></div></div></div><p>From <a id="co13.2" class="indexterm"/><a id="pa13.2" class="indexterm"/><a id="cop13.2" class="indexterm"/><a id="pc13.2" class="indexterm"/><a id="ro13.2" class="indexterm"/><a id="vi13.2" class="indexterm"/>swinging vines in Activision’s <span class="emphasis"><em>Pitfall</em></span>
+    to barnacle tongues in Valve Corporation’s <span class="emphasis"><em>Half-Life</em></span>,
+    dangling rope-like objects have appeared in video games in various
+    incarnations since the very early days of video gaming. Some
+    implementations, such as those in the 1982 versions of
+    <span class="emphasis"><em>Pitfall</em></span>, are implemented rather simply and
+    unrealistically, while others, such as barnacle tongues, are implemented
+    more realistically in how they dangle and swing. Whether it’s a vine,
+    rope, chain, or tongue, you can use particles and springs to simulate
+    realistic rope-like behavior. We’ll show you how in the following simple
+    example.</p><div class="sect2" title="Rope"><div class="titlepage"><div><div><h3 class="title" id="rope">Rope</h3></div></div></div><p>You know from your real-life experience that ropes are flexible, although some are more
+        flexible than others. Ropes are elastic and stretch to varying extents. They drape when
+        suspended by their two ends. They bend when swinging or when collapsing on the ground. We
+        can capture all these behaviors using simple particles connected with springs. <a class="xref" href="ch13.html#swinging_rope" title="Figure 13-2. Swinging rope">Figure 13-2</a> illustrates the rope example we’ll cover here.</p><div class="figure"><a id="swinging_rope"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject7_id334464"/><img src="httpatomoreillycomsourceoreillyimages1598955.png" alt="Swinging rope"/></div></div><div class="figure-title">Figure 13-2. Swinging rope</div></div><p>The example consists of a rope comprising 10 particles and 9
+      springs. At the start of the simulation, the rope, originally extended
+      straight out to the right, falls under the influence of gravity,
+      swinging left and right until it comes to rest (hanging straight down).
+      The dots represent particles and the lines represent <a id="sp13.2.1" class="indexterm"/>springs. The topmost particle is fixed, and the
+      illustration on the left in <a class="xref" href="ch13.html#swinging_rope" title="Figure 13-2. Swinging rope">Figure 13-2</a> shows the
+      rope swinging down from right to left while the illustration on the
+      right shows the rope swinging back from left to right.</p><p>This example uses all the same code and techniques presented in
+      <a class="xref" href="ch07.html" title="Chapter 7. Real-Time Simulations">Chapter 7</a> through <a class="xref" href="ch09.html" title="Chapter 9. 2D Rigid-Body Simulator">Chapter 9</a> for simulating particles and rigid
+      bodies. Really, the only difference is that we have to compute a new
+      force—the spring force on each object. But before we do that, we have to
+      define and initialize the springs.</p><div class="sect3" title="Spring structure and variables"><div class="titlepage"><div><div><h4 class="title" id="spring_structure_and_variables">Spring structure and variables</h4></div></div></div><p>The following code sample shows the spring data structure we set
+        up to store each spring’s information:</p><a id="I_programlisting7_id334542"/><pre class="programlisting">typedef struct _Spring {
+    int        End1;
+    int        End2;
+    float      k;
+    float      d;
+    float      InitialLength;
+} Spring, *pSpring;</pre><p>Specifically, this information includes:</p><div class="variablelist"><dl><dt><span class="term"><code class="literal">End1</code></span></dt><dd><p>A reference to the first particle to which the spring is
+              connected</p></dd><dt><span class="term"><code class="literal">End2</code></span></dt><dd><p>A reference to the second particle to which the spring is
+              connected</p></dd><dt><span class="term"><code class="literal">k</code></span></dt><dd><p>The spring constant</p></dd><dt><span class="term"><code class="literal">d</code></span></dt><dd><p>The damping constant</p></dd><dt><span class="term"><code class="literal">InitialLength</code></span></dt><dd><p>The unstretched length of the spring</p></dd></dl></div><p>This structure is appropriate for connecting particles. We’ll
+        make a slight modification to this structure later, when we get to the
+        example where we’re connecting rigid bodies.</p><p>There are <code class="literal">define</code>s and
+        variables unique to this example that must be set up as
+        follows:</p><a id="I_programlisting7_id334665"/><pre class="programlisting">#define        _NUM_OBJECTS     10
+#define        _NUM_SPRINGS     9
+#define        _SPRING_K        1000
+#define        _SPRING_D        100
+
+Particle        Objects[_NUM_OBJECTS];
+Spring          Springs[_NUM_SPRINGS];</pre><p>As stated earlier, there are 10 particles (objects) and 9
+        springs in this simulation. The arrays <code class="literal">Objects</code> and <code class="literal">Springs</code> are used to keep track of them. We
+        also set up a few <code class="literal">define</code>s
+        representing the spring and damping constants. The values shown here
+        are arbitrary, and you can change them to suit whatever behavior you
+        desire. The higher the spring constant, the stiffer the springs;
+        whereas the lower the spring constant, the stretchier the springs.
+        Stretchy springs make your rope more elastic. Keep in mind while
+        tuning these values that if you make the spring constant too high,
+        you’ll probably have to make the simulation time step smaller and/or
+        use a robust integration scheme to avoid numerical
+        instabilities.</p><p>The damping constant controls how quickly the springiness of the
+        springs dampens out. You’ll end up tuning this value to get the
+        behavior you desire. A small value can make the rope seem jittery,
+        while a large value will make the stretchiness appear smoother. Higher
+        damping also helps alleviate numerical instabilities to some extent,
+        although it’s no substitute for a robust integration scheme.</p></div><div class="sect3" title="Initialize the particles and springs"><div class="titlepage"><div><div><h4 class="title" id="initialize_the_particles_and_springs">Initialize the particles and springs</h4></div></div></div><p>Initially, our particle rope is set up horizontally, as shown in
+        <a class="xref" href="ch13.html#particle_rope_setup" title="Figure 13-3. Particle rope setup">Figure 13-3</a>, with the leftmost particle,
+        <span class="emphasis"><em>p0</em></span>, fixed—that is, the particle
+        <span class="emphasis"><em>p0</em></span> will not move, and the remainder of the rope
+        will pivot about <span class="emphasis"><em>p0</em></span>. For convenience, all
+        remaining particles are incrementally indexed from left to
+        right.</p><div class="figure"><a id="particle_rope_setup"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject7_id334748"/><img src="httpatomoreillycomsourceoreillyimages1598956.png" alt="Particle rope setup"/></div></div><div class="figure-title">Figure 13-3. Particle rope setup</div></div><p>There are nine springs, which are indexed from left to right as illustrated in <a class="xref" href="ch13.html#particle_rope_setup" title="Figure 13-3. Particle rope setup">Figure 13-3</a>. Spring 0 connects particle 0 to particle 1, spring 1
+          connects particle 1 to particle 2, and so on. The following code sample shows how all this
+          is initialized:</p><a id="I_programlisting7_id334777"/><pre class="programlisting">bool    Initialize(void)
+{
+    Vector    r;
+    int       i;
+
+    Objects[0].bLocked = true;
+
+    // Initialize particle locations from left to right.
+    for(i=0; i&lt;_NUM_OBJECTS; i++)
+    {
+        Objects[i].vPosition.x = _WINWIDTH/2 + Objects[0].fLength * i;
+        Objects[i].vPosition.y = _WINHEIGHT/8;
+    }
+
+    // Initialize springs connecting particles from left to right.
+    for(i=0; i&lt;_NUM_SPRINGS; i++)
+    {
+        Springs[i].End1 = i;
+        Springs[i].End2 = i+1;
+        r = Objects[i+1].vPosition - Objects[i].vPosition;
+
+        Springs[i].InitialLength = r.Magnitude();
+        Springs[i].k = _SPRING_K;
+        Springs[i].d = _SPRING_D;
+    }
+    return true;
+}</pre><p>First, the local variables <code class="literal">r</code>
+        and <code class="literal">i</code> are declared. <code class="literal">r</code> will be used to compute the initial,
+        unstretched length of the springs, and <code class="literal">i</code> will be used to index the <code class="literal">Objects</code> and <code class="literal">Springs</code> arrays. Second, <code class="literal">Objects[0]</code>, the one that is fixed, has its
+        <code class="literal">bLocked</code> property set to <code class="literal">true</code>, indicating that it does not move (that
+        is, it’s locked).</p><p>Next, the particle positions are initialized starting from the first particle—the
+          fixed one positioned at the middle of the screen—and proceeding to the rest of the
+          particles, offsetting each to the right by an amount equal to property <code class="literal">fLength</code>. <code class="literal">fLength</code> is an
+          arbitrary length that you can define, that represents the spacing of the particles and,
+          subsequently, the initial length of the springs connecting the particles.</p><p>Finally, we set up the springs, connecting each particle to its
+        neighbor on the right. Starting at the first spring, we set its end
+        references to the index of the particle to its left and right in the
+        properties <code class="literal">End1</code> and <code class="literal">End2</code>, respectively. These indices are simply
+        <code class="literal">i</code> and <code class="literal">i+1</code>, as shown in the preceding code sample
+        within the last <code class="literal">for</code> loop. The
+        initial length vector of the spring is computed and stored in the
+        vector <code class="literal">r</code>, where <code class="literal">r = Objects[i+1].vPosition -
+        Objects[i].vPosition</code>. The magnitude of this vector is the
+        initial spring length, which is stored in the spring’s property,
+        <code class="literal">InitialLength</code>. This step isn’t
+        strictly necessary in this example since you already know that the
+        property <code class="literal">fLength</code> discussed earlier
+        is the initial length of each spring. However, we’ve done it this
+        general way since you may not necessarily initialize the particle
+        positions as we have simply done.</p></div><div class="sect3" title="Update the simulation"><div class="titlepage"><div><div><h4 class="title" id="update_the_simulation">Update the simulation</h4></div></div></div><p>Updating the particle positions at <a id="si13.2.1.3" class="indexterm"/>each simulation time step, under the influence of gravity and spring forces
+          proceeds just like in the earlier examples of <a class="xref" href="ch08.html" title="Chapter 8. Particles">Chapter 8</a> and <a class="xref" href="ch09.html" title="Chapter 9. 2D Rigid-Body Simulator">Chapter 9</a>. Essentially, you must compute the forces on the
+          particles, integrate the equations of motion, and redraw the scene. As usual in our
+          examples, the function <code class="literal">UpdateSimulation</code> is called on to
+          perform these tasks. For the current example, <code class="literal">UpdateSimulation</code> looks like this:</p><a id="I_programlisting7_id334990"/><pre class="programlisting">void    UpdateSimulation(void)
+{
+    double    dt = _TIMESTEP;
+    int       i;
+    double    f, dl;
+    Vector    pt1, pt2;
+    int       j;
+    Vector    r;
+    Vector    F;
+    Vector    v1, v2, vr;
+
+    // Initialize the spring forces on each object to zero.
+    for(i=0; i&lt;_NUM_OBJECTS; i++)
+    {
+        Objects[i].vSprings.x = 0;
+        Objects[i].vSprings.y = 0;
+        Objects[i].vSprings.z = 0;
+    }
+
+    // Calculate all spring forces based on positions of connected objects.
+    for(i=0; i&lt;_NUM_SPRINGS; i++)
+    {
+        j = Springs[i].End1;
+        pt1 = Objects[j].vPosition;
+        v1 = Objects[j].vVelocity;
+
+        j = Springs[i].End2;
+        pt2 = Objects[j].vPosition;
+        v2 = Objects[j].vVelocity;
+
+        vr = v2 - v1;
+        r = pt2 - pt1;
+        dl = r.Magnitude() - Springs[i].InitialLength;
+        f = Springs[i].k * dl; // - means compression, + means tension
+        r.Normalize();
+        F = (r*f) + (Springs[i].d*(vr*r))*r;
+
+        j = Springs[i].End1;
+        Objects[j].vSprings += F;
+
+        j = Springs[i].End2;
+        Objects[j].vSprings -= F;
+    }
+
+    .
+    .
+    .
+    // Integrate equations of motion as usual.
+    .
+    .
+    .
+    // Render the scene as usual.
+    .
+    .
+    .
+}</pre><p>As you can see, there are several local variables here. We’ll explain each one as we
+          get to the code where it’s used. After the local variable declarations, this function’s
+          first task is to reset the aggregate spring forces on each particle to 0. Each particle
+          stores the aggregate spring force in the property <code class="literal">vSprings</code>, which is a vector. In this example, each particle will have up to
+          two springs acting on it at any given time.</p><p>The next block of code in the <code class="literal">for</code> loop computes the springs forces acting
+        on each particle. There are several steps to this, so we’ll go through
+        each one. First the loop is set up to step through the list of
+        springs. Recall that each spring is connected to two particles, so
+        each step through the loop will compute a spring force and apply it to
+        two separate particles.</p><p>Within the loop, the variable <code class="literal">j</code> is used as a convenience to temporarily
+        store the index that refers to the <code class="literal">Object</code> to which the spring is attached. For
+        each spring <code class="literal">j</code> is first set to the
+        spring’s <code class="literal">End1</code> property. A temporary
+        variable, <code class="literal">pt1</code>, is then set equal to
+        the position of the <code class="literal">Object</code> to which
+        <code class="literal">j</code> refers. Another temporary
+        variable, <code class="literal">v1</code>, is set to the
+        velocity of the <code class="literal">Object</code> to which
+        <code class="literal">j</code> refers. Next, <code class="literal">j</code> is set to the index of <code class="literal">End2</code>, the other <code class="literal">Object</code> to which the current spring is
+        attached, and that object’s position and velocity are stored in
+        <code class="literal">pt2</code> and <code class="literal">v2</code>, respectively. This sort of temporary
+        variable use isn’t necessary, of course, but it makes the following
+        lines of code that compute the spring force more readable in our
+        opinion.</p><p><code class="literal">vr</code> is a vector that stores
+        the relative velocity between the two ends of the spring. We compute
+        <code class="literal">vr</code> by subtracting <code class="literal">v1</code> from <code class="literal">v2</code>. Similarly, <code class="literal">r</code> is a vector that stores the relative
+        distance between the two ends of the spring. We compute <code class="literal">r</code> by subtracting <code class="literal">pt1</code> from <code class="literal">pt2</code>. The magnitude of <code class="literal">r</code> represents the stretched or compressed
+        length of the spring. The change in spring length is computed and
+        stored in <code class="literal">dl</code> as follows:</p><a id="I_programlisting7_id335196"/><pre class="programlisting">        dl = r.Magnitude() - Springs[i].InitialLength;</pre><p><code class="literal">dl</code> will be negative if the
+        computed length is shorter than the initial length of the spring. This
+        implies that the spring is in compression and should act to push the
+        particles away from each other. A positive <code class="literal">dl</code> means the spring is in tension and should
+        act to pull the particles toward each other. The line:</p><a id="I_programlisting7_id335220"/><pre class="programlisting">        f = Springs[i].k * dl;</pre><p>computes the corresponding spring force as a function of
+        <code class="literal">dl</code> and the spring constant. Note
+        that <code class="literal">f</code> is a scalar and we have not
+        yet computed its line of action, although we know it acts along the
+        line connecting the particles at <code class="literal">End1</code> and <code class="literal">End2</code>. That line is represented by <code class="literal">r</code>, which we computed earlier. And the spring
+        force is just <code class="literal">f</code> times the unit
+        vector along <code class="literal">r</code>. Since we’re
+        including damping, we have to use the spring-damper equation for the
+        total force acting on each particle, which we call the vector <code class="literal">F</code>. <code class="literal">F</code> is
+        computed as follows:</p><a id="I_programlisting7_id335287"/><pre class="programlisting">        F = (r*f) + (Springs[i].d*(vr*r))*r;</pre><p>The first term on the right side of the equals sign is the
+        Hooke’s law–based spring force, and the second term is the damping
+        force. Note here that <code class="literal">r</code> is a unit
+        vector previously computed using the line:</p><a id="I_programlisting7_id335304"/><pre class="programlisting">        r.Normalize();</pre><p>Finally, the spring force is applied to each particle connected
+        by the spring. Remember, the force is equal in magnitude but opposite
+        in direction for each particle. The lines:</p><a id="I_programlisting7_id335316"/><pre class="programlisting">        j = Springs[i].End1;
+        Objects[j].vSprings += F;</pre><p>apply the spring force to the particle at the first end of the
+        spring, whereas the lines:</p><a id="I_programlisting7_id335327"/><pre class="programlisting">        j = Springs[i].End2;
+        Objects[j].vSprings -= F;</pre><p>apply the opposite spring force to the particle at the second
+        end of the spring.</p><p>That’s it for computing and applying the spring forces. The
+        remainder of the code is business as usual, where we compute the force
+        due to gravity and add it to the aggregate spring force for each
+        particle and then integrate the equations of motion. Finally, we
+        render the scene at each time <a id="I_indexterm7_id335343" class="indexterm"/><a id="I_indexterm7_id335352" class="indexterm"/><a id="I_indexterm7_id335362" class="indexterm"/><a id="I_indexterm7_id335371" class="indexterm"/><a id="I_indexterm7_id335380" class="indexterm"/><a id="I_indexterm7_id335390" class="indexterm"/><a id="I_indexterm7_id335399" class="indexterm"/><a id="I_indexterm7_id335408" class="indexterm"/>step.</p></div></div></div><div class="sect1" title="Connecting Rigid Bodies"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="connecting_rigid_bodies">Connecting Rigid Bodies</h2></div></div></div><p>As with particles,<a id="cl13.3" class="indexterm"/><a id="rl13.3" class="indexterm"/><a id="cc13.3" class="indexterm"/><a id="rc13.3" class="indexterm"/><a id="li13.3" class="indexterm"/> you can connect rigid bodies with springs to simulate some interesting things.
+      For example, you may want to simulate something as simple as a linked chain, where each link
+      is connected to the other in series. Or perhaps you want to simulate connected body parts to
+      simulate rag doll physics or maybe a golfer’s swing. All these require some means of
+      connecting rigid bodies. In this section we’ll show you how to use linear spring-dampers, the
+      same we’ve discussed already, to connect rigid bodies. We’ll start with a simple analog to the
+      rope example discussed earlier. Instead of connecting particles with springs to simulate a
+      dangling rope, we’ll connect rigid links to simulate a dangling rope or chain. Later, we’ll
+      show you how linear springs can be used to restrain angular motion.</p><div class="sect2" title="Links"><div class="titlepage"><div><div><h3 class="title" id="links">Links</h3></div></div></div><p>In this example, each link is rigid in that it does not deform; however, the links are
+        connected by springs in a way that allows the ensemble to swing, stretch, and bend in a
+        manner similar to a hanging chain. <a class="xref" href="ch13.html#swinging_links" title="Figure 13-4. Swinging links">Figure 13-4</a> illustrates our swinging
+        linked chain as it swings from right to left and then back toward the right.</p><div class="figure"><a id="swinging_links"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject7_id335538"/><img src="httpatomoreillycomsourceoreillyimages1598957.png" alt="Swinging links"/></div></div><div class="figure-title">Figure 13-4. Swinging links</div></div><p>As in the rope example, the topmost link is connected to a fixed
+      point by a spring, such that the linked chain pivots around and hangs
+      from the fixed point. The rectangles represent each rigid link, with the
+      lines connecting the rectangles representing springs.</p><p>To model this linked chain, we need only make a few changes to the
+      rope example to address the fact that we’re now dealing with rigid
+      bodies that can rotate versus particles. This requires us to specify the
+      point on each body to which the springs are attached, and in addition to
+      computing the spring forces acting on each body, we must also compute
+      the moments due to those forces. Aside from these spring force and
+      moment computations, the remainder of the simulation is the same as
+      those discussed in <a class="xref" href="ch07.html" title="Chapter 7. Real-Time Simulations">Chapter 7</a> through
+      <a class="xref" href="ch12.html" title="Chapter 12. 3D Rigid-Body Simulator">Chapter 12</a>.</p><div class="sect3" title="Basic structures and variables"><div class="titlepage"><div><div><h4 class="title" id="basic_structures_and_variables">Basic structures and variables</h4></div></div></div><p>We can use the <code class="literal">Spring</code>
+        structure shown earlier in the rope example again here with one small
+        modification. Basically, we need to change the type of the endpoint
+        references, <code class="literal">End1</code> and <code class="literal">End2</code>, from integers to a new structure we’ll
+        call <code class="literal">EndPoint</code>. The new <code class="literal">Spring</code> structure looks like this:</p><a id="I_programlisting7_id335626"/><pre class="programlisting">typedef struct _Spring {
+    EndPoint    End1;
+    EndPoint    End2;
+    float        k;
+    float        d;
+    float        InitialLength;
+} Spring, *pSpring;</pre><p>The new <code class="literal">EndPoint</code> structure is
+        as follows:</p><a id="I_programlisting7_id335642"/><pre class="programlisting">typedef struct _EndPointRef {
+    int       ref;
+    Vector    pt;
+} EndPoint;</pre><p>Here, <code class="literal">ref</code> is the index
+        referring to the <code class="literal">Object</code> to which
+        the spring is attached, and <code class="literal">pt</code> is
+        the point in the attached <code class="literal">Object</code>’s
+        local coordinate system to which the spring is attached. Notice from
+        <a class="xref" href="ch13.html#swinging_links" title="Figure 13-4. Swinging links">Figure 13-4</a> that the first spring, the topmost
+        one, is connected to a single object; the other end of it is connected
+        to a fixed point in space. We’ll use a <code class="literal">ref</code> of <code class="literal">−1</code>
+        to indicate that a spring’s endpoint is connected to a fixed point in
+        space instead of an object.</p><p>As in the rope example, we have a few important <code class="literal">define</code>s and variables to set up:</p><a id="I_programlisting7_id335706"/><pre class="programlisting">#define        _NUM_OBJECTS     10
+#define        _NUM_SPRINGS     10
+#define        _SPRING_K        1000
+#define        _SPRING_D        100
+
+RigidBody2D       Objects[_NUM_OBJECTS];
+Spring            Springs[_NUM_SPRINGS];</pre><p>These are the same as before except now we have 10 springs
+        instead of 9, and <code class="literal">Objects</code> is of
+        type <code class="literal">RigidBody2D</code> instead of
+        <code class="literal">Particle</code>.</p><p>The damping and spring constants play the same role here as they
+        did in the rope example.</p></div><div class="sect3" title="Initialize"><div class="titlepage"><div><div><h4 class="title" id="initialize">Initialize</h4></div></div></div><p>Initially our linked chain is set up horizontally, just like the
+        rope example, but with the link and spring indices shown in <a class="xref" href="ch13.html#linked-chain_setup" title="Figure 13-5. Linked-chain setup">Figure 13-5</a>. Each rectangle represents a rigid
+        link, and a spring attached to the left end of each link connects the
+        link to its neighbor to the left. In the case of the first link,
+        <span class="emphasis"><em>L0</em></span>, the spring connects the left end of the link
+        to a fixed point in space.</p><div class="figure"><a id="linked-chain_setup"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject7_id335779"/><img src="httpatomoreillycomsourceoreillyimages1598958.png" alt="Linked-chain setup"/></div></div><div class="figure-title">Figure 13-5. Linked-chain setup</div></div><p>The code for this setup is only a little more involved than that
+        for the rope example; the additional complexity is due to having to
+        deal with specific points on the rigid bodies to which each spring is
+        attached. The following code sample contains the modified <code class="literal">Initialize</code> function:</p><a id="I_programlisting7_id335809"/><pre class="programlisting">bool    Initialize(void)
+{
+    Vector    r;
+    Vector    pt;
+    int       i;
+
+    // Initialize objects for linked chain.
+    for(i=0; i&lt;_NUM_LINKS; i++)
+    {
+        Objects[i].vPosition.x = _WINWIDTH/2 + Objects[0].fLength * i;
+        Objects[i].vPosition.y = _WINHEIGHT/8;
+        Objects[i].fOrientation = 0;
+    }
+
+    // Connect end of the first object to a fixed point in space.
+    Springs[0].End1.ref = −1;
+    Springs[0].End1.pt.x = _WINWIDTH/2-Objects[0].fLength/2;
+    Springs[0].End1.pt.y = _WINHEIGHT/8;
+
+    Springs[0].End2.ref = 0;
+    Springs[0].End2.pt.x = -Objects[0].fLength/2;
+    Springs[0].End2.pt.y = 0;
+
+    pt = VRotate2D(Objects[0].fOrientation, Springs[0].End2.pt)
+         + Objects[0].vPosition;
+    r = pt - Springs[0].End1.pt;
+
+    Springs[0].InitialLength = r.Magnitude();
+    Springs[0].k = _SPRING_K;
+    Springs[0].d = _SPRING_D;
+
+    // Connect end of all remaining springs.
+    for(i=1; i&lt;_NUM_LINKS; i++)
+    {
+        Springs[i].End1.ref = i-1;
+        Springs[i].End1.pt.x = Objects[i-1].fLength/2;
+        Springs[i].End1.pt.y = 0;
+
+        Springs[i].End2.ref = i;
+        Springs[i].End2.pt.x = -Objects[i].fLength/2;
+        Springs[i].End2.pt.y = 0;
+
+        pt = VRotate2D(Objects[i].fOrientation, Springs[i].End2.pt)
+              + Objects[i].vPosition;
+        r = pt - (VRotate2D(Objects[i-1].fOrientation, Springs[i].End1.pt)
+                  + Objects[i-1].vPosition);
+
+        Springs[i].InitialLength = r.Magnitude();
+        Springs[i].k = _SPRING_K;
+        Springs[i].d = _SPRING_D;
+    }
+
+    return true;
+}</pre><p>The local variables <code class="literal">r</code> and
+        <code class="literal">i</code> are the same as before; however,
+        there’s a new variable, <code class="literal">pt</code>, that we
+        use to temporarily store the coordinates of specific points when
+        converting from one coordinate system to another. We’ll see how this
+        is done shortly.</p><p>After the local variables are declared, the <code class="literal">Object</code> positions are initialized, starting
+        from the first <code class="literal">Object</code> positioned at
+        the middle of the screen and proceeding to the rest of the <code class="literal">Object</code>s, offsetting each to the right by an
+        amount equal to property <code class="literal">fLength</code>.
+        Here, <code class="literal">fLength</code> is an arbitrary
+        length representing the length of each rigid body, not the length of
+        the springs connecting each rigid body. As you’ll see momentarily, the
+        initial length of all the springs in this example is 0.</p><p>You should be aware that the coordinates for each object
+        computed here are the coordinates of the object’s center of gravity,
+        which in this example we defined as the middle of the rectangle
+        representing each object. Since these are rigid bodies, not only must
+        you specify their initial positions, but you must also specify their
+        initial orientations as shown in the preceding code sample. The way we
+        have this example set up, each object is initialized with an
+        orientation of 0 degrees.</p><p>The next task is to set up the spring connecting the first link,
+        the one on the left, to a fixed point in space. The following code
+        handles this task:</p><a id="I_programlisting7_id335902"/><pre class="programlisting">    // Connect end of the first object to a fixed point in space.
+    Springs[0].End1.ref = −1;
+    Springs[0].End1.pt.x = _WINWIDTH/2-Objects[0].fLength/2;
+    Springs[0].End1.pt.y = _WINHEIGHT/8;
+
+    Springs[0].End2.ref = 0;
+    Springs[0].End2.pt.x = -Objects[0].fLength/2;
+    Springs[0].End2.pt.y = 0;
+
+    pt = VRotate2D(Objects[0].fOrientation, Springs[0].End2.pt)
+         + Objects[0].vPosition;
+    r = pt - Springs[0].End1.pt;
+
+    Springs[0].InitialLength = r.Magnitude();
+    Springs[0].k = _SPRING_K;
+    Springs[0].d = _SPRING_D;</pre><p>The first spring, <code class="literal">Spring[0]</code>,
+        has its first endpoint, <code class="literal">End1</code>, set
+        to refer to <code class="literal">−1</code>, which, as explained
+        earlier, means that this end of the spring is connected to some fixed
+        point in space. The location of the point, stored in the <code class="literal">End1.pt</code> property, must be specified in
+        global coordinates as shown previously.</p><p>Now the second end of the first spring is connected to the left
+        end of the first link; therefore, <code class="literal">End2.ref</code> of the first spring is set to
+        <code class="literal">0</code>, which is the index to the first
+        <code class="literal">Object</code>. The point on <code class="literal">Object[0]</code> to which the spring is attached is
+        the leftmost end on the centerline of the object; thus, its
+        coordinates—relative to the object’s center of gravity location and
+        specified in local, body-fixed coordinates—are:</p><a id="I_programlisting7_id335972"/><pre class="programlisting">    Springs[0].End2.pt.x = -Objects[0].fLength/2;
+    Springs[0].End2.pt.y = 0;</pre><p>Now remember, the points on <code class="literal">Objects</code> to which springs are attached are
+        specified in body-fixed, local coordinates of each referenced object,
+        whereas any point fixed in space to which a spring is attached and not
+        on an <code class="literal">Object</code> must be specified in
+        global, earth-fixed coordinates. You have to keep these coordinates
+        straight and make the appropriate rotations when computing spring
+        lengths throughout the simulation. The code;</p><a id="I_programlisting7_id335998"/><pre class="programlisting">    pt = VRotate2D(Objects[0].fOrientation, Springs[0].End2.pt)
+         + Objects[0].vPosition;
+    r = pt - Springs[0].End1.pt;</pre><p>illustrates how to do this. To compute the initial spring
+        length, we need to compute the relative distance between the endpoints
+        of the spring. In case of the first spring, <code class="literal">End1</code> was specified in global coordinates,
+        but <code class="literal">End2</code> was specified in the local
+        coordinate system of <code class="literal">Object[0]</code>.
+        Therefore, we have to convert the coordinates of <code class="literal">End2</code> from local coordinates to global
+        coordinates before calculating the relative distance between the ends.
+        The preceding line, which calls the <code class="literal">VRotate2D</code> function you saw in earlier
+        chapters, rotates the locally specified point, <code class="literal">End2.pt</code>, from local to global coordinates;
+        it then adds the <code class="literal">Object</code>’s position
+        to the result, arriving at a point, <code class="literal">pt</code>, in global coordinates coincident with
+        the second endpoint of the spring. The relative distance, <code class="literal">r</code>, is the second endpoint, <code class="literal">pt</code>, minus the first endpoint, <code class="literal">End1.pt</code>.</p><p>Finally, we compute the initial length of the spring by taking
+        the magnitude of <code class="literal">r</code> and storing the
+        result in the spring’s <code class="literal">InitialLength</code> property.</p><p>With the first spring out of the way, the <code class="literal">Initialize</code> function enters a loop to set up
+        the remaining springs. Proceeding from left to right in <a class="xref" href="ch13.html#linked-chain_setup" title="Figure 13-5. Linked-chain setup">Figure 13-5</a>, the first endpoint, <code class="literal">End1</code>, is connected to the right side of
+        <code class="literal">Object[i-1]</code>, and the second
+        endpoint, <code class="literal">End2</code>, is connected to the
+        left side of <code class="literal">Object[i]</code>. Be aware
+        that each endpoint of each spring is specified in different coordinate
+        systems. The left end is in the coordinate system of <code class="literal">Object[i-1]</code>, while the right end is in the
+        coordinate system of <code class="literal">Object[i]</code>. It
+        may seem trivial during this setup, but when things start moving and
+        rotating it is critically important to keep these coordinate systems
+        straight. Doing so involves transforming each endpoint coordinate from
+        the local system of the body to which it’s attached to the global
+        coordinate system. This is illustrated as follows:</p><a id="I_programlisting7_id336154"/><pre class="programlisting">        pt = VRotate2D(Objects[i].fOrientation, Springs[i].End2.pt)
+              + Objects[i].vPosition;
+        r = pt - (VRotate2D(Objects[i-1].fOrientation, Springs[i].End1.pt)
+                  + Objects[i-1].vPosition);</pre><p>The first line converts the spring attachment point <code class="literal">End2</code> from the local coordinate system of
+        <code class="literal">Object[i]</code> to global coordinates by
+        performing a rotation and translation using functions you’ve already
+        seen numerous times now. The result is temporarily stored in the local
+        variable, <code class="literal">pt</code>. The second line
+        converts the spring attachment point <code class="literal">End1</code> from the local coordinate system of
+        <code class="literal">Object[i-1]</code> to global coordinates
+        and then subtracts the result from <code class="literal">pt</code>, yielding a vector, <code class="literal">r</code>, representing the relative distance
+        between the spring’s endpoints. The magnitude of <code class="literal">r</code> is the spring’s initial length. Performing
+        these same calculations during the simulation will result in the
+        spring’s stretched or compressed length. That calculation is performed
+        in <code class="literal">UpdateSimulation</code>.</p></div><div class="sect3" title="Update"><div class="titlepage"><div><div><h4 class="title" id="update">Update</h4></div></div></div><p>The function <code class="literal">UpdateSimulation</code>
+        is substantially <a id="si13.3.1.3" class="indexterm"/>the same as that discussed in the rope example. There
+        are a few differences that we’ll highlight here. Again, these
+        differences are due to the fact that we’re now dealing with rigid
+        bodies that rotate rather than simple particles. The following code
+        sample shows the additions to <code class="literal">UpdateSimulation</code>. You can see there are a
+        couple of new variables, <code class="literal">M</code> and
+        <code class="literal">Fo</code>. <code class="literal">M</code> is used to temporarily store moments due
+        to spring forces <code class="literal">Fo</code> in the local
+        coordinates of each <code class="literal">Object</code>.</p><p>Just as the property <code class="literal">vSprings</code> was initialized to 0
+          at the start of <code class="literal">UpdateSimulation</code>, so too must we
+          initialize <code class="literal">vMSprings</code> to 0. Recall, <code class="literal">vSprings</code> aggregates the spring forces acting on each <code class="literal">Object</code>. For rigid bodies that rotate, we’ll use <code class="literal">vMSprings</code> to aggregate the moments on each <code class="literal">Object</code> resulting from those spring forces:</p><a id="I_programlisting7_id336348"/><pre class="programlisting">void    UpdateSimulation(void)
+{
+    .
+    .
+    .
+    Vector    M;
+    Vector    Fo;
+
+    // Initialize the spring forces and moments on each object to zero.
+    for(i=0; i&lt;_NUM_OBJECTS; i++)
+    {
+        .
+        .
+        .
+
+        Objects[i].vMSprings.x = 0;
+        Objects[i].vMSprings.y = 0;
+        Objects[i].vMSprings.z = 0;
+    }
+
+    // Calculate all spring forces based on positions of connected objects
+    for(i=0; i&lt;_NUM_SPRINGS; i++)
+    {
+        if(Springs[i].End1.ref == −1)
+        {
+            pt1 = Springs[i].End1.pt;
+            v1.x = v1.y = v1.z = 0; // point is not moving
+        } else {
+            j = Springs[i].End1.ref;
+            pt1 = Objects[j].vPosition + VRotate2D(Objects[j].fOrientation,
+                                                   Springs[i].End1.pt);
+            v1 = Objects[j].vVelocity + VRotate2D(Objects[j].fOrientation,
+                 Objects[j].vAngularVelocity^Springs[i].End1.pt);
+        }
+
+        if(Springs[i].End2.ref == −1)
+        {
+            pt2 = Springs[i].End2.pt;
+            v2.x = v2.y = v2.z = 0;
+        } else {
+            j = Springs[i].End2.ref;
+            pt2 = Objects[j].vPosition + VRotate2D(Objects[j].fOrientation,
+                                                   Springs[i].End2.pt);
+            v2 = Objects[j].vVelocity + VRotate2D(Objects[j].fOrientation,
+                 Objects[j].vAngularVelocity^Springs[i].End2.pt);
+        }
+
+        // Compute spring-damper force.
+        vr = v2 - v1;
+        r = pt2 - pt1;
+        dl = r.Magnitude() - Springs[i].InitialLength;
+        f = Springs[i].k * dl;
+        r.Normalize();
+        F = (r*f) + (Springs[i].d*(vr*r))*r;
+
+        // Aggregate the spring force on each connected object
+        j = Springs[i].End1.ref;
+        if(j != −1)
+            Objects[j].vSprings += F;
+
+        j = Springs[i].End2.ref;
+        if(j != −1)
+            Objects[j].vSprings −= F;
+
+
+        // convert force to first ref local coords
+        // Get local lever
+        // calc moment
+
+        // Compute and aggregate moments due to spring force
+        // on each connected object.
+        j = Springs[i].End1.ref;
+        if(j != −1)
+        {
+            Fo = VRotate2D(-Objects[j].fOrientation, F);
+            r = Springs[i].End1.pt;
+            M = r^Fo;
+            Objects[j].vMSprings += M;
+        }
+
+        j = Springs[i].End2.ref;
+        if(j!= −1)
+        {
+            Fo = VRotate2D(-Objects[j].fOrientation, F);
+            r = Springs[i].End2.pt;
+            M = r^Fo;
+            Objects[j].vMSprings −= M;
+        }
+    }
+    .
+    .
+    .
+    // Integrate equations of motion as usual.
+    .
+    .
+    .
+    // Render the scene as usual.
+    .
+    .
+    .
+}</pre><p>As in the rope example, <code class="literal">UpdateSimulation</code> steps through all the
+        <code class="literal">Springs</code>, computing their stretched
+        or compressed length, the relative velocity of each spring’s
+        endpoints, and the resulting spring forces. These calculations are a
+        bit different in this current example because we have to handle
+        rotation, as explained earlier.</p><p>Upon entering the <code class="literal">for</code> loop in
+        the preceding code sample, <code class="literal">End1</code> of
+        the current spring is checked to see if it’s connected to a fixed
+        point in space. If so, the temporary variable <code class="literal">pt1</code> stores the global coordinates of the
+        endpoint, and the variable <code class="literal">v1</code>
+        stores the velocity of the endpoint, which is 0. If the endpoint
+        reference is a valid <code class="literal">Object</code>, then
+        we compute the position of the endpoint, stored in <code class="literal">pt1</code>, just like we did in the <code class="literal">Initialize</code> function, using a coordinate
+        transform as follows:</p><a id="I_programlisting7_id336442"/><pre class="programlisting">pt1 = Objects[j].vPosition + VRotate2D(Objects[j].fOrientation,
+                                       Springs[i].End1.pt);</pre><p>We compute the velocity of that point as shown in <a class="xref" href="ch09.html" title="Chapter 9. 2D Rigid-Body Simulator">Chapter 9</a> by first computing the velocity of
+        the point due to rotation in body-fixed coordinates, converting that
+        to global coordinates, and then adding the result to the <code class="literal">Object</code>’s <a id="I_indexterm7_id336465" class="indexterm"/><a id="I_indexterm7_id336476" class="indexterm"/>linear velocity. This is accomplished in the following
+        code:</p><a id="I_programlisting7_id336488"/><pre class="programlisting">v1 = Objects[j].vVelocity + VRotate2D(Objects[j].fOrientation,
+     Objects[j].vAngularVelocity^Springs[i].End1.pt);</pre><p>We then repeat these calculations for the second endpoint of the
+        spring.</p><p>Once we’ve obtained the positions and velocities of the spring
+        endpoints, we compute the spring-damper force in the same manner as in
+        the rope example. The resulting spring forces are aggregated in the
+        <code class="literal">vSprings</code> property of each object.
+        Note that if the spring endpoint reference is a fixed point in space,
+        we do not aggregate the force on that fixed point.</p><p>Since the <code class="literal">Object</code>s are rigid
+        bodies here, we now have to compute the moment due to the spring force
+        acting on each object. You must do this so that when we integrate the
+        <a id="I_indexterm7_id336522" class="indexterm"/>equations of motion, the objects rotate properly.</p><p>For the <code class="literal">Object</code> connected to
+        <code class="literal">End1</code> of the current spring, the
+        following lines compute the moment:</p><a id="I_programlisting7_id336550"/><pre class="programlisting">            Fo = VRotate2D(-Objects[j].fOrientation, F);
+            r = Springs[i].End1.pt;
+            M = r^Fo;
+            Objects[j].vMSprings += M;</pre><p><code class="literal">Fo</code> is a vector representing
+        the spring force computed earlier on the current <code class="literal">Object</code> in the current <code class="literal">Object</code>’s local, body-fixed coordinate
+        system. The line:</p><a id="I_programlisting7_id336578"/><pre class="programlisting">            Fo = VRotate2D(-Objects[j].fOrientation, F);</pre><p>transforms <code class="literal">F</code> from global to
+        local coordinates of the current <code class="literal">Object</code>, <code class="literal">Object[j]</code>.</p><p><code class="literal">r</code> is set to the local,
+        body-fixed coordinates of the spring attachment point for the current
+        <code class="literal">Object</code>, and we compute the
+        resulting moment by taking the vector cross product of <code class="literal">r</code> with <code class="literal">Fo</code>. The result is stored in the vector
+        variable <code class="literal">M</code>, which gets aggregated
+        in the <code class="literal">Object</code> property <code class="literal">vMSprings</code>. We then perform these same sorts
+        of calculations for the <code class="literal">Object</code>
+        connected to the other end of the spring.</p><p>After these calculations, the rest of <code class="literal">UpdateSimulation</code> is the same as that shown
+        earlier; the function integrates the equations of motion and renders
+        the scene.</p><p>Upon running this simulation, you’ll see the linked chain swing
+        down and to the left and then back and forth until the motion dampens
+        out. You’ll also notice there’s some stretch to the springs between
+        the objects that appears to increase as you look from the lower link
+        to the upper link. This is indeed a non-uniform stretch in the
+        springs, which makes sense when you consider that the upper spring has
+        more weight, thus more force, pulling down on it than does the lower
+        spring.</p><p>As in this rope example, you can tune the spring and damping
+        constants to minimize the spring stretch if that gap created by the
+        stretched spring bothers you. You must keep in mind numerical
+        stability if your springs are too stiff, and here again, you must
+        implement a robust <a id="I_indexterm7_id336684" class="indexterm"/>integrator.</p></div></div><div class="sect2" title="Rotational Restraint"><div class="titlepage"><div><div><h3 class="title" id="rotational_restraint">Rotational Restraint</h3></div></div></div><p>So far we’ve used springs only to attach objects in a way that keeps the attachment
+        points together but allows the objects to rotate about the attachment point. This is a
+        so-called <span class="emphasis"><em>pinned joint</em></span>. <a id="I_indexterm7_id336711" class="indexterm"/><a id="ro13.3.2" class="indexterm"/><a id="rr13.3.2" class="indexterm"/>If you want a fixed joint that minimizes the amount of rotation between the
+        connected objects, you can add another spring to restrain the connected objects’
+        rotation.</p><p><a class="xref" href="ch13.html#rotation_restraint_setup" title="Figure 13-6. Rotation restraint setup">Figure 13-6</a> illustrates an example
+      comprising two rigid objects connected at their ends, forming a
+      ninety-degree angle. The uppermost end of the first object is connected
+      to a fixed point in space as in our rope and linked-chain examples.
+      Under gravity, the assembly would rotate and swing around this fixed
+      point. However, unlike the linked-chain example, the extra spring
+      prevents the lower link from pivoting around the other end of the first
+      link, as illustrated in <a class="xref" href="ch13.html#rotation_restraint_in_action" title="Figure 13-7. Rotation restraint in action">Figure 13-7</a>.</p><div class="figure"><a id="rotation_restraint_setup"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject7_id336773"/><img style="width: 212.59842519685; " src="httpatomoreillycomsourceoreillyimages1598959.png" alt="Rotation restraint setup"/></div></div><div class="figure-title">Figure 13-6. Rotation restraint setup</div></div><div class="figure"><a id="rotation_restraint_in_action"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject7_id336804"/><img src="httpatomoreillycomsourceoreillyimages1598960.png" alt="Rotation restraint in action"/></div></div><div class="figure-title">Figure 13-7. Rotation restraint in action</div></div><p>The setup for this example is relatively straightforward and
+      consists of setting the initial positions and orientations of two rigid
+      bodies and connecting three springs.</p><p>This example’s <code class="literal">Initialize</code>
+      function is as follows:</p><a id="I_programlisting7_id336837"/><pre class="programlisting">bool    Initialize(void)
+{
+    Vector    r;
+    Vector    pt;
+    int       i;
+
+    // Position objects
+    Objects[0].vPosition.x = _WINWIDTH/2;
+    Objects[0].vPosition.y = _WINHEIGHT/8+Objects[0].fLength/2;
+    Objects[0].fOrientation = 90;
+
+    Objects[1].vPosition.x = _WINWIDTH/2+Objects[1].fLength/2;
+    Objects[1].vPosition.y = _WINHEIGHT/8+Objects[0].fLength;
+    Objects[1].fOrientation = 0;
+
+    // Connect end of the first object to the earth:
+    Springs[0].End1.ref = −1;
+    Springs[0].End1.pt.x = _WINWIDTH/2;
+    Springs[0].End1.pt.y = _WINHEIGHT/8;
+
+    Springs[0].End2.ref = 0;
+    Springs[0].End2.pt.x = -Objects[0].fLength/2;
+    Springs[0].End2.pt.y = 0;
+
+    pt = VRotate2D(Objects[0].fOrientation, Springs[0].End2.pt) +
+         Objects[0].vPosition;
+    r = pt - Springs[0].End1.pt;
+
+    Springs[0].InitialLength = r.Magnitude();
+    Springs[0].k = _SPRING_K;
+    Springs[0].d = _SPRING_D;
+
+    // Connect other end of first object to end of second object
+    i = 1;
+    Springs[i].End1.ref = i-1;
+    Springs[i].End1.pt.x = Objects[i-1].fLength/2;
+    Springs[i].End1.pt.y = 0;
+
+    Springs[i].End2.ref = i;
+    Springs[i].End2.pt.x = -Objects[i].fLength/2;
+    Springs[i].End2.pt.y = 0;
+
+    pt = VRotate2D(Objects[i].fOrientation, Springs[i].End2.pt) +
+         Objects[i].vPosition;
+    r = pt - (VRotate2D(Objects[i-1].fOrientation, Springs[i].End1.pt) +
+              Objects[i-1].vPosition);
+
+    Springs[i].InitialLength = r.Magnitude();
+    Springs[i].k = _SPRING_K;
+    Springs[i].d = _SPRING_D;
+
+    // Connect CG of objects to each other
+    Springs[2].End1.ref = 0;
+    Springs[2].End1.pt.x = 0;
+    Springs[2].End1.pt.y = 0;
+
+    Springs[2].End2.ref = 1;
+    Springs[2].End2.pt.x = 0;
+    Springs[2].End2.pt.y = 0;
+
+    r = Objects[1].vPosition - Objects[0].vPosition;
+
+    Springs[2].InitialLength = r.Magnitude();
+    Springs[2].k = _SPRING_K;
+    Springs[2].d = _SPRING_D;
+}</pre><p>The two <code class="literal">Objects</code> are positioned
+      with the lines:</p><a id="I_programlisting7_id336868"/><pre class="programlisting">    Objects[0].vPosition.x = _WINWIDTH/2;
+    Objects[0].vPosition.y = _WINHEIGHT/8+Objects[0].fLength/2;
+    Objects[0].fOrientation = 90;
+
+    Objects[1].vPosition.x = _WINWIDTH/2+Objects[1].fLength/2;
+    Objects[1].vPosition.y = _WINHEIGHT/8+Objects[0].fLength;
+    Objects[1].fOrientation = 0;</pre><p>Basically, the first <code class="literal">Object</code>,
+      <code class="literal">Object[0]</code>, is located somewhere
+      toward the top middle of the screen with an initial rotation of ninety
+      degrees so that it stands vertically. The second <code class="literal">Object</code>, <code class="literal">Object[1]</code>, is positioned so that it lies
+      horizontally with its left end coincident with the lower end of the
+      first object. We’ll put a spring there momentarily, but first, we’ll
+      connect a spring to the upper end of the first object to connect it to a
+      fixed point. The following code takes care of that spring using the same
+      techniques discussed earlier:</p><a id="I_programlisting7_id336909"/><pre class="programlisting">    // Connect end of the first object to the earth:
+    Springs[0].End1.ref = −1;
+    Springs[0].End1.pt.x = _WINWIDTH/2;
+    Springs[0].End1.pt.y = _WINHEIGHT/8;
+
+    Springs[0].End2.ref = 0;
+    Springs[0].End2.pt.x = -Objects[0].fLength/2;
+    Springs[0].End2.pt.y = 0;
+
+    pt = VRotate2D(Objects[0].fOrientation, Springs[0].End2.pt) +
+         Objects[0].vPosition;
+    r = pt - Springs[0].End1.pt;
+
+    Springs[0].InitialLength = r.Magnitude();
+    Springs[0].k = _SPRING_K;
+    Springs[0].d = _SPRING_D;</pre><p>Now, we connect a spring at the corner formed by the two objects
+      using the following code:</p><a id="I_programlisting7_id336923"/><pre class="programlisting">    // Connect other end of first object to end of second object
+    i = 1;
+    Springs[i].End1.ref = i-1;
+    Springs[i].End1.pt.x = Objects[i-1].fLength/2;
+    Springs[i].End1.pt.y = 0;
+
+    Springs[i].End2.ref = i;
+    Springs[i].End2.pt.x = -Objects[i].fLength/2;
+    Springs[i].End2.pt.y = 0;
+
+    pt = VRotate2D(Objects[i].fOrientation, Springs[i].End2.pt) +
+         Objects[i].vPosition;
+    r = pt - (VRotate2D(Objects[i-1].fOrientation, Springs[i].End1.pt) +
+              Objects[i-1].vPosition);
+
+    Springs[i].InitialLength = r.Magnitude();
+    Springs[i].k = _SPRING_K;
+    Springs[i].d = _SPRING_D;</pre><p>If we stop here, the simulation will behave just like the
+      linked-chain example, albeit we’ll have a very short chain. So, to
+      prevent rotation at the corner, we’ll add another spring connecting the
+      centers of gravity of the objects. You can use other points if you
+      desire; we chose the centers of gravity for convenience. The following
+      code adds this rotational restraint spring:</p><a id="I_programlisting7_id336941"/><pre class="programlisting">    // Connect CG of objects to each other
+    Springs[2].End1.ref = 0;
+    Springs[2].End1.pt.x = 0;
+    Springs[2].End1.pt.y = 0;
+
+    Springs[2].End2.ref = 1;
+    Springs[2].End2.pt.x = 0;
+    Springs[2].End2.pt.y = 0;
+
+    r = Objects[1].vPosition - Objects[0].vPosition;
+
+    Springs[2].InitialLength = r.Magnitude();
+    Springs[2].k = _SPRING_K;
+    Springs[2].d = _SPRING_D;</pre><p>The rest of this simulation is the same as in the linked-chain
+      example. There are no other code modifications required. It’s all in the
+      setup.</p><p>Now, if you want to allow some amount of rotation or flexibility
+      in the joint, you can do so by tuning the spring constant for the
+      rotation restraint spring. Using linear springs creatively, you can
+      model all sorts of joints <a id="I_indexterm7_id336962" class="indexterm"/><a id="I_indexterm7_id336971" class="indexterm"/><a id="I_indexterm7_id336981" class="indexterm"/><a id="I_indexterm7_id336990" class="indexterm"/><a id="I_indexterm7_id336999" class="indexterm"/><a id="I_indexterm7_id337009" class="indexterm"/><a id="I_indexterm7_id337018" class="indexterm"/><a id="I_indexterm7_id337027" class="indexterm"/><a id="I_indexterm7_id337037" class="indexterm"/>very simply.</p></div></div></section></body></html>

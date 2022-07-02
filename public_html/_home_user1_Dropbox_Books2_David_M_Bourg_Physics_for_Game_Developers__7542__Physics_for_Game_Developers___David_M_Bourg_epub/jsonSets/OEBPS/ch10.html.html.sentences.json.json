@@ -1,0 +1,3200 @@
+[
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 0
+	},
+	{
+		"index": 2,
+		"txt": "Chapter 10. Implementing Collision Response",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 10_ Implementing_Collision__enting_Collision_Response____.wav",
+		"duration": 1.13,
+		"sentenceIndex": 6081,
+		"timestamp": 0.5
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 1.63
+	},
+	{
+		"index": 3,
+		"txt": "In this chapter, we'll show you how to add a",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_this_chapter__we_ll_show_you_how__ll_show_you_how_to_add_a____.wav",
+		"duration": 0.97,
+		"sentenceIndex": 6082,
+		"timestamp": 2.13
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 3.0999999999999996
+	},
+	{
+		"index": 7,
+		"txt": "little excitement to the hovercraft example discussed in the preceding chapter.",
+		"file": "/home/user1/trash/dirOutputSet/_100_little_excitement_to_the_hovercraft_in_the_preceding_chapter_____.wav",
+		"duration": 1.52,
+		"sentenceIndex": 6086,
+		"timestamp": 3.5999999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 5.119999999999999
+	},
+	{
+		"index": 8,
+		"txt": "Specifically, we'll add another hovercraft and show you how to add collision response so that the hovercraft can crash into each other and bounce off like a couple of bumper cars.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Specifically__we_ll_add_another_hov__a_couple_of_bumper_cars_____.wav",
+		"duration": 3.42,
+		"sentenceIndex": 6087,
+		"timestamp": 5.619999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 9.04
+	},
+	{
+		"index": 9,
+		"txt": "This is an important element for many types of games, so it's crucial that you understand the code that we'll present here.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_an_important_element_for_ma__that_we_ll_present_here_____.wav",
+		"duration": 2.5,
+		"sentenceIndex": 6088,
+		"timestamp": 9.54
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 12.04
+	},
+	{
+		"index": 10,
+		"txt": "Now would be a good time to go back and review",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now_would_be_a_good_time_to_go_back_ime_to_go_back_and_review____.wav",
+		"duration": 1,
+		"sentenceIndex": 6089,
+		"timestamp": 12.54
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 13.54
+	},
+	{
+		"index": 11,
+		"txt": "Chapter 5",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 5_Chapter 5____.wav",
+		"duration": 0.35,
+		"sentenceIndex": 6090,
+		"timestamp": 14.04
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 14.389999999999999
+	},
+	{
+		"index": 12,
+		"txt": "to refresh your memory on the fundamentals of rigid body collision response since we'll use the principles and formulas discussed there to develop the collision response algorithms for the hovercraft simulation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_to_refresh_your_memory_on_the_funda_he_hovercraft_simulation_____.wav",
+		"duration": 4.01,
+		"sentenceIndex": 6091,
+		"timestamp": 14.889999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 18.9
+	},
+	{
+		"index": 13,
+		"txt": "In",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_In____.wav",
+		"duration": 0.17,
+		"sentenceIndex": 6092,
+		"timestamp": 19.4
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 19.57
+	},
+	{
+		"index": 14,
+		"txt": "Chapter 8",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 8_Chapter 8____.wav",
+		"duration": 0.3,
+		"sentenceIndex": 6093,
+		"timestamp": 20.07
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 20.37
+	},
+	{
+		"index": 15,
+		"txt": "you saw how to implement linear collision response for particles, and now we'll show you how to handle angular effects.",
+		"file": "/home/user1/trash/dirOutputSet/_100_you_saw_how_to_implement_linear_col_o_handle_angular_effects_____.wav",
+		"duration": 2.3,
+		"sentenceIndex": 6094,
+		"timestamp": 20.87
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 23.17
+	},
+	{
+		"index": 17,
+		"txt": "To start simply, we'll first show you how to implement collision response as if the hovercraft were a couple of particles just like those in",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_start_simply__we_ll_first_show_y_ticles_just_like_those_in____.wav",
+		"duration": 2.67,
+		"sentenceIndex": 6096,
+		"timestamp": 23.67
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 26.340000000000003
+	},
+	{
+		"index": 18,
+		"txt": "Chapter 8",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 8_Chapter 8____.wav",
+		"duration": 0.3,
+		"sentenceIndex": 6097,
+		"timestamp": 26.840000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 27.140000000000004
+	},
+	{
+		"index": 20,
+		"txt": "This approach uses only linear impulse and does not include angular effects, so the results will be somewhat unrealistic for these hovercraft; however, this approach is applicable to other types of problems that you may be interested in (for example, billiard ball collisions).",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_approach_uses_only_linear_impu_illiard_ball_collisions______.wav",
+		"duration": 5.74,
+		"sentenceIndex": 6099,
+		"timestamp": 27.640000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 33.38
+	},
+	{
+		"index": 21,
+		"txt": "Plus, taking this approach allows us to show you very clearly the distinction between linear and angular effects.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Plus__taking_this_approach_allows_u_near_and_angular_effects_____.wav",
+		"duration": 2.32,
+		"sentenceIndex": 6100,
+		"timestamp": 33.88
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 36.2
+	},
+	{
+		"index": 22,
+		"txt": "Including angular effects will make the simulation much more realistic; when the hovercraft crash into each other, not only will they bounce off each other, but they will also spin.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Including_angular_effects_will_make__but_they_will_also_spin_____.wav",
+		"duration": 3.57,
+		"sentenceIndex": 6101,
+		"timestamp": 36.7
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 40.27
+	},
+	{
+		"index": 24,
+		"txt": "Before diving into collisions, let's add another hovercraft to the example we started in",
+		"file": "/home/user1/trash/dirOutputSet/_100_Before_diving_into_collisions__let__the_example_we_started_in____.wav",
+		"duration": 1.86,
+		"sentenceIndex": 6103,
+		"timestamp": 40.77
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 42.63
+	},
+	{
+		"index": 25,
+		"txt": "Chapter 9",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 9_Chapter 9____.wav",
+		"duration": 0.34,
+		"sentenceIndex": 6104,
+		"timestamp": 43.13
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 43.470000000000006
+	},
+	{
+		"index": 27,
+		"txt": "Recall in that example, we had a single craft that you could control using the keyboard.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Recall_in_that_example__we_had_a_si_ntrol_using_the_keyboard_____.wav",
+		"duration": 1.71,
+		"sentenceIndex": 6106,
+		"timestamp": 43.970000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 45.68000000000001
+	},
+	{
+		"index": 28,
+		"txt": "Now, we'll add another hovercraft that simply moves under constant forward thrust.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now__we_ll_add_another_hovercraft_t__constant_forward_thrust_____.wav",
+		"duration": 1.78,
+		"sentenceIndex": 6107,
+		"timestamp": 46.18000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 47.96000000000001
+	},
+	{
+		"index": 29,
+		"txt": "Later, when we add collision detection and response you'll be able to run into this new hovercraft to alter its course.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Later__when_we_add_collision_detect_raft_to_alter_its_course_____.wav",
+		"duration": 2.39,
+		"sentenceIndex": 6108,
+		"timestamp": 48.46000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 50.85000000000001
+	},
+	{
+		"index": 31,
+		"txt": "Referring back to the example from",
+		"file": "/home/user1/trash/dirOutputSet/_100_Referring_back_to_the_example_from__back_to_the_example_from____.wav",
+		"duration": 0.72,
+		"sentenceIndex": 6110,
+		"timestamp": 51.35000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 52.07000000000001
+	},
+	{
+		"index": 32,
+		"txt": "Chapter 9, we need to add another craft as follows:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 9__we_need_to_add_another_c_another_craft_as_follows_____.wav",
+		"duration": 1.21,
+		"sentenceIndex": 6111,
+		"timestamp": 52.57000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 53.78000000000001
+	},
+	{
+		"index": 35,
+		"txt": "We're calling the new hovercraft, very creatively, Craft2 .",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_re_calling_the_new_hovercraft__v_very_creatively__Craft2______.wav",
+		"duration": 1.43,
+		"sentenceIndex": 6114,
+		"timestamp": 54.28000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 55.71000000000001
+	},
+	{
+		"index": 36,
+		"txt": "In the Initialize function, we must now add the following code:",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_the_Initialize_function__we_must_w_add_the_following_code_____.wav",
+		"duration": 1.4,
+		"sentenceIndex": 6115,
+		"timestamp": 56.21000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 57.61000000000001
+	},
+	{
+		"index": 38,
+		"txt": "This new code sample positions the second hovercraft in the middle of the screen and pointing toward the bottom.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_new_code_sample_positions_the__inting_toward_the_bottom_____.wav",
+		"duration": 2.01,
+		"sentenceIndex": 6117,
+		"timestamp": 58.11000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 60.120000000000005
+	},
+	{
+		"index": 40,
+		"txt": "There are a few required changes to UpdateSimulation as well.",
+		"file": "/home/user1/trash/dirOutputSet/_100_There_are_a_few_required_changes_to_UpdateSimulation_as_well_____.wav",
+		"duration": 1.27,
+		"sentenceIndex": 6119,
+		"timestamp": 60.620000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 61.89000000000001
+	},
+	{
+		"index": 41,
+		"txt": "First, add Craft2.UpdateBodyEuler(dt); right after the line Craft.UpdateBodyEuler(dt); .",
+		"file": "/home/user1/trash/dirOutputSet/_100_First__add_Craft2_UpdateBodyEuler_d_ft_UpdateBodyEuler_dt________.wav",
+		"duration": 2.71,
+		"sentenceIndex": 6120,
+		"timestamp": 62.39000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 65.10000000000001
+	},
+	{
+		"index": 42,
+		"txt": "Then, add DrawCraft(Craft2, RGB(200, 200, 0)); after the similar line that draws the first Craft .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Then__add_DrawCraft_Craft2__RGB_200_t_draws_the_first_Craft______.wav",
+		"duration": 3.03,
+		"sentenceIndex": 6121,
+		"timestamp": 65.60000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 68.63000000000001
+	},
+	{
+		"index": 43,
+		"txt": "Craft2 will be drawn yellow to distinguish it from the first Craft .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Craft2_will_be_drawn_yellow_to_dist_it_from_the_first_Craft______.wav",
+		"duration": 1.37,
+		"sentenceIndex": 6122,
+		"timestamp": 69.13000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 70.50000000000001
+	},
+	{
+		"index": 44,
+		"txt": "Finally, add the following lies at the end of UpdateSimulation:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Finally__add_the_following_lies_at___end_of_UpdateSimulation_____.wav",
+		"duration": 1.37,
+		"sentenceIndex": 6123,
+		"timestamp": 71.00000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 72.37000000000002
+	},
+	{
+		"index": 46,
+		"txt": "Now, we can add the code to handle collision detection and response, allowing you to ram your hovercraft into the new one we just added.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now__we_can_add_the_code_to_handle__he_new_one_we_just_added_____.wav",
+		"duration": 2.85,
+		"sentenceIndex": 6125,
+		"timestamp": 72.87000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 75.72000000000001
+	},
+	{
+		"index": 49,
+		"txt": "Linear Collision Response",
+		"file": "/home/user1/trash/dirOutputSet/_100_Linear_Collision_Response_Linear_Collision_Response____.wav",
+		"duration": 0.61,
+		"sentenceIndex": 6128,
+		"timestamp": 76.22000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 76.83000000000001
+	},
+	{
+		"index": 51,
+		"txt": "In this section,",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_this_section__In_this_section_____.wav",
+		"duration": 0.4,
+		"sentenceIndex": 6130,
+		"timestamp": 77.33000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 77.73000000000002
+	},
+	{
+		"index": 53,
+		"txt": "we'll show you how to implement simple collision response, assuming that the two hovercraft are particles.",
+		"file": "/home/user1/trash/dirOutputSet/_100_we_ll_show_you_how_to_implement_sim_hovercraft_are_particles_____.wav",
+		"duration": 2.11,
+		"sentenceIndex": 6132,
+		"timestamp": 78.23000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 80.34000000000002
+	},
+	{
+		"index": 54,
+		"txt": "We're going to implement only bare minimum collision detection in this simulation; however, regardless of the level of sophistication of your collision detection routines, there are very specific pieces of information that you must collect from your collision detection routine(s) in order for your physics based collision response routines to work.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_re_going_to_implement_only_bare__esponse_routines_to_work_____.wav",
+		"duration": 6.81,
+		"sentenceIndex": 6133,
+		"timestamp": 80.84000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 87.65000000000002
+	},
+	{
+		"index": 57,
+		"txt": "To revise the hovercraft example of the previous chapter to include simple collision response, you'll have to modify the UpdateSimulation function and add a couple more functions: CheckForCollision and ApplyImpulse .",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_revise_the_hovercraft_example_of_lision_and_ApplyImpulse______.wav",
+		"duration": 4.45,
+		"sentenceIndex": 6136,
+		"timestamp": 88.15000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 92.60000000000002
+	},
+	{
+		"index": 60,
+		"txt": "Before showing you CheckForCollision, we want to explain what your",
+		"file": "/home/user1/trash/dirOutputSet/_100_Before_showing_you_CheckForCollisio_want_to_explain_what_your____.wav",
+		"duration": 1.33,
+		"sentenceIndex": 6139,
+		"timestamp": 93.10000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 94.43000000000002
+	},
+	{
+		"index": 61,
+		"txt": "collision detection function must do.",
+		"file": "/home/user1/trash/dirOutputSet/_100_collision_detection_function_must_d_tection_function_must_do_____.wav",
+		"duration": 0.76,
+		"sentenceIndex": 6140,
+		"timestamp": 94.93000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 95.69000000000003
+	},
+	{
+		"index": 62,
+		"txt": "First, it must let you know whether or not there is a collision occurring between the hovercraft.",
+		"file": "/home/user1/trash/dirOutputSet/_100_First__it_must_let_you_know_whether_g_between_the_hovercraft_____.wav",
+		"duration": 1.77,
+		"sentenceIndex": 6141,
+		"timestamp": 96.19000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 97.96000000000002
+	},
+	{
+		"index": 63,
+		"txt": "Secondly, it must let you know if the hovercraft are penetrating each other.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Secondly__it_must_let_you_know_if_t_e_penetrating_each_other_____.wav",
+		"duration": 1.5,
+		"sentenceIndex": 6142,
+		"timestamp": 98.46000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 99.96000000000002
+	},
+	{
+		"index": 64,
+		"txt": "Thirdly, if the hovercraft are colliding, it must tell you what the collision normal vector is and what the relative velocity",
+		"file": "/home/user1/trash/dirOutputSet/_100_Thirdly__if_the_hovercraft_are_coll_hat_the_relative_velocity____.wav",
+		"duration": 2.33,
+		"sentenceIndex": 6143,
+		"timestamp": 100.46000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 102.79000000000002
+	},
+	{
+		"index": 66,
+		"txt": "is between the colliding hovercraft.",
+		"file": "/home/user1/trash/dirOutputSet/_100_is_between_the_colliding_hovercraft_the_colliding_hovercraft_____.wav",
+		"duration": 0.69,
+		"sentenceIndex": 6145,
+		"timestamp": 103.29000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 103.98000000000002
+	},
+	{
+		"index": 69,
+		"txt": "To determine whether or not there is a collision, you need to consider two factors:",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_determine_whether_or_not_there_i__to_consider_two_factors_____.wav",
+		"duration": 1.69,
+		"sentenceIndex": 6148,
+		"timestamp": 104.48000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 106.17000000000002
+	},
+	{
+		"index": 71,
+		"txt": "Whether or not the objects are close enough, within numerical tolerances, to be considered in colliding contact",
+		"file": "/home/user1/trash/dirOutputSet/_100_Whether_or_not_the_objects_are_clos_ered_in_colliding_contact____.wav",
+		"duration": 2.46,
+		"sentenceIndex": 6150,
+		"timestamp": 106.67000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 109.13000000000001
+	},
+	{
+		"index": 73,
+		"txt": "What the relative normal velocity is between the objects",
+		"file": "/home/user1/trash/dirOutputSet/_100_What_the_relative_normal_velocity_i_ty_is_between_the_objects____.wav",
+		"duration": 1.16,
+		"sentenceIndex": 6152,
+		"timestamp": 109.63000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 110.79
+	},
+	{
+		"index": 75,
+		"txt": "If the objects aren't close to each other, they obviously have not collided.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_the_objects_aren_t_close_to_each_iously_have_not_collided_____.wav",
+		"duration": 1.52,
+		"sentenceIndex": 6154,
+		"timestamp": 111.29
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 112.81
+	},
+	{
+		"index": 76,
+		"txt": "If they are within your tolerance for contact, then they may be colliding; and if they are touching and overlapping such that they are moving inside each other, they are penetrating, as illustrated in",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_they_are_within_your_tolerance_f_rating__as_illustrated_in____.wav",
+		"duration": 3.96,
+		"sentenceIndex": 6155,
+		"timestamp": 113.31
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 117.27
+	},
+	{
+		"index": 77,
+		"txt": "Figure 10 1",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 10_1_Figure 10_1____.wav",
+		"duration": 0.53,
+		"sentenceIndex": 6156,
+		"timestamp": 117.77
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 118.3
+	},
+	{
+		"index": 79,
+		"txt": "If your collision detection routine finds that the two objects are indeed close enough to be in colliding contact, then you have to do another check on the relative normal velocity to see if they are moving away from each other or toward each other.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_your_collision_detection_routine_her_or_toward_each_other_____.wav",
+		"duration": 4.66,
+		"sentenceIndex": 6158,
+		"timestamp": 118.8
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 123.46
+	},
+	{
+		"index": 80,
+		"txt": "A collision occurs when the objects are in contact and the contact points are moving toward each other.",
+		"file": "/home/user1/trash/dirOutputSet/_100_A_collision_occurs_when_the_objects_moving_toward_each_other_____.wav",
+		"duration": 1.98,
+		"sentenceIndex": 6159,
+		"timestamp": 123.96
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 125.94
+	},
+	{
+		"index": 86,
+		"txt": "Figure 10 1. Collision nomenclature",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 10_1_ Collision_nomenclature_1_ Collision_nomenclature____.wav",
+		"duration": 1.07,
+		"sentenceIndex": 6165,
+		"timestamp": 126.44
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 127.50999999999999
+	},
+	{
+		"index": 88,
+		"txt": "Penetration is",
+		"file": "/home/user1/trash/dirOutputSet/_100_Penetration_is_Penetration_is____.wav",
+		"duration": 0.38,
+		"sentenceIndex": 6167,
+		"timestamp": 128.01
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 128.39
+	},
+	{
+		"index": 90,
+		"txt": "important because if your objects overlap during the simulation, the results won't look realistic you'll have one hovercraft moving inside the other.",
+		"file": "/home/user1/trash/dirOutputSet/_100_important_because_if_your_objects_o__moving_inside_the_other_____.wav",
+		"duration": 2.89,
+		"sentenceIndex": 6169,
+		"timestamp": 128.89
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 131.77999999999997
+	},
+	{
+		"index": 91,
+		"txt": "What you have to do is detect this penetration condition and then back up your simulation, reduce the time step, and try again.",
+		"file": "/home/user1/trash/dirOutputSet/_100_What_you_have_to_do_is_detect_this__time_step__and_try_again_____.wav",
+		"duration": 2.63,
+		"sentenceIndex": 6170,
+		"timestamp": 132.27999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 134.90999999999997
+	},
+	{
+		"index": 92,
+		"txt": "You keep doing this until they are no longer penetrating or they are within tolerance to be considered colliding.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_keep_doing_this_until_they_are___be_considered_colliding_____.wav",
+		"duration": 2.12,
+		"sentenceIndex": 6171,
+		"timestamp": 135.40999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 137.52999999999997
+	},
+	{
+		"index": 95,
+		"txt": "You need to determine the normal velocity vector of the collision in order to calculate the",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_need_to_determine_the_normal_ve_in_order_to_calculate_the____.wav",
+		"duration": 1.66,
+		"sentenceIndex": 6174,
+		"timestamp": 138.02999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 139.68999999999997
+	},
+	{
+		"index": 98,
+		"txt": "collision impulse that will be used to simulate their response to the collision.",
+		"file": "/home/user1/trash/dirOutputSet/_100_collision_impulse_that_will_be_used_esponse_to_the_collision_____.wav",
+		"duration": 1.46,
+		"sentenceIndex": 6177,
+		"timestamp": 140.18999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 141.64999999999998
+	},
+	{
+		"index": 99,
+		"txt": "For simple cases, determining this normal vector is fairly straightforward.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_simple_cases__determining_this__s_fairly_straightforward_____.wav",
+		"duration": 1.62,
+		"sentenceIndex": 6178,
+		"timestamp": 142.14999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 143.76999999999998
+	},
+	{
+		"index": 100,
+		"txt": "In the case of particles or spheres, the collision normal is simply along the line that connects the centers of gravity of each colliding object; this",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_the_case_of_particles_or_spheres_ch_colliding_object__this____.wav",
+		"duration": 3.18,
+		"sentenceIndex": 6179,
+		"timestamp": 144.26999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 147.45
+	},
+	{
+		"index": 102,
+		"txt": "is central impact, as discussed in",
+		"file": "/home/user1/trash/dirOutputSet/_100_is_central_impact__as_discussed_in_l_impact__as_discussed_in____.wav",
+		"duration": 0.88,
+		"sentenceIndex": 6181,
+		"timestamp": 147.95
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 148.82999999999998
+	},
+	{
+		"index": 103,
+		"txt": "Chapter 5, and is the same as that used for the particle example in",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 5__and_is_the_same_as_that__r_the_particle_example_in____.wav",
+		"duration": 1.52,
+		"sentenceIndex": 6182,
+		"timestamp": 149.32999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 150.85
+	},
+	{
+		"index": 105,
+		"txt": "Chapter 8 .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 8___Chapter 8______.wav",
+		"duration": 0.3,
+		"sentenceIndex": 6184,
+		"timestamp": 151.35
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 151.65
+	},
+	{
+		"index": 107,
+		"txt": "Now take a look at the function we've prepared for this simulation to check for collisions:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now_take_a_look_at_the_function_we___to_check_for_collisions_____.wav",
+		"duration": 1.65,
+		"sentenceIndex": 6186,
+		"timestamp": 152.15
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 153.8
+	},
+	{
+		"index": 110,
+		"txt": "This function uses a simple bounding circle check",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_function_uses_a_simple_boundin_ple_bounding_circle_check____.wav",
+		"duration": 1.01,
+		"sentenceIndex": 6189,
+		"timestamp": 154.3
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 155.31
+	},
+	{
+		"index": 112,
+		"txt": "to determine whether or not the hovercraft are colliding.",
+		"file": "/home/user1/trash/dirOutputSet/_100_to_determine_whether_or_not_the_hov_hovercraft_are_colliding_____.wav",
+		"duration": 1.1,
+		"sentenceIndex": 6191,
+		"timestamp": 155.81
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 156.91
+	},
+	{
+		"index": 113,
+		"txt": "The first thing it does is calculate the distance, r , that represents the absolute minimum separation between these hovercraft when they are in contact.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_first_thing_it_does_is_calculat_when_they_are_in_contact_____.wav",
+		"duration": 3.06,
+		"sentenceIndex": 6192,
+		"timestamp": 157.41
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 160.47
+	},
+	{
+		"index": 114,
+		"txt": "ColRadius is the radius of the bounding circle of the hovercraft.",
+		"file": "/home/user1/trash/dirOutputSet/_100_ColRadius_is_the_radius_of_the_boun_circle_of_the_hovercraft_____.wav",
+		"duration": 1.34,
+		"sentenceIndex": 6193,
+		"timestamp": 160.97
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 162.31
+	},
+	{
+		"index": 115,
+		"txt": "We must compute it for each hovercraft upon initialization as follows:",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_must_compute_it_for_each_hovercr_nitialization_as_follows_____.wav",
+		"duration": 1.49,
+		"sentenceIndex": 6194,
+		"timestamp": 162.81
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 164.3
+	},
+	{
+		"index": 117,
+		"txt": "Next, the distance separating the hovercraft at the time this function is called is determined and stored in the variable d .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Next__the_distance_separating_the_h_tored_in_the_variable_d______.wav",
+		"duration": 2.53,
+		"sentenceIndex": 6196,
+		"timestamp": 164.8
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 167.33
+	},
+	{
+		"index": 118,
+		"txt": "Since we're assuming that these hovercraft are particles, determining d is simply a matter of calculating the distance between the coordinates of each craft's center of gravity.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Since_we_re_assuming_that_these_hov_raft_s_center_of_gravity_____.wav",
+		"duration": 3.42,
+		"sentenceIndex": 6197,
+		"timestamp": 167.83
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 171.25
+	},
+	{
+		"index": 119,
+		"txt": "In terms of vectors, this is simply the position vector of one craft minus the position vector of the other.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_terms_of_vectors__this_is_simply_tion_vector_of_the_other_____.wav",
+		"duration": 2.19,
+		"sentenceIndex": 6198,
+		"timestamp": 171.75
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 173.94
+	},
+	{
+		"index": 121,
+		"txt": "Once the function has d and r, it needs to determine the actual amount of space, s , separating the hovercraft's bounding circles.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Once_the_function_has_d_and_r__it_n_craft_s_bounding_circles_____.wav",
+		"duration": 3.01,
+		"sentenceIndex": 6200,
+		"timestamp": 174.44
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 177.45
+	},
+	{
+		"index": 122,
+		"txt": "After this separation is determined, the function normalizes the vector d .",
+		"file": "/home/user1/trash/dirOutputSet/_100_After_this_separation_is_determined_normalizes_the_vector_d______.wav",
+		"duration": 1.54,
+		"sentenceIndex": 6201,
+		"timestamp": 177.95
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 179.48999999999998
+	},
+	{
+		"index": 123,
+		"txt": "Since the vector d is along the line that separates the hovercraft's centers of gravity, normalizing it yields the collision normal vector that we need for our collision response calculations.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Since_the_vector_d_is_along_the_lin_on_response_calculations_____.wav",
+		"duration": 3.87,
+		"sentenceIndex": 6202,
+		"timestamp": 179.98999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 183.85999999999999
+	},
+	{
+		"index": 124,
+		"txt": "The collision normal vector is saved in the global variable vCollisionNormal .",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_collision_normal_vector_is_save_riable_vCollisionNormal______.wav",
+		"duration": 1.51,
+		"sentenceIndex": 6203,
+		"timestamp": 184.35999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 185.86999999999998
+	},
+	{
+		"index": 127,
+		"txt": "After calculating the collision normal, this function goes on to determine the",
+		"file": "/home/user1/trash/dirOutputSet/_100_After_calculating_the_collision_nor__goes_on_to_determine_the____.wav",
+		"duration": 1.48,
+		"sentenceIndex": 6206,
+		"timestamp": 186.36999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 187.84999999999997
+	},
+	{
+		"index": 129,
+		"txt": "relative velocity between the hovercraft.",
+		"file": "/home/user1/trash/dirOutputSet/_100_relative_velocity_between_the_hover_y_between_the_hovercraft_____.wav",
+		"duration": 0.78,
+		"sentenceIndex": 6208,
+		"timestamp": 188.34999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 189.12999999999997
+	},
+	{
+		"index": 130,
+		"txt": "In vector form, this is simply the difference between the velocity vectors of each craft.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_vector_form__this_is_simply_the__ty_vectors_of_each_craft_____.wav",
+		"duration": 1.84,
+		"sentenceIndex": 6209,
+		"timestamp": 189.62999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 191.46999999999997
+	},
+	{
+		"index": 131,
+		"txt": "Note that the velocity vectors used here must be in global coordinates, not body fixed (local) coordinates.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Note_that_the_velocity_vectors_used_ixed__local__coordinates_____.wav",
+		"duration": 2.37,
+		"sentenceIndex": 6210,
+		"timestamp": 191.96999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 194.33999999999997
+	},
+	{
+		"index": 132,
+		"txt": "Since what's really needed to determine if a collision is made is the",
+		"file": "/home/user1/trash/dirOutputSet/_100_Since_what_s_really_needed_to_deter__collision_is_made_is_the____.wav",
+		"duration": 1.22,
+		"sentenceIndex": 6211,
+		"timestamp": 194.83999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 196.05999999999997
+	},
+	{
+		"index": 133,
+		"txt": "relative normal velocity, the function proceeds to take the vector dot product of the relative velocity and the collision normal vectors, saving the result in the variable Vrn",
+		"file": "/home/user1/trash/dirOutputSet/_100_relative_normal_velocity__the_funct_esult_in_the_variable_Vrn____.wav",
+		"duration": 3.66,
+		"sentenceIndex": 6212,
+		"timestamp": 196.55999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 200.21999999999997
+	},
+	{
+		"index": 137,
+		"txt": "At this point, all of the calculations are complete, and the only thing left to do is make the appropriate checks to determine if there is a collision, penetration, or no collision at all.",
+		"file": "/home/user1/trash/dirOutputSet/_100_At_this_point__all_of_the_calculati___or_no_collision_at_all_____.wav",
+		"duration": 3.7,
+		"sentenceIndex": 6216,
+		"timestamp": 200.71999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 204.41999999999996
+	},
+	{
+		"index": 140,
+		"txt": "The first check is to see if the hovercraft are colliding.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_first_check_is_to_see_if_the_ho_hovercraft_are_colliding_____.wav",
+		"duration": 1.06,
+		"sentenceIndex": 6219,
+		"timestamp": 204.91999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 205.97999999999996
+	},
+	{
+		"index": 141,
+		"txt": "We determine this by comparing the absolute value of the separation between the hovercraft, s, with a",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_determine_this_by_comparing_the__the_hovercraft__s__with_a____.wav",
+		"duration": 2.18,
+		"sentenceIndex": 6220,
+		"timestamp": 206.47999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 208.65999999999997
+	},
+	{
+		"index": 142,
+		"txt": "distance tolerance, ctol",
+		"file": "/home/user1/trash/dirOutputSet/_100_distance_tolerance__ctol_distance_tolerance__ctol____.wav",
+		"duration": 0.65,
+		"sentenceIndex": 6221,
+		"timestamp": 209.15999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 209.80999999999997
+	},
+	{
+		"index": 144,
+		"txt": "If the absolute value of s is less than ctol , a collision might be occurring.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_the_absolute_value_of_s_is_less__ision_might_be_occurring_____.wav",
+		"duration": 1.62,
+		"sentenceIndex": 6223,
+		"timestamp": 210.30999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 211.92999999999998
+	},
+	{
+		"index": 145,
+		"txt": "The second requirement is that the relative normal velocity be negative, which implies that the points of impact on the hovercraft are moving toward each other.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_second_requirement_is_that_the__moving_toward_each_other_____.wav",
+		"duration": 2.96,
+		"sentenceIndex": 6224,
+		"timestamp": 212.42999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 215.39
+	},
+	{
+		"index": 146,
+		"txt": "If there is a collision, the function returns a 1 to indicate that collision response is necessary.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_there_is_a_collision__the_functi_on_response_is_necessary_____.wav",
+		"duration": 1.99,
+		"sentenceIndex": 6225,
+		"timestamp": 215.89
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 217.88
+	},
+	{
+		"index": 149,
+		"txt": "If the hovercraft are found not to be colliding, then we perform a second check to see if they've moved so close together that they are penetrating each other.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_the_hovercraft_are_found_not_to__e_penetrating_each_other_____.wav",
+		"duration": 3,
+		"sentenceIndex": 6228,
+		"timestamp": 218.38
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 221.38
+	},
+	{
+		"index": 150,
+		"txt": "In this case, if s is less than –ctol, the hovercraft are penetrating and the function returns a −1 .",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_this_case__if_s_is_less_than__ct_e_function_returns_a__1______.wav",
+		"duration": 2.68,
+		"sentenceIndex": 6229,
+		"timestamp": 221.88
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 224.56
+	},
+	{
+		"index": 151,
+		"txt": "If the hovercraft are not colliding and not penetrating, then the function simply returns a 0 , indicating that no further action is required.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_the_hovercraft_are_not_colliding_rther_action_is_required_____.wav",
+		"duration": 3.02,
+		"sentenceIndex": 6230,
+		"timestamp": 225.06
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 228.08
+	},
+	{
+		"index": 154,
+		"txt": "Before moving on, let's say a word or two about ctol  the collision tolerance distance.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Before_moving_on__let_s_say_a_word__ision_tolerance_distance_____.wav",
+		"duration": 1.85,
+		"sentenceIndex": 6233,
+		"timestamp": 228.58
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 230.43
+	},
+	{
+		"index": 155,
+		"txt": "This value is subject to tuning.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_value_is_subject_to_tuning__lue_is_subject_to_tuning_____.wav",
+		"duration": 0.69,
+		"sentenceIndex": 6234,
+		"timestamp": 230.93
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 231.62
+	},
+	{
+		"index": 156,
+		"txt": "There's no single value that works well in all cases.",
+		"file": "/home/user1/trash/dirOutputSet/_100_There_s_no_single_value_that_works___works_well_in_all_cases_____.wav",
+		"duration": 1.2,
+		"sentenceIndex": 6235,
+		"timestamp": 232.12
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 233.32
+	},
+	{
+		"index": 157,
+		"txt": "You must consider the overall sizes of the objects potentially colliding, the step size you're using, and how far the colliding objects are from the viewer while being rendered (i.e., their scale).",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_must_consider_the_overall_sizes_ered__i_e___their_scale______.wav",
+		"duration": 4.2,
+		"sentenceIndex": 6236,
+		"timestamp": 233.82
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 238.01999999999998
+	},
+	{
+		"index": 158,
+		"txt": "Basically, you should choose a value that makes collisions look correct, so that on the one hand objects do not appear to be penetrating each other, and on the other hand you do not report a collision when objects do not appear to be touching at all.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Basically__you_should_choose_a_valu_ar_to_be_touching_at_all_____.wav",
+		"duration": 4.75,
+		"sentenceIndex": 6237,
+		"timestamp": 238.51999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 243.26999999999998
+	},
+	{
+		"index": 161,
+		"txt": "Take a look now at the other new function, ApplyImpulse:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Take_a_look_now_at_the_other_new_fu_w_function__ApplyImpulse_____.wav",
+		"duration": 1.32,
+		"sentenceIndex": 6240,
+		"timestamp": 243.76999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 245.08999999999997
+	},
+	{
+		"index": 164,
+		"txt": "This is a simple but crucial function for collision response.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_a_simple_but_crucial_functi_n_for_collision_response_____.wav",
+		"duration": 1.22,
+		"sentenceIndex": 6243,
+		"timestamp": 245.58999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 246.80999999999997
+	},
+	{
+		"index": 165,
+		"txt": "What it does is calculate the linear collision impulse as a function of the colliding hovercraft's relative normal velocity, masses, and coefficient of restitution, using the formula that we showed you in",
+		"file": "/home/user1/trash/dirOutputSet/_100_What_it_does_is_calculate_the_linea_ula_that_we_showed_you_in____.wav",
+		"duration": 4.11,
+		"sentenceIndex": 6244,
+		"timestamp": 247.30999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 251.42
+	},
+	{
+		"index": 166,
+		"txt": "Chapter 5",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 5_Chapter 5____.wav",
+		"duration": 0.35,
+		"sentenceIndex": 6245,
+		"timestamp": 251.92
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 252.26999999999998
+	},
+	{
+		"index": 168,
+		"txt": "Further, it applies this impulse to each hovercraft, effectively changing their velocities in response to the collision.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Further__it_applies_this_impulse_to_esponse_to_the_collision_____.wav",
+		"duration": 2.4,
+		"sentenceIndex": 6247,
+		"timestamp": 252.76999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 255.17
+	},
+	{
+		"index": 169,
+		"txt": "Note that the impulse is applied to one hovercraft and then the negative impulse applied to the other.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Note_that_the_impulse_is_applied_to_lse_applied_to_the_other_____.wav",
+		"duration": 1.93,
+		"sentenceIndex": 6248,
+		"timestamp": 255.67
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 257.59999999999997
+	},
+	{
+		"index": 171,
+		"txt": "With those two new functions complete, it's now time to revise UpdateSimulation to handle collision detection and response as the simulation steps through time.",
+		"file": "/home/user1/trash/dirOutputSet/_100_With_those_two_new_functions_comple_ation_steps_through_time_____.wav",
+		"duration": 3.39,
+		"sentenceIndex": 6250,
+		"timestamp": 258.09999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 261.48999999999995
+	},
+	{
+		"index": 172,
+		"txt": "Here's what the new UpdateSimulation function looks like:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_what_the_new_UpdateSimulatio_tion_function_looks_like_____.wav",
+		"duration": 1.24,
+		"sentenceIndex": 6251,
+		"timestamp": 261.98999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 263.22999999999996
+	},
+	{
+		"index": 175,
+		"txt": "Obviously, this version is more complicated than the original version.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Obviously__this_version_is_more_com_han_the_original_version_____.wav",
+		"duration": 1.45,
+		"sentenceIndex": 6254,
+		"timestamp": 263.72999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 265.17999999999995
+	},
+	{
+		"index": 176,
+		"txt": "There's one main reason for this:",
+		"file": "/home/user1/trash/dirOutputSet/_100_There_s_one_main_reason_for_this__one_main_reason_for_this_____.wav",
+		"duration": 0.71,
+		"sentenceIndex": 6255,
+		"timestamp": 265.67999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 266.38999999999993
+	},
+	{
+		"index": 178,
+		"txt": "penetration could occur because the hovercraft can move far enough within a single time step to become overlapped.",
+		"file": "/home/user1/trash/dirOutputSet/_100_penetration_could_occur_because_the_tep_to_become_overlapped_____.wav",
+		"duration": 2.25,
+		"sentenceIndex": 6257,
+		"timestamp": 266.88999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 269.13999999999993
+	},
+	{
+		"index": 179,
+		"txt": "Visually, this situation is unappealing and unrealistic, so you should to try to prevent it.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Visually__this_situation_is_unappea_uld_to_try_to_prevent_it_____.wav",
+		"duration": 2,
+		"sentenceIndex": 6258,
+		"timestamp": 269.63999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 271.63999999999993
+	},
+	{
+		"index": 182,
+		"txt": "The first thing this function does is enter a while loop:",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_first_thing_this_function_does__es_is_enter_a_while_loop_____.wav",
+		"duration": 1.17,
+		"sentenceIndex": 6261,
+		"timestamp": 272.13999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 273.30999999999995
+	},
+	{
+		"index": 184,
+		"txt": "This loop is used to back up the simulation if penetration has occurred on the initial time step.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_loop_is_used_to_back_up_the_si_on_the_initial_time_step_____.wav",
+		"duration": 1.89,
+		"sentenceIndex": 6263,
+		"timestamp": 273.80999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 275.69999999999993
+	},
+	{
+		"index": 185,
+		"txt": "What happens is this: the function first tries to update the hovercraft and then checks to see if there is a collision.",
+		"file": "/home/user1/trash/dirOutputSet/_100_What_happens_is_this__the_function___if_there_is_a_collision_____.wav",
+		"duration": 2.32,
+		"sentenceIndex": 6264,
+		"timestamp": 276.19999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 278.5199999999999
+	},
+	{
+		"index": 186,
+		"txt": "If there is a collision, then it gets handled by applying the impulse.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_there_is_a_collision__then_it_ge__by_applying_the_impulse_____.wav",
+		"duration": 1.35,
+		"sentenceIndex": 6265,
+		"timestamp": 279.0199999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 280.36999999999995
+	},
+	{
+		"index": 187,
+		"txt": "If there is penetration, however, then you know the time step was too big and you have to try again.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_there_is_penetration__however__t_nd_you_have_to_try_again_____.wav",
+		"duration": 2.06,
+		"sentenceIndex": 6266,
+		"timestamp": 280.86999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 282.92999999999995
+	},
+	{
+		"index": 188,
+		"txt": "When this occurs, tryAgain is set to true , the time step is cut in half, and another attempt is made.",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_this_occurs__tryAgain_is_set_t__another_attempt_is_made_____.wav",
+		"duration": 2.37,
+		"sentenceIndex": 6267,
+		"timestamp": 283.42999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 285.79999999999995
+	},
+	{
+		"index": 189,
+		"txt": "The function stays in this loop as long as there is penetration or until the time step has been reduced to a size small enough to force an exit to the loop.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_function_stays_in_this_loop_as__orce_an_exit_to_the_loop_____.wav",
+		"duration": 2.97,
+		"sentenceIndex": 6268,
+		"timestamp": 286.29999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 289.27
+	},
+	{
+		"index": 190,
+		"txt": "The purpose of this looping is to find the largest step size, less than or equal to dt , that can be taken and still avoid penetration.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_purpose_of_this_looping_is_to_f__still_avoid_penetration_____.wav",
+		"duration": 2.91,
+		"sentenceIndex": 6269,
+		"timestamp": 289.77
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 292.68
+	},
+	{
+		"index": 191,
+		"txt": "You either want a collision or no collision.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_either_want_a_collision_or_no_c_ollision_or_no_collision_____.wav",
+		"duration": 0.87,
+		"sentenceIndex": 6270,
+		"timestamp": 293.18
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 294.05
+	},
+	{
+		"index": 193,
+		"txt": "You might ask yourself when does small become too small in terms of time step?",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_might_ask_yourself_when_does_sm_ll_in_terms_of_time_step_____.wav",
+		"duration": 1.65,
+		"sentenceIndex": 6272,
+		"timestamp": 294.55
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 296.2
+	},
+	{
+		"index": 194,
+		"txt": "Too small is obviously when the time step approaches 0 and your entire simulation grinds to a halt.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Too_small_is_obviously_when_the_tim_ulation_grinds_to_a_halt_____.wav",
+		"duration": 2.21,
+		"sentenceIndex": 6273,
+		"timestamp": 296.7
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 298.90999999999997
+	},
+	{
+		"index": 195,
+		"txt": "Therefore, you may want to put in some criteria to exit this loop before things slow down too much.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Therefore__you_may_want_to_put_in_s_hings_slow_down_too_much_____.wav",
+		"duration": 2.12,
+		"sentenceIndex": 6274,
+		"timestamp": 299.40999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 301.53
+	},
+	{
+		"index": 196,
+		"txt": "This is all subject to tuning, by the way, and it also depends on the value you set for ctol .",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_all_subject_to_tuning__by_t__value_you_set_for_ctol______.wav",
+		"duration": 1.94,
+		"sentenceIndex": 6275,
+		"timestamp": 302.03
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 303.96999999999997
+	},
+	{
+		"index": 197,
+		"txt": "We can't stress enough the importance of tuning these parameters.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_can_t_stress_enough_the_importan__tuning_these_parameters_____.wav",
+		"duration": 1.22,
+		"sentenceIndex": 6276,
+		"timestamp": 304.46999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 305.69
+	},
+	{
+		"index": 198,
+		"txt": "Basically, you must strive for visual realism while keeping your frame rates up to required levels.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Basically__you_must_strive_for_visu_es_up_to_required_levels_____.wav",
+		"duration": 2.06,
+		"sentenceIndex": 6277,
+		"timestamp": 306.19
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 308.25
+	},
+	{
+		"index": 200,
+		"txt": "Looking inside this while loop reveals what's going on.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Looking_inside_this_while_loop_reve__reveals_what_s_going_on_____.wav",
+		"duration": 1.08,
+		"sentenceIndex": 6279,
+		"timestamp": 308.75
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 309.83
+	},
+	{
+		"index": 201,
+		"txt": "First, tryAgain is set to false, optimistically assuming that there will be no penetration, and we make copies of the hovercraft's states, reflecting the last successful call to UpdateSimulation .",
+		"file": "/home/user1/trash/dirOutputSet/_100_First__tryAgain_is_set_to_false__op_all_to_UpdateSimulation______.wav",
+		"duration": 4.28,
+		"sentenceIndex": 6280,
+		"timestamp": 310.33
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 314.60999999999996
+	},
+	{
+		"index": 203,
+		"txt": "Next, we make the usual call to UpdateBody for each copy of the hovercraft.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Next__we_make_the_usual_call_to_Upd_h_copy_of_the_hovercraft_____.wav",
+		"duration": 1.71,
+		"sentenceIndex": 6282,
+		"timestamp": 315.10999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 316.81999999999994
+	},
+	{
+		"index": 204,
+		"txt": "Then a call to the collision detection function, CheckForCollision, is made to see if Craft is colliding with or penetrating Craft2 .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Then_a_call_to_the_collision_detect_h_or_penetrating_Craft2______.wav",
+		"duration": 2.77,
+		"sentenceIndex": 6283,
+		"timestamp": 317.31999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 320.0899999999999
+	},
+	{
+		"index": 205,
+		"txt": "If there is penetration, then tryAgain is set to true, dtime is cut in half, didPen is set to true, and the function takes another lap through the while loop.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_there_is_penetration__then_tryAg_p_through_the_while_loop_____.wav",
+		"duration": 3.5,
+		"sentenceIndex": 6284,
+		"timestamp": 320.5899999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 324.0899999999999
+	},
+	{
+		"index": 206,
+		"txt": "didPen is a flag that lets us know that a penetration condition did occur.",
+		"file": "/home/user1/trash/dirOutputSet/_100_didPen_is_a_flag_that_lets_us_know__tion_condition_did_occur_____.wav",
+		"duration": 1.51,
+		"sentenceIndex": 6285,
+		"timestamp": 324.5899999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 326.0999999999999
+	},
+	{
+		"index": 208,
+		"txt": "If there was a collision, the function handles it by applying the appropriate impulse:",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_there_was_a_collision__the_funct__the_appropriate_impulse_____.wav",
+		"duration": 1.65,
+		"sentenceIndex": 6287,
+		"timestamp": 326.5999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 328.2499999999999
+	},
+	{
+		"index": 210,
+		"txt": "After getting through the while loop, the updated hovercraft states are saved and UpdateSimulation is complete.",
+		"file": "/home/user1/trash/dirOutputSet/_100_After_getting_through_the_while_loo_teSimulation_is_complete_____.wav",
+		"duration": 2.27,
+		"sentenceIndex": 6289,
+		"timestamp": 328.7499999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 331.01999999999987
+	},
+	{
+		"index": 212,
+		"txt": "The last bit of code you need to add includes a few new global variables and defines:",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_last_bit_of_code_you_need_to_ad_al_variables_and_defines_____.wav",
+		"duration": 1.81,
+		"sentenceIndex": 6291,
+		"timestamp": 331.51999999999987
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 333.32999999999987
+	},
+	{
+		"index": 215,
+		"txt": "The only one we haven't mentioned so far, although you've seen it in ApplyImpulse, is fCr , the coefficient of restitution.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_only_one_we_haven_t_mentioned_s_efficient_of_restitution_____.wav",
+		"duration": 2.76,
+		"sentenceIndex": 6294,
+		"timestamp": 333.82999999999987
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 336.58999999999986
+	},
+	{
+		"index": 216,
+		"txt": "Here we have it set to 0.5, which means that the collisions are halfway between perfectly elastic and perfectly inelastic (refer back to our earlier discussions on coefficients of restitution in",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_we_have_it_set_to_0_5__which_m_icients_of_restitution_in____.wav",
+		"duration": 4.34,
+		"sentenceIndex": 6295,
+		"timestamp": 337.08999999999986
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 341.42999999999984
+	},
+	{
+		"index": 217,
+		"txt": "Chapter 5",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 5_Chapter 5____.wav",
+		"duration": 0.35,
+		"sentenceIndex": 6296,
+		"timestamp": 341.92999999999984
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 342.27999999999986
+	},
+	{
+		"index": 218,
+		"txt": "if you've forgotten these terms).",
+		"file": "/home/user1/trash/dirOutputSet/_100_if_you_ve_forgotten_these_terms___e_forgotten_these_terms______.wav",
+		"duration": 0.6,
+		"sentenceIndex": 6297,
+		"timestamp": 342.77999999999986
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 343.3799999999999
+	},
+	{
+		"index": 219,
+		"txt": "This is one of those parameters that you'll have to tune to get the desired behavior.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_one_of_those_parameters_tha_get_the_desired_behavior_____.wav",
+		"duration": 1.48,
+		"sentenceIndex": 6298,
+		"timestamp": 343.8799999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 345.3599999999999
+	},
+	{
+		"index": 221,
+		"txt": "While we're on the subject of tuning, we should mention that you'll also have to play with the linear drag coefficient used to calculate the drag force on the hovercraft.",
+		"file": "/home/user1/trash/dirOutputSet/_100_While_we_re_on_the_subject_of_tunin__force_on_the_hovercraft_____.wav",
+		"duration": 3.1,
+		"sentenceIndex": 6300,
+		"timestamp": 345.8599999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 348.9599999999999
+	},
+	{
+		"index": 222,
+		"txt": "While this coefficient is used to simulate fluid dynamic drag, it also plays an important role in terms of numerical stability.",
+		"file": "/home/user1/trash/dirOutputSet/_100_While_this_coefficient_is_used_to_s_s_of_numerical_stability_____.wav",
+		"duration": 2.76,
+		"sentenceIndex": 6301,
+		"timestamp": 349.4599999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 352.2199999999999
+	},
+	{
+		"index": 223,
+		"txt": "You need some damping in your simulation so that your integrator does not blow up that is, damping helps keep your simulation stable.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_need_some_damping_in_your_simul_p_your_simulation_stable_____.wav",
+		"duration": 2.64,
+		"sentenceIndex": 6302,
+		"timestamp": 352.7199999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 355.3599999999999
+	},
+	{
+		"index": 225,
+		"txt": "That's pretty much it as far as implementing basic collision response.",
+		"file": "/home/user1/trash/dirOutputSet/_100_That_s_pretty_much_it_as_far_as_imp_basic_collision_response_____.wav",
+		"duration": 1.38,
+		"sentenceIndex": 6304,
+		"timestamp": 355.8599999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 357.2399999999999
+	},
+	{
+		"index": 226,
+		"txt": "If you run this example, you'll be able to drive the hovercraft into each other and bounce off accordingly.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_you_run_this_example__you_ll_be__d_bounce_off_accordingly_____.wav",
+		"duration": 1.97,
+		"sentenceIndex": 6305,
+		"timestamp": 357.7399999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 359.7099999999999
+	},
+	{
+		"index": 227,
+		"txt": "You can play around with the mass of each hovercraft and the coefficient of restitution to see how the craft behave when one is more massive than the other, or when the collision is somewhere between perfectly elastic and perfectly inelastic.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_play_around_with_the_mass_o__and_perfectly_inelastic_____.wav",
+		"duration": 4.6,
+		"sentenceIndex": 6306,
+		"timestamp": 360.2099999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 364.80999999999995
+	},
+	{
+		"index": 229,
+		"txt": "You may notice that the collision response in this example sometimes looks a little strange.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_may_notice_that_the_collision_r_s_looks_a_little_strange_____.wav",
+		"duration": 1.76,
+		"sentenceIndex": 6308,
+		"timestamp": 365.30999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 367.06999999999994
+	},
+	{
+		"index": 230,
+		"txt": "Keep in mind that's because this collision response algorithm, so far, assumes that the hovercraft are round when in fact they are rectangular.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Keep_in_mind_that_s_because_this_co_act_they_are_rectangular_____.wav",
+		"duration": 2.86,
+		"sentenceIndex": 6309,
+		"timestamp": 367.56999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 370.42999999999995
+	},
+	{
+		"index": 231,
+		"txt": "This approach will work just fine for round objects like billiard balls, but to get the level of realism required for non round rigid bodies you need to include angular effects.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_approach_will_work_just_fine_f__include_angular_effects_____.wav",
+		"duration": 3.55,
+		"sentenceIndex": 6310,
+		"timestamp": 370.92999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 374.47999999999996
+	},
+	{
+		"index": 232,
+		"txt": "We'll show you how to do that in the",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ll_show_you_how_to_do_that_in_th_you_how_to_do_that_in_the____.wav",
+		"duration": 0.58,
+		"sentenceIndex": 6311,
+		"timestamp": 374.97999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 375.55999999999995
+	},
+	{
+		"index": 234,
+		"txt": "next section.",
+		"file": "/home/user1/trash/dirOutputSet/_100_next_section__next_section_____.wav",
+		"duration": 0.36,
+		"sentenceIndex": 6313,
+		"timestamp": 376.05999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 376.41999999999996
+	},
+	{
+		"index": 237,
+		"txt": "Angular Effects",
+		"file": "/home/user1/trash/dirOutputSet/_100_Angular_Effects_Angular_Effects____.wav",
+		"duration": 0.4,
+		"sentenceIndex": 6316,
+		"timestamp": 376.91999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 377.31999999999994
+	},
+	{
+		"index": 239,
+		"txt": "Including angular",
+		"file": "/home/user1/trash/dirOutputSet/_100_Including_angular_Including_angular____.wav",
+		"duration": 0.41,
+		"sentenceIndex": 6318,
+		"timestamp": 377.81999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 378.22999999999996
+	},
+	{
+		"index": 241,
+		"txt": "effects will yield more realistic collision responses for these rigid bodies, the hovercraft.",
+		"file": "/home/user1/trash/dirOutputSet/_100_effects_will_yield_more_realistic_c_d_bodies__the_hovercraft_____.wav",
+		"duration": 1.95,
+		"sentenceIndex": 6320,
+		"timestamp": 378.72999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 380.67999999999995
+	},
+	{
+		"index": 242,
+		"txt": "To get this to work, you'll have to make several changes to ApplyImpulse and CheckForCollision; .",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_get_this_to_work__you_ll_have_to__and_CheckForCollision_______.wav",
+		"duration": 1.83,
+		"sentenceIndex": 6321,
+		"timestamp": 381.17999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 383.00999999999993
+	},
+	{
+		"index": 243,
+		"txt": "UpdateSimulation will remain unchanged.",
+		"file": "/home/user1/trash/dirOutputSet/_100_UpdateSimulation_will_remain_unchan_on_will_remain_unchanged_____.wav",
+		"duration": 0.94,
+		"sentenceIndex": 6322,
+		"timestamp": 383.50999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 384.44999999999993
+	},
+	{
+		"index": 244,
+		"txt": "The more extensive changes are in CheckForCollision , so we'll discuss it first.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_more_extensive_changes_are_in_C_o_we_ll_discuss_it_first_____.wav",
+		"duration": 1.66,
+		"sentenceIndex": 6323,
+		"timestamp": 384.94999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 386.60999999999996
+	},
+	{
+		"index": 247,
+		"txt": "The new version of CheckForCollision will do more than a simple bounding circle check.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_new_version_of_CheckForCollisio_le_bounding_circle_check_____.wav",
+		"duration": 1.51,
+		"sentenceIndex": 6326,
+		"timestamp": 387.10999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 388.61999999999995
+	},
+	{
+		"index": 248,
+		"txt": "Here, each hovercraft will be represented by a polygon with four edges and four vertices, and the types of contact that will be checked for are vertex vertex and vertex edge contact (see",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here__each_hovercraft_will_be_repre__vertex_edge_contact__see____.wav",
+		"duration": 4.02,
+		"sentenceIndex": 6327,
+		"timestamp": 389.11999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 393.13999999999993
+	},
+	{
+		"index": 249,
+		"txt": "Figure 10 2",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 10_2_Figure 10_2____.wav",
+		"duration": 0.49,
+		"sentenceIndex": 6328,
+		"timestamp": 393.63999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 394.12999999999994
+	},
+	{
+		"index": 252,
+		"txt": "19]",
+		"file": "/home/user1/trash/dirOutputSet/_100_19__19_____.wav",
+		"duration": 0.27,
+		"sentenceIndex": 6331,
+		"timestamp": 394.62999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 394.8999999999999
+	},
+	{
+		"index": 258,
+		"txt": "Figure 10 2. Types of collision",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 10_2_ Types_of_collision_ 10_2_ Types_of_collision____.wav",
+		"duration": 1.07,
+		"sentenceIndex": 6337,
+		"timestamp": 395.3999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 396.4699999999999
+	},
+	{
+		"index": 260,
+		"txt": "In addition to the tasks discussed in the last section, this new version of CheckForCollision must also determine the exact point of contact between the hovercraft.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_addition_to_the_tasks_discussed__t_between_the_hovercraft_____.wav",
+		"duration": 3.25,
+		"sentenceIndex": 6339,
+		"timestamp": 396.9699999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 400.2199999999999
+	},
+	{
+		"index": 261,
+		"txt": "This is a very important distinction between this new version and the last.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_a_very_important_distinctio_new_version_and_the_last_____.wav",
+		"duration": 1.42,
+		"sentenceIndex": 6340,
+		"timestamp": 400.7199999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 402.13999999999993
+	},
+	{
+		"index": 262,
+		"txt": "You need to know the point of contact because in order to affect the angular velocity, you must apply the impulse at the point of contact.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_need_to_know_the_point_of_conta__at_the_point_of_contact_____.wav",
+		"duration": 2.65,
+		"sentenceIndex": 6341,
+		"timestamp": 402.63999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 405.2899999999999
+	},
+	{
+		"index": 263,
+		"txt": "In the last section, the normal to the contact point always passed through the center of gravity of the hovercraft because we assumed they were spheres; that's not the case here.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_the_last_section__the_normal_to__that_s_not_the_case_here_____.wav",
+		"duration": 3.42,
+		"sentenceIndex": 6342,
+		"timestamp": 405.7899999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 409.2099999999999
+	},
+	{
+		"index": 266,
+		"txt": "This now brings up the challenge of finding the collision normal.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_now_brings_up_the_challenge_of_ing_the_collision_normal_____.wav",
+		"duration": 1.19,
+		"sentenceIndex": 6345,
+		"timestamp": 409.7099999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 410.8999999999999
+	},
+	{
+		"index": 267,
+		"txt": "There are two cases to consider here.",
+		"file": "/home/user1/trash/dirOutputSet/_100_There_are_two_cases_to_consider_her_o_cases_to_consider_here_____.wav",
+		"duration": 0.75,
+		"sentenceIndex": 6346,
+		"timestamp": 411.3999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 412.1499999999999
+	},
+	{
+		"index": 268,
+		"txt": "In edge vertex collisions, the normal is always perpendicular to the edge that's involved in the collision.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_edge_vertex_collisions__the_norm_nvolved_in_the_collision_____.wav",
+		"duration": 2.1,
+		"sentenceIndex": 6347,
+		"timestamp": 412.6499999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 414.74999999999994
+	},
+	{
+		"index": 269,
+		"txt": "In vertex vertex collisions, however, the normal is ambiguous, so we've resorted to taking the normal parallel to the line connecting the hovercraft's centers of gravity.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_vertex_vertex_collisions__howeve_aft_s_centers_of_gravity_____.wav",
+		"duration": 3.51,
+		"sentenceIndex": 6348,
+		"timestamp": 415.24999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 418.75999999999993
+	},
+	{
+		"index": 272,
+		"txt": "All of these considerations make CheckForCollisions a little more involved than in the previous section.",
+		"file": "/home/user1/trash/dirOutputSet/_100_All_of_these_considerations_make_Ch__in_the_previous_section_____.wav",
+		"duration": 1.88,
+		"sentenceIndex": 6351,
+		"timestamp": 419.25999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 421.13999999999993
+	},
+	{
+		"index": 273,
+		"txt": "The following code listing shows what we mean:",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_following_code_listing_shows_wh_sting_shows_what_we_mean_____.wav",
+		"duration": 0.97,
+		"sentenceIndex": 6352,
+		"timestamp": 421.63999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 422.60999999999996
+	},
+	{
+		"index": 276,
+		"txt": "The first thing that CheckForCollision does is perform a quick bounding circle check to see if there is a possible collision.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_first_thing_that_CheckForCollis__is_a_possible_collision_____.wav",
+		"duration": 2.24,
+		"sentenceIndex": 6355,
+		"timestamp": 423.10999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 425.34999999999997
+	},
+	{
+		"index": 277,
+		"txt": "If no collision is detected, the function simply exits, returning 0 .",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_no_collision_is_detected__the_fu_mply_exits__returning_0______.wav",
+		"duration": 1.62,
+		"sentenceIndex": 6356,
+		"timestamp": 425.84999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 427.46999999999997
+	},
+	{
+		"index": 278,
+		"txt": "This is the same bounding circle check",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_the_same_bounding_circle_ch_ame_bounding_circle_check____.wav",
+		"duration": 0.79,
+		"sentenceIndex": 6357,
+		"timestamp": 427.96999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 428.76
+	},
+	{
+		"index": 280,
+		"txt": "performed in the earlier version:",
+		"file": "/home/user1/trash/dirOutputSet/_100_performed_in_the_earlier_version__d_in_the_earlier_version_____.wav",
+		"duration": 0.69,
+		"sentenceIndex": 6359,
+		"timestamp": 429.26
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 429.95
+	},
+	{
+		"index": 282,
+		"txt": "If the bounding circle check indicates the possibility of a collision, then CheckForCollision proceeds by setting up a couple of polygons, represented by vertex lists, for each hovercraft:",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_the_bounding_circle_check_indica_sts__for_each_hovercraft_____.wav",
+		"duration": 4.06,
+		"sentenceIndex": 6361,
+		"timestamp": 430.45
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 434.51
+	},
+	{
+		"index": 284,
+		"txt": "The vertex lists are initialized in unrotated body fixed (local) coordinates based on the length and width of the hovercraft.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_vertex_lists_are_initialized_in__width_of_the_hovercraft_____.wav",
+		"duration": 2.68,
+		"sentenceIndex": 6363,
+		"timestamp": 435.01
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 437.69
+	},
+	{
+		"index": 285,
+		"txt": "The vertices are then rotated to reflect the orientation of each hovercraft.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_vertices_are_then_rotated_to_re_ation_of_each_hovercraft_____.wav",
+		"duration": 1.61,
+		"sentenceIndex": 6364,
+		"timestamp": 438.19
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 439.8
+	},
+	{
+		"index": 286,
+		"txt": "After that, the position of each hovercraft is added to each vertex to convert from local coordinates to global coordinates",
+		"file": "/home/user1/trash/dirOutputSet/_100_After_that__the_position_of_each_ho_tes_to_global_coordinates____.wav",
+		"duration": 2.44,
+		"sentenceIndex": 6365,
+		"timestamp": 440.3
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 442.74
+	},
+	{
+		"index": 288,
+		"txt": "Checking first for vertex vertex collisions, the",
+		"file": "/home/user1/trash/dirOutputSet/_100_Checking_first_for_vertex_vertex_co_ex_vertex_collisions__the____.wav",
+		"duration": 1.17,
+		"sentenceIndex": 6367,
+		"timestamp": 443.24
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 444.41
+	},
+	{
+		"index": 290,
+		"txt": "function iterates through each vertex in one list, comparing it with each vertex in the other list to see if the points are coincident.",
+		"file": "/home/user1/trash/dirOutputSet/_100_function_iterates_through_each_vert_he_points_are_coincident_____.wav",
+		"duration": 2.49,
+		"sentenceIndex": 6369,
+		"timestamp": 444.91
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 447.40000000000003
+	},
+	{
+		"index": 293,
+		"txt": "This comparison makes a call to another new function, ArePointsEqual:",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_comparison_makes_a_call_to_ano_function__ArePointsEqual_____.wav",
+		"duration": 1.52,
+		"sentenceIndex": 6372,
+		"timestamp": 447.90000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 449.42
+	},
+	{
+		"index": 295,
+		"txt": "ArePointsEqual simply checks to see if the points are within a specified distance from each other, as shown here:",
+		"file": "/home/user1/trash/dirOutputSet/_100_ArePointsEqual_simply_checks_to_see_ach_other__as_shown_here_____.wav",
+		"duration": 2.32,
+		"sentenceIndex": 6374,
+		"timestamp": 449.92
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 452.24
+	},
+	{
+		"index": 297,
+		"txt": "Within the nested for loops of the vertex vertex check, we perform a number of important calculations to determine the collision normal vector and relative velocity that are required for collision response.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Within_the_nested_for_loops_of_the__d_for_collision_response_____.wav",
+		"duration": 4.01,
+		"sentenceIndex": 6376,
+		"timestamp": 452.74
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 456.75
+	},
+	{
+		"index": 299,
+		"txt": "First, we calculate the collision point, which is simply the coordinates of a vertex that is involved in the collision.",
+		"file": "/home/user1/trash/dirOutputSet/_100_First__we_calculate_the_collision_p_nvolved_in_the_collision_____.wav",
+		"duration": 2.32,
+		"sentenceIndex": 6378,
+		"timestamp": 457.25
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 459.57
+	},
+	{
+		"index": 300,
+		"txt": "Note that this point will be in global coordinates, so it will have to be converted to local coordinates for each hovercraft in order to be useful for collision response.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Note_that_this_point_will_be_in_glo_l_for_collision_response_____.wav",
+		"duration": 3.11,
+		"sentenceIndex": 6379,
+		"timestamp": 460.07
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 463.18
+	},
+	{
+		"index": 301,
+		"txt": "Here's how that's done:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_how_that_s_done__Here_s_how_that_s_done_____.wav",
+		"duration": 0.47,
+		"sentenceIndex": 6380,
+		"timestamp": 463.68
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 464.15000000000003
+	},
+	{
+		"index": 303,
+		"txt": "The second calculation is aimed at determining the collision normal vector, which for vertex vertex collisions we've assumed is along the line connecting the centers of gravity of each hovercraft.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_second_calculation_is_aimed_at__avity_of_each_hovercraft_____.wav",
+		"duration": 3.73,
+		"sentenceIndex": 6382,
+		"timestamp": 464.65000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 468.38000000000005
+	},
+	{
+		"index": 304,
+		"txt": "The calculation is the same as that shown in the earlier version of CheckForCollision:",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_calculation_is_the_same_as_that_ion_of_CheckForCollision_____.wav",
+		"duration": 1.66,
+		"sentenceIndex": 6383,
+		"timestamp": 468.88000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 470.5400000000001
+	},
+	{
+		"index": 306,
+		"txt": "The third and final calculation is aimed at determining the relative velocity between the points of impact.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_third_and_final_calculation_is__een_the_points_of_impact_____.wav",
+		"duration": 2.01,
+		"sentenceIndex": 6385,
+		"timestamp": 471.0400000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 473.05000000000007
+	},
+	{
+		"index": 307,
+		"txt": "This is an important distinction from the earlier version, since the velocities of the points of impact on each body are functions of the linear and angular velocities of the hovercraft:",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_an_important_distinction_fr_cities_of_the_hovercraft_____.wav",
+		"duration": 3.73,
+		"sentenceIndex": 6386,
+		"timestamp": 473.55000000000007
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 477.2800000000001
+	},
+	{
+		"index": 310,
+		"txt": "Here, v1 and v2 represent the velocities of the points of collision relative to each hovercraft in local coordinates, which are then converted to global coordinates.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here__v1_and_v2_represent_the_veloc_ed_to_global_coordinates_____.wav",
+		"duration": 3.46,
+		"sentenceIndex": 6389,
+		"timestamp": 477.7800000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 481.24000000000007
+	},
+	{
+		"index": 311,
+		"txt": "Once we've obtained the relative velocity, vRelativeVelocity, we obtain the relative normal velocity, Vrn, by taking the dot product of the relative velocity with the collision normal",
+		"file": "/home/user1/trash/dirOutputSet/_100_Once_we_ve_obtained_the_relative_ve_with_the_collision_normal____.wav",
+		"duration": 3.97,
+		"sentenceIndex": 6390,
+		"timestamp": 481.74000000000007
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 485.7100000000001
+	},
+	{
+		"index": 313,
+		"txt": "vector.",
+		"file": "/home/user1/trash/dirOutputSet/_100_vector__vector_____.wav",
+		"duration": 0.22,
+		"sentenceIndex": 6392,
+		"timestamp": 486.2100000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 486.4300000000001
+	},
+	{
+		"index": 316,
+		"txt": "If there is no vertex vertex collision, CheckForCollision proceeds to check for",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_there_is_no_vertex_vertex_collis_ion_proceeds_to_check_for____.wav",
+		"duration": 1.68,
+		"sentenceIndex": 6395,
+		"timestamp": 486.9300000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 488.6100000000001
+	},
+	{
+		"index": 318,
+		"txt": "vertex edge collisions:",
+		"file": "/home/user1/trash/dirOutputSet/_100_vertex_edge_collisions__vertex_edge_collisions_____.wav",
+		"duration": 0.59,
+		"sentenceIndex": 6397,
+		"timestamp": 489.1100000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 489.7000000000001
+	},
+	{
+		"index": 320,
+		"txt": "Here, the nested for loops check each vertex in one list to see if it is in contact with each edge built from the vertices in the other list.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here__the_nested_for_loops_check_ea_rtices_in_the_other_list_____.wav",
+		"duration": 2.74,
+		"sentenceIndex": 6399,
+		"timestamp": 490.2000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 492.9400000000001
+	},
+	{
+		"index": 321,
+		"txt": "After building the edge under consideration, we save and normalize a copy of it to represent a unit vector pointing along the edge:",
+		"file": "/home/user1/trash/dirOutputSet/_100_After_building_the_edge_under_consi__pointing_along_the_edge_____.wav",
+		"duration": 2.69,
+		"sentenceIndex": 6400,
+		"timestamp": 493.4400000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 496.1300000000001
+	},
+	{
+		"index": 323,
+		"txt": "Variable u represents that unit vector, and it will be used in subsequent calculations.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Variable_u_represents_that_unit_vec__subsequent_calculations_____.wav",
+		"duration": 1.93,
+		"sentenceIndex": 6402,
+		"timestamp": 496.6300000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 498.5600000000001
+	},
+	{
+		"index": 324,
+		"txt": "The next set of calculations determines the location of the projection of the vertex under consideration onto the edge under consideration, as well as the minimum distance from the vertex to edge:",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_next_set_of_calculations_determ__from_the_vertex_to_edge_____.wav",
+		"duration": 3.87,
+		"sentenceIndex": 6403,
+		"timestamp": 499.0600000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 502.9300000000001
+	},
+	{
+		"index": 327,
+		"txt": "Variable p is a vector from the first vertex on the edge to the vertex under consideration, and proj is the distance from the first edge vertex, along the edge, to the point upon which the vertex projects.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Variable_p_is_a_vector_from_the_fir_hich_the_vertex_projects_____.wav",
+		"duration": 4.23,
+		"sentenceIndex": 6406,
+		"timestamp": 503.4300000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 507.66000000000014
+	},
+	{
+		"index": 328,
+		"txt": "dist is the minimum distance from the vertex to the edge.",
+		"file": "/home/user1/trash/dirOutputSet/_100_dist_is_the_minimum_distance_from_t_m_the_vertex_to_the_edge_____.wav",
+		"duration": 1.09,
+		"sentenceIndex": 6407,
+		"timestamp": 508.16000000000014
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 509.2500000000001
+	},
+	{
+		"index": 330,
+		"txt": "Figure 10 3",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 10_3_Figure 10_3____.wav",
+		"duration": 0.54,
+		"sentenceIndex": 6409,
+		"timestamp": 509.7500000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 510.29000000000013
+	},
+	{
+		"index": 331,
+		"txt": "illustrates this geometry.",
+		"file": "/home/user1/trash/dirOutputSet/_100_illustrates_this_geometry__llustrates_this_geometry_____.wav",
+		"duration": 0.55,
+		"sentenceIndex": 6410,
+		"timestamp": 510.79000000000013
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 511.34000000000015
+	},
+	{
+		"index": 337,
+		"txt": "Figure 10 3. Vertex edge check",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 10_3_ Vertex_edge_check_e 10_3_ Vertex_edge_check____.wav",
+		"duration": 1.05,
+		"sentenceIndex": 6416,
+		"timestamp": 511.84000000000015
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 512.8900000000001
+	},
+	{
+		"index": 339,
+		"txt": "If there is a collision, the global location of the point of impact is equal to the vertex under consideration, which we must convert to local coordinates for each hovercraft, as shown here:",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_there_is_a_collision__the_global_overcraft__as_shown_here_____.wav",
+		"duration": 3.74,
+		"sentenceIndex": 6418,
+		"timestamp": 513.3900000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 517.1300000000001
+	},
+	{
+		"index": 341,
+		"txt": "Since, in this type of collision, the collision normal vector is perpendicular to the edge, you can determine it by taking the result of the cross product of u and p and crossing it with u as follows:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Since__in_this_type_of_collision__t_ing_it_with_u_as_follows_____.wav",
+		"duration": 4.08,
+		"sentenceIndex": 6420,
+		"timestamp": 517.6300000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 521.7100000000002
+	},
+	{
+		"index": 343,
+		"txt": "These calculations give you a unit length vector in the plane of vectors u and p and perpendicular to the edge.",
+		"file": "/home/user1/trash/dirOutputSet/_100_These_calculations_give_you_a_unit__erpendicular_to_the_edge_____.wav",
+		"duration": 2.23,
+		"sentenceIndex": 6422,
+		"timestamp": 522.2100000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 524.4400000000002
+	},
+	{
+		"index": 345,
+		"txt": "Next, the relative velocity between the points of impact on each hovercraft is determined, just as in the vertex vertex collision check:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Next__the_relative_velocity_between_x_vertex_collision_check_____.wav",
+		"duration": 2.93,
+		"sentenceIndex": 6424,
+		"timestamp": 524.9400000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 527.8700000000001
+	},
+	{
+		"index": 347,
+		"txt": "In determining whether or not the vertex under consideration is in fact colliding with an edge, you have to check to see if the distance from the vertex is within your collision tolerance, and you also have to make sure the vertex actually projects onto the edge (that is, it does not project beyond the endpoints of the edge).",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_determining_whether_or_not_the_v_e_endpoints_of_the_edge______.wav",
+		"duration": 6.54,
+		"sentenceIndex": 6426,
+		"timestamp": 528.3700000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 534.9100000000001
+	},
+	{
+		"index": 348,
+		"txt": "Additionally, you need to make sure the relative normal velocity indicates that the points of contact are moving toward each other.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Additionally__you_need_to_make_sure_moving_toward_each_other_____.wav",
+		"duration": 2.52,
+		"sentenceIndex": 6427,
+		"timestamp": 535.4100000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 537.9300000000001
+	},
+	{
+		"index": 349,
+		"txt": "Here's how this check looks:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_how_this_check_looks__e_s_how_this_check_looks_____.wav",
+		"duration": 0.64,
+		"sentenceIndex": 6428,
+		"timestamp": 538.4300000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 539.07
+	},
+	{
+		"index": 351,
+		"txt": "After CheckForCollision checks for vertex vertex and vertex edge collisions, it goes on to check for penetration:",
+		"file": "/home/user1/trash/dirOutputSet/_100_After_CheckForCollision_checks_for__to_check_for_penetration_____.wav",
+		"duration": 2.39,
+		"sentenceIndex": 6430,
+		"timestamp": 539.57
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 541.96
+	},
+	{
+		"index": 353,
+		"txt": "This check is a standard point in polygon check using the vector dot product to determine if any vertex of one polygon lies within the bounds of the other polygon.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_check_is_a_standard_point_in_p_nds_of_the_other_polygon_____.wav",
+		"duration": 3.28,
+		"sentenceIndex": 6432,
+		"timestamp": 542.46
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 545.74
+	},
+	{
+		"index": 354,
+		"txt": "After this check, the function simply returns the appropriate result.",
+		"file": "/home/user1/trash/dirOutputSet/_100_After_this_check__the_function_simp_s_the_appropriate_result_____.wav",
+		"duration": 1.36,
+		"sentenceIndex": 6433,
+		"timestamp": 546.24
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 547.6
+	},
+	{
+		"index": 355,
+		"txt": "Here again, 0 indicates no collision or penetration, 1 indicates a collision, and −1 indicates penetration.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_again__0_indicates_no_collisio__1_indicates_penetration_____.wav",
+		"duration": 2.97,
+		"sentenceIndex": 6434,
+		"timestamp": 548.1
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 551.07
+	},
+	{
+		"index": 358,
+		"txt": "With CheckForCollision out of the way, turn your attention to ApplyImpulse , which also has to be revised to include angular effects.",
+		"file": "/home/user1/trash/dirOutputSet/_100_With_CheckForCollision_out_of_the_w__include_angular_effects_____.wav",
+		"duration": 2.66,
+		"sentenceIndex": 6437,
+		"timestamp": 551.57
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 554.23
+	},
+	{
+		"index": 359,
+		"txt": "Specifically, you need to use the impulse formula that includes angular as well as linear effects (see",
+		"file": "/home/user1/trash/dirOutputSet/_100_Specifically__you_need_to_use_the_i_ll_as_linear_effects__see____.wav",
+		"duration": 2.32,
+		"sentenceIndex": 6438,
+		"timestamp": 554.73
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 557.0500000000001
+	},
+	{
+		"index": 360,
+		"txt": "Chapter 5",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 5_Chapter 5____.wav",
+		"duration": 0.35,
+		"sentenceIndex": 6439,
+		"timestamp": 557.5500000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 557.9000000000001
+	},
+	{
+		"index": 361,
+		"txt": "), and you also have to apply the impulse to the hovercraft's angular velocities in addition to their linear velocities.",
+		"file": "/home/user1/trash/dirOutputSet/_100____and_you_also_have_to_apply_the_i__their_linear_velocities_____.wav",
+		"duration": 2.26,
+		"sentenceIndex": 6440,
+		"timestamp": 558.4000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 560.6600000000001
+	},
+	{
+		"index": 362,
+		"txt": "Here's how the new ApplyImpulse function looks:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_how_the_new_ApplyImpulse_fun_lyImpulse_function_looks_____.wav",
+		"duration": 0.98,
+		"sentenceIndex": 6441,
+		"timestamp": 561.1600000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 562.1400000000001
+	},
+	{
+		"index": 364,
+		"txt": "Remember, the impulse is applied to one hovercraft while its negative is applied to the other.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Remember__the_impulse_is_applied_to__is_applied_to_the_other_____.wav",
+		"duration": 1.86,
+		"sentenceIndex": 6443,
+		"timestamp": 562.6400000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 564.5000000000001
+	},
+	{
+		"index": 367,
+		"txt": "That does it for this new version of the hovercraft simulation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_That_does_it_for_this_new_version_o_he_hovercraft_simulation_____.wav",
+		"duration": 1.23,
+		"sentenceIndex": 6446,
+		"timestamp": 565.0000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 566.2300000000001
+	},
+	{
+		"index": 368,
+		"txt": "If you run the program now, you'll see that you can crash the hovercraft into each other and they bounce and rotate accordingly.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_you_run_the_program_now__you_ll__e_and_rotate_accordingly_____.wav",
+		"duration": 2.3,
+		"sentenceIndex": 6447,
+		"timestamp": 566.7300000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 569.0300000000001
+	},
+	{
+		"index": 369,
+		"txt": "This makes for a much more realistic simulation than the simple, linear collision response approach of the last section.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_makes_for_a_much_more_realisti_oach_of_the_last_section_____.wav",
+		"duration": 2.4,
+		"sentenceIndex": 6448,
+		"timestamp": 569.5300000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 571.9300000000001
+	},
+	{
+		"index": 370,
+		"txt": "Here again, you can play with the mass of each hovercraft and the coefficient of restitution to see how these parameters affect the collision response between the",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_again__you_can_play_with_the_m_sion_response_between_the____.wav",
+		"duration": 3.05,
+		"sentenceIndex": 6449,
+		"timestamp": 572.4300000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 575.48
+	},
+	{
+		"index": 378,
+		"txt": "hovercraft.",
+		"file": "/home/user1/trash/dirOutputSet/_100_hovercraft__hovercraft_____.wav",
+		"duration": 0.3,
+		"sentenceIndex": 6457,
+		"timestamp": 575.98
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 576.28
+	},
+	{
+		"index": 385,
+		"txt": "19",
+		"file": "/home/user1/trash/dirOutputSet/_100_19_19____.wav",
+		"duration": 0.27,
+		"sentenceIndex": 6464,
+		"timestamp": 576.78
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 577.05
+	},
+	{
+		"index": 386,
+		"txt": "] Note that this function does not handle multiple contact points.",
+		"file": "/home/user1/trash/dirOutputSet/_100___Note_that_this_function_does_not___multiple_contact_points_____.wav",
+		"duration": 1.35,
+		"sentenceIndex": 6465,
+		"timestamp": 577.55
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 578.9
+	}
+]

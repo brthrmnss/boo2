@@ -1,0 +1,3844 @@
+[
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 0
+	},
+	{
+		"index": 2,
+		"txt": "Chapter 17. Cars and Hovercraft",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 17_ Cars_and_Hovercraft_r 17_ Cars_and_Hovercraft____.wav",
+		"duration": 1,
+		"sentenceIndex": 9415,
+		"timestamp": 0.5
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 1.5
+	},
+	{
+		"index": 3,
+		"txt": "What cars and",
+		"file": "/home/user1/trash/dirOutputSet/_100_What_cars_and_What_cars_and____.wav",
+		"duration": 0.39,
+		"sentenceIndex": 9416,
+		"timestamp": 2
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 2.39
+	},
+	{
+		"index": 4,
+		"txt": "hovercraft have in common is that they operate in an essentially 2D manner.",
+		"file": "/home/user1/trash/dirOutputSet/_100_hovercraft_have_in_common_is_that_t_an_essentially_2D_manner_____.wav",
+		"duration": 1.42,
+		"sentenceIndex": 9417,
+		"timestamp": 2.89
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 4.3100000000000005
+	},
+	{
+		"index": 5,
+		"txt": "Unless they have jumped a ramp, both vehicles remain on the ground or water plane.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Unless_they_have_jumped_a_ramp__bot_he_ground_or_water_plane_____.wav",
+		"duration": 1.79,
+		"sentenceIndex": 9418,
+		"timestamp": 4.8100000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 6.6000000000000005
+	},
+	{
+		"index": 6,
+		"txt": "In this chapter we'll discuss the forces behind each vehicle's method of travel and discuss how to accurately model them in your simulations.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_this_chapter_we_ll_discuss_the_f_them_in_your_simulations_____.wav",
+		"duration": 2.74,
+		"sentenceIndex": 9419,
+		"timestamp": 7.1000000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 9.84
+	},
+	{
+		"index": 9,
+		"txt": "Cars",
+		"file": "/home/user1/trash/dirOutputSet/_100_Cars_Cars____.wav",
+		"duration": 0.23,
+		"sentenceIndex": 9422,
+		"timestamp": 10.34
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 10.57
+	},
+	{
+		"index": 11,
+		"txt": "In the",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_the_In_the____.wav",
+		"duration": 0.13,
+		"sentenceIndex": 9424,
+		"timestamp": 11.07
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 11.200000000000001
+	},
+	{
+		"index": 12,
+		"txt": "following sections we want to discuss certain aspects of the physics behind automobile motion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_following_sections_we_want_to_discu_behind_automobile_motion_____.wav",
+		"duration": 1.95,
+		"sentenceIndex": 9425,
+		"timestamp": 11.700000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 13.65
+	},
+	{
+		"index": 13,
+		"txt": "Like the previous four chapters, the purpose of this chapter is to explain, by example, certain physical phenomena.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Like_the_previous_four_chapters__th_rtain_physical_phenomena_____.wav",
+		"duration": 2.47,
+		"sentenceIndex": 9426,
+		"timestamp": 14.15
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 16.62
+	},
+	{
+		"index": 14,
+		"txt": "We also want to give you a basic understanding of the mechanics involved in automobile motion in case you want to simulate one in your games.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_also_want_to_give_you_a_basic_un_mulate_one_in_your_games_____.wav",
+		"duration": 2.83,
+		"sentenceIndex": 9427,
+		"timestamp": 17.12
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 19.950000000000003
+	},
+	{
+		"index": 15,
+		"txt": "In keeping with the theme of this book, we'll be talking about mechanics in the sense of rigid body motion, and not in the sense of how an internal combustion engine works, or how power is transferred through the transmission system to the wheels, etc.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_keeping_with_the_theme_of_this_b_ystem_to_the_wheels__etc_____.wav",
+		"duration": 4.97,
+		"sentenceIndex": 9428,
+		"timestamp": 20.450000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 25.42
+	},
+	{
+		"index": 16,
+		"txt": "Those are all internal to the car as a rigid body, and we'll focus on the external forces.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Those_are_all_internal_to_the_car_a_s_on_the_external_forces_____.wav",
+		"duration": 1.89,
+		"sentenceIndex": 9429,
+		"timestamp": 25.92
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 27.810000000000002
+	},
+	{
+		"index": 17,
+		"txt": "We will, however, discuss how the torque applied to the drive wheel is translated to a force that pushes the car along.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_will__however__discuss_how_the_t_hat_pushes_the_car_along_____.wav",
+		"duration": 2.47,
+		"sentenceIndex": 9430,
+		"timestamp": 28.310000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 30.78
+	},
+	{
+		"index": 20,
+		"txt": "Resistance",
+		"file": "/home/user1/trash/dirOutputSet/_100_Resistance_Resistance____.wav",
+		"duration": 0.28,
+		"sentenceIndex": 9433,
+		"timestamp": 31.28
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 31.560000000000002
+	},
+	{
+		"index": 22,
+		"txt": "Before we talk",
+		"file": "/home/user1/trash/dirOutputSet/_100_Before_we_talk_Before_we_talk____.wav",
+		"duration": 0.37,
+		"sentenceIndex": 9435,
+		"timestamp": 32.06
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 32.43
+	},
+	{
+		"index": 25,
+		"txt": "about why cars move forward, let's talk about what slows them down.",
+		"file": "/home/user1/trash/dirOutputSet/_100_about_why_cars_move_forward__let_s__out_what_slows_them_down_____.wav",
+		"duration": 1.47,
+		"sentenceIndex": 9438,
+		"timestamp": 32.93
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 34.4
+	},
+	{
+		"index": 26,
+		"txt": "When a car drives down a road, it experiences two main components of resistance that try to slow it down.",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_a_car_drives_down_a_road__it_e_that_try_to_slow_it_down_____.wav",
+		"duration": 2.28,
+		"sentenceIndex": 9439,
+		"timestamp": 34.9
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 37.18
+	},
+	{
+		"index": 27,
+		"txt": "The first",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_first_The_first____.wav",
+		"duration": 0.23,
+		"sentenceIndex": 9440,
+		"timestamp": 37.68
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 37.91
+	},
+	{
+		"index": 28,
+		"txt": "component is aerodynamic drag, and the second is called rolling resistance",
+		"file": "/home/user1/trash/dirOutputSet/_100_component_is_aerodynamic_drag__and__called_rolling_resistance____.wav",
+		"duration": 1.68,
+		"sentenceIndex": 9441,
+		"timestamp": 38.41
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 40.089999999999996
+	},
+	{
+		"index": 30,
+		"txt": "The total resistance felt by the car is the sum of these two components:Rtotal = Rair + Rrolling",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_total_resistance_felt_by_the_ca__Rtotal___Rair___Rrolling____.wav",
+		"duration": 2.16,
+		"sentenceIndex": 9443,
+		"timestamp": 40.589999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 42.75
+	},
+	{
+		"index": 32,
+		"txt": "The aerodynamic drag is primarily skin friction",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_aerodynamic_drag_is_primarily_s_s_primarily_skin_friction____.wav",
+		"duration": 1.14,
+		"sentenceIndex": 9445,
+		"timestamp": 43.25
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 44.39
+	},
+	{
+		"index": 34,
+		"txt": "and pressure drag similar to that experienced by the projectiles discussed in",
+		"file": "/home/user1/trash/dirOutputSet/_100_and_pressure_drag_similar_to_that_e__projectiles_discussed_in____.wav",
+		"duration": 1.56,
+		"sentenceIndex": 9447,
+		"timestamp": 44.89
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 46.45
+	},
+	{
+		"index": 35,
+		"txt": "Chapter 6",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 6_Chapter 6____.wav",
+		"duration": 0.35,
+		"sentenceIndex": 9448,
+		"timestamp": 46.95
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 47.300000000000004
+	},
+	{
+		"index": 36,
+		"txt": ", and the planes and boats discussed in earlier chapters.",
+		"file": "/home/user1/trash/dirOutputSet/_100___and_the_planes_and_boats_discusse_ssed_in_earlier_chapters_____.wav",
+		"duration": 1.09,
+		"sentenceIndex": 9449,
+		"timestamp": 47.800000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 48.89000000000001
+	},
+	{
+		"index": 37,
+		"txt": "Here again, you can use the familiar drag formula:Rair = (1/2) ρ V2 Sp Cd",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_again__you_can_use_the_familia_a_Rair____1_2____V2_Sp_Cd____.wav",
+		"duration": 2.6,
+		"sentenceIndex": 9450,
+		"timestamp": 49.39000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 51.99000000000001
+	},
+	{
+		"index": 38,
+		"txt": "Here ρ (rho) is the mass density of air, V is the speed of the car, Sp is the projected frontal area of the car normal to the direction of V, and Cd is the drag coefficient.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here____rho__is_the_mass_density_of__is_the_drag_coefficient_____.wav",
+		"duration": 4.24,
+		"sentenceIndex": 9451,
+		"timestamp": 52.49000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 56.73000000000001
+	},
+	{
+		"index": 40,
+		"txt": "Typical ranges of drag coefficients for different types of vehicles are 0.29 to 0.4 for sports cars, 0.43 to 0.5 for pickup trucks, 0.6 to 0.9 for tractor trailers, and 0.4 to 0.5 for the average economy car.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Typical_ranges_of_drag_coefficients__the_average_economy_car_____.wav",
+		"duration": 7.03,
+		"sentenceIndex": 9453,
+		"timestamp": 57.23000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 64.26
+	},
+	{
+		"index": 41,
+		"txt": "Drag coefficient is a function of the shape of the vehicle that is, the degree of boxiness or streamline.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Drag_coefficient_is_a_function_of_t_f_boxiness_or_streamline_____.wav",
+		"duration": 2.15,
+		"sentenceIndex": 9454,
+		"timestamp": 64.76
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 66.91000000000001
+	},
+	{
+		"index": 42,
+		"txt": "Streamlined body styles have lower drag coefficients; for example, the Chevy Corvette has a low drag coefficient of 0.29, while the typical tractor trailer without fairings has a high drag coefficient of up to 0.9.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Streamlined_body_styles_have_lower__coefficient_of_up_to_0_9_____.wav",
+		"duration": 5.21,
+		"sentenceIndex": 9455,
+		"timestamp": 67.41000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 72.62
+	},
+	{
+		"index": 43,
+		"txt": "You can use these coefficients in your simulations to tune the behavior of different types and shapes of vehicles.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_use_these_coefficients_in_y_s_and_shapes_of_vehicles_____.wav",
+		"duration": 2.21,
+		"sentenceIndex": 9456,
+		"timestamp": 73.12
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 75.33
+	},
+	{
+		"index": 46,
+		"txt": "When a tire rolls on a road, it experiences",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_a_tire_rolls_on_a_road__it_exp_on_a_road__it_experiences____.wav",
+		"duration": 1.15,
+		"sentenceIndex": 9459,
+		"timestamp": 75.83
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 76.98
+	},
+	{
+		"index": 48,
+		"txt": "rolling resistance, which tends to retard its motion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_rolling_resistance__which_tends_to__nds_to_retard_its_motion_____.wav",
+		"duration": 1.13,
+		"sentenceIndex": 9461,
+		"timestamp": 77.48
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 78.61
+	},
+	{
+		"index": 49,
+		"txt": "Rolling resistance is not frictional resistance, but instead has to do with the deformation of the tire while rolling.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Rolling_resistance_is_not_frictiona_f_the_tire_while_rolling_____.wav",
+		"duration": 2.26,
+		"sentenceIndex": 9462,
+		"timestamp": 79.11
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 81.37
+	},
+	{
+		"index": 50,
+		"txt": "It's a difficult quantity to calculate theoretically since it's a function of a number of complicated factors such as tire and road deformation, the pressure over the contact area of the tire, the elastic properties of the tire and road materials, the roughness of the tire and road surfaces, and tire pressure, to name a few so instead you'll have to rely on an empirical formula.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_s_a_difficult_quantity_to_calcul__on_an_empirical_formula_____.wav",
+		"duration": 7.69,
+		"sentenceIndex": 9463,
+		"timestamp": 81.87
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 89.56
+	},
+	{
+		"index": 51,
+		"txt": "The formula to use is as follows:Rrolling = Cr w",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_formula_to_use_is_as_follows_Rr_s_follows_Rrolling___Cr_w____.wav",
+		"duration": 1.46,
+		"sentenceIndex": 9464,
+		"timestamp": 90.06
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 91.52
+	},
+	{
+		"index": 53,
+		"txt": "This gives you the rolling resistance per tire, where w is the weight supported by the tire,",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_gives_you_the_rolling_resistan_ht_supported_by_the_tire_____.wav",
+		"duration": 1.83,
+		"sentenceIndex": 9466,
+		"timestamp": 92.02
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 93.85
+	},
+	{
+		"index": 54,
+		"txt": "and Cr is the coefficient of rolling resistance",
+		"file": "/home/user1/trash/dirOutputSet/_100_and_Cr_is_the_coefficient_of_rollin_ent_of_rolling_resistance____.wav",
+		"duration": 1.04,
+		"sentenceIndex": 9467,
+		"timestamp": 94.35
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 95.39
+	},
+	{
+		"index": 56,
+		"txt": "Cr is simply the ratio of the rolling resistance force to the weight supported by the tire.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Cr_is_simply_the_ratio_of_the_rolli_ht_supported_by_the_tire_____.wav",
+		"duration": 1.81,
+		"sentenceIndex": 9469,
+		"timestamp": 95.89
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 97.7
+	},
+	{
+		"index": 57,
+		"txt": "Luckily for you, tire manufacturers generally provide the coefficient of rolling resistance for their tires under design conditions.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Luckily_for_you__tire_manufacturers__under_design_conditions_____.wav",
+		"duration": 2.7,
+		"sentenceIndex": 9470,
+		"timestamp": 98.2
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 100.9
+	},
+	{
+		"index": 58,
+		"txt": "Typical car tires have a Cr of about 0.015, while truck tires fall within the range of 0.006 to 0.01.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Typical_car_tires_have_a_Cr_of_abou_e_range_of_0_006_to_0_01_____.wav",
+		"duration": 3.77,
+		"sentenceIndex": 9471,
+		"timestamp": 101.4
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 105.17
+	},
+	{
+		"index": 59,
+		"txt": "If you assume that a car has four identical tires, then you can estimate the total rolling resistance for the car by substituting the total car weight for w in the preceding equation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_you_assume_that_a_car_has_four_i_n_the_preceding_equation_____.wav",
+		"duration": 3.61,
+		"sentenceIndex": 9472,
+		"timestamp": 105.67
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 109.28
+	},
+	{
+		"index": 62,
+		"txt": "Power",
+		"file": "/home/user1/trash/dirOutputSet/_100_Power_Power____.wav",
+		"duration": 0.18,
+		"sentenceIndex": 9475,
+		"timestamp": 109.78
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 109.96000000000001
+	},
+	{
+		"index": 64,
+		"txt": "Now that you know",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now_that_you_know_Now_that_you_know____.wav",
+		"duration": 0.37,
+		"sentenceIndex": 9477,
+		"timestamp": 110.46000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 110.83000000000001
+	},
+	{
+		"index": 68,
+		"txt": "how to calculate the total resistance on your car, you can easily calculate the power required to overcome the resistance at a given speed.",
+		"file": "/home/user1/trash/dirOutputSet/_100_how_to_calculate_the_total_resistan_istance_at_a_given_speed_____.wav",
+		"duration": 2.81,
+		"sentenceIndex": 9481,
+		"timestamp": 111.33000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 114.14000000000001
+	},
+	{
+		"index": 69,
+		"txt": "Power is a measure of the amount of work done by a force, or torque, over time.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Power_is_a_measure_of_the_amount_of_ce__or_torque__over_time_____.wav",
+		"duration": 1.71,
+		"sentenceIndex": 9482,
+		"timestamp": 114.64000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 116.35000000000001
+	},
+	{
+		"index": 70,
+		"txt": "Mechanical work done by a force is equal to the force times the distance an object moves under the action of that force.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Mechanical_work_done_by_a_force_is__the_action_of_that_force_____.wav",
+		"duration": 2.38,
+		"sentenceIndex": 9483,
+		"timestamp": 116.85000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 119.23
+	},
+	{
+		"index": 71,
+		"txt": "It's expressed in units such as foot pounds.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_s_expressed_in_units_such_as_foo_nits_such_as_foot_pounds_____.wav",
+		"duration": 0.96,
+		"sentenceIndex": 9484,
+		"timestamp": 119.73
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 120.69
+	},
+	{
+		"index": 72,
+		"txt": "Since power is a measure of work done over time, its units are, for example, foot pounds per second.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Since_power_is_a_measure_of_work_do___foot_pounds_per_second_____.wav",
+		"duration": 2.3,
+		"sentenceIndex": 9485,
+		"timestamp": 121.19
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 123.49
+	},
+	{
+		"index": 73,
+		"txt": "Usually power in the context of car engine output is expressed in units of horsepower , where 1 horsepower equals 550 ft lbs/s.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Usually_power_in_the_context_of_car_ower_equals_550_ft_lbs_s_____.wav",
+		"duration": 3.61,
+		"sentenceIndex": 9486,
+		"timestamp": 123.99
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 127.6
+	},
+	{
+		"index": 76,
+		"txt": "To calculate the horsepower required to overcome total resistance at a given speed, you simply use this formula:P = (Rtotal V) / 550",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_calculate_the_horsepower_require_mula_P____Rtotal_V____550____.wav",
+		"duration": 3.51,
+		"sentenceIndex": 9489,
+		"timestamp": 128.1
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 131.60999999999999
+	},
+	{
+		"index": 78,
+		"txt": "Here P is power in units of horsepower, and Rtotal is the total resistance corresponding to the car's speed, V .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_P_is_power_in_units_of_horsepo_g_to_the_car_s_speed__V______.wav",
+		"duration": 2.7,
+		"sentenceIndex": 9491,
+		"timestamp": 132.10999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 134.80999999999997
+	},
+	{
+		"index": 79,
+		"txt": "Note, in this equation Rtotal must be in pound units and V must be in units of feet per second.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Note__in_this_equation_Rtotal_must__units_of_feet_per_second_____.wav",
+		"duration": 2.1,
+		"sentenceIndex": 9492,
+		"timestamp": 135.30999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 137.40999999999997
+	},
+	{
+		"index": 82,
+		"txt": "Now this is not the engine output power required to reach the speed V for your car; rather, it is the required power delivered by the drive wheel to reach the speed V .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now_this_is_not_the_engine_output_p_el_to_reach_the_speed_V______.wav",
+		"duration": 3.39,
+		"sentenceIndex": 9495,
+		"timestamp": 137.90999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 141.29999999999995
+	},
+	{
+		"index": 83,
+		"txt": "The installed engine power will be higher for several reasons.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_installed_engine_power_will_be__gher_for_several_reasons_____.wav",
+		"duration": 1.24,
+		"sentenceIndex": 9496,
+		"timestamp": 141.79999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 143.03999999999996
+	},
+	{
+		"index": 84,
+		"txt": "First, there will be mechanical losses associated with delivering the power from the engine through the transmission and drive train to the tire.",
+		"file": "/home/user1/trash/dirOutputSet/_100_First__there_will_be_mechanical_los__drive_train_to_the_tire_____.wav",
+		"duration": 2.71,
+		"sentenceIndex": 9497,
+		"timestamp": 143.53999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 146.24999999999997
+	},
+	{
+		"index": 85,
+		"txt": "The power will actually reach the tire in the form of torque, which given the radius of the tire will create a force Fw that will overcome the total resistance.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_power_will_actually_reach_the_t_ome_the_total_resistance_____.wav",
+		"duration": 3.16,
+		"sentenceIndex": 9498,
+		"timestamp": 146.74999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 149.90999999999997
+	},
+	{
+		"index": 86,
+		"txt": "This force is calculated as follows:Fw = Tw/r",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_force_is_calculated_as_follows_ated_as_follows_Fw___Tw_r____.wav",
+		"duration": 1.75,
+		"sentenceIndex": 9499,
+		"timestamp": 150.40999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 152.15999999999997
+	},
+	{
+		"index": 88,
+		"txt": "Here Fw is the force delivered by the tire to the road to push the car along, Tw is the torque on the tire, and r is the radius of the tire.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_Fw_is_the_force_delivered_by_t_s_the_radius_of_the_tire_____.wav",
+		"duration": 3.14,
+		"sentenceIndex": 9501,
+		"timestamp": 152.65999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 155.79999999999995
+	},
+	{
+		"index": 89,
+		"txt": "The second reason the installed engine power will be greater is because some engine power will be transferred to other systems in the car.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_second_reason_the_installed_eng_other_systems_in_the_car_____.wav",
+		"duration": 2.75,
+		"sentenceIndex": 9502,
+		"timestamp": 156.29999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 159.04999999999995
+	},
+	{
+		"index": 90,
+		"txt": "For example, power is required to charge the battery and to run the air conditioner.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_example__power_is_required_to_c__run_the_air_conditioner_____.wav",
+		"duration": 1.66,
+		"sentenceIndex": 9503,
+		"timestamp": 159.54999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 161.20999999999995
+	},
+	{
+		"index": 93,
+		"txt": "Stopping Distance",
+		"file": "/home/user1/trash/dirOutputSet/_100_Stopping_Distance_Stopping_Distance____.wav",
+		"duration": 0.42,
+		"sentenceIndex": 9506,
+		"timestamp": 161.70999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 162.12999999999994
+	},
+	{
+		"index": 95,
+		"txt": "Under normal",
+		"file": "/home/user1/trash/dirOutputSet/_100_Under_normal_Under_normal____.wav",
+		"duration": 0.31,
+		"sentenceIndex": 9508,
+		"timestamp": 162.62999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 162.93999999999994
+	},
+	{
+		"index": 98,
+		"txt": "conditions, stopping distance is a function of the braking system and how hard the driver applies the brakes: the harder the brakes are applied, the shorter the stopping distance.",
+		"file": "/home/user1/trash/dirOutputSet/_100_conditions__stopping_distance_is_a__er_the_stopping_distance_____.wav",
+		"duration": 3.53,
+		"sentenceIndex": 9511,
+		"timestamp": 163.43999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 166.96999999999994
+	},
+	{
+		"index": 99,
+		"txt": "That's not the case when the tires start to skid.",
+		"file": "/home/user1/trash/dirOutputSet/_100_That_s_not_the_case_when_the_tires___the_tires_start_to_skid_____.wav",
+		"duration": 1.05,
+		"sentenceIndex": 9512,
+		"timestamp": 167.46999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 168.51999999999995
+	},
+	{
+		"index": 100,
+		"txt": "Under skidding conditions, stopping distance is a function of the",
+		"file": "/home/user1/trash/dirOutputSet/_100_Under_skidding_conditions__stopping_ance_is_a_function_of_the____.wav",
+		"duration": 1.33,
+		"sentenceIndex": 9513,
+		"timestamp": 169.01999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 170.34999999999997
+	},
+	{
+		"index": 101,
+		"txt": "frictional force that develops between the tires and the road, in addition to the inclination of the roadway.",
+		"file": "/home/user1/trash/dirOutputSet/_100_frictional_force_that_develops_betw_clination_of_the_roadway_____.wav",
+		"duration": 2.19,
+		"sentenceIndex": 9514,
+		"timestamp": 170.84999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 173.03999999999996
+	},
+	{
+		"index": 102,
+		"txt": "If the car is traveling uphill, the skidding distance will be shorter because gravity helps slow the car, while it will tend to accelerate the car and increase the skidding distance when the car is traveling downhill.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_the_car_is_traveling_uphill__the_ar_is_traveling_downhill_____.wav",
+		"duration": 4.07,
+		"sentenceIndex": 9515,
+		"timestamp": 173.53999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 177.60999999999996
+	},
+	{
+		"index": 105,
+		"txt": "There's a simple formula that considers these factors that you can use to calculate skidding distance:ds = V2 / [2g ( µ cos φ + sin φ)]",
+		"file": "/home/user1/trash/dirOutputSet/_100_There_s_a_simple_formula_that_consi____2g_____cos_____sin________.wav",
+		"duration": 4.04,
+		"sentenceIndex": 9518,
+		"timestamp": 178.10999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 182.14999999999995
+	},
+	{
+		"index": 107,
+		"txt": "Here ds is the",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_ds_is_the_Here_ds_is_the____.wav",
+		"duration": 0.43,
+		"sentenceIndex": 9520,
+		"timestamp": 182.64999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 183.07999999999996
+	},
+	{
+		"index": 109,
+		"txt": "skidding distance, g the acceleration due to gravity, µ the coefficient of friction between the tires and road, V the initial speed of the car, and φ the inclination of the roadway (where a positive angle means uphill and a negative angle means downhill).",
+		"file": "/home/user1/trash/dirOutputSet/_100_skidding_distance__g_the_accelerati_ve_angle_means_downhill______.wav",
+		"duration": 5.76,
+		"sentenceIndex": 9522,
+		"timestamp": 183.57999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 189.33999999999995
+	},
+	{
+		"index": 110,
+		"txt": "Note that this equation does not take into account any aerodynamic drag that will help slow the car down.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Note_that_this_equation_does_not_ta_l_help_slow_the_car_down_____.wav",
+		"duration": 2.13,
+		"sentenceIndex": 9523,
+		"timestamp": 189.83999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 191.96999999999994
+	},
+	{
+		"index": 113,
+		"txt": "The coefficient of friction will vary depending on the condition of the tires and surface of the road, but for rubber on pavement the dynamic friction coefficient is typically around 0.4, while the static coefficient is around 0.55.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_coefficient_of_friction_will_va_efficient_is_around_0_55_____.wav",
+		"duration": 5.25,
+		"sentenceIndex": 9526,
+		"timestamp": 192.46999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 197.71999999999994
+	},
+	{
+		"index": 116,
+		"txt": "When calculating the actual frictional force between the tire and road, say in a real time simulation, you'll use the same formula that we showed you in",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_calculating_the_actual_frictio_ula_that_we_showed_you_in____.wav",
+		"duration": 3.13,
+		"sentenceIndex": 9529,
+		"timestamp": 198.21999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 201.34999999999994
+	},
+	{
+		"index": 117,
+		"txt": "Chapter 3:Ff = µ W",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 3_Ff_____W_Chapter 3_Ff_____W____.wav",
+		"duration": 1.1,
+		"sentenceIndex": 9530,
+		"timestamp": 201.84999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 202.94999999999993
+	},
+	{
+		"index": 119,
+		"txt": "Here Ff is the friction force applied to each tire, assuming it's not rolling, and W is the weight supported by each tire.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_Ff_is_the_friction_force_appli_t_supported_by_each_tire_____.wav",
+		"duration": 2.69,
+		"sentenceIndex": 9532,
+		"timestamp": 203.44999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 206.13999999999993
+	},
+	{
+		"index": 120,
+		"txt": "If you assume that all tires are identical, then you can use the total weight of the car in the preceding formula to determine the total friction force applied to all tires.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_you_assume_that_all_tires_are_id_rce_applied_to_all_tires_____.wav",
+		"duration": 3.41,
+		"sentenceIndex": 9533,
+		"timestamp": 206.63999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 210.04999999999993
+	},
+	{
+		"index": 122,
+		"txt": "Steering",
+		"file": "/home/user1/trash/dirOutputSet/_100_Steering_Steering____.wav",
+		"duration": 0.23,
+		"sentenceIndex": 9535,
+		"timestamp": 210.54999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 210.77999999999992
+	},
+	{
+		"index": 123,
+		"txt": "When you turn the",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_you_turn_the_When_you_turn_the____.wav",
+		"duration": 0.3,
+		"sentenceIndex": 9536,
+		"timestamp": 211.27999999999992
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 211.57999999999993
+	},
+	{
+		"index": 125,
+		"txt": "steering wheel of a car, the front wheels exert a side force such that the car starts to turn.",
+		"file": "/home/user1/trash/dirOutputSet/_100_steering_wheel_of_a_car__the_front__t_the_car_starts_to_turn_____.wav",
+		"duration": 2.08,
+		"sentenceIndex": 9538,
+		"timestamp": 212.07999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 214.15999999999994
+	},
+	{
+		"index": 126,
+		"txt": "In terms of",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_terms_of_In_terms_of____.wav",
+		"duration": 0.34,
+		"sentenceIndex": 9539,
+		"timestamp": 214.65999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 214.99999999999994
+	},
+	{
+		"index": 127,
+		"txt": "Euler angles, this would be yaw, although Euler angles aren't usually used in discussions about turning cars.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Euler_angles__this_would_be_yaw__al_sions_about_turning_cars_____.wav",
+		"duration": 2.36,
+		"sentenceIndex": 9540,
+		"timestamp": 215.49999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 217.85999999999996
+	},
+	{
+		"index": 128,
+		"txt": "Even if the car's speed is constant, it experiences acceleration due to the fact that its velocity vector has changed direction.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Even_if_the_car_s_speed_is_constant_or_has_changed_direction_____.wav",
+		"duration": 2.64,
+		"sentenceIndex": 9541,
+		"timestamp": 218.35999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 220.99999999999994
+	},
+	{
+		"index": 129,
+		"txt": "Remember, acceleration is the time rate of change in velocity, which has both magnitude and direction.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Remember__acceleration_is_the_time___magnitude_and_direction_____.wav",
+		"duration": 2.14,
+		"sentenceIndex": 9542,
+		"timestamp": 221.49999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 223.63999999999993
+	},
+	{
+		"index": 132,
+		"txt": "For a car to maintain its curved path, there must",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_a_car_to_maintain_its_curved_pa_s_curved_path__there_must____.wav",
+		"duration": 1.15,
+		"sentenceIndex": 9545,
+		"timestamp": 224.13999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 225.28999999999994
+	},
+	{
+		"index": 134,
+		"txt": "be a centripetal force (\"center seeking\"",
+		"file": "/home/user1/trash/dirOutputSet/IVONA_2_Kendra_100_be_a_centripetal_force___center_see_al_force___center_seeking______.wav",
+		"duration": 0.94,
+		"sentenceIndex": 9547,
+		"timestamp": 225.78999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 226.72999999999993
+	},
+	{
+		"index": 135,
+		"txt": "in Greek) that acts on the car.",
+		"file": "/home/user1/trash/dirOutputSet/_100_in_Greek__that_acts_on_the_car__ek__that_acts_on_the_car_______.wav",
+		"duration": 0.73,
+		"sentenceIndex": 9548,
+		"timestamp": 227.22999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 227.95999999999992
+	},
+	{
+		"index": 136,
+		"txt": "When riding in a turning car, you feel an",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_riding_in_a_turning_car__you_f__turning_car__you_feel_an____.wav",
+		"duration": 0.9,
+		"sentenceIndex": 9549,
+		"timestamp": 228.45999999999992
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 229.35999999999993
+	},
+	{
+		"index": 139,
+		"txt": "apparent centrifugal acceleration, or force directed away from the center of the turn.",
+		"file": "/home/user1/trash/dirOutputSet/_100_apparent_centrifugal_acceleration___m_the_center_of_the_turn_____.wav",
+		"duration": 1.78,
+		"sentenceIndex": 9552,
+		"timestamp": 229.85999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 231.63999999999993
+	},
+	{
+		"index": 140,
+		"txt": "This acceleration is really a result of inertia , the tendency of your body and the car to continue on their original path, and is not a real force acting on the car or your body.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_acceleration_is_really_a_resul__on_the_car_or_your_body_____.wav",
+		"duration": 3.5,
+		"sentenceIndex": 9553,
+		"timestamp": 232.13999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 235.63999999999993
+	},
+	{
+		"index": 141,
+		"txt": "The real force is the centripetal force, and without it your car would continue on its straight path and not along the curve.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_real_force_is_the_centripetal_f__and_not_along_the_curve_____.wav",
+		"duration": 2.43,
+		"sentenceIndex": 9554,
+		"timestamp": 236.13999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 238.56999999999994
+	},
+	{
+		"index": 144,
+		"txt": "One of the most important aspects of racing is taking turns as fast as possible but without losing control.",
+		"file": "/home/user1/trash/dirOutputSet/_100_One_of_the_most_important_aspects_o_t_without_losing_control_____.wav",
+		"duration": 2.2,
+		"sentenceIndex": 9557,
+		"timestamp": 239.06999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 241.26999999999992
+	},
+	{
+		"index": 145,
+		"txt": "The longer you can wait to decelerate for the turn, and the sooner you can start accelerating again, the higher your average speed will be.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_longer_you_can_wait_to_decelera_ur_average_speed_will_be_____.wav",
+		"duration": 2.75,
+		"sentenceIndex": 9558,
+		"timestamp": 241.76999999999992
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 244.51999999999992
+	},
+	{
+		"index": 146,
+		"txt": "It is interesting to note that when people ride in racecars, what really surprises them isn't the acceleration but the massive decelerations they can create through braking forces.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_is_interesting_to_note_that_when_e_through_braking_forces_____.wav",
+		"duration": 3.48,
+		"sentenceIndex": 9559,
+		"timestamp": 245.01999999999992
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 248.49999999999991
+	},
+	{
+		"index": 147,
+		"txt": "A Formula One car regularly experiences decelerations of 4g, with 5–6g being the extreme value for certain race courses.",
+		"file": "/home/user1/trash/dirOutputSet/_100_A_Formula_One_car_regularly_experie_for_certain_race_courses_____.wav",
+		"duration": 3.43,
+		"sentenceIndex": 9560,
+		"timestamp": 248.99999999999991
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 252.42999999999992
+	},
+	{
+		"index": 148,
+		"txt": "Most road legal sports cars can achieve about 1g of braking force.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Most_road_legal_sports_cars_can_ach_bout_1g_of_braking_force_____.wav",
+		"duration": 1.64,
+		"sentenceIndex": 9561,
+		"timestamp": 252.92999999999992
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 254.5699999999999
+	},
+	{
+		"index": 149,
+		"txt": "This allows the racecars to maintain speed until just entering the corner.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_allows_the_racecars_to_maintai_just_entering_the_corner_____.wav",
+		"duration": 1.56,
+		"sentenceIndex": 9562,
+		"timestamp": 255.0699999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 256.6299999999999
+	},
+	{
+		"index": 152,
+		"txt": "When you turn the steering wheel in a car, the tires produce a centripetal force toward the center of the curve via friction with the surface of the road.",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_you_turn_the_steering_wheel_in__the_surface_of_the_road_____.wav",
+		"duration": 2.92,
+		"sentenceIndex": 9565,
+		"timestamp": 257.1299999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 260.0499999999999
+	},
+	{
+		"index": 153,
+		"txt": "It follows that the maximum static frictional force between the tires and the road must exceed the required centripetal force.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_follows_that_the_maximum_static__quired_centripetal_force_____.wav",
+		"duration": 2.48,
+		"sentenceIndex": 9566,
+		"timestamp": 260.5499999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 263.0299999999999
+	},
+	{
+		"index": 154,
+		"txt": "Mathematically, this takes on the following inequality:µ sN > mv2/r",
+		"file": "/home/user1/trash/dirOutputSet/_100_Mathematically__this_takes_on_the_f_g_inequality___sN___mv2_r____.wav",
+		"duration": 2.12,
+		"sentenceIndex": 9567,
+		"timestamp": 263.5299999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 265.6499999999999
+	},
+	{
+		"index": 156,
+		"txt": "Centripetal acceleration is the square of the tangential velocity, v, divided by the radius of the turn, r .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Centripetal_acceleration_is_the_squ_e_radius_of_the_turn__r______.wav",
+		"duration": 2.65,
+		"sentenceIndex": 9569,
+		"timestamp": 266.1499999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 268.7999999999999
+	},
+	{
+		"index": 157,
+		"txt": "This multiplied by mass of the vehicle, m , gives the force required to make a turn.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_multiplied_by_mass_of_the_vehi__required_to_make_a_turn_____.wav",
+		"duration": 1.85,
+		"sentenceIndex": 9570,
+		"timestamp": 269.2999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 271.1499999999999
+	},
+	{
+		"index": 158,
+		"txt": "The available force is the static coefficient of friction times the normal force, N .",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_available_force_is_the_static_c_mes_the_normal_force__N______.wav",
+		"duration": 1.84,
+		"sentenceIndex": 9571,
+		"timestamp": 271.6499999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 273.4899999999999
+	},
+	{
+		"index": 159,
+		"txt": "Rewriting this formula, we can develop a simplified maximum cornering speed as follows:vlimit <",
+		"file": "/home/user1/trash/dirOutputSet/_100_Rewriting_this_formula__we_can_deve_speed_as_follows_vlimit______.wav",
+		"duration": 2,
+		"sentenceIndex": 9572,
+		"timestamp": 273.9899999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 275.9899999999999
+	},
+	{
+		"index": 161,
+		"txt": "If this speed is exceeded, the cornering force will exceed the static coefficient of friction and the tires will begin to slide.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_this_speed_is_exceeded__the_corn_ires_will_begin_to_slide_____.wav",
+		"duration": 2.53,
+		"sentenceIndex": 9574,
+		"timestamp": 276.4899999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 279.01999999999987
+	},
+	{
+		"index": 162,
+		"txt": "It may be tempting to replace the normal force, N , with the weight of the vehicle (mass times gravity) and cancel out the mass of the car, but the normal force may not always be simplified as such, as we'll discuss in a moment.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_may_be_tempting_to_replace_the_n_e_ll_discuss_in_a_moment_____.wav",
+		"duration": 4.95,
+		"sentenceIndex": 9575,
+		"timestamp": 279.51999999999987
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 284.46999999999986
+	},
+	{
+		"index": 163,
+		"txt": "Also, in real life, the weight of a vehicle is rarely evenly distributed among all four tires and is definitely not when the car is acceleration or decelerating.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Also__in_real_life__the_weight_of_a_leration_or_decelerating_____.wav",
+		"duration": 3.63,
+		"sentenceIndex": 9576,
+		"timestamp": 284.96999999999986
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 288.59999999999985
+	},
+	{
+		"index": 164,
+		"txt": "In general, acceleration causes a weight shift to the aft tires, and deceleration causes weight to shift to the forward tires.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_general__acceleration_causes_a_w_ift_to_the_forward_tires_____.wav",
+		"duration": 2.77,
+		"sentenceIndex": 9577,
+		"timestamp": 289.09999999999985
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 291.86999999999983
+	},
+	{
+		"index": 165,
+		"txt": "This is important because, depending on where the weight is, the front or back tires will tend to have less available friction.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_important_because__dependin__less_available_friction_____.wav",
+		"duration": 2.56,
+		"sentenceIndex": 9578,
+		"timestamp": 292.36999999999983
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 294.92999999999984
+	},
+	{
+		"index": 166,
+		"txt": "If one or the other sets of tires begins to slide, the car will either",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_one_or_the_other_sets_of_tires_b_lide__the_car_will_either____.wav",
+		"duration": 1.53,
+		"sentenceIndex": 9579,
+		"timestamp": 295.42999999999984
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 296.9599999999998
+	},
+	{
+		"index": 168,
+		"txt": "understeer or oversteer (see",
+		"file": "/home/user1/trash/dirOutputSet/_100_understeer_or_oversteer__see_ersteer_or_oversteer__see____.wav",
+		"duration": 0.81,
+		"sentenceIndex": 9581,
+		"timestamp": 297.4599999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 298.2699999999998
+	},
+	{
+		"index": 169,
+		"txt": "Figure 17 1",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 17_1_Figure 17_1____.wav",
+		"duration": 0.66,
+		"sentenceIndex": 9582,
+		"timestamp": 298.7699999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 299.42999999999984
+	},
+	{
+		"index": 176,
+		"txt": "Figure 17 1. Understeer on right, oversteer on left",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 17_1_ Understeer_on_right__o__right__oversteer_on_left____.wav",
+		"duration": 1.69,
+		"sentenceIndex": 9589,
+		"timestamp": 299.92999999999984
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 301.61999999999983
+	},
+	{
+		"index": 178,
+		"txt": "If the front wheels slide, the car understeers and the arc is larger than the driver intended.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_the_front_wheels_slide__the_car__than_the_driver_intended_____.wav",
+		"duration": 1.9,
+		"sentenceIndex": 9591,
+		"timestamp": 302.11999999999983
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 304.0199999999998
+	},
+	{
+		"index": 179,
+		"txt": "This is commonly caused by traveling too fast through a corner and trying to take the corner too tightly.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_commonly_caused_by_travelin_e_the_corner_too_tightly_____.wav",
+		"duration": 2.04,
+		"sentenceIndex": 9592,
+		"timestamp": 304.5199999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 306.55999999999983
+	},
+	{
+		"index": 180,
+		"txt": "However, if the driver breaks hard or even just lets off the gas, there will be a weight shift forward.",
+		"file": "/home/user1/trash/dirOutputSet/_100_However__if_the_driver_breaks_hard__e_a_weight_shift_forward_____.wav",
+		"duration": 2.1,
+		"sentenceIndex": 9593,
+		"timestamp": 307.05999999999983
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 309.15999999999985
+	},
+	{
+		"index": 181,
+		"txt": "This will keep the forward wheels from slipping but if too aggressive will cause the rear wheels to slip as weight is transferred away from them.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_will_keep_the_forward_wheels_f_ansferred_away_from_them_____.wav",
+		"duration": 2.58,
+		"sentenceIndex": 9594,
+		"timestamp": 309.65999999999985
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 312.23999999999984
+	},
+	{
+		"index": 182,
+		"txt": "This causes the car to turn more than the driver intended, and can even result in a spin.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_causes_the_car_to_turn_more_th_an_even_result_in_a_spin_____.wav",
+		"duration": 1.84,
+		"sentenceIndex": 9595,
+		"timestamp": 312.73999999999984
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 314.5799999999998
+	},
+	{
+		"index": 183,
+		"txt": "These two conditions limit the speed at which a car can complete a turn and also the amount of deceleration the car can handle once the turn is initiated.",
+		"file": "/home/user1/trash/dirOutputSet/_100_These_two_conditions_limit_the_spee_ce_the_turn_is_initiated_____.wav",
+		"duration": 2.92,
+		"sentenceIndex": 9596,
+		"timestamp": 315.0799999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 317.99999999999983
+	},
+	{
+		"index": 186,
+		"txt": "To increase the limit speed, vlimit , we must increase the normal force.",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_increase_the_limit_speed__vlimit_ncrease_the_normal_force_____.wav",
+		"duration": 1.57,
+		"sentenceIndex": 9599,
+		"timestamp": 318.49999999999983
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 320.0699999999998
+	},
+	{
+		"index": 187,
+		"txt": "We could do so by increasing the car's mass, but this would have negative effects on the car's ability to accelerate or decelerate.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_could_do_so_by_increasing_the_ca_accelerate_or_decelerate_____.wav",
+		"duration": 2.54,
+		"sentenceIndex": 9600,
+		"timestamp": 320.5699999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 323.10999999999984
+	},
+	{
+		"index": 188,
+		"txt": "A better solution is the use of aerodynamic features to create what is called downforce .",
+		"file": "/home/user1/trash/dirOutputSet/_100_A_better_solution_is_the_use_of_aer_hat_is_called_downforce______.wav",
+		"duration": 1.91,
+		"sentenceIndex": 9601,
+		"timestamp": 323.60999999999984
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 325.51999999999987
+	},
+	{
+		"index": 189,
+		"txt": "You may have seen racecars or even street cars with large wing like features called spoilers on their trunks.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_may_have_seen_racecars_or_even__spoilers_on_their_trunks_____.wav",
+		"duration": 2.25,
+		"sentenceIndex": 9602,
+		"timestamp": 326.01999999999987
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 328.26999999999987
+	},
+	{
+		"index": 190,
+		"txt": "Formula 1 cars also have wing like appendages on the front of the car.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Formula_1_cars_also_have_wing_like___on_the_front_of_the_car_____.wav",
+		"duration": 1.64,
+		"sentenceIndex": 9603,
+		"timestamp": 328.76999999999987
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 330.40999999999985
+	},
+	{
+		"index": 191,
+		"txt": "These are like the wings of an airplane but inverted so that instead of pulling the vehicle up, they actually push the vehicle down.",
+		"file": "/home/user1/trash/dirOutputSet/_100_These_are_like_the_wings_of_an_airp_ly_push_the_vehicle_down_____.wav",
+		"duration": 2.5,
+		"sentenceIndex": 9604,
+		"timestamp": 330.90999999999985
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 333.40999999999985
+	},
+	{
+		"index": 192,
+		"txt": "These wings, therefore, increase the normal force, and their effects are proportional to speed so that more downforce is available at higher speeds...just when you need it.",
+		"file": "/home/user1/trash/dirOutputSet/_100_These_wings__therefore__increase_th____just_when_you_need_it_____.wav",
+		"duration": 3.55,
+		"sentenceIndex": 9605,
+		"timestamp": 333.90999999999985
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 337.45999999999987
+	},
+	{
+		"index": 193,
+		"txt": "In fact, some very fast cars create so much downforce that if the road were inverted, the car would remain glued to the pavement and be able to drive upside down.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_fact__some_very_fast_cars_create_ble_to_drive_upside_down_____.wav",
+		"duration": 3.42,
+		"sentenceIndex": 9606,
+		"timestamp": 337.95999999999987
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 341.3799999999999
+	},
+	{
+		"index": 196,
+		"txt": "The trade off for this increased cornering limit speed is increased drag caused by the airfoils.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_trade_off_for_this_increased_co_g_caused_by_the_airfoils_____.wav",
+		"duration": 1.88,
+		"sentenceIndex": 9609,
+		"timestamp": 341.8799999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 343.7599999999999
+	},
+	{
+		"index": 197,
+		"txt": "This limits the top speed of the vehicle in areas of road that have no corners.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_limits_the_top_speed_of_the_ve_oad_that_have_no_corners_____.wav",
+		"duration": 1.64,
+		"sentenceIndex": 9610,
+		"timestamp": 344.2599999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 345.89999999999986
+	},
+	{
+		"index": 198,
+		"txt": "It is good practice to allow users to select an angle of attack for their vehicle's airfoils.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_is_good_practice_to_allow_users__their_vehicle_s_airfoils_____.wav",
+		"duration": 1.9,
+		"sentenceIndex": 9611,
+		"timestamp": 346.39999999999986
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 348.29999999999984
+	},
+	{
+		"index": 199,
+		"txt": "This forces them to choose between the option of higher top speed with slower cornering or faster cornering with lower top speed.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_forces_them_to_choose_between__ing_with_lower_top_speed_____.wav",
+		"duration": 2.57,
+		"sentenceIndex": 9612,
+		"timestamp": 348.79999999999984
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 351.36999999999983
+	},
+	{
+		"index": 202,
+		"txt": "You may notice that on some raceways, the corners are not flat.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_may_notice_that_on_some_raceway_the_corners_are_not_flat_____.wav",
+		"duration": 1.4,
+		"sentenceIndex": 9615,
+		"timestamp": 351.86999999999983
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 353.2699999999998
+	},
+	{
+		"index": 203,
+		"txt": "This is called",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_called_This_is_called____.wav",
+		"duration": 0.34,
+		"sentenceIndex": 9616,
+		"timestamp": 353.7699999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 354.1099999999998
+	},
+	{
+		"index": 205,
+		"txt": "roadway bank or superelevation .",
+		"file": "/home/user1/trash/dirOutputSet/_100_roadway_bank_or_superelevation____bank_or_superelevation______.wav",
+		"duration": 0.77,
+		"sentenceIndex": 9618,
+		"timestamp": 354.6099999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 355.37999999999977
+	},
+	{
+		"index": 206,
+		"txt": "In a corner where the car would normally skid, the superelevation helps keep the car in the turn because as the car is inclined, a force component develops that acts toward the center of curvature of the turn (see",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_a_corner_where_the_car_would_nor_urvature_of_the_turn__see____.wav",
+		"duration": 4.45,
+		"sentenceIndex": 9619,
+		"timestamp": 355.87999999999977
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 360.32999999999976
+	},
+	{
+		"index": 207,
+		"txt": "Figure 17 2",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 17_2_Figure 17_2____.wav",
+		"duration": 0.63,
+		"sentenceIndex": 9620,
+		"timestamp": 360.82999999999976
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 361.45999999999975
+	},
+	{
+		"index": 214,
+		"txt": "Figure 17 2. Superelevation",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 17_2_ Superelevation_gure 17_2_ Superelevation____.wav",
+		"duration": 1.17,
+		"sentenceIndex": 9627,
+		"timestamp": 361.95999999999975
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 363.12999999999977
+	},
+	{
+		"index": 216,
+		"txt": "The following simple formula relates the superelevation angle of a roadway to the speed of the car and the coefficient of friction between the tires and road:tan φ = Vt2/(g r) – µs",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_following_simple_formula_relate_ad_tan_____Vt2__g_r_____s____.wav",
+		"duration": 4.73,
+		"sentenceIndex": 9629,
+		"timestamp": 363.62999999999977
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 368.3599999999998
+	},
+	{
+		"index": 218,
+		"txt": "Here, φ is the superelevation angle (as shown in",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here____is_the_superelevation_angle_vation_angle__as_shown_in____.wav",
+		"duration": 1.57,
+		"sentenceIndex": 9631,
+		"timestamp": 368.8599999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 370.4299999999998
+	},
+	{
+		"index": 219,
+		"txt": "Figure 17 2), Vt is the tangential component of velocity of the car going around the turn, g is the acceleration due to gravity, r is the radius of the curve, and µs",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 17_2___Vt_is_the_tangential__dius_of_the_curve__and__s____.wav",
+		"duration": 4.21,
+		"sentenceIndex": 9632,
+		"timestamp": 370.9299999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 375.13999999999976
+	},
+	{
+		"index": 220,
+		"txt": "is the static coefficient of friction between the tires and the road.",
+		"file": "/home/user1/trash/dirOutputSet/_100_is_the_static_coefficient_of_fricti_n_the_tires_and_the_road_____.wav",
+		"duration": 1.33,
+		"sentenceIndex": 9633,
+		"timestamp": 375.63999999999976
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 376.96999999999974
+	},
+	{
+		"index": 221,
+		"txt": "If you know φ, r , and µ, then you can calculate the speed at which the car will begin to slip out of the turn and off the road.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_you_know____r___and____then_you__he_turn_and_off_the_road_____.wav",
+		"duration": 3.02,
+		"sentenceIndex": 9634,
+		"timestamp": 377.46999999999974
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 380.4899999999997
+	},
+	{
+		"index": 223,
+		"txt": "Vehicle dynamics is a complex field, and if you are interested in a highly realistic driving simulation game, we recommend reading up on the subject.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Vehicle_dynamics_is_a_complex_field_eading_up_on_the_subject_____.wav",
+		"duration": 3.12,
+		"sentenceIndex": 9636,
+		"timestamp": 380.9899999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 384.10999999999973
+	},
+	{
+		"index": 224,
+		"txt": "A good",
+		"file": "/home/user1/trash/dirOutputSet/_100_A_good_A_good____.wav",
+		"duration": 0.2,
+		"sentenceIndex": 9637,
+		"timestamp": 384.60999999999973
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 384.8099999999997
+	},
+	{
+		"index": 226,
+		"txt": "starting place is Fundamentals of Vehicle Dynamics by",
+		"file": "/home/user1/trash/dirOutputSet/_100_starting_place_is_Fundamentals_of_V_ls_of_Vehicle_Dynamics_by____.wav",
+		"duration": 1.27,
+		"sentenceIndex": 9639,
+		"timestamp": 385.3099999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 386.5799999999997
+	},
+	{
+		"index": 227,
+		"txt": "Thomas Gillespie (Society of Automobile Engineers).",
+		"file": "/home/user1/trash/dirOutputSet/_100_Thomas_Gillespie__Society_of_Automo_of_Automobile_Engineers______.wav",
+		"duration": 1.24,
+		"sentenceIndex": 9640,
+		"timestamp": 387.0799999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 388.3199999999997
+	},
+	{
+		"index": 230,
+		"txt": "Hovercraft",
+		"file": "/home/user1/trash/dirOutputSet/_100_Hovercraft_Hovercraft____.wav",
+		"duration": 0.3,
+		"sentenceIndex": 9643,
+		"timestamp": 388.8199999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 389.1199999999997
+	},
+	{
+		"index": 232,
+		"txt": "Hovercraft, or air cushion vehicles (ACVs),",
+		"file": "/home/user1/trash/dirOutputSet/_100_Hovercraft__or_air_cushion_vehicles__cushion_vehicles__ACVs______.wav",
+		"duration": 1.29,
+		"sentenceIndex": 9645,
+		"timestamp": 389.6199999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 390.90999999999974
+	},
+	{
+		"index": 235,
+		"txt": "have made their way into a video game or two recently.",
+		"file": "/home/user1/trash/dirOutputSet/_100_have_made_their_way_into_a_video_ga_deo_game_or_two_recently_____.wav",
+		"duration": 1.14,
+		"sentenceIndex": 9648,
+		"timestamp": 391.40999999999974
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 392.5499999999997
+	},
+	{
+		"index": 236,
+		"txt": "Their appeal seems to stem from their futuristic aura, high speed, and levitating ability, which lets them go anywhere.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Their_appeal_seems_to_stem_from_the_ch_lets_them_go_anywhere_____.wav",
+		"duration": 2.53,
+		"sentenceIndex": 9649,
+		"timestamp": 393.0499999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 395.5799999999997
+	},
+	{
+		"index": 237,
+		"txt": "In real life, hovercraft have been around since the 1950s and have been used in combat, search and rescue, cargo transport, ferrying, and recreational roles.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_real_life__hovercraft_have_been____and_recreational_roles_____.wav",
+		"duration": 3.72,
+		"sentenceIndex": 9650,
+		"timestamp": 396.0799999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 399.7999999999997
+	},
+	{
+		"index": 238,
+		"txt": "They come in all shapes and sizes, but they all pretty much work the same, with the basic idea of getting the craft off the land or water to reduce its drag.",
+		"file": "/home/user1/trash/dirOutputSet/_100_They_come_in_all_shapes_and_sizes___water_to_reduce_its_drag_____.wav",
+		"duration": 3.25,
+		"sentenceIndex": 9651,
+		"timestamp": 400.2999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 403.5499999999997
+	},
+	{
+		"index": 239,
+		"txt": "In",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_In____.wav",
+		"duration": 0.17,
+		"sentenceIndex": 9652,
+		"timestamp": 404.0499999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 404.21999999999974
+	},
+	{
+		"index": 240,
+		"txt": "Chapter 9",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 9_Chapter 9____.wav",
+		"duration": 0.34,
+		"sentenceIndex": 9653,
+		"timestamp": 404.71999999999974
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 405.0599999999997
+	},
+	{
+		"index": 241,
+		"txt": ", we touched on what forces you have to model when considering hovercraft, and now we'll talk about them in more detail.",
+		"file": "/home/user1/trash/dirOutputSet/_100___we_touched_on_what_forces_you_hav_bout_them_in_more_detail_____.wav",
+		"duration": 2.28,
+		"sentenceIndex": 9654,
+		"timestamp": 405.5599999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 407.8399999999997
+	},
+	{
+		"index": 243,
+		"txt": "How Hovercraft Work",
+		"file": "/home/user1/trash/dirOutputSet/_100_How_Hovercraft_Work_How_Hovercraft_Work____.wav",
+		"duration": 0.49,
+		"sentenceIndex": 9656,
+		"timestamp": 408.3399999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 408.8299999999997
+	},
+	{
+		"index": 244,
+		"txt": "The first hovercraft designs pumped air through an annular nozzle around the periphery of the craft (see",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_first_hovercraft_designs_pumped_riphery_of_the_craft__see____.wav",
+		"duration": 2.1,
+		"sentenceIndex": 9657,
+		"timestamp": 409.3299999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 411.4299999999997
+	},
+	{
+		"index": 245,
+		"txt": "Figure 17 3",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 17_3_Figure 17_3____.wav",
+		"duration": 0.69,
+		"sentenceIndex": 9658,
+		"timestamp": 411.9299999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 412.6199999999997
+	},
+	{
+		"index": 247,
+		"txt": "Large fans are used to feed the air through the nozzle under the craft.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Large_fans_are_used_to_feed_the_air_e_nozzle_under_the_craft_____.wav",
+		"duration": 1.33,
+		"sentenceIndex": 9660,
+		"timestamp": 413.1199999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 414.4499999999997
+	},
+	{
+		"index": 248,
+		"txt": "This jet of air creates a region of relatively high pressure over the area underneath the craft, which results in a net lifting force.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_jet_of_air_creates_a_region_of_s_in_a_net_lifting_force_____.wav",
+		"duration": 2.6,
+		"sentenceIndex": 9661,
+		"timestamp": 414.9499999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 417.5499999999997
+	},
+	{
+		"index": 249,
+		"txt": "The lifting force must equal the weight of the craft if it is to attain hovering flight.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_lifting_force_must_equal_the_we_o_attain_hovering_flight_____.wav",
+		"duration": 1.61,
+		"sentenceIndex": 9662,
+		"timestamp": 418.0499999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 419.65999999999974
+	},
+	{
+		"index": 250,
+		"txt": "This sort of lifting is known as aerostatic lift.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_sort_of_lifting_is_known_as_ae_known_as_aerostatic_lift_____.wav",
+		"duration": 1.1,
+		"sentenceIndex": 9663,
+		"timestamp": 420.15999999999974
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 421.25999999999976
+	},
+	{
+		"index": 251,
+		"txt": "The",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_The____.wav",
+		"duration": 0.13,
+		"sentenceIndex": 9664,
+		"timestamp": 421.75999999999976
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 421.88999999999976
+	},
+	{
+		"index": 253,
+		"txt": "hover height is limited by the amount of",
+		"file": "/home/user1/trash/dirOutputSet/_100_hover_height_is_limited_by_the_amou__limited_by_the_amount_of____.wav",
+		"duration": 0.76,
+		"sentenceIndex": 9666,
+		"timestamp": 422.38999999999976
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 423.14999999999975
+	},
+	{
+		"index": 254,
+		"txt": "power available and the lifting fan's ability to pump enough air through the nozzle: the higher the hover height, the greater the power demand.",
+		"file": "/home/user1/trash/dirOutputSet/_100_power_available_and_the_lifting_fan_greater_the_power_demand_____.wav",
+		"duration": 2.65,
+		"sentenceIndex": 9667,
+		"timestamp": 423.64999999999975
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 426.2999999999997
+	},
+	{
+		"index": 260,
+		"txt": "Figure 17 3. Hovercraft configurations",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 17_3_ Hovercraft_configurati_Hovercraft_configurations____.wav",
+		"duration": 1.34,
+		"sentenceIndex": 9673,
+		"timestamp": 426.7999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 428.1399999999997
+	},
+	{
+		"index": 262,
+		"txt": "This approach proved impractical because hover heights were very limited and made the clearance between the hard structure of the craft and the ground (or water) too small to overcome all but the smallest obstacles.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_approach_proved_impractical_be_t_the_smallest_obstacles_____.wav",
+		"duration": 4.22,
+		"sentenceIndex": 9675,
+		"timestamp": 428.6399999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 432.85999999999973
+	},
+	{
+		"index": 263,
+		"txt": "The solution to this problem was to fit a flexible skirt around the craft to contain the air cushion in what's called",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_solution_to_this_problem_was_to__cushion_in_what_s_called____.wav",
+		"duration": 2.21,
+		"sentenceIndex": 9676,
+		"timestamp": 433.35999999999973
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 435.5699999999997
+	},
+	{
+		"index": 264,
+		"txt": "the plenum chamber (see",
+		"file": "/home/user1/trash/dirOutputSet/_100_the_plenum_chamber__see_the_plenum_chamber__see____.wav",
+		"duration": 0.67,
+		"sentenceIndex": 9677,
+		"timestamp": 436.0699999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 436.7399999999997
+	},
+	{
+		"index": 266,
+		"txt": "Figure 17 3 ).",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 17_3____Figure 17_3_______.wav",
+		"duration": 0.69,
+		"sentenceIndex": 9679,
+		"timestamp": 437.2399999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 437.9299999999997
+	},
+	{
+		"index": 267,
+		"txt": "This approach extended the clearance between the ground and the hard structure of the craft significantly even though the gap between the bottom of the skirt and the ground was very small.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_approach_extended_the_clearanc_he_ground_was_very_small_____.wav",
+		"duration": 3.42,
+		"sentenceIndex": 9680,
+		"timestamp": 438.4299999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 441.84999999999974
+	},
+	{
+		"index": 268,
+		"txt": "This is the basic configuration of most hovercraft in operation today, although there are all sorts of skirt designs.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_the_basic_configuration_of__l_sorts_of_skirt_designs_____.wav",
+		"duration": 2.45,
+		"sentenceIndex": 9681,
+		"timestamp": 442.34999999999974
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 444.7999999999997
+	},
+	{
+		"index": 269,
+		"txt": "Some of these skirts are simple curtains, while others are sophisticated pressurized bag and finger arrangements.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Some_of_these_skirts_are_simple_cur__and_finger_arrangements_____.wav",
+		"duration": 2.3,
+		"sentenceIndex": 9682,
+		"timestamp": 445.2999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 447.59999999999974
+	},
+	{
+		"index": 270,
+		"txt": "The end result is that hovercraft fitted with skirts can clear relatively large obstacles without damage to their hard structure, and the skirt simply distorts and conforms to the terrain over which the craft operates.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_end_result_is_that_hovercraft_f_which_the_craft_operates_____.wav",
+		"duration": 4.19,
+		"sentenceIndex": 9683,
+		"timestamp": 448.09999999999974
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 452.28999999999974
+	},
+	{
+		"index": 272,
+		"txt": "The actual calculation of the aerostatic lift force is fairly complicated because the pressure distribution within the air cushion is nonuniform and because you must also take into account the performance of the lift fan system.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_actual_calculation_of_the_aeros_e_of_the_lift_fan_system_____.wav",
+		"duration": 4.38,
+		"sentenceIndex": 9685,
+		"timestamp": 452.78999999999974
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 457.16999999999973
+	},
+	{
+		"index": 273,
+		"txt": "There are theories available to treat both the annular jet and plenum chamber configurations, but they are beyond the scope of this book.",
+		"file": "/home/user1/trash/dirOutputSet/_100_There_are_theories_available_to_tre_d_the_scope_of_this_book_____.wav",
+		"duration": 2.52,
+		"sentenceIndex": 9686,
+		"timestamp": 457.66999999999973
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 460.1899999999997
+	},
+	{
+		"index": 274,
+		"txt": "Besides, for a game simulation, what's important is that you realize that the lift force must equal the weight of the craft in order for it to maintain equilibrium in hovering flight.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Besides__for_a_game_simulation__wha_brium_in_hovering_flight_____.wav",
+		"duration": 3.59,
+		"sentenceIndex": 9687,
+		"timestamp": 460.6899999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 464.2799999999997
+	},
+	{
+		"index": 276,
+		"txt": "Ideally, the ability of a hovercraft to eliminate contact with the ground (or water) over which it operates means that it can travel relatively fast since it no longer experiences contact drag forces.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Ideally__the_ability_of_a_hovercraf_nces_contact_drag_forces_____.wav",
+		"duration": 4.32,
+		"sentenceIndex": 9689,
+		"timestamp": 464.7799999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 469.0999999999997
+	},
+	{
+		"index": 277,
+		"txt": "Notice we said ideally .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Notice_we_said_ideally___Notice_we_said_ideally______.wav",
+		"duration": 0.52,
+		"sentenceIndex": 9690,
+		"timestamp": 469.5999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 470.11999999999966
+	},
+	{
+		"index": 278,
+		"txt": "In reality, hovercraft often pitch and roll, causing parts of the skirt to drag, and any obstacle that comes into contact with the skirt will cause more drag.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_reality__hovercraft_often_pitch__irt_will_cause_more_drag_____.wav",
+		"duration": 3.54,
+		"sentenceIndex": 9691,
+		"timestamp": 470.61999999999966
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 474.1599999999997
+	},
+	{
+		"index": 279,
+		"txt": "At any rate, while eliminating ground contact is good for speed, it's not so good for maneuverability.",
+		"file": "/home/user1/trash/dirOutputSet/_100_At_any_rate__while_eliminating_grou_good_for_maneuverability_____.wav",
+		"duration": 2.18,
+		"sentenceIndex": 9692,
+		"timestamp": 474.6599999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 476.8399999999997
+	},
+	{
+		"index": 281,
+		"txt": "Hovercraft are",
+		"file": "/home/user1/trash/dirOutputSet/_100_Hovercraft_are_Hovercraft_are____.wav",
+		"duration": 0.39,
+		"sentenceIndex": 9694,
+		"timestamp": 477.3399999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 477.7299999999997
+	},
+	{
+		"index": 283,
+		"txt": "notoriously difficult to control since they glide across the ground.",
+		"file": "/home/user1/trash/dirOutputSet/_100_notoriously_difficult_to_control_si__glide_across_the_ground_____.wav",
+		"duration": 1.34,
+		"sentenceIndex": 9696,
+		"timestamp": 478.2299999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 479.56999999999965
+	},
+	{
+		"index": 284,
+		"txt": "They tend to continue on their original trajectory even after you try to turn them.",
+		"file": "/home/user1/trash/dirOutputSet/_100_They_tend_to_continue_on_their_orig_ter_you_try_to_turn_them_____.wav",
+		"duration": 1.6,
+		"sentenceIndex": 9697,
+		"timestamp": 480.06999999999965
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 481.6699999999997
+	},
+	{
+		"index": 285,
+		"txt": "Currently, there are several means employed in various configurations for directional control.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Currently__there_are_several_means___for_directional_control_____.wav",
+		"duration": 1.91,
+		"sentenceIndex": 9698,
+		"timestamp": 482.1699999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 484.0799999999997
+	},
+	{
+		"index": 286,
+		"txt": "Some hovercraft use vertical tail rudders much like an airplane, while others actually vector their propulsion thrust.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Some_hovercraft_use_vertical_tail_r__their_propulsion_thrust_____.wav",
+		"duration": 2.45,
+		"sentenceIndex": 9699,
+		"timestamp": 484.5799999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 487.0299999999997
+	},
+	{
+		"index": 287,
+		"txt": "Still others use bow thrusters, which offer very good control.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Still_others_use_bow_thrusters__whi__offer_very_good_control_____.wav",
+		"duration": 1.39,
+		"sentenceIndex": 9700,
+		"timestamp": 487.5299999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 488.9199999999997
+	},
+	{
+		"index": 288,
+		"txt": "All of these means are fairly easy to model in a simulation; they are all simply forces acting on the craft at some distance from its center of gravity so as to create a yawing moment.",
+		"file": "/home/user1/trash/dirOutputSet/_100_All_of_these_means_are_fairly_easy__o_create_a_yawing_moment_____.wav",
+		"duration": 3.59,
+		"sentenceIndex": 9701,
+		"timestamp": 489.4199999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 493.00999999999965
+	},
+	{
+		"index": 289,
+		"txt": "The 2D simulation that we walked you through in",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_2D_simulation_that_we_walked_yo__we_walked_you_through_in____.wav",
+		"duration": 0.92,
+		"sentenceIndex": 9702,
+		"timestamp": 493.50999999999965
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 494.42999999999967
+	},
+	{
+		"index": 290,
+		"txt": "Chapter 9",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 9_Chapter 9____.wav",
+		"duration": 0.34,
+		"sentenceIndex": 9703,
+		"timestamp": 494.92999999999967
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 495.26999999999964
+	},
+	{
+		"index": 291,
+		"txt": "shows how to handle bow thrusters.",
+		"file": "/home/user1/trash/dirOutputSet/_100_shows_how_to_handle_bow_thrusters___to_handle_bow_thrusters_____.wav",
+		"duration": 0.72,
+		"sentenceIndex": 9704,
+		"timestamp": 495.76999999999964
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 496.48999999999967
+	},
+	{
+		"index": 292,
+		"txt": "You can handle vertical tail rudders as we showed you",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_handle_vertical_tail_rudder__rudders_as_we_showed_you____.wav",
+		"duration": 1.1,
+		"sentenceIndex": 9705,
+		"timestamp": 496.98999999999967
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 498.0899999999997
+	},
+	{
+		"index": 293,
+		"txt": "in",
+		"file": "/home/user1/trash/dirOutputSet/_100_in_in____.wav",
+		"duration": 0.17,
+		"sentenceIndex": 9706,
+		"timestamp": 498.5899999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 498.7599999999997
+	},
+	{
+		"index": 295,
+		"txt": "Chapter 15 .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 15___Chapter 15______.wav",
+		"duration": 0.43,
+		"sentenceIndex": 9708,
+		"timestamp": 499.2599999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 499.6899999999997
+	},
+	{
+		"index": 297,
+		"txt": "Resistance",
+		"file": "/home/user1/trash/dirOutputSet/_100_Resistance_Resistance____.wav",
+		"duration": 0.28,
+		"sentenceIndex": 9710,
+		"timestamp": 500.1899999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 500.4699999999997
+	},
+	{
+		"index": 298,
+		"txt": "Let's take a",
+		"file": "/home/user1/trash/dirOutputSet/_100_Let_s_take_a_Let_s_take_a____.wav",
+		"duration": 0.4,
+		"sentenceIndex": 9711,
+		"timestamp": 500.9699999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 501.36999999999966
+	},
+	{
+		"index": 300,
+		"txt": "look now at some of the",
+		"file": "/home/user1/trash/dirOutputSet/_100_look_now_at_some_of_the_look_now_at_some_of_the____.wav",
+		"duration": 0.5,
+		"sentenceIndex": 9713,
+		"timestamp": 501.86999999999966
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 502.36999999999966
+	},
+	{
+		"index": 301,
+		"txt": "drag forces acting on a hovercraft during flight.",
+		"file": "/home/user1/trash/dirOutputSet/_100_drag_forces_acting_on_a_hovercraft__hovercraft_during_flight_____.wav",
+		"duration": 1.02,
+		"sentenceIndex": 9714,
+		"timestamp": 502.86999999999966
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 503.88999999999965
+	},
+	{
+		"index": 302,
+		"txt": "To do this, we'll handle operation over land separately from operation over water since there are some specific differences in the drag forces experienced by the hovercraft.",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_do_this__we_ll_handle_operation__ienced_by_the_hovercraft_____.wav",
+		"duration": 3.43,
+		"sentenceIndex": 9715,
+		"timestamp": 504.38999999999965
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 507.81999999999965
+	},
+	{
+		"index": 305,
+		"txt": "When a hovercraft is operating over smooth land, the total drag acting against the hovercraft is",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_a_hovercraft_is_operating_over_against_the_hovercraft_is____.wav",
+		"duration": 2.05,
+		"sentenceIndex": 9718,
+		"timestamp": 508.31999999999965
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 510.36999999999966
+	},
+	{
+		"index": 307,
+		"txt": "aerodynamic in nature.",
+		"file": "/home/user1/trash/dirOutputSet/_100_aerodynamic_in_nature__aerodynamic_in_nature_____.wav",
+		"duration": 0.56,
+		"sentenceIndex": 9720,
+		"timestamp": 510.86999999999966
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 511.42999999999967
+	},
+	{
+		"index": 308,
+		"txt": "This assumes that drag induced by dragging the skirt or hitting obstacles is ignored.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_assumes_that_drag_induced_by_d_ing_obstacles_is_ignored_____.wav",
+		"duration": 1.69,
+		"sentenceIndex": 9721,
+		"timestamp": 511.92999999999967
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 513.6199999999997
+	},
+	{
+		"index": 309,
+		"txt": "The three components of aerodynamic drag are:",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_three_components_of_aerodynamic__of_aerodynamic_drag_are_____.wav",
+		"duration": 0.99,
+		"sentenceIndex": 9722,
+		"timestamp": 514.1199999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 515.1099999999997
+	},
+	{
+		"index": 312,
+		"txt": "Skin friction and",
+		"file": "/home/user1/trash/dirOutputSet/_100_Skin_friction_and_Skin_friction_and____.wav",
+		"duration": 0.44,
+		"sentenceIndex": 9725,
+		"timestamp": 515.6099999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 516.0499999999997
+	},
+	{
+		"index": 313,
+		"txt": "viscous pressure drag on the body of the craft",
+		"file": "/home/user1/trash/dirOutputSet/_100_viscous_pressure_drag_on_the_body_o__on_the_body_of_the_craft____.wav",
+		"duration": 0.95,
+		"sentenceIndex": 9726,
+		"timestamp": 516.5499999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 517.4999999999998
+	},
+	{
+		"index": 316,
+		"txt": "Induced drag",
+		"file": "/home/user1/trash/dirOutputSet/_100_Induced_drag_Induced_drag____.wav",
+		"duration": 0.36,
+		"sentenceIndex": 9729,
+		"timestamp": 517.9999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 518.3599999999998
+	},
+	{
+		"index": 317,
+		"txt": "when the craft is pitched",
+		"file": "/home/user1/trash/dirOutputSet/_100_when_the_craft_is_pitched_when_the_craft_is_pitched____.wav",
+		"duration": 0.46,
+		"sentenceIndex": 9730,
+		"timestamp": 518.8599999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 519.3199999999998
+	},
+	{
+		"index": 320,
+		"txt": "Momentum drag",
+		"file": "/home/user1/trash/dirOutputSet/_100_Momentum_drag_Momentum_drag____.wav",
+		"duration": 0.4,
+		"sentenceIndex": 9733,
+		"timestamp": 519.8199999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 520.2199999999998
+	},
+	{
+		"index": 322,
+		"txt": "In equation form, the total drag is as follows:Rtotal = Rviscous + Rinduced + Rmomentum",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_equation_form__the_total_drag_is_us___Rinduced___Rmomentum____.wav",
+		"duration": 2.26,
+		"sentenceIndex": 9735,
+		"timestamp": 520.7199999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 522.9799999999998
+	},
+	{
+		"index": 324,
+		"txt": "The first of these components, the viscous drag",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_first_of_these_components__the__ponents__the_viscous_drag____.wav",
+		"duration": 1.07,
+		"sentenceIndex": 9737,
+		"timestamp": 523.4799999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 524.5499999999998
+	},
+	{
+		"index": 325,
+		"txt": "on the body of the craft, is the same sort of drag experienced by projectiles flying through the air, as explained in",
+		"file": "/home/user1/trash/dirOutputSet/_100_on_the_body_of_the_craft__is_the_sa__the_air__as_explained_in____.wav",
+		"duration": 2.54,
+		"sentenceIndex": 9738,
+		"timestamp": 525.0499999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 527.5899999999998
+	},
+	{
+		"index": 327,
+		"txt": "Chapter 6 .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 6___Chapter 6______.wav",
+		"duration": 0.35,
+		"sentenceIndex": 9740,
+		"timestamp": 528.0899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 528.4399999999998
+	},
+	{
+		"index": 328,
+		"txt": "This drag is estimated using the by now familiar formula:Rviscous = (1/2) ρ V2 Sp Cd",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_drag_is_estimated_using_the_by_iscous____1_2____V2_Sp_Cd____.wav",
+		"duration": 2.82,
+		"sentenceIndex": 9741,
+		"timestamp": 528.9399999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 531.7599999999999
+	},
+	{
+		"index": 329,
+		"txt": "Here ρ is the mass density of air, V the speed of the hovercraft, Sp the projected frontal area of the craft normal to the direction of V, and Cd the drag coefficient.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here___is_the_mass_density_of_air____Cd_the_drag_coefficient_____.wav",
+		"duration": 3.88,
+		"sentenceIndex": 9742,
+		"timestamp": 532.2599999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 536.1399999999999
+	},
+	{
+		"index": 331,
+		"txt": "Typical values of Cd for craft in operation today range from 0.25 to 0.4.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Typical_values_of_Cd_for_craft_in_o_y_range_from_0_25_to_0_4_____.wav",
+		"duration": 2.41,
+		"sentenceIndex": 9744,
+		"timestamp": 536.6399999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 539.0499999999998
+	},
+	{
+		"index": 334,
+		"txt": "The next drag component, the induced drag, is a result of the craft assuming a pitched attitude when moving.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_next_drag_component__the_induce_hed_attitude_when_moving_____.wav",
+		"duration": 2.3,
+		"sentenceIndex": 9747,
+		"timestamp": 539.5499999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 541.8499999999998
+	},
+	{
+		"index": 335,
+		"txt": "When the bow of the craft pitches up by an angle τ, there will be a component of the aerostatic lift vector that acts in a direction opposing V .",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_the_bow_of_the_craft_pitches_u__a_direction_opposing_V______.wav",
+		"duration": 3.14,
+		"sentenceIndex": 9748,
+		"timestamp": 542.3499999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 545.4899999999998
+	},
+	{
+		"index": 336,
+		"txt": "This component is approximately equal to the weight of the craft times the tangent of the pitch angle:Rinduced ≈ W (tan τ)",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_component_is_approximately_equ_ngle_Rinduced___W__tan_______.wav",
+		"duration": 2.84,
+		"sentenceIndex": 9749,
+		"timestamp": 545.9899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 548.8299999999998
+	},
+	{
+		"index": 338,
+		"txt": "Finally, momentum drag",
+		"file": "/home/user1/trash/dirOutputSet/_100_Finally__momentum_drag_Finally__momentum_drag____.wav",
+		"duration": 0.66,
+		"sentenceIndex": 9751,
+		"timestamp": 549.3299999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 549.9899999999998
+	},
+	{
+		"index": 339,
+		"txt": "results from the destruction of horizontal momentum of air, relative to the craft entering the lift fan intake.",
+		"file": "/home/user1/trash/dirOutputSet/_100_results_from_the_destruction_of_hor_ring_the_lift_fan_intake_____.wav",
+		"duration": 2.23,
+		"sentenceIndex": 9752,
+		"timestamp": 550.4899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 552.7199999999998
+	},
+	{
+		"index": 340,
+		"txt": "This component is difficult to compute unless you know the properties of the entire lifting system such that the",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_component_is_difficult_to_comp_ting_system_such_that_the____.wav",
+		"duration": 2.15,
+		"sentenceIndex": 9753,
+		"timestamp": 553.2199999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 555.3699999999998
+	},
+	{
+		"index": 341,
+		"txt": "mass flow rate of air into the fan is known.",
+		"file": "/home/user1/trash/dirOutputSet/_100_mass_flow_rate_of_air_into_the_fan__ir_into_the_fan_is_known_____.wav",
+		"duration": 0.92,
+		"sentenceIndex": 9754,
+		"timestamp": 555.8699999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 556.7899999999997
+	},
+	{
+		"index": 342,
+		"txt": "Given the mass flow rate, Rmomentum is equal to the mass flow rate times the velocity of the craft:Rmomentum = (dmfan/dt) V",
+		"file": "/home/user1/trash/dirOutputSet/_100_Given_the_mass_flow_rate__Rmomentum__Rmomentum____dmfan_dt__V____.wav",
+		"duration": 3.25,
+		"sentenceIndex": 9755,
+		"timestamp": 557.2899999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 560.5399999999997
+	},
+	{
+		"index": 344,
+		"txt": "Mass flow rate is expressed in units such as kg/s, which when multiplied by velocity in m/s yields N .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Mass_flow_rate_is_expressed_in_unit_elocity_in_m_s_yields_N______.wav",
+		"duration": 2.83,
+		"sentenceIndex": 9757,
+		"timestamp": 561.0399999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 563.8699999999998
+	},
+	{
+		"index": 347,
+		"txt": "In",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_In____.wav",
+		"duration": 0.17,
+		"sentenceIndex": 9760,
+		"timestamp": 564.3699999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 564.5399999999997
+	},
+	{
+		"index": 348,
+		"txt": "Chapter 9",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 9_Chapter 9____.wav",
+		"duration": 0.34,
+		"sentenceIndex": 9761,
+		"timestamp": 565.0399999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 565.3799999999998
+	},
+	{
+		"index": 349,
+		"txt": "we mentioned that it is beneficial to have the center of this drag be behind the center of gravity.",
+		"file": "/home/user1/trash/dirOutputSet/_100_we_mentioned_that_it_is_beneficial__nd_the_center_of_gravity_____.wav",
+		"duration": 1.78,
+		"sentenceIndex": 9762,
+		"timestamp": 565.8799999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 567.6599999999997
+	},
+	{
+		"index": 350,
+		"txt": "This gives directional stability, as the vessel will tend to try to point into the apparent wind.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_gives_directional_stability__a_t_into_the_apparent_wind_____.wav",
+		"duration": 1.93,
+		"sentenceIndex": 9763,
+		"timestamp": 568.1599999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 570.0899999999997
+	},
+	{
+		"index": 351,
+		"txt": "Consider if the vessel yaws some angle, the forward velocity is creating a wind that is now hitting the side of the hovercraft.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Consider_if_the_vessel_yaws_some_an_e_side_of_the_hovercraft_____.wav",
+		"duration": 2.41,
+		"sentenceIndex": 9764,
+		"timestamp": 570.5899999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 572.9999999999997
+	},
+	{
+		"index": 352,
+		"txt": "If the center of effort of this force is forward of the center of gravity, it will want to yaw the vessel more, increasing the side force and causing even greater drag until the vessel spins 180 degrees!",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_the_center_of_effort_of_this_for_vessel_spins_180_degrees_____.wav",
+		"duration": 4.3,
+		"sentenceIndex": 9765,
+		"timestamp": 573.4999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 577.7999999999996
+	},
+	{
+		"index": 353,
+		"txt": "If the center of effort of the wind is aft of the center of gravity, the vessel will spin back into the wind.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_the_center_of_effort_of_the_wind__spin_back_into_the_wind_____.wav",
+		"duration": 1.95,
+		"sentenceIndex": 9766,
+		"timestamp": 578.2999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 580.2499999999997
+	},
+	{
+		"index": 354,
+		"txt": "You don't want the center of effort so far aft that it is too difficult to turn the vessel, but it is generally better to have the vessel naturally straighten out than to require constant steering input to maintain a steady course.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_don_t_want_the_center_of_effort_maintain_a_steady_course_____.wav",
+		"duration": 4.2,
+		"sentenceIndex": 9767,
+		"timestamp": 580.7499999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 584.9499999999997
+	},
+	{
+		"index": 355,
+		"txt": "This is also true of sailboats and is called weather helm .",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_also_true_of_sailboats_and___is_called_weather_helm______.wav",
+		"duration": 1.22,
+		"sentenceIndex": 9768,
+		"timestamp": 585.4499999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 586.6699999999997
+	},
+	{
+		"index": 358,
+		"txt": "This also occurs in airplanes.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_also_occurs_in_airplanes__also_occurs_in_airplanes_____.wav",
+		"duration": 0.81,
+		"sentenceIndex": 9771,
+		"timestamp": 587.1699999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 587.9799999999997
+	},
+	{
+		"index": 359,
+		"txt": "The solution in airplanes is similar to that of hovercraft: to fit tail fins that move the center of the area aft, increasing its directional stability.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_solution_in_airplanes_is_simila_ts_directional_stability_____.wav",
+		"duration": 3.19,
+		"sentenceIndex": 9772,
+		"timestamp": 588.4799999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 591.6699999999997
+	},
+	{
+		"index": 360,
+		"txt": "If you choose to model damage in your simulation, the loss of a tail fin will cause the vessel to be very difficult to control.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_you_choose_to_model_damage_in_yo_ery_difficult_to_control_____.wav",
+		"duration": 2.51,
+		"sentenceIndex": 9773,
+		"timestamp": 592.1699999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 594.6799999999997
+	},
+	{
+		"index": 363,
+		"txt": "In addition to these three drag components, hovercraft will experience other forms of resistance when operating over water.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_addition_to_these_three_drag_com_hen_operating_over_water_____.wav",
+		"duration": 2.63,
+		"sentenceIndex": 9776,
+		"timestamp": 595.1799999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 597.8099999999997
+	},
+	{
+		"index": 364,
+		"txt": "These additional components",
+		"file": "/home/user1/trash/dirOutputSet/_100_These_additional_components_ese_additional_components____.wav",
+		"duration": 0.54,
+		"sentenceIndex": 9777,
+		"timestamp": 598.3099999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 598.8499999999997
+	},
+	{
+		"index": 366,
+		"txt": "are wave drag and wetted drag.",
+		"file": "/home/user1/trash/dirOutputSet/_100_are_wave_drag_and_wetted_drag__ave_drag_and_wetted_drag_____.wav",
+		"duration": 0.69,
+		"sentenceIndex": 9779,
+		"timestamp": 599.3499999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 600.0399999999997
+	},
+	{
+		"index": 367,
+		"txt": "The equation for total drag can thus be revised for operation over water as follows:Rtotal = Rviscous + Rinduced + Rmomentum + Rwave + Rwetted",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_equation_for_total_drag_can_thu_omentum___Rwave___Rwetted____.wav",
+		"duration": 3.49,
+		"sentenceIndex": 9780,
+		"timestamp": 600.5399999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 604.0299999999997
+	},
+	{
+		"index": 369,
+		"txt": "When a hovercraft operates over water, its air cushion creates a depression in the water surface due to cushion pressure (see",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_a_hovercraft_operates_over_wat__to_cushion_pressure__see____.wav",
+		"duration": 2.73,
+		"sentenceIndex": 9782,
+		"timestamp": 604.5299999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 607.2599999999998
+	},
+	{
+		"index": 370,
+		"txt": "Figure 17 4",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 17_4_Figure 17_4____.wav",
+		"duration": 0.67,
+		"sentenceIndex": 9783,
+		"timestamp": 607.7599999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 608.4299999999997
+	},
+	{
+		"index": 372,
+		"txt": "At zero to low speeds, the weight of this displaced volume of water is equal to the weight of the craft, just as if the craft were floating in the water supported by buoyancy.",
+		"file": "/home/user1/trash/dirOutputSet/_100_At_zero_to_low_speeds__the_weight_o_er_supported_by_buoyancy_____.wav",
+		"duration": 3.54,
+		"sentenceIndex": 9785,
+		"timestamp": 608.9299999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 612.4699999999997
+	},
+	{
+		"index": 373,
+		"txt": "As the craft starts to move forward, it tends to pitch up by the bow.",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_the_craft_starts_to_move_forward_s_to_pitch_up_by_the_bow_____.wav",
+		"duration": 1.49,
+		"sentenceIndex": 9786,
+		"timestamp": 612.9699999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 614.4599999999997
+	},
+	{
+		"index": 374,
+		"txt": "When that happens, the surface of the water in the depressed region is approximately parallel to the bottom of the craft.",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_that_happens__the_surface_of_t__the_bottom_of_the_craft_____.wav",
+		"duration": 2.13,
+		"sentenceIndex": 9787,
+		"timestamp": 614.9599999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 617.0899999999997
+	},
+	{
+		"index": 375,
+		"txt": "As speed increases, the depression is reduced and the pitch angle tends to decrease.",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_speed_increases__the_depression___angle_tends_to_decrease_____.wav",
+		"duration": 1.78,
+		"sentenceIndex": 9788,
+		"timestamp": 617.5899999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 619.3699999999997
+	},
+	{
+		"index": 381,
+		"txt": "Figure 17 4. Hovercraft over water",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 17_4_ Hovercraft_over_water__4_ Hovercraft_over_water____.wav",
+		"duration": 1.28,
+		"sentenceIndex": 9794,
+		"timestamp": 619.8699999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 621.1499999999996
+	},
+	{
+		"index": 383,
+		"txt": "Wave drag is a result of this depression and is equal to the horizontal components of pressure forces acting on the water surface in the depressed region.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Wave_drag_is_a_result_of_this_depre__in_the_depressed_region_____.wav",
+		"duration": 2.92,
+		"sentenceIndex": 9796,
+		"timestamp": 621.6499999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 624.5699999999996
+	},
+	{
+		"index": 384,
+		"txt": "As it turns out, for small pitch angles and at low speeds, wave drag is on the same order of magnitude as the induced drag:Rwave ≈ W (tan τ)",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_it_turns_out__for_small_pitch_an_ed_drag_Rwave___W__tan_______.wav",
+		"duration": 3.71,
+		"sentenceIndex": 9797,
+		"timestamp": 625.0699999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 628.7799999999996
+	},
+	{
+		"index": 386,
+		"txt": "Since wave drag is proportional to the size of the depression, it tends to be highest at low speeds and decreases at higher operational speeds.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Since_wave_drag_is_proportional_to__igher_operational_speeds_____.wav",
+		"duration": 2.96,
+		"sentenceIndex": 9799,
+		"timestamp": 629.2799999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 632.2399999999997
+	},
+	{
+		"index": 387,
+		"txt": "If you were to plot the wave drag curve as a function of speed for a typical hovercraft, you'd find that it is not a straight or even parabolic curve, but rather it has a hump in the curve at the lower speed range, as illustrated in",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_you_were_to_plot_the_wave_drag_c__range__as_illustrated_in____.wav",
+		"duration": 4.72,
+		"sentenceIndex": 9800,
+		"timestamp": 632.7399999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 637.4599999999997
+	},
+	{
+		"index": 388,
+		"txt": "Figure 17 5",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 17_5_Figure 17_5____.wav",
+		"duration": 0.7,
+		"sentenceIndex": 9801,
+		"timestamp": 637.9599999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 638.6599999999997
+	},
+	{
+		"index": 395,
+		"txt": "Figure 17 5. Wave drag",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 17_5_ Wave_drag_Figure 17_5_ Wave_drag____.wav",
+		"duration": 1.13,
+		"sentenceIndex": 9808,
+		"timestamp": 639.1599999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 640.2899999999997
+	},
+	{
+		"index": 397,
+		"txt": "There are several theoretical treatments of wave drag in the literature that aim to predict the speed at which this hump occurs along with its magnitude.",
+		"file": "/home/user1/trash/dirOutputSet/_100_There_are_several_theoretical_treat_along_with_its_magnitude_____.wav",
+		"duration": 2.75,
+		"sentenceIndex": 9810,
+		"timestamp": 640.7899999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 643.5399999999997
+	},
+	{
+		"index": 398,
+		"txt": "These theories indicate that the hump depends on the planform geometry of the hovercraft, and it tends to occur at speeds in the range of to , where g is the acceleration due to gravity and L is the length of the air cushion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_These_theories_indicate_that_the_hu_ength_of_the_air_cushion_____.wav",
+		"duration": 4.43,
+		"sentenceIndex": 9811,
+		"timestamp": 644.0399999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 648.4699999999997
+	},
+	{
+		"index": 399,
+		"txt": "In practice, the characteristics of a particular hovercraft's wave drag are usually best determined through scale model testing.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_practice__the_characteristics_of_ough_scale_model_testing_____.wav",
+		"duration": 2.48,
+		"sentenceIndex": 9812,
+		"timestamp": 648.9699999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 651.4499999999997
+	},
+	{
+		"index": 402,
+		"txt": "The so called wetted drag is a function of several things:",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_so_called_wetted_drag_is_a_func_nction_of_several_things_____.wav",
+		"duration": 1.13,
+		"sentenceIndex": 9815,
+		"timestamp": 651.9499999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 653.0799999999997
+	},
+	{
+		"index": 404,
+		"txt": "The fact that parts of the hull and skirt tend to hit the water surface during flight",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_fact_that_parts_of_the_hull_and_ter_surface_during_flight____.wav",
+		"duration": 1.58,
+		"sentenceIndex": 9817,
+		"timestamp": 653.5799999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 655.1599999999997
+	},
+	{
+		"index": 406,
+		"txt": "The impact of spray on the hull and skirt",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_impact_of_spray_on_the_hull_and_ray_on_the_hull_and_skirt____.wav",
+		"duration": 0.86,
+		"sentenceIndex": 9819,
+		"timestamp": 655.6599999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 656.5199999999998
+	},
+	{
+		"index": 408,
+		"txt": "The increase in weight as the hovercraft gets wet and sometimes takes on water",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_increase_in_weight_as_the_hover__sometimes_takes_on_water____.wav",
+		"duration": 1.67,
+		"sentenceIndex": 9821,
+		"timestamp": 657.0199999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 658.6899999999997
+	},
+	{
+		"index": 410,
+		"txt": "Wetted drag is difficult to predict, and in practice model tests are relied on to determine its magnitude for a particular design.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Wetted_drag_is_difficult_to_predict__for_a_particular_design_____.wav",
+		"duration": 2.66,
+		"sentenceIndex": 9823,
+		"timestamp": 659.1899999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 661.8499999999997
+	},
+	{
+		"index": 411,
+		"txt": "It's important to note, however, that this tends to be a significant drag component, sometimes accounting for as much as 30% of the total",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_s_important_to_note__however__th__much_as_30__of_the_total____.wav",
+		"duration": 2.94,
+		"sentenceIndex": 9824,
+		"timestamp": 662.3499999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 665.2899999999997
+	},
+	{
+		"index": 417,
+		"txt": "drag force.",
+		"file": "/home/user1/trash/dirOutputSet/_100_drag_force__drag_force_____.wav",
+		"duration": 0.35,
+		"sentenceIndex": 9830,
+		"timestamp": 665.7899999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 666.1399999999998
+	},
+	{
+		"index": 420,
+		"txt": "Steering",
+		"file": "/home/user1/trash/dirOutputSet/_100_Steering_Steering____.wav",
+		"duration": 0.23,
+		"sentenceIndex": 9833,
+		"timestamp": 666.6399999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 666.8699999999998
+	},
+	{
+		"index": 422,
+		"txt": "In",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_In____.wav",
+		"duration": 0.17,
+		"sentenceIndex": 9835,
+		"timestamp": 667.3699999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 667.5399999999997
+	},
+	{
+		"index": 423,
+		"txt": "Chapter 9, the",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 9__the_Chapter 9__the____.wav",
+		"duration": 0.49,
+		"sentenceIndex": 9836,
+		"timestamp": 668.0399999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 668.5299999999997
+	},
+	{
+		"index": 426,
+		"txt": "hovercraft was steered using a bow thruster that pushed transversely forward of the center of gravity.",
+		"file": "/home/user1/trash/dirOutputSet/_100_hovercraft_was_steered_using_a_bow__of_the_center_of_gravity_____.wav",
+		"duration": 1.95,
+		"sentenceIndex": 9839,
+		"timestamp": 669.0299999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 670.9799999999998
+	},
+	{
+		"index": 427,
+		"txt": "In reality, most hovercraft are steered by vectoring the thrust of the propulsion fan via rudders attached directly aft of the fans.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_reality__most_hovercraft_are_ste_directly_aft_of_the_fans_____.wav",
+		"duration": 2.7,
+		"sentenceIndex": 9840,
+		"timestamp": 671.4799999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 674.1799999999998
+	},
+	{
+		"index": 428,
+		"txt": "This can be modeled by angling the propulsive thrust.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_can_be_modeled_by_angling_the__ng_the_propulsive_thrust_____.wav",
+		"duration": 1.09,
+		"sentenceIndex": 9841,
+		"timestamp": 674.6799999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 675.7699999999999
+	},
+	{
+		"index": 431,
+		"txt": "The most important characteristic to remember about steering hovercraft is that they will not turn like a car or boat.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_most_important_characteristic_t__turn_like_a_car_or_boat_____.wav",
+		"duration": 2.21,
+		"sentenceIndex": 9844,
+		"timestamp": 676.2699999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 678.4799999999999
+	},
+	{
+		"index": 432,
+		"txt": "The hovercraft, because it has lower friction with its environment, will take longer to turn and tends to continue in the direction it was heading while rotating.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_hovercraft__because_it_has_lowe_s_heading_while_rotating_____.wav",
+		"duration": 3.08,
+		"sentenceIndex": 9845,
+		"timestamp": 678.9799999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 682.06
+	},
+	{
+		"index": 433,
+		"txt": "Once rotated, the thrust acts along a new vector.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Once_rotated__the_thrust_acts_along__acts_along_a_new_vector_____.wav",
+		"duration": 1.17,
+		"sentenceIndex": 9846,
+		"timestamp": 682.56
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 683.7299999999999
+	},
+	{
+		"index": 434,
+		"txt": "One possible maneuver in a hovercraft is to quickly rotate the vessel and then shut down the propulsive thrust.",
+		"file": "/home/user1/trash/dirOutputSet/_100_One_possible_maneuver_in_a_hovercra_wn_the_propulsive_thrust_____.wav",
+		"duration": 2.18,
+		"sentenceIndex": 9847,
+		"timestamp": 684.2299999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 686.4099999999999
+	},
+	{
+		"index": 435,
+		"txt": "This would allow you to travel in one direction and point in another for as long as your momentum carries you.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_would_allow_you_to_travel_in_o_our_momentum_carries_you_____.wav",
+		"duration": 1.95,
+		"sentenceIndex": 9848,
+		"timestamp": 686.9099999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 688.8599999999999
+	},
+	{
+		"index": 436,
+		"txt": "This could be very useful in strafing enemies or just racking up style points.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_could_be_very_useful_in_strafi__racking_up_style_points_____.wav",
+		"duration": 1.78,
+		"sentenceIndex": 9849,
+		"timestamp": 689.3599999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 691.1399999999999
+	}
+]

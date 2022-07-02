@@ -1,0 +1,237 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Log Viewer</title>
+    <meta name="robots" content="noindex"/>
+    <meta http-equiv="Cache-Control" content="no-cache"/>
+    <meta http-equiv="Expires" content="-1"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+
+    <!-- <script type="text/javascript" src="/jquery.js"></script>-->
+
+    <style class="fontx">
+        @font-face {
+            font-family: 'Montserrat';
+            src: url("http://localhost:10110/api/fileList?file=/mnt/db/Dropbox/projects/crypto/mp/GrammarHelperServer/sharedResourcesGrid/styles/fonts/Montserrat-Regular.otf") ;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Montserrat';
+            src: url("http://localhost:10110/api/fileList?file=/mnt/db/Dropbox/projects/crypto/mp/GrammarHelperServer/sharedResourcesGrid/styles/fonts/Montserrat-SemiBold.otf")  ;
+            font-weight: bold;
+        }
+
+        @font-face {
+            font-family: 'Montserrat';
+            src: url("http://localhost:10110/api/fileList?file=/mnt/db/Dropbox/projects/crypto/mp/GrammarHelperServer/sharedResourcesGrid/styles/fonts/GothamRounded-Medium.otf") ;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Montserrat';
+            src: url("http://localhost:10110/api/fileList?file=/mnt/db/Dropbox/projects/crypto/mp/GrammarHelperServer/sharedResourcesGrid/styles/fonts/GothamRounded-Bold.otf")  ;
+            font-weight: bold;
+        }
+
+        @font-face {
+            font-family: 'Montserrat';
+            src: url("http://localhost:10110/api/fileList?file=/mnt/db/Dropbox/projects/crypto/mp/GrammarHelperServer/sharedResourcesGrid/styles/fonts/Montserrat-Regular.otf") ;
+            font-weight: bold;
+        }
+    </style>
+
+
+
+
+
+    <style class="fontx" >
+        @font-face {
+            font-family: 'Montserrat';
+            src: url("http://localhost:10110/api/fileList?file=/mnt/db/Dropbox/projects/crypto/mp/GrammarHelperServer/sharedResourcesGrid/styles/fonts/Montserrat-Regular.otf") ;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'Montserrat';
+            src: url("http://localhost:10110/api/fileList?file=/mnt/db/Dropbox/projects/crypto/mp/GrammarHelperServer/sharedResourcesGrid/styles/fonts/Montserrat-SemiBold.otf")  ;
+            font-weight: bold;
+        }
+
+        @font-face {
+            font-family: 'GothamRounded';
+            src: url("http://localhost:10110/api/fileList?file=/mnt/db/Dropbox/projects/crypto/mp/GrammarHelperServer/sharedResourcesGrid/styles/fonts/GothamRounded-Medium.otf") ;
+            font-style: normal;
+        }
+        @font-face {
+            font-family: 'GothamRounded';
+            src: url("http://localhost:10110/api/fileList?file=/mnt/db/Dropbox/projects/crypto/mp/GrammarHelperServer/sharedResourcesGrid/styles/fonts/GothamRounded-Bold.otf")  ;
+            font-weight: bold;
+        }
+
+
+        @font-face {
+            font-family: 'Headlines';
+            src: url("http://localhost:10110/api/fileList?file=/mnt/db/Dropbox/projects/crypto/mp/GrammarHelperServer/sharedResourcesGrid/styles/fonts/Headlines-Bold.otf")  ;
+            /*font-weight: bold;*/
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Headlines';
+            src: url("http://localhost:10110/api/fileList?file=/mnt/db/Dropbox/projects/crypto/mp/GrammarHelperServer/sharedResourcesGrid/styles/fonts/Headlines-BoldItalic.otf")  ;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+
+        @font-face {
+            font-family: 'Mortina';
+            src: url("http://localhost:10110/api/fileList?file=/mnt/db/Dropbox/projects/crypto/mp/GrammarHelperServer/sharedResourcesGrid/styles/fonts/Mortina DEMO.otf")  ;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'wagner';
+            src: url("http://localhost:10110/api/fileList?file=/mnt/db/Dropbox/projects/crypto/mp/GrammarHelperServer/sharedResourcesGrid/styles/fonts/wagner.otf")  ;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Caramel and Vanilla';
+            src: url("http://localhost:10110/api/fileList?file=/mnt/db/Dropbox/projects/crypto/mp/GrammarHelperServer/sharedResourcesGrid/styles/fonts/Caramel and Vanilla.ttf")  ;
+            font-style: normal;
+        }
+
+
+        @font-face {
+            font-family: 'Mont';
+            src: url("http://localhost:10110/api/fileList?file=/mnt/db/Dropbox/projects/crypto/mp/GrammarHelperServer/sharedResourcesGrid/styles/fonts/Mont-ExtraLightDEMO.otf")  ;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'Mont';
+            src: url("http://localhost:10110/api/fileList?file=/mnt/db/Dropbox/projects/crypto/mp/GrammarHelperServer/sharedResourcesGrid/styles/fonts/Mont-HeavyDEMO.otf")  ;
+            font-weight: bold;
+        }
+
+        @font-face {
+            font-family: 'MADE Tommy';
+            src: url("http://localhost:10110/api/fileList?file=/mnt/db/Dropbox/projects/crypto/mp/GrammarHelperServer/sharedResourcesGrid/styles/fonts/MADE Tommy Soft Thin PERSONAL USE.otf")  ;
+            font-style: normal;
+        }
+
+        @font-face {
+            font-family: 'MADE Tommy';
+            src: url("http://localhost:10110/api/fileList?file=/mnt/db/Dropbox/projects/crypto/mp/GrammarHelperServer/sharedResourcesGrid/styles/fonts/MADE Tommy Soft Medium PERSONAL USE.otf")  ;
+            font-weight: bold;
+        }
+
+        @font-face {
+            font-family: 'MADE Tommy';
+            src: url("http://localhost:10110/api/fileList?file=/mnt/db/Dropbox/projects/crypto/mp/GrammarHelperServer/sharedResourcesGrid/styles/fonts/MADE Tommy Soft ExtraBold PERSONAL USE.otf")  ;
+            font-weight:  bolder;
+        }
+
+    </style>
+</head>
+
+<body>
+<script>
+    window.fdCachedMode = true
+    window.reloaderAllowedDirs = []
+    window.reloaderAllowedDirs.push('rrr/bookReaderR')
+    window.reloaderAllowedDirs.push('rrr/pasteReaderR')
+    window.reloaderAllowedDirs.push('rrr/svgCars')
+    window.reloaderAllowedDirs.push('rrr/svgCloth')
+    window.reloaderAllowedDirs.push('rrr/svgCloth/svgClothProgs')
+    window.reloaderAllowedDirs.push('rrr/svgCloth/svgVOs')
+
+
+    let items = []
+    window.fxQLv2Override = function on(o, c) {
+        items.push(o)
+    }
+    window.loadedItems = items
+    window.debugQLv2Loading = false
+    window.skipMissingQlFiles = true
+    window.skipQuickGrammarDebugDialog = true
+    // window.urlPreUI = 'lll'
+
+    window.xfxUpdateFxToLoadNLAF = function fxUpdateFxToLoadNLAF(instance) {
+
+        //let dirBase = '/mnt/db/Dropbox/projects/crypto/mp/Evernote/logViewer/public_html/rrr/'
+        //instance.addDirSubs(dirBase)
+        dirBase = '/mnt/db/Dropbox/projects/crypto/mp/Evernote/logViewer/public_html/rrr/actions'
+        instance.addDirSubs(dirBase)
+        instance.forceLoadPost(dirBase)
+
+        //  .forceDL = true
+        dirBase = '/mnt/db/Dropbox/projects/crypto/mp/Evernote/logViewer/public_html/rrr/bookReaderR_V2'
+        instance.addDirSubs(dirBase)
+        instance.forceLoadPost(dirBase)
+            //.forceDL = true
+
+        //debugger
+        //x2()
+    }
+    /*
+
+         window.skipLoadFilesOrDir = function sfsf(file, cfg) {
+            if ( file == 'quickForm') {
+                return false
+            }
+        }
+
+        window.skipLoadFilesOrDir2 = function sfsf(  cfg) {
+            if ( cfg.url.endsWith('quickForm')  ) {
+                debugger
+                return false
+            }
+        }
+
+
+    */
+
+    /*    window.skipLoadFilesOrDir2 = function sfsf(  cfg) {
+            if ( cfg.url.endsWith('quickForm')  ) {
+                debugger
+               return false
+            }
+        }
+
+
+        window.skipLoadFilesOrDir3x = function sfsf(  url) {
+            if ( url.endsWith('quickForm')  ) {
+                debugger
+                //  return false
+                return JSON.stringify( {files:[]} )
+                debugger
+                return JSON.stringify( {files:['asd.sf']} )
+            }
+        }*/
+    window.githubLiveMode = true
+    window.fxRequestUpdateUrl2 = function fxRequestUpdateUrl2(url) {
+        //debugger
+        //console.error('err', url)
+        if (url.includes('uploadBooksV2022')){
+
+            return url.after('extracted/')
+        }
+        return url
+    }
+
+    window.fxApp2Offset = function af(){
+        fxTest_BookReaderV2()
+    }
+    setTimeout(function (){
+
+    }, 500)
+</script>
+<script src="http://127.0.0.1:10110/api/fileList?file=/mnt/db/Dropbox/projects/crypto/mp/Evernote/logViewer/public_html/rrr/actions/NewLevelAppFileDirect.js"></script>
+<script src="NewLevelAppFileDirect.js"></script>
+
+
+</body>
+</html>

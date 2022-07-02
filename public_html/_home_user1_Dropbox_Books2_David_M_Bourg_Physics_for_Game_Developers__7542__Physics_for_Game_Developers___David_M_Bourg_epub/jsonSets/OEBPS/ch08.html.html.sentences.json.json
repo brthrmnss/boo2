@@ -1,0 +1,6098 @@
+[
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 0
+	},
+	{
+		"index": 2,
+		"txt": "Chapter 8. Particles",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 8_ Particles_Chapter 8_ Particles____.wav",
+		"duration": 0.75,
+		"sentenceIndex": 5089,
+		"timestamp": 0.5
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 1.25
+	},
+	{
+		"index": 3,
+		"txt": "In this chapter we'll show",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_this_chapter_we_ll_show_n_this_chapter_we_ll_show____.wav",
+		"duration": 0.52,
+		"sentenceIndex": 5090,
+		"timestamp": 1.75
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 2.27
+	},
+	{
+		"index": 5,
+		"txt": "you how to apply what you've learned in",
+		"file": "/home/user1/trash/dirOutputSet/_100_you_how_to_apply_what_you_ve_learne_ly_what_you_ve_learned_in____.wav",
+		"duration": 0.74,
+		"sentenceIndex": 5092,
+		"timestamp": 2.77
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 3.51
+	},
+	{
+		"index": 6,
+		"txt": "Chapter 7",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 7_Chapter 7____.wav",
+		"duration": 0.34,
+		"sentenceIndex": 5093,
+		"timestamp": 4.01
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 4.35
+	},
+	{
+		"index": 7,
+		"txt": "in a simple particle simulator.",
+		"file": "/home/user1/trash/dirOutputSet/_100_in_a_simple_particle_simulator__imple_particle_simulator_____.wav",
+		"duration": 0.67,
+		"sentenceIndex": 5094,
+		"timestamp": 4.85
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 5.52
+	},
+	{
+		"index": 8,
+		"txt": "Before getting to the specifics of the example we'll present, let's consider particles in general.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Before_getting_to_the_specifics_of__der_particles_in_general_____.wav",
+		"duration": 1.94,
+		"sentenceIndex": 5095,
+		"timestamp": 6.02
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 7.959999999999999
+	},
+	{
+		"index": 9,
+		"txt": "Particles are simple idealizations that can be used to simulate all sorts of phenomena or special effects within a game.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Particles_are_simple_idealizations__al_effects_within_a_game_____.wav",
+		"duration": 2.38,
+		"sentenceIndex": 5096,
+		"timestamp": 8.459999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 10.84
+	},
+	{
+		"index": 10,
+		"txt": "For example, particle simulations are often used to simulate smoke, fire, and explosions.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_example__particle_simulations_a_ke__fire__and_explosions_____.wav",
+		"duration": 2.18,
+		"sentenceIndex": 5097,
+		"timestamp": 11.34
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 13.52
+	},
+	{
+		"index": 11,
+		"txt": "They can also be used to simulate water, dust clouds, and swarms of insects, among many other things.",
+		"file": "/home/user1/trash/dirOutputSet/_100_They_can_also_be_used_to_simulate_w__among_many_other_things_____.wav",
+		"duration": 2.38,
+		"sentenceIndex": 5098,
+		"timestamp": 14.02
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 16.4
+	},
+	{
+		"index": 12,
+		"txt": "Really, your imagination is the only limit.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Really__your_imagination_is_the_onl_nation_is_the_only_limit_____.wav",
+		"duration": 1.05,
+		"sentenceIndex": 5099,
+		"timestamp": 16.9
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 17.95
+	},
+	{
+		"index": 13,
+		"txt": "Particles lend themselves to simulating both discrete objects like bouncing balls and continua like water.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Particles_lend_themselves_to_simula__and_continua_like_water_____.wav",
+		"duration": 2.22,
+		"sentenceIndex": 5100,
+		"timestamp": 18.45
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 20.669999999999998
+	},
+	{
+		"index": 14,
+		"txt": "Plus, you can easily ascribe an array of attributes to particles depending on what you're modeling.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Plus__you_can_easily_ascribe_an_arr__on_what_you_re_modeling_____.wav",
+		"duration": 2.06,
+		"sentenceIndex": 5101,
+		"timestamp": 21.169999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 23.229999999999997
+	},
+	{
+		"index": 16,
+		"txt": "For example, say, you're modeling fire using particles.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_example__say__you_re_modeling_f_ing_fire_using_particles_____.wav",
+		"duration": 1.36,
+		"sentenceIndex": 5103,
+		"timestamp": 23.729999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 25.089999999999996
+	},
+	{
+		"index": 17,
+		"txt": "Each particle will rise in the air, and as it cools its color will change until it fades away.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Each_particle_will_rise_in_the_air__ange_until_it_fades_away_____.wav",
+		"duration": 1.96,
+		"sentenceIndex": 5104,
+		"timestamp": 25.589999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 27.549999999999997
+	},
+	{
+		"index": 18,
+		"txt": "You can tie the particle's color to its temperature, which is modeled using thermodynamics.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_tie_the_particle_s_color_to_led_using_thermodynamics_____.wav",
+		"duration": 1.93,
+		"sentenceIndex": 5105,
+		"timestamp": 28.049999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 29.979999999999997
+	},
+	{
+		"index": 19,
+		"txt": "The attribute you'd want to track is the particle's temperature.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_attribute_you_d_want_to_track_i_e_particle_s_temperature_____.wav",
+		"duration": 1.16,
+		"sentenceIndex": 5106,
+		"timestamp": 30.479999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 31.639999999999997
+	},
+	{
+		"index": 20,
+		"txt": "In a previous work,",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_a_previous_work__In_a_previous_work_____.wav",
+		"duration": 0.44,
+		"sentenceIndex": 5107,
+		"timestamp": 32.14
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 32.58
+	},
+	{
+		"index": 21,
+		"txt": "AI for Game Programmers (O'Reilly), this book's coauthor",
+		"file": "/home/user1/trash/dirOutputSet/_100_AI_for_Game_Programmers__O_Reilly___ly___this_book_s_coauthor____.wav",
+		"duration": 1.42,
+		"sentenceIndex": 5108,
+		"timestamp": 33.08
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 34.5
+	},
+	{
+		"index": 23,
+		"txt": "David M. Bourg used particles to represent swarms of insects that would swarm, flock, chase, and evade depending on the artificial intelligence (AI).",
+		"file": "/home/user1/trash/dirOutputSet/_100_David_M__Bourg_used_particles_to_re_ficial_intelligence__AI______.wav",
+		"duration": 3.48,
+		"sentenceIndex": 5110,
+		"timestamp": 35
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 38.48
+	},
+	{
+		"index": 24,
+		"txt": "The AI controlled their behavior, which was then implemented as a system of particles using principles very similar to what you'll see in this chapter.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_AI_controlled_their_behavior__w_u_ll_see_in_this_chapter_____.wav",
+		"duration": 2.88,
+		"sentenceIndex": 5111,
+		"timestamp": 38.98
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 41.86
+	},
+	{
+		"index": 27,
+		"txt": "Particles are not limited to collections of independent objects either.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Particles_are_not_limited_to_collec_dependent_objects_either_____.wav",
+		"duration": 1.36,
+		"sentenceIndex": 5114,
+		"timestamp": 42.36
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 43.72
+	},
+	{
+		"index": 28,
+		"txt": "Later in this book, you'll learn how to connect particles together using springs to create deformable objects such as cloth.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Later_in_this_book__you_ll_learn_ho_le_objects_such_as_cloth_____.wav",
+		"duration": 2.51,
+		"sentenceIndex": 5115,
+		"timestamp": 44.22
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 46.73
+	},
+	{
+		"index": 29,
+		"txt": "Particles are extremely versatile, and you'll do well to learn how to leverage their simplicity.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Particles_are_extremely_versatile___everage_their_simplicity_____.wav",
+		"duration": 1.89,
+		"sentenceIndex": 5116,
+		"timestamp": 47.23
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 49.12
+	},
+	{
+		"index": 32,
+		"txt": "You can use",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_use_You_can_use____.wav",
+		"duration": 0.31,
+		"sentenceIndex": 5119,
+		"timestamp": 49.62
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 49.93
+	},
+	{
+		"index": 33,
+		"txt": "particles to model sand in a simple phone application that simulates an hourglass.",
+		"file": "/home/user1/trash/dirOutputSet/_100_particles_to_model_sand_in_a_simple_t_simulates_an_hourglass_____.wav",
+		"duration": 1.71,
+		"sentenceIndex": 5120,
+		"timestamp": 50.43
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 52.14
+	},
+	{
+		"index": 34,
+		"txt": "Couple this sand model with the accelerometer techniques you'll learn about in",
+		"file": "/home/user1/trash/dirOutputSet/_100_Couple_this_sand_model_with_the_acc_ues_you_ll_learn_about_in____.wav",
+		"duration": 1.5,
+		"sentenceIndex": 5121,
+		"timestamp": 52.64
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 54.14
+	},
+	{
+		"index": 35,
+		"txt": "Chapter 21",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 21_Chapter 21____.wav",
+		"duration": 0.46,
+		"sentenceIndex": 5122,
+		"timestamp": 54.64
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 55.1
+	},
+	{
+		"index": 36,
+		"txt": ", and you'll be able to make the sand flow by turning the phone over.",
+		"file": "/home/user1/trash/dirOutputSet/_100___and_you_ll_be_able_to_make_the_sa_y_turning_the_phone_over_____.wav",
+		"duration": 1.25,
+		"sentenceIndex": 5123,
+		"timestamp": 55.6
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 56.85
+	},
+	{
+		"index": 38,
+		"txt": "You can easily use particles to simulate bullets flying out of a gun.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_easily_use_particles_to_sim_lets_flying_out_of_a_gun_____.wav",
+		"duration": 1.46,
+		"sentenceIndex": 5125,
+		"timestamp": 57.35
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 58.81
+	},
+	{
+		"index": 39,
+		"txt": "Imagine a Gatling gun spewing forth a hail of lead, all simulated using simple particles.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Imagine_a_Gatling_gun_spewing_forth_d_using_simple_particles_____.wav",
+		"duration": 2.08,
+		"sentenceIndex": 5126,
+		"timestamp": 59.31
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 61.39
+	},
+	{
+		"index": 40,
+		"txt": "Speaking of spewing, how about using particles to simulate debris flung from an erupting volcano as a special effect in your adventure game set in prehistoric times?",
+		"file": "/home/user1/trash/dirOutputSet/_100_Speaking_of_spewing__how_about_usin_set_in_prehistoric_times_____.wav",
+		"duration": 3.52,
+		"sentenceIndex": 5127,
+		"timestamp": 61.89
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 65.41
+	},
+	{
+		"index": 41,
+		"txt": "Remember the Wooly Willy toy?",
+		"file": "/home/user1/trash/dirOutputSet/_100_Remember_the_Wooly_Willy_toy__mber_the_Wooly_Willy_toy_____.wav",
+		"duration": 0.61,
+		"sentenceIndex": 5128,
+		"timestamp": 65.91
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 66.52
+	},
+	{
+		"index": 42,
+		"txt": "To make particles a direct part of game play, consider a diversionary application where you drag piles of virtual magnetic particles around a portrait photograph, giving someone a lovely beard or mustache much like Wooly Willy.",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_make_particles_a_direct_part_of__he_much_like_Wooly_Willy_____.wav",
+		"duration": 4.74,
+		"sentenceIndex": 5129,
+		"timestamp": 67.02
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 71.75999999999999
+	},
+	{
+		"index": 44,
+		"txt": "Hopefully, you're now thinking of creative ways to use particles in your games.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Hopefully__you_re_now_thinking_of_c__particles_in_your_games_____.wav",
+		"duration": 1.68,
+		"sentenceIndex": 5131,
+		"timestamp": 72.25999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 73.94
+	},
+	{
+		"index": 45,
+		"txt": "So, let's address implementation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_So__let_s_address_implementation__s_address_implementation_____.wav",
+		"duration": 0.8,
+		"sentenceIndex": 5132,
+		"timestamp": 74.44
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 75.24
+	},
+	{
+		"index": 46,
+		"txt": "There are two basic ingredients to implementing a particle simulator: the particle model and the integrator .",
+		"file": "/home/user1/trash/dirOutputSet/_100_There_are_two_basic_ingredients_to__odel_and_the_integrator______.wav",
+		"duration": 2.14,
+		"sentenceIndex": 5133,
+		"timestamp": 75.74
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 77.88
+	},
+	{
+		"index": 47,
+		"txt": "(Well, you could argue that a third basic ingredient is",
+		"file": "/home/user1/trash/dirOutputSet/_100__Well__you_could_argue_that_a_third_third_basic_ingredient_is____.wav",
+		"duration": 1.23,
+		"sentenceIndex": 5134,
+		"timestamp": 78.38
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 79.61
+	},
+	{
+		"index": 48,
+		"txt": "the renderer, where you actually draw the particles, but that's more graphics than physics, and we're focusing on modeling and integrating in this book.)",
+		"file": "/home/user1/trash/dirOutputSet/_100_the_renderer__where_you_actually_dr_ntegrating_in_this_book______.wav",
+		"duration": 2.91,
+		"sentenceIndex": 5135,
+		"timestamp": 80.11
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 83.02
+	},
+	{
+		"index": 51,
+		"txt": "The model very",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_model_very_The_model_very____.wav",
+		"duration": 0.37,
+		"sentenceIndex": 5138,
+		"timestamp": 83.52
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 83.89
+	},
+	{
+		"index": 52,
+		"txt": "simply describes the attributes of the particles in the simulation along with their rules of behavior.",
+		"file": "/home/user1/trash/dirOutputSet/_100_simply_describes_the_attributes_of___their_rules_of_behavior_____.wav",
+		"duration": 1.91,
+		"sentenceIndex": 5139,
+		"timestamp": 84.39
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 86.3
+	},
+	{
+		"index": 53,
+		"txt": "We mean this in the physics sense and not the AI sense in this book, although in general the model you implement may very well include suitable AI rules.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_mean_this_in_the_physics_sense_a_nclude_suitable_AI_rules_____.wav",
+		"duration": 3.05,
+		"sentenceIndex": 5140,
+		"timestamp": 86.8
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 89.85
+	},
+	{
+		"index": 54,
+		"txt": "Now, the integrator is",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now__the_integrator_is_Now__the_integrator_is____.wav",
+		"duration": 0.62,
+		"sentenceIndex": 5141,
+		"timestamp": 90.35
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 90.97
+	},
+	{
+		"index": 55,
+		"txt": "responsible for updating the state of the particles throughout the simulation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_responsible_for_updating_the_state__hroughout_the_simulation_____.wav",
+		"duration": 1.44,
+		"sentenceIndex": 5142,
+		"timestamp": 91.47
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 92.91
+	},
+	{
+		"index": 56,
+		"txt": "In this chapter, the particles' states will be described by their position and velocity at any given time.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_this_chapter__the_particles__sta_locity_at_any_given_time_____.wav",
+		"duration": 2.16,
+		"sentenceIndex": 5143,
+		"timestamp": 93.41
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 95.57
+	},
+	{
+		"index": 57,
+		"txt": "The integrator will update each particle's state under the influence of several external stimuli forces such as gravity, aerodynamic drag, and collisions.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_integrator_will_update_each_par_mic_drag__and_collisions_____.wav",
+		"duration": 3.31,
+		"sentenceIndex": 5144,
+		"timestamp": 96.07
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 99.38
+	},
+	{
+		"index": 60,
+		"txt": "The rest of this chapter will walk you through the details of a simple particle simulation in an incremental manner.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_rest_of_this_chapter_will_walk__in_an_incremental_manner_____.wav",
+		"duration": 2.16,
+		"sentenceIndex": 5147,
+		"timestamp": 99.88
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 102.03999999999999
+	},
+	{
+		"index": 61,
+		"txt": "The first task will be to simulate a set of particles falling under the influence of gravity alone.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_first_task_will_be_to_simulate__fluence_of_gravity_alone_____.wav",
+		"duration": 1.97,
+		"sentenceIndex": 5148,
+		"timestamp": 102.53999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 104.50999999999999
+	},
+	{
+		"index": 62,
+		"txt": "Even though this sounds elementary, such an example encompasses all of the basic ingredients mentioned earlier.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Even_though_this_sounds_elementary__dients_mentioned_earlier_____.wav",
+		"duration": 2.3,
+		"sentenceIndex": 5149,
+		"timestamp": 105.00999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 107.30999999999999
+	},
+	{
+		"index": 63,
+		"txt": "Once gravity is under control, we'll show you how to implement still air drag and wind forces to influence the particles' motion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Once_gravity_is_under_control__we_l_ce_the_particles__motion_____.wav",
+		"duration": 2.6,
+		"sentenceIndex": 5150,
+		"timestamp": 107.80999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 110.40999999999998
+	},
+	{
+		"index": 64,
+		"txt": "Then, we'll make things more interesting by showing you how to implement collision response between the particles and a ground plane plus random obstacles.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Then__we_ll_make_things_more_intere_ne_plus_random_obstacles_____.wav",
+		"duration": 3.11,
+		"sentenceIndex": 5151,
+		"timestamp": 110.90999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 114.01999999999998
+	},
+	{
+		"index": 65,
+		"txt": "This collision stuff will draw on material presented in",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_collision_stuff_will_draw_on_m__on_material_presented_in____.wav",
+		"duration": 1.19,
+		"sentenceIndex": 5152,
+		"timestamp": 114.51999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 115.70999999999998
+	},
+	{
+		"index": 66,
+		"txt": "Chapter 5",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 5_Chapter 5____.wav",
+		"duration": 0.35,
+		"sentenceIndex": 5153,
+		"timestamp": 116.20999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 116.55999999999997
+	},
+	{
+		"index": 67,
+		"txt": ", so be sure to read that chapter first if you have not already done so.",
+		"file": "/home/user1/trash/dirOutputSet/_100___so_be_sure_to_read_that_chapter_f_have_not_already_done_so_____.wav",
+		"duration": 1.51,
+		"sentenceIndex": 5154,
+		"timestamp": 117.05999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 118.56999999999998
+	},
+	{
+		"index": 70,
+		"txt": "Figure 8 1 through",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 8_1_through_Figure 8_1_through____.wav",
+		"duration": 0.67,
+		"sentenceIndex": 5157,
+		"timestamp": 119.06999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 119.73999999999998
+	},
+	{
+		"index": 71,
+		"txt": "Figure 8 4",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 8_4_Figure 8_4____.wav",
+		"duration": 0.54,
+		"sentenceIndex": 5158,
+		"timestamp": 120.23999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 120.77999999999999
+	},
+	{
+		"index": 72,
+		"txt": "show a few frames of this example simulation complete with obstacles and collisions.",
+		"file": "/home/user1/trash/dirOutputSet/_100_show_a_few_frames_of_this_example_s_obstacles_and_collisions_____.wav",
+		"duration": 1.7,
+		"sentenceIndex": 5159,
+		"timestamp": 121.27999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 122.97999999999999
+	},
+	{
+		"index": 73,
+		"txt": "Use your imagination here to visualize the particles falling under the influence of gravity until they impact the circular objects, at which time they bounce around and ultimately settle on the ground.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Use_your_imagination_here_to_visual_ely_settle_on_the_ground_____.wav",
+		"duration": 3.95,
+		"sentenceIndex": 5160,
+		"timestamp": 123.47999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 127.42999999999999
+	},
+	{
+		"index": 79,
+		"txt": "Figure 8 1. Particles falling under the influence of gravity",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 8_1_ Particles_falling_under__the_influence_of_gravity____.wav",
+		"duration": 1.7,
+		"sentenceIndex": 5166,
+		"timestamp": 127.92999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 129.63
+	},
+	{
+		"index": 84,
+		"txt": "Figure 8 2. Particles impacting circular objects",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 8_2_ Particles_impacting_cir_mpacting_circular_objects____.wav",
+		"duration": 1.54,
+		"sentenceIndex": 5171,
+		"timestamp": 130.13
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 131.67
+	},
+	{
+		"index": 89,
+		"txt": "Figure 8 3. More collisions",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 8_3_ More_collisions_gure 8_3_ More_collisions____.wav",
+		"duration": 1.02,
+		"sentenceIndex": 5176,
+		"timestamp": 132.17
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 133.19
+	},
+	{
+		"index": 94,
+		"txt": "Figure 8 4. Particles coming to rest on the ground plane",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 8_4_ Particles_coming_to_res__rest_on_the_ground_plane____.wav",
+		"duration": 1.61,
+		"sentenceIndex": 5181,
+		"timestamp": 133.69
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 135.3
+	},
+	{
+		"index": 96,
+		"txt": "While working through this chapter, keep in mind that everything you're learning here will be directly applicable to 2D and 3D simulations.",
+		"file": "/home/user1/trash/dirOutputSet/_100_While_working_through_this_chapter__to_2D_and_3D_simulations_____.wav",
+		"duration": 2.82,
+		"sentenceIndex": 5183,
+		"timestamp": 135.8
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 138.62
+	},
+	{
+		"index": 97,
+		"txt": "Chapters following this one will build on the material covered here.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapters_following_this_one_will_bu_he_material_covered_here_____.wav",
+		"duration": 1.25,
+		"sentenceIndex": 5184,
+		"timestamp": 139.12
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 140.37
+	},
+	{
+		"index": 98,
+		"txt": "We'll focus on two dimensions in this chapter and later in the book we'll show you how to extend the simulation to 3D.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ll_focus_on_two_dimensions_in_th_end_the_simulation_to_3D_____.wav",
+		"duration": 2.41,
+		"sentenceIndex": 5185,
+		"timestamp": 140.87
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 143.28
+	},
+	{
+		"index": 99,
+		"txt": "Actually, for particle simulations it's almost trivial to make the leap from 2D to 3D.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Actually__for_particle_simulations__e_the_leap_from_2D_to_3D_____.wav",
+		"duration": 2.04,
+		"sentenceIndex": 5186,
+		"timestamp": 143.78
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 145.82
+	},
+	{
+		"index": 100,
+		"txt": "Trust us on this",
+		"file": "/home/user1/trash/dirOutputSet/_100_Trust_us_on_this_Trust_us_on_this____.wav",
+		"duration": 0.42,
+		"sentenceIndex": 5187,
+		"timestamp": 146.32
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 146.73999999999998
+	},
+	{
+		"index": 101,
+		"txt": "for now.",
+		"file": "/home/user1/trash/dirOutputSet/_100_for_now__for_now_____.wav",
+		"duration": 0.23,
+		"sentenceIndex": 5188,
+		"timestamp": 147.23999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 147.46999999999997
+	},
+	{
+		"index": 104,
+		"txt": "Simple Particle Model",
+		"file": "/home/user1/trash/dirOutputSet/_100_Simple_Particle_Model_Simple_Particle_Model____.wav",
+		"duration": 0.51,
+		"sentenceIndex": 5191,
+		"timestamp": 147.96999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 148.47999999999996
+	},
+	{
+		"index": 106,
+		"txt": "The particle model",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_particle_model_The_particle_model____.wav",
+		"duration": 0.4,
+		"sentenceIndex": 5193,
+		"timestamp": 148.97999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 149.37999999999997
+	},
+	{
+		"index": 108,
+		"txt": "we'll begin with is very simple.",
+		"file": "/home/user1/trash/dirOutputSet/_100_we_ll_begin_with_is_very_simple__egin_with_is_very_simple_____.wav",
+		"duration": 0.65,
+		"sentenceIndex": 5195,
+		"timestamp": 149.87999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 150.52999999999997
+	},
+	{
+		"index": 109,
+		"txt": "All we want to achieve at first is to have the particles fall under the",
+		"file": "/home/user1/trash/dirOutputSet/_100_All_we_want_to_achieve_at_first_is___particles_fall_under_the____.wav",
+		"duration": 1.36,
+		"sentenceIndex": 5196,
+		"timestamp": 151.02999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 152.39
+	},
+	{
+		"index": 110,
+		"txt": "influence of gravity.",
+		"file": "/home/user1/trash/dirOutputSet/_100_influence_of_gravity__influence_of_gravity_____.wav",
+		"duration": 0.5,
+		"sentenceIndex": 5197,
+		"timestamp": 152.89
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 153.39
+	},
+	{
+		"index": 111,
+		"txt": "The particles will be initialized with an altitude above a ground plane.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_particles_will_be_initialized_w_ude_above_a_ground_plane_____.wav",
+		"duration": 1.35,
+		"sentenceIndex": 5198,
+		"timestamp": 153.89
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 155.23999999999998
+	},
+	{
+		"index": 112,
+		"txt": "Upon the start of the simulation, gravity will act on each particle, continuously causing each to accelerate toward the ground plane, gaining speed as it goes.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Upon_the_start_of_the_simulation__g_gaining_speed_as_it_goes_____.wav",
+		"duration": 3.54,
+		"sentenceIndex": 5199,
+		"timestamp": 155.73999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 159.27999999999997
+	},
+	{
+		"index": 113,
+		"txt": "Imagine holding a handful of small rocks up high and then releasing them.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Imagine_holding_a_handful_of_small___and_then_releasing_them_____.wav",
+		"duration": 1.47,
+		"sentenceIndex": 5200,
+		"timestamp": 159.77999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 161.24999999999997
+	},
+	{
+		"index": 114,
+		"txt": "Simple, huh?",
+		"file": "/home/user1/trash/dirOutputSet/_100_Simple__huh__Simple__huh_____.wav",
+		"duration": 0.4,
+		"sentenceIndex": 5201,
+		"timestamp": 161.74999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 162.14999999999998
+	},
+	{
+		"index": 117,
+		"txt": "There are several particle attributes we must consider even for this simple example.",
+		"file": "/home/user1/trash/dirOutputSet/_100_There_are_several_particle_attribut__for_this_simple_example_____.wav",
+		"duration": 1.71,
+		"sentenceIndex": 5204,
+		"timestamp": 162.64999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 164.35999999999999
+	},
+	{
+		"index": 118,
+		"txt": "Our model assumes that each particle has mass, and a set diameter (we're assuming our particles are circles in 2D or spheres in 3D), occupies some position in space, and is traveling at some velocity.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Our_model_assumes_that_each_particl_aveling_at_some_velocity_____.wav",
+		"duration": 4.66,
+		"sentenceIndex": 5205,
+		"timestamp": 164.85999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 169.51999999999998
+	},
+	{
+		"index": 119,
+		"txt": "Additionally, each particle is acted upon by some net external force, which is the aggregate of all forces acting on the particle.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Additionally__each_particle_is_acte_s_acting_on_the_particle_____.wav",
+		"duration": 2.78,
+		"sentenceIndex": 5206,
+		"timestamp": 170.01999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 172.79999999999998
+	},
+	{
+		"index": 120,
+		"txt": "These forces will be gravity alone to start with, but will eventually include drag and impact forces.",
+		"file": "/home/user1/trash/dirOutputSet/_100_These_forces_will_be_gravity_alone__e_drag_and_impact_forces_____.wav",
+		"duration": 2.2,
+		"sentenceIndex": 5207,
+		"timestamp": 173.29999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 175.49999999999997
+	},
+	{
+		"index": 121,
+		"txt": "We set up a Particle class to encapsulate these attributes as follows:",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_set_up_a_Particle_class_to_encap_se_attributes_as_follows_____.wav",
+		"duration": 1.54,
+		"sentenceIndex": 5208,
+		"timestamp": 175.99999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 177.53999999999996
+	},
+	{
+		"index": 124,
+		"txt": "Most of these attributes are self explanatory given the comments we've included.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Most_of_these_attributes_are_self_e__comments_we_ve_included_____.wav",
+		"duration": 1.53,
+		"sentenceIndex": 5211,
+		"timestamp": 178.03999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 179.56999999999996
+	},
+	{
+		"index": 125,
+		"txt": "Notice that several of these attributes are Vector types.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Notice_that_several_of_these_attrib_ributes_are_Vector_types_____.wav",
+		"duration": 1.16,
+		"sentenceIndex": 5212,
+		"timestamp": 180.06999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 181.22999999999996
+	},
+	{
+		"index": 126,
+		"txt": "These vectors are defined in the custom math library we've included in",
+		"file": "/home/user1/trash/dirOutputSet/_100_These_vectors_are_defined_in_the_cu_library_we_ve_included_in____.wav",
+		"duration": 1.46,
+		"sentenceIndex": 5213,
+		"timestamp": 181.72999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 183.18999999999997
+	},
+	{
+		"index": 127,
+		"txt": "Appendix A",
+		"file": "/home/user1/trash/dirOutputSet/_100_Appendix A_Appendix A____.wav",
+		"duration": 0.48,
+		"sentenceIndex": 5214,
+		"timestamp": 183.68999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 184.16999999999996
+	},
+	{
+		"index": 129,
+		"txt": "This type makes managing vectors and performing arithmetic operations with them a breeze.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_type_makes_managing_vectors_an_tions_with_them_a_breeze_____.wav",
+		"duration": 1.78,
+		"sentenceIndex": 5216,
+		"timestamp": 184.66999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 186.44999999999996
+	},
+	{
+		"index": 130,
+		"txt": "Take a look at",
+		"file": "/home/user1/trash/dirOutputSet/_100_Take_a_look_at_Take_a_look_at____.wav",
+		"duration": 0.29,
+		"sentenceIndex": 5217,
+		"timestamp": 186.94999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 187.23999999999995
+	},
+	{
+		"index": 131,
+		"txt": "Appendix A",
+		"file": "/home/user1/trash/dirOutputSet/_100_Appendix A_Appendix A____.wav",
+		"duration": 0.48,
+		"sentenceIndex": 5218,
+		"timestamp": 187.73999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 188.21999999999994
+	},
+	{
+		"index": 132,
+		"txt": "to see what this custom type does.",
+		"file": "/home/user1/trash/dirOutputSet/_100_to_see_what_this_custom_type_does__at_this_custom_type_does_____.wav",
+		"duration": 0.75,
+		"sentenceIndex": 5219,
+		"timestamp": 188.71999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 189.46999999999994
+	},
+	{
+		"index": 133,
+		"txt": "We'll just remind you of the data structure Vector uses:",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ll_just_remind_you_of_the_data_s_ta_structure_Vector_uses_____.wav",
+		"duration": 1.21,
+		"sentenceIndex": 5220,
+		"timestamp": 189.96999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 191.17999999999995
+	},
+	{
+		"index": 134,
+		"txt": "three scalars called x, y, and z",
+		"file": "/home/user1/trash/dirOutputSet/_100_three_scalars_called_x__y__and_z_calars_called_x__y__and_z____.wav",
+		"duration": 1.16,
+		"sentenceIndex": 5221,
+		"timestamp": 191.67999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 192.83999999999995
+	},
+	{
+		"index": 135,
+		"txt": "representing the three dimensions of a location or of a movement in some direction.",
+		"file": "/home/user1/trash/dirOutputSet/_100_representing_the_three_dimensions_o_vement_in_some_direction_____.wav",
+		"duration": 1.63,
+		"sentenceIndex": 5222,
+		"timestamp": 193.33999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 194.96999999999994
+	},
+	{
+		"index": 136,
+		"txt": "The z component will always be set to 0 in this chapter's examples.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_z_component_will_always_be_set___this_chapter_s_examples_____.wav",
+		"duration": 1.54,
+		"sentenceIndex": 5223,
+		"timestamp": 195.46999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 197.00999999999993
+	},
+	{
+		"index": 139,
+		"txt": "You should have noticed the fSpeed property in the Particle class.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_should_have_noticed_the_fSpeed__ty_in_the_Particle_class_____.wav",
+		"duration": 1.24,
+		"sentenceIndex": 5226,
+		"timestamp": 197.50999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 198.74999999999994
+	},
+	{
+		"index": 140,
+		"txt": "This property stores the magnitude of the velocity vector, the particle's speed.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_property_stores_the_magnitude__or__the_particle_s_speed_____.wav",
+		"duration": 1.76,
+		"sentenceIndex": 5227,
+		"timestamp": 199.24999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 201.00999999999993
+	},
+	{
+		"index": 141,
+		"txt": "We'll use this later when computing aerodynamic drag forces.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ll_use_this_later_when_computing__aerodynamic_drag_forces_____.wav",
+		"duration": 1.26,
+		"sentenceIndex": 5228,
+		"timestamp": 201.50999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 202.76999999999992
+	},
+	{
+		"index": 142,
+		"txt": "We've also included a Vector type property called vGravity , which stores the gravity force vector defining the magnitude and the direction in which the gravity force acts.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ve_also_included_a_Vector_type_p_h_the_gravity_force_acts_____.wav",
+		"duration": 3.5,
+		"sentenceIndex": 5229,
+		"timestamp": 203.26999999999992
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 206.76999999999992
+	},
+	{
+		"index": 143,
+		"txt": "This is not really necessary, as you could hardcode the gravity force vector or use a global variable; however, we've included it here to illustrate some creative flexibility.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_not_really_necessary__as_yo_ome_creative_flexibility_____.wav",
+		"duration": 3.63,
+		"sentenceIndex": 5230,
+		"timestamp": 207.26999999999992
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 210.89999999999992
+	},
+	{
+		"index": 144,
+		"txt": "For example, you could redefine the gravity vector in a game that uses",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_example__you_could_redefine_the_ector_in_a_game_that_uses____.wav",
+		"duration": 1.58,
+		"sentenceIndex": 5231,
+		"timestamp": 211.39999999999992
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 212.97999999999993
+	},
+	{
+		"index": 146,
+		"txt": "accelerometer input to determine gravity's direction with respect to a particular device's orientation (see",
+		"file": "/home/user1/trash/dirOutputSet/_100_accelerometer_input_to_determine_gr_device_s_orientation__see____.wav",
+		"duration": 2.52,
+		"sentenceIndex": 5233,
+		"timestamp": 213.47999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 215.99999999999994
+	},
+	{
+		"index": 147,
+		"txt": "Chapter 21",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 21_Chapter 21____.wav",
+		"duration": 0.46,
+		"sentenceIndex": 5234,
+		"timestamp": 216.49999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 216.95999999999995
+	},
+	{
+		"index": 149,
+		"txt": "And you may have a game where some particles react to different gravities depending on their type, which can be of your own concoction.",
+		"file": "/home/user1/trash/dirOutputSet/_100_And_you_may_have_a_game_where_some__e_of_your_own_concoction_____.wav",
+		"duration": 2.53,
+		"sentenceIndex": 5236,
+		"timestamp": 217.45999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 219.98999999999995
+	},
+	{
+		"index": 151,
+		"txt": "Aside from properties, you'll notice several methods in the Particle class.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Aside_from_properties__you_ll_notic_ds_in_the_Particle_class_____.wav",
+		"duration": 1.47,
+		"sentenceIndex": 5238,
+		"timestamp": 220.48999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 221.95999999999995
+	},
+	{
+		"index": 152,
+		"txt": "The constructor is trivial.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_constructor_is_trivial__e_constructor_is_trivial_____.wav",
+		"duration": 0.55,
+		"sentenceIndex": 5239,
+		"timestamp": 222.45999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 223.00999999999996
+	},
+	{
+		"index": 153,
+		"txt": "It sets everything to 0 except the particle's mass, radius, and the gravity force vector.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_sets_everything_to_0_except_the__the_gravity_force_vector_____.wav",
+		"duration": 2.08,
+		"sentenceIndex": 5240,
+		"timestamp": 223.50999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 225.58999999999997
+	},
+	{
+		"index": 154,
+		"txt": "The following code illustrates how everything is initialized:",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_following_code_illustrates_how__verything_is_initialized_____.wav",
+		"duration": 1.27,
+		"sentenceIndex": 5241,
+		"timestamp": 226.08999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 227.35999999999999
+	},
+	{
+		"index": 157,
+		"txt": "Now is probably a good time to explain the",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now_is_probably_a_good_time_to_expl__good_time_to_explain_the____.wav",
+		"duration": 0.95,
+		"sentenceIndex": 5244,
+		"timestamp": 227.85999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 228.80999999999997
+	},
+	{
+		"index": 158,
+		"txt": "coordinate system we've assumed.",
+		"file": "/home/user1/trash/dirOutputSet/_100_coordinate_system_we_ve_assumed__ate_system_we_ve_assumed_____.wav",
+		"duration": 0.69,
+		"sentenceIndex": 5245,
+		"timestamp": 229.30999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 229.99999999999997
+	},
+	{
+		"index": 159,
+		"txt": "Our world origin is located at the lower left corner of the example program's window with positive x pointing to the right and positive y pointing up.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Our_world_origin_is_located_at_the__d_positive_y_pointing_up_____.wav",
+		"duration": 3.1,
+		"sentenceIndex": 5246,
+		"timestamp": 230.49999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 233.59999999999997
+	},
+	{
+		"index": 160,
+		"txt": "The acceleration due to gravity acts downward (i.e., in the negative y direction).",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_acceleration_due_to_gravity_act_he_negative_y_direction______.wav",
+		"duration": 1.86,
+		"sentenceIndex": 5247,
+		"timestamp": 234.09999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 235.95999999999998
+	},
+	{
+		"index": 161,
+		"txt": "We're using the SI system of units and have defined the acceleration due to gravity as follows:",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_re_using_the_SI_system_of_units__ue_to_gravity_as_follows_____.wav",
+		"duration": 2.14,
+		"sentenceIndex": 5248,
+		"timestamp": 236.45999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 238.59999999999997
+	},
+	{
+		"index": 163,
+		"txt": "link https:2 in the negative y direction.",
+		"file": "/home/user1/trash/dirOutputSet/_100_link_https_2_in_the_negative_y_dire_the_negative_y_direction_____.wav",
+		"duration": 1.34,
+		"sentenceIndex": 5250,
+		"timestamp": 239.09999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 240.43999999999997
+	},
+	{
+		"index": 164,
+		"txt": "link https:2 , or 9.8 newtons of force.",
+		"file": "/home/user1/trash/dirOutputSet/_100_link_https_2___or_9_8_newtons_of_fo__or_9_8_newtons_of_force_____.wav",
+		"duration": 1.65,
+		"sentenceIndex": 5251,
+		"timestamp": 240.93999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 242.58999999999997
+	},
+	{
+		"index": 165,
+		"txt": "We've set the radius of each particle to one tenth of a meter.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ve_set_the_radius_of_each_partic__to_one_tenth_of_a_meter_____.wav",
+		"duration": 1.26,
+		"sentenceIndex": 5252,
+		"timestamp": 243.08999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 244.34999999999997
+	},
+	{
+		"index": 166,
+		"txt": "These masses and radii are really arbitrary; you can set them to anything suitable for what you're modeling.",
+		"file": "/home/user1/trash/dirOutputSet/_100_These_masses_and_radii_are_really_a_for_what_you_re_modeling_____.wav",
+		"duration": 2.18,
+		"sentenceIndex": 5253,
+		"timestamp": 244.84999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 247.02999999999997
+	},
+	{
+		"index": 168,
+		"txt": "The CalcLoads method is responsible for computing all the loads forces acting on the particle, with the exception of impact forces (we'll handle those later).",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_CalcLoads_method_is_responsible_e_ll_handle_those_later______.wav",
+		"duration": 3.13,
+		"sentenceIndex": 5255,
+		"timestamp": 247.52999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 250.65999999999997
+	},
+	{
+		"index": 169,
+		"txt": "For now, the only force acting on the particles is that due to gravity, or simply, the weight of each particle.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_now__the_only_force_acting_on_t__weight_of_each_particle_____.wav",
+		"duration": 2.37,
+		"sentenceIndex": 5256,
+		"timestamp": 251.15999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 253.52999999999997
+	},
+	{
+		"index": 170,
+		"txt": "CalcLoads is very simple at this point:",
+		"file": "/home/user1/trash/dirOutputSet/_100_CalcLoads_is_very_simple_at_this_po_ery_simple_at_this_point_____.wav",
+		"duration": 0.86,
+		"sentenceIndex": 5257,
+		"timestamp": 254.02999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 254.89
+	},
+	{
+		"index": 173,
+		"txt": "The first order of business is to reset the vForces vector.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_first_order_of_business_is_to_r_reset_the_vForces_vector_____.wav",
+		"duration": 1.27,
+		"sentenceIndex": 5260,
+		"timestamp": 255.39
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 256.65999999999997
+	},
+	{
+		"index": 174,
+		"txt": "vForces is the vector containing the net force acting on the particle.",
+		"file": "/home/user1/trash/dirOutputSet/_100_vForces_is_the_vector_containing_th_e_acting_on_the_particle_____.wav",
+		"duration": 1.44,
+		"sentenceIndex": 5261,
+		"timestamp": 257.15999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 258.59999999999997
+	},
+	{
+		"index": 175,
+		"txt": "All of these forces are aggregated in CalcLoads, as shown by the line vForces += vGravity .",
+		"file": "/home/user1/trash/dirOutputSet/_100_All_of_these_forces_are_aggregated__ine_vForces____vGravity______.wav",
+		"duration": 2.39,
+		"sentenceIndex": 5262,
+		"timestamp": 259.09999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 261.48999999999995
+	},
+	{
+		"index": 176,
+		"txt": "Again, so far, the only force to aggregate is that due",
+		"file": "/home/user1/trash/dirOutputSet/_100_Again__so_far__the_only_force_to_ag__to_aggregate_is_that_due____.wav",
+		"duration": 1.44,
+		"sentenceIndex": 5263,
+		"timestamp": 261.98999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 263.42999999999995
+	},
+	{
+		"index": 179,
+		"txt": "to gravity.",
+		"file": "/home/user1/trash/dirOutputSet/_100_to_gravity__to_gravity_____.wav",
+		"duration": 0.27,
+		"sentenceIndex": 5266,
+		"timestamp": 263.92999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 264.19999999999993
+	},
+	{
+		"index": 182,
+		"txt": "Integrator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Integrator_Integrator____.wav",
+		"duration": 0.25,
+		"sentenceIndex": 5269,
+		"timestamp": 264.69999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 264.94999999999993
+	},
+	{
+		"index": 184,
+		"txt": "The UpdateBodyEuler method",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_UpdateBodyEuler_method_he_UpdateBodyEuler_method____.wav",
+		"duration": 0.66,
+		"sentenceIndex": 5271,
+		"timestamp": 265.44999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 266.10999999999996
+	},
+	{
+		"index": 187,
+		"txt": "integrates the equations of motion",
+		"file": "/home/user1/trash/dirOutputSet/_100_integrates_the_equations_of_motion_s_the_equations_of_motion____.wav",
+		"duration": 0.73,
+		"sentenceIndex": 5274,
+		"timestamp": 266.60999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 267.34
+	},
+	{
+		"index": 188,
+		"txt": "for each particle.",
+		"file": "/home/user1/trash/dirOutputSet/_100_for_each_particle__for_each_particle_____.wav",
+		"duration": 0.4,
+		"sentenceIndex": 5275,
+		"timestamp": 267.84
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 268.23999999999995
+	},
+	{
+		"index": 189,
+		"txt": "Since we're dealing with particles, the only equation of motion we need concern ourselves with is that for translation; rotation does not matter for particles (at least not for us here).",
+		"file": "/home/user1/trash/dirOutputSet/_100_Since_we_re_dealing_with_particles__t_least_not_for_us_here______.wav",
+		"duration": 3.85,
+		"sentenceIndex": 5276,
+		"timestamp": 268.73999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 272.59
+	},
+	{
+		"index": 190,
+		"txt": "The following code sample shows UpdateBodyEuler .",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_following_code_sample_shows_Upd_e_shows_UpdateBodyEuler______.wav",
+		"duration": 1.07,
+		"sentenceIndex": 5277,
+		"timestamp": 273.09
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 274.15999999999997
+	},
+	{
+		"index": 194,
+		"txt": "As the name of this method implies, we've implemented Euler's method",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_the_name_of_this_method_implies__mplemented_Euler_s_method____.wav",
+		"duration": 1.37,
+		"sentenceIndex": 5281,
+		"timestamp": 274.65999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 276.03
+	},
+	{
+		"index": 195,
+		"txt": "of integration as described in",
+		"file": "/home/user1/trash/dirOutputSet/_100_of_integration_as_described_in_tegration_as_described_in____.wav",
+		"duration": 0.71,
+		"sentenceIndex": 5282,
+		"timestamp": 276.53
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 277.23999999999995
+	},
+	{
+		"index": 197,
+		"txt": "Chapter 7 .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 7___Chapter 7______.wav",
+		"duration": 0.34,
+		"sentenceIndex": 5284,
+		"timestamp": 277.73999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 278.0799999999999
+	},
+	{
+		"index": 198,
+		"txt": "Using this method, we simply need to divide the aggregate forces acting on a particle by the mass of the particle to get the particle's acceleration.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Using_this_method__we_simply_need_t__particle_s_acceleration_____.wav",
+		"duration": 2.92,
+		"sentenceIndex": 5285,
+		"timestamp": 278.5799999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 281.49999999999994
+	},
+	{
+		"index": 199,
+		"txt": "The line of code a = vForces / fMass does just this.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_line_of_code_a___vForces___fMas_s___fMass_does_just_this_____.wav",
+		"duration": 1.4,
+		"sentenceIndex": 5286,
+		"timestamp": 281.99999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 283.3999999999999
+	},
+	{
+		"index": 200,
+		"txt": "Notice here that a is a Vector, as is vForces .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Notice_here_that_a_is_a_Vector__as__a_Vector__as_is_vForces______.wav",
+		"duration": 1.17,
+		"sentenceIndex": 5287,
+		"timestamp": 283.8999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 285.06999999999994
+	},
+	{
+		"index": 201,
+		"txt": "fMass is a scalar, and the / operator defined in the Vector class takes care of dividing each component of the vForces vector by fMass and setting the corresponding components in a .",
+		"file": "/home/user1/trash/dirOutputSet/_100_fMass_is_a_scalar__and_the___operat_ponding_components_in_a______.wav",
+		"duration": 3.93,
+		"sentenceIndex": 5288,
+		"timestamp": 285.56999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 289.49999999999994
+	},
+	{
+		"index": 202,
+		"txt": "The change in velocity, dv, is equal to acceleration times the change in time, dt .",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_change_in_velocity__dv__is_equa__the_change_in_time__dt______.wav",
+		"duration": 2.27,
+		"sentenceIndex": 5289,
+		"timestamp": 289.99999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 292.2699999999999
+	},
+	{
+		"index": 203,
+		"txt": "The particle's new velocity is then computed by the line vVelocity += dv .",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_particle_s_new_velocity_is_then_he_line_vVelocity____dv______.wav",
+		"duration": 1.9,
+		"sentenceIndex": 5290,
+		"timestamp": 292.7699999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 294.6699999999999
+	},
+	{
+		"index": 204,
+		"txt": "Here again, vVelocity and dv are Vectors and the += operator takes care of the vector arithmetic.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_again__vVelocity_and_dv_are_Ve_of_the_vector_arithmetic_____.wav",
+		"duration": 2.33,
+		"sentenceIndex": 5291,
+		"timestamp": 295.1699999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 297.4999999999999
+	},
+	{
+		"index": 205,
+		"txt": "This is the first actual integration.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_the_first_actual_integratio_first_actual_integration_____.wav",
+		"duration": 0.78,
+		"sentenceIndex": 5292,
+		"timestamp": 297.9999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 298.77999999999986
+	},
+	{
+		"index": 207,
+		"txt": "The second integration takes place in the next few lines, where we determine the particle's displacement and new position by integrating its velocity.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_second_integration_takes_place__integrating_its_velocity_____.wav",
+		"duration": 2.94,
+		"sentenceIndex": 5294,
+		"timestamp": 299.27999999999986
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 302.21999999999986
+	},
+	{
+		"index": 208,
+		"txt": "The line ds = vVelocity * dt determines the displacement, or change in the particle's position, and the line vPosition += ds computes the new position by adding the displacement to the particle's old position.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_line_ds___vVelocity___dt_determ__particle_s_old_position_____.wav",
+		"duration": 4.82,
+		"sentenceIndex": 5295,
+		"timestamp": 302.71999999999986
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 307.53999999999985
+	},
+	{
+		"index": 210,
+		"txt": "The last line in UpdateBodyEuler computes the particle's speed by taking the magnitude of its velocity vector.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_last_line_in_UpdateBodyEuler_co_e_of_its_velocity_vector_____.wav",
+		"duration": 2.39,
+		"sentenceIndex": 5297,
+		"timestamp": 308.03999999999985
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 310.42999999999984
+	},
+	{
+		"index": 212,
+		"txt": "For demonstration purposes, using Euler's method is just fine.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_demonstration_purposes__using_E_er_s_method_is_just_fine_____.wav",
+		"duration": 1.44,
+		"sentenceIndex": 5299,
+		"timestamp": 310.92999999999984
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 312.36999999999983
+	},
+	{
+		"index": 213,
+		"txt": "In an actual game, the more robust method described in",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_an_actual_game__the_more_robust__obust_method_described_in____.wav",
+		"duration": 1.29,
+		"sentenceIndex": 5300,
+		"timestamp": 312.86999999999983
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 314.15999999999985
+	},
+	{
+		"index": 214,
+		"txt": "Chapter 7",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 7_Chapter 7____.wav",
+		"duration": 0.34,
+		"sentenceIndex": 5301,
+		"timestamp": 314.65999999999985
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 314.99999999999983
+	},
+	{
+		"index": 215,
+		"txt": "is advised.",
+		"file": "/home/user1/trash/dirOutputSet/_100_is_advised__is_advised_____.wav",
+		"duration": 0.27,
+		"sentenceIndex": 5302,
+		"timestamp": 315.49999999999983
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 315.7699999999998
+	},
+	{
+		"index": 217,
+		"txt": "Rendering",
+		"file": "/home/user1/trash/dirOutputSet/_100_Rendering_Rendering____.wav",
+		"duration": 0.22,
+		"sentenceIndex": 5304,
+		"timestamp": 316.2699999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 316.48999999999984
+	},
+	{
+		"index": 218,
+		"txt": "In this example, rendering",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_this_example__rendering_n_this_example__rendering____.wav",
+		"duration": 0.6,
+		"sentenceIndex": 5305,
+		"timestamp": 316.98999999999984
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 317.58999999999986
+	},
+	{
+		"index": 221,
+		"txt": "the particles is rather trivial.",
+		"file": "/home/user1/trash/dirOutputSet/_100_the_particles_is_rather_trivial__ticles_is_rather_trivial_____.wav",
+		"duration": 0.67,
+		"sentenceIndex": 5308,
+		"timestamp": 318.08999999999986
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 318.7599999999999
+	},
+	{
+		"index": 222,
+		"txt": "All we do is draw little circles using Windows API calls wrapped in our own functions to hide some of the Windows specific code.",
+		"file": "/home/user1/trash/dirOutputSet/_100_All_we_do_is_draw_little_circles_us_he_Windows_specific_code_____.wav",
+		"duration": 2.71,
+		"sentenceIndex": 5309,
+		"timestamp": 319.2599999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 321.96999999999986
+	},
+	{
+		"index": 223,
+		"txt": "The following code snippet is all we need to render the particles.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_following_code_snippet_is_all_w__to_render_the_particles_____.wav",
+		"duration": 1.32,
+		"sentenceIndex": 5310,
+		"timestamp": 322.46999999999986
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 323.78999999999985
+	},
+	{
+		"index": 226,
+		"txt": "You can use your own rendering code here, of course, and all you really need to pay close attention to is converting from world coordinates to window coordinates.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_use_your_own_rendering_code_es_to_window_coordinates_____.wav",
+		"duration": 3.21,
+		"sentenceIndex": 5313,
+		"timestamp": 324.28999999999985
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 327.49999999999983
+	},
+	{
+		"index": 227,
+		"txt": "Remember, we've assumed our world coordinate system origin is in the lower left corner of the window, whereas the window drawing coordinate system has its origin in the upper left corner of the window.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Remember__we_ve_assumed_our_world_c_eft_corner_of_the_window_____.wav",
+		"duration": 4.06,
+		"sentenceIndex": 5314,
+		"timestamp": 327.99999999999983
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 332.05999999999983
+	},
+	{
+		"index": 228,
+		"txt": "To transform coordinates in this example, all you need to do is subtract the particle's y position from the height of the window.",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_transform_coordinates_in_this_ex_the_height_of_the_window_____.wav",
+		"duration": 2.57,
+		"sentenceIndex": 5315,
+		"timestamp": 332.55999999999983
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 335.1299999999998
+	},
+	{
+		"index": 231,
+		"txt": "The Basic Simulator",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_Basic_Simulator_The_Basic_Simulator____.wav",
+		"duration": 0.46,
+		"sentenceIndex": 5318,
+		"timestamp": 335.6299999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 336.0899999999998
+	},
+	{
+		"index": 233,
+		"txt": "The heart of this",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_heart_of_this_The_heart_of_this____.wav",
+		"duration": 0.34,
+		"sentenceIndex": 5320,
+		"timestamp": 336.5899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 336.9299999999998
+	},
+	{
+		"index": 234,
+		"txt": "simulation is handled by the Particle",
+		"file": "/home/user1/trash/dirOutputSet/_100_simulation_is_handled_by_the_Partic_s_handled_by_the_Particle____.wav",
+		"duration": 0.79,
+		"sentenceIndex": 5321,
+		"timestamp": 337.4299999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 338.2199999999998
+	},
+	{
+		"index": 235,
+		"txt": "class described earlier.",
+		"file": "/home/user1/trash/dirOutputSet/_100_class_described_earlier__class_described_earlier_____.wav",
+		"duration": 0.55,
+		"sentenceIndex": 5322,
+		"timestamp": 338.7199999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 339.2699999999998
+	},
+	{
+		"index": 236,
+		"txt": "However, we need to show you how that class is used in the context of the main program.",
+		"file": "/home/user1/trash/dirOutputSet/_100_However__we_need_to_show_you_how_th_text_of_the_main_program_____.wav",
+		"duration": 1.76,
+		"sentenceIndex": 5323,
+		"timestamp": 339.7699999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 341.5299999999998
+	},
+	{
+		"index": 239,
+		"txt": "First, we define a few global variables as follows:",
+		"file": "/home/user1/trash/dirOutputSet/_100_First__we_define_a_few_global_varia_bal_variables_as_follows_____.wav",
+		"duration": 1.25,
+		"sentenceIndex": 5326,
+		"timestamp": 342.0299999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 343.2799999999998
+	},
+	{
+		"index": 241,
+		"txt": "FrameCounter counts the number of time steps integrated before the graphics display is updated.",
+		"file": "/home/user1/trash/dirOutputSet/_100_FrameCounter_counts_the_number_of_t_phics_display_is_updated_____.wav",
+		"duration": 2.02,
+		"sentenceIndex": 5328,
+		"timestamp": 343.7799999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 345.7999999999998
+	},
+	{
+		"index": 242,
+		"txt": "How many time steps you allow the simulation to integrate before updating the display is a matter of tuning.",
+		"file": "/home/user1/trash/dirOutputSet/_100_How_many_time_steps_you_allow_the_s_ay_is_a_matter_of_tuning_____.wav",
+		"duration": 2.13,
+		"sentenceIndex": 5329,
+		"timestamp": 346.2999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 348.4299999999998
+	},
+	{
+		"index": 243,
+		"txt": "You'll see how this is used momentarily when we discuss the UpdateSimulation function.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_ll_see_how_this_is_used_momenta_pdateSimulation_function_____.wav",
+		"duration": 1.73,
+		"sentenceIndex": 5330,
+		"timestamp": 348.9299999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 350.6599999999998
+	},
+	{
+		"index": 244,
+		"txt": "Units is an array of Particle types.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Units_is_an_array_of_Particle_types__array_of_Particle_types_____.wav",
+		"duration": 0.82,
+		"sentenceIndex": 5331,
+		"timestamp": 351.1599999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 351.9799999999998
+	},
+	{
+		"index": 245,
+		"txt": "These will represent moving particles in the simulation the ones that fall from above and bounce off the circular objects we'll add later.",
+		"file": "/home/user1/trash/dirOutputSet/_100_These_will_represent_moving_particl__objects_we_ll_add_later_____.wav",
+		"duration": 2.68,
+		"sentenceIndex": 5332,
+		"timestamp": 352.4799999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 355.1599999999998
+	},
+	{
+		"index": 247,
+		"txt": "For the most part, each unit is initialized in accordance with the Particle constructor shown earlier.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_the_most_part__each_unit_is_ini_onstructor_shown_earlier_____.wav",
+		"duration": 1.96,
+		"sentenceIndex": 5334,
+		"timestamp": 355.6599999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 357.6199999999998
+	},
+	{
+		"index": 248,
+		"txt": "However, their positions are all at the origin, so we make a call to the following Initialize function to randomly distribute the particles in the upper middle portion of the screen within a rectangle of width _SPAWN_AREA_R*4 and a height of _SPAWN_AREA_R, where _SPAWN_AREA_R is just a global define we made up.",
+		"file": "/home/user1/trash/dirOutputSet/_100_However__their_positions_are_all_at_global_define_we_made_up_____.wav",
+		"duration": 8.12,
+		"sentenceIndex": 5335,
+		"timestamp": 358.1199999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 366.2399999999998
+	},
+	{
+		"index": 251,
+		"txt": "OK, now let's consider UpdateSimulation as shown in the code snippet that follows.",
+		"file": "/home/user1/trash/dirOutputSet/_100_OK__now_let_s_consider_UpdateSimula_ode_snippet_that_follows_____.wav",
+		"duration": 1.87,
+		"sentenceIndex": 5338,
+		"timestamp": 366.7399999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 368.6099999999998
+	},
+	{
+		"index": 252,
+		"txt": "This function gets called every cycle through the program's main message loop and is responsible for cycling through all the Units , making appropriate function calls to update their positions, and rendering the scene.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_function_gets_called_every_cyc__and_rendering_the_scene_____.wav",
+		"duration": 4.19,
+		"sentenceIndex": 5339,
+		"timestamp": 369.1099999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 373.2999999999998
+	},
+	{
+		"index": 256,
+		"txt": "The two local variables in UpdateSimulation are dt and i .",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_two_local_variables_in_UpdateSi_Simulation_are_dt_and_i______.wav",
+		"duration": 1.47,
+		"sentenceIndex": 5343,
+		"timestamp": 373.7999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 375.2699999999998
+	},
+	{
+		"index": 257,
+		"txt": "i is trivial and serves as a counter variable.",
+		"file": "/home/user1/trash/dirOutputSet/_100_i_is_trivial_and_serves_as_a_counte_es_as_a_counter_variable_____.wav",
+		"duration": 0.99,
+		"sentenceIndex": 5344,
+		"timestamp": 375.7699999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 376.7599999999998
+	},
+	{
+		"index": 258,
+		"txt": "dt represents the small yet finite amount of time, in seconds, over which each integration step is taken.",
+		"file": "/home/user1/trash/dirOutputSet/_100_dt_represents_the_small_yet_finite__ntegration_step_is_taken_____.wav",
+		"duration": 2.47,
+		"sentenceIndex": 5345,
+		"timestamp": 377.2599999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 379.72999999999985
+	},
+	{
+		"index": 259,
+		"txt": "The global define_TIMESTEP stores the time step, which we have set to 0.1 seconds.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_global_define_TIMESTEP_stores_t__have_set_to_0_1_seconds_____.wav",
+		"duration": 2.31,
+		"sentenceIndex": 5346,
+		"timestamp": 380.22999999999985
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 382.53999999999985
+	},
+	{
+		"index": 260,
+		"txt": "This value is subject to tuning, which we'll discuss toward the end of this chapter in the section",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_value_is_subject_to_tuning__wh_is_chapter_in_the_section____.wav",
+		"duration": 1.93,
+		"sentenceIndex": 5347,
+		"timestamp": 383.03999999999985
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 384.96999999999986
+	},
+	{
+		"index": 261,
+		"txt": "Tuning",
+		"file": "/home/user1/trash/dirOutputSet/_100_Tuning_Tuning____.wav",
+		"duration": 0.16,
+		"sentenceIndex": 5348,
+		"timestamp": 385.46999999999986
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 385.6299999999999
+	},
+	{
+		"index": 264,
+		"txt": "The next segment of code checks the value of the frame counter, and if the frame counter has reached the defined number of frames, stored in _RENDER_FRAME_COUNT , then the back buffer is cleared to prepare it for drawing upon and ultimately copying to the screen.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_next_segment_of_code_checks_the_ly_copying_to_the_screen_____.wav",
+		"duration": 5.71,
+		"sentenceIndex": 5351,
+		"timestamp": 386.1299999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 391.83999999999986
+	},
+	{
+		"index": 266,
+		"txt": "The next section of code under the comment update the particles does just that by calling the CalcLoads and UpdateBodyEuler methods of each Unit .",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_next_section_of_code_under_the__er_methods_of_each_Unit______.wav",
+		"duration": 2.87,
+		"sentenceIndex": 5353,
+		"timestamp": 392.33999999999986
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 395.20999999999987
+	},
+	{
+		"index": 267,
+		"txt": "These two lines are responsible for updating all the forces acting on each particle and then integrating the equation of motion for each particle.",
+		"file": "/home/user1/trash/dirOutputSet/_100_These_two_lines_are_responsible_for_motion_for_each_particle_____.wav",
+		"duration": 2.96,
+		"sentenceIndex": 5354,
+		"timestamp": 395.70999999999987
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 398.66999999999985
+	},
+	{
+		"index": 269,
+		"txt": "The next few lines within the for loop draw each particle if required and wrap each particle's position around the window extents should they progress beyond the edges of the window.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_next_few_lines_within_the_for_l__the_edges_of_the_window_____.wav",
+		"duration": 3.32,
+		"sentenceIndex": 5356,
+		"timestamp": 399.16999999999985
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 402.48999999999984
+	},
+	{
+		"index": 270,
+		"txt": "Note that we're using window coordinates in this",
+		"file": "/home/user1/trash/dirOutputSet/_100_Note_that_we_re_using_window_coordi_indow_coordinates_in_this____.wav",
+		"duration": 0.98,
+		"sentenceIndex": 5357,
+		"timestamp": 402.98999999999984
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 403.96999999999986
+	},
+	{
+		"index": 271,
+		"txt": "example.",
+		"file": "/home/user1/trash/dirOutputSet/_100_example__example_____.wav",
+		"duration": 0.28,
+		"sentenceIndex": 5358,
+		"timestamp": 404.46999999999986
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 404.74999999999983
+	},
+	{
+		"index": 274,
+		"txt": "Implementing External Forces",
+		"file": "/home/user1/trash/dirOutputSet/_100_Implementing_External_Forces_lementing_External_Forces____.wav",
+		"duration": 0.64,
+		"sentenceIndex": 5361,
+		"timestamp": 405.24999999999983
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 405.8899999999998
+	},
+	{
+		"index": 276,
+		"txt": "We'll add a",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ll_add_a_We_ll_add_a____.wav",
+		"duration": 0.32,
+		"sentenceIndex": 5363,
+		"timestamp": 406.3899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 406.7099999999998
+	},
+	{
+		"index": 277,
+		"txt": "couple of simple external forces to start with",
+		"file": "/home/user1/trash/dirOutputSet/_100_couple_of_simple_external_forces_to_rnal_forces_to_start_with____.wav",
+		"duration": 0.98,
+		"sentenceIndex": 5364,
+		"timestamp": 407.2099999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 408.1899999999998
+	},
+	{
+		"index": 280,
+		"txt": "still air drag, and wind force.",
+		"file": "/home/user1/trash/dirOutputSet/_100_still_air_drag__and_wind_force__air_drag__and_wind_force_____.wav",
+		"duration": 0.81,
+		"sentenceIndex": 5367,
+		"timestamp": 408.6899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 409.49999999999983
+	},
+	{
+		"index": 281,
+		"txt": "We'll use the formulas presented in",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ll_use_the_formulas_presented_in_the_formulas_presented_in____.wav",
+		"duration": 0.76,
+		"sentenceIndex": 5368,
+		"timestamp": 409.99999999999983
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 410.7599999999998
+	},
+	{
+		"index": 282,
+		"txt": "Chapter 3",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 3_Chapter 3____.wav",
+		"duration": 0.34,
+		"sentenceIndex": 5369,
+		"timestamp": 411.2599999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 411.5999999999998
+	},
+	{
+		"index": 283,
+		"txt": "to approximate these forces, treating them in a similar manner.",
+		"file": "/home/user1/trash/dirOutputSet/_100_to_approximate_these_forces__treati_them_in_a_similar_manner_____.wav",
+		"duration": 1.26,
+		"sentenceIndex": 5370,
+		"timestamp": 412.0999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 413.3599999999998
+	},
+	{
+		"index": 284,
+		"txt": "Recall that still air drag is the aerodynamic drag force acting against an object moving at some speed through still air.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Recall_that_still_air_drag_is_the_a__speed_through_still_air_____.wav",
+		"duration": 2.55,
+		"sentenceIndex": 5371,
+		"timestamp": 413.8599999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 416.4099999999998
+	},
+	{
+		"index": 285,
+		"txt": "Drag always acts to resist motion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Drag_always_acts_to_resist_motion__ys_acts_to_resist_motion_____.wav",
+		"duration": 0.8,
+		"sentenceIndex": 5372,
+		"timestamp": 416.9099999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 417.7099999999998
+	},
+	{
+		"index": 286,
+		"txt": "While we'll use the same formulas to compute a wind force, recall that wind force may not necessarily act to impede motion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_While_we_ll_use_the_same_formulas_t_ily_act_to_impede_motion_____.wav",
+		"duration": 2.63,
+		"sentenceIndex": 5373,
+		"timestamp": 418.2099999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 420.8399999999998
+	},
+	{
+		"index": 287,
+		"txt": "You could have a tailwind pushing an object along, or the wind could come from any direction with components that push the object sideways.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_could_have_a_tailwind_pushing_a_push_the_object_sideways_____.wav",
+		"duration": 2.76,
+		"sentenceIndex": 5374,
+		"timestamp": 421.3399999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 424.0999999999998
+	},
+	{
+		"index": 288,
+		"txt": "In this example we'll assume a side wind from left to right, acting to push the particles sideways, with the still air drag resisting their falling motion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_this_example_we_ll_assume_a_side_ing_their_falling_motion_____.wav",
+		"duration": 3.14,
+		"sentenceIndex": 5375,
+		"timestamp": 424.5999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 427.7399999999998
+	},
+	{
+		"index": 289,
+		"txt": "When we add collisions later, this same drag formulation will act to resist particle motion in any direction in which they travel as they bounce around.",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_we_add_collisions_later__this__el_as_they_bounce_around_____.wav",
+		"duration": 2.96,
+		"sentenceIndex": 5376,
+		"timestamp": 428.2399999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 431.19999999999976
+	},
+	{
+		"index": 291,
+		"txt": "The formula we'll use to model still air drag is:Fd = ½ ρV2ACd",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_formula_we_ll_use_to_model_stil_air_drag_is_Fd______V2ACd____.wav",
+		"duration": 2.18,
+		"sentenceIndex": 5378,
+		"timestamp": 431.69999999999976
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 433.87999999999977
+	},
+	{
+		"index": 292,
+		"txt": "Here Fd is the magnitude of the drag force.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_Fd_is_the_magnitude_of_the_dra_nitude_of_the_drag_force_____.wav",
+		"duration": 0.95,
+		"sentenceIndex": 5379,
+		"timestamp": 434.37999999999977
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 435.32999999999976
+	},
+	{
+		"index": 293,
+		"txt": "Its direction is directly opposite the velocity of the moving particle. ρ is the density of air through which the particle moves, V is the magnitude of the particle's velocity (its speed), A is the projected area of the particle as though it's a sphere, and Cd is a drag coefficient.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Its_direction_is_directly_opposite__Cd_is_a_drag_coefficient_____.wav",
+		"duration": 6.25,
+		"sentenceIndex": 5380,
+		"timestamp": 435.82999999999976
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 442.07999999999976
+	},
+	{
+		"index": 295,
+		"txt": "We can use this same formula to estimate the wind force pushing the particle sideways.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_can_use_this_same_formula_to_est_ng_the_particle_sideways_____.wav",
+		"duration": 1.85,
+		"sentenceIndex": 5382,
+		"timestamp": 442.57999999999976
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 444.4299999999998
+	},
+	{
+		"index": 296,
+		"txt": "The only difference this time is that V is the wind speed, and the direction of the resulting wind force is from our assumed left to right direction.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_only_difference_this_time_is_th__left_to_right_direction_____.wav",
+		"duration": 2.79,
+		"sentenceIndex": 5383,
+		"timestamp": 444.9299999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 447.7199999999998
+	},
+	{
+		"index": 298,
+		"txt": "To add these two forces to our simulation, we need to make a few additions to the Particle class's CalcLoads method.",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_add_these_two_forces_to_our_simu_class_s_CalcLoads_method_____.wav",
+		"duration": 2.36,
+		"sentenceIndex": 5385,
+		"timestamp": 448.2199999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 450.5799999999998
+	},
+	{
+		"index": 299,
+		"txt": "The following code shows how CalcLoads looks now.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_following_code_shows_how_CalcLo__how_CalcLoads_looks_now_____.wav",
+		"duration": 1.05,
+		"sentenceIndex": 5386,
+		"timestamp": 451.0799999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 452.1299999999998
+	},
+	{
+		"index": 300,
+		"txt": "Remember, all we had in here originally were the first three lines of executable code shown next the code that initializes the aggregate force vector and then the line of code that adds the force due to gravity to the aggregate force.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Remember__all_we_had_in_here_origin_y_to_the_aggregate_force_____.wav",
+		"duration": 4.48,
+		"sentenceIndex": 5387,
+		"timestamp": 452.6299999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 457.10999999999984
+	},
+	{
+		"index": 301,
+		"txt": "All the rest of the code in this method is new.",
+		"file": "/home/user1/trash/dirOutputSet/_100_All_the_rest_of_the_code_in_this_me_de_in_this_method_is_new_____.wav",
+		"duration": 0.9,
+		"sentenceIndex": 5388,
+		"timestamp": 457.60999999999984
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 458.5099999999998
+	},
+	{
+		"index": 304,
+		"txt": "So after the force due to gravity is added to the aggregate, two new local variables are declared.",
+		"file": "/home/user1/trash/dirOutputSet/_100_So_after_the_force_due_to_gravity_i_l_variables_are_declared_____.wav",
+		"duration": 2,
+		"sentenceIndex": 5391,
+		"timestamp": 459.0099999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 461.0099999999998
+	},
+	{
+		"index": 305,
+		"txt": "vDrag is a vector that will represent the still air drag force.",
+		"file": "/home/user1/trash/dirOutputSet/_100_vDrag_is_a_vector_that_will_represe_the_still_air_drag_force_____.wav",
+		"duration": 1.28,
+		"sentenceIndex": 5392,
+		"timestamp": 461.5099999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 462.7899999999998
+	},
+	{
+		"index": 306,
+		"txt": "fDrag is the magnitude of that drag force.",
+		"file": "/home/user1/trash/dirOutputSet/_100_fDrag_is_the_magnitude_of_that_drag_itude_of_that_drag_force_____.wav",
+		"duration": 1.02,
+		"sentenceIndex": 5393,
+		"timestamp": 463.2899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 464.3099999999998
+	},
+	{
+		"index": 307,
+		"txt": "Since we know the drag force vector is exactly opposite to the particle's velocity vector, we can equate vDrag to negative vVelocity and then normalize vDrag to obtain a unit vector pointing in a direction opposite of the particle's velocity.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Since_we_know_the_drag_force_vector__the_particle_s_velocity_____.wav",
+		"duration": 5.05,
+		"sentenceIndex": 5394,
+		"timestamp": 464.8099999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 469.8599999999998
+	},
+	{
+		"index": 308,
+		"txt": "Next we compute the magnitude of the drag force using the formula shown earlier.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Next_we_compute_the_magnitude_of_th_he_formula_shown_earlier_____.wav",
+		"duration": 1.68,
+		"sentenceIndex": 5395,
+		"timestamp": 470.3599999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 472.0399999999998
+	},
+	{
+		"index": 309,
+		"txt": "This line handles that:",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_line_handles_that__This_line_handles_that_____.wav",
+		"duration": 0.58,
+		"sentenceIndex": 5396,
+		"timestamp": 472.5399999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 473.1199999999998
+	},
+	{
+		"index": 312,
+		"txt": "Here, _AIRDENSITY is a global definelink https:3 (standard air at 15°C).",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here___AIRDENSITY_is_a_global_defin_3__standard_air_at_15_C______.wav",
+		"duration": 2.82,
+		"sentenceIndex": 5399,
+		"timestamp": 473.6199999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 476.43999999999977
+	},
+	{
+		"index": 313,
+		"txt": "fSpeed is the particle's speed: the magnitude of its velocity.",
+		"file": "/home/user1/trash/dirOutputSet/_100_fSpeed_is_the_particle_s_speed__the_agnitude_of_its_velocity_____.wav",
+		"duration": 1.42,
+		"sentenceIndex": 5400,
+		"timestamp": 476.93999999999977
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 478.3599999999998
+	},
+	{
+		"index": 314,
+		"txt": "The 3.14159 * fRadius * fRadius line represents the projected area of the particle assuming the particle is a sphere.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_3_14159___fRadius___fRadius_lin_the_particle_is_a_sphere_____.wav",
+		"duration": 3.1,
+		"sentenceIndex": 5401,
+		"timestamp": 478.8599999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 481.9599999999998
+	},
+	{
+		"index": 315,
+		"txt": "And finally, _DRAGCOEFFICIENT is a drag coefficient that we have set to 0.6.",
+		"file": "/home/user1/trash/dirOutputSet/_100_And_finally___DRAGCOEFFICIENT_is_a___that_we_have_set_to_0_6_____.wav",
+		"duration": 2.14,
+		"sentenceIndex": 5402,
+		"timestamp": 482.4599999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 484.5999999999998
+	},
+	{
+		"index": 316,
+		"txt": "We picked this value from the chart of drag coefficient for a smooth sphere versus the Reynolds number shown in",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_picked_this_value_from_the_chart__Reynolds_number_shown_in____.wav",
+		"duration": 2.1,
+		"sentenceIndex": 5403,
+		"timestamp": 485.0999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 487.1999999999998
+	},
+	{
+		"index": 317,
+		"txt": "Chapter 6",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 6_Chapter 6____.wav",
+		"duration": 0.35,
+		"sentenceIndex": 5404,
+		"timestamp": 487.6999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 488.04999999999984
+	},
+	{
+		"index": 319,
+		"txt": "We simply eyeballed a value in the Reynolds number range from 1e4 to 1e5.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_simply_eyeballed_a_value_in_the__er_range_from_1e4_to_1e5_____.wav",
+		"duration": 1.93,
+		"sentenceIndex": 5406,
+		"timestamp": 488.54999999999984
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 490.47999999999985
+	},
+	{
+		"index": 320,
+		"txt": "You have a choice here of tuning the drag coefficient value to achieve some desired effect, or you can create a curve fit or lookup table to select a drag coefficient corresponding to the Reynolds number of the moving particle.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_have_a_choice_here_of_tuning_th_r_of_the_moving_particle_____.wav",
+		"duration": 4.53,
+		"sentenceIndex": 5407,
+		"timestamp": 490.97999999999985
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 495.5099999999998
+	},
+	{
+		"index": 322,
+		"txt": "Now that we have the magnitude of the drag force, we simply multiply that force by the unit drag vector to obtain the final drag force vector.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now_that_we_have_the_magnitude_of_t__final_drag_force_vector_____.wav",
+		"duration": 2.94,
+		"sentenceIndex": 5409,
+		"timestamp": 496.0099999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 498.9499999999998
+	},
+	{
+		"index": 323,
+		"txt": "This vector then gets aggregated in vForces .",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_vector_then_gets_aggregated_in_s_aggregated_in_vForces______.wav",
+		"duration": 1.01,
+		"sentenceIndex": 5410,
+		"timestamp": 499.4499999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 500.4599999999998
+	},
+	{
+		"index": 325,
+		"txt": "We handle the wind force in a similar manner with a few differences in the details.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_handle_the_wind_force_in_a_simil_fferences_in_the_details_____.wav",
+		"duration": 1.61,
+		"sentenceIndex": 5412,
+		"timestamp": 500.9599999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 502.5699999999998
+	},
+	{
+		"index": 326,
+		"txt": "First, since we know the unit wind force vector is in the positive x direction (i.e., it acts from left to right), we can simply set the x component of the wind force vector, vWind , to the magnitude of the wind force.",
+		"file": "/home/user1/trash/dirOutputSet/_100_First__since_we_know_the_unit_wind__nitude_of_the_wind_force_____.wav",
+		"duration": 4.91,
+		"sentenceIndex": 5413,
+		"timestamp": 503.0699999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 507.97999999999985
+	},
+	{
+		"index": 327,
+		"txt": "We compute that wind force using the same formula we used for still air drag with the exception of using the wind speed instead of the particle's speed.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_compute_that_wind_force_using_th__of_the_particle_s_speed_____.wav",
+		"duration": 2.99,
+		"sentenceIndex": 5414,
+		"timestamp": 508.47999999999985
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 511.46999999999986
+	},
+	{
+		"index": 328,
+		"txt": "We used _WINDSPEED, a global define , to represent the wind speed, which we have set to 10 m/s (about 20 knots).",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_used__WINDSPEED__a_global_define__10_m_s__about_20_knots______.wav",
+		"duration": 3.14,
+		"sentenceIndex": 5415,
+		"timestamp": 511.96999999999986
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 515.1099999999999
+	},
+	{
+		"index": 330,
+		"txt": "Finally, the wind force is aggregated in vForces .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Finally__the_wind_force_is_aggregat_s_aggregated_in_vForces______.wav",
+		"duration": 1.27,
+		"sentenceIndex": 5417,
+		"timestamp": 515.6099999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 516.8799999999999
+	},
+	{
+		"index": 332,
+		"txt": "At this stage the particles will fall under the influence of gravity, but not as fast as they would have without the drag force.",
+		"file": "/home/user1/trash/dirOutputSet/_100_At_this_stage_the_particles_will_fa_e_without_the_drag_force_____.wav",
+		"duration": 2.48,
+		"sentenceIndex": 5419,
+		"timestamp": 517.3799999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 519.8599999999999
+	},
+	{
+		"index": 333,
+		"txt": "And now they'll also drift to the right due to the wind",
+		"file": "/home/user1/trash/dirOutputSet/_100_And_now_they_ll_also_drift_to_the_r_the_right_due_to_the_wind____.wav",
+		"duration": 1.01,
+		"sentenceIndex": 5420,
+		"timestamp": 520.3599999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 521.3699999999999
+	},
+	{
+		"index": 335,
+		"txt": "force.",
+		"file": "/home/user1/trash/dirOutputSet/_100_force__force_____.wav",
+		"duration": 0.22,
+		"sentenceIndex": 5422,
+		"timestamp": 521.8699999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 522.0899999999999
+	},
+	{
+		"index": 338,
+		"txt": "Implementing Collisions",
+		"file": "/home/user1/trash/dirOutputSet/_100_Implementing_Collisions_Implementing_Collisions____.wav",
+		"duration": 0.49,
+		"sentenceIndex": 5425,
+		"timestamp": 522.5899999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 523.0799999999999
+	},
+	{
+		"index": 340,
+		"txt": "Adding external forces",
+		"file": "/home/user1/trash/dirOutputSet/_100_Adding_external_forces_Adding_external_forces____.wav",
+		"duration": 0.56,
+		"sentenceIndex": 5427,
+		"timestamp": 523.5799999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 524.1399999999999
+	},
+	{
+		"index": 342,
+		"txt": "made the simulation a little more interesting.",
+		"file": "/home/user1/trash/dirOutputSet/_100_made_the_simulation_a_little_more_i__little_more_interesting_____.wav",
+		"duration": 0.84,
+		"sentenceIndex": 5429,
+		"timestamp": 524.6399999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 525.4799999999999
+	},
+	{
+		"index": 343,
+		"txt": "However, to really make it pop, we're going to add collisions.",
+		"file": "/home/user1/trash/dirOutputSet/_100_However__to_really_make_it_pop__we___going_to_add_collisions_____.wav",
+		"duration": 1.31,
+		"sentenceIndex": 5430,
+		"timestamp": 525.9799999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 527.2899999999998
+	},
+	{
+		"index": 344,
+		"txt": "Specifically, we'll handle particle to ground collisions and particle to object collisions.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Specifically__we_ll_handle_particle_cle_to_object_collisions_____.wav",
+		"duration": 1.88,
+		"sentenceIndex": 5431,
+		"timestamp": 527.7899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 529.6699999999998
+	},
+	{
+		"index": 345,
+		"txt": "If you have not yet read",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_you_have_not_yet_read_If_you_have_not_yet_read____.wav",
+		"duration": 0.57,
+		"sentenceIndex": 5432,
+		"timestamp": 530.1699999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 530.7399999999999
+	},
+	{
+		"index": 346,
+		"txt": "Chapter 5",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 5_Chapter 5____.wav",
+		"duration": 0.35,
+		"sentenceIndex": 5433,
+		"timestamp": 531.2399999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 531.5899999999999
+	},
+	{
+		"index": 347,
+		"txt": ", which covers collisions, you should because we'll implement principles covered in that chapter here in the example.",
+		"file": "/home/user1/trash/dirOutputSet/_100___which_covers_collisions__you_shou_pter_here_in_the_example_____.wav",
+		"duration": 2.15,
+		"sentenceIndex": 5434,
+		"timestamp": 532.0899999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 534.2399999999999
+	},
+	{
+		"index": 348,
+		"txt": "We'll implement enough collision handling in this example to allow particles to bounce off the ground and circular objects, and we'll come back to collision handling in more detail in",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ll_implement_enough_collision_ha_andling_in_more_detail_in____.wav",
+		"duration": 3.53,
+		"sentenceIndex": 5435,
+		"timestamp": 534.7399999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 538.2699999999999
+	},
+	{
+		"index": 349,
+		"txt": "Chapter 10",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 10_Chapter 10____.wav",
+		"duration": 0.32,
+		"sentenceIndex": 5436,
+		"timestamp": 538.7699999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 539.0899999999999
+	},
+	{
+		"index": 351,
+		"txt": "The material in this chapter should whet your appetite.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_material_in_this_chapter_should_hould_whet_your_appetite_____.wav",
+		"duration": 0.96,
+		"sentenceIndex": 5438,
+		"timestamp": 539.5899999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 540.55
+	},
+	{
+		"index": 352,
+		"txt": "We'll start with the easier case of particle to ground collisions.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ll_start_with_the_easier_case_of_cle_to_ground_collisions_____.wav",
+		"duration": 1.24,
+		"sentenceIndex": 5439,
+		"timestamp": 541.05
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 542.29
+	},
+	{
+		"index": 354,
+		"txt": "Particle to Ground Collisions",
+		"file": "/home/user1/trash/dirOutputSet/_100_Particle_to_Ground_Collisions_icle_to_Ground_Collisions____.wav",
+		"duration": 0.62,
+		"sentenceIndex": 5441,
+		"timestamp": 542.79
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 543.41
+	},
+	{
+		"index": 355,
+		"txt": "Essentially what we're aiming to achieve with",
+		"file": "/home/user1/trash/dirOutputSet/_100_Essentially_what_we_re_aiming_to_ac_re_aiming_to_achieve_with____.wav",
+		"duration": 0.91,
+		"sentenceIndex": 5442,
+		"timestamp": 543.91
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 544.8199999999999
+	},
+	{
+		"index": 358,
+		"txt": "particle to ground collision detection is to prevent the particles from passing through a ground plane specified at some y coordinate.",
+		"file": "/home/user1/trash/dirOutputSet/_100_particle_to_ground_collision_detect_ied_at_some_y_coordinate_____.wav",
+		"duration": 2.56,
+		"sentenceIndex": 5445,
+		"timestamp": 545.3199999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 547.8799999999999
+	},
+	{
+		"index": 359,
+		"txt": "Imagine a horizontal impenetrable surface that the particles cannot pass through.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Imagine_a_horizontal_impenetrable_s_cles_cannot_pass_through_____.wav",
+		"duration": 1.56,
+		"sentenceIndex": 5446,
+		"timestamp": 548.3799999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 549.9399999999998
+	},
+	{
+		"index": 360,
+		"txt": "There are several things we must do in order to detect whether a particle is indeed colliding with the",
+		"file": "/home/user1/trash/dirOutputSet/_100_There_are_several_things_we_must_do_indeed_colliding_with_the____.wav",
+		"duration": 1.76,
+		"sentenceIndex": 5447,
+		"timestamp": 550.4399999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 552.1999999999998
+	},
+	{
+		"index": 361,
+		"txt": "ground plane.",
+		"file": "/home/user1/trash/dirOutputSet/_100_ground_plane__ground_plane_____.wav",
+		"duration": 0.34,
+		"sentenceIndex": 5448,
+		"timestamp": 552.6999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 553.0399999999998
+	},
+	{
+		"index": 362,
+		"txt": "If so, then we need to handle the collision, making the particles respond in a suitable manner.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_so__then_we_need_to_handle_the_c_ond_in_a_suitable_manner_____.wav",
+		"duration": 1.99,
+		"sentenceIndex": 5449,
+		"timestamp": 553.5399999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 555.5299999999999
+	},
+	{
+		"index": 365,
+		"txt": "The left side of",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_left_side_of_The_left_side_of____.wav",
+		"duration": 0.41,
+		"sentenceIndex": 5452,
+		"timestamp": 556.0299999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 556.4399999999998
+	},
+	{
+		"index": 366,
+		"txt": "Figure 8 5",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 8_5_Figure 8_5____.wav",
+		"duration": 0.55,
+		"sentenceIndex": 5453,
+		"timestamp": 556.9399999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 557.4899999999998
+	},
+	{
+		"index": 367,
+		"txt": "illustrates a collision scenario.",
+		"file": "/home/user1/trash/dirOutputSet/_100_illustrates_a_collision_scenario__tes_a_collision_scenario_____.wav",
+		"duration": 0.72,
+		"sentenceIndex": 5454,
+		"timestamp": 557.9899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 558.7099999999998
+	},
+	{
+		"index": 368,
+		"txt": "It's easy to determine whether or not a collision has taken place.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_s_easy_to_determine_whether_or_n_ollision_has_taken_place_____.wav",
+		"duration": 1.29,
+		"sentenceIndex": 5455,
+		"timestamp": 559.2099999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 560.4999999999998
+	},
+	{
+		"index": 369,
+		"txt": "Over a given simulation time step, a particle may have moved from some previous position (its position at the previous time step) to its current position.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Over_a_given_simulation_time_step____to_its_current_position_____.wav",
+		"duration": 3.25,
+		"sentenceIndex": 5456,
+		"timestamp": 560.9999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 564.2499999999998
+	},
+	{
+		"index": 370,
+		"txt": "If this current position puts the centroid coordinate of the particle within one particle radius of the ground plane, then a collision might be occurring.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_this_current_position_puts_the_c_ision_might_be_occurring_____.wav",
+		"duration": 2.95,
+		"sentenceIndex": 5457,
+		"timestamp": 564.7499999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 567.6999999999998
+	},
+	{
+		"index": 371,
+		"txt": "We say might because the other criteria we need to check in order to determine whether or not a collision is happening is whether or not the particle is moving toward the ground plane.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_say_might_because_the_other_crit__toward_the_ground_plane_____.wav",
+		"duration": 3.43,
+		"sentenceIndex": 5458,
+		"timestamp": 568.1999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 571.6299999999998
+	},
+	{
+		"index": 372,
+		"txt": "If the particle is moving toward the ground plane and it's within one radius of the ground plane, then a collision is occurring.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_the_particle_is_moving_toward_th_a_collision_is_occurring_____.wav",
+		"duration": 2.44,
+		"sentenceIndex": 5459,
+		"timestamp": 572.1299999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 574.5699999999998
+	},
+	{
+		"index": 373,
+		"txt": "It may also be the case that the particle has passed completely through the ground plane, in which case we assume a collision has occurred.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_may_also_be_the_case_that_the_pa_a_collision_has_occurred_____.wav",
+		"duration": 2.65,
+		"sentenceIndex": 5460,
+		"timestamp": 575.0699999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 577.7199999999998
+	},
+	{
+		"index": 379,
+		"txt": "Figure 8 5. Particle to ground collision",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 8_5_ Particle_to_ground_coll_ticle_to_ground_collision____.wav",
+		"duration": 1.27,
+		"sentenceIndex": 5466,
+		"timestamp": 578.2199999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 579.4899999999998
+	},
+	{
+		"index": 381,
+		"txt": "To prevent such penetration of the ground plane, we need to do two things.",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_prevent_such_penetration_of_the__we_need_to_do_two_things_____.wav",
+		"duration": 1.56,
+		"sentenceIndex": 5468,
+		"timestamp": 579.9899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 581.5499999999997
+	},
+	{
+		"index": 382,
+		"txt": "First, we must reposition the particle so that it is just touching the ground plane, as shown on the right side of",
+		"file": "/home/user1/trash/dirOutputSet/_100_First__we_must_reposition_the_parti_hown_on_the_right_side_of____.wav",
+		"duration": 2.31,
+		"sentenceIndex": 5469,
+		"timestamp": 582.0499999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 584.3599999999997
+	},
+	{
+		"index": 383,
+		"txt": "Figure 8 5",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 8_5_Figure 8_5____.wav",
+		"duration": 0.55,
+		"sentenceIndex": 5470,
+		"timestamp": 584.8599999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 585.4099999999996
+	},
+	{
+		"index": 385,
+		"txt": "Second, we must apply some impact force resulting from the collision in order to force the particle to either stop moving down into the ground plane or to move away from the ground plane.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Second__we_must_apply_some_impact_f_ay_from_the_ground_plane_____.wav",
+		"duration": 3.74,
+		"sentenceIndex": 5472,
+		"timestamp": 585.9099999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 589.6499999999996
+	},
+	{
+		"index": 386,
+		"txt": "All these steps make up collision detection and response.",
+		"file": "/home/user1/trash/dirOutputSet/_100_All_these_steps_make_up_collision_d_n_detection_and_response_____.wav",
+		"duration": 1.21,
+		"sentenceIndex": 5473,
+		"timestamp": 590.1499999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 591.3599999999997
+	},
+	{
+		"index": 388,
+		"txt": "There are several changes and additions that we must make to the example code in order to implement particle to ground collision detection and response.",
+		"file": "/home/user1/trash/dirOutputSet/_100_There_are_several_changes_and_addit_n_detection_and_response_____.wav",
+		"duration": 2.93,
+		"sentenceIndex": 5475,
+		"timestamp": 591.8599999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 594.7899999999996
+	},
+	{
+		"index": 389,
+		"txt": "Let's begin with the Particle class.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Let_s_begin_with_the_Particle_class__with_the_Particle_class_____.wav",
+		"duration": 0.73,
+		"sentenceIndex": 5476,
+		"timestamp": 595.2899999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 596.0199999999996
+	},
+	{
+		"index": 391,
+		"txt": "We've added three new properties to Particle, as follows:",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ve_added_three_new_properties_to__to_Particle__as_follows_____.wav",
+		"duration": 1.33,
+		"sentenceIndex": 5478,
+		"timestamp": 596.5199999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 597.8499999999997
+	},
+	{
+		"index": 393,
+		"txt": "vPreviousPosition is used to store the particle's position at the previous time step that is, at time t dt .",
+		"file": "/home/user1/trash/dirOutputSet/_100_vPreviousPosition_is_used_to_store__p_that_is__at_time_t_dt______.wav",
+		"duration": 2.45,
+		"sentenceIndex": 5480,
+		"timestamp": 598.3499999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 600.7999999999997
+	},
+	{
+		"index": 394,
+		"txt": "vImpactForces is used to aggregate all of the impact forces acting on a particle.",
+		"file": "/home/user1/trash/dirOutputSet/_100_vImpactForces_is_used_to_aggregate__ces_acting_on_a_particle_____.wav",
+		"duration": 1.81,
+		"sentenceIndex": 5481,
+		"timestamp": 601.2999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 603.1099999999997
+	},
+	{
+		"index": 395,
+		"txt": "You'll see later that it is possible for a particle to collide with more than one object at the same time.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_ll_see_later_that_it_is_possibl__object_at_the_same_time_____.wav",
+		"duration": 2.03,
+		"sentenceIndex": 5482,
+		"timestamp": 603.6099999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 605.6399999999996
+	},
+	{
+		"index": 396,
+		"txt": "bCollision is simply a flag that is used to indicate whether or not a collision has been detected with the particle at the current time step.",
+		"file": "/home/user1/trash/dirOutputSet/_100_bCollision_is_simply_a_flag_that_is_at_the_current_time_step_____.wav",
+		"duration": 2.57,
+		"sentenceIndex": 5483,
+		"timestamp": 606.1399999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 608.7099999999997
+	},
+	{
+		"index": 397,
+		"txt": "This is important because when a collision occurs, at that instant in time, we assume that the only forces acting on the particle are the impact forces; all of the other forces gravity, drag, and wind are ignored for that time instant.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_important_because_when_a_co_ed_for_that_time_instant_____.wav",
+		"duration": 4.94,
+		"sentenceIndex": 5484,
+		"timestamp": 609.2099999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 614.1499999999997
+	},
+	{
+		"index": 398,
+		"txt": "We use bCollision in the updated CalcLoads method:",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_use_bCollision_in_the_updated_Ca_updated_CalcLoads_method_____.wav",
+		"duration": 1.17,
+		"sentenceIndex": 5485,
+		"timestamp": 614.6499999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 615.8199999999997
+	},
+	{
+		"index": 400,
+		"txt": "The only difference between this version of CalcLoads and the previous one is that we added the conditional if(bCollision) { ...",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_only_difference_between_this_ve_onal_if_bCollision___________.wav",
+		"duration": 2.31,
+		"sentenceIndex": 5487,
+		"timestamp": 616.3199999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 618.6299999999997
+	},
+	{
+		"index": 401,
+		"txt": "} else { ...",
+		"file": "/home/user1/trash/dirOutputSet/_100___else_________else__________.wav",
+		"duration": 0.23,
+		"sentenceIndex": 5488,
+		"timestamp": 619.1299999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 619.3599999999997
+	},
+	{
+		"index": 403,
+		"txt": "If bCollision is true, then we have a collision to deal with and the only forces that get aggregated are the impact forces.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_bCollision_is_true__then_we_have_ed_are_the_impact_forces_____.wav",
+		"duration": 2.56,
+		"sentenceIndex": 5490,
+		"timestamp": 619.8599999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 622.4199999999996
+	},
+	{
+		"index": 404,
+		"txt": "If there is no collision, if bCollision is false, then the non impact forces are aggregated in the usual manner.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_there_is_no_collision__if_bColli_ated_in_the_usual_manner_____.wav",
+		"duration": 2.52,
+		"sentenceIndex": 5491,
+		"timestamp": 622.9199999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 625.4399999999996
+	},
+	{
+		"index": 407,
+		"txt": "You may have caught that we are aggregating impact forces in this example.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_may_have_caught_that_we_are_agg_t_forces_in_this_example_____.wav",
+		"duration": 1.46,
+		"sentenceIndex": 5494,
+		"timestamp": 625.9399999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 627.3999999999996
+	},
+	{
+		"index": 408,
+		"txt": "This is an alternate approach to the one shown in",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_an_alternate_approach_to_th_roach_to_the_one_shown_in____.wav",
+		"duration": 1.02,
+		"sentenceIndex": 5495,
+		"timestamp": 627.8999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 628.9199999999996
+	},
+	{
+		"index": 409,
+		"txt": "Chapter 5",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 5_Chapter 5____.wav",
+		"duration": 0.35,
+		"sentenceIndex": 5496,
+		"timestamp": 629.4199999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 629.7699999999996
+	},
+	{
+		"index": 411,
+		"txt": "There we showed you how to calculate an impulse and change an object's velocity in response to a collision, using conservation of momentum.",
+		"file": "/home/user1/trash/dirOutputSet/_100_There_we_showed_you_how_to_calculat_conservation_of_momentum_____.wav",
+		"duration": 2.8,
+		"sentenceIndex": 5498,
+		"timestamp": 630.2699999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 633.0699999999996
+	},
+	{
+		"index": 412,
+		"txt": "Well, we're still calculating impulses just like in",
+		"file": "/home/user1/trash/dirOutputSet/_100_Well__we_re_still_calculating_impul_ing_impulses_just_like_in____.wav",
+		"duration": 1.16,
+		"sentenceIndex": 5499,
+		"timestamp": 633.5699999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 634.7299999999996
+	},
+	{
+		"index": 413,
+		"txt": "Chapter 5",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 5_Chapter 5____.wav",
+		"duration": 0.35,
+		"sentenceIndex": 5500,
+		"timestamp": 635.2299999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 635.5799999999996
+	},
+	{
+		"index": 414,
+		"txt": "; however, in this example, we're going to compute the impact force based on that impulse and apply that force to the colliding objects.",
+		"file": "/home/user1/trash/dirOutputSet/_100___however__in_this_example__we_re_g_to_the_colliding_objects_____.wav",
+		"duration": 3.01,
+		"sentenceIndex": 5501,
+		"timestamp": 636.0799999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 639.0899999999996
+	},
+	{
+		"index": 415,
+		"txt": "We'll let the numerical integrator integrate that force to derive the colliding particle's new velocities.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ll_let_the_numerical_integrator__article_s_new_velocities_____.wav",
+		"duration": 2.03,
+		"sentenceIndex": 5502,
+		"timestamp": 639.5899999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 641.6199999999995
+	},
+	{
+		"index": 416,
+		"txt": "Either method works, and we'll show you an example of the former method later.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Either_method_works__and_we_ll_show__the_former_method_later_____.wav",
+		"duration": 1.52,
+		"sentenceIndex": 5503,
+		"timestamp": 642.1199999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 643.6399999999995
+	},
+	{
+		"index": 417,
+		"txt": "We're showing the latter method here just to illustrate some alternatives.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_re_showing_the_latter_method_her_strate_some_alternatives_____.wav",
+		"duration": 1.33,
+		"sentenceIndex": 5504,
+		"timestamp": 644.1399999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 645.4699999999996
+	},
+	{
+		"index": 418,
+		"txt": "The advantage of this latter method is that it is easy to compute impact forces due to multiple impacts and let the integrator take care of them all at once.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_advantage_of_this_latter_method_care_of_them_all_at_once_____.wav",
+		"duration": 2.93,
+		"sentenceIndex": 5505,
+		"timestamp": 645.9699999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 648.8999999999995
+	},
+	{
+		"index": 420,
+		"txt": "Now, with these changes made to Particle, we need to add a line of code to UpdateSimulation, as shown here:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now__with_these_changes_made_to_Par_imulation__as_shown_here_____.wav",
+		"duration": 2.57,
+		"sentenceIndex": 5507,
+		"timestamp": 649.3999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 651.9699999999996
+	},
+	{
+		"index": 422,
+		"txt": "The new line is Units[i].bCollision = CheckForCollisions(&(Units[i])); .",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_new_line_is_Units_i__bCollision_ollisions___Units_i__________.wav",
+		"duration": 1.89,
+		"sentenceIndex": 5509,
+		"timestamp": 652.4699999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 654.3599999999996
+	},
+	{
+		"index": 423,
+		"txt": "CheckForCollisions is a new function that takes the given unit, whose pointer is passed as an argument, and checks to see if it's colliding with anything in this case, the ground.",
+		"file": "/home/user1/trash/dirOutputSet/_100_CheckForCollisions_is_a_new_functio_in_this_case__the_ground_____.wav",
+		"duration": 3.49,
+		"sentenceIndex": 5510,
+		"timestamp": 654.8599999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 658.3499999999996
+	},
+	{
+		"index": 424,
+		"txt": "If a collision is detected, CheckForCollisions also computes the impact force and returns true to let us know a collision has occurred.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_a_collision_is_detected__CheckFo_a_collision_has_occurred_____.wav",
+		"duration": 2.68,
+		"sentenceIndex": 5511,
+		"timestamp": 658.8499999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 661.5299999999995
+	},
+	{
+		"index": 425,
+		"txt": "CheckForCollisions is as follows:",
+		"file": "/home/user1/trash/dirOutputSet/_100_CheckForCollisions_is_as_follows__Collisions_is_as_follows_____.wav",
+		"duration": 0.74,
+		"sentenceIndex": 5512,
+		"timestamp": 662.0299999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 662.7699999999995
+	},
+	{
+		"index": 427,
+		"txt": "CheckForCollisions makes two checks: 1) it checks to see whether or not the particle is making contact or passing through the ground plane; and 2) it checks to make sure the particle is actually moving toward the ground plane.",
+		"file": "/home/user1/trash/dirOutputSet/_100_CheckForCollisions_makes_two_checks__toward_the_ground_plane_____.wav",
+		"duration": 4.76,
+		"sentenceIndex": 5514,
+		"timestamp": 663.2699999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 668.0299999999995
+	},
+	{
+		"index": 428,
+		"txt": "Keep in mind a particle could be in contact with the ground plane right after a collision has been handled with the particle moving away from the ground.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Keep_in_mind_a_particle_could_be_in_ing_away_from_the_ground_____.wav",
+		"duration": 2.78,
+		"sentenceIndex": 5515,
+		"timestamp": 668.5299999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 671.3099999999995
+	},
+	{
+		"index": 429,
+		"txt": "In this case, we don't want to register another collision.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_this_case__we_don_t_want_to_regi_gister_another_collision_____.wav",
+		"duration": 1.17,
+		"sentenceIndex": 5516,
+		"timestamp": 671.8099999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 672.9799999999994
+	},
+	{
+		"index": 431,
+		"txt": "Let's consider the details of this function, starting with the local variables.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Let_s_consider_the_details_of_this__with_the_local_variables_____.wav",
+		"duration": 1.65,
+		"sentenceIndex": 5518,
+		"timestamp": 673.4799999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 675.1299999999994
+	},
+	{
+		"index": 432,
+		"txt": "n is a vector that represents the unit normal vector pointing from the ground plane to the particle colliding with it.",
+		"file": "/home/user1/trash/dirOutputSet/_100_n_is_a_vector_that_represents_the_u_rticle_colliding_with_it_____.wav",
+		"duration": 2.23,
+		"sentenceIndex": 5519,
+		"timestamp": 675.6299999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 677.8599999999994
+	},
+	{
+		"index": 433,
+		"txt": "For ground collisions, in this example, the unit normal vector is always straight up since the ground plane is flat.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_ground_collisions__in_this_exam_the_ground_plane_is_flat_____.wav",
+		"duration": 2.46,
+		"sentenceIndex": 5520,
+		"timestamp": 678.3599999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 680.8199999999995
+	},
+	{
+		"index": 434,
+		"txt": "This means the unit normal vector will always have an x component of 0 and its y component will be 1.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_means_the_unit_normal_vector_w_ts_y_component_will_be_1_____.wav",
+		"duration": 2.22,
+		"sentenceIndex": 5521,
+		"timestamp": 681.3199999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 683.5399999999995
+	},
+	{
+		"index": 437,
+		"txt": "The Vector vr is the relative velocity vector between the particle and the ground.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_Vector_vr_is_the_relative_veloc__particle_and_the_ground_____.wav",
+		"duration": 1.59,
+		"sentenceIndex": 5524,
+		"timestamp": 684.0399999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 685.6299999999995
+	},
+	{
+		"index": 438,
+		"txt": "Since the ground isn't moving, the relative velocity",
+		"file": "/home/user1/trash/dirOutputSet/_100_Since_the_ground_isn_t_moving__the__ng__the_relative_velocity____.wav",
+		"duration": 1.1,
+		"sentenceIndex": 5525,
+		"timestamp": 686.1299999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 687.2299999999996
+	},
+	{
+		"index": 440,
+		"txt": "is simply the velocity of the particle.",
+		"file": "/home/user1/trash/dirOutputSet/_100_is_simply_the_velocity_of_the_parti_velocity_of_the_particle_____.wav",
+		"duration": 0.78,
+		"sentenceIndex": 5527,
+		"timestamp": 687.7299999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 688.5099999999995
+	},
+	{
+		"index": 441,
+		"txt": "vrn is a scalar that's used to store the component of the relative velocity in the direction of the collision unit normal vector.",
+		"file": "/home/user1/trash/dirOutputSet/_100_vrn_is_a_scalar_that_s_used_to_stor_ision_unit_normal_vector_____.wav",
+		"duration": 2.5,
+		"sentenceIndex": 5528,
+		"timestamp": 689.0099999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 691.5099999999995
+	},
+	{
+		"index": 442,
+		"txt": "We compute vrn by taking the dot product of the relative velocity with the unit normal vector.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_compute_vrn_by_taking_the_dot_pr_h_the_unit_normal_vector_____.wav",
+		"duration": 1.97,
+		"sentenceIndex": 5529,
+		"timestamp": 692.0099999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 693.9799999999996
+	},
+	{
+		"index": 443,
+		"txt": "J is a scalar that stores the impulse resulting from the collision.",
+		"file": "/home/user1/trash/dirOutputSet/_100_J_is_a_scalar_that_stores_the_impul_lting_from_the_collision_____.wav",
+		"duration": 1.41,
+		"sentenceIndex": 5530,
+		"timestamp": 694.4799999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 695.8899999999995
+	},
+	{
+		"index": 444,
+		"txt": "Fi is a vector that stores the impact force as derived from the impulse J .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Fi_is_a_vector_that_stores_the_impa_ived_from_the_impulse_J______.wav",
+		"duration": 1.66,
+		"sentenceIndex": 5531,
+		"timestamp": 696.3899999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 698.0499999999995
+	},
+	{
+		"index": 445,
+		"txt": "Finally, hasCollision is a flag that's set based on whether or not a collision has been detected.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Finally__hasCollision_is_a_flag_tha_lision_has_been_detected_____.wav",
+		"duration": 2.09,
+		"sentenceIndex": 5532,
+		"timestamp": 698.5499999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 700.6399999999995
+	},
+	{
+		"index": 448,
+		"txt": "Now we'll look at the details within CheckForCollisions .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now_we_ll_look_at_the_details_withi_thin_CheckForCollisions______.wav",
+		"duration": 1.08,
+		"sentenceIndex": 5535,
+		"timestamp": 701.1399999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 702.2199999999996
+	},
+	{
+		"index": 449,
+		"txt": "The first task is to initialize the impact force vector, vImpactForces , to 0.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_first_task_is_to_initialize_the_or__vImpactForces___to_0_____.wav",
+		"duration": 2.08,
+		"sentenceIndex": 5536,
+		"timestamp": 702.7199999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 704.7999999999996
+	},
+	{
+		"index": 450,
+		"txt": "Next, we make the first collision check by determining if the y position of the particle is less than the ground plane height plus the particles radius.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Next__we_make_the_first_collision_c_lus_the_particles_radius_____.wav",
+		"duration": 3.03,
+		"sentenceIndex": 5537,
+		"timestamp": 705.2999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 708.3299999999996
+	},
+	{
+		"index": 451,
+		"txt": "If it is, then we know a collision may have occurred.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_it_is__then_we_know_a_collision__lision_may_have_occurred_____.wav",
+		"duration": 0.98,
+		"sentenceIndex": 5538,
+		"timestamp": 708.8299999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 709.8099999999996
+	},
+	{
+		"index": 452,
+		"txt": "(_GROUND_PLANE represents the y coordinate of the ground plane, which we have set to 100.) If a collision may have occurred, then we make the next check to determine if the particle is moving toward the ground plane.",
+		"file": "/home/user1/trash/dirOutputSet/_100___GROUND_PLANE_represents_the_y_coo__toward_the_ground_plane_____.wav",
+		"duration": 4.61,
+		"sentenceIndex": 5539,
+		"timestamp": 710.3099999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 714.9199999999996
+	},
+	{
+		"index": 455,
+		"txt": "To perform this second check, we compute the unit normal vector, relative velocity, and relative velocity component in the collision normal direct as described earlier.",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_perform_this_second_check__we_co_ect_as_described_earlier_____.wav",
+		"duration": 3.54,
+		"sentenceIndex": 5542,
+		"timestamp": 715.4199999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 718.9599999999996
+	},
+	{
+		"index": 456,
+		"txt": "If the relative velocity in the normal direction is negative (i.e., if vrn < 0), then a collision has occurred.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_the_relative_velocity_in_the_nor_a_collision_has_occurred_____.wav",
+		"duration": 2.54,
+		"sentenceIndex": 5543,
+		"timestamp": 719.4599999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 721.9999999999995
+	},
+	{
+		"index": 457,
+		"txt": "If either of these checks is false, then a collision has not occurred and the function exits, returning false .",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_either_of_these_checks_is_false___exits__returning_false______.wav",
+		"duration": 2.34,
+		"sentenceIndex": 5544,
+		"timestamp": 722.4999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 724.8399999999996
+	},
+	{
+		"index": 460,
+		"txt": "The interesting stuff happens if the second check passes.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_interesting_stuff_happens_if_th__the_second_check_passes_____.wav",
+		"duration": 1.15,
+		"sentenceIndex": 5547,
+		"timestamp": 725.3399999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 726.4899999999996
+	},
+	{
+		"index": 461,
+		"txt": "This is where we have to determine the impact force that will cause the particle to bounce off the ground plane.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_where_we_have_to_determine__nce_off_the_ground_plane_____.wav",
+		"duration": 2.03,
+		"sentenceIndex": 5548,
+		"timestamp": 726.9899999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 729.0199999999995
+	},
+	{
+		"index": 462,
+		"txt": "Here's the specific code that computes the impact force:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_the_specific_code_that_compu_omputes_the_impact_force_____.wav",
+		"duration": 1.18,
+		"sentenceIndex": 5549,
+		"timestamp": 729.5199999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 730.6999999999995
+	},
+	{
+		"index": 465,
+		"txt": "We compute the impulse using the formulas presented in",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_compute_the_impulse_using_the_fo_the_formulas_presented_in____.wav",
+		"duration": 1.16,
+		"sentenceIndex": 5552,
+		"timestamp": 731.1999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 732.3599999999994
+	},
+	{
+		"index": 466,
+		"txt": "Chapter 5",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 5_Chapter 5____.wav",
+		"duration": 0.35,
+		"sentenceIndex": 5553,
+		"timestamp": 732.8599999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 733.2099999999995
+	},
+	{
+		"index": 468,
+		"txt": "J is a scalar equal to the negative of the relative velocity in the normal direction times the coefficient of restitution plus 1 times the particle mass.",
+		"file": "/home/user1/trash/dirOutputSet/_100_J_is_a_scalar_equal_to_the_negative__times_the_particle_mass_____.wav",
+		"duration": 3.16,
+		"sentenceIndex": 5555,
+		"timestamp": 733.7099999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 736.8699999999994
+	},
+	{
+		"index": 469,
+		"txt": "Recall that the coefficient of restitution, _RESTITUTION , governs how elastic or inelastic the collision is, or in other words, how much energy is transferred back to the particle during the impact.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Recall_that_the_coefficient_of_rest_rticle_during_the_impact_____.wav",
+		"duration": 4.26,
+		"sentenceIndex": 5556,
+		"timestamp": 737.3699999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 741.6299999999994
+	},
+	{
+		"index": 470,
+		"txt": "We have this value set to 0.6, but it is tunable depending on what effect you're trying to achieve.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_have_this_value_set_to_0_6__but__you_re_trying_to_achieve_____.wav",
+		"duration": 2.18,
+		"sentenceIndex": 5557,
+		"timestamp": 742.1299999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 744.3099999999994
+	},
+	{
+		"index": 471,
+		"txt": "A value of 1 makes the particles very bouncy, while a value of, say, 0.1 makes them sort of stick to the ground upon impact.",
+		"file": "/home/user1/trash/dirOutputSet/_100_A_value_of_1_makes_the_particles_ve_o_the_ground_upon_impact_____.wav",
+		"duration": 3.09,
+		"sentenceIndex": 5558,
+		"timestamp": 744.8099999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 747.8999999999994
+	},
+	{
+		"index": 473,
+		"txt": "Now, to compute the impact force, Fi, that will act on the particle during the next time step, making it bounce off the ground, we set Fi equal to the collision normal vector.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now__to_compute_the_impact_force__F__collision_normal_vector_____.wav",
+		"duration": 3.91,
+		"sentenceIndex": 5560,
+		"timestamp": 748.3999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 752.3099999999994
+	},
+	{
+		"index": 474,
+		"txt": "The magnitude of the impact force is equal to the impulse, J , divided by the time step in seconds.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_magnitude_of_the_impact_force_i_the_time_step_in_seconds_____.wav",
+		"duration": 2.33,
+		"sentenceIndex": 5561,
+		"timestamp": 752.8099999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 755.1399999999994
+	},
+	{
+		"index": 475,
+		"txt": "The line Fi *= J/_TIMESTEP; takes care of calculating the final impact force.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_line_Fi____J__TIMESTEP__takes_c_g_the_final_impact_force_____.wav",
+		"duration": 2.35,
+		"sentenceIndex": 5562,
+		"timestamp": 755.6399999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 757.9899999999994
+	},
+	{
+		"index": 477,
+		"txt": "To keep the particle from penetrating the ground, we reposition it so that it's just resting on the ground.",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_keep_the_particle_from_penetrati_st_resting_on_the_ground_____.wav",
+		"duration": 1.98,
+		"sentenceIndex": 5564,
+		"timestamp": 758.4899999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 760.4699999999995
+	},
+	{
+		"index": 478,
+		"txt": "The y position is easy to compute as the ground plane elevation plus the radius of the particle.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_y_position_is_easy_to_compute_a_e_radius_of_the_particle_____.wav",
+		"duration": 1.99,
+		"sentenceIndex": 5565,
+		"timestamp": 760.9699999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 762.9599999999995
+	},
+	{
+		"index": 479,
+		"txt": "We compute the x position by linearly interpolating between the particle's previous position and its current position using the newly computed y position.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_compute_the_x_position_by_linear_ewly_computed_y_position_____.wav",
+		"duration": 3,
+		"sentenceIndex": 5566,
+		"timestamp": 763.4599999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 766.4599999999995
+	},
+	{
+		"index": 480,
+		"txt": "This effectively backs up the particle along the line of action of its velocity to the point where it is just touching the ground plane.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_effectively_backs_up_the_parti_ouching_the_ground_plane_____.wav",
+		"duration": 2.53,
+		"sentenceIndex": 5567,
+		"timestamp": 766.9599999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 769.4899999999994
+	},
+	{
+		"index": 482,
+		"txt": "When you run the simulation now, you'll see the particles fall, drifting a bit from left to right until they hit the ground plane.",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_you_run_the_simulation_now__yo_hey_hit_the_ground_plane_____.wav",
+		"duration": 2.6,
+		"sentenceIndex": 5569,
+		"timestamp": 769.9899999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 772.5899999999995
+	},
+	{
+		"index": 483,
+		"txt": "Once they hit, they'll bounce on the ground, eventually coming to rest.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Once_they_hit__they_ll_bounce_on_th_ventually_coming_to_rest_____.wav",
+		"duration": 1.42,
+		"sentenceIndex": 5570,
+		"timestamp": 773.0899999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 774.5099999999994
+	},
+	{
+		"index": 484,
+		"txt": "Their specific behavior in this regard depends on what drag coefficient you use and what coefficient of restitution you use.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Their_specific_behavior_in_this_reg_t_of_restitution_you_use_____.wav",
+		"duration": 2.49,
+		"sentenceIndex": 5571,
+		"timestamp": 775.0099999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 777.4999999999994
+	},
+	{
+		"index": 485,
+		"txt": "If you have wind applied, when the particles do come to rest, vertically, they should still drift to the right as though they are sliding on the ground",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_you_have_wind_applied__when_the__are_sliding_on_the_ground____.wav",
+		"duration": 2.78,
+		"sentenceIndex": 5572,
+		"timestamp": 777.9999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 780.7799999999994
+	},
+	{
+		"index": 489,
+		"txt": "plane.",
+		"file": "/home/user1/trash/dirOutputSet/_100_plane__plane_____.wav",
+		"duration": 0.21,
+		"sentenceIndex": 5576,
+		"timestamp": 781.2799999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 781.4899999999994
+	},
+	{
+		"index": 492,
+		"txt": "Particle to Obstacle Collisions",
+		"file": "/home/user1/trash/dirOutputSet/_100_Particle_to_Obstacle_Collisions_le_to_Obstacle_Collisions____.wav",
+		"duration": 0.69,
+		"sentenceIndex": 5579,
+		"timestamp": 781.9899999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 782.6799999999995
+	},
+	{
+		"index": 494,
+		"txt": "To make things",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_make_things_To_make_things____.wav",
+		"duration": 0.33,
+		"sentenceIndex": 5581,
+		"timestamp": 783.1799999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 783.5099999999995
+	},
+	{
+		"index": 497,
+		"txt": "really interesting, we'll now add those circular obstacles you saw in",
+		"file": "/home/user1/trash/dirOutputSet/_100_really_interesting__we_ll_now_add_t_ular_obstacles_you_saw_in____.wav",
+		"duration": 1.49,
+		"sentenceIndex": 5584,
+		"timestamp": 784.0099999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 785.4999999999995
+	},
+	{
+		"index": 498,
+		"txt": "Figure 8 1 through",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 8_1_through_Figure 8_1_through____.wav",
+		"duration": 0.67,
+		"sentenceIndex": 5585,
+		"timestamp": 785.9999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 786.6699999999995
+	},
+	{
+		"index": 500,
+		"txt": "Figure 8 4 .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 8_4___Figure 8_4______.wav",
+		"duration": 0.54,
+		"sentenceIndex": 5587,
+		"timestamp": 787.1699999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 787.7099999999995
+	},
+	{
+		"index": 501,
+		"txt": "The particles will be able to hit them and bounce off or even settle down into crevasses made by overlapping obstacles.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_particles_will_be_able_to_hit_t_by_overlapping_obstacles_____.wav",
+		"duration": 2.44,
+		"sentenceIndex": 5588,
+		"timestamp": 788.2099999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 790.6499999999995
+	},
+	{
+		"index": 502,
+		"txt": "The obstacles are simply static particles.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_obstacles_are_simply_static_par__simply_static_particles_____.wav",
+		"duration": 0.95,
+		"sentenceIndex": 5589,
+		"timestamp": 791.1499999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 792.0999999999996
+	},
+	{
+		"index": 503,
+		"txt": "We'll define them as particles and initialize them but then skip them when integrating the equations of motion of the dynamic particles.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ll_define_them_as_particles_and__of_the_dynamic_particles_____.wav",
+		"duration": 2.63,
+		"sentenceIndex": 5590,
+		"timestamp": 792.5999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 795.2299999999996
+	},
+	{
+		"index": 504,
+		"txt": "Here's the declaration for the Obstacles array:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_the_declaration_for_the_Obst__for_the_Obstacles_array_____.wav",
+		"duration": 0.99,
+		"sentenceIndex": 5591,
+		"timestamp": 795.7299999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 796.7199999999996
+	},
+	{
+		"index": 507,
+		"txt": "Initializing the obstacles is a matter of assigning them positions and a common radius and a mass.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Initializing_the_obstacles_is_a_mat_common_radius_and_a_mass_____.wav",
+		"duration": 2,
+		"sentenceIndex": 5594,
+		"timestamp": 797.2199999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 799.2199999999996
+	},
+	{
+		"index": 508,
+		"txt": "The few lines of code shown next were added to the main program's Initialize function to randomly position obstacles in the lower, middle portion of the window above the ground plane.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_few_lines_of_code_shown_next_we_w_above_the_ground_plane_____.wav",
+		"duration": 3.58,
+		"sentenceIndex": 5595,
+		"timestamp": 799.7199999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 803.2999999999996
+	},
+	{
+		"index": 510,
+		"txt": "Figure 8 1 through",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 8_1_through_Figure 8_1_through____.wav",
+		"duration": 0.67,
+		"sentenceIndex": 5597,
+		"timestamp": 803.7999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 804.4699999999996
+	},
+	{
+		"index": 511,
+		"txt": "Figure 8 4",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 8_4_Figure 8_4____.wav",
+		"duration": 0.54,
+		"sentenceIndex": 5598,
+		"timestamp": 804.9699999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 805.5099999999995
+	},
+	{
+		"index": 512,
+		"txt": "illustrate how they are distributed.",
+		"file": "/home/user1/trash/dirOutputSet/_100_illustrate_how_they_are_distributed_how_they_are_distributed_____.wav",
+		"duration": 0.62,
+		"sentenceIndex": 5599,
+		"timestamp": 806.0099999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 806.6299999999995
+	},
+	{
+		"index": 515,
+		"txt": "Drawing the obstacles is easy since they are Particle types with a Draw method that already draws circular shapes.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Drawing_the_obstacles_is_easy_since_dy_draws_circular_shapes_____.wav",
+		"duration": 2.22,
+		"sentenceIndex": 5602,
+		"timestamp": 807.1299999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 809.3499999999996
+	},
+	{
+		"index": 516,
+		"txt": "We created DrawObstacles to iterate through the Obstacles array, calling the Draw method of each obstacle.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_created_DrawObstacles_to_iterate__method_of_each_obstacle_____.wav",
+		"duration": 2.2,
+		"sentenceIndex": 5603,
+		"timestamp": 809.8499999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 812.0499999999996
+	},
+	{
+		"index": 519,
+		"txt": "DrawObstacles is then called from UpdateSimulation:",
+		"file": "/home/user1/trash/dirOutputSet/_100_DrawObstacles_is_then_called_from_U_ed_from_UpdateSimulation_____.wav",
+		"duration": 1.18,
+		"sentenceIndex": 5606,
+		"timestamp": 812.5499999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 813.7299999999996
+	},
+	{
+		"index": 521,
+		"txt": "The last bit of code we need to add to have fully functioning collisions with obstacles involves adding more collision detection and handling code to the CheckForCollisions function.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_last_bit_of_code_we_need_to_add_ckForCollisions_function_____.wav",
+		"duration": 3.45,
+		"sentenceIndex": 5608,
+		"timestamp": 814.2299999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 817.6799999999996
+	},
+	{
+		"index": 522,
+		"txt": "Before we look at CheckForCollisions , let's consider colliding circles in general to gain a better understanding of what the new code will do.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Before_we_look_at_CheckForCollision_hat_the_new_code_will_do_____.wav",
+		"duration": 2.74,
+		"sentenceIndex": 5609,
+		"timestamp": 818.1799999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 820.9199999999996
+	},
+	{
+		"index": 526,
+		"txt": "Figure 8 6 illustrates two circles colliding.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 8_6_illustrates_two_circles__es_two_circles_colliding_____.wav",
+		"duration": 1.25,
+		"sentenceIndex": 5613,
+		"timestamp": 821.4199999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 822.6699999999996
+	},
+	{
+		"index": 527,
+		"txt": "We aim to detect whether or not these circles are colliding by checking the distance between their centers.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_aim_to_detect_whether_or_not_the_ce_between_their_centers_____.wav",
+		"duration": 1.99,
+		"sentenceIndex": 5614,
+		"timestamp": 823.1699999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 825.1599999999996
+	},
+	{
+		"index": 528,
+		"txt": "If the distance between the two centers is greater than the sum of the radii of the circles, then the particles are not colliding.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_the_distance_between_the_two_cen_ticles_are_not_colliding_____.wav",
+		"duration": 2.44,
+		"sentenceIndex": 5615,
+		"timestamp": 825.6599999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 828.0999999999997
+	},
+	{
+		"index": 529,
+		"txt": "The topmost illustration in",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_topmost_illustration_in_e_topmost_illustration_in____.wav",
+		"duration": 0.66,
+		"sentenceIndex": 5616,
+		"timestamp": 828.5999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 829.2599999999996
+	},
+	{
+		"index": 530,
+		"txt": "Figure 8 6 shows the distance, d, between centers and the distance, s, between the edges of the circles; s",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 8_6_shows_the_distance__d__b_e_edges_of_the_circles__s____.wav",
+		"duration": 2.95,
+		"sentenceIndex": 5617,
+		"timestamp": 829.7599999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 832.7099999999997
+	},
+	{
+		"index": 531,
+		"txt": "is the gap between the two.",
+		"file": "/home/user1/trash/dirOutputSet/_100_is_the_gap_between_the_two___the_gap_between_the_two_____.wav",
+		"duration": 0.57,
+		"sentenceIndex": 5618,
+		"timestamp": 833.2099999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 833.7799999999997
+	},
+	{
+		"index": 532,
+		"txt": "Another way to think about this is that if s is positive, then there's no collision.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Another_way_to_think_about_this_is__hen_there_s_no_collision_____.wav",
+		"duration": 1.62,
+		"sentenceIndex": 5619,
+		"timestamp": 834.2799999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 835.8999999999997
+	},
+	{
+		"index": 533,
+		"txt": "Referring to the middle illustration in",
+		"file": "/home/user1/trash/dirOutputSet/_100_Referring_to_the_middle_illustratio_he_middle_illustration_in____.wav",
+		"duration": 0.78,
+		"sentenceIndex": 5620,
+		"timestamp": 836.3999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 837.1799999999997
+	},
+	{
+		"index": 534,
+		"txt": "Figure 8 6, if s",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 8_6__if_s_Figure 8_6__if_s____.wav",
+		"duration": 0.85,
+		"sentenceIndex": 5621,
+		"timestamp": 837.6799999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 838.5299999999997
+	},
+	{
+		"index": 535,
+		"txt": "is equal to 0, then the circles are in contact.",
+		"file": "/home/user1/trash/dirOutputSet/_100_is_equal_to_0__then_the_circles_are_e_circles_are_in_contact_____.wav",
+		"duration": 1.17,
+		"sentenceIndex": 5622,
+		"timestamp": 839.0299999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 840.1999999999997
+	},
+	{
+		"index": 536,
+		"txt": "If s is a negative number, as shown in the bottommost illustration, then the circles are penetrating.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_s_is_a_negative_number__as_shown__circles_are_penetrating_____.wav",
+		"duration": 2.15,
+		"sentenceIndex": 5623,
+		"timestamp": 840.6999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 842.8499999999997
+	},
+	{
+		"index": 542,
+		"txt": "Figure 8 6. Collision states",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 8_6_ Collision_states_ure 8_6_ Collision_states____.wav",
+		"duration": 1.04,
+		"sentenceIndex": 5629,
+		"timestamp": 843.3499999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 844.3899999999996
+	},
+	{
+		"index": 544,
+		"txt": "We'll apply these principles for detecting colliding circles to detecting collisions between our particles and obstacles since they are both circles.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ll_apply_these_principles_for_de_ce_they_are_both_circles_____.wav",
+		"duration": 2.87,
+		"sentenceIndex": 5631,
+		"timestamp": 844.8899999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 847.7599999999996
+	},
+	{
+		"index": 546,
+		"txt": "Figure 8 7",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 8_7_Figure 8_7____.wav",
+		"duration": 0.56,
+		"sentenceIndex": 5633,
+		"timestamp": 848.2599999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 848.8199999999996
+	},
+	{
+		"index": 547,
+		"txt": "illustrates how our particle to obstacle collisions might look.",
+		"file": "/home/user1/trash/dirOutputSet/_100_illustrates_how_our_particle_to_obs_le_collisions_might_look_____.wav",
+		"duration": 1.21,
+		"sentenceIndex": 5634,
+		"timestamp": 849.3199999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 850.5299999999996
+	},
+	{
+		"index": 553,
+		"txt": "Figure 8 7. Particle to obstacle collision",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 8_7_ Particle_to_obstacle_co_cle_to_obstacle_collision____.wav",
+		"duration": 1.35,
+		"sentenceIndex": 5640,
+		"timestamp": 851.0299999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 852.3799999999997
+	},
+	{
+		"index": 555,
+		"txt": "We'll calculate s for each particle against each obstacle to determine contact or penetration.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ll_calculate_s_for_each_particle_e_contact_or_penetration_____.wav",
+		"duration": 1.94,
+		"sentenceIndex": 5642,
+		"timestamp": 852.8799999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 854.8199999999997
+	},
+	{
+		"index": 556,
+		"txt": "If we find either, then we'll perform the relative velocity check in the same manner we did for particle to ground collisions to see if the particle is moving toward the obstacle.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_we_find_either__then_we_ll_perfo_ving_toward_the_obstacle_____.wav",
+		"duration": 3.55,
+		"sentenceIndex": 5643,
+		"timestamp": 855.3199999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 858.8699999999997
+	},
+	{
+		"index": 557,
+		"txt": "If it is, then we have a collision and we'll back up the particle along the collision normal vector line of action, which is simply the line connecting the centers of the particle and the obstacle.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_it_is__then_we_have_a_collision__article_and_the_obstacle_____.wav",
+		"duration": 3.64,
+		"sentenceIndex": 5644,
+		"timestamp": 859.3699999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 863.0099999999996
+	},
+	{
+		"index": 558,
+		"txt": "We'll also compute the impact force like we did earlier and let the integrator take care of the rest.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ll_also_compute_the_impact_force_or_take_care_of_the_rest_____.wav",
+		"duration": 1.96,
+		"sentenceIndex": 5645,
+		"timestamp": 863.5099999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 865.4699999999997
+	},
+	{
+		"index": 561,
+		"txt": "OK, now let's look at the new code in CheckForCollisions:",
+		"file": "/home/user1/trash/dirOutputSet/_100_OK__now_let_s_look_at_the_new_code__de_in_CheckForCollisions_____.wav",
+		"duration": 1.29,
+		"sentenceIndex": 5648,
+		"timestamp": 865.9699999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 867.2599999999996
+	},
+	{
+		"index": 563,
+		"txt": "The new code is nearly the same as the code that checks for and handles particle to ground collisions.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_new_code_is_nearly_the_same_as__cle_to_ground_collisions_____.wav",
+		"duration": 1.88,
+		"sentenceIndex": 5650,
+		"timestamp": 867.7599999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 869.6399999999996
+	},
+	{
+		"index": 564,
+		"txt": "The only major differences are in how we compute the distance between the particle and the obstacle and how we adjust the colliding particle's position to prevent it from penetrating an obstacle, since the unit normal vector may not be straight up as it was before.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_only_major_differences_are_in_h_ight_up_as_it_was_before_____.wav",
+		"duration": 5.07,
+		"sentenceIndex": 5651,
+		"timestamp": 870.1399999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 875.2099999999997
+	},
+	{
+		"index": 565,
+		"txt": "The rest of the code is the same, so let's focus on the differences.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_rest_of_the_code_is_the_same__s_focus_on_the_differences_____.wav",
+		"duration": 1.42,
+		"sentenceIndex": 5652,
+		"timestamp": 875.7099999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 877.1299999999997
+	},
+	{
+		"index": 568,
+		"txt": "As explained earlier and illustrated in",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_explained_earlier_and_illustrate_arlier_and_illustrated_in____.wav",
+		"duration": 0.88,
+		"sentenceIndex": 5655,
+		"timestamp": 877.6299999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 878.5099999999996
+	},
+	{
+		"index": 569,
+		"txt": "Figure 8 6, we need to compute the separation, s",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 8_6__we_need_to_compute_the__compute_the_separation__s____.wav",
+		"duration": 1.5,
+		"sentenceIndex": 5656,
+		"timestamp": 879.0099999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 880.5099999999996
+	},
+	{
+		"index": 570,
+		"txt": ", between the particle and the obstacle.",
+		"file": "/home/user1/trash/dirOutputSet/_100___between_the_particle_and_the_obst_article_and_the_obstacle_____.wav",
+		"duration": 0.71,
+		"sentenceIndex": 5657,
+		"timestamp": 881.0099999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 881.7199999999997
+	},
+	{
+		"index": 571,
+		"txt": "So to get s, we declare a variable r and equate it to the sum of radii of the particle and the obstacle against which we're checking for a collision.",
+		"file": "/home/user1/trash/dirOutputSet/_100_So_to_get_s__we_declare_a_variable__checking_for_a_collision_____.wav",
+		"duration": 2.82,
+		"sentenceIndex": 5658,
+		"timestamp": 882.2199999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 885.0399999999997
+	},
+	{
+		"index": 572,
+		"txt": "We define d, a Vector , as the difference between the positions of the particle and obstacle.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_define_d__a_Vector___as_the_diff_he_particle_and_obstacle_____.wav",
+		"duration": 1.95,
+		"sentenceIndex": 5659,
+		"timestamp": 885.5399999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 887.4899999999998
+	},
+	{
+		"index": 573,
+		"txt": "The magnitude of d minus r yields s .",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_magnitude_of_d_minus_r_yields_s_e_of_d_minus_r_yields_s______.wav",
+		"duration": 0.96,
+		"sentenceIndex": 5660,
+		"timestamp": 887.9899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 888.9499999999998
+	},
+	{
+		"index": 575,
+		"txt": "If s is less than 0, then we make the relative velocity check.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_s_is_less_than_0__then_we_make_t__relative_velocity_check_____.wav",
+		"duration": 1.44,
+		"sentenceIndex": 5662,
+		"timestamp": 889.4499999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 890.8899999999999
+	},
+	{
+		"index": 576,
+		"txt": "Now, in this case the collision normal vector is along the line connecting the centers of the two circles representing the particle and the obstacle.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now__in_this_case_the_collision_nor_article_and_the_obstacle_____.wav",
+		"duration": 2.91,
+		"sentenceIndex": 5663,
+		"timestamp": 891.3899999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 894.2999999999998
+	},
+	{
+		"index": 577,
+		"txt": "Well, that's just the vector d we already calculated.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Well__that_s_just_the_vector_d_we_a__d_we_already_calculated_____.wav",
+		"duration": 1.12,
+		"sentenceIndex": 5664,
+		"timestamp": 894.7999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 895.9199999999998
+	},
+	{
+		"index": 578,
+		"txt": "To get the unit normal vector, we simply normalize d .",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_get_the_unit_normal_vector__we_s___we_simply_normalize_d______.wav",
+		"duration": 1.3,
+		"sentenceIndex": 5665,
+		"timestamp": 896.4199999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 897.7199999999998
+	},
+	{
+		"index": 579,
+		"txt": "The relative velocity vector is simply the difference in velocities of the particle and the obstacle.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_relative_velocity_vector_is_sim_article_and_the_obstacle_____.wav",
+		"duration": 1.94,
+		"sentenceIndex": 5666,
+		"timestamp": 898.2199999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 900.1599999999999
+	},
+	{
+		"index": 580,
+		"txt": "Since the obstacles are static, the relative velocity is just the particle's velocity.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Since_the_obstacles_are_static__the__the_particle_s_velocity_____.wav",
+		"duration": 1.85,
+		"sentenceIndex": 5667,
+		"timestamp": 900.6599999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 902.5099999999999
+	},
+	{
+		"index": 581,
+		"txt": "But we calculated the relative velocity by taking the vector difference vr = p >vVelocity – Obstacles[i].vVelocity , because in a more advanced scenario, you might have moving obstacles.",
+		"file": "/home/user1/trash/dirOutputSet/_100_But_we_calculated_the_relative_velo_ht_have_moving_obstacles_____.wav",
+		"duration": 4.72,
+		"sentenceIndex": 5668,
+		"timestamp": 903.0099999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 907.7299999999999
+	},
+	{
+		"index": 583,
+		"txt": "Taking the dot product of the relative velocity vector, vr , with the unit normal vector yields the relative velocity in the collision normal direction.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Taking_the_dot_product_of_the_relat_llision_normal_direction_____.wav",
+		"duration": 3.1,
+		"sentenceIndex": 5670,
+		"timestamp": 908.2299999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 911.3299999999999
+	},
+	{
+		"index": 584,
+		"txt": "If that relative velocity is less than 0, then the particle and the object are colliding and the code goes on to calculate the impact force in a manner similar to that described earlier for the particle to ground collisions.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_that_relative_velocity_is_less_t_cle_to_ground_collisions_____.wav",
+		"duration": 4.38,
+		"sentenceIndex": 5671,
+		"timestamp": 911.8299999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 916.2099999999999
+	},
+	{
+		"index": 585,
+		"txt": "The only difference here is that both the particle's and object's masses appear in the impulse formula.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_only_difference_here_is_that_bo_r_in_the_impulse_formula_____.wav",
+		"duration": 1.99,
+		"sentenceIndex": 5672,
+		"timestamp": 916.7099999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 918.6999999999999
+	},
+	{
+		"index": 586,
+		"txt": "Earlier we assumed the ground was infinitely massive relative to the particle's mass, so the 1/m term for the ground went to 0, essentially dropping out of the equation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Earlier_we_assumed_the_ground_was_i_ping_out_of_the_equation_____.wav",
+		"duration": 3.75,
+		"sentenceIndex": 5673,
+		"timestamp": 919.1999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 922.9499999999999
+	},
+	{
+		"index": 587,
+		"txt": "Refer back to",
+		"file": "/home/user1/trash/dirOutputSet/_100_Refer_back_to_Refer_back_to____.wav",
+		"duration": 0.35,
+		"sentenceIndex": 5674,
+		"timestamp": 923.4499999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 923.8
+	},
+	{
+		"index": 588,
+		"txt": "Chapter 5",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 5_Chapter 5____.wav",
+		"duration": 0.35,
+		"sentenceIndex": 5675,
+		"timestamp": 924.3
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 924.65
+	},
+	{
+		"index": 589,
+		"txt": "to recall the impulse formulas.",
+		"file": "/home/user1/trash/dirOutputSet/_100_to_recall_the_impulse_formulas__all_the_impulse_formulas_____.wav",
+		"duration": 0.72,
+		"sentenceIndex": 5676,
+		"timestamp": 925.15
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 925.87
+	},
+	{
+		"index": 591,
+		"txt": "Once the impact force is calculated, the code backs up the particle by a distance equal to s, the penetration, along the line of action of the collision normal vector, giving us what we desire (as shown in",
+		"file": "/home/user1/trash/dirOutputSet/_100_Once_the_impact_force_is_calculated_at_we_desire__as_shown_in____.wav",
+		"duration": 4.55,
+		"sentenceIndex": 5678,
+		"timestamp": 926.37
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 930.92
+	},
+	{
+		"index": 592,
+		"txt": "Figure 8 7",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 8_7_Figure 8_7____.wav",
+		"duration": 0.56,
+		"sentenceIndex": 5679,
+		"timestamp": 931.42
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 931.9799999999999
+	},
+	{
+		"index": 595,
+		"txt": "Now, when you run this simulation you'll see the particles falling down, bouncing off the obstacles or flowing around them depending on the value you're using for coefficient of restitution, ultimately bouncing and coming to rest on the ground plane.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now__when_you_run_this_simulation_y_rest_on_the_ground_plane_____.wav",
+		"duration": 4.96,
+		"sentenceIndex": 5682,
+		"timestamp": 932.4799999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 937.4399999999999
+	},
+	{
+		"index": 596,
+		"txt": "If you have a wind speed greater than 0, then the particles will still drift along the ground plane from left to",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_you_have_a_wind_speed_greater_th_ground_plane_from_left_to____.wav",
+		"duration": 2.26,
+		"sentenceIndex": 5683,
+		"timestamp": 937.9399999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 940.1999999999999
+	},
+	{
+		"index": 601,
+		"txt": "right.",
+		"file": "/home/user1/trash/dirOutputSet/_100_right__right_____.wav",
+		"duration": 0.16,
+		"sentenceIndex": 5688,
+		"timestamp": 940.6999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 940.8599999999999
+	},
+	{
+		"index": 604,
+		"txt": "Tuning",
+		"file": "/home/user1/trash/dirOutputSet/_100_Tuning_Tuning____.wav",
+		"duration": 0.16,
+		"sentenceIndex": 5691,
+		"timestamp": 941.3599999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 941.5199999999999
+	},
+	{
+		"index": 606,
+		"txt": "Tuning is an",
+		"file": "/home/user1/trash/dirOutputSet/_100_Tuning_is_an_Tuning_is_an____.wav",
+		"duration": 0.28,
+		"sentenceIndex": 5693,
+		"timestamp": 942.0199999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 942.2999999999998
+	},
+	{
+		"index": 608,
+		"txt": "important part of developing any simulator.",
+		"file": "/home/user1/trash/dirOutputSet/_100_important_part_of_developing_any_si_developing_any_simulator_____.wav",
+		"duration": 0.91,
+		"sentenceIndex": 5695,
+		"timestamp": 942.7999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 943.7099999999998
+	},
+	{
+		"index": 609,
+		"txt": "Tuning means different things to different people.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Tuning_means_different_things_to_di_ings_to_different_people_____.wav",
+		"duration": 0.91,
+		"sentenceIndex": 5696,
+		"timestamp": 944.2099999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 945.1199999999998
+	},
+	{
+		"index": 610,
+		"txt": "For some, tuning is adjusting formulas and coefficients to make your simulation match some specific",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_some__tuning_is_adjusting_formu_ation_match_some_specific______.wav",
+		"duration": 2.08,
+		"sentenceIndex": 5697,
+		"timestamp": 945.6199999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 947.6999999999998
+	},
+	{
+		"index": 611,
+		"txt": "\"right answer,\"",
+		"file": "/home/user1/trash/dirOutputSet/IVONA_2_Kendra_100_right_answer__right_answer_______.wav",
+		"duration": 0.33,
+		"sentenceIndex": 5698,
+		"timestamp": 948.1999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 948.5299999999999
+	},
+	{
+		"index": 612,
+		"txt": "while to others tuning is adjusting parameters to make the simulation look and behave how you want it to, whether or not it's technically the right answer.",
+		"file": "/home/user1/trash/dirOutputSet/_100_while_to_others_tuning_is_adjusting_nically_the_right_answer_______.wav",
+		"duration": 2.92,
+		"sentenceIndex": 5699,
+		"timestamp": 949.0299999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 951.9499999999998
+	},
+	{
+		"index": 613,
+		"txt": "After all, the right answer for a game is that it's fun and robust.",
+		"file": "/home/user1/trash/dirOutputSet/_100_After_all__the_right_answer_for_a_g_that_it_s_fun_and_robust_____.wav",
+		"duration": 1.41,
+		"sentenceIndex": 5700,
+		"timestamp": 952.4499999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 953.8599999999998
+	},
+	{
+		"index": 614,
+		"txt": "Speaking of robustness, other folks view tuning in the sense of adjusting parameters to make the simulation stable.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Speaking_of_robustness__other_folks_ke_the_simulation_stable_____.wav",
+		"duration": 2.29,
+		"sentenceIndex": 5701,
+		"timestamp": 954.3599999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 956.6499999999997
+	},
+	{
+		"index": 615,
+		"txt": "In reality, this is all tuning and you should think of it as a necessary part of developing your simulation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_reality__this_is_all_tuning_and__veloping_your_simulation_____.wav",
+		"duration": 2.06,
+		"sentenceIndex": 5702,
+		"timestamp": 957.1499999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 959.2099999999997
+	},
+	{
+		"index": 616,
+		"txt": "It's the process by which you tweak, nudge, and adjust things to make the simulation do what you want it to do.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_s_the_process_by_which_you_tweak_o_what_you_want_it_to_do_____.wav",
+		"duration": 2.21,
+		"sentenceIndex": 5703,
+		"timestamp": 959.7099999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 961.9199999999997
+	},
+	{
+		"index": 619,
+		"txt": "For example, you can use this same example simulation to model very springy rubber balls.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_example__you_can_use_this_same__ery_springy_rubber_balls_____.wav",
+		"duration": 2,
+		"sentenceIndex": 5706,
+		"timestamp": 962.4199999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 964.4199999999997
+	},
+	{
+		"index": 620,
+		"txt": "To achieve this, you'll probably adjust the coefficient of restitution toward a value approaching 1 and perhaps lower the drag coefficient.",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_achieve_this__you_ll_probably_ad_wer_the_drag_coefficient_____.wav",
+		"duration": 2.79,
+		"sentenceIndex": 5707,
+		"timestamp": 964.9199999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 967.7099999999997
+	},
+	{
+		"index": 621,
+		"txt": "The particles will bounce all over the place with a lot of energy.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_particles_will_bounce_all_over__ace_with_a_lot_of_energy_____.wav",
+		"duration": 1.27,
+		"sentenceIndex": 5708,
+		"timestamp": 968.2099999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 969.4799999999997
+	},
+	{
+		"index": 622,
+		"txt": "If, on the other hand, you want to model something along the lines of mud, then you'll lower the coefficient of restitution and increase the drag coefficient.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If__on_the_other_hand__you_want_to__ase_the_drag_coefficient_____.wav",
+		"duration": 3.12,
+		"sentenceIndex": 5709,
+		"timestamp": 969.9799999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 973.0999999999997
+	},
+	{
+		"index": 623,
+		"txt": "There is no right or wrong combination of coefficient of restitution or drag coefficient to use, so long as you are pleased with the results.",
+		"file": "/home/user1/trash/dirOutputSet/_100_There_is_no_right_or_wrong_combinat_pleased_with_the_results_____.wav",
+		"duration": 2.87,
+		"sentenceIndex": 5710,
+		"timestamp": 973.5999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 976.4699999999997
+	},
+	{
+		"index": 626,
+		"txt": "Another aspect you might tune is the number of simulation frames per rendering frame.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Another_aspect_you_might_tune_is_th_ames_per_rendering_frame_____.wav",
+		"duration": 1.68,
+		"sentenceIndex": 5713,
+		"timestamp": 976.9699999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 978.6499999999996
+	},
+	{
+		"index": 627,
+		"txt": "You may find the simulation calculations take so long that your resulting animations are too jerky because you aren't updating the display enough.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_may_find_the_simulation_calcula_ating_the_display_enough_____.wav",
+		"duration": 2.89,
+		"sentenceIndex": 5714,
+		"timestamp": 979.1499999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 982.0399999999996
+	},
+	{
+		"index": 628,
+		"txt": "The converse may be true in other cases.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_converse_may_be_true_in_other_c_y_be_true_in_other_cases_____.wav",
+		"duration": 0.88,
+		"sentenceIndex": 5715,
+		"timestamp": 982.5399999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 983.4199999999996
+	},
+	{
+		"index": 629,
+		"txt": "An important parameter that plays into this is the time step size you take at each simulation iteration.",
+		"file": "/home/user1/trash/dirOutputSet/_100_An_important_parameter_that_plays_i_ach_simulation_iteration_____.wav",
+		"duration": 2.06,
+		"sentenceIndex": 5716,
+		"timestamp": 983.9199999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 985.9799999999996
+	},
+	{
+		"index": 630,
+		"txt": "If the step size is too small, you'll perform a lot of simulation steps, slowing the animation down.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_the_step_size_is_too_small__you__owing_the_animation_down_____.wav",
+		"duration": 2.31,
+		"sentenceIndex": 5717,
+		"timestamp": 986.4799999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 988.7899999999995
+	},
+	{
+		"index": 631,
+		"txt": "On the other hand, a small time step can keep the simulation numerically stable.",
+		"file": "/home/user1/trash/dirOutputSet/_100_On_the_other_hand__a_small_time_ste_ation_numerically_stable_____.wav",
+		"duration": 1.71,
+		"sentenceIndex": 5718,
+		"timestamp": 989.2899999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 990.9999999999995
+	},
+	{
+		"index": 632,
+		"txt": "Your chosen integrator plays a huge role here.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Your_chosen_integrator_plays_a_huge_r_plays_a_huge_role_here_____.wav",
+		"duration": 1,
+		"sentenceIndex": 5719,
+		"timestamp": 991.4999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 992.4999999999995
+	},
+	{
+		"index": 635,
+		"txt": "If you make your time step too large, the simulation may just blow up and not work.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_you_make_your_time_step_too_larg_ust_blow_up_and_not_work_____.wav",
+		"duration": 1.72,
+		"sentenceIndex": 5722,
+		"timestamp": 992.9999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 994.7199999999996
+	},
+	{
+		"index": 636,
+		"txt": "It will be numerically unstable.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_will_be_numerically_unstable___be_numerically_unstable_____.wav",
+		"duration": 0.64,
+		"sentenceIndex": 5723,
+		"timestamp": 995.2199999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 995.8599999999996
+	},
+	{
+		"index": 637,
+		"txt": "Even if it doesn't blow up, you might see weird results.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Even_if_it_doesn_t_blow_up__you_mig__might_see_weird_results_____.wav",
+		"duration": 1.17,
+		"sentenceIndex": 5724,
+		"timestamp": 996.3599999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 997.5299999999995
+	},
+	{
+		"index": 638,
+		"txt": "For example, if the time step in the example simulation discussed in this chapter is too large, then particles may completely step over obstacles in a single time step, missing the collision that would otherwise have happened.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_example__if_the_time_step_in_th__otherwise_have_happened_____.wav",
+		"duration": 4.71,
+		"sentenceIndex": 5725,
+		"timestamp": 998.0299999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 1002.7399999999996
+	},
+	{
+		"index": 639,
+		"txt": "(We'll show you in",
+		"file": "/home/user1/trash/dirOutputSet/_100__We_ll_show_you_in__We_ll_show_you_in____.wav",
+		"duration": 0.36,
+		"sentenceIndex": 5726,
+		"timestamp": 1003.2399999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 1003.5999999999996
+	},
+	{
+		"index": 640,
+		"txt": "Chapter 10 how to deal with that situation.)",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 10_how_to_deal_with_that_si_eal_with_that_situation______.wav",
+		"duration": 0.9,
+		"sentenceIndex": 5727,
+		"timestamp": 1004.0999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 1004.9999999999995
+	},
+	{
+		"index": 642,
+		"txt": "In general, tuning is a necessary part of developing physics based simulations, and we encourage you to experiment trying different combinations of parameters to see what results you can achieve.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_general__tuning_is_a_necessary_p__results_you_can_achieve_____.wav",
+		"duration": 3.95,
+		"sentenceIndex": 5729,
+		"timestamp": 1005.4999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 1009.4499999999996
+	},
+	{
+		"index": 643,
+		"txt": "You should even try combinations that may break the example in this chapter to see what happens and what you should try to avoid in a deployed",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_should_even_try_combinations_th_ry_to_avoid_in_a_deployed____.wav",
+		"duration": 2.54,
+		"sentenceIndex": 5730,
+		"timestamp": 1009.9499999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 1012.4899999999996
+	},
+	{
+		"index": 644,
+		"txt": "game.",
+		"file": "/home/user1/trash/dirOutputSet/_100_game__game_____.wav",
+		"duration": 0.2,
+		"sentenceIndex": 5731,
+		"timestamp": 1012.9899999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 1013.1899999999996
+	}
+]

@@ -1,0 +1,3067 @@
+[
+	{
+		"txt": "",
+		"why": "br tag like",
+		"sentenceIndex": 14439,
+		"nouns": [],
+		"dOIndex": 0,
+		"isQuote": false
+	},
+	{
+		"txt": "Appendix B. Matrix Operations",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14440,
+		"nouns": [
+			"Appendix B",
+			"Matrix Operations"
+		],
+		"dOIndex": 1,
+		"nouns2": [
+			"Appendix",
+			"Matrix",
+			"Operations"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "This appendix implements a class called Matrix3x3 that encapsulates all of the operations you need to handle 3×3 (nine element) matrices when writing 3D rigid body simulations.",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 14441,
+		"nouns": [
+			"appendix",
+			"implements",
+			"class",
+			"Matrix3x3",
+			"encapsulates",
+			"operations",
+			"×",
+			"nine",
+			"element",
+			"matrices",
+			"D",
+			"body",
+			"simulations"
+		],
+		"dOIndex": 2,
+		"nouns2": [
+			"appendix",
+			"implements",
+			"Matrix3x3",
+			"encapsulates",
+			"operations",
+			"element",
+			"matrices",
+			"simulations"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 14442,
+		"nouns": [],
+		"dOIndex": 3,
+		"isQuote": false
+	},
+	{
+		"txt": "Matrix3×3 Class",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14443,
+		"nouns": [
+			"Matrix",
+			"×",
+			"Class"
+		],
+		"dOIndex": 4,
+		"nouns2": [
+			"Matrix"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "The Matrix3x3 class is ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14444,
+		"nouns": [
+			"Matrix3x3",
+			"class"
+		],
+		"dOIndex": 5,
+		"nouns2": [
+			"Matrix3x3"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14445,
+		"nouns": [],
+		"dOIndex": 6,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "defined with nine elements, eij, where i represents the ith row and j the jth column. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14446,
+		"nouns": [
+			"nine",
+			"elements",
+			"eij",
+			"ith",
+			"row",
+			"j",
+			"jth",
+			"column"
+		],
+		"dOIndex": 7,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"elements"
+		]
+	},
+	{
+		"txt": " For example, e21 refers to the element on the second row in the first column. ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14447,
+		"nouns": [
+			"example",
+			"e",
+			"element",
+			"second",
+			"row",
+			"first",
+			"column"
+		],
+		"dOIndex": 8,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"element"
+		]
+	},
+	{
+		"txt": " Here's how all of the elements are arranged:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14448,
+		"nouns": [
+			"elements"
+		],
+		"dOIndex": 9,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"elements"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14449,
+		"nouns": [],
+		"dOIndex": 10,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14450,
+		"nouns": [],
+		"dOIndex": 11,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 14451,
+		"nouns": [],
+		"dOIndex": 12,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14452,
+		"nouns": [],
+		"dOIndex": 13,
+		"isQuote": false
+	},
+	{
+		"txt": "The class has two constructors, one of which initializes the matrix elements to zero, and the other of which initializes the elements to those passed to the constructor:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14453,
+		"nouns": [
+			"class",
+			"two",
+			"constructors",
+			"one",
+			"initializes",
+			"matrix",
+			"elements",
+			"zero",
+			"initializes",
+			"elements",
+			"constructor"
+		],
+		"dOIndex": 14,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"constructors",
+			"initializes",
+			"elements",
+			"constructor"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14454,
+		"nouns": [],
+		"dOIndex": 15,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14455,
+		"nouns": [],
+		"dOIndex": 16,
+		"isQuote": false
+	},
+	{
+		"txt": "Determinant",
+		"why": "p",
+		"tags": [
+			"h3",
+			"div",
+			"div",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14456,
+		"nouns": [
+			"Determinant"
+		],
+		"dOIndex": 17,
+		"nouns2": [
+			"Determinant"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14457,
+		"nouns": [],
+		"dOIndex": 18,
+		"isQuote": false
+	},
+	{
+		"txt": "The method, det, returns the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14458,
+		"nouns": [
+			"method",
+			"det",
+			"returns"
+		],
+		"dOIndex": 19,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"returns"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14459,
+		"nouns": [],
+		"dOIndex": 20,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "determinant of the matrix. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14460,
+		"nouns": [
+			"determinant",
+			"matrix"
+		],
+		"dOIndex": 21,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"determinant"
+		]
+	},
+	{
+		"txt": " The determinant of a 2×2 matrix:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14461,
+		"nouns": [
+			"determinant",
+			"×",
+			"matrix"
+		],
+		"dOIndex": 22,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"determinant"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14462,
+		"nouns": [],
+		"dOIndex": 23,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14463,
+		"nouns": [],
+		"dOIndex": 24,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 14464,
+		"nouns": [],
+		"dOIndex": 25,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14465,
+		"nouns": [],
+		"dOIndex": 26,
+		"isQuote": false
+	},
+	{
+		"txt": "is as follows:det [m] = e11 e22 − e21 e12",
+		"why": "p",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14466,
+		"nouns": [
+			"det",
+			"[m]",
+			"e",
+			"e",
+			"−",
+			"e",
+			"e"
+		],
+		"dOIndex": 27,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14467,
+		"nouns": [],
+		"dOIndex": 28,
+		"isQuote": false
+	},
+	{
+		"txt": "We find the determinant of a 3×3 matrix by first expanding the matrix by minors, and then resolving the determinants of the 2×2 minors. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14468,
+		"nouns": [
+			"determinant",
+			"×",
+			"matrix",
+			"first",
+			"matrix",
+			"minors",
+			"determinants",
+			"×",
+			"minors"
+		],
+		"dOIndex": 29,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"determinant",
+			"determinants"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08,
+			"words": [
+				"resolving"
+			],
+			"positive": [
+				"resolving"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Here's how you expand a 3×3 matrix by minors:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14469,
+		"nouns": [
+			"×",
+			"matrix",
+			"minors"
+		],
+		"dOIndex": 30,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.1,
+			"words": [
+				"expand"
+			],
+			"positive": [
+				"expand"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14470,
+		"nouns": [],
+		"dOIndex": 31,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14471,
+		"nouns": [],
+		"dOIndex": 32,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 14472,
+		"nouns": [],
+		"dOIndex": 33,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14473,
+		"nouns": [],
+		"dOIndex": 34,
+		"isQuote": false
+	},
+	{
+		"txt": "Here's how this all looks in code:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14474,
+		"nouns": [
+			"code"
+		],
+		"dOIndex": 35,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14475,
+		"nouns": [],
+		"dOIndex": 36,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14476,
+		"nouns": [],
+		"dOIndex": 37,
+		"isQuote": false
+	},
+	{
+		"txt": "Transpose",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14477,
+		"nouns": [
+			"Transpose"
+		],
+		"dOIndex": 38,
+		"nouns2": [
+			"Transpose"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14478,
+		"nouns": [],
+		"dOIndex": 39,
+		"isQuote": false
+	},
+	{
+		"txt": "The method Transpose transposes ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14479,
+		"nouns": [
+			"method",
+			"Transpose",
+			"transposes"
+		],
+		"dOIndex": 40,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Transpose",
+			"transposes"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14480,
+		"nouns": [],
+		"dOIndex": 41,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "the matrix by swapping rows with columns that is, the elements in the first row become the elements in the first column and so on for the second and third rows and columns. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14481,
+		"nouns": [
+			"matrix",
+			"rows",
+			"columns",
+			"elements",
+			"first",
+			"row",
+			"elements",
+			"first",
+			"column",
+			"second",
+			"third",
+			"rows",
+			"columns"
+		],
+		"dOIndex": 42,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"columns",
+			"elements"
+		]
+	},
+	{
+		"txt": " The following relations are true for transpose operations:(Mt)t = M(s M)t = s (Mt)(M N)t = NtMt(M + N)t = Mt + Ntdet[Mt] = det[M]",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14482,
+		"nouns": [
+			"relations",
+			"transpose",
+			"operations",
+			"Mt",
+			"t",
+			"M",
+			"M",
+			"t",
+			"Mt",
+			"M",
+			"N",
+			"t",
+			"NtMt",
+			"M",
+			"N",
+			"t",
+			"Mt",
+			"Ntdet[Mt]",
+			"det[M]"
+		],
+		"dOIndex": 43,
+		"nouns2": [
+			"relations",
+			"transpose",
+			"operations",
+			"Ntdet[Mt]"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.07692307692307693,
+			"words": [
+				"true"
+			],
+			"positive": [
+				"true"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14483,
+		"nouns": [],
+		"dOIndex": 44,
+		"isQuote": false
+	},
+	{
+		"txt": "Here M and N are matrices, t is the transpose operator, and s is a scalar.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14484,
+		"nouns": [
+			"M",
+			"N",
+			"matrices",
+			"t",
+			"transpose",
+			"operator"
+		],
+		"dOIndex": 45,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"matrices",
+			"transpose",
+			"operator"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14485,
+		"nouns": [],
+		"dOIndex": 46,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14486,
+		"nouns": [],
+		"dOIndex": 47,
+		"isQuote": false
+	},
+	{
+		"txt": "Here's the Transpose method for our Matrix3x3 class:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14487,
+		"nouns": [
+			"Transpose",
+			"method",
+			"Matrix3x3",
+			"class"
+		],
+		"dOIndex": 48,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Transpose",
+			"Matrix3x3"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14488,
+		"nouns": [],
+		"dOIndex": 49,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14489,
+		"nouns": [],
+		"dOIndex": 50,
+		"isQuote": false
+	},
+	{
+		"txt": "Inverse",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14490,
+		"nouns": [],
+		"dOIndex": 51,
+		"nouns2": [
+			"Inverse"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14491,
+		"nouns": [],
+		"dOIndex": 52,
+		"isQuote": false
+	},
+	{
+		"txt": "The method Inverse computes ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14492,
+		"nouns": [
+			"method"
+		],
+		"dOIndex": 53,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Inverse"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14493,
+		"nouns": [],
+		"dOIndex": 54,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "the inverse matrix such that the following relation is satisfied:",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14494,
+		"nouns": [
+			"matrix",
+			"relation"
+		],
+		"dOIndex": 55,
+		"nouns2": [
+			"relation"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.2,
+			"words": [
+				"satisfied"
+			],
+			"positive": [
+				"satisfied"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14495,
+		"nouns": [],
+		"dOIndex": 56,
+		"isQuote": false
+	},
+	{
+		"txt": "M M−1 = M−1M = I",
+		"why": "p",
+		"tags": [
+			"strong",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14496,
+		"nouns": [
+			"M",
+			"M−",
+			"M−",
+			"M"
+		],
+		"dOIndex": 57,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14497,
+		"nouns": [],
+		"dOIndex": 58,
+		"isQuote": false
+	},
+	{
+		"txt": "Here M−1 is the inverse of matrix M, and I is the identity matrix. ",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14498,
+		"nouns": [
+			"M−",
+			"matrix M",
+			"identity",
+			"matrix"
+		],
+		"dOIndex": 59,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"identity"
+		]
+	},
+	{
+		"txt": " For a 3×3 matrix, we find the inverse as follows:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14499,
+		"nouns": [
+			"×",
+			"matrix"
+		],
+		"dOIndex": 60,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14500,
+		"nouns": [],
+		"dOIndex": 61,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14501,
+		"nouns": [],
+		"dOIndex": 62,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 14502,
+		"nouns": [],
+		"dOIndex": 63,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14503,
+		"nouns": [],
+		"dOIndex": 64,
+		"isQuote": false
+	},
+	{
+		"txt": "Here Eij represents the cofactor of element eij , which we can find by taking the determinant of the minor of each element. ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14504,
+		"nouns": [
+			"Eij",
+			"cofactor",
+			"element",
+			"eij",
+			"determinant",
+			"element"
+		],
+		"dOIndex": 65,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"cofactor",
+			"element",
+			"determinant"
+		]
+	},
+	{
+		"txt": " Only square matrices, those with the same number of rows as columns, can be inverted. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14505,
+		"nouns": [
+			"square",
+			"matrices",
+			"number",
+			"rows",
+			"columns"
+		],
+		"dOIndex": 66,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"matrices",
+			"columns"
+		]
+	},
+	{
+		"txt": " Note, however, that not all square matrices can be inverted. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14506,
+		"nouns": [
+			"square",
+			"matrices"
+		],
+		"dOIndex": 67,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"matrices"
+		]
+	},
+	{
+		"txt": " A matrix can be inverted only if its determinant is nonzero.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14507,
+		"nouns": [
+			"matrix",
+			"determinant",
+			"nonzero"
+		],
+		"dOIndex": 68,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"determinant",
+			"nonzero"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14508,
+		"nouns": [],
+		"dOIndex": 69,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14509,
+		"nouns": [],
+		"dOIndex": 70,
+		"isQuote": false
+	},
+	{
+		"txt": "The follow relation applies to matrix inversion:(M N)−1 = N−1M−1",
+		"why": "p",
+		"tags": [
+			"sup",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14510,
+		"nouns": [
+			"follow",
+			"relation",
+			"matrix",
+			"inversion",
+			"M",
+			"N",
+			"−",
+			"N−",
+			"M−"
+		],
+		"dOIndex": 71,
+		"nouns2": [
+			"relation",
+			"inversion"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14511,
+		"nouns": [],
+		"dOIndex": 72,
+		"isQuote": false
+	},
+	{
+		"txt": "Here's how matrix inversion looks in code for our Matrix3x3 class:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14512,
+		"nouns": [
+			"matrix",
+			"inversion",
+			"code",
+			"Matrix3x3",
+			"class"
+		],
+		"dOIndex": 73,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"inversion",
+			"Matrix3x3"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14513,
+		"nouns": [],
+		"dOIndex": 74,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14514,
+		"nouns": [],
+		"dOIndex": 75,
+		"isQuote": false
+	},
+	{
+		"txt": "Matrix Addition: The += Operator",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14515,
+		"nouns": [
+			"Matrix",
+			"Addition",
+			"+=",
+			"Operator"
+		],
+		"dOIndex": 76,
+		"nouns2": [
+			"Matrix",
+			"Addition",
+			"Operator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14516,
+		"nouns": [],
+		"dOIndex": 77,
+		"isQuote": false
+	},
+	{
+		"txt": "This operator ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14517,
+		"nouns": [
+			"operator"
+		],
+		"dOIndex": 78,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"operator"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14518,
+		"nouns": [],
+		"dOIndex": 79,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14519,
+		"nouns": [],
+		"dOIndex": 80,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14520,
+		"nouns": [],
+		"dOIndex": 81,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14521,
+		"nouns": [],
+		"dOIndex": 82,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "simply adds the passed matrix to the current one on an element by element basis. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14522,
+		"nouns": [
+			"matrix",
+			"one",
+			"element",
+			"element",
+			"basis"
+		],
+		"dOIndex": 83,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"element"
+		]
+	},
+	{
+		"txt": " For two matrices to be added, they must be of the same order that is, they must have the same number of rows and columns:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14523,
+		"nouns": [
+			"two",
+			"matrices",
+			"order",
+			"number",
+			"rows",
+			"columns"
+		],
+		"dOIndex": 84,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"matrices",
+			"columns"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 14524,
+		"nouns": [],
+		"dOIndex": 85,
+		"isQuote": false
+	},
+	{
+		"txt": "Matrix addition (and subtraction) is commutative, associative, and distributive; thus:M + N = N + MM + (N + P) = (M + N) + PM (N + P) = M N + M P(N + P) M = N M + P M",
+		"why": "br tag like",
+		"tags": [
+			"strong",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14525,
+		"nouns": [
+			"Matrix",
+			"addition",
+			"subtraction",
+			"commutative",
+			"associative",
+			"M",
+			"N",
+			"N",
+			"MM",
+			"N",
+			"P",
+			"M",
+			"N",
+			"PM",
+			"N",
+			"P",
+			"M",
+			"N",
+			"M",
+			"P",
+			"N",
+			"P",
+			"M",
+			"N M",
+			"P M"
+		],
+		"dOIndex": 86,
+		"nouns2": [
+			"Matrix",
+			"addition",
+			"subtraction",
+			"commutative",
+			"associative"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14526,
+		"nouns": [],
+		"dOIndex": 87,
+		"isQuote": false
+	},
+	{
+		"txt": "Matrix Subtraction: The −= Operator",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14527,
+		"nouns": [
+			"Matrix",
+			"Subtraction",
+			"−=",
+			"Operator"
+		],
+		"dOIndex": 88,
+		"nouns2": [
+			"Matrix",
+			"Subtraction",
+			"Operator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14528,
+		"nouns": [],
+		"dOIndex": 89,
+		"isQuote": false
+	},
+	{
+		"txt": "This operator simply subtracts the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14529,
+		"nouns": [
+			"operator",
+			"subtracts"
+		],
+		"dOIndex": 90,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"operator",
+			"subtracts"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14530,
+		"nouns": [],
+		"dOIndex": 91,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14531,
+		"nouns": [],
+		"dOIndex": 92,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14532,
+		"nouns": [],
+		"dOIndex": 93,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14533,
+		"nouns": [],
+		"dOIndex": 94,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "passed matrix from the current one on an element by element basis. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14534,
+		"nouns": [
+			"matrix",
+			"one",
+			"element",
+			"element",
+			"basis"
+		],
+		"dOIndex": 95,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"element"
+		]
+	},
+	{
+		"txt": " For two matrices to be subtracted, they must be of the same order that is, they must have the same number of rows and columns:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14535,
+		"nouns": [
+			"two",
+			"matrices",
+			"order",
+			"number",
+			"rows",
+			"columns"
+		],
+		"dOIndex": 96,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"matrices",
+			"columns"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14536,
+		"nouns": [],
+		"dOIndex": 97,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14537,
+		"nouns": [],
+		"dOIndex": 98,
+		"isQuote": false
+	},
+	{
+		"txt": "Scalar Multiplication: The *= Operator",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14538,
+		"nouns": [
+			"Multiplication",
+			"*=",
+			"Operator"
+		],
+		"dOIndex": 99,
+		"nouns2": [
+			"Scalar",
+			"Multiplication",
+			"Operator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14539,
+		"nouns": [],
+		"dOIndex": 100,
+		"isQuote": false
+	},
+	{
+		"txt": "This operator simply ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14540,
+		"nouns": [
+			"operator"
+		],
+		"dOIndex": 101,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"operator"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14541,
+		"nouns": [],
+		"dOIndex": 102,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14542,
+		"nouns": [],
+		"dOIndex": 103,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14543,
+		"nouns": [],
+		"dOIndex": 104,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14544,
+		"nouns": [],
+		"dOIndex": 105,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "multiplies each element by the scalar s:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14545,
+		"nouns": [
+			"element"
+		],
+		"dOIndex": 106,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"element"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 14546,
+		"nouns": [],
+		"dOIndex": 107,
+		"isQuote": false
+	},
+	{
+		"txt": "The following relation applies for scalar multiplication (and division):s(M N) = (sM) N = M (s N)",
+		"why": "br tag like",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14547,
+		"nouns": [
+			"relation",
+			"multiplication",
+			"division",
+			"M",
+			"N",
+			"sM",
+			"N",
+			"M",
+			"N"
+		],
+		"dOIndex": 108,
+		"nouns2": [
+			"relation",
+			"multiplication",
+			"division"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14548,
+		"nouns": [],
+		"dOIndex": 109,
+		"isQuote": false
+	},
+	{
+		"txt": "Scalar Division: The /= Operator",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14549,
+		"nouns": [
+			"Division",
+			"/",
+			"Operator"
+		],
+		"dOIndex": 110,
+		"nouns2": [
+			"Scalar",
+			"Division",
+			"Operator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14550,
+		"nouns": [],
+		"dOIndex": 111,
+		"isQuote": false
+	},
+	{
+		"txt": "This operator ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14551,
+		"nouns": [
+			"operator"
+		],
+		"dOIndex": 112,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"operator"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14552,
+		"nouns": [],
+		"dOIndex": 113,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14553,
+		"nouns": [],
+		"dOIndex": 114,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14554,
+		"nouns": [],
+		"dOIndex": 115,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14555,
+		"nouns": [],
+		"dOIndex": 116,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "simply divides each element by the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14556,
+		"nouns": [
+			"element"
+		],
+		"dOIndex": 117,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"element"
+		]
+	},
+	{
+		"txt": "scalar s:",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14557,
+		"nouns": [],
+		"dOIndex": 118,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14558,
+		"nouns": [],
+		"dOIndex": 119,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14559,
+		"nouns": [],
+		"dOIndex": 120,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14560,
+		"nouns": [],
+		"dOIndex": 121,
+		"isQuote": false
+	},
+	{
+		"txt": "Matrix Functions and Operators",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14561,
+		"nouns": [
+			"Matrix Functions",
+			"Operators"
+		],
+		"dOIndex": 122,
+		"nouns2": [
+			"Matrix",
+			"Functions",
+			"Operators"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14562,
+		"nouns": [],
+		"dOIndex": 123,
+		"isQuote": false
+	},
+	{
+		"txt": "The functions and ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14563,
+		"nouns": [
+			"functions"
+		],
+		"dOIndex": 124,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"functions"
+		]
+	},
+	{
+		"txt": "overloaded operators that follow are useful when you are performing operations with two matrices, or with a matrix and a scalar, or a matrix and a vector. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14564,
+		"nouns": [
+			"operators",
+			"operations",
+			"two",
+			"matrices",
+			"matrix",
+			"matrix",
+			"vector"
+		],
+		"dOIndex": 125,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"operators",
+			"operations",
+			"matrices"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.07142857142857142,
+			"words": [
+				"useful"
+			],
+			"positive": [
+				"useful"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Here, the matrices are assumed to be of the type Matrix3x3, and vectors of the type Vector, as discussed in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14565,
+		"nouns": [
+			"matrices",
+			"type Matrix",
+			"x",
+			"vectors",
+			"type Vector"
+		],
+		"dOIndex": 126,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"matrices",
+			"Matrix",
+			"vectors",
+			"Vector"
+		]
+	},
+	{
+		"txt": "Appendix A",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14566,
+		"nouns": [
+			"Appendix"
+		],
+		"dOIndex": 127,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Appendix"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14567,
+		"nouns": [],
+		"dOIndex": 128,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14568,
+		"nouns": [],
+		"dOIndex": 129,
+		"isQuote": false
+	},
+	{
+		"txt": "Matrix Addition: The + Operator",
+		"why": "p",
+		"tags": [
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14569,
+		"nouns": [
+			"Matrix",
+			"Addition",
+			"Operator"
+		],
+		"dOIndex": 130,
+		"nouns2": [
+			"Matrix",
+			"Addition",
+			"Operator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "This operator ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14570,
+		"nouns": [
+			"operator"
+		],
+		"dOIndex": 131,
+		"nouns2": [
+			"operator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14571,
+		"nouns": [],
+		"dOIndex": 132,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14572,
+		"nouns": [],
+		"dOIndex": 133,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14573,
+		"nouns": [],
+		"dOIndex": 134,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "adds the two matrices together on an element by element basis:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14574,
+		"nouns": [
+			"two",
+			"matrices",
+			"element",
+			"element",
+			"basis"
+		],
+		"dOIndex": 135,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"matrices",
+			"element"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14575,
+		"nouns": [],
+		"dOIndex": 136,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14576,
+		"nouns": [],
+		"dOIndex": 137,
+		"isQuote": false
+	},
+	{
+		"txt": "Matrix Subtraction: The − Operator",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14577,
+		"nouns": [
+			"Matrix",
+			"Subtraction",
+			"−",
+			"Operator"
+		],
+		"dOIndex": 138,
+		"nouns2": [
+			"Matrix",
+			"Subtraction",
+			"Operator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14578,
+		"nouns": [],
+		"dOIndex": 139,
+		"isQuote": false
+	},
+	{
+		"txt": "This operator ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14579,
+		"nouns": [
+			"operator"
+		],
+		"dOIndex": 140,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"operator"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14580,
+		"nouns": [],
+		"dOIndex": 141,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14581,
+		"nouns": [],
+		"dOIndex": 142,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14582,
+		"nouns": [],
+		"dOIndex": 143,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "subtracts matrix m2 from m1 on an element by element basis:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14583,
+		"nouns": [
+			"subtracts",
+			"matrix",
+			"m",
+			"m",
+			"element",
+			"element",
+			"basis"
+		],
+		"dOIndex": 144,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"subtracts",
+			"element"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14584,
+		"nouns": [],
+		"dOIndex": 145,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14585,
+		"nouns": [],
+		"dOIndex": 146,
+		"isQuote": false
+	},
+	{
+		"txt": "Scalar Divide: The / Operator",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14586,
+		"nouns": [
+			"/",
+			"Operator"
+		],
+		"dOIndex": 147,
+		"nouns2": [
+			"Scalar",
+			"Divide",
+			"Operator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14587,
+		"nouns": [],
+		"dOIndex": 148,
+		"isQuote": false
+	},
+	{
+		"txt": "This operator divides ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14588,
+		"nouns": [
+			"operator"
+		],
+		"dOIndex": 149,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"operator"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14589,
+		"nouns": [],
+		"dOIndex": 150,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14590,
+		"nouns": [],
+		"dOIndex": 151,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14591,
+		"nouns": [],
+		"dOIndex": 152,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "every element in the matrix m by the scalar s:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14592,
+		"nouns": [
+			"element",
+			"matrix",
+			"m"
+		],
+		"dOIndex": 153,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"element"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14593,
+		"nouns": [],
+		"dOIndex": 154,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14594,
+		"nouns": [],
+		"dOIndex": 155,
+		"isQuote": false
+	},
+	{
+		"txt": "Matrix Multiplication: The * Operator",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14595,
+		"nouns": [
+			"Matrix",
+			"Multiplication",
+			"Operator"
+		],
+		"dOIndex": 156,
+		"nouns2": [
+			"Matrix",
+			"Multiplication",
+			"Operator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14596,
+		"nouns": [],
+		"dOIndex": 157,
+		"isQuote": false
+	},
+	{
+		"txt": "This operator, when applied ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14597,
+		"nouns": [
+			"operator"
+		],
+		"dOIndex": 158,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"operator"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14598,
+		"nouns": [],
+		"dOIndex": 159,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14599,
+		"nouns": [],
+		"dOIndex": 160,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14600,
+		"nouns": [],
+		"dOIndex": 161,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "between two matrices, performs a matrix multiplication. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14601,
+		"nouns": [
+			"two",
+			"matrices",
+			"matrix",
+			"multiplication"
+		],
+		"dOIndex": 162,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"matrices",
+			"multiplication"
+		]
+	},
+	{
+		"txt": " In matrix multiplication, each element, eij, is determined by the product of the ith row in the first matrix and the jth column of the second matrix:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14602,
+		"nouns": [
+			"matrix",
+			"multiplication",
+			"element",
+			"eij",
+			"product",
+			"ith",
+			"row",
+			"first",
+			"matrix",
+			"jth",
+			"column",
+			"second",
+			"matrix"
+		],
+		"dOIndex": 163,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"multiplication",
+			"element",
+			"product"
+		],
+		"highfreq": {
+			"matrix": 3
+		},
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.07142857142857142,
+			"words": [
+				"determined"
+			],
+			"positive": [
+				"determined"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 14603,
+		"nouns": [],
+		"dOIndex": 164,
+		"isQuote": false
+	},
+	{
+		"txt": "Two matrices can be multiplied only if one has the same number of columns as the other has rows. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14604,
+		"nouns": [
+			"Two",
+			"matrices",
+			"one",
+			"number",
+			"columns",
+			"rows"
+		],
+		"dOIndex": 165,
+		"nouns2": [
+			"matrices",
+			"columns"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " Matrix multiplication is not commutative, but it is associative; thus:M N ≠ N M(M N) P = M (N P)",
+		"why": "br tag like",
+		"tags": [
+			"strong",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14605,
+		"nouns": [
+			"Matrix",
+			"multiplication",
+			"commutative",
+			"associative",
+			"M",
+			"N",
+			"≠",
+			"N M",
+			"M",
+			"N",
+			"P",
+			"M",
+			"N",
+			"P"
+		],
+		"dOIndex": 166,
+		"nouns2": [
+			"Matrix",
+			"multiplication",
+			"commutative",
+			"associative"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14606,
+		"nouns": [],
+		"dOIndex": 167,
+		"isQuote": false
+	},
+	{
+		"txt": "Scalar Multiplication: The * Operator",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14607,
+		"nouns": [
+			"Multiplication",
+			"Operator"
+		],
+		"dOIndex": 168,
+		"nouns2": [
+			"Scalar",
+			"Multiplication",
+			"Operator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14608,
+		"nouns": [],
+		"dOIndex": 169,
+		"isQuote": false
+	},
+	{
+		"txt": "This operator, when ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14609,
+		"nouns": [
+			"operator"
+		],
+		"dOIndex": 170,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"operator"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14610,
+		"nouns": [],
+		"dOIndex": 171,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14611,
+		"nouns": [],
+		"dOIndex": 172,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14612,
+		"nouns": [],
+		"dOIndex": 173,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "applied between a matrix and a scalar, multiplies each element in the matrix m by the scalar s . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14613,
+		"nouns": [
+			"matrix",
+			"element",
+			"matrix",
+			"m"
+		],
+		"dOIndex": 174,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"element"
+		]
+	},
+	{
+		"txt": " Two forms are given here, depending on the order in which the matrix and scalar are encountered:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14614,
+		"nouns": [
+			"Two",
+			"forms",
+			"order",
+			"matrix"
+		],
+		"dOIndex": 175,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14615,
+		"nouns": [],
+		"dOIndex": 176,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14616,
+		"nouns": [],
+		"dOIndex": 177,
+		"isQuote": false
+	},
+	{
+		"txt": "Vector Multiplication: The * Operator",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14617,
+		"nouns": [
+			"Vector",
+			"Multiplication",
+			"Operator"
+		],
+		"dOIndex": 178,
+		"nouns2": [
+			"Vector",
+			"Multiplication",
+			"Operator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14618,
+		"nouns": [],
+		"dOIndex": 179
+	},
+	{
+		"txt": "This operator, ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14619,
+		"nouns": [
+			"operator"
+		],
+		"dOIndex": 180,
+		"nouns2": [
+			"operator"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14620,
+		"nouns": [],
+		"dOIndex": 181
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14621,
+		"nouns": [],
+		"dOIndex": 182
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14622,
+		"nouns": [],
+		"dOIndex": 183
+	},
+	{
+		"txt": "when applied between a vector and a matrix, performs a vector multiplication where the ith column in the matrix is multiplied by the ith component in the vector. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14623,
+		"nouns": [
+			"vector",
+			"matrix",
+			"vector",
+			"multiplication",
+			"ith",
+			"column",
+			"matrix",
+			"ith",
+			"component",
+			"vector"
+		],
+		"dOIndex": 184,
+		"nouns2": [
+			"multiplication",
+			"component"
+		],
+		"highfreq": {
+			"vector": 3
+		}
+	},
+	{
+		"txt": " Two forms are given here, depending on the order in which the matrix and vector are ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14624,
+		"nouns": [
+			"Two",
+			"forms",
+			"order",
+			"matrix",
+			"vector"
+		],
+		"dOIndex": 185
+	},
+	{
+		"txt": "encountered:",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14625,
+		"nouns": [],
+		"dOIndex": 186
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14626,
+		"nouns": [],
+		"dOIndex": 187
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14627,
+		"nouns": [],
+		"dOIndex": 188
+	}
+]

@@ -1,0 +1,3256 @@
+[
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 0
+	},
+	{
+		"index": 2,
+		"txt": "Chapter 9. 2D Rigid Body Simulator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 9_ 2D_Rigid_Body_Simulator__ 2D_Rigid_Body_Simulator____.wav",
+		"duration": 1.16,
+		"sentenceIndex": 5734,
+		"timestamp": 0.5
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 1.66
+	},
+	{
+		"index": 3,
+		"txt": "After reading",
+		"file": "/home/user1/trash/dirOutputSet/_100_After_reading_After_reading____.wav",
+		"duration": 0.31,
+		"sentenceIndex": 5735,
+		"timestamp": 2.16
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 2.47
+	},
+	{
+		"index": 4,
+		"txt": "Chapter 8,",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 8__Chapter 8_____.wav",
+		"duration": 0.36,
+		"sentenceIndex": 5736,
+		"timestamp": 2.97
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 3.33
+	},
+	{
+		"index": 8,
+		"txt": "you've learned the main ingredients that go into a simulator, specifically a particle simulator.",
+		"file": "/home/user1/trash/dirOutputSet/_100_you_ve_learned_the_main_ingredients_lly_a_particle_simulator_____.wav",
+		"duration": 1.84,
+		"sentenceIndex": 5740,
+		"timestamp": 3.83
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 5.67
+	},
+	{
+		"index": 9,
+		"txt": "In this chapter we'll look beyond particles at 2D rigid bodies.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_this_chapter_we_ll_look_beyond_p_icles_at_2D_rigid_bodies_____.wav",
+		"duration": 1.38,
+		"sentenceIndex": 5741,
+		"timestamp": 6.17
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 7.55
+	},
+	{
+		"index": 10,
+		"txt": "The main difference here is that rigid bodies rotate, and you must deal with an additional equation of motion namely, the angular equation of motion relating a rigid body's angular acceleration and inertia to the sum of all moments (torques) acting on the rigid body.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_main_difference_here_is_that_ri_acting_on_the_rigid_body_____.wav",
+		"duration": 5.43,
+		"sentenceIndex": 5742,
+		"timestamp": 8.05
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 13.48
+	},
+	{
+		"index": 11,
+		"txt": "The fundamental elements of the simulator the model, integrator, renderer, etc. are the same as before; you just have to deal with rotation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_fundamental_elements_of_the_sim_ve_to_deal_with_rotation_____.wav",
+		"duration": 3.04,
+		"sentenceIndex": 5743,
+		"timestamp": 13.98
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 17.02
+	},
+	{
+		"index": 12,
+		"txt": "In two dimensions, handling rotation is simple.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_two_dimensions__handling_rotatio_dling_rotation_is_simple_____.wav",
+		"duration": 1.1,
+		"sentenceIndex": 5744,
+		"timestamp": 17.52
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 18.62
+	},
+	{
+		"index": 13,
+		"txt": "Things get a bit more involved when handling rotation in three dimensions, and we'll treat that problem in",
+		"file": "/home/user1/trash/dirOutputSet/_100_Things_get_a_bit_more_involved_when__ll_treat_that_problem_in____.wav",
+		"duration": 2.12,
+		"sentenceIndex": 5745,
+		"timestamp": 19.12
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 21.240000000000002
+	},
+	{
+		"index": 14,
+		"txt": "Chapter 11",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 11_Chapter 11____.wav",
+		"duration": 0.39,
+		"sentenceIndex": 5746,
+		"timestamp": 21.740000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 22.130000000000003
+	},
+	{
+		"index": 17,
+		"txt": "The example we'll take a close look at in this chapter is simple by design.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_example_we_ll_take_a_close_look_pter_is_simple_by_design_____.wav",
+		"duration": 1.44,
+		"sentenceIndex": 5749,
+		"timestamp": 22.630000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 24.070000000000004
+	},
+	{
+		"index": 18,
+		"txt": "We want to focus on the differences between the particle simulator and a 2D rigid body simulator.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_want_to_focus_on_the_differences__2D_rigid_body_simulator_____.wav",
+		"duration": 1.97,
+		"sentenceIndex": 5750,
+		"timestamp": 24.570000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 26.540000000000003
+	},
+	{
+		"index": 19,
+		"txt": "In",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_In____.wav",
+		"duration": 0.17,
+		"sentenceIndex": 5751,
+		"timestamp": 27.040000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 27.210000000000004
+	},
+	{
+		"index": 20,
+		"txt": "Chapter 10",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 10_Chapter 10____.wav",
+		"duration": 0.32,
+		"sentenceIndex": 5752,
+		"timestamp": 27.710000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 28.030000000000005
+	},
+	{
+		"index": 21,
+		"txt": ", we'll extend this simple example to deal with multiple rigid bodies and collisions.",
+		"file": "/home/user1/trash/dirOutputSet/_100___we_ll_extend_this_simple_example__id_bodies_and_collisions_____.wav",
+		"duration": 1.67,
+		"sentenceIndex": 5753,
+		"timestamp": 28.530000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 30.200000000000003
+	},
+	{
+		"index": 22,
+		"txt": "That's where things really get interesting.",
+		"file": "/home/user1/trash/dirOutputSet/_100_That_s_where_things_really_get_inte_s_really_get_interesting_____.wav",
+		"duration": 0.75,
+		"sentenceIndex": 5754,
+		"timestamp": 30.700000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 31.450000000000003
+	},
+	{
+		"index": 23,
+		"txt": "For now, we'll consider a single rigid body, a virtual hovercraft, that moves around the screen under the influences of thrust forces that you can control with the keyboard.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_now__we_ll_consider_a_single_ri_ontrol_with_the_keyboard_____.wav",
+		"duration": 3.46,
+		"sentenceIndex": 5755,
+		"timestamp": 31.950000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 35.410000000000004
+	},
+	{
+		"index": 24,
+		"txt": "While simple, this example covers the most fundamental aspects of simulating 2D rigid bodies.",
+		"file": "/home/user1/trash/dirOutputSet/_100_While_simple__this_example_covers_t_mulating_2D_rigid_bodies_____.wav",
+		"duration": 2.02,
+		"sentenceIndex": 5756,
+		"timestamp": 35.910000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 37.93000000000001
+	},
+	{
+		"index": 27,
+		"txt": "Figure 9 1 shows our virtual",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 9_1_shows_our_virtual_ure 9_1_shows_our_virtual____.wav",
+		"duration": 0.9,
+		"sentenceIndex": 5759,
+		"timestamp": 38.43000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 39.330000000000005
+	},
+	{
+		"index": 28,
+		"txt": "hovercraft.",
+		"file": "/home/user1/trash/dirOutputSet/_100_hovercraft__hovercraft_____.wav",
+		"duration": 0.3,
+		"sentenceIndex": 5760,
+		"timestamp": 39.830000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 40.13
+	},
+	{
+		"index": 29,
+		"txt": "The pointy end is the front, and the hovercraft will start off moving from the left side of the screen to the right.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_pointy_end_is_the_front__and_th__the_screen_to_the_right_____.wav",
+		"duration": 2.18,
+		"sentenceIndex": 5761,
+		"timestamp": 40.63
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 42.81
+	},
+	{
+		"index": 30,
+		"txt": "Using the arrow keys, you can increase or decrease its speed and make it turn left or right (port or starboard).",
+		"file": "/home/user1/trash/dirOutputSet/_100_Using_the_arrow_keys__you_can_incre_ight__port_or_starboard______.wav",
+		"duration": 2.37,
+		"sentenceIndex": 5762,
+		"timestamp": 43.31
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 45.68
+	},
+	{
+		"index": 36,
+		"txt": "Figure 9 1. 2D rigid body example",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 9_1_ 2D_rigid_body_example__1_ 2D_rigid_body_example____.wav",
+		"duration": 1.27,
+		"sentenceIndex": 5768,
+		"timestamp": 46.18
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 47.45
+	},
+	{
+		"index": 38,
+		"txt": "In this simulation, the world coordinate system has its x axis pointing to the right, its y axis pointing down toward the bottom of the screen, and the z axis pointing into the screen.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_this_simulation__the_world_coord_pointing_into_the_screen_____.wav",
+		"duration": 3.98,
+		"sentenceIndex": 5770,
+		"timestamp": 47.95
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 51.93
+	},
+	{
+		"index": 39,
+		"txt": "Even though this is a 2D example where all motion is confined to the x y plane, you still need a z axis about which the hovercraft will rotate.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Even_though_this_is_a_2D_example_wh_e_hovercraft_will_rotate_____.wav",
+		"duration": 3.19,
+		"sentenceIndex": 5771,
+		"timestamp": 52.43
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 55.62
+	},
+	{
+		"index": 40,
+		"txt": "Also, the local, or body fixed, coordinate system has its x axis pointing toward the front of the hovercraft, its y axis pointing to the starboard side, and its z axis into the screen.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Also__the_local__or_body_fixed__coo_s_z_axis_into_the_screen_____.wav",
+		"duration": 4.39,
+		"sentenceIndex": 5772,
+		"timestamp": 56.12
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 60.51
+	},
+	{
+		"index": 41,
+		"txt": "The local coordinate system is fixed to the rigid body at its center of gravity location.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_local_coordinate_system_is_fixe_nter_of_gravity_location_____.wav",
+		"duration": 1.78,
+		"sentenceIndex": 5773,
+		"timestamp": 61.01
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 62.79
+	},
+	{
+		"index": 44,
+		"txt": "Model",
+		"file": "/home/user1/trash/dirOutputSet/_100_Model_Model____.wav",
+		"duration": 0.19,
+		"sentenceIndex": 5776,
+		"timestamp": 63.29
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 63.48
+	},
+	{
+		"index": 46,
+		"txt": "The hovercraft",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_hovercraft_The_hovercraft____.wav",
+		"duration": 0.32,
+		"sentenceIndex": 5778,
+		"timestamp": 63.98
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 64.3
+	},
+	{
+		"index": 48,
+		"txt": "modeled in this simulation is a simplified version of the hovercraft we'll model in",
+		"file": "/home/user1/trash/dirOutputSet/_100_modeled_in_this_simulation_is_a_sim_hovercraft_we_ll_model_in____.wav",
+		"duration": 1.63,
+		"sentenceIndex": 5780,
+		"timestamp": 64.8
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 66.42999999999999
+	},
+	{
+		"index": 49,
+		"txt": "Chapter 17",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 17_Chapter 17____.wav",
+		"duration": 0.48,
+		"sentenceIndex": 5781,
+		"timestamp": 66.92999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 67.41
+	},
+	{
+		"index": 51,
+		"txt": "You can refer to",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_refer_to_You_can_refer_to____.wav",
+		"duration": 0.45,
+		"sentenceIndex": 5783,
+		"timestamp": 67.91
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 68.36
+	},
+	{
+		"index": 52,
+		"txt": "Chapter 17",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 17_Chapter 17____.wav",
+		"duration": 0.48,
+		"sentenceIndex": 5784,
+		"timestamp": 68.86
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 69.34
+	},
+	{
+		"index": 53,
+		"txt": "for more details on that model.",
+		"file": "/home/user1/trash/dirOutputSet/_100_for_more_details_on_that_model__re_details_on_that_model_____.wav",
+		"duration": 0.68,
+		"sentenceIndex": 5785,
+		"timestamp": 69.84
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 70.52000000000001
+	},
+	{
+		"index": 54,
+		"txt": "For convenience we repeat some of the basic properties of the model here.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_convenience_we_repeat_some_of_t_erties_of_the_model_here_____.wav",
+		"duration": 1.36,
+		"sentenceIndex": 5786,
+		"timestamp": 71.02000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 72.38000000000001
+	},
+	{
+		"index": 56,
+		"txt": "Figure 9 2",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 9_2_Figure 9_2____.wav",
+		"duration": 0.54,
+		"sentenceIndex": 5788,
+		"timestamp": 72.88000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 73.42000000000002
+	},
+	{
+		"index": 57,
+		"txt": "illustrates the main features of the model.",
+		"file": "/home/user1/trash/dirOutputSet/_100_illustrates_the_main_features_of_th_in_features_of_the_model_____.wav",
+		"duration": 0.77,
+		"sentenceIndex": 5789,
+		"timestamp": 73.92000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 74.69000000000001
+	},
+	{
+		"index": 63,
+		"txt": "Figure 9 2. Simple hovercraft model",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 9_2_ Simple_hovercraft_model__ Simple_hovercraft_model____.wav",
+		"duration": 1.2,
+		"sentenceIndex": 5795,
+		"timestamp": 75.19000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 76.39000000000001
+	},
+	{
+		"index": 65,
+		"txt": "We're assuming this hovercraft operates over smooth land and is fitted with a single airscrew propeller, located toward the aft end of the craft, that provides forward thrust.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_re_assuming_this_hovercraft_oper__provides_forward_thrust_____.wav",
+		"duration": 3.56,
+		"sentenceIndex": 5797,
+		"timestamp": 76.89000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 80.45000000000002
+	},
+	{
+		"index": 66,
+		"txt": "For controllability, the craft is fitted with two bow thrusters, one to port and the other to starboard.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_controllability__the_craft_is_f_d_the_other_to_starboard_____.wav",
+		"duration": 2.11,
+		"sentenceIndex": 5798,
+		"timestamp": 80.95000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 83.06000000000002
+	},
+	{
+		"index": 67,
+		"txt": "These bow thrusters are used to steer the hovercraft.",
+		"file": "/home/user1/trash/dirOutputSet/_100_These_bow_thrusters_are_used_to_ste__to_steer_the_hovercraft_____.wav",
+		"duration": 1.05,
+		"sentenceIndex": 5799,
+		"timestamp": 83.56000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 84.61000000000001
+	},
+	{
+		"index": 70,
+		"txt": "We use a simplified drag model where the only drag component is due to aerodynamic drag on the entire craft with a constant projected area.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_use_a_simplified_drag_model_wher__constant_projected_area_____.wav",
+		"duration": 2.9,
+		"sentenceIndex": 5802,
+		"timestamp": 85.11000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 88.01000000000002
+	},
+	{
+		"index": 71,
+		"txt": "This model is similar to the one used in",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_model_is_similar_to_the_one_us_imilar_to_the_one_used_in____.wav",
+		"duration": 0.87,
+		"sentenceIndex": 5803,
+		"timestamp": 88.51000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 89.38000000000002
+	},
+	{
+		"index": 72,
+		"txt": "Chapter 8",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 8_Chapter 8____.wav",
+		"duration": 0.3,
+		"sentenceIndex": 5804,
+		"timestamp": 89.88000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 90.18000000000002
+	},
+	{
+		"index": 73,
+		"txt": "for particle drag.",
+		"file": "/home/user1/trash/dirOutputSet/_100_for_particle_drag__for_particle_drag_____.wav",
+		"duration": 0.45,
+		"sentenceIndex": 5805,
+		"timestamp": 90.68000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 91.13000000000002
+	},
+	{
+		"index": 74,
+		"txt": "A more rigorous model would consider the actual projected area of the craft as a function of the direction of relative velocity, as in the flight simulator example discussed in",
+		"file": "/home/user1/trash/dirOutputSet/_100_A_more_rigorous_model_would_conside_ator_example_discussed_in____.wav",
+		"duration": 3.58,
+		"sentenceIndex": 5806,
+		"timestamp": 91.63000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 95.21000000000002
+	},
+	{
+		"index": 75,
+		"txt": "Chapter 15",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 15_Chapter 15____.wav",
+		"duration": 0.43,
+		"sentenceIndex": 5807,
+		"timestamp": 95.71000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 96.14000000000003
+	},
+	{
+		"index": 76,
+		"txt": ", as well as the frictional drag between the bottom of the craft's skirt and the ground.",
+		"file": "/home/user1/trash/dirOutputSet/_100___as_well_as_the_frictional_drag_be_t_s_skirt_and_the_ground_____.wav",
+		"duration": 1.55,
+		"sentenceIndex": 5808,
+		"timestamp": 96.64000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 98.19000000000003
+	},
+	{
+		"index": 77,
+		"txt": "We also assume that the center of drag the point through which we can assume the drag force vector is applied is located some distance aft of the center of gravity so as to give a little directional stability (that is, to counteract rotation).",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_also_assume_that_the_center_of_d__to_counteract_rotation______.wav",
+		"duration": 4.67,
+		"sentenceIndex": 5809,
+		"timestamp": 98.69000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 103.36000000000003
+	},
+	{
+		"index": 78,
+		"txt": "This serves the same function as the vertical tail fins on aircraft.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_serves_the_same_function_as_th_al_tail_fins_on_aircraft_____.wav",
+		"duration": 1.36,
+		"sentenceIndex": 5810,
+		"timestamp": 103.86000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 105.22000000000003
+	},
+	{
+		"index": 79,
+		"txt": "Again, a more rigorous model would include the effects of rotation on aerodynamic drag, but we ignore that here.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Again__a_more_rigorous_model_would___but_we_ignore_that_here_____.wav",
+		"duration": 2.45,
+		"sentenceIndex": 5811,
+		"timestamp": 105.72000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 108.17000000000003
+	},
+	{
+		"index": 81,
+		"txt": "In code, the first thing you need to do to represent this vehicle is define a rigid body class that contains all of the information you'll need to track it and calculate the forces and moments acting on it.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_code__the_first_thing_you_need_t_and_moments_acting_on_it_____.wav",
+		"duration": 4.13,
+		"sentenceIndex": 5813,
+		"timestamp": 108.67000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 112.80000000000003
+	},
+	{
+		"index": 82,
+		"txt": "This RigidBody2D class is very similar to the Particle class from",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_RigidBody2D_class_is_very_simi_o_the_Particle_class_from____.wav",
+		"duration": 1.5,
+		"sentenceIndex": 5814,
+		"timestamp": 113.30000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 114.80000000000003
+	},
+	{
+		"index": 83,
+		"txt": "Chapter 8",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 8_Chapter 8____.wav",
+		"duration": 0.3,
+		"sentenceIndex": 5815,
+		"timestamp": 115.30000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 115.60000000000002
+	},
+	{
+		"index": 84,
+		"txt": ", but with some additions mostly dealing with rotation.",
+		"file": "/home/user1/trash/dirOutputSet/_100___but_with_some_additions_mostly_de_ly_dealing_with_rotation_____.wav",
+		"duration": 1.08,
+		"sentenceIndex": 5816,
+		"timestamp": 116.10000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 117.18000000000002
+	},
+	{
+		"index": 85,
+		"txt": "Here's how we did it:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_how_we_did_it__Here_s_how_we_did_it_____.wav",
+		"duration": 0.43,
+		"sentenceIndex": 5817,
+		"timestamp": 117.68000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 118.11000000000003
+	},
+	{
+		"index": 88,
+		"txt": "The code comments briefly explain each property, and so far you've seen all these properties somewhere in this book, so we won't explain them again here.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_code_comments_briefly_explain_e__explain_them_again_here_____.wav",
+		"duration": 3.22,
+		"sentenceIndex": 5820,
+		"timestamp": 118.61000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 121.83000000000003
+	},
+	{
+		"index": 89,
+		"txt": "That said, notice that several of these properties are the same as those shown in the Particle class from",
+		"file": "/home/user1/trash/dirOutputSet/_100_That_said__notice_that_several_of_t_n_the_Particle_class_from____.wav",
+		"duration": 2.07,
+		"sentenceIndex": 5821,
+		"timestamp": 122.33000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 124.40000000000002
+	},
+	{
+		"index": 90,
+		"txt": "Chapter 8",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 8_Chapter 8____.wav",
+		"duration": 0.3,
+		"sentenceIndex": 5822,
+		"timestamp": 124.90000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 125.20000000000002
+	},
+	{
+		"index": 92,
+		"txt": "These properties include fMass, vPosition, vVelocity, fSpeed, vForces, and fRadius .",
+		"file": "/home/user1/trash/dirOutputSet/_100_These_properties_include_fMass__vPo_d__vForces__and_fRadius______.wav",
+		"duration": 2.58,
+		"sentenceIndex": 5824,
+		"timestamp": 125.70000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 128.28000000000003
+	},
+	{
+		"index": 93,
+		"txt": "All of the other properties are new and required to handle the rotational motion aspects of rigid bodies.",
+		"file": "/home/user1/trash/dirOutputSet/_100_All_of_the_other_properties_are_new__aspects_of_rigid_bodies_____.wav",
+		"duration": 1.96,
+		"sentenceIndex": 5825,
+		"timestamp": 128.78000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 130.74000000000004
+	},
+	{
+		"index": 95,
+		"txt": "The RigidBody2D constructor is straightforward, as shown next, and simply initializes all the properties to some arbitrarily tuned values we decided worked well.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_RigidBody2D_constructor_is_stra_s_we_decided_worked_well_____.wav",
+		"duration": 3.56,
+		"sentenceIndex": 5827,
+		"timestamp": 131.24000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 134.80000000000004
+	},
+	{
+		"index": 96,
+		"txt": "In",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_In____.wav",
+		"duration": 0.17,
+		"sentenceIndex": 5828,
+		"timestamp": 135.30000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 135.47000000000003
+	},
+	{
+		"index": 97,
+		"txt": "Chapter 17",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 17_Chapter 17____.wav",
+		"duration": 0.48,
+		"sentenceIndex": 5829,
+		"timestamp": 135.97000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 136.45000000000002
+	},
+	{
+		"index": 98,
+		"txt": ", you'll see how we model a more realistic hovercraft.",
+		"file": "/home/user1/trash/dirOutputSet/_100___you_ll_see_how_we_model_a_more_re_ore_realistic_hovercraft_____.wav",
+		"duration": 1.04,
+		"sentenceIndex": 5830,
+		"timestamp": 136.95000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 137.99
+	},
+	{
+		"index": 102,
+		"txt": "As in the particle simulator of",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_in_the_particle_simulator_of_the_particle_simulator_of____.wav",
+		"duration": 0.62,
+		"sentenceIndex": 5834,
+		"timestamp": 138.49
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 139.11
+	},
+	{
+		"index": 103,
+		"txt": "Chapter 8, you'll notice here that the Vector class is actually a triple",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 8__you_ll_notice_here_that__lass_is_actually_a_triple____.wav",
+		"duration": 1.49,
+		"sentenceIndex": 5835,
+		"timestamp": 139.61
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 141.10000000000002
+	},
+	{
+		"index": 104,
+		"txt": "(that is, it has three components x, y, and z).",
+		"file": "/home/user1/trash/dirOutputSet/_100__that_is__it_has_three_components_x__components_x__y__and_z______.wav",
+		"duration": 1.38,
+		"sentenceIndex": 5836,
+		"timestamp": 141.60000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 142.98000000000002
+	},
+	{
+		"index": 105,
+		"txt": "Since this is a 2D example, the z components will always be 0, except in the case of the angular velocity vector where only the z component will be used (since rotation occurs only about the z axis).",
+		"file": "/home/user1/trash/dirOutputSet/_100_Since_this_is_a_2D_example__the_z_c_s_only_about_the_z_axis______.wav",
+		"duration": 4.59,
+		"sentenceIndex": 5837,
+		"timestamp": 143.48000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 148.07000000000002
+	},
+	{
+		"index": 106,
+		"txt": "The class that we use in this example is discussed in",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_class_that_we_use_in_this_examp_s_example_is_discussed_in____.wav",
+		"duration": 1.13,
+		"sentenceIndex": 5838,
+		"timestamp": 148.57000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 149.70000000000002
+	},
+	{
+		"index": 107,
+		"txt": "Appendix A",
+		"file": "/home/user1/trash/dirOutputSet/_100_Appendix A_Appendix A____.wav",
+		"duration": 0.48,
+		"sentenceIndex": 5839,
+		"timestamp": 150.20000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 150.68
+	},
+	{
+		"index": 109,
+		"txt": "The reason we didn't write a separate 2D vector class, one with only x and y components, is because we'll extend this code to 3D later and wanted to get you accustomed to using the 3D vector class.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_reason_we_didn_t_write_a_separa_sing_the_3D_vector_class_____.wav",
+		"duration": 4.4,
+		"sentenceIndex": 5841,
+		"timestamp": 151.18
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 155.58
+	},
+	{
+		"index": 110,
+		"txt": "Besides, it's pretty easy to create a 2D vector class from the 3D class by simply stripping out the z component.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Besides__it_s_pretty_easy_to_create_ping_out_the_z_component_____.wav",
+		"duration": 2.53,
+		"sentenceIndex": 5842,
+		"timestamp": 156.08
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 158.61
+	},
+	{
+		"index": 112,
+		"txt": "As with the particle example of",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_with_the_particle_example_of_h_the_particle_example_of____.wav",
+		"duration": 0.66,
+		"sentenceIndex": 5844,
+		"timestamp": 159.11
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 159.77
+	},
+	{
+		"index": 113,
+		"txt": "Chapter 8, we need a CalcLoads",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 8__we_need_a_CalcLoads_er 8__we_need_a_CalcLoads____.wav",
+		"duration": 0.82,
+		"sentenceIndex": 5845,
+		"timestamp": 160.27
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 161.09
+	},
+	{
+		"index": 114,
+		"txt": "method for the rigid body.",
+		"file": "/home/user1/trash/dirOutputSet/_100_method_for_the_rigid_body__ethod_for_the_rigid_body_____.wav",
+		"duration": 0.54,
+		"sentenceIndex": 5846,
+		"timestamp": 161.59
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 162.13
+	},
+	{
+		"index": 115,
+		"txt": "As before, this method will compute all the loads acting on the rigid body, but now these loads include both forces and moments that will cause rotation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_before__this_method_will_compute_that_will_cause_rotation_____.wav",
+		"duration": 3.18,
+		"sentenceIndex": 5847,
+		"timestamp": 162.63
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 165.81
+	},
+	{
+		"index": 116,
+		"txt": "CalcLoads looks like this:",
+		"file": "/home/user1/trash/dirOutputSet/_100_CalcLoads_looks_like_this__alcLoads_looks_like_this_____.wav",
+		"duration": 0.63,
+		"sentenceIndex": 5848,
+		"timestamp": 166.31
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 166.94
+	},
+	{
+		"index": 119,
+		"txt": "The first thing that CalcLoads does is initialize the force and moment variables that will contain the total of all forces and moments acting on the craft at any instant in time.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_first_thing_that_CalcLoads_does_t_at_any_instant_in_time_____.wav",
+		"duration": 3.56,
+		"sentenceIndex": 5851,
+		"timestamp": 167.44
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 171
+	},
+	{
+		"index": 120,
+		"txt": "Just as we must aggregate forces, we must also aggregate moments.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Just_as_we_must_aggregate_forces__w_t_also_aggregate_moments_____.wav",
+		"duration": 1.49,
+		"sentenceIndex": 5852,
+		"timestamp": 171.5
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 172.99
+	},
+	{
+		"index": 121,
+		"txt": "The forces will be used along with the linear equation of motion to compute the linear displacement of the rigid body, while the moments will be used with the angular equation of motion to compute",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_forces_will_be_used_along_with__tion_of_motion_to_compute____.wav",
+		"duration": 3.76,
+		"sentenceIndex": 5853,
+		"timestamp": 173.49
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 177.25
+	},
+	{
+		"index": 122,
+		"txt": "the orientation of the body.",
+		"file": "/home/user1/trash/dirOutputSet/_100_the_orientation_of_the_body___orientation_of_the_body_____.wav",
+		"duration": 0.57,
+		"sentenceIndex": 5854,
+		"timestamp": 177.75
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 178.32
+	},
+	{
+		"index": 125,
+		"txt": "The function then goes on to define a vector representing the propeller thrust, Thrust .",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_function_then_goes_on_to_define_ropeller_thrust__Thrust______.wav",
+		"duration": 1.76,
+		"sentenceIndex": 5857,
+		"timestamp": 178.82
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 180.57999999999998
+	},
+	{
+		"index": 126,
+		"txt": "The propeller thrust vector acts in the positive (local) x direction and has a magnitude defined by ThrustForce , which the user sets via the keyboard interface (we'll get to that later).",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_propeller_thrust_vector_acts_in_we_ll_get_to_that_later______.wav",
+		"duration": 4.06,
+		"sentenceIndex": 5858,
+		"timestamp": 181.07999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 185.14
+	},
+	{
+		"index": 127,
+		"txt": "Note that if ThrustForce is negative, then the thrust will actually be a reversing thrust instead of a forward thrust.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Note_that_if_ThrustForce_is_negativ_tead_of_a_forward_thrust_____.wav",
+		"duration": 2.37,
+		"sentenceIndex": 5859,
+		"timestamp": 185.64
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 188.01
+	},
+	{
+		"index": 130,
+		"txt": "After defining the thrust vector, this function goes on to calculate the aerodynamic drag acting on the hovercraft.",
+		"file": "/home/user1/trash/dirOutputSet/_100_After_defining_the_thrust_vector__t_acting_on_the_hovercraft_____.wav",
+		"duration": 2.37,
+		"sentenceIndex": 5862,
+		"timestamp": 188.51
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 190.88
+	},
+	{
+		"index": 131,
+		"txt": "These calculations are very similar to those discussed in",
+		"file": "/home/user1/trash/dirOutputSet/_100_These_calculations_are_very_similar_lar_to_those_discussed_in____.wav",
+		"duration": 1.21,
+		"sentenceIndex": 5863,
+		"timestamp": 191.38
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 192.59
+	},
+	{
+		"index": 132,
+		"txt": "Chapter 17",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 17_Chapter 17____.wav",
+		"duration": 0.48,
+		"sentenceIndex": 5864,
+		"timestamp": 193.09
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 193.57
+	},
+	{
+		"index": 134,
+		"txt": "The first thing to do is determine the relative velocity at the center of drag, considering both linear and angular motion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_first_thing_to_do_is_determine__inear_and_angular_motion_____.wav",
+		"duration": 2.52,
+		"sentenceIndex": 5866,
+		"timestamp": 194.07
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 196.59
+	},
+	{
+		"index": 135,
+		"txt": "You'll need the magnitude of the relative velocity vector when calculating the magnitude of the drag force, and you'll need the direction of the relative velocity vector to determine the direction of the drag force since it always opposes the velocity vector.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_ll_need_the_magnitude_of_the_re_oses_the_velocity_vector_____.wav",
+		"duration": 4.89,
+		"sentenceIndex": 5867,
+		"timestamp": 197.09
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 201.98
+	},
+	{
+		"index": 136,
+		"txt": "The line vtmp = vAngularVelocity^CD computes the linear velocity at the drag center by taking the vector cross product of the angular velocity vector with the position vector of the drag center, CD .",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_line_vtmp___vAngularVelocity_CD__of_the_drag_center__CD______.wav",
+		"duration": 4.53,
+		"sentenceIndex": 5868,
+		"timestamp": 202.48
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 207.01
+	},
+	{
+		"index": 137,
+		"txt": "The result is stored in a temporary vector, vtmp, and then added vectorially to the body velocity vector, vVelocityBody .",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_result_is_stored_in_a_temporary_y_vector__vVelocityBody______.wav",
+		"duration": 3.02,
+		"sentenceIndex": 5869,
+		"timestamp": 207.51
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 210.53
+	},
+	{
+		"index": 138,
+		"txt": "The result of this vector addition is a velocity vector representing the velocity of the point defined by CD , including contributions from the body's linear and angular motion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_result_of_this_vector_addition__inear_and_angular_motion_____.wav",
+		"duration": 3.56,
+		"sentenceIndex": 5870,
+		"timestamp": 211.03
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 214.59
+	},
+	{
+		"index": 139,
+		"txt": "We compute the actual drag force, which acts in line with but in a direction opposing the velocity vector, in a manner similar to that for particles, using a simple formula relating the drag force to the speed squared, density of air, projected area, and a drag coefficient.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_compute_the_actual_drag_force__w___and_a_drag_coefficient_____.wav",
+		"duration": 5.76,
+		"sentenceIndex": 5871,
+		"timestamp": 215.09
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 220.85
+	},
+	{
+		"index": 140,
+		"txt": "The following code performs this calculation:",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_following_code_performs_this_ca_erforms_this_calculation_____.wav",
+		"duration": 0.97,
+		"sentenceIndex": 5872,
+		"timestamp": 221.35
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 222.32
+	},
+	{
+		"index": 142,
+		"txt": "Note that the drag coefficient, LINEARDRAGCOEFFICIENT, is defined as follows:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Note_that_the_drag_coefficient__LIN_T__is_defined_as_follows_____.wav",
+		"duration": 1.71,
+		"sentenceIndex": 5874,
+		"timestamp": 222.82
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 224.53
+	},
+	{
+		"index": 144,
+		"txt": "Once the drag force is determined, it gets aggregated in the total force vector as follows:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Once_the_drag_force_is_determined____force_vector_as_follows_____.wav",
+		"duration": 2.01,
+		"sentenceIndex": 5876,
+		"timestamp": 225.03
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 227.04
+	},
+	{
+		"index": 146,
+		"txt": "In addition to aggregating this force, we must aggregate the moment due to that force in the total moment vector as follows:",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_addition_to_aggregating_this_for_moment_vector_as_follows_____.wav",
+		"duration": 2.48,
+		"sentenceIndex": 5878,
+		"timestamp": 227.54
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 230.01999999999998
+	},
+	{
+		"index": 148,
+		"txt": "The first line computes the moment due to the drag force by taking the vector cross product of the position vector, to the center of drag, with the drag force vector.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_first_line_computes_the_moment__th_the_drag_force_vector_____.wav",
+		"duration": 3.29,
+		"sentenceIndex": 5880,
+		"timestamp": 230.51999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 233.80999999999997
+	},
+	{
+		"index": 149,
+		"txt": "The second line adds this force to the variable, accumulating these moments.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_second_line_adds_this_force_to__cumulating_these_moments_____.wav",
+		"duration": 1.54,
+		"sentenceIndex": 5881,
+		"timestamp": 234.30999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 235.84999999999997
+	},
+	{
+		"index": 151,
+		"txt": "With the drag calculation complete, CalcLoads proceeds to calculate the forces and moments due to the bow thrusters, which may be active or inactive at any given time.",
+		"file": "/home/user1/trash/dirOutputSet/_100_With_the_drag_calculation_complete__active_at_any_given_time_____.wav",
+		"duration": 3.47,
+		"sentenceIndex": 5883,
+		"timestamp": 236.34999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 239.81999999999996
+	},
+	{
+		"index": 154,
+		"txt": "The first line aggregates the port bow thruster force into Fb .",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_first_line_aggregates_the_port___thruster_force_into_Fb______.wav",
+		"duration": 1.38,
+		"sentenceIndex": 5886,
+		"timestamp": 240.31999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 241.69999999999996
+	},
+	{
+		"index": 155,
+		"txt": "PThrust is a force vector computed in the SetThrusters method in response to your keyboard input.",
+		"file": "/home/user1/trash/dirOutputSet/_100_PThrust_is_a_force_vector_computed__e_to_your_keyboard_input_____.wav",
+		"duration": 1.91,
+		"sentenceIndex": 5887,
+		"timestamp": 242.19999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 244.10999999999996
+	},
+	{
+		"index": 156,
+		"txt": "The next two lines compute and aggregate the moment due to the thruster force.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_next_two_lines_compute_and_aggr_ue_to_the_thruster_force_____.wav",
+		"duration": 1.51,
+		"sentenceIndex": 5888,
+		"timestamp": 244.60999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 246.11999999999995
+	},
+	{
+		"index": 157,
+		"txt": "A similar set of code lines follows, computing the force and moment due to the starboard bow thruster.",
+		"file": "/home/user1/trash/dirOutputSet/_100_A_similar_set_of_code_lines_follows_e_starboard_bow_thruster_____.wav",
+		"duration": 2.1,
+		"sentenceIndex": 5889,
+		"timestamp": 246.61999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 248.71999999999994
+	},
+	{
+		"index": 159,
+		"txt": "Next, the propeller thrust force is added to the running total of forces.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Next__the_propeller_thrust_force_is__running_total_of_forces_____.wav",
+		"duration": 1.6,
+		"sentenceIndex": 5891,
+		"timestamp": 249.21999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 250.81999999999994
+	},
+	{
+		"index": 160,
+		"txt": "Remember, since the propeller thrust force acts through the center of gravity, there is no moment to worry about.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Remember__since_the_propeller_thrus_no_moment_to_worry_about_____.wav",
+		"duration": 2.2,
+		"sentenceIndex": 5892,
+		"timestamp": 251.31999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 253.51999999999992
+	},
+	{
+		"index": 161,
+		"txt": "Thus, all we need is:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Thus__all_we_need_is__Thus__all_we_need_is_____.wav",
+		"duration": 0.65,
+		"sentenceIndex": 5893,
+		"timestamp": 254.01999999999992
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 254.66999999999993
+	},
+	{
+		"index": 163,
+		"txt": "Finally, the total force is transformed from local coordinates to world coordinates via a vector rotation given the orientation of the hovercraft, and the total forces and moments are stored so they are available when it comes time to integrate the equations of motion at each time step.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Finally__the_total_force_is_transfo_motion_at_each_time_step_____.wav",
+		"duration": 5.84,
+		"sentenceIndex": 5895,
+		"timestamp": 255.16999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 261.00999999999993
+	},
+	{
+		"index": 166,
+		"txt": "As you can see, computing loads on a rigid body is a bit more complex than what you saw earlier when dealing with particles.",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_you_can_see__computing_loads_on__n_dealing_with_particles_____.wav",
+		"duration": 2.52,
+		"sentenceIndex": 5898,
+		"timestamp": 261.50999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 264.0299999999999
+	},
+	{
+		"index": 167,
+		"txt": "This, of course, is due to the nature of rigid bodies being able to rotate.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This__of_course__is_due_to_the_natu_ies_being_able_to_rotate_____.wav",
+		"duration": 1.65,
+		"sentenceIndex": 5899,
+		"timestamp": 264.5299999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 266.1799999999999
+	},
+	{
+		"index": 168,
+		"txt": "What's nice, though, is that all this new complexity is encapsulated in CalcLoads, and the rest of the simulator is pretty much the same as when we're dealing with",
+		"file": "/home/user1/trash/dirOutputSet/_100_What_s_nice__though__is_that_all_th_s_when_we_re_dealing_with____.wav",
+		"duration": 3.37,
+		"sentenceIndex": 5900,
+		"timestamp": 266.6799999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 270.0499999999999
+	},
+	{
+		"index": 170,
+		"txt": "particles.",
+		"file": "/home/user1/trash/dirOutputSet/_100_particles__particles_____.wav",
+		"duration": 0.27,
+		"sentenceIndex": 5902,
+		"timestamp": 270.5499999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 270.8199999999999
+	},
+	{
+		"index": 173,
+		"txt": "Transforming Coordinates",
+		"file": "/home/user1/trash/dirOutputSet/_100_Transforming_Coordinates_Transforming_Coordinates____.wav",
+		"duration": 0.55,
+		"sentenceIndex": 5905,
+		"timestamp": 271.3199999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 271.8699999999999
+	},
+	{
+		"index": 175,
+		"txt": "Let's talk about",
+		"file": "/home/user1/trash/dirOutputSet/_100_Let_s_talk_about_Let_s_talk_about____.wav",
+		"duration": 0.35,
+		"sentenceIndex": 5907,
+		"timestamp": 272.3699999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 272.7199999999999
+	},
+	{
+		"index": 177,
+		"txt": "transformation from local to world coordinates a bit more since you'll see this sort of transform again in a few places.",
+		"file": "/home/user1/trash/dirOutputSet/_100_transformation_from_local_to_world__rm_again_in_a_few_places_____.wav",
+		"duration": 2.43,
+		"sentenceIndex": 5909,
+		"timestamp": 273.2199999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 275.6499999999999
+	},
+	{
+		"index": 178,
+		"txt": "When computing forces acting on the rigid body, we want those forces in a vector form relative to the coordinates that are fixed with respect to the hovercraft (e.g., relative to the body's center of gravity with the x axis pointing toward the front of the body and the y axis pointing toward the starboard side).",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_computing_forces_acting_on_the_ward_the_starboard_side______.wav",
+		"duration": 6.43,
+		"sentenceIndex": 5910,
+		"timestamp": 276.1499999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 282.5799999999999
+	},
+	{
+		"index": 179,
+		"txt": "This simplifies our calculations of forces and moments.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_simplifies_our_calculations_of_ns_of_forces_and_moments_____.wav",
+		"duration": 1.27,
+		"sentenceIndex": 5911,
+		"timestamp": 283.0799999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 284.3499999999999
+	},
+	{
+		"index": 180,
+		"txt": "However, when integrating the equation of motion to see how the body translates in world coordinates, we use the",
+		"file": "/home/user1/trash/dirOutputSet/_100_However__when_integrating_the_equat_d_coordinates__we_use_the____.wav",
+		"duration": 2.42,
+		"sentenceIndex": 5912,
+		"timestamp": 284.8499999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 287.2699999999999
+	},
+	{
+		"index": 181,
+		"txt": "equations of motion in world coordinates, requiring us to represent the aggregate force in world coordinates.",
+		"file": "/home/user1/trash/dirOutputSet/_100_equations_of_motion_in_world_coordi_rce_in_world_coordinates_____.wav",
+		"duration": 2.35,
+		"sentenceIndex": 5913,
+		"timestamp": 287.7699999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 290.11999999999995
+	},
+	{
+		"index": 182,
+		"txt": "That's why we rotated the aggregate force at the end of the CalcLoads method.",
+		"file": "/home/user1/trash/dirOutputSet/_100_That_s_why_we_rotated_the_aggregate__of_the_CalcLoads_method_____.wav",
+		"duration": 1.48,
+		"sentenceIndex": 5914,
+		"timestamp": 290.61999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 292.09999999999997
+	},
+	{
+		"index": 185,
+		"txt": "In two dimensions, the coordinate transformation involves a little trigonometry as shown in the following VRotate2D function:",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_two_dimensions__the_coordinate_t_owing_VRotate2D_function_____.wav",
+		"duration": 2.68,
+		"sentenceIndex": 5917,
+		"timestamp": 292.59999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 295.28
+	},
+	{
+		"index": 187,
+		"txt": "The angle here represents the orientation of the local, body fixed coordinate system with respect to the world coordinate system.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_angle_here_represents_the_orien__world_coordinate_system_____.wav",
+		"duration": 2.62,
+		"sentenceIndex": 5919,
+		"timestamp": 295.78
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 298.4
+	},
+	{
+		"index": 188,
+		"txt": "When converting from local coordinates to world coordinates, use a positive angle; use a negative angle when going the other way.",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_converting_from_local_coordina_when_going_the_other_way_____.wav",
+		"duration": 2.6,
+		"sentenceIndex": 5920,
+		"timestamp": 298.9
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 301.5
+	},
+	{
+		"index": 189,
+		"txt": "This is just the convention we've adopted so transformations from local coordinates to world coordinates are positive.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_just_the_convention_we_ve_a_coordinates_are_positive_____.wav",
+		"duration": 2.32,
+		"sentenceIndex": 5921,
+		"timestamp": 302
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 304.32
+	},
+	{
+		"index": 190,
+		"txt": "You can see we actually take the negative of the angle parameter, so in reality you could do away with that negative, and then transformations from local coordinates to world coordinates would actually be negative.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_see_we_actually_take_the_ne_uld_actually_be_negative_____.wav",
+		"duration": 4.21,
+		"sentenceIndex": 5922,
+		"timestamp": 304.82
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 309.03
+	},
+	{
+		"index": 191,
+		"txt": "It's your preference.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_s_your_preference__It_s_your_preference_____.wav",
+		"duration": 0.37,
+		"sentenceIndex": 5923,
+		"timestamp": 309.53
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 309.9
+	},
+	{
+		"index": 192,
+		"txt": "You'll see this function used a few more times in different situations before the end of this chapter.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_ll_see_this_function_used_a_few__the_end_of_this_chapter_____.wav",
+		"duration": 1.99,
+		"sentenceIndex": 5924,
+		"timestamp": 310.4
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 312.39
+	},
+	{
+		"index": 195,
+		"txt": "Integrator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Integrator_Integrator____.wav",
+		"duration": 0.25,
+		"sentenceIndex": 5927,
+		"timestamp": 312.89
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 313.14
+	},
+	{
+		"index": 197,
+		"txt": "The UpdateBodyEuler method",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_UpdateBodyEuler_method_he_UpdateBodyEuler_method____.wav",
+		"duration": 0.66,
+		"sentenceIndex": 5929,
+		"timestamp": 313.64
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 314.3
+	},
+	{
+		"index": 199,
+		"txt": "actually integrates the equations of motion for the rigid body.",
+		"file": "/home/user1/trash/dirOutputSet/_100_actually_integrates_the_equations_o_otion_for_the_rigid_body_____.wav",
+		"duration": 1.25,
+		"sentenceIndex": 5931,
+		"timestamp": 314.8
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 316.05
+	},
+	{
+		"index": 200,
+		"txt": "Since we're dealing with a rigid body, unlike a particle, we have two equations of motion: one for translation, and the other for rotation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Since_we_re_dealing_with_a_rigid_bo_d_the_other_for_rotation_____.wav",
+		"duration": 3.07,
+		"sentenceIndex": 5932,
+		"timestamp": 316.55
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 319.62
+	},
+	{
+		"index": 201,
+		"txt": "The following code sample shows UpdateBodyEuler .",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_following_code_sample_shows_Upd_e_shows_UpdateBodyEuler______.wav",
+		"duration": 1.07,
+		"sentenceIndex": 5933,
+		"timestamp": 320.12
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 321.19
+	},
+	{
+		"index": 205,
+		"txt": "As the name of this method implies, we've implemented Euler's",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_the_name_of_this_method_implies__we_ve_implemented_Euler_s____.wav",
+		"duration": 1.26,
+		"sentenceIndex": 5937,
+		"timestamp": 321.69
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 322.95
+	},
+	{
+		"index": 206,
+		"txt": "method of integration as described in",
+		"file": "/home/user1/trash/dirOutputSet/_100_method_of_integration_as_described__tegration_as_described_in____.wav",
+		"duration": 0.86,
+		"sentenceIndex": 5938,
+		"timestamp": 323.45
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 324.31
+	},
+	{
+		"index": 208,
+		"txt": "Chapter 7 .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 7___Chapter 7______.wav",
+		"duration": 0.34,
+		"sentenceIndex": 5940,
+		"timestamp": 324.81
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 325.15
+	},
+	{
+		"index": 209,
+		"txt": "Integrating the linear equation of motion for a rigid body follows exactly the same steps we used for integrating the linear equation of motion for particles.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Integrating_the_linear_equation_of___of_motion_for_particles_____.wav",
+		"duration": 3.22,
+		"sentenceIndex": 5941,
+		"timestamp": 325.65
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 328.87
+	},
+	{
+		"index": 210,
+		"txt": "All that's required is to divide the aggregate forces acting on a body by the mass of the body to get the body's acceleration.",
+		"file": "/home/user1/trash/dirOutputSet/_100_All_that_s_required_is_to_divide_th__the_body_s_acceleration_____.wav",
+		"duration": 2.47,
+		"sentenceIndex": 5942,
+		"timestamp": 329.37
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 331.84000000000003
+	},
+	{
+		"index": 211,
+		"txt": "The line of code a = vForces / fMass does just this.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_line_of_code_a___vForces___fMas_s___fMass_does_just_this_____.wav",
+		"duration": 1.4,
+		"sentenceIndex": 5943,
+		"timestamp": 332.34000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 333.74
+	},
+	{
+		"index": 212,
+		"txt": "Notice here that a is a Vector, as is vForces .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Notice_here_that_a_is_a_Vector__as__a_Vector__as_is_vForces______.wav",
+		"duration": 1.17,
+		"sentenceIndex": 5944,
+		"timestamp": 334.24
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 335.41
+	},
+	{
+		"index": 213,
+		"txt": "fMass is a scalar, and the / operator defined in the Vector class takes care of dividing each component of the vForces vector by fMass and setting the corresponding components in a .",
+		"file": "/home/user1/trash/dirOutputSet/_100_fMass_is_a_scalar__and_the___operat_ponding_components_in_a______.wav",
+		"duration": 3.93,
+		"sentenceIndex": 5945,
+		"timestamp": 335.91
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 339.84000000000003
+	},
+	{
+		"index": 214,
+		"txt": "The change in velocity, dv, is equal to acceleration times the change in time, dt .",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_change_in_velocity__dv__is_equa__the_change_in_time__dt______.wav",
+		"duration": 2.27,
+		"sentenceIndex": 5946,
+		"timestamp": 340.34000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 342.61
+	},
+	{
+		"index": 215,
+		"txt": "The body's new velocity is then computed by the line vVelocity += dv .",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_body_s_new_velocity_is_then_com_he_line_vVelocity____dv______.wav",
+		"duration": 1.77,
+		"sentenceIndex": 5947,
+		"timestamp": 343.11
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 344.88
+	},
+	{
+		"index": 216,
+		"txt": "Here again, vVelocity and dv are Vectors and the += operator takes care of the vector arithmetic.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_again__vVelocity_and_dv_are_Ve_of_the_vector_arithmetic_____.wav",
+		"duration": 2.33,
+		"sentenceIndex": 5948,
+		"timestamp": 345.38
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 347.71
+	},
+	{
+		"index": 217,
+		"txt": "This is the first actual integration for translation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_the_first_actual_integratio_egration_for_translation_____.wav",
+		"duration": 1.14,
+		"sentenceIndex": 5949,
+		"timestamp": 348.21
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 349.34999999999997
+	},
+	{
+		"index": 219,
+		"txt": "The second integration takes place in the next few lines, where we determine the body's displacement and new position by integrating its velocity.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_second_integration_takes_place__integrating_its_velocity_____.wav",
+		"duration": 2.94,
+		"sentenceIndex": 5951,
+		"timestamp": 349.84999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 352.78999999999996
+	},
+	{
+		"index": 220,
+		"txt": "The line ds = vVelocity * dt determines the displacement, or change in the body's position, and the line vPosition += ds computes the new position by adding the displacement to the body's old position.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_line_ds___vVelocity___dt_determ__the_body_s_old_position_____.wav",
+		"duration": 4.69,
+		"sentenceIndex": 5952,
+		"timestamp": 353.28999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 357.97999999999996
+	},
+	{
+		"index": 221,
+		"txt": "That's it for translation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_That_s_it_for_translation__hat_s_it_for_translation_____.wav",
+		"duration": 0.52,
+		"sentenceIndex": 5953,
+		"timestamp": 358.47999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 358.99999999999994
+	},
+	{
+		"index": 223,
+		"txt": "The next order of business is to integrate the angular equation of motion to find the body's",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_next_order_of_business_is_to_in_motion_to_find_the_body_s____.wav",
+		"duration": 1.87,
+		"sentenceIndex": 5955,
+		"timestamp": 359.49999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 361.36999999999995
+	},
+	{
+		"index": 224,
+		"txt": "new orientation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_new_orientation__new_orientation_____.wav",
+		"duration": 0.4,
+		"sentenceIndex": 5956,
+		"timestamp": 361.86999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 362.2699999999999
+	},
+	{
+		"index": 225,
+		"txt": "The line link https: computes the body's angular acceleration by dividing the aggregate moment acting on the body by its mass moment of inertia.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_line_link_https__computes_the_b_s_mass_moment_of_inertia_____.wav",
+		"duration": 3.23,
+		"sentenceIndex": 5957,
+		"timestamp": 362.7699999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 365.99999999999994
+	},
+	{
+		"index": 226,
+		"txt": "aa is a scalar, as is fInertia since this is a 2D problem.",
+		"file": "/home/user1/trash/dirOutputSet/_100_aa_is_a_scalar__as_is_fInertia_sinc_nce_this_is_a_2D_problem_____.wav",
+		"duration": 1.51,
+		"sentenceIndex": 5958,
+		"timestamp": 366.49999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 368.00999999999993
+	},
+	{
+		"index": 227,
+		"txt": "In 3D, things are a bit more complicated, and we'll get to that in",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_3D__things_are_a_bit_more_compli__and_we_ll_get_to_that_in____.wav",
+		"duration": 1.53,
+		"sentenceIndex": 5959,
+		"timestamp": 368.50999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 370.0399999999999
+	},
+	{
+		"index": 228,
+		"txt": "Chapter 11",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 11_Chapter 11____.wav",
+		"duration": 0.39,
+		"sentenceIndex": 5960,
+		"timestamp": 370.5399999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 370.9299999999999
+	},
+	{
+		"index": 231,
+		"txt": "We compute the change in angular velocity, dav, a scalar, by multiplying aa by the time step size, dt .",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_compute_the_change_in_angular_ve__the_time_step_size__dt______.wav",
+		"duration": 2.8,
+		"sentenceIndex": 5963,
+		"timestamp": 371.4299999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 374.2299999999999
+	},
+	{
+		"index": 232,
+		"txt": "The new angular velocity is simply the old velocity plus the change: vAngularVelocity.z += dav .",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_new_angular_velocity_is_simply__ngularVelocity_z____dav______.wav",
+		"duration": 2.63,
+		"sentenceIndex": 5964,
+		"timestamp": 374.7299999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 377.3599999999999
+	},
+	{
+		"index": 233,
+		"txt": "The change in orientation is equal to the new angular velocity multiplied by the time step: vAngularVelocity.z * dt .",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_change_in_orientation_is_equal__vAngularVelocity_z___dt______.wav",
+		"duration": 2.89,
+		"sentenceIndex": 5965,
+		"timestamp": 377.8599999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 380.7499999999999
+	},
+	{
+		"index": 234,
+		"txt": "Notice that we convert the change in orientation from radians to degrees here since we're keeping track of orientation in degrees.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Notice_that_we_convert_the_change_i_f_orientation_in_degrees_____.wav",
+		"duration": 2.61,
+		"sentenceIndex": 5966,
+		"timestamp": 381.2499999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 383.8599999999999
+	},
+	{
+		"index": 235,
+		"txt": "You don't really have to, so long as you're consistent.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_don_t_really_have_to__so_long_a_ong_as_you_re_consistent_____.wav",
+		"duration": 1.13,
+		"sentenceIndex": 5967,
+		"timestamp": 384.3599999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 385.4899999999999
+	},
+	{
+		"index": 237,
+		"txt": "The last line in UpdateBodyEuler computes the body's linear speed by transforming the magnitude of its velocity vector to local, body coordinates.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_last_line_in_UpdateBodyEuler_co__local__body_coordinates_____.wav",
+		"duration": 3.23,
+		"sentenceIndex": 5969,
+		"timestamp": 385.9899999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 389.2199999999999
+	},
+	{
+		"index": 238,
+		"txt": "Recall in CalcLoads that we require the body's velocity in body fixed coordinates in order to compute the",
+		"file": "/home/user1/trash/dirOutputSet/_100_Recall_in_CalcLoads_that_we_require_s_in_order_to_compute_the____.wav",
+		"duration": 2.18,
+		"sentenceIndex": 5970,
+		"timestamp": 389.7199999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 391.8999999999999
+	},
+	{
+		"index": 240,
+		"txt": "drag force on the body.",
+		"file": "/home/user1/trash/dirOutputSet/_100_drag_force_on_the_body__drag_force_on_the_body_____.wav",
+		"duration": 0.54,
+		"sentenceIndex": 5972,
+		"timestamp": 392.3999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 392.93999999999994
+	},
+	{
+		"index": 243,
+		"txt": "Rendering",
+		"file": "/home/user1/trash/dirOutputSet/_100_Rendering_Rendering____.wav",
+		"duration": 0.22,
+		"sentenceIndex": 5975,
+		"timestamp": 393.43999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 393.65999999999997
+	},
+	{
+		"index": 245,
+		"txt": "In this simple example, rendering the",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_this_simple_example__rendering_t_le_example__rendering_the____.wav",
+		"duration": 0.83,
+		"sentenceIndex": 5977,
+		"timestamp": 394.15999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 394.98999999999995
+	},
+	{
+		"index": 247,
+		"txt": "virtual hovercraft is just a little more involved than rendering the particles in the example from",
+		"file": "/home/user1/trash/dirOutputSet/_100_virtual_hovercraft_is_just_a_little_icles_in_the_example_from____.wav",
+		"duration": 1.89,
+		"sentenceIndex": 5979,
+		"timestamp": 395.48999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 397.37999999999994
+	},
+	{
+		"index": 248,
+		"txt": "Chapter 8",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 8_Chapter 8____.wav",
+		"duration": 0.3,
+		"sentenceIndex": 5980,
+		"timestamp": 397.87999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 398.17999999999995
+	},
+	{
+		"index": 250,
+		"txt": "All we do is draw a few connected lines using Windows API calls wrapped in our own functions to hide some of the Windows specific code.",
+		"file": "/home/user1/trash/dirOutputSet/_100_All_we_do_is_draw_a_few_connected_l_he_Windows_specific_code_____.wav",
+		"duration": 2.86,
+		"sentenceIndex": 5982,
+		"timestamp": 398.67999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 401.53999999999996
+	},
+	{
+		"index": 251,
+		"txt": "The following code snippet is all we need to render the hovercraft:",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_following_code_snippet_is_all_w_to_render_the_hovercraft_____.wav",
+		"duration": 1.35,
+		"sentenceIndex": 5983,
+		"timestamp": 402.03999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 403.39
+	},
+	{
+		"index": 253,
+		"txt": "You can use your own rendering code here, of course, and all you really need to pay close attention to is transforming the coordinates for the outline of the hovercraft from body to world coordinates.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_use_your_own_rendering_code_ody_to_world_coordinates_____.wav",
+		"duration": 3.83,
+		"sentenceIndex": 5985,
+		"timestamp": 403.89
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 407.71999999999997
+	},
+	{
+		"index": 254,
+		"txt": "This involves rotating the vertex coordinates from body fixed space using the VRotate2D function and then adding the position of the center of gravity of the hovercraft to each transformed vertex.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_involves_rotating_the_vertex_c__each_transformed_vertex_____.wav",
+		"duration": 4.11,
+		"sentenceIndex": 5986,
+		"timestamp": 408.21999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 412.33
+	},
+	{
+		"index": 255,
+		"txt": "These lines take care of this coordinate transformation:",
+		"file": "/home/user1/trash/dirOutputSet/_100_These_lines_take_care_of_this_coord_oordinate_transformation_____.wav",
+		"duration": 1.17,
+		"sentenceIndex": 5987,
+		"timestamp": 412.83
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 414
+	},
+	{
+		"index": 258,
+		"txt": "The Basic Simulator",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_Basic_Simulator_The_Basic_Simulator____.wav",
+		"duration": 0.46,
+		"sentenceIndex": 5990,
+		"timestamp": 414.5
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 414.96
+	},
+	{
+		"index": 260,
+		"txt": "The heart of this",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_heart_of_this_The_heart_of_this____.wav",
+		"duration": 0.34,
+		"sentenceIndex": 5992,
+		"timestamp": 415.46
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 415.79999999999995
+	},
+	{
+		"index": 261,
+		"txt": "simulation is handled by the RigidBody2D",
+		"file": "/home/user1/trash/dirOutputSet/_100_simulation_is_handled_by_the_RigidB_andled_by_the_RigidBody2D____.wav",
+		"duration": 1.05,
+		"sentenceIndex": 5993,
+		"timestamp": 416.29999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 417.34999999999997
+	},
+	{
+		"index": 262,
+		"txt": "class described earlier.",
+		"file": "/home/user1/trash/dirOutputSet/_100_class_described_earlier__class_described_earlier_____.wav",
+		"duration": 0.55,
+		"sentenceIndex": 5994,
+		"timestamp": 417.84999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 418.4
+	},
+	{
+		"index": 263,
+		"txt": "However, we need to show you how that class is used in the context of the main program.",
+		"file": "/home/user1/trash/dirOutputSet/_100_However__we_need_to_show_you_how_th_text_of_the_main_program_____.wav",
+		"duration": 1.76,
+		"sentenceIndex": 5995,
+		"timestamp": 418.9
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 420.65999999999997
+	},
+	{
+		"index": 264,
+		"txt": "This simulator is very similar to that shown in",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_simulator_is_very_similar_to_t__similar_to_that_shown_in____.wav",
+		"duration": 0.99,
+		"sentenceIndex": 5996,
+		"timestamp": 421.15999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 422.15
+	},
+	{
+		"index": 265,
+		"txt": "Chapter 8",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 8_Chapter 8____.wav",
+		"duration": 0.3,
+		"sentenceIndex": 5997,
+		"timestamp": 422.65
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 422.95
+	},
+	{
+		"index": 266,
+		"txt": "for particles, so if you've read that chapter already you can breeze through this section.",
+		"file": "/home/user1/trash/dirOutputSet/_100_for_particles__so_if_you_ve_read_th_eze_through_this_section_____.wav",
+		"duration": 1.62,
+		"sentenceIndex": 5998,
+		"timestamp": 423.45
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 425.07
+	},
+	{
+		"index": 268,
+		"txt": "First, we define a few global variables as follows:",
+		"file": "/home/user1/trash/dirOutputSet/_100_First__we_define_a_few_global_varia_bal_variables_as_follows_____.wav",
+		"duration": 1.25,
+		"sentenceIndex": 6000,
+		"timestamp": 425.57
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 426.82
+	},
+	{
+		"index": 270,
+		"txt": "FrameCounter counts the number of time steps integrated before the graphics display is updated.",
+		"file": "/home/user1/trash/dirOutputSet/_100_FrameCounter_counts_the_number_of_t_phics_display_is_updated_____.wav",
+		"duration": 2.02,
+		"sentenceIndex": 6002,
+		"timestamp": 427.32
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 429.34
+	},
+	{
+		"index": 271,
+		"txt": "How many time steps you allow the simulation to integrate before updating the display is a matter of tuning.",
+		"file": "/home/user1/trash/dirOutputSet/_100_How_many_time_steps_you_allow_the_s_ay_is_a_matter_of_tuning_____.wav",
+		"duration": 2.13,
+		"sentenceIndex": 6003,
+		"timestamp": 429.84
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 431.96999999999997
+	},
+	{
+		"index": 272,
+		"txt": "You'll see how this is used momentarily when we discuss the UpdateSimulation function.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_ll_see_how_this_is_used_momenta_pdateSimulation_function_____.wav",
+		"duration": 1.73,
+		"sentenceIndex": 6004,
+		"timestamp": 432.46999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 434.2
+	},
+	{
+		"index": 273,
+		"txt": "Craft is a RigidBody2D type that will represent our virtual hovercraft.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Craft_is_a_RigidBody2D_type_that_wi_t_our_virtual_hovercraft_____.wav",
+		"duration": 1.59,
+		"sentenceIndex": 6005,
+		"timestamp": 434.7
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 436.28999999999996
+	},
+	{
+		"index": 275,
+		"txt": "For the most part, Craft is initialized in accordance with the RigidBody2D constructor shown earlier.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_the_most_part__Craft_is_initial_onstructor_shown_earlier_____.wav",
+		"duration": 2.14,
+		"sentenceIndex": 6007,
+		"timestamp": 436.78999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 438.92999999999995
+	},
+	{
+		"index": 276,
+		"txt": "However, its position is at the origin, so we make a call to the following Initialize function to locate the Craft in the middle of the screen vertically and on the left side.",
+		"file": "/home/user1/trash/dirOutputSet/_100_However__its_position_is_at_the_ori_lly_and_on_the_left_side_____.wav",
+		"duration": 3.39,
+		"sentenceIndex": 6008,
+		"timestamp": 439.42999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 442.81999999999994
+	},
+	{
+		"index": 277,
+		"txt": "We set its orientation to 0 degrees so it points toward the right side of the screen:",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_set_its_orientation_to_0_degrees_right_side_of_the_screen_____.wav",
+		"duration": 1.97,
+		"sentenceIndex": 6009,
+		"timestamp": 443.31999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 445.28999999999996
+	},
+	{
+		"index": 279,
+		"txt": "OK, now let's consider UpdateSimulation as shown in the code snippet below.",
+		"file": "/home/user1/trash/dirOutputSet/_100_OK__now_let_s_consider_UpdateSimula_n_the_code_snippet_below_____.wav",
+		"duration": 1.77,
+		"sentenceIndex": 6011,
+		"timestamp": 445.78999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 447.55999999999995
+	},
+	{
+		"index": 280,
+		"txt": "This function gets called every cycle through the program's main message loop and is responsible for making appropriate function calls to update the hovercraft's position and orientation, as well as rendering the scene.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_function_gets_called_every_cyc_l_as_rendering_the_scene_____.wav",
+		"duration": 4.34,
+		"sentenceIndex": 6012,
+		"timestamp": 448.05999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 452.3999999999999
+	},
+	{
+		"index": 281,
+		"txt": "It also checks the states of the keyboard arrow keys and makes appropriate function calls:",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_also_checks_the_states_of_the_ke_propriate_function_calls_____.wav",
+		"duration": 1.77,
+		"sentenceIndex": 6013,
+		"timestamp": 452.8999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 454.6699999999999
+	},
+	{
+		"index": 283,
+		"txt": "The local variable dt represents the small yet finite amount of time, in seconds, over which each integration step is taken.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_local_variable_dt_represents_th_ntegration_step_is_taken_____.wav",
+		"duration": 2.84,
+		"sentenceIndex": 6015,
+		"timestamp": 455.1699999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 458.0099999999999
+	},
+	{
+		"index": 284,
+		"txt": "The global define _TIMESTEP stores the time step, which we have set to 0.001 seconds.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_global_define__TIMESTEP_stores__ave_set_to_0_001_seconds_____.wav",
+		"duration": 2.65,
+		"sentenceIndex": 6016,
+		"timestamp": 458.5099999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 461.15999999999985
+	},
+	{
+		"index": 285,
+		"txt": "This value is subject to tuning.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_value_is_subject_to_tuning__lue_is_subject_to_tuning_____.wav",
+		"duration": 0.69,
+		"sentenceIndex": 6017,
+		"timestamp": 461.65999999999985
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 462.34999999999985
+	},
+	{
+		"index": 287,
+		"txt": "The first action UpdateSimulation takes is to reset the states of the bow thrusters to inactive by calling the SetThrusters method as follows:",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_first_action_UpdateSimulation_t_usters_method_as_follows_____.wav",
+		"duration": 2.87,
+		"sentenceIndex": 6019,
+		"timestamp": 462.84999999999985
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 465.71999999999986
+	},
+	{
+		"index": 289,
+		"txt": "Next, the keyboard is polled using the function IsKeyDown .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Next__the_keyboard_is_polled_using___the_function_IsKeyDown______.wav",
+		"duration": 1.32,
+		"sentenceIndex": 6021,
+		"timestamp": 466.21999999999986
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 467.53999999999985
+	},
+	{
+		"index": 290,
+		"txt": "This is a wrapper function we created to encapsulate the necessary Windows API calls used to check key states.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_a_wrapper_function_we_creat_used_to_check_key_states_____.wav",
+		"duration": 2.36,
+		"sentenceIndex": 6022,
+		"timestamp": 468.03999999999985
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 470.39999999999986
+	},
+	{
+		"index": 291,
+		"txt": "If the up arrow key is pressed, then the RigidBody2D method ModulateThrust is called, as shown here:",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_the_up_arrow_key_is_pressed__the_is_called__as_shown_here_____.wav",
+		"duration": 2.35,
+		"sentenceIndex": 6023,
+		"timestamp": 470.89999999999986
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 473.2499999999999
+	},
+	{
+		"index": 293,
+		"txt": "If the down arrow key is pressed, then ModulateThrust is called, passing false instead of true .",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_the_down_arrow_key_is_pressed__t_g_false_instead_of_true______.wav",
+		"duration": 2.08,
+		"sentenceIndex": 6025,
+		"timestamp": 473.7499999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 475.82999999999987
+	},
+	{
+		"index": 295,
+		"txt": "ModulateThrust looks like this:",
+		"file": "/home/user1/trash/dirOutputSet/_100_ModulateThrust_looks_like_this__teThrust_looks_like_this_____.wav",
+		"duration": 0.76,
+		"sentenceIndex": 6027,
+		"timestamp": 476.32999999999987
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 477.08999999999986
+	},
+	{
+		"index": 297,
+		"txt": "All it does is increment the propeller thrust force by a small amount, either increasing it or decreasing it, depending on the value of the up parameter.",
+		"file": "/home/user1/trash/dirOutputSet/_100_All_it_does_is_increment_the_propel_alue_of_the_up_parameter_____.wav",
+		"duration": 3.07,
+		"sentenceIndex": 6029,
+		"timestamp": 477.58999999999986
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 480.65999999999985
+	},
+	{
+		"index": 299,
+		"txt": "Getting back to UpdateSimulation, we make a couple more calls to IsKeyDown , checking the states of the left and right arrow keys.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Getting_back_to_UpdateSimulation__w_eft_and_right_arrow_keys_____.wav",
+		"duration": 2.62,
+		"sentenceIndex": 6031,
+		"timestamp": 481.15999999999985
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 483.77999999999986
+	},
+	{
+		"index": 300,
+		"txt": "If the left arrow key is down, then the RigidBody2D method SetThrusters is called, passing false as the first parameter and true as the second parameter.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_the_left_arrow_key_is_down__then__as_the_second_parameter_____.wav",
+		"duration": 3.28,
+		"sentenceIndex": 6032,
+		"timestamp": 484.27999999999986
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 487.55999999999983
+	},
+	{
+		"index": 301,
+		"txt": "If the right arrow key is down, these parameter values are reversed.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_the_right_arrow_key_is_down__the_eter_values_are_reversed_____.wav",
+		"duration": 1.41,
+		"sentenceIndex": 6033,
+		"timestamp": 488.05999999999983
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 489.46999999999986
+	},
+	{
+		"index": 302,
+		"txt": "SetThrusters looks like this:",
+		"file": "/home/user1/trash/dirOutputSet/_100_SetThrusters_looks_like_this__hrusters_looks_like_this_____.wav",
+		"duration": 0.72,
+		"sentenceIndex": 6034,
+		"timestamp": 489.96999999999986
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 490.6899999999999
+	},
+	{
+		"index": 304,
+		"txt": "It resets the port and starboard bow thruster thrust vectors and then sets them according to the parameters passed in SetThrusters .",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_resets_the_port_and_starboard_bo__passed_in_SetThrusters______.wav",
+		"duration": 2.55,
+		"sentenceIndex": 6036,
+		"timestamp": 491.1899999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 493.7399999999999
+	},
+	{
+		"index": 305,
+		"txt": "If p is true, then a right turn is desired and a port thrust force, PThrust , is created, pointing toward the starboard side.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_p_is_true__then_a_right_turn_is__oward_the_starboard_side_____.wav",
+		"duration": 2.91,
+		"sentenceIndex": 6037,
+		"timestamp": 494.2399999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 497.1499999999999
+	},
+	{
+		"index": 306,
+		"txt": "This seems opposite of what you'd expect, but it is the port bow thruster that is fired, pushing the bow of the hovercraft toward the right (starboard) side.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_seems_opposite_of_what_you_d_e_e_right__starboard__side_____.wav",
+		"duration": 3.19,
+		"sentenceIndex": 6038,
+		"timestamp": 497.6499999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 500.8399999999999
+	},
+	{
+		"index": 307,
+		"txt": "Similarly, if s is true , a thrust force is created that will push the bow of the hovercraft to the left (port) side.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Similarly__if_s_is_true___a_thrust___to_the_left__port__side_____.wav",
+		"duration": 2.66,
+		"sentenceIndex": 6039,
+		"timestamp": 501.3399999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 503.99999999999994
+	},
+	{
+		"index": 309,
+		"txt": "Now with the thrust forces managed, UpdateSimulation makes the call:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now_with_the_thrust_forces_managed__imulation_makes_the_call_____.wav",
+		"duration": 1.54,
+		"sentenceIndex": 6041,
+		"timestamp": 504.49999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 506.03999999999996
+	},
+	{
+		"index": 311,
+		"txt": "UpdateBodyEuler integrates the equations of motion as discussed earlier.",
+		"file": "/home/user1/trash/dirOutputSet/_100_UpdateBodyEuler_integrates_the_equa_ion_as_discussed_earlier_____.wav",
+		"duration": 1.59,
+		"sentenceIndex": 6043,
+		"timestamp": 506.53999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 508.12999999999994
+	},
+	{
+		"index": 313,
+		"txt": "The next segment of code checks the value of the frame counter.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_next_segment_of_code_checks_the_lue_of_the_frame_counter_____.wav",
+		"duration": 1.22,
+		"sentenceIndex": 6045,
+		"timestamp": 508.62999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 509.84999999999997
+	},
+	{
+		"index": 314,
+		"txt": "If the frame counter has reached the defined number of frames (stored in _RENDER_FRAME_COUNT ), then the back buffer is cleared to prepare it for drawing upon and ultimately copying to the screen.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_the_frame_counter_has_reached_th_ly_copying_to_the_screen_____.wav",
+		"duration": 4.4,
+		"sentenceIndex": 6046,
+		"timestamp": 510.34999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 514.75
+	},
+	{
+		"index": 317,
+		"txt": "Finally, the last four lines of code wrap the hovercraft's position around the edges of the",
+		"file": "/home/user1/trash/dirOutputSet/_100_Finally__the_last_four_lines_of_cod_n_around_the_edges_of_the____.wav",
+		"duration": 1.93,
+		"sentenceIndex": 6049,
+		"timestamp": 515.25
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 517.18
+	},
+	{
+		"index": 318,
+		"txt": "screen.",
+		"file": "/home/user1/trash/dirOutputSet/_100_screen__screen_____.wav",
+		"duration": 0.23,
+		"sentenceIndex": 6050,
+		"timestamp": 517.68
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 517.91
+	},
+	{
+		"index": 321,
+		"txt": "Tuning",
+		"file": "/home/user1/trash/dirOutputSet/_100_Tuning_Tuning____.wav",
+		"duration": 0.16,
+		"sentenceIndex": 6053,
+		"timestamp": 518.41
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 518.5699999999999
+	},
+	{
+		"index": 323,
+		"txt": "You'll probably",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_ll_probably_You_ll_probably____.wav",
+		"duration": 0.36,
+		"sentenceIndex": 6055,
+		"timestamp": 519.0699999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 519.43
+	},
+	{
+		"index": 325,
+		"txt": "want to tune this example to run well on your computer since we didn't implement any profiling for processor speed.",
+		"file": "/home/user1/trash/dirOutputSet/_100_want_to_tune_this_example_to_run_we_ling_for_processor_speed_____.wav",
+		"duration": 2.31,
+		"sentenceIndex": 6057,
+		"timestamp": 519.93
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 522.2399999999999
+	},
+	{
+		"index": 326,
+		"txt": "Moreover, you should tune the various parameters governing the behavior of the hovercraft to see how it responds.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Moreover__you_should_tune_the_vario_t_to_see_how_it_responds_____.wav",
+		"duration": 2.26,
+		"sentenceIndex": 6058,
+		"timestamp": 522.7399999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 524.9999999999999
+	},
+	{
+		"index": 327,
+		"txt": "The way we have it set up now makes the hovercraft exhibit a soft sort of response to turning that is, upon application of turning forces, the craft will tend to keep tracking in its original heading for a bit even while yawed.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_way_we_have_it_set_up_now_makes_r_a_bit_even_while_yawed_____.wav",
+		"duration": 4.34,
+		"sentenceIndex": 6059,
+		"timestamp": 525.4999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 529.8399999999999
+	},
+	{
+		"index": 328,
+		"txt": "It will not respond like a car would turn.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_will_not_respond_like_a_car_woul_nd_like_a_car_would_turn_____.wav",
+		"duration": 0.8,
+		"sentenceIndex": 6060,
+		"timestamp": 530.3399999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 531.1399999999999
+	},
+	{
+		"index": 329,
+		"txt": "You can change this behavior, of course.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_change_this_behavior__of_co_this_behavior__of_course_____.wav",
+		"duration": 0.87,
+		"sentenceIndex": 6061,
+		"timestamp": 531.6399999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 532.5099999999999
+	},
+	{
+		"index": 332,
+		"txt": "Some things we suggest you play with include the time step size and the various constants we've defined as follows:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Some_things_we_suggest_you_play_wit_we_ve_defined_as_follows_____.wav",
+		"duration": 2.35,
+		"sentenceIndex": 6064,
+		"timestamp": 533.0099999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 535.3599999999999
+	},
+	{
+		"index": 335,
+		"txt": "_THRUSTFORCE is the initial magnitude of the propeller thrust force.",
+		"file": "/home/user1/trash/dirOutputSet/_100__THRUSTFORCE_is_the_initial_magnitu_e_propeller_thrust_force_____.wav",
+		"duration": 1.54,
+		"sentenceIndex": 6067,
+		"timestamp": 535.8599999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 537.3999999999999
+	},
+	{
+		"index": 336,
+		"txt": "_MAXTHRUST and _MINTHRUST set upper and lower bounds to this force, which is modulated by the user pressing the up and down arrow keys.",
+		"file": "/home/user1/trash/dirOutputSet/_100__MAXTHRUST_and__MINTHRUST_set_upper_e_up_and_down_arrow_keys_____.wav",
+		"duration": 3.27,
+		"sentenceIndex": 6068,
+		"timestamp": 537.8999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 541.1699999999998
+	},
+	{
+		"index": 337,
+		"txt": "_DTHRUST is the incremental change in thrust in response to the user pressing the up and down arrow keys.",
+		"file": "/home/user1/trash/dirOutputSet/_100__DTHRUST_is_the_incremental_change__e_up_and_down_arrow_keys_____.wav",
+		"duration": 2.29,
+		"sentenceIndex": 6069,
+		"timestamp": 541.6699999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 543.9599999999998
+	},
+	{
+		"index": 338,
+		"txt": "_STEERINGFORCE is the magnitude of the bow thruster forces.",
+		"file": "/home/user1/trash/dirOutputSet/_100__STEERINGFORCE_is_the_magnitude_of___the_bow_thruster_forces_____.wav",
+		"duration": 1.51,
+		"sentenceIndex": 6070,
+		"timestamp": 544.4599999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 545.9699999999998
+	},
+	{
+		"index": 339,
+		"txt": "You should definitely play with this value to see how the behavior of the hovercraft changes.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_should_definitely_play_with_thi_f_the_hovercraft_changes_____.wav",
+		"duration": 1.72,
+		"sentenceIndex": 6071,
+		"timestamp": 546.4699999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 548.1899999999998
+	},
+	{
+		"index": 340,
+		"txt": "Finally, _LINEARDRAGCOEFFICIENT is the drag coefficient used to compute aerodynamic drag.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Finally___LINEARDRAGCOEFFICIENT_is__compute_aerodynamic_drag_____.wav",
+		"duration": 2.2,
+		"sentenceIndex": 6072,
+		"timestamp": 548.6899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 550.8899999999999
+	},
+	{
+		"index": 341,
+		"txt": "This is another good value to play with to see how behavior is affected.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_another_good_value_to_play__how_behavior_is_affected_____.wav",
+		"duration": 1.45,
+		"sentenceIndex": 6073,
+		"timestamp": 551.3899999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 552.8399999999999
+	},
+	{
+		"index": 342,
+		"txt": "Speaking of drag, the location of the center of drag that's initialized in the RigidBody2D constructor is a good parameter to change in order to understand how it affects the behavior of the hovercraft.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Speaking_of_drag__the_location_of_t_havior_of_the_hovercraft_____.wav",
+		"duration": 4.13,
+		"sentenceIndex": 6074,
+		"timestamp": 553.3399999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 557.4699999999999
+	},
+	{
+		"index": 343,
+		"txt": "It influences the craft's directional stability, which affects its turning radius particularly at higher",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_influences_the_craft_s_direction_us_particularly_at_higher____.wav",
+		"duration": 2.13,
+		"sentenceIndex": 6075,
+		"timestamp": 557.9699999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 560.0999999999999
+	},
+	{
+		"index": 346,
+		"txt": "speeds.",
+		"file": "/home/user1/trash/dirOutputSet/_100_speeds__speeds_____.wav",
+		"duration": 0.26,
+		"sentenceIndex": 6078,
+		"timestamp": 560.5999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 560.8599999999999
+	}
+]

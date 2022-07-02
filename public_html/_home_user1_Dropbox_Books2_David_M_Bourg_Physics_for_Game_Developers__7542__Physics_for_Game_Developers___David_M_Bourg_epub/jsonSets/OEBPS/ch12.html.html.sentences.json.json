@@ -1,0 +1,2164 @@
+[
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 0
+	},
+	{
+		"index": 2,
+		"txt": "Chapter 12. 3D Rigid Body Simulator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 12_ 3D_Rigid_Body_Simulator__ 3D_Rigid_Body_Simulator____.wav",
+		"duration": 1.18,
+		"sentenceIndex": 6878,
+		"timestamp": 0.5
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 1.68
+	},
+	{
+		"index": 3,
+		"txt": "In this chapter",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_this_chapter_In_this_chapter____.wav",
+		"duration": 0.34,
+		"sentenceIndex": 6879,
+		"timestamp": 2.1799999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 2.5199999999999996
+	},
+	{
+		"index": 6,
+		"txt": "we'll show you how to make the leap from 2D to 3D by implementing a rigid body simulation of an airplane.",
+		"file": "/home/user1/trash/dirOutputSet/_100_we_ll_show_you_how_to_make_the_leap_imulation_of_an_airplane_____.wav",
+		"duration": 2.25,
+		"sentenceIndex": 6882,
+		"timestamp": 3.0199999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 5.27
+	},
+	{
+		"index": 7,
+		"txt": "Specifically, this is a simulation of the hypothetical airplane model that we'll discuss extensively in",
+		"file": "/home/user1/trash/dirOutputSet/_100_Specifically__this_is_a_simulation__ll_discuss_extensively_in____.wav",
+		"duration": 2.22,
+		"sentenceIndex": 6883,
+		"timestamp": 5.77
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 7.99
+	},
+	{
+		"index": 8,
+		"txt": "Chapter 15",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 15_Chapter 15____.wav",
+		"duration": 0.43,
+		"sentenceIndex": 6884,
+		"timestamp": 8.49
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 8.92
+	},
+	{
+		"index": 10,
+		"txt": "This airplane is of typical configuration with its large wings forward, its elevators aft, a single vertical tail, and plain flaps fitted on the wings.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_airplane_is_of_typical_configu_laps_fitted_on_the_wings_____.wav",
+		"duration": 3.38,
+		"sentenceIndex": 6886,
+		"timestamp": 9.42
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 12.8
+	},
+	{
+		"index": 12,
+		"txt": "As with the 2D simulator in previous chapters, we'll concentrate on the code that implements the physics part of the simulator and not the platform specific GUI aspects of the simulations.",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_with_the_2D_simulator_in_previou_pects_of_the_simulations_____.wav",
+		"duration": 3.78,
+		"sentenceIndex": 6888,
+		"timestamp": 13.3
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 17.080000000000002
+	},
+	{
+		"index": 14,
+		"txt": "As in 2D, there are four main elements to this 3D simulation the model, integrator, user input, and rendering.",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_in_2D__there_are_four_main_eleme_ser_input__and_rendering_____.wav",
+		"duration": 2.68,
+		"sentenceIndex": 6890,
+		"timestamp": 17.580000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 20.26
+	},
+	{
+		"index": 15,
+		"txt": "Remember, the model refers to your idealization of the thing an airplane, in this case that you are trying to simulate, while the integrator refers to the method by which you integrate the differential equations of motion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Remember__the_model_refers_to_your__tial_equations_of_motion_____.wav",
+		"duration": 4.33,
+		"sentenceIndex": 6891,
+		"timestamp": 20.76
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 25.090000000000003
+	},
+	{
+		"index": 16,
+		"txt": "These two elements take care of most of the physics of the simulation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_These_two_elements_take_care_of_mos_hysics_of_the_simulation_____.wav",
+		"duration": 1.34,
+		"sentenceIndex": 6892,
+		"timestamp": 25.590000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 26.930000000000003
+	},
+	{
+		"index": 17,
+		"txt": "The user input and rendering elements refer to how you'll allow the user to interact with and view your simulation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_user_input_and_rendering_elemen_and_view_your_simulation_____.wav",
+		"duration": 2.21,
+		"sentenceIndex": 6893,
+		"timestamp": 27.430000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 29.640000000000004
+	},
+	{
+		"index": 19,
+		"txt": "In this simulation, the world",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_this_simulation__the_world_his_simulation__the_world____.wav",
+		"duration": 0.69,
+		"sentenceIndex": 6895,
+		"timestamp": 30.140000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 30.830000000000005
+	},
+	{
+		"index": 20,
+		"txt": "coordinate system has its positive x axis pointing into the screen, its positive y axis pointing to the left of your screen, and the positive z axis pointing up.",
+		"file": "/home/user1/trash/dirOutputSet/_100_coordinate_system_has_its_positive__itive_z_axis_pointing_up_____.wav",
+		"duration": 3.62,
+		"sentenceIndex": 6896,
+		"timestamp": 31.330000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 34.95
+	},
+	{
+		"index": 21,
+		"txt": "Also, the local, or body fixed, coordinate system has its positive x axis pointing toward the front of the airplane, its positive y axis pointing to the port side (left side), and its positive z axis pointing up.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Also__the_local__or_body_fixed__coo_itive_z_axis_pointing_up_____.wav",
+		"duration": 5.09,
+		"sentenceIndex": 6897,
+		"timestamp": 35.45
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 40.540000000000006
+	},
+	{
+		"index": 22,
+		"txt": "Since this is a 3D simulation of an airplane, once you get it running, you'll be able to fly in any direction, looping, banking, diving, and climbing, or performing any other aerobatic maneuver you desire.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Since_this_is_a_3D_simulation_of_an_atic_maneuver_you_desire_____.wav",
+		"duration": 4.62,
+		"sentenceIndex": 6898,
+		"timestamp": 41.040000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 45.660000000000004
+	},
+	{
+		"index": 25,
+		"txt": "Model",
+		"file": "/home/user1/trash/dirOutputSet/_100_Model_Model____.wav",
+		"duration": 0.19,
+		"sentenceIndex": 6901,
+		"timestamp": 46.160000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 46.35
+	},
+	{
+		"index": 27,
+		"txt": "One of the most",
+		"file": "/home/user1/trash/dirOutputSet/_100_One_of_the_most_One_of_the_most____.wav",
+		"duration": 0.39,
+		"sentenceIndex": 6903,
+		"timestamp": 46.85
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 47.24
+	},
+	{
+		"index": 29,
+		"txt": "important aspects of this simulation is the flight model.",
+		"file": "/home/user1/trash/dirOutputSet/_100_important_aspects_of_this_simulatio_tion_is_the_flight_model_____.wav",
+		"duration": 1.17,
+		"sentenceIndex": 6905,
+		"timestamp": 47.74
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 48.910000000000004
+	},
+	{
+		"index": 30,
+		"txt": "We'll spend all of",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ll_spend_all_of_We_ll_spend_all_of____.wav",
+		"duration": 0.46,
+		"sentenceIndex": 6906,
+		"timestamp": 49.410000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 49.870000000000005
+	},
+	{
+		"index": 31,
+		"txt": "Chapter 15",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 15_Chapter 15____.wav",
+		"duration": 0.43,
+		"sentenceIndex": 6907,
+		"timestamp": 50.370000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 50.800000000000004
+	},
+	{
+		"index": 32,
+		"txt": "discussing the physics behind this flight model, so we won't include that discussion here except to introduce a few key bits of code.",
+		"file": "/home/user1/trash/dirOutputSet/_100_discussing_the_physics_behind_this__e_a_few_key_bits_of_code_____.wav",
+		"duration": 2.59,
+		"sentenceIndex": 6908,
+		"timestamp": 51.300000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 53.89
+	},
+	{
+		"index": 34,
+		"txt": "To implement the flight model, you first need to prepare a rigid body structure to encapsulate all of the data required to completely define the state of the rigid body at any instant during the simulation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_implement_the_flight_model__you__nt_during_the_simulation_____.wav",
+		"duration": 4.11,
+		"sentenceIndex": 6910,
+		"timestamp": 54.39
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 58.5
+	},
+	{
+		"index": 35,
+		"txt": "We've defined a structure called RigidBody for this purpose:",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ve_defined_a_structure_called_Ri_gidBody_for_this_purpose_____.wav",
+		"duration": 1.23,
+		"sentenceIndex": 6911,
+		"timestamp": 59
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 60.23
+	},
+	{
+		"index": 38,
+		"txt": "You'll notice that it is very similar to the RigidBody2D structure that we used in the 2D hovercraft simulation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_ll_notice_that_it_is_very_simil_2D_hovercraft_simulation_____.wav",
+		"duration": 2.31,
+		"sentenceIndex": 6914,
+		"timestamp": 60.73
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 63.04
+	},
+	{
+		"index": 39,
+		"txt": "One significant difference, however, is that in the 2D case,",
+		"file": "/home/user1/trash/dirOutputSet/_100_One_significant_difference__however___is_that_in_the_2D_case_____.wav",
+		"duration": 1.45,
+		"sentenceIndex": 6915,
+		"timestamp": 63.54
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 64.99
+	},
+	{
+		"index": 40,
+		"txt": "orientation was a single float value, and now in 3D it's a quaternion of type Quaternion",
+		"file": "/home/user1/trash/dirOutputSet/_100_orientation_was_a_single_float_valu_ernion_of_type_Quaternion____.wav",
+		"duration": 2.04,
+		"sentenceIndex": 6916,
+		"timestamp": 65.49
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 67.53
+	},
+	{
+		"index": 42,
+		"txt": "We discussed the use of quaternions for tracking rigid body orientation in the previous chapter, and",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_discussed_the_use_of_quaternions_the_previous_chapter__and____.wav",
+		"duration": 2.12,
+		"sentenceIndex": 6918,
+		"timestamp": 68.03
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 70.15
+	},
+	{
+		"index": 43,
+		"txt": "Appendix C contains a complete definition of the Quaternion",
+		"file": "/home/user1/trash/dirOutputSet/_100_Appendix C_contains_a_complete_defi_inition_of_the_Quaternion____.wav",
+		"duration": 1.27,
+		"sentenceIndex": 6919,
+		"timestamp": 70.65
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 71.92
+	},
+	{
+		"index": 44,
+		"txt": "class.",
+		"file": "/home/user1/trash/dirOutputSet/_100_class__class_____.wav",
+		"duration": 0.22,
+		"sentenceIndex": 6920,
+		"timestamp": 72.42
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 72.64
+	},
+	{
+		"index": 46,
+		"txt": "The next step in defining the flight model is to prepare an initialization function to initialize the airplane at the start of the simulation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_next_step_in_defining_the_fligh__start_of_the_simulation_____.wav",
+		"duration": 2.73,
+		"sentenceIndex": 6922,
+		"timestamp": 73.14
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 75.87
+	},
+	{
+		"index": 47,
+		"txt": "For this purpose, we've prepared a function called InitializeAirplane:",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_this_purpose__we_ve_prepared_a__alled_InitializeAirplane_____.wav",
+		"duration": 1.55,
+		"sentenceIndex": 6923,
+		"timestamp": 76.37
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 77.92
+	},
+	{
+		"index": 50,
+		"txt": "This function sets the initial location, speed, attitude, and thrust for the airplane and goes on to calculate its mass properties by making a call to CalcAirplaneMassProperties .",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_function_sets_the_initial_loca_cAirplaneMassProperties______.wav",
+		"duration": 3.95,
+		"sentenceIndex": 6926,
+		"timestamp": 78.42
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 82.37
+	},
+	{
+		"index": 51,
+		"txt": "You'll see much more of this function in",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_ll_see_much_more_of_this_functi__more_of_this_function_in____.wav",
+		"duration": 0.75,
+		"sentenceIndex": 6927,
+		"timestamp": 82.87
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 83.62
+	},
+	{
+		"index": 52,
+		"txt": "Chapter 15",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 15_Chapter 15____.wav",
+		"duration": 0.43,
+		"sentenceIndex": 6928,
+		"timestamp": 84.12
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 84.55000000000001
+	},
+	{
+		"index": 53,
+		"txt": ", so we won't show the whole thing here.",
+		"file": "/home/user1/trash/dirOutputSet/_100___so_we_won_t_show_the_whole_thing__how_the_whole_thing_here_____.wav",
+		"duration": 0.66,
+		"sentenceIndex": 6929,
+		"timestamp": 85.05000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 85.71000000000001
+	},
+	{
+		"index": 54,
+		"txt": "We do want to point out a portion of the code that is distinctly different from what you do in a 2D simulation, and that's the calculation of the moment of",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_do_want_to_point_out_a_portion_o_culation_of_the_moment_of____.wav",
+		"duration": 2.91,
+		"sentenceIndex": 6930,
+		"timestamp": 86.21000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 89.12
+	},
+	{
+		"index": 57,
+		"txt": "inertia tensor:",
+		"file": "/home/user1/trash/dirOutputSet/_100_inertia_tensor__inertia_tensor_____.wav",
+		"duration": 0.41,
+		"sentenceIndex": 6933,
+		"timestamp": 89.62
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 90.03
+	},
+	{
+		"index": 60,
+		"txt": "The airplane is modeled by a number of elements, each representing a different part of the airplane's structure for example, the tail rudder, elevators, wings, and fuselage (see",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_airplane_is_modeled_by_a_number__wings__and_fuselage__see____.wav",
+		"duration": 4.06,
+		"sentenceIndex": 6936,
+		"timestamp": 90.53
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 94.59
+	},
+	{
+		"index": 61,
+		"txt": "Chapter 15",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 15_Chapter 15____.wav",
+		"duration": 0.43,
+		"sentenceIndex": 6937,
+		"timestamp": 95.09
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 95.52000000000001
+	},
+	{
+		"index": 62,
+		"txt": "for more details).",
+		"file": "/home/user1/trash/dirOutputSet/_100_for_more_details___for_more_details______.wav",
+		"duration": 0.43,
+		"sentenceIndex": 6938,
+		"timestamp": 96.02000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 96.45000000000002
+	},
+	{
+		"index": 63,
+		"txt": "The code specified here takes the mass properties of each element and combines them, using the techniques discussed in",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_code_specified_here_takes_the_m_e_techniques_discussed_in____.wav",
+		"duration": 2.51,
+		"sentenceIndex": 6939,
+		"timestamp": 96.95000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 99.46000000000002
+	},
+	{
+		"index": 64,
+		"txt": "Chapter 7",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 7_Chapter 7____.wav",
+		"duration": 0.34,
+		"sentenceIndex": 6940,
+		"timestamp": 99.96000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 100.30000000000003
+	},
+	{
+		"index": 65,
+		"txt": "to come up with the combined inertia tensor for the entire aircraft.",
+		"file": "/home/user1/trash/dirOutputSet/_100_to_come_up_with_the_combined_inerti__for_the_entire_aircraft_____.wav",
+		"duration": 1.3,
+		"sentenceIndex": 6941,
+		"timestamp": 100.80000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 102.10000000000002
+	},
+	{
+		"index": 66,
+		"txt": "The important distinction between these calculations in a 3D simulation and the 2D simulation is that here the inertia is a tensor and in 2D it is a single scalar.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_important_distinction_between_t_2D_it_is_a_single_scalar_____.wav",
+		"duration": 3.43,
+		"sentenceIndex": 6942,
+		"timestamp": 102.60000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 106.03000000000003
+	},
+	{
+		"index": 68,
+		"txt": "InitializeAirplane is called at the very start of the program.",
+		"file": "/home/user1/trash/dirOutputSet/_100_InitializeAirplane_is_called_at_the_ery_start_of_the_program_____.wav",
+		"duration": 1.32,
+		"sentenceIndex": 6944,
+		"timestamp": 106.53000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 107.85000000000002
+	},
+	{
+		"index": 69,
+		"txt": "We found it convenient to make the call right after the application's main window is created.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_found_it_convenient_to_make_the__s_main_window_is_created_____.wav",
+		"duration": 1.74,
+		"sentenceIndex": 6945,
+		"timestamp": 108.35000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 110.09000000000002
+	},
+	{
+		"index": 71,
+		"txt": "The final part of the flight model has to do with calculating the forces and moments that act on the airplane at any given instant in time during the simulation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_final_part_of_the_flight_model__me_during_the_simulation_____.wav",
+		"duration": 3.23,
+		"sentenceIndex": 6947,
+		"timestamp": 110.59000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 113.82000000000002
+	},
+	{
+		"index": 72,
+		"txt": "As in the 2D hovercraft simulation, without this sort of function, the airplane will do nothing.",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_in_the_2D_hovercraft_simulation__airplane_will_do_nothing_____.wav",
+		"duration": 2.06,
+		"sentenceIndex": 6948,
+		"timestamp": 114.32000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 116.38000000000002
+	},
+	{
+		"index": 73,
+		"txt": "For this purpose we've defined a function called CalcAirplaneLoads , which is called at every step through the simulation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_this_purpose_we_ve_defined_a_fu_p_through_the_simulation_____.wav",
+		"duration": 2.4,
+		"sentenceIndex": 6949,
+		"timestamp": 116.88000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 119.28000000000003
+	},
+	{
+		"index": 74,
+		"txt": "This function relies on a couple of other functions namely, LiftCoefficient, DragCoefficient, RudderLiftCoefficient, and RudderDragCoefficient .",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_function_relies_on_a_couple_of_d_RudderDragCoefficient______.wav",
+		"duration": 3.24,
+		"sentenceIndex": 6950,
+		"timestamp": 119.78000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 123.02000000000002
+	},
+	{
+		"index": 75,
+		"txt": "All of these functions are shown and discussed in detail in the section",
+		"file": "/home/user1/trash/dirOutputSet/_100_All_of_these_functions_are_shown_an__in_detail_in_the_section____.wav",
+		"duration": 1.38,
+		"sentenceIndex": 6951,
+		"timestamp": 123.52000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 124.90000000000002
+	},
+	{
+		"index": 76,
+		"txt": "Modeling in",
+		"file": "/home/user1/trash/dirOutputSet/_100_Modeling_in_Modeling_in____.wav",
+		"duration": 0.33,
+		"sentenceIndex": 6952,
+		"timestamp": 125.40000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 125.73000000000002
+	},
+	{
+		"index": 78,
+		"txt": "Chapter 15 .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 15___Chapter 15______.wav",
+		"duration": 0.43,
+		"sentenceIndex": 6954,
+		"timestamp": 126.23000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 126.66000000000003
+	},
+	{
+		"index": 80,
+		"txt": "For the most part, the code contained in CalcAirplaneLoads is similar to the code you've seen in the CalcLoads function of the hovercraft simulation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_the_most_part__the_code_contain_he_hovercraft_simulation_____.wav",
+		"duration": 2.92,
+		"sentenceIndex": 6956,
+		"timestamp": 127.16000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 130.08
+	},
+	{
+		"index": 81,
+		"txt": "CalcAirplanLoads is a little more involved since the airplane is modeled by a number of elements that contribute to the total lift and drag on the airplane.",
+		"file": "/home/user1/trash/dirOutputSet/_100_CalcAirplanLoads_is_a_little_more_i_and_drag_on_the_airplane_____.wav",
+		"duration": 3.03,
+		"sentenceIndex": 6957,
+		"timestamp": 130.58
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 133.61
+	},
+	{
+		"index": 82,
+		"txt": "There's also another difference that we've noted here:",
+		"file": "/home/user1/trash/dirOutputSet/_100_There_s_also_another_difference_tha_ce_that_we_ve_noted_here_____.wav",
+		"duration": 0.99,
+		"sentenceIndex": 6958,
+		"timestamp": 134.11
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 135.10000000000002
+	},
+	{
+		"index": 85,
+		"txt": "Just about all of the forces acting on the airplane are first calculated in body fixed coordinates and then converted to earth fixed coordinates before the gravity force is applied.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Just_about_all_of_the_forces_acting_gravity_force_is_applied_____.wav",
+		"duration": 3.61,
+		"sentenceIndex": 6961,
+		"timestamp": 135.60000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 139.21000000000004
+	},
+	{
+		"index": 86,
+		"txt": "The coordinate conversion is effected through the use of the function QVRotate, which",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_coordinate_conversion_is_effect__function_QVRotate__which____.wav",
+		"duration": 1.7,
+		"sentenceIndex": 6962,
+		"timestamp": 139.71000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 141.41000000000003
+	},
+	{
+		"index": 88,
+		"txt": "rotates the force vector based on the airplane's current orientation, represented by a",
+		"file": "/home/user1/trash/dirOutputSet/_100_rotates_the_force_vector_based_on_t_ntation__represented_by_a____.wav",
+		"duration": 2.07,
+		"sentenceIndex": 6964,
+		"timestamp": 141.91000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 143.98000000000002
+	},
+	{
+		"index": 90,
+		"txt": "quaternion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_quaternion__quaternion_____.wav",
+		"duration": 0.33,
+		"sentenceIndex": 6966,
+		"timestamp": 144.48000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 144.81000000000003
+	},
+	{
+		"index": 92,
+		"txt": "22]",
+		"file": "/home/user1/trash/dirOutputSet/_100_22__22_____.wav",
+		"duration": 0.28,
+		"sentenceIndex": 6968,
+		"timestamp": 145.31000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 145.59000000000003
+	},
+	{
+		"index": 94,
+		"txt": "Integration",
+		"file": "/home/user1/trash/dirOutputSet/_100_Integration_Integration____.wav",
+		"duration": 0.29,
+		"sentenceIndex": 6970,
+		"timestamp": 146.09000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 146.38000000000002
+	},
+	{
+		"index": 95,
+		"txt": "Now that the code to",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now_that_the_code_to_Now_that_the_code_to____.wav",
+		"duration": 0.49,
+		"sentenceIndex": 6971,
+		"timestamp": 146.88000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 147.37000000000003
+	},
+	{
+		"index": 97,
+		"txt": "define, initialize, and calculate loads on the airplane is complete, you need to develop the code to actually integrate the equations of motion so that the simulation can progress through time.",
+		"file": "/home/user1/trash/dirOutputSet/_100_define__initialize__and_calculate_l_an_progress_through_time_____.wav",
+		"duration": 4.04,
+		"sentenceIndex": 6973,
+		"timestamp": 147.87000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 151.91000000000003
+	},
+	{
+		"index": 98,
+		"txt": "The first thing you need to do is decide on the integration scheme that you want to use.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_first_thing_you_need_to_do_is_d_eme_that_you_want_to_use_____.wav",
+		"duration": 1.78,
+		"sentenceIndex": 6974,
+		"timestamp": 152.41000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 154.19000000000003
+	},
+	{
+		"index": 99,
+		"txt": "In this example, we decided to go with the basic",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_this_example__we_decided_to_go_w_ided_to_go_with_the_basic____.wav",
+		"duration": 1.06,
+		"sentenceIndex": 6975,
+		"timestamp": 154.69000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 155.75000000000003
+	},
+	{
+		"index": 100,
+		"txt": "Euler's method.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Euler_s_method__Euler_s_method_____.wav",
+		"duration": 0.34,
+		"sentenceIndex": 6976,
+		"timestamp": 156.25000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 156.59000000000003
+	},
+	{
+		"index": 101,
+		"txt": "We've already discussed some better methods in",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ve_already_discussed_some_better_ed_some_better_methods_in____.wav",
+		"duration": 0.91,
+		"sentenceIndex": 6977,
+		"timestamp": 157.09000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 158.00000000000003
+	},
+	{
+		"index": 102,
+		"txt": "Chapter 7",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 7_Chapter 7____.wav",
+		"duration": 0.34,
+		"sentenceIndex": 6978,
+		"timestamp": 158.50000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 158.84000000000003
+	},
+	{
+		"index": 104,
+		"txt": "We're going with Euler's method here because it's simple and we didn't want to make the code here overly complex, burying some key code that we need to point out to you.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_re_going_with_Euler_s_method_her_need_to_point_out_to_you_____.wav",
+		"duration": 3.25,
+		"sentenceIndex": 6980,
+		"timestamp": 159.34000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 162.59000000000003
+	},
+	{
+		"index": 105,
+		"txt": "In practice, you're better off using one of the other methods we discuss in",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_practice__you_re_better_off_usin_her_methods_we_discuss_in____.wav",
+		"duration": 1.53,
+		"sentenceIndex": 6981,
+		"timestamp": 163.09000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 164.62000000000003
+	},
+	{
+		"index": 106,
+		"txt": "Chapter 7",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 7_Chapter 7____.wav",
+		"duration": 0.34,
+		"sentenceIndex": 6982,
+		"timestamp": 165.12000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 165.46000000000004
+	},
+	{
+		"index": 107,
+		"txt": "instead of Euler's method.",
+		"file": "/home/user1/trash/dirOutputSet/_100_instead_of_Euler_s_method__nstead_of_Euler_s_method_____.wav",
+		"duration": 0.5,
+		"sentenceIndex": 6983,
+		"timestamp": 165.96000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 166.46000000000004
+	},
+	{
+		"index": 108,
+		"txt": "With that said, we've prepared a function called StepSimulation that handles all of the integration necessary to actually propagate the simulation:",
+		"file": "/home/user1/trash/dirOutputSet/_100_With_that_said__we_ve_prepared_a_fu_propagate_the_simulation_____.wav",
+		"duration": 2.95,
+		"sentenceIndex": 6984,
+		"timestamp": 166.96000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 169.91000000000003
+	},
+	{
+		"index": 110,
+		"txt": "The very first thing that StepSimulation does is call CalcAirplaneLoads to calculate the loads acting on the airplane at the current instant in time.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_very_first_thing_that_StepSimul__current_instant_in_time_____.wav",
+		"duration": 3.01,
+		"sentenceIndex": 6986,
+		"timestamp": 170.41000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 173.42000000000002
+	},
+	{
+		"index": 111,
+		"txt": "StepSimulation then goes on to calculate the linear acceleration of the airplane based on current loads.",
+		"file": "/home/user1/trash/dirOutputSet/_100_StepSimulation_then_goes_on_to_calc_e_based_on_current_loads_____.wav",
+		"duration": 2.21,
+		"sentenceIndex": 6987,
+		"timestamp": 173.92000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 176.13000000000002
+	},
+	{
+		"index": 112,
+		"txt": "Next, the function goes on to integrate, using Euler's method, once to calculate the airplane's linear velocity and then a second time to calculate the airplane's position.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Next__the_function_goes_on_to_integ__the_airplane_s_position_____.wav",
+		"duration": 3.81,
+		"sentenceIndex": 6988,
+		"timestamp": 176.63000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 180.44000000000003
+	},
+	{
+		"index": 113,
+		"txt": "As we've commented in the code, if you were simulating a particle this is all you would have to do; however, since this is not a particle, you need to handle angular motion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_we_ve_commented_in_the_code__if__to_handle_angular_motion_____.wav",
+		"duration": 3.5,
+		"sentenceIndex": 6989,
+		"timestamp": 180.94000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 184.44000000000003
+	},
+	{
+		"index": 116,
+		"txt": "The first step in handling angular motion is to calculate the new",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_first_step_in_handling_angular__n_is_to_calculate_the_new____.wav",
+		"duration": 1.33,
+		"sentenceIndex": 6992,
+		"timestamp": 184.94000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 186.27000000000004
+	},
+	{
+		"index": 118,
+		"txt": "angular velocity at this time step, using Euler integration, based on the previously calculated moments acting on the airplane and its mass properties.",
+		"file": "/home/user1/trash/dirOutputSet/_100_angular_velocity_at_this_time_step___and_its_mass_properties_____.wav",
+		"duration": 3.27,
+		"sentenceIndex": 6994,
+		"timestamp": 186.77000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 190.04000000000005
+	},
+	{
+		"index": 119,
+		"txt": "We do this in body coordinates using the following equation of angular motion but rewritten to solve for dω:∑ Mcg = dHcg/dt = I (dω/dt) + (ω × (I ω))",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_do_this_in_body_coordinates_usin___I__d__dt__________I________.wav",
+		"duration": 4.85,
+		"sentenceIndex": 6995,
+		"timestamp": 190.54000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 195.39000000000004
+	},
+	{
+		"index": 121,
+		"txt": "The next step is to integrate again to update the",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_next_step_is_to_integrate_again_grate_again_to_update_the____.wav",
+		"duration": 0.96,
+		"sentenceIndex": 6997,
+		"timestamp": 195.89000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 196.85000000000005
+	},
+	{
+		"index": 122,
+		"txt": "airplane's orientation, which is expressed as a quaternion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_airplane_s_orientation__which_is_ex_xpressed_as_a_quaternion_____.wav",
+		"duration": 1.23,
+		"sentenceIndex": 6998,
+		"timestamp": 197.35000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 198.58000000000004
+	},
+	{
+		"index": 123,
+		"txt": "Here, you need to use the differential equation relating an orientation quaternion to angular velocity that we showed you in",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here__you_need_to_use_the_different_ity_that_we_showed_you_in____.wav",
+		"duration": 2.53,
+		"sentenceIndex": 6999,
+		"timestamp": 199.08000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 201.61000000000004
+	},
+	{
+		"index": 124,
+		"txt": "Chapter 11:dq/dt = (1/2) ω q",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 11_dq_dt____1_2____q_pter 11_dq_dt____1_2____q____.wav",
+		"duration": 1.96,
+		"sentenceIndex": 7000,
+		"timestamp": 202.11000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 204.07000000000005
+	},
+	{
+		"index": 126,
+		"txt": "Next, to enforce the constraint that this orientation quaternion be",
+		"file": "/home/user1/trash/dirOutputSet/_100_Next__to_enforce_the_constraint_tha_orientation_quaternion_be____.wav",
+		"duration": 1.52,
+		"sentenceIndex": 7002,
+		"timestamp": 204.57000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 206.09000000000006
+	},
+	{
+		"index": 127,
+		"txt": "a unit",
+		"file": "/home/user1/trash/dirOutputSet/_100_a_unit_a_unit____.wav",
+		"duration": 0.19,
+		"sentenceIndex": 7003,
+		"timestamp": 206.59000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 206.78000000000006
+	},
+	{
+		"index": 128,
+		"txt": "quaternion, the function goes ahead and normalizes the orientation quaternion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_quaternion__the_function_goes_ahead_e_orientation_quaternion_____.wav",
+		"duration": 1.68,
+		"sentenceIndex": 7004,
+		"timestamp": 207.28000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 208.96000000000006
+	},
+	{
+		"index": 131,
+		"txt": "Since the linear velocity was previously calculated in global coordinates (the fixed coordinate system), and since CalcAirplaneLoads needs the velocity in the body fixed (rotating) coordinates system, the function goes ahead and rotates the velocity vector, storing the body fixed vector in the vVelocityBody member of the RigidBody structure.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Since_the_linear_velocity_was_previ__the_RigidBody_structure_____.wav",
+		"duration": 7.51,
+		"sentenceIndex": 7007,
+		"timestamp": 209.46000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 216.97000000000006
+	},
+	{
+		"index": 132,
+		"txt": "This is done here as a matter of convenience and uses the quaternion rotation function QVRotate to rotate the vector based on the airplane's current orientation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_done_here_as_a_matter_of_co_ne_s_current_orientation_____.wav",
+		"duration": 3.25,
+		"sentenceIndex": 7008,
+		"timestamp": 217.47000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 220.72000000000006
+	},
+	{
+		"index": 133,
+		"txt": "Notice here that we use the conjugate of the orientation quaternion since we're now rotating from global coordinates to body coordinates.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Notice_here_that_we_use_the_conjuga_ates_to_body_coordinates_____.wav",
+		"duration": 2.62,
+		"sentenceIndex": 7009,
+		"timestamp": 221.22000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 223.84000000000006
+	},
+	{
+		"index": 136,
+		"txt": "As another convenience, we calculate the air speed, which is simply the magnitude of the linear velocity vector.",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_another_convenience__we_calculat_e_linear_velocity_vector_____.wav",
+		"duration": 2.41,
+		"sentenceIndex": 7012,
+		"timestamp": 224.34000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 226.75000000000006
+	},
+	{
+		"index": 137,
+		"txt": "This is used to report the air speed in the main window title bar.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_used_to_report_the_air_spee_he_main_window_title_bar_____.wav",
+		"duration": 1.39,
+		"sentenceIndex": 7013,
+		"timestamp": 227.25000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 228.64000000000004
+	},
+	{
+		"index": 140,
+		"txt": "Lastly, the three Euler angles roll, pitch, and yaw are extracted from the orientation quaternion so that they can also be reported in the main window title bar.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Lastly__the_three_Euler_angles_roll_he_main_window_title_bar_____.wav",
+		"duration": 3.58,
+		"sentenceIndex": 7016,
+		"timestamp": 229.14000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 232.72000000000006
+	},
+	{
+		"index": 141,
+		"txt": "The function to use here",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_function_to_use_here_The_function_to_use_here____.wav",
+		"duration": 0.52,
+		"sentenceIndex": 7017,
+		"timestamp": 233.22000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 233.74000000000007
+	},
+	{
+		"index": 144,
+		"txt": "is MakeEulerAnglesFromQ, which is defined in",
+		"file": "/home/user1/trash/dirOutputSet/_100_is_MakeEulerAnglesFromQ__which_is_d_romQ__which_is_defined_in____.wav",
+		"duration": 1.11,
+		"sentenceIndex": 7020,
+		"timestamp": 234.24000000000007
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 235.35000000000008
+	},
+	{
+		"index": 145,
+		"txt": "Appendix C",
+		"file": "/home/user1/trash/dirOutputSet/_100_Appendix C_Appendix C____.wav",
+		"duration": 0.43,
+		"sentenceIndex": 7021,
+		"timestamp": 235.85000000000008
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 236.2800000000001
+	},
+	{
+		"index": 148,
+		"txt": "Don't forget, StepSimulation must be called once per",
+		"file": "/home/user1/trash/dirOutputSet/_100_Don_t_forget__StepSimulation_must_b_n_must_be_called_once_per____.wav",
+		"duration": 1.22,
+		"sentenceIndex": 7024,
+		"timestamp": 236.7800000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 238.00000000000009
+	},
+	{
+		"index": 150,
+		"txt": "simulation cycle.",
+		"file": "/home/user1/trash/dirOutputSet/_100_simulation_cycle__simulation_cycle_____.wav",
+		"duration": 0.46,
+		"sentenceIndex": 7026,
+		"timestamp": 238.50000000000009
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 238.9600000000001
+	},
+	{
+		"index": 153,
+		"txt": "Flight Controls",
+		"file": "/home/user1/trash/dirOutputSet/_100_Flight_Controls_Flight_Controls____.wav",
+		"duration": 0.42,
+		"sentenceIndex": 7029,
+		"timestamp": 239.4600000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 239.88000000000008
+	},
+	{
+		"index": 155,
+		"txt": "At this point, the",
+		"file": "/home/user1/trash/dirOutputSet/_100_At_this_point__the_At_this_point__the____.wav",
+		"duration": 0.46,
+		"sentenceIndex": 7031,
+		"timestamp": 240.38000000000008
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 240.8400000000001
+	},
+	{
+		"index": 158,
+		"txt": "simulation still won't work very well because you have not implemented the flight controls.",
+		"file": "/home/user1/trash/dirOutputSet/_100_simulation_still_won_t_work_very_we_nted_the_flight_controls_____.wav",
+		"duration": 1.79,
+		"sentenceIndex": 7034,
+		"timestamp": 241.3400000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 243.13000000000008
+	},
+	{
+		"index": 159,
+		"txt": "The flight controls allow you to interact with the airplane's various controls surfaces in order to actually fly the plane.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_flight_controls_allow_you_to_in_o_actually_fly_the_plane_____.wav",
+		"duration": 2.53,
+		"sentenceIndex": 7035,
+		"timestamp": 243.63000000000008
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 246.16000000000008
+	},
+	{
+		"index": 160,
+		"txt": "We'll use the keyboard as the main input device for the flight controls.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ll_use_the_keyboard_as_the_main___for_the_flight_controls_____.wav",
+		"duration": 1.39,
+		"sentenceIndex": 7036,
+		"timestamp": 246.66000000000008
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 248.05000000000007
+	},
+	{
+		"index": 161,
+		"txt": "Remember, in a physics based simulation such as this one, you don't directly control the motion of the airplane; you control only how various forces are applied to the airplane, which then, by integration over time, affect the airplane's motion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Remember__in_a_physics_based_simula_ct_the_airplane_s_motion_____.wav",
+		"duration": 5.28,
+		"sentenceIndex": 7037,
+		"timestamp": 248.55000000000007
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 253.83000000000007
+	},
+	{
+		"index": 164,
+		"txt": "For this simulation, the flight stick is simulated by the arrow keys.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_this_simulation__the_flight_sti_ulated_by_the_arrow_keys_____.wav",
+		"duration": 1.44,
+		"sentenceIndex": 7040,
+		"timestamp": 254.33000000000007
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 255.77000000000007
+	},
+	{
+		"index": 165,
+		"txt": "The down arrow pulls back on the stick, raising the nose; the up arrow pushes the stick forward, causing the nose to dive; the left arrow rolls the plane to the left (port side); and the right arrow",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_down_arrow_pulls_back_on_the_st_ide___and_the_right_arrow____.wav",
+		"duration": 4.08,
+		"sentenceIndex": 7041,
+		"timestamp": 256.2700000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 260.3500000000001
+	},
+	{
+		"index": 166,
+		"txt": "rolls the plane to the right (starboard side).",
+		"file": "/home/user1/trash/dirOutputSet/_100_rolls_the_plane_to_the_right__starb_e_right__starboard_side______.wav",
+		"duration": 1,
+		"sentenceIndex": 7042,
+		"timestamp": 260.8500000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 261.8500000000001
+	},
+	{
+		"index": 167,
+		"txt": "The X key applies left rudder action to cause the nose of the plane to yaw toward the left, while the C key applies right rudder action to cause the nose to",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_X_key_applies_left_rudder_actio_tion_to_cause_the_nose_to____.wav",
+		"duration": 3.16,
+		"sentenceIndex": 7043,
+		"timestamp": 262.3500000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 265.5100000000001
+	},
+	{
+		"index": 168,
+		"txt": "yaw toward the right.",
+		"file": "/home/user1/trash/dirOutputSet/_100_yaw_toward_the_right__yaw_toward_the_right_____.wav",
+		"duration": 0.44,
+		"sentenceIndex": 7044,
+		"timestamp": 266.0100000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 266.4500000000001
+	},
+	{
+		"index": 169,
+		"txt": "Thrust is",
+		"file": "/home/user1/trash/dirOutputSet/_100_Thrust_is_Thrust_is____.wav",
+		"duration": 0.32,
+		"sentenceIndex": 7045,
+		"timestamp": 266.9500000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 267.2700000000001
+	},
+	{
+		"index": 170,
+		"txt": "controlled by the A and Z keys.",
+		"file": "/home/user1/trash/dirOutputSet/_100_controlled_by_the_A_and_Z_keys__lled_by_the_A_and_Z_keys_____.wav",
+		"duration": 0.69,
+		"sentenceIndex": 7046,
+		"timestamp": 267.7700000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 268.4600000000001
+	},
+	{
+		"index": 171,
+		"txt": "The A key increments the propeller thrust by 100 pounds, and the Z key decrements the thrust by 100 pounds.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_A_key_increments_the_propeller__the_thrust_by_100_pounds_____.wav",
+		"duration": 2.51,
+		"sentenceIndex": 7047,
+		"timestamp": 268.9600000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 271.4700000000001
+	},
+	{
+		"index": 172,
+		"txt": "The minimum thrust is 0, while the maximum available thrust is 3,000 pounds.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_minimum_thrust_is_0__while_the__e_thrust_is_3_000_pounds_____.wav",
+		"duration": 1.82,
+		"sentenceIndex": 7048,
+		"timestamp": 271.9700000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 273.7900000000001
+	},
+	{
+		"index": 173,
+		"txt": "The F key activates the landing flaps to increase lift at low speed, while the D key deactivates the landing flaps.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_F_key_activates_the_landing_fla_ivates_the_landing_flaps_____.wav",
+		"duration": 2.49,
+		"sentenceIndex": 7049,
+		"timestamp": 274.2900000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 276.7800000000001
+	},
+	{
+		"index": 176,
+		"txt": "We control pitch",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_control_pitch_We_control_pitch____.wav",
+		"duration": 0.36,
+		"sentenceIndex": 7052,
+		"timestamp": 277.2800000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 277.6400000000001
+	},
+	{
+		"index": 177,
+		"txt": "by deflecting the flaps on the aft elevators; for example, to pitch the nose up, we deflect the aft elevator flaps upward (that is, the trailing edge of the elevator is raised with respect to the leading edge).",
+		"file": "/home/user1/trash/dirOutputSet/_100_by_deflecting_the_flaps_on_the_aft__ect_to_the_leading_edge______.wav",
+		"duration": 4.24,
+		"sentenceIndex": 7053,
+		"timestamp": 278.1400000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 282.3800000000001
+	},
+	{
+		"index": 178,
+		"txt": "We control roll in this simulation by applying the flaps differentially; for example, to roll right, we deflect the right flap upward and the left flap downward.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_control_roll_in_this_simulation__d_the_left_flap_downward_____.wav",
+		"duration": 3.39,
+		"sentenceIndex": 7054,
+		"timestamp": 282.8800000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 286.2700000000001
+	},
+	{
+		"index": 179,
+		"txt": "Finally, we control yaw by deflecting the vertical tail rudder; for example, to yaw left, we deflect the trailing edge of the tail rudder toward the left.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Finally__we_control_yaw_by_deflecti_l_rudder_toward_the_left_____.wav",
+		"duration": 3.16,
+		"sentenceIndex": 7055,
+		"timestamp": 286.7700000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 289.9300000000001
+	},
+	{
+		"index": 182,
+		"txt": "We've prepared several functions to handle the flight controls that should be called whenever the user is pressing one of the flight control keys.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ve_prepared_several_functions_to__the_flight_control_keys_____.wav",
+		"duration": 2.62,
+		"sentenceIndex": 7058,
+		"timestamp": 290.4300000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 293.0500000000001
+	},
+	{
+		"index": 183,
+		"txt": "There are two functions for the propeller thrust:",
+		"file": "/home/user1/trash/dirOutputSet/_100_There_are_two_functions_for_the_pro_for_the_propeller_thrust_____.wav",
+		"duration": 0.95,
+		"sentenceIndex": 7059,
+		"timestamp": 293.5500000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 294.5000000000001
+	},
+	{
+		"index": 185,
+		"txt": "IncThrust simply increases the thrust by _DTHRUST checking to make sure it does not exceed _MAXTHRUST .",
+		"file": "/home/user1/trash/dirOutputSet/_100_IncThrust_simply_increases_the_thru_s_not_exceed__MAXTHRUST______.wav",
+		"duration": 2.52,
+		"sentenceIndex": 7061,
+		"timestamp": 295.0000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 297.5200000000001
+	},
+	{
+		"index": 186,
+		"txt": "We've defined _DTHRUST and _MAXTHRUST as follows:",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ve_defined__DTHRUST_and__MAXTHRU_nd__MAXTHRUST_as_follows_____.wav",
+		"duration": 1.58,
+		"sentenceIndex": 7062,
+		"timestamp": 298.0200000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 299.6000000000001
+	},
+	{
+		"index": 188,
+		"txt": "DecThrust, on the other hand, decreases the thrust by _DTHRUST checking to make sure it does not fall below 0.",
+		"file": "/home/user1/trash/dirOutputSet/_100_DecThrust__on_the_other_hand__decre_it_does_not_fall_below_0_____.wav",
+		"duration": 2.56,
+		"sentenceIndex": 7064,
+		"timestamp": 300.1000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 302.6600000000001
+	},
+	{
+		"index": 190,
+		"txt": "To control yaw, we've prepared three functions that manipulate the rudder:",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_control_yaw__we_ve_prepared_thre_at_manipulate_the_rudder_____.wav",
+		"duration": 1.49,
+		"sentenceIndex": 7066,
+		"timestamp": 303.1600000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 304.6500000000001
+	},
+	{
+		"index": 192,
+		"txt": "LeftRudder changes the incidence angle of Element[6], the vertical tail rudder, to 16 degrees, while RightRudder changes the incidence angle to −16 degrees.",
+		"file": "/home/user1/trash/dirOutputSet/_100_LeftRudder_changes_the_incidence_an_nce_angle_to__16_degrees_____.wav",
+		"duration": 3.94,
+		"sentenceIndex": 7068,
+		"timestamp": 305.1500000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 309.0900000000001
+	},
+	{
+		"index": 193,
+		"txt": "ZeroRudder centers the rudder at 0 degrees.",
+		"file": "/home/user1/trash/dirOutputSet/_100_ZeroRudder_centers_the_rudder_at_0___the_rudder_at_0_degrees_____.wav",
+		"duration": 1.06,
+		"sentenceIndex": 7069,
+		"timestamp": 309.5900000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 310.6500000000001
+	},
+	{
+		"index": 196,
+		"txt": "The ailerons, or flaps, are",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_ailerons__or_flaps__are_e_ailerons__or_flaps__are____.wav",
+		"duration": 0.9,
+		"sentenceIndex": 7072,
+		"timestamp": 311.1500000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 312.05000000000007
+	},
+	{
+		"index": 198,
+		"txt": "manipulated by these functions to control roll:",
+		"file": "/home/user1/trash/dirOutputSet/_100_manipulated_by_these_functions_to_c_unctions_to_control_roll_____.wav",
+		"duration": 1.02,
+		"sentenceIndex": 7074,
+		"timestamp": 312.55000000000007
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 313.57000000000005
+	},
+	{
+		"index": 200,
+		"txt": "RollLeft deflects the port aileron, located on the port wing section (Element[0]), upward, and the starboard aileron, located on the starboard wing section (Element[3] ), downward.",
+		"file": "/home/user1/trash/dirOutputSet/_100_RollLeft_deflects_the_port_aileron____Element_3_____downward_____.wav",
+		"duration": 4.26,
+		"sentenceIndex": 7076,
+		"timestamp": 314.07000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 318.33000000000004
+	},
+	{
+		"index": 201,
+		"txt": "RollRight does just the opposite, and ZeroAilerons resets the flaps back to their undeflected positions.",
+		"file": "/home/user1/trash/dirOutputSet/_100_RollRight_does_just_the_opposite__a_ir_undeflected_positions_____.wav",
+		"duration": 2.27,
+		"sentenceIndex": 7077,
+		"timestamp": 318.83000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 321.1
+	},
+	{
+		"index": 204,
+		"txt": "We've defined yet another set of functions to control the aft",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ve_defined_yet_another_set_of_fu_ctions_to_control_the_aft____.wav",
+		"duration": 1.25,
+		"sentenceIndex": 7080,
+		"timestamp": 321.6
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 322.85
+	},
+	{
+		"index": 205,
+		"txt": "elevators so as to control",
+		"file": "/home/user1/trash/dirOutputSet/_100_elevators_so_as_to_control_levators_so_as_to_control____.wav",
+		"duration": 0.65,
+		"sentenceIndex": 7081,
+		"timestamp": 323.35
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 324
+	},
+	{
+		"index": 207,
+		"txt": "pitch:",
+		"file": "/home/user1/trash/dirOutputSet/_100_pitch__pitch_____.wav",
+		"duration": 0.23,
+		"sentenceIndex": 7083,
+		"timestamp": 324.5
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 324.73
+	},
+	{
+		"index": 209,
+		"txt": "Element[4] and Element[5] are the elevators.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Element_4__and_Element_5__are_the_e_ent_5__are_the_elevators_____.wav",
+		"duration": 1.21,
+		"sentenceIndex": 7085,
+		"timestamp": 325.23
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 326.44
+	},
+	{
+		"index": 210,
+		"txt": "PitchUp deflects their flaps upward, and PitchDown deflects their flaps downward.",
+		"file": "/home/user1/trash/dirOutputSet/_100_PitchUp_deflects_their_flaps_upward_cts_their_flaps_downward_____.wav",
+		"duration": 1.65,
+		"sentenceIndex": 7086,
+		"timestamp": 326.94
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 328.59
+	},
+	{
+		"index": 211,
+		"txt": "ZeroElevators resets their flaps back to their undeflected positions.",
+		"file": "/home/user1/trash/dirOutputSet/_100_ZeroElevators_resets_their_flaps_ba_ir_undeflected_positions_____.wav",
+		"duration": 1.54,
+		"sentenceIndex": 7087,
+		"timestamp": 329.09
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 330.63
+	},
+	{
+		"index": 213,
+		"txt": "Finally, there are two more functions to control the landing flaps:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Finally__there_are_two_more_functio_ontrol_the_landing_flaps_____.wav",
+		"duration": 1.44,
+		"sentenceIndex": 7089,
+		"timestamp": 331.13
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 332.57
+	},
+	{
+		"index": 215,
+		"txt": "The landing flaps are fitted on the inboard wings sections, port and starboard, which are Element[1] and Element[2] .",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_landing_flaps_are_fitted_on_the_ement_1__and_Element_2_______.wav",
+		"duration": 2.6,
+		"sentenceIndex": 7091,
+		"timestamp": 333.07
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 335.67
+	},
+	{
+		"index": 216,
+		"txt": "FlapsDown deflects the flaps downward, while ZeroFlaps resets them back to their undeflected position.",
+		"file": "/home/user1/trash/dirOutputSet/_100_FlapsDown_deflects_the_flaps_downwa_eir_undeflected_position_____.wav",
+		"duration": 2.21,
+		"sentenceIndex": 7092,
+		"timestamp": 336.17
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 338.38
+	},
+	{
+		"index": 218,
+		"txt": "As we said, these functions should be called when the user is pressing the flight control keys.",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_we_said__these_functions_should___the_flight_control_keys_____.wav",
+		"duration": 1.93,
+		"sentenceIndex": 7094,
+		"timestamp": 338.88
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 340.81
+	},
+	{
+		"index": 219,
+		"txt": "Further, they need to be called before StepSimulation is called so that they can be included in the current time step's force and moment calculations.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Further__they_need_to_be_called_bef__and_moment_calculations_____.wav",
+		"duration": 3.03,
+		"sentenceIndex": 7095,
+		"timestamp": 341.31
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 344.34
+	},
+	{
+		"index": 220,
+		"txt": "The sequence of calls should look something like this:",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_sequence_of_calls_should_look_s_look_something_like_this_____.wav",
+		"duration": 1.13,
+		"sentenceIndex": 7096,
+		"timestamp": 344.84
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 345.96999999999997
+	},
+	{
+		"index": 222,
+		"txt": "Before StepSimulation is called, we check each of the flight control keys to see if it is being pressed.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Before_StepSimulation_is_called__we_e_if_it_is_being_pressed_____.wav",
+		"duration": 2.15,
+		"sentenceIndex": 7098,
+		"timestamp": 346.46999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 348.61999999999995
+	},
+	{
+		"index": 223,
+		"txt": "If so, then the appropriate function is called.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_so__then_the_appropriate_functio_riate_function_is_called_____.wav",
+		"duration": 1.04,
+		"sentenceIndex": 7099,
+		"timestamp": 349.11999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 350.15999999999997
+	},
+	{
+		"index": 225,
+		"txt": "The function IsKeyDown, which checks whether a certain key is pressed, looks like this in a Windows implementation:",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_function_IsKeyDown__which_check_a_Windows_implementation_____.wav",
+		"duration": 2.36,
+		"sentenceIndex": 7101,
+		"timestamp": 350.65999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 353.02
+	},
+	{
+		"index": 227,
+		"txt": "The important thing to note here is that the keys are being checked asynchronously because it is possible that more than one key will be pressed at any given time, and they must be handled simultaneously instead of one at a time (as would be the case in the standard Windows message processing function).",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_important_thing_to_note_here_is_age_processing_function______.wav",
+		"duration": 5.71,
+		"sentenceIndex": 7103,
+		"timestamp": 353.52
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 359.22999999999996
+	},
+	{
+		"index": 230,
+		"txt": "The addition of flight control code pretty much completes the physics part of the simulation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_addition_of_flight_control_code_s_part_of_the_simulation_____.wav",
+		"duration": 1.73,
+		"sentenceIndex": 7106,
+		"timestamp": 359.72999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 361.46
+	},
+	{
+		"index": 231,
+		"txt": "So far, you have the model, the integrator, and the user input or flight control elements completed.",
+		"file": "/home/user1/trash/dirOutputSet/_100_So_far__you_have_the_model__the_int_ntrol_elements_completed_____.wav",
+		"duration": 2.16,
+		"sentenceIndex": 7107,
+		"timestamp": 361.96
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 364.12
+	},
+	{
+		"index": 232,
+		"txt": "All that remains is setting up the application's main window and actually drawing something that represents what you're simulating.",
+		"file": "/home/user1/trash/dirOutputSet/_100_All_that_remains_is_setting_up_the__s_what_you_re_simulating_____.wav",
+		"duration": 2.41,
+		"sentenceIndex": 7108,
+		"timestamp": 364.62
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 367.03000000000003
+	},
+	{
+		"index": 233,
+		"txt": "We'll leave that part up to you, or you can look at the example we've included on the book's website to see what we did on a Windows",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ll_leave_that_part_up_to_you__or__what_we_did_on_a_Windows____.wav",
+		"duration": 2.52,
+		"sentenceIndex": 7109,
+		"timestamp": 367.53000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 370.05
+	},
+	{
+		"index": 238,
+		"txt": "machine.",
+		"file": "/home/user1/trash/dirOutputSet/_100_machine__machine_____.wav",
+		"duration": 0.24,
+		"sentenceIndex": 7114,
+		"timestamp": 370.55
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 370.79
+	},
+	{
+		"index": 245,
+		"txt": "22] QVRotate is defined in",
+		"file": "/home/user1/trash/dirOutputSet/_100_22__QVRotate_is_defined_in_2__QVRotate_is_defined_in____.wav",
+		"duration": 1.07,
+		"sentenceIndex": 7121,
+		"timestamp": 371.29
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 372.36
+	},
+	{
+		"index": 247,
+		"txt": "Appendix C .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Appendix C___Appendix C______.wav",
+		"duration": 0.43,
+		"sentenceIndex": 7123,
+		"timestamp": 372.86
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 373.29
+	}
+]

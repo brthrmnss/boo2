@@ -1,0 +1,9780 @@
+[
+	{
+		"txt": "",
+		"why": "br tag like",
+		"sentenceIndex": 3009,
+		"nouns": [],
+		"dOIndex": 0,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 4. Kinetics",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3010,
+		"nouns": [
+			"Chapter",
+			"Kinetics"
+		],
+		"dOIndex": 1,
+		"nouns2": [
+			"Chapter",
+			"Kinetics"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Recall that kinetics is the study of ",
+		"why": "link",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3011,
+		"nouns": [
+			"kinetics",
+			"study"
+		],
+		"dOIndex": 2,
+		"nouns2": [
+			"Recall",
+			"kinetics"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "the motion of bodies, including the forces that act on them. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3012,
+		"nouns": [
+			"motion",
+			"bodies",
+			"forces",
+			"act"
+		],
+		"dOIndex": 3,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " It's now time that we combine the material presented in the earlier chapters namely, kinematics and forces to study the subject of kinetics. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3013,
+		"nouns": [
+			"time",
+			"chapters",
+			"kinematics",
+			"forces",
+			"study",
+			"subject",
+			"kinetics"
+		],
+		"dOIndex": 4,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"chapters",
+			"kinematics",
+			"subject",
+			"kinetics"
+		]
+	},
+	{
+		"txt": " As in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3014,
+		"nouns": [],
+		"dOIndex": 5,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 2",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3015,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 6,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " on kinematics, we'll first discuss particle kinetics and then go on to discuss rigid body kinetics.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3016,
+		"nouns": [
+			"kinematics",
+			"ll",
+			"first",
+			"particle",
+			"kinetics",
+			"body",
+			"kinetics"
+		],
+		"dOIndex": 7,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"kinematics",
+			"particle",
+			"kinetics"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3017,
+		"nouns": [],
+		"dOIndex": 8,
+		"isQuote": false
+	},
+	{
+		"txt": "In kinetics, the most important equation that you must ",
+		"why": "link",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3018,
+		"nouns": [
+			"kinetics",
+			"equation"
+		],
+		"dOIndex": 9,
+		"nouns2": [
+			"kinetics",
+			"equation"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.2,
+			"words": [
+				"important"
+			],
+			"positive": [
+				"important"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "consider is Newton's second law:F = ma",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"strong",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"section"
+		],
+		"sentenceIndex": 3019,
+		"nouns": [
+			"Newton",
+			"second",
+			"law",
+			"F"
+		],
+		"dOIndex": 10,
+		"nouns2": [
+			"Newton"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 3020,
+		"nouns": [],
+		"dOIndex": 11,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3021,
+		"nouns": [],
+		"dOIndex": 12,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "When rigid bodies are involved, you must also consider that the forces acting on the body will tend to cause rotation of the body in addition to translation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3022,
+		"nouns": [
+			"bodies",
+			"forces",
+			"body",
+			"cause",
+			"rotation",
+			"body",
+			"addition",
+			"translation"
+		],
+		"dOIndex": 13,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"rotation",
+			"addition",
+			"translation"
+		]
+	},
+	{
+		"txt": " The basic relationship here is:Mcg = I α",
+		"why": "p",
+		"tags": [
+			"strong",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"section"
+		],
+		"sentenceIndex": 3023,
+		"nouns": [
+			"relationship",
+			"Mcg",
+			"α"
+		],
+		"dOIndex": 14,
+		"nouns2": [
+			"relationship"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3024,
+		"nouns": [],
+		"dOIndex": 15,
+		"isQuote": false
+	},
+	{
+		"txt": "where Mcg is the vector sum of all moments (torques) acting on the body, I is the body moment of inertia tensor, and α is the angular acceleration.",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3025,
+		"nouns": [
+			"Mcg",
+			"vector",
+			"sum",
+			"moments",
+			"torques",
+			"body",
+			"body",
+			"moment",
+			"inertia",
+			"tensor",
+			"α",
+			"acceleration"
+		],
+		"dOIndex": 16,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"moments",
+			"torques",
+			"inertia",
+			"acceleration"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3026,
+		"nouns": [],
+		"dOIndex": 17,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3027,
+		"nouns": [],
+		"dOIndex": 18,
+		"isQuote": false
+	},
+	{
+		"txt": "Collectively, these two equations are referred to as ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3028,
+		"nouns": [
+			"two",
+			"equations"
+		],
+		"dOIndex": 19,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Collectively",
+			"equations"
+		]
+	},
+	{
+		"txt": "the equations of motion",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3029,
+		"nouns": [
+			"equations",
+			"motion"
+		],
+		"dOIndex": 20,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equations"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3030,
+		"nouns": [],
+		"dOIndex": 21,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3031,
+		"nouns": [],
+		"dOIndex": 22,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3032,
+		"nouns": [],
+		"dOIndex": 23,
+		"isQuote": false
+	},
+	{
+		"txt": "There are two types of problems that you will encounter in kinetics. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3033,
+		"nouns": [
+			"two",
+			"types",
+			"problems",
+			"encounter",
+			"kinetics"
+		],
+		"dOIndex": 24,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"problems",
+			"encounter",
+			"kinetics"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.15384615384615385,
+			"words": [
+				"problems"
+			],
+			"positive": [],
+			"negative": [
+				"problems"
+			]
+		}
+	},
+	{
+		"txt": " One type is where you know the force(s) acting on the body, or you can estimate them, and you must solve for the resulting acceleration of the body (and subsequently its velocity and displacement). ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3034,
+		"nouns": [
+			"One",
+			"type",
+			"force",
+			"body",
+			"estimate",
+			"acceleration",
+			"body",
+			"velocity",
+			"displacement"
+		],
+		"dOIndex": 25,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"estimate",
+			"acceleration",
+			"velocity",
+			"displacement"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.027777777777777776,
+			"words": [
+				"solve"
+			],
+			"positive": [
+				"solve"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Another type is where you know the body's acceleration, or can readily determine it using kinematics, and you must solve for the force(s) acting on the body.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3035,
+		"nouns": [
+			"type",
+			"body",
+			"acceleration",
+			"kinematics",
+			"force",
+			"body"
+		],
+		"dOIndex": 26,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Another",
+			"acceleration",
+			"kinematics"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.03571428571428571,
+			"words": [
+				"solve"
+			],
+			"positive": [
+				"solve"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3036,
+		"nouns": [],
+		"dOIndex": 27,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3037,
+		"nouns": [],
+		"dOIndex": 28,
+		"isQuote": false
+	},
+	{
+		"txt": "This chapter will primarily discuss the first type of problem, where you know the force(s) acting on the body, which is more common to in game physics. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3038,
+		"nouns": [
+			"chapter",
+			"first",
+			"type",
+			"problem",
+			"force",
+			"body",
+			"game",
+			"physics"
+		],
+		"dOIndex": 29,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"chapter",
+			"problem",
+			"physics"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.07142857142857142,
+			"words": [
+				"problem"
+			],
+			"positive": [],
+			"negative": [
+				"problem"
+			]
+		}
+	},
+	{
+		"txt": " The second type of problem has become important with the advent of motion based controllers such as the Sony SixAxis and Nintendo Wii Remote. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3039,
+		"nouns": [
+			"second",
+			"type",
+			"problem",
+			"advent",
+			"motion",
+			"controllers",
+			"Sony",
+			"SixAxis",
+			"Nintendo",
+			"Wii"
+		],
+		"dOIndex": 30,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"problem",
+			"controllers",
+			"SixAxis",
+			"Nintendo",
+			"Remote"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"important",
+				"problem"
+			],
+			"positive": [
+				"important"
+			],
+			"negative": [
+				"problem"
+			]
+		}
+	},
+	{
+		"txt": " These controllers rely ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3040,
+		"nouns": [
+			"controllers"
+		],
+		"dOIndex": 31,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"controllers"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3041,
+		"nouns": [],
+		"dOIndex": 32,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "on digital accelerometers to directly measure the acceleration of a controller. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3042,
+		"nouns": [
+			"accelerometers",
+			"measure",
+			"acceleration",
+			"controller"
+		],
+		"dOIndex": 33,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"accelerometers",
+			"measure",
+			"acceleration",
+			"controller"
+		]
+	},
+	{
+		"txt": " While this is most often used to find the controller's orientation, it is also possible to integrate the time history of these sensor values to determine velocity and position. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3043,
+		"nouns": [
+			"controller",
+			"orientation",
+			"time",
+			"history",
+			"sensor",
+			"values",
+			"velocity",
+			"position"
+		],
+		"dOIndex": 34,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"controller",
+			"orientation",
+			"history",
+			"velocity",
+			"position"
+		]
+	},
+	{
+		"txt": " Additionally, if you know the mass of the controller or device, you can find the force. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3044,
+		"nouns": [
+			"mass",
+			"controller",
+			"device",
+			"force"
+		],
+		"dOIndex": 35,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Additionally",
+			"controller"
+		]
+	},
+	{
+		"txt": " Accelerometers are found in most smartphones as well, which also allows for the use of kinematic based input. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3045,
+		"nouns": [
+			"Accelerometers",
+			"smartphones",
+			"use",
+			"kinematic",
+			"input"
+		],
+		"dOIndex": 36,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Accelerometers",
+			"smartphones",
+			"kinematic"
+		]
+	},
+	{
+		"txt": " So as to not confuse the two types of problems, we'll discuss the second type, with the acceleration as input, in detail in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3046,
+		"nouns": [
+			"two",
+			"types",
+			"problems",
+			"ll",
+			"second",
+			"type",
+			"acceleration",
+			"input",
+			"detail"
+		],
+		"dOIndex": 37,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"problems",
+			"acceleration"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"problems",
+				"confuse"
+			],
+			"positive": [
+				"confuse"
+			],
+			"negative": [
+				"problems"
+			]
+		}
+	},
+	{
+		"txt": "Chapter 21",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3047,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 38,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3048,
+		"nouns": [],
+		"dOIndex": 39,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3049,
+		"nouns": [],
+		"dOIndex": 40,
+		"isQuote": false
+	},
+	{
+		"txt": "Let us stress that you must consider the sum of all of the forces acting on the body when solving kinetics problems. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3050,
+		"nouns": [
+			"stress",
+			"sum",
+			"forces",
+			"body",
+			"kinetics",
+			"problems"
+		],
+		"dOIndex": 41,
+		"nouns2": [
+			"kinetics",
+			"problems"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.08695652173913043,
+			"words": [
+				"problems",
+				"solving",
+				"stress"
+			],
+			"positive": [
+				"solving"
+			],
+			"negative": [
+				"problems",
+				"stress"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " These include all applied forces and all reaction forces. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3051,
+		"nouns": [
+			"include",
+			"forces",
+			"reaction",
+			"forces"
+		],
+		"dOIndex": 42,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"include",
+			"reaction"
+		]
+	},
+	{
+		"txt": " Aside from the computational difficulties of solving the equations of motion, one of the more challenging aspects of kinetics is identifying and properly accounting for all of these forces. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3052,
+		"nouns": [
+			"difficulties",
+			"equations",
+			"motion",
+			"one",
+			"aspects",
+			"kinetics",
+			"forces"
+		],
+		"dOIndex": 43,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"difficulties",
+			"equations",
+			"aspects",
+			"kinetics"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.03225806451612903,
+			"words": [
+				"solving"
+			],
+			"positive": [
+				"solving"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " In later chapters, you'll look at specific problems where we'll investigate the particular forces involved. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3053,
+		"nouns": [
+			"chapters",
+			"ll",
+			"problems",
+			"ll",
+			"forces"
+		],
+		"dOIndex": 44,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"chapters",
+			"problems"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.11764705882352941,
+			"words": [
+				"problems"
+			],
+			"positive": [],
+			"negative": [
+				"problems"
+			]
+		}
+	},
+	{
+		"txt": " ",
+		"why": "link",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3054,
+		"nouns": [],
+		"dOIndex": 45,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "For now, and for the purpose of generality, let's stick with the idealized forces introduced in the previous chapter.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3055,
+		"nouns": [
+			"purpose",
+			"generality",
+			"forces",
+			"chapter"
+		],
+		"dOIndex": 46,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"purpose",
+			"generality",
+			"chapter"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3056,
+		"nouns": [],
+		"dOIndex": 47,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3057,
+		"nouns": [],
+		"dOIndex": 48,
+		"isQuote": false
+	},
+	{
+		"txt": "Here is the general procedure for solving kinetics problems of interest to us:",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3058,
+		"nouns": [
+			"procedure",
+			"kinetics",
+			"problems",
+			"interest"
+		],
+		"dOIndex": 49,
+		"nouns2": [
+			"procedure",
+			"kinetics",
+			"problems",
+			"interest"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"interest",
+				"problems",
+				"solving"
+			],
+			"positive": [
+				"interest",
+				"solving"
+			],
+			"negative": [
+				"problems"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3059,
+		"nouns": [],
+		"dOIndex": 50,
+		"isQuote": false
+	},
+	{
+		"txt": "Calculate the body's mass properties (mass, center of mass, and moment of inertia).",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3060,
+		"nouns": [
+			"body",
+			"mass",
+			"properties",
+			"mass",
+			"center",
+			"mass",
+			"moment",
+			"inertia"
+		],
+		"dOIndex": 51,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Calculate",
+			"properties",
+			"inertia"
+		],
+		"highfreq": {
+			"mass": 3
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"li",
+			"ol",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3061,
+		"nouns": [],
+		"dOIndex": 52,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3062,
+		"nouns": [],
+		"dOIndex": 53,
+		"isQuote": false
+	},
+	{
+		"txt": "Identify and quantify all forces and moments acting on the body.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3063,
+		"nouns": [
+			"forces",
+			"moments",
+			"body"
+		],
+		"dOIndex": 54,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Identify",
+			"moments"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"li",
+			"ol",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3064,
+		"nouns": [],
+		"dOIndex": 55,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3065,
+		"nouns": [],
+		"dOIndex": 56,
+		"isQuote": false
+	},
+	{
+		"txt": "Take the vector sum of all forces and moments.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3066,
+		"nouns": [
+			"vector",
+			"sum",
+			"forces",
+			"moments"
+		],
+		"dOIndex": 57,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"moments"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"li",
+			"ol",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3067,
+		"nouns": [],
+		"dOIndex": 58,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3068,
+		"nouns": [],
+		"dOIndex": 59,
+		"isQuote": false
+	},
+	{
+		"txt": "Solve the equations of motion for linear and angular accelerations.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3069,
+		"nouns": [
+			"equations",
+			"motion",
+			"accelerations"
+		],
+		"dOIndex": 60,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equations",
+			"accelerations"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.1,
+			"words": [
+				"solve"
+			],
+			"positive": [
+				"solve"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"li",
+			"ol",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3070,
+		"nouns": [],
+		"dOIndex": 61,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3071,
+		"nouns": [],
+		"dOIndex": 62,
+		"isQuote": false
+	},
+	{
+		"txt": "Integrate with respect to time to find linear and angular velocity.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3072,
+		"nouns": [
+			"respect",
+			"time",
+			"velocity"
+		],
+		"dOIndex": 63,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Integrate",
+			"respect",
+			"velocity"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.18181818181818182,
+			"words": [
+				"respect"
+			],
+			"positive": [
+				"respect"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"li",
+			"ol",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3073,
+		"nouns": [],
+		"dOIndex": 64,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3074,
+		"nouns": [],
+		"dOIndex": 65,
+		"isQuote": false
+	},
+	{
+		"txt": "Integrate again with respect to time to find linear and angular displacement.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3075,
+		"nouns": [
+			"respect",
+			"time",
+			"displacement"
+		],
+		"dOIndex": 66,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Integrate",
+			"respect",
+			"displacement"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.16666666666666666,
+			"words": [
+				"respect"
+			],
+			"positive": [
+				"respect"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"li",
+			"ol",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3076,
+		"nouns": [],
+		"dOIndex": 67,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3077,
+		"nouns": [],
+		"dOIndex": 68,
+		"isQuote": false
+	},
+	{
+		"txt": "This outline makes the solution to kinetics problems seem easier than it actually is because there are a number of complicating factors that you'll have to overcome. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3078,
+		"nouns": [
+			"outline",
+			"solution",
+			"kinetics",
+			"problems",
+			"number",
+			"factors",
+			"ll"
+		],
+		"dOIndex": 69,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"outline",
+			"solution",
+			"kinetics",
+			"problems",
+			"factors"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.10714285714285714,
+			"words": [
+				"complicating",
+				"problems",
+				"solution"
+			],
+			"positive": [
+				"solution"
+			],
+			"negative": [
+				"complicating",
+				"problems"
+			]
+		}
+	},
+	{
+		"txt": " For example, in many cases the forces acting on a body are functions of displacement, velocity, or acceleration. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3079,
+		"nouns": [
+			"example",
+			"cases",
+			"forces",
+			"body",
+			"functions",
+			"displacement",
+			"velocity",
+			"acceleration"
+		],
+		"dOIndex": 70,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"functions",
+			"displacement",
+			"velocity",
+			"acceleration"
+		]
+	},
+	{
+		"txt": " This means that you'll have to use iterative techniques in order to solve the equations of motion. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3080,
+		"nouns": [
+			"ll",
+			"use",
+			"iterative",
+			"techniques",
+			"order",
+			"equations",
+			"motion"
+		],
+		"dOIndex": 71,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"iterative",
+			"techniques",
+			"equations"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.05263157894736842,
+			"words": [
+				"solve"
+			],
+			"positive": [
+				"solve"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Further, since you most likely will not be able to derive closed form solutions for acceleration, you'll have to numerically integrate in order to estimate velocity and displacement at each instant of time under consideration. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3081,
+		"nouns": [
+			"form",
+			"solutions",
+			"acceleration",
+			"ll",
+			"order",
+			"estimate",
+			"velocity",
+			"displacement",
+			"instant",
+			"time",
+			"consideration"
+		],
+		"dOIndex": 72,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Further",
+			"solutions",
+			"acceleration",
+			"estimate",
+			"velocity",
+			"displacement",
+			"instant",
+			"consideration"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.02702702702702703,
+			"words": [
+				"solutions"
+			],
+			"positive": [
+				"solutions"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " These computational aspects will be addressed ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3082,
+		"nouns": [
+			"aspects"
+		],
+		"dOIndex": 73,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"aspects"
+		]
+	},
+	{
+		"txt": "further in ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3083,
+		"nouns": [],
+		"dOIndex": 74,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3084,
+		"nouns": [],
+		"dOIndex": 75,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 7 through ",
+		"why": "link",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3085,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 76,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": "Chapter 13",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3086,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 77,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3087,
+		"nouns": [],
+		"dOIndex": 78,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3088,
+		"nouns": [],
+		"dOIndex": 79,
+		"isQuote": false
+	},
+	{
+		"txt": "Particle Kinetics in 2D",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3089,
+		"nouns": [
+			"Particle",
+			"Kinetics",
+			"D"
+		],
+		"dOIndex": 80,
+		"nouns2": [
+			"Particle",
+			"Kinetics"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "As in particle ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3090,
+		"nouns": [
+			"particle"
+		],
+		"dOIndex": 81,
+		"nouns2": [
+			"particle"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3091,
+		"nouns": [],
+		"dOIndex": 82,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3092,
+		"nouns": [],
+		"dOIndex": 83,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "kinematics, in particle kinetics you need to consider only the linear motion of the particle. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3093,
+		"nouns": [
+			"kinematics",
+			"particle",
+			"kinetics",
+			"motion",
+			"particle"
+		],
+		"dOIndex": 84,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"kinematics",
+			"particle",
+			"kinetics"
+		]
+	},
+	{
+		"txt": " Thus, the equations of motion will consist of equations of the form F = ma , where motion in each coordinate direction will have its own equation. ",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3094,
+		"nouns": [
+			"equations",
+			"motion",
+			"equations",
+			"form",
+			"F",
+			"motion",
+			"coordinate",
+			"direction",
+			"equation"
+		],
+		"dOIndex": 85,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equations",
+			"coordinate",
+			"direction",
+			"equation"
+		]
+	},
+	{
+		"txt": " The equations for 2D particle motion are:ΣFx = m axΣFy = m ay",
+		"why": "p",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3095,
+		"nouns": [
+			"equations",
+			"D",
+			"particle",
+			"motion",
+			"ΣFx",
+			"m",
+			"axΣFy",
+			"m",
+			"ay"
+		],
+		"dOIndex": 86,
+		"nouns2": [
+			"equations",
+			"particle"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3096,
+		"nouns": [],
+		"dOIndex": 87,
+		"isQuote": false
+	},
+	{
+		"txt": "where ΣFx means the sum of all forces in the x direction, ΣFy means the sum of all forces in the y direction, ax is the acceleration in the x direction, and ay is the acceleration in the y direction.",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3097,
+		"nouns": [
+			"ΣFx",
+			"sum",
+			"forces",
+			"x",
+			"direction",
+			"ΣFy",
+			"sum",
+			"forces",
+			"y",
+			"direction",
+			"ax",
+			"acceleration",
+			"x",
+			"direction",
+			"ay",
+			"acceleration",
+			"y",
+			"direction"
+		],
+		"dOIndex": 88,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"direction",
+			"acceleration"
+		],
+		"highfreq": {
+			"direction": 4
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3098,
+		"nouns": [],
+		"dOIndex": 89,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3099,
+		"nouns": [],
+		"dOIndex": 90,
+		"isQuote": false
+	},
+	{
+		"txt": "The resultant force and acceleration vectors are:a = axi + ayj",
+		"why": "link",
+		"tags": [
+			"strong",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3100,
+		"nouns": [
+			"force",
+			"acceleration",
+			"vectors",
+			"axi",
+			"ayj"
+		],
+		"dOIndex": 91,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"acceleration",
+			"vectors"
+		]
+	},
+	{
+		"txt": "ΣF = ΣFxi + ΣFyjΣF = ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3101,
+		"nouns": [
+			"ΣF",
+			"ΣFxi",
+			"ΣFyjΣF"
+		],
+		"dOIndex": 92,
+		"nouns2": [
+			"ΣFyjΣF"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 3102,
+		"nouns": [],
+		"dOIndex": 93,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3103,
+		"nouns": [],
+		"dOIndex": 94,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Let's look at an example that appears simple but demonstrates the complexity of finding closed form solutions. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3104,
+		"nouns": [
+			"example",
+			"complexity",
+			"form",
+			"solutions"
+		],
+		"dOIndex": 95,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"complexity",
+			"solutions"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.05555555555555555,
+			"words": [
+				"solutions"
+			],
+			"positive": [
+				"solutions"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3105,
+		"nouns": [],
+		"dOIndex": 96,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "A ship floating in water, initially at rest, starts up its propeller generating a thrust, T , which starts the ship moving forward. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3106,
+		"nouns": [
+			"ship",
+			"water",
+			"rest",
+			"propeller",
+			"thrust",
+			"T",
+			"ship"
+		],
+		"dOIndex": 97,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"propeller"
+		]
+	},
+	{
+		"txt": " Assume that the ship's forward speed is slow and the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3107,
+		"nouns": [
+			"ship"
+		],
+		"dOIndex": 98,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Assume"
+		]
+	},
+	{
+		"txt": "resistance to its motion can be approximated by:R = –C v",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3108,
+		"nouns": [
+			"resistance",
+			"motion",
+			"R",
+			"–C",
+			"v"
+		],
+		"dOIndex": 99,
+		"nouns2": [
+			"resistance"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 3109,
+		"nouns": [],
+		"dOIndex": 100,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3110,
+		"nouns": [],
+		"dOIndex": 101,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "where R is the total resistance, C is a drag coefficient, v is the ship speed, and the minus sign indicates that this resistive force opposes the forward motion of the ship. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3111,
+		"nouns": [
+			"R",
+			"resistance",
+			"C",
+			"drag",
+			"coefficient",
+			"v",
+			"ship",
+			"sign",
+			"force",
+			"motion",
+			"ship"
+		],
+		"dOIndex": 102,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"resistance",
+			"coefficient"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.030303030303030304,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " Find formulas for the ship's speed, acceleration, and distance traveled as functions of time, assuming that the propeller thrust and resistance force vectors act on a line of action passing through the ship's center of gravity. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3112,
+		"nouns": [
+			"formulas",
+			"ship",
+			"acceleration",
+			"distance",
+			"functions",
+			"time",
+			"propeller",
+			"thrust",
+			"resistance",
+			"force",
+			"vectors",
+			"act",
+			"line",
+			"action",
+			"ship",
+			"center",
+			"gravity"
+		],
+		"dOIndex": 103,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"formulas",
+			"acceleration",
+			"distance",
+			"functions",
+			"propeller",
+			"resistance",
+			"vectors",
+			"gravity"
+		]
+	},
+	{
+		"txt": " This assumption lets you treat the ship as a particle instead of a rigid body.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3113,
+		"nouns": [
+			"assumption",
+			"ship",
+			"particle",
+			"body"
+		],
+		"dOIndex": 104,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"assumption",
+			"particle"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3114,
+		"nouns": [],
+		"dOIndex": 105,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3115,
+		"nouns": [],
+		"dOIndex": 106,
+		"isQuote": false
+	},
+	{
+		"txt": "The first step in solving this problem is to identify all of the forces acting on the ship. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3116,
+		"nouns": [
+			"first",
+			"step",
+			"problem",
+			"forces",
+			"ship"
+		],
+		"dOIndex": 107,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"problem"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.05263157894736842,
+			"words": [
+				"problem",
+				"solving"
+			],
+			"positive": [
+				"solving"
+			],
+			"negative": [
+				"problem"
+			]
+		}
+	},
+	{
+		"txt": " ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3117,
+		"nouns": [],
+		"dOIndex": 108,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 4 1 shows a free body diagram of the ship with all of the forces acting on it namely, the propeller thrust, T; resistance, R; the ship's weight, W; and buoyancy, B .",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3118,
+		"nouns": [
+			"Figure",
+			"body",
+			"diagram",
+			"ship",
+			"forces",
+			"propeller",
+			"thrust",
+			"T",
+			"resistance",
+			"R",
+			"ship",
+			"weight",
+			"W",
+			"buoyancy",
+			"B"
+		],
+		"dOIndex": 109,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure",
+			"diagram",
+			"propeller",
+			"resistance",
+			"buoyancy"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.030303030303030304,
+			"words": [
+				"free"
+			],
+			"positive": [
+				"free"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3119,
+		"nouns": [],
+		"dOIndex": 110,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3120,
+		"nouns": [],
+		"dOIndex": 111,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3121,
+		"nouns": [],
+		"dOIndex": 112,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3122,
+		"nouns": [],
+		"dOIndex": 113,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3123,
+		"nouns": [],
+		"dOIndex": 114,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 4 1. Free body diagram of ship",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3124,
+		"nouns": [
+			"Figure",
+			"Free",
+			"body",
+			"diagram",
+			"ship"
+		],
+		"dOIndex": 115,
+		"nouns2": [
+			"Figure",
+			"diagram"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3125,
+		"nouns": [],
+		"dOIndex": 116,
+		"isQuote": false
+	},
+	{
+		"txt": "Notice here that the buoyancy force is exactly equal in magnitude to the ship's weight and opposite in direction; thus, these forces cancel each other out and there will be no motion in the y direction. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3126,
+		"nouns": [
+			"Notice",
+			"buoyancy",
+			"force",
+			"magnitude",
+			"ship",
+			"weight",
+			"direction",
+			"forces",
+			"motion",
+			"y",
+			"direction"
+		],
+		"dOIndex": 117,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Notice",
+			"buoyancy",
+			"magnitude",
+			"direction"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.05405405405405406,
+			"words": [
+				"no",
+				"cancel"
+			],
+			"positive": [],
+			"negative": [
+				"no",
+				"cancel"
+			]
+		}
+	},
+	{
+		"txt": " This must be the case if the ship is to stay afloat. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3127,
+		"nouns": [
+			"case",
+			"ship"
+		],
+		"dOIndex": 118,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " This observation effectively reduces the problem to a one dimensional problem with motion in the x direction, only where the forces acting in the x direction are the propeller thrust and resistance.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3128,
+		"nouns": [
+			"observation",
+			"problem",
+			"one",
+			"problem",
+			"motion",
+			"x",
+			"direction",
+			"forces",
+			"x",
+			"direction",
+			"propeller",
+			"thrust",
+			"resistance"
+		],
+		"dOIndex": 119,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"observation",
+			"problem",
+			"direction",
+			"propeller",
+			"resistance"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.06060606060606061,
+			"words": [
+				"problem",
+				"problem",
+				"effectively"
+			],
+			"positive": [
+				"effectively"
+			],
+			"negative": [
+				"problem",
+				"problem"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3129,
+		"nouns": [],
+		"dOIndex": 120,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3130,
+		"nouns": [],
+		"dOIndex": 121,
+		"isQuote": false
+	},
+	{
+		"txt": "Now you can write the equation (for motion in the x direction) ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3131,
+		"nouns": [
+			"equation",
+			"motion",
+			"x",
+			"direction"
+		],
+		"dOIndex": 122,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equation",
+			"direction"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3132,
+		"nouns": [],
+		"dOIndex": 123,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "using Newton's second law, as follows:ΣF = m aT – R = m aT – (C v) = m a",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3133,
+		"nouns": [
+			"Newton",
+			"second",
+			"law",
+			"ΣF",
+			"m",
+			"–",
+			"R",
+			"m",
+			"–",
+			"C",
+			"v",
+			"m"
+		],
+		"dOIndex": 124,
+		"nouns2": [
+			"Newton"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3134,
+		"nouns": [],
+		"dOIndex": 125,
+		"isQuote": false
+	},
+	{
+		"txt": "Where a is the acceleration in the x direction, and v is the speed in the x direction.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3135,
+		"nouns": [
+			"acceleration",
+			"x",
+			"direction",
+			"v",
+			"x",
+			"direction"
+		],
+		"dOIndex": 126,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"acceleration",
+			"direction"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3136,
+		"nouns": [],
+		"dOIndex": 127,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3137,
+		"nouns": [],
+		"dOIndex": 128,
+		"isQuote": false
+	},
+	{
+		"txt": "The next step is to integrate this equation of motion in order to derive a formula for the speed of the ship as a function of time. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3138,
+		"nouns": [
+			"step",
+			"equation",
+			"motion",
+			"order",
+			"formula",
+			"ship",
+			"function",
+			"time"
+		],
+		"dOIndex": 129,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equation",
+			"formula",
+			"function"
+		]
+	},
+	{
+		"txt": " To do this, you must make the substitution a = dv/dt, rearrange, integrate, ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3139,
+		"nouns": [
+			"substitution",
+			"dv",
+			"/",
+			"dt"
+		],
+		"dOIndex": 130,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"substitution"
+		]
+	},
+	{
+		"txt": "and then solve for speed as follows:T – (C v) = m (dv/dt)dt = (m / (T–Cv)) dv∫(0 to t) dt = ∫(v1 to v2) (m / (T–Cv)) dvt – 0 = –(m/C) ln(T–Cv) | (v1 to v2)t = –(m/C) ln(T–Cv2) + (m/C) ln(T–Cv1)t = (m/C) [ln(T–Cv1) – ln(T–Cv2)](C/m) t = ln [(T–Cv1) / (T–Cv2)]e(C/m) t = e ln [(T–Cv1) / (T–Cv2)]e(C/m) t = (T–Cv1) / (T–Cv2)(T–Cv2) = (T–Cv1) e–(C/m)tv2 = (T/C) – e–(C/m) t (T/C – v1)",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3140,
+		"nouns": [
+			"T",
+			"–",
+			"C",
+			"v",
+			"m",
+			"dv",
+			"/",
+			"dt",
+			"dt",
+			"m",
+			"/",
+			"T–Cv",
+			"dv∫",
+			"t",
+			"dt",
+			"∫",
+			"v",
+			"v",
+			"m",
+			"/",
+			"T–Cv",
+			"dvt",
+			"–",
+			"–",
+			"m",
+			"/",
+			"C",
+			"ln",
+			"T–Cv",
+			"|",
+			"v",
+			"v",
+			"t",
+			"–",
+			"m",
+			"/",
+			"C",
+			"ln",
+			"T–Cv",
+			"m",
+			"/",
+			"C",
+			"ln",
+			"T–Cv",
+			"t",
+			"m",
+			"/",
+			"C",
+			"[ln",
+			"T–Cv",
+			"–",
+			"ln",
+			"T–Cv",
+			"C",
+			"/",
+			"m",
+			"t",
+			"ln",
+			"T–Cv",
+			"/",
+			"T–Cv",
+			"]e",
+			"C",
+			"/",
+			"m",
+			"t",
+			"e",
+			"ln",
+			"T–Cv",
+			"/",
+			"T–Cv",
+			"]e",
+			"C",
+			"/",
+			"m",
+			"t",
+			"T–Cv",
+			"/",
+			"T–Cv",
+			"T–Cv",
+			"T–Cv",
+			"e–",
+			"C",
+			"/",
+			"m",
+			"tv",
+			"T",
+			"/",
+			"C",
+			"–",
+			"e–",
+			"C",
+			"/",
+			"m",
+			"t",
+			"T",
+			"/",
+			"C",
+			"–",
+			"v"
+		],
+		"dOIndex": 131,
+		"highfreq": {
+			"T–Cv": 15
+		},
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.01282051282051282,
+			"words": [
+				"solve"
+			],
+			"positive": [
+				"solve"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 3141,
+		"nouns": [],
+		"dOIndex": 132,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3142,
+		"nouns": [],
+		"dOIndex": 133,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "where v1 is the initial ship speed (which is constant) and v2 is the ship speed at time t . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3143,
+		"nouns": [
+			"v",
+			"ship",
+			"v",
+			"ship",
+			"time",
+			"t"
+		],
+		"dOIndex": 134,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " v2 is what you're after here, since it tells you how fast the ship is traveling at any instant of time.",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3144,
+		"nouns": [
+			"v",
+			"re",
+			"ship",
+			"instant",
+			"time"
+		],
+		"dOIndex": 135,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"instant"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3145,
+		"nouns": [],
+		"dOIndex": 136,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3146,
+		"nouns": [],
+		"dOIndex": 137,
+		"isQuote": false
+	},
+	{
+		"txt": "Now that you have an equation for speed as a function of time, you can derive an equation for ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3147,
+		"nouns": [
+			"equation",
+			"function",
+			"time",
+			"equation"
+		],
+		"dOIndex": 138,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equation",
+			"function"
+		]
+	},
+	{
+		"txt": "displacement (distance traveled, in this case) as a function of time. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3148,
+		"nouns": [
+			"displacement",
+			"distance",
+			"case",
+			"function",
+			"time"
+		],
+		"dOIndex": 139,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"displacement",
+			"distance",
+			"function"
+		]
+	},
+	{
+		"txt": " Here, you'll have to recall the formula v dt = ds , substitute the previous formula for speed, integrate, rearrange, and solve for distance traveled. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3149,
+		"nouns": [
+			"ll",
+			"formula",
+			"v",
+			"dt",
+			"ds",
+			"substitute",
+			"formula",
+			"distance"
+		],
+		"dOIndex": 140,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"formula",
+			"substitute",
+			"distance"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.037037037037037035,
+			"words": [
+				"solve"
+			],
+			"positive": [
+				"solve"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " These steps are shown here:v dt = dsv2 dt = ds((T/C) – e–(C/m) t (T/C – v1)) dt = ds∫(0 to t) (T/C) – e–(C/m) t (T/C – v1) dt = ∫(s1 to s2) ds(T/C) ∫(0 to t) dt – (T/C – v1) ∫(0 to t) e–(C/m) t dt = s2 – s1[(T/C) t + ((T/C) – v1)(m/C) e–(C/m) t] (0 to t) = s2 – s1[(T/C) t + ((T/C) – v1)(m/C) e–(C/m) t] – [0 + ((T/C) – v1)(m/C)] = s2 – s1(T/C) t + (T/C – v1) (m/C) e–(C/m) t – (T/C – v1) (m/C) = s2 – s1s2 = s1 + (T/C) t + (T/C – v1) (m/C) e–(C/m) t – (T/C – v1) (m/C)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3150,
+		"nouns": [
+			"steps",
+			"v",
+			"dt",
+			"dsv",
+			"dt",
+			"ds",
+			"T",
+			"/",
+			"C",
+			"–",
+			"e–",
+			"C",
+			"/",
+			"m",
+			"t",
+			"T",
+			"/",
+			"C",
+			"–",
+			"v",
+			"dt",
+			"ds∫",
+			"t",
+			"T",
+			"/",
+			"C",
+			"–",
+			"e–",
+			"C",
+			"/",
+			"m",
+			"t",
+			"T",
+			"/",
+			"C",
+			"–",
+			"v",
+			"dt",
+			"∫",
+			"ds",
+			"T",
+			"/",
+			"C",
+			"∫",
+			"t",
+			"dt",
+			"–",
+			"T",
+			"/",
+			"C",
+			"–",
+			"v",
+			"∫",
+			"t",
+			"e–",
+			"C",
+			"/",
+			"m",
+			"t",
+			"dt",
+			"–",
+			"T",
+			"/",
+			"C",
+			"t",
+			"T",
+			"/",
+			"C",
+			"–",
+			"v",
+			"m",
+			"/",
+			"C",
+			"e–",
+			"C",
+			"/",
+			"m",
+			"t]",
+			"t",
+			"–",
+			"T",
+			"/",
+			"C",
+			"t",
+			"T",
+			"/",
+			"C",
+			"–",
+			"v",
+			"m",
+			"/",
+			"C",
+			"e–",
+			"C",
+			"/",
+			"m",
+			"t]",
+			"–",
+			"T",
+			"/",
+			"C",
+			"–",
+			"v",
+			"m",
+			"/",
+			"C",
+			"–",
+			"T",
+			"/",
+			"C",
+			"t",
+			"T",
+			"/",
+			"C",
+			"–",
+			"v",
+			"m",
+			"/",
+			"C",
+			"e–",
+			"C",
+			"/",
+			"m",
+			"t",
+			"–",
+			"T",
+			"/",
+			"C",
+			"–",
+			"v",
+			"m",
+			"/",
+			"C",
+			"–",
+			"T",
+			"/",
+			"C",
+			"t",
+			"T",
+			"/",
+			"C",
+			"–",
+			"v",
+			"m",
+			"/",
+			"C",
+			"e–",
+			"C",
+			"/",
+			"m",
+			"t",
+			"–",
+			"T",
+			"/",
+			"C",
+			"–",
+			"v",
+			"m",
+			"/",
+			"C"
+		],
+		"dOIndex": 141,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3151,
+		"nouns": [],
+		"dOIndex": 142,
+		"isQuote": false
+	},
+	{
+		"txt": "Finally you can write an equation for ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3152,
+		"nouns": [
+			"equation"
+		],
+		"dOIndex": 143,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Finally",
+			"equation"
+		]
+	},
+	{
+		"txt": "acceleration by going back to the original equation of motion and solving for acceleration:T – (C v) = m aa = (T – (C v)) / m",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3153,
+		"nouns": [
+			"acceleration",
+			"equation",
+			"motion",
+			"acceleration",
+			"T",
+			"–",
+			"C",
+			"v",
+			"m",
+			"aa",
+			"T",
+			"–",
+			"C",
+			"v",
+			"/",
+			"m"
+		],
+		"dOIndex": 144,
+		"nouns2": [
+			"acceleration",
+			"equation"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.037037037037037035,
+			"words": [
+				"solving"
+			],
+			"positive": [
+				"solving"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 3154,
+		"nouns": [],
+		"dOIndex": 145,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3155,
+		"nouns": [],
+		"dOIndex": 146,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "where:v = v2 = (T/C) – e–(C/m) t (T/C – v1)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3156,
+		"nouns": [
+			"v",
+			"v",
+			"T",
+			"/",
+			"C",
+			"–",
+			"e–",
+			"C",
+			"/",
+			"m",
+			"t",
+			"T",
+			"/",
+			"C",
+			"–",
+			"v"
+		],
+		"dOIndex": 147,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3157,
+		"nouns": [],
+		"dOIndex": 148,
+		"isQuote": false
+	},
+	{
+		"txt": "In summary, the equations for velocity, distance traveled, and acceleration are as follows:v2 = (T/C) – e–(C/m) t (T/C – v1)s2 = s1 + (T/C) t + (T/C – v1) (m/C) e–(C/m) t – (T/C – v1) (m/C)a = (T – (C v)) / m",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3158,
+		"nouns": [
+			"summary",
+			"equations",
+			"velocity",
+			"distance",
+			"acceleration",
+			"v",
+			"T",
+			"/",
+			"C",
+			"–",
+			"e–",
+			"C",
+			"/",
+			"m",
+			"t",
+			"T",
+			"/",
+			"C",
+			"–",
+			"v",
+			"T",
+			"/",
+			"C",
+			"t",
+			"T",
+			"/",
+			"C",
+			"–",
+			"v",
+			"m",
+			"/",
+			"C",
+			"e–",
+			"C",
+			"/",
+			"m",
+			"t",
+			"–",
+			"T",
+			"/",
+			"C",
+			"–",
+			"v",
+			"m",
+			"/",
+			"C",
+			"T",
+			"–",
+			"C",
+			"v",
+			"/",
+			"m"
+		],
+		"dOIndex": 149,
+		"nouns2": [
+			"summary",
+			"equations",
+			"velocity",
+			"distance",
+			"acceleration"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3159,
+		"nouns": [],
+		"dOIndex": 150,
+		"isQuote": false
+	},
+	{
+		"txt": "To illustrate the motion of the ship further, we've plotted the ship's speed, distance traveled, and acceleration versus time, as shown in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3160,
+		"nouns": [
+			"motion",
+			"ship",
+			"ve",
+			"ship",
+			"distance",
+			"acceleration",
+			"time"
+		],
+		"dOIndex": 151,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distance",
+			"acceleration"
+		]
+	},
+	{
+		"txt": "Figure 4 2, ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3161,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 152,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3162,
+		"nouns": [],
+		"dOIndex": 153,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 4 3, and ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3163,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 154,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": "Figure 4 4",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3164,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 155,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3165,
+		"nouns": [],
+		"dOIndex": 156,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " To facilitate these illustrations, we've assumed the following:",
+		"why": "list tag",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3166,
+		"nouns": [
+			"illustrations",
+			"ve"
+		],
+		"dOIndex": 157,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"illustrations"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 3167,
+		"nouns": [],
+		"dOIndex": 158,
+		"isQuote": false
+	},
+	{
+		"txt": "The initial ship speed and displacement are 0 at time 0.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3168,
+		"nouns": [
+			"ship",
+			"displacement",
+			"time"
+		],
+		"dOIndex": 159,
+		"nouns2": [
+			"displacement"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"li",
+			"ul",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3169,
+		"nouns": [],
+		"dOIndex": 160,
+		"isQuote": false
+	},
+	{
+		"txt": "The propeller thrust is 20,000 thrust units.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3170,
+		"nouns": [
+			"propeller",
+			"thrust",
+			"thrust",
+			"units"
+		],
+		"dOIndex": 161,
+		"nouns2": [
+			"propeller"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"li",
+			"ul",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3171,
+		"nouns": [],
+		"dOIndex": 162,
+		"isQuote": false
+	},
+	{
+		"txt": "The ship's mass is 10,000 mass units.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3172,
+		"nouns": [
+			"ship",
+			"mass",
+			"mass",
+			"units"
+		],
+		"dOIndex": 163,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"li",
+			"ul",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3173,
+		"nouns": [],
+		"dOIndex": 164,
+		"isQuote": false
+	},
+	{
+		"txt": "The drag coefficient is 1,000.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3174,
+		"nouns": [
+			"drag",
+			"coefficient"
+		],
+		"dOIndex": 165,
+		"nouns2": [
+			"coefficient"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.2,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"li",
+			"ul",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3175,
+		"nouns": [],
+		"dOIndex": 166,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3176,
+		"nouns": [],
+		"dOIndex": 167,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3177,
+		"nouns": [],
+		"dOIndex": 168,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3178,
+		"nouns": [],
+		"dOIndex": 169,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3179,
+		"nouns": [],
+		"dOIndex": 170,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 4 2. Speed versus time",
+		"why": "link",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3180,
+		"nouns": [
+			"Figure",
+			"time"
+		],
+		"dOIndex": 171,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3181,
+		"nouns": [],
+		"dOIndex": 172,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3182,
+		"nouns": [],
+		"dOIndex": 173,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3183,
+		"nouns": [],
+		"dOIndex": 174,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3184,
+		"nouns": [],
+		"dOIndex": 175,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 4 3. Distance versus time",
+		"why": "link",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3185,
+		"nouns": [
+			"Figure",
+			"Distance",
+			"time"
+		],
+		"dOIndex": 176,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure",
+			"Distance"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3186,
+		"nouns": [],
+		"dOIndex": 177,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3187,
+		"nouns": [],
+		"dOIndex": 178,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3188,
+		"nouns": [],
+		"dOIndex": 179,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3189,
+		"nouns": [],
+		"dOIndex": 180,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 4 4. Acceleration versus time",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3190,
+		"nouns": [
+			"Figure",
+			"Acceleration",
+			"time"
+		],
+		"dOIndex": 181,
+		"nouns2": [
+			"Figure",
+			"Acceleration"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3191,
+		"nouns": [],
+		"dOIndex": 182,
+		"isQuote": false
+	},
+	{
+		"txt": "You'll notice that the ship's speed approaches ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3192,
+		"nouns": [
+			"ll",
+			"notice",
+			"ship",
+			"approaches"
+		],
+		"dOIndex": 183,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"approaches"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3193,
+		"nouns": [],
+		"dOIndex": 184,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3194,
+		"nouns": [],
+		"dOIndex": 185,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3195,
+		"nouns": [],
+		"dOIndex": 186,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "the steady state speed of 20 speed units, assuming that the propeller thrust remains constant. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3196,
+		"nouns": [
+			"state",
+			"units",
+			"propeller",
+			"thrust"
+		],
+		"dOIndex": 187,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"propeller"
+		]
+	},
+	{
+		"txt": " This corresponds to a reduction in acceleration from a maximum acceleration at time 0 to no acceleration once the steady speed is achieved.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3197,
+		"nouns": [
+			"reduction",
+			"acceleration",
+			"acceleration",
+			"time",
+			"acceleration"
+		],
+		"dOIndex": 188,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"reduction",
+			"acceleration"
+		],
+		"highfreq": {
+			"acceleration": 3
+		},
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.041666666666666664,
+			"words": [
+				"no"
+			],
+			"positive": [],
+			"negative": [
+				"no"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3198,
+		"nouns": [],
+		"dOIndex": 189,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3199,
+		"nouns": [],
+		"dOIndex": 190,
+		"isQuote": false
+	},
+	{
+		"txt": "This example illustrates how to set up the differential equations of motion and integrate them to find velocity, displacement, and acceleration. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3200,
+		"nouns": [
+			"example",
+			"equations",
+			"motion",
+			"velocity",
+			"displacement",
+			"acceleration"
+		],
+		"dOIndex": 191,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"equations",
+			"velocity",
+			"displacement",
+			"acceleration"
+		]
+	},
+	{
+		"txt": " In this case, you were able to find a closed form solution that is, you were able to integrate the equations symbolically to derive new ones. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3201,
+		"nouns": [
+			"case",
+			"form",
+			"solution",
+			"equations",
+			"ones"
+		],
+		"dOIndex": 192,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"solution",
+			"equations"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.03571428571428571,
+			"words": [
+				"solution"
+			],
+			"positive": [
+				"solution"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " You could do this because we imposed enough constraints on the problem to make it manageable. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3202,
+		"nouns": [
+			"constraints",
+			"problem"
+		],
+		"dOIndex": 193,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"constraints",
+			"problem"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.16666666666666666,
+			"words": [
+				"problem",
+				"imposed"
+			],
+			"positive": [],
+			"negative": [
+				"problem",
+				"imposed"
+			]
+		}
+	},
+	{
+		"txt": " But you can readily see that if there were more forces acting on the ship, or if the thrust were not held constant but was some function of speed, or if the resistance were a function of speed squared, and so on, the problem gets increasingly complicated making a closed form solution much more difficult, if not ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3203,
+		"nouns": [
+			"forces",
+			"ship",
+			"thrust",
+			"function",
+			"resistance",
+			"function",
+			"problem",
+			"form",
+			"solution"
+		],
+		"dOIndex": 194,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function",
+			"resistance",
+			"problem",
+			"solution"
+		],
+		"highfreq": {
+			"were": 3
+		},
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.03389830508474576,
+			"words": [
+				"difficult",
+				"solution",
+				"problem"
+			],
+			"positive": [
+				"solution"
+			],
+			"negative": [
+				"difficult",
+				"problem"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3204,
+		"nouns": [],
+		"dOIndex": 195,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3205,
+		"nouns": [],
+		"dOIndex": 196,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3206,
+		"nouns": [],
+		"dOIndex": 197,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3207,
+		"nouns": [],
+		"dOIndex": 198,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "impossible.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3208,
+		"nouns": [],
+		"dOIndex": 199,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3209,
+		"nouns": [],
+		"dOIndex": 200,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3210,
+		"nouns": [],
+		"dOIndex": 201,
+		"isQuote": false
+	},
+	{
+		"txt": "Particle Kinetics in 3D",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3211,
+		"nouns": [
+			"Particle",
+			"Kinetics",
+			"D"
+		],
+		"dOIndex": 202,
+		"nouns2": [
+			"Particle",
+			"Kinetics"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3212,
+		"nouns": [],
+		"dOIndex": 203,
+		"isQuote": false
+	},
+	{
+		"txt": "As in kinematics, ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3213,
+		"nouns": [
+			"kinematics"
+		],
+		"dOIndex": 204,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"kinematics"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3214,
+		"nouns": [],
+		"dOIndex": 205,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3215,
+		"nouns": [],
+		"dOIndex": 206,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3216,
+		"nouns": [],
+		"dOIndex": 207,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "extending the equations of motion for a particle to three dimensions is easy to do. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3217,
+		"nouns": [
+			"equations",
+			"motion",
+			"particle",
+			"three",
+			"dimensions"
+		],
+		"dOIndex": 208,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equations",
+			"particle",
+			"dimensions"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.0625,
+			"words": [
+				"easy"
+			],
+			"positive": [
+				"easy"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " You simply need to add one more component and will end up with three equations as follows:ΣFx = m axΣFy = m ayΣFz = m az",
+		"why": "p",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3218,
+		"nouns": [
+			"one",
+			"component",
+			"end",
+			"three",
+			"equations",
+			"ΣFx",
+			"m",
+			"axΣFy",
+			"m",
+			"ayΣFz",
+			"m",
+			"az"
+		],
+		"dOIndex": 209,
+		"nouns2": [
+			"component",
+			"equations"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3219,
+		"nouns": [],
+		"dOIndex": 210,
+		"isQuote": false
+	},
+	{
+		"txt": "The resultant force and acceleration vectors are now:a = axi + ayj + azka = ΣF = ΣFxi + ΣFyj + ΣFzkΣF = ",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3220,
+		"nouns": [
+			"force",
+			"acceleration",
+			"vectors",
+			"axi",
+			"ayj",
+			"azka",
+			"ΣF",
+			"ΣFxi",
+			"ΣFyj",
+			"ΣFzkΣF"
+		],
+		"dOIndex": 211,
+		"nouns2": [
+			"acceleration",
+			"vectors",
+			"ΣFzkΣF"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3221,
+		"nouns": [],
+		"dOIndex": 212,
+		"isQuote": false
+	},
+	{
+		"txt": "To hammer these concepts home, we want to present another example.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3222,
+		"nouns": [
+			"hammer",
+			"concepts",
+			"home",
+			"example"
+		],
+		"dOIndex": 213,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"concepts",
+			"example"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.09090909090909091,
+			"words": [
+				"want"
+			],
+			"positive": [
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3223,
+		"nouns": [],
+		"dOIndex": 214,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3224,
+		"nouns": [],
+		"dOIndex": 215,
+		"isQuote": false
+	},
+	{
+		"txt": "Let's go back to the cannon example ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3225,
+		"nouns": [
+			"cannon",
+			"example"
+		],
+		"dOIndex": 216,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3226,
+		"nouns": [],
+		"dOIndex": 217,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "program discussed in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3227,
+		"nouns": [
+			"program"
+		],
+		"dOIndex": 218,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"program"
+		]
+	},
+	{
+		"txt": "Chapter 2",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3228,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 219,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3229,
+		"nouns": [],
+		"dOIndex": 220,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " In that example, we made some simplifying assumptions so we could focus on the kinematics of the problem without complicating it too much. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3230,
+		"nouns": [
+			"example",
+			"assumptions",
+			"focus",
+			"kinematics",
+			"problem"
+		],
+		"dOIndex": 221,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"assumptions",
+			"kinematics",
+			"problem"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.16,
+			"words": [
+				"complicating",
+				"problem"
+			],
+			"positive": [],
+			"negative": [
+				"complicating",
+				"problem"
+			]
+		}
+	},
+	{
+		"txt": " One of the more significant assumptions we made was that there was no drag acting on the projectile as it flew through the air. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3231,
+		"nouns": [
+			"One",
+			"assumptions",
+			"drag",
+			"projectile",
+			"air"
+		],
+		"dOIndex": 222,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"assumptions",
+			"projectile"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.038461538461538464,
+			"words": [
+				"drag",
+				"no",
+				"significant"
+			],
+			"positive": [
+				"significant"
+			],
+			"negative": [
+				"drag",
+				"no"
+			]
+		}
+	},
+	{
+		"txt": " Physically, this would be valid only if the projectile were moving through a vacuum, which, of course, is unlikely here on Earth. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3232,
+		"nouns": [
+			"projectile",
+			"vacuum",
+			"course",
+			"Earth"
+		],
+		"dOIndex": 223,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Physically",
+			"projectile"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.041666666666666664,
+			"words": [
+				"unlikely"
+			],
+			"positive": [],
+			"negative": [
+				"unlikely"
+			]
+		}
+	},
+	{
+		"txt": " Another significant assumption we made was that there was no wind to act on the projectile and affect its course. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3233,
+		"nouns": [
+			"assumption",
+			"wind",
+			"act",
+			"projectile",
+			"course"
+		],
+		"dOIndex": 224,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Another",
+			"assumption",
+			"projectile"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"no",
+				"significant"
+			],
+			"positive": [
+				"significant"
+			],
+			"negative": [
+				"no"
+			]
+		}
+	},
+	{
+		"txt": " These two considerations, drag and wind, are important in real life projectile problems, so to make this example a little more interesting and more challenging to the user if this were an actual game we'll add these two considerations now.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3234,
+		"nouns": [
+			"two",
+			"considerations",
+			"drag",
+			"wind",
+			"life",
+			"projectile",
+			"problems",
+			"example",
+			"user",
+			"were",
+			"game",
+			"ll",
+			"two",
+			"considerations"
+		],
+		"dOIndex": 225,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"considerations",
+			"projectile",
+			"problems",
+			"example"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.024390243902439025,
+			"words": [
+				"interesting",
+				"problems",
+				"important",
+				"drag"
+			],
+			"positive": [
+				"interesting",
+				"important"
+			],
+			"negative": [
+				"problems",
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3235,
+		"nouns": [],
+		"dOIndex": 226,
+		"isQuote": false
+	},
+	{
+		"txt": "First, assume that the projectile is a sphere and the drag force acting on it as it flies through the air is a function of some drag coefficient and the speed of the projectile. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3236,
+		"nouns": [
+			"First",
+			"projectile",
+			"sphere",
+			"drag",
+			"force",
+			"air",
+			"function",
+			"drag",
+			"coefficient",
+			"projectile"
+		],
+		"dOIndex": 227,
+		"nouns2": [
+			"projectile",
+			"function",
+			"coefficient"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.05714285714285714,
+			"words": [
+				"drag",
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag",
+				"drag"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " This drag force ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3237,
+		"nouns": [
+			"drag",
+			"force"
+		],
+		"dOIndex": 228,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.2,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": "can be written as follows:Fd = –CdvFd = –Cd vxi – Cd vyj – Cd vzk",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"strong",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3238,
+		"nouns": [
+			"Fd",
+			"–CdvFd",
+			"–Cd",
+			"vxi",
+			"–",
+			"Cd",
+			"vyj",
+			"–",
+			"Cd",
+			"vzk"
+		],
+		"dOIndex": 229,
+		"nouns2": [
+			"–CdvFd"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 3239,
+		"nouns": [],
+		"dOIndex": 230,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3240,
+		"nouns": [],
+		"dOIndex": 231,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "where Cd is the drag coefficient, v is the velocity of the projectile (vx, vy, and vz are its components), and the minus sign means that this drag force opposes the projectile's motion. ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3241,
+		"nouns": [
+			"Cd",
+			"drag",
+			"coefficient",
+			"v",
+			"velocity",
+			"projectile",
+			"vx",
+			"vy",
+			"vz",
+			"components",
+			"sign",
+			"drag",
+			"force",
+			"projectile",
+			"motion"
+		],
+		"dOIndex": 232,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coefficient",
+			"velocity",
+			"projectile",
+			"components"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.058823529411764705,
+			"words": [
+				"drag",
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag",
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " Actually, we're cheating a bit here since in reality the fluid dynamic drag would be more a function of speed squared. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3242,
+		"nouns": [
+			"re",
+			"bit",
+			"reality",
+			"fluid",
+			"drag",
+			"function"
+		],
+		"dOIndex": 233,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Actually",
+			"reality",
+			"function"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.17391304347826086,
+			"words": [
+				"drag",
+				"cheating"
+			],
+			"positive": [],
+			"negative": [
+				"drag",
+				"cheating"
+			]
+		}
+	},
+	{
+		"txt": " We're doing this here to facilitate a closed form solution. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3243,
+		"nouns": [
+			"re",
+			"form",
+			"solution"
+		],
+		"dOIndex": 234,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"solution"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.08333333333333333,
+			"words": [
+				"solution"
+			],
+			"positive": [
+				"solution"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Also, the drag coefficient here would be determined experimentally for each shape. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3244,
+		"nouns": [
+			"drag",
+			"coefficient",
+			"shape"
+		],
+		"dOIndex": 235,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coefficient"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.07142857142857142,
+			"words": [
+				"determined",
+				"drag"
+			],
+			"positive": [
+				"determined"
+			],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " Later, we'll discuss how experimental data is used on basic shapes to give data for similar ships.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3245,
+		"nouns": [
+			"ll",
+			"data",
+			"shapes",
+			"data",
+			"ships"
+		],
+		"dOIndex": 236,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3246,
+		"nouns": [],
+		"dOIndex": 237,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3247,
+		"nouns": [],
+		"dOIndex": 238,
+		"isQuote": false
+	},
+	{
+		"txt": "Second, assume that the projectile is subjected to a blowing wind, the force of which is a function of some drag coefficient and the wind speed. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3248,
+		"nouns": [
+			"projectile",
+			"wind",
+			"force",
+			"function",
+			"drag",
+			"coefficient",
+			"wind"
+		],
+		"dOIndex": 239,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Second",
+			"projectile",
+			"function",
+			"coefficient"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.037037037037037035,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " This force can be written as follows:Fw = –CwvwFw = –Cwvwxi – Cwvwzk",
+		"why": "p",
+		"tags": [
+			"strong",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3249,
+		"nouns": [
+			"force",
+			"Fw",
+			"–CwvwFw",
+			"–Cwvwxi",
+			"–",
+			"Cwvwzk"
+		],
+		"dOIndex": 240,
+		"nouns2": [
+			"–CwvwFw",
+			"–Cwvwxi",
+			"Cwvwzk"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3250,
+		"nouns": [],
+		"dOIndex": 241,
+		"isQuote": false
+	},
+	{
+		"txt": "where Cw is the drag coefficient, vw is the wind speed, and the minus sign means that this force opposes the projectile's motion when the wind is blowing in a direction opposite of the projectile's direction of motion. ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3251,
+		"nouns": [
+			"Cw",
+			"drag",
+			"coefficient",
+			"vw",
+			"wind",
+			"sign",
+			"force",
+			"projectile",
+			"motion",
+			"wind",
+			"direction",
+			"projectile",
+			"direction",
+			"motion"
+		],
+		"dOIndex": 242,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coefficient",
+			"projectile",
+			"direction"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.02564102564102564,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " When the wind is blowing with the projectile say, from behind it then the wind will actually help the projectile along instead of impede its motion. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3252,
+		"nouns": [
+			"wind",
+			"projectile",
+			"wind",
+			"projectile",
+			"motion"
+		],
+		"dOIndex": 243,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"projectile"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"impede",
+				"help"
+			],
+			"positive": [
+				"help"
+			],
+			"negative": [
+				"impede"
+			]
+		}
+	},
+	{
+		"txt": " In general, Cw is not necessarily equal to the Cd shown in the drag formula. ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3253,
+		"nouns": [
+			"Cw",
+			"Cd",
+			"drag",
+			"formula"
+		],
+		"dOIndex": 244,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"formula"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.058823529411764705,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " Referring to ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3254,
+		"nouns": [],
+		"dOIndex": 245,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Referring"
+		]
+	},
+	{
+		"txt": "Figure 2 3, we'll define the wind direction ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3255,
+		"nouns": [
+			"Figure",
+			"ll",
+			"wind",
+			"direction"
+		],
+		"dOIndex": 246,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure",
+			"direction"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3256,
+		"nouns": [],
+		"dOIndex": 247,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "as measured by the angle γ. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3257,
+		"nouns": [
+			"angle",
+			"γ"
+		],
+		"dOIndex": 248,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " The x and z components of ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3258,
+		"nouns": [
+			"x",
+			"z",
+			"components"
+		],
+		"dOIndex": 249,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"components"
+		]
+	},
+	{
+		"txt": "the wind force can now be written in terms of the wind direction, γ, as follows:Fwx = Fw cos γ = –(Cw vw) cos γFwz = Fw sin γ = –(Cw vw) sin γ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3259,
+		"nouns": [
+			"wind",
+			"force",
+			"terms",
+			"wind",
+			"direction",
+			"γ",
+			"Fwx",
+			"Fw",
+			"cos",
+			"γ",
+			"–",
+			"Cw",
+			"vw",
+			"cos",
+			"γFwz",
+			"Fw",
+			"sin",
+			"γ",
+			"–",
+			"Cw",
+			"vw",
+			"sin",
+			"γ"
+		],
+		"dOIndex": 250,
+		"nouns2": [
+			"direction"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.11764705882352941,
+			"words": [
+				"sin",
+				"sin"
+			],
+			"positive": [],
+			"negative": [
+				"sin",
+				"sin"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 3260,
+		"nouns": [],
+		"dOIndex": 251,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3261,
+		"nouns": [],
+		"dOIndex": 252,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "We ignored the y direction as we assume the wind is flowing parallel to the ground. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3262,
+		"nouns": [
+			"y",
+			"direction",
+			"wind",
+			"ground"
+		],
+		"dOIndex": 253,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"direction"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.11764705882352941,
+			"words": [
+				"ignored"
+			],
+			"positive": [],
+			"negative": [
+				"ignored"
+			]
+		}
+	},
+	{
+		"txt": " Finally, let's apply a gravitational force to the projectile instead of specifying the effect of gravity as a constant acceleration, as we did in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3263,
+		"nouns": [
+			"force",
+			"projectile",
+			"effect",
+			"gravity",
+			"acceleration"
+		],
+		"dOIndex": 254,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Finally",
+			"projectile",
+			"gravity",
+			"acceleration"
+		]
+	},
+	{
+		"txt": "Chapter 2",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3264,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 255,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3265,
+		"nouns": [],
+		"dOIndex": 256,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " This allows you to include the force due to gravity in the equations of motion. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3266,
+		"nouns": [
+			"force",
+			"gravity",
+			"equations",
+			"motion"
+		],
+		"dOIndex": 257,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"gravity",
+			"equations"
+		]
+	},
+	{
+		"txt": " Assuming that the projectile is relatively close to sea level, the gravitational force can be written as:Fg = –m g j",
+		"why": "p",
+		"tags": [
+			"strong",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3267,
+		"nouns": [
+			"projectile",
+			"sea",
+			"level",
+			"force",
+			"Fg",
+			"–m",
+			"g",
+			"j"
+		],
+		"dOIndex": 258,
+		"nouns2": [
+			"Assuming",
+			"projectile"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "where the minus sign indicates that it acts in the negative y direction (pulling the projectile toward the earth), and g on the righthand side of this equation is the acceleration due to gravity at sea level.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3268,
+		"nouns": [
+			"sign",
+			"acts",
+			"y",
+			"direction",
+			"projectile",
+			"earth",
+			"g",
+			"righthand",
+			"side",
+			"equation",
+			"acceleration",
+			"gravity",
+			"sea",
+			"level"
+		],
+		"dOIndex": 259,
+		"nouns2": [
+			"direction",
+			"projectile",
+			"righthand",
+			"equation",
+			"acceleration",
+			"gravity"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.05405405405405406,
+			"words": [
+				"negative"
+			],
+			"positive": [],
+			"negative": [
+				"negative"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3269,
+		"nouns": [],
+		"dOIndex": 260,
+		"isQuote": false
+	},
+	{
+		"txt": "Now that all of the forces have been identified, you can write the equations of motion in each coordinate direction:ΣFx = Fwx + Fdx = m (dvx/dt)ΣFy = Fdy + Fgy = m (dvy/dt)ΣFz = Fwz + Fdz = m (dvz/dt)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3270,
+		"nouns": [
+			"forces",
+			"equations",
+			"motion",
+			"coordinate",
+			"direction",
+			"ΣFx",
+			"Fwx",
+			"Fdx",
+			"m",
+			"dvx",
+			"/",
+			"dt",
+			"ΣFy",
+			"Fdy",
+			"Fgy",
+			"m",
+			"dvy",
+			"/",
+			"dt",
+			"ΣFz",
+			"Fwz",
+			"Fdz",
+			"m",
+			"dvz",
+			"/",
+			"dt"
+		],
+		"dOIndex": 261,
+		"nouns2": [
+			"equations",
+			"coordinate",
+			"direction"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Note here that we already made the substitution dv/dt for acceleration in each equation. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3271,
+		"nouns": [
+			"substitution",
+			"dv",
+			"/",
+			"dt",
+			"acceleration",
+			"equation"
+		],
+		"dOIndex": 262,
+		"nouns2": [
+			"substitution",
+			"acceleration",
+			"equation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " Following the same procedure shown in the previous section, you now need to integrate each equation of motion twice once to find an equation for velocity as a function of time, and another to find an equation for displacement as a function of time. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3272,
+		"nouns": [
+			"procedure",
+			"section",
+			"equation",
+			"motion",
+			"equation",
+			"velocity",
+			"function",
+			"time",
+			"equation",
+			"displacement",
+			"function",
+			"time"
+		],
+		"dOIndex": 263,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Following",
+			"procedure",
+			"section",
+			"equation",
+			"velocity",
+			"function",
+			"displacement"
+		],
+		"highfreq": {
+			"equation": 3
+		}
+	},
+	{
+		"txt": " As before, we'll show you how this is done component by component.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3273,
+		"nouns": [
+			"ll",
+			"show",
+			"component",
+			"component"
+		],
+		"dOIndex": 264,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"component"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3274,
+		"nouns": [],
+		"dOIndex": 265,
+		"isQuote": false
+	},
+	{
+		"txt": "You might be asking yourself, where's the thrust force from the cannon that propels the projectile in the first place? ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3275,
+		"nouns": [
+			"thrust",
+			"force",
+			"cannon",
+			"projectile",
+			"first",
+			"place"
+		],
+		"dOIndex": 266,
+		"nouns2": [
+			"projectile"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " In this example, we're looking specifically at the motion of the projectile after it has left the muzzle of the cannon, where there is no longer a thrust force acting on the projectile; it isn't self propelled. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3276,
+		"nouns": [
+			"example",
+			"re",
+			"motion",
+			"projectile",
+			"muzzle",
+			"cannon",
+			"thrust",
+			"force",
+			"projectile",
+			"isn",
+			"t",
+			"self"
+		],
+		"dOIndex": 267,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"projectile"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.02564102564102564,
+			"words": [
+				"no"
+			],
+			"positive": [],
+			"negative": [
+				"no"
+			]
+		}
+	},
+	{
+		"txt": " To account for the effect of the cannon thrust force, which acts over a very short period of time while the projectile is within the cannon, you have to consider the muzzle velocity of the projectile when it initially leaves the cannon. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3277,
+		"nouns": [
+			"account",
+			"effect",
+			"cannon",
+			"thrust",
+			"force",
+			"acts",
+			"period",
+			"time",
+			"projectile",
+			"cannon",
+			"muzzle",
+			"velocity",
+			"projectile",
+			"cannon"
+		],
+		"dOIndex": 268,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"account",
+			"projectile",
+			"velocity"
+		],
+		"highfreq": {
+			"cannon": 3
+		}
+	},
+	{
+		"txt": " The components of the muzzle velocity in the coordinate directions will become initial velocities in each direction, and they will be included in the equations of motion once they've been integrated. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3278,
+		"nouns": [
+			"components",
+			"muzzle",
+			"velocity",
+			"coordinate",
+			"directions",
+			"velocities",
+			"direction",
+			"equations",
+			"motion",
+			"ve"
+		],
+		"dOIndex": 269,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"components",
+			"velocity",
+			"coordinate",
+			"directions",
+			"velocities",
+			"direction",
+			"equations"
+		]
+	},
+	{
+		"txt": " The initial velocities will show up in the velocity and displacement equations just like they did in the example in ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3279,
+		"nouns": [
+			"velocities",
+			"show",
+			"velocity",
+			"displacement",
+			"equations",
+			"example"
+		],
+		"dOIndex": 270,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocities",
+			"velocity",
+			"displacement",
+			"equations",
+			"example"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.09090909090909091,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "Chapter 2",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3280,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 271,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3281,
+		"nouns": [],
+		"dOIndex": 272,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " You'll see this in the following ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3282,
+		"nouns": [
+			"ll"
+		],
+		"dOIndex": 273,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "sections.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3283,
+		"nouns": [
+			"sections"
+		],
+		"dOIndex": 274,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"sections"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3284,
+		"nouns": [],
+		"dOIndex": 275,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3285,
+		"nouns": [],
+		"dOIndex": 276,
+		"isQuote": false
+	},
+	{
+		"txt": "X Components",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3286,
+		"nouns": [
+			"X Components"
+		],
+		"dOIndex": 277,
+		"nouns2": [
+			"Components"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3287,
+		"nouns": [],
+		"dOIndex": 278,
+		"isQuote": false
+	},
+	{
+		"txt": "The first step is ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3288,
+		"nouns": [
+			"first",
+			"step"
+		],
+		"dOIndex": 279,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "to make the appropriate substitutions for the force terms in the equation of motion, and then integrate to find an equation for velocity.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3289,
+		"nouns": [
+			"substitutions",
+			"force",
+			"terms",
+			"equation",
+			"motion",
+			"equation",
+			"velocity"
+		],
+		"dOIndex": 280,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"substitutions",
+			"equation",
+			"velocity"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08695652173913043,
+			"words": [
+				"appropriate"
+			],
+			"positive": [
+				"appropriate"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "–Fwx – Fdx = m(dvx/dt)–(Cw vw cos γ) – Cd vx = m dvx/dtdt = m dvx / [–(Cw vw cos γ) – Cd vx]∫(0 to t) dt = ∫(vx1 to vx2) –m / [(Cw vw cos γ) + Cd vx] dvxt = –(m/Cd) ln((Cw vw cos γ) + Cd vx)| (vx1 to vx2)t = –(m/Cd) ln((Cw vw cos γ) + Cd vx2) + (m/Cd) ln((Cw vw cos γ) + Cd vx1)(Cd/m) t = ln[((Cw vw cos γ) + Cd vx1) / ((Cw vw cos γ) + Cd vx2)]e(Cd/m) t = eln[((Cwvwcos γ) + Cd vx1) / ((Cw vw cos γ) + Cdvx2)]e(Cd/m) t = ((Cw vw cos γ) + Cd vx1) / ((Cw vw cos γ) + Cd vx2)((Cw vw cos γ) + Cd vx2) = ((Cw vw cos γ) + Cd vx1) e–(Cd/m) tvx2 = (1/Cd) [ e(–Cd/m) t (cw vw cos γ + Cd vx1) – (Cw vw cos γ)]",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3290,
+		"nouns": [
+			"–Fwx",
+			"–",
+			"Fdx",
+			"m",
+			"dvx",
+			"/",
+			"dt",
+			"–",
+			"Cw",
+			"vw",
+			"cos",
+			"γ",
+			"–",
+			"Cd",
+			"vx",
+			"m",
+			"dvx",
+			"/",
+			"dtdt",
+			"m",
+			"dvx",
+			"/",
+			"[–",
+			"Cw",
+			"vw",
+			"cos",
+			"γ",
+			"–",
+			"Cd",
+			"vx]∫",
+			"t",
+			"dt",
+			"∫",
+			"vx",
+			"vx",
+			"–m",
+			"/",
+			"Cw",
+			"vw",
+			"cos",
+			"γ",
+			"Cd",
+			"vx]",
+			"dvxt",
+			"–",
+			"m",
+			"/",
+			"Cd",
+			"ln",
+			"Cw",
+			"vw",
+			"cos",
+			"γ",
+			"Cd",
+			"vx",
+			"|",
+			"vx",
+			"vx",
+			"t",
+			"–",
+			"m",
+			"/",
+			"Cd",
+			"ln",
+			"Cw",
+			"vw",
+			"cos",
+			"γ",
+			"Cd",
+			"vx",
+			"m",
+			"/",
+			"Cd",
+			"ln",
+			"Cw",
+			"vw",
+			"cos",
+			"γ",
+			"Cd",
+			"vx",
+			"Cd",
+			"/",
+			"m",
+			"t",
+			"ln[",
+			"Cw",
+			"vw",
+			"cos",
+			"γ",
+			"Cd",
+			"vx",
+			"/",
+			"Cw",
+			"vw",
+			"cos",
+			"γ",
+			"Cd",
+			"vx",
+			"]e",
+			"Cd",
+			"/",
+			"m",
+			"t",
+			"eln[",
+			"Cwvwcos",
+			"γ",
+			"Cd",
+			"vx",
+			"/",
+			"Cw",
+			"vw",
+			"cos",
+			"γ",
+			"Cdvx",
+			"]e",
+			"Cd",
+			"/",
+			"m",
+			"t",
+			"Cw",
+			"vw",
+			"cos",
+			"γ",
+			"Cd",
+			"vx",
+			"/",
+			"Cw",
+			"vw",
+			"cos",
+			"γ",
+			"Cd",
+			"vx",
+			"Cw",
+			"vw",
+			"cos",
+			"γ",
+			"Cd",
+			"vx",
+			"Cw",
+			"vw",
+			"cos",
+			"γ",
+			"Cd",
+			"vx",
+			"e–",
+			"Cd",
+			"/",
+			"m",
+			"tvx",
+			"/",
+			"Cd",
+			"e",
+			"–Cd",
+			"/",
+			"m",
+			"t",
+			"cw",
+			"vw",
+			"cos",
+			"γ",
+			"Cd",
+			"vx",
+			"–",
+			"Cw",
+			"vw",
+			"cos",
+			"γ"
+		],
+		"dOIndex": 281,
+		"nouns2": [
+			"Cwvwcos"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3291,
+		"nouns": [],
+		"dOIndex": 282,
+		"isQuote": false
+	},
+	{
+		"txt": "To get an equation for displacement as a function of time, you need to recall the equation v dt = ds, make the substitution for v (using the preceding equation) and then integrate one more time.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3292,
+		"nouns": [
+			"equation",
+			"displacement",
+			"function",
+			"time",
+			"equation",
+			"v",
+			"dt",
+			"ds",
+			"substitution",
+			"v",
+			"equation",
+			"one",
+			"time"
+		],
+		"dOIndex": 283,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equation",
+			"displacement",
+			"function",
+			"substitution"
+		],
+		"highfreq": {
+			"equation": 3
+		}
+	},
+	{
+		"txt": "vx2 dt = dsx(1/Cd) [e(–Cd/m) t (cw vw cos γ + Cd vx1) – (cw vw cos γ)] dt = dsx∫(0 to t) (1/Cd) [e(–Cd/m) t (cw vw cos γ + Cd vx1) – (cw vw cos γ)] dt == ∫(sx1 to sx2) dsxsx2 = [(m/Cd) e(–Cd/m) t (–(Cw vw cos γ) / Cd – vx1) – ((Cw vw cos γ) / Cd) t] –[(m/Cd) (–(Cw vw cos γ) / Cd – vx1)] + sx1",
+		"why": "p",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3293,
+		"nouns": [
+			"vx",
+			"dt",
+			"dsx",
+			"/",
+			"Cd",
+			"[e",
+			"–Cd",
+			"/",
+			"m",
+			"t",
+			"cw",
+			"vw",
+			"cos",
+			"γ",
+			"Cd",
+			"vx",
+			"–",
+			"cw",
+			"vw",
+			"cos",
+			"γ",
+			"dt",
+			"dsx∫",
+			"t",
+			"/",
+			"Cd",
+			"[e",
+			"–Cd",
+			"/",
+			"m",
+			"t",
+			"cw",
+			"vw",
+			"cos",
+			"γ",
+			"Cd",
+			"vx",
+			"–",
+			"cw",
+			"vw",
+			"cos",
+			"γ",
+			"dt",
+			"==",
+			"∫",
+			"sx",
+			"sx",
+			"dsxsx",
+			"m",
+			"/",
+			"Cd",
+			"e",
+			"–Cd",
+			"/",
+			"m",
+			"t",
+			"–",
+			"Cw",
+			"vw",
+			"cos",
+			"γ",
+			"/",
+			"Cd",
+			"–",
+			"vx",
+			"–",
+			"Cw",
+			"vw",
+			"cos",
+			"γ",
+			"/",
+			"Cd",
+			"t]",
+			"–[",
+			"m",
+			"/",
+			"Cd",
+			"–",
+			"Cw",
+			"vw",
+			"cos",
+			"γ",
+			"/",
+			"Cd",
+			"–",
+			"vx",
+			"sx"
+		],
+		"dOIndex": 284,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3294,
+		"nouns": [],
+		"dOIndex": 285,
+		"isQuote": false
+	},
+	{
+		"txt": "Yes, these equations are ugly. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3295,
+		"nouns": [
+			"equations"
+		],
+		"dOIndex": 286,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equations"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.3333333333333333,
+			"words": [
+				"ugly",
+				"yes"
+			],
+			"positive": [
+				"yes"
+			],
+			"negative": [
+				"ugly"
+			]
+		}
+	},
+	{
+		"txt": " Just imagine if we hadn't made the simplifying assumption that drag is proportional to speed and not speed squared! ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3296,
+		"nouns": [
+			"hadn",
+			"t",
+			"assumption",
+			"drag"
+		],
+		"dOIndex": 287,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"assumption"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.047619047619047616,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " You would have ended up with some really nice equations with an arctan term or two thrown in.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3297,
+		"nouns": [
+			"equations",
+			"arctan",
+			"term",
+			"two"
+		],
+		"dOIndex": 288,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equations"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.15789473684210525,
+			"words": [
+				"nice"
+			],
+			"positive": [
+				"nice"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3298,
+		"nouns": [],
+		"dOIndex": 289,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3299,
+		"nouns": [],
+		"dOIndex": 290,
+		"isQuote": false
+	},
+	{
+		"txt": "Y Components",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3300,
+		"nouns": [
+			"Y Components"
+		],
+		"dOIndex": 291,
+		"nouns2": [
+			"Components"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3301,
+		"nouns": [],
+		"dOIndex": 292,
+		"isQuote": false
+	},
+	{
+		"txt": "For the y components, ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3302,
+		"nouns": [
+			"y",
+			"components"
+		],
+		"dOIndex": 293,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"components"
+		]
+	},
+	{
+		"txt": "you need to follow the same procedure shown earlier for the x",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3303,
+		"nouns": [
+			"procedure",
+			"x"
+		],
+		"dOIndex": 294,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"procedure"
+		]
+	},
+	{
+		"txt": " components, but with the appropriate y direction forces. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3304,
+		"nouns": [
+			"components",
+			"y",
+			"direction",
+			"forces"
+		],
+		"dOIndex": 295,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"components",
+			"direction"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.2,
+			"words": [
+				"appropriate"
+			],
+			"positive": [
+				"appropriate"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Here's what it looks like:–Fdy – Fgy = m (dvy/dt)–Cd vy – m g = m (dvy/dt)∫(0 to t) dt = –m ∫(vy1 to vy2) 1/(Cd vy + m g) dvyvy2 = (1/Cd) e(–Cd/m)t (Cd vy1 + m g) – (m g)/Cd",
+		"why": "p",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3305,
+		"nouns": [
+			"–Fdy",
+			"–",
+			"Fgy",
+			"m",
+			"dvy",
+			"/",
+			"dt",
+			"–Cd",
+			"vy",
+			"–",
+			"m",
+			"g",
+			"m",
+			"dvy",
+			"/",
+			"dt",
+			"∫",
+			"t",
+			"dt",
+			"–m",
+			"∫",
+			"vy",
+			"vy",
+			"/",
+			"Cd",
+			"vy",
+			"m",
+			"g",
+			"dvyvy",
+			"/",
+			"Cd",
+			"e",
+			"–Cd",
+			"/",
+			"m",
+			"t",
+			"Cd",
+			"vy",
+			"m",
+			"g",
+			"–",
+			"m",
+			"g",
+			"/",
+			"Cd"
+		],
+		"dOIndex": 296,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3306,
+		"nouns": [],
+		"dOIndex": 297,
+		"isQuote": false
+	},
+	{
+		"txt": "Now that you have an equation for velocity, you can proceed to get an equation for displacement as before:vy2 dt = dsy[(1/Cd) e(–Cd/m)t (Cd vy1 + m g) – (m g)/Cd] dt = dsy∫(0 to t) [(1/Cd) e(–Cd/m)t (Cd vy1 + m g) – (m g)/Cd] dt = ∫(sy1 to sy2) dsysy2 = sy1 + [–(vy1 + (m g)/Cd) (m/Cd) e(–Cd/m)t – t (m g)/Cd] + [(m/Cd)(vy1 + (m g)/Cd)]",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3307,
+		"nouns": [
+			"equation",
+			"velocity",
+			"equation",
+			"displacement",
+			"vy",
+			"dt",
+			"dsy[",
+			"/",
+			"Cd",
+			"e",
+			"–Cd",
+			"/",
+			"m",
+			"t",
+			"Cd",
+			"vy",
+			"m",
+			"g",
+			"–",
+			"m",
+			"g",
+			"/",
+			"Cd]",
+			"dt",
+			"dsy∫",
+			"t",
+			"/",
+			"Cd",
+			"e",
+			"–Cd",
+			"/",
+			"m",
+			"t",
+			"Cd",
+			"vy",
+			"m",
+			"g",
+			"–",
+			"m",
+			"g",
+			"/",
+			"Cd]",
+			"dt",
+			"∫",
+			"sy",
+			"sy",
+			"dsysy",
+			"sy",
+			"[–",
+			"vy",
+			"m",
+			"g",
+			"/",
+			"Cd",
+			"m",
+			"/",
+			"Cd",
+			"e",
+			"–Cd",
+			"/",
+			"m",
+			"t",
+			"–",
+			"t",
+			"m",
+			"g",
+			"/",
+			"Cd]",
+			"m",
+			"/",
+			"Cd",
+			"vy",
+			"m",
+			"g",
+			"/",
+			"Cd"
+		],
+		"dOIndex": 298,
+		"nouns2": [
+			"equation",
+			"velocity",
+			"displacement"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3308,
+		"nouns": [],
+		"dOIndex": 299,
+		"isQuote": false
+	},
+	{
+		"txt": "OK, that's two down and only one more to go.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3309,
+		"nouns": [
+			"two",
+			"one"
+		],
+		"dOIndex": 300,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3310,
+		"nouns": [],
+		"dOIndex": 301,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3311,
+		"nouns": [],
+		"dOIndex": 302,
+		"isQuote": false
+	},
+	{
+		"txt": "Z Components",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3312,
+		"nouns": [
+			"Z Components"
+		],
+		"dOIndex": 303,
+		"nouns2": [
+			"Components"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3313,
+		"nouns": [],
+		"dOIndex": 304,
+		"isQuote": false
+	},
+	{
+		"txt": "With the z component, ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3314,
+		"nouns": [
+			"z",
+			"component"
+		],
+		"dOIndex": 305,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"component"
+		]
+	},
+	{
+		"txt": "you get a break. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3315,
+		"nouns": [
+			"break"
+		],
+		"dOIndex": 306,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " You'll notice that the equations of motion for the x and z components look almost the same with the exception of the x and z subscripts and the sine versus cosine terms. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3316,
+		"nouns": [
+			"ll",
+			"notice",
+			"equations",
+			"motion",
+			"x",
+			"z",
+			"components",
+			"exception",
+			"x",
+			"z",
+			"subscripts",
+			"cosine",
+			"terms"
+		],
+		"dOIndex": 307,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equations",
+			"components",
+			"exception",
+			"subscripts"
+		]
+	},
+	{
+		"txt": " Taking advantage of this fact, you can simply copy the x component equations and replace the x subscript with a z and the cosine terms with sines and be done with it:vz2 = (1/Cd) [e(–Cd/m)t (cw vw sin γ + Cd vz1) – (cw vw sin γ)]sz2 = [(m/Cd) e(–Cd/m)t (–(Cw vw sin γ) / Cd – vz1) – ((Cw vw sin γ)/Cd) t] –[(m/Cd) (–(Cw vw sin γ)/Cd – vz1)] + sz1",
+		"why": "br tag like",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3317,
+		"nouns": [
+			"advantage",
+			"fact",
+			"copy",
+			"x",
+			"component",
+			"equations",
+			"x",
+			"subscript",
+			"z",
+			"cosine",
+			"terms",
+			"sines",
+			"vz",
+			"/",
+			"Cd",
+			"[e",
+			"–Cd",
+			"/",
+			"m",
+			"t",
+			"cw",
+			"vw",
+			"sin",
+			"γ",
+			"Cd",
+			"vz",
+			"–",
+			"cw",
+			"vw",
+			"sin",
+			"γ",
+			"]sz",
+			"m",
+			"/",
+			"Cd",
+			"e",
+			"–Cd",
+			"/",
+			"m",
+			"t",
+			"–",
+			"Cw",
+			"vw",
+			"sin",
+			"γ",
+			"/",
+			"Cd",
+			"–",
+			"vz",
+			"–",
+			"Cw",
+			"vw",
+			"sin",
+			"γ",
+			"/",
+			"Cd",
+			"t]",
+			"–[",
+			"m",
+			"/",
+			"Cd",
+			"–",
+			"Cw",
+			"vw",
+			"sin",
+			"γ",
+			"/",
+			"Cd",
+			"–",
+			"vz",
+			"sz"
+		],
+		"dOIndex": 308,
+		"nouns2": [
+			"Taking",
+			"advantage",
+			"component",
+			"equations",
+			"subscript"
+		],
+		"highfreq": {
+			"with": 3
+		},
+		"sentiment": {
+			"score": -8,
+			"comparative": -0.10810810810810811,
+			"words": [
+				"sin",
+				"sin",
+				"sin",
+				"sin",
+				"sin",
+				"advantage"
+			],
+			"positive": [
+				"advantage"
+			],
+			"negative": [
+				"sin",
+				"sin",
+				"sin",
+				"sin",
+				"sin"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3318,
+		"nouns": [],
+		"dOIndex": 309,
+		"isQuote": false
+	},
+	{
+		"txt": "Cannon Revised",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3319,
+		"nouns": [
+			"Cannon"
+		],
+		"dOIndex": 310,
+		"nouns2": [
+			"Cannon",
+			"Revised"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3320,
+		"nouns": [],
+		"dOIndex": 311,
+		"isQuote": false
+	},
+	{
+		"txt": "Now that you have some new equations for the projectile's displacement in each coordinate direction, you can go to the cannon example source code and replace the old displacement calculation formulas with the new ones. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3321,
+		"nouns": [
+			"equations",
+			"projectile",
+			"displacement",
+			"coordinate",
+			"direction",
+			"cannon",
+			"example",
+			"source",
+			"code",
+			"displacement",
+			"calculation",
+			"formulas",
+			"ones"
+		],
+		"dOIndex": 312,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equations",
+			"projectile",
+			"displacement",
+			"coordinate",
+			"direction",
+			"example",
+			"calculation",
+			"formulas"
+		]
+	},
+	{
+		"txt": " Make the changes in the DoSimulation function as follows:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3322,
+		"nouns": [
+			"changes",
+			"DoSimulation",
+			"function"
+		],
+		"dOIndex": 313,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"changes",
+			"DoSimulation",
+			"function"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 3323,
+		"nouns": [],
+		"dOIndex": 314,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3324,
+		"nouns": [],
+		"dOIndex": 315,
+		"isQuote": false
+	},
+	{
+		"txt": "To take into account the cross wind and drag, you'll need to add some new global variables to store the wind speed and direction, the mass of the projectile, and the drag coefficients. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3325,
+		"nouns": [
+			"account",
+			"cross",
+			"wind",
+			"drag",
+			"ll",
+			"variables",
+			"store",
+			"wind",
+			"direction",
+			"mass",
+			"projectile",
+			"drag",
+			"coefficients"
+		],
+		"dOIndex": 316,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"account",
+			"variables",
+			"direction",
+			"projectile",
+			"coefficients"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.058823529411764705,
+			"words": [
+				"drag",
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag",
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " You'll also have to add some controls in the dialog window so that you can change these variables when you run the program. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3326,
+		"nouns": [
+			"ll",
+			"controls",
+			"dialog",
+			"window",
+			"change",
+			"variables",
+			"program"
+		],
+		"dOIndex": 317,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"controls",
+			"variables",
+			"program"
+		]
+	},
+	{
+		"txt": " ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3327,
+		"nouns": [],
+		"dOIndex": 318,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 4 5",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3328,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 319,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " shows how we added these interface controls in the upper right corner of the main window.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3329,
+		"nouns": [
+			"interface",
+			"controls",
+			"right",
+			"corner",
+			"window"
+		],
+		"dOIndex": 320,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"interface",
+			"controls"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3330,
+		"nouns": [],
+		"dOIndex": 321,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3331,
+		"nouns": [],
+		"dOIndex": 322,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3332,
+		"nouns": [],
+		"dOIndex": 323,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3333,
+		"nouns": [],
+		"dOIndex": 324,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3334,
+		"nouns": [],
+		"dOIndex": 325,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 4 5. Revised cannon example screenshot",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3335,
+		"nouns": [
+			"Figure",
+			"cannon",
+			"example",
+			"screenshot"
+		],
+		"dOIndex": 326,
+		"nouns2": [
+			"Figure",
+			"Revised",
+			"example",
+			"screenshot"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3336,
+		"nouns": [],
+		"dOIndex": 327,
+		"isQuote": false
+	},
+	{
+		"txt": "We also added these lines to the DemoDlgProc function to handle the new wind speed and direction values:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3337,
+		"nouns": [
+			"lines",
+			"DemoDlgProc",
+			"function",
+			"wind",
+			"direction",
+			"values"
+		],
+		"dOIndex": 328,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"DemoDlgProc",
+			"function",
+			"direction"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 3338,
+		"nouns": [],
+		"dOIndex": 329,
+		"isQuote": false
+	},
+	{
+		"txt": "After playing with this example program, you should readily see that the trajectory of the projectile is noticeably different from that typically obtained in the original example. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3339,
+		"nouns": [
+			"example",
+			"program",
+			"trajectory",
+			"projectile",
+			"example"
+		],
+		"dOIndex": 330,
+		"nouns2": [
+			"example",
+			"program",
+			"trajectory",
+			"projectile"
+		],
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": true,
+		"nounsProcAll": [
+			"example",
+			"program",
+			"trajectory",
+			"projectile",
+			"example"
+		]
+	},
+	{
+		"txt": " By adjusting the values of the wind speed, direction, and drag coefficients, you can dramatically affect the projectile's trajectory. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3340,
+		"nouns": [
+			"values",
+			"wind",
+			"direction",
+			"drag",
+			"coefficients",
+			"projectile",
+			"trajectory"
+		],
+		"dOIndex": 331,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"values",
+			"wind",
+			"direction",
+			"drag",
+			"coefficients",
+			"projectile",
+			"trajectory"
+		],
+		"nouns2": [
+			"direction",
+			"coefficients",
+			"projectile",
+			"trajectory"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.047619047619047616,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " If you set the wind speed to 0 and the drag coefficients to 1, the trajectory will look like that obtained in the original example, where wind and drag were not taken into account. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3341,
+		"nouns": [
+			"wind",
+			"drag",
+			"coefficients",
+			"trajectory",
+			"example",
+			"wind",
+			"drag",
+			"account"
+		],
+		"dOIndex": 332,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"wind",
+			"drag",
+			"coefficients",
+			"trajectory",
+			"example",
+			"wind",
+			"drag",
+			"account"
+		],
+		"nouns2": [
+			"coefficients",
+			"trajectory",
+			"example",
+			"account"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"drag",
+				"like",
+				"drag"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": [
+				"drag",
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " Be careful, though: don't set the drag coefficient to 0 because this will result in a ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3342,
+		"nouns": [
+			"t",
+			"drag",
+			"coefficient",
+			"result"
+		],
+		"dOIndex": 333,
+		"ignoreDOBcNoQuotes": false,
+		"isQuote": false,
+		"nounsProcAll": [
+			"t",
+			"drag",
+			"coefficient",
+			"result"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"coefficient"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.05555555555555555,
+			"words": [
+				"drag",
+				"careful"
+			],
+			"positive": [
+				"careful"
+			],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " \"divide by zero\" ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3343,
+		"nouns": [
+			"zero"
+		],
+		"dOIndex": 334,
+		"isQuote": true,
+		"nounsProcAll": [
+			"zero"
+		],
+		"sfxfx": [],
+		"gspkNameUnknown": "narrator"
+	},
+	{
+		"txt": " error. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3344,
+		"nouns": [
+			"error"
+		],
+		"dOIndex": 335,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [
+			"error"
+		],
+		"sfxfx": [],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.6666666666666666,
+			"words": [
+				"error"
+			],
+			"positive": [],
+			"negative": [
+				"error"
+			]
+		}
+	},
+	{
+		"txt": " We didn't put the exception handler in the program, but you can see that it will happen by looking at the displacement vector formulas where the drag coefficient appears in the denominator of several terms.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3345,
+		"nouns": [
+			"t",
+			"exception",
+			"handler",
+			"program",
+			"displacement",
+			"vector",
+			"formulas",
+			"drag",
+			"coefficient",
+			"denominator",
+			"terms"
+		],
+		"dOIndex": 336,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"t",
+			"exception",
+			"handler",
+			"program",
+			"displacement",
+			"vector",
+			"formulas",
+			"drag",
+			"coefficient",
+			"denominator",
+			"terms"
+		],
+		"nouns2": [
+			"exception",
+			"handler",
+			"program",
+			"displacement",
+			"formulas",
+			"coefficient",
+			"denominator"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.027777777777777776,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3346,
+		"nouns": [],
+		"dOIndex": 337,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3347,
+		"nouns": [],
+		"dOIndex": 338,
+		"isQuote": false
+	},
+	{
+		"txt": "From a user's perspective, if this were a video game, the problem of hitting the target becomes much more challenging when wind and drag are taken into account. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3348,
+		"nouns": [
+			"user",
+			"perspective",
+			"were",
+			"video",
+			"game",
+			"problem",
+			"target",
+			"wind",
+			"drag",
+			"account"
+		],
+		"dOIndex": 339,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"perspective",
+			"problem",
+			"account"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.10344827586206896,
+			"words": [
+				"drag",
+				"problem"
+			],
+			"positive": [],
+			"negative": [
+				"drag",
+				"problem"
+			]
+		}
+	},
+	{
+		"txt": " The wind element is particularly interesting because you can change the wind speed and direction during game play, forcing the user to pay careful attention to the wind in order to accurately hit the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3349,
+		"nouns": [
+			"wind",
+			"element",
+			"change",
+			"wind",
+			"direction",
+			"game",
+			"user",
+			"attention",
+			"wind",
+			"order"
+		],
+		"dOIndex": 340,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"element",
+			"direction",
+			"attention"
+		],
+		"highfreq": {
+			"wind": 3
+		},
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.08333333333333333,
+			"words": [
+				"careful",
+				"pay",
+				"interesting"
+			],
+			"positive": [
+				"careful",
+				"interesting"
+			],
+			"negative": [
+				"pay"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3350,
+		"nouns": [],
+		"dOIndex": 341,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3351,
+		"nouns": [],
+		"dOIndex": 342,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3352,
+		"nouns": [],
+		"dOIndex": 343,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "target.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3353,
+		"nouns": [
+			"target"
+		],
+		"dOIndex": 344,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3354,
+		"nouns": [],
+		"dOIndex": 345,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3355,
+		"nouns": [],
+		"dOIndex": 346,
+		"isQuote": false
+	},
+	{
+		"txt": "Rigid Body Kinetics",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3356,
+		"nouns": [
+			"Body",
+			"Kinetics"
+		],
+		"dOIndex": 347,
+		"nouns2": [
+			"Kinetics"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3357,
+		"nouns": [],
+		"dOIndex": 348,
+		"isQuote": false
+	},
+	{
+		"txt": "You already know ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3358,
+		"nouns": [],
+		"dOIndex": 349,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3359,
+		"nouns": [],
+		"dOIndex": 350,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "from your study of kinematics in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3360,
+		"nouns": [
+			"study",
+			"kinematics"
+		],
+		"dOIndex": 351,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"kinematics"
+		]
+	},
+	{
+		"txt": "Chapter 2 that dealing with rigid bodies adds rotation, or ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3361,
+		"nouns": [
+			"Chapter",
+			"bodies",
+			"rotation"
+		],
+		"dOIndex": 352,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter",
+			"rotation"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3362,
+		"nouns": [],
+		"dOIndex": 353,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3363,
+		"nouns": [],
+		"dOIndex": 354,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "angular motion, into the mix of things to consider. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3364,
+		"nouns": [
+			"motion",
+			"mix",
+			"things"
+		],
+		"dOIndex": 355,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " As we stated earlier, the equations of motion now consist of a set of equations that relate forces to linear accelerations and another set of equations that relate moments to angular accelerations. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3365,
+		"nouns": [
+			"equations",
+			"motion",
+			"equations",
+			"forces",
+			"accelerations",
+			"equations",
+			"moments",
+			"accelerations"
+		],
+		"dOIndex": 356,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equations",
+			"accelerations",
+			"moments"
+		],
+		"highfreq": {
+			"equations": 3
+		}
+	},
+	{
+		"txt": " Alternatively, you can think of the equations of motion as relating forces to the rate of change in linear momentum, and moments to the rate of change in angular momentum, as discussed in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3366,
+		"nouns": [
+			"equations",
+			"motion",
+			"forces",
+			"rate",
+			"change",
+			"momentum",
+			"moments",
+			"rate",
+			"change",
+			"momentum"
+		],
+		"dOIndex": 357,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Alternatively",
+			"equations",
+			"momentum",
+			"moments"
+		]
+	},
+	{
+		"txt": "Chapter 1",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3367,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 358,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3368,
+		"nouns": [],
+		"dOIndex": 359,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3369,
+		"nouns": [],
+		"dOIndex": 360,
+		"isQuote": false
+	},
+	{
+		"txt": "As in kinematics, the procedure for dealing with rigid body kinetics problems involves two distinct aspects: 1) tracking the translation of the body's center of mass, where the body is treated as a particle, and 2) tracking the body's rotation, where you'll utilize the principles of local coordinates and relative angular velocity and acceleration, as discussed in ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3370,
+		"nouns": [
+			"kinematics",
+			"procedure",
+			"body",
+			"kinetics",
+			"problems",
+			"two",
+			"aspects",
+			"translation",
+			"body",
+			"center",
+			"mass",
+			"body",
+			"particle",
+			"body",
+			"rotation",
+			"ll",
+			"principles",
+			"coordinates",
+			"velocity",
+			"acceleration"
+		],
+		"dOIndex": 361,
+		"nouns2": [
+			"kinematics",
+			"procedure",
+			"kinetics",
+			"problems",
+			"aspects",
+			"translation",
+			"particle",
+			"rotation",
+			"principles",
+			"coordinates",
+			"velocity",
+			"acceleration"
+		],
+		"highfreq": {
+			"body": 4
+		},
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.034482758620689655,
+			"words": [
+				"problems"
+			],
+			"positive": [],
+			"negative": [
+				"problems"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 2",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3371,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 362,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3372,
+		"nouns": [],
+		"dOIndex": 363,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Really, the only difference between rigid body kinematics and kinetics problems is that in kinetics problems we have forces to consider (including their resulting moments).",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3373,
+		"nouns": [
+			"difference",
+			"body",
+			"kinematics",
+			"kinetics",
+			"problems",
+			"kinetics",
+			"problems",
+			"forces",
+			"moments"
+		],
+		"dOIndex": 364,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Really",
+			"difference",
+			"kinematics",
+			"kinetics",
+			"problems",
+			"moments"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.15384615384615385,
+			"words": [
+				"problems",
+				"problems"
+			],
+			"positive": [],
+			"negative": [
+				"problems",
+				"problems"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3374,
+		"nouns": [],
+		"dOIndex": 365,
+		"isQuote": false
+	},
+	{
+		"txt": "The vector equations are repeated here for convenience:F = maMcg = I α",
+		"why": "p",
+		"tags": [
+			"strong",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3375,
+		"nouns": [
+			"vector",
+			"equations",
+			"convenience",
+			"F",
+			"maMcg",
+			"α"
+		],
+		"dOIndex": 366,
+		"nouns2": [
+			"equations",
+			"convenience"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "where in two dimensions:ΣF = ΣFxi + ΣFyjΣF = ",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3376,
+		"nouns": [
+			"two",
+			"dimensions",
+			"ΣF",
+			"ΣFxi",
+			"ΣFyjΣF"
+		],
+		"dOIndex": 367,
+		"nouns2": [
+			"dimensions",
+			"ΣFyjΣF"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Going from two dimensional particle problems to two dimensional rigid body problems involves only the addition of one more equation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3377,
+		"nouns": [
+			"two",
+			"particle",
+			"problems",
+			"two",
+			"body",
+			"problems",
+			"addition",
+			"one",
+			"equation"
+		],
+		"dOIndex": 368,
+		"nouns2": [
+			"particle",
+			"problems",
+			"addition",
+			"equation"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.19047619047619047,
+			"words": [
+				"problems",
+				"problems"
+			],
+			"positive": [],
+			"negative": [
+				"problems",
+				"problems"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " This equation is, of course, the moment equation relating the sum of all moments acting on the body to the body's ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3378,
+		"nouns": [
+			"equation",
+			"course",
+			"moment",
+			"equation",
+			"sum",
+			"moments",
+			"body",
+			"body"
+		],
+		"dOIndex": 369,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equation",
+			"moments"
+		]
+	},
+	{
+		"txt": "moment of inertia and its angular acceleration. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3379,
+		"nouns": [
+			"moment",
+			"inertia",
+			"acceleration"
+		],
+		"dOIndex": 370,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"inertia",
+			"acceleration"
+		]
+	},
+	{
+		"txt": " In plane motion, the axis of rotation of the rigid body is always perpendicular to the coordinate plane. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3380,
+		"nouns": [
+			"plane",
+			"motion",
+			"axis",
+			"rotation",
+			"body",
+			"coordinate",
+			"plane"
+		],
+		"dOIndex": 371,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"rotation",
+			"coordinate"
+		]
+	},
+	{
+		"txt": " And since there is only one axis of rotation, there is only one inertia term and one ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3381,
+		"nouns": [
+			"one",
+			"axis",
+			"rotation",
+			"one",
+			"inertia",
+			"term",
+			"one"
+		],
+		"dOIndex": 372,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"rotation",
+			"inertia"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3382,
+		"nouns": [],
+		"dOIndex": 373,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "angular acceleration term to consider. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3383,
+		"nouns": [
+			"acceleration",
+			"term"
+		],
+		"dOIndex": 374,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"acceleration"
+		]
+	},
+	{
+		"txt": " Thus, you can write:Mcg = I α",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3384,
+		"nouns": [
+			"Mcg",
+			"α"
+		],
+		"dOIndex": 375,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3385,
+		"nouns": [],
+		"dOIndex": 376,
+		"isQuote": false
+	},
+	{
+		"txt": "where Mcg is the total moment and is calculated with the formulas discussed in the section ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3386,
+		"nouns": [
+			"Mcg",
+			"moment",
+			"formulas",
+			"section"
+		],
+		"dOIndex": 377,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"formulas",
+			"section"
+		]
+	},
+	{
+		"txt": "Force and Torque in ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3387,
+		"nouns": [
+			"Force",
+			"Torque"
+		],
+		"dOIndex": 378,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Torque"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3388,
+		"nouns": [],
+		"dOIndex": 379,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 3, and I is calculated about the axis of rotation using the techniques discussed in the section ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3389,
+		"nouns": [
+			"Chapter",
+			"axis",
+			"rotation",
+			"techniques",
+			"section"
+		],
+		"dOIndex": 380,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter",
+			"rotation",
+			"techniques",
+			"section"
+		]
+	},
+	{
+		"txt": "Mass, Center of Mass, and Moment of Inertia in ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3390,
+		"nouns": [
+			"Mass",
+			"Center",
+			"Mass",
+			"Moment",
+			"Inertia"
+		],
+		"dOIndex": 381,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Center",
+			"Moment",
+			"Inertia"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3391,
+		"nouns": [],
+		"dOIndex": 382,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 1 .",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3392,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 383,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3393,
+		"nouns": [],
+		"dOIndex": 384,
+		"isQuote": false
+	},
+	{
+		"txt": "In their component forms, the set of equations of motion for two dimensional kinetics problems are:ΣFx = m axΣFy = m ayΣMcg = I α",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3394,
+		"nouns": [
+			"component",
+			"forms",
+			"equations",
+			"motion",
+			"two",
+			"kinetics",
+			"problems",
+			"ΣFx",
+			"m",
+			"axΣFy",
+			"m",
+			"ayΣMcg",
+			"α"
+		],
+		"dOIndex": 385,
+		"nouns2": [
+			"component",
+			"equations",
+			"kinetics",
+			"problems"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.08,
+			"words": [
+				"problems"
+			],
+			"positive": [],
+			"negative": [
+				"problems"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "Since these equations indicate linear motion on the xy plane, the angular acceleration will be about the z axis perpendicular to the xy plane. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3395,
+		"nouns": [
+			"equations",
+			"motion",
+			"xy",
+			"plane",
+			"acceleration",
+			"z",
+			"axis",
+			"xy",
+			"plane"
+		],
+		"dOIndex": 386,
+		"nouns2": [
+			"equations",
+			"acceleration"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " Likewise, the moment of inertia, I , will be taken about the z axis.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3396,
+		"nouns": [
+			"moment",
+			"inertia",
+			"z",
+			"axis"
+		],
+		"dOIndex": 387,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Likewise",
+			"inertia"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3397,
+		"nouns": [],
+		"dOIndex": 388,
+		"isQuote": false
+	},
+	{
+		"txt": "Recall from ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3398,
+		"nouns": [],
+		"dOIndex": 389,
+		"nouns2": [
+			"Recall"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 3",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3399,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 390,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " that we calculate moment by taking the cross product of the position vector for the force under consideration and the force vector. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3400,
+		"nouns": [
+			"moment",
+			"cross",
+			"product",
+			"position",
+			"vector",
+			"force",
+			"consideration",
+			"force",
+			"vector"
+		],
+		"dOIndex": 391,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"product",
+			"position",
+			"consideration"
+		]
+	},
+	{
+		"txt": " This means that, unlike with particle kinetics, you now have to keep track of exactly where on the body each force is applied. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3401,
+		"nouns": [
+			"particle",
+			"kinetics",
+			"track",
+			"body",
+			"force"
+		],
+		"dOIndex": 392,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"particle",
+			"kinetics"
+		]
+	},
+	{
+		"txt": " This is best illustrated with an example.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3402,
+		"nouns": [
+			"example"
+		],
+		"dOIndex": 393,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.375,
+			"words": [
+				"best"
+			],
+			"positive": [
+				"best"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3403,
+		"nouns": [],
+		"dOIndex": 394,
+		"isQuote": false
+	},
+	{
+		"txt": "Consider the box of uniform density shown in ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3404,
+		"nouns": [
+			"box",
+			"uniform",
+			"density"
+		],
+		"dOIndex": 395,
+		"nouns2": [
+			"Consider",
+			"uniform",
+			"density"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 4 6",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3405,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 396,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3406,
+		"nouns": [],
+		"dOIndex": 397,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Uniform density ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3407,
+		"nouns": [
+			"density"
+		],
+		"dOIndex": 398,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Uniform",
+			"density"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3408,
+		"nouns": [],
+		"dOIndex": 399,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "means that its center of gravity is at the box's geometric center. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3409,
+		"nouns": [
+			"center",
+			"gravity",
+			"box",
+			"center"
+		],
+		"dOIndex": 400,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"gravity"
+		]
+	},
+	{
+		"txt": " Find the value of the minimum force, Fp , applied at the upper edge of the box, required to start tipping the box over.",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3410,
+		"nouns": [
+			"value",
+			"force",
+			"Fp",
+			"edge",
+			"box",
+			"box"
+		],
+		"dOIndex": 401,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3411,
+		"nouns": [],
+		"dOIndex": 402,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3412,
+		"nouns": [],
+		"dOIndex": 403,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3413,
+		"nouns": [],
+		"dOIndex": 404,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3414,
+		"nouns": [],
+		"dOIndex": 405,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3415,
+		"nouns": [],
+		"dOIndex": 406,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 4 6. Box free body diagram",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3416,
+		"nouns": [
+			"Figure",
+			"Box",
+			"body",
+			"diagram"
+		],
+		"dOIndex": 407,
+		"nouns2": [
+			"Figure",
+			"diagram"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.2,
+			"words": [
+				"free"
+			],
+			"positive": [
+				"free"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3417,
+		"nouns": [],
+		"dOIndex": 408,
+		"isQuote": false
+	},
+	{
+		"txt": "In ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3418,
+		"nouns": [],
+		"dOIndex": 409,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 4 6, Fp is the applied force, R1 and R2 are the reaction forces at supports one and two, Ff1 and Ff2 are the forces due to friction at points one and two, and mg",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3419,
+		"nouns": [
+			"Figure",
+			"Fp",
+			"force",
+			"R",
+			"R",
+			"reaction",
+			"forces",
+			"one",
+			"two",
+			"Ff",
+			"Ff",
+			"forces",
+			"friction",
+			"points",
+			"one",
+			"two",
+			"mg"
+		],
+		"dOIndex": 410,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure",
+			"reaction",
+			"friction"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.05714285714285714,
+			"words": [
+				"supports"
+			],
+			"positive": [
+				"supports"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " is the weight of the box.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3420,
+		"nouns": [
+			"weight",
+			"box"
+		],
+		"dOIndex": 411,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3421,
+		"nouns": [],
+		"dOIndex": 412,
+		"isQuote": false
+	},
+	{
+		"txt": "This is an example of the type of problem where you know something about the motion of the object and have to find the value of one or more forces acting on it. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3422,
+		"nouns": [
+			"example",
+			"type",
+			"problem",
+			"motion",
+			"object",
+			"value",
+			"one",
+			"forces"
+		],
+		"dOIndex": 413,
+		"nouns2": [
+			"example",
+			"problem"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.058823529411764705,
+			"words": [
+				"problem"
+			],
+			"positive": [],
+			"negative": [
+				"problem"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " To find the value of the force that will be just enough to start tipping the box, you need to look at the instant when the reaction force at support two is 0. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3423,
+		"nouns": [
+			"value",
+			"force",
+			"box",
+			"instant",
+			"reaction",
+			"force",
+			"support",
+			"two"
+		],
+		"dOIndex": 414,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"instant",
+			"reaction",
+			"support"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.05714285714285714,
+			"words": [
+				"support"
+			],
+			"positive": [
+				"support"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " This implies that all of the weight of the box is now supported at point one and the box is starting to rotate over. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3424,
+		"nouns": [
+			"weight",
+			"box",
+			"point",
+			"one",
+			"box"
+		],
+		"dOIndex": 415,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.07692307692307693,
+			"words": [
+				"supported"
+			],
+			"positive": [
+				"supported"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " At this instant, just before it starts to rotate, the angular acceleration of the box is 0. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3425,
+		"nouns": [
+			"instant",
+			"acceleration",
+			"box"
+		],
+		"dOIndex": 416,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"instant",
+			"acceleration"
+		]
+	},
+	{
+		"txt": " Note that the box's linear acceleration isn't necessarily 0 that is, you can push on the box and it may slide without actually tipping over.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3426,
+		"nouns": [
+			"box",
+			"acceleration",
+			"isn",
+			"t",
+			"box",
+			"slide"
+		],
+		"dOIndex": 417,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"acceleration"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3427,
+		"nouns": [],
+		"dOIndex": 418,
+		"isQuote": false
+	},
+	{
+		"txt": "The equations of motion for this problem are:ΣFx = Fp − Ff1 − Ff2 = m axΣFy = R1 + R2 − m g = m ay = 0ΣMcg = Fp (h/2) + R2 (w/2) − R1 (w/2) + Ff2 (h/2) + Ff1 (h/2) = I α = 0",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3428,
+		"nouns": [
+			"equations",
+			"motion",
+			"problem",
+			"ΣFx",
+			"Fp",
+			"−",
+			"Ff",
+			"−",
+			"Ff",
+			"m",
+			"axΣFy",
+			"R",
+			"R",
+			"−",
+			"m",
+			"g",
+			"m",
+			"ay",
+			"ΣMcg",
+			"Fp",
+			"h",
+			"/",
+			"R",
+			"/",
+			"−",
+			"R",
+			"/",
+			"Ff",
+			"h",
+			"/",
+			"Ff",
+			"h",
+			"/",
+			"α"
+		],
+		"dOIndex": 419,
+		"nouns2": [
+			"equations",
+			"problem"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.04081632653061224,
+			"words": [
+				"problem"
+			],
+			"positive": [],
+			"negative": [
+				"problem"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "Rewriting the second preceding equation when R2 is 0 shows that R1 is equal to the weight of the box. ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3429,
+		"nouns": [
+			"second",
+			"equation",
+			"R",
+			"R",
+			"weight",
+			"box"
+		],
+		"dOIndex": 420,
+		"nouns2": [
+			"Rewriting",
+			"equation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " Further, when R2 is 0, the R2 (w/2) term drops out of the moment equation, which can be rewritten by solving for Fp in terms of R1 . ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3430,
+		"nouns": [
+			"R",
+			"R",
+			"/",
+			"term",
+			"moment",
+			"equation",
+			"Fp",
+			"terms",
+			"R"
+		],
+		"dOIndex": 421,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Further",
+			"equation"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.03333333333333333,
+			"words": [
+				"solving"
+			],
+			"positive": [
+				"solving"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Note that when R2 goes to 0, so does Ff2 . ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3431,
+		"nouns": [
+			"R",
+			"Ff"
+		],
+		"dOIndex": 422,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " After some algebra, the equation looks as follows:Fp = mg (w/h) – Ff1",
+		"why": "p",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3432,
+		"nouns": [
+			"algebra",
+			"equation",
+			"Fp",
+			"mg",
+			"/",
+			"h",
+			"–",
+			"Ff"
+		],
+		"dOIndex": 423,
+		"nouns2": [
+			"algebra",
+			"equation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Here you can see that the tipping force, applied to the upper edge, is proportional to the weight and size of the box (actually the ratio of its width to its height), which you can readily appreciate from a physical point of view. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3433,
+		"nouns": [
+			"force",
+			"edge",
+			"weight",
+			"size",
+			"box",
+			"ratio",
+			"width",
+			"height",
+			"point",
+			"view"
+		],
+		"dOIndex": 424,
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.045454545454545456,
+			"words": [
+				"appreciate"
+			],
+			"positive": [
+				"appreciate"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " The friction term is important here because the existence of the friction force actually helps the box to tip. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3434,
+		"nouns": [
+			"friction",
+			"term",
+			"existence",
+			"friction",
+			"force",
+			"box",
+			"tip"
+		],
+		"dOIndex": 425,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"friction",
+			"existence"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.19047619047619047,
+			"words": [
+				"helps",
+				"important"
+			],
+			"positive": [
+				"helps",
+				"important"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " If the box were on a frictionless surface, it would tend to slide rather than tip.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3435,
+		"nouns": [
+			"box",
+			"surface",
+			"slide",
+			"tip"
+		],
+		"dOIndex": 426,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"surface"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3436,
+		"nouns": [],
+		"dOIndex": 427,
+		"isQuote": false
+	},
+	{
+		"txt": "In the case of plane motion, or 2D motion, of rigid bodies as discussed here, you are able to readily set up the equations of motion and investigate both the linear as well as angular motion of the body. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3437,
+		"nouns": [
+			"case",
+			"plane",
+			"motion",
+			"D",
+			"motion",
+			"bodies",
+			"equations",
+			"motion",
+			"both",
+			"motion",
+			"body"
+		],
+		"dOIndex": 428,
+		"nouns2": [
+			"equations"
+		],
+		"highfreq": {
+			"motion": 4
+		}
+	},
+	{
+		"txt": " In generalized three dimensional motion, the linear motion of rigid bodies is no different from that of particles; you simply track the motion of the rigid body's center of gravity. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3438,
+		"nouns": [
+			"three",
+			"motion",
+			"motion",
+			"bodies",
+			"particles",
+			"track",
+			"motion",
+			"body",
+			"center",
+			"gravity"
+		],
+		"dOIndex": 429,
+		"nouns2": [
+			"particles",
+			"gravity"
+		],
+		"highfreq": {
+			"motion": 3
+		},
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.03125,
+			"words": [
+				"no"
+			],
+			"positive": [],
+			"negative": [
+				"no"
+			]
+		}
+	},
+	{
+		"txt": " In three dimensions, however, rotation gives us some grief, as it is no longer a simple matter of treating rotation about a single axis as in plane motion. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3439,
+		"nouns": [
+			"three",
+			"dimensions",
+			"rotation",
+			"grief",
+			"matter",
+			"rotation",
+			"axis",
+			"plane",
+			"motion"
+		],
+		"dOIndex": 430,
+		"nouns2": [
+			"dimensions",
+			"rotation"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.06666666666666667,
+			"words": [
+				"matter",
+				"no",
+				"grief"
+			],
+			"positive": [
+				"matter"
+			],
+			"negative": [
+				"no",
+				"grief"
+			]
+		}
+	},
+	{
+		"txt": " In 3D you'll have to consider rotation about any axis, which leads to some difficulties in representing arbitrary rotations (Euler angles won't work for us) as well as to complications with determining moments of inertia for rotation about any axis. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3440,
+		"nouns": [
+			"D",
+			"ll",
+			"rotation",
+			"axis",
+			"difficulties",
+			"rotations",
+			"Euler",
+			"angles",
+			"t",
+			"work",
+			"complications",
+			"moments",
+			"inertia",
+			"rotation",
+			"axis"
+		],
+		"dOIndex": 431,
+		"nouns2": [
+			"rotation",
+			"difficulties",
+			"rotations",
+			"complications",
+			"moments",
+			"inertia"
+		]
+	},
+	{
+		"txt": " We'll discuss these issues ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3441,
+		"nouns": [
+			"ll",
+			"issues"
+		],
+		"dOIndex": 432
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3442,
+		"nouns": [],
+		"dOIndex": 433
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3443,
+		"nouns": [],
+		"dOIndex": 434
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3444,
+		"nouns": [],
+		"dOIndex": 435
+	},
+	{
+		"txt": "in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3445,
+		"nouns": [],
+		"dOIndex": 436
+	},
+	{
+		"txt": "Chapter 11 through ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3446,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 437,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3447,
+		"nouns": [],
+		"dOIndex": 438
+	},
+	{
+		"txt": "Chapter 13 .",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3448,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 439,
+		"nouns2": [
+			"Chapter"
+		]
+	}
+]

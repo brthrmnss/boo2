@@ -1,0 +1,230 @@
+[
+	{
+		"txt": "",
+		"why": "br tag like",
+		"sentenceIndex": 18151,
+		"nouns": [],
+		"dOIndex": 0,
+		"isQuote": false
+	},
+	{
+		"txt": "Colophon",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div"
+		],
+		"sentenceIndex": 18152,
+		"nouns": [
+			"Colophon"
+		],
+		"dOIndex": 1,
+		"nouns2": [
+			"Colophon"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "The animals on the cover of Physics for Game Developers, 2nd Edition are a cat and a mouse. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div"
+		],
+		"sentenceIndex": 18153,
+		"nouns": [
+			"animals",
+			"cover",
+			"Physics",
+			"Game",
+			"Developers",
+			"Edition",
+			"cat",
+			"mouse"
+		],
+		"dOIndex": 2,
+		"nouns2": [
+			"animals",
+			"Physics",
+			"Developers",
+			"Edition"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " The age old rivalry between cat and mouse has been the topic of many children's books and Saturday cartoons. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 18154,
+		"nouns": [
+			"age",
+			"rivalry",
+			"cat",
+			"mouse",
+			"topic",
+			"children",
+			"books",
+			"Saturday",
+			"cartoons"
+		],
+		"dOIndex": 3,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"rivalry",
+			"children",
+			"Saturday",
+			"cartoons"
+		]
+	},
+	{
+		"txt": " From traditional folk tales, such as Aesop's fables and Grimm Brothers' fairy tales, to today's cartoons, such as Tom & Jerry , the cat has chased and bullied the mouse and the mouse has avoided becoming lunch. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div"
+		],
+		"sentenceIndex": 18155,
+		"nouns": [
+			"folk",
+			"tales",
+			"Aesop",
+			"fables",
+			"Grimm Brothers",
+			"tales",
+			"today",
+			"cartoons",
+			"Tom",
+			"Jerry",
+			"cat",
+			"mouse",
+			"mouse",
+			"lunch"
+		],
+		"dOIndex": 4,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Brothers",
+			"cartoons"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.07692307692307693,
+			"words": [
+				"avoided",
+				"bullied"
+			],
+			"positive": [],
+			"negative": [
+				"avoided",
+				"bullied"
+			]
+		}
+	},
+	{
+		"txt": " The cat may be bigger and stronger, but the mouse is small, fast, and can fit in tight spaces, so the end result is often a battle of wits. ",
+		"why": "p",
+		"tags": [
+			"p",
+			"div"
+		],
+		"sentenceIndex": 18156,
+		"nouns": [
+			"cat",
+			"mouse",
+			"spaces",
+			"end",
+			"result",
+			"battle",
+			"wits"
+		],
+		"dOIndex": 5,
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.12903225806451613,
+			"words": [
+				"wits",
+				"battle",
+				"fit",
+				"stronger"
+			],
+			"positive": [
+				"wits",
+				"fit",
+				"stronger"
+			],
+			"negative": [
+				"battle"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "The cover image is from a 19 century engraving from the Dover Pictorial Archive. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 18157,
+		"nouns": [
+			"cover",
+			"image",
+			"century",
+			"Dover",
+			"Archive"
+		],
+		"dOIndex": 6,
+		"nouns2": [
+			"century",
+			"Pictorial",
+			"Archive"
+		]
+	},
+	{
+		"txt": " The cover font is Adobe ITC Garamond. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 18158,
+		"nouns": [
+			"cover",
+			"font",
+			"Adobe ITC",
+			"Garamond"
+		],
+		"dOIndex": 7,
+		"nouns2": [
+			"Garamond"
+		]
+	},
+	{
+		"txt": " The text font is Adobe Minion Pro; the heading font is Adobe Myriad Condensed; and the code font is Dalton Maag's Ubuntu Mono.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 18159,
+		"nouns": [
+			"text",
+			"font",
+			"Adobe",
+			"Minion Pro",
+			"font",
+			"Adobe",
+			"code",
+			"font",
+			"Dalton",
+			"Maag",
+			"Ubuntu"
+		],
+		"dOIndex": 8,
+		"nouns2": [
+			"Minion",
+			"Myriad",
+			"Condensed",
+			"Dalton",
+			"Ubuntu"
+		],
+		"highfreq": {
+			"font": 3
+		}
+	}
+]

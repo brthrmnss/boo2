@@ -1,0 +1,479 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg"><head><title>Chapter 16. Ships and Boats</title><link rel="stylesheet" type="text/css" href="core.css"/><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"/><link rel="up" href="pt03.html" title="Part III. Physical Modeling"/><link rel="prev" href="ch15.html" title="Chapter 15. Aircraft"/><link rel="next" href="ch17.html" title="Chapter 17. Cars and Hovercraft"/></head><body><section class="chapter" title="Chapter 16. Ships and Boats" epub:type="chapter" id="ships_and_boats"><div class="titlepage"><div><div><h2 class="title">Chapter 16. Ships and Boats</h2></div></div></div><p>The physics of <a id="I_indexterm2_id340979" class="indexterm"/><a id="sh16.0" class="indexterm"/>ships is a vast subject. While the same principles govern canoes and super tankers,
+    the difference between the two scales is not trivial. Our goal in this chapter will be to
+    explain some of the fundamental physical principles to allow you to develop realistic
+    simulations. The typical displacement-type ship lends itself well to illustrating these
+    principles; however, many of these principles also apply to other objects submerged or partially
+    submerged in a fluid, such as submarines and air balloons. Remember, air is considered a fluid
+    when we are considering buoyancy.</p><p>While surface ships or ships that operate on the water’s surface (at
+  the air water interface) are similar to fully submerged objects like
+  submarines or air balloons in that they all experience buoyancy, there are
+  some very distinct differences in their physical nature that we’ll highlight
+  in this chapter. These differences affect their behavior, so it is important
+  to be aware of them if you intend to simulate such objects.</p><p>Ships have an entire language of their own, so we’ll be spending a lot
+  of time just getting the vocabulary right. This will allow you to do further
+  research on any topics that are of particular interest. There are many ways
+  to classify ships and boats, but in regards to the physics governing them,
+  there are three basic <a id="I_indexterm2_id341026" class="indexterm"/>types. <span class="emphasis"><em>Displacement</em></span> vessels,
+  <span class="emphasis"><em>semi-displacement</em></span> vessels, and
+  <span class="emphasis"><em>planing</em></span> vessels are named after the forces that keep
+  the boat afloat while it is at cruising speed. When not moving, all vessels
+  are in <span class="emphasis"><em>displacement mode</em></span>.</p><p>The term <span class="emphasis"><em>displacement</em></span> in <a id="I_indexterm2_id341059" class="indexterm"/>this context means that the ship is supported solely by
+  buoyancy—that is, without dynamic or aerostatic lift as you would see on a
+  high-speed racing boat or a hovercraft. The word
+  <span class="emphasis"><em>displacement</em></span> itself refers to the volume of water
+  displaced or “pushed” out of the way by the ship as it sits floating in the
+  water. We’ll discuss this more in the next section.</p><p>A planing vessel is <a id="I_indexterm2_id341081" class="indexterm"/>one that is not supported by buoyancy, but by <a id="I_indexterm2_id341089" class="indexterm"/>hydrodynamic lift. This includes the everyday speedboats that most boaters own. When
+    the boat isn’t moving, it just floats in the water, bobbing up and down. However, when the boat
+    begins traveling at high speed, the force of the water hitting the bottom of the boat causes the
+    boat to rise up. This is known as planing, and it greatly reduces the resistance of the vessel.
+    Semi-displacement vessels are those that straddle the two categories, with some support coming
+    from buoyancy and some coming from planing forces. Before we continue discussing this, let’s go
+    over some vocabulary.</p><p>The <span class="emphasis"><em>hull</em></span> of the <a id="I_indexterm2_id341112" class="indexterm"/><a id="I_indexterm2_id341118" class="indexterm"/>ship is the watertight part of the ship that actually
+  displaces the water. Everything in or on the ship is contained within the
+  hull, which is partially submerged in the water. The length <a id="I_indexterm2_id341131" class="indexterm"/>of the ship is the distance measured from the bow to the
+  stern. In practice, there are several lengths used to denote the length of a
+  ship, but here we’ll refer to the <span class="emphasis"><em>overall length</em></span> of the
+  hull. The <span class="emphasis"><em>bow</em></span> is the front of the ship, while the
+  <span class="emphasis"><em>stern</em></span> is the aft part. When you are on the ship facing
+  the bow, the <span class="emphasis"><em>port</em></span> side is to your left and the
+  <span class="emphasis"><em>starboard</em></span> side is to your right. The overall height of
+  the hull is called the <span class="emphasis"><em>depth</em></span>, and its width is called
+  <span class="emphasis"><em>breadth</em></span> or <span class="emphasis"><em>beam</em></span>. When a ship is
+  floating in the water, the distance from the water surface to the bottom of
+  the hull is called <a id="I_indexterm2_id341176" class="indexterm"/>the <span class="emphasis"><em>draft</em></span>. <a class="xref" href="ch16.html#ship_geometry" title="Figure 16-1. Ship geometry">Figure 16-1</a> illustrates these terms.</p><div class="figure"><a id="ship_geometry"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject2_id341205"/><img src="httpatomoreillycomsourceoreillyimages1598970.png" alt="Ship geometry"/></div></div><div class="figure-title">Figure 16-1. Ship geometry</div></div><p>Given that ship design is a diverse subject, we’ll limit ourselves to
+  discussing those aspects of ships that make for realistic models. These
+  subjects include stability and sinking, resistance characteristics,
+  propulstion, and manuverability. Most of these subjects cannot be fully
+  simulated in real time, so we’ll show you some general rules that ships
+  follow instead of full numerical <a id="I_indexterm2_id341229" class="indexterm"/>simulation.</p><div class="sect1" title="Stability and Sinking"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="stability_and_sinking">Stability and Sinking</h2></div></div></div><p>If you have boats in your video game, the first step to making them
+    realistic physically is allowing them to sink if they become damaged. To
+    understand why boats sink and how they do so, you must first understand
+    <span class="emphasis"><em>stability</em></span>.</p><div class="sect2" title="Stability"><div class="titlepage"><div><div><h3 class="title" id="stability">Stability</h3></div></div></div><p>Most boats <a id="sh16.1.1" class="indexterm"/><a id="st16.1.1" class="indexterm"/>are least stable about their longitudinal axis—that is,
+      they are easier to heel port and starboard than they are to flip end
+      over end. If the vessel heels over so far that it is upside down, this
+      is called capsizing. <a id="I_indexterm2_id341301" class="indexterm"/>This is how most boats sink due to wind, waves, or in some
+      cases of side damage. One of the most famous examples of a sinking ship,
+      the <span class="emphasis"><em>Titanic</em></span>, shows that when a boat is sinking from
+      damage, it can sink end over end, sometimes with the ship breaking in
+      two. We’ll discuss both here so that you can animate realistic sinking
+      in your simulation.</p><p>In <a class="xref" href="ch03.html" title="Chapter 3. Force">Chapter 3</a> we introduced the concept of buoyancy
+      and stated that the force on a submerged object due to buoyancy is a
+      function of the submerged <a id="I_indexterm2_id341326" class="indexterm"/><a id="I_indexterm2_id341332" class="indexterm"/>volume of the object. <a id="I_indexterm2_id341343" class="indexterm"/><a id="I_indexterm2_id341350" class="indexterm"/>Archimedes’s principle states that the <a id="I_indexterm2_id341363" class="indexterm"/><a id="I_indexterm2_id341373" class="indexterm"/>weight of an object floating in a fluid is equal to the
+      weight of the volume of fluid displaced by the object. This is an
+      important principle. It says that a ship of a given weight must have
+      sufficient volume to displace enough water, an amount equal to the
+      weight of the ship, in order for it to float. Further, this principle
+      provides a clever way of determining the weight of a ship: simply
+      measure or calculate the amount of water displaced by the ship and you
+      can calculate the weight of the ship. In the marine field, <a id="I_indexterm2_id341389" class="indexterm"/>displacement is synonymous with the weight of the
+      ship.</p><p>As discussed in <a class="xref" href="ch03.html" title="Chapter 3. Force">Chapter 3</a>, we can calculate the
+      buoyant force on any object by using the following formula:</p><table style="border: 0; " class="simplelist"><tr><td>F<sub>B</sub> = ρ g ∇</td></tr></table><p>Here, ∇ is the submerged volume of the object, ρ is the density of
+      the fluid within which the object is submerged, and
+      <span class="emphasis"><em>g</em></span> is the acceleration due to gravity. Since
+      buoyancy is a force, it has both magnitude and direction, and always
+      acts straight up through the center of buoyancy. The center of buoyancy
+      is the geometric center of the submerged part of the object.</p><p>When a ship is floating in equilibrium on the surface of the
+      water, its center of buoyancy must be located directly below the ship’s
+      <a id="I_indexterm2_id341437" class="indexterm"/>center of gravity. The weight of the ship, a force, acts
+      straight down through the center of gravity, opposing the force due to
+      buoyancy. When the ship is in equilibrium, these two forces, weight and
+      buoyancy, are equal in magnitude and opposite in direction.</p><p>Now, when an external force causes the ship to <a id="I_indexterm2_id341457" class="indexterm"/><a id="I_indexterm2_id341469" class="indexterm"/>roll or pitch, the portion of the hull below the water is
+      changed and the center of buoyancy moves to the new geometric centroid
+      of the underwater portion of the hull. For example, if the ship rolls to
+      the starboard side, then the center of buoyancy shiwfts out toward the
+      starboard side. When this happens, the lines of action of the weight of
+      the ship and the buoyant force are no longer in line, which results in a
+      moment (torque) that acts on the ship. This torque is equal to the
+      perpendicular distance between the lines of action of the forces times
+      the weight of the ship.</p><p>Now here’s where we get to the floating upright part that we
+      mentioned earlier. When a ship rolls, for example, you don’t want it to
+      keep rolling until it capsizes. Instead, you want it to gently return
+      itself to the upright position after whatever force caused it to
+      roll—the wind, for example—has been removed. In short, you want the ship
+      to be stable. For a ship to be stable, the line of action of the buoyant
+      force must cross the vessel’s centerline at a point, called <a id="I_indexterm2_id341497" class="indexterm"/>the <span class="emphasis"><em>metacenter</em></span>, above the center of
+      gravity. When this happens, the moment developed when the ship rolls
+      tends to restore the ship to the upright position. If the metacenter is
+      located below the center of gravity, then the moment developed would
+      tend to capsize the ship. The distance between the center of gravity and
+      the metacenter is called <span class="emphasis"><em>GM</em></span>. This is also known as
+      <a id="I_indexterm2_id341515" class="indexterm"/><a id="I_indexterm2_id341521" class="indexterm"/>the <span class="emphasis"><em>stability index</em></span>, as a positive
+      value means the floating body is stable and a negative GM means the body
+      is unstable. <a class="xref" href="ch16.html#ship_stability" title="Figure 16-2. Ship stability">Figure 16-2</a> illustrates these two
+      scenarios.</p><div class="figure"><a id="ship_stability"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject2_id341548"/><img src="httpatomoreillycomsourceoreillyimages1598971.png" alt="Ship stability"/></div></div><div class="figure-title">Figure 16-2. Ship stability</div></div><p>If you’re a sailor, then you know how important it is to keep the
+      center of gravity of your boat low. This helps increase the height of
+      the metacenter above the center of gravity, and thus helps with
+      stability.</p><p>In the case of fully submerged objects, like submarines, the
+      situation is different. The buoyant force still acts through the
+      geometric centroid of the object, but for stability, the center of
+      buoyancy must be located above the center of gravity. This way, when the
+      object rotates, the lines of action of the weight of the object and the
+      buoyant force are separated and form a moment that tends to restore the
+      object to its upright position. If it’s the other way around, then the
+      object would be unstable, like trying to balance one bowling ball on top
+      of another. In this case, the slightest disturbance would upset the
+      balance and the object would flip upside-down such that the center of
+      gravity is located below the center of <a id="I_indexterm2_id341580" class="indexterm"/><a id="I_indexterm2_id341591" class="indexterm"/>buoyancy.</p></div><div class="sect2" title="Sinking"><div class="titlepage"><div><div><h3 class="title" id="sinking">Sinking</h3></div></div></div><p>In general, <a id="I_indexterm2_id341615" class="indexterm"/><a id="I_indexterm2_id341625" class="indexterm"/>boats protect their stability by compartmentalizing the
+      hull into several watertight sections, fittingly <a id="I_indexterm2_id341633" class="indexterm"/>called <span class="emphasis"><em>compartments</em></span>. This way, if the
+      side of a vessel hits an iceberg, only the compartment damaged will
+      flood with seawater. If enough compartments are damaged, the vessel will
+      not have enough buoyancy to support its weight and it will sink. The end
+      with the flooded compartments will sink first, causing a large angle
+      about the transverse axis. This is what happened to the
+      <span class="emphasis"><em>Titanic</em></span>. In fact, in that ship’s case, the angle,
+      called <span class="emphasis"><em>trim</em></span>, was so large that the stern was lifted
+      out of the water. The hull could not support the weight of the stern
+      section that was no longer being supported by buoyancy, and the
+      structure ripped in two.</p><p>It should be noted that ships can sink in the matter of minutes,
+      or it can take hours. For instance, the <span class="emphasis"><em>Titanic</em></span>
+      took about three hours to sink. The <span class="emphasis"><em>Lusitania</em></span> sank
+      in 18 minutes. The time it takes depends heavily on the type of damage
+      and the construction of the vessel. We don’t suggest trying to get
+      players to wait three hours for their game to end; however, it is
+      possible to continue fighting/propelling a vessel that is terminally
+      damaged. In many cases where terminal damage is suspected, captains
+      endeavor to ground their vessels to prevent the ship from actually going
+      under.</p><p>If side damage occurs, especially in high wind and waves, then it
+      could be that the vessel can still have enough buoyancy to float, but no
+      longer enough stability to remain upright. As damage usually occurs only
+      on one side of a vessel, the center of buoyancy will no longer be on
+      centerline. This means that the restoring moment in one direction is
+      diminished by whatever amount the center has moved to that side. A big
+      wave comes along and pushes the vessel over to the point where the
+      righting arm is no longer positive. The vessel will flip 180 degrees
+      with the bottom pointed skyward but will still <a id="I_indexterm2_id341681" class="indexterm"/>float (capsizing). Once rolled over, the remaining
+      compartments will tend to fill with water as vents or other openings
+      fail over time. In the case of recreational boats, they are usually only
+      a single compartment. If they capsize, they will sink readily; indeed,
+      this is the way that most small boats sink.</p><p>As we mentioned before, accurately computing all degrees
+      <a id="I_indexterm2_id341694" class="indexterm"/>of freedom for a nontrivial-shaped body in real time would
+      be difficult to accomplish with today’s computer hardware. In general,
+      you want to follow a few high-level rules:</p><div class="itemizedlist"><ul class="itemizedlist"><li class="listitem"><p>The higher the center of gravity, the more likely it is that
+          the boat will tip over.</p></li><li class="listitem"><p>Large vessels are always compartmentalized. Damage should be
+          limited to the watertight compartment in which it occurred.</p></li><li class="listitem"><p>The vessel will heal or trim in the direction of damage. If
+          damage occurs on the starboard side, the boat will heel to
+          starboard. If the damage occurs in the bow, the boat will list
+          forward.</p></li><li class="listitem"><p>A boat will remain floating as long as the undamaged
+          compartments have a volume in cubic meters of at least the weight of
+          the hull in metric tons divided by 1.025.</p></li><li class="listitem"><p>After being damaged, even if a vessel has enough undamaged
+          volume to remain afloat, it doesn’t necessarily mean it will float
+          upright.</p></li><li class="listitem"><p>Sinking almost never occurs as quickly as depicted in video
+          games; however, capsizing can occur rapidly and is probably a more
+          realistic way to model a stability failure.</p></li></ul></div></div></div><div class="sect1" title="Ship Motions"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="ship_motions">Ship Motions</h2></div></div></div><p>Closely related to <a id="sh16.2" class="indexterm"/><a id="mo16.2" class="indexterm"/>ship stability is the subject of ship motions. Knowing how
+    vessels work in a random set of waves will greatly help you to increase
+    realism in your games. The most important aspect of this is<a id="I_indexterm2_id341813" class="indexterm"/><a id="I_indexterm2_id341819" class="indexterm"/> coupled motions, which we will talk about shortly. First,
+    some more vocabulary! As discussed before, there are six degrees of motion
+    any rigid body is capable of; for boats, <a id="de16.2" class="indexterm"/>some of these have special names and are described next and
+    illustrated in <a class="xref" href="ch16.html#floating-body_degrees_of_freedom" title="Figure 16-3. Floating-body degrees of freedom">Figure 16-3</a>.</p><div class="figure"><a id="floating-body_degrees_of_freedom"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject2_id341862"/><img style="width: 194.88188976378; " src="httpatomoreillycomsourceoreillyimages1598972.png" alt="Floating-body degrees of freedom"/></div></div><div class="figure-title">Figure 16-3. Floating-body degrees of freedom</div></div><p>Roll, pitch, <a id="I_indexterm2_id341884" class="indexterm"/><a id="I_indexterm2_id341896" class="indexterm"/><a id="I_indexterm2_id341909" class="indexterm"/>and yaw are the terms also used for airplanes. The
+    translation degrees of freedom are called surge, heave, and sway. Surge,
+    sway, and yaw are not that apparent when vessels are moving forward, so it
+    is acceptable to limit your model to heave, pitch, and roll. <a id="I_indexterm2_id341924" class="indexterm"/>Heave is the up-and-down motion of the boat caused by the
+    change in elevation of the water’s surface as a wave passes. If a vessel
+    is stationary, it would be referred to as bobbing. Pitch is the rotation
+    about the transverse axis of the vessel due to increased buoyancy on one
+    end of the ship as a wave passes. This motion is most pronounced when the
+    waves are traveling in the same direction (or 180 degrees) from the
+    vessel. Roll is like pitch, but about the longitudinal axis.</p><div class="sect2" title="Heave"><div class="titlepage"><div><div><h3 class="title" id="heave">Heave</h3></div></div></div><p>As stated <a id="I_indexterm2_id341948" class="indexterm"/>before, heave is displacement in the vertical direction
+        from the static equilibrium draft. This degree of freedom is
+        straightforward to model as a hydrostatic spring acting in the
+        vertical direction. Assuming we have a barge that is 30 meters long
+        and 10 meters wide, we’ll develop an equation that can govern our
+        heave simulation.</p><p>Commonly, a vessel’s hydrostatics include something called <a id="I_indexterm2_id341962" class="indexterm"/><a id="I_indexterm2_id341969" class="indexterm"/>tons per centimeter immersion (TPCM)—that is, for every centimeter you press
+          the boat down, a certain number of tons of buoyancy force is created. For our barge, this
+          is a relatively straightforward calculation.</p><p>Given that the water plane area is a constant 300 square meters,
+        1 centimeter of immersion would result in a volume of 3 cubic meters.
+        As 1 cubic meter of saltwater weighs 1,027 kg, 3 cubic meters would be
+        3,081 kg, and (assuming this boat is on Earth), would result in a
+        buoyant force of 3,081 kg × 9.81 m/s<sup>2</sup>, or
+        30.2 kN. Therefore, 30.2 kN per cm would make a good starting value
+        for a spring constant to model the heave response of this vessel in
+        waves.</p></div><div class="sect2" title="Roll"><div class="titlepage"><div><div><h3 class="title" id="roll">Roll</h3></div></div></div><p>For us to <a id="I_indexterm2_id342003" class="indexterm"/>simulate realistic roll motions, it is important that
+        the ship take time to complete the motion. This <a id="I_indexterm2_id342018" class="indexterm"/>time is called the <span class="emphasis"><em>roll period</em></span>.
+        This defines the angular velocity that a ship rolled to one side will
+        experience when it recovers. We can estimate it by the following
+        equation:</p><table style="border: 0; " class="simplelist"><tr><td>T = 
+          
+            <span class="inlinemediaobject"><img src="inleq_1601.png" alt=""/></span>   
+            
+          </td></tr></table><p>Where <span class="emphasis"><em>k</em></span> is the radius of gyration and
+        <span class="emphasis"><em>GM</em></span> is the distance from the metacenter to the
+        center of gravity. A good estimate for the radius of gyration is often
+        taken as 30% of the beam of the vessel. A vessel with a shorter roll
+        period will respond quicker to a wave and try to assume the wave
+        slope. This is known as being “stiff” and can cause passenger
+        discomfort and damage via higher angular accelerations. Conversely,
+        vessels with higher roll periods are known as “tender” and lag behind
+        the waves. These vessels generally heel farther over but are more
+        comfortable for passengers.</p></div><div class="sect2" title="Pitch"><div class="titlepage"><div><div><h3 class="title" id="pitch">Pitch</h3></div></div></div><p>Likewise, <a id="I_indexterm2_id342080" class="indexterm"/>there is a pitch period that measures the speed at which the vessel responds
+          to a wave. This is highly dependent on the length of a ship and can be estimated as
+          follows:</p><table style="border: 0; " class="simplelist"><tr><td>T = (2π /
+          g<sup>1/2</sup>)(k/(GM)<sup>1/2</sup>)</td></tr></table><p>Where <span class="emphasis"><em>k</em></span> is the radius of gyration and is
+        commonly taken as 30% of the beam. Note that pitch period is normally
+        one-third to one-half that of roll period, so that the bow of a vessel
+        will rise and fall with the wave more in phase <a id="I_indexterm2_id342122" class="indexterm"/>than in a roll event.</p></div><div class="sect2" title="Coupled Motions"><div class="titlepage"><div><div><h3 class="title" id="coupled_motions">Coupled Motions</h3></div></div></div><p>The real trick to <a id="I_indexterm2_id342145" class="indexterm"/><a id="I_indexterm2_id342152" class="indexterm"/>getting motions to look right is to understand that for most boats the motions
+        are coupled. For instance, heave and pitch are strongly coupled. This means that if a wave
+        causes your boat to heave, it will most likely also cause it to pitch. This is because the
+        distribution of buoyancy along the hull is not constant. If the waterline is raised some
+        constant value, there is usually more buoyancy provided aft than there is forward for the
+        same change in waterline. This will cause the vessel to pitch forward to move the center of
+        buoyancy to the longitudinal location of the center of gravity. Similarly, a pitch event
+        will cause the vessel to heave because if the stern is lifted from the water, there is
+        usually a loss of total buoyancy, and the boat will sink farther into the <a id="I_indexterm2_id342170" class="indexterm"/><a id="I_indexterm2_id342180" class="indexterm"/>water.</p></div></div><div class="sect1" title="Resistance and Propulsion"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="resistance_and_propulsion">Resistance and Propulsion</h2></div></div></div><p>Resistance is the amount of force it takes to move a body through
+    the water. Propulsion is the method by which you create that force.</p><div class="sect2" title="General Resistance"><div class="titlepage"><div><div><h3 class="title" id="general_resistance">General Resistance</h3></div></div></div><p>In <a class="xref" href="ch03.html" title="Chapter 3. Force">Chapter 3</a>, we <a id="sh16.3.1" class="indexterm"/><a id="re16.3.1" class="indexterm"/><a id="dr16.3.1" class="indexterm"/>discussed drag forces on objects moving through a fluid. Specifically, we
+        discussed frictional and pressure drag. Ships moving on the water’s surface experience these
+        drag forces; however, at the air-water interface, there are other drag components that you
+        have to consider. If you were to write an equation breaking up the total resistance acting
+        on a ship into its three main components, that equation would look something like
+        this:</p><table style="border: 0; " class="simplelist"><tr><td>R<sub>total</sub> =
+        R<sub>friction</sub> + R<sub>pressure</sub> +
+        R<sub>waves</sub></td></tr></table><p>We’ll describe each of these components and give you some
+      empirical formulas in just a moment. First, however, we want to qualify
+      the material to follow by saying it is very general in nature and
+      applicable only when little detail is known about the complete geometry
+      of the particular ship under consideration. In the practice of ship
+      design, these formulas would be used only in the very early stages of
+      the design process to approximate resistance. That said, they are very
+      useful for getting in the ballpark, so to speak, and (sometimes more
+      importantly) in performing parametric studies to see the effects of
+      changes in major parameters.</p><p>The first resistance component is the frictional drag<a id="I_indexterm2_id342314" class="indexterm"/> on the underwater surface of the hull as it moves through
+      the water. This is the same as the frictional drag that we discussed in
+      <a class="xref" href="ch03.html" title="Chapter 3. Force">Chapter 3</a>. However, for ships there’s a convenient set of
+      empirical formulas that you can use to calculate this force:</p><table style="border: 0; " class="simplelist"><tr><td>R<sub>friction</sub> = (1/2) ρ
+        V<sup>2</sup> S C<sub>f</sub></td></tr></table><p>In this formula, ρ is the density of water, <span class="emphasis"><em>V</em></span>
+      is the speed of the ship, <span class="emphasis"><em>S</em></span> is the surface area of
+      the underwater portion of the hull, and
+      <span class="emphasis"><em>C</em></span><sub>f</sub> is the coefficient of
+      frictional resistance. You can use this empirical formula to calculate
+      <span class="emphasis"><em>C</em></span><sub>f</sub>:</p><table style="border: 0; " class="simplelist"><tr><td>C<sub>f</sub> = 0.075 / (log10 Rn – 2)2</td></tr></table><p>Here, <span class="emphasis"><em>Rn</em></span> is the <a id="I_indexterm2_id342398" class="indexterm"/>Reynolds number, as defined in <a class="xref" href="ch06.html" title="Chapter 6. Projectiles">Chapter 6</a>, based on the length of the ship’s hull. This
+      formula was adopted in 1957 by the International Towing Tank Conference
+      (ITTC)<a id="I_indexterm2_id342412" class="indexterm"/><a id="I_indexterm2_id342418" class="indexterm"/> and is widely used in the field of naval architecture for
+      estimating frictional resistance coefficients for ships.</p><p>To apply the formula for R<sub>friction</sub>, you’ll
+      also have to know the surface area, <span class="emphasis"><em>S</em></span>, of the
+      underwater portion of the hull. You can directly calculate this area
+      using numerical integration techniques, similar to those for calculating
+      volume, or you can use yet another empirical formula:</p><table style="border: 0; " class="simplelist"><tr><td>S = C<sub>ws</sub>
+          √(∇L)
+        </td></tr></table><p>In this formula, ∇ is the displaced volume, <span class="emphasis"><em>L</em></span>
+      the length of the ship, and
+      <span class="emphasis"><em>C</em></span><sub>ws</sub> is the wetted surface
+      coefficient. This coefficient is a function of the ship’s shape—its
+      breadth-to-draft ratio—and <a id="I_indexterm2_id342469" class="indexterm"/>statistically it ranges from 2.6 to 2.9 for typical
+      displacement hull forms.</p><p>The pressure drag <a id="I_indexterm2_id342479" class="indexterm"/>experienced by a ship is the same as that experienced by
+      projectiles as discussed in <a class="xref" href="ch03.html" title="Chapter 3. Force">Chapter 3</a>. Remember, this
+      drag is due to the viscous effects causing a region of relatively low
+      pressure behind the ship. Quantifying this force is difficult for ships
+      of arbitrary geometry. We can use computational fluid dynamics
+      algorithms to approximate this force, but this requires detailed
+      knowledge of the hull geometry and a whole lot of time-consuming
+      computations. An alternative is to rely on scale-model test data where
+      results from the model test are extrapolated to approximate drag on the
+      full-size ship.</p><p>Just like pressure drag, wave drag is <a id="I_indexterm2_id342502" class="indexterm"/>difficult to compute, and we usually rely on model testing
+      in practice. Wave drag is due to the energy transfer, or momentum
+      transfer, from the ship to the fluid, or in other words, it’s a function
+      of the work done by the ship on the surrounding fluid to generate the
+      waves. The visible presence of wave resistance is evident in the large
+      bow wave that builds up at the front of the ship as well as the wave
+      system that originates at the stern of the ship as it moves through the
+      water. These waves affect the pressure distribution around the ship and
+      thus affect the pressure drag, which makes it difficult for us to
+      separate the wave drag component from pressure drag when performing an
+      analysis.</p><p>When scale model tests are performed, pressure drag and wave drag
+      are usually lumped together in <a id="I_indexterm2_id342520" class="indexterm"/><a id="I_indexterm2_id342526" class="indexterm"/>what’s known as <span class="emphasis"><em>residual resistance</em></span>.
+      Analogous to the coefficient of frictional drag, you can determine a
+      coefficient of residual resistance, such that:</p><table style="border: 0; " class="simplelist"><tr><td>R<sub>r</sub> = R<sub>pressure</sub> +
+        R<sub>wave</sub> = (1/2) ρ V<sup>2</sup> S
+        C<sub>r</sub></td></tr></table><p>Here <span class="emphasis"><em>R</em></span><sub>r</sub> is the total
+      residual resistance, and <span class="emphasis"><em>C</em></span><sub>r</sub>
+      is the coefficient of residual resistance.</p><p>There are many resistance estimation methods available that allow
+      you to estimate the coefficient of residual resistance for a ship;
+      however, they are usually presented for specific ship types. For
+      example, one method might give empirical formulas for
+      <span class="emphasis"><em>C</em></span><sub>r</sub> for destroyer-type ships,
+      while another might give formulas for
+      <span class="emphasis"><em>C</em></span><sub>r</sub> for large oil tankers.
+      The trick, of course, is to choose a method appropriate for the type of
+      ship you are analyzing.<sup>[<a id="CHP-16-FN-1" href="#ftn.CHP-16-FN-1" epub:type="noteref" class="footnote">29</a>]</sup> Generally, <span class="emphasis"><em>C</em></span><sub>r</sub>
+      increases as the displacement and speed of the ship increase. A typical
+      range for <span class="emphasis"><em>C</em></span><sub>r</sub> for large
+      displacement hulls is from 1.0e–3 to 3.0e–3.</p><p>While these three resistance components—friction, pressure, and
+      wave—are the most important for typical displacement-type ships, they
+      aren’t the only ones. Since a ship operates at the air-water interface,
+      a large part of its structure is above the water surface, exposed to the
+      air. This means that the ship will also experience air resistance.
+      <a id="I_indexterm2_id342642" class="indexterm"/>You can approximate this air resistance using the
+      following formula:</p><table style="border: 0; " class="simplelist"><tr><td>R<sub>air</sub> = (1/2) ρ
+        V<sup>2</sup> A<sub>p</sub>
+        C<sub>air</sub></td></tr></table><p>Here, <span class="emphasis"><em>C</em></span><sub>air</sub> is the coefficient of air
+        resistance, ρ is the density of air, <span class="emphasis"><em>V</em></span> is the speed of the ship, and
+          <span class="emphasis"><em>A</em></span><sub>p</sub> is the projected transverse (profile) area
+        of the ship. <span class="emphasis"><em>C</em></span><sub>air</sub> typically ranges from 0.6 to
+        1.1, depending on the type of ship. Tankers and large cargo ships tend to be near the upper
+        end of the range, while combatant ships tend to be near the lower end. In lieu of enough
+        information to calculate the projected transverse area of the ship, you can approximate it
+        by:</p><table style="border: 0; " class="simplelist"><tr><td>A<sub>p</sub> =
+        B<sup>2</sup>/2</td></tr></table><p>where <span class="emphasis"><em>B</em></span> is the breadth (width) of the
+      <a id="I_indexterm2_id342734" class="indexterm"/>ship.</p><div class="sect3" title="Planing craft"><div class="titlepage"><div><div><h4 class="title" id="planing_craft">Planing craft</h4></div></div></div><p>Planing craft <a id="I_indexterm2_id342759" class="indexterm"/>are different than displacement vessels in that when
+        they reach their cruising speed they are not supported by buoyancy.
+        Unlike a super tanker, a recreational speedboat has a much “flatter”
+        hull form. It almost looks like a very fat foil, which it is! When a
+        speedboat is just sitting in the water it is fully supported by its
+        buoyancy, just like a tanker. However, as the boat starts moving
+        forward, the hull is at an angle of attack to the water. Like a super
+        tanker, the boat is also creating a wave in front of it as it moves,
+        called the <span class="emphasis"><em>bow wave</em></span>. However, similar to an
+        airplane breaking the sound barrier, a planing craft is fast enough to
+        catch up to this wave. As it reaches its own bow wave, the vessel will
+        start to tilt backward. This tilting increases the resistance by
+        virtue of increasing the angle of attack of the vessel’s hull.
+        However, if the vessel has additional power to overcome this increased
+        resistance, the lift force generated from the hull foil will begin to
+        lift the hull out of the water. At this point, the forces in <a class="xref" href="ch16.html#forces_on_a_planing_craft" title="Figure 16-4. Forces on a planing craft">Figure 16-4</a> begin to dominate.</p><div class="figure"><a id="forces_on_a_planing_craft"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject2_id342796"/><img style="width: 290.551181102362; " src="httpatomoreillycomsourceoreillyimages1598973.png" alt="Forces on a planing craft"/></div></div><div class="figure-title">Figure 16-4. Forces on a planing craft</div></div><p>As you can see, compared to when the boat is at rest, very
+        little of the hull is in the water now. This, in turn, provides
+        positive feedback because it reduces the wetted surface area and
+        <a id="I_indexterm2_id342820" class="indexterm"/>skin friction and allows the craft to go faster,
+        generating more lift and reducing the skin friction yet again.
+        Simultaneously, the drag created by the foil moving through the fluid
+        increases until eventually the available power is exhausted and top
+        speed is attained. If we plot the resistance versus speed, it might
+        look something like <a class="xref" href="ch16.html#planing_craft_resistance_versus_speed" title="Figure 16-5. Planing craft resistance versus speed">Figure 16-5</a>.</p><div class="figure"><a id="planing_craft_resistance_versus_speed"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject2_id342852"/><img src="httpatomoreillycomsourceoreillyimages1598974.png" alt="Planing craft resistance versus speed"/></div></div><div class="figure-title">Figure 16-5. Planing craft resistance versus speed</div></div><p>Notice the hump region. This is where the vessel trims aft in
+        the transition mode and there is a rise in the resistance. There have
+        been embarrassing cases where a vessel, although having enough power
+        to make the design speed once over the humps, lacked the power to make
+        the transition.</p></div><div class="sect3" title="Virtual mass"><div class="titlepage"><div><div><h4 class="title" id="virtual_mass">Virtual mass</h4></div></div></div><p>The <a id="I_indexterm2_id342892" class="indexterm"/><a id="I_indexterm2_id342898" class="indexterm"/>concept of <span class="emphasis"><em>virtual mass</em></span> is
+        important for calculating the acceleration of a ship in a real-time
+        simulator. Virtual mass is equal to the mass of the ship plus the mass
+        of the water that is accelerated with the ship.</p><p>Back in <a class="xref" href="ch03.html" title="Chapter 3. Force">Chapter 3</a> we told you about the viscous boundary layer, <a id="I_indexterm2_id342924" class="indexterm"/><a id="I_indexterm2_id342930" class="indexterm"/>and we said that the relative velocity (relative to the moving body) of the
+          fluid particles near the moving body’s surface is 0 at the body surface and increases to
+          the free stream velocity as distance from the body surface increases. Essentially, some of
+          the fluid sticks to the body as it moves and is accelerated with the body. Since the
+          velocity of the fluid varies within the boundary layer, so does the acceleration. The
+            <span class="emphasis"><em>added mass</em></span>, the mass of water that gets accelerated, is a weighted
+          integration of the entire mass of fluid that is affected by the body’s
+          acceleration.</p><p>For a ship, the viscous boundary layer can be quite thick, up to several feet near the
+          end of the ship depending on its length, and the mass of water that gets accelerated is
+          significant. Therefore, when doing any sort of analysis that involves the acceleration of
+          the ship, you need to consider added mass, too. The calculation of added mass is beyond
+          the scope of this book. We should also point out that, unlike mass, added mass is a
+          tensor—that is, it depends on the direction of acceleration. Further, added mass applies
+          to both linear and angular motion.</p><p>Added mass is typically expressed in terms of an added mass
+        coefficient, which equals the added mass divided by the mass of the
+        ship. Some methods actually integrate over the actual hull surface,
+        while others approximate the hull as an ellipsoid with proportions
+        matching the ship’s. Using this approximation, the ellipsoid’s length
+        corresponds to the ship’s length while its width corresponds to the
+        ship’s breadth. For longitudinal motion (that is, linear motion along
+        an axis parallel to the ship’s length), the added mass coefficient
+        varies nearly linearly from 0.0 at a breadth-to-length ratio
+        <a id="I_indexterm2_id342968" class="indexterm"/>of 0 (the ship is infinitely thin) up to 0.5 at a
+        breadth-to-length ratio of 1 (a sphere).</p><p>When the added mass coefficient is expressed as a percentage of
+        the ship’s mass, virtual mass can be calculated as
+        <span class="emphasis"><em>mv</em></span> = <span class="emphasis"><em>m</em></span> (1 +
+        <span class="emphasis"><em>xa</em></span>), where <span class="emphasis"><em>m</em></span> is mass, and
+        <span class="emphasis"><em>xa</em></span> is the added mass coefficient—for example, 0.2
+        for 20%. For typical displacement ship proportions, the longitudinal
+        added mass ranges from about 4% to 15% of the mass of the ship.
+        Conservative estimates generally use 20%.</p></div><div class="sect3" title="Guidance speeds"><div class="titlepage"><div><div><h4 class="title" id="guidance_speeds">Guidance speeds</h4></div></div></div><p>To provide some guidance, <a class="xref" href="ch16.html#some_vessels_and_their_speeds" title="Table 16-1. Some vessels and their speeds">Table 16-1</a> provides common <a id="I_indexterm2_id343020" class="indexterm"/><a id="I_indexterm2_id343030" class="indexterm"/>ship types and appropriate speed ranges. This will help
+        guide you in properly simulating the resistance of your vessel.</p><div class="table"><a id="some_vessels_and_their_speeds"/><div class="table-title">Table 16-1. Some vessels and their speeds</div><div class="table-contents"><table style="border-collapse: collapse; border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; "><colgroup><col class="col1"/><col class="col2"/><col class="col3"/></colgroup><thead><tr><td style="text-align: left; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Vessel
+                type</p></td><td style="text-align: left; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Speed
+                (knots)</p></td><td style="text-align: left; vertical-align: bottom; border-bottom: 0.5pt solid ; "><p>Horsepower
+                (hp)</p></td></tr></thead><tbody><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Aircraft
+                carrier</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>31.5</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>260,000</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Cruiser</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>30</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>80,000</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Oil
+                tanker</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>15–20</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>20,000–60,000</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Containership</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>21</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>100,000</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>200-foot
+                yacht</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>15.5</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>4,000</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>35-foot recreational
+                boat</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>30</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>420</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>35-foot
+                speedboat</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>70</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>1,200</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; "><p>40-foot
+                sailboat</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; "><p>8.5</p></td><td style="text-align: left; vertical-align: top; "><p>N/A</p></td></tr></tbody></table></div></div><p>Note that at a certain speed, for non-planing hulls, there is a
+        theoretical limit to how fast a boat can go. This speed is <a id="I_indexterm2_id343380" class="indexterm"/>called the <span class="emphasis"><em>hull speed</em></span>. At the hull
+        speed the bow and stern waves reinforce each other, and there is a
+        rise in wave-making resistance. This can be a barrier for some fuller
+        hulls. Note that the speed for the 40-foot sailboat is the hull speed
+        of a 40-foot full-formed (not slender) hull. We can calculate the hull
+        speed with the following formula:</p><table style="border: 0; " class="simplelist"><tr><td>V<sub>hull</sub> ≈ 1.34 × 
+            <span class="inlinemediaobject"><img src="inleq_1602.png" alt=""/></span>   
+            
+          </td></tr></table><p>Where <span class="emphasis"><em>V</em></span><sub>hull</sub> is the
+        hull speed in knots and L<sub>WL</sub> is the length on
+        the water line. Some modern displacement boats, especially racing
+        kayaks, can exceed their hull speed if they have very fine ends, long
+        hulls with narrow beams, or some other optimized hull <a id="I_indexterm2_id343433" class="indexterm"/><a id="I_indexterm2_id343442" class="indexterm"/>form.</p></div></div><div class="sect2" title="Propulsion"><div class="titlepage"><div><div><h3 class="title" id="propulsion">Propulsion</h3></div></div></div><p>There are a <a id="I_indexterm2_id343462" class="indexterm"/><a id="I_indexterm2_id343472" class="indexterm"/>variety of methods to propel a boat through the water. The
+      oldest is by way of sails using the wind. The physics of sailing could
+      fill several chapters on its own, so we won’t go into detail here. If
+      you are interested in that topic, <span class="emphasis"><em>The Physics of Sailing
+      Explained</em></span> (Sheridan House), by <a id="I_indexterm2_id343485" class="indexterm"/>Bryon Anderson, is a good starting point. You can also
+      check out the airplane chapter in this book and note that a sail is just
+      a vertical wing. We will say this: if you choose to put a sailing vessel
+      in your simulation, make sure to remember the golden rule! You cannot
+      generally sail within 45 degrees of the direction the wind is coming
+      from.</p><p>There are many different kinds of propulsion: rudders, shafted
+      fixed-pitch propellers, shafted CPP propellers, azimuthing thrusters,
+      propellers in nozzles, water jets, pump jets, contra-rotating, and the
+      very odd Voith Schneider type. We can’t get into all of them here, but
+      the aforementioned list should get you started if you are interesting in
+      modeling the specifics of different propulsor types.</p><p>The major propulsion relationship for your simulation would be
+      <a id="I_indexterm2_id343506" class="indexterm"/>the thrust-to-propeller RPM or <a id="I_indexterm2_id343515" class="indexterm"/>thrust-to-throttle curve. The fly in the ointment here is
+      that thrust is also dependent on forward speed. As the boat moves faster
+      and faster through the water, the inflow velocity of the water into the
+      propeller is higher and higher. This means that the difference between
+      the velocity of the intake and the velocity of the output is smaller,
+      reducing the amount of thrust. In general, the thrust curve versus boat
+      speed will look like <a class="xref" href="ch16.html#speed_versus_required_thrust" title="Figure 16-6. Speed versus required thrust">Figure 16-6</a>.</p><div class="figure"><a id="speed_versus_required_thrust"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject2_id343543"/><img src="httpatomoreillycomsourceoreillyimages1598975.png" alt="Speed versus required thrust"/></div></div><div class="figure-title">Figure 16-6. Speed versus required thrust</div></div><p>An important physical phenomenon concerning propulsion that you may want to incorporate<a id="I_indexterm2_id343563" class="indexterm"/> is <span class="emphasis"><em>cavitation</em></span>. Cavitation occurs when a propeller is
+        moving fast enough that the low-pressure side of the blade starts spontaneously creating
+        vapor bubbles. These bubbles exist for a short while, and then as the propeller turns, the
+        static pressure changes. This higher static pressure causes the bubbles to collapse
+        violently. This collapse is so fast and furious that it can cause metal erosion at a high
+        rate. It will eat away at a propeller until it is no longer producing thrust. It is also
+        very noisy. That is why submarine propellers are shaped very differently than other ships’
+        propellers. They seek to limit cavitations so they’re not heard by enemy vessels. The damage
+        caused by cavitation also creates a speed limit on RPMs for a propeller. Cavitation is a
+        real-life phenomenon you can exploit to penalize the player for driving around at high speed
+        all the time.</p></div></div><div class="sect1" title="Maneuverability"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="maneuverability">Maneuverability</h2></div></div></div><p>Another aspect of <a id="sh16.4" class="indexterm"/><a id="I_indexterm2_id343610" class="indexterm"/>ships and boats that is often oversimplified is maneuverability. Maneuverability
+      is also a very complex topic whose numerical simulation is beyond the current realm of
+      real-time simulation. However, with some simplifications and assumptions, it can be more
+      accurately modeled than if you do not know the underlying framework. Almost all vessels
+      maneuver by way of two methods: rudders or thrust vectoring. The users generally won’t care
+      about the differences, so you can model both by angling the thrust vector off-center.</p><div class="sect2" title="Rudders and Thrust Vectoring"><div class="titlepage"><div><div><h3 class="title" id="rudders_and_thrust_vectoring">Rudders and Thrust Vectoring</h3></div></div></div><p>Although <a id="I_indexterm2_id343636" class="indexterm"/><a id="I_indexterm2_id343648" class="indexterm"/>rudders and thrust vectoring have the same result, there
+      are some important differences. A thrust vectoring system, like a jet
+      boat, can steer only when the vessel is producing thrust. A rudder, on
+      the other hand, works only when the vessel has forward speed. If the
+      boat isn’t moving forward with enough speed, then the rudder can’t
+      produce a turning moment.</p><p>If you keep in mind those differences, you can model both systems
+      the same way. The most important thing to keep in mind when modeling
+      larger ships in your games is that they take significant time to respond
+      to control inputs. <a class="xref" href="ch16.html#solidus_10_zig-zag_test" title="Figure 16-7. 10/10 zig-zag test">Figure 16-7</a><a id="I_indexterm2_id343668" class="indexterm"/> tracks the heading of a ship over time during what is
+      called the <span class="emphasis"><em>10/10 maneuver</em></span>.</p><div class="figure"><a id="solidus_10_zig-zag_test"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject2_id343693"/><img style="width: 279.92125984252; " src="httpatomoreillycomsourceoreillyimages1598976.png" alt="10/10 zig-zag test"/></div></div><div class="figure-title">Figure 16-7. 10/10 zig-zag test</div></div><p>A vessel is moving in a straight line, and the rudder is put over
+      10 degrees in one direction. Once the vessel’s heading changes 10
+      degrees, the rudder is moved to the opposite side at the same angle. The
+      initial turning time is the time it took for the vessel to change its
+      heading 10 degrees. As large ships have enormous momentum, they will
+      continue to turn even though the rudder is in the opposite direction.
+      The maximum deviation from the original heading minus the 10 degrees at
+      which the rudder was flipped is called<a id="I_indexterm2_id343720" class="indexterm"/> the <span class="emphasis"><em>overshoot angle</em></span>. The size of
+      this angle is one measure of how slow the vessel is to respond to the
+      helm. For larger ships, this can be between 15 degrees when light and 45
+      degrees when loaded with cargo.</p><p>The time to check yaw is the time in seconds it takes for the
+      overshoot angle to be achieved and the vessel to start changing its
+      heading again. This is repeated for the other side to detect any bias a
+      vessel may have for turning in a particular direction. The moral of the
+      story is that for anything other than a high-speed small craft, boats
+      and ships can take a significant amount of time to respond to the helm.
+      Your simulation should strive to reproduce a turning ability that
+      matches <a class="xref" href="ch16.html#solidus_10_zig-zag_test" title="Figure 16-7. 10/10 zig-zag test">Figure 16-7</a> for extra
+      realism.</p><p>A special kind of thrust vectoring is <a id="I_indexterm2_id343750" class="indexterm"/><a id="I_indexterm2_id343756" class="indexterm"/>called <span class="emphasis"><em>throttle steering</em></span>. Imagine that a boat has two
+        engines. If one is run in forward and the other in reverse, the vessel will turn quite
+        rapidly. For a twin-engine vessel operating in close quarters, the rudders are often
+        centered and the vessel maneuvered solely by altering the throttle settings of the two
+        props.</p><div class="sect3" title="Propeller walk"><div class="titlepage"><div><div><h4 class="title" id="propeller_walk">Propeller walk</h4></div></div></div><p>Another interesting <a id="I_indexterm2_id343786" class="indexterm"/>maneuvering phenomenon that is closely related to thrust
+        vectoring is called <span class="emphasis"><em>propeller walk</em></span>, or
+        <span class="emphasis"><em>prop walk</em></span>. This is especially important for
+        vessels with only one propeller moving in tight spaces. The cause of
+        propeller walk is related to the fact that most propellers are
+        installed at an angle to the horizon. This angle causes the thrust to
+        be greater when the blades are moving down than when the blades are
+        moving upward. In a propeller that turns clockwise, this creates a
+        push to the right.</p><p>In forward gear the rudder is very effective at countering the propeller walk, but in
+          reverse the rudder is much less effective, making the propeller walk much more noticeable.
+          This can add a significant amount of realism when you are simulating vessels in docking
+            <a id="I_indexterm2_id343811" class="indexterm"/>maneuvers.</p></div></div></div><div class="footnotes" epub:type="footnotes"><br/><hr style="width: 100; align: left;"/><div class="footnote" epub:type="footnote" id="ftn.CHP-16-FN-1"><p><sup>[<a href="#CHP-16-FN-1" class="para">29</a>] </sup>These methods are quite involved and there are far too many to discuss here, so
+            we’ve included some references in the <a class="link" href="apd.html" title="Appendix D. Bibliography">Bibliography</a>
+            for you.</p></div></div></section></body></html>

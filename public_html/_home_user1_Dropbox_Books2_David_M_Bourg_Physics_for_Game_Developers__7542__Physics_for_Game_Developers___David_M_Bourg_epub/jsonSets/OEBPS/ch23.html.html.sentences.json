@@ -1,0 +1,9249 @@
+[
+	{
+		"txt": "",
+		"why": "br tag like",
+		"sentenceIndex": 12248,
+		"nouns": [],
+		"dOIndex": 0,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 23. Pressure Sensors and Load Cells",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12249,
+		"nouns": [
+			"Chapter",
+			"Pressure",
+			"Sensors",
+			"Load",
+			"Cells"
+		],
+		"dOIndex": 1,
+		"nouns2": [
+			"Chapter",
+			"Pressure",
+			"Sensors"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Pressure sensors ",
+		"why": "link",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 12250,
+		"nouns": [
+			"Pressure",
+			"sensors"
+		],
+		"dOIndex": 2,
+		"nouns2": [
+			"Pressure",
+			"sensors"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.3333333333333333,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "are an evolution of the simple button. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12251,
+		"nouns": [
+			"evolution",
+			"button"
+		],
+		"dOIndex": 3,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"evolution"
+		]
+	},
+	{
+		"txt": " A simple button has two states, on or off, which can be used to trigger simple atomic actions in a video game such as firing a gun or opening a door. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12252,
+		"nouns": [
+			"button",
+			"two",
+			"states",
+			"actions",
+			"video",
+			"game",
+			"gun",
+			"door"
+		],
+		"dOIndex": 4,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"actions"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.09090909090909091,
+			"words": [
+				"gun",
+				"firing"
+			],
+			"positive": [],
+			"negative": [
+				"gun",
+				"firing"
+			]
+		}
+	},
+	{
+		"txt": " However, simple buttons are not capable of informing the program how you, the user, hits that button. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12253,
+		"nouns": [
+			"buttons",
+			"program",
+			"user",
+			"hits",
+			"button"
+		],
+		"dOIndex": 5,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"buttons",
+			"program"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.05263157894736842,
+			"words": [
+				"capable"
+			],
+			"positive": [],
+			"negative": [
+				"capable"
+			]
+		}
+	},
+	{
+		"txt": " Did you hit it quickly? ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12254,
+		"nouns": [],
+		"dOIndex": 6,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Did you barely touch it at all? ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12255,
+		"nouns": [
+			"touch"
+		],
+		"dOIndex": 7,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " The only thing the program can interpret is that you did in fact hit the button.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12256,
+		"nouns": [
+			"program",
+			"fact",
+			"button"
+		],
+		"dOIndex": 8,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"program"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 12257,
+		"nouns": [],
+		"dOIndex": 9,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12258,
+		"nouns": [],
+		"dOIndex": 10,
+		"isQuote": false
+	},
+	{
+		"txt": "With pressure sensors, the program has the ability to discern how the user pressed the button. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 12259,
+		"nouns": [
+			"pressure",
+			"sensors",
+			"program",
+			"ability",
+			"user",
+			"button"
+		],
+		"dOIndex": 11,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure",
+			"sensors",
+			"program",
+			"ability"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.058823529411764705,
+			"words": [
+				"ability",
+				"pressure"
+			],
+			"positive": [
+				"ability"
+			],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " This information can be used as incremental input, such as the player raising a firearm before pressing the button harder to actually fire. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12260,
+		"nouns": [
+			"information",
+			"input",
+			"player",
+			"firearm",
+			"button",
+			"fire"
+		],
+		"dOIndex": 12,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"information",
+			"firearm"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.08,
+			"words": [
+				"fire"
+			],
+			"positive": [],
+			"negative": [
+				"fire"
+			]
+		}
+	},
+	{
+		"txt": " Additionally, pressure sensors can be used to create novel forms of human input devices. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12261,
+		"nouns": [
+			"pressure",
+			"sensors",
+			"novel",
+			"forms",
+			"input",
+			"devices"
+		],
+		"dOIndex": 13,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Additionally",
+			"pressure",
+			"sensors",
+			"devices"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.0625,
+			"words": [
+				"novel",
+				"pressure"
+			],
+			"positive": [
+				"novel"
+			],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " While pressure sensitivity is not uncommon in the more traditional console gaming markets, there is also a recent push to move the sensors into touch screen devices like the Nintendo DS and cell phone gaming market. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12262,
+		"nouns": [
+			"pressure",
+			"sensitivity",
+			"markets",
+			"move",
+			"sensors",
+			"touch",
+			"screen",
+			"devices",
+			"Nintendo",
+			"DS",
+			"cell",
+			"phone",
+			"market"
+		],
+		"dOIndex": 14,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure",
+			"sensitivity",
+			"markets",
+			"sensors",
+			"devices",
+			"Nintendo"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.02631578947368421,
+			"words": [
+				"like",
+				"pressure"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " Pressure sensitive touch screens are currently beyond state of the art, however, so we'll primarily discuss the traditional methods already in widespread adoption.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12263,
+		"nouns": [
+			"Pressure",
+			"touch",
+			"screens",
+			"state",
+			"art",
+			"ll",
+			"methods",
+			"adoption"
+		],
+		"dOIndex": 15,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Pressure",
+			"screens",
+			"methods",
+			"adoption"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.041666666666666664,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 12264,
+		"nouns": [],
+		"dOIndex": 16,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12265,
+		"nouns": [],
+		"dOIndex": 17,
+		"isQuote": false
+	},
+	{
+		"txt": "In addition to pressure sensors, some new gaming consoles ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 12266,
+		"nouns": [
+			"addition",
+			"pressure",
+			"sensors",
+			"consoles"
+		],
+		"dOIndex": 18,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"addition",
+			"pressure",
+			"sensors",
+			"consoles"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.1,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12267,
+		"nouns": [],
+		"dOIndex": 19,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "use load cells to allow the player to use shifts in his or her body weight as input. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 12268,
+		"nouns": [
+			"use",
+			"load",
+			"cells",
+			"player",
+			"use",
+			"shifts",
+			"body",
+			"weight",
+			"input"
+		],
+		"dOIndex": 20,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.05263157894736842,
+			"words": [
+				"allow"
+			],
+			"positive": [
+				"allow"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The method by which this data is collected and how the center of gravity is determined will be discussed in this chapter. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12269,
+		"nouns": [
+			"method",
+			"data",
+			"center",
+			"gravity",
+			"chapter"
+		],
+		"dOIndex": 21,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"gravity",
+			"chapter"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08333333333333333,
+			"words": [
+				"determined"
+			],
+			"positive": [
+				"determined"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Lastly, some smartphones now include ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 12270,
+		"nouns": [
+			"smartphones"
+		],
+		"dOIndex": 22,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Lastly",
+			"smartphones"
+		]
+	},
+	{
+		"txt": "a barometer",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 12271,
+		"nouns": [
+			"barometer"
+		],
+		"dOIndex": 23,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"barometer"
+		]
+	},
+	{
+		"txt": " , a pressure sensor that measures the pressure of the atmosphere. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12272,
+		"nouns": [
+			"pressure",
+			"sensor",
+			"measures",
+			"pressure",
+			"atmosphere"
+		],
+		"dOIndex": 24,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure",
+			"measures",
+			"atmosphere"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.15384615384615385,
+			"words": [
+				"pressure",
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure",
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " What it is used for and the type of information it can provide will also be discussed.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12273,
+		"nouns": [
+			"type",
+			"information"
+		],
+		"dOIndex": 25,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"information"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 12274,
+		"nouns": [],
+		"dOIndex": 26,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12275,
+		"nouns": [],
+		"dOIndex": 27,
+		"isQuote": false
+	},
+	{
+		"txt": "Under Pressure",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12276,
+		"nouns": [
+			"Pressure"
+		],
+		"dOIndex": 28,
+		"nouns2": [
+			"Pressure"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.5,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12277,
+		"nouns": [],
+		"dOIndex": 29,
+		"isQuote": false
+	},
+	{
+		"txt": "As discussed in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12278,
+		"nouns": [],
+		"dOIndex": 30,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 3, pressure is a ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12279,
+		"nouns": [
+			"Chapter",
+			"pressure"
+		],
+		"dOIndex": 31,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter",
+			"pressure"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.2,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12280,
+		"nouns": [],
+		"dOIndex": 32,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "force applied over an area. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12281,
+		"nouns": [
+			"force",
+			"area"
+		],
+		"dOIndex": 33,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Imagine a concrete block sitting on a steel plate. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12282,
+		"nouns": [
+			"block",
+			"steel",
+			"plate"
+		],
+		"dOIndex": 34,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Imagine"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.09090909090909091,
+			"words": [
+				"block"
+			],
+			"positive": [],
+			"negative": [
+				"block"
+			]
+		}
+	},
+	{
+		"txt": " The weight of the block will be evenly distributed over the area of contact, creating a pressure on the steel plate. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12283,
+		"nouns": [
+			"weight",
+			"block",
+			"area",
+			"contact",
+			"pressure",
+			"steel",
+			"plate"
+		],
+		"dOIndex": 35,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"contact",
+			"pressure"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.08695652173913043,
+			"words": [
+				"pressure",
+				"block"
+			],
+			"positive": [],
+			"negative": [
+				"pressure",
+				"block"
+			]
+		}
+	},
+	{
+		"txt": " Gas and liquid can apply pressure as well. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12284,
+		"nouns": [
+			"Gas",
+			"pressure"
+		],
+		"dOIndex": 36,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.1,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " The weight of the air pressing down on us is what is known ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12285,
+		"nouns": [
+			"weight",
+			"air"
+		],
+		"dOIndex": 37,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12286,
+		"nouns": [],
+		"dOIndex": 38,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "as atmospheric pressure.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12287,
+		"nouns": [
+			"pressure"
+		],
+		"dOIndex": 39,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.3333333333333333,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12288,
+		"nouns": [],
+		"dOIndex": 40,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12289,
+		"nouns": [],
+		"dOIndex": 41,
+		"isQuote": false
+	},
+	{
+		"txt": "Let's cover a quick example of how to calculate pressure just to illustrate the concepts involved. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12290,
+		"nouns": [
+			"example",
+			"pressure",
+			"concepts"
+		],
+		"dOIndex": 42,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"pressure",
+			"concepts"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.058823529411764705,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12291,
+		"nouns": [],
+		"dOIndex": 43,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12292,
+		"nouns": [],
+		"dOIndex": 44,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Pressure has many different units, but all of them can be equated to a force divided by an area. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12293,
+		"nouns": [
+			"Pressure",
+			"units",
+			"force",
+			"area"
+		],
+		"dOIndex": 45,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Pressure"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.05,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " For this chapter we'll stick with Newtons per square meter, as this is easiest to visualize. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12294,
+		"nouns": [
+			"chapter",
+			"ll",
+			"Newtons",
+			"square",
+			"meter"
+		],
+		"dOIndex": 46,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"chapter",
+			"Newtons"
+		]
+	},
+	{
+		"txt": " The SI derived unit (a unit of measure made up of other fundamental units) is called a Pascal, which is just 1 N/m2 .",
+		"why": "split inside sentence",
+		"tags": [
+			"sup",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12295,
+		"nouns": [
+			"SI",
+			"unit",
+			"unit",
+			"measure",
+			"units",
+			"N",
+			"/",
+			"m"
+		],
+		"dOIndex": 47,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"measure",
+			"Pascal"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12296,
+		"nouns": [],
+		"dOIndex": 48,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12297,
+		"nouns": [],
+		"dOIndex": 49,
+		"isQuote": false
+	},
+	{
+		"txt": "Example Effects of High Pressure",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12298,
+		"nouns": [
+			"Example Effects",
+			"High",
+			"Pressure"
+		],
+		"dOIndex": 50,
+		"nouns2": [
+			"Example",
+			"Effects",
+			"Pressure"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.2,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12299,
+		"nouns": [],
+		"dOIndex": 51,
+		"isQuote": false
+	},
+	{
+		"txt": "In ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12300,
+		"nouns": [],
+		"dOIndex": 52,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 3, we discussed the concept of buoyancy and how it arises from ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12301,
+		"nouns": [
+			"Chapter",
+			"concept",
+			"buoyancy"
+		],
+		"dOIndex": 53,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter",
+			"concept",
+			"buoyancy"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12302,
+		"nouns": [],
+		"dOIndex": 54,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12303,
+		"nouns": [],
+		"dOIndex": 55,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "hydrostatic pressure. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12304,
+		"nouns": [
+			"pressure"
+		],
+		"dOIndex": 56,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.3333333333333333,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " Here, we'll show the tremendous forces that hydrostatic pressure can cause on a submerged object. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12305,
+		"nouns": [
+			"ll",
+			"show",
+			"forces",
+			"pressure",
+			"cause",
+			"object"
+		],
+		"dOIndex": 57,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.058823529411764705,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " Let's imagine we have a steel ball filled with normal atmospheric pressure at sea level, or about 101,000 N/m2 . ",
+		"why": "split inside sentence",
+		"tags": [
+			"sup",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12306,
+		"nouns": [
+			"steel",
+			"ball",
+			"pressure",
+			"sea",
+			"level",
+			"N",
+			"/",
+			"m"
+		],
+		"dOIndex": 58,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.045454545454545456,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " While this seems like a lot, your body is used to dealing with this pressure, so you don't even notice it on a daily basis! ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12307,
+		"nouns": [
+			"lot",
+			"body",
+			"pressure",
+			"t",
+			"notice",
+			"basis"
+		],
+		"dOIndex": 59,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.037037037037037035,
+			"words": [
+				"pressure",
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " Now we are going to take this ball and drop it into the Marianas trench, the deepest known part of the ocean. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12308,
+		"nouns": [
+			"ball",
+			"drop",
+			"Marianas",
+			"trench",
+			"part",
+			"ocean"
+		],
+		"dOIndex": 60,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Marianas"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.041666666666666664,
+			"words": [
+				"drop"
+			],
+			"positive": [],
+			"negative": [
+				"drop"
+			]
+		}
+	},
+	{
+		"txt": " The water depth here is approximately 10,900 meters. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12309,
+		"nouns": [
+			"water",
+			"depth",
+			"meters"
+		],
+		"dOIndex": 61,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " The formula for calculating the pressure due to water (hydrostatic pressure) is:P(h) = ρ × g × h",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12310,
+		"nouns": [
+			"formula",
+			"pressure",
+			"water",
+			"pressure",
+			"P",
+			"h",
+			"ρ",
+			"×",
+			"g",
+			"×",
+			"h"
+		],
+		"dOIndex": 62,
+		"nouns2": [
+			"formula",
+			"pressure"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.10526315789473684,
+			"words": [
+				"pressure",
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure",
+				"pressure"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12311,
+		"nouns": [],
+		"dOIndex": 63,
+		"isQuote": false
+	},
+	{
+		"txt": "where ρ is the mass density of water, g is force due to gravity, and h is the height of the water column above the object.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12312,
+		"nouns": [
+			"ρ",
+			"mass",
+			"density",
+			"water",
+			"g",
+			"force",
+			"gravity",
+			"h",
+			"height",
+			"water",
+			"column",
+			"object"
+		],
+		"dOIndex": 64,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"density",
+			"gravity"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12313,
+		"nouns": [],
+		"dOIndex": 65,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12314,
+		"nouns": [],
+		"dOIndex": 66,
+		"isQuote": false
+	},
+	{
+		"txt": "Here we take the standard density for saltwater, 1025 kg/m3, and calculate what the pressure is:P(10,900) = (1025 kg/m3link https:2) × (10,900 m) = 109,490,500 N/m2",
+		"why": "p",
+		"tags": [
+			"sup",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12315,
+		"nouns": [
+			"density",
+			"saltwater",
+			"kg",
+			"/",
+			"m",
+			"pressure",
+			"P",
+			"kg",
+			"/",
+			"m",
+			"link",
+			"https",
+			"×",
+			"m",
+			"N",
+			"/",
+			"m"
+		],
+		"dOIndex": 67,
+		"nouns2": [
+			"density",
+			"saltwater",
+			"pressure"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.038461538461538464,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12316,
+		"nouns": [],
+		"dOIndex": 68,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 23 1 shows how the pressures act against our steel ball.",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12317,
+		"nouns": [
+			"Figure",
+			"pressures",
+			"act",
+			"steel",
+			"ball"
+		],
+		"dOIndex": 69,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure",
+			"pressures"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12318,
+		"nouns": [],
+		"dOIndex": 70,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12319,
+		"nouns": [],
+		"dOIndex": 71,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12320,
+		"nouns": [],
+		"dOIndex": 72,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12321,
+		"nouns": [],
+		"dOIndex": 73,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12322,
+		"nouns": [],
+		"dOIndex": 74,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 23 1. Pressure differential",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12323,
+		"nouns": [
+			"Figure",
+			"Pressure"
+		],
+		"dOIndex": 75,
+		"nouns2": [
+			"Figure",
+			"Pressure"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12324,
+		"nouns": [],
+		"dOIndex": 76,
+		"isQuote": false
+	},
+	{
+		"txt": "It is clear that the water pressure acting on the sphere is much larger than the air pressure we trapped inside before sinking it. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12325,
+		"nouns": [
+			"water",
+			"pressure",
+			"sphere",
+			"air",
+			"pressure"
+		],
+		"dOIndex": 77,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.12,
+			"words": [
+				"trapped",
+				"pressure",
+				"pressure",
+				"clear"
+			],
+			"positive": [
+				"clear"
+			],
+			"negative": [
+				"trapped",
+				"pressure",
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " Also, note that pressure always acts normal to the surface. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12326,
+		"nouns": [
+			"note",
+			"pressure",
+			"acts",
+			"surface"
+		],
+		"dOIndex": 78,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure",
+			"surface"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.08333333333333333,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " If you happen to apply a force to the vertex of an object, you'll have trouble modeling the right effect because a vertex does not have a well defined normal. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12327,
+		"nouns": [
+			"force",
+			"vertex",
+			"object",
+			"ll",
+			"trouble",
+			"right",
+			"effect",
+			"vertex"
+		],
+		"dOIndex": 79,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"trouble"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.0625,
+			"words": [
+				"trouble"
+			],
+			"positive": [],
+			"negative": [
+				"trouble"
+			]
+		}
+	},
+	{
+		"txt": " We can overcome this only by applying pressure to the faces of polygons or by averaging the direction of the pressure on either side of the vertex. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12328,
+		"nouns": [
+			"pressure",
+			"polygons",
+			"direction",
+			"pressure",
+			"side",
+			"vertex"
+		],
+		"dOIndex": 80,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure",
+			"polygons",
+			"direction"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.06896551724137931,
+			"words": [
+				"pressure",
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure",
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " Returning to our example, the net pressure differential on the steel ball is:P(water) − P(air) = 10,949,100 N/m2− 101,000 N/m2 = 10,848,100 N/m2",
+		"why": "p",
+		"tags": [
+			"sup",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12329,
+		"nouns": [
+			"example",
+			"pressure",
+			"steel",
+			"ball",
+			"P",
+			"water",
+			"−",
+			"P",
+			"air",
+			"N",
+			"/",
+			"m",
+			"−",
+			"N",
+			"/",
+			"m",
+			"N",
+			"/",
+			"m"
+		],
+		"dOIndex": 81,
+		"nouns2": [
+			"Returning",
+			"example",
+			"pressure"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.041666666666666664,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12330,
+		"nouns": [],
+		"dOIndex": 82,
+		"isQuote": false
+	},
+	{
+		"txt": "This is the pressure you would feel if 1,870 elephants were standing on a 1 square meter plate on top of you. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12331,
+		"nouns": [
+			"pressure",
+			"elephants",
+			"square",
+			"meter",
+			"plate"
+		],
+		"dOIndex": 83,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure",
+			"elephants"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.043478260869565216,
+			"words": [
+				"top",
+				"pressure"
+			],
+			"positive": [
+				"top"
+			],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " If our steel ball had walls that were too thin to withstand this pressure differential, it would implode. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12332,
+		"nouns": [
+			"steel",
+			"ball",
+			"walls",
+			"pressure"
+		],
+		"dOIndex": 84,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.05,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " To put this all into perspective, a steel ball in space would have a pressure differential of only 1 atmosphere pushing out. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12333,
+		"nouns": [
+			"perspective",
+			"steel",
+			"ball",
+			"space",
+			"pressure",
+			"atmosphere"
+		],
+		"dOIndex": 85,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"perspective",
+			"pressure",
+			"atmosphere"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.041666666666666664,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " It is thus much harder to design a structure to go to the bottom of the sea than it is to go to the moon. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12334,
+		"nouns": [
+			"design",
+			"structure",
+			"bottom",
+			"sea",
+			"moon"
+		],
+		"dOIndex": 86,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"structure"
+		]
+	},
+	{
+		"txt": " Indeed, more men have stepped foot on the lunar surface than have visited the bottom of the sea.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12335,
+		"nouns": [
+			"men",
+			"foot",
+			"surface",
+			"bottom",
+			"sea"
+		],
+		"dOIndex": 87,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Indeed",
+			"surface"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12336,
+		"nouns": [],
+		"dOIndex": 88,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12337,
+		"nouns": [],
+		"dOIndex": 89,
+		"isQuote": false
+	},
+	{
+		"txt": "If the ball were open to the sea, then the pressure would act equally on each side of the steel boundary. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12338,
+		"nouns": [
+			"ball",
+			"sea",
+			"pressure",
+			"side",
+			"steel",
+			"boundary"
+		],
+		"dOIndex": 90,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure",
+			"boundary"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.045454545454545456,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " Without a pressure differential, there would be no force to crush the ball; however, there would still be compression of the steel shell ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12339,
+		"nouns": [
+			"pressure",
+			"force",
+			"crush",
+			"ball",
+			"compression",
+			"steel",
+			"shell"
+		],
+		"dOIndex": 91,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Without",
+			"pressure",
+			"compression"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.12,
+			"words": [
+				"crush",
+				"no",
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"crush",
+				"no",
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": "itself.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12340,
+		"nouns": [],
+		"dOIndex": 92,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12341,
+		"nouns": [],
+		"dOIndex": 93,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12342,
+		"nouns": [],
+		"dOIndex": 94,
+		"isQuote": false
+	},
+	{
+		"txt": "Button Mashing",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12343,
+		"nouns": [
+			"Button"
+		],
+		"dOIndex": 95,
+		"nouns2": [
+			"Button",
+			"Mashing"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12344,
+		"nouns": [],
+		"dOIndex": 96,
+		"isQuote": false
+	},
+	{
+		"txt": "While the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12345,
+		"nouns": [],
+		"dOIndex": 97,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12346,
+		"nouns": [],
+		"dOIndex": 98,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "preceding example highlights some important concepts about pressure in general, it is not usually the type of pressure used as input to a game. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12347,
+		"nouns": [
+			"example",
+			"concepts",
+			"pressure",
+			"type",
+			"pressure",
+			"input",
+			"game"
+		],
+		"dOIndex": 99,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"concepts",
+			"pressure"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"pressure",
+				"pressure",
+				"important"
+			],
+			"positive": [
+				"important"
+			],
+			"negative": [
+				"pressure",
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " The most common types of pressure sensors you'll experience in video games are pressure sensitive buttons that indirectly measure the amount of pressure the user is exerting on the button and convert this to a relative value. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12348,
+		"nouns": [
+			"types",
+			"pressure",
+			"sensors",
+			"ll",
+			"experience",
+			"video",
+			"games",
+			"pressure",
+			"buttons",
+			"measure",
+			"amount",
+			"pressure",
+			"user",
+			"button",
+			"value"
+		],
+		"dOIndex": 100,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure",
+			"sensors",
+			"experience",
+			"buttons",
+			"measure"
+		],
+		"highfreq": {
+			"pressure": 3
+		},
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.07692307692307693,
+			"words": [
+				"pressure",
+				"pressure",
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure",
+				"pressure",
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " Both Sony and Microsoft have incorporated pressure sensitive (also known as analog ) buttons into their controllers for the PlayStation and Xbox series of consoles.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12349,
+		"nouns": [
+			"Sony",
+			"Microsoft",
+			"pressure",
+			"analog",
+			"buttons",
+			"controllers",
+			"PlayStation",
+			"Xbox",
+			"series",
+			"consoles"
+		],
+		"dOIndex": 101,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Microsoft",
+			"pressure",
+			"buttons",
+			"controllers",
+			"PlayStation",
+			"consoles"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.038461538461538464,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12350,
+		"nouns": [],
+		"dOIndex": 102,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12351,
+		"nouns": [],
+		"dOIndex": 103,
+		"isQuote": false
+	},
+	{
+		"txt": "The method by which you can detect how hard a user is pressing a button varies from very simple to very complex. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12352,
+		"nouns": [
+			"method",
+			"user",
+			"button"
+		],
+		"dOIndex": 104,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.043478260869565216,
+			"words": [
+				"hard"
+			],
+			"positive": [],
+			"negative": [
+				"hard"
+			]
+		}
+	},
+	{
+		"txt": " We'll focus on Sony's method, which is very elegant. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12353,
+		"nouns": [
+			"ll",
+			"focus",
+			"Sony",
+			"method"
+		],
+		"dOIndex": 105,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.18181818181818182,
+			"words": [
+				"elegant"
+			],
+			"positive": [
+				"elegant"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " A typical push button is just two contacts separated by an insulator, most commonly air. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12354,
+		"nouns": [
+			"button",
+			"two",
+			"contacts",
+			"insulator",
+			"air"
+		],
+		"dOIndex": 106,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"contacts",
+			"insulator"
+		]
+	},
+	{
+		"txt": " When the button is pushed, the upper contact moves down and touches the lower contact. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12355,
+		"nouns": [
+			"button",
+			"contact",
+			"moves",
+			"touches",
+			"contact"
+		],
+		"dOIndex": 107,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"contact",
+			"touches"
+		]
+	},
+	{
+		"txt": " This completes a circuit, causing a voltage spike, which the device interprets as a button press. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12356,
+		"nouns": [
+			"circuit",
+			"voltage",
+			"spike",
+			"device",
+			"button",
+			"press"
+		],
+		"dOIndex": 108,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"circuit",
+			"voltage"
+		]
+	},
+	{
+		"txt": " This is another example of a digital sensor it is either on or off. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12357,
+		"nouns": [
+			"example",
+			"sensor"
+		],
+		"dOIndex": 109,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example"
+		]
+	},
+	{
+		"txt": " The buttons in Sony's controller work a bit differently. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12358,
+		"nouns": [
+			"buttons",
+			"Sony",
+			"controller",
+			"work",
+			"bit"
+		],
+		"dOIndex": 110,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"buttons",
+			"controller"
+		]
+	},
+	{
+		"txt": " In State A in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12359,
+		"nouns": [
+			"State"
+		],
+		"dOIndex": 111,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 23 2",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12360,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 112,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " , we can see that the button is not yet pressed and an air gap exists between the solid conductor and the domed flexible conductor. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12361,
+		"nouns": [
+			"button",
+			"air",
+			"gap",
+			"conductor",
+			"conductor"
+		],
+		"dOIndex": 113,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"conductor"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.07407407407407407,
+			"words": [
+				"solid"
+			],
+			"positive": [
+				"solid"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " In State B the button is depressed with minimal pressure, and the dome just barely makes contact. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12362,
+		"nouns": [
+			"State B",
+			"button",
+			"pressure",
+			"dome",
+			"contact"
+		],
+		"dOIndex": 114,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure",
+			"contact"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.15789473684210525,
+			"words": [
+				"pressure",
+				"depressed"
+			],
+			"positive": [],
+			"negative": [
+				"pressure",
+				"depressed"
+			]
+		}
+	},
+	{
+		"txt": " The button is now activated. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12363,
+		"nouns": [
+			"button"
+		],
+		"dOIndex": 115,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " If the user continues to press down harder on the button, the dome deflects and increases the area of contact with the fixed conductor; the larger the contact area, the greater the conductivity of the connection. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12364,
+		"nouns": [
+			"user",
+			"press",
+			"button",
+			"dome",
+			"increases",
+			"area",
+			"contact",
+			"conductor",
+			"contact",
+			"area",
+			"conductivity",
+			"connection"
+		],
+		"dOIndex": 116,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"increases",
+			"contact",
+			"conductor",
+			"conductivity",
+			"connection"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.07894736842105263,
+			"words": [
+				"greater"
+			],
+			"positive": [
+				"greater"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " This causes a rise in the current flowing in the circuit.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12365,
+		"nouns": [
+			"causes",
+			"rise",
+			"circuit"
+		],
+		"dOIndex": 117,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"circuit"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.08333333333333333,
+			"words": [
+				"rise"
+			],
+			"positive": [
+				"rise"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12366,
+		"nouns": [],
+		"dOIndex": 118,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12367,
+		"nouns": [],
+		"dOIndex": 119,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12368,
+		"nouns": [],
+		"dOIndex": 120,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12369,
+		"nouns": [],
+		"dOIndex": 121,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12370,
+		"nouns": [],
+		"dOIndex": 122,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 23 2. Pressure sensitive button",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12371,
+		"nouns": [
+			"Figure",
+			"Pressure",
+			"button"
+		],
+		"dOIndex": 123,
+		"nouns2": [
+			"Figure",
+			"Pressure"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12372,
+		"nouns": [],
+		"dOIndex": 124,
+		"isQuote": false
+	},
+	{
+		"txt": "By measuring this increase in current, the controller knows how far down the button is being pressed. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12373,
+		"nouns": [
+			"increase",
+			"controller",
+			"button"
+		],
+		"dOIndex": 125,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"increase",
+			"controller"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.05555555555555555,
+			"words": [
+				"increase"
+			],
+			"positive": [
+				"increase"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " In State D in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12374,
+		"nouns": [
+			"State",
+			"D"
+		],
+		"dOIndex": 126,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 23 2",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12375,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 127,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " , the button is at its limit of travel and the dome has deflected to its maximum contact area. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12376,
+		"nouns": [
+			"button",
+			"limit",
+			"travel",
+			"dome",
+			"contact",
+			"area"
+		],
+		"dOIndex": 128,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"contact"
+		]
+	},
+	{
+		"txt": " The difference between this maximum and the minimum required to detect contact determines the absolute lowest and highest pressure the button is able to differentiate. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12377,
+		"nouns": [
+			"difference",
+			"contact",
+			"pressure",
+			"button"
+		],
+		"dOIndex": 129,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"difference",
+			"contact",
+			"pressure"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.07407407407407407,
+			"words": [
+				"pressure",
+				"lowest"
+			],
+			"positive": [],
+			"negative": [
+				"pressure",
+				"lowest"
+			]
+		}
+	},
+	{
+		"txt": " For instance, let us assume that if the button were depressed completely, the current would register at Imax . ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12378,
+		"nouns": [
+			"instance",
+			"button",
+			"Imax"
+		],
+		"dOIndex": 130,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"instance"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.09523809523809523,
+			"words": [
+				"depressed"
+			],
+			"positive": [],
+			"negative": [
+				"depressed"
+			]
+		}
+	},
+	{
+		"txt": " If the button were not pressed at all, of course, the current would be 0. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12379,
+		"nouns": [
+			"button",
+			"course"
+		],
+		"dOIndex": 131,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " If we call the current I(t) for any time, t, we see that the ratio I(t)/Imax gives a nondimensional quantity for how far down the button is pressed. ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12380,
+		"nouns": [
+			"t",
+			"time",
+			"t",
+			"ratio",
+			"t",
+			"/",
+			"Imax",
+			"quantity",
+			"button"
+		],
+		"dOIndex": 132,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quantity"
+		]
+	},
+	{
+		"txt": " During this operation, the hardware converts the analog voltage to a digital representation suitable for input to a program. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12381,
+		"nouns": [
+			"operation",
+			"hardware",
+			"converts",
+			"analog",
+			"voltage",
+			"representation",
+			"input",
+			"program"
+		],
+		"dOIndex": 133,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"During",
+			"operation",
+			"hardware",
+			"converts",
+			"voltage",
+			"representation",
+			"program"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.09523809523809523,
+			"words": [
+				"suitable"
+			],
+			"positive": [
+				"suitable"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " For the Sony example, this value is calculated by the hardware and passed as part of the data stream from the controller with hex values between 0x00 to 0xFF, or in other words, integers 0 to 255 in decimal. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12382,
+		"nouns": [
+			"Sony",
+			"example",
+			"value",
+			"hardware",
+			"part",
+			"data",
+			"stream",
+			"controller",
+			"hex",
+			"values",
+			"x",
+			"xFF",
+			"words",
+			"integers"
+		],
+		"dOIndex": 134,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"hardware",
+			"controller",
+			"integers"
+		]
+	},
+	{
+		"txt": " This means that each button's travel is divided into 255 parts that your program can register.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12383,
+		"nouns": [
+			"button",
+			"travel",
+			"parts",
+			"program"
+		],
+		"dOIndex": 135,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"program"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12384,
+		"nouns": [],
+		"dOIndex": 136,
+		"isQuote": false
+	},
+	{
+		"txt": "While 255 individual increments are beyond the human ability to control fingertip pressure, different ranges of pressure have practical uses in games. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12385,
+		"nouns": [
+			"increments",
+			"ability",
+			"control",
+			"fingertip",
+			"pressure",
+			"ranges",
+			"pressure",
+			"games"
+		],
+		"dOIndex": 137,
+		"nouns2": [
+			"increments",
+			"ability",
+			"control",
+			"fingertip",
+			"pressure"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"pressure",
+				"pressure",
+				"ability"
+			],
+			"positive": [
+				"ability"
+			],
+			"negative": [
+				"pressure",
+				"pressure"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " For example, you could program your button to raise a weapon with a half press (0 to 127), bring the weapon to the shoulder with more pressure (127 to 250), and to fire when totally depressed (250 to 255). ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12386,
+		"nouns": [
+			"example",
+			"program",
+			"button",
+			"weapon",
+			"half",
+			"press",
+			"weapon",
+			"shoulder",
+			"pressure",
+			"fire"
+		],
+		"dOIndex": 138,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"program",
+			"shoulder",
+			"pressure"
+		],
+		"sentiment": {
+			"score": -5,
+			"comparative": -0.12195121951219512,
+			"words": [
+				"depressed",
+				"fire",
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"depressed",
+				"fire",
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " Of course, those values would have to be tuned for the desired level of sensitivity. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12387,
+		"nouns": [
+			"course",
+			"values",
+			"level",
+			"sensitivity"
+		],
+		"dOIndex": 139,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"sensitivity"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.11764705882352941,
+			"words": [
+				"desired"
+			],
+			"positive": [
+				"desired"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Another example would be to control the throttle on a car by using the values of 0 to 255 as thrust multipliers.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12388,
+		"nouns": [
+			"example",
+			"control",
+			"throttle",
+			"car",
+			"values",
+			"thrust",
+			"multipliers"
+		],
+		"dOIndex": 140,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Another",
+			"example",
+			"control",
+			"throttle",
+			"multipliers"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12389,
+		"nouns": [],
+		"dOIndex": 141,
+		"isQuote": false
+	},
+	{
+		"txt": "Another use of knowing a button's position ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12390,
+		"nouns": [
+			"use",
+			"button",
+			"position"
+		],
+		"dOIndex": 142,
+		"nouns2": [
+			"Another",
+			"position"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "would be tracking it over time. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12391,
+		"nouns": [
+			"time"
+		],
+		"dOIndex": 143,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " With a time history of position, you can differentiate to get velocity and again to get acceleration. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12392,
+		"nouns": [
+			"time",
+			"history",
+			"position",
+			"velocity",
+			"acceleration"
+		],
+		"dOIndex": 144,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"history",
+			"position",
+			"velocity",
+			"acceleration"
+		]
+	},
+	{
+		"txt": " This would allow the program to differentiate between a button that is either slowly depressed or quickly depressed. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12393,
+		"nouns": [
+			"program",
+			"button"
+		],
+		"dOIndex": 145,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"program"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.15,
+			"words": [
+				"depressed",
+				"depressed",
+				"allow"
+			],
+			"positive": [
+				"allow"
+			],
+			"negative": [
+				"depressed",
+				"depressed"
+			]
+		}
+	},
+	{
+		"txt": " Most hardware doesn't help you here, so you'll have to store the values and calculate the velocities in whatever increments are appropriate for your program. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12394,
+		"nouns": [
+			"hardware",
+			"doesn",
+			"t",
+			"ll",
+			"store",
+			"values",
+			"velocities",
+			"increments",
+			"program"
+		],
+		"dOIndex": 146,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hardware",
+			"velocities",
+			"increments",
+			"program"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"appropriate",
+				"help"
+			],
+			"positive": [
+				"appropriate"
+			],
+			"negative": [
+				"help"
+			]
+		}
+	},
+	{
+		"txt": " As real time velocity sensing might be taxing to the user as real time input, the best use would be as input to something that the user doesn't have to control constantly. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12395,
+		"nouns": [
+			"time",
+			"velocity",
+			"user",
+			"time",
+			"input",
+			"use",
+			"input",
+			"user",
+			"doesn",
+			"t",
+			"control"
+		],
+		"dOIndex": 147,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity",
+			"control"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.08823529411764706,
+			"words": [
+				"best"
+			],
+			"positive": [
+				"best"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Imagine having to keep a button pressed down at the correct pressure for your gameplay for longer than a few minutes; I can feel my wrist cramping now. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12396,
+		"nouns": [
+			"button",
+			"pressure",
+			"gameplay",
+			"minutes",
+			"wrist"
+		],
+		"dOIndex": 148,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Imagine",
+			"pressure",
+			"gameplay",
+			"minutes"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.03333333333333333,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " However, the pressure button is useful for many inputs. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12397,
+		"nouns": [
+			"pressure",
+			"button",
+			"inputs"
+		],
+		"dOIndex": 149,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"pressure"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.09090909090909091,
+			"words": [
+				"useful",
+				"pressure"
+			],
+			"positive": [
+				"useful"
+			],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " For example, how far a button is pressed down might be used to draw back the head of a putter, while the speed at which the button is released could be used to determine the speed at which the putter is brought back to the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12398,
+		"nouns": [
+			"example",
+			"button",
+			"head",
+			"putter",
+			"button",
+			"putter"
+		],
+		"dOIndex": 150,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12399,
+		"nouns": [],
+		"dOIndex": 151,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "ball.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12400,
+		"nouns": [
+			"ball"
+		],
+		"dOIndex": 152,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12401,
+		"nouns": [],
+		"dOIndex": 153,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12402,
+		"nouns": [],
+		"dOIndex": 154,
+		"isQuote": false
+	},
+	{
+		"txt": "Load Cells",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12403,
+		"nouns": [
+			"Load",
+			"Cells"
+		],
+		"dOIndex": 155,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12404,
+		"nouns": [],
+		"dOIndex": 156,
+		"isQuote": false
+	},
+	{
+		"txt": "Beyond simple ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12405,
+		"nouns": [],
+		"dOIndex": 157,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Beyond"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12406,
+		"nouns": [],
+		"dOIndex": 158,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "buttons, there are other novel ways to use pressure sensors to allow a user to interact with your games. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12407,
+		"nouns": [
+			"buttons",
+			"novel",
+			"ways",
+			"use",
+			"pressure",
+			"sensors",
+			"user",
+			"games"
+		],
+		"dOIndex": 159,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"buttons",
+			"pressure",
+			"sensors"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.1,
+			"words": [
+				"allow",
+				"pressure",
+				"novel"
+			],
+			"positive": [
+				"allow",
+				"novel"
+			],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " For example, Nintendo's Wii uses a balance board peripheral based on load cells to detect a person's ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12408,
+		"nouns": [
+			"example",
+			"Nintendo",
+			"Wii",
+			"balance",
+			"board",
+			"load",
+			"cells",
+			"person"
+		],
+		"dOIndex": 160,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"Nintendo",
+			"balance"
+		]
+	},
+	{
+		"txt": "stance.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12409,
+		"nouns": [
+			"stance"
+		],
+		"dOIndex": 161,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12410,
+		"nouns": [],
+		"dOIndex": 162,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12411,
+		"nouns": [],
+		"dOIndex": 163,
+		"isQuote": false
+	},
+	{
+		"txt": "Note",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12412,
+		"nouns": [],
+		"dOIndex": 164,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12413,
+		"nouns": [],
+		"dOIndex": 165,
+		"isQuote": false
+	},
+	{
+		"txt": "The original idea for the Nintendo balance board came to video game designer Shigeru Miyamoto after he was inspired by watching sumo wrestlers weigh themselves with each leg on a different scale. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12414,
+		"nouns": [
+			"idea",
+			"Nintendo",
+			"balance",
+			"board",
+			"video",
+			"game",
+			"designer Shigeru",
+			"Miyamoto",
+			"sumo",
+			"wrestlers",
+			"leg",
+			"scale"
+		],
+		"dOIndex": 166,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Nintendo",
+			"balance",
+			"designer",
+			"Shigeru",
+			"Miyamoto",
+			"wrestlers"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.06060606060606061,
+			"words": [
+				"inspired"
+			],
+			"positive": [
+				"inspired"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " They are too heavy to use one scale!",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12415,
+		"nouns": [
+			"use",
+			"one",
+			"scale"
+		],
+		"dOIndex": 167,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12416,
+		"nouns": [],
+		"dOIndex": 168,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12417,
+		"nouns": [],
+		"dOIndex": 169,
+		"isQuote": false
+	},
+	{
+		"txt": "Tiny scales",
+		"why": "p",
+		"tags": [
+			"a",
+			"h4",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12418,
+		"nouns": [
+			"Tiny",
+			"scales"
+		],
+		"dOIndex": 170,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12419,
+		"nouns": [],
+		"dOIndex": 171,
+		"isQuote": false
+	},
+	{
+		"txt": "Load cells work ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12420,
+		"nouns": [
+			"Load",
+			"cells",
+			"work"
+		],
+		"dOIndex": 172,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "differently than the pressure sensitive buttons described previously, but like pressure sensitive buttons, they come in different types, all of which measure the load pressing on them. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12421,
+		"nouns": [
+			"pressure",
+			"buttons",
+			"pressure",
+			"buttons",
+			"types",
+			"measure",
+			"load"
+		],
+		"dOIndex": 173,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure",
+			"buttons",
+			"measure"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"pressure",
+				"like",
+				"pressure"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": [
+				"pressure",
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " The most common way, and the one used in the Nintendo balance board we'll discuss shortly, is through what is ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12422,
+		"nouns": [
+			"way",
+			"one",
+			"Nintendo",
+			"balance",
+			"board",
+			"ll"
+		],
+		"dOIndex": 174,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Nintendo",
+			"balance"
+		]
+	},
+	{
+		"txt": "called a strain gauge",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12423,
+		"nouns": [
+			"strain",
+			"gauge"
+		],
+		"dOIndex": 175,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12424,
+		"nouns": [],
+		"dOIndex": 176,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12425,
+		"nouns": [],
+		"dOIndex": 177,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12426,
+		"nouns": [],
+		"dOIndex": 178,
+		"isQuote": false
+	},
+	{
+		"txt": "A strain gauge, as you might be able to guess, does not measure force directly but instead measures how much strain the gauge is experiencing. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12427,
+		"nouns": [
+			"strain",
+			"gauge",
+			"measure",
+			"force",
+			"measures",
+			"strain",
+			"gauge"
+		],
+		"dOIndex": 179,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"measure",
+			"measures"
+		]
+	},
+	{
+		"txt": " Strain is a measure of how much a rigid body has deformed independent of its rigid body motion. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12428,
+		"nouns": [
+			"Strain",
+			"measure",
+			"body",
+			"body",
+			"motion"
+		],
+		"dOIndex": 180,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Strain",
+			"measure"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.1,
+			"words": [
+				"deformed"
+			],
+			"positive": [],
+			"negative": [
+				"deformed"
+			]
+		}
+	},
+	{
+		"txt": " While there are several notions of strain in continuum mechanics, the one we are concerned with here is often ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12429,
+		"nouns": [
+			"notions",
+			"strain",
+			"continuum",
+			"mechanics",
+			"one"
+		],
+		"dOIndex": 181,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"notions",
+			"continuum",
+			"mechanics"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.09523809523809523,
+			"words": [
+				"concerned"
+			],
+			"positive": [],
+			"negative": [
+				"concerned"
+			]
+		}
+	},
+	{
+		"txt": "referred to as engineering strain",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12430,
+		"nouns": [
+			"strain"
+		],
+		"dOIndex": 182,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12431,
+		"nouns": [],
+		"dOIndex": 183,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " This type of strain quantifies how much a structural element has deformed compared to its original, or rest , length. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12432,
+		"nouns": [
+			"type",
+			"strain",
+			"quantifies",
+			"element",
+			"rest",
+			"length"
+		],
+		"dOIndex": 184,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quantifies",
+			"element"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.09090909090909091,
+			"words": [
+				"deformed"
+			],
+			"positive": [],
+			"negative": [
+				"deformed"
+			]
+		}
+	},
+	{
+		"txt": " We normalize this by dividing the change in length over the rest length. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12433,
+		"nouns": [
+			"change",
+			"length",
+			"rest",
+			"length"
+		],
+		"dOIndex": 185,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " By testing the material, one can develop a stress versus strain curve that relates how much stress it takes to cause a certain amount of strain. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12434,
+		"nouns": [
+			"one",
+			"stress",
+			"strain",
+			"curve",
+			"stress",
+			"cause",
+			"amount",
+			"strain"
+		],
+		"dOIndex": 186,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.03571428571428571,
+			"words": [
+				"certain",
+				"stress",
+				"stress"
+			],
+			"positive": [
+				"certain"
+			],
+			"negative": [
+				"stress",
+				"stress"
+			]
+		}
+	},
+	{
+		"txt": " Once the pressure that causes an amount of strain is known, it is possible to determine the amount of load. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12435,
+		"nouns": [
+			"pressure",
+			"causes",
+			"amount",
+			"strain",
+			"amount",
+			"load"
+		],
+		"dOIndex": 187,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.045454545454545456,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " Now you might be wondering how the strain gauge measures the amount that the Wii's legs compress when you stand on them.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12436,
+		"nouns": [
+			"strain",
+			"gauge",
+			"measures",
+			"amount",
+			"Wii",
+			"legs"
+		],
+		"dOIndex": 188,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"measures"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12437,
+		"nouns": [],
+		"dOIndex": 189,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12438,
+		"nouns": [],
+		"dOIndex": 190,
+		"isQuote": false
+	},
+	{
+		"txt": "One of the most common electronic strain ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12439,
+		"nouns": [
+			"One",
+			"strain"
+		],
+		"dOIndex": 191,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "gauges is the piezoresistive strain gauge",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12440,
+		"nouns": [
+			"piezoresistive",
+			"strain",
+			"gauge"
+		],
+		"dOIndex": 192,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"piezoresistive"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12441,
+		"nouns": [],
+		"dOIndex": 193,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " The simplest example of a piezoresistive strain gauge would be a single wire. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12442,
+		"nouns": [
+			"example",
+			"piezoresistive",
+			"strain",
+			"gauge",
+			"wire"
+		],
+		"dOIndex": 194,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"piezoresistive"
+		]
+	},
+	{
+		"txt": " If you were to elongate a wire from its rest length, the cross sectional area decreases. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12443,
+		"nouns": [
+			"wire",
+			"rest",
+			"length",
+			"cross",
+			"area",
+			"decreases"
+		],
+		"dOIndex": 195,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"decreases"
+		]
+	},
+	{
+		"txt": " This causes a rise in the electrical resistance of the wire. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12444,
+		"nouns": [
+			"causes",
+			"rise",
+			"resistance",
+			"wire"
+		],
+		"dOIndex": 196,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"resistance"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.07692307692307693,
+			"words": [
+				"rise"
+			],
+			"positive": [
+				"rise"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " After measuring the rest resistance, you can use the difference to determine how much the wire has elongated. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12445,
+		"nouns": [
+			"rest",
+			"resistance",
+			"use",
+			"difference",
+			"wire"
+		],
+		"dOIndex": 197,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"resistance",
+			"difference"
+		]
+	},
+	{
+		"txt": " Knowing the mechanical properties of the wire, you can also determine how much force it takes to stretch the wire.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12446,
+		"nouns": [
+			"properties",
+			"wire",
+			"force",
+			"stretch",
+			"wire"
+		],
+		"dOIndex": 198,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Knowing",
+			"properties",
+			"stretch"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12447,
+		"nouns": [],
+		"dOIndex": 199,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12448,
+		"nouns": [],
+		"dOIndex": 200,
+		"isQuote": false
+	},
+	{
+		"txt": "To make strain gauges sensitive without having long linear wire elements, the conductive material is often arranged in a strain sensitive pattern, as shown in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12449,
+		"nouns": [
+			"strain",
+			"wire",
+			"elements",
+			"conductive",
+			"strain",
+			"pattern"
+		],
+		"dOIndex": 201,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"elements",
+			"conductive",
+			"pattern"
+		]
+	},
+	{
+		"txt": "Figure 23 3",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12450,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 202,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12451,
+		"nouns": [],
+		"dOIndex": 203,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " This looping back and forth of the conductor allows for great sensitivity without increasing the physical space the sensor occupies. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12452,
+		"nouns": [
+			"conductor",
+			"sensitivity",
+			"space",
+			"sensor"
+		],
+		"dOIndex": 204,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"conductor",
+			"sensitivity"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.13636363636363635,
+			"words": [
+				"great"
+			],
+			"positive": [
+				"great"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Here the rest length would be 18 times longer than the physical length of the sensor.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12453,
+		"nouns": [
+			"rest",
+			"length",
+			"times",
+			"length",
+			"sensor"
+		],
+		"dOIndex": 205,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12454,
+		"nouns": [],
+		"dOIndex": 206,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12455,
+		"nouns": [],
+		"dOIndex": 207,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12456,
+		"nouns": [],
+		"dOIndex": 208,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12457,
+		"nouns": [],
+		"dOIndex": 209,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12458,
+		"nouns": [],
+		"dOIndex": 210,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 23 3. Typical strain sensitive pattern",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12459,
+		"nouns": [
+			"Figure",
+			"strain",
+			"pattern"
+		],
+		"dOIndex": 211,
+		"nouns2": [
+			"Figure",
+			"Typical",
+			"pattern"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12460,
+		"nouns": [],
+		"dOIndex": 212,
+		"isQuote": false
+	},
+	{
+		"txt": "Center of gravity",
+		"why": "p",
+		"tags": [
+			"a",
+			"h4",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12461,
+		"nouns": [
+			"Center",
+			"gravity"
+		],
+		"dOIndex": 213,
+		"nouns2": [
+			"Center",
+			"gravity"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12462,
+		"nouns": [],
+		"dOIndex": 214,
+		"isQuote": false
+	},
+	{
+		"txt": "The board ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12463,
+		"nouns": [
+			"board"
+		],
+		"dOIndex": 215,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12464,
+		"nouns": [],
+		"dOIndex": 216,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "has four legs, each of which houses a load sensor. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12465,
+		"nouns": [
+			"four",
+			"legs",
+			"houses",
+			"load",
+			"sensor"
+		],
+		"dOIndex": 217,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " The board uses strain gauges similar to those discussed earlier. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12466,
+		"nouns": [
+			"board",
+			"strain"
+		],
+		"dOIndex": 218,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " These gauges elongate when a force is applied to them. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12467,
+		"nouns": [
+			"force"
+		],
+		"dOIndex": 219,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " The elongation changes the electrical resistance of the circuit of which the strips are a part, and this is reported back to the controller. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12468,
+		"nouns": [
+			"elongation",
+			"changes",
+			"resistance",
+			"circuit",
+			"strips",
+			"part",
+			"controller"
+		],
+		"dOIndex": 220,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"elongation",
+			"changes",
+			"resistance",
+			"circuit",
+			"controller"
+		]
+	},
+	{
+		"txt": " ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12469,
+		"nouns": [],
+		"dOIndex": 221,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 23 4",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12470,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 222,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " shows two sensor outputs. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12471,
+		"nouns": [
+			"two",
+			"sensor",
+			"outputs"
+		],
+		"dOIndex": 223,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"outputs"
+		]
+	},
+	{
+		"txt": " The first is with the user standing so that her center of gravity is over the center of the board. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12472,
+		"nouns": [
+			"first",
+			"user",
+			"center",
+			"gravity",
+			"center",
+			"board"
+		],
+		"dOIndex": 224,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"gravity"
+		]
+	},
+	{
+		"txt": " The second state shows what the board's sensors would measure after the user has shifted her center of gravity.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12473,
+		"nouns": [
+			"second",
+			"state",
+			"board",
+			"sensors",
+			"user",
+			"center",
+			"gravity"
+		],
+		"dOIndex": 225,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"sensors",
+			"gravity"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12474,
+		"nouns": [],
+		"dOIndex": 226,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12475,
+		"nouns": [],
+		"dOIndex": 227,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12476,
+		"nouns": [],
+		"dOIndex": 228,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12477,
+		"nouns": [],
+		"dOIndex": 229,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12478,
+		"nouns": [],
+		"dOIndex": 230,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 23 4. Balance board example",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12479,
+		"nouns": [
+			"Figure",
+			"Balance",
+			"board",
+			"example"
+		],
+		"dOIndex": 231,
+		"nouns2": [
+			"Figure",
+			"Balance",
+			"example"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12480,
+		"nouns": [],
+		"dOIndex": 232,
+		"isQuote": false
+	},
+	{
+		"txt": "It is easy to intuitively recognize that the center of gravity must be over the center of the board in State A and toward the lower right corner in State B. However, to get the exact location of the center of gravity in State B, we'll have to do a little more work. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12481,
+		"nouns": [
+			"center",
+			"gravity",
+			"center",
+			"board",
+			"State",
+			"right",
+			"corner",
+			"State B",
+			"location",
+			"center",
+			"gravity",
+			"State B",
+			"ll",
+			"work"
+		],
+		"dOIndex": 233,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"gravity",
+			"However",
+			"location"
+		],
+		"highfreq": {
+			"center": 3,
+			"State": 3
+		},
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.018518518518518517,
+			"words": [
+				"easy"
+			],
+			"positive": [
+				"easy"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " First things first: we have to define a coordinate system. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12482,
+		"nouns": [
+			"First",
+			"things",
+			"first",
+			"coordinate",
+			"system"
+		],
+		"dOIndex": 234,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coordinate"
+		]
+	},
+	{
+		"txt": " This is shown in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12483,
+		"nouns": [],
+		"dOIndex": 235,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 23 5",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12484,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 236,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12485,
+		"nouns": [],
+		"dOIndex": 237,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12486,
+		"nouns": [],
+		"dOIndex": 238,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12487,
+		"nouns": [],
+		"dOIndex": 239,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12488,
+		"nouns": [],
+		"dOIndex": 240,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12489,
+		"nouns": [],
+		"dOIndex": 241,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12490,
+		"nouns": [],
+		"dOIndex": 242,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 23 5. Balance board coordinate system",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12491,
+		"nouns": [
+			"Figure",
+			"Balance",
+			"board",
+			"system"
+		],
+		"dOIndex": 243,
+		"nouns2": [
+			"Figure",
+			"Balance"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12492,
+		"nouns": [],
+		"dOIndex": 244,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": true,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "This coordinate system is arbitrary. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12493,
+		"nouns": [
+			"coordinate",
+			"system"
+		],
+		"dOIndex": 245,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"coordinate",
+			"system"
+		],
+		"nouns2": [
+			"coordinate"
+		]
+	},
+	{
+		"txt": " If the board isn't a perfect square, such as with the Wii board, then the coordinates of the load cells must be changed accordingly. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12494,
+		"nouns": [
+			"board",
+			"isn",
+			"t",
+			"square",
+			"Wii",
+			"board",
+			"coordinates",
+			"load",
+			"cells"
+		],
+		"dOIndex": 246,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"board",
+			"isn",
+			"t",
+			"square",
+			"Wii",
+			"board",
+			"coordinates",
+			"load",
+			"cells"
+		],
+		"nouns2": [
+			"coordinates"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.11538461538461539,
+			"words": [
+				"perfect"
+			],
+			"positive": [
+				"perfect"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Now that we have defined the location of the center of the board and the position of the load cells, we can use a ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12495,
+		"nouns": [
+			"location",
+			"center",
+			"board",
+			"position",
+			"load",
+			"cells",
+			"use"
+		],
+		"dOIndex": 247,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"location",
+			"center",
+			"board",
+			"position",
+			"load",
+			"cells",
+			"use"
+		],
+		"nouns2": [
+			"location",
+			"position"
+		]
+	},
+	{
+		"txt": "weighted average to compute the location of the user's center of gravity. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12496,
+		"nouns": [
+			"location",
+			"user",
+			"center",
+			"gravity"
+		],
+		"dOIndex": 248,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"location",
+			"user",
+			"center",
+			"gravity"
+		],
+		"nouns2": [
+			"location",
+			"gravity"
+		]
+	},
+	{
+		"txt": " The weight that we give each value will depend on how much of the user's weight is on each of the four corners. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12497,
+		"nouns": [
+			"weight",
+			"value",
+			"user",
+			"weight",
+			"four",
+			"corners"
+		],
+		"dOIndex": 249,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"weight",
+			"value",
+			"user",
+			"weight",
+			"four",
+			"corners"
+		],
+		"nouns2": [
+			"corners"
+		]
+	},
+	{
+		"txt": " That weight will ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12498,
+		"nouns": [
+			"weight"
+		],
+		"dOIndex": 250,
+		"ignoreDOBcNoQuotes": false,
+		"isQuote": false,
+		"nounsProcAll": [
+			"weight"
+		],
+		"sfxfx": []
+	},
+	{
+		"txt": " \"pull\" ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12499,
+		"nouns": [],
+		"dOIndex": 251,
+		"isQuote": true,
+		"nounsProcAll": [],
+		"sfxfx": [],
+		"gspkNameUnknown": "narrator"
+	},
+	{
+		"txt": " the center of gravity toward the location of the load cells as defined in our coordinate system. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12500,
+		"nouns": [
+			"center",
+			"gravity",
+			"location",
+			"load",
+			"cells",
+			"system"
+		],
+		"dOIndex": 252,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [
+			"center",
+			"gravity",
+			"location",
+			"load",
+			"cells",
+			"system"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"gravity",
+			"location"
+		]
+	},
+	{
+		"txt": " How much each load cell mathematically pulls the center of gravity will be based on the weight supported at that location. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12501,
+		"nouns": [
+			"load",
+			"cell",
+			"center",
+			"gravity",
+			"weight",
+			"location"
+		],
+		"dOIndex": 253,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"load",
+			"cell",
+			"center",
+			"gravity",
+			"weight",
+			"location"
+		],
+		"nouns2": [
+			"gravity",
+			"location"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08695652173913043,
+			"words": [
+				"supported"
+			],
+			"positive": [
+				"supported"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " This is most easily determined via two tables, one for the x coordinate (",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12502,
+		"nouns": [
+			"two",
+			"tables",
+			"one",
+			"x"
+		],
+		"dOIndex": 254,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"two",
+			"tables",
+			"one",
+			"x"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.13333333333333333,
+			"words": [
+				"determined"
+			],
+			"positive": [
+				"determined"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "Table 23 1) and one for the y coordinate (",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12503,
+		"nouns": [
+			"Table",
+			"one",
+			"y"
+		],
+		"dOIndex": 255,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"Table",
+			"one",
+			"y"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12504,
+		"nouns": [],
+		"dOIndex": 256,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "Table 23 2 ).",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12505,
+		"nouns": [
+			"Table"
+		],
+		"dOIndex": 257,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"Table"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12506,
+		"nouns": [],
+		"dOIndex": 258,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "Table 23 1. x coordinate weighted average",
+		"why": "p",
+		"tags": [
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12507,
+		"nouns": [
+			"Table",
+			"x"
+		],
+		"dOIndex": 259,
+		"isQuote": false
+	},
+	{
+		"txt": "Load cell",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"thead",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12508,
+		"nouns": [
+			"Load",
+			"cell"
+		],
+		"dOIndex": 260,
+		"isQuote": false
+	},
+	{
+		"txt": "Weight",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"thead",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12509,
+		"nouns": [
+			"Weight"
+		],
+		"dOIndex": 261,
+		"nouns2": [
+			"Weight"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Arm",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"thead",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12510,
+		"nouns": [
+			"Arm"
+		],
+		"dOIndex": 262,
+		"isQuote": false
+	},
+	{
+		"txt": "Weight × Arm",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"thead",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12511,
+		"nouns": [
+			"Weight",
+			"×",
+			"Arm"
+		],
+		"dOIndex": 263,
+		"nouns2": [
+			"Weight"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "(1,1)",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12512,
+		"nouns": [],
+		"dOIndex": 264,
+		"isQuote": false
+	},
+	{
+		"txt": "30",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12513,
+		"nouns": [],
+		"dOIndex": 265,
+		"isQuote": false
+	},
+	{
+		"txt": "1",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12514,
+		"nouns": [],
+		"dOIndex": 266,
+		"isQuote": false
+	},
+	{
+		"txt": "30",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12515,
+		"nouns": [],
+		"dOIndex": 267,
+		"isQuote": false
+	},
+	{
+		"txt": "(−1,1)",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12516,
+		"nouns": [
+			"−"
+		],
+		"dOIndex": 268,
+		"isQuote": false
+	},
+	{
+		"txt": "15",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12517,
+		"nouns": [],
+		"dOIndex": 269,
+		"isQuote": false
+	},
+	{
+		"txt": "−1",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12518,
+		"nouns": [
+			"−"
+		],
+		"dOIndex": 270,
+		"isQuote": false
+	},
+	{
+		"txt": "−15",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12519,
+		"nouns": [
+			"−"
+		],
+		"dOIndex": 271,
+		"isQuote": false
+	},
+	{
+		"txt": "(−1,−1)",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12520,
+		"nouns": [
+			"−",
+			"−"
+		],
+		"dOIndex": 272,
+		"isQuote": false
+	},
+	{
+		"txt": "20",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12521,
+		"nouns": [],
+		"dOIndex": 273,
+		"isQuote": false
+	},
+	{
+		"txt": "−1",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12522,
+		"nouns": [
+			"−"
+		],
+		"dOIndex": 274,
+		"isQuote": false
+	},
+	{
+		"txt": "−20",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12523,
+		"nouns": [
+			"−"
+		],
+		"dOIndex": 275,
+		"isQuote": false
+	},
+	{
+		"txt": "(1,−1)",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12524,
+		"nouns": [
+			"−"
+		],
+		"dOIndex": 276,
+		"isQuote": false
+	},
+	{
+		"txt": "35",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12525,
+		"nouns": [],
+		"dOIndex": 277,
+		"isQuote": false
+	},
+	{
+		"txt": "1",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12526,
+		"nouns": [],
+		"dOIndex": 278,
+		"isQuote": false
+	},
+	{
+		"txt": "35",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12527,
+		"nouns": [],
+		"dOIndex": 279,
+		"isQuote": false
+	},
+	{
+		"txt": "Total:",
+		"why": "p",
+		"tags": [
+			"strong",
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12528,
+		"nouns": [],
+		"dOIndex": 280,
+		"isQuote": false
+	},
+	{
+		"txt": "100",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12529,
+		"nouns": [],
+		"dOIndex": 281,
+		"isQuote": false
+	},
+	{
+		"txt": "30",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12530,
+		"nouns": [],
+		"dOIndex": 282,
+		"isQuote": false
+	},
+	{
+		"txt": "Average:",
+		"why": "p",
+		"tags": [
+			"strong",
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12531,
+		"nouns": [
+			"Average"
+		],
+		"dOIndex": 283,
+		"nouns2": [
+			"Average"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "link https:",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12532,
+		"nouns": [
+			"link",
+			"https"
+		],
+		"dOIndex": 284,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12533,
+		"nouns": [],
+		"dOIndex": 285,
+		"isQuote": false
+	},
+	{
+		"txt": "Table 23 1 takes the weight in each corner and multiplies that value by the value of its x coordinate. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12534,
+		"nouns": [
+			"Table",
+			"weight",
+			"corner",
+			"value",
+			"value",
+			"x"
+		],
+		"dOIndex": 286,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " This is equivalent to a moment. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12535,
+		"nouns": [
+			"equivalent",
+			"moment"
+		],
+		"dOIndex": 287,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equivalent"
+		]
+	},
+	{
+		"txt": " Taking the sum of those moments (30) and dividing by the total weight gives the average value of 0.30, or .3 units to the right in our coordinate system. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12536,
+		"nouns": [
+			"sum",
+			"moments",
+			"weight",
+			"value",
+			"units",
+			"right",
+			"system"
+		],
+		"dOIndex": 288,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Taking",
+			"moments"
+		]
+	},
+	{
+		"txt": " The y axis is treated similarly.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12537,
+		"nouns": [
+			"y",
+			"axis"
+		],
+		"dOIndex": 289,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12538,
+		"nouns": [],
+		"dOIndex": 290,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Table 23 2. y coordinate weighted average",
+		"why": "p",
+		"tags": [
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12539,
+		"nouns": [
+			"Table",
+			"y"
+		],
+		"dOIndex": 291,
+		"isQuote": false
+	},
+	{
+		"txt": "Load cell",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"thead",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12540,
+		"nouns": [
+			"Load",
+			"cell"
+		],
+		"dOIndex": 292,
+		"isQuote": false
+	},
+	{
+		"txt": "Weight",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"thead",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12541,
+		"nouns": [
+			"Weight"
+		],
+		"dOIndex": 293,
+		"nouns2": [
+			"Weight"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Arm",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"thead",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12542,
+		"nouns": [
+			"Arm"
+		],
+		"dOIndex": 294,
+		"isQuote": false
+	},
+	{
+		"txt": "Weight × Arm",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"thead",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12543,
+		"nouns": [
+			"Weight",
+			"×",
+			"Arm"
+		],
+		"dOIndex": 295,
+		"nouns2": [
+			"Weight"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "(1,1)",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12544,
+		"nouns": [],
+		"dOIndex": 296,
+		"isQuote": false
+	},
+	{
+		"txt": "30",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12545,
+		"nouns": [],
+		"dOIndex": 297,
+		"isQuote": false
+	},
+	{
+		"txt": "1",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12546,
+		"nouns": [],
+		"dOIndex": 298,
+		"isQuote": false
+	},
+	{
+		"txt": "30",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12547,
+		"nouns": [],
+		"dOIndex": 299,
+		"isQuote": false
+	},
+	{
+		"txt": "(−1,1)",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12548,
+		"nouns": [
+			"−"
+		],
+		"dOIndex": 300,
+		"isQuote": false
+	},
+	{
+		"txt": "15",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12549,
+		"nouns": [],
+		"dOIndex": 301,
+		"isQuote": false
+	},
+	{
+		"txt": "1",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12550,
+		"nouns": [],
+		"dOIndex": 302,
+		"isQuote": false
+	},
+	{
+		"txt": "15",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12551,
+		"nouns": [],
+		"dOIndex": 303,
+		"isQuote": false
+	},
+	{
+		"txt": "(−1,−1)",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12552,
+		"nouns": [
+			"−",
+			"−"
+		],
+		"dOIndex": 304,
+		"isQuote": false
+	},
+	{
+		"txt": "20",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12553,
+		"nouns": [],
+		"dOIndex": 305,
+		"isQuote": false
+	},
+	{
+		"txt": "−1",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12554,
+		"nouns": [
+			"−"
+		],
+		"dOIndex": 306,
+		"isQuote": false
+	},
+	{
+		"txt": "−20",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12555,
+		"nouns": [
+			"−"
+		],
+		"dOIndex": 307,
+		"isQuote": false
+	},
+	{
+		"txt": "(1,−1)",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12556,
+		"nouns": [
+			"−"
+		],
+		"dOIndex": 308,
+		"isQuote": false
+	},
+	{
+		"txt": "35",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12557,
+		"nouns": [],
+		"dOIndex": 309,
+		"isQuote": false
+	},
+	{
+		"txt": "−1",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12558,
+		"nouns": [
+			"−"
+		],
+		"dOIndex": 310,
+		"isQuote": false
+	},
+	{
+		"txt": "−35",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12559,
+		"nouns": [
+			"−"
+		],
+		"dOIndex": 311,
+		"isQuote": false
+	},
+	{
+		"txt": "Total:",
+		"why": "p",
+		"tags": [
+			"strong",
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12560,
+		"nouns": [],
+		"dOIndex": 312,
+		"isQuote": false
+	},
+	{
+		"txt": "100",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12561,
+		"nouns": [],
+		"dOIndex": 313,
+		"isQuote": false
+	},
+	{
+		"txt": "−10",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12562,
+		"nouns": [
+			"−"
+		],
+		"dOIndex": 314,
+		"isQuote": false
+	},
+	{
+		"txt": "Average:",
+		"why": "p",
+		"tags": [
+			"strong",
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12563,
+		"nouns": [
+			"Average"
+		],
+		"dOIndex": 315,
+		"nouns2": [
+			"Average"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "link https:",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12564,
+		"nouns": [
+			"link",
+			"https"
+		],
+		"dOIndex": 316,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12565,
+		"nouns": [],
+		"dOIndex": 317,
+		"isQuote": false
+	},
+	{
+		"txt": "Using a similar weighted average as shown in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12566,
+		"nouns": [],
+		"dOIndex": 318,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Table 23 2",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12567,
+		"nouns": [
+			"Table"
+		],
+		"dOIndex": 319,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " , we see that the user's center of gravity is −0.10, or 0.1 units behind the center. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12568,
+		"nouns": [
+			"user",
+			"center",
+			"gravity",
+			"−",
+			"units",
+			"center"
+		],
+		"dOIndex": 320,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"gravity"
+		]
+	},
+	{
+		"txt": " If we were using this to control an onscreen sprite, we could define a 2D direction vector based on this information.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12569,
+		"nouns": [
+			"control",
+			"sprite",
+			"D",
+			"direction",
+			"vector",
+			"information"
+		],
+		"dOIndex": 321,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"control",
+			"direction",
+			"information"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12570,
+		"nouns": [],
+		"dOIndex": 322,
+		"isQuote": false
+	},
+	{
+		"txt": "In addition to just determining the center of gravity, you can use this information to make educated guesses on what else the user is doing to cause the load distributions. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12571,
+		"nouns": [
+			"addition",
+			"center",
+			"gravity",
+			"use",
+			"information",
+			"guesses",
+			"user",
+			"cause",
+			"load",
+			"distributions"
+		],
+		"dOIndex": 323,
+		"nouns2": [
+			"addition",
+			"gravity",
+			"information",
+			"guesses",
+			"distributions"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " After computing the center of gravity, the Wii uses what Nintendo ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12572,
+		"nouns": [
+			"center",
+			"gravity",
+			"Wii",
+			"Nintendo"
+		],
+		"dOIndex": 324,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"gravity",
+			"Nintendo"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12573,
+		"nouns": [],
+		"dOIndex": 325,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "calls a motion identifying condition table to guess what movements the user is making. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12574,
+		"nouns": [
+			"motion",
+			"condition",
+			"table",
+			"movements",
+			"user"
+		],
+		"dOIndex": 326,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"condition",
+			"movements"
+		]
+	},
+	{
+		"txt": " The table correlates the ratio of the sum of the load values to the body weight of the user and the position of the center of gravity to determine body orientation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12575,
+		"nouns": [
+			"table",
+			"correlates",
+			"ratio",
+			"sum",
+			"load",
+			"values",
+			"body",
+			"weight",
+			"user",
+			"position",
+			"center",
+			"gravity",
+			"body",
+			"orientation"
+		],
+		"dOIndex": 327,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"correlates",
+			"position",
+			"gravity",
+			"orientation"
+		]
+	},
+	{
+		"txt": " For example, the Wii can tell if both of the user's feet are on the board, or if the user is accelerating part of his leg. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12576,
+		"nouns": [
+			"example",
+			"Wii",
+			"both",
+			"user",
+			"feet",
+			"board",
+			"user",
+			"part",
+			"leg"
+		],
+		"dOIndex": 328,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example"
+		]
+	},
+	{
+		"txt": " The table provided in the Wii patent is reproduced in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12577,
+		"nouns": [
+			"table",
+			"Wii",
+			"patent"
+		],
+		"dOIndex": 329,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Table 23 3",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12578,
+		"nouns": [
+			"Table"
+		],
+		"dOIndex": 330,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12579,
+		"nouns": [],
+		"dOIndex": 331,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12580,
+		"nouns": [],
+		"dOIndex": 332,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Table 23 3. Motion identifying condition table",
+		"why": "p",
+		"tags": [
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12581,
+		"nouns": [
+			"Table",
+			"Motion",
+			"condition",
+			"table"
+		],
+		"dOIndex": 333,
+		"nouns2": [
+			"Motion",
+			"condition"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Motion",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"thead",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12582,
+		"nouns": [
+			"Motion"
+		],
+		"dOIndex": 334,
+		"nouns2": [
+			"Motion"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Ratio of load value to body weight value",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"thead",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12583,
+		"nouns": [
+			"Ratio",
+			"load",
+			"value",
+			"body",
+			"weight",
+			"value"
+		],
+		"dOIndex": 335,
+		"isQuote": false
+	},
+	{
+		"txt": "Position of the center of gravity",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"thead",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12584,
+		"nouns": [
+			"Position",
+			"center",
+			"gravity"
+		],
+		"dOIndex": 336,
+		"nouns2": [
+			"Position",
+			"gravity"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Right foot riding",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12585,
+		"nouns": [
+			"foot"
+		],
+		"dOIndex": 337,
+		"isQuote": false
+	},
+	{
+		"txt": "25 to 75%",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12586,
+		"nouns": [
+			"%"
+		],
+		"dOIndex": 338,
+		"isQuote": false
+	},
+	{
+		"txt": "+0.01 to +1.0",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12587,
+		"nouns": [],
+		"dOIndex": 339,
+		"isQuote": false
+	},
+	{
+		"txt": "Both feet riding",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12588,
+		"nouns": [
+			"feet"
+		],
+		"dOIndex": 340,
+		"isQuote": false
+	},
+	{
+		"txt": "More than 95%",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12589,
+		"nouns": [
+			"%"
+		],
+		"dOIndex": 341,
+		"isQuote": false
+	},
+	{
+		"txt": "−0.7 to +0.7",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12590,
+		"nouns": [
+			"−"
+		],
+		"dOIndex": 342,
+		"isQuote": false
+	},
+	{
+		"txt": "Left foot riding",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12591,
+		"nouns": [
+			"Left",
+			"foot"
+		],
+		"dOIndex": 343,
+		"isQuote": false
+	},
+	{
+		"txt": "25 to 75%",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12592,
+		"nouns": [
+			"%"
+		],
+		"dOIndex": 344,
+		"isQuote": false
+	},
+	{
+		"txt": "−1.0 to −0.01",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12593,
+		"nouns": [
+			"−",
+			"−"
+		],
+		"dOIndex": 345,
+		"isQuote": false
+	},
+	{
+		"txt": "Left thigh lifting",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12594,
+		"nouns": [
+			"Left",
+			"thigh"
+		],
+		"dOIndex": 346,
+		"isQuote": false
+	},
+	{
+		"txt": "More than 100%",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12595,
+		"nouns": [
+			"%"
+		],
+		"dOIndex": 347,
+		"isQuote": false
+	},
+	{
+		"txt": "+0.01 to +1.0",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12596,
+		"nouns": [],
+		"dOIndex": 348,
+		"isQuote": false
+	},
+	{
+		"txt": "Right thigh lifting",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12597,
+		"nouns": [
+			"thigh"
+		],
+		"dOIndex": 349,
+		"isQuote": false
+	},
+	{
+		"txt": "More than 100%",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12598,
+		"nouns": [
+			"%"
+		],
+		"dOIndex": 350,
+		"isQuote": false
+	},
+	{
+		"txt": "−1.0 to −0.01",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12599,
+		"nouns": [
+			"−",
+			"−"
+		],
+		"dOIndex": 351,
+		"isQuote": false
+	},
+	{
+		"txt": "Both feet putting ",
+		"why": "link",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12600,
+		"nouns": [
+			"feet"
+		],
+		"dOIndex": 352,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12601,
+		"nouns": [],
+		"dOIndex": 353,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12602,
+		"nouns": [],
+		"dOIndex": 354,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12603,
+		"nouns": [],
+		"dOIndex": 355,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "down",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12604,
+		"nouns": [],
+		"dOIndex": 356,
+		"isQuote": false
+	},
+	{
+		"txt": "Less than 5%",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12605,
+		"nouns": [
+			"%"
+		],
+		"dOIndex": 357,
+		"isQuote": false
+	},
+	{
+		"txt": "Not considered",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12606,
+		"nouns": [],
+		"dOIndex": 358,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12607,
+		"nouns": [],
+		"dOIndex": 359,
+		"isQuote": false
+	},
+	{
+		"txt": "Barometers",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12608,
+		"nouns": [
+			"Barometers"
+		],
+		"dOIndex": 360,
+		"nouns2": [
+			"Barometers"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12609,
+		"nouns": [],
+		"dOIndex": 361,
+		"isQuote": false
+	},
+	{
+		"txt": "Continuing our ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12610,
+		"nouns": [],
+		"dOIndex": 362,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Continuing"
+		]
+	},
+	{
+		"txt": "exploration of new user input methods, especially in the rapidly maturing mobile device gaming market, now we'll discuss an interesting inclusion in the latest smartphones: a barometer. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12611,
+		"nouns": [
+			"exploration",
+			"user",
+			"input",
+			"methods",
+			"device",
+			"market",
+			"ll",
+			"inclusion",
+			"smartphones",
+			"barometer"
+		],
+		"dOIndex": 363,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"exploration",
+			"methods",
+			"inclusion",
+			"smartphones",
+			"barometer"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.10714285714285714,
+			"words": [
+				"interesting",
+				"exploration"
+			],
+			"positive": [
+				"interesting",
+				"exploration"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Unlike buttons and balance boards, whose pressure sensors only indirectly handle pressure, barometers directly measure the fluid pressure that the atmosphere exerts on the sensor.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12612,
+		"nouns": [
+			"buttons",
+			"balance",
+			"boards",
+			"pressure",
+			"sensors",
+			"pressure",
+			"barometers",
+			"measure",
+			"fluid",
+			"pressure",
+			"atmosphere",
+			"sensor"
+		],
+		"dOIndex": 364,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Unlike",
+			"buttons",
+			"balance",
+			"pressure",
+			"sensors",
+			"barometers",
+			"measure",
+			"atmosphere"
+		],
+		"highfreq": {
+			"pressure": 3
+		},
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.11538461538461539,
+			"words": [
+				"pressure",
+				"pressure",
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure",
+				"pressure",
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12613,
+		"nouns": [],
+		"dOIndex": 365,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12614,
+		"nouns": [],
+		"dOIndex": 366,
+		"isQuote": false
+	},
+	{
+		"txt": "The sensors used in mobile phones today are ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12615,
+		"nouns": [
+			"sensors",
+			"phones",
+			"today"
+		],
+		"dOIndex": 367,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"sensors"
+		]
+	},
+	{
+		"txt": "piezoresistive ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12616,
+		"nouns": [
+			"piezoresistive"
+		],
+		"dOIndex": 368,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"piezoresistive"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12617,
+		"nouns": [],
+		"dOIndex": 369,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12618,
+		"nouns": [],
+		"dOIndex": 370,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "microelectromechanical systems (MEMS) and are very accurate. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12619,
+		"nouns": [
+			"systems",
+			"MEMS"
+		],
+		"dOIndex": 371,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"systems"
+		]
+	},
+	{
+		"txt": " As shown in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12620,
+		"nouns": [],
+		"dOIndex": 372,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 23 6",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12621,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 373,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " , the sensors consist of a void machined into a piece of silicon. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12622,
+		"nouns": [
+			"sensors",
+			"void",
+			"piece",
+			"silicon"
+		],
+		"dOIndex": 374,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"sensors",
+			"silicon"
+		]
+	},
+	{
+		"txt": " The diaphragm is then bonded to a stiff material such as steel or glass. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12623,
+		"nouns": [
+			"diaphragm",
+			"steel",
+			"glass"
+		],
+		"dOIndex": 375,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"diaphragm"
+		]
+	},
+	{
+		"txt": " As we are trying to measure absolute pressure , this bond is airtight. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12624,
+		"nouns": [
+			"measure",
+			"pressure",
+			"bond",
+			"airtight"
+		],
+		"dOIndex": 376,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"measure",
+			"pressure",
+			"airtight"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.06666666666666667,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " Using a material called monocrystalline semiconductor silicon to form the void ensures that the entire diaphragm acts much like a piezoresistive strain gauge.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12625,
+		"nouns": [
+			"monocrystalline",
+			"semiconductor",
+			"silicon",
+			"form",
+			"void",
+			"diaphragm",
+			"acts",
+			"piezoresistive",
+			"strain",
+			"gauge"
+		],
+		"dOIndex": 377,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"monocrystalline",
+			"semiconductor",
+			"silicon",
+			"diaphragm",
+			"piezoresistive"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08333333333333333,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12626,
+		"nouns": [],
+		"dOIndex": 378,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12627,
+		"nouns": [],
+		"dOIndex": 379,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12628,
+		"nouns": [],
+		"dOIndex": 380,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12629,
+		"nouns": [],
+		"dOIndex": 381,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12630,
+		"nouns": [],
+		"dOIndex": 382,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 23 6. MEMS piezoresistive pressure sensor",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12631,
+		"nouns": [
+			"Figure",
+			"MEMS",
+			"piezoresistive",
+			"pressure",
+			"sensor"
+		],
+		"dOIndex": 383,
+		"nouns2": [
+			"Figure",
+			"piezoresistive",
+			"pressure"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.2,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12632,
+		"nouns": [],
+		"dOIndex": 384,
+		"isQuote": false
+	},
+	{
+		"txt": "Now we have a situation similar to the steel ball in the ocean, only this time it is a tiny silicon ball in the ocean of air surrounding the earth. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12633,
+		"nouns": [
+			"situation",
+			"steel",
+			"ball",
+			"ocean",
+			"time",
+			"silicon",
+			"ball",
+			"ocean",
+			"air",
+			"earth"
+		],
+		"dOIndex": 385,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"situation",
+			"silicon"
+		]
+	},
+	{
+		"txt": " When the sensor is moved deeper or shallower in the atmospheric ocean, the pressure on the outside of the diaphragm changes. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12634,
+		"nouns": [
+			"sensor",
+			"ocean",
+			"pressure",
+			"diaphragm",
+			"changes"
+		],
+		"dOIndex": 386,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure",
+			"diaphragm",
+			"changes"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.043478260869565216,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " This causes the pressure differential to change and a force to be exerted on the silicon diaphragm. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12635,
+		"nouns": [
+			"causes",
+			"pressure",
+			"change",
+			"force",
+			"silicon",
+			"diaphragm"
+		],
+		"dOIndex": 387,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure",
+			"silicon",
+			"diaphragm"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.05263157894736842,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " This force causes a deflection that changes the resistance of the piezoresistive material and can therefore be measured by the sensor. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12636,
+		"nouns": [
+			"force",
+			"causes",
+			"deflection",
+			"changes",
+			"resistance",
+			"piezoresistive",
+			"sensor"
+		],
+		"dOIndex": 388,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"deflection",
+			"changes",
+			"resistance",
+			"piezoresistive"
+		]
+	},
+	{
+		"txt": " This part will be taken care of by the hardware and the encoded value sent to the operating system.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12637,
+		"nouns": [
+			"part",
+			"care",
+			"hardware",
+			"value",
+			"system"
+		],
+		"dOIndex": 389,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hardware"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.1,
+			"words": [
+				"care"
+			],
+			"positive": [
+				"care"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12638,
+		"nouns": [],
+		"dOIndex": 390,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12639,
+		"nouns": [],
+		"dOIndex": 391,
+		"isQuote": false
+	},
+	{
+		"txt": "To give you an example, in the Android operating system, the API has a public method, getAltitude(float p0, float p), to determine altitude, ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12640,
+		"nouns": [
+			"example",
+			"Android",
+			"system",
+			"API",
+			"method",
+			"getAltitude",
+			"p",
+			"p",
+			"altitude"
+		],
+		"dOIndex": 392,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"Android",
+			"getAltitude",
+			"altitude"
+		]
+	},
+	{
+		"txt": "in meters, between the sensor pressure and the pressure at sea level. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12641,
+		"nouns": [
+			"meters",
+			"sensor",
+			"pressure",
+			"pressure",
+			"sea",
+			"level"
+		],
+		"dOIndex": 393,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.15384615384615385,
+			"words": [
+				"pressure",
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure",
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " It usually reads the current ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12642,
+		"nouns": [],
+		"dOIndex": 394,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12643,
+		"nouns": [],
+		"dOIndex": 395,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "atmospheric pressure, p, from the sensor by listening to sensor manager callback interface method abstract void onSensorChanged(SensorEvent event) . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12644,
+		"nouns": [
+			"pressure",
+			"p",
+			"sensor",
+			"sensor",
+			"manager",
+			"callback",
+			"interface",
+			"method",
+			"void",
+			"SensorEvent",
+			"event"
+		],
+		"dOIndex": 396,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure",
+			"manager",
+			"callback",
+			"interface",
+			"SensorEvent"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.05,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " Here the class event holds the sensor values, the accuracy of those values, a reference to the sensor itself, and a timestamp for when the event occurred. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12645,
+		"nouns": [
+			"class",
+			"event",
+			"sensor",
+			"values",
+			"accuracy",
+			"values",
+			"reference",
+			"sensor",
+			"timestamp",
+			"event"
+		],
+		"dOIndex": 397,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"accuracy",
+			"reference",
+			"timestamp"
+		]
+	},
+	{
+		"txt": " The pressure is ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12646,
+		"nouns": [
+			"pressure"
+		],
+		"dOIndex": 398,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.2,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12647,
+		"nouns": [],
+		"dOIndex": 399,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "reported in hectoPascals (hPa) or 100 N/m2 . ",
+		"why": "split inside sentence",
+		"tags": [
+			"sup",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12648,
+		"nouns": [
+			"hectoPascals",
+			"hPa",
+			"N",
+			"/",
+			"m"
+		],
+		"dOIndex": 400,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hectoPascals"
+		]
+	},
+	{
+		"txt": " The sea level pressure, p0, that this is compared to is either obtained from an online database or is set at the constant SensorManager.PRESSURE_STANDARD_ATMOSPHERE . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12649,
+		"nouns": [
+			"sea",
+			"level",
+			"pressure",
+			"p",
+			"database",
+			"SensorManager",
+			"PRESSURE_STANDARD_ATMOSPHERE"
+		],
+		"dOIndex": 401,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure",
+			"database",
+			"SensorManager",
+			"PRESSURE_STANDARD_ATMOSPHERE"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.037037037037037035,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " As pressure at sea level changes with different weather conditions, we obtain higher accuracy by retrieving it from a nearby airport or other weather station via the Internet. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12650,
+		"nouns": [
+			"pressure",
+			"sea",
+			"level",
+			"changes",
+			"weather",
+			"conditions",
+			"accuracy",
+			"airport",
+			"weather",
+			"station",
+			"Internet"
+		],
+		"dOIndex": 402,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure",
+			"changes",
+			"weather",
+			"conditions",
+			"accuracy",
+			"airport",
+			"station",
+			"Internet"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.03333333333333333,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " To get the change in altitude between two points, you must repeat this process twice as follows:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12651,
+		"nouns": [
+			"change",
+			"altitude",
+			"two",
+			"points",
+			"process"
+		],
+		"dOIndex": 403,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"altitude",
+			"process"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 12652,
+		"nouns": [],
+		"dOIndex": 404,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12653,
+		"nouns": [],
+		"dOIndex": 405,
+		"isQuote": false
+	},
+	{
+		"txt": "At first it may seem strange for your cell phone to have a barometer in it; however, the barometer's ability to detect the air pressure allows you to make a good guess on your altitude. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12654,
+		"nouns": [
+			"first",
+			"cell",
+			"phone",
+			"barometer",
+			"barometer",
+			"ability",
+			"air",
+			"pressure",
+			"altitude"
+		],
+		"dOIndex": 406,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"barometer",
+			"ability",
+			"pressure",
+			"altitude"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.08333333333333333,
+			"words": [
+				"good",
+				"pressure",
+				"ability",
+				"strange"
+			],
+			"positive": [
+				"good",
+				"ability"
+			],
+			"negative": [
+				"pressure",
+				"strange"
+			]
+		}
+	},
+	{
+		"txt": " As shown in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12655,
+		"nouns": [],
+		"dOIndex": 407,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 22, in order to determine your position via ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12656,
+		"nouns": [
+			"Chapter",
+			"order",
+			"position"
+		],
+		"dOIndex": 408,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter",
+			"position"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12657,
+		"nouns": [],
+		"dOIndex": 409,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12658,
+		"nouns": [],
+		"dOIndex": 410,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "GPS you have to solve a four dimensional set of linear equations. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12659,
+		"nouns": [
+			"GPS",
+			"four",
+			"equations"
+		],
+		"dOIndex": 411,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equations"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.07692307692307693,
+			"words": [
+				"solve"
+			],
+			"positive": [
+				"solve"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The time required to solve these equations can be dramatically decreased if you know approximately where you are to begin with. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12660,
+		"nouns": [
+			"time",
+			"equations"
+		],
+		"dOIndex": 412,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equations"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.043478260869565216,
+			"words": [
+				"solve"
+			],
+			"positive": [
+				"solve"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Currently, the position of which cell phone tower your phone is connected to is used as a starting point. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12661,
+		"nouns": [
+			"position",
+			"cell",
+			"phone",
+			"tower",
+			"phone",
+			"point"
+		],
+		"dOIndex": 413,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Currently",
+			"position"
+		]
+	},
+	{
+		"txt": " Using a barometer allows the device to guess its altitude to further reduce the time to obtain a GPS fix.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12662,
+		"nouns": [
+			"barometer",
+			"device",
+			"altitude",
+			"time",
+			"GPS"
+		],
+		"dOIndex": 414,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"barometer",
+			"altitude"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12663,
+		"nouns": [],
+		"dOIndex": 415,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12664,
+		"nouns": [],
+		"dOIndex": 416
+	},
+	{
+		"txt": "While the sensor was included for a specific purpose, it can also be adapted as an input device. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12665,
+		"nouns": [
+			"sensor",
+			"purpose",
+			"input",
+			"device"
+		],
+		"dOIndex": 417,
+		"nouns2": [
+			"purpose"
+		]
+	},
+	{
+		"txt": " For instance, the Bosch BMP180 currently being included in devices is accurate to plus or minus one meter. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12666,
+		"nouns": [
+			"instance",
+			"Bosch",
+			"BMP",
+			"devices",
+			"one",
+			"meter"
+		],
+		"dOIndex": 418,
+		"nouns2": [
+			"instance",
+			"devices"
+		]
+	},
+	{
+		"txt": " In fact, Google Maps",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12667,
+		"nouns": [
+			"fact",
+			"Google",
+			"Maps"
+		],
+		"dOIndex": 419,
+		"nouns2": [
+			"Google"
+		]
+	},
+	{
+		"txt": " now provides indoor directions, including knowing what floor you are on in airports and shopping malls. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12668,
+		"nouns": [
+			"directions",
+			"floor",
+			"airports",
+			"malls"
+		],
+		"dOIndex": 420,
+		"nouns2": [
+			"directions",
+			"airports"
+		]
+	},
+	{
+		"txt": " This functionality could be used to aid in the location based gaming discussed in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12669,
+		"nouns": [
+			"functionality",
+			"aid",
+			"location"
+		],
+		"dOIndex": 421,
+		"nouns2": [
+			"functionality",
+			"location"
+		]
+	},
+	{
+		"txt": "Chapter 22",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12670,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 422,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " by giving it greater resolution in the vertical dimension. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12671,
+		"nouns": [
+			"resolution",
+			"dimension"
+		],
+		"dOIndex": 423,
+		"nouns2": [
+			"resolution",
+			"dimension"
+		],
+		"sentiment": {
+			"score": 5,
+			"comparative": 0.45454545454545453,
+			"words": [
+				"resolution",
+				"greater"
+			],
+			"positive": [
+				"resolution",
+				"greater"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " It could also be used to determine if the user is holding the phone near her feet or her head, further augmenting the orientation sensing discussed in ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12672,
+		"nouns": [
+			"user",
+			"phone",
+			"feet",
+			"head",
+			"orientation"
+		],
+		"dOIndex": 424,
+		"nouns2": [
+			"orientation"
+		]
+	},
+	{
+		"txt": "Chapter 21",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12673,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 425,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12674,
+		"nouns": [],
+		"dOIndex": 426
+	},
+	{
+		"txt": " Of course, it can also be used to help weather forecasting and allow you to have real life changes in pressure affect in game ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12675,
+		"nouns": [
+			"course",
+			"weather",
+			"life",
+			"changes",
+			"pressure",
+			"game"
+		],
+		"dOIndex": 427,
+		"nouns2": [
+			"weather",
+			"changes",
+			"pressure"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.07692307692307693,
+			"words": [
+				"pressure",
+				"allow",
+				"help"
+			],
+			"positive": [
+				"allow",
+				"help"
+			],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": "events.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12676,
+		"nouns": [
+			"events"
+		],
+		"dOIndex": 428
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12677,
+		"nouns": [],
+		"dOIndex": 429
+	}
+]

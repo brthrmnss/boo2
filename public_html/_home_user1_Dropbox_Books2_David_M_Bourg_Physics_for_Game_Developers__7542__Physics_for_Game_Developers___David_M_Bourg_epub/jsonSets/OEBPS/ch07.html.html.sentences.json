@@ -1,0 +1,8191 @@
+[
+	{
+		"txt": "",
+		"why": "br tag like",
+		"sentenceIndex": 4710,
+		"nouns": [],
+		"dOIndex": 0,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 7. Real Time Simulations",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4711,
+		"nouns": [
+			"Chapter",
+			"Time",
+			"Simulations"
+		],
+		"dOIndex": 1,
+		"nouns2": [
+			"Chapter",
+			"Simulations"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "This chapter is the first in a ",
+		"why": "link",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 4712,
+		"nouns": [
+			"chapter",
+			"first"
+		],
+		"dOIndex": 2,
+		"nouns2": [
+			"chapter"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4713,
+		"nouns": [],
+		"dOIndex": 3,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "series of chapters designed to give you a thorough introduction to the subject of real time simulation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4714,
+		"nouns": [
+			"series",
+			"chapters",
+			"introduction",
+			"subject",
+			"time",
+			"simulation"
+		],
+		"dOIndex": 4,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"chapters",
+			"introduction",
+			"subject",
+			"simulation"
+		]
+	},
+	{
+		"txt": " We say introduction because the subject is too vast and complex to adequately treat in a few chapters; however, we say thorough because we'll do more than touch on real time simulations. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 4715,
+		"nouns": [
+			"introduction",
+			"subject",
+			"chapters",
+			"ll",
+			"touch",
+			"time",
+			"simulations"
+		],
+		"dOIndex": 5,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"introduction",
+			"subject",
+			"chapters",
+			"simulations"
+		]
+	},
+	{
+		"txt": " In fact, we'll walk you through the development of two simple simulations, one in two dimensions and the other in three dimensions.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4716,
+		"nouns": [
+			"fact",
+			"ll",
+			"development",
+			"two",
+			"simulations",
+			"one",
+			"two",
+			"dimensions",
+			"three",
+			"dimensions"
+		],
+		"dOIndex": 6,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"development",
+			"simulations",
+			"dimensions"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 4717,
+		"nouns": [],
+		"dOIndex": 7,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4718,
+		"nouns": [],
+		"dOIndex": 8,
+		"isQuote": false
+	},
+	{
+		"txt": "What we hope to do is give you enough of an understanding of this subject so that you can pursue it further with confidence. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4719,
+		"nouns": [
+			"hope",
+			"subject",
+			"confidence"
+		],
+		"dOIndex": 9,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"subject",
+			"confidence"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.16,
+			"words": [
+				"confidence",
+				"hope"
+			],
+			"positive": [
+				"confidence",
+				"hope"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " In other words, we want you to have a solid understanding of the fundamentals before jumping in to use someone else's physics engine, or venturing out to write your own.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4720,
+		"nouns": [
+			"words",
+			"fundamentals",
+			"use",
+			"someone",
+			"physics",
+			"engine"
+		],
+		"dOIndex": 10,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"fundamentals",
+			"someone",
+			"physics"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.0967741935483871,
+			"words": [
+				"solid",
+				"want"
+			],
+			"positive": [
+				"solid",
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 4721,
+		"nouns": [],
+		"dOIndex": 11,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4722,
+		"nouns": [],
+		"dOIndex": 12,
+		"isQuote": false
+	},
+	{
+		"txt": "In the context of this book, a real time simulation is a process whereby you calculate the state of the object (or objects) you're trying to represent on the fly. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4723,
+		"nouns": [
+			"context",
+			"book",
+			"time",
+			"simulation",
+			"process",
+			"state",
+			"object",
+			"objects",
+			"re"
+		],
+		"dOIndex": 13,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"context",
+			"simulation",
+			"process",
+			"objects"
+		]
+	},
+	{
+		"txt": " You don't rely on prescripted motion sequences to animate your object, but instead you rely on your physics model, the equations of motion, and your differential equation solver to take care of the motion of your object as the simulation progresses. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4724,
+		"nouns": [
+			"t",
+			"motion",
+			"sequences",
+			"object",
+			"physics",
+			"model",
+			"equations",
+			"motion",
+			"equation",
+			"solver",
+			"care",
+			"motion",
+			"object",
+			"simulation"
+		],
+		"dOIndex": 14,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"sequences",
+			"physics",
+			"equations",
+			"equation",
+			"simulation"
+		],
+		"highfreq": {
+			"motion": 3,
+			"your": 4
+		},
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.046511627906976744,
+			"words": [
+				"care"
+			],
+			"positive": [
+				"care"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " This sort of simulation can be used to model rigid bodies like the airplane in our FlightSim example, or flexible bodies such as cloth and human figures. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 4725,
+		"nouns": [
+			"sort",
+			"simulation",
+			"model",
+			"bodies",
+			"airplane",
+			"FlightSim",
+			"example",
+			"bodies",
+			"cloth",
+			"figures"
+		],
+		"dOIndex": 15,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulation",
+			"airplane",
+			"FlightSim",
+			"example",
+			"figures"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.06896551724137931,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Perhaps one of the most fundamental aspects of implementing a real time rigid body simulator is solving the equations of motion using numerical integration techniques. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4726,
+		"nouns": [
+			"one",
+			"aspects",
+			"time",
+			"body",
+			"simulator",
+			"equations",
+			"motion",
+			"integration",
+			"techniques"
+		],
+		"dOIndex": 16,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Perhaps",
+			"aspects",
+			"simulator",
+			"equations",
+			"integration",
+			"techniques"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.037037037037037035,
+			"words": [
+				"solving"
+			],
+			"positive": [
+				"solving"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " For this reason, we'll spend this entire chapter explaining the numerical integration techniques that you'll use later in the 2D and 3D simulators that we'll develop.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4727,
+		"nouns": [
+			"reason",
+			"ll",
+			"chapter",
+			"integration",
+			"techniques",
+			"ll",
+			"use",
+			"D",
+			"D",
+			"simulators",
+			"ll"
+		],
+		"dOIndex": 17,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"chapter",
+			"integration",
+			"techniques",
+			"simulators"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 4728,
+		"nouns": [],
+		"dOIndex": 18,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4729,
+		"nouns": [],
+		"dOIndex": 19,
+		"isQuote": false
+	},
+	{
+		"txt": "If you refer back for a moment to ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 4730,
+		"nouns": [
+			"moment"
+		],
+		"dOIndex": 20,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 4",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 4731,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 21,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " , where we outlined a generic procedure for solving kinetics problems, you'll see that we've covered a lot of ground so far. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4732,
+		"nouns": [
+			"procedure",
+			"kinetics",
+			"problems",
+			"ll",
+			"ve",
+			"lot",
+			"ground"
+		],
+		"dOIndex": 22,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"procedure",
+			"kinetics",
+			"problems"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.041666666666666664,
+			"words": [
+				"problems",
+				"solving"
+			],
+			"positive": [
+				"solving"
+			],
+			"negative": [
+				"problems"
+			]
+		}
+	},
+	{
+		"txt": " The preceding chapters have shown you how to estimate mass properties and develop the governing equations of motion. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4733,
+		"nouns": [
+			"chapters",
+			"estimate",
+			"mass",
+			"properties",
+			"equations",
+			"motion"
+		],
+		"dOIndex": 23,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"chapters",
+			"estimate",
+			"properties",
+			"equations"
+		]
+	},
+	{
+		"txt": " This chapter will show you how to solve the equations of motion in order to determine acceleration, velocity, and displacement. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4734,
+		"nouns": [
+			"chapter",
+			"show",
+			"equations",
+			"motion",
+			"order",
+			"acceleration",
+			"velocity",
+			"displacement"
+		],
+		"dOIndex": 24,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"chapter",
+			"equations",
+			"acceleration",
+			"velocity",
+			"displacement"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.045454545454545456,
+			"words": [
+				"solve"
+			],
+			"positive": [
+				"solve"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " We'll follow this chapter up with several showing you how to implement both 2D and 3D rigid body simulations.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4735,
+		"nouns": [
+			"ll",
+			"chapter",
+			"both",
+			"D",
+			"D",
+			"body",
+			"simulations"
+		],
+		"dOIndex": 25,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"chapter",
+			"simulations"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 4736,
+		"nouns": [],
+		"dOIndex": 26,
+		"isQuote": false
+	},
+	{
+		"txt": "Integrating the Equations of Motion",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4737,
+		"nouns": [
+			"Equations",
+			"Motion"
+		],
+		"dOIndex": 27,
+		"nouns2": [
+			"Integrating",
+			"Equations",
+			"Motion"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "By now you should ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4738,
+		"nouns": [],
+		"dOIndex": 28,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4739,
+		"nouns": [],
+		"dOIndex": 29,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "have a thorough understanding of the dynamic equations of motion for particles and rigid bodies. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4740,
+		"nouns": [
+			"equations",
+			"motion",
+			"particles",
+			"bodies"
+		],
+		"dOIndex": 30,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equations",
+			"particles"
+		]
+	},
+	{
+		"txt": " If not, you may want to go back and review ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4741,
+		"nouns": [
+			"review"
+		],
+		"dOIndex": 31,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.08333333333333333,
+			"words": [
+				"want"
+			],
+			"positive": [
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "Chapter 1 through ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4742,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 32,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4743,
+		"nouns": [],
+		"dOIndex": 33,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 4 before reading this one. ",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4744,
+		"nouns": [
+			"Chapter",
+			"one"
+		],
+		"dOIndex": 34,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " The next aspect of dealing with the equations of motion is actually solving them in your simulation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4745,
+		"nouns": [
+			"aspect",
+			"equations",
+			"motion",
+			"simulation"
+		],
+		"dOIndex": 35,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equations",
+			"simulation"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.05263157894736842,
+			"words": [
+				"solving"
+			],
+			"positive": [
+				"solving"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The equations of motion that we've been discussing can be classified as ordinary differential equations. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4746,
+		"nouns": [
+			"equations",
+			"motion",
+			"ve",
+			"equations"
+		],
+		"dOIndex": 36,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equations"
+		]
+	},
+	{
+		"txt": " In ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4747,
+		"nouns": [],
+		"dOIndex": 37,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 2 and ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4748,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 38,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4749,
+		"nouns": [],
+		"dOIndex": 39,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 4 , you were able to solve these differential equations explicitly since you were dealing with simple functions for acceleration, velocity, and displacement. ",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4750,
+		"nouns": [
+			"Chapter",
+			"equations",
+			"functions",
+			"acceleration",
+			"velocity",
+			"displacement"
+		],
+		"dOIndex": 40,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter",
+			"equations",
+			"functions",
+			"acceleration",
+			"velocity",
+			"displacement"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.041666666666666664,
+			"words": [
+				"solve"
+			],
+			"positive": [
+				"solve"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " This won't be the case for your simulations. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4751,
+		"nouns": [
+			"won",
+			"t",
+			"case",
+			"simulations"
+		],
+		"dOIndex": 41,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulations"
+		]
+	},
+	{
+		"txt": " As you'll see in later chapters, force and moment calculations for your system can get pretty complicated and may even rely on tabulated empirical data, which will prevent you from writing simple mathematical functions that can be easily integrated. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4752,
+		"nouns": [
+			"ll",
+			"chapters",
+			"force",
+			"moment",
+			"calculations",
+			"system",
+			"data",
+			"functions"
+		],
+		"dOIndex": 42,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"chapters",
+			"calculations",
+			"functions"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"prevent",
+				"pretty"
+			],
+			"positive": [
+				"pretty"
+			],
+			"negative": [
+				"prevent"
+			]
+		}
+	},
+	{
+		"txt": " This means that you have to use numerical integration techniques to approximately integrate the equations of motion. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4753,
+		"nouns": [
+			"use",
+			"integration",
+			"techniques",
+			"equations",
+			"motion"
+		],
+		"dOIndex": 43,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"integration",
+			"techniques",
+			"equations"
+		]
+	},
+	{
+		"txt": " We say approximately because solutions based on numerical integration won't be exact and will have a certain amount of error depending on the chosen method.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4754,
+		"nouns": [
+			"solutions",
+			"integration",
+			"t",
+			"amount",
+			"error",
+			"method"
+		],
+		"dOIndex": 44,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"solutions",
+			"integration"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"error",
+				"certain",
+				"solutions"
+			],
+			"positive": [
+				"certain",
+				"solutions"
+			],
+			"negative": [
+				"error"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4755,
+		"nouns": [],
+		"dOIndex": 45,
+		"isQuote": false
+	},
+	{
+		"txt": "We're going to start with a rather informal explanation of how we'll apply numerical integration because it will be easier to grasp. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4756,
+		"nouns": [
+			"re",
+			"explanation",
+			"ll",
+			"integration"
+		],
+		"dOIndex": 46,
+		"nouns2": [
+			"explanation",
+			"integration"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " Later we'll get into some of the formal mathematics. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4757,
+		"nouns": [
+			"ll",
+			"mathematics"
+		],
+		"dOIndex": 47,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"mathematics"
+		]
+	},
+	{
+		"txt": " Take a look at the differential equation of linear motion for a particle (or rigid body's center of mass):F = m dv/dt",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4758,
+		"nouns": [
+			"look",
+			"equation",
+			"motion",
+			"particle",
+			"body",
+			"center",
+			"mass",
+			"F",
+			"m",
+			"dv",
+			"/",
+			"dt"
+		],
+		"dOIndex": 48,
+		"nouns2": [
+			"equation",
+			"particle"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Recall that this equation is a statement of force equals mass times acceleration, where F is force, m is mass, and dv/dt is the time derivative of velocity, which is acceleration. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4759,
+		"nouns": [
+			"equation",
+			"statement",
+			"force",
+			"mass",
+			"times",
+			"acceleration",
+			"F",
+			"force",
+			"m",
+			"mass",
+			"dv",
+			"/",
+			"dt",
+			"time",
+			"velocity",
+			"acceleration"
+		],
+		"dOIndex": 49,
+		"nouns2": [
+			"Recall",
+			"equation",
+			"statement",
+			"acceleration",
+			"velocity"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " In the simple examples of the earlier chapters of this book, we rewrote this equation in the following form so it could be integrated explicitly:dv/dt = F/mdv = (F/m) dt",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4760,
+		"nouns": [
+			"examples",
+			"chapters",
+			"book",
+			"equation",
+			"form",
+			"dv",
+			"/",
+			"dt",
+			"F",
+			"/",
+			"mdv",
+			"F",
+			"/",
+			"m",
+			"dt"
+		],
+		"dOIndex": 50,
+		"nouns2": [
+			"examples",
+			"chapters",
+			"equation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "One way to interpret this equation is that an infinitesimally small change in velocity, dv, is equal to (F/m ) times an infinitesimally small change in time. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4761,
+		"nouns": [
+			"One",
+			"way",
+			"equation",
+			"change",
+			"velocity",
+			"dv",
+			"F",
+			"/",
+			"m",
+			"times",
+			"change",
+			"time"
+		],
+		"dOIndex": 51,
+		"nouns2": [
+			"equation",
+			"velocity"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " In earlier examples, we integrated explicitly by taking the definite integral of the left side of this equation with respect to velocity and the right side with respect to time. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4762,
+		"nouns": [
+			"examples",
+			"side",
+			"equation",
+			"respect",
+			"velocity",
+			"right",
+			"side",
+			"respect",
+			"time"
+		],
+		"dOIndex": 52,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"examples",
+			"equation",
+			"respect",
+			"velocity"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.125,
+			"words": [
+				"respect",
+				"respect"
+			],
+			"positive": [
+				"respect",
+				"respect"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " In numerical integration you have to take finite steps in time, thus dt goes from being infinitely small to some discrete time increment, ∆t, and you end up with a discrete change in velocity, ∆v:∆v = (F/m) ∆t",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4763,
+		"nouns": [
+			"integration",
+			"steps",
+			"time",
+			"dt",
+			"time",
+			"increment",
+			"∆t",
+			"end",
+			"change",
+			"velocity",
+			"∆v",
+			"∆v",
+			"F",
+			"/",
+			"m",
+			"∆t"
+		],
+		"dOIndex": 53,
+		"nouns2": [
+			"integration",
+			"increment",
+			"velocity"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "It is important to notice here that this does not give a formula for instantaneous velocity; instead, it gives you only an approximation of the change in velocity. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4764,
+		"nouns": [
+			"notice",
+			"formula",
+			"velocity",
+			"approximation",
+			"change",
+			"velocity"
+		],
+		"dOIndex": 54,
+		"nouns2": [
+			"formula",
+			"velocity",
+			"approximation"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.06896551724137931,
+			"words": [
+				"important"
+			],
+			"positive": [
+				"important"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " Thus, to approximate the actual velocity of your particle (or rigid body), you have to know what its velocity was before the time change ∆t . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4765,
+		"nouns": [
+			"velocity",
+			"particle",
+			"body",
+			"velocity",
+			"time",
+			"change",
+			"∆t"
+		],
+		"dOIndex": 55,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity",
+			"particle"
+		]
+	},
+	{
+		"txt": " At the start of your simulation, at time 0, you have to know the starting velocity of your particle. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4766,
+		"nouns": [
+			"start",
+			"simulation",
+			"time",
+			"velocity",
+			"particle"
+		],
+		"dOIndex": 56,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulation",
+			"velocity",
+			"particle"
+		]
+	},
+	{
+		"txt": " This is an initial condition and is required in order to uniquely define your particle's velocity as you step ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4767,
+		"nouns": [
+			"condition",
+			"order",
+			"particle",
+			"velocity",
+			"step"
+		],
+		"dOIndex": 57,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"condition",
+			"particle",
+			"velocity"
+		]
+	},
+	{
+		"txt": "through time using this equation:[",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"sup",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4768,
+		"nouns": [
+			"time",
+			"equation"
+		],
+		"dOIndex": 58,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equation"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4769,
+		"nouns": [],
+		"dOIndex": 59,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "17]vt+∆t = vt + (F/m) ∆t",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4770,
+		"nouns": [
+			"]vt+∆t",
+			"vt",
+			"F",
+			"/",
+			"m",
+			"∆t"
+		],
+		"dOIndex": 60,
+		"nouns2": [
+			"]vt+∆t"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "where the initial condition is:vt=0 = v0",
+		"why": "p",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4771,
+		"nouns": [
+			"condition",
+			"vt=",
+			"v"
+		],
+		"dOIndex": 61,
+		"nouns2": [
+			"condition"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Here vt is velocity at some time t, vt+∆t is velocity at some time plus the time step, ∆t is the time step, and v0 is the initial velocity at time 0.",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4772,
+		"nouns": [
+			"vt",
+			"velocity",
+			"time",
+			"t",
+			"vt+∆t",
+			"velocity",
+			"time",
+			"time",
+			"step",
+			"∆t",
+			"time",
+			"step",
+			"v",
+			"velocity",
+			"time"
+		],
+		"dOIndex": 62,
+		"nouns2": [
+			"velocity"
+		],
+		"highfreq": {
+			"velocity": 3,
+			"time": 5
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4773,
+		"nouns": [],
+		"dOIndex": 63,
+		"isQuote": false
+	},
+	{
+		"txt": "You can integrate the linear equation of motion one more time in order to approximate your particle's displacement (or position). ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4774,
+		"nouns": [
+			"equation",
+			"motion",
+			"one",
+			"time",
+			"order",
+			"particle",
+			"displacement",
+			"position"
+		],
+		"dOIndex": 64,
+		"nouns2": [
+			"equation",
+			"particle",
+			"displacement",
+			"position"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " Once you've determined the new velocity value, at time t + ∆t, you can approximate displacement using:st+∆t = st + ∆t (vt+∆t)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4775,
+		"nouns": [
+			"ve",
+			"velocity",
+			"value",
+			"time",
+			"t",
+			"∆t",
+			"displacement",
+			"st+∆t",
+			"st",
+			"∆t",
+			"vt+∆t"
+		],
+		"dOIndex": 65,
+		"nouns2": [
+			"velocity",
+			"displacement"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08695652173913043,
+			"words": [
+				"determined"
+			],
+			"positive": [
+				"determined"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "where the initial condition on displacement is:st=0 = s0",
+		"why": "p",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4776,
+		"nouns": [
+			"condition",
+			"displacement",
+			"st="
+		],
+		"dOIndex": 66,
+		"nouns2": [
+			"condition",
+			"displacement"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "The integration technique discussed here is known as Euler's method, and it is the most basic integration method. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4777,
+		"nouns": [
+			"integration",
+			"technique",
+			"Euler",
+			"method",
+			"integration",
+			"method"
+		],
+		"dOIndex": 67,
+		"nouns2": [
+			"integration",
+			"technique"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " While Euler's method is easy to grasp and fairly straightforward to implement, it isn't necessarily the most accurate method.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4778,
+		"nouns": [
+			"Euler",
+			"method",
+			"isn",
+			"t",
+			"method"
+		],
+		"dOIndex": 68,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.05,
+			"words": [
+				"easy"
+			],
+			"positive": [
+				"easy"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4779,
+		"nouns": [],
+		"dOIndex": 69,
+		"isQuote": false
+	},
+	{
+		"txt": "You can reason that the smaller you make your time step that is, as ∆t approaches dt  the closer you'll get to the exact solution. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4780,
+		"nouns": [
+			"reason",
+			"time",
+			"step",
+			"∆t",
+			"approaches",
+			"dt",
+			"ll",
+			"solution"
+		],
+		"dOIndex": 70,
+		"nouns2": [
+			"approaches",
+			"solution"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.037037037037037035,
+			"words": [
+				"solution"
+			],
+			"positive": [
+				"solution"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " There are, however, computational problems associated with using very small time steps. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4781,
+		"nouns": [
+			"problems",
+			"time",
+			"steps"
+		],
+		"dOIndex": 71,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"problems"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.14285714285714285,
+			"words": [
+				"problems"
+			],
+			"positive": [],
+			"negative": [
+				"problems"
+			]
+		}
+	},
+	{
+		"txt": " Specifically, you'll need a huge number of calculations at very small ∆t 's, and since your calculations won't be exact (depending on numerical precision you'll be rounding off and truncating numbers), you'll end up with a buildup of round off error. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4782,
+		"nouns": [
+			"ll",
+			"number",
+			"calculations",
+			"∆t",
+			"calculations",
+			"t",
+			"precision",
+			"ll",
+			"numbers",
+			"ll",
+			"end",
+			"buildup",
+			"round",
+			"error"
+		],
+		"dOIndex": 72,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Specifically",
+			"calculations",
+			"precision",
+			"numbers",
+			"buildup"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.023255813953488372,
+			"words": [
+				"error",
+				"huge"
+			],
+			"positive": [
+				"huge"
+			],
+			"negative": [
+				"error"
+			]
+		}
+	},
+	{
+		"txt": " This means that there is a practical limit as to how small a time step you can take. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4783,
+		"nouns": [
+			"limit",
+			"time",
+			"step"
+		],
+		"dOIndex": 73,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Fortunately, there are several numerical integration techniques at your disposal that are designed to increase accuracy for reasonable step sizes.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4784,
+		"nouns": [
+			"integration",
+			"techniques",
+			"increase",
+			"accuracy",
+			"step",
+			"sizes"
+		],
+		"dOIndex": 74,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Fortunately",
+			"integration",
+			"techniques",
+			"increase",
+			"accuracy"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.14285714285714285,
+			"words": [
+				"increase",
+				"fortunately"
+			],
+			"positive": [
+				"increase",
+				"fortunately"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4785,
+		"nouns": [],
+		"dOIndex": 75,
+		"isQuote": false
+	},
+	{
+		"txt": "Even though we used the linear equation of motion for a particle, this integration technique (and the ones we'll show you later) applies equally well to the angular equations of ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4786,
+		"nouns": [
+			"equation",
+			"motion",
+			"particle",
+			"integration",
+			"technique",
+			"ones",
+			"ll",
+			"show",
+			"equations"
+		],
+		"dOIndex": 76,
+		"nouns2": [
+			"equation",
+			"particle",
+			"integration",
+			"technique",
+			"equations"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4787,
+		"nouns": [],
+		"dOIndex": 77,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "motion.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4788,
+		"nouns": [
+			"motion"
+		],
+		"dOIndex": 78,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4789,
+		"nouns": [],
+		"dOIndex": 79,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4790,
+		"nouns": [],
+		"dOIndex": 80,
+		"isQuote": false
+	},
+	{
+		"txt": "Euler's Method",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4791,
+		"nouns": [
+			"Euler",
+			"Method"
+		],
+		"dOIndex": 81,
+		"nouns2": [
+			"Method"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4792,
+		"nouns": [],
+		"dOIndex": 82,
+		"isQuote": false
+	},
+	{
+		"txt": "The preceding ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4793,
+		"nouns": [],
+		"dOIndex": 83,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4794,
+		"nouns": [],
+		"dOIndex": 84,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "explanation of Euler's method was, as we said, informal. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4795,
+		"nouns": [
+			"explanation",
+			"Euler",
+			"method"
+		],
+		"dOIndex": 85,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"explanation"
+		]
+	},
+	{
+		"txt": " To treat Euler's method in a more mathematically rigorous way, we'll look at the Taylor series expansion of a general function, y(x ). ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4796,
+		"nouns": [
+			"Euler",
+			"method",
+			"way",
+			"ll",
+			"Taylor",
+			"series",
+			"expansion",
+			"function",
+			"y",
+			"x"
+		],
+		"dOIndex": 86,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Taylor",
+			"expansion",
+			"function"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.12,
+			"words": [
+				"rigorous"
+			],
+			"positive": [
+				"rigorous"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Taylor's theorem",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4797,
+		"nouns": [
+			"Taylor",
+			"theorem"
+		],
+		"dOIndex": 87,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Taylor",
+			"theorem"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4798,
+		"nouns": [],
+		"dOIndex": 88,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " lets you approximate the value of a function at some point by knowing something about that function and its derivatives at some other point. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4799,
+		"nouns": [
+			"value",
+			"function",
+			"point",
+			"function",
+			"derivatives",
+			"point"
+		],
+		"dOIndex": 89,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function",
+			"derivatives"
+		]
+	},
+	{
+		"txt": " This approximation is expressed as an infinite polynomial series of the form:y(x + ∆x) = y(x) + (∆x) y'(x) + ((∆x)2 / 2!) y''(x) + ((∆x)3 / 3!) y'''(x) + · · ·",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4800,
+		"nouns": [
+			"approximation",
+			"series",
+			"form",
+			"y",
+			"x",
+			"∆x",
+			"y",
+			"x",
+			"∆x",
+			"y",
+			"x",
+			"∆x",
+			"/",
+			"y",
+			"x",
+			"∆x",
+			"/",
+			"y",
+			"x",
+			"·",
+			"·",
+			"·"
+		],
+		"dOIndex": 90,
+		"nouns2": [
+			"approximation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4801,
+		"nouns": [],
+		"dOIndex": 91,
+		"isQuote": false
+	},
+	{
+		"txt": "where y is some function of x, (x + ∆x) is the new value of x at which you want to approximate y, y' is the first derivative of y, y'' is the second derivative of y , and so on.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4802,
+		"nouns": [
+			"y",
+			"function",
+			"x",
+			"x",
+			"∆x",
+			"value",
+			"x",
+			"y",
+			"y",
+			"first",
+			"y",
+			"y",
+			"second",
+			"y"
+		],
+		"dOIndex": 92,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.024390243902439025,
+			"words": [
+				"want"
+			],
+			"positive": [
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4803,
+		"nouns": [],
+		"dOIndex": 93,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4804,
+		"nouns": [],
+		"dOIndex": 94,
+		"isQuote": false
+	},
+	{
+		"txt": "In the case of the equation of motion discussed in the preceding section, the function that you are trying to approximate is the velocity as a function of time. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4805,
+		"nouns": [
+			"case",
+			"equation",
+			"motion",
+			"section",
+			"function",
+			"velocity",
+			"function",
+			"time"
+		],
+		"dOIndex": 95,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equation",
+			"section",
+			"function",
+			"velocity"
+		]
+	},
+	{
+		"txt": " Thus, you can write v(t) instead of y(x), which yields the Taylor expansion:v(t + ∆t) = v(t) + (∆t) v'(t) + ((∆t)2 / 2!) v''(t) + ((∆t)3 / 3!) v'''(t) + · · ·",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4806,
+		"nouns": [
+			"v",
+			"t",
+			"y",
+			"x",
+			"yields",
+			"Taylor",
+			"expansion",
+			"v",
+			"t",
+			"∆t",
+			"v",
+			"t",
+			"∆t",
+			"v",
+			"t",
+			"∆t",
+			"/",
+			"v",
+			"t",
+			"∆t",
+			"/",
+			"v",
+			"t",
+			"·",
+			"·",
+			"·"
+		],
+		"dOIndex": 96,
+		"nouns2": [
+			"Taylor",
+			"expansion"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4807,
+		"nouns": [],
+		"dOIndex": 97,
+		"isQuote": false
+	},
+	{
+		"txt": "Note here that v'(t) is equal to dv/dt, which equals F/m in the example equation of motion discussed in the preceding section. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4808,
+		"nouns": [
+			"v",
+			"t",
+			"dv",
+			"/",
+			"dt",
+			"F",
+			"/",
+			"m",
+			"example",
+			"equation",
+			"motion",
+			"section"
+		],
+		"dOIndex": 98,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"equation",
+			"section"
+		]
+	},
+	{
+		"txt": " Note also that you know the value of v at time t . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4809,
+		"nouns": [
+			"value",
+			"v",
+			"time",
+			"t"
+		],
+		"dOIndex": 99,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " What you want to find is the value of v at time t + ∆t knowing v at time t and its derivative at time t . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4810,
+		"nouns": [
+			"value",
+			"v",
+			"time",
+			"t",
+			"∆t",
+			"v",
+			"time",
+			"t",
+			"time",
+			"t"
+		],
+		"dOIndex": 100,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"highfreq": {
+			"time": 3
+		},
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.034482758620689655,
+			"words": [
+				"want"
+			],
+			"positive": [
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " As a first approximation, and since you don't know anything about v's second, third, or higher derivatives, you can truncate the polynomial series after the term (∆t) v'(t), which yields:v(t + ∆t) = v(t) + (∆t) v'(t)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4811,
+		"nouns": [
+			"first",
+			"approximation",
+			"t",
+			"v",
+			"second",
+			"third",
+			"derivatives",
+			"truncate",
+			"series",
+			"term",
+			"∆t",
+			"v",
+			"t",
+			"yields",
+			"v",
+			"t",
+			"∆t",
+			"v",
+			"t",
+			"∆t",
+			"v",
+			"t"
+		],
+		"dOIndex": 101,
+		"nouns2": [
+			"approximation",
+			"derivatives",
+			"truncate"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4812,
+		"nouns": [],
+		"dOIndex": 102,
+		"isQuote": false
+	},
+	{
+		"txt": "This is the Euler integration formula that you saw in the last section. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4813,
+		"nouns": [
+			"Euler",
+			"integration",
+			"formula",
+			"section"
+		],
+		"dOIndex": 103,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"integration",
+			"formula",
+			"section"
+		]
+	},
+	{
+		"txt": " Since Euler's formula goes out only to the term that includes the first derivative, the rest of the series that was left off",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4814,
+		"nouns": [
+			"Euler",
+			"formula",
+			"term",
+			"first",
+			"rest",
+			"series"
+		],
+		"dOIndex": 104,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"formula"
+		]
+	},
+	{
+		"txt": " is the truncation error",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4815,
+		"nouns": [
+			"truncation",
+			"error"
+		],
+		"dOIndex": 105,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"truncation"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.4,
+			"words": [
+				"error"
+			],
+			"positive": [],
+			"negative": [
+				"error"
+			]
+		}
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4816,
+		"nouns": [],
+		"dOIndex": 106,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " These terms that were left off are called",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4817,
+		"nouns": [
+			"terms"
+		],
+		"dOIndex": 107,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "higher order terms",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4818,
+		"nouns": [
+			"order",
+			"terms"
+		],
+		"dOIndex": 108,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " , and getting rid of them results in a first order approximation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4819,
+		"nouns": [
+			"results",
+			"first",
+			"order",
+			"approximation"
+		],
+		"dOIndex": 109,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"results",
+			"approximation"
+		]
+	},
+	{
+		"txt": " The rationale behind this approximation is that the further you go in the series, the smaller the terms and the less influence they have on the approximation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4820,
+		"nouns": [
+			"rationale",
+			"approximation",
+			"series",
+			"terms",
+			"influence",
+			"approximation"
+		],
+		"dOIndex": 110,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"rationale",
+			"approximation",
+			"influence"
+		]
+	},
+	{
+		"txt": " Since ∆t is presumed to be a small number, ∆t2 is even smaller, ∆t3 even smaller, and so on, and since these ∆t terms appear in the numerators, each successively higher order term gets smaller and smaller. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4821,
+		"nouns": [
+			"∆t",
+			"number",
+			"∆t",
+			"∆t",
+			"∆t",
+			"terms",
+			"numerators",
+			"order",
+			"term"
+		],
+		"dOIndex": 111,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"numerators"
+		],
+		"highfreq": {
+			"smaller": 4
+		}
+	},
+	{
+		"txt": " In this case, the first truncated term, ((∆t)2 / 2!) v''(t), dominates the truncation error, and this method is said to have an error of order (∆t)2 .",
+		"why": "split inside sentence",
+		"tags": [
+			"sup",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4822,
+		"nouns": [
+			"case",
+			"first",
+			"term",
+			"∆t",
+			"/",
+			"v",
+			"t",
+			"truncation",
+			"error",
+			"method",
+			"error",
+			"order",
+			"∆t"
+		],
+		"dOIndex": 112,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"truncation"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.13793103448275862,
+			"words": [
+				"error",
+				"error"
+			],
+			"positive": [],
+			"negative": [
+				"error",
+				"error"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4823,
+		"nouns": [],
+		"dOIndex": 113,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4824,
+		"nouns": [],
+		"dOIndex": 114,
+		"isQuote": false
+	},
+	{
+		"txt": "Geometrically, Euler's method approximates a new value, at the current step, for the function under consideration by extrapolating in the direction of the derivative of the function at the previous step. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4825,
+		"nouns": [
+			"Euler",
+			"method",
+			"value",
+			"step",
+			"function",
+			"consideration",
+			"direction",
+			"function",
+			"step"
+		],
+		"dOIndex": 115,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Geometrically",
+			"function",
+			"consideration",
+			"direction"
+		]
+	},
+	{
+		"txt": " This is illustrated in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4826,
+		"nouns": [],
+		"dOIndex": 116,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 7 1",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4827,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 117,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4828,
+		"nouns": [],
+		"dOIndex": 118,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4829,
+		"nouns": [],
+		"dOIndex": 119,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4830,
+		"nouns": [],
+		"dOIndex": 120,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4831,
+		"nouns": [],
+		"dOIndex": 121,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4832,
+		"nouns": [],
+		"dOIndex": 122,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4833,
+		"nouns": [],
+		"dOIndex": 123,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 7 1. Euler integration step",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4834,
+		"nouns": [
+			"Figure",
+			"Euler",
+			"integration",
+			"step"
+		],
+		"dOIndex": 124,
+		"nouns2": [
+			"Figure",
+			"integration"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4835,
+		"nouns": [],
+		"dOIndex": 125,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 7 1 illustrates the truncation error and shows that Euler's method will result in a polygonal approximation of the smooth function under consideration. ",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4836,
+		"nouns": [
+			"Figure",
+			"truncation",
+			"error",
+			"Euler",
+			"method",
+			"result",
+			"approximation",
+			"function",
+			"consideration"
+		],
+		"dOIndex": 126,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure",
+			"truncation",
+			"approximation",
+			"function",
+			"consideration"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.08333333333333333,
+			"words": [
+				"error"
+			],
+			"positive": [],
+			"negative": [
+				"error"
+			]
+		}
+	},
+	{
+		"txt": " Clearly, if you decrease the step size, you increase the number of polygonal segments and better approximate the function. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4837,
+		"nouns": [
+			"decrease",
+			"step",
+			"size",
+			"increase",
+			"number",
+			"segments",
+			"function"
+		],
+		"dOIndex": 127,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Clearly",
+			"decrease",
+			"increase",
+			"segments",
+			"function"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.19047619047619047,
+			"words": [
+				"better",
+				"increase",
+				"clearly"
+			],
+			"positive": [
+				"better",
+				"increase",
+				"clearly"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " As we said before, though, this isn't always efficient to do since the number of computations in your simulation will increase and round off error will accumulate more rapidly.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4838,
+		"nouns": [
+			"isn",
+			"t",
+			"number",
+			"computations",
+			"simulation",
+			"increase",
+			"round",
+			"error"
+		],
+		"dOIndex": 128,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"computations",
+			"simulation",
+			"increase"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.03333333333333333,
+			"words": [
+				"error",
+				"increase"
+			],
+			"positive": [
+				"increase"
+			],
+			"negative": [
+				"error"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4839,
+		"nouns": [],
+		"dOIndex": 129,
+		"isQuote": false
+	},
+	{
+		"txt": "To illustrate Euler's method in practice, let's examine the linear equation of motion for the ship example of ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4840,
+		"nouns": [
+			"Euler",
+			"method",
+			"practice",
+			"equation",
+			"motion",
+			"ship",
+			"example"
+		],
+		"dOIndex": 130,
+		"nouns2": [
+			"practice",
+			"equation",
+			"example"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 4:T – (C v) = ma",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4841,
+		"nouns": [
+			"Chapter",
+			"T",
+			"–",
+			"C",
+			"v"
+		],
+		"dOIndex": 131,
+		"nouns2": [
+			"Chapter"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 4842,
+		"nouns": [],
+		"dOIndex": 132,
+		"isQuote": false
+	},
+	{
+		"txt": "where T is the propeller's thrust, C is a drag coefficient, v is the ship's velocity, m its mass, and a its acceleration.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4843,
+		"nouns": [
+			"T",
+			"propeller",
+			"thrust",
+			"C",
+			"drag",
+			"coefficient",
+			"v",
+			"ship",
+			"velocity",
+			"m",
+			"mass",
+			"acceleration"
+		],
+		"dOIndex": 133,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"propeller",
+			"coefficient",
+			"velocity",
+			"acceleration"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.043478260869565216,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4844,
+		"nouns": [],
+		"dOIndex": 134,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4845,
+		"nouns": [],
+		"dOIndex": 135,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 7 2 shows the Euler integration solution, using a 0.5s time step, superimposed over the exact solution derived in ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4846,
+		"nouns": [
+			"Figure",
+			"Euler",
+			"integration",
+			"solution",
+			"time",
+			"step",
+			"solution"
+		],
+		"dOIndex": 136,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure",
+			"integration",
+			"solution"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.1,
+			"words": [
+				"solution",
+				"solution"
+			],
+			"positive": [
+				"solution",
+				"solution"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "Chapter 4",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4847,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 137,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " for the ship's speed over time.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4848,
+		"nouns": [
+			"ship",
+			"time"
+		],
+		"dOIndex": 138,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4849,
+		"nouns": [],
+		"dOIndex": 139,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4850,
+		"nouns": [],
+		"dOIndex": 140,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4851,
+		"nouns": [],
+		"dOIndex": 141,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4852,
+		"nouns": [],
+		"dOIndex": 142,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4853,
+		"nouns": [],
+		"dOIndex": 143,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 7 2. Euler integration comparison",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4854,
+		"nouns": [
+			"Figure",
+			"Euler",
+			"integration",
+			"comparison"
+		],
+		"dOIndex": 144,
+		"nouns2": [
+			"Figure",
+			"integration",
+			"comparison"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4855,
+		"nouns": [],
+		"dOIndex": 145,
+		"isQuote": false
+	},
+	{
+		"txt": "Zooming in on this graph allows you to see the error in the Euler approximation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4856,
+		"nouns": [
+			"graph",
+			"error",
+			"Euler",
+			"approximation"
+		],
+		"dOIndex": 146,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Zooming",
+			"approximation"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.125,
+			"words": [
+				"error"
+			],
+			"positive": [],
+			"negative": [
+				"error"
+			]
+		}
+	},
+	{
+		"txt": " This is shown in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4857,
+		"nouns": [],
+		"dOIndex": 147,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 7 3",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4858,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 148,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4859,
+		"nouns": [],
+		"dOIndex": 149,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4860,
+		"nouns": [],
+		"dOIndex": 150,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4861,
+		"nouns": [],
+		"dOIndex": 151,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4862,
+		"nouns": [],
+		"dOIndex": 152,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4863,
+		"nouns": [],
+		"dOIndex": 153,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4864,
+		"nouns": [],
+		"dOIndex": 154,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 7 3. Euler error",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4865,
+		"nouns": [
+			"Figure",
+			"Euler",
+			"error"
+		],
+		"dOIndex": 155,
+		"nouns2": [
+			"Figure"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.6666666666666666,
+			"words": [
+				"error"
+			],
+			"positive": [],
+			"negative": [
+				"error"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4866,
+		"nouns": [],
+		"dOIndex": 156,
+		"isQuote": false
+	},
+	{
+		"txt": "Table 7 1 shows the numerical values of speed versus time for the range shown in ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4867,
+		"nouns": [
+			"Table",
+			"values",
+			"time",
+			"range"
+		],
+		"dOIndex": 157,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 7 3",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4868,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 158,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4869,
+		"nouns": [],
+		"dOIndex": 159,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Also shown in ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4870,
+		"nouns": [],
+		"dOIndex": 160,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Table 7 1",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4871,
+		"nouns": [
+			"Table"
+		],
+		"dOIndex": 161,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " is the percent difference, the error, between the exact solution and the Euler solution at each time step.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4872,
+		"nouns": [
+			"percent",
+			"difference",
+			"error",
+			"solution",
+			"Euler",
+			"solution",
+			"time",
+			"step"
+		],
+		"dOIndex": 162,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"percent",
+			"difference",
+			"solution"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"solution",
+				"solution",
+				"error"
+			],
+			"positive": [
+				"solution",
+				"solution"
+			],
+			"negative": [
+				"error"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4873,
+		"nouns": [],
+		"dOIndex": 163,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Table 7 1. Exact solution versus Euler solution",
+		"why": "p",
+		"tags": [
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4874,
+		"nouns": [
+			"Table",
+			"solution",
+			"Euler",
+			"solution"
+		],
+		"dOIndex": 164,
+		"nouns2": [
+			"solution"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.3333333333333333,
+			"words": [
+				"solution",
+				"solution"
+			],
+			"positive": [
+				"solution",
+				"solution"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "Time (s)",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"thead",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4875,
+		"nouns": [
+			"Time"
+		],
+		"dOIndex": 165,
+		"isQuote": false
+	},
+	{
+		"txt": "Velocity, exact (m/s)",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"thead",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4876,
+		"nouns": [
+			"Velocity",
+			"m",
+			"/"
+		],
+		"dOIndex": 166,
+		"nouns2": [
+			"Velocity"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Velocity, Euler (m/s)",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"thead",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4877,
+		"nouns": [
+			"Velocity",
+			"Euler",
+			"m",
+			"/"
+		],
+		"dOIndex": 167,
+		"nouns2": [
+			"Velocity"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Error",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"thead",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4878,
+		"nouns": [
+			"Error"
+		],
+		"dOIndex": 168,
+		"sentiment": {
+			"score": -2,
+			"comparative": -2,
+			"words": [
+				"error"
+			],
+			"positive": [],
+			"negative": [
+				"error"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "6.5",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4879,
+		"nouns": [],
+		"dOIndex": 169,
+		"isQuote": false
+	},
+	{
+		"txt": "9.559084",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4880,
+		"nouns": [],
+		"dOIndex": 170,
+		"isQuote": false
+	},
+	{
+		"txt": "9.733158",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4881,
+		"nouns": [],
+		"dOIndex": 171,
+		"isQuote": false
+	},
+	{
+		"txt": "1.82%",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4882,
+		"nouns": [
+			"%"
+		],
+		"dOIndex": 172,
+		"isQuote": false
+	},
+	{
+		"txt": "7",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4883,
+		"nouns": [],
+		"dOIndex": 173,
+		"isQuote": false
+	},
+	{
+		"txt": "10.06829",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4884,
+		"nouns": [],
+		"dOIndex": 174,
+		"isQuote": false
+	},
+	{
+		"txt": "10.2465",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4885,
+		"nouns": [],
+		"dOIndex": 175,
+		"isQuote": false
+	},
+	{
+		"txt": "1.77%",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4886,
+		"nouns": [
+			"%"
+		],
+		"dOIndex": 176,
+		"isQuote": false
+	},
+	{
+		"txt": "7.5",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4887,
+		"nouns": [],
+		"dOIndex": 177,
+		"isQuote": false
+	},
+	{
+		"txt": "10.55267",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4888,
+		"nouns": [],
+		"dOIndex": 178,
+		"isQuote": false
+	},
+	{
+		"txt": "10.73418",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4889,
+		"nouns": [],
+		"dOIndex": 179,
+		"isQuote": false
+	},
+	{
+		"txt": "1.72%",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4890,
+		"nouns": [
+			"%"
+		],
+		"dOIndex": 180,
+		"isQuote": false
+	},
+	{
+		"txt": "8",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4891,
+		"nouns": [],
+		"dOIndex": 181,
+		"isQuote": false
+	},
+	{
+		"txt": "11.01342",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4892,
+		"nouns": [],
+		"dOIndex": 182,
+		"isQuote": false
+	},
+	{
+		"txt": "11.19747",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4893,
+		"nouns": [],
+		"dOIndex": 183,
+		"isQuote": false
+	},
+	{
+		"txt": "1.67%",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4894,
+		"nouns": [
+			"%"
+		],
+		"dOIndex": 184,
+		"isQuote": false
+	},
+	{
+		"txt": "8.5",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4895,
+		"nouns": [],
+		"dOIndex": 185,
+		"isQuote": false
+	},
+	{
+		"txt": "11.4517",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4896,
+		"nouns": [],
+		"dOIndex": 186,
+		"isQuote": false
+	},
+	{
+		"txt": "11.63759",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4897,
+		"nouns": [],
+		"dOIndex": 187,
+		"isQuote": false
+	},
+	{
+		"txt": "1.62%",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4898,
+		"nouns": [
+			"%"
+		],
+		"dOIndex": 188,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4899,
+		"nouns": [],
+		"dOIndex": 189,
+		"isQuote": false
+	},
+	{
+		"txt": "As you can see, the truncation error in this example isn't too bad. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4900,
+		"nouns": [
+			"truncation",
+			"error",
+			"example",
+			"isn",
+			"t"
+		],
+		"dOIndex": 190,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"truncation",
+			"example"
+		],
+		"sentiment": {
+			"score": -5,
+			"comparative": -0.35714285714285715,
+			"words": [
+				"bad",
+				"error"
+			],
+			"positive": [],
+			"negative": [
+				"bad",
+				"error"
+			]
+		}
+	},
+	{
+		"txt": " It could be better, though, and we'll show you some more accurate methods in a moment. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4901,
+		"nouns": [
+			"ll",
+			"show",
+			"methods",
+			"moment"
+		],
+		"dOIndex": 191,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"methods"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.1111111111111111,
+			"words": [
+				"better"
+			],
+			"positive": [
+				"better"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Before that, however, you should notice that in this example Euler's method is also stable that is, it converges well with the exact solution as shown in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4902,
+		"nouns": [
+			"notice",
+			"example Euler",
+			"method",
+			"converges",
+			"solution"
+		],
+		"dOIndex": 192,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Before",
+			"example",
+			"converges",
+			"solution"
+		],
+		"highfreq": {
+			"that": 3
+		},
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.10344827586206896,
+			"words": [
+				"solution",
+				"stable"
+			],
+			"positive": [
+				"solution",
+				"stable"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "Figure 7 4, where we've carried the time ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4903,
+		"nouns": [
+			"Figure",
+			"ve",
+			"time"
+		],
+		"dOIndex": 193,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4904,
+		"nouns": [],
+		"dOIndex": 194,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "range out further.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4905,
+		"nouns": [
+			"range"
+		],
+		"dOIndex": 195,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4906,
+		"nouns": [],
+		"dOIndex": 196,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4907,
+		"nouns": [],
+		"dOIndex": 197,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4908,
+		"nouns": [],
+		"dOIndex": 198,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4909,
+		"nouns": [],
+		"dOIndex": 199,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4910,
+		"nouns": [],
+		"dOIndex": 200,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 7 4. Convergence",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4911,
+		"nouns": [
+			"Figure",
+			"Convergence"
+		],
+		"dOIndex": 201,
+		"nouns2": [
+			"Figure",
+			"Convergence"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4912,
+		"nouns": [],
+		"dOIndex": 202,
+		"isQuote": false
+	},
+	{
+		"txt": "Here's a code snippet that implements Euler's method for this example:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4913,
+		"nouns": [
+			"code",
+			"snippet",
+			"implements Euler",
+			"method",
+			"example"
+		],
+		"dOIndex": 203,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"snippet",
+			"implements",
+			"example"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 4914,
+		"nouns": [],
+		"dOIndex": 204,
+		"isQuote": false
+	},
+	{
+		"txt": "Although Euler's method is stable in this example, that isn't always so, depending on the problem you're trying to solve. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4915,
+		"nouns": [
+			"Euler",
+			"method",
+			"example",
+			"isn",
+			"t",
+			"problem",
+			"re"
+		],
+		"dOIndex": 205,
+		"nouns2": [
+			"Although",
+			"example",
+			"problem"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.047619047619047616,
+			"words": [
+				"solve",
+				"problem",
+				"stable"
+			],
+			"positive": [
+				"solve",
+				"stable"
+			],
+			"negative": [
+				"problem"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " This is something that you must keep in mind when implementing any numerical integration scheme. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4916,
+		"nouns": [
+			"mind",
+			"integration",
+			"scheme"
+		],
+		"dOIndex": 206,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"integration"
+		]
+	},
+	{
+		"txt": " What we mean by stable here is that, in this case, the Euler solution converges with the exact solution. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4917,
+		"nouns": [
+			"case",
+			"Euler",
+			"solution",
+			"converges",
+			"solution"
+		],
+		"dOIndex": 207,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"solution",
+			"converges"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.19047619047619047,
+			"words": [
+				"solution",
+				"solution",
+				"stable"
+			],
+			"positive": [
+				"solution",
+				"solution",
+				"stable"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " An unstable solution could manifest errors in two ways. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4918,
+		"nouns": [
+			"solution",
+			"errors",
+			"two",
+			"ways"
+		],
+		"dOIndex": 208,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"solution"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.2727272727272727,
+			"words": [
+				"errors",
+				"solution",
+				"unstable"
+			],
+			"positive": [
+				"solution"
+			],
+			"negative": [
+				"errors",
+				"unstable"
+			]
+		}
+	},
+	{
+		"txt": " First, successive values could oscillate above and below the exact solution, never quite converging on it. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4919,
+		"nouns": [
+			"First",
+			"values",
+			"oscillate",
+			"solution"
+		],
+		"dOIndex": 209,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"oscillate",
+			"solution"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.05555555555555555,
+			"words": [
+				"solution"
+			],
+			"positive": [
+				"solution"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Second, successive values could diverge from the exact solution, creating a greater and greater error over time.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4920,
+		"nouns": [
+			"values",
+			"solution",
+			"error",
+			"time"
+		],
+		"dOIndex": 210,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Second",
+			"solution"
+		],
+		"sentiment": {
+			"score": 5,
+			"comparative": 0.2777777777777778,
+			"words": [
+				"error",
+				"greater",
+				"greater",
+				"solution"
+			],
+			"positive": [
+				"greater",
+				"greater",
+				"solution"
+			],
+			"negative": [
+				"error"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4921,
+		"nouns": [],
+		"dOIndex": 211,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4922,
+		"nouns": [],
+		"dOIndex": 212,
+		"isQuote": false
+	},
+	{
+		"txt": "Take a look at ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4923,
+		"nouns": [
+			"look"
+		],
+		"dOIndex": 213,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 7 5",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4924,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 214,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4925,
+		"nouns": [],
+		"dOIndex": 215,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " This figure shows how Euler's method can become very unstable. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4926,
+		"nouns": [
+			"figure",
+			"Euler",
+			"method"
+		],
+		"dOIndex": 216,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.16666666666666666,
+			"words": [
+				"unstable"
+			],
+			"positive": [],
+			"negative": [
+				"unstable"
+			]
+		}
+	},
+	{
+		"txt": " What you see in the graph represents the vibratory motion of a spring mass system. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4927,
+		"nouns": [
+			"graph",
+			"motion",
+			"mass",
+			"system"
+		],
+		"dOIndex": 217,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " This is a simple dynamical system that should exhibit regular sinusoidal motion.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4928,
+		"nouns": [
+			"system",
+			"exhibit",
+			"motion"
+		],
+		"dOIndex": 218,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"exhibit"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4929,
+		"nouns": [],
+		"dOIndex": 219,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4930,
+		"nouns": [],
+		"dOIndex": 220,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4931,
+		"nouns": [],
+		"dOIndex": 221,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4932,
+		"nouns": [],
+		"dOIndex": 222,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4933,
+		"nouns": [],
+		"dOIndex": 223,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 7 5. Unstable results using Euler's method",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4934,
+		"nouns": [
+			"Figure",
+			"results",
+			"Euler",
+			"method"
+		],
+		"dOIndex": 224,
+		"nouns2": [
+			"Figure",
+			"Unstable",
+			"results"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4935,
+		"nouns": [],
+		"dOIndex": 225,
+		"isQuote": false
+	},
+	{
+		"txt": "It's clear from the figure that using Euler's method yields terribly unstable results. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4936,
+		"nouns": [
+			"figure",
+			"Euler",
+			"method",
+			"yields",
+			"results"
+		],
+		"dOIndex": 226,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"results"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.2857142857142857,
+			"words": [
+				"unstable",
+				"terribly",
+				"clear"
+			],
+			"positive": [
+				"clear"
+			],
+			"negative": [
+				"unstable",
+				"terribly"
+			]
+		}
+	},
+	{
+		"txt": " You can see how the motion amplitude continues to grow. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4937,
+		"nouns": [
+			"motion",
+			"amplitude"
+		],
+		"dOIndex": 227,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"amplitude"
+		]
+	},
+	{
+		"txt": " If this were a game, say, where you have a few objects connected by springs interacting with one another, then this sort of instability would manifest itself by wildly unrealistic motion of those objects. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4938,
+		"nouns": [
+			"were",
+			"game",
+			"objects",
+			"springs",
+			"one",
+			"sort",
+			"instability",
+			"motion",
+			"objects"
+		],
+		"dOIndex": 228,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"objects",
+			"springs",
+			"instability"
+		]
+	},
+	{
+		"txt": " Worse yet, the simulation could blow up, numerically speaking.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4939,
+		"nouns": [
+			"simulation",
+			"blow"
+		],
+		"dOIndex": 229,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulation"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.3,
+			"words": [
+				"worse"
+			],
+			"positive": [],
+			"negative": [
+				"worse"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4940,
+		"nouns": [],
+		"dOIndex": 230,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4941,
+		"nouns": [],
+		"dOIndex": 231,
+		"isQuote": false
+	},
+	{
+		"txt": "Often, your choice of step size affects stability where smaller step sizes tend to eliminate or minimize instability and larger steps aggravate the problem. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4942,
+		"nouns": [
+			"choice",
+			"step",
+			"size",
+			"stability",
+			"step",
+			"sizes",
+			"instability",
+			"steps",
+			"problem"
+		],
+		"dOIndex": 232,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"stability",
+			"instability",
+			"problem"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.16,
+			"words": [
+				"problem",
+				"aggravate"
+			],
+			"positive": [],
+			"negative": [
+				"problem",
+				"aggravate"
+			]
+		}
+	},
+	{
+		"txt": " If you're working with a particularly unwieldy function, you might find that you have to decrease your step size substantially in order to achieve stability. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4943,
+		"nouns": [
+			"re",
+			"function",
+			"decrease",
+			"step",
+			"size",
+			"order",
+			"stability"
+		],
+		"dOIndex": 233,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function",
+			"decrease",
+			"stability"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.037037037037037035,
+			"words": [
+				"substantially"
+			],
+			"positive": [
+				"substantially"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " This, however, increases the number of computations you need to make. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4944,
+		"nouns": [
+			"increases",
+			"number",
+			"computations"
+		],
+		"dOIndex": 234,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"increases",
+			"computations"
+		]
+	},
+	{
+		"txt": " One way around this difficulty is to employ what's called an adaptive step size method, in which ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4945,
+		"nouns": [
+			"One",
+			"way",
+			"difficulty",
+			"adaptive",
+			"step",
+			"size",
+			"method"
+		],
+		"dOIndex": 235,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"difficulty",
+			"adaptive"
+		]
+	},
+	{
+		"txt": "you change your step size on the fly depending on the magnitude of a predicted amount of truncation error from one step to the next. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4946,
+		"nouns": [
+			"change",
+			"step",
+			"size",
+			"magnitude",
+			"predicted",
+			"amount",
+			"truncation",
+			"error",
+			"one",
+			"step"
+		],
+		"dOIndex": 236,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"magnitude",
+			"predicted",
+			"truncation"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.07692307692307693,
+			"words": [
+				"error"
+			],
+			"positive": [],
+			"negative": [
+				"error"
+			]
+		}
+	},
+	{
+		"txt": " If the truncation error is too large, then you back up a step, decrease your step size, and try again.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4947,
+		"nouns": [
+			"truncation",
+			"error",
+			"step",
+			"decrease",
+			"step",
+			"size"
+		],
+		"dOIndex": 237,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"truncation",
+			"decrease"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.09523809523809523,
+			"words": [
+				"error"
+			],
+			"positive": [],
+			"negative": [
+				"error"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4948,
+		"nouns": [],
+		"dOIndex": 238,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4949,
+		"nouns": [],
+		"dOIndex": 239,
+		"isQuote": false
+	},
+	{
+		"txt": "One way to implement this for Euler's method is to first take a step of size ∆t to obtain an estimate at time t + ∆t, and then take two steps (starting from time t again) of size ∆t/2 to obtain another estimate at time t + ∆t . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4950,
+		"nouns": [
+			"One",
+			"way",
+			"Euler",
+			"method",
+			"first",
+			"step",
+			"size",
+			"∆t",
+			"estimate",
+			"time",
+			"t",
+			"∆t",
+			"two",
+			"steps",
+			"time",
+			"t",
+			"size",
+			"∆t",
+			"/",
+			"estimate",
+			"time",
+			"t",
+			"∆t"
+		],
+		"dOIndex": 240,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"estimate"
+		],
+		"highfreq": {
+			"time": 3
+		}
+	},
+	{
+		"txt": " Since we've been talking velocity in the examples so far, let's call the first estimate v1 and the second estimate v2 .",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4951,
+		"nouns": [
+			"ve",
+			"velocity",
+			"examples",
+			"first",
+			"estimate",
+			"v",
+			"second",
+			"estimate",
+			"v"
+		],
+		"dOIndex": 241,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity",
+			"examples",
+			"estimate"
+		]
+	},
+	{
+		"txt": "[",
+		"why": "link",
+		"tags": [
+			"sup",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4952,
+		"nouns": [],
+		"dOIndex": 242,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "18] A measure of the truncation error is then:et = |v1 – v2|",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4953,
+		"nouns": [
+			"measure",
+			"truncation",
+			"error",
+			"|v",
+			"–",
+			"v",
+			"|"
+		],
+		"dOIndex": 243,
+		"nouns2": [
+			"measure",
+			"truncation"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.15384615384615385,
+			"words": [
+				"error"
+			],
+			"positive": [],
+			"negative": [
+				"error"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 4954,
+		"nouns": [],
+		"dOIndex": 244,
+		"isQuote": false
+	},
+	{
+		"txt": "If you wish to keep the truncation error within a specified limit, eto, then you can use the following formula to find out what your step size should be in order to maintain the desired accuracy:∆tnew = ∆told (eto / et) (1/2)",
+		"why": "p",
+		"tags": [
+			"sup",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4955,
+		"nouns": [
+			"truncation",
+			"error",
+			"limit",
+			"eto",
+			"use",
+			"formula",
+			"step",
+			"size",
+			"order",
+			"accuracy",
+			"∆tnew",
+			"∆told",
+			"eto",
+			"/",
+			"/"
+		],
+		"dOIndex": 245,
+		"nouns2": [
+			"truncation",
+			"formula",
+			"accuracy"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.023809523809523808,
+			"words": [
+				"desired",
+				"error",
+				"wish"
+			],
+			"positive": [
+				"desired",
+				"wish"
+			],
+			"negative": [
+				"error"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "Here, ∆told is the old time step and ∆tnew is the new one that you should use to maintain the desired accuracy. ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4956,
+		"nouns": [
+			"∆told",
+			"time",
+			"step",
+			"∆tnew",
+			"one",
+			"use",
+			"accuracy"
+		],
+		"dOIndex": 246,
+		"nouns2": [
+			"accuracy"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08695652173913043,
+			"words": [
+				"desired"
+			],
+			"positive": [
+				"desired"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " You'll have to make this check for each time step, and if you find that the error warrants a smaller time step, then you'll have to back up a step and repeat it with the new time step.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4957,
+		"nouns": [
+			"ll",
+			"check",
+			"time",
+			"step",
+			"error",
+			"warrants",
+			"time",
+			"step",
+			"ll",
+			"step",
+			"time",
+			"step"
+		],
+		"dOIndex": 247,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"warrants"
+		],
+		"highfreq": {
+			"time": 3,
+			"step": 4
+		},
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.05128205128205128,
+			"words": [
+				"error"
+			],
+			"positive": [],
+			"negative": [
+				"error"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4958,
+		"nouns": [],
+		"dOIndex": 248,
+		"isQuote": false
+	},
+	{
+		"txt": "Here's a revised StepSimulation function that implements this adaptive step size technique, checking the truncation error on ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4959,
+		"nouns": [
+			"StepSimulation",
+			"function",
+			"implements",
+			"adaptive",
+			"step",
+			"size",
+			"technique",
+			"truncation",
+			"error"
+		],
+		"dOIndex": 249,
+		"nouns2": [
+			"StepSimulation",
+			"function",
+			"implements",
+			"adaptive",
+			"technique",
+			"truncation"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.1111111111111111,
+			"words": [
+				"error"
+			],
+			"positive": [],
+			"negative": [
+				"error"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4960,
+		"nouns": [],
+		"dOIndex": 250,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "the velocity integration:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4961,
+		"nouns": [
+			"velocity",
+			"integration"
+		],
+		"dOIndex": 251,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity",
+			"integration"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 4962,
+		"nouns": [],
+		"dOIndex": 252,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4963,
+		"nouns": [],
+		"dOIndex": 253,
+		"isQuote": false
+	},
+	{
+		"txt": "Better Methods",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4964,
+		"nouns": [
+			"Better",
+			"Methods"
+		],
+		"dOIndex": 254,
+		"nouns2": [
+			"Better",
+			"Methods"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 1,
+			"words": [
+				"better"
+			],
+			"positive": [
+				"better"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4965,
+		"nouns": [],
+		"dOIndex": 255,
+		"isQuote": false
+	},
+	{
+		"txt": "At this point, you might ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4966,
+		"nouns": [
+			"point"
+		],
+		"dOIndex": 256,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4967,
+		"nouns": [],
+		"dOIndex": 257,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4968,
+		"nouns": [],
+		"dOIndex": 258,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "be wondering why you can't simply use more terms in the Taylor series to reduce the truncation error of Euler's method. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4969,
+		"nouns": [
+			"t",
+			"use",
+			"terms",
+			"Taylor",
+			"series",
+			"truncation",
+			"error",
+			"Euler",
+			"method"
+		],
+		"dOIndex": 259,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Taylor",
+			"truncation"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.09090909090909091,
+			"words": [
+				"error"
+			],
+			"positive": [],
+			"negative": [
+				"error"
+			]
+		}
+	},
+	{
+		"txt": " In fact, this is the basis for several integration methods that offer greater accuracy than Euler's basic method for a given step size. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4970,
+		"nouns": [
+			"fact",
+			"basis",
+			"integration",
+			"methods",
+			"offer",
+			"accuracy",
+			"Euler",
+			"method",
+			"step",
+			"size"
+		],
+		"dOIndex": 260,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"integration",
+			"methods",
+			"accuracy"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.12,
+			"words": [
+				"greater"
+			],
+			"positive": [
+				"greater"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Part of the difficulty associated with picking up more terms in the Taylor's series expansion is in being able to determine the second, third, fourth, and higher derivatives of the function you're trying to integrate. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4971,
+		"nouns": [
+			"Part",
+			"difficulty",
+			"terms",
+			"Taylor",
+			"series",
+			"expansion",
+			"second",
+			"third",
+			"derivatives",
+			"function",
+			"re"
+		],
+		"dOIndex": 261,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"difficulty",
+			"Taylor",
+			"expansion",
+			"derivatives",
+			"function"
+		]
+	},
+	{
+		"txt": " The way around this problem is to perform additional Taylor series expansions to approximate the derivatives of the function under consideration and then substitute those values back into your original expansion.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4972,
+		"nouns": [
+			"way",
+			"problem",
+			"Taylor",
+			"series",
+			"expansions",
+			"derivatives",
+			"function",
+			"consideration",
+			"substitute",
+			"values",
+			"expansion"
+		],
+		"dOIndex": 262,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"problem",
+			"Taylor",
+			"expansions",
+			"derivatives",
+			"function",
+			"consideration",
+			"substitute",
+			"expansion"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.0625,
+			"words": [
+				"problem"
+			],
+			"positive": [],
+			"negative": [
+				"problem"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4973,
+		"nouns": [],
+		"dOIndex": 263,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4974,
+		"nouns": [],
+		"dOIndex": 264,
+		"isQuote": false
+	},
+	{
+		"txt": "Taking this approach to include one ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4975,
+		"nouns": [
+			"approach",
+			"one"
+		],
+		"dOIndex": 265,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Taking",
+			"approach"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4976,
+		"nouns": [],
+		"dOIndex": 266,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "more Taylor term beyond the basic Euler method yields a so called improved Euler method that has a reduced truncation error on the order of (∆t)3 instead of (∆t)2 . ",
+		"why": "split inside sentence",
+		"tags": [
+			"sup",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4977,
+		"nouns": [
+			"Taylor",
+			"term",
+			"Euler",
+			"method",
+			"yields",
+			"Euler",
+			"method",
+			"truncation",
+			"error",
+			"order",
+			"∆t",
+			"∆t"
+		],
+		"dOIndex": 267,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Taylor",
+			"truncation"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"error",
+				"improved"
+			],
+			"positive": [
+				"improved"
+			],
+			"negative": [
+				"error"
+			]
+		}
+	},
+	{
+		"txt": " The formulas for this method are:k1 = (∆t) y'(t, y)k2 = (∆t) y'(t + ∆t, y + k1)y(t + ∆t) = y(t) + ½ (k1 + k2)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4978,
+		"nouns": [
+			"formulas",
+			"method",
+			"k",
+			"∆t",
+			"y",
+			"t",
+			"y",
+			"k",
+			"∆t",
+			"y",
+			"t",
+			"∆t",
+			"y",
+			"k",
+			"y",
+			"t",
+			"∆t",
+			"y",
+			"t",
+			"½",
+			"k",
+			"k"
+		],
+		"dOIndex": 268,
+		"nouns2": [
+			"formulas"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4979,
+		"nouns": [],
+		"dOIndex": 269,
+		"isQuote": false
+	},
+	{
+		"txt": "Here y is a function of t, and y' is the derivative as a function of t and possibly of y depending on the equations you're trying to solve, and ∆t the step size.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4980,
+		"nouns": [
+			"y",
+			"function",
+			"t",
+			"y",
+			"function",
+			"t",
+			"y",
+			"equations",
+			"re",
+			"∆t",
+			"step",
+			"size"
+		],
+		"dOIndex": 270,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function",
+			"equations"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.029411764705882353,
+			"words": [
+				"solve"
+			],
+			"positive": [
+				"solve"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4981,
+		"nouns": [],
+		"dOIndex": 271,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4982,
+		"nouns": [],
+		"dOIndex": 272,
+		"isQuote": false
+	},
+	{
+		"txt": "To make this clearer for you, we'll show these formulas in terms of the ship example equation of motion of ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4983,
+		"nouns": [
+			"ll",
+			"show",
+			"formulas",
+			"terms",
+			"ship",
+			"example",
+			"equation",
+			"motion"
+		],
+		"dOIndex": 273,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"formulas",
+			"example",
+			"equation"
+		]
+	},
+	{
+		"txt": "Chapter 4",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4984,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 274,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " , the same example that we discussed in the previous section. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4985,
+		"nouns": [
+			"example",
+			"section"
+		],
+		"dOIndex": 275,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"section"
+		]
+	},
+	{
+		"txt": " In this case, velocity is approximated by the following formulas:k1 = ∆t [1/m (T – C vt)]k2 = ∆t [1/m (T – C (vt + k1))]vt+∆t = vt + ½(k1 + k2)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4986,
+		"nouns": [
+			"case",
+			"velocity",
+			"formulas",
+			"k",
+			"∆t",
+			"/",
+			"m",
+			"T",
+			"–",
+			"C",
+			"vt",
+			"]k",
+			"∆t",
+			"/",
+			"m",
+			"T",
+			"–",
+			"C",
+			"vt",
+			"k",
+			"]vt+∆t",
+			"vt",
+			"½",
+			"k",
+			"k"
+		],
+		"dOIndex": 276,
+		"nouns2": [
+			"velocity",
+			"formulas",
+			"]vt+∆t"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "where vt is the velocity at time t, and vt+∆t is the new velocity at time t+∆t .",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4987,
+		"nouns": [
+			"vt",
+			"velocity",
+			"time",
+			"t",
+			"vt+∆t",
+			"velocity",
+			"time",
+			"t+∆t"
+		],
+		"dOIndex": 277,
+		"nouns2": [
+			"velocity"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4988,
+		"nouns": [],
+		"dOIndex": 278,
+		"isQuote": false
+	},
+	{
+		"txt": "Here is the revised StepSimulation function showing how to implement this method in code:",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4989,
+		"nouns": [
+			"StepSimulation",
+			"function",
+			"method",
+			"code"
+		],
+		"dOIndex": 279,
+		"nouns2": [
+			"StepSimulation",
+			"function"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 4990,
+		"nouns": [],
+		"dOIndex": 280,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4991,
+		"nouns": [],
+		"dOIndex": 281,
+		"isQuote": false
+	},
+	{
+		"txt": "We can carry out this procedure of taking on more Taylor terms even further. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4992,
+		"nouns": [
+			"procedure",
+			"Taylor",
+			"terms"
+		],
+		"dOIndex": 282,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"procedure",
+			"Taylor"
+		]
+	},
+	{
+		"txt": " The ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4993,
+		"nouns": [],
+		"dOIndex": 283,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4994,
+		"nouns": [],
+		"dOIndex": 284,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "popular Runge Kutta method takes such an approach to reduce the truncation error to the order of (∆t)5 . ",
+		"why": "split inside sentence",
+		"tags": [
+			"sup",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4995,
+		"nouns": [
+			"Runge",
+			"Kutta",
+			"method",
+			"approach",
+			"truncation",
+			"error",
+			"order",
+			"∆t"
+		],
+		"dOIndex": 285,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"approach",
+			"truncation"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.05,
+			"words": [
+				"error",
+				"popular"
+			],
+			"positive": [
+				"popular"
+			],
+			"negative": [
+				"error"
+			]
+		}
+	},
+	{
+		"txt": " The integration formulas for this method are as follows:k1 = (∆t) y'(t, y)k2 = (∆t) y'(t + ∆t/2, y + k1/2)k3 = (∆t) y'(t + ∆t/2, y + k2/2)k4 = (∆t) y'(t + ∆t, y + k3)y(t + ∆t) = y(t) + 1/6 (k1 + 2 (k2) + 2 (k3) + k4)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4996,
+		"nouns": [
+			"integration",
+			"formulas",
+			"method",
+			"k",
+			"∆t",
+			"y",
+			"t",
+			"y",
+			"k",
+			"∆t",
+			"y",
+			"t",
+			"∆t",
+			"/",
+			"y",
+			"k",
+			"/",
+			"k",
+			"∆t",
+			"y",
+			"t",
+			"∆t",
+			"/",
+			"y",
+			"k",
+			"/",
+			"k",
+			"∆t",
+			"y",
+			"t",
+			"∆t",
+			"y",
+			"k",
+			"y",
+			"t",
+			"∆t",
+			"y",
+			"t",
+			"/",
+			"k",
+			"k",
+			"k",
+			"k"
+		],
+		"dOIndex": 286,
+		"nouns2": [
+			"integration",
+			"formulas"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4997,
+		"nouns": [],
+		"dOIndex": 287,
+		"isQuote": false
+	},
+	{
+		"txt": "Applying these formulas to our ship example yields:k1 = ∆t [1/m (T – C vt)]k2 = ∆t [1/m (T – C (vt + k1/2))]k3 = ∆t [1/m (T – C (vt + k2/2))]k4 = ∆t [1/m (T – C (vt + k3))]vt+∆t = vt + 1/6 (k1 + 2 (k2) + 2 (k3) + k4)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 4998,
+		"nouns": [
+			"formulas",
+			"ship",
+			"example",
+			"yields",
+			"k",
+			"∆t",
+			"/",
+			"m",
+			"T",
+			"–",
+			"C",
+			"vt",
+			"]k",
+			"∆t",
+			"/",
+			"m",
+			"T",
+			"–",
+			"C",
+			"vt",
+			"k",
+			"/",
+			"]k",
+			"∆t",
+			"/",
+			"m",
+			"T",
+			"–",
+			"C",
+			"vt",
+			"k",
+			"/",
+			"]k",
+			"∆t",
+			"/",
+			"m",
+			"T",
+			"–",
+			"C",
+			"vt",
+			"k",
+			"]vt+∆t",
+			"vt",
+			"/",
+			"k",
+			"k",
+			"k",
+			"k"
+		],
+		"dOIndex": 288,
+		"nouns2": [
+			"Applying",
+			"formulas",
+			"example",
+			"]vt+∆t"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4999,
+		"nouns": [],
+		"dOIndex": 289,
+		"isQuote": false
+	},
+	{
+		"txt": "For our example, the Runge Kutta method is implemented as follows:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5000,
+		"nouns": [
+			"example",
+			"Runge",
+			"Kutta",
+			"method"
+		],
+		"dOIndex": 290,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 5001,
+		"nouns": [],
+		"dOIndex": 291,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5002,
+		"nouns": [],
+		"dOIndex": 292,
+		"isQuote": false
+	},
+	{
+		"txt": "To show you how accuracy is improved over the basic Euler method, we've superimposed integration results for the ship example using these two methods over those shown in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5003,
+		"nouns": [
+			"show",
+			"accuracy",
+			"Euler",
+			"method",
+			"ve",
+			"integration",
+			"results",
+			"ship",
+			"example",
+			"two",
+			"methods"
+		],
+		"dOIndex": 293,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"accuracy",
+			"integration",
+			"results",
+			"example",
+			"methods"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.06896551724137931,
+			"words": [
+				"improved"
+			],
+			"positive": [
+				"improved"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "Figure 7 2 and ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5004,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 294,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5005,
+		"nouns": [],
+		"dOIndex": 295,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 7 3 . ",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5006,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 296,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5007,
+		"nouns": [],
+		"dOIndex": 297,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 7 6 and ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5008,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 298,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": "Figure 7 7 show the results, where ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5009,
+		"nouns": [
+			"Figure",
+			"show",
+			"results"
+		],
+		"dOIndex": 299,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure",
+			"results"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5010,
+		"nouns": [],
+		"dOIndex": 300,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 7 7 is a zoomed view of 7 6.",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5011,
+		"nouns": [
+			"Figure",
+			"view"
+		],
+		"dOIndex": 301,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5012,
+		"nouns": [],
+		"dOIndex": 302,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5013,
+		"nouns": [],
+		"dOIndex": 303,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5014,
+		"nouns": [],
+		"dOIndex": 304,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5015,
+		"nouns": [],
+		"dOIndex": 305,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5016,
+		"nouns": [],
+		"dOIndex": 306,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 7 6. Method comparison",
+		"why": "link",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5017,
+		"nouns": [
+			"Figure",
+			"Method",
+			"comparison"
+		],
+		"dOIndex": 307,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure",
+			"Method",
+			"comparison"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5018,
+		"nouns": [],
+		"dOIndex": 308,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5019,
+		"nouns": [],
+		"dOIndex": 309,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5020,
+		"nouns": [],
+		"dOIndex": 310,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5021,
+		"nouns": [],
+		"dOIndex": 311,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 7 7. A closer look",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5022,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 312,
+		"nouns2": [
+			"Figure"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5023,
+		"nouns": [],
+		"dOIndex": 313,
+		"isQuote": false
+	},
+	{
+		"txt": "As you can see from these figures, it's impossible to discern the curves for the improved Euler and Runge Kutta methods from the exact solution because they fall almost right on top of each other. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5024,
+		"nouns": [
+			"figures",
+			"curves",
+			"Euler",
+			"Runge",
+			"Kutta",
+			"methods",
+			"solution",
+			"fall",
+			"right"
+		],
+		"dOIndex": 314,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"figures",
+			"methods",
+			"solution"
+		],
+		"sentiment": {
+			"score": 5,
+			"comparative": 0.1388888888888889,
+			"words": [
+				"top",
+				"solution",
+				"improved"
+			],
+			"positive": [
+				"top",
+				"solution",
+				"improved"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " These results clearly show the improvement in accuracy over the basic Euler method, whose curve is distinct from the other three. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5025,
+		"nouns": [
+			"results",
+			"show",
+			"improvement",
+			"accuracy",
+			"Euler",
+			"method",
+			"curve",
+			"three"
+		],
+		"dOIndex": 315,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"results",
+			"improvement",
+			"accuracy"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.13043478260869565,
+			"words": [
+				"improvement",
+				"clearly"
+			],
+			"positive": [
+				"improvement",
+				"clearly"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Over the interval from 6.5 to 8.5 seconds, the average truncation error is 1.72%, 0.03%, and 3.6×10−6 % for Euler's method, the improved Euler method, the Runge Kutta method, respectively. ",
+		"why": "split inside sentence",
+		"tags": [
+			"sup",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5026,
+		"nouns": [
+			"seconds",
+			"truncation",
+			"error",
+			"%",
+			"%",
+			"×",
+			"−",
+			"%",
+			"Euler",
+			"method",
+			"Euler",
+			"method",
+			"Runge",
+			"Kutta",
+			"method"
+		],
+		"dOIndex": 316,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"seconds",
+			"truncation"
+		],
+		"highfreq": {
+			"method": 3
+		},
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"improved",
+				"error"
+			],
+			"positive": [
+				"improved"
+			],
+			"negative": [
+				"error"
+			]
+		}
+	},
+	{
+		"txt": " It is obvious, based on these results, that for this problem, the Runge Kutta method yields substantially better results for a given step size than the other two methods. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5027,
+		"nouns": [
+			"results",
+			"problem",
+			"Runge",
+			"Kutta",
+			"method",
+			"yields",
+			"results",
+			"step",
+			"size",
+			"two",
+			"methods"
+		],
+		"dOIndex": 317,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"results",
+			"problem",
+			"methods"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.03225806451612903,
+			"words": [
+				"better",
+				"substantially",
+				"problem"
+			],
+			"positive": [
+				"better",
+				"substantially"
+			],
+			"negative": [
+				"problem"
+			]
+		}
+	},
+	{
+		"txt": " Of course, you pay for this accuracy, since you have several more computations per step in the Runge Kutta method.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5028,
+		"nouns": [
+			"course",
+			"accuracy",
+			"computations",
+			"step",
+			"Runge",
+			"Kutta",
+			"method"
+		],
+		"dOIndex": 318,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"accuracy",
+			"computations"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.047619047619047616,
+			"words": [
+				"pay"
+			],
+			"positive": [],
+			"negative": [
+				"pay"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5029,
+		"nouns": [],
+		"dOIndex": 319,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5030,
+		"nouns": [],
+		"dOIndex": 320,
+		"isQuote": false
+	},
+	{
+		"txt": "Both of these methods are generally more stable than Euler's method, which is a huge benefit in real time applications. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5031,
+		"nouns": [
+			"methods",
+			"Euler",
+			"method",
+			"benefit",
+			"time",
+			"applications"
+		],
+		"dOIndex": 321,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"methods",
+			"benefit",
+			"applications"
+		],
+		"sentiment": {
+			"score": 5,
+			"comparative": 0.23809523809523808,
+			"words": [
+				"benefit",
+				"huge",
+				"stable"
+			],
+			"positive": [
+				"benefit",
+				"huge",
+				"stable"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Recall our discussion earlier about the stability of Euler's method. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5032,
+		"nouns": [
+			"discussion",
+			"stability",
+			"Euler",
+			"method"
+		],
+		"dOIndex": 322,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Recall",
+			"discussion",
+			"stability"
+		]
+	},
+	{
+		"txt": " ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5033,
+		"nouns": [],
+		"dOIndex": 323,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 7 5",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5034,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 324,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " showed the results of applying Euler's method to an oscillating dynamical system. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5035,
+		"nouns": [
+			"results",
+			"Euler",
+			"method",
+			"system"
+		],
+		"dOIndex": 325,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"results"
+		]
+	},
+	{
+		"txt": " There, the motion results that should be sinusoidal were wildly erratic (i.e., unstable). ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5036,
+		"nouns": [
+			"motion",
+			"results",
+			"e"
+		],
+		"dOIndex": 326,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"results"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.13333333333333333,
+			"words": [
+				"unstable"
+			],
+			"positive": [],
+			"negative": [
+				"unstable"
+			]
+		}
+	},
+	{
+		"txt": " Applying the improved Euler method, or the Runge Kutta method, to the same problem yields stable results, as shown in ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5037,
+		"nouns": [
+			"Euler",
+			"method",
+			"Runge",
+			"Kutta",
+			"method",
+			"problem",
+			"yields",
+			"results"
+		],
+		"dOIndex": 327,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Applying",
+			"problem",
+			"results"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.09090909090909091,
+			"words": [
+				"stable",
+				"problem",
+				"improved"
+			],
+			"positive": [
+				"stable",
+				"improved"
+			],
+			"negative": [
+				"problem"
+			]
+		}
+	},
+	{
+		"txt": "Figure 7 8",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5038,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 328,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5039,
+		"nouns": [],
+		"dOIndex": 329,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5040,
+		"nouns": [],
+		"dOIndex": 330,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5041,
+		"nouns": [],
+		"dOIndex": 331,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5042,
+		"nouns": [],
+		"dOIndex": 332,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5043,
+		"nouns": [],
+		"dOIndex": 333,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5044,
+		"nouns": [],
+		"dOIndex": 334,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 7 8. Stable results using the improved Euler or the Runge Kutta methods",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5045,
+		"nouns": [
+			"Figure",
+			"results",
+			"Euler",
+			"Runge",
+			"Kutta",
+			"methods"
+		],
+		"dOIndex": 335,
+		"nouns2": [
+			"Figure",
+			"Stable",
+			"results",
+			"methods"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.16666666666666666,
+			"words": [
+				"improved"
+			],
+			"positive": [
+				"improved"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5046,
+		"nouns": [],
+		"dOIndex": 336,
+		"isQuote": false
+	},
+	{
+		"txt": "Here the oscillatory motion is clearly sinusoidal, as it should be. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5047,
+		"nouns": [
+			"oscillatory",
+			"motion"
+		],
+		"dOIndex": 337,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"oscillatory"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.08333333333333333,
+			"words": [
+				"clearly"
+			],
+			"positive": [
+				"clearly"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The results for this particular problem are almost identical whether you use the improved Euler method or the Runge Kutta method. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5048,
+		"nouns": [
+			"results",
+			"problem",
+			"use",
+			"Euler",
+			"method",
+			"Runge",
+			"Kutta",
+			"method"
+		],
+		"dOIndex": 338,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"results",
+			"problem"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"improved",
+				"problem"
+			],
+			"positive": [
+				"improved"
+			],
+			"negative": [
+				"problem"
+			]
+		}
+	},
+	{
+		"txt": " Since for this problem the results of both methods are virtually the same, you can save computational time and memory using the improved Euler method versus the Runge Kutta method. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5049,
+		"nouns": [
+			"problem",
+			"results",
+			"both",
+			"methods",
+			"time",
+			"memory",
+			"Euler",
+			"method",
+			"Runge",
+			"Kutta",
+			"method"
+		],
+		"dOIndex": 339,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"problem",
+			"results",
+			"methods"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.0625,
+			"words": [
+				"improved",
+				"save",
+				"problem"
+			],
+			"positive": [
+				"improved",
+				"save"
+			],
+			"negative": [
+				"problem"
+			]
+		}
+	},
+	{
+		"txt": " This can be a significant advantage for real time games. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5050,
+		"nouns": [
+			"advantage",
+			"time",
+			"games"
+		],
+		"dOIndex": 340,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"advantage"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.25,
+			"words": [
+				"advantage",
+				"significant"
+			],
+			"positive": [
+				"advantage",
+				"significant"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Remember the Runge Kutta method requires four derivative computations per time step.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5051,
+		"nouns": [
+			"Runge",
+			"Kutta",
+			"method",
+			"four",
+			"computations",
+			"time",
+			"step"
+		],
+		"dOIndex": 341,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Remember",
+			"computations"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5052,
+		"nouns": [],
+		"dOIndex": 342,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5053,
+		"nouns": [],
+		"dOIndex": 343,
+		"isQuote": false
+	},
+	{
+		"txt": "These methods aren't the only ones at your disposal, but they are the most common. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5054,
+		"nouns": [
+			"methods",
+			"aren",
+			"t",
+			"ones"
+		],
+		"dOIndex": 344,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"methods"
+		]
+	},
+	{
+		"txt": " The Runge Kutta method is particularly popular as a general purpose numerical integration scheme. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5055,
+		"nouns": [
+			"Runge",
+			"Kutta",
+			"method",
+			"purpose",
+			"integration",
+			"scheme"
+		],
+		"dOIndex": 345,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"purpose",
+			"integration"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.1875,
+			"words": [
+				"popular"
+			],
+			"positive": [
+				"popular"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Other methods attempt to improve computational efficiency even further that is, they are designed to minimize truncation error while still allowing you to take relatively large step sizes so as to reduce the number of steps you have to take in your integration. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5056,
+		"nouns": [
+			"methods",
+			"attempt",
+			"efficiency",
+			"truncation",
+			"error",
+			"step",
+			"sizes",
+			"number",
+			"steps",
+			"integration"
+		],
+		"dOIndex": 346,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"methods",
+			"attempt",
+			"efficiency",
+			"truncation",
+			"integration"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"error",
+				"improve"
+			],
+			"positive": [
+				"improve"
+			],
+			"negative": [
+				"error"
+			]
+		}
+	},
+	{
+		"txt": " Still other methods are especially tailored for specific problem types. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5057,
+		"nouns": [
+			"methods",
+			"problem",
+			"types"
+		],
+		"dOIndex": 347,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"methods",
+			"problem"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.16666666666666666,
+			"words": [
+				"problem"
+			],
+			"positive": [],
+			"negative": [
+				"problem"
+			]
+		}
+	},
+	{
+		"txt": " We cite some pretty good references for further reading on this subject in the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5058,
+		"nouns": [
+			"references",
+			"subject"
+		],
+		"dOIndex": 348,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"references",
+			"subject"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.25,
+			"words": [
+				"good",
+				"pretty"
+			],
+			"positive": [
+				"good",
+				"pretty"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5059,
+		"nouns": [],
+		"dOIndex": 349,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5060,
+		"nouns": [],
+		"dOIndex": 350,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5061,
+		"nouns": [],
+		"dOIndex": 351,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5062,
+		"nouns": [],
+		"dOIndex": 352,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5063,
+		"nouns": [],
+		"dOIndex": 353,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Bibliography .",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5064,
+		"nouns": [
+			"Bibliography"
+		],
+		"dOIndex": 354,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Bibliography"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5065,
+		"nouns": [],
+		"dOIndex": 355,
+		"isQuote": false
+	},
+	{
+		"txt": "Summary",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5066,
+		"nouns": [
+			"Summary"
+		],
+		"dOIndex": 356,
+		"nouns2": [
+			"Summary"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "At this point you should be comfortable with the terms that appear in the equations of motion and be able to calculate terms like the sum of forces and moments, mass, and inertia. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5067,
+		"nouns": [
+			"point",
+			"terms",
+			"equations",
+			"motion",
+			"terms",
+			"sum",
+			"forces",
+			"moments",
+			"mass",
+			"inertia"
+		],
+		"dOIndex": 357,
+		"nouns2": [
+			"equations",
+			"moments",
+			"inertia"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.11764705882352941,
+			"words": [
+				"like",
+				"comfortable"
+			],
+			"positive": [
+				"like",
+				"comfortable"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " You should also have a solid understanding of basic numerical integration techniques. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5068,
+		"nouns": [
+			"integration",
+			"techniques"
+		],
+		"dOIndex": 358,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"integration",
+			"techniques"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.14285714285714285,
+			"words": [
+				"solid"
+			],
+			"positive": [
+				"solid"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Implementing these techniques in code is really straightforward since they are composed of simple polynomial functions. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5069,
+		"nouns": [
+			"techniques",
+			"code",
+			"functions"
+		],
+		"dOIndex": 359,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Implementing",
+			"techniques",
+			"functions"
+		]
+	},
+	{
+		"txt": " The hard part is developing the derivative function for your problem. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5070,
+		"nouns": [
+			"part",
+			"function",
+			"problem"
+		],
+		"dOIndex": 360,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function",
+			"problem"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.23076923076923078,
+			"words": [
+				"problem",
+				"hard"
+			],
+			"positive": [],
+			"negative": [
+				"problem",
+				"hard"
+			]
+		}
+	},
+	{
+		"txt": " In the case of the equations of motion, the derivative function will include all your force and moment calculations for the particle or rigid body that you are modeling. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5071,
+		"nouns": [
+			"case",
+			"equations",
+			"motion",
+			"function",
+			"force",
+			"moment",
+			"calculations",
+			"particle",
+			"body"
+		],
+		"dOIndex": 361,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equations",
+			"function",
+			"calculations",
+			"particle"
+		]
+	},
+	{
+		"txt": " You'll see some more numerical integration ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5072,
+		"nouns": [
+			"ll",
+			"integration"
+		],
+		"dOIndex": 362,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"integration"
+		]
+	},
+	{
+		"txt": "code when you get to ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5073,
+		"nouns": [
+			"code"
+		],
+		"dOIndex": 363,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5074,
+		"nouns": [],
+		"dOIndex": 364,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 8, ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5075,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 365,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": "Chapter 9, and ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5076,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 366,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5077,
+		"nouns": [],
+		"dOIndex": 367,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 11 .",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5078,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 368,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5079,
+		"nouns": [],
+		"dOIndex": 369,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 5080,
+		"nouns": [],
+		"dOIndex": 370,
+		"isQuote": false
+	},
+	{
+		"txt": "[",
+		"why": "link",
+		"tags": [
+			"sup",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5081,
+		"nouns": [],
+		"dOIndex": 371,
+		"isQuote": false
+	},
+	{
+		"txt": "17] In mathematics, this sort of problem is termed an initial value problem",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5082,
+		"nouns": [
+			"mathematics",
+			"sort",
+			"problem",
+			"value",
+			"problem"
+		],
+		"dOIndex": 372,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"mathematics",
+			"problem"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.3076923076923077,
+			"words": [
+				"problem",
+				"problem"
+			],
+			"positive": [],
+			"negative": [
+				"problem",
+				"problem"
+			]
+		}
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5083,
+		"nouns": [],
+		"dOIndex": 373,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5084,
+		"nouns": [],
+		"dOIndex": 374,
+		"isQuote": false
+	},
+	{
+		"txt": "[",
+		"why": "link",
+		"tags": [
+			"sup",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5085,
+		"nouns": [],
+		"dOIndex": 375
+	},
+	{
+		"txt": "18] ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"sup",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5086,
+		"nouns": [],
+		"dOIndex": 376
+	},
+	{
+		"txt": "Even though we're talking about velocity and time here, these techniques apply to any function for example, displacement versus time, etc.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5087,
+		"nouns": [
+			"re",
+			"velocity",
+			"time",
+			"techniques",
+			"function",
+			"example",
+			"displacement",
+			"time"
+		],
+		"dOIndex": 377,
+		"nouns2": [
+			"velocity",
+			"techniques",
+			"function",
+			"example",
+			"displacement"
+		]
+	}
+]

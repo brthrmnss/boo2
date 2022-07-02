@@ -1,0 +1,8272 @@
+[
+	{
+		"txt": "",
+		"why": "br tag like",
+		"sentenceIndex": 11017,
+		"nouns": [],
+		"dOIndex": 0,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 20. Touch Screens",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11018,
+		"nouns": [
+			"Chapter",
+			"Touch",
+			"Screens"
+		],
+		"dOIndex": 1,
+		"nouns2": [
+			"Chapter",
+			"Screens"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "It is hard to deny that we are ",
+		"why": "link",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 11019,
+		"nouns": [],
+		"dOIndex": 2,
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.3333333333333333,
+			"words": [
+				"deny",
+				"hard"
+			],
+			"positive": [],
+			"negative": [
+				"deny",
+				"hard"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "currently moving toward a post PC computing environment. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11020,
+		"nouns": [
+			"post",
+			"PC",
+			"environment"
+		],
+		"dOIndex": 3,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"environment"
+		]
+	},
+	{
+		"txt": " The proliferation of smartphones, tablets, and other mobile computing platforms will have far reaching implications for how people interact with computers. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11021,
+		"nouns": [
+			"proliferation",
+			"smartphones",
+			"tablets",
+			"platforms",
+			"implications",
+			"people",
+			"computers"
+		],
+		"dOIndex": 4,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"proliferation",
+			"smartphones",
+			"tablets",
+			"platforms",
+			"implications",
+			"computers"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.043478260869565216,
+			"words": [
+				"reaching"
+			],
+			"positive": [
+				"reaching"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " These form factors do not allow for the more traditional mouse and keyboard of input for games and therefore rely heavily on the use of touch screens. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11022,
+		"nouns": [
+			"form",
+			"factors",
+			"mouse",
+			"keyboard",
+			"input",
+			"games",
+			"use",
+			"touch",
+			"screens"
+		],
+		"dOIndex": 5,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"factors",
+			"keyboard",
+			"screens"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.034482758620689655,
+			"words": [
+				"allow"
+			],
+			"positive": [],
+			"negative": [
+				"allow"
+			]
+		}
+	},
+	{
+		"txt": " This chapter aims to give you some background on the different types of touch screens, how they work, and their technical limitations. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11023,
+		"nouns": [
+			"chapter",
+			"background",
+			"types",
+			"touch",
+			"screens",
+			"work",
+			"limitations"
+		],
+		"dOIndex": 6,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"chapter",
+			"background",
+			"screens",
+			"limitations"
+		]
+	},
+	{
+		"txt": " Note that we will extend our particle simulator to work with the iPhone's capacitive touch screen; the final product is very similar to the mouse driven version but provides a starting point for a touch driven physics simulator.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11024,
+		"nouns": [
+			"particle",
+			"simulator",
+			"work",
+			"iPhone",
+			"capacitive",
+			"touch",
+			"screen",
+			"product",
+			"mouse",
+			"version",
+			"point",
+			"touch",
+			"physics",
+			"simulator"
+		],
+		"dOIndex": 7,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"particle",
+			"simulator",
+			"capacitive",
+			"product",
+			"version",
+			"physics"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.02564102564102564,
+			"words": [
+				"extend"
+			],
+			"positive": [
+				"extend"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 11025,
+		"nouns": [],
+		"dOIndex": 8,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11026,
+		"nouns": [],
+		"dOIndex": 9,
+		"isQuote": false
+	},
+	{
+		"txt": "While this chapter will primarily deal with the most two most common types of touch sensitive screens, resistive and capacitive , the following section gives an overview of many different types. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 11027,
+		"nouns": [
+			"chapter",
+			"two",
+			"types",
+			"touch",
+			"screens",
+			"capacitive",
+			"section",
+			"overview",
+			"types"
+		],
+		"dOIndex": 10,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"chapter",
+			"screens",
+			"capacitive",
+			"section",
+			"overview"
+		]
+	},
+	{
+		"txt": " In the future we may see a move to more exotic devices, especially for large format computing devices.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11028,
+		"nouns": [
+			"future",
+			"move",
+			"devices",
+			"format",
+			"devices"
+		],
+		"dOIndex": 11,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"devices"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 11029,
+		"nouns": [],
+		"dOIndex": 12,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11030,
+		"nouns": [],
+		"dOIndex": 13,
+		"isQuote": false
+	},
+	{
+		"txt": "Types of Touch Screens",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11031,
+		"nouns": [
+			"Types",
+			"Touch",
+			"Screens"
+		],
+		"dOIndex": 14,
+		"nouns2": [
+			"Screens"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11032,
+		"nouns": [],
+		"dOIndex": 15,
+		"isQuote": false
+	},
+	{
+		"txt": "Resistive",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11033,
+		"nouns": [],
+		"dOIndex": 16,
+		"nouns2": [
+			"Resistive"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11034,
+		"nouns": [],
+		"dOIndex": 17,
+		"isQuote": false
+	},
+	{
+		"txt": "Resistive ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11035,
+		"nouns": [],
+		"dOIndex": 18,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Resistive"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11036,
+		"nouns": [],
+		"dOIndex": 19,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "touch screens are basically a giant network of tiny buttons. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11037,
+		"nouns": [
+			"touch",
+			"screens",
+			"giant",
+			"network",
+			"buttons"
+		],
+		"dOIndex": 20,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"screens",
+			"network",
+			"buttons"
+		]
+	},
+	{
+		"txt": " Some of them have 4,096 × 4,096 buttons in a single square inch! ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11038,
+		"nouns": [
+			"×",
+			"buttons",
+			"square",
+			"inch"
+		],
+		"dOIndex": 21,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"buttons"
+		]
+	},
+	{
+		"txt": " OK, so they are not quite just normal buttons, but they come close. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11039,
+		"nouns": [
+			"buttons"
+		],
+		"dOIndex": 22,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"buttons"
+		]
+	},
+	{
+		"txt": " Resistive touch screens have at least two layers of conductors with an air gap between them. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11040,
+		"nouns": [
+			"touch",
+			"screens",
+			"two",
+			"layers",
+			"conductors",
+			"air",
+			"gap"
+		],
+		"dOIndex": 23,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Resistive",
+			"screens",
+			"conductors"
+		]
+	},
+	{
+		"txt": " As you press on the screen, you close the gap. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11041,
+		"nouns": [
+			"press",
+			"screen",
+			"gap"
+		],
+		"dOIndex": 24,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Bam, circuit complete, button pressed. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11042,
+		"nouns": [
+			"circuit",
+			"button"
+		],
+		"dOIndex": 25,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"circuit"
+		]
+	},
+	{
+		"txt": " We will flesh out that simplified description shortly.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11043,
+		"nouns": [
+			"flesh",
+			"description"
+		],
+		"dOIndex": 26,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"description"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11044,
+		"nouns": [],
+		"dOIndex": 27,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11045,
+		"nouns": [],
+		"dOIndex": 28,
+		"isQuote": false
+	},
+	{
+		"txt": "Capacitive",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11046,
+		"nouns": [
+			"Capacitive"
+		],
+		"dOIndex": 29,
+		"nouns2": [
+			"Capacitive"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11047,
+		"nouns": [],
+		"dOIndex": 30,
+		"isQuote": false
+	},
+	{
+		"txt": "Also a topic we'll ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11048,
+		"nouns": [
+			"topic",
+			"ll"
+		],
+		"dOIndex": 31,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "soon discuss in detail, capacitive touch screens are very common on today's smartphones. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11049,
+		"nouns": [
+			"detail",
+			"capacitive",
+			"touch",
+			"screens",
+			"today",
+			"smartphones"
+		],
+		"dOIndex": 32,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"capacitive",
+			"screens",
+			"smartphones"
+		]
+	},
+	{
+		"txt": " These touch screens operate by calculating the change in electrical capacitance at the four corners of the screen when your finger influences the capacitive nature of the circuits under the glass. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11050,
+		"nouns": [
+			"touch",
+			"screens",
+			"change",
+			"capacitance",
+			"four",
+			"corners",
+			"screen",
+			"finger",
+			"influences",
+			"capacitive",
+			"nature",
+			"circuits",
+			"glass"
+		],
+		"dOIndex": 33,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"screens",
+			"capacitance",
+			"corners",
+			"influences",
+			"capacitive",
+			"circuits"
+		]
+	},
+	{
+		"txt": " The limitation is that whatever touches the screen must be electrically conductive. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11051,
+		"nouns": [
+			"limitation",
+			"touches",
+			"screen",
+			"conductive"
+		],
+		"dOIndex": 34,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"limitation",
+			"touches",
+			"conductive"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.07142857142857142,
+			"words": [
+				"limitation"
+			],
+			"positive": [],
+			"negative": [
+				"limitation"
+			]
+		}
+	},
+	{
+		"txt": " If you insulate your fingers with gloves, the screen will no longer be able to locate your touch. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11052,
+		"nouns": [
+			"fingers",
+			"gloves",
+			"screen",
+			"touch"
+		],
+		"dOIndex": 35,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"fingers"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.05,
+			"words": [
+				"no"
+			],
+			"positive": [],
+			"negative": [
+				"no"
+			]
+		}
+	},
+	{
+		"txt": " However, this can be solved with a few stitches of conductive thread.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11053,
+		"nouns": [
+			"stitches",
+			"conductive",
+			"thread"
+		],
+		"dOIndex": 36,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"stitches",
+			"conductive"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.07692307692307693,
+			"words": [
+				"solved"
+			],
+			"positive": [
+				"solved"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11054,
+		"nouns": [],
+		"dOIndex": 37,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11055,
+		"nouns": [],
+		"dOIndex": 38,
+		"isQuote": false
+	},
+	{
+		"txt": "Infrared and Optical Imaging",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11056,
+		"nouns": [],
+		"dOIndex": 39,
+		"nouns2": [
+			"Infrared",
+			"Optical",
+			"Imaging"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11057,
+		"nouns": [],
+		"dOIndex": 40,
+		"isQuote": false
+	},
+	{
+		"txt": "Infrared touch ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11058,
+		"nouns": [
+			"touch"
+		],
+		"dOIndex": 41,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Infrared"
+		]
+	},
+	{
+		"txt": "screens use arrays of infrared ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11059,
+		"nouns": [
+			"screens",
+			"use",
+			"arrays"
+		],
+		"dOIndex": 42,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"screens"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11060,
+		"nouns": [],
+		"dOIndex": 43,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "LED ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11061,
+		"nouns": [],
+		"dOIndex": 44,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "and photodetectors to detect and interpret an object breaking the path of a LED photodetector pair. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11062,
+		"nouns": [
+			"photodetectors",
+			"object",
+			"path",
+			"photodetector",
+			"pair"
+		],
+		"dOIndex": 45,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"photodetectors",
+			"photodetector"
+		]
+	},
+	{
+		"txt": " This uses line scanning techniques and is a very robust design.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11063,
+		"nouns": [
+			"line",
+			"techniques",
+			"design"
+		],
+		"dOIndex": 46,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"techniques"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.16666666666666666,
+			"words": [
+				"robust"
+			],
+			"positive": [
+				"robust"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11064,
+		"nouns": [],
+		"dOIndex": 47,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11065,
+		"nouns": [],
+		"dOIndex": 48,
+		"isQuote": false
+	},
+	{
+		"txt": "Optical imaging ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11066,
+		"nouns": [],
+		"dOIndex": 49,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Optical"
+		]
+	},
+	{
+		"txt": "techniques are relative newcomers to the touch screen scene whose big advantage is that they are extremely scalable. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11067,
+		"nouns": [
+			"techniques",
+			"newcomers",
+			"touch",
+			"screen",
+			"scene",
+			"advantage",
+			"scalable"
+		],
+		"dOIndex": 50,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"techniques",
+			"newcomers",
+			"advantage",
+			"scalable"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.15789473684210525,
+			"words": [
+				"advantage",
+				"big"
+			],
+			"positive": [
+				"advantage",
+				"big"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " They use imaging devices and light sources to detect where the screen is being touched by interpreting any shadows cast by an object through the thickness of the material.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11068,
+		"nouns": [
+			"use",
+			"devices",
+			"light",
+			"sources",
+			"screen",
+			"shadows",
+			"cast",
+			"object",
+			"thickness"
+		],
+		"dOIndex": 51,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"devices",
+			"sources",
+			"shadows",
+			"thickness"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11069,
+		"nouns": [],
+		"dOIndex": 52,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11070,
+		"nouns": [],
+		"dOIndex": 53,
+		"isQuote": false
+	},
+	{
+		"txt": "Exotic: Dispersive Signal and Surface Acoustic Wave",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11071,
+		"nouns": [
+			"Dispersive",
+			"Surface Acoustic",
+			"Wave"
+		],
+		"dOIndex": 54,
+		"nouns2": [
+			"Exotic",
+			"Dispersive",
+			"Signal",
+			"Surface",
+			"Acoustic"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11072,
+		"nouns": [],
+		"dOIndex": 55,
+		"isQuote": false
+	},
+	{
+		"txt": "Several other ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11073,
+		"nouns": [],
+		"dOIndex": 56,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Several"
+		]
+	},
+	{
+		"txt": "exotic touch screen technologies exist. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11074,
+		"nouns": [
+			"touch",
+			"screen",
+			"technologies"
+		],
+		"dOIndex": 57,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"technologies"
+		]
+	},
+	{
+		"txt": " We won't get into detail here, but 3M has a system that detects ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11075,
+		"nouns": [
+			"t",
+			"detail",
+			"M",
+			"system"
+		],
+		"dOIndex": 58,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "mechanical energy in glass caused by a touch. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11076,
+		"nouns": [
+			"energy",
+			"glass",
+			"touch"
+		],
+		"dOIndex": 59,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " The amount of ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11077,
+		"nouns": [
+			"amount"
+		],
+		"dOIndex": 60,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "vibration energy that reaches each sensor determines the position.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11078,
+		"nouns": [
+			"vibration",
+			"energy",
+			"sensor",
+			"position"
+		],
+		"dOIndex": 61,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"vibration",
+			"position"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.1111111111111111,
+			"words": [
+				"reaches"
+			],
+			"positive": [
+				"reaches"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11079,
+		"nouns": [],
+		"dOIndex": 62,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11080,
+		"nouns": [],
+		"dOIndex": 63,
+		"isQuote": false
+	},
+	{
+		"txt": "Another example of exotic screen input, ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11081,
+		"nouns": [
+			"example",
+			"screen",
+			"input"
+		],
+		"dOIndex": 64,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Another",
+			"example"
+		]
+	},
+	{
+		"txt": "surface acoustic wave technology detects changes in the pattern of ultrasonic waves traveling along the surface of the screen.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11082,
+		"nouns": [
+			"surface",
+			"wave",
+			"technology",
+			"changes",
+			"pattern",
+			"waves",
+			"surface",
+			"screen"
+		],
+		"dOIndex": 65,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"surface",
+			"technology",
+			"changes",
+			"pattern"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11083,
+		"nouns": [],
+		"dOIndex": 66,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11084,
+		"nouns": [],
+		"dOIndex": 67,
+		"isQuote": false
+	},
+	{
+		"txt": "Step by Step Physics",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11085,
+		"nouns": [
+			"Step",
+			"Step Physics"
+		],
+		"dOIndex": 68,
+		"nouns2": [
+			"Physics"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11086,
+		"nouns": [],
+		"dOIndex": 69,
+		"isQuote": false
+	},
+	{
+		"txt": "Resistive Touch Screens",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11087,
+		"nouns": [
+			"Touch",
+			"Screens"
+		],
+		"dOIndex": 70,
+		"nouns2": [
+			"Resistive",
+			"Screens"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11088,
+		"nouns": [],
+		"dOIndex": 71,
+		"isQuote": false
+	},
+	{
+		"txt": "Resistive touch screens ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11089,
+		"nouns": [
+			"touch",
+			"screens"
+		],
+		"dOIndex": 72,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Resistive",
+			"screens"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11090,
+		"nouns": [],
+		"dOIndex": 73,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "are classified as a passive touch screen technology because the screen registers a touch without any active participation by the object touching the screen. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11091,
+		"nouns": [
+			"touch",
+			"screen",
+			"technology",
+			"screen",
+			"registers",
+			"touch",
+			"participation",
+			"object",
+			"screen"
+		],
+		"dOIndex": 74,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"technology",
+			"registers",
+			"participation"
+		],
+		"highfreq": {
+			"screen": 3
+		},
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"active",
+				"passive"
+			],
+			"positive": [
+				"active"
+			],
+			"negative": [
+				"passive"
+			]
+		}
+	},
+	{
+		"txt": " This is their major benefit over active technologies, such as capacitive touch screens, as resistive screens can be activated by nonconductive objects like a pen or gloved finger. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11092,
+		"nouns": [
+			"benefit",
+			"technologies",
+			"capacitive",
+			"touch",
+			"screens",
+			"screens",
+			"nonconductive",
+			"objects",
+			"pen",
+			"finger"
+		],
+		"dOIndex": 75,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"benefit",
+			"technologies",
+			"capacitive",
+			"screens",
+			"nonconductive",
+			"objects"
+		],
+		"sentiment": {
+			"score": 5,
+			"comparative": 0.16666666666666666,
+			"words": [
+				"like",
+				"active",
+				"benefit"
+			],
+			"positive": [
+				"like",
+				"active",
+				"benefit"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " In the past, resistive screens were limited to a single input, and that's the type we'll describe, but they can be made to work with two or more simultaneous inputs, also known as multitouch.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11093,
+		"nouns": [
+			"screens",
+			"input",
+			"type",
+			"ll",
+			"work",
+			"two",
+			"inputs",
+			"multitouch"
+		],
+		"dOIndex": 76,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"screens",
+			"multitouch"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.02857142857142857,
+			"words": [
+				"limited"
+			],
+			"positive": [],
+			"negative": [
+				"limited"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11094,
+		"nouns": [],
+		"dOIndex": 77,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11095,
+		"nouns": [],
+		"dOIndex": 78,
+		"isQuote": false
+	},
+	{
+		"txt": "One dimensional resistive touch sensor",
+		"why": "p",
+		"tags": [
+			"a",
+			"h4",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11096,
+		"nouns": [
+			"One",
+			"touch",
+			"sensor"
+		],
+		"dOIndex": 79,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11097,
+		"nouns": [],
+		"dOIndex": 80,
+		"isQuote": false
+	},
+	{
+		"txt": "To ease ourselves into this discussion, we will begin by looking at a one dimensional touch screen. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11098,
+		"nouns": [
+			"discussion",
+			"one",
+			"touch",
+			"screen"
+		],
+		"dOIndex": 81,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"discussion"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.1111111111111111,
+			"words": [
+				"ease"
+			],
+			"positive": [
+				"ease"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Let's imagine we have built the machine described in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11099,
+		"nouns": [
+			"machine"
+		],
+		"dOIndex": 82,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"machine"
+		]
+	},
+	{
+		"txt": "Figure 20 1",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11100,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 83,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11101,
+		"nouns": [],
+		"dOIndex": 84,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11102,
+		"nouns": [],
+		"dOIndex": 85,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11103,
+		"nouns": [],
+		"dOIndex": 86,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11104,
+		"nouns": [],
+		"dOIndex": 87,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11105,
+		"nouns": [],
+		"dOIndex": 88,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11106,
+		"nouns": [],
+		"dOIndex": 89,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 20 1. Linear resistive touch sensor",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11107,
+		"nouns": [
+			"Figure",
+			"Linear",
+			"touch",
+			"sensor"
+		],
+		"dOIndex": 90,
+		"nouns2": [
+			"Figure",
+			"Linear"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11108,
+		"nouns": [],
+		"dOIndex": 91,
+		"isQuote": false
+	},
+	{
+		"txt": "As you can see, our sensor has two states, an open circuit state and a closed circuit state . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11109,
+		"nouns": [
+			"sensor",
+			"two",
+			"states",
+			"circuit",
+			"state",
+			"circuit",
+			"state"
+		],
+		"dOIndex": 92,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"circuit"
+		]
+	},
+	{
+		"txt": " In the open circuit state, the controller is supplying a 5V signal to pin 2 and waiting for any return voltage on pin 1. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11110,
+		"nouns": [
+			"circuit",
+			"state",
+			"controller",
+			"V",
+			"pin",
+			"return",
+			"voltage",
+			"pin"
+		],
+		"dOIndex": 93,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"circuit",
+			"controller",
+			"voltage"
+		]
+	},
+	{
+		"txt": " With no touch to bring the wires together, the circuit is open. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11111,
+		"nouns": [
+			"touch",
+			"wires",
+			"circuit"
+		],
+		"dOIndex": 94,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"circuit"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.07142857142857142,
+			"words": [
+				"no"
+			],
+			"positive": [],
+			"negative": [
+				"no"
+			]
+		}
+	},
+	{
+		"txt": " No voltage is present at pin 1, and therefore no touch is sensed. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11112,
+		"nouns": [
+			"voltage",
+			"pin",
+			"touch"
+		],
+		"dOIndex": 95,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"voltage"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.13333333333333333,
+			"words": [
+				"no",
+				"no"
+			],
+			"positive": [],
+			"negative": [
+				"no",
+				"no"
+			]
+		}
+	},
+	{
+		"txt": " When the wires are touched, they are brought together and the circuit is closed. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11113,
+		"nouns": [
+			"wires",
+			"circuit"
+		],
+		"dOIndex": 96,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"circuit"
+		]
+	},
+	{
+		"txt": " A voltage will then be present at pin 1. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11114,
+		"nouns": [
+			"voltage",
+			"pin"
+		],
+		"dOIndex": 97,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"voltage"
+		]
+	},
+	{
+		"txt": " A touch event is registered.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11115,
+		"nouns": [
+			"touch",
+			"event"
+		],
+		"dOIndex": 98,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11116,
+		"nouns": [],
+		"dOIndex": 99,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11117,
+		"nouns": [],
+		"dOIndex": 100,
+		"isQuote": false
+	},
+	{
+		"txt": "This type of sensor, which looks only for the presence or absence of voltage without regard to its value, is called a digital sensor . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11118,
+		"nouns": [
+			"type",
+			"sensor",
+			"presence",
+			"absence",
+			"voltage",
+			"regard",
+			"value",
+			"sensor"
+		],
+		"dOIndex": 101,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"presence",
+			"absence",
+			"voltage"
+		]
+	},
+	{
+		"txt": " It can detect only two states: on or off (1 or 0, respectively). ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11119,
+		"nouns": [
+			"two",
+			"states"
+		],
+		"dOIndex": 102,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " OK, so it's not quite a touch screen yet; essentially at this point all we have is a simple button. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11120,
+		"nouns": [
+			"touch",
+			"screen",
+			"point",
+			"button"
+		],
+		"dOIndex": 103,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Moving forward, let's say that we not only want to trigger an event when we press our button, but we also want to simultaneously input a value based on the location along the wire, L , that we pressed.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11121,
+		"nouns": [
+			"event",
+			"press",
+			"button",
+			"input",
+			"value",
+			"location",
+			"wire",
+			"L"
+		],
+		"dOIndex": 104,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Moving",
+			"location"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.05,
+			"words": [
+				"want",
+				"want"
+			],
+			"positive": [
+				"want",
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11122,
+		"nouns": [],
+		"dOIndex": 105,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11123,
+		"nouns": [],
+		"dOIndex": 106,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": true,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "To accomplish this, the controller patiently waits for a voltage at pin 1. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11124,
+		"nouns": [
+			"controller",
+			"voltage",
+			"pin"
+		],
+		"dOIndex": 107,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"controller",
+			"voltage",
+			"pin"
+		],
+		"nouns2": [
+			"controller",
+			"voltage"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.14285714285714285,
+			"words": [
+				"accomplish"
+			],
+			"positive": [
+				"accomplish"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " When it senses a voltage, that digital ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11125,
+		"nouns": [
+			"senses",
+			"voltage"
+		],
+		"dOIndex": 108,
+		"ignoreDOBcNoQuotes": false,
+		"isQuote": false,
+		"nounsProcAll": [
+			"senses",
+			"voltage"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"voltage"
+		]
+	},
+	{
+		"txt": " \"on\" ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11126,
+		"nouns": [],
+		"dOIndex": 109,
+		"isQuote": true,
+		"nounsProcAll": [],
+		"sfxfx": [],
+		"gspkNameUnknown": "narrator"
+	},
+	{
+		"txt": " switch causes the controller to then probe the voltage that is present, which we have labeled VX . ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11127,
+		"nouns": [
+			"switch",
+			"causes",
+			"controller",
+			"probe",
+			"voltage",
+			"VX"
+		],
+		"dOIndex": 110,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [
+			"switch",
+			"causes",
+			"controller",
+			"probe",
+			"voltage",
+			"VX"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"controller",
+			"voltage"
+		]
+	},
+	{
+		"txt": " Now we get to the reason it is called a resistive touch sensor. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11128,
+		"nouns": [
+			"reason",
+			"touch",
+			"sensor"
+		],
+		"dOIndex": 111,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"reason",
+			"touch",
+			"sensor"
+		]
+	},
+	{
+		"txt": " Current, voltage, and resistance are all interrelated by Ohm's law. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11129,
+		"nouns": [
+			"voltage",
+			"resistance",
+			"Ohm",
+			"law"
+		],
+		"dOIndex": 112,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"voltage",
+			"resistance",
+			"Ohm",
+			"law"
+		],
+		"nouns2": [
+			"Current",
+			"voltage",
+			"resistance"
+		]
+	},
+	{
+		"txt": " This physical relationship is expressed as:V = IR",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11130,
+		"nouns": [
+			"relationship",
+			"V",
+			"IR"
+		],
+		"dOIndex": 113,
+		"nouns2": [
+			"relationship"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11131,
+		"nouns": [],
+		"dOIndex": 114,
+		"isQuote": false
+	},
+	{
+		"txt": "Where V is voltage, I is current, and R is resistance. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11132,
+		"nouns": [
+			"V",
+			"voltage",
+			"R",
+			"resistance"
+		],
+		"dOIndex": 115,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"voltage",
+			"resistance"
+		]
+	},
+	{
+		"txt": " The exact physical meaning of each of these is less important right now than how they are related, so don't get too worried if you can't recall their definitions. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11133,
+		"nouns": [
+			"right",
+			"t",
+			"t",
+			"definitions"
+		],
+		"dOIndex": 116,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"definitions"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.03225806451612903,
+			"words": [
+				"worried",
+				"important"
+			],
+			"positive": [
+				"important"
+			],
+			"negative": [
+				"worried"
+			]
+		}
+	},
+	{
+		"txt": " In the case of our circuit, I , or current, is going to be constant. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11134,
+		"nouns": [
+			"case",
+			"circuit"
+		],
+		"dOIndex": 117,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"circuit"
+		]
+	},
+	{
+		"txt": " As the controller measures the voltage, V, at pin 1, we can now solve for resistance:R = V/I",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11135,
+		"nouns": [
+			"controller",
+			"measures",
+			"voltage",
+			"V",
+			"pin",
+			"resistance",
+			"R",
+			"V",
+			"/"
+		],
+		"dOIndex": 118,
+		"nouns2": [
+			"controller",
+			"measures",
+			"voltage",
+			"resistance"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.05263157894736842,
+			"words": [
+				"solve"
+			],
+			"positive": [
+				"solve"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11136,
+		"nouns": [],
+		"dOIndex": 119,
+		"isQuote": false
+	},
+	{
+		"txt": "With our constant current, I, and our known voltage, VX, we can calculate the resistance of the circuit by inputting (5 – VX) for V as follows:R = (5 – VX) / I (1)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11137,
+		"nouns": [
+			"voltage",
+			"VX",
+			"resistance",
+			"circuit",
+			"–",
+			"VX",
+			"V",
+			"R",
+			"–",
+			"VX",
+			"/"
+		],
+		"dOIndex": 120,
+		"nouns2": [
+			"voltage",
+			"resistance",
+			"circuit"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11138,
+		"nouns": [],
+		"dOIndex": 121,
+		"isQuote": false
+	},
+	{
+		"txt": "Note that we have to have the change in voltage across our resistor (the wire), so be sure to use the difference between the two values. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11139,
+		"nouns": [
+			"change",
+			"voltage",
+			"resistor",
+			"wire",
+			"use",
+			"difference",
+			"two",
+			"values"
+		],
+		"dOIndex": 122,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"voltage",
+			"resistor",
+			"difference"
+		]
+	},
+	{
+		"txt": " Every conductor has an inherent internal resistance, and through testing we can determine what the resistance is, measured in ohms per unit length, and use that to determine our total resistance described by:R = 2rL",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11140,
+		"nouns": [
+			"conductor",
+			"resistance",
+			"resistance",
+			"ohms",
+			"unit",
+			"length",
+			"use",
+			"resistance",
+			"R",
+			"rL"
+		],
+		"dOIndex": 123,
+		"nouns2": [
+			"conductor",
+			"resistance"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11141,
+		"nouns": [],
+		"dOIndex": 124,
+		"isQuote": false
+	},
+	{
+		"txt": "where r is the aforementioned ohms per unit length and R is the total resistance of our circuit. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11142,
+		"nouns": [
+			"r",
+			"ohms",
+			"unit",
+			"length",
+			"R",
+			"resistance",
+			"circuit"
+		],
+		"dOIndex": 125,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"resistance",
+			"circuit"
+		]
+	},
+	{
+		"txt": " Note that we have multiplied L by 2 to account for both the wire run to the point of contact and back. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11143,
+		"nouns": [
+			"L",
+			"account",
+			"both",
+			"wire",
+			"point",
+			"contact"
+		],
+		"dOIndex": 126,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"account",
+			"contact"
+		]
+	},
+	{
+		"txt": " If we substitute this for R in our earlier equation, we now have:2rL = (5 – VX) / I",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11144,
+		"nouns": [
+			"substitute",
+			"R",
+			"equation",
+			"rL",
+			"–",
+			"VX",
+			"/"
+		],
+		"dOIndex": 127,
+		"nouns2": [
+			"substitute",
+			"equation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11145,
+		"nouns": [],
+		"dOIndex": 128,
+		"isQuote": false
+	},
+	{
+		"txt": "And finally:L = (5 – VX) / (2rI)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11146,
+		"nouns": [
+			"L",
+			"–",
+			"VX",
+			"/",
+			"rI"
+		],
+		"dOIndex": 129,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11147,
+		"nouns": [],
+		"dOIndex": 130,
+		"isQuote": false
+	},
+	{
+		"txt": "where L is the only unknown. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11148,
+		"nouns": [
+			"L"
+		],
+		"dOIndex": 131,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " To illustrate, let us assume the measured voltage is 4.95V and the wires are 24 gauge copper wires. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11149,
+		"nouns": [
+			"voltage",
+			"V",
+			"wires",
+			"gauge",
+			"copper",
+			"wires"
+		],
+		"dOIndex": 132,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"voltage"
+		]
+	},
+	{
+		"txt": " A quick look in a standard electrical engineering book gives the resistance as 0.08422 ohms per meter. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11150,
+		"nouns": [
+			"book",
+			"resistance",
+			"ohms",
+			"meter"
+		],
+		"dOIndex": 133,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"resistance"
+		]
+	},
+	{
+		"txt": " When we designed our constant current source, let's say we picked 50 milliamps:link https:L = 5.9 meters from the controller",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11151,
+		"nouns": [
+			"source",
+			"milliamps",
+			"link",
+			"https",
+			"L",
+			"meters",
+			"controller"
+		],
+		"dOIndex": 134,
+		"nouns2": [
+			"milliamps",
+			"controller"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11152,
+		"nouns": [],
+		"dOIndex": 135,
+		"isQuote": false
+	},
+	{
+		"txt": "As you can see, the material's resistance per meter, the constant current supplied, and the sensitivity of the voltage sensing circuit must all be finely tuned to ensure that the controller is capable of sensing touch events in the appropriate dimensions. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11153,
+		"nouns": [
+			"resistance",
+			"meter",
+			"sensitivity",
+			"voltage",
+			"circuit",
+			"be",
+			"controller",
+			"touch",
+			"events",
+			"dimensions"
+		],
+		"dOIndex": 136,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"resistance",
+			"sensitivity",
+			"voltage",
+			"circuit",
+			"controller",
+			"dimensions"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.09523809523809523,
+			"words": [
+				"appropriate",
+				"capable",
+				"ensure"
+			],
+			"positive": [
+				"appropriate",
+				"capable",
+				"ensure"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " In a resistive touch screen, the wires are microscopic so that the resistance per meter is much higher. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11154,
+		"nouns": [
+			"touch",
+			"screen",
+			"wires",
+			"resistance",
+			"meter"
+		],
+		"dOIndex": 137,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"resistance"
+		]
+	},
+	{
+		"txt": " This allows the screen to detect smaller distances.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11155,
+		"nouns": [
+			"screen",
+			"distances"
+		],
+		"dOIndex": 138,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distances"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11156,
+		"nouns": [],
+		"dOIndex": 139,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11157,
+		"nouns": [],
+		"dOIndex": 140,
+		"isQuote": false
+	},
+	{
+		"txt": "Four wire resistive touch screen",
+		"why": "p",
+		"tags": [
+			"a",
+			"h4",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11158,
+		"nouns": [
+			"Four",
+			"wire",
+			"touch",
+			"screen"
+		],
+		"dOIndex": 141,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11159,
+		"nouns": [],
+		"dOIndex": 142,
+		"isQuote": false
+	},
+	{
+		"txt": "With some modification, we can expand our previous model to two dimensions. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11160,
+		"nouns": [
+			"modification",
+			"model",
+			"two",
+			"dimensions"
+		],
+		"dOIndex": 143,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"modification",
+			"dimensions"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.07692307692307693,
+			"words": [
+				"expand"
+			],
+			"positive": [
+				"expand"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " In the four wire touch screen, there are four basic layers and four wires, three of which will be used at any given time. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11161,
+		"nouns": [
+			"four",
+			"wire",
+			"touch",
+			"screen",
+			"four",
+			"layers",
+			"four",
+			"wires",
+			"three",
+			"time"
+		],
+		"dOIndex": 144,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"highfreq": {
+			"four": 3
+		}
+	},
+	{
+		"txt": " The general layout is given in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11162,
+		"nouns": [
+			"layout"
+		],
+		"dOIndex": 145,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 20 2",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11163,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 146,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11164,
+		"nouns": [],
+		"dOIndex": 147,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " The squares containing the X and Y wires would actually be overlapped but are shown skewed here for clarity.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11165,
+		"nouns": [
+			"squares",
+			"X",
+			"Y",
+			"wires",
+			"clarity"
+		],
+		"dOIndex": 148,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"squares",
+			"clarity"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.1,
+			"words": [
+				"clarity"
+			],
+			"positive": [
+				"clarity"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11166,
+		"nouns": [],
+		"dOIndex": 149,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11167,
+		"nouns": [],
+		"dOIndex": 150,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11168,
+		"nouns": [],
+		"dOIndex": 151,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11169,
+		"nouns": [],
+		"dOIndex": 152,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11170,
+		"nouns": [],
+		"dOIndex": 153,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 20 2. Four wire touch screen",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11171,
+		"nouns": [
+			"Figure",
+			"Four",
+			"wire",
+			"touch",
+			"screen"
+		],
+		"dOIndex": 154,
+		"nouns2": [
+			"Figure"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11172,
+		"nouns": [],
+		"dOIndex": 155,
+		"isQuote": false
+	},
+	{
+		"txt": "The reason for calling it a four wire touch screen should now be obvious; however, remember that only three of the wires will be active at any time. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11173,
+		"nouns": [
+			"reason",
+			"four",
+			"wire",
+			"touch",
+			"screen",
+			"three",
+			"wires",
+			"time"
+		],
+		"dOIndex": 156,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.034482758620689655,
+			"words": [
+				"active"
+			],
+			"positive": [
+				"active"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The basic structure is shown in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11174,
+		"nouns": [
+			"structure"
+		],
+		"dOIndex": 157,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"structure"
+		]
+	},
+	{
+		"txt": "Figure 20 3",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11175,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 158,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11176,
+		"nouns": [],
+		"dOIndex": 159,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11177,
+		"nouns": [],
+		"dOIndex": 160,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11178,
+		"nouns": [],
+		"dOIndex": 161,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11179,
+		"nouns": [],
+		"dOIndex": 162,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11180,
+		"nouns": [],
+		"dOIndex": 163,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11181,
+		"nouns": [],
+		"dOIndex": 164,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 20 3. Four wire touch screen profile",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11182,
+		"nouns": [
+			"Figure",
+			"Four",
+			"wire",
+			"touch",
+			"screen",
+			"profile"
+		],
+		"dOIndex": 165,
+		"nouns2": [
+			"Figure",
+			"profile"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11183,
+		"nouns": [],
+		"dOIndex": 166,
+		"isQuote": false
+	},
+	{
+		"txt": "The first layer of the screen comprises a flexible conductor separated by an insulating gap. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11184,
+		"nouns": [
+			"first",
+			"layer",
+			"screen",
+			"conductor",
+			"gap"
+		],
+		"dOIndex": 167,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"conductor"
+		]
+	},
+	{
+		"txt": " Under the gap lies a solid conductor. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11185,
+		"nouns": [
+			"gap",
+			"conductor"
+		],
+		"dOIndex": 168,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"conductor"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.2222222222222222,
+			"words": [
+				"solid"
+			],
+			"positive": [
+				"solid"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " When a finger presses down on the outer layer of flexible conductor, it crosses the gap and makes contact with the solid conductor. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11186,
+		"nouns": [
+			"finger",
+			"presses",
+			"layer",
+			"conductor",
+			"gap",
+			"contact",
+			"conductor"
+		],
+		"dOIndex": 169,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"presses",
+			"conductor",
+			"contact"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08,
+			"words": [
+				"solid"
+			],
+			"positive": [
+				"solid"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The conductors are thin layers of indium tin oxide (ITO) with silver bus bars on either end of the sheet, shown as black lines in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11187,
+		"nouns": [
+			"conductors",
+			"layers",
+			"indium",
+			"tin",
+			"oxide",
+			"ITO",
+			"silver",
+			"bus",
+			"bars",
+			"end",
+			"sheet",
+			"lines"
+		],
+		"dOIndex": 170,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"conductors"
+		]
+	},
+	{
+		"txt": "Figure 20 2",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11188,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 171,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11189,
+		"nouns": [],
+		"dOIndex": 172,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11190,
+		"nouns": [],
+		"dOIndex": 173,
+		"isQuote": false
+	},
+	{
+		"txt": "To condense the description of its operation, we've outlined the three possible states in ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11191,
+		"nouns": [
+			"description",
+			"operation",
+			"ve",
+			"three",
+			"states"
+		],
+		"dOIndex": 174,
+		"nouns2": [
+			"description",
+			"operation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Table 20 1",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11192,
+		"nouns": [
+			"Table"
+		],
+		"dOIndex": 175,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11193,
+		"nouns": [],
+		"dOIndex": 176,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11194,
+		"nouns": [],
+		"dOIndex": 177,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Table 20 1. Possible states for four wire touch screen",
+		"why": "p",
+		"tags": [
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11195,
+		"nouns": [
+			"Table",
+			"states",
+			"four",
+			"wire",
+			"touch",
+			"screen"
+		],
+		"dOIndex": 178,
+		"nouns2": [
+			"Possible"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Activity",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"thead",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11196,
+		"nouns": [
+			"Activity"
+		],
+		"dOIndex": 179,
+		"nouns2": [
+			"Activity"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Pin 1",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"thead",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11197,
+		"nouns": [],
+		"dOIndex": 180,
+		"isQuote": false
+	},
+	{
+		"txt": "Pin 2",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"thead",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11198,
+		"nouns": [],
+		"dOIndex": 181,
+		"isQuote": false
+	},
+	{
+		"txt": "Pin 3",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"thead",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11199,
+		"nouns": [],
+		"dOIndex": 182,
+		"isQuote": false
+	},
+	{
+		"txt": "Pin 4",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"thead",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11200,
+		"nouns": [],
+		"dOIndex": 183,
+		"isQuote": false
+	},
+	{
+		"txt": "Waiting for touch detection",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11201,
+		"nouns": [
+			"touch",
+			"detection"
+		],
+		"dOIndex": 184,
+		"nouns2": [
+			"Waiting",
+			"detection"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Open",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11202,
+		"nouns": [],
+		"dOIndex": 185,
+		"isQuote": false
+	},
+	{
+		"txt": "Open",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11203,
+		"nouns": [],
+		"dOIndex": 186,
+		"isQuote": false
+	},
+	{
+		"txt": "Digital input [pull up]",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11204,
+		"nouns": [
+			"input",
+			"[pull",
+			"up]"
+		],
+		"dOIndex": 187,
+		"nouns2": [
+			"Digital"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Ground",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11205,
+		"nouns": [
+			"Ground"
+		],
+		"dOIndex": 188,
+		"nouns2": [
+			"Ground"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Read X position",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11206,
+		"nouns": [
+			"Read",
+			"X",
+			"position"
+		],
+		"dOIndex": 189,
+		"nouns2": [
+			"position"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Voltage probe",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11207,
+		"nouns": [
+			"Voltage",
+			"probe"
+		],
+		"dOIndex": 190,
+		"nouns2": [
+			"Voltage"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Ground",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11208,
+		"nouns": [
+			"Ground"
+		],
+		"dOIndex": 191,
+		"nouns2": [
+			"Ground"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Voltage source",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11209,
+		"nouns": [
+			"Voltage",
+			"source"
+		],
+		"dOIndex": 192,
+		"nouns2": [
+			"Voltage"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Open",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11210,
+		"nouns": [],
+		"dOIndex": 193,
+		"isQuote": false
+	},
+	{
+		"txt": "Read Y position",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11211,
+		"nouns": [
+			"Read Y",
+			"position"
+		],
+		"dOIndex": 194,
+		"nouns2": [
+			"position"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Voltage source",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11212,
+		"nouns": [
+			"Voltage",
+			"source"
+		],
+		"dOIndex": 195,
+		"nouns2": [
+			"Voltage"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Open",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11213,
+		"nouns": [],
+		"dOIndex": 196,
+		"isQuote": false
+	},
+	{
+		"txt": "Voltage probe",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11214,
+		"nouns": [
+			"Voltage",
+			"probe"
+		],
+		"dOIndex": 197,
+		"nouns2": [
+			"Voltage"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Ground",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11215,
+		"nouns": [
+			"Ground"
+		],
+		"dOIndex": 198,
+		"nouns2": [
+			"Ground"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11216,
+		"nouns": [],
+		"dOIndex": 199,
+		"isQuote": false
+	},
+	{
+		"txt": "Voltage probe means the chip is sensing the voltage on that pin, voltage source is the pin supplying a voltage to ground, and open means it is unused. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11217,
+		"nouns": [
+			"Voltage",
+			"probe",
+			"chip",
+			"voltage",
+			"pin",
+			"voltage",
+			"source",
+			"pin",
+			"voltage",
+			"ground"
+		],
+		"dOIndex": 200,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Voltage",
+			"voltage"
+		],
+		"highfreq": {
+			"voltage": 3
+		}
+	},
+	{
+		"txt": " The sequence of a touch event begins with pin 1 and pin 2 open. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11218,
+		"nouns": [
+			"sequence",
+			"touch",
+			"event",
+			"pin",
+			"pin"
+		],
+		"dOIndex": 201,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"sequence"
+		]
+	},
+	{
+		"txt": " Pin 3 is configured to digital input with pullup signifying a voltage is supplied to the pin. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11219,
+		"nouns": [
+			"input",
+			"pullup",
+			"voltage",
+			"pin"
+		],
+		"dOIndex": 202,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"voltage"
+		]
+	},
+	{
+		"txt": " When a finger presses on the outer layer and makes contact with the lower layer, pin 3 goes to ground. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11220,
+		"nouns": [
+			"finger",
+			"presses",
+			"layer",
+			"contact",
+			"layer",
+			"pin",
+			"ground"
+		],
+		"dOIndex": 203,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"presses",
+			"contact"
+		]
+	},
+	{
+		"txt": " When the controller senses the voltage fall on pin 3, it moves to the second row and reads the X position.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11221,
+		"nouns": [
+			"controller",
+			"senses",
+			"voltage",
+			"fall",
+			"pin",
+			"moves",
+			"second",
+			"row",
+			"X",
+			"position"
+		],
+		"dOIndex": 204,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"controller",
+			"voltage",
+			"position"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11222,
+		"nouns": [],
+		"dOIndex": 205,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11223,
+		"nouns": [],
+		"dOIndex": 206,
+		"isQuote": false
+	},
+	{
+		"txt": "To read the X position, the lower layer is energized from pin 3 to pin 2. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11224,
+		"nouns": [
+			"X",
+			"position",
+			"layer",
+			"pin",
+			"pin"
+		],
+		"dOIndex": 207,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"position"
+		]
+	},
+	{
+		"txt": " The voltage source creates a gradient along the layer. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11225,
+		"nouns": [
+			"voltage",
+			"source",
+			"gradient",
+			"layer"
+		],
+		"dOIndex": 208,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"voltage",
+			"gradient"
+		]
+	},
+	{
+		"txt": " Pin 1, connected to the upper layer, delivers a voltage to the controller when a touch pushes it down to make contact with the lower energized layer. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11226,
+		"nouns": [
+			"layer",
+			"voltage",
+			"controller",
+			"touch",
+			"contact",
+			"layer"
+		],
+		"dOIndex": 209,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"voltage",
+			"controller",
+			"contact"
+		]
+	},
+	{
+		"txt": " The value of this voltage depends on where the contact is made in the gradient, much like the previous linear example. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11227,
+		"nouns": [
+			"value",
+			"voltage",
+			"contact",
+			"gradient",
+			"example"
+		],
+		"dOIndex": 210,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"voltage",
+			"contact",
+			"gradient",
+			"example"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08695652173913043,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Once the X position is known, the controller moves to the next row and reads the Y position.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11228,
+		"nouns": [
+			"X",
+			"position",
+			"controller",
+			"moves",
+			"row",
+			"Y",
+			"position"
+		],
+		"dOIndex": 211,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"position",
+			"controller"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11229,
+		"nouns": [],
+		"dOIndex": 212,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11230,
+		"nouns": [],
+		"dOIndex": 213,
+		"isQuote": false
+	},
+	{
+		"txt": "The method of obtaining the Y position is much the same but in reverse. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11231,
+		"nouns": [
+			"method",
+			"Y",
+			"position"
+		],
+		"dOIndex": 214,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"position"
+		]
+	},
+	{
+		"txt": " The voltage supply is switched to pin 1, which develops a voltage gradient with pin 4. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11232,
+		"nouns": [
+			"voltage",
+			"pin",
+			"voltage",
+			"gradient",
+			"pin"
+		],
+		"dOIndex": 215,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"voltage",
+			"gradient"
+		]
+	},
+	{
+		"txt": " Then pin 3 is probed and the voltage corresponds to the distance along the voltage gradient. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11233,
+		"nouns": [
+			"pin",
+			"voltage",
+			"distance",
+			"voltage",
+			"gradient"
+		],
+		"dOIndex": 216,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"voltage",
+			"distance",
+			"gradient"
+		]
+	},
+	{
+		"txt": " As the controller is capable of repeating the detect, read X, and read Y cycles approximately 500 times a second, the user is not aware that the screen doesn't actually register the X and Y coordinates at the same time.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11234,
+		"nouns": [
+			"controller",
+			"detect",
+			"X",
+			"Y",
+			"cycles",
+			"times",
+			"second",
+			"user",
+			"screen",
+			"doesn",
+			"t",
+			"X",
+			"Y",
+			"coordinates",
+			"time"
+		],
+		"dOIndex": 217,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"controller",
+			"coordinates"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.024390243902439025,
+			"words": [
+				"capable"
+			],
+			"positive": [
+				"capable"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11235,
+		"nouns": [],
+		"dOIndex": 218,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11236,
+		"nouns": [],
+		"dOIndex": 219,
+		"isQuote": false
+	},
+	{
+		"txt": "While the four wire resistive touch screen is the simplest two dimensional touch sensor, there are issues with durability. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11237,
+		"nouns": [
+			"four",
+			"wire",
+			"touch",
+			"screen",
+			"two",
+			"touch",
+			"sensor",
+			"issues",
+			"durability"
+		],
+		"dOIndex": 220,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"durability"
+		]
+	},
+	{
+		"txt": " The main drawback of this type of touch screen is that, because the layers must be separated by an insulating gap, at least one of the layers must be flexible. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11238,
+		"nouns": [
+			"drawback",
+			"type",
+			"touch",
+			"screen",
+			"layers",
+			"gap",
+			"one",
+			"layers"
+		],
+		"dOIndex": 221,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"drawback"
+		]
+	},
+	{
+		"txt": " In the four wire type, the constant flexing of the first conductive layer introduces microcracks in the coating, which lead to nonlinearities and reduce the accuracy. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11239,
+		"nouns": [
+			"four",
+			"wire",
+			"type",
+			"first",
+			"conductive",
+			"layer",
+			"microcracks",
+			"nonlinearities",
+			"accuracy"
+		],
+		"dOIndex": 222,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"conductive",
+			"microcracks",
+			"nonlinearities",
+			"accuracy"
+		]
+	},
+	{
+		"txt": " Other models of resistive touch screens overcome this issue with additional layers that remove the need for the flexible conductor. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11240,
+		"nouns": [
+			"models",
+			"touch",
+			"screens",
+			"issue",
+			"layers",
+			"conductor"
+		],
+		"dOIndex": 223,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"screens",
+			"conductor"
+		]
+	},
+	{
+		"txt": " They have also been adapted to provide multitouch capability. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11241,
+		"nouns": [
+			"multitouch",
+			"capability"
+		],
+		"dOIndex": 224,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"multitouch",
+			"capability"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.09090909090909091,
+			"words": [
+				"capability"
+			],
+			"positive": [
+				"capability"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " We will discuss multitouch and how it works with capacitive touch screens in greater detail ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11242,
+		"nouns": [
+			"multitouch",
+			"works",
+			"capacitive",
+			"touch",
+			"screens",
+			"detail"
+		],
+		"dOIndex": 225,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"multitouch",
+			"capacitive",
+			"screens"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.17647058823529413,
+			"words": [
+				"greater"
+			],
+			"positive": [
+				"greater"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "shortly.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11243,
+		"nouns": [],
+		"dOIndex": 226,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11244,
+		"nouns": [],
+		"dOIndex": 227,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11245,
+		"nouns": [],
+		"dOIndex": 228,
+		"isQuote": false
+	},
+	{
+		"txt": "Capacitive Touch Screens",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11246,
+		"nouns": [
+			"Capacitive Touch",
+			"Screens"
+		],
+		"dOIndex": 229,
+		"nouns2": [
+			"Capacitive",
+			"Screens"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11247,
+		"nouns": [],
+		"dOIndex": 230,
+		"isQuote": false
+	},
+	{
+		"txt": "A capacitive screen ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11248,
+		"nouns": [
+			"capacitive",
+			"screen"
+		],
+		"dOIndex": 231,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"capacitive"
+		]
+	},
+	{
+		"txt": "uses a piece of glass coated in a transparent conductor. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11249,
+		"nouns": [
+			"piece",
+			"glass",
+			"conductor"
+		],
+		"dOIndex": 232,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"conductor"
+		]
+	},
+	{
+		"txt": " When your finger or other conductor comes into contact with the screen, the electrostatic field is disturbed, causing a change in the capacitance. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11250,
+		"nouns": [
+			"finger",
+			"conductor",
+			"contact",
+			"screen",
+			"field",
+			"change",
+			"capacitance"
+		],
+		"dOIndex": 233,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"conductor",
+			"contact",
+			"capacitance"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.08,
+			"words": [
+				"disturbed"
+			],
+			"positive": [],
+			"negative": [
+				"disturbed"
+			]
+		}
+	},
+	{
+		"txt": " To understand how capacitive screens work, let's quickly review capacitance in general.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11251,
+		"nouns": [
+			"capacitive",
+			"screens",
+			"work",
+			"review",
+			"capacitance"
+		],
+		"dOIndex": 234,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"capacitive",
+			"screens",
+			"capacitance"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11252,
+		"nouns": [],
+		"dOIndex": 235,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11253,
+		"nouns": [],
+		"dOIndex": 236,
+		"isQuote": false
+	},
+	{
+		"txt": "A capacitor in its simplest form is two conductors, usually thin plates, separated by an insulator. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11254,
+		"nouns": [
+			"capacitor",
+			"form",
+			"two",
+			"conductors",
+			"plates",
+			"insulator"
+		],
+		"dOIndex": 237,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"capacitor",
+			"conductors",
+			"insulator"
+		]
+	},
+	{
+		"txt": " If you apply a voltage across the two conductors, a current will flow and charge will build up. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11255,
+		"nouns": [
+			"voltage",
+			"two",
+			"conductors",
+			"flow",
+			"charge"
+		],
+		"dOIndex": 238,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"voltage",
+			"conductors"
+		]
+	},
+	{
+		"txt": " Once the voltage across the plates is equal to the supply voltage, the current will stop. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11256,
+		"nouns": [
+			"voltage",
+			"plates",
+			"voltage"
+		],
+		"dOIndex": 239,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"voltage"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.05555555555555555,
+			"words": [
+				"stop"
+			],
+			"positive": [],
+			"negative": [
+				"stop"
+			]
+		}
+	},
+	{
+		"txt": " The amount of charge built up in the plates is what we measure as the capacitance. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11257,
+		"nouns": [
+			"amount",
+			"charge",
+			"plates",
+			"measure",
+			"capacitance"
+		],
+		"dOIndex": 240,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"measure",
+			"capacitance"
+		]
+	},
+	{
+		"txt": " Previously, we noted that one issue with resistive screens is that one part must always flex to close a insulating gap and complete a circuit. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11258,
+		"nouns": [
+			"one",
+			"issue",
+			"screens",
+			"one",
+			"part",
+			"flex",
+			"gap",
+			"circuit"
+		],
+		"dOIndex": 241,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Previously",
+			"screens",
+			"circuit"
+		]
+	},
+	{
+		"txt": " This repetitive action eventually leads to mechanical failure. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11259,
+		"nouns": [
+			"action",
+			"failure"
+		],
+		"dOIndex": 242,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"failure"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.2,
+			"words": [
+				"failure"
+			],
+			"positive": [],
+			"negative": [
+				"failure"
+			]
+		}
+	},
+	{
+		"txt": " A capacitor can be dynamically formed by any two conductors separated by an insulator. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11260,
+		"nouns": [
+			"capacitor",
+			"two",
+			"conductors",
+			"insulator"
+		],
+		"dOIndex": 243,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"capacitor",
+			"conductors",
+			"insulator"
+		]
+	},
+	{
+		"txt": " Noting that glass is a good insulator, it is easy to see that a finger separated from a conductor by glass can change the capacitance of a system. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11261,
+		"nouns": [
+			"glass",
+			"insulator",
+			"finger",
+			"conductor",
+			"glass",
+			"change",
+			"capacitance",
+			"system"
+		],
+		"dOIndex": 244,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Noting",
+			"insulator",
+			"conductor",
+			"capacitance"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.13333333333333333,
+			"words": [
+				"easy",
+				"good"
+			],
+			"positive": [
+				"easy",
+				"good"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " In this way, the finger or stylus doesn't have to cause any mechanical action, yet it can still effect changes to the sensors, which are then used to measure the location of the touch.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11262,
+		"nouns": [
+			"way",
+			"finger",
+			"stylus",
+			"doesn",
+			"t",
+			"cause",
+			"action",
+			"effect",
+			"changes",
+			"sensors",
+			"measure",
+			"location",
+			"touch"
+		],
+		"dOIndex": 245,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"changes",
+			"sensors",
+			"measure",
+			"location"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11263,
+		"nouns": [],
+		"dOIndex": 246,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11264,
+		"nouns": [],
+		"dOIndex": 247,
+		"isQuote": false
+	},
+	{
+		"txt": "The methods of determining location based on capacitance on mobile devices are self capacitance and mutual capacitance .",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11265,
+		"nouns": [
+			"methods",
+			"location",
+			"capacitance",
+			"devices",
+			"self",
+			"capacitance",
+			"capacitance"
+		],
+		"dOIndex": 248,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"methods",
+			"location",
+			"capacitance",
+			"devices"
+		],
+		"highfreq": {
+			"capacitance": 3
+		}
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11266,
+		"nouns": [],
+		"dOIndex": 249,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11267,
+		"nouns": [],
+		"dOIndex": 250,
+		"isQuote": false
+	},
+	{
+		"txt": "Self capacitance",
+		"why": "p",
+		"tags": [
+			"a",
+			"h4",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11268,
+		"nouns": [
+			"Self",
+			"capacitance"
+		],
+		"dOIndex": 251,
+		"nouns2": [
+			"capacitance"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11269,
+		"nouns": [],
+		"dOIndex": 252,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": true,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "Anyone who has lived in a dry winter has felt the shock of a static electricity discharge. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11270,
+		"nouns": [
+			"Anyone",
+			"winter",
+			"shock",
+			"electricity",
+			"discharge"
+		],
+		"dOIndex": 253,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"Anyone",
+			"winter",
+			"shock",
+			"electricity",
+			"discharge"
+		],
+		"nouns2": [
+			"Anyone",
+			"electricity",
+			"discharge"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.1111111111111111,
+			"words": [
+				"shock"
+			],
+			"positive": [],
+			"negative": [
+				"shock"
+			]
+		}
+	},
+	{
+		"txt": " This zap is possible because the human body is a pretty good capacitor with a capacitance of about 22 pico farads. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11271,
+		"nouns": [
+			"zap",
+			"body",
+			"capacitor",
+			"capacitance",
+			"pico",
+			"farads"
+		],
+		"dOIndex": 254,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"zap",
+			"body",
+			"capacitor",
+			"capacitance",
+			"pico",
+			"farads"
+		],
+		"nouns2": [
+			"capacitor",
+			"capacitance"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.17391304347826086,
+			"words": [
+				"good",
+				"pretty"
+			],
+			"positive": [
+				"good",
+				"pretty"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " This property is known as body capacitance . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11272,
+		"nouns": [
+			"property",
+			"body",
+			"capacitance"
+		],
+		"dOIndex": 255,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"property",
+			"body",
+			"capacitance"
+		],
+		"nouns2": [
+			"property",
+			"capacitance"
+		]
+	},
+	{
+		"txt": " Self capacitance screens take advantage of a physical property defined by the amount of electrical charge that must be added to an isolated conductor to raise its potential by one volt. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11273,
+		"nouns": [
+			"Self",
+			"capacitance",
+			"screens",
+			"advantage",
+			"property",
+			"amount",
+			"charge",
+			"conductor",
+			"one",
+			"volt"
+		],
+		"dOIndex": 256,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"Self",
+			"capacitance",
+			"screens",
+			"advantage",
+			"property",
+			"amount",
+			"charge",
+			"conductor",
+			"one",
+			"volt"
+		],
+		"nouns2": [
+			"capacitance",
+			"screens",
+			"advantage",
+			"property",
+			"conductor"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.030303030303030304,
+			"words": [
+				"isolated",
+				"advantage"
+			],
+			"positive": [
+				"advantage"
+			],
+			"negative": [
+				"isolated"
+			]
+		}
+	},
+	{
+		"txt": " When the fingers act as a conductor of the body's inherent capacitance, the sensors on the other side of the glass experience a rise in electric potential. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11274,
+		"nouns": [
+			"fingers",
+			"act",
+			"conductor",
+			"body",
+			"capacitance",
+			"sensors",
+			"side",
+			"glass",
+			"experience",
+			"rise"
+		],
+		"dOIndex": 257,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"fingers",
+			"act",
+			"conductor",
+			"body",
+			"capacitance",
+			"sensors",
+			"side",
+			"glass",
+			"experience",
+			"rise"
+		],
+		"nouns2": [
+			"fingers",
+			"conductor",
+			"capacitance",
+			"sensors",
+			"experience"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.034482758620689655,
+			"words": [
+				"rise"
+			],
+			"positive": [
+				"rise"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Given that the sensors are on the other side of a good insulator, glass, there won't actually be any discharge of energy, unlike when you touch your metal car door and get ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11275,
+		"nouns": [
+			"sensors",
+			"side",
+			"insulator",
+			"glass",
+			"t",
+			"discharge",
+			"energy",
+			"touch",
+			"car",
+			"door"
+		],
+		"dOIndex": 258,
+		"ignoreDOBcNoQuotes": false,
+		"isQuote": false,
+		"nounsProcAll": [
+			"sensors",
+			"side",
+			"insulator",
+			"glass",
+			"t",
+			"discharge",
+			"energy",
+			"touch",
+			"car",
+			"door"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"sensors",
+			"insulator",
+			"discharge"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.08823529411764706,
+			"words": [
+				"good"
+			],
+			"positive": [
+				"good"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " \"zapped.\" ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11276,
+		"isQuote": true,
+		"nouns": [],
+		"dOIndex": 259,
+		"nounsProcAll": [],
+		"sfxfx": [],
+		"gspkNameUnknown": "Anyone"
+	},
+	{
+		"txt": " Self capacitance in this manner produces a very strong signal but lacks the ability to accurately resolve multiple touches. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11277,
+		"nouns": [
+			"Self",
+			"capacitance",
+			"manner",
+			"ability",
+			"touches"
+		],
+		"dOIndex": 260,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [
+			"Self",
+			"capacitance",
+			"manner",
+			"ability",
+			"touches"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"capacitance",
+			"ability",
+			"touches"
+		],
+		"sentiment": {
+			"score": 6,
+			"comparative": 0.2857142857142857,
+			"words": [
+				"resolve",
+				"ability",
+				"strong"
+			],
+			"positive": [
+				"resolve",
+				"ability",
+				"strong"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Therefore, it is often used in conjunction with the next type of touch screen we'll discuss, mutual capacitance.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11278,
+		"nouns": [
+			"conjunction",
+			"type",
+			"touch",
+			"screen",
+			"ll",
+			"capacitance"
+		],
+		"dOIndex": 261,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"conjunction",
+			"type",
+			"touch",
+			"screen",
+			"ll",
+			"capacitance"
+		],
+		"nouns2": [
+			"Therefore",
+			"conjunction",
+			"capacitance"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11279,
+		"nouns": [],
+		"dOIndex": 262,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11280,
+		"nouns": [],
+		"dOIndex": 263,
+		"isQuote": false
+	},
+	{
+		"txt": "Mutual capacitance",
+		"why": "p",
+		"tags": [
+			"a",
+			"h4",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11281,
+		"nouns": [
+			"capacitance"
+		],
+		"dOIndex": 264,
+		"nouns2": [
+			"Mutual",
+			"capacitance"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11282,
+		"nouns": [],
+		"dOIndex": 265,
+		"isQuote": false
+	},
+	{
+		"txt": "The other form of capacitance sensing screen, mutual capacitance, is formed by a grid of independent capacitors. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11283,
+		"nouns": [
+			"form",
+			"capacitance",
+			"screen",
+			"capacitance",
+			"grid",
+			"capacitors"
+		],
+		"dOIndex": 266,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"capacitance",
+			"capacitors"
+		]
+	},
+	{
+		"txt": " A probing charge is sent over the rows or columns. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11284,
+		"nouns": [
+			"charge",
+			"rows",
+			"columns"
+		],
+		"dOIndex": 267,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"columns"
+		]
+	},
+	{
+		"txt": " As the capacitors charge and discharge, the system can sense the capacitance of each individual capacitor. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11285,
+		"nouns": [
+			"capacitors",
+			"charge",
+			"discharge",
+			"system",
+			"sense",
+			"capacitance",
+			"capacitor"
+		],
+		"dOIndex": 268,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"capacitors",
+			"discharge",
+			"capacitance",
+			"capacitor"
+		]
+	},
+	{
+		"txt": " As just discussed, the body is a good capacitor, and bringing part of it close to the capacitor grid changes the local electric field. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11286,
+		"nouns": [
+			"body",
+			"capacitor",
+			"part",
+			"capacitor",
+			"grid",
+			"changes",
+			"field"
+		],
+		"dOIndex": 269,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"capacitor",
+			"changes"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.11538461538461539,
+			"words": [
+				"good"
+			],
+			"positive": [
+				"good"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Those capacitors that are under a finger or other conductor will read lower values than normal. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11287,
+		"nouns": [
+			"capacitors",
+			"finger",
+			"conductor",
+			"values"
+		],
+		"dOIndex": 270,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"capacitors",
+			"conductor"
+		]
+	},
+	{
+		"txt": " Each capacitor can be scanned independently, enabling high resolution of where the touch event is occurring. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11288,
+		"nouns": [
+			"capacitor",
+			"resolution",
+			"touch",
+			"event"
+		],
+		"dOIndex": 271,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"capacitor",
+			"resolution"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.1111111111111111,
+			"words": [
+				"resolution"
+			],
+			"positive": [
+				"resolution"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Additionally, because they act independently of one another, it is possible to accurately register multiple touches. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11289,
+		"nouns": [
+			"act",
+			"one",
+			"touches"
+		],
+		"dOIndex": 272,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Additionally",
+			"touches"
+		]
+	},
+	{
+		"txt": " Think of this system as taking a picture of the capacitance on the skin of the screen. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11290,
+		"nouns": [
+			"system",
+			"picture",
+			"capacitance",
+			"skin",
+			"screen"
+		],
+		"dOIndex": 273,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"picture",
+			"capacitance"
+		]
+	},
+	{
+		"txt": " Using algorithms similar to image processing and edge detection, this system can compute the extent of a touch ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11291,
+		"nouns": [
+			"algorithms",
+			"image",
+			"edge",
+			"detection",
+			"system",
+			"extent",
+			"touch"
+		],
+		"dOIndex": 274,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"algorithms",
+			"detection"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11292,
+		"nouns": [],
+		"dOIndex": 275,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "event.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11293,
+		"nouns": [
+			"event"
+		],
+		"dOIndex": 276,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11294,
+		"nouns": [],
+		"dOIndex": 277,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11295,
+		"nouns": [],
+		"dOIndex": 278,
+		"isQuote": false
+	},
+	{
+		"txt": "Example Program",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11296,
+		"nouns": [
+			"Example",
+			"Program"
+		],
+		"dOIndex": 279,
+		"nouns2": [
+			"Example",
+			"Program"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11297,
+		"nouns": [],
+		"dOIndex": 280,
+		"isQuote": false
+	},
+	{
+		"txt": "Included in the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11298,
+		"nouns": [],
+		"dOIndex": 281,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Included"
+		]
+	},
+	{
+		"txt": "source code accompanying this book is an example of the particle explosion program from ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11299,
+		"nouns": [
+			"source",
+			"code",
+			"book",
+			"example",
+			"particle",
+			"explosion",
+			"program"
+		],
+		"dOIndex": 282,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"particle",
+			"explosion",
+			"program"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11300,
+		"nouns": [],
+		"dOIndex": 283,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 8 that uses touch screen input instead of a mouse click.",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11301,
+		"nouns": [
+			"Chapter",
+			"touch",
+			"screen",
+			"input",
+			"mouse",
+			"click"
+		],
+		"dOIndex": 284,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11302,
+		"nouns": [],
+		"dOIndex": 285,
+		"isQuote": false
+	},
+	{
+		"txt": "The code for a Cocoa touch Objective C event is as follows:",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11303,
+		"nouns": [
+			"code",
+			"Cocoa",
+			"touch",
+			"Objective",
+			"C",
+			"event"
+		],
+		"dOIndex": 286,
+		"nouns2": [
+			"Objective"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 11304,
+		"nouns": [],
+		"dOIndex": 287,
+		"isQuote": false
+	},
+	{
+		"txt": "where firstTouch is defined by CGPoint firstTouch; in the header file. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11305,
+		"nouns": [
+			"firstTouch",
+			"CGPoint",
+			"firstTouch",
+			"header"
+		],
+		"dOIndex": 288,
+		"nouns2": [
+			"firstTouch",
+			"CGPoint"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " The CGPoint is a Cocoa touch object capable of storing an (x,y ) coordinate in the display view's coordinate system. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11306,
+		"nouns": [
+			"CGPoint",
+			"Cocoa",
+			"touch",
+			"object",
+			"x",
+			"y",
+			"display",
+			"view",
+			"system"
+		],
+		"dOIndex": 289,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"CGPoint",
+			"display"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.045454545454545456,
+			"words": [
+				"capable"
+			],
+			"positive": [
+				"capable"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " We can then use firstTouch.x and firstTouch.y later in our program to give a location to the particle explosion.",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11307,
+		"nouns": [
+			"use",
+			"firstTouch",
+			"x",
+			"firstTouch",
+			"y",
+			"program",
+			"location",
+			"particle",
+			"explosion"
+		],
+		"dOIndex": 290,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"firstTouch",
+			"program",
+			"location",
+			"particle",
+			"explosion"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11308,
+		"nouns": [],
+		"dOIndex": 291,
+		"isQuote": false
+	},
+	{
+		"txt": "As you can see, it is very similar to a mouse based event. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11309,
+		"nouns": [
+			"mouse",
+			"event"
+		],
+		"dOIndex": 292,
+		"isQuote": false
+	},
+	{
+		"txt": " One big difference is that you could adapt the code to handle multitouch events. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11310,
+		"nouns": [
+			"One",
+			"difference",
+			"code",
+			"multitouch",
+			"events"
+		],
+		"dOIndex": 293,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"difference",
+			"multitouch"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.0625,
+			"words": [
+				"big"
+			],
+			"positive": [
+				"big"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Computers recognize only one mouse cursor at a time, but with a touch screen you can register multiple clicks simultaneously.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11311,
+		"nouns": [
+			"Computers",
+			"one",
+			"mouse",
+			"cursor",
+			"time",
+			"touch",
+			"screen",
+			"clicks"
+		],
+		"dOIndex": 294,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Computers"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11312,
+		"nouns": [],
+		"dOIndex": 295,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 11313,
+		"nouns": [],
+		"dOIndex": 296,
+		"isQuote": false
+	},
+	{
+		"txt": "Multitouch",
+		"why": "p",
+		"tags": [
+			"h3",
+			"div",
+			"div",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11314,
+		"nouns": [
+			"Multitouch"
+		],
+		"dOIndex": 297,
+		"nouns2": [
+			"Multitouch"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "In iOS you must first enable delivery of multiple touch events by setting the multipleTouchEnabled property of your view to YES; the default is NO . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11315,
+		"nouns": [
+			"iOS",
+			"first",
+			"delivery",
+			"touch",
+			"events",
+			"property",
+			"view",
+			"YES",
+			"default"
+		],
+		"dOIndex": 298,
+		"nouns2": [
+			"delivery",
+			"property",
+			"default"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"no",
+				"yes"
+			],
+			"positive": [
+				"yes"
+			],
+			"negative": [
+				"no"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " Next you must create a class to keep track of multiple TParticleExplosion structures. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11316,
+		"nouns": [
+			"class",
+			"track",
+			"TParticleExplosion",
+			"structures"
+		],
+		"dOIndex": 299,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"TParticleExplosion",
+			"structures"
+		]
+	},
+	{
+		"txt": " Then it is as simple as polling the position of the start points of multiple touches to trigger multiple explosions. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11317,
+		"nouns": [
+			"position",
+			"start",
+			"points",
+			"touches",
+			"explosions"
+		],
+		"dOIndex": 300,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"position",
+			"touches",
+			"explosions"
+		]
+	},
+	{
+		"txt": " The Objective C code to store the start points of multiple touch events would look like:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11318,
+		"nouns": [
+			"Objective",
+			"C",
+			"code",
+			"store",
+			"start",
+			"points",
+			"touch",
+			"events"
+		],
+		"dOIndex": 301,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Objective"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.11764705882352941,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 11319,
+		"nouns": [],
+		"dOIndex": 302,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11320,
+		"nouns": [],
+		"dOIndex": 303,
+		"isQuote": false
+	},
+	{
+		"txt": "where CFDictionaryRef is an immutable dictionary object that allows the copying of the object and its key value. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11321,
+		"nouns": [
+			"CFDictionaryRef",
+			"dictionary",
+			"object",
+			"object",
+			"value"
+		],
+		"dOIndex": 304,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"CFDictionaryRef",
+			"dictionary"
+		]
+	},
+	{
+		"txt": " One last consideration for this example is that as you are now creating multiple physics simulations simultaneously, you may have to decrease the frequency of the time steps to allow the animations to proceed smoothly. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11322,
+		"nouns": [
+			"One",
+			"consideration",
+			"example",
+			"physics",
+			"simulations",
+			"decrease",
+			"frequency",
+			"time",
+			"steps",
+			"animations"
+		],
+		"dOIndex": 305,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"consideration",
+			"example",
+			"physics",
+			"simulations",
+			"decrease",
+			"frequency",
+			"animations"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.02702702702702703,
+			"words": [
+				"allow"
+			],
+			"positive": [
+				"allow"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Multitouch can become programmatically complex, but the physics are pretty simple. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11323,
+		"nouns": [
+			"Multitouch",
+			"physics"
+		],
+		"dOIndex": 306,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Multitouch",
+			"physics"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.07692307692307693,
+			"words": [
+				"pretty"
+			],
+			"positive": [
+				"pretty"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The event handling guide for your particular development language should give detailed guidance on handling the event ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11324,
+		"nouns": [
+			"event",
+			"guide",
+			"development",
+			"language",
+			"guidance",
+			"event"
+		],
+		"dOIndex": 307,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"development",
+			"language",
+			"guidance"
+		]
+	},
+	{
+		"txt": "chain.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11325,
+		"nouns": [
+			"chain"
+		],
+		"dOIndex": 308,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11326,
+		"nouns": [],
+		"dOIndex": 309,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11327,
+		"nouns": [],
+		"dOIndex": 310,
+		"isQuote": false
+	},
+	{
+		"txt": "Other Considerations",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11328,
+		"nouns": [
+			"Considerations"
+		],
+		"dOIndex": 311,
+		"nouns2": [
+			"Considerations"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11329,
+		"nouns": [],
+		"dOIndex": 312,
+		"isQuote": false
+	},
+	{
+		"txt": "One of the major advantages of touch screens is that their layout and actions are entirely software based. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11330,
+		"nouns": [
+			"One",
+			"advantages",
+			"touch",
+			"screens",
+			"layout",
+			"actions",
+			"software"
+		],
+		"dOIndex": 313,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"advantages",
+			"screens",
+			"actions",
+			"software"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.10526315789473684,
+			"words": [
+				"advantages"
+			],
+			"positive": [
+				"advantages"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " That is to say, if a certain button does not pertain to the current layout, it can be discarded and the freed space used for additional relevant controls. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11331,
+		"nouns": [
+			"button",
+			"layout",
+			"space",
+			"controls"
+		],
+		"dOIndex": 314,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"controls"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"discarded",
+				"certain"
+			],
+			"positive": [
+				"certain"
+			],
+			"negative": [
+				"discarded"
+			]
+		}
+	},
+	{
+		"txt": " We will discuss other less obvious considerations in the following sections.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11332,
+		"nouns": [
+			"considerations",
+			"sections"
+		],
+		"dOIndex": 315,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"considerations",
+			"sections"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11333,
+		"nouns": [],
+		"dOIndex": 316,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11334,
+		"nouns": [],
+		"dOIndex": 317,
+		"isQuote": false
+	},
+	{
+		"txt": "Haptic Feedback",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11335,
+		"nouns": [
+			"Haptic",
+			"Feedback"
+		],
+		"dOIndex": 318,
+		"nouns2": [
+			"Haptic",
+			"Feedback"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11336,
+		"nouns": [],
+		"dOIndex": 319,
+		"isQuote": false
+	},
+	{
+		"txt": "The flip ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11337,
+		"nouns": [],
+		"dOIndex": 320,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11338,
+		"nouns": [],
+		"dOIndex": 321,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "side of the advantage of not being locked into a set of physical buttons is that the user must rely almost entirely on vision to interact with the controls. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11339,
+		"nouns": [
+			"side",
+			"advantage",
+			"buttons",
+			"user",
+			"vision",
+			"controls"
+		],
+		"dOIndex": 322,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"advantage",
+			"buttons",
+			"controls"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.1,
+			"words": [
+				"vision",
+				"advantage"
+			],
+			"positive": [
+				"vision",
+				"advantage"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " At least one of the authors of this book uses a keyboard with no letters on it at all, instead relying totally on the physical position of the keys to determine which key to strike. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11340,
+		"nouns": [
+			"one",
+			"authors",
+			"book",
+			"keyboard",
+			"letters",
+			"position",
+			"keys",
+			"strike"
+		],
+		"dOIndex": 323,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"authors",
+			"keyboard",
+			"letters",
+			"position"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.05405405405405406,
+			"words": [
+				"strike",
+				"no"
+			],
+			"positive": [],
+			"negative": [
+				"strike",
+				"no"
+			]
+		}
+	},
+	{
+		"txt": " This would be much harder without the tactile and audio cues to signify that the correct key has been pressed. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11341,
+		"nouns": [
+			"cues"
+		],
+		"dOIndex": 324,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Indeed, it is easy to tell when he is typing poorly because the backspace key is much louder than the rest!",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11342,
+		"nouns": [
+			"backspace",
+			"rest"
+		],
+		"dOIndex": 325,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Indeed",
+			"backspace"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.045454545454545456,
+			"words": [
+				"poorly",
+				"easy"
+			],
+			"positive": [
+				"easy"
+			],
+			"negative": [
+				"poorly"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11343,
+		"nouns": [],
+		"dOIndex": 326,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11344,
+		"nouns": [],
+		"dOIndex": 327,
+		"isQuote": false
+	},
+	{
+		"txt": "The method of including physical feedback to assist a user in interaction with entirely virtual objects is known as haptic feedback . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11345,
+		"nouns": [
+			"method",
+			"feedback",
+			"user",
+			"interaction",
+			"objects",
+			"haptic",
+			"feedback"
+		],
+		"dOIndex": 328,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"feedback",
+			"interaction",
+			"objects"
+		]
+	},
+	{
+		"txt": " The first use of haptic feedback in games was limited to arcade games such as Motocross , in which the handlebars shook after an in game impact. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11346,
+		"nouns": [
+			"first",
+			"use",
+			"haptic",
+			"feedback",
+			"games",
+			"arcade",
+			"games",
+			"Motocross",
+			"handlebars",
+			"game",
+			"impact"
+		],
+		"dOIndex": 329,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"feedback",
+			"Motocross",
+			"handlebars"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.034482758620689655,
+			"words": [
+				"limited"
+			],
+			"positive": [],
+			"negative": [
+				"limited"
+			]
+		}
+	},
+	{
+		"txt": " It is now considered standard on video game controllers, which vibrate to inform the user of some event.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11347,
+		"nouns": [
+			"video",
+			"game",
+			"controllers",
+			"user",
+			"event"
+		],
+		"dOIndex": 330,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"controllers"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11348,
+		"nouns": [],
+		"dOIndex": 331,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11349,
+		"nouns": [],
+		"dOIndex": 332,
+		"isQuote": false
+	},
+	{
+		"txt": "In the realm of touch screens, haptic feedback is used to inform the user of a successful key strike or other touch based event. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11350,
+		"nouns": [
+			"realm",
+			"touch",
+			"screens",
+			"haptic",
+			"feedback",
+			"user",
+			"strike",
+			"touch",
+			"event"
+		],
+		"dOIndex": 333,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"screens",
+			"feedback"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08,
+			"words": [
+				"strike",
+				"successful"
+			],
+			"positive": [
+				"successful"
+			],
+			"negative": [
+				"strike"
+			]
+		}
+	},
+	{
+		"txt": " Some touch screens even incorporate some movement of the entire screen when pressed. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11351,
+		"nouns": [
+			"touch",
+			"screens",
+			"movement",
+			"screen"
+		],
+		"dOIndex": 334,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"screens",
+			"movement"
+		]
+	},
+	{
+		"txt": " This feedback still doesn't allow touch typing, as it only dynamically responds and provides no static tactile feedback for different buttons.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11352,
+		"nouns": [
+			"feedback",
+			"doesn",
+			"t",
+			"touch",
+			"feedback",
+			"buttons"
+		],
+		"dOIndex": 335,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"feedback",
+			"buttons"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.09090909090909091,
+			"words": [
+				"no",
+				"allow"
+			],
+			"positive": [],
+			"negative": [
+				"no",
+				"allow"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11353,
+		"nouns": [],
+		"dOIndex": 336,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11354,
+		"nouns": [],
+		"dOIndex": 337,
+		"isQuote": false
+	},
+	{
+		"txt": "Modeling Touch Screens in Games",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11355,
+		"nouns": [
+			"Touch",
+			"Screens",
+			"Games"
+		],
+		"dOIndex": 338,
+		"nouns2": [
+			"Modeling",
+			"Screens"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11356,
+		"nouns": [],
+		"dOIndex": 339,
+		"isQuote": false
+	},
+	{
+		"txt": "Given their planar ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11357,
+		"nouns": [],
+		"dOIndex": 340,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "nature and the lack of inherent haptic feedback, touch screens can be an easy way to implement controls with which a character in a game can interact. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11358,
+		"nouns": [
+			"nature",
+			"lack",
+			"haptic",
+			"feedback",
+			"touch",
+			"screens",
+			"way",
+			"controls",
+			"character",
+			"game"
+		],
+		"dOIndex": 341,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"feedback",
+			"screens",
+			"controls",
+			"character"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.03571428571428571,
+			"words": [
+				"easy",
+				"lack"
+			],
+			"positive": [
+				"easy"
+			],
+			"negative": [
+				"lack"
+			]
+		}
+	},
+	{
+		"txt": " The amount of physical modeling required to create a realistic in game keyboard is pretty intense. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11359,
+		"nouns": [
+			"amount",
+			"game",
+			"keyboard"
+		],
+		"dOIndex": 342,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"keyboard"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.1111111111111111,
+			"words": [
+				"intense",
+				"pretty"
+			],
+			"positive": [
+				"intense",
+				"pretty"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Thus, there are very few examples of an in game character having to sit down and type a code in to a terminal via a standard keyboard.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11360,
+		"nouns": [
+			"examples",
+			"game",
+			"character",
+			"type",
+			"code",
+			"keyboard"
+		],
+		"dOIndex": 343,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"examples",
+			"character",
+			"keyboard"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11361,
+		"nouns": [],
+		"dOIndex": 344,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11362,
+		"nouns": [],
+		"dOIndex": 345,
+		"isQuote": false
+	},
+	{
+		"txt": "By using touch screens for in play control of objects, you can avoid an additional physical model while retaining realism. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11363,
+		"nouns": [
+			"touch",
+			"screens",
+			"control",
+			"objects",
+			"model",
+			"realism"
+		],
+		"dOIndex": 346,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"screens",
+			"control",
+			"objects",
+			"realism"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.047619047619047616,
+			"words": [
+				"avoid"
+			],
+			"positive": [],
+			"negative": [
+				"avoid"
+			]
+		}
+	},
+	{
+		"txt": " It would also be interesting to see games use realistic touch screen interfaces so that a character would have to remove his gloves to use a capacitive screen. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11364,
+		"nouns": [
+			"games",
+			"use",
+			"touch",
+			"screen",
+			"interfaces",
+			"character",
+			"gloves",
+			"use",
+			"capacitive",
+			"screen"
+		],
+		"dOIndex": 347,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"interfaces",
+			"character",
+			"capacitive"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.06666666666666667,
+			"words": [
+				"interesting"
+			],
+			"positive": [
+				"interesting"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Lastly, the exotic screen technologies mentioned earlier provide many creative avenues of modeling those types of screens in games. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11365,
+		"nouns": [
+			"screen",
+			"technologies",
+			"avenues",
+			"types",
+			"screens",
+			"games"
+		],
+		"dOIndex": 348,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Lastly",
+			"technologies",
+			"avenues",
+			"screens"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.09523809523809523,
+			"words": [
+				"creative"
+			],
+			"positive": [
+				"creative"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " For example, for screens measuring sound waves in the glass or other mechanical energy, low grade explosions could be used to trigger these in game input devices.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11366,
+		"nouns": [
+			"example",
+			"screens",
+			"sound",
+			"waves",
+			"glass",
+			"energy",
+			"grade",
+			"explosions",
+			"game",
+			"input",
+			"devices"
+		],
+		"dOIndex": 349,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"screens",
+			"explosions",
+			"devices"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11367,
+		"nouns": [],
+		"dOIndex": 350,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11368,
+		"nouns": [],
+		"dOIndex": 351,
+		"isQuote": false
+	},
+	{
+		"txt": "Difference from Mouse Based Input",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11369,
+		"nouns": [
+			"Difference",
+			"Mouse",
+			"Input"
+		],
+		"dOIndex": 352,
+		"nouns2": [
+			"Difference"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11370,
+		"nouns": [],
+		"dOIndex": 353,
+		"isQuote": false
+	},
+	{
+		"txt": "One important ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11371,
+		"nouns": [
+			"One"
+		],
+		"dOIndex": 354,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.6666666666666666,
+			"words": [
+				"important"
+			],
+			"positive": [
+				"important"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11372,
+		"nouns": [],
+		"dOIndex": 355,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "consideration for game developers in regards to touch screens is the difference from traditional mouse  and keyboard based gaming. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11373,
+		"nouns": [
+			"consideration",
+			"game",
+			"developers",
+			"touch",
+			"screens",
+			"difference",
+			"mouse",
+			"keyboard"
+		],
+		"dOIndex": 356,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"consideration",
+			"developers",
+			"screens",
+			"difference",
+			"keyboard"
+		]
+	},
+	{
+		"txt": " As console game developers have long been aware, it is hard to compete with the speed and accuracy of the mouse/keyboard combination. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11374,
+		"nouns": [
+			"game",
+			"developers",
+			"accuracy",
+			"mouse",
+			"/",
+			"keyboard",
+			"combination"
+		],
+		"dOIndex": 357,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"developers",
+			"accuracy",
+			"keyboard",
+			"combination"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.041666666666666664,
+			"words": [
+				"hard"
+			],
+			"positive": [],
+			"negative": [
+				"hard"
+			]
+		}
+	},
+	{
+		"txt": " Many first person shooters segregate their online gaming between controllers and mouse/keyboard setups, as the accuracy and speed of the mouse gives those players an unfair advantage. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11375,
+		"nouns": [
+			"first",
+			"person",
+			"shooters",
+			"controllers",
+			"mouse",
+			"/",
+			"keyboard",
+			"setups",
+			"accuracy",
+			"mouse",
+			"players",
+			"advantage"
+		],
+		"dOIndex": 358,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"shooters",
+			"controllers",
+			"keyboard",
+			"accuracy",
+			"players",
+			"advantage"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"advantage",
+				"unfair"
+			],
+			"positive": [
+				"advantage"
+			],
+			"negative": [
+				"unfair"
+			]
+		}
+	},
+	{
+		"txt": " Upon using touch screens on many different gaming devices and mobile computing platforms, we feel that this advantage is even more pronounced.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11376,
+		"nouns": [
+			"touch",
+			"screens",
+			"devices",
+			"platforms",
+			"advantage"
+		],
+		"dOIndex": 359,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"screens",
+			"devices",
+			"platforms",
+			"advantage"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08695652173913043,
+			"words": [
+				"advantage"
+			],
+			"positive": [
+				"advantage"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11377,
+		"nouns": [],
+		"dOIndex": 360,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11378,
+		"nouns": [],
+		"dOIndex": 361,
+		"isQuote": false
+	},
+	{
+		"txt": "A touch by a finger is an elliptical shape whose contact patch depends on the specific finger being used, the pressure applied, and the orientation of the finger. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11379,
+		"nouns": [
+			"touch",
+			"finger",
+			"shape",
+			"contact",
+			"patch",
+			"finger",
+			"pressure",
+			"orientation",
+			"finger"
+		],
+		"dOIndex": 362,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"contact",
+			"pressure",
+			"orientation"
+		],
+		"highfreq": {
+			"finger": 3
+		},
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.034482758620689655,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " The user generally perceives the point of touch to be below where the actual center of contact is, so adjustments must be made. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11380,
+		"nouns": [
+			"user",
+			"point",
+			"touch",
+			"center",
+			"contact",
+			"adjustments"
+		],
+		"dOIndex": 363,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"contact",
+			"adjustments"
+		]
+	},
+	{
+		"txt": " This is generally all handled automatically by the operating system so that a single touch point is computed and handed to the game via an API. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11381,
+		"nouns": [
+			"system",
+			"touch",
+			"point",
+			"game",
+			"API"
+		],
+		"dOIndex": 364,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " However, this generic approach to computing touches must obviously sacrifice accuracy for universality so that it is not calibrated for one specific user.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11382,
+		"nouns": [
+			"approach",
+			"touches",
+			"sacrifice",
+			"accuracy",
+			"universality",
+			"one",
+			"user"
+		],
+		"dOIndex": 365,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"approach",
+			"touches",
+			"sacrifice",
+			"accuracy",
+			"universality"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11383,
+		"nouns": [],
+		"dOIndex": 366,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11384,
+		"nouns": [],
+		"dOIndex": 367,
+		"isQuote": false
+	},
+	{
+		"txt": "Another inherent drawback to touch screens is the need to touch the screen. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11385,
+		"nouns": [
+			"drawback",
+			"touch",
+			"screens",
+			"touch",
+			"screen"
+		],
+		"dOIndex": 368,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Another",
+			"drawback",
+			"screens"
+		]
+	},
+	{
+		"txt": " This means a large portion of your hand will be blocking the screen when you are controlling that element. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11386,
+		"nouns": [
+			"portion",
+			"hand",
+			"screen",
+			"element"
+		],
+		"dOIndex": 369,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"portion",
+			"element"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.047619047619047616,
+			"words": [
+				"blocking"
+			],
+			"positive": [],
+			"negative": [
+				"blocking"
+			]
+		}
+	},
+	{
+		"txt": " One can imagine that in a first person shooter, this would be a great disadvantage over someone who is playing with a keyboard and mouse.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11387,
+		"nouns": [
+			"One",
+			"first",
+			"person",
+			"shooter",
+			"disadvantage",
+			"someone",
+			"keyboard",
+			"mouse"
+		],
+		"dOIndex": 370,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"shooter",
+			"disadvantage",
+			"someone",
+			"keyboard"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.038461538461538464,
+			"words": [
+				"disadvantage",
+				"great"
+			],
+			"positive": [
+				"great"
+			],
+			"negative": [
+				"disadvantage"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11388,
+		"nouns": [],
+		"dOIndex": 371,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11389,
+		"nouns": [],
+		"dOIndex": 372,
+		"isQuote": false
+	},
+	{
+		"txt": "Lastly, mouseover is not available to touch screen based input. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11390,
+		"nouns": [
+			"mouseover",
+			"touch",
+			"screen",
+			"input"
+		],
+		"dOIndex": 373,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Lastly",
+			"mouseover"
+		]
+	},
+	{
+		"txt": " Consider a game where you would trigger actions by merely moving a mouse cursor over an object. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11391,
+		"nouns": [
+			"game",
+			"actions",
+			"mouse",
+			"cursor",
+			"object"
+		],
+		"dOIndex": 374,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Consider",
+			"actions"
+		]
+	},
+	{
+		"txt": " These actions could be distinct from clicking on the same object. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11392,
+		"nouns": [
+			"actions",
+			"object"
+		],
+		"dOIndex": 375,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"actions"
+		]
+	},
+	{
+		"txt": " However, with touch screen based input, that object would be obscured by whatever is triggering the screen, therefore rendering the mouseover action invisible to the user.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11393,
+		"nouns": [
+			"touch",
+			"screen",
+			"input",
+			"object",
+			"screen",
+			"mouseover",
+			"action",
+			"user"
+		],
+		"dOIndex": 376,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"mouseover"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11394,
+		"nouns": [],
+		"dOIndex": 377,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11395,
+		"nouns": [],
+		"dOIndex": 378,
+		"isQuote": false
+	},
+	{
+		"txt": "Custom Gestures",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11396,
+		"nouns": [
+			"Custom",
+			"Gestures"
+		],
+		"dOIndex": 379,
+		"nouns2": [
+			"Custom",
+			"Gestures"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11397,
+		"nouns": [],
+		"dOIndex": 380
+	},
+	{
+		"txt": "As a last note, ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11398,
+		"nouns": [
+			"note"
+		],
+		"dOIndex": 381
+	},
+	{
+		"txt": "another possibility for touch input to a game is the use of custom gestures. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11399,
+		"nouns": [
+			"possibility",
+			"touch",
+			"input",
+			"game",
+			"use",
+			"custom",
+			"gestures"
+		],
+		"dOIndex": 382,
+		"nouns2": [
+			"possibility",
+			"gestures"
+		]
+	},
+	{
+		"txt": " These allow the user to draw a shape on the screen that the program recognizes as a gesture. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11400,
+		"nouns": [
+			"allow",
+			"user",
+			"shape",
+			"screen",
+			"program",
+			"gesture"
+		],
+		"dOIndex": 383,
+		"nouns2": [
+			"program",
+			"gesture"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.05,
+			"words": [
+				"allow"
+			],
+			"positive": [
+				"allow"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " It can then execute arbitrary code based on that input. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11401,
+		"nouns": [
+			"code",
+			"input"
+		],
+		"dOIndex": 384
+	},
+	{
+		"txt": " As this is more pattern recognition then physics, we won't cover it here, but we can recommend the book ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11402,
+		"nouns": [
+			"pattern",
+			"recognition",
+			"physics",
+			"t",
+			"book"
+		],
+		"dOIndex": 385,
+		"nouns2": [
+			"pattern",
+			"recognition",
+			"physics"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.19047619047619047,
+			"words": [
+				"recommend",
+				"recognition"
+			],
+			"positive": [
+				"recommend",
+				"recognition"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "Designing Gestural Interfaces by ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11403,
+		"nouns": [
+			"Interfaces"
+		],
+		"dOIndex": 386,
+		"nouns2": [
+			"Designing",
+			"Gestural",
+			"Interfaces"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11404,
+		"nouns": [],
+		"dOIndex": 387
+	},
+	{
+		"txt": "Dan Saffer (O'Reilly) as a detailed look at this subject.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11405,
+		"nouns": [
+			"Dan Saffer",
+			"subject"
+		],
+		"dOIndex": 388,
+		"nouns2": [
+			"Saffer",
+			"Reilly",
+			"subject"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11406,
+		"nouns": [],
+		"dOIndex": 389
+	}
+]

@@ -1,0 +1,11251 @@
+[
+	{
+		"txt": "",
+		"why": "br tag like",
+		"sentenceIndex": 9851,
+		"nouns": [],
+		"dOIndex": 0,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 18. Guns and Explosions",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9852,
+		"nouns": [
+			"Chapter",
+			"Guns",
+			"Explosions"
+		],
+		"dOIndex": 1,
+		"nouns2": [
+			"Chapter",
+			"Explosions"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "One of the most widely successful video ",
+		"why": "link",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 9853,
+		"nouns": [
+			"One",
+			"video"
+		],
+		"dOIndex": 2,
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.375,
+			"words": [
+				"successful"
+			],
+			"positive": [
+				"successful"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "game genres is the venerable first person shooter. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9854,
+		"nouns": [
+			"game",
+			"genres",
+			"first",
+			"person",
+			"shooter"
+		],
+		"dOIndex": 3,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"shooter"
+		]
+	},
+	{
+		"txt": " Ever since the breakthrough games of Wolfenstein 3D and Doom , the first person shooter has received the lion's share of research and development budgets. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 9855,
+		"nouns": [
+			"breakthrough",
+			"games",
+			"Wolfenstein",
+			"D",
+			"Doom",
+			"first",
+			"person",
+			"shooter",
+			"lion",
+			"share",
+			"research",
+			"development",
+			"budgets"
+		],
+		"dOIndex": 4,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"breakthrough",
+			"Wolfenstein",
+			"shooter",
+			"research",
+			"development",
+			"budgets"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.07407407407407407,
+			"words": [
+				"share",
+				"doom",
+				"breakthrough"
+			],
+			"positive": [
+				"share",
+				"breakthrough"
+			],
+			"negative": [
+				"doom"
+			]
+		}
+	},
+	{
+		"txt": " It is amazing that the physics of aiming a gun and of a bullet traveling through the air are rarely modeled accurately. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9856,
+		"nouns": [
+			"physics",
+			"gun",
+			"bullet",
+			"air"
+		],
+		"dOIndex": 5,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"physics"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.125,
+			"words": [
+				"gun",
+				"amazing"
+			],
+			"positive": [
+				"amazing"
+			],
+			"negative": [
+				"gun"
+			]
+		}
+	},
+	{
+		"txt": " In general, game designers treat guns like laser beams so that wherever you point them, the bullet goes in an infinitely straight line. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9857,
+		"nouns": [
+			"game",
+			"designers",
+			"guns",
+			"laser",
+			"beams",
+			"point",
+			"bullet",
+			"line"
+		],
+		"dOIndex": 6,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"designers"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.12,
+			"words": [
+				"straight",
+				"like"
+			],
+			"positive": [
+				"straight",
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " In this chapter we'll discuss how to more accurately model both aiming and the trajectory of bullets, which is known as ballistics.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9858,
+		"nouns": [
+			"chapter",
+			"ll",
+			"model",
+			"both",
+			"trajectory",
+			"bullets",
+			"ballistics"
+		],
+		"dOIndex": 7,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"chapter",
+			"trajectory",
+			"bullets",
+			"ballistics"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 9859,
+		"nouns": [],
+		"dOIndex": 8,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9860,
+		"nouns": [],
+		"dOIndex": 9,
+		"isQuote": false
+	},
+	{
+		"txt": "Projectile Motion",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9861,
+		"nouns": [
+			"Projectile Motion"
+		],
+		"dOIndex": 10,
+		"nouns2": [
+			"Projectile",
+			"Motion"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9862,
+		"nouns": [],
+		"dOIndex": 11,
+		"isQuote": false
+	},
+	{
+		"txt": "There are actually ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9863,
+		"nouns": [],
+		"dOIndex": 12,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9864,
+		"nouns": [],
+		"dOIndex": 13,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9865,
+		"nouns": [],
+		"dOIndex": 14,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9866,
+		"nouns": [],
+		"dOIndex": 15,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9867,
+		"nouns": [],
+		"dOIndex": 16,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "four subtopics of ballistics. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9868,
+		"nouns": [
+			"four",
+			"subtopics",
+			"ballistics"
+		],
+		"dOIndex": 17,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"subtopics",
+			"ballistics"
+		]
+	},
+	{
+		"txt": " Internal ballistics is ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9869,
+		"nouns": [
+			"ballistics"
+		],
+		"dOIndex": 18,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Internal",
+			"ballistics"
+		]
+	},
+	{
+		"txt": "the study of what happens to the bullet inside the barrel of the ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9870,
+		"nouns": [
+			"study",
+			"bullet",
+			"barrel"
+		],
+		"dOIndex": 19,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9871,
+		"nouns": [],
+		"dOIndex": 20,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "gun; transitional ballistics is the study of what happens as the bullet exits the barrel. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9872,
+		"nouns": [
+			"gun",
+			"ballistics",
+			"study",
+			"bullet",
+			"exits",
+			"barrel"
+		],
+		"dOIndex": 21,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"ballistics"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.0625,
+			"words": [
+				"gun"
+			],
+			"positive": [],
+			"negative": [
+				"gun"
+			]
+		}
+	},
+	{
+		"txt": " Once the bullet has fully exited the barrel, it is in the realm ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9873,
+		"nouns": [
+			"bullet",
+			"barrel",
+			"realm"
+		],
+		"dOIndex": 22,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "of external ballistics",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9874,
+		"nouns": [
+			"ballistics"
+		],
+		"dOIndex": 23,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"ballistics"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9875,
+		"nouns": [],
+		"dOIndex": 24,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " At this point the only acceleration is that of gravity, and the same forces discussed in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9876,
+		"nouns": [
+			"point",
+			"acceleration",
+			"gravity",
+			"forces"
+		],
+		"dOIndex": 25,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"acceleration",
+			"gravity"
+		]
+	},
+	{
+		"txt": "Chapter 6",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9877,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 26,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " take over. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9878,
+		"nouns": [],
+		"dOIndex": 27,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " The last topic ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9879,
+		"nouns": [
+			"topic"
+		],
+		"dOIndex": 28,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "is terminal ballistics",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9880,
+		"nouns": [
+			"ballistics"
+		],
+		"dOIndex": 29,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"ballistics"
+		]
+	},
+	{
+		"txt": " , which is the study of what happens when the bullet hits its target. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9881,
+		"nouns": [
+			"study",
+			"bullet",
+			"hits",
+			"target"
+		],
+		"dOIndex": 30,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " The last two topics are the ones we'll discuss here. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9882,
+		"nouns": [
+			"two",
+			"topics",
+			"ones",
+			"ll"
+		],
+		"dOIndex": 31,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " The other phases are more important to firearm manufacturers and not so much to the shooter. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9883,
+		"nouns": [
+			"phases",
+			"firearm",
+			"manufacturers",
+			"shooter"
+		],
+		"dOIndex": 32,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"firearm",
+			"manufacturers",
+			"shooter"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.1111111111111111,
+			"words": [
+				"important"
+			],
+			"positive": [
+				"important"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " If you don't recall the material in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9884,
+		"nouns": [
+			"t"
+		],
+		"dOIndex": 33,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 6",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9885,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 34,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " , we highly recommend that you review it before continuing.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9886,
+		"nouns": [
+			"review"
+		],
+		"dOIndex": 35,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.18181818181818182,
+			"words": [
+				"recommend"
+			],
+			"positive": [
+				"recommend"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9887,
+		"nouns": [],
+		"dOIndex": 36,
+		"isQuote": false
+	},
+	{
+		"txt": "While we aren't very concerned about what happens in the barrel of the gun, there are a few tidbits we do need to know about the system. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9888,
+		"nouns": [
+			"aren",
+			"t",
+			"barrel",
+			"gun",
+			"tidbits",
+			"system"
+		],
+		"dOIndex": 37,
+		"nouns2": [
+			"tidbits"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.10714285714285714,
+			"words": [
+				"gun",
+				"concerned"
+			],
+			"positive": [],
+			"negative": [
+				"gun",
+				"concerned"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " The first is where the barrel is pointed. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9889,
+		"nouns": [
+			"first",
+			"barrel"
+		],
+		"dOIndex": 38,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " This is referred to as the gun's aim, ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9890,
+		"nouns": [
+			"gun",
+			"aim"
+		],
+		"dOIndex": 39,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "and is almost universally controlled by where the mouse is on the screen.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9891,
+		"nouns": [
+			"mouse",
+			"screen"
+		],
+		"dOIndex": 40,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9892,
+		"nouns": [],
+		"dOIndex": 41,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9893,
+		"nouns": [],
+		"dOIndex": 42,
+		"isQuote": false
+	},
+	{
+		"txt": "The next is the initial velocity of the bullet. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9894,
+		"nouns": [
+			"velocity",
+			"bullet"
+		],
+		"dOIndex": 43,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity"
+		]
+	},
+	{
+		"txt": " The bullet here refers to the actual metal projectile that leaves the barrel; the thing that you load into the gun is called a round and contains a casing, gunpowder, a primer, and, of course, the bullet. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9895,
+		"nouns": [
+			"bullet",
+			"projectile",
+			"barrel",
+			"load",
+			"gun",
+			"round",
+			"gunpowder",
+			"primer",
+			"course",
+			"bullet"
+		],
+		"dOIndex": 44,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"projectile",
+			"gunpowder"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.02564102564102564,
+			"words": [
+				"gun"
+			],
+			"positive": [],
+			"negative": [
+				"gun"
+			]
+		}
+	},
+	{
+		"txt": " The initial velocity is usually measured just after the bullet leaves the muzzle (the end of the barrel) and is appropriately called ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9896,
+		"nouns": [
+			"velocity",
+			"bullet",
+			"muzzle",
+			"end",
+			"barrel"
+		],
+		"dOIndex": 45,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08333333333333333,
+			"words": [
+				"appropriately"
+			],
+			"positive": [
+				"appropriately"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9897,
+		"nouns": [],
+		"dOIndex": 46,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "the muzzle velocity . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9898,
+		"nouns": [
+			"muzzle",
+			"velocity"
+		],
+		"dOIndex": 47,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity"
+		]
+	},
+	{
+		"txt": " Every kind of ammunition is tested at the factory and given a muzzle velocity. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9899,
+		"nouns": [
+			"kind",
+			"ammunition",
+			"factory",
+			"muzzle",
+			"velocity"
+		],
+		"dOIndex": 48,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"ammunition",
+			"factory",
+			"velocity"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.125,
+			"words": [
+				"kind"
+			],
+			"positive": [
+				"kind"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " You can add realism to your game by giving different ammunition different muzzle velocities. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9900,
+		"nouns": [
+			"realism",
+			"game",
+			"ammunition",
+			"muzzle",
+			"velocities"
+		],
+		"dOIndex": 49,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"realism",
+			"ammunition",
+			"velocities"
+		]
+	},
+	{
+		"txt": " This way, a handgun round won't have the same range as a rifle round. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9901,
+		"nouns": [
+			"way",
+			"handgun",
+			"round",
+			"t",
+			"range",
+			"rifle",
+			"round"
+		],
+		"dOIndex": 50,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"handgun"
+		]
+	},
+	{
+		"txt": " Ammunition also comes with a ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9902,
+		"nouns": [
+			"Ammunition"
+		],
+		"dOIndex": 51,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Ammunition"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9903,
+		"nouns": [],
+		"dOIndex": 52,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "bullet weight measured in either grams or grains. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9904,
+		"nouns": [
+			"bullet",
+			"weight",
+			"grams",
+			"grains"
+		],
+		"dOIndex": 53,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " One grain is equal to 0.0648 grams and is an old unit based on the weight of a single seed of wheat!",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9905,
+		"nouns": [
+			"One",
+			"grain",
+			"grams",
+			"unit",
+			"weight",
+			"wheat"
+		],
+		"dOIndex": 54,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9906,
+		"nouns": [],
+		"dOIndex": 55,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9907,
+		"nouns": [],
+		"dOIndex": 56,
+		"isQuote": false
+	},
+	{
+		"txt": "Last, but not least, we need some approximation for the way air resistance will affect the flight of a bullet. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9908,
+		"nouns": [
+			"approximation",
+			"way",
+			"air",
+			"resistance",
+			"flight",
+			"bullet"
+		],
+		"dOIndex": 57,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"approximation",
+			"resistance"
+		]
+	},
+	{
+		"txt": " This is where things start to get interesting for people studying ballistics, but we'll stay away from exotic aerodynamics and use our existing drag model. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9909,
+		"nouns": [
+			"things",
+			"people",
+			"ballistics",
+			"ll",
+			"aerodynamics",
+			"use",
+			"drag",
+			"model"
+		],
+		"dOIndex": 58,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"ballistics",
+			"aerodynamics"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.037037037037037035,
+			"words": [
+				"drag",
+				"interesting"
+			],
+			"positive": [
+				"interesting"
+			],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " First, we should review the current state of first person shooter physics.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9910,
+		"nouns": [
+			"First",
+			"review",
+			"state",
+			"first",
+			"person",
+			"shooter",
+			"physics"
+		],
+		"dOIndex": 59,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"shooter",
+			"physics"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9911,
+		"nouns": [],
+		"dOIndex": 60,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9912,
+		"nouns": [],
+		"dOIndex": 61,
+		"isQuote": false
+	},
+	{
+		"txt": "Firearms in games present a ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9913,
+		"nouns": [
+			"Firearms",
+			"games"
+		],
+		"dOIndex": 62,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Firearms"
+		]
+	},
+	{
+		"txt": "unique problem to the game developer. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9914,
+		"nouns": [
+			"problem",
+			"game",
+			"developer"
+		],
+		"dOIndex": 63,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"problem",
+			"developer"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.2857142857142857,
+			"words": [
+				"problem"
+			],
+			"positive": [],
+			"negative": [
+				"problem"
+			]
+		}
+	},
+	{
+		"txt": " If you have ever been to the firing range, you know that in reality it takes a good deal of practice and concentration to hit a target reliably. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9915,
+		"nouns": [
+			"range",
+			"reality",
+			"practice",
+			"concentration",
+			"target"
+		],
+		"dOIndex": 64,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"reality",
+			"practice",
+			"concentration"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.1,
+			"words": [
+				"reliably",
+				"good",
+				"firing"
+			],
+			"positive": [
+				"reliably",
+				"good"
+			],
+			"negative": [
+				"firing"
+			]
+		}
+	},
+	{
+		"txt": " Considering that target shooting is hard enough to be an Olympic sport under very controlled circumstances, the ability for in game characters to spring from cover and shoot five enemies with five bullets is somewhat superhuman. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9916,
+		"nouns": [
+			"target",
+			"Olympic",
+			"sport",
+			"circumstances",
+			"ability",
+			"game",
+			"characters",
+			"five",
+			"enemies",
+			"five",
+			"bullets"
+		],
+		"dOIndex": 65,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Considering",
+			"Olympic",
+			"circumstances",
+			"ability",
+			"characters",
+			"enemies",
+			"bullets"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.05263157894736842,
+			"words": [
+				"enemies",
+				"shoot",
+				"ability",
+				"hard"
+			],
+			"positive": [
+				"ability"
+			],
+			"negative": [
+				"enemies",
+				"shoot",
+				"hard"
+			]
+		}
+	},
+	{
+		"txt": " We have all played games where you find yourself shooting a target very far away, and the procedure is as simple as pointing the crosshair where you want the bullet to go and clicking the mouse button. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9917,
+		"nouns": [
+			"games",
+			"target",
+			"procedure",
+			"crosshair",
+			"bullet",
+			"mouse",
+			"button"
+		],
+		"dOIndex": 66,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"procedure",
+			"crosshair"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.02564102564102564,
+			"words": [
+				"want"
+			],
+			"positive": [
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " In reality, the skill needed to get a bullet weighing a few grams to hit something a few hundred meters away is so complicated it is amazing that anyone does it with regularity. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9918,
+		"nouns": [
+			"reality",
+			"skill",
+			"bullet",
+			"grams",
+			"meters",
+			"anyone",
+			"regularity"
+		],
+		"dOIndex": 67,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"reality",
+			"regularity"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.11428571428571428,
+			"words": [
+				"amazing"
+			],
+			"positive": [
+				"amazing"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " For those developers wishing to actually model firearm performance in their game, there is a double edged sword to consider.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9919,
+		"nouns": [
+			"developers",
+			"model",
+			"firearm",
+			"performance",
+			"game",
+			"sword"
+		],
+		"dOIndex": 68,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"developers",
+			"firearm",
+			"performance"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.047619047619047616,
+			"words": [
+				"wishing"
+			],
+			"positive": [
+				"wishing"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9920,
+		"nouns": [],
+		"dOIndex": 69,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9921,
+		"nouns": [],
+		"dOIndex": 70,
+		"isQuote": false
+	},
+	{
+		"txt": "The physics of what happens to the bullet in its flight are not simple to boil down. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9922,
+		"nouns": [
+			"physics",
+			"bullet",
+			"flight"
+		],
+		"dOIndex": 71,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"physics"
+		]
+	},
+	{
+		"txt": " However, the behavior of the bullet as it flies downrange is important in the practical art of marksmanship. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9923,
+		"nouns": [
+			"behavior",
+			"bullet",
+			"downrange",
+			"art",
+			"marksmanship"
+		],
+		"dOIndex": 72,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"behavior",
+			"downrange",
+			"marksmanship"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.1,
+			"words": [
+				"important"
+			],
+			"positive": [
+				"important"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " There has been considerable work done to find a way to compare ammunition so that a hunter or marksman can predict the performance of a particular ammunition. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9924,
+		"nouns": [
+			"work",
+			"way",
+			"ammunition",
+			"hunter",
+			"marksman",
+			"performance",
+			"ammunition"
+		],
+		"dOIndex": 73,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"ammunition",
+			"marksman",
+			"performance"
+		]
+	},
+	{
+		"txt": " The result is a pseudophysical factor ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9925,
+		"nouns": [
+			"result",
+			"factor"
+		],
+		"dOIndex": 74,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9926,
+		"nouns": [],
+		"dOIndex": 75,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "called the ballistic coefficient (BC). ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9927,
+		"nouns": [
+			"coefficient",
+			"BC"
+		],
+		"dOIndex": 76,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coefficient"
+		]
+	},
+	{
+		"txt": " The BC is a ratio that determines the ability of a particular bullet to retain its downrange velocity compared to some standard bullet. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9928,
+		"nouns": [
+			"BC",
+			"ratio",
+			"ability",
+			"bullet",
+			"downrange",
+			"velocity",
+			"bullet"
+		],
+		"dOIndex": 77,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"ability",
+			"downrange",
+			"velocity"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08,
+			"words": [
+				"ability"
+			],
+			"positive": [
+				"ability"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The most common form is that of the G1 reference projectile. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9929,
+		"nouns": [
+			"form",
+			"G",
+			"reference",
+			"projectile"
+		],
+		"dOIndex": 78,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"reference",
+			"projectile"
+		]
+	},
+	{
+		"txt": " However, this number has limited use, as it does not take into account modern bullet shapes that provide very low drag. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9930,
+		"nouns": [
+			"number",
+			"use",
+			"account",
+			"bullet",
+			"shapes",
+			"drag"
+		],
+		"dOIndex": 79,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"account"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.08695652173913043,
+			"words": [
+				"drag",
+				"limited"
+			],
+			"positive": [],
+			"negative": [
+				"drag",
+				"limited"
+			]
+		}
+	},
+	{
+		"txt": " There are updated models whose designations are G2, G3, and ECT. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9931,
+		"nouns": [
+			"models",
+			"designations",
+			"G",
+			"G",
+			"ECT"
+		],
+		"dOIndex": 80,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"designations"
+		]
+	},
+	{
+		"txt": " If you are interested in the details of highly accurate ballistic modeling, there are a few free programs that can provide you in depth models such as Remington's Shoot! ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9932,
+		"nouns": [
+			"details",
+			"programs",
+			"depth",
+			"models",
+			"Remington"
+		],
+		"dOIndex": 81,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"details",
+			"programs",
+			"Remington"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.06451612903225806,
+			"words": [
+				"shoot",
+				"free",
+				"interested"
+			],
+			"positive": [
+				"free",
+				"interested"
+			],
+			"negative": [
+				"shoot"
+			]
+		}
+	},
+	{
+		"txt": " and the GNU Ballistics program. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9933,
+		"nouns": [
+			"GNU",
+			"Ballistics",
+			"program"
+		],
+		"dOIndex": 82,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Ballistics",
+			"program"
+		]
+	},
+	{
+		"txt": " Given that most first person shooters don't yet include wind effects or bullet drop, we'll limit ourselves to a simplified method of turning the existing parameters in the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9934,
+		"nouns": [
+			"first",
+			"person",
+			"shooters",
+			"t",
+			"wind",
+			"effects",
+			"bullet",
+			"drop",
+			"ll",
+			"limit",
+			"method",
+			"parameters"
+		],
+		"dOIndex": 83,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"shooters",
+			"effects",
+			"parameters"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.03333333333333333,
+			"words": [
+				"drop"
+			],
+			"positive": [],
+			"negative": [
+				"drop"
+			]
+		}
+	},
+	{
+		"txt": "Chapter 6 projectile ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9935,
+		"nouns": [
+			"Chapter",
+			"projectile"
+		],
+		"dOIndex": 84,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter",
+			"projectile"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9936,
+		"nouns": [],
+		"dOIndex": 85,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9937,
+		"nouns": [],
+		"dOIndex": 86,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9938,
+		"nouns": [],
+		"dOIndex": 87,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "algorithm.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9939,
+		"nouns": [
+			"algorithm"
+		],
+		"dOIndex": 88,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"algorithm"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9940,
+		"nouns": [],
+		"dOIndex": 89,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9941,
+		"nouns": [],
+		"dOIndex": 90,
+		"isQuote": false
+	},
+	{
+		"txt": "Taking Aim",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9942,
+		"nouns": [],
+		"dOIndex": 91,
+		"nouns2": [
+			"Taking"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9943,
+		"nouns": [],
+		"dOIndex": 92,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": true,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "When discussing aim, ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9944,
+		"nouns": [
+			"aim"
+		],
+		"dOIndex": 93,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"aim"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9945,
+		"nouns": [],
+		"dOIndex": 94,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9946,
+		"nouns": [],
+		"dOIndex": 95,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "we'll primarily be talking about rifles or carbines here, as handguns are not usually used for long distance shooting. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9947,
+		"nouns": [
+			"ll",
+			"rifles",
+			"carbines",
+			"handguns",
+			"distance"
+		],
+		"dOIndex": 96,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"ll",
+			"rifles",
+			"carbines",
+			"handguns",
+			"distance"
+		],
+		"nouns2": [
+			"carbines",
+			"handguns",
+			"distance"
+		]
+	},
+	{
+		"txt": " Similarly, shotguns, given that they fire many small projectiles, are generally not carefully aimed but instead pointed. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9948,
+		"nouns": [
+			"shotguns",
+			"fire",
+			"projectiles"
+		],
+		"dOIndex": 97,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"shotguns",
+			"fire",
+			"projectiles",
+			"They"
+		],
+		"nouns2": [
+			"Similarly",
+			"shotguns",
+			"projectiles"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.21052631578947367,
+			"words": [
+				"carefully",
+				"fire"
+			],
+			"positive": [],
+			"negative": [
+				"carefully",
+				"fire"
+			]
+		}
+	},
+	{
+		"txt": " Both of these weapons are what are ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9949,
+		"nouns": [
+			"weapons"
+		],
+		"dOIndex": 98,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"weapons"
+		],
+		"nouns2": [
+			"weapons"
+		]
+	},
+	{
+		"txt": "known as point blank weapons",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9950,
+		"nouns": [
+			"point",
+			"weapons"
+		],
+		"dOIndex": 99,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"point",
+			"weapons"
+		],
+		"nouns2": [
+			"weapons"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9951,
+		"nouns": [],
+		"dOIndex": 100,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": " Rifles have a point blank range, which we will discuss, but for handguns and shotguns this really refers to the fact that at the ranges where these weapons are effective, you can reasonably expect to hit where you the point the gun. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9952,
+		"nouns": [
+			"Rifles",
+			"point",
+			"range",
+			"handguns",
+			"shotguns",
+			"fact",
+			"ranges",
+			"weapons",
+			"point",
+			"gun"
+		],
+		"dOIndex": 101,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"Rifles",
+			"point",
+			"range",
+			"handguns",
+			"shotguns",
+			"fact",
+			"ranges",
+			"weapons",
+			"point",
+			"gun"
+		],
+		"nouns2": [
+			"Rifles",
+			"handguns",
+			"shotguns",
+			"weapons"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.022727272727272728,
+			"words": [
+				"gun",
+				"effective"
+			],
+			"positive": [
+				"effective"
+			],
+			"negative": [
+				"gun"
+			]
+		}
+	},
+	{
+		"txt": " That is not to say that these weapons don't need to be aimed to be effective, but in the fast paced combat central to most first person shooters it would be tedious to have the player use the sights on a handgun to effectively hit anything. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9953,
+		"nouns": [
+			"weapons",
+			"t",
+			"combat",
+			"first",
+			"person",
+			"shooters",
+			"player",
+			"use",
+			"sights",
+			"handgun"
+		],
+		"dOIndex": 102,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"weapons",
+			"t",
+			"combat",
+			"first",
+			"person",
+			"shooters",
+			"player",
+			"use",
+			"sights",
+			"handgun"
+		],
+		"nouns2": [
+			"weapons",
+			"shooters",
+			"handgun"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.0625,
+			"words": [
+				"effectively",
+				"combat",
+				"effective"
+			],
+			"positive": [
+				"effectively",
+				"effective"
+			],
+			"negative": [
+				"combat"
+			]
+		}
+	},
+	{
+		"txt": " Instead, most games use a ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9954,
+		"nouns": [
+			"games",
+			"use"
+		],
+		"dOIndex": 103,
+		"ignoreDOBcNoQuotes": false,
+		"isQuote": false,
+		"nounsProcAll": [
+			"games",
+			"use"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"Instead"
+		]
+	},
+	{
+		"txt": " \"shoot from the hip\" ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9955,
+		"nouns": [
+			"hip"
+		],
+		"dOIndex": 104,
+		"isQuote": true,
+		"nounsProcAll": [
+			"hip"
+		],
+		"sfxfx": [],
+		"gspkNameUnknown": "narrator",
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.16666666666666666,
+			"words": [
+				"shoot"
+			],
+			"positive": [],
+			"negative": [
+				"shoot"
+			]
+		}
+	},
+	{
+		"txt": " or free aim model, where the gun is not even in line with the camera. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9956,
+		"nouns": [
+			"aim",
+			"model",
+			"gun",
+			"line",
+			"camera"
+		],
+		"dOIndex": 105,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [
+			"aim",
+			"model",
+			"gun",
+			"line",
+			"camera"
+		],
+		"sfxfx": [],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"gun",
+				"free"
+			],
+			"positive": [
+				"free"
+			],
+			"negative": [
+				"gun"
+			]
+		}
+	},
+	{
+		"txt": " The careful programmer might still check to see if the target is within the effective range of the bullet before counting it as a hit even when auto aiming in this manner. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9957,
+		"nouns": [
+			"programmer",
+			"check",
+			"target",
+			"range",
+			"bullet",
+			"hit",
+			"auto",
+			"manner"
+		],
+		"dOIndex": 106,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"programmer",
+			"check",
+			"target",
+			"range",
+			"bullet",
+			"hit",
+			"auto",
+			"manner"
+		],
+		"nouns2": [
+			"programmer"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.11764705882352941,
+			"words": [
+				"effective",
+				"careful"
+			],
+			"positive": [
+				"effective",
+				"careful"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The effective range is the distance the bullet can travel before hitting the ground. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9958,
+		"nouns": [
+			"range",
+			"distance",
+			"bullet",
+			"travel",
+			"ground"
+		],
+		"dOIndex": 107,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"range",
+			"distance",
+			"bullet",
+			"travel",
+			"ground"
+		],
+		"nouns2": [
+			"distance"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.125,
+			"words": [
+				"effective"
+			],
+			"positive": [
+				"effective"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Determining this is a straightforward application of the equations in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9959,
+		"nouns": [
+			"application",
+			"equations"
+		],
+		"dOIndex": 108,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"application",
+			"equations"
+		],
+		"nouns2": [
+			"Determining",
+			"application",
+			"equations"
+		]
+	},
+	{
+		"txt": "Chapter 2 and ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9960,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 109,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"Chapter"
+		],
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9961,
+		"nouns": [],
+		"dOIndex": 110,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "Chapter 6 .",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9962,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 111,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"Chapter"
+		],
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9963,
+		"nouns": [],
+		"dOIndex": 112,
+		"isQuote": false
+	},
+	{
+		"txt": "To discuss ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9964,
+		"nouns": [],
+		"dOIndex": 113,
+		"isQuote": false
+	},
+	{
+		"txt": "firearms, we've adapted the code from the ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9965,
+		"nouns": [
+			"firearms",
+			"ve",
+			"code"
+		],
+		"dOIndex": 114,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"firearms"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9966,
+		"nouns": [],
+		"dOIndex": 115,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Cannon2 example in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9967,
+		"nouns": [
+			"Cannon",
+			"example"
+		],
+		"dOIndex": 116,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Cannon",
+			"example"
+		]
+	},
+	{
+		"txt": "Chapter 6",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9968,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 117,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " to run in a Java program called Marksman. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9969,
+		"nouns": [
+			"Java",
+			"program",
+			"Marksman"
+		],
+		"dOIndex": 118,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"program",
+			"Marksman"
+		]
+	},
+	{
+		"txt": " In our example, the player is looking through a scope at a target of 1 meter by 1 meter. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9970,
+		"nouns": [
+			"example",
+			"player",
+			"scope",
+			"target",
+			"meter",
+			"meter"
+		],
+		"dOIndex": 119,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example"
+		]
+	},
+	{
+		"txt": " We've provided him an adjustable level of zoom so that as the range increases, he can still see the target. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9971,
+		"nouns": [
+			"ve",
+			"level",
+			"range",
+			"increases",
+			"target"
+		],
+		"dOIndex": 120,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"increases"
+		]
+	},
+	{
+		"txt": " The aiming point is shown as an empty circle, and the bullet hole as a black filled circle. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9972,
+		"nouns": [
+			"point",
+			"circle",
+			"bullet",
+			"hole",
+			"circle"
+		],
+		"dOIndex": 121,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.05,
+			"words": [
+				"empty"
+			],
+			"positive": [],
+			"negative": [
+				"empty"
+			]
+		}
+	},
+	{
+		"txt": " The method we've used to determine where the user is aiming in the model world converts the pixel based location of the mouse to a coordinate in the model world. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9973,
+		"nouns": [
+			"method",
+			"ve",
+			"user",
+			"model",
+			"world",
+			"converts",
+			"pixel",
+			"location",
+			"mouse",
+			"coordinate",
+			"model",
+			"world"
+		],
+		"dOIndex": 122,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"converts",
+			"location",
+			"coordinate"
+		]
+	},
+	{
+		"txt": " This distance and the range are then used to find the angles required to aim the gun. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9974,
+		"nouns": [
+			"distance",
+			"range",
+			"angles",
+			"aim",
+			"gun"
+		],
+		"dOIndex": 123,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distance"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.05263157894736842,
+			"words": [
+				"gun"
+			],
+			"positive": [],
+			"negative": [
+				"gun"
+			]
+		}
+	},
+	{
+		"txt": " The code to do this is shown next, where alp and gmm are the angles of inclination and bearing. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9975,
+		"nouns": [
+			"code",
+			"alp",
+			"gmm",
+			"angles",
+			"inclination"
+		],
+		"dOIndex": 124,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"inclination"
+		]
+	},
+	{
+		"txt": " These are measured from horizontal and the line of view:",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9976,
+		"nouns": [
+			"are",
+			"line",
+			"view"
+		],
+		"dOIndex": 125,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 9977,
+		"nouns": [],
+		"dOIndex": 126,
+		"isQuote": false
+	},
+	{
+		"txt": "where targetH/drawH is just the ratio of the target height to the height of the target in pixels on the screen. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9978,
+		"nouns": [
+			"targetH",
+			"/",
+			"drawH",
+			"ratio",
+			"target",
+			"height",
+			"height",
+			"target",
+			"pixels",
+			"screen"
+		],
+		"dOIndex": 127,
+		"nouns2": [
+			"targetH"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " This allows the mouse coordinate given in pixels to be converted to meters. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9979,
+		"nouns": [
+			"mouse",
+			"pixels",
+			"meters"
+		],
+		"dOIndex": 128,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " The arctangent then converts the ratio of these distances to an angle for the gun. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9980,
+		"nouns": [
+			"arctangent",
+			"converts",
+			"ratio",
+			"distances",
+			"angle",
+			"gun"
+		],
+		"dOIndex": 129,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"arctangent",
+			"converts",
+			"distances"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.058823529411764705,
+			"words": [
+				"gun"
+			],
+			"positive": [],
+			"negative": [
+				"gun"
+			]
+		}
+	},
+	{
+		"txt": " The constant 200 refers to the pixel coordinate system, which is 200 pixels away from the center of the target. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9981,
+		"nouns": [
+			"pixel",
+			"system",
+			"pixels",
+			"center",
+			"target"
+		],
+		"dOIndex": 130,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " If you were to adapt this for a full 3D rendering system, you could remove a lot of these conversions we have to do.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9982,
+		"nouns": [
+			"D",
+			"system",
+			"lot",
+			"conversions"
+		],
+		"dOIndex": 131,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"conversions"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9983,
+		"nouns": [],
+		"dOIndex": 132,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9984,
+		"nouns": [],
+		"dOIndex": 133,
+		"isQuote": false
+	},
+	{
+		"txt": "At the 10 meter range shown in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9985,
+		"nouns": [
+			"meter",
+			"range"
+		],
+		"dOIndex": 134,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 18 1",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9986,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 135,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " , we are within point blank range and the bullet hole lines up with the sights.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9987,
+		"nouns": [
+			"point",
+			"range",
+			"bullet",
+			"hole",
+			"lines",
+			"sights"
+		],
+		"dOIndex": 136,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9988,
+		"nouns": [],
+		"dOIndex": 137,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9989,
+		"nouns": [],
+		"dOIndex": 138,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9990,
+		"nouns": [],
+		"dOIndex": 139,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9991,
+		"nouns": [],
+		"dOIndex": 140,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9992,
+		"nouns": [],
+		"dOIndex": 141,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 18 1. Point blank range",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9993,
+		"nouns": [
+			"Figure",
+			"Point",
+			"range"
+		],
+		"dOIndex": 142,
+		"nouns2": [
+			"Figure"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 9994,
+		"nouns": [],
+		"dOIndex": 143,
+		"isQuote": false
+	},
+	{
+		"txt": "In ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9995,
+		"nouns": [],
+		"dOIndex": 144,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 18 2",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9996,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 145,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " , with the target at 100 meters, we see that for some reason the bullet is not hitting the target where we have pointed the weapon. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9997,
+		"nouns": [
+			"target",
+			"meters",
+			"reason",
+			"bullet",
+			"target",
+			"weapon"
+		],
+		"dOIndex": 146,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " At 300 meters, the bullet hole isn't even on the target. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9998,
+		"nouns": [
+			"meters",
+			"bullet",
+			"hole",
+			"isn",
+			"t",
+			"target"
+		],
+		"dOIndex": 147,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " You can see that by simply accounting for projective motion and idealized drag, we are already having trouble hitting the bull's eye. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 9999,
+		"nouns": [
+			"motion",
+			"drag",
+			"trouble",
+			"bull",
+			"eye"
+		],
+		"dOIndex": 148,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"trouble"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.125,
+			"words": [
+				"trouble",
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"trouble",
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " The process by which these differences are accounted for is called zeroing the sights .",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10000,
+		"nouns": [
+			"process",
+			"differences",
+			"sights"
+		],
+		"dOIndex": 149,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"process",
+			"differences"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10001,
+		"nouns": [],
+		"dOIndex": 150,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10002,
+		"nouns": [],
+		"dOIndex": 151,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10003,
+		"nouns": [],
+		"dOIndex": 152,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10004,
+		"nouns": [],
+		"dOIndex": 153,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10005,
+		"nouns": [],
+		"dOIndex": 154,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 18 2. Hitting lower than expected",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10006,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 155,
+		"nouns2": [
+			"Figure",
+			"Hitting"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10007,
+		"nouns": [],
+		"dOIndex": 156,
+		"isQuote": false
+	},
+	{
+		"txt": "Zeroing the Sights",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10008,
+		"nouns": [
+			"Sights"
+		],
+		"dOIndex": 157,
+		"nouns2": [
+			"Zeroing",
+			"Sights"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10009,
+		"nouns": [],
+		"dOIndex": 158,
+		"isQuote": false
+	},
+	{
+		"txt": "The idea of zeroing the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10010,
+		"nouns": [
+			"idea"
+		],
+		"dOIndex": 159,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10011,
+		"nouns": [],
+		"dOIndex": 160,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10012,
+		"nouns": [],
+		"dOIndex": 161,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "sights is probably the most important thing to model if you want to have realistic gunplay in your game. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10013,
+		"nouns": [
+			"sights",
+			"model",
+			"gunplay",
+			"game"
+		],
+		"dOIndex": 162,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"gunplay"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.15,
+			"words": [
+				"want",
+				"important"
+			],
+			"positive": [
+				"want",
+				"important"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " As we mentioned before, when players are running from room to room, they probably don't want to be thinking about the wind and the range. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10014,
+		"nouns": [
+			"players",
+			"room",
+			"room",
+			"t",
+			"wind",
+			"range"
+		],
+		"dOIndex": 163,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"players"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.037037037037037035,
+			"words": [
+				"want"
+			],
+			"positive": [],
+			"negative": [
+				"want"
+			]
+		}
+	},
+	{
+		"txt": " However, for a hunting simulation or a sniper game, it may be appropriate to introduce this.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10015,
+		"nouns": [
+			"simulation",
+			"sniper",
+			"game"
+		],
+		"dOIndex": 164,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"simulation"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.11764705882352941,
+			"words": [
+				"appropriate"
+			],
+			"positive": [
+				"appropriate"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10016,
+		"nouns": [],
+		"dOIndex": 165,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10017,
+		"nouns": [],
+		"dOIndex": 166,
+		"isQuote": false
+	},
+	{
+		"txt": "When a person is looking through a scope, her body and the rifle become a rigid body so that to change the aim of the weapon, she must rotate her entire body. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10018,
+		"nouns": [
+			"person",
+			"scope",
+			"body",
+			"rifle",
+			"body",
+			"change",
+			"aim",
+			"weapon",
+			"body"
+		],
+		"dOIndex": 167,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"highfreq": {
+			"body": 3
+		}
+	},
+	{
+		"txt": " This is convenient for us, because the player generally controls the shooter's position with his left hand via the keyboard and the direction of aim with the right hand. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10019,
+		"nouns": [
+			"player",
+			"controls",
+			"shooter",
+			"position",
+			"hand",
+			"keyboard",
+			"direction",
+			"aim",
+			"right",
+			"hand"
+		],
+		"dOIndex": 168,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"controls",
+			"shooter",
+			"position",
+			"keyboard",
+			"direction"
+		]
+	},
+	{
+		"txt": " Other methods of aiming, briefly described previously as free aim, don't really have a counterpart in the real world, so we'll be limiting ourselves to this solid body aiming.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10020,
+		"nouns": [
+			"methods",
+			"aim",
+			"t",
+			"counterpart",
+			"world",
+			"ll",
+			"body"
+		],
+		"dOIndex": 169,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"methods",
+			"counterpart"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.1,
+			"words": [
+				"solid",
+				"free"
+			],
+			"positive": [
+				"solid",
+				"free"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10021,
+		"nouns": [],
+		"dOIndex": 170,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10022,
+		"nouns": [],
+		"dOIndex": 171,
+		"isQuote": false
+	},
+	{
+		"txt": "Bullet drop: Gravity and air resistance",
+		"why": "p",
+		"tags": [
+			"a",
+			"h4",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10023,
+		"nouns": [
+			"Bullet",
+			"drop",
+			"Gravity",
+			"air",
+			"resistance"
+		],
+		"dOIndex": 172,
+		"nouns2": [
+			"Bullet",
+			"Gravity",
+			"resistance"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.16666666666666666,
+			"words": [
+				"drop"
+			],
+			"positive": [],
+			"negative": [
+				"drop"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10024,
+		"nouns": [],
+		"dOIndex": 173,
+		"isQuote": false
+	},
+	{
+		"txt": "If you are aiming a rifle horizontally, ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10025,
+		"nouns": [
+			"rifle"
+		],
+		"dOIndex": 174,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10026,
+		"nouns": [],
+		"dOIndex": 175,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10027,
+		"nouns": [],
+		"dOIndex": 176,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "you might expect that the bullet leaves the muzzle horizontally, and that gravity and air resistance cause it to drop from there. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10028,
+		"nouns": [
+			"bullet",
+			"muzzle",
+			"gravity",
+			"air",
+			"resistance",
+			"cause",
+			"drop"
+		],
+		"dOIndex": 177,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"gravity",
+			"resistance"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.043478260869565216,
+			"words": [
+				"drop"
+			],
+			"positive": [],
+			"negative": [
+				"drop"
+			]
+		}
+	},
+	{
+		"txt": " ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10029,
+		"nouns": [],
+		"dOIndex": 178,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 18 3",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10030,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 179,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " shows a rifle and scope combination that is mounted perfectly parallel. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10031,
+		"nouns": [
+			"rifle",
+			"scope",
+			"combination"
+		],
+		"dOIndex": 180,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"combination"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.23076923076923078,
+			"words": [
+				"perfectly"
+			],
+			"positive": [
+				"perfectly"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Ignoring all other factors for a minute, we see that the bullet will never hit where the scope is pointed. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10032,
+		"nouns": [
+			"factors",
+			"minute",
+			"bullet",
+			"scope"
+		],
+		"dOIndex": 181,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Ignoring",
+			"factors"
+		]
+	},
+	{
+		"txt": " It will always be a few centimeters low.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10033,
+		"nouns": [
+			"centimeters"
+		],
+		"dOIndex": 182,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"centimeters"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10034,
+		"nouns": [],
+		"dOIndex": 183,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10035,
+		"nouns": [],
+		"dOIndex": 184,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10036,
+		"nouns": [],
+		"dOIndex": 185,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10037,
+		"nouns": [],
+		"dOIndex": 186,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10038,
+		"nouns": [],
+		"dOIndex": 187,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 18 3. Zero elevation scope",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10039,
+		"nouns": [
+			"Figure",
+			"Zero",
+			"elevation",
+			"scope"
+		],
+		"dOIndex": 188,
+		"nouns2": [
+			"Figure",
+			"elevation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10040,
+		"nouns": [],
+		"dOIndex": 189,
+		"isQuote": false
+	},
+	{
+		"txt": "By adjusting the elevation control of the scope, we can make the rifle hit where the scope is pointed. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10041,
+		"nouns": [
+			"elevation",
+			"control",
+			"scope",
+			"rifle",
+			"scope"
+		],
+		"dOIndex": 190,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"elevation",
+			"control"
+		]
+	},
+	{
+		"txt": " (See ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10042,
+		"nouns": [],
+		"dOIndex": 191,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 18 4.) The range at which the bullet will cross the line defined by the scope is called ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10043,
+		"nouns": [
+			"Figure",
+			"range",
+			"bullet",
+			"line",
+			"scope"
+		],
+		"dOIndex": 192,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10044,
+		"nouns": [],
+		"dOIndex": 193,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "the zero range . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10045,
+		"nouns": [
+			"zero",
+			"range"
+		],
+		"dOIndex": 194,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " If a target is at the zero range, you simply point the crosshairs and pull the trigger.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10046,
+		"nouns": [
+			"target",
+			"zero",
+			"range",
+			"point",
+			"crosshairs",
+			"trigger"
+		],
+		"dOIndex": 195,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"crosshairs",
+			"trigger"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10047,
+		"nouns": [],
+		"dOIndex": 196,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10048,
+		"nouns": [],
+		"dOIndex": 197,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10049,
+		"nouns": [],
+		"dOIndex": 198,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10050,
+		"nouns": [],
+		"dOIndex": 199,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10051,
+		"nouns": [],
+		"dOIndex": 200,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 18 4. Scope with elevation",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10052,
+		"nouns": [
+			"Figure",
+			"Scope",
+			"elevation"
+		],
+		"dOIndex": 201,
+		"nouns2": [
+			"Figure",
+			"elevation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10053,
+		"nouns": [],
+		"dOIndex": 202,
+		"isQuote": false
+	},
+	{
+		"txt": "If we remove the target and graph the trajectory, it would look something like ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10054,
+		"nouns": [
+			"target",
+			"graph",
+			"trajectory"
+		],
+		"dOIndex": 203,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"trajectory"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.13333333333333333,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "Figure 18 5",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10055,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 204,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10056,
+		"nouns": [],
+		"dOIndex": 205,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10057,
+		"nouns": [],
+		"dOIndex": 206,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10058,
+		"nouns": [],
+		"dOIndex": 207,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10059,
+		"nouns": [],
+		"dOIndex": 208,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10060,
+		"nouns": [],
+		"dOIndex": 209,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10061,
+		"nouns": [],
+		"dOIndex": 210,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 18 5. Ballistic trajectory",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10062,
+		"nouns": [
+			"Figure",
+			"Ballistic",
+			"trajectory"
+		],
+		"dOIndex": 211,
+		"nouns2": [
+			"Figure",
+			"Ballistic",
+			"trajectory"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10063,
+		"nouns": [],
+		"dOIndex": 212,
+		"isQuote": false
+	},
+	{
+		"txt": "Here we can see there is a second point in which the bullet will cross the line made by the scope's crosshairs. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10064,
+		"nouns": [
+			"second",
+			"point",
+			"bullet",
+			"line",
+			"scope",
+			"crosshairs"
+		],
+		"dOIndex": 213,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"crosshairs"
+		]
+	},
+	{
+		"txt": " This is called ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10065,
+		"nouns": [],
+		"dOIndex": 214,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10066,
+		"nouns": [],
+		"dOIndex": 215,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "the far zero, or second zero . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10067,
+		"nouns": [
+			"zero",
+			"second",
+			"zero"
+		],
+		"dOIndex": 216,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " This is generally where the thing you will be shooting at will be. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10068,
+		"nouns": [],
+		"dOIndex": 217,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " This diagram is often available from ammunition suppliers. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10069,
+		"nouns": [
+			"diagram",
+			"ammunition",
+			"suppliers"
+		],
+		"dOIndex": 218,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"diagram",
+			"ammunition",
+			"suppliers"
+		]
+	},
+	{
+		"txt": " More often, they provide ballistic tables of downrange heights. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10070,
+		"nouns": [
+			"tables",
+			"downrange",
+			"heights"
+		],
+		"dOIndex": 219,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"downrange",
+			"heights"
+		]
+	},
+	{
+		"txt": " It is important when using these charts that you remember they assume the scope to be horizontal and that the bullet starts with a negative height below the scope line. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10071,
+		"nouns": [
+			"charts",
+			"scope",
+			"bullet",
+			"height",
+			"scope",
+			"line"
+		],
+		"dOIndex": 220,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"negative",
+				"important"
+			],
+			"positive": [
+				"important"
+			],
+			"negative": [
+				"negative"
+			]
+		}
+	},
+	{
+		"txt": " ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10072,
+		"nouns": [],
+		"dOIndex": 221,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Table 18 1",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10073,
+		"nouns": [
+			"Table"
+		],
+		"dOIndex": 222,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " shows data from Remington's website and assumes the rifle was zeroed at 100 yards; it tells you how far the bullet is below the horizontal at every 50 yards past that 0. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10074,
+		"nouns": [
+			"data",
+			"Remington",
+			"website",
+			"rifle",
+			"yards",
+			"bullet",
+			"yards"
+		],
+		"dOIndex": 223,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Remington",
+			"website"
+		]
+	},
+	{
+		"txt": " You can tune the drag coefficient in the projectile simulation to match these elevations.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10075,
+		"nouns": [
+			"tune",
+			"drag",
+			"coefficient",
+			"projectile",
+			"simulation",
+			"elevations"
+		],
+		"dOIndex": 224,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coefficient",
+			"projectile",
+			"simulation",
+			"elevations"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.06666666666666667,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10076,
+		"nouns": [],
+		"dOIndex": 225,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Table 18 1. Long range trajectory Remington Express .45–70 Govt",
+		"why": "p",
+		"tags": [
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10077,
+		"nouns": [
+			"Table",
+			"Long",
+			"range",
+			"trajectory Remington",
+			"Express",
+			"–",
+			"Govt"
+		],
+		"dOIndex": 226,
+		"nouns2": [
+			"trajectory",
+			"Remington",
+			"Express"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Range in yards",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10078,
+		"nouns": [
+			"Range",
+			"yards"
+		],
+		"dOIndex": 227,
+		"isQuote": false
+	},
+	{
+		"txt": "100",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10079,
+		"nouns": [],
+		"dOIndex": 228,
+		"isQuote": false
+	},
+	{
+		"txt": "150",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10080,
+		"nouns": [],
+		"dOIndex": 229,
+		"isQuote": false
+	},
+	{
+		"txt": "200",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10081,
+		"nouns": [],
+		"dOIndex": 230,
+		"isQuote": false
+	},
+	{
+		"txt": "250",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10082,
+		"nouns": [],
+		"dOIndex": 231,
+		"isQuote": false
+	},
+	{
+		"txt": "300",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10083,
+		"nouns": [],
+		"dOIndex": 232,
+		"isQuote": false
+	},
+	{
+		"txt": "400",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10084,
+		"nouns": [],
+		"dOIndex": 233,
+		"isQuote": false
+	},
+	{
+		"txt": "500",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10085,
+		"nouns": [],
+		"dOIndex": 234,
+		"isQuote": false
+	},
+	{
+		"txt": "Drop in inches",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10086,
+		"nouns": [
+			"inches"
+		],
+		"dOIndex": 235,
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.3333333333333333,
+			"words": [
+				"drop"
+			],
+			"positive": [],
+			"negative": [
+				"drop"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "0",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10087,
+		"nouns": [],
+		"dOIndex": 236,
+		"isQuote": false
+	},
+	{
+		"txt": "−4.6",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10088,
+		"nouns": [
+			"−"
+		],
+		"dOIndex": 237,
+		"isQuote": false
+	},
+	{
+		"txt": "−13.8",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10089,
+		"nouns": [
+			"−"
+		],
+		"dOIndex": 238,
+		"isQuote": false
+	},
+	{
+		"txt": "−28.6",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10090,
+		"nouns": [
+			"−"
+		],
+		"dOIndex": 239,
+		"isQuote": false
+	},
+	{
+		"txt": "−50.1",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10091,
+		"nouns": [
+			"−"
+		],
+		"dOIndex": 240,
+		"isQuote": false
+	},
+	{
+		"txt": "−115.47",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10092,
+		"nouns": [
+			"−"
+		],
+		"dOIndex": 241,
+		"isQuote": false
+	},
+	{
+		"txt": "−219.1",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10093,
+		"nouns": [
+			"−"
+		],
+		"dOIndex": 242,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10094,
+		"nouns": [],
+		"dOIndex": 243,
+		"isQuote": false
+	},
+	{
+		"txt": "From this table you can see that the bullet drop is over two feet at 250 yards. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10095,
+		"nouns": [
+			"table",
+			"bullet",
+			"drop",
+			"two",
+			"feet",
+			"yards"
+		],
+		"dOIndex": 244,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.05555555555555555,
+			"words": [
+				"drop"
+			],
+			"positive": [],
+			"negative": [
+				"drop"
+			]
+		}
+	},
+	{
+		"txt": " This means that if the target is at 250 yards and your scope is zeroed at 100 yards, then you would have to aim two feet above your target to hit it. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10096,
+		"nouns": [
+			"target",
+			"yards",
+			"scope",
+			"yards",
+			"aim",
+			"two",
+			"feet",
+			"target"
+		],
+		"dOIndex": 245,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " That might be high enough that you can't even see the target in the scope anymore!",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10097,
+		"nouns": [
+			"t",
+			"target",
+			"scope"
+		],
+		"dOIndex": 246,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10098,
+		"nouns": [],
+		"dOIndex": 247,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10099,
+		"nouns": [],
+		"dOIndex": 248,
+		"isQuote": false
+	},
+	{
+		"txt": "To counteract this problem, most rifles come with scopes that have ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10100,
+		"nouns": [
+			"problem",
+			"rifles",
+			"scopes"
+		],
+		"dOIndex": 249,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"problem"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.16666666666666666,
+			"words": [
+				"problem"
+			],
+			"positive": [],
+			"negative": [
+				"problem"
+			]
+		}
+	},
+	{
+		"txt": "elevation adjustments. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10101,
+		"nouns": [
+			"elevation",
+			"adjustments"
+		],
+		"dOIndex": 250,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"elevation",
+			"adjustments"
+		]
+	},
+	{
+		"txt": " This is a knob on the side of the scope that can be rotated to discrete settings called clicks. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10102,
+		"nouns": [
+			"knob",
+			"side",
+			"scope",
+			"settings",
+			"clicks"
+		],
+		"dOIndex": 251,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"settings"
+		]
+	},
+	{
+		"txt": " Most scopes use a 1/4 minute of angle adjustment per click although some use 1/8, 1/2, or even full minutes. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10103,
+		"nouns": [
+			"scopes",
+			"use",
+			"/",
+			"minute",
+			"angle",
+			"adjustment",
+			"click",
+			"use",
+			"/",
+			"/",
+			"minutes"
+		],
+		"dOIndex": 252,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"adjustment",
+			"minutes"
+		]
+	},
+	{
+		"txt": " A minute of angle is simply 1/60 of a degree. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10104,
+		"nouns": [
+			"minute",
+			"angle",
+			"/",
+			"degree"
+		],
+		"dOIndex": 253,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Therefore, when adjusting for elevation, the shooter can turn a knob on the scope, and as she hears the clicks, she knows that she has adjusted her scope however many minutes of angle. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10105,
+		"nouns": [
+			"elevation",
+			"shooter",
+			"knob",
+			"scope",
+			"clicks",
+			"scope",
+			"minutes",
+			"angle"
+		],
+		"dOIndex": 254,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Therefore",
+			"elevation",
+			"shooter",
+			"minutes"
+		]
+	},
+	{
+		"txt": " Now when she re aims the crosshairs on the target, the barrel will have a slightly different angle than it did before, essentially aiming higher to accommodate the longer distance.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10106,
+		"nouns": [
+			"re",
+			"crosshairs",
+			"target",
+			"barrel",
+			"angle",
+			"distance"
+		],
+		"dOIndex": 255,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"crosshairs",
+			"distance"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10107,
+		"nouns": [],
+		"dOIndex": 256,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10108,
+		"nouns": [],
+		"dOIndex": 257,
+		"isQuote": false
+	},
+	{
+		"txt": "To achieve high accuracy in the field, the shooter would know that she zeroed her rifle to a certain range. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10109,
+		"nouns": [
+			"accuracy",
+			"field",
+			"shooter",
+			"rifle",
+			"range"
+		],
+		"dOIndex": 258,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"accuracy",
+			"shooter"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.047619047619047616,
+			"words": [
+				"certain"
+			],
+			"positive": [
+				"certain"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Then, when attempting a shot, she would estimate the range to her target and adjust the scope however many clicks up or down. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10110,
+		"nouns": [
+			"shot",
+			"range",
+			"target",
+			"scope",
+			"clicks"
+		],
+		"dOIndex": 259,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " The biggest cause of error is an inaccurate estimate of range. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10111,
+		"nouns": [
+			"cause",
+			"error",
+			"estimate",
+			"range"
+		],
+		"dOIndex": 260,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"estimate"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.15384615384615385,
+			"words": [
+				"error"
+			],
+			"positive": [],
+			"negative": [
+				"error"
+			]
+		}
+	},
+	{
+		"txt": " Modern shooters often use laser range finders to determine exactly what elevation offset is required. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10112,
+		"nouns": [
+			"Modern",
+			"shooters",
+			"use",
+			"laser",
+			"range",
+			"finders",
+			"elevation"
+		],
+		"dOIndex": 261,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Modern",
+			"shooters",
+			"finders",
+			"elevation"
+		]
+	},
+	{
+		"txt": " In long distance shooting situations, you can provide the range to the users and let them adjust the rifle's scope from the current zero range to a new zero range.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10113,
+		"nouns": [
+			"distance",
+			"situations",
+			"range",
+			"users",
+			"rifle",
+			"scope",
+			"zero",
+			"range",
+			"zero",
+			"range"
+		],
+		"dOIndex": 262,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distance",
+			"situations"
+		],
+		"highfreq": {
+			"range": 3
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10114,
+		"nouns": [],
+		"dOIndex": 263,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10115,
+		"nouns": [],
+		"dOIndex": 264,
+		"isQuote": false
+	},
+	{
+		"txt": "Most games today don't model even the effect of gravity on a bullet, so adding elevation adjustment to a sniper or hunting portion of your game will add much needed ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10116,
+		"nouns": [
+			"games",
+			"today",
+			"t",
+			"model",
+			"effect",
+			"gravity",
+			"bullet",
+			"elevation",
+			"adjustment",
+			"sniper",
+			"portion",
+			"game"
+		],
+		"dOIndex": 265,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"gravity",
+			"elevation",
+			"adjustment",
+			"portion"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10117,
+		"nouns": [],
+		"dOIndex": 266,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10118,
+		"nouns": [],
+		"dOIndex": 267,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "accuracy.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10119,
+		"nouns": [
+			"accuracy"
+		],
+		"dOIndex": 268,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"accuracy"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10120,
+		"nouns": [],
+		"dOIndex": 269,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10121,
+		"nouns": [],
+		"dOIndex": 270,
+		"isQuote": false
+	},
+	{
+		"txt": "Wind",
+		"why": "p",
+		"tags": [
+			"a",
+			"h4",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10122,
+		"nouns": [
+			"Wind"
+		],
+		"dOIndex": 271,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10123,
+		"nouns": [],
+		"dOIndex": 272,
+		"isQuote": false
+	},
+	{
+		"txt": "Just like in the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10124,
+		"nouns": [],
+		"dOIndex": 273,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.4,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "Chapter 6 projectile ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10125,
+		"nouns": [
+			"Chapter",
+			"projectile"
+		],
+		"dOIndex": 274,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter",
+			"projectile"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10126,
+		"nouns": [],
+		"dOIndex": 275,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10127,
+		"nouns": [],
+		"dOIndex": 276,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "example, our target shooting game's bullets are affected by wind. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10128,
+		"nouns": [
+			"example",
+			"target",
+			"game",
+			"bullets",
+			"wind"
+		],
+		"dOIndex": 277,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"bullets"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.09090909090909091,
+			"words": [
+				"affected"
+			],
+			"positive": [],
+			"negative": [
+				"affected"
+			]
+		}
+	},
+	{
+		"txt": " Just as before, a bullet's susceptibility to wind largely depends on its lateral drag coefficient. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10129,
+		"nouns": [
+			"bullet",
+			"susceptibility",
+			"wind",
+			"drag",
+			"coefficient"
+		],
+		"dOIndex": 278,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"susceptibility",
+			"coefficient"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.058823529411764705,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " In our simulation, you can tune the bullet's susceptibility to the wind by adjusting the factor Cw . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10130,
+		"nouns": [
+			"simulation",
+			"tune",
+			"bullet",
+			"susceptibility",
+			"wind",
+			"factor",
+			"Cw"
+		],
+		"dOIndex": 279,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulation",
+			"susceptibility"
+		]
+	},
+	{
+		"txt": " This, again, will apply only to rifles shooting at long ranges. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10131,
+		"nouns": [
+			"rifles",
+			"ranges"
+		],
+		"dOIndex": 280,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " At 20 meters, the wind will have little to do in determining where a bullet will hit. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10132,
+		"nouns": [
+			"meters",
+			"wind",
+			"bullet"
+		],
+		"dOIndex": 281,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " At 600 meters, it can cause the bullet to be off by a meter! ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10133,
+		"nouns": [
+			"meters",
+			"cause",
+			"bullet",
+			"meter"
+		],
+		"dOIndex": 282,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " The adjustment for wind is similar to the adjustment for elevation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10134,
+		"nouns": [
+			"adjustment",
+			"wind",
+			"adjustment",
+			"elevation"
+		],
+		"dOIndex": 283,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"adjustment",
+			"elevation"
+		]
+	},
+	{
+		"txt": " By turning a knob, you can adjust your scope or sights to be slightly to the right or left of the barrel's centerline. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10135,
+		"nouns": [
+			"knob",
+			"scope",
+			"sights",
+			"right",
+			"barrel",
+			"centerline"
+		],
+		"dOIndex": 284,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"centerline"
+		]
+	},
+	{
+		"txt": " This angle, called gamma in our simulation, enables you to cancel out the effect of wind.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10136,
+		"nouns": [
+			"angle",
+			"gamma",
+			"simulation",
+			"effect",
+			"wind"
+		],
+		"dOIndex": 285,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulation"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.058823529411764705,
+			"words": [
+				"cancel"
+			],
+			"positive": [],
+			"negative": [
+				"cancel"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10137,
+		"nouns": [],
+		"dOIndex": 286,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10138,
+		"nouns": [],
+		"dOIndex": 287,
+		"isQuote": false
+	},
+	{
+		"txt": "To deal with wind in the field, we require simple calculations that depend on the particular performance of the shooter's ammunition. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10139,
+		"nouns": [
+			"wind",
+			"field",
+			"calculations",
+			"performance",
+			"shooter",
+			"ammunition"
+		],
+		"dOIndex": 288,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"calculations",
+			"performance",
+			"shooter",
+			"ammunition"
+		]
+	},
+	{
+		"txt": " It may work something like this: if the wind is blowing directly across your shot, the adjustment in inches is going to be half the wind speed in miles per hour. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10140,
+		"nouns": [
+			"work",
+			"wind",
+			"shot",
+			"adjustment",
+			"inches",
+			"half",
+			"wind",
+			"miles",
+			"hour"
+		],
+		"dOIndex": 289,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"adjustment"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.06060606060606061,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Of course, there are many other rules of thumb that differ for each caliber of ammunition, but for our simulation you can tune the wind drag coefficient to whatever value you want your shooter to encounter. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10141,
+		"nouns": [
+			"course",
+			"rules",
+			"thumb",
+			"caliber",
+			"ammunition",
+			"simulation",
+			"tune",
+			"wind",
+			"drag",
+			"coefficient",
+			"value",
+			"shooter",
+			"encounter"
+		],
+		"dOIndex": 290,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"caliber",
+			"ammunition",
+			"simulation",
+			"coefficient",
+			"shooter",
+			"encounter"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"want",
+				"drag"
+			],
+			"positive": [
+				"want"
+			],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " He will have to spend some time at the range, just like a real shooter, figuring out how much the wind affects his shots. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10142,
+		"nouns": [
+			"time",
+			"range",
+			"shooter",
+			"wind",
+			"shots"
+		],
+		"dOIndex": 291,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"shooter"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.07692307692307693,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " As the wind changes, he will have to adjust in real time and either aim to the left or right of the target or readjust the windage settings for the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10143,
+		"nouns": [
+			"wind",
+			"changes",
+			"time",
+			"aim",
+			"right",
+			"target",
+			"windage",
+			"settings"
+		],
+		"dOIndex": 292,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"changes",
+			"windage",
+			"settings"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10144,
+		"nouns": [],
+		"dOIndex": 293,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "scope.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10145,
+		"nouns": [
+			"scope"
+		],
+		"dOIndex": 294,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10146,
+		"nouns": [],
+		"dOIndex": 295,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10147,
+		"nouns": [],
+		"dOIndex": 296,
+		"isQuote": false
+	},
+	{
+		"txt": "Breathing and Body Position",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10148,
+		"nouns": [
+			"Body",
+			"Position"
+		],
+		"dOIndex": 297,
+		"nouns2": [
+			"Breathing",
+			"Position"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10149,
+		"nouns": [],
+		"dOIndex": 298,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": true,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "Although most games ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10150,
+		"nouns": [
+			"games"
+		],
+		"dOIndex": 299,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"games"
+		],
+		"nouns2": [
+			"Although"
+		]
+	},
+	{
+		"txt": "don't model gravity and wind when calculating bullet trajectories, many do attempt to regulate the accuracy with which you initially fire the bullet. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10151,
+		"nouns": [
+			"t",
+			"model",
+			"gravity",
+			"wind",
+			"bullet",
+			"trajectories",
+			"attempt",
+			"accuracy",
+			"fire",
+			"bullet"
+		],
+		"dOIndex": 300,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"t",
+			"model",
+			"gravity",
+			"wind",
+			"bullet",
+			"trajectories",
+			"attempt",
+			"accuracy",
+			"fire",
+			"bullet"
+		],
+		"nouns2": [
+			"gravity",
+			"trajectories",
+			"attempt",
+			"accuracy"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.08333333333333333,
+			"words": [
+				"fire"
+			],
+			"positive": [],
+			"negative": [
+				"fire"
+			]
+		}
+	},
+	{
+		"txt": " Most commonly, game developers accomplish this by approximating the crosshairs with four lines that do not intersect. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10152,
+		"nouns": [
+			"game",
+			"developers",
+			"crosshairs",
+			"four",
+			"lines"
+		],
+		"dOIndex": 301,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"game",
+			"developers",
+			"crosshairs",
+			"four",
+			"lines"
+		],
+		"nouns2": [
+			"developers",
+			"crosshairs"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.10526315789473684,
+			"words": [
+				"accomplish"
+			],
+			"positive": [
+				"accomplish"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " When fired, the bullet will land anywhere within the circle described by the inner endpoints of these four lines. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10153,
+		"nouns": [
+			"bullet",
+			"land",
+			"circle",
+			"endpoints",
+			"four",
+			"lines"
+		],
+		"dOIndex": 302,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"bullet",
+			"land",
+			"circle",
+			"endpoints",
+			"four",
+			"lines"
+		],
+		"nouns2": [
+			"endpoints"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.09523809523809523,
+			"words": [
+				"fired"
+			],
+			"positive": [],
+			"negative": [
+				"fired"
+			]
+		}
+	},
+	{
+		"txt": " Different weapons have different accuracies, and the lines can move in or out to reflect that. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10154,
+		"nouns": [
+			"weapons",
+			"accuracies",
+			"lines",
+			"move"
+		],
+		"dOIndex": 303,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"weapons",
+			"accuracies",
+			"lines",
+			"move"
+		],
+		"nouns2": [
+			"Different",
+			"weapons",
+			"accuracies"
+		]
+	},
+	{
+		"txt": " Usually the first shot is the most accurate, and once the weapon is fired you must ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10155,
+		"nouns": [
+			"first",
+			"shot",
+			"weapon"
+		],
+		"dOIndex": 304,
+		"ignoreDOBcNoQuotes": false,
+		"isQuote": false,
+		"nounsProcAll": [
+			"first",
+			"shot",
+			"weapon"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"Usually"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.1111111111111111,
+			"words": [
+				"fired"
+			],
+			"positive": [],
+			"negative": [
+				"fired"
+			]
+		}
+	},
+	{
+		"txt": " \"resight\" ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10156,
+		"nouns": [
+			"resight"
+		],
+		"dOIndex": 305,
+		"isQuote": true,
+		"nounsProcAll": [
+			"resight"
+		],
+		"sfxfx": [],
+		"gspkNameUnknown": "narrator",
+		"nouns2": [
+			"resight"
+		]
+	},
+	{
+		"txt": " the target, and this takes time. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10157,
+		"nouns": [
+			"target",
+			"time"
+		],
+		"dOIndex": 306,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [
+			"target",
+			"time"
+		],
+		"sfxfx": []
+	},
+	{
+		"txt": " Therefore, shots fired in quick succession usually become less and less accurate.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10158,
+		"nouns": [
+			"shots",
+			"succession"
+		],
+		"dOIndex": 307,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"shots",
+			"succession"
+		],
+		"nouns2": [
+			"Therefore",
+			"succession"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.15384615384615385,
+			"words": [
+				"fired"
+			],
+			"positive": [],
+			"negative": [
+				"fired"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10159,
+		"nouns": [],
+		"dOIndex": 308,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10160,
+		"nouns": [],
+		"dOIndex": 309,
+		"isQuote": false
+	},
+	{
+		"txt": "In our simulation, we modeled a few things that affect accuracy in the real world and will give you some suggestions for other factors you could easily include. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10161,
+		"nouns": [
+			"simulation",
+			"things",
+			"accuracy",
+			"world",
+			"suggestions",
+			"factors"
+		],
+		"dOIndex": 310,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulation",
+			"accuracy",
+			"suggestions",
+			"factors"
+		]
+	},
+	{
+		"txt": " As our game was most interested in long distance shooting via rifles, the most common source of error is breathing. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10162,
+		"nouns": [
+			"game",
+			"distance",
+			"rifles",
+			"source",
+			"error"
+		],
+		"dOIndex": 311,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distance"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"error",
+				"interested"
+			],
+			"positive": [
+				"interested"
+			],
+			"negative": [
+				"error"
+			]
+		}
+	},
+	{
+		"txt": " As discussed before, when a shooter is looking through a scope on a rifle, she essentially becomes a fixed body. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10163,
+		"nouns": [
+			"shooter",
+			"scope",
+			"rifle",
+			"body"
+		],
+		"dOIndex": 312,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"shooter"
+		]
+	},
+	{
+		"txt": " As she breathes, the rifle is essentially breathing too. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10164,
+		"nouns": [
+			"rifle"
+		],
+		"dOIndex": 313,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " When making difficult shots, it is very common for the shooter to take a breath and hold it while firing. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10165,
+		"nouns": [
+			"shots",
+			"shooter",
+			"breath"
+		],
+		"dOIndex": 314,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"shooter"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.13636363636363635,
+			"words": [
+				"firing",
+				"difficult"
+			],
+			"positive": [],
+			"negative": [
+				"firing",
+				"difficult"
+			]
+		}
+	},
+	{
+		"txt": " In our simulation, we've modeled this with a breathing class that adjusts the point of aim up and down with time to mimic how a scope moves when the shooter is breathing deeply. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10166,
+		"nouns": [
+			"simulation",
+			"ve",
+			"class",
+			"point",
+			"aim",
+			"time",
+			"scope",
+			"moves",
+			"shooter"
+		],
+		"dOIndex": 315,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulation",
+			"shooter"
+		]
+	},
+	{
+		"txt": " This works via a timer started in our initComponents() function that fires every 100 ms. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10167,
+		"nouns": [
+			"works",
+			"timer",
+			"initComponents",
+			"function",
+			"fires",
+			"ms"
+		],
+		"dOIndex": 316,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"initComponents",
+			"function"
+		]
+	},
+	{
+		"txt": " In the code that follows, you'll see that this leads to a breath every two seconds.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10168,
+		"nouns": [
+			"code",
+			"ll",
+			"breath",
+			"two",
+			"seconds"
+		],
+		"dOIndex": 317,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"seconds"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10169,
+		"nouns": [],
+		"dOIndex": 318,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 10170,
+		"nouns": [],
+		"dOIndex": 319,
+		"isQuote": false
+	},
+	{
+		"txt": "That function causes the aim point (aimX, aimY) to be moved independently of the cursor via the following algorithm:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10171,
+		"nouns": [
+			"function",
+			"causes",
+			"aim",
+			"point",
+			"aimX",
+			"aimY",
+			"cursor",
+			"algorithm"
+		],
+		"dOIndex": 320,
+		"nouns2": [
+			"function",
+			"algorithm"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 10172,
+		"nouns": [],
+		"dOIndex": 321,
+		"isQuote": false
+	},
+	{
+		"txt": "Here we are simply moving it up to some limit in our case, 5 pixels and then moving it back down. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10173,
+		"nouns": [
+			"limit",
+			"case",
+			"pixels"
+		],
+		"dOIndex": 322,
+		"isQuote": false
+	},
+	{
+		"txt": " A better implementation would increase the unsteadiness as the user zooms in, as shakes are magnified also. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10174,
+		"nouns": [
+			"implementation",
+			"unsteadiness",
+			"user"
+		],
+		"dOIndex": 323,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"implementation",
+			"unsteadiness"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.15789473684210525,
+			"words": [
+				"increase",
+				"better"
+			],
+			"positive": [
+				"increase",
+				"better"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " There is no limit to the innovative functions you can use to move the aiming circle away from the cursor to simulate the reality of having to aim a gun. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10175,
+		"nouns": [
+			"limit",
+			"functions",
+			"use",
+			"move",
+			"circle",
+			"cursor",
+			"reality",
+			"aim",
+			"gun"
+		],
+		"dOIndex": 324,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"functions",
+			"reality"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"gun",
+				"innovative",
+				"no"
+			],
+			"positive": [
+				"innovative"
+			],
+			"negative": [
+				"gun",
+				"no"
+			]
+		}
+	},
+	{
+		"txt": " Yet this is certainly an area of first person shooters that is lacking in variety.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10176,
+		"nouns": [
+			"area",
+			"first",
+			"person",
+			"shooters",
+			"variety"
+		],
+		"dOIndex": 325,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"shooters",
+			"variety"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10177,
+		"nouns": [],
+		"dOIndex": 326,
+		"isQuote": false
+	},
+	{
+		"txt": "When he is ready to fire, the user can left click to hold his breath, the variable breathing becomes false , and the crosshairs will stop moving. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10178,
+		"nouns": [
+			"fire",
+			"user",
+			"click",
+			"breath",
+			"crosshairs"
+		],
+		"dOIndex": 327,
+		"nouns2": [
+			"crosshairs"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.14285714285714285,
+			"words": [
+				"stop",
+				"false",
+				"fire"
+			],
+			"positive": [],
+			"negative": [
+				"stop",
+				"false",
+				"fire"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " This simple addition makes the game much more challenging and engaging. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10179,
+		"nouns": [
+			"addition",
+			"game"
+		],
+		"dOIndex": 328,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"addition"
+		]
+	},
+	{
+		"txt": " It should be noted that if the shooter holds his breath too long in real life, the aim will again become unsteady as his body reacts to not having fresh oxygen. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10180,
+		"nouns": [
+			"shooter",
+			"breath",
+			"life",
+			"aim",
+			"body",
+			"oxygen"
+		],
+		"dOIndex": 329,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"shooter"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.030303030303030304,
+			"words": [
+				"fresh"
+			],
+			"positive": [
+				"fresh"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Another improvement to this algorithm would be for the aim to become unstable after the left mouse button is pressed for some amount of time.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10181,
+		"nouns": [
+			"improvement",
+			"algorithm",
+			"aim",
+			"mouse",
+			"button",
+			"amount",
+			"time"
+		],
+		"dOIndex": 330,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Another",
+			"improvement",
+			"algorithm"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"unstable",
+				"improvement"
+			],
+			"positive": [
+				"improvement"
+			],
+			"negative": [
+				"unstable"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10182,
+		"nouns": [],
+		"dOIndex": 331,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10183,
+		"nouns": [],
+		"dOIndex": 332,
+		"isQuote": false
+	},
+	{
+		"txt": "Many games also change the accuracy of a weapon depending on body position. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10184,
+		"nouns": [
+			"games",
+			"change",
+			"accuracy",
+			"weapon",
+			"body",
+			"position"
+		],
+		"dOIndex": 333,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"accuracy",
+			"position"
+		]
+	},
+	{
+		"txt": " There are three basic types of ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10185,
+		"nouns": [
+			"three",
+			"types"
+		],
+		"dOIndex": 334,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "shooting positions: standing, kneeling, and prone. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10186,
+		"nouns": [
+			"positions"
+		],
+		"dOIndex": 335,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"positions"
+		]
+	},
+	{
+		"txt": " ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10187,
+		"nouns": [],
+		"dOIndex": 336,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10188,
+		"nouns": [],
+		"dOIndex": 337,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Standing is you guessed it standing up. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10189,
+		"nouns": [],
+		"dOIndex": 338,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Standing"
+		]
+	},
+	{
+		"txt": " ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10190,
+		"nouns": [],
+		"dOIndex": 339,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Kneeling is some form of squatting rather than just kneeling on your knees. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10191,
+		"nouns": [
+			"form",
+			"knees"
+		],
+		"dOIndex": 340,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Kneeling"
+		]
+	},
+	{
+		"txt": " ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10192,
+		"nouns": [],
+		"dOIndex": 341,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Prone is laid flat on the ground. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10193,
+		"nouns": [
+			"ground"
+		],
+		"dOIndex": 342,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Because the rifle is locked to your body, the less unstable your body is, the less unstable the aim. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10194,
+		"nouns": [
+			"rifle",
+			"body",
+			"body",
+			"aim"
+		],
+		"dOIndex": 343,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Because"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.19047619047619047,
+			"words": [
+				"unstable",
+				"unstable"
+			],
+			"positive": [],
+			"negative": [
+				"unstable",
+				"unstable"
+			]
+		}
+	},
+	{
+		"txt": " When standing, your body's muscles have to do a lot of work to remain upright. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10195,
+		"nouns": [
+			"body",
+			"muscles",
+			"lot",
+			"work"
+		],
+		"dOIndex": 344,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"muscles"
+		]
+	},
+	{
+		"txt": " When kneeling, they do less so, and when prone, your muscles don't have to worry about keeping you standing at all.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10196,
+		"nouns": [
+			"muscles",
+			"t"
+		],
+		"dOIndex": 345,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"muscles"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.13636363636363635,
+			"words": [
+				"worry"
+			],
+			"positive": [],
+			"negative": [
+				"worry"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10197,
+		"nouns": [],
+		"dOIndex": 346,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10198,
+		"nouns": [],
+		"dOIndex": 347,
+		"isQuote": false
+	},
+	{
+		"txt": "You can add these parameters as random twitches in the aim and tune them to change the relative advantage of each position. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10199,
+		"nouns": [
+			"parameters",
+			"twitches",
+			"aim",
+			"tune",
+			"change",
+			"advantage",
+			"position"
+		],
+		"dOIndex": 348,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"parameters",
+			"twitches",
+			"advantage",
+			"position"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08695652173913043,
+			"words": [
+				"advantage"
+			],
+			"positive": [
+				"advantage"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " However, prone should always be more stable than kneeling, and kneeling more stable than ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10200,
+		"nouns": [],
+		"dOIndex": 349,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.25,
+			"words": [
+				"stable",
+				"stable"
+			],
+			"positive": [
+				"stable",
+				"stable"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10201,
+		"nouns": [],
+		"dOIndex": 350,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10202,
+		"nouns": [],
+		"dOIndex": 351,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "standing.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10203,
+		"nouns": [],
+		"dOIndex": 352,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10204,
+		"nouns": [],
+		"dOIndex": 353,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10205,
+		"nouns": [],
+		"dOIndex": 354,
+		"isQuote": false
+	},
+	{
+		"txt": "Recoil and Impact",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10206,
+		"nouns": [
+			"Recoil",
+			"Impact"
+		],
+		"dOIndex": 355,
+		"nouns2": [
+			"Recoil",
+			"Impact"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10207,
+		"nouns": [],
+		"dOIndex": 356,
+		"isQuote": false
+	},
+	{
+		"txt": "Now that ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10208,
+		"nouns": [],
+		"dOIndex": 357,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10209,
+		"nouns": [],
+		"dOIndex": 358,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10210,
+		"nouns": [],
+		"dOIndex": 359,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "we've aimed, fired, and figured out where the bullet is at any given moment, let's talk about the last phase, terminal ballistics. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10211,
+		"nouns": [
+			"ve",
+			"bullet",
+			"moment",
+			"phase",
+			"ballistics"
+		],
+		"dOIndex": 360,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"ballistics"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.08695652173913043,
+			"words": [
+				"fired"
+			],
+			"positive": [],
+			"negative": [
+				"fired"
+			]
+		}
+	},
+	{
+		"txt": " To really understand what happens at the end of a bullet's flight, let's revisit the beginning. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10212,
+		"nouns": [
+			"end",
+			"bullet",
+			"flight"
+		],
+		"dOIndex": 361,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Earlier we talked about recoil as the result of Newton's conservation of momentum . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10213,
+		"nouns": [
+			"recoil",
+			"result",
+			"Newton",
+			"conservation",
+			"momentum"
+		],
+		"dOIndex": 362,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Earlier",
+			"Newton",
+			"conservation",
+			"momentum"
+		]
+	},
+	{
+		"txt": " ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10214,
+		"nouns": [],
+		"dOIndex": 363,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10215,
+		"nouns": [],
+		"dOIndex": 364,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10216,
+		"nouns": [],
+		"dOIndex": 365,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10217,
+		"nouns": [],
+		"dOIndex": 366,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10218,
+		"nouns": [],
+		"dOIndex": 367,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10219,
+		"nouns": [],
+		"dOIndex": 368,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Everyone has seen a cheesy movie where the hero shoots the bad guy and the bullets cause the bad guy to be blown off his feet. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10220,
+		"nouns": [
+			"Everyone",
+			"movie",
+			"hero",
+			"guy",
+			"bullets",
+			"cause",
+			"guy",
+			"feet"
+		],
+		"dOIndex": 369,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Everyone",
+			"bullets"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.14814814814814814,
+			"words": [
+				"bad",
+				"bad",
+				"hero"
+			],
+			"positive": [
+				"hero"
+			],
+			"negative": [
+				"bad",
+				"bad"
+			]
+		}
+	},
+	{
+		"txt": " There is a big problem with this! ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10221,
+		"nouns": [
+			"problem"
+		],
+		"dOIndex": 370,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"problem"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.1111111111111111,
+			"words": [
+				"problem",
+				"big"
+			],
+			"positive": [
+				"big"
+			],
+			"negative": [
+				"problem"
+			]
+		}
+	},
+	{
+		"txt": " If the bullets were powerful enough to knock the person they hit off his feet, then the person shooting the gun would also be blown off his feet! ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10222,
+		"nouns": [
+			"bullets",
+			"person",
+			"feet",
+			"person",
+			"gun",
+			"feet"
+		],
+		"dOIndex": 371,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"bullets"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.03333333333333333,
+			"words": [
+				"gun",
+				"powerful"
+			],
+			"positive": [
+				"powerful"
+			],
+			"negative": [
+				"gun"
+			]
+		}
+	},
+	{
+		"txt": " In reality, the force felt by the person being shot is nearly the same as the force felt when the weapon recoils. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10223,
+		"nouns": [
+			"reality",
+			"force",
+			"person",
+			"shot",
+			"force",
+			"weapon",
+			"recoils"
+		],
+		"dOIndex": 372,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"reality",
+			"recoils"
+		]
+	},
+	{
+		"txt": " For a 9 mm bullet weighing 7.45 g and leaving the barrel at 390 m/s, the gun will experience recoil such that its momentum is equal to the moment of the bullet.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10224,
+		"nouns": [
+			"mm",
+			"bullet",
+			"g",
+			"barrel",
+			"m",
+			"/",
+			"gun",
+			"experience",
+			"recoil",
+			"momentum",
+			"moment",
+			"bullet"
+		],
+		"dOIndex": 373,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"experience",
+			"momentum"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.030303030303030304,
+			"words": [
+				"gun"
+			],
+			"positive": [],
+			"negative": [
+				"gun"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10225,
+		"nouns": [],
+		"dOIndex": 374,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10226,
+		"nouns": [],
+		"dOIndex": 375,
+		"isQuote": false
+	},
+	{
+		"txt": "One interesting way to incorporate recoil into a video game is in space. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10227,
+		"nouns": [
+			"One",
+			"way",
+			"recoil",
+			"video",
+			"game",
+			"space"
+		],
+		"dOIndex": 376,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.14285714285714285,
+			"words": [
+				"interesting"
+			],
+			"positive": [
+				"interesting"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " On Earth, a gun's recoil is pretty quickly transferred to the ground by ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10228,
+		"nouns": [
+			"Earth",
+			"gun",
+			"recoil",
+			"ground"
+		],
+		"dOIndex": 377,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.06666666666666667,
+			"words": [
+				"pretty"
+			],
+			"positive": [
+				"pretty"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "friction between the player and the big bad earth. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10229,
+		"nouns": [
+			"friction",
+			"player",
+			"earth"
+		],
+		"dOIndex": 378,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"friction"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.2,
+			"words": [
+				"bad",
+				"big"
+			],
+			"positive": [
+				"big"
+			],
+			"negative": [
+				"bad"
+			]
+		}
+	},
+	{
+		"txt": " In space, the shooter has no planetary body to push against, so the recoil of the gun becomes the recoil of the gun/person system. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10230,
+		"nouns": [
+			"space",
+			"shooter",
+			"body",
+			"recoil",
+			"gun",
+			"recoil",
+			"gun",
+			"/",
+			"person",
+			"system"
+		],
+		"dOIndex": 379,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"shooter"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.07692307692307693,
+			"words": [
+				"gun",
+				"no"
+			],
+			"positive": [],
+			"negative": [
+				"gun",
+				"no"
+			]
+		}
+	},
+	{
+		"txt": " Next time your character needs to move from one ship to another in a micro gravity environment, you can make her spend some ammo to get herself moving.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10231,
+		"nouns": [
+			"time",
+			"character",
+			"move",
+			"one",
+			"ship",
+			"gravity",
+			"environment",
+			"ammo"
+		],
+		"dOIndex": 380,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"character",
+			"gravity",
+			"environment"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10232,
+		"nouns": [],
+		"dOIndex": 381,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10233,
+		"nouns": [],
+		"dOIndex": 382,
+		"isQuote": false
+	},
+	{
+		"txt": "Now, if you get shot you will probably fall down pretty quickly, but this has more to do with biology than physics. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10234,
+		"nouns": [
+			"shot",
+			"fall",
+			"biology",
+			"physics"
+		],
+		"dOIndex": 383,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"biology",
+			"physics"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.043478260869565216,
+			"words": [
+				"pretty"
+			],
+			"positive": [
+				"pretty"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " However, ignoring living targets, if you want to simulate the damage done by a bullet hitting something, it is more important to look at the bullet's ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10235,
+		"nouns": [
+			"targets",
+			"damage",
+			"bullet",
+			"bullet"
+		],
+		"dOIndex": 384,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"targets"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"important",
+				"damage",
+				"want"
+			],
+			"positive": [
+				"important",
+				"want"
+			],
+			"negative": [
+				"damage"
+			]
+		}
+	},
+	{
+		"txt": "kinetic energy. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10236,
+		"nouns": [
+			"energy"
+		],
+		"dOIndex": 385,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " In fact, bullets and artillery shells are ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10237,
+		"nouns": [
+			"fact",
+			"bullets",
+			"artillery",
+			"shells"
+		],
+		"dOIndex": 386,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"bullets",
+			"artillery"
+		]
+	},
+	{
+		"txt": "called kinetic weapons",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10238,
+		"nouns": [
+			"weapons"
+		],
+		"dOIndex": 387,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"weapons"
+		]
+	},
+	{
+		"txt": " , as their primary means of destroying a target is by transferring their kinetic energy to the target. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10239,
+		"nouns": [
+			"target",
+			"energy",
+			"target"
+		],
+		"dOIndex": 388,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.15,
+			"words": [
+				"destroying"
+			],
+			"positive": [],
+			"negative": [
+				"destroying"
+			]
+		}
+	},
+	{
+		"txt": " This is different than, say, a bomb that transfers its chemical energy into heat and kinetic energy after impact.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10240,
+		"nouns": [
+			"bomb",
+			"transfers",
+			"energy",
+			"heat",
+			"energy",
+			"impact"
+		],
+		"dOIndex": 389,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"transfers"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.05,
+			"words": [
+				"bomb"
+			],
+			"positive": [],
+			"negative": [
+				"bomb"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10241,
+		"nouns": [],
+		"dOIndex": 390,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10242,
+		"nouns": [],
+		"dOIndex": 391,
+		"isQuote": false
+	},
+	{
+		"txt": "Explosions",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10243,
+		"nouns": [
+			"Explosions"
+		],
+		"dOIndex": 392,
+		"nouns2": [
+			"Explosions"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10244,
+		"nouns": [],
+		"dOIndex": 393,
+		"isQuote": false
+	},
+	{
+		"txt": "Accurately ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10245,
+		"nouns": [],
+		"dOIndex": 394,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Accurately"
+		]
+	},
+	{
+		"txt": "modeling explosions involves multiphysics fluid simulations like the kind discussed in ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10246,
+		"nouns": [
+			"explosions",
+			"multiphysics",
+			"fluid",
+			"simulations",
+			"kind"
+		],
+		"dOIndex": 395,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"explosions",
+			"multiphysics",
+			"simulations"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.3333333333333333,
+			"words": [
+				"kind",
+				"like"
+			],
+			"positive": [
+				"kind",
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10247,
+		"nouns": [],
+		"dOIndex": 396,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 14 through ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10248,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 397,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": "Chapter 16",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10249,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 398,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10250,
+		"nouns": [],
+		"dOIndex": 399,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " One of our pet peeves is that video games usually have a collection of barrels lying around that, if shot once, explode violently enough to blow up nearby vehicles. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10251,
+		"nouns": [
+			"One",
+			"pet",
+			"peeves",
+			"video",
+			"games",
+			"collection",
+			"barrels",
+			"shot",
+			"blow",
+			"vehicles"
+		],
+		"dOIndex": 400,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collection",
+			"barrels",
+			"vehicles"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.0967741935483871,
+			"words": [
+				"violently"
+			],
+			"positive": [],
+			"negative": [
+				"violently"
+			]
+		}
+	},
+	{
+		"txt": " While this makes for an easy out against multiple enemies, it is actually pretty hard to get everyday objects to blow up. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10252,
+		"nouns": [
+			"enemies",
+			"objects",
+			"blow"
+		],
+		"dOIndex": 401,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"enemies",
+			"objects"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.041666666666666664,
+			"words": [
+				"hard",
+				"pretty",
+				"enemies",
+				"easy"
+			],
+			"positive": [
+				"pretty",
+				"easy"
+			],
+			"negative": [
+				"hard",
+				"enemies"
+			]
+		}
+	},
+	{
+		"txt": " Shooting a gas can with a handgun will almost never result in a fire, much less an explosion. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10253,
+		"nouns": [
+			"gas",
+			"handgun",
+			"result",
+			"fire",
+			"explosion"
+		],
+		"dOIndex": 402,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Shooting",
+			"handgun",
+			"explosion"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.1,
+			"words": [
+				"fire"
+			],
+			"positive": [],
+			"negative": [
+				"fire"
+			]
+		}
+	},
+	{
+		"txt": " Indeed, even shooting a propane tank with a rifle won't give you fireworks. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10254,
+		"nouns": [
+			"propane",
+			"tank",
+			"rifle",
+			"t",
+			"fireworks"
+		],
+		"dOIndex": 403,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Indeed",
+			"propane",
+			"fireworks"
+		]
+	},
+	{
+		"txt": " It would take something like a tank of 1/4 propane mixed with 3/4 oxygen to explode, and those aren't usually lying around. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10255,
+		"nouns": [
+			"tank",
+			"/",
+			"propane",
+			"/",
+			"oxygen",
+			"aren",
+			"t"
+		],
+		"dOIndex": 404,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"propane"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08333333333333333,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Regardless, when we play video games we're often thankful that we have an occasional red barrel to shoot, so we'll review how to make the resulting explosion more accurate even if the ignition is improbable.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10256,
+		"nouns": [
+			"video",
+			"games",
+			"re",
+			"barrel",
+			"ll",
+			"review",
+			"explosion",
+			"ignition"
+		],
+		"dOIndex": 405,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Regardless",
+			"explosion",
+			"ignition"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.027777777777777776,
+			"words": [
+				"shoot",
+				"thankful"
+			],
+			"positive": [
+				"thankful"
+			],
+			"negative": [
+				"shoot"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10257,
+		"nouns": [],
+		"dOIndex": 406,
+		"isQuote": false
+	},
+	{
+		"txt": "Particle Explosions",
+		"why": "p",
+		"tags": [
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10258,
+		"nouns": [
+			"Particle",
+			"Explosions"
+		],
+		"dOIndex": 407,
+		"nouns2": [
+			"Particle",
+			"Explosions"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "For most in game explosions, ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10259,
+		"nouns": [
+			"game",
+			"explosions"
+		],
+		"dOIndex": 408,
+		"nouns2": [
+			"explosions"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10260,
+		"nouns": [],
+		"dOIndex": 409,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10261,
+		"nouns": [],
+		"dOIndex": 410,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "it will be sufficient to implement a particle type explosion that we covered way back in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10262,
+		"nouns": [
+			"particle",
+			"type",
+			"explosion",
+			"way"
+		],
+		"dOIndex": 411,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"particle",
+			"explosion"
+		]
+	},
+	{
+		"txt": "Chapter 2",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10263,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 412,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10264,
+		"nouns": [],
+		"dOIndex": 413,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Now, in ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10265,
+		"nouns": [],
+		"dOIndex": 414,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 2 the particles were simply dots, ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10266,
+		"nouns": [
+			"Chapter",
+			"particles",
+			"dots"
+		],
+		"dOIndex": 415,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter",
+			"particles"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10267,
+		"nouns": [],
+		"dOIndex": 416,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10268,
+		"nouns": [],
+		"dOIndex": 417,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10269,
+		"nouns": [],
+		"dOIndex": 418,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10270,
+		"nouns": [],
+		"dOIndex": 419,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "but they don't have to be limited to such simple sprites. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10271,
+		"nouns": [
+			"t",
+			"sprites"
+		],
+		"dOIndex": 420,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"sprites"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.08333333333333333,
+			"words": [
+				"limited"
+			],
+			"positive": [],
+			"negative": [
+				"limited"
+			]
+		}
+	},
+	{
+		"txt": " In some cases, such as sparks from a bullet hitting a metal container, it would be very accurate to model explosions as particles; however, by making our particles look like bits of cars, we can also make it appear that the car itself exploded. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10272,
+		"nouns": [
+			"cases",
+			"bullet",
+			"container",
+			"model",
+			"explosions",
+			"particles",
+			"particles",
+			"bits",
+			"cars",
+			"car"
+		],
+		"dOIndex": 421,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"container",
+			"explosions",
+			"particles"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.043478260869565216,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The reason this is easier is because the particle explosions don't have any ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10273,
+		"nouns": [
+			"reason",
+			"particle",
+			"explosions",
+			"t"
+		],
+		"dOIndex": 422,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"particle",
+			"explosions"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10274,
+		"nouns": [],
+		"dOIndex": 423,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "angular motion. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10275,
+		"nouns": [
+			"motion"
+		],
+		"dOIndex": 424,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Although you can assign different parts of the cars to different particles, when they fly off due to the explosion, they won't be rotating. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10276,
+		"nouns": [
+			"parts",
+			"cars",
+			"particles",
+			"explosion",
+			"t"
+		],
+		"dOIndex": 425,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Although",
+			"particles",
+			"explosion"
+		]
+	},
+	{
+		"txt": " The good news is that a particle explosion will still give you a realistic distribution of fragments of something on the ground.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10277,
+		"nouns": [
+			"news",
+			"particle",
+			"explosion",
+			"distribution",
+			"fragments",
+			"ground"
+		],
+		"dOIndex": 426,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"particle",
+			"explosion",
+			"distribution",
+			"fragments"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.13043478260869565,
+			"words": [
+				"good"
+			],
+			"positive": [
+				"good"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10278,
+		"nouns": [],
+		"dOIndex": 427,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10279,
+		"nouns": [],
+		"dOIndex": 428,
+		"isQuote": false
+	},
+	{
+		"txt": "To talk about how to link bullets and particle explosions in detail, we'll consider something more physically accurate than a bullet blowing up a car. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10280,
+		"nouns": [
+			"link",
+			"bullets",
+			"particle",
+			"explosions",
+			"detail",
+			"ll",
+			"bullet",
+			"car"
+		],
+		"dOIndex": 429,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"bullets",
+			"particle",
+			"explosions"
+		]
+	},
+	{
+		"txt": " Let's consider a bullet hitting some loose gravel. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10281,
+		"nouns": [
+			"bullet",
+			"gravel"
+		],
+		"dOIndex": 430,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.3,
+			"words": [
+				"loose"
+			],
+			"positive": [],
+			"negative": [
+				"loose"
+			]
+		}
+	},
+	{
+		"txt": " This will generally cause the gravel to be thrown up into the air from the bullet collision. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10282,
+		"nouns": [
+			"cause",
+			"gravel",
+			"air",
+			"bullet",
+			"collision"
+		],
+		"dOIndex": 431,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.10526315789473684,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " Instead of trying to calculate the complex collisions during impact, we'll generate a particle explosion based on the code in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10283,
+		"nouns": [
+			"collisions",
+			"impact",
+			"ll",
+			"particle",
+			"explosion",
+			"code"
+		],
+		"dOIndex": 432,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Instead",
+			"collisions",
+			"particle",
+			"explosion"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.09090909090909091,
+			"words": [
+				"collisions"
+			],
+			"positive": [],
+			"negative": [
+				"collisions"
+			]
+		}
+	},
+	{
+		"txt": "Chapter 2:",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10284,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 433,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10285,
+		"nouns": [],
+		"dOIndex": 434,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 10286,
+		"nouns": [],
+		"dOIndex": 435,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10287,
+		"nouns": [],
+		"dOIndex": 436,
+		"isQuote": false
+	},
+	{
+		"txt": "As you can see, the initial velocity V0 controls the strength of the explosion. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10288,
+		"nouns": [
+			"velocity",
+			"V",
+			"controls",
+			"strength",
+			"explosion"
+		],
+		"dOIndex": 437,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity",
+			"controls",
+			"strength",
+			"explosion"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.13333333333333333,
+			"words": [
+				"strength"
+			],
+			"positive": [
+				"strength"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " In ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10289,
+		"nouns": [],
+		"dOIndex": 438,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 2",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10290,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 439,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " , we chose this value randomly. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10291,
+		"nouns": [
+			"value"
+		],
+		"dOIndex": 440,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Now that we have a bullet flying through the air, we can make a better estimate of how strong of an explosion to create. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10292,
+		"nouns": [
+			"bullet",
+			"air",
+			"estimate",
+			"explosion"
+		],
+		"dOIndex": 441,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"estimate",
+			"explosion"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.15384615384615385,
+			"words": [
+				"strong",
+				"better"
+			],
+			"positive": [
+				"strong",
+				"better"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " As you recall from earlier in the chapter, a bullet has an energy associated with it at any time, t , in its flight. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10293,
+		"nouns": [
+			"chapter",
+			"bullet",
+			"energy",
+			"time",
+			"t",
+			"flight"
+		],
+		"dOIndex": 442,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"chapter"
+		]
+	},
+	{
+		"txt": " This energy is its kinetic energy and is equal to half the bullet mass times its velocity squared.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10294,
+		"nouns": [
+			"energy",
+			"energy",
+			"half",
+			"bullet",
+			"mass",
+			"times",
+			"velocity"
+		],
+		"dOIndex": 443,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10295,
+		"nouns": [],
+		"dOIndex": 444,
+		"isQuote": false
+	},
+	{
+		"txt": "In our projectile simulation, it is simple to calculate this energy as the bullet flies through the air. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10296,
+		"nouns": [
+			"projectile",
+			"simulation",
+			"energy",
+			"bullet",
+			"air"
+		],
+		"dOIndex": 445,
+		"nouns2": [
+			"projectile",
+			"simulation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " It should be noted that a big bullet moving slowly is just as powerful as a smaller bullet moving quickly. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10297,
+		"nouns": [
+			"bullet",
+			"bullet"
+		],
+		"dOIndex": 446,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.13636363636363635,
+			"words": [
+				"powerful",
+				"big"
+			],
+			"positive": [
+				"powerful",
+				"big"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Our upcoming code is going to assume that 100% of the kinetic energy is delivered to the target. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10298,
+		"nouns": [
+			"code",
+			"%",
+			"energy",
+			"target"
+		],
+		"dOIndex": 447,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " This would not be true if a bullet shot straight through something. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10299,
+		"nouns": [
+			"bullet",
+			"shot"
+		],
+		"dOIndex": 448,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.21428571428571427,
+			"words": [
+				"straight",
+				"true"
+			],
+			"positive": [
+				"straight",
+				"true"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " A way to visualize this is to imagine two targets, both hanging from the ceiling. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10300,
+		"nouns": [
+			"way",
+			"two",
+			"targets",
+			"both"
+		],
+		"dOIndex": 449,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"targets"
+		]
+	},
+	{
+		"txt": " One is made from paper and one is made from steel. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10301,
+		"nouns": [
+			"One",
+			"paper",
+			"one",
+			"steel"
+		],
+		"dOIndex": 450,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " When shot at, the steel target swings from its support, while the paper target stays still. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10302,
+		"nouns": [
+			"shot",
+			"steel",
+			"target",
+			"swings",
+			"support",
+			"paper",
+			"target"
+		],
+		"dOIndex": 451,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"support"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.1111111111111111,
+			"words": [
+				"support"
+			],
+			"positive": [
+				"support"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " This is because the bullet is passing straight though the paper and not transferring its kinetic energy to the target. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10303,
+		"nouns": [
+			"bullet",
+			"paper",
+			"energy",
+			"target"
+		],
+		"dOIndex": 452,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.045454545454545456,
+			"words": [
+				"straight"
+			],
+			"positive": [
+				"straight"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " To make things simple, we'll transfer all of the bullet's kinetic energy ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10304,
+		"nouns": [
+			"things",
+			"ll",
+			"transfer",
+			"bullet",
+			"energy"
+		],
+		"dOIndex": 453,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"transfer"
+		]
+	},
+	{
+		"txt": "to the gravel. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10305,
+		"nouns": [
+			"gravel"
+		],
+		"dOIndex": 454,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " In equation form, this would look like:1/2 mb v2bullet = Σ1/2 mg v2gravel",
+		"why": "p",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10306,
+		"nouns": [
+			"equation",
+			"form",
+			"/",
+			"mb",
+			"v2bullet",
+			"Σ",
+			"/",
+			"mg",
+			"v2gravel"
+		],
+		"dOIndex": 455,
+		"nouns2": [
+			"equation",
+			"v2bullet",
+			"v2gravel"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10307,
+		"nouns": [],
+		"dOIndex": 456,
+		"isQuote": false
+	},
+	{
+		"txt": "Note that this is the sum of the individual bits of gravel's velocities. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10308,
+		"nouns": [
+			"sum",
+			"bits",
+			"gravel",
+			"velocities"
+		],
+		"dOIndex": 457,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocities"
+		]
+	},
+	{
+		"txt": " In, ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10309,
+		"nouns": [],
+		"dOIndex": 458,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 2, each particle was just given a random velocity anywhere from Vinit/2 to Vinit",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"code",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10310,
+		"nouns": [
+			"Chapter",
+			"particle",
+			"velocity",
+			"Vinit",
+			"/",
+			"Vinit"
+		],
+		"dOIndex": 459,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter",
+			"particle",
+			"velocity"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10311,
+		"nouns": [],
+		"dOIndex": 460,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " This could lead to creating a set of particles whose energies exceed the input energy. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10312,
+		"nouns": [
+			"particles",
+			"energies",
+			"input",
+			"energy"
+		],
+		"dOIndex": 461,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"particles",
+			"energies"
+		]
+	},
+	{
+		"txt": " To prevent this, we'll add a variable to our explosion class like so:",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10313,
+		"nouns": [
+			"ll",
+			"explosion",
+			"class"
+		],
+		"dOIndex": 462,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"explosion"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.07142857142857142,
+			"words": [
+				"like",
+				"prevent"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": [
+				"prevent"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 10314,
+		"nouns": [],
+		"dOIndex": 463,
+		"isQuote": false
+	},
+	{
+		"txt": "Notice that V0 is no longer required, as the available kinetic energy will govern the strength of the explosion. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10315,
+		"nouns": [
+			"Notice",
+			"V",
+			"energy",
+			"strength",
+			"explosion"
+		],
+		"dOIndex": 464,
+		"nouns2": [
+			"Notice",
+			"strength",
+			"explosion"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.05,
+			"words": [
+				"strength",
+				"no"
+			],
+			"positive": [
+				"strength"
+			],
+			"negative": [
+				"no"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " Assuming that the bullet's kinetic energy is given as a variable KEb, our new CreateParticleExplosion function would look like the following:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10316,
+		"nouns": [
+			"bullet",
+			"energy",
+			"KEb",
+			"CreateParticleExplosion",
+			"function"
+		],
+		"dOIndex": 465,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Assuming",
+			"CreateParticleExplosion",
+			"function"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.09090909090909091,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 10317,
+		"nouns": [],
+		"dOIndex": 466,
+		"isQuote": false
+	},
+	{
+		"txt": "As you can see, we've altered the statements that set the initial velocity of the particles to be a random number generator in a range anywhere from 0 to a velocity that would consume the entire explosion's kinetic energy. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10318,
+		"nouns": [
+			"ve",
+			"statements",
+			"velocity",
+			"particles",
+			"number",
+			"generator",
+			"range",
+			"velocity",
+			"explosion",
+			"energy"
+		],
+		"dOIndex": 467,
+		"nouns2": [
+			"statements",
+			"velocity",
+			"particles",
+			"generator",
+			"explosion"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " The next line reduces the available kinetic energy in the explosion by the amount just assigned to the particle. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10319,
+		"nouns": [
+			"line",
+			"energy",
+			"explosion",
+			"amount",
+			"particle"
+		],
+		"dOIndex": 468,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"explosion",
+			"particle"
+		]
+	},
+	{
+		"txt": " This way, you can be sure that the outgoing explosion is never more powerful then the input. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10320,
+		"nouns": [
+			"way",
+			"explosion",
+			"input"
+		],
+		"dOIndex": 469,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"explosion"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.10526315789473684,
+			"words": [
+				"powerful"
+			],
+			"positive": [
+				"powerful"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " A more interesting way to handle this would be to first initialize the particles with some given mass distribution and to assign the velocities not randomly, but with a normal distribution. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10321,
+		"nouns": [
+			"way",
+			"first",
+			"initialize",
+			"particles",
+			"mass",
+			"distribution",
+			"velocities",
+			"distribution"
+		],
+		"dOIndex": 470,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"initialize",
+			"particles",
+			"distribution",
+			"velocities"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.06060606060606061,
+			"words": [
+				"interesting"
+			],
+			"positive": [
+				"interesting"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Numerical recipes in C can help you accomplish this.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10322,
+		"nouns": [
+			"recipes",
+			"C"
+		],
+		"dOIndex": 471,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Numerical",
+			"recipes"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.4,
+			"words": [
+				"accomplish",
+				"help"
+			],
+			"positive": [
+				"accomplish",
+				"help"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10323,
+		"nouns": [],
+		"dOIndex": 472,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10324,
+		"nouns": [],
+		"dOIndex": 473,
+		"isQuote": false
+	},
+	{
+		"txt": "Even though the preceding code does not take into account some of the more subtle aspects of the transfer of kinetic energy, it will ensure that a small, slow moving bullet produces a smaller explosion than a big, fast moving one. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10325,
+		"nouns": [
+			"code",
+			"account",
+			"aspects",
+			"transfer",
+			"energy",
+			"bullet",
+			"explosion",
+			"one"
+		],
+		"dOIndex": 474,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"account",
+			"aspects",
+			"transfer",
+			"explosion"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.047619047619047616,
+			"words": [
+				"big",
+				"ensure"
+			],
+			"positive": [
+				"big",
+				"ensure"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " This is something that is lacking in today's video ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10326,
+		"nouns": [
+			"today",
+			"video"
+		],
+		"dOIndex": 475,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10327,
+		"nouns": [],
+		"dOIndex": 476,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10328,
+		"nouns": [],
+		"dOIndex": 477,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10329,
+		"nouns": [],
+		"dOIndex": 478,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10330,
+		"nouns": [],
+		"dOIndex": 479,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10331,
+		"nouns": [],
+		"dOIndex": 480,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10332,
+		"nouns": [],
+		"dOIndex": 481,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10333,
+		"nouns": [],
+		"dOIndex": 482,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "games.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10334,
+		"nouns": [
+			"games"
+		],
+		"dOIndex": 483,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10335,
+		"nouns": [],
+		"dOIndex": 484,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10336,
+		"nouns": [],
+		"dOIndex": 485,
+		"isQuote": false
+	},
+	{
+		"txt": "Polygon Explosions",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10337,
+		"nouns": [
+			"Polygon",
+			"Explosions"
+		],
+		"dOIndex": 486,
+		"nouns2": [
+			"Polygon",
+			"Explosions"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10338,
+		"nouns": [],
+		"dOIndex": 487,
+		"isQuote": false
+	},
+	{
+		"txt": "While particle ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10339,
+		"nouns": [
+			"particle"
+		],
+		"dOIndex": 488,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"particle"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10340,
+		"nouns": [],
+		"dOIndex": 489,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "explosions are appropriate for small, uniform objects, they fail to give appropriate realism when something is blown into identifiable chunks. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10341,
+		"nouns": [
+			"explosions",
+			"uniform",
+			"objects",
+			"realism",
+			"chunks"
+		],
+		"dOIndex": 490,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"explosions",
+			"uniform",
+			"objects",
+			"realism"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.09523809523809523,
+			"words": [
+				"appropriate",
+				"fail",
+				"appropriate"
+			],
+			"positive": [
+				"appropriate",
+				"appropriate"
+			],
+			"negative": [
+				"fail"
+			]
+		}
+	},
+	{
+		"txt": " This is why in video games you rarely see a car explode and the door fly away to land next to you. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10342,
+		"nouns": [
+			"video",
+			"games",
+			"car",
+			"door",
+			"land"
+		],
+		"dOIndex": 491,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Instead, games usually handle objects like this with a particle explosion that obscures the object while it is re rendered in its now exploded state with the missing pieces having been apparently blown to smithereens.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10343,
+		"nouns": [
+			"games",
+			"objects",
+			"particle",
+			"explosion",
+			"object",
+			"re",
+			"state",
+			"pieces",
+			"smithereens"
+		],
+		"dOIndex": 492,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Instead",
+			"objects",
+			"particle",
+			"explosion",
+			"smithereens"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"missing",
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": [
+				"missing"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10344,
+		"nouns": [],
+		"dOIndex": 493,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10345,
+		"nouns": [],
+		"dOIndex": 494,
+		"isQuote": false
+	},
+	{
+		"txt": "If you do want to model a full explosion of solid bodies, you can reuse the particle code for the translation aspects. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10346,
+		"nouns": [
+			"model",
+			"explosion",
+			"bodies",
+			"particle",
+			"code",
+			"translation",
+			"aspects"
+		],
+		"dOIndex": 495,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"explosion",
+			"particle",
+			"translation",
+			"aspects"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.13043478260869565,
+			"words": [
+				"solid",
+				"want"
+			],
+			"positive": [
+				"solid",
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Essentially the particles will now describe the center of gravity of each solid body. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10347,
+		"nouns": [
+			"particles",
+			"center",
+			"gravity",
+			"body"
+		],
+		"dOIndex": 496,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Essentially",
+			"particles",
+			"gravity"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.125,
+			"words": [
+				"solid"
+			],
+			"positive": [
+				"solid"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " You will have to add in an initial angular velocity and let the simulation, as described in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10348,
+		"nouns": [
+			"velocity",
+			"simulation"
+		],
+		"dOIndex": 497,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity",
+			"simulation"
+		]
+	},
+	{
+		"txt": "Chapter 12",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10349,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 498,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " , handle their motion after that initial angle.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10350,
+		"nouns": [
+			"motion",
+			"angle"
+		],
+		"dOIndex": 499,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10351,
+		"nouns": [],
+		"dOIndex": 500,
+		"isQuote": false
+	},
+	{
+		"txt": "While we don't have room to go over another example here, we'll talk a little about the input energy to such an explosion to help you bridge the gap. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10352,
+		"nouns": [
+			"t",
+			"room",
+			"example",
+			"ll",
+			"input",
+			"energy",
+			"explosion",
+			"bridge",
+			"gap"
+		],
+		"dOIndex": 501,
+		"nouns2": [
+			"example",
+			"explosion"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.06666666666666667,
+			"words": [
+				"help"
+			],
+			"positive": [
+				"help"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " While we are on that subject, let's recall that a bullet just doesn't have the energy required to blow something apart. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10353,
+		"nouns": [
+			"subject",
+			"bullet",
+			"doesn",
+			"t",
+			"energy",
+			"blow"
+		],
+		"dOIndex": 502,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"subject"
+		]
+	},
+	{
+		"txt": " Even when you hit something with a tank mounted gun, it really isn't the kinetic energy of the bullet that blows apart the thing you hit, but some secondary explosion. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10354,
+		"nouns": [
+			"tank",
+			"gun",
+			"isn",
+			"t",
+			"energy",
+			"bullet",
+			"blows",
+			"explosion"
+		],
+		"dOIndex": 503,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"explosion"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.03125,
+			"words": [
+				"gun"
+			],
+			"positive": [],
+			"negative": [
+				"gun"
+			]
+		}
+	},
+	{
+		"txt": " In the case of a tank hitting another tank, the molten slag from the impact is usually peppered all over the inside of the tank, causing the fuel or ammunition to explode. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10355,
+		"nouns": [
+			"case",
+			"tank",
+			"tank",
+			"slag",
+			"impact",
+			"tank",
+			"fuel",
+			"ammunition"
+		],
+		"dOIndex": 504,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"ammunition"
+		],
+		"highfreq": {
+			"tank": 3
+		}
+	},
+	{
+		"txt": " That is where you get the big booms it's the conversion of chemical energy to heat, light, and pressure!",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10356,
+		"nouns": [
+			"booms",
+			"conversion",
+			"energy",
+			"heat",
+			"light",
+			"pressure"
+		],
+		"dOIndex": 505,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"conversion",
+			"pressure"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"pressure",
+				"big"
+			],
+			"positive": [
+				"big"
+			],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10357,
+		"nouns": [],
+		"dOIndex": 506,
+		"isQuote": false
+	},
+	{
+		"txt": "The most common method of quantifying the chemical energy in weapons is ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10358,
+		"nouns": [
+			"method",
+			"energy",
+			"weapons"
+		],
+		"dOIndex": 507,
+		"nouns2": [
+			"weapons"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "called TNT equivalency",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10359,
+		"nouns": [
+			"TNT",
+			"equivalency"
+		],
+		"dOIndex": 508,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equivalency"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10360,
+		"nouns": [],
+		"dOIndex": 509,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " This is how much TNT it would take to cause the same explosion regardless of what you are actually exploding. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10361,
+		"nouns": [
+			"TNT",
+			"cause",
+			"explosion"
+		],
+		"dOIndex": 510,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"explosion"
+		]
+	},
+	{
+		"txt": " Now, explosion modeling of, say, gasoline and air is pretty complex, so let's stick with TNT. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10362,
+		"nouns": [
+			"explosion",
+			"gasoline",
+			"air",
+			"TNT"
+		],
+		"dOIndex": 511,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"explosion",
+			"gasoline"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.05555555555555555,
+			"words": [
+				"pretty"
+			],
+			"positive": [
+				"pretty"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " A kilogram of TNT contains 4.184 Mega joules of energy; a 9 mm round has 400 J. You can see from that comparison why it is hard to blow something up by shooting at it, but easy to do with a block of TNT.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10363,
+		"nouns": [
+			"kilogram",
+			"TNT",
+			"joules",
+			"energy",
+			"mm",
+			"round",
+			"J",
+			"comparison",
+			"blow",
+			"block",
+			"TNT"
+		],
+		"dOIndex": 512,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"kilogram",
+			"comparison"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.022222222222222223,
+			"words": [
+				"block",
+				"easy",
+				"hard"
+			],
+			"positive": [
+				"easy"
+			],
+			"negative": [
+				"block",
+				"hard"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10364,
+		"nouns": [],
+		"dOIndex": 513,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10365,
+		"nouns": [],
+		"dOIndex": 514,
+		"isQuote": false
+	},
+	{
+		"txt": "For the purposes of this discussion, let's say you have an open box (five polygon sides) into which your player just tossed a 1 kg block of TNT. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10366,
+		"nouns": [
+			"purposes",
+			"discussion",
+			"box",
+			"five",
+			"polygon",
+			"sides",
+			"player",
+			"kg",
+			"block",
+			"TNT"
+		],
+		"dOIndex": 515,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"purposes",
+			"discussion",
+			"polygon"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.034482758620689655,
+			"words": [
+				"block"
+			],
+			"positive": [],
+			"negative": [
+				"block"
+			]
+		}
+	},
+	{
+		"txt": " When the TNT is detonated, you can give each polygon side an initial velocity (translational and angular) and let the kinematic equations take over. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10367,
+		"nouns": [
+			"TNT",
+			"polygon",
+			"side",
+			"velocity",
+			"kinematic",
+			"equations"
+		],
+		"dOIndex": 516,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"polygon",
+			"velocity",
+			"kinematic",
+			"equations"
+		]
+	},
+	{
+		"txt": " Those velocities can be based on two simple rules.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10368,
+		"nouns": [
+			"velocities",
+			"two",
+			"rules"
+		],
+		"dOIndex": 517,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocities"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10369,
+		"nouns": [],
+		"dOIndex": 518,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10370,
+		"nouns": [],
+		"dOIndex": 519,
+		"isQuote": false
+	},
+	{
+		"txt": "The velocity vector can be defined by two points: the center of the block of TNT and the center of area of the polygon.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10371,
+		"nouns": [
+			"velocity",
+			"vector",
+			"two",
+			"points",
+			"center",
+			"block",
+			"TNT",
+			"center",
+			"area",
+			"polygon"
+		],
+		"dOIndex": 520,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity",
+			"polygon"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.041666666666666664,
+			"words": [
+				"block"
+			],
+			"positive": [],
+			"negative": [
+				"block"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"li",
+			"ul",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10372,
+		"nouns": [],
+		"dOIndex": 521,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10373,
+		"nouns": [],
+		"dOIndex": 522,
+		"isQuote": false
+	},
+	{
+		"txt": "The sum of all the kinetic energy must be less than the available chemical energy in the TNT. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10374,
+		"nouns": [
+			"sum",
+			"energy",
+			"energy",
+			"TNT"
+		],
+		"dOIndex": 523,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " This can be prorated by the square of the distance from the polygon to the block of TNT.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10375,
+		"nouns": [
+			"square",
+			"distance",
+			"polygon",
+			"block",
+			"TNT"
+		],
+		"dOIndex": 524,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distance",
+			"polygon"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.05263157894736842,
+			"words": [
+				"block"
+			],
+			"positive": [],
+			"negative": [
+				"block"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"li",
+			"ul",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10376,
+		"nouns": [],
+		"dOIndex": 525,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10377,
+		"nouns": [],
+		"dOIndex": 526,
+		"isQuote": false
+	},
+	{
+		"txt": "The use of the center of area in our first rule will impart some rotation into our polygon, as it will cause a moment about the center of gravity unless the two coincide. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10378,
+		"nouns": [
+			"use",
+			"center",
+			"area",
+			"first",
+			"rule",
+			"rotation",
+			"polygon",
+			"cause",
+			"moment",
+			"center",
+			"gravity",
+			"two"
+		],
+		"dOIndex": 527,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"rotation",
+			"polygon",
+			"gravity"
+		]
+	},
+	{
+		"txt": " If this is the case, as it would be for our box, aerodynamic drag and unevenness of the explosion will still cause rotation, so you should either model these explicitly or impart some rotational velocity manually.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10379,
+		"nouns": [
+			"case",
+			"box",
+			"drag",
+			"unevenness",
+			"explosion",
+			"cause",
+			"rotation",
+			"model",
+			"velocity"
+		],
+		"dOIndex": 528,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"unevenness",
+			"explosion",
+			"rotation",
+			"velocity"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.02702702702702703,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10380,
+		"nouns": [],
+		"dOIndex": 529,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10381,
+		"nouns": [],
+		"dOIndex": 530,
+		"isQuote": false
+	},
+	{
+		"txt": "Now that we have a velocity direction, we need to define its ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10382,
+		"nouns": [
+			"velocity",
+			"direction"
+		],
+		"dOIndex": 531,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity",
+			"direction"
+		]
+	},
+	{
+		"txt": "magnitude. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10383,
+		"nouns": [
+			"magnitude"
+		],
+		"dOIndex": 532,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"magnitude"
+		]
+	},
+	{
+		"txt": " The force on objects near an explosion is caused by the rapid expansion of gasses due to the heat generated by the detonation of the explosive. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10384,
+		"nouns": [
+			"force",
+			"objects",
+			"explosion",
+			"expansion",
+			"gasses",
+			"heat",
+			"detonation"
+		],
+		"dOIndex": 533,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"objects",
+			"explosion",
+			"expansion",
+			"detonation"
+		]
+	},
+	{
+		"txt": " However, not all the chemical energy is transferred to the objects a lot of it is converted into heat, light, and sound. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10385,
+		"nouns": [
+			"energy",
+			"objects",
+			"lot",
+			"heat",
+			"light",
+			"sound"
+		],
+		"dOIndex": 534,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"objects"
+		]
+	},
+	{
+		"txt": " Typically, only one third of the available chemical energy is converted in the initial detonation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10386,
+		"nouns": [
+			"one",
+			"third",
+			"energy",
+			"detonation"
+		],
+		"dOIndex": 535,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Typically",
+			"detonation"
+		]
+	},
+	{
+		"txt": " Let's call this the efficiency of the explosion, which we'll denote by ζ. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10387,
+		"nouns": [
+			"efficiency",
+			"explosion",
+			"ll",
+			"ζ"
+		],
+		"dOIndex": 536,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"efficiency",
+			"explosion"
+		]
+	},
+	{
+		"txt": " Therefore, we can write the relationship between velocities of the polygons as follows:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10388,
+		"nouns": [
+			"relationship",
+			"velocities",
+			"polygons"
+		],
+		"dOIndex": 537,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Therefore",
+			"relationship",
+			"velocities",
+			"polygons"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 10389,
+		"nouns": [],
+		"dOIndex": 538,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10390,
+		"nouns": [],
+		"dOIndex": 539,
+		"isQuote": false
+	},
+	{
+		"txt": "Here, we can tune ζ to give the polygons realistic velocities in the event of an explosion (i.e., not sending them off at the speed of light). ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10391,
+		"nouns": [
+			"tune",
+			"ζ",
+			"polygons",
+			"velocities",
+			"event",
+			"explosion",
+			"e",
+			"light"
+		],
+		"dOIndex": 540,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"polygons",
+			"velocities",
+			"explosion"
+		]
+	},
+	{
+		"txt": " If the energy from the explosion is divided up equally, you can see that lighter objects will have higher velocities, as you might expect. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10392,
+		"nouns": [
+			"energy",
+			"explosion",
+			"objects",
+			"velocities"
+		],
+		"dOIndex": 541,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"explosion",
+			"objects",
+			"velocities"
+		]
+	},
+	{
+		"txt": " You can also adjust the amount of explosion energy available to each object by weighting the object's imparted energy by its distance from the explosion. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10393,
+		"nouns": [
+			"amount",
+			"explosion",
+			"energy",
+			"object",
+			"object",
+			"energy",
+			"distance",
+			"explosion"
+		],
+		"dOIndex": 542,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"explosion",
+			"distance"
+		]
+	},
+	{
+		"txt": " This should also be tuned in the program, but in general, pressure from an explosion decreases with the cube of distance and exponentially with time.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10394,
+		"nouns": [
+			"program",
+			"pressure",
+			"explosion",
+			"decreases",
+			"cube",
+			"distance",
+			"time"
+		],
+		"dOIndex": 543,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"program",
+			"pressure",
+			"explosion",
+			"decreases",
+			"distance"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.038461538461538464,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10395,
+		"nouns": [],
+		"dOIndex": 544,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10396,
+		"nouns": [],
+		"dOIndex": 545
+	},
+	{
+		"txt": "If you want to model more complex explosion structure interactions, there are many good references for how, say, buildings, react to bomb blasts. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10397,
+		"nouns": [
+			"model",
+			"explosion",
+			"structure",
+			"interactions",
+			"references",
+			"buildings",
+			"bomb",
+			"blasts"
+		],
+		"dOIndex": 546,
+		"nouns2": [
+			"explosion",
+			"structure",
+			"interactions",
+			"references",
+			"buildings"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.125,
+			"words": [
+				"bomb",
+				"good",
+				"want"
+			],
+			"positive": [
+				"good",
+				"want"
+			],
+			"negative": [
+				"bomb"
+			]
+		}
+	},
+	{
+		"txt": " FEMA, as well as the Army and Navy, have several papers on the subject, such as FEMA 426 Reference Manual to Mitigate Potential Terrorist Attacks Against Buildings . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10398,
+		"nouns": [
+			"FEMA",
+			"Army",
+			"Navy",
+			"papers",
+			"subject",
+			"FEMA",
+			"Reference",
+			"Buildings"
+		],
+		"dOIndex": 547,
+		"nouns2": [
+			"subject",
+			"Reference",
+			"Manual",
+			"Mitigate",
+			"Potential",
+			"Terrorist",
+			"Attacks",
+			"Against",
+			"Buildings"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.1,
+			"words": [
+				"attacks",
+				"terrorist"
+			],
+			"positive": [],
+			"negative": [
+				"attacks",
+				"terrorist"
+			]
+		}
+	},
+	{
+		"txt": " The general concepts laid out in such documents can increase the realism of the building damage due to ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10399,
+		"nouns": [
+			"concepts",
+			"documents",
+			"increase",
+			"realism",
+			"damage"
+		],
+		"dOIndex": 548,
+		"nouns2": [
+			"concepts",
+			"documents",
+			"increase",
+			"realism"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.1,
+			"words": [
+				"damage",
+				"increase"
+			],
+			"positive": [
+				"increase"
+			],
+			"negative": [
+				"damage"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 10400,
+		"nouns": [],
+		"dOIndex": 549
+	},
+	{
+		"txt": "explosions.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 10401,
+		"nouns": [
+			"explosions"
+		],
+		"dOIndex": 550,
+		"nouns2": [
+			"explosions"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10402,
+		"nouns": [],
+		"dOIndex": 551
+	}
+]

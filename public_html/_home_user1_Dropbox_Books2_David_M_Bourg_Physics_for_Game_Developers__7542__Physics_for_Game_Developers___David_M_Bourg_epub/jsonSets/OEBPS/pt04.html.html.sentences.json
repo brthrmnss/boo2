@@ -1,0 +1,177 @@
+[
+	{
+		"txt": "",
+		"why": "br tag like",
+		"sentenceIndex": 11010,
+		"nouns": [],
+		"dOIndex": 0,
+		"isQuote": false
+	},
+	{
+		"txt": "Part IV. Digital Physics",
+		"why": "p",
+		"tags": [
+			"h1",
+			"div",
+			"div",
+			"div",
+			"div"
+		],
+		"sentenceIndex": 11011,
+		"nouns": [
+			"Part IV",
+			"Physics"
+		],
+		"dOIndex": 1,
+		"nouns2": [
+			"Digital",
+			"Physics"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11012,
+		"nouns": [],
+		"dOIndex": 2
+	},
+	{
+		"txt": "Part IV covers digital physics in a broad sense. ",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div"
+		],
+		"sentenceIndex": 11013,
+		"nouns": [
+			"Part IV",
+			"physics",
+			"sense"
+		],
+		"dOIndex": 3,
+		"nouns2": [
+			"physics"
+		]
+	},
+	{
+		"txt": " This is an exciting topic, as it relates to the technologies associated with mobile platforms, such as smartphones like the iPhone, and groundbreaking game systems like the Wii. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11014,
+		"nouns": [
+			"topic",
+			"technologies",
+			"platforms",
+			"smartphones",
+			"iPhone",
+			"game",
+			"systems",
+			"Wii"
+		],
+		"dOIndex": 4,
+		"nouns2": [
+			"technologies",
+			"platforms",
+			"smartphones",
+			"systems"
+		],
+		"sentiment": {
+			"score": 7,
+			"comparative": 0.23333333333333334,
+			"words": [
+				"like",
+				"like",
+				"exciting"
+			],
+			"positive": [
+				"like",
+				"like",
+				"exciting"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Chapters in this part of the book will explain the physics behind accelerometers, touch screens, GPS, and other gizmos, showing you how to leverage these elements in your games. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11015,
+		"nouns": [
+			"Chapters",
+			"part",
+			"book",
+			"physics",
+			"accelerometers",
+			"touch",
+			"screens",
+			"GPS",
+			"gizmos",
+			"leverage",
+			"elements",
+			"games"
+		],
+		"dOIndex": 5,
+		"nouns2": [
+			"Chapters",
+			"physics",
+			"accelerometers",
+			"screens",
+			"leverage",
+			"elements"
+		]
+	},
+	{
+		"txt": " We recognize that these topics are not what most game programmers typically think about when they think of game physics; however, these technologies play an increasingly important role in modern mobile games, and we feel it's important to explain their underlying physics in the hope that you'll be better able to leverage these technologies in your games. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11016,
+		"nouns": [
+			"topics",
+			"game",
+			"programmers",
+			"game",
+			"physics",
+			"technologies",
+			"role",
+			"games",
+			"physics",
+			"hope",
+			"ll",
+			"leverage",
+			"technologies",
+			"games"
+		],
+		"dOIndex": 6,
+		"nouns2": [
+			"programmers",
+			"physics",
+			"technologies",
+			"leverage"
+		],
+		"highfreq": {
+			"these": 3
+		},
+		"sentiment": {
+			"score": 8,
+			"comparative": 0.13559322033898305,
+			"words": [
+				"better",
+				"hope",
+				"important",
+				"important"
+			],
+			"positive": [
+				"better",
+				"hope",
+				"important",
+				"important"
+			],
+			"negative": []
+		}
+	}
+]

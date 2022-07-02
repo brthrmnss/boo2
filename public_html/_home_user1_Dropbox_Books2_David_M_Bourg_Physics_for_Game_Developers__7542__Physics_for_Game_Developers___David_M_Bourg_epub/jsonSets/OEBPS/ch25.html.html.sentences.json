@@ -1,0 +1,4661 @@
+[
+	{
+		"txt": "",
+		"why": "br tag like",
+		"sentenceIndex": 13378,
+		"nouns": [],
+		"dOIndex": 0,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 25. Optical Tracking",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13379,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 1,
+		"nouns2": [
+			"Chapter",
+			"Optical",
+			"Tracking"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "In previous chapters we discussed how accelerometers have changed the way that people interact with video games. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13380,
+		"nouns": [
+			"chapters",
+			"accelerometers",
+			"way",
+			"people",
+			"video",
+			"games"
+		],
+		"dOIndex": 2,
+		"nouns2": [
+			"chapters",
+			"accelerometers"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " The same sort of innovation is occurring with ",
+		"why": "link",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 13381,
+		"nouns": [
+			"sort",
+			"innovation"
+		],
+		"dOIndex": 3,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"innovation"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.1,
+			"words": [
+				"innovation"
+			],
+			"positive": [
+				"innovation"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "optical sensors. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13382,
+		"nouns": [
+			"sensors"
+		],
+		"dOIndex": 4,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"sensors"
+		]
+	},
+	{
+		"txt": " Cameras, both in visual and infrared spectrums, are being used to generate input for games. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13383,
+		"nouns": [
+			"Cameras",
+			"both",
+			"spectrums",
+			"input",
+			"games"
+		],
+		"dOIndex": 5,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Cameras",
+			"spectrums"
+		]
+	},
+	{
+		"txt": " This chapter will focus on the Microsoft Kinect for Windows SDK and give an overview of how to make a simple game that combines optical tracking with physics. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13384,
+		"nouns": [
+			"chapter",
+			"focus",
+			"Microsoft",
+			"Kinect",
+			"Windows",
+			"SDK",
+			"overview",
+			"game",
+			"physics"
+		],
+		"dOIndex": 6,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"chapter",
+			"Microsoft",
+			"Kinect",
+			"Windows",
+			"overview",
+			"physics"
+		]
+	},
+	{
+		"txt": " First we'll give a short introduction on the technologies these systems use to turn a camera into a tracking device.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13385,
+		"nouns": [
+			"First",
+			"ll",
+			"introduction",
+			"technologies",
+			"systems",
+			"use",
+			"camera",
+			"device"
+		],
+		"dOIndex": 7,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"introduction",
+			"technologies",
+			"systems"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 13386,
+		"nouns": [],
+		"dOIndex": 8,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 13387,
+		"nouns": [],
+		"dOIndex": 9,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": true,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "Without getting too detailed, we should start by discussing a few things about digital cameras. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13388,
+		"nouns": [
+			"things",
+			"cameras"
+		],
+		"dOIndex": 10,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"things",
+			"cameras"
+		],
+		"nouns2": [
+			"Without",
+			"cameras"
+		]
+	},
+	{
+		"txt": " First, most of us are familiar with the ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13389,
+		"nouns": [
+			"First"
+		],
+		"dOIndex": 11,
+		"ignoreDOBcNoQuotes": false,
+		"isQuote": false,
+		"nounsProcAll": [
+			"First"
+		],
+		"sfxfx": []
+	},
+	{
+		"txt": " \"megapixel\" ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13390,
+		"nouns": [
+			"megapixel"
+		],
+		"dOIndex": 12,
+		"isQuote": true,
+		"nounsProcAll": [
+			"megapixel"
+		],
+		"sfxfx": [],
+		"gspkNameUnknown": "First",
+		"nouns2": [
+			"megapixel"
+		]
+	},
+	{
+		"txt": " metric used to describe digital cameras. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13391,
+		"nouns": [
+			"cameras"
+		],
+		"dOIndex": 13,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [
+			"cameras"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"cameras"
+		]
+	},
+	{
+		"txt": " This number is a measure of how many pixels of information the camera records in a single frame. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13392,
+		"nouns": [
+			"number",
+			"measure",
+			"pixels",
+			"information",
+			"camera",
+			"records",
+			"frame"
+		],
+		"dOIndex": 14,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"number",
+			"measure",
+			"pixels",
+			"information",
+			"camera",
+			"records",
+			"frame"
+		],
+		"nouns2": [
+			"measure",
+			"information",
+			"records"
+		]
+	},
+	{
+		"txt": " It is equal to the height of the frame in pixels multiplied by the width of the frame in pixels. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13393,
+		"nouns": [
+			"height",
+			"frame",
+			"pixels",
+			"width",
+			"frame",
+			"pixels"
+		],
+		"dOIndex": 15,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"height",
+			"frame",
+			"pixels",
+			"width",
+			"frame",
+			"pixels"
+		]
+	},
+	{
+		"txt": " A pixel, or picture element, contains information on intensity, color, and the location of the pixel relative to some origin. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13394,
+		"nouns": [
+			"pixel",
+			"picture",
+			"element",
+			"information",
+			"intensity",
+			"color",
+			"location",
+			"pixel",
+			"origin"
+		],
+		"dOIndex": 16,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"pixel",
+			"picture",
+			"element",
+			"information",
+			"intensity",
+			"color",
+			"location",
+			"pixel",
+			"origin"
+		],
+		"nouns2": [
+			"picture",
+			"element",
+			"information",
+			"intensity",
+			"location"
+		]
+	},
+	{
+		"txt": " The amount of information depends on the bits per pixel and corresponds to the amount of color variation a particular pixel can display. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13395,
+		"nouns": [
+			"amount",
+			"information",
+			"bits",
+			"pixel",
+			"amount",
+			"color",
+			"variation",
+			"pixel",
+			"display"
+		],
+		"dOIndex": 17,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"amount",
+			"information",
+			"bits",
+			"pixel",
+			"amount",
+			"color",
+			"variation",
+			"pixel",
+			"display"
+		],
+		"nouns2": [
+			"information",
+			"variation",
+			"display"
+		]
+	},
+	{
+		"txt": " Perhaps you've seen your graphics set to 16 bit or 24 bit modes. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13396,
+		"nouns": [
+			"ve",
+			"graphics",
+			"bit",
+			"bit",
+			"modes"
+		],
+		"dOIndex": 18,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"ve",
+			"graphics",
+			"bit",
+			"bit",
+			"modes"
+		],
+		"nouns2": [
+			"Perhaps",
+			"graphics"
+		]
+	},
+	{
+		"txt": " This describes how many colors a particular pixel can display. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13397,
+		"nouns": [
+			"colors",
+			"pixel",
+			"display"
+		],
+		"dOIndex": 19,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"colors",
+			"pixel",
+			"display"
+		],
+		"nouns2": [
+			"display"
+		]
+	},
+	{
+		"txt": " A 24 bit pixel can be one of 16.8 million different colors at any instant. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13398,
+		"nouns": [
+			"bit",
+			"pixel",
+			"one",
+			"million",
+			"colors",
+			"instant"
+		],
+		"dOIndex": 20,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"bit",
+			"pixel",
+			"one",
+			"million",
+			"colors",
+			"instant"
+		],
+		"nouns2": [
+			"million",
+			"instant"
+		]
+	},
+	{
+		"txt": " It is commonly held that the human eye can differentiate among about 10 million colors; 24 bit color is called ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13399,
+		"nouns": [
+			"eye",
+			"million",
+			"colors",
+			"bit",
+			"color"
+		],
+		"dOIndex": 21,
+		"ignoreDOBcNoQuotes": false,
+		"isQuote": false,
+		"nounsProcAll": [
+			"eye",
+			"million",
+			"colors",
+			"bit",
+			"color"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"million"
+		]
+	},
+	{
+		"txt": " \"true color,\" ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13400,
+		"isQuote": true,
+		"nouns": [
+			"color"
+		],
+		"dOIndex": 22,
+		"nounsProcAll": [
+			"color"
+		],
+		"sfxfx": [],
+		"gspkNameUnknown": "First",
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.5,
+			"words": [
+				"true"
+			],
+			"positive": [
+				"true"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " as it can display more colors than your eye can recognize. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13401,
+		"nouns": [
+			"display",
+			"colors",
+			"eye"
+		],
+		"dOIndex": 23,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [
+			"display",
+			"colors",
+			"eye"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"display"
+		]
+	},
+	{
+		"txt": " You might also see 32 bit color modes; these include an extra 8 bits for a transparency channel that tells the computer what to do if this image were put on top of another image. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13402,
+		"nouns": [
+			"bit",
+			"color",
+			"modes",
+			"include",
+			"bits",
+			"transparency",
+			"channel",
+			"computer",
+			"image",
+			"image"
+		],
+		"dOIndex": 24,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"bit",
+			"color",
+			"modes",
+			"include",
+			"bits",
+			"transparency",
+			"channel",
+			"computer",
+			"image",
+			"image"
+		],
+		"nouns2": [
+			"include",
+			"transparency",
+			"channel",
+			"computer"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.05405405405405406,
+			"words": [
+				"top"
+			],
+			"positive": [
+				"top"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " This is sometimes referred to ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 13403,
+		"nouns": [],
+		"dOIndex": 25,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 13404,
+		"nouns": [],
+		"dOIndex": 26,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "as opacity or alpha .",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 13405,
+		"nouns": [
+			"opacity"
+		],
+		"dOIndex": 27,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"opacity"
+		],
+		"nouns2": [
+			"opacity"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 13406,
+		"nouns": [],
+		"dOIndex": 28,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 13407,
+		"nouns": [],
+		"dOIndex": 29,
+		"isQuote": false
+	},
+	{
+		"txt": "Optical tracking and computer vision, in general, work by detecting ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 13408,
+		"nouns": [
+			"computer",
+			"vision",
+			"work"
+		],
+		"dOIndex": 30,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Optical",
+			"computer"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.09090909090909091,
+			"words": [
+				"vision"
+			],
+			"positive": [
+				"vision"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "patterns in this wealth of pixel data. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13409,
+		"nouns": [
+			"patterns",
+			"wealth",
+			"pixel",
+			"data"
+		],
+		"dOIndex": 31,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"patterns"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.375,
+			"words": [
+				"wealth"
+			],
+			"positive": [
+				"wealth"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Pattern recognition is a mature field of computer science research. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13410,
+		"nouns": [
+			"Pattern",
+			"recognition",
+			"field",
+			"computer",
+			"science",
+			"research"
+		],
+		"dOIndex": 32,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Pattern",
+			"recognition",
+			"computer",
+			"science",
+			"research"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.3333333333333333,
+			"words": [
+				"mature",
+				"recognition"
+			],
+			"positive": [
+				"mature",
+				"recognition"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The human brain is an excellent pattern recognizer. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13411,
+		"nouns": [
+			"brain",
+			"pattern",
+			"recognizer"
+		],
+		"dOIndex": 33,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pattern",
+			"recognizer"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.3,
+			"words": [
+				"excellent"
+			],
+			"positive": [
+				"excellent"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " For instance, look at ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 13412,
+		"nouns": [
+			"instance"
+		],
+		"dOIndex": 34,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"instance"
+		]
+	},
+	{
+		"txt": "Figure 25 1",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 13413,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 35,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13414,
+		"nouns": [],
+		"dOIndex": 36,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Most of us can't help but see a face in what is in reality a collection of three random shapes. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13415,
+		"nouns": [
+			"t",
+			"face",
+			"reality",
+			"collection",
+			"three",
+			"shapes"
+		],
+		"dOIndex": 37,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"reality",
+			"collection"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.09090909090909091,
+			"words": [
+				"help"
+			],
+			"positive": [],
+			"negative": [
+				"help"
+			]
+		}
+	},
+	{
+		"txt": " Our brains are so primed to recognize the basic pattern of a human face that we can do it even when we don't want to!",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13416,
+		"nouns": [
+			"brains",
+			"pattern",
+			"face",
+			"t"
+		],
+		"dOIndex": 38,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pattern"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.038461538461538464,
+			"words": [
+				"want"
+			],
+			"positive": [],
+			"negative": [
+				"want"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 13417,
+		"nouns": [],
+		"dOIndex": 39,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 13418,
+		"nouns": [],
+		"dOIndex": 40,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 13419,
+		"nouns": [],
+		"dOIndex": 41,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 13420,
+		"nouns": [],
+		"dOIndex": 42,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 13421,
+		"nouns": [],
+		"dOIndex": 43,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 25 1. Four unrelated geometric entities",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13422,
+		"nouns": [
+			"Figure",
+			"Four",
+			"entities"
+		],
+		"dOIndex": 44,
+		"nouns2": [
+			"Figure",
+			"entities"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 13423,
+		"nouns": [],
+		"dOIndex": 45,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": true,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "Computers, on the other hand, have a harder time looking at two circles and a few lines and saying, ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13424,
+		"nouns": [
+			"Computers",
+			"hand",
+			"time",
+			"two",
+			"circles",
+			"lines"
+		],
+		"dOIndex": 46,
+		"ignoreDOBcNoQuotes": false,
+		"isQuote": false,
+		"nounsProcAll": [
+			"Computers",
+			"hand",
+			"time",
+			"two",
+			"circles",
+			"lines"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"Computers",
+			"circles"
+		]
+	},
+	{
+		"txt": " \"Hey, this is a smiling face.\"",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13425,
+		"isQuote": true,
+		"nouns": [
+			"face"
+		],
+		"dOIndex": 47,
+		"nounsProcAll": [
+			"face"
+		],
+		"sfxfx": [],
+		"gspkNameUnknown": "Computers",
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.2857142857142857,
+			"words": [
+				"smiling"
+			],
+			"positive": [
+				"smiling"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 13426,
+		"nouns": [],
+		"dOIndex": 48,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 13427,
+		"nouns": [],
+		"dOIndex": 49,
+		"isQuote": false
+	},
+	{
+		"txt": "Sensors and SDKs",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13428,
+		"nouns": [
+			"Sensors",
+			"SDKs"
+		],
+		"dOIndex": 50,
+		"nouns2": [
+			"Sensors"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 13429,
+		"nouns": [],
+		"dOIndex": 51,
+		"isQuote": false
+	},
+	{
+		"txt": "The modern ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13430,
+		"nouns": [],
+		"dOIndex": 52,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "interest in computer vision as a consumer input for computer games has led to the development of several SDKs for performing computer vision pattern recognition. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13431,
+		"nouns": [
+			"interest",
+			"computer",
+			"vision",
+			"consumer",
+			"input",
+			"computer",
+			"games",
+			"development",
+			"SDKs",
+			"computer",
+			"vision",
+			"pattern",
+			"recognition"
+		],
+		"dOIndex": 53,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"interest",
+			"computer",
+			"consumer",
+			"development",
+			"pattern",
+			"recognition"
+		],
+		"highfreq": {
+			"computer": 3
+		},
+		"sentiment": {
+			"score": 5,
+			"comparative": 0.19230769230769232,
+			"words": [
+				"recognition",
+				"vision",
+				"vision",
+				"interest"
+			],
+			"positive": [
+				"recognition",
+				"vision",
+				"vision",
+				"interest"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " One such system is Kinect for Windows. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13432,
+		"nouns": [
+			"One",
+			"system",
+			"Kinect",
+			"Windows"
+		],
+		"dOIndex": 54,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Kinect",
+			"Windows"
+		]
+	},
+	{
+		"txt": " Although Microsoft provides a very high level API with the Kinect, the downside is that you are locked into its hardware. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13433,
+		"nouns": [
+			"Microsoft",
+			"level API",
+			"Kinect",
+			"downside",
+			"hardware"
+		],
+		"dOIndex": 55,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Although",
+			"Microsoft",
+			"Kinect",
+			"downside",
+			"hardware"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.08695652173913043,
+			"words": [
+				"downside"
+			],
+			"positive": [],
+			"negative": [
+				"downside"
+			]
+		}
+	},
+	{
+		"txt": " The popular open source alternative is OpenCV, a library of computer vision algorithms. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13434,
+		"nouns": [
+			"source",
+			"alternative",
+			"OpenCV",
+			"library",
+			"computer",
+			"vision",
+			"algorithms"
+		],
+		"dOIndex": 56,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"alternative",
+			"OpenCV",
+			"library",
+			"computer",
+			"algorithms"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.26666666666666666,
+			"words": [
+				"vision",
+				"popular"
+			],
+			"positive": [
+				"vision",
+				"popular"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Its advantage is that it can use a wide variety of camera hardware and not just the Kinect sensor.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13435,
+		"nouns": [
+			"advantage",
+			"use",
+			"variety",
+			"camera",
+			"hardware",
+			"Kinect",
+			"sensor"
+		],
+		"dOIndex": 57,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"advantage",
+			"variety",
+			"hardware",
+			"Kinect"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.1,
+			"words": [
+				"advantage"
+			],
+			"positive": [
+				"advantage"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13436,
+		"nouns": [],
+		"dOIndex": 58,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 13437,
+		"nouns": [],
+		"dOIndex": 59,
+		"isQuote": false
+	},
+	{
+		"txt": "Kinect",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13438,
+		"nouns": [
+			"Kinect"
+		],
+		"dOIndex": 60,
+		"nouns2": [
+			"Kinect"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 13439,
+		"nouns": [],
+		"dOIndex": 61,
+		"isQuote": false
+	},
+	{
+		"txt": "The Kinect was ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13440,
+		"nouns": [
+			"Kinect"
+		],
+		"dOIndex": 62,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Kinect"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 13441,
+		"nouns": [],
+		"dOIndex": 63,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "originally developed for the Xbox 360 but has recently been rebranded to include Kinect for Windows. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13442,
+		"nouns": [
+			"Xbox",
+			"Kinect",
+			"Windows"
+		],
+		"dOIndex": 64,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Kinect",
+			"Windows"
+		]
+	},
+	{
+		"txt": " As console game design has high entrance requirements, the Kinect for Windows allows more casual developers to try their hand at creating games with optical input. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13443,
+		"nouns": [
+			"game",
+			"design",
+			"entrance",
+			"requirements",
+			"Kinect",
+			"Windows",
+			"developers",
+			"hand",
+			"games",
+			"input"
+		],
+		"dOIndex": 65,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"entrance",
+			"requirements",
+			"Kinect",
+			"Windows",
+			"developers"
+		]
+	},
+	{
+		"txt": " The system has a hardware component, called the Kinect sensor, and the previously mentioned Kinect SDK that does a lot of the heavy lifting for us in terms of pattern recognition and depth sensing. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13444,
+		"nouns": [
+			"system",
+			"hardware",
+			"component",
+			"Kinect",
+			"sensor",
+			"Kinect",
+			"SDK",
+			"lot",
+			"terms",
+			"pattern",
+			"recognition",
+			"depth"
+		],
+		"dOIndex": 66,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hardware",
+			"component",
+			"Kinect",
+			"pattern",
+			"recognition"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.05555555555555555,
+			"words": [
+				"recognition"
+			],
+			"positive": [
+				"recognition"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The hardware component consists of an infrared projector, infrared camera, visible light camera, and an array of microphones. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13445,
+		"nouns": [
+			"hardware",
+			"component",
+			"projector",
+			"camera",
+			"light",
+			"camera",
+			"array",
+			"microphones"
+		],
+		"dOIndex": 67,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hardware",
+			"component",
+			"projector",
+			"microphones"
+		]
+	},
+	{
+		"txt": " The two cameras and the projector form the basis of the optical tracking system. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13446,
+		"nouns": [
+			"two",
+			"cameras",
+			"projector",
+			"form",
+			"basis",
+			"system"
+		],
+		"dOIndex": 68,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"cameras",
+			"projector"
+		]
+	},
+	{
+		"txt": " The projector sends out infrared light that is invisible to humans. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13447,
+		"nouns": [
+			"projector",
+			"light",
+			"humans"
+		],
+		"dOIndex": 69,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"projector"
+		]
+	},
+	{
+		"txt": " This light bounces off objects and is reflected back to the Kinect. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13448,
+		"nouns": [
+			"light",
+			"objects",
+			"Kinect"
+		],
+		"dOIndex": 70,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"objects",
+			"Kinect"
+		]
+	},
+	{
+		"txt": " The infrared camera records the reflected light pattern, and based on how it has been distorted, calculates how far the object is from the sensor. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13449,
+		"nouns": [
+			"camera",
+			"records",
+			"light",
+			"pattern",
+			"object",
+			"sensor"
+		],
+		"dOIndex": 71,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"records",
+			"pattern"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.07407407407407407,
+			"words": [
+				"distorted"
+			],
+			"positive": [],
+			"negative": [
+				"distorted"
+			]
+		}
+	},
+	{
+		"txt": " This exact method is carried out in the hardware of the sensor and is proprietary. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13450,
+		"nouns": [
+			"method",
+			"hardware",
+			"sensor"
+		],
+		"dOIndex": 72,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hardware"
+		]
+	},
+	{
+		"txt": " However, the patent applications reveal that a special lens projects circles that, when reflected, become ellipses of varying shapes. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13451,
+		"nouns": [
+			"patent",
+			"applications",
+			"lens",
+			"projects",
+			"circles",
+			"ellipses",
+			"shapes"
+		],
+		"dOIndex": 73,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"applications",
+			"projects",
+			"circles",
+			"ellipses"
+		]
+	},
+	{
+		"txt": " The shape of the ellipse depends on the depth of the object reflecting it. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13452,
+		"nouns": [
+			"shape",
+			"ellipse",
+			"depth",
+			"object"
+		],
+		"dOIndex": 74,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"ellipse"
+		]
+	},
+	{
+		"txt": " In general, this is a much improved ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13453,
+		"nouns": [],
+		"dOIndex": 75,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.2222222222222222,
+			"words": [
+				"improved"
+			],
+			"positive": [
+				"improved"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "version of depth from focus",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13454,
+		"nouns": [
+			"version",
+			"depth",
+			"focus"
+		],
+		"dOIndex": 76,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"version"
+		]
+	},
+	{
+		"txt": " , in which the computer assumes that blurry objects are farther away than objects in focus.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13455,
+		"nouns": [
+			"computer",
+			"objects",
+			"objects",
+			"focus"
+		],
+		"dOIndex": 77,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"computer",
+			"objects"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.11764705882352941,
+			"words": [
+				"blurry"
+			],
+			"positive": [],
+			"negative": [
+				"blurry"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13456,
+		"nouns": [],
+		"dOIndex": 78,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 13457,
+		"nouns": [],
+		"dOIndex": 79,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": true,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "As for object detection, the Kinect comes with a great set of algorithms for skeleton direction. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13458,
+		"nouns": [
+			"object",
+			"detection",
+			"Kinect",
+			"algorithms",
+			"skeleton",
+			"direction"
+		],
+		"dOIndex": 80,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"object",
+			"detection",
+			"Kinect",
+			"algorithms",
+			"skeleton",
+			"direction"
+		],
+		"nouns2": [
+			"detection",
+			"Kinect",
+			"algorithms",
+			"skeleton",
+			"direction"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.17647058823529413,
+			"words": [
+				"great"
+			],
+			"positive": [
+				"great"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " It can also be trained to detect other objects, but skeleton detection is really its forte. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13459,
+		"nouns": [
+			"objects",
+			"skeleton",
+			"detection",
+			"forte"
+		],
+		"dOIndex": 81,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"objects",
+			"skeleton",
+			"detection",
+			"forte"
+		],
+		"nouns2": [
+			"objects",
+			"skeleton",
+			"detection"
+		]
+	},
+	{
+		"txt": " The skeleton detection is good because of the massive amount of training Microsoft used for the algorithms when creating the SDK. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13460,
+		"nouns": [
+			"skeleton",
+			"detection",
+			"amount",
+			"Microsoft",
+			"algorithms",
+			"SDK"
+		],
+		"dOIndex": 82,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"skeleton",
+			"detection",
+			"amount",
+			"Microsoft",
+			"algorithms",
+			"SDK"
+		],
+		"nouns2": [
+			"skeleton",
+			"detection",
+			"Microsoft",
+			"algorithms"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.13043478260869565,
+			"words": [
+				"good"
+			],
+			"positive": [
+				"good"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " If you were to use an average computer to run the Kinect skeleton training program, it would take about three years. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13461,
+		"nouns": [
+			"use",
+			"computer",
+			"Kinect",
+			"skeleton",
+			"program",
+			"three",
+			"years"
+		],
+		"dOIndex": 83,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"use",
+			"computer",
+			"Kinect",
+			"skeleton",
+			"program",
+			"three",
+			"years"
+		],
+		"nouns2": [
+			"computer",
+			"Kinect",
+			"skeleton",
+			"program"
+		]
+	},
+	{
+		"txt": " Luckily, Microsoft had 1,000 computers lying around, so it takes them only a day to run the training simulation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13462,
+		"nouns": [
+			"Microsoft",
+			"computers",
+			"day",
+			"simulation"
+		],
+		"dOIndex": 84,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"Microsoft",
+			"computers",
+			"day",
+			"simulation"
+		],
+		"nouns2": [
+			"Luckily",
+			"Microsoft",
+			"computers",
+			"simulation"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.14285714285714285,
+			"words": [
+				"luckily"
+			],
+			"positive": [
+				"luckily"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " This gives you an idea of the amount of training you need to provide for consumer level tracking in your own algorithms. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13463,
+		"nouns": [
+			"idea",
+			"amount",
+			"consumer",
+			"level",
+			"algorithms"
+		],
+		"dOIndex": 85,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"idea",
+			"amount",
+			"consumer",
+			"level",
+			"algorithms"
+		],
+		"nouns2": [
+			"consumer",
+			"algorithms"
+		]
+	},
+	{
+		"txt": " The Kinect can track up to six people with two of them being in ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13464,
+		"nouns": [
+			"Kinect",
+			"track",
+			"six",
+			"people",
+			"two"
+		],
+		"dOIndex": 86,
+		"ignoreDOBcNoQuotes": false,
+		"isQuote": false,
+		"nounsProcAll": [
+			"Kinect",
+			"track",
+			"six",
+			"people",
+			"two"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"Kinect"
+		]
+	},
+	{
+		"txt": " \"active\" ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13465,
+		"nouns": [],
+		"dOIndex": 87,
+		"isQuote": true,
+		"nounsProcAll": [],
+		"sfxfx": [],
+		"gspkNameUnknown": "narrator",
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.3333333333333333,
+			"words": [
+				"active"
+			],
+			"positive": [
+				"active"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " mode. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13466,
+		"nouns": [
+			"mode"
+		],
+		"dOIndex": 88,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [
+			"mode"
+		],
+		"sfxfx": []
+	},
+	{
+		"txt": " For these 2 people, 20 individual joints are tracked. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13467,
+		"nouns": [
+			"people",
+			"joints"
+		],
+		"dOIndex": 89,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"people",
+			"joints"
+		]
+	},
+	{
+		"txt": " The sensor can also track people while standing or sitting.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13468,
+		"nouns": [
+			"sensor",
+			"track",
+			"people"
+		],
+		"dOIndex": 90,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"sensor",
+			"track",
+			"people"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13469,
+		"nouns": [],
+		"dOIndex": 91,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 13470,
+		"nouns": [],
+		"dOIndex": 92,
+		"isQuote": false
+	},
+	{
+		"txt": "OpenCV",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13471,
+		"nouns": [
+			"OpenCV"
+		],
+		"dOIndex": 93,
+		"nouns2": [
+			"OpenCV"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 13472,
+		"nouns": [],
+		"dOIndex": 94,
+		"isQuote": false
+	},
+	{
+		"txt": "The OpenCV method ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13473,
+		"nouns": [
+			"OpenCV",
+			"method"
+		],
+		"dOIndex": 95,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"OpenCV"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 13474,
+		"nouns": [],
+		"dOIndex": 96,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "for 3D reconstruction is, well, more open! ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13475,
+		"nouns": [
+			"D",
+			"reconstruction"
+		],
+		"dOIndex": 97,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"reconstruction"
+		]
+	},
+	{
+		"txt": " The library is designed to work with any common webcam or other camera you can get connected to your computer. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13476,
+		"nouns": [
+			"library",
+			"work",
+			"webcam",
+			"camera",
+			"computer"
+		],
+		"dOIndex": 98,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"library",
+			"computer"
+		]
+	},
+	{
+		"txt": " OpenCV works well with stereoscopic cameras and is also capable of attempting to map depth with a single camera. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13477,
+		"nouns": [
+			"OpenCV",
+			"works",
+			"stereoscopic",
+			"cameras",
+			"map",
+			"depth",
+			"camera"
+		],
+		"dOIndex": 99,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"OpenCV",
+			"stereoscopic",
+			"cameras"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.047619047619047616,
+			"words": [
+				"capable"
+			],
+			"positive": [
+				"capable"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " However, those results would not be accurate enough to control a game, so we suggest you stick with two cameras if you're trying to use regular webcams.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13478,
+		"nouns": [
+			"results",
+			"control",
+			"game",
+			"two",
+			"cameras",
+			"re",
+			"use",
+			"webcams"
+		],
+		"dOIndex": 100,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"results",
+			"control",
+			"cameras",
+			"webcams"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13479,
+		"nouns": [],
+		"dOIndex": 101,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 13480,
+		"nouns": [],
+		"dOIndex": 102,
+		"isQuote": false
+	},
+	{
+		"txt": "Indeed, finding depth is relatively straightforward using OpenCV. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13481,
+		"nouns": [
+			"depth",
+			"OpenCV"
+		],
+		"dOIndex": 103,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Indeed",
+			"OpenCV"
+		]
+	},
+	{
+		"txt": " The built in function ReprojectImageTo3D calculates a vector for each pixel (x,y) based on a disparity map . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13482,
+		"nouns": [
+			"function",
+			"ReprojectImageTo",
+			"D",
+			"vector",
+			"pixel",
+			"x",
+			"y",
+			"disparity",
+			"map"
+		],
+		"dOIndex": 104,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function",
+			"ReprojectImageTo",
+			"disparity"
+		]
+	},
+	{
+		"txt": " A disparity map",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13483,
+		"nouns": [
+			"disparity",
+			"map"
+		],
+		"dOIndex": 105,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"disparity"
+		]
+	},
+	{
+		"txt": " is a data set that describes how pixels have changed from one image to the next; if you have stereoscopic cameras, this essentially is the reverse of the technique we use in ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13484,
+		"nouns": [
+			"data",
+			"pixels",
+			"one",
+			"image",
+			"stereoscopic",
+			"cameras",
+			"reverse",
+			"technique",
+			"use"
+		],
+		"dOIndex": 106,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"stereoscopic",
+			"cameras",
+			"reverse",
+			"technique"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 13485,
+		"nouns": [],
+		"dOIndex": 107,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 24 when dealing with 3D displays. ",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13486,
+		"nouns": [
+			"Chapter",
+			"D",
+			"displays"
+		],
+		"dOIndex": 108,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter",
+			"displays"
+		]
+	},
+	{
+		"txt": " To create a disparity map, OpenCV provides the handy function FindStereoCorrespondenceGC() . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13487,
+		"nouns": [
+			"disparity",
+			"map",
+			"OpenCV",
+			"function",
+			"FindStereoCorrespondenceGC"
+		],
+		"dOIndex": 109,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"disparity",
+			"OpenCV",
+			"function",
+			"FindStereoCorrespondenceGC"
+		]
+	},
+	{
+		"txt": " This function takes a set of images, assumes them to be from a sterescopic source, and generates a disparity map by systematically comparing them. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13488,
+		"nouns": [
+			"function",
+			"images",
+			"sterescopic",
+			"source",
+			"disparity",
+			"map"
+		],
+		"dOIndex": 110,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function",
+			"sterescopic",
+			"disparity"
+		]
+	},
+	{
+		"txt": " The documentation is very complete, and there are several books on the subject of OpenCV, including ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13489,
+		"nouns": [
+			"documentation",
+			"books",
+			"subject",
+			"OpenCV"
+		],
+		"dOIndex": 111,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"documentation",
+			"subject",
+			"OpenCV"
+		]
+	},
+	{
+		"txt": "Learning OpenCV by ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13490,
+		"nouns": [
+			"OpenCV"
+		],
+		"dOIndex": 112,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Learning",
+			"OpenCV"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 13491,
+		"nouns": [],
+		"dOIndex": 113,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Gary Bradski and Adrian Kaehler",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13492,
+		"nouns": [
+			"Gary",
+			"Bradski",
+			"Adrian",
+			"Kaehler"
+		],
+		"dOIndex": 114,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Bradski",
+			"Adrian",
+			"Kaehler"
+		]
+	},
+	{
+		"txt": " (O'Reilly), so we again will save the details for independent study.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13493,
+		"nouns": [
+			"details",
+			"study"
+		],
+		"dOIndex": 115,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Reilly",
+			"details"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.16666666666666666,
+			"words": [
+				"save"
+			],
+			"positive": [
+				"save"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13494,
+		"nouns": [],
+		"dOIndex": 116,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 13495,
+		"nouns": [],
+		"dOIndex": 117,
+		"isQuote": false
+	},
+	{
+		"txt": "Object detection is also ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13496,
+		"nouns": [
+			"Object",
+			"detection"
+		],
+		"dOIndex": 118,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Object",
+			"detection"
+		]
+	},
+	{
+		"txt": "possible with OpenCV. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13497,
+		"nouns": [
+			"OpenCV"
+		],
+		"dOIndex": 119,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"OpenCV"
+		]
+	},
+	{
+		"txt": " The common example in the OpenCV project uses Harr like features to ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13498,
+		"nouns": [
+			"example",
+			"OpenCV",
+			"project",
+			"Harr",
+			"features"
+		],
+		"dOIndex": 120,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"OpenCV",
+			"project",
+			"features"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.14285714285714285,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "recognize objects. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13499,
+		"nouns": [
+			"objects"
+		],
+		"dOIndex": 121,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"objects"
+		]
+	},
+	{
+		"txt": " These features are rectangles whose mathematical structure allows for very fast computation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13500,
+		"nouns": [
+			"features",
+			"rectangles",
+			"structure",
+			"computation"
+		],
+		"dOIndex": 122,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"features",
+			"rectangles",
+			"structure",
+			"computation"
+		]
+	},
+	{
+		"txt": " By developing patterns of these rectangles for a given object, a program can detect objects out of the background. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13501,
+		"nouns": [
+			"patterns",
+			"rectangles",
+			"object",
+			"program",
+			"objects",
+			"background"
+		],
+		"dOIndex": 123,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"patterns",
+			"rectangles",
+			"program",
+			"objects",
+			"background"
+		]
+	},
+	{
+		"txt": " For example, one such pattern could be if a selection rectangle includes an edge. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13502,
+		"nouns": [
+			"example",
+			"one",
+			"pattern",
+			"selection",
+			"rectangle",
+			"edge"
+		],
+		"dOIndex": 124,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"pattern",
+			"selection",
+			"rectangle"
+		]
+	},
+	{
+		"txt": " The program would detect an edge in the pixel data by finding a sharp gradient between color and/or other attributes. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13503,
+		"nouns": [
+			"program",
+			"edge",
+			"pixel",
+			"data",
+			"gradient",
+			"color",
+			"/",
+			"attributes"
+		],
+		"dOIndex": 125,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"program",
+			"gradient",
+			"attributes"
+		]
+	},
+	{
+		"txt": " If you detect the right number of edges in the right position, you have detected your object.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13504,
+		"nouns": [
+			"right",
+			"number",
+			"edges",
+			"right",
+			"position",
+			"object"
+		],
+		"dOIndex": 126,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"position"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13505,
+		"nouns": [],
+		"dOIndex": 127,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 13506,
+		"nouns": [],
+		"dOIndex": 128,
+		"isQuote": false
+	},
+	{
+		"txt": "Hardcoding a pattern for the computer to look for would result in a very narrow set of recognition criteria. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13507,
+		"nouns": [
+			"pattern",
+			"computer",
+			"recognition",
+			"criteria"
+		],
+		"dOIndex": 129,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Hardcoding",
+			"pattern",
+			"computer",
+			"recognition",
+			"criteria"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.1,
+			"words": [
+				"recognition"
+			],
+			"positive": [
+				"recognition"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Therefore, computer vision algorithms rely on a system of training rather than hard programming. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13508,
+		"nouns": [
+			"computer",
+			"vision",
+			"algorithms",
+			"system"
+		],
+		"dOIndex": 130,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Therefore",
+			"computer",
+			"algorithms"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"hard",
+				"vision"
+			],
+			"positive": [
+				"vision"
+			],
+			"negative": [
+				"hard"
+			]
+		}
+	},
+	{
+		"txt": " Specifically, they use cascade classifier training .",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13509,
+		"nouns": [
+			"use",
+			"cascade",
+			"classifier"
+		],
+		"dOIndex": 131,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Specifically",
+			"cascade",
+			"classifier"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13510,
+		"nouns": [],
+		"dOIndex": 132,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 13511,
+		"nouns": [],
+		"dOIndex": 133,
+		"isQuote": false
+	},
+	{
+		"txt": "The training process works well but requires a large image set. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13512,
+		"nouns": [
+			"process",
+			"works",
+			"image"
+		],
+		"dOIndex": 134,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"process"
+		]
+	},
+	{
+		"txt": " Typical examples require 6,000 negative images and 1,500 positive images. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13513,
+		"nouns": [
+			"examples",
+			"images",
+			"images"
+		],
+		"dOIndex": 135,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Typical",
+			"examples"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"positive",
+				"negative"
+			],
+			"positive": [
+				"positive"
+			],
+			"negative": [
+				"negative"
+			]
+		}
+	},
+	{
+		"txt": " The negative images are commonly called background images. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13514,
+		"nouns": [
+			"images",
+			"background",
+			"images"
+		],
+		"dOIndex": 136,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"background"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.2,
+			"words": [
+				"negative"
+			],
+			"positive": [],
+			"negative": [
+				"negative"
+			]
+		}
+	},
+	{
+		"txt": " When training the algorithm, you take 1,200 of your positive images and draw selection rectangles around the object you are trying to detect. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13515,
+		"nouns": [
+			"algorithm",
+			"images",
+			"selection",
+			"rectangles",
+			"object"
+		],
+		"dOIndex": 137,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"algorithm",
+			"selection",
+			"rectangles"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08,
+			"words": [
+				"positive"
+			],
+			"positive": [
+				"positive"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The computer learns that the pattern in the selection rectangles you've given it is one to be identified. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13516,
+		"nouns": [
+			"computer",
+			"pattern",
+			"selection",
+			"rectangles",
+			"ve",
+			"one"
+		],
+		"dOIndex": 138,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"computer",
+			"pattern",
+			"selection",
+			"rectangles"
+		]
+	},
+	{
+		"txt": " This will take the average computer a long, long time. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13517,
+		"nouns": [
+			"computer",
+			"time"
+		],
+		"dOIndex": 139,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"computer"
+		]
+	},
+	{
+		"txt": " The remaining images are used for testing to ensure that your algorithm has satisfactory accuracy in detecting the patterns you've shown it. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13518,
+		"nouns": [
+			"images",
+			"algorithm",
+			"accuracy",
+			"patterns",
+			"ve"
+		],
+		"dOIndex": 140,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"algorithm",
+			"accuracy",
+			"patterns"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.041666666666666664,
+			"words": [
+				"ensure"
+			],
+			"positive": [
+				"ensure"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The larger the sample set, including different lighting, the more accurate the system will be. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13519,
+		"nouns": [
+			"sample",
+			"system"
+		],
+		"dOIndex": 141,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Once the algorithm is trained to detect a particular object, all you need is the training file usually an .xml file to share that training with another computer.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13520,
+		"nouns": [
+			"algorithm",
+			"object",
+			"xml",
+			"share",
+			"computer"
+		],
+		"dOIndex": 142,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"algorithm",
+			"computer"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.034482758620689655,
+			"words": [
+				"share"
+			],
+			"positive": [
+				"share"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13521,
+		"nouns": [],
+		"dOIndex": 143,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 13522,
+		"nouns": [],
+		"dOIndex": 144,
+		"isQuote": false
+	},
+	{
+		"txt": "Numerical Differentiation",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13523,
+		"nouns": [
+			"Differentiation"
+		],
+		"dOIndex": 145,
+		"nouns2": [
+			"Numerical",
+			"Differentiation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 13524,
+		"nouns": [],
+		"dOIndex": 146,
+		"isQuote": false
+	},
+	{
+		"txt": "As previously noted, ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13525,
+		"nouns": [],
+		"dOIndex": 147,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 13526,
+		"nouns": [],
+		"dOIndex": 148,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "there are many ways to collect optical tracking data, but since we are focusing on the physics aspects, we'll now talk about how to process the data to get meaningfully physical simulation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13527,
+		"nouns": [
+			"ways",
+			"data",
+			"physics",
+			"aspects",
+			"ll",
+			"process",
+			"data",
+			"simulation"
+		],
+		"dOIndex": 149,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"physics",
+			"aspects",
+			"process",
+			"simulation"
+		]
+	},
+	{
+		"txt": " By combining object detection with depth sensing, we can detect and then track an object as it moves in the camera's field of vision. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13528,
+		"nouns": [
+			"object",
+			"detection",
+			"depth",
+			"track",
+			"object",
+			"moves",
+			"camera",
+			"field",
+			"vision"
+		],
+		"dOIndex": 150,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"detection"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.038461538461538464,
+			"words": [
+				"vision"
+			],
+			"positive": [
+				"vision"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Let's assume that you have used the frame rate or internal clock to generate data of the following format:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13529,
+		"nouns": [
+			"frame",
+			"rate",
+			"clock",
+			"data",
+			"format"
+		],
+		"dOIndex": 151,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 13530,
+		"nouns": [],
+		"dOIndex": 152,
+		"isQuote": false
+	},
+	{
+		"txt": "Now, a single data point consisting of three coordinates and a timestamp doesn't allow us to determine what is going on with an object's velocity or acceleration. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13531,
+		"nouns": [
+			"data",
+			"point",
+			"three",
+			"coordinates",
+			"timestamp",
+			"doesn",
+			"t",
+			"object",
+			"velocity",
+			"acceleration"
+		],
+		"dOIndex": 153,
+		"nouns2": [
+			"coordinates",
+			"timestamp",
+			"velocity",
+			"acceleration"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.03571428571428571,
+			"words": [
+				"allow"
+			],
+			"positive": [],
+			"negative": [
+				"allow"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " However, as the camera is supplying new position data at around 20–30 Hz, we will generate a time history of position or displacement. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13532,
+		"nouns": [
+			"camera",
+			"position",
+			"data",
+			"–",
+			"Hz",
+			"time",
+			"history",
+			"position",
+			"displacement"
+		],
+		"dOIndex": 154,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"position",
+			"history",
+			"displacement"
+		]
+	},
+	{
+		"txt": " Using techniques similar to the numerical integration we used to take acceleration and turn it into velocities and then turn those velocities into position in earlier chapters, we can apply numerical differentiation to accomplish the reverse. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13533,
+		"nouns": [
+			"techniques",
+			"integration",
+			"acceleration",
+			"velocities",
+			"velocities",
+			"position",
+			"chapters",
+			"differentiation",
+			"reverse"
+		],
+		"dOIndex": 155,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"techniques",
+			"integration",
+			"acceleration",
+			"velocities",
+			"position",
+			"chapters",
+			"differentiation",
+			"reverse"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.05263157894736842,
+			"words": [
+				"accomplish"
+			],
+			"positive": [
+				"accomplish"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Specifically, we can use the finite difference method.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13534,
+		"nouns": [
+			"use",
+			"difference",
+			"method"
+		],
+		"dOIndex": 156,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Specifically",
+			"difference"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13535,
+		"nouns": [],
+		"dOIndex": 157,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 13536,
+		"nouns": [],
+		"dOIndex": 158,
+		"isQuote": false
+	},
+	{
+		"txt": "For velocity, we need a first order finite difference numerical differentiation scheme. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13537,
+		"nouns": [
+			"velocity",
+			"first",
+			"order",
+			"difference",
+			"differentiation",
+			"scheme"
+		],
+		"dOIndex": 159,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity",
+			"difference",
+			"differentiation"
+		]
+	},
+	{
+		"txt": " Because we know the current data point and the previous data point, we are looking backward in time to get the current position. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13538,
+		"nouns": [
+			"data",
+			"point",
+			"data",
+			"point",
+			"time",
+			"position"
+		],
+		"dOIndex": 160,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Because",
+			"position"
+		]
+	},
+	{
+		"txt": " This is known ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13539,
+		"nouns": [],
+		"dOIndex": 161,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "as the backward difference scheme",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13540,
+		"nouns": [
+			"difference",
+			"scheme"
+		],
+		"dOIndex": 162,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"difference"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13541,
+		"nouns": [],
+		"dOIndex": 163,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " In general, the backward difference is given by:f'(x) = lim h→0 (f(x+h) – f(x)) / h",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13542,
+		"nouns": [
+			"difference",
+			"f",
+			"x",
+			"lim",
+			"h→",
+			"f",
+			"x+h",
+			"–",
+			"f",
+			"x",
+			"/",
+			"h"
+		],
+		"dOIndex": 164,
+		"nouns2": [
+			"difference"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 13543,
+		"nouns": [],
+		"dOIndex": 165,
+		"isQuote": false
+	},
+	{
+		"txt": "We must use the backward difference for the first order differentiation, as we know only the present position and past positions. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13544,
+		"nouns": [
+			"use",
+			"difference",
+			"first",
+			"order",
+			"differentiation",
+			"position",
+			"positions"
+		],
+		"dOIndex": 166,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"difference",
+			"differentiation",
+			"position",
+			"positions"
+		]
+	},
+	{
+		"txt": " In our case, h is the difference in time between two data points and has a nonzero, fixed value. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13545,
+		"nouns": [
+			"case",
+			"h",
+			"difference",
+			"time",
+			"two",
+			"data",
+			"points",
+			"nonzero",
+			"value"
+		],
+		"dOIndex": 167,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"difference",
+			"nonzero"
+		]
+	},
+	{
+		"txt": " Therefore, the equation can be rewritten as:(f(x+h) – f(x)) / h = ∆f(x)/h",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13546,
+		"nouns": [
+			"equation",
+			"f",
+			"x+h",
+			"–",
+			"f",
+			"x",
+			"/",
+			"h",
+			"∆f",
+			"x",
+			"/",
+			"h"
+		],
+		"dOIndex": 168,
+		"nouns2": [
+			"Therefore",
+			"equation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 13547,
+		"nouns": [],
+		"dOIndex": 169,
+		"isQuote": false
+	},
+	{
+		"txt": "where ∆f(x) is the position at the second timestamp minus the position at the first timestamp, and h is the difference in time. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13548,
+		"nouns": [
+			"∆f",
+			"x",
+			"position",
+			"second",
+			"timestamp",
+			"position",
+			"first",
+			"timestamp",
+			"h",
+			"difference",
+			"time"
+		],
+		"dOIndex": 170,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"position",
+			"timestamp",
+			"difference"
+		]
+	},
+	{
+		"txt": " This is relatively straightforward, as we are just calculating the distance traveled divided by the time it took to travel that distance. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13549,
+		"nouns": [
+			"distance",
+			"time",
+			"travel",
+			"distance"
+		],
+		"dOIndex": 171,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distance"
+		]
+	},
+	{
+		"txt": " This is the definition of average velocity.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13550,
+		"nouns": [
+			"definition",
+			"velocity"
+		],
+		"dOIndex": 172,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"definition",
+			"velocity"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13551,
+		"nouns": [],
+		"dOIndex": 173,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 13552,
+		"nouns": [],
+		"dOIndex": 174,
+		"isQuote": false
+	},
+	{
+		"txt": "Note that because we are finding the average velocity between the two data points, if the time delta, h , is too large, this will not accurately approximate the instantaneous velocity of the object. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13553,
+		"nouns": [
+			"velocity",
+			"two",
+			"data",
+			"points",
+			"time",
+			"delta",
+			"h",
+			"velocity",
+			"object"
+		],
+		"dOIndex": 175,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity"
+		]
+	},
+	{
+		"txt": " You may be tempted to push whatever hardware you have to its limit and get the highest possible sampling rate; however, if the time step is too small, the subtraction of one displacement from another will result in significant round off error using floating point arithmetic. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13554,
+		"nouns": [
+			"hardware",
+			"limit",
+			"rate",
+			"time",
+			"step",
+			"subtraction",
+			"one",
+			"displacement",
+			"result",
+			"round",
+			"error",
+			"point",
+			"arithmetic"
+		],
+		"dOIndex": 176,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hardware",
+			"subtraction",
+			"displacement",
+			"arithmetic"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.020833333333333332,
+			"words": [
+				"error",
+				"significant"
+			],
+			"positive": [
+				"significant"
+			],
+			"negative": [
+				"error"
+			]
+		}
+	},
+	{
+		"txt": " You must take care to ensure that when you're selecting a timestamp, (t[i] + h) – t[i] is exactly h . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13555,
+		"nouns": [
+			"care",
+			"re",
+			"timestamp",
+			"t[i]",
+			"h",
+			"–",
+			"t[i]",
+			"h"
+		],
+		"dOIndex": 177,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"timestamp"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.13043478260869565,
+			"words": [
+				"ensure",
+				"care"
+			],
+			"positive": [
+				"ensure",
+				"care"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " For more information on tuning these parameters, refer to the classic Numerical Recipes in C . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13556,
+		"nouns": [
+			"information",
+			"parameters",
+			"Recipes",
+			"C"
+		],
+		"dOIndex": 178,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"information",
+			"parameters",
+			"Numerical",
+			"Recipes"
+		]
+	},
+	{
+		"txt": " The function to find velocity from our data structure would be as follows. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13557,
+		"nouns": [
+			"function",
+			"velocity",
+			"data",
+			"structure"
+		],
+		"dOIndex": 179,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function",
+			"velocity",
+			"structure"
+		]
+	},
+	{
+		"txt": " Note that in our notation, t[i−1] is behind in time compared to t[i ], so we are using the backward form. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13558,
+		"nouns": [
+			"notation",
+			"t[i−",
+			"time",
+			"t[i",
+			"form"
+		],
+		"dOIndex": 180,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"notation"
+		]
+	},
+	{
+		"txt": " Your program needs to ensure that t[i−1] exists before executing this function:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13559,
+		"nouns": [
+			"program",
+			"t[i−",
+			"function"
+		],
+		"dOIndex": 181,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"program",
+			"function"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.07692307692307693,
+			"words": [
+				"ensure"
+			],
+			"positive": [
+				"ensure"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 13560,
+		"nouns": [],
+		"dOIndex": 182,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 13561,
+		"nouns": [],
+		"dOIndex": 183,
+		"isQuote": false
+	},
+	{
+		"txt": "To compute the acceleration vector",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13562,
+		"nouns": [
+			"acceleration",
+			"vector"
+		],
+		"dOIndex": 184,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"acceleration"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 13563,
+		"nouns": [],
+		"dOIndex": 185,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " , we need to compare two velocities. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13564,
+		"nouns": [
+			"two",
+			"velocities"
+		],
+		"dOIndex": 186,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocities"
+		]
+	},
+	{
+		"txt": " However, we note that to get a velocity, we need two data points. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13565,
+		"nouns": [
+			"note",
+			"velocity",
+			"two",
+			"data",
+			"points"
+		],
+		"dOIndex": 187,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"velocity"
+		]
+	},
+	{
+		"txt": " Therefore, a total of three data points is required. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13566,
+		"nouns": [
+			"three",
+			"data",
+			"points"
+		],
+		"dOIndex": 188,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Therefore"
+		]
+	},
+	{
+		"txt": " The acceleration we solve for will actually be the acceleration for the middle data point as we compare the backward and forward difference. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13567,
+		"nouns": [
+			"acceleration",
+			"acceleration",
+			"middle",
+			"data",
+			"point",
+			"difference"
+		],
+		"dOIndex": 189,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"acceleration",
+			"difference"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.04,
+			"words": [
+				"solve"
+			],
+			"positive": [
+				"solve"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " This technique is named the second order central difference . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13568,
+		"nouns": [
+			"technique",
+			"second",
+			"order",
+			"difference"
+		],
+		"dOIndex": 190,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"technique",
+			"difference"
+		]
+	},
+	{
+		"txt": " In ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13569,
+		"nouns": [],
+		"dOIndex": 191,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 13570,
+		"nouns": [],
+		"dOIndex": 192,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "general, that form is as follows:f''(x) = (f(x+2h) – 2f(x+h) + f(x)) / h2",
+		"why": "p",
+		"tags": [
+			"sup",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13571,
+		"nouns": [
+			"form",
+			"f",
+			"x",
+			"f",
+			"x+",
+			"h",
+			"–",
+			"f",
+			"x+h",
+			"f",
+			"x",
+			"/",
+			"h"
+		],
+		"dOIndex": 193,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 13572,
+		"nouns": [],
+		"dOIndex": 194,
+		"isQuote": false
+	},
+	{
+		"txt": "This allows you to compute the acceleration directly without first finding the velocities. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13573,
+		"nouns": [
+			"acceleration",
+			"first",
+			"velocities"
+		],
+		"dOIndex": 195,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"acceleration",
+			"velocities"
+		]
+	},
+	{
+		"txt": " Here again, f(x) is the position reported by the sensor and h is the time step between data points. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13574,
+		"nouns": [
+			"f",
+			"x",
+			"position",
+			"sensor",
+			"h",
+			"time",
+			"step",
+			"data",
+			"points"
+		],
+		"dOIndex": 196,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"position"
+		]
+	},
+	{
+		"txt": " The same discussion of h applies here as well. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13575,
+		"nouns": [
+			"discussion",
+			"h"
+		],
+		"dOIndex": 197,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"discussion"
+		]
+	},
+	{
+		"txt": " Some tuning of the time step might be required to provide a stable differential. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13576,
+		"nouns": [
+			"time",
+			"step"
+		],
+		"dOIndex": 198,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.125,
+			"words": [
+				"stable"
+			],
+			"positive": [
+				"stable"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Of particular note with central difference forms is that periodic functions that are in sync with your time step may result in zero slope. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13577,
+		"nouns": [
+			"note",
+			"difference",
+			"forms",
+			"functions",
+			"sync",
+			"time",
+			"step",
+			"result",
+			"zero",
+			"slope"
+		],
+		"dOIndex": 199,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"difference",
+			"functions"
+		]
+	},
+	{
+		"txt": " If the motion you are tracking is periodic, you should take care to avoid a time step near the period of oscillation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13578,
+		"nouns": [
+			"motion",
+			"care",
+			"time",
+			"step",
+			"period",
+			"oscillation"
+		],
+		"dOIndex": 200,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"oscillation"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.041666666666666664,
+			"words": [
+				"avoid",
+				"care"
+			],
+			"positive": [
+				"care"
+			],
+			"negative": [
+				"avoid"
+			]
+		}
+	},
+	{
+		"txt": " This is called aliasing and is a problem with all signal analysis, including computer graphics displays. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13579,
+		"nouns": [
+			"problem",
+			"analysis",
+			"computer",
+			"graphics",
+			"displays"
+		],
+		"dOIndex": 201,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"problem",
+			"analysis",
+			"computer",
+			"graphics",
+			"displays"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.1111111111111111,
+			"words": [
+				"problem"
+			],
+			"positive": [],
+			"negative": [
+				"problem"
+			]
+		}
+	},
+	{
+		"txt": " Also, note that this cannot be computed until at least three time steps have been stored. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13580,
+		"nouns": [
+			"note",
+			"three",
+			"time",
+			"steps"
+		],
+		"dOIndex": 202,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " In our notation, t[i−1] is the center data point, t[i−2] the backward value, and t[i ] the forward value. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13581,
+		"nouns": [
+			"notation",
+			"t[i−",
+			"center",
+			"data",
+			"point",
+			"t[i−",
+			"value",
+			"t[i",
+			"value"
+		],
+		"dOIndex": 203,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"notation"
+		]
+	},
+	{
+		"txt": " The acceleration function would therefore be as follows:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13582,
+		"nouns": [
+			"acceleration",
+			"function"
+		],
+		"dOIndex": 204,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"acceleration",
+			"function"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 13583,
+		"nouns": [],
+		"dOIndex": 205,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 13584,
+		"nouns": [],
+		"dOIndex": 206
+	},
+	{
+		"txt": "Now, let's say that you are tracking a ball in someone's hand. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13585,
+		"nouns": [
+			"ball",
+			"someone",
+			"hand"
+		],
+		"dOIndex": 207,
+		"nouns2": [
+			"someone"
+		]
+	},
+	{
+		"txt": " Until he lets it go, the velocity and acceleration we are calculating could change at any moment in any number of ways. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13586,
+		"nouns": [
+			"velocity",
+			"acceleration",
+			"change",
+			"moment",
+			"number",
+			"ways"
+		],
+		"dOIndex": 208,
+		"nouns2": [
+			"velocity",
+			"acceleration"
+		]
+	},
+	{
+		"txt": " It is not until the user lets go of the ball that the physics we have discussed takes over. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13587,
+		"nouns": [
+			"user",
+			"ball",
+			"physics"
+		],
+		"dOIndex": 209,
+		"nouns2": [
+			"physics"
+		]
+	},
+	{
+		"txt": " Hence, you have to optically track it until he completes the throw. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13588,
+		"nouns": [
+			"track",
+			"throw"
+		],
+		"dOIndex": 210
+	},
+	{
+		"txt": " Once the ball is released, the physics from the rest of this book applies! ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13589,
+		"nouns": [
+			"ball",
+			"physics",
+			"rest",
+			"book"
+		],
+		"dOIndex": 211,
+		"nouns2": [
+			"physics"
+		]
+	},
+	{
+		"txt": " You can then use the position at time of release, the velocity vector, and the acceleration vector to plot its trajectory in the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13590,
+		"nouns": [
+			"use",
+			"position",
+			"time",
+			"release",
+			"velocity",
+			"vector",
+			"acceleration",
+			"vector",
+			"plot",
+			"trajectory"
+		],
+		"dOIndex": 212,
+		"nouns2": [
+			"position",
+			"release",
+			"velocity",
+			"acceleration",
+			"trajectory"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 13591,
+		"nouns": [],
+		"dOIndex": 213
+	},
+	{
+		"txt": "game.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13592,
+		"nouns": [
+			"game"
+		],
+		"dOIndex": 214
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 13593,
+		"nouns": [],
+		"dOIndex": 215
+	}
+]

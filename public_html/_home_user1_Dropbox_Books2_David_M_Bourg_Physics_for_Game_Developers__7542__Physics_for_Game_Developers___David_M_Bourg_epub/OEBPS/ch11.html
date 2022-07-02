@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg"><head><title>Chapter 11. Rotation in 3D Rigid-Body Simulators</title><link rel="stylesheet" type="text/css" href="core.css"/><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"/><link rel="up" href="pt02.html" title="Part II. Rigid-Body Dynamics"/><link rel="prev" href="ch10.html" title="Chapter 10. Implementing Collision Response"/><link rel="next" href="ch12.html" title="Chapter 12. 3D Rigid-Body Simulator"/></head><body><section class="chapter" title="Chapter 11. Rotation in 3D Rigid-Body Simulators" epub:type="chapter" id="rotation_in_3d_rigid-body_simulators"><div class="titlepage"><div><div><h2 class="title">Chapter 11. Rotation in 3D Rigid-Body Simulators</h2></div></div></div><p>A fundamental difference between <a id="th11.0" class="indexterm"/><a id="I_indexterm5_id328892" class="indexterm"/><a id="si11.0" class="indexterm"/><a id="ri11.0" class="indexterm"/>particles and rigid bodies is that we cannot ignore rotation of rigid bodies. This
+    applies to both 2D and 3D rigid bodies. In two dimensions, it’s quite easy to express the <a id="I_indexterm5_id328936" class="indexterm"/>orientation of a rigid body; you need only a single scalar to represent the body’s
+    rotation about a single axis. In three dimensions, however, there are three primary coordinate
+    axes about each of which a rigid body may rotate. Moreover, a rigid body in three dimensions may
+    rotate about any arbitrary axis, not necessarily one of the coordinate axes.</p><p>In two dimensions, we say that a rigid body has only one rotational degree of freedom,
+    whereas in three dimensions we say that a rigid body has three rotational <a id="I_indexterm5_id328955" class="indexterm"/>degrees of freedom. This may lead you to infer that in three dimensions, you must
+    have three scalar quantities to represent a body’s rotation. Indeed, this is a minimum
+    requirement, and you’re probably already familiar with a set of angles that represent the
+    orientation of a rigid body in 3D—namely, the three <a id="I_indexterm5_id328969" class="indexterm"/>Euler angles (roll, pitch, and yaw) that we’ll talk about in <a class="xref" href="ch15.html" title="Chapter 15. Aircraft">Chapter 15</a>.</p><p>These three angles—roll, pitch, and yaw—are very intuitive and easy for us to visualize. For
+    example, in an airplane the nose <a id="I_indexterm5_id328992" class="indexterm"/><a id="I_indexterm5_id328999" class="indexterm"/>pitches up or down, the plane <a id="I_indexterm5_id329010" class="indexterm"/>rolls (or banks) left or right, and the <a id="I_indexterm5_id329022" class="indexterm"/><a id="I_indexterm5_id329032" class="indexterm"/>yaw (or heading) changes to the left or right. Unfortunately, there’s a problem with
+    using these three Euler angles in rigid-body simulations. The problem is a numerical one that
+    occurs when the pitch angle reaches plus or minus 90 degrees (π/2). When this happens, roll and
+    yaw become ambiguous. Worse yet, the angular equations of motion written in terms of Euler
+    angles contain terms involving the cosine of the pitch angle in the denominator, which means
+    that when the pitch angle is plus or minus 90 degrees the equations become singular (i.e.,
+    there’s division by 0). If this happens in your simulation, the results would be unpredictable
+    to say the least. Given this problem with Euler angles, you must use some other means of keeping
+    track of orientation in your simulation. We’ll discuss two such means in this
+    chapter—specifically, rotation matrices and quaternions.</p><p>Virtually every computer graphics book that we’ve read contains a chapter or section on
+    using rotation matrices. Far fewer discuss quaternions, but if you’re familiar with quaternions,
+    it’s probably in the same context as rotation matrices—that is, how they are used to rotate 3D
+    points, objects, scenes, and points of view. In a simulation, however, you need to get a little
+    more out of rotation matrices or quaternions and will use them in a different context than what
+    you might be accustomed to. Specifically, you need to keep track of a body’s orientation in
+    space and, moreover, the change in orientation over time. So it’s in this light that we’ll
+    discuss rotation matrices and quaternions. We’ll try to be as concise as possible so as not to
+    cloud the water with the proofs and derivations that you can find in the texts referred to in
+    the <a class="link" href="apd.html" title="Appendix D. Bibliography">Bibliography</a>.</p><div class="sect1" title="Rotation Matrices"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="rotation_matrices">Rotation Matrices</h2></div></div></div><p>A rotation matrix is a 3×3 matrix that, <a id="ro11.1" class="indexterm"/><a id="rom11.1" class="indexterm"/>when multiplied with a point or vector, results in the rotation of that point
+      about some axis, yielding a new set of coordinates. You can rotate points about axes in one
+      coordinate system or you can use rotation matrices to convert points from one coordinate
+      system to another, where one is rotated relative to the other.</p><p>Rotating a vector by a rotation matrix is typically written as follows: if <span class="strong"><strong>v</strong></span> is a vector, and <span class="strong"><strong>R</strong></span> is a
+      rotation matrix, then <span class="strong"><strong>v</strong></span>’ is <span class="strong"><strong>v</strong></span> rotated by <span class="strong"><strong>R</strong></span> according to the
+      formula:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>v</strong></span>’ = <span class="strong"><strong>R
+        v</strong></span></td></tr></table><p>You can combine multiple rotation matrices reflecting multiple sequential rotations into a
+      single rotation matrix using usual matrix multiplication. If the rotation matrices are
+      expressed in terms of fixed, global coordinates, then they are combined as follows:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>R</strong></span><sub>c</sub> = <span class="strong"><strong>R</strong></span><sub>1</sub>
+        <span class="strong"><strong>R</strong></span><sub>2</sub></td></tr></table><p>Here <span class="strong"><strong>R</strong></span><sub>c</sub> is the combined rotation
+      matrix reflecting a rotation first by <span class="strong"><strong>R</strong></span><sub>1</sub> and then by <span class="strong"><strong>R</strong></span><sub>2</sub>. If the rotation matrices are expressed in terms of
+      rotating, body-fixed coordinates, then they are combined in the reverse order as
+      follows:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>R</strong></span><sub>c</sub> = <span class="strong"><strong>R</strong></span><sub>2</sub>
+        <span class="strong"><strong>R</strong></span><sub>1</sub></td></tr></table><p>We won’t go into the proof of this relation, but the reason it’s different depending on
+      how you’ve defined your rotation matrices is that rotation matrices defined in fixed
+      coordinates are unaffected by the rotation itself since the coordinate axes stay fixed. On the
+      other hand, if the rotation matrices are defined relative to a coordinate system that is
+      rotating due to sequential application of rotation matrices, then all rotation matrices after
+      the first will be affected since they were first defined relative to the original state of the
+      coordinate system—that is, before the first rotation matrix was applied. This means that the
+      subsequent rotation matrices must be corrected to reflect the new system as affected by the
+      previous rotation before they can be correctly applied. In other words, you have to rotate
+        <span class="strong"><strong>R</strong></span><sub>2</sub> by <span class="strong"><strong>R</strong></span><sub>1</sub> to get a new <span class="strong"><strong>R</strong></span><sub>2</sub> before applying it. All this happens to work out in
+      such a way that you reverse the order of multiplication of rotation matrices when they are
+      defined in a r<a id="I_indexterm5_id329310" class="indexterm"/>otating coordinate system.</p><p><a class="xref" href="ch11.html#right-handed_coordinate_system-id1" title="Figure 11-1. Right-handed coordinate system">Figure 11-1</a> shows a right-handed coordinate
+      system that illustrates the directions of positive rotation about each coordinate axis.</p><div class="figure"><a id="right-handed_coordinate_system-id1"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject5_id329340"/><img src="httpatomoreillycomsourceoreillyimages1598946.png" alt="Right-handed coordinate system"/></div></div><div class="figure-title">Figure 11-1. Right-handed coordinate system</div></div><p>Let’s consider rotation around the<a id="I_indexterm5_id329360" class="indexterm"/> z-axis where the point shown in <a class="xref" href="ch11.html#rotation_around_the_z-axis" title="Figure 11-2. Rotation around the z-axis">Figure 11-2</a> is
+      rotated through an angle θ.</p><div class="figure"><a id="rotation_around_the_z-axis"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject5_id329385"/><img src="httpatomoreillycomsourceoreillyimages1598947.png" alt="Rotation around the z-axis"/></div></div><div class="figure-title">Figure 11-2. Rotation around the z-axis</div></div><p>The coordinates of the point before the rotation are
+        (<span class="emphasis"><em>x</em></span>,<span class="emphasis"><em>y</em></span>,<span class="emphasis"><em>z</em></span>) and after the
+      rotation the coordinates are (<span class="emphasis"><em>x</em></span><sub>r</sub>,
+        <span class="emphasis"><em>y</em></span><sub>r</sub>,
+        <span class="emphasis"><em>z</em></span><sub>r</sub>). The rotated coordinates are related to the
+      original coordinates and the rotation angle by the following:</p><table style="border: 0; " class="simplelist"><tr><td>x<sub>r</sub> = x cos θ − y sin θ</td></tr><tr><td>y<sub>r</sub> = x sin θ + y cos θ</td></tr><tr><td>z<sub>r</sub> = z</td></tr></table><p>Notice that since the point is rotating about the z-axis, its <span class="emphasis"><em>z</em></span>
+      coordinate remains unchanged. To write this in the vector-matrix notation, <span class="strong"><strong>v</strong></span>’ = <span class="strong"><strong>R v</strong></span>, let <span class="strong"><strong>v</strong></span>
+      <span class="emphasis"><em>= [x y z]</em></span> and let <span class="strong"><strong>R</strong></span> be the
+      matrix:</p><div class="informalfigure"><a id="chapter11matrix1"/><div class="mediaobject"><a id="I_mediaobject5_id329509"/><img src="httpatomoreillycomsourceoreillyimages1598948.png" alt="image with no caption"/></div></div><p>Here <span class="strong"><strong>v’</strong></span> will be the new, rotated vector, <span class="strong"><strong>v</strong></span><span class="emphasis"><em>’ = [x</em></span><sub>r</sub>
+      <span class="emphasis"><em>y</em></span><sub>r</sub>
+      <span class="emphasis"><em>z</em></span><sub>r</sub><span class="emphasis"><em>]</em></span>.</p><p>Rotation about <a id="I_indexterm5_id329565" class="indexterm"/><a id="I_indexterm5_id329572" class="indexterm"/>the x- and y-axes is similar to the z-axis; however, in those cases the
+        <span class="emphasis"><em>x</em></span> and <span class="emphasis"><em>y</em></span> coordinates remain constant during
+      rotations about each axis, respectively. Looking at rotation about each axis separately will
+      yield three rotation matrices similar to the one we just showed you for rotation about the
+      z-axis.</p><p>For rotation about the x-axis, the matrix is:</p><div class="informalfigure"><a id="chapter11matrix2"/><div class="mediaobject"><a id="I_mediaobject5_id329600"/><img src="httpatomoreillycomsourceoreillyimages1598949.png" alt="image with no caption"/></div></div><p>And for rotation about the y-axis, the matrix is:</p><div class="informalfigure"><a id="chapter11matrix3"/><div class="mediaobject"><a id="I_mediaobject5_id329630"/><img src="httpatomoreillycomsourceoreillyimages1598950.png" alt="image with no caption"/></div></div><p>These are the rotation matrices you typically see in computer graphics texts in the
+      context of matrix transforms, such as translation, scaling, and rotation. You can combine all
+      three of these matrices into a single rotation matrix to represent combinations of rotations
+      about each coordinate axis, using matrix multiplication as mentioned earlier.</p><p>In rigid-body simulations, you can use a rotation matrix to represent the <a id="I_indexterm5_id329657" class="indexterm"/>orientation of a rigid body. Another way to think of it is the rotation matrix,
+      when applied to the unrotated rigid body aligned with the fixed global coordinate system, will
+      rotate the rigid body’s coordinates so as to resemble the body’s current orientation at any
+      given time. This leads to another important consideration when using rotation matrices to keep
+      track of orientation in rigid-body simulations: the fact that the rotation matrix will be a
+      function of time.</p><p>Once you set up your initial rotation matrix for the rigid body, you’ll never directly
+      calculate it again from orientation angles; instead, the forces and moments applied to the
+      rigid body will change the body’s angular velocity, <a id="I_indexterm5_id329679" class="indexterm"/><a id="I_indexterm5_id329689" class="indexterm"/>likewise causing small changes in orientation at each time step throughout the
+      simulation. Thus, you can see that you must have a means of relating the rotation matrix to
+      angular velocity so that you can update the orientation accordingly. The formula you need is
+      as follows:</p><table style="border: 0; " class="simplelist"><tr><td>d <span class="strong"><strong>R</strong></span> / dt = <span class="strong"><strong>Ω
+        R</strong></span></td></tr></table><p>Here, <span class="strong"><strong>Ω</strong></span> is a skew symmetric matrix built from the
+      angular velocity vector components as follows:</p><div class="informalfigure"><a id="chapter11matrix4"/><div class="mediaobject"><a id="I_mediaobject5_id329741"/><img src="httpatomoreillycomsourceoreillyimages1598951.png" alt="image with no caption"/></div></div><p>Notwithstanding a rigorous proof of this relation, it’s easy to see its beauty, which is
+      that you can differentiate the rotation matrix by simply matrix multiplying by the angular
+      velocity (in the form of <span class="strong"><strong>Ω</strong></span>). In a simulation you’ll know
+      your initial rotation matrix, and you’ll calculate the angular velocity at each time step;
+      thus, you can easily progress, or integrate, the rotation matrix.</p><p>You should be able to see here that since you’ll only explicitly calculate the rotation
+      matrix once and will update it with a matrix multiply, you won’t have to use computationally
+      expensive trigonometric functions during each time step. Further, you avoid the singularity
+      problem mentioned in the introduction to this chapter.</p><p>It should also be obvious that you gain these benefits at some price. First, you have to
+      deal with nine parameters in the rotation matrix (each element in the 3×3 rotation matrix) to
+      represent three angular degrees of freedom. Secondly, in order to do that, you need to impose
+      constraints on the rotation matrix; specifically, you need to enforce the constraint that the
+      matrix be orthogonal with a determinant of 1 so that it satisfies the following (each column
+      in the matrix <a id="I_indexterm5_id329786" class="indexterm"/>represents a unit vector, and they are all at right angles to each
+        other):<sup>[<a id="CHP-11-FN-1" href="#ftn.CHP-11-FN-1" epub:type="noteref" class="footnote">20</a>]</sup></p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>R</strong></span><sup>T</sup>
+        <span class="strong"><strong>R</strong></span> = <span class="strong"><strong>I</strong></span></td></tr></table><p>Here <span class="strong"><strong>R</strong></span><sup>T</sup>is the transpose of
+        <span class="strong"><strong>R</strong></span>, and <span class="strong"><strong>I</strong></span> is the
+      identity matrix. Due to numerical errors such as roundoff and truncation, you’ll have to
+      enforce this constraint very often in your simulation. Otherwise, your rotation matrix will do
+      more than rotate your objects, it may scale or translate them too.</p><p>Instead of dealing with nine parameters and trying to constrain six degrees of freedom so
+      that only the three you want can be represented, you could take an alternative approach that
+      lets you keep the advantages rotation matrices have to offer, but at a cheaper price. That
+      alternative, quaternions, is the subject of the next <a id="I_indexterm5_id329866" class="indexterm"/><a id="I_indexterm5_id329876" class="indexterm"/>section.</p></div><div class="sect1" title="Quaternions"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="quaternions">Quaternions</h2></div></div></div><p>Quaternions are somewhat of a <a id="ro11.2" class="indexterm"/><a id="qu11.2" class="indexterm"/>mathematical oddity. They were developed over 100 years ago by <a id="I_indexterm5_id329931" class="indexterm"/>William Hamilton through his work in complex (imaginary) math but have found very
+      little practical use. A quaternion is a quantity, kind of like a vector, but made up of four
+      components. It is typically written in the form:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>q</strong></span> = q<sub>0</sub> +
+          q<sub>x</sub>
+        <span class="strong"><strong>i</strong></span> + q<sub>y</sub>
+        <span class="strong"><strong>j</strong></span> + q<sub>z</sub>
+        <span class="strong"><strong>k</strong></span></td></tr></table><p>A quaternion is really a four-dimensional <a id="I_indexterm5_id329992" class="indexterm"/>quantity in complex space and, unfortunately, does not lend itself to
+      visualization. Don’t worry, though: our use of quaternions to <a id="I_indexterm5_id330001" class="indexterm"/>represent orientation in three dimensions does allow us to attach a physical
+      meaning to them, as you’ll see in a moment.</p><p>Of particular interest to us is what’s known as a <span class="emphasis"><em>unit quaternion</em></span>
+      that satisfies the following:</p><table style="border: 0; " class="simplelist"><tr><td>q<sub>0</sub><sup>2</sup> +
+          q<sub>x</sub><sup>2</sup> +
+          q<sub>y</sub><sup>2</sup> +
+          q<sub>z</sub><sup>2</sup> = 1</td></tr></table><p>This is analogous to a normalized, or unit, vector.</p><p>You can also write a quaternion in the form <span class="strong"><strong>q</strong></span> =
+        [<span class="emphasis"><em>q</em></span><sub>0</sub>, <span class="strong"><strong>v</strong></span>],
+      where <span class="strong"><strong>v</strong></span> is the vector,
+        <span class="emphasis"><em>q</em></span><sub>x</sub>
+      <span class="strong"><strong>i</strong></span> + <span class="emphasis"><em>q</em></span><sub>y</sub>
+      <span class="strong"><strong>j</strong></span> + <span class="emphasis"><em>q</em></span><sub>z</sub>
+      <span class="strong"><strong>k</strong></span>, and <span class="emphasis"><em>q</em></span><sub>0</sub> is a
+      scalar. In the context of rotation, <span class="strong"><strong>v</strong></span> represents the
+      direction in which the axis of rotation points. For a given rotation, θ, about an arbitrary
+      axis represented by the unit vector <span class="strong"><strong>u</strong></span>, the representative
+      quaternion can be written as follows:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>q</strong></span> = [cos(θ/2) , sin(θ/2) <span class="strong"><strong>u</strong></span>]</td></tr></table><p>This is illustrated in <a class="xref" href="ch11.html#quaternion_rotation" title="Figure 11-3. Quaternion rotation">Figure 11-3</a> for an arbitrary rigid body
+      rotating about an axis passing through its <a id="I_indexterm5_id330172" class="indexterm"/>center of gravity. The rigid body rotates through an angle θ from the position
+      shown in light gray to the position shown in dark gray. Here, the unit vector <span class="strong"><strong>u</strong></span> is the vector <span class="strong"><strong>v</strong></span> normalized to
+      unit length.</p><div class="figure"><a id="quaternion_rotation"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject5_id330209"/><img src="httpatomoreillycomsourceoreillyimages1598952.png" alt="Quaternion rotation"/></div></div><div class="figure-title">Figure 11-3. Quaternion rotation</div></div><p>You can readily see that quaternions, when used to represent rotation or orientation,
+      require you to deal with only four parameters instead of nine, subject to the easily satisfied
+      constraint that the quaternion be a unit quaternion.</p><p>The use of quaternions to represent orientation is similar to how you would use rotation
+      matrices. First, you set up a quaternion that represents the initial orientation of the rigid
+      body at time 0 (this is the only time you’ll calculate the quaternion explicitly). Then you
+      update the orientation to reflect the new orientation at a given instant in time using the
+      angular velocities that are calculated for that instant. As you can see here, the differential
+      equation relating an orientation quaternion to <a id="I_indexterm5_id330240" class="indexterm"/><a id="I_indexterm5_id330250" class="indexterm"/>angular velocity is very similar to that for rotation matrices:</p><table style="border: 0; " class="simplelist"><tr><td>d<span class="strong"><strong>q</strong></span>/dt = (1/2) <span class="strong"><strong>ω
+          q</strong></span></td></tr></table><p>Here, the angular velocity is written in quaternion form as [0, <span class="strong"><strong>ω</strong></span>] and is expressed in fixed, global coordinates. (<span class="strong"><strong>ω</strong></span> is still angular velocity, but you have to put it in quaternion form instead
+      of vector form when multiplying it by a quaternion <span class="emphasis"><em>q</em></span>.) If <span class="strong"><strong>ω</strong></span> is expressed in rotating, body-fixed coordinates, then you need
+      to use this equation:</p><table style="border: 0; " class="simplelist"><tr><td>d<span class="strong"><strong>q</strong></span>/dt = (1/2) <span class="strong"><strong>q
+          ω</strong></span></td></tr></table><p>As with rotation matrices, you can use quaternions to rotate points or vectors. If
+        <span class="strong"><strong>v</strong></span> is a vector, then <span class="strong"><strong>v</strong></span>’
+      is the rotated vector subject to the quaternion <span class="strong"><strong>q</strong></span>:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>v</strong></span>’ = <span class="strong"><strong>qvq</strong></span><sup>*</sup></td></tr></table><p>Here <span class="strong"><strong>q</strong></span><span class="emphasis"><em>*</em></span> is the conjugate of the
+      quaternion <span class="strong"><strong>q</strong></span> defined as:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>q</strong></span>* = q<sub>0</sub> –
+          q<sub>x</sub>
+        <span class="strong"><strong>i</strong></span> – q<sub>y</sub>
+        <span class="strong"><strong>j</strong></span> – q<sub>z</sub>
+        <span class="strong"><strong>k</strong></span></td></tr></table><p>You can also use the preceding formula to convert vectors from one coordinate system to
+      another, where one is rotated relative to the other. You have to do this, for example, in your
+      simulations where you are converting forces defined in fixed, global coordinates to rotating,
+      body-fixed coordinates so that you can apply the forces to the body; or you might have to
+      convert a body’s velocity defined in global coordinates to body coordinates so that you can
+      use the velocity in force calculations.</p><div class="sect2" title="Quaternion Operations"><div class="titlepage"><div><div><h3 class="title" id="quaternion_operations">Quaternion Operations</h3></div></div></div><p>As with vectors and matrices, quaternions have their own rules for the various
+        operations that you’ll need, such as multiplication, addition, subtraction, and so on. To
+        make it easy on you, we’ve included sample code in <a class="xref" href="apc.html" title="Appendix C. Quaternion Operations">Appendix C</a> that implements all of the quaternion operations you’ll need; however, we want to
+        highlight a few of the more important ones here.</p><p>The <code class="literal">Quaternion</code> class is <a id="I_indexterm5_id330482" class="indexterm"/><a id="I_indexterm5_id330493" class="indexterm"/>defined with a scalar component, <span class="emphasis"><em>n</em></span>, and vector component,
+          <span class="strong"><strong>v</strong></span>, where <span class="strong"><strong>v</strong></span> is the
+        vector, <span class="emphasis"><em>x</em></span>
+        <span class="strong"><strong>i</strong></span> + <span class="emphasis"><em>y</em></span>
+        <span class="strong"><strong>j</strong></span> + <span class="emphasis"><em>z</em></span>
+        <span class="strong"><strong>k</strong></span>. The class has two constructors, one of which
+        initializes the quaternion to 0, and the other of which initializes the elements to those
+        passed to the constructor:</p><a id="I_programlisting5_id330476"/><pre class="programlisting">class Quaternion {
+public:
+     float      n;     // number (scalar) part
+     Vector     v;     // vector part: v.x, v.y, v.z
+
+     Quaternion(void);
+     Quaternion(float e0, float e1, float e2, float e3);
+
+.
+.
+.
+
+};</pre><div class="sect3" title="Magnitude"><div class="titlepage"><div><div><h4 class="title" id="magnitude">Magnitude</h4></div></div></div><p>The <code class="literal">Magnitude</code> method <a id="I_indexterm5_id330574" class="indexterm"/><a id="I_indexterm5_id330587" class="indexterm"/>returns the magnitude of the quaternion according to the following
+          formula:</p><table style="border: 0; " class="simplelist"><tr><td>|<span class="strong"><strong>q</strong></span>| = 
+          
+            <span class="inlinemediaobject"><img src="inleq_1101.png" alt=""/></span>   
+          
+          </td></tr></table><p>This is similar to calculating the magnitude of a vector, except that for quaternions
+          you have to take the fourth term, the scalar <span class="emphasis"><em>n</em></span>, into account.</p><p>Here’s the code that calculates the magnitude for our <code class="literal">Quaternion</code> class:</p><a id="I_programlisting5_id330645"/><pre class="programlisting">inline     float     Quaternion::Magnitude(void)
+{
+     return (float) sqrt(n*n + v.x*v.x + v.y*v.y + v.z*v.z);
+}</pre></div><div class="sect3" title="Conjugate: The ~ operator"><div class="titlepage"><div><div><h4 class="title" id="conjugate_colon_the_tilde_operator">Conjugate: The ~ operator</h4></div></div></div><p>The conjugate of the product of <a id="I_indexterm5_id330665" class="indexterm"/><a id="I_indexterm5_id330672" class="indexterm"/><a id="I_indexterm5_id330682" class="indexterm"/><a id="I_indexterm5_id330691" class="indexterm"/>quaternions is equal to the product of the quaternion conjugates, but in
+          reverse order:</p><table style="border: 0; " class="simplelist"><tr><td>~(<span class="strong"><strong>qp</strong></span>) = (~<span class="strong"><strong>p</strong></span>)(~<span class="strong"><strong>q</strong></span>)</td></tr></table><p>Here’s the code that computes the conjugate for our <code class="literal">Quaternion</code> class:</p><a id="I_programlisting5_id330742"/><pre class="programlisting">     Quaternion operator~(void) const { return Quaternion( n,
+                                                           -v.x,
+                                                           -v.y,
+                                                           -v.z);}</pre></div><div class="sect3" title="QVRotate"><div class="titlepage"><div><div><h4 class="title" id="qvrotate">QVRotate</h4></div></div></div><p>This function rotates <a id="I_indexterm5_id330762" class="indexterm"/><a id="I_indexterm5_id330772" class="indexterm"/>the vector <span class="strong"><strong>v</strong></span> by the unit quaternion
+            <span class="strong"><strong>q</strong></span> according to this formula:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>p</strong></span>’ = (<span class="strong"><strong>q</strong></span>)(<span class="strong"><strong>v</strong></span>)(~<span class="strong"><strong>q</strong></span>)</td></tr></table><p>Here, ~<span class="strong"><strong>q</strong></span> is the conjugate of the unit quaternion,
+            <span class="strong"><strong>q</strong></span>:</p><a id="I_programlisting5_id330841"/><pre class="programlisting">inline     Vector     QVRotate(Quaternion q, Vector v)
+{
+     Quaternion t;
+
+     t = q*v*(~q);
+
+     return     t.GetVector();
+}</pre><p>This operator takes the conjugate of the quaternion, ~<span class="strong"><strong>q</strong></span>, which is simply the negative of the vector part. If <span class="strong"><strong>q</strong></span> = [<span class="emphasis"><em>n</em></span>, <span class="emphasis"><em>x</em></span>
+          <span class="strong"><strong>i</strong></span> + <span class="emphasis"><em>y</em></span>
+          <span class="strong"><strong>j</strong></span> + <span class="emphasis"><em>z</em></span>
+          <span class="strong"><strong>k</strong></span>], then ~<span class="strong"><strong>q</strong></span> =
+            [<span class="emphasis"><em>n</em></span>, (−<span class="emphasis"><em>x</em></span>) <span class="strong"><strong>i</strong></span>
+          + (−<span class="emphasis"><em>y</em></span>) <span class="strong"><strong>j</strong></span> +
+            (−<span class="emphasis"><em>z</em></span>) <span class="strong"><strong>k</strong></span>].</p></div><div class="sect3" title="Quaternion multiplication: The * operator"><div class="titlepage"><div><div><h4 class="title" id="quaternion_multiplication_colon_the_aste">Quaternion multiplication: The * operator</h4></div></div></div><p>This operator performs <a id="I_indexterm5_id330950" class="indexterm"/><a id="I_indexterm5_id330960" class="indexterm"/><a id="I_indexterm5_id330970" class="indexterm"/><a id="I_indexterm5_id330977" class="indexterm"/>quaternion multiplication according to the following formula:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>q p</strong></span> = n<sub>q</sub>
+              n<sub>p</sub> − <span class="strong"><strong>v</strong></span><sub>q</sub> • <span class="strong"><strong>v</strong></span><sub>p</sub> + n<sub>q</sub>
+            <span class="strong"><strong>v</strong></span><sub>p</sub> + n<sub>p</sub>
+            <span class="strong"><strong>v</strong></span><sub>q</sub> + (<span class="strong"><strong>v</strong></span><sub>q</sub> × <span class="strong"><strong>v</strong></span><sub>p</sub>)</td></tr></table><p>Here,
+            <span class="emphasis"><em>n</em></span><sub>q</sub><span class="emphasis"><em>n</em></span><sub>p</sub>
+          − <span class="strong"><strong>v</strong></span><sub>q</sub> • <span class="strong"><strong>v</strong></span><sub>p</sub> is the scalar part of the result while
+            <span class="emphasis"><em>n</em></span><sub>q</sub>
+          <span class="strong"><strong>v</strong></span><sub>p</sub> +
+            <span class="emphasis"><em>n</em></span><sub>p</sub>
+          <span class="strong"><strong>v</strong></span><sub>q</sub> + (<span class="strong"><strong>v</strong></span><sub>q</sub> × <span class="strong"><strong>v</strong></span><sub>p</sub>) is the vector part. Also note that <span class="strong"><strong>v</strong></span><sub>q</sub> and <span class="strong"><strong>v</strong></span><sub>p</sub> are the vector parts of <span class="strong"><strong>q</strong></span> and <span class="strong"><strong>p</strong></span>, respectively, • is the vector
+          dot product operator, and × is the vector cross product operator.</p><p>Quaternion multiplication is associative but not commutative, thus:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>q</strong></span>(<span class="strong"><strong>ph</strong></span>) =
+              (<span class="strong"><strong>qp</strong></span>)<span class="strong"><strong>h</strong></span></td></tr><tr><td><span class="strong"><strong>qp</strong></span> ≠ <span class="strong"><strong>pq</strong></span></td></tr></table><p>Here’s the code that multiplies two <code class="literal">Quaternion</code>s,
+            <code class="literal">q1</code> and <code class="literal">q2</code>:</p><a id="I_programlisting5_id331246"/><pre class="programlisting">inline     Quaternion operator*(Quaternion q1, Quaternion q2)
+{
+     return     Quaternion(q1.n*q2.n - q1.v.x*q2.v.x
+                               - q1.v.y*q2.v.y - q1.v.z*q2.v.z,
+                           q1.n*q2.v.x + q1.v.x*q2.n
+                               + q1.v.y*q2.v.z - q1.v.z*q2.v.y,
+                           q1.n*q2.v.y + q1.v.y*q2.n
+                               + q1.v.z*q2.v.x - q1.v.x*q2.v.z,
+                           q1.n*q2.v.z + q1.v.z*q2.n
+                               + q1.v.x*q2.v.y - q1.v.y*q2.v.x);
+}</pre></div><div class="sect3" title="Vector multiplication: The * operator"><div class="titlepage"><div><div><h4 class="title" id="vector_multiplication_colon_the_aste">Vector multiplication: The * operator</h4></div></div></div><p>This operator <a id="I_indexterm5_id331270" class="indexterm"/><a id="I_indexterm5_id331280" class="indexterm"/><a id="I_indexterm5_id331290" class="indexterm"/><a id="I_indexterm5_id331300" class="indexterm"/>multiplies the quaternion, <code class="literal">q</code>, by the vector
+            <code class="literal">v</code> as though the vector <code class="literal">v</code> were a quaternion with its scalar component equal to 0. There are two forms
+          of this operator depending on the order in which the quaternion and vector are
+          encountered. Since <code class="literal">v</code> is assumed to be a quaternion with
+          its scalar part equal to 0, the rules of multiplication follow those outlined earlier for
+          quaternion multiplication:</p><a id="I_programlisting5_id331338"/><pre class="programlisting">inline     Quaternion operator*(Quaternion q, Vector v)
+{
+     return     Quaternion(     -(q.v.x*v.x + q.v.y*v.y + q.v.z*v.z),
+                                   q.n*v.x + q.v.y*v.z - q.v.z*v.y,
+                                   q.n*v.y + q.v.z*v.x - q.v.x*v.z,
+                                   q.n*v.z + q.v.x*v.y - q.v.y*v.x);
+}
+inline     Quaternion operator*(Vector v, Quaternion q)
+{
+     return     Quaternion(     -(q.v.x*v.x + q.v.y*v.y + q.v.z*v.z),
+                                   q.n*v.x + q.v.z*v.y - q.v.y*v.z,
+                                   q.n*v.y + q.v.x*v.z - q.v.z*v.x,
+                                   q.n*v.z + q.v.y*v.x - q.v.x*v.y);
+}</pre></div><div class="sect3" title="MakeQFromEulerAngles"><div class="titlepage"><div><div><h4 class="title" id="makeqfromeulerangles">MakeQFromEulerAngles</h4></div></div></div><p>This function <a id="I_indexterm5_id331365" class="indexterm"/><a id="I_indexterm5_id331375" class="indexterm"/><a id="I_indexterm5_id331381" class="indexterm"/>constructs a quaternion from a set of Euler angles.</p><p>For a given set of Euler angles, yaw (ψ), pitch (τ), and roll (φ), defining rotation
+          about the z-axis, then the y-axis, and then the x-axis, you can construct the
+          representative rotation quaternion. You do this by first constructing a quaternion for
+          each Euler angle and then multiplying the three quaternions following the rules of
+          quaternion multiplication. Here are the three quaternions representing each Euler rotation
+          angle:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>q</strong></span><sub>roll</sub> = [cos(φ/2),
+            (sin(φ/2)) <span class="strong"><strong>i</strong></span> + 0 <span class="strong"><strong>j</strong></span>
+            + 0 <span class="strong"><strong>k</strong></span>]</td></tr><tr><td><span class="strong"><strong>q</strong></span><sub>pitch</sub> = [cos(τ /2), 0
+              <span class="strong"><strong>i</strong></span> + (sin(τ /2)) <span class="strong"><strong>j</strong></span> + 0 <span class="strong"><strong>k</strong></span>]</td></tr><tr><td><span class="strong"><strong>q</strong></span><sub>yaw</sub> = [cos(ψ /2), 0
+              <span class="strong"><strong>i</strong></span> + 0 <span class="strong"><strong>j</strong></span> + (sin(ψ
+            /2)) <span class="strong"><strong>k</strong></span>]</td></tr></table><p>Each one of these quaternions is of unit length.<sup>[<a id="CHP-11-FN-2" href="#ftn.CHP-11-FN-2" epub:type="noteref" class="footnote">21</a>]</sup></p><p>Now you can multiply these quaternions to obtain a single one that represents the
+          rotation, or orientation, defined by the three Euler angles:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>q</strong></span> = <span class="strong"><strong>q</strong></span><sub>yaw</sub>
+            <span class="strong"><strong>q</strong></span><sub>pitch</sub>
+            <span class="strong"><strong>q</strong></span><sub>roll</sub></td></tr></table><p>Performing this multiplication yields:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>q</strong></span> = [{cos(φ/2) cos(τ /2) cos(ψ /2) + sin(φ/2)
+            sin(τ /2) sin(ψ /2)},</td></tr><tr><td>{sin(φ/2) cos(τ /2) cos(ψ /2) − cos(φ/2) sin(τ /2) sin(ψ /2)} <span class="strong"><strong>i</strong></span> +</td></tr><tr><td>{cos(φ/2) sin(τ /2) cos(ψ /2) + sin(φ/2) cos(τ /2) sin(ψ /2)} <span class="strong"><strong>j</strong></span> +</td></tr><tr><td>{cos(φ/2) cos(τ /2) sin(ψ /2) − sin(φ/2) sin(τ /2) cos(ψ /2)} <span class="strong"><strong>k</strong></span>]</td></tr></table><p>Here’s the code that takes three Euler angles and returns a quaternion:</p><a id="I_programlisting5_id331610"/><pre class="programlisting">inline     Quaternion     MakeQFromEulerAngles(float x, float y, float z)
+{
+     Quaternion     q;
+     double     roll = DegreesToRadians(x);
+     double     pitch = DegreesToRadians(y);
+     double     yaw = DegreesToRadians(z);
+
+     double     cyaw, cpitch, croll, syaw, spitch, sroll;
+     double     cyawcpitch, syawspitch, cyawspitch, syawcpitch;
+
+     cyaw = cos(0.5f * yaw);
+     cpitch = cos(0.5f * pitch);
+     croll = cos(0.5f * roll);
+     syaw = sin(0.5f * yaw);
+     spitch = sin(0.5f * pitch);
+     sroll = sin(0.5f * roll);
+
+     cyawcpitch = cyaw*cpitch;
+     syawspitch = syaw*spitch;
+     cyawspitch = cyaw*spitch;
+     syawcpitch = syaw*cpitch;
+
+     q.n = (float) (cyawcpitch * croll + syawspitch * sroll);
+     q.v.x = (float) (cyawcpitch * sroll - syawspitch * croll);
+     q.v.y = (float) (cyawspitch * croll + syawcpitch * sroll);
+     q.v.z = (float) (syawcpitch * croll - cyawspitch * sroll);
+
+     return q;
+}</pre></div><div class="sect3" title="MakeEulerAnglesFromQ"><div class="titlepage"><div><div><h4 class="title" id="makeeuleranglesfromq">MakeEulerAnglesFromQ</h4></div></div></div><p>This function <a id="I_indexterm5_id331636" class="indexterm"/><a id="I_indexterm5_id331647" class="indexterm"/><a id="I_indexterm5_id331653" class="indexterm"/>extracts the three Euler angles from a given quaternion.</p><p>You can extract the three Euler angles from a quaternion by first converting the
+          quaternion to a rotation matrix and then extracting the Euler angles from the rotation
+          matrix. Let <span class="strong"><strong>R</strong></span> be a nine-element rotation matrix:</p><div class="informalfigure"><a id="chapter11matrix5"/><div class="mediaobject"><a id="I_mediaobject5_id331684"/><img src="httpatomoreillycomsourceoreillyimages1598953.png" alt="image with no caption"/></div></div><p>and let <span class="strong"><strong>q</strong></span> be a quaternion:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>q</strong></span> = [n, x <span class="strong"><strong>i</strong></span>
+            + y <span class="strong"><strong>j</strong></span> + z <span class="strong"><strong>k</strong></span>]</td></tr></table><p>Then each element in <span class="strong"><strong>R</strong></span> is calculated from <span class="strong"><strong>q</strong></span> as follows:</p><table style="border: 0; " class="simplelist"><tr><td>r<sub>11</sub> = n<sup>2</sup> +
+              x<sup>2</sup> − y<sup>2</sup> −
+              z<sup>2</sup></td></tr><tr><td>r<sub>21</sub> = 2xy+2zn</td></tr><tr><td>r<sub>31</sub> = 2zx − 2yn</td></tr><tr><td>r<sub>12</sub> = 2xy − 2zn</td></tr><tr><td>r<sub>22</sub> = n<sup>2</sup> −
+              x<sup>2</sup> + y<sup>2</sup> −
+              z<sup>2</sup></td></tr><tr><td>r<sub>32</sub> = 2zy + 2xn</td></tr><tr><td>r<sub>13</sub> = 2xz + 2yn</td></tr><tr><td>r<sub>23</sub> = 2yz − 2xn</td></tr><tr><td>r<sub>33</sub> = n<sup>2</sup> −
+              x<sup>2</sup> − y<sup>2</sup> +
+              z<sup>2</sup></td></tr></table><p>To extract the Euler angles, yaw (ψ), pitch (τ), and roll (φ), from <span class="strong"><strong>R</strong></span>, you can use these relations:</p><table style="border: 0; " class="simplelist"><tr><td>tan ψ = r<sub>21</sub> / r<sub>11</sub></td></tr><tr><td>sin τ = –r<sub>31</sub></td></tr><tr><td>tan φ = r<sub>32</sub> / r<sub>33</sub></td></tr></table><p>Here’s the code that extracts the three Euler angles, returned in the form of a
+            <code class="literal">Vector</code>, from a given <a id="I_indexterm5_id331925" class="indexterm"/>quaternion:</p><a id="I_programlisting5_id331937"/><pre class="programlisting">inline     Vector     MakeEulerAnglesFromQ(Quaternion q)
+{
+     double     r11, r21, r31, r32, r33, r12, r13;
+     double     q00, q11, q22, q33;
+     double     tmp;
+     Vector     u;
+
+     q00 = q.n * q.n;
+     q11 = q.v.x * q.v.x;
+     q22 = q.v.y * q.v.y;
+     q33 = q.v.z * q.v.z;
+
+     r11 = q00 + q11 - q22 - q33;
+     r21 = 2 * (q.v.x*q.v.y + q.n*q.v.z);
+     r31 = 2 * (q.v.x*q.v.z - q.n*q.v.y);
+     r32 = 2 * (q.v.y*q.v.z + q.n*q.v.x);
+     r33 = q00 - q11 - q22 + q33;
+
+     tmp = fabs(r31);
+     if(tmp &gt; 0.999999)
+     {
+          r12 = 2 * (q.v.x*q.v.y - q.n*q.v.z);
+          r13 = 2 * (q.v.x*q.v.z + q.n*q.v.y);
+
+          u.x = RadiansToDegrees(0.0f); //roll
+          u.y = RadiansToDegrees((float) (-(pi/2) * r31/tmp));   // pitch
+          u.z = RadiansToDegrees((float) atan2(-r12, -r31*r13)); // yaw
+          return u;
+     }
+
+     u.x = RadiansToDegrees((float) atan2(r32, r33)); // roll
+     u.y = RadiansToDegrees((float) asin(-r31));      // pitch
+     u.z = RadiansToDegrees((float) atan2(r21, r11)); // yaw
+     return u;
+
+
+}</pre></div></div></div><div class="sect1" title="Quaternions in 3D Simulators"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="quaternions_in_3d_simulators">Quaternions in 3D Simulators</h2></div></div></div><p>The quaternion operations just <a id="th11.3" class="indexterm"/><a id="qu11.3" class="indexterm"/>presented are required when you are using <a id="or11.3" class="indexterm"/>quaternions to represent orientation in 3D simulations. All the 3D simulations
+      discussed in this book use these quaternion operations, and in this section we’ll highlight
+      where they are used in the context of the airplane example presented in <a class="xref" href="ch15.html" title="Chapter 15. Aircraft">Chapter 15</a>.</p><p>When initializing the <a id="ai11.3" class="indexterm"/>orientation of the airplane, you have to set its orientation quaternion to
+      something corresponding to the Euler angles you desire. You do so as follows:</p><a id="I_programlisting5_id332038"/><pre class="programlisting">Airplane.qOrientation = MakeQFromEulerAngles(iRoll, iPitch, iYaw);</pre><p>In this code sample, <code class="literal">Airplane</code> is a rigid-body class
+      with the property <code class="literal">qOrientation</code>, which represents the
+      orientation quaternion, which is a <code class="literal">Quaternion</code> class.
+        <code class="literal">iRoll</code>, <code class="literal">iPitch</code>, and
+        <code class="literal">iYaw</code> are the three Euler angles describing the
+      orientation of the airplane.</p><p>If at any time you want to report the Euler angles—for example, in a heads-up display-like
+      interface for the game player—you can use <code class="literal">MakeEulerAnglesFromQ</code>, as follows:</p><a id="I_programlisting5_id332096"/><pre class="programlisting">// get the Euler angles for our information
+          Vector u;
+
+          u = MakeEulerAnglesFromQ(Airplane.qOrientation);
+          Airplane.vEulerAngles.x = u.x;     // roll
+          Airplane.vEulerAngles.y = u.y;     // pitch
+          Airplane.vEulerAngles.z = u.z;     // yaw</pre><p>Very often, it’s more convenient to calculate loads on an object like the airplane using
+      body-fixed coordinates. For example, when computing aerodynamic drag on the airplane, you’ll
+      want to know the relative air velocity over the aircraft in body-fixed coordinates. The
+      resulting drag force will also be in body-fixed coordinates. However, when resolving all the
+      loads on the aircraft to determine its motion in earth-fixed coordinates, you’ll want to
+      convert those forces from body-fixed coordinates to earth-fixed coordinates. You can use
+        <code class="literal">QVRotate</code> to rotate any vector, such as a force vector,
+      from one coordinate system to another. The following code sample <a id="I_indexterm5_id332119" class="indexterm"/><a id="I_indexterm5_id332129" class="indexterm"/>shows how <code class="literal">QVRotate</code> is used to convert a force
+      vector in body-fixed coordinates to the equivalent force in earth-fixed coordinates.</p><a id="I_programlisting5_id332144"/><pre class="programlisting">void     CalcAirplaneLoads(void)
+{
+     .
+     .
+     .
+
+     // Convert forces from model space to earth space
+     Airplane.vForces = QVRotate(Airplane.qOrientation, Fb);
+     .
+     .
+     .
+}</pre><p>Throughout the simulation, you’ll have to update the airplane’s orientation by integrating
+      the angular equations of motion. The first step in handling angular motion is to calculate the
+      new angular velocity at a given time step based on the previously calculated moments acting on
+      the airplane and its mass properties. We do this in body coordinates using the angular
+      equation of motion:</p><table style="border: 0; " class="simplelist"><tr><td>∑ <span class="strong"><strong>M</strong></span><sub>cg</sub> = d<span class="strong"><strong>H</strong></span><sub>cg</sub>/dt <span class="strong"><strong>=
+          I</strong></span> (d<span class="strong"><strong>ω</strong></span>/dt) + (<span class="strong"><strong>ω</strong></span> × (<span class="strong"><strong>I ω</strong></span>))</td></tr></table><p>The next step is to integrate again to update the airplane’s orientation, which is
+      expressed as a quaternion. Here, you need to use the differential equation relating an
+      orientation quaternion to angular velocity that we discussed earlier:</p><table style="border: 0; " class="simplelist"><tr><td>d<span class="strong"><strong>q</strong></span>/dt = (1/2) <span class="strong"><strong>ω
+          q</strong></span></td></tr></table><p>Next, to enforce the constraint that this orientation quaternion <a id="I_indexterm5_id332239" class="indexterm"/>be a <span class="emphasis"><em>unit</em></span> quaternion, you must normalize the orientation
+      quaternion. The following code sample illustrates these steps:</p><a id="I_programlisting5_id332252"/><pre class="programlisting">.
+.
+.
+          // calculate the angular velocity of the airplane in body space:
+          Airplane.vAngularVelocity += Airplane.mInertiaInverse *
+                                       (Airplane.vMoments -
+                                       (Airplane.vAngularVelocity^
+                                       (Airplane.mInertia *
+                                         Airplane.vAngularVelocity)))
+                                        * dt;
+
+          // calculate the new rotation quaternion:
+          Airplane.qOrientation += (Airplane.qOrientation *
+                                    Airplane.vAngularVelocity) *
+                                   (0.5f * dt);
+
+          // now normalize the orientation quaternion:
+          mag = Airplane.qOrientation.Magnitude();
+          if (mag != 0)
+               Airplane.qOrientation /= mag;
+
+          // calculate the velocity in body space:
+          // (we'll need this to calculate lift and drag forces)
+          Airplane.vVelocityBody = QVRotate(~Airplane.qOrientation,
+                                            Airplane.vVelocity);
+.
+.
+.</pre><p>Notice the last line of code in the preceding sample. That line converts the airplane’s
+      velocity vector from earth-fixed coordinates to body-fixed coordinates using <code class="literal">QVRotate</code>. Recall that it’s more convenient to compute body forces
+      in body-fixed coordinates. <code class="literal">QVRotate</code> allows you to work with
+      vectors back and forth from body-fixed to earth-fixed <a id="I_indexterm5_id332284" class="indexterm"/><a id="I_indexterm5_id332295" class="indexterm"/><a id="I_indexterm5_id332304" class="indexterm"/><a id="I_indexterm5_id332313" class="indexterm"/><a id="I_indexterm5_id332323" class="indexterm"/><a id="I_indexterm5_id332332" class="indexterm"/><a id="I_indexterm5_id332341" class="indexterm"/><a id="I_indexterm5_id332351" class="indexterm"/>coordinates.</p></div><div class="footnotes" epub:type="footnotes"><br/><hr style="width: 100; align: left;"/><div class="footnote" epub:type="footnote" id="ftn.CHP-11-FN-1"><p><sup>[<a href="#CHP-11-FN-1" class="para">20</a>] </sup>Two vectors are orthogonal if their dot product is 0.</p></div><div class="footnote" epub:type="footnote" id="ftn.CHP-11-FN-2"><p><sup>[<a href="#CHP-11-FN-2" class="para">21</a>] </sup>You can verify this by recalling the trigonometric relation
+                cos<sup>2</sup>θ + sin<sup>2</sup> θ = 1.</p></div></div></section></body></html>

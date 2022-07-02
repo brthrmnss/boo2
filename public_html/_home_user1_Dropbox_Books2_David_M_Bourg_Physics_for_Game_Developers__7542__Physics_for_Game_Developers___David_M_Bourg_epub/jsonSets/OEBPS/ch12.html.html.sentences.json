@@ -1,0 +1,4892 @@
+[
+	{
+		"txt": "",
+		"why": "br tag like",
+		"sentenceIndex": 6877,
+		"nouns": [],
+		"dOIndex": 0,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 12. 3D Rigid Body Simulator",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6878,
+		"nouns": [
+			"Chapter",
+			"D",
+			"Body Simulator"
+		],
+		"dOIndex": 1,
+		"nouns2": [
+			"Chapter",
+			"Simulator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "In this chapter ",
+		"why": "link",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 6879,
+		"nouns": [
+			"chapter"
+		],
+		"dOIndex": 2,
+		"nouns2": [
+			"chapter"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6880,
+		"nouns": [],
+		"dOIndex": 3,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6881,
+		"nouns": [],
+		"dOIndex": 4,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "we'll show you how to make the leap from 2D to 3D by implementing a rigid body simulation of an airplane. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6882,
+		"nouns": [
+			"ll",
+			"show",
+			"leap",
+			"D",
+			"D",
+			"body",
+			"simulation",
+			"airplane"
+		],
+		"dOIndex": 5,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulation",
+			"airplane"
+		]
+	},
+	{
+		"txt": " Specifically, this is a simulation of the hypothetical airplane model that we'll discuss extensively in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 6883,
+		"nouns": [
+			"simulation",
+			"airplane",
+			"model",
+			"ll"
+		],
+		"dOIndex": 6,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Specifically",
+			"simulation",
+			"airplane"
+		]
+	},
+	{
+		"txt": "Chapter 15",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 6884,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 7,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6885,
+		"nouns": [],
+		"dOIndex": 8,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " This airplane is of typical configuration with its large wings forward, its elevators aft, a single vertical tail, and plain flaps fitted on the wings.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6886,
+		"nouns": [
+			"airplane",
+			"configuration",
+			"wings",
+			"elevators",
+			"tail",
+			"flaps",
+			"wings"
+		],
+		"dOIndex": 9,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"airplane",
+			"configuration",
+			"elevators"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 6887,
+		"nouns": [],
+		"dOIndex": 10,
+		"isQuote": false
+	},
+	{
+		"txt": "As with the 2D simulator in previous chapters, we'll concentrate on the code that implements the physics part of the simulator and not the platform specific GUI aspects of the simulations.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6888,
+		"nouns": [
+			"D",
+			"simulator",
+			"chapters",
+			"ll",
+			"code",
+			"implements",
+			"physics",
+			"part",
+			"simulator",
+			"platform",
+			"GUI",
+			"aspects",
+			"simulations"
+		],
+		"dOIndex": 11,
+		"nouns2": [
+			"simulator",
+			"chapters",
+			"implements",
+			"physics",
+			"platform",
+			"aspects",
+			"simulations"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 6889,
+		"nouns": [],
+		"dOIndex": 12,
+		"isQuote": false
+	},
+	{
+		"txt": "As in 2D, there are four main elements to this 3D simulation the model, integrator, user input, and rendering. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6890,
+		"nouns": [
+			"D",
+			"four",
+			"elements",
+			"D",
+			"simulation",
+			"model",
+			"integrator",
+			"user",
+			"input"
+		],
+		"dOIndex": 13,
+		"nouns2": [
+			"elements",
+			"simulation",
+			"integrator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " Remember, the model refers to your idealization of the thing an airplane, in this case that you are trying to simulate, while the integrator refers to the method by which you integrate the differential equations of motion. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6891,
+		"nouns": [
+			"model",
+			"idealization",
+			"airplane",
+			"case",
+			"integrator",
+			"method",
+			"equations",
+			"motion"
+		],
+		"dOIndex": 14,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Remember",
+			"idealization",
+			"airplane",
+			"integrator",
+			"equations"
+		]
+	},
+	{
+		"txt": " These two elements take care of most of the physics of the simulation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6892,
+		"nouns": [
+			"two",
+			"elements",
+			"care",
+			"physics",
+			"simulation"
+		],
+		"dOIndex": 15,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"elements",
+			"physics",
+			"simulation"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.13333333333333333,
+			"words": [
+				"care"
+			],
+			"positive": [
+				"care"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The user input and rendering elements refer to how you'll allow the user to interact with and view your simulation.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6893,
+		"nouns": [
+			"user",
+			"input",
+			"elements",
+			"ll",
+			"user",
+			"view",
+			"simulation"
+		],
+		"dOIndex": 16,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"elements",
+			"simulation"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.047619047619047616,
+			"words": [
+				"allow"
+			],
+			"positive": [
+				"allow"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 6894,
+		"nouns": [],
+		"dOIndex": 17,
+		"isQuote": false
+	},
+	{
+		"txt": "In this simulation, the world ",
+		"why": "link",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 6895,
+		"nouns": [
+			"simulation",
+			"world"
+		],
+		"dOIndex": 18,
+		"nouns2": [
+			"simulation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "coordinate system has its positive x axis pointing into the screen, its positive y axis pointing to the left of your screen, and the positive z axis pointing up. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6896,
+		"nouns": [
+			"system",
+			"x",
+			"axis",
+			"screen",
+			"y",
+			"axis",
+			"screen",
+			"z",
+			"axis"
+		],
+		"dOIndex": 19,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"highfreq": {
+			"positive": 3,
+			"axis": 3,
+			"pointing": 3
+		},
+		"sentiment": {
+			"score": 6,
+			"comparative": 0.2,
+			"words": [
+				"positive",
+				"positive",
+				"positive"
+			],
+			"positive": [
+				"positive",
+				"positive",
+				"positive"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Also, the local, or body fixed, coordinate system has its positive x axis pointing toward the front of the airplane, its positive y axis pointing to the port side (left side), and its positive z axis pointing up. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6897,
+		"nouns": [
+			"body",
+			"system",
+			"x",
+			"axis",
+			"front",
+			"airplane",
+			"y",
+			"axis",
+			"port",
+			"side",
+			"side",
+			"z",
+			"axis"
+		],
+		"dOIndex": 20,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"airplane"
+		],
+		"highfreq": {
+			"positive": 3,
+			"axis": 3,
+			"pointing": 3
+		},
+		"sentiment": {
+			"score": 6,
+			"comparative": 0.15,
+			"words": [
+				"positive",
+				"positive",
+				"positive"
+			],
+			"positive": [
+				"positive",
+				"positive",
+				"positive"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Since this is a 3D simulation of an airplane, once you get it running, you'll be able to fly in any direction, looping, banking, diving, and climbing, or performing any other aerobatic maneuver you desire.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6898,
+		"nouns": [
+			"D",
+			"simulation",
+			"airplane",
+			"ll",
+			"direction",
+			"aerobatic",
+			"maneuver",
+			"desire"
+		],
+		"dOIndex": 21,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulation",
+			"airplane",
+			"direction",
+			"aerobatic",
+			"maneuver"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.027777777777777776,
+			"words": [
+				"desire"
+			],
+			"positive": [
+				"desire"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 6899,
+		"nouns": [],
+		"dOIndex": 22,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6900,
+		"nouns": [],
+		"dOIndex": 23,
+		"isQuote": false
+	},
+	{
+		"txt": "Model",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6901,
+		"nouns": [
+			"Model"
+		],
+		"dOIndex": 24,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6902,
+		"nouns": [],
+		"dOIndex": 25,
+		"isQuote": false
+	},
+	{
+		"txt": "One of the most ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6903,
+		"nouns": [
+			"One"
+		],
+		"dOIndex": 26,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6904,
+		"nouns": [],
+		"dOIndex": 27,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "important aspects of this simulation is the flight model. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6905,
+		"nouns": [
+			"aspects",
+			"simulation",
+			"flight",
+			"model"
+		],
+		"dOIndex": 28,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"aspects",
+			"simulation"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.2,
+			"words": [
+				"important"
+			],
+			"positive": [
+				"important"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " We'll spend all of ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6906,
+		"nouns": [
+			"ll"
+		],
+		"dOIndex": 29,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 15",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6907,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 30,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " discussing the physics behind this flight model, so we won't include that discussion here except to introduce a few key bits of code.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6908,
+		"nouns": [
+			"physics",
+			"flight",
+			"model",
+			"t",
+			"discussion",
+			"bits",
+			"code"
+		],
+		"dOIndex": 31,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"physics",
+			"discussion"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6909,
+		"nouns": [],
+		"dOIndex": 32,
+		"isQuote": false
+	},
+	{
+		"txt": "To implement the flight model, you first need to prepare a rigid body structure to encapsulate all of the data required to completely define the state of the rigid body at any instant during the simulation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6910,
+		"nouns": [
+			"flight",
+			"model",
+			"first",
+			"body",
+			"structure",
+			"data",
+			"state",
+			"body",
+			"instant",
+			"simulation"
+		],
+		"dOIndex": 33,
+		"nouns2": [
+			"structure",
+			"instant",
+			"simulation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " We've defined a structure called RigidBody for this purpose:",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6911,
+		"nouns": [
+			"ve",
+			"structure",
+			"RigidBody",
+			"purpose"
+		],
+		"dOIndex": 34,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"structure",
+			"RigidBody",
+			"purpose"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6912,
+		"nouns": [],
+		"dOIndex": 35,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6913,
+		"nouns": [],
+		"dOIndex": 36,
+		"isQuote": false
+	},
+	{
+		"txt": "You'll notice that it is very similar to the RigidBody2D structure that we used in the 2D hovercraft simulation. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6914,
+		"nouns": [
+			"ll",
+			"notice",
+			"RigidBody2D",
+			"structure",
+			"D",
+			"hovercraft",
+			"simulation"
+		],
+		"dOIndex": 37,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"RigidBody2D",
+			"structure",
+			"hovercraft",
+			"simulation"
+		]
+	},
+	{
+		"txt": " One significant difference, however, is that in the 2D case, ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6915,
+		"nouns": [
+			"One",
+			"difference",
+			"D",
+			"case"
+		],
+		"dOIndex": 38,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"difference"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.08333333333333333,
+			"words": [
+				"significant"
+			],
+			"positive": [
+				"significant"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "orientation was a single float value, and now in 3D it's a quaternion of type Quaternion",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6916,
+		"nouns": [
+			"orientation",
+			"value",
+			"D",
+			"quaternion",
+			"type",
+			"Quaternion"
+		],
+		"dOIndex": 39,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"orientation",
+			"quaternion",
+			"Quaternion"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6917,
+		"nouns": [],
+		"dOIndex": 40,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " We discussed the use of quaternions for tracking rigid body orientation in the previous chapter, and ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6918,
+		"nouns": [
+			"use",
+			"quaternions",
+			"body",
+			"orientation",
+			"chapter"
+		],
+		"dOIndex": 41,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternions",
+			"orientation",
+			"chapter"
+		]
+	},
+	{
+		"txt": "Appendix C contains a complete definition of the Quaternion",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"code",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6919,
+		"nouns": [
+			"Appendix",
+			"C",
+			"definition",
+			"Quaternion"
+		],
+		"dOIndex": 42,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Appendix",
+			"definition",
+			"Quaternion"
+		]
+	},
+	{
+		"txt": " class.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6920,
+		"nouns": [
+			"class"
+		],
+		"dOIndex": 43,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6921,
+		"nouns": [],
+		"dOIndex": 44,
+		"isQuote": false
+	},
+	{
+		"txt": "The next step in defining the flight model is to prepare an initialization function to initialize the airplane at the start of the simulation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6922,
+		"nouns": [
+			"step",
+			"flight",
+			"model",
+			"initialization",
+			"function",
+			"initialize",
+			"airplane",
+			"start",
+			"simulation"
+		],
+		"dOIndex": 45,
+		"nouns2": [
+			"initialization",
+			"function",
+			"initialize",
+			"airplane",
+			"simulation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " For this purpose, we've prepared a function called InitializeAirplane:",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6923,
+		"nouns": [
+			"purpose",
+			"ve",
+			"function",
+			"InitializeAirplane"
+		],
+		"dOIndex": 46,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"purpose",
+			"function",
+			"InitializeAirplane"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.1,
+			"words": [
+				"prepared"
+			],
+			"positive": [
+				"prepared"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6924,
+		"nouns": [],
+		"dOIndex": 47,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6925,
+		"nouns": [],
+		"dOIndex": 48,
+		"isQuote": false
+	},
+	{
+		"txt": "This function sets the initial location, speed, attitude, and thrust for the airplane and goes on to calculate its mass properties by making a call to CalcAirplaneMassProperties . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6926,
+		"nouns": [
+			"function",
+			"sets",
+			"location",
+			"attitude",
+			"thrust",
+			"airplane",
+			"mass",
+			"properties",
+			"call",
+			"CalcAirplaneMassProperties"
+		],
+		"dOIndex": 49,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function",
+			"location",
+			"attitude",
+			"airplane",
+			"properties",
+			"CalcAirplaneMassProperties"
+		]
+	},
+	{
+		"txt": " You'll see much more of this function in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6927,
+		"nouns": [
+			"ll",
+			"function"
+		],
+		"dOIndex": 50,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function"
+		]
+	},
+	{
+		"txt": "Chapter 15",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6928,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 51,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " , so we won't show the whole thing here. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6929,
+		"nouns": [
+			"t",
+			"show"
+		],
+		"dOIndex": 52,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " We do want to point out a portion of the code that is distinctly different from what you do in a 2D simulation, and that's the calculation of the moment of ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6930,
+		"nouns": [
+			"point",
+			"portion",
+			"code",
+			"D",
+			"simulation",
+			"calculation",
+			"moment"
+		],
+		"dOIndex": 53,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"portion",
+			"simulation",
+			"calculation"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.030303030303030304,
+			"words": [
+				"want"
+			],
+			"positive": [
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6931,
+		"nouns": [],
+		"dOIndex": 54,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6932,
+		"nouns": [],
+		"dOIndex": 55,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "inertia tensor:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6933,
+		"nouns": [
+			"inertia",
+			"tensor"
+		],
+		"dOIndex": 56,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"inertia"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6934,
+		"nouns": [],
+		"dOIndex": 57,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6935,
+		"nouns": [],
+		"dOIndex": 58,
+		"isQuote": false
+	},
+	{
+		"txt": "The airplane is modeled by a number of elements, each representing a different part of the airplane's structure for example, the tail rudder, elevators, wings, and fuselage (see ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6936,
+		"nouns": [
+			"airplane",
+			"number",
+			"elements",
+			"part",
+			"airplane",
+			"structure",
+			"example",
+			"tail",
+			"rudder",
+			"elevators",
+			"wings",
+			"fuselage"
+		],
+		"dOIndex": 59,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"airplane",
+			"elements",
+			"structure",
+			"example",
+			"elevators",
+			"fuselage"
+		]
+	},
+	{
+		"txt": "Chapter 15",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6937,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 60,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " for more details). ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6938,
+		"nouns": [
+			"details"
+		],
+		"dOIndex": 61,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"details"
+		]
+	},
+	{
+		"txt": " The code specified here takes the mass properties of each element and combines them, using the techniques discussed in ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6939,
+		"nouns": [
+			"code",
+			"mass",
+			"properties",
+			"element",
+			"techniques"
+		],
+		"dOIndex": 62,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"properties",
+			"element",
+			"techniques"
+		]
+	},
+	{
+		"txt": "Chapter 7",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6940,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 63,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " to come up with the combined inertia tensor for the entire aircraft. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6941,
+		"nouns": [
+			"inertia",
+			"tensor",
+			"aircraft"
+		],
+		"dOIndex": 64,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"inertia",
+			"aircraft"
+		]
+	},
+	{
+		"txt": " The important distinction between these calculations in a 3D simulation and the 2D simulation is that here the inertia is a tensor and in 2D it is a single scalar.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6942,
+		"nouns": [
+			"distinction",
+			"calculations",
+			"D",
+			"simulation",
+			"D",
+			"simulation",
+			"inertia",
+			"tensor",
+			"D"
+		],
+		"dOIndex": 65,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distinction",
+			"calculations",
+			"simulation",
+			"inertia"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.06451612903225806,
+			"words": [
+				"important"
+			],
+			"positive": [
+				"important"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6943,
+		"nouns": [],
+		"dOIndex": 66,
+		"isQuote": false
+	},
+	{
+		"txt": "InitializeAirplane is called at the very start of the program. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6944,
+		"nouns": [
+			"InitializeAirplane",
+			"program"
+		],
+		"dOIndex": 67,
+		"nouns2": [
+			"InitializeAirplane",
+			"program"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " We found it convenient to make the call right after the application's main window is created.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6945,
+		"nouns": [
+			"call",
+			"right",
+			"application",
+			"window"
+		],
+		"dOIndex": 68,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"application"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6946,
+		"nouns": [],
+		"dOIndex": 69,
+		"isQuote": false
+	},
+	{
+		"txt": "The final part of the flight model has to do with calculating the forces and moments that act on the airplane at any given instant in time during the simulation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6947,
+		"nouns": [
+			"part",
+			"flight",
+			"model",
+			"forces",
+			"moments",
+			"act",
+			"airplane",
+			"instant",
+			"time",
+			"simulation"
+		],
+		"dOIndex": 70,
+		"nouns2": [
+			"moments",
+			"airplane",
+			"instant",
+			"simulation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " As in the 2D hovercraft simulation, without this sort of function, the airplane will do nothing. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6948,
+		"nouns": [
+			"D",
+			"hovercraft",
+			"simulation",
+			"sort",
+			"function",
+			"airplane"
+		],
+		"dOIndex": 71,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hovercraft",
+			"simulation",
+			"function",
+			"airplane"
+		]
+	},
+	{
+		"txt": " For this purpose we've defined a function called CalcAirplaneLoads , which is called at every step through the simulation. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6949,
+		"nouns": [
+			"purpose",
+			"ve",
+			"function",
+			"CalcAirplaneLoads",
+			"step",
+			"simulation"
+		],
+		"dOIndex": 72,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"purpose",
+			"function",
+			"CalcAirplaneLoads",
+			"simulation"
+		]
+	},
+	{
+		"txt": " This function relies on a couple of other functions namely, LiftCoefficient, DragCoefficient, RudderLiftCoefficient, and RudderDragCoefficient . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6950,
+		"nouns": [
+			"function",
+			"couple",
+			"functions",
+			"LiftCoefficient",
+			"DragCoefficient",
+			"RudderLiftCoefficient",
+			"RudderDragCoefficient"
+		],
+		"dOIndex": 73,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function",
+			"functions",
+			"LiftCoefficient",
+			"DragCoefficient",
+			"RudderLiftCoefficient",
+			"RudderDragCoefficient"
+		]
+	},
+	{
+		"txt": " All of these functions are shown and discussed in detail in the section ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6951,
+		"nouns": [
+			"functions",
+			"detail",
+			"section"
+		],
+		"dOIndex": 74,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"functions",
+			"section"
+		]
+	},
+	{
+		"txt": "Modeling in ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6952,
+		"nouns": [],
+		"dOIndex": 75,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Modeling"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6953,
+		"nouns": [],
+		"dOIndex": 76,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 15 .",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6954,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 77,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6955,
+		"nouns": [],
+		"dOIndex": 78,
+		"isQuote": false
+	},
+	{
+		"txt": "For the most part, the code contained in CalcAirplaneLoads is similar to the code you've seen in the CalcLoads function of the hovercraft simulation. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6956,
+		"nouns": [
+			"part",
+			"code",
+			"CalcAirplaneLoads",
+			"code",
+			"ve",
+			"CalcLoads",
+			"function",
+			"hovercraft",
+			"simulation"
+		],
+		"dOIndex": 79,
+		"nouns2": [
+			"CalcAirplaneLoads",
+			"CalcLoads",
+			"function",
+			"hovercraft",
+			"simulation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " CalcAirplanLoads is a little more involved since the airplane is modeled by a number of elements that contribute to the total lift and drag on the airplane. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6957,
+		"nouns": [
+			"CalcAirplanLoads",
+			"airplane",
+			"number",
+			"elements",
+			"drag",
+			"airplane"
+		],
+		"dOIndex": 80,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"CalcAirplanLoads",
+			"airplane",
+			"elements"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.034482758620689655,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " There's also another difference that we've noted here:",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6958,
+		"nouns": [
+			"difference",
+			"ve"
+		],
+		"dOIndex": 81,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"difference"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6959,
+		"nouns": [],
+		"dOIndex": 82,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6960,
+		"nouns": [],
+		"dOIndex": 83,
+		"isQuote": false
+	},
+	{
+		"txt": "Just about all of the forces acting on the airplane are first calculated in body fixed coordinates and then converted to earth fixed coordinates before the gravity force is applied. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6961,
+		"nouns": [
+			"forces",
+			"airplane",
+			"first",
+			"body",
+			"coordinates",
+			"earth",
+			"coordinates",
+			"gravity",
+			"force"
+		],
+		"dOIndex": 84,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"airplane",
+			"coordinates",
+			"gravity"
+		]
+	},
+	{
+		"txt": " The coordinate conversion is effected through the use of the function QVRotate, which ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6962,
+		"nouns": [
+			"coordinate",
+			"conversion",
+			"use",
+			"function",
+			"QVRotate"
+		],
+		"dOIndex": 85,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coordinate",
+			"conversion",
+			"function",
+			"QVRotate"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6963,
+		"nouns": [],
+		"dOIndex": 86,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "rotates the force vector based on the airplane's current orientation, represented by a ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6964,
+		"nouns": [
+			"force",
+			"vector",
+			"airplane",
+			"orientation"
+		],
+		"dOIndex": 87,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"airplane",
+			"orientation"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6965,
+		"nouns": [],
+		"dOIndex": 88,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "quaternion.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6966,
+		"nouns": [
+			"quaternion"
+		],
+		"dOIndex": 89,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternion"
+		]
+	},
+	{
+		"txt": "[",
+		"why": "link",
+		"tags": [
+			"sup",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6967,
+		"nouns": [],
+		"dOIndex": 90,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "22]",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6968,
+		"nouns": [],
+		"dOIndex": 91,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 6969,
+		"nouns": [],
+		"dOIndex": 92,
+		"isQuote": false
+	},
+	{
+		"txt": "Integration",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6970,
+		"nouns": [
+			"Integration"
+		],
+		"dOIndex": 93,
+		"nouns2": [
+			"Integration"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Now that the code to ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6971,
+		"nouns": [
+			"code"
+		],
+		"dOIndex": 94,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6972,
+		"nouns": [],
+		"dOIndex": 95,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "define, initialize, and calculate loads on the airplane is complete, you need to develop the code to actually integrate the equations of motion so that the simulation can progress through time. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6973,
+		"nouns": [
+			"initialize",
+			"loads",
+			"airplane",
+			"code",
+			"equations",
+			"motion",
+			"simulation",
+			"progress",
+			"time"
+		],
+		"dOIndex": 96,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"initialize",
+			"airplane",
+			"equations",
+			"simulation",
+			"progress"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.0625,
+			"words": [
+				"progress"
+			],
+			"positive": [
+				"progress"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The first thing you need to do is decide on the integration scheme that you want to use. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6974,
+		"nouns": [
+			"first",
+			"integration",
+			"scheme",
+			"use"
+		],
+		"dOIndex": 97,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"integration"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.05,
+			"words": [
+				"want"
+			],
+			"positive": [
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " In this example, we decided to go with the basic ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6975,
+		"nouns": [
+			"example"
+		],
+		"dOIndex": 98,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example"
+		]
+	},
+	{
+		"txt": "Euler's method. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6976,
+		"nouns": [
+			"Euler",
+			"method"
+		],
+		"dOIndex": 99,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " We've already discussed some better methods in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6977,
+		"nouns": [
+			"ve",
+			"methods"
+		],
+		"dOIndex": 100,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"methods"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.2222222222222222,
+			"words": [
+				"better"
+			],
+			"positive": [
+				"better"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "Chapter 7",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6978,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 101,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6979,
+		"nouns": [],
+		"dOIndex": 102,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " We're going with Euler's method here because it's simple and we didn't want to make the code here overly complex, burying some key code that we need to point out to you. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6980,
+		"nouns": [
+			"re",
+			"Euler",
+			"method",
+			"t",
+			"code",
+			"code",
+			"point"
+		],
+		"dOIndex": 103,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.029411764705882353,
+			"words": [
+				"want"
+			],
+			"positive": [
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " In practice, you're better off using one of the other methods we discuss in ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6981,
+		"nouns": [
+			"practice",
+			"re",
+			"one",
+			"methods"
+		],
+		"dOIndex": 104,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"practice",
+			"methods"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.125,
+			"words": [
+				"better"
+			],
+			"positive": [
+				"better"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "Chapter 7",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6982,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 105,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " instead of Euler's method. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6983,
+		"nouns": [
+			"Euler",
+			"method"
+		],
+		"dOIndex": 106,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " With that said, we've prepared a function called StepSimulation that handles all of the integration necessary to actually propagate the simulation:",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6984,
+		"nouns": [
+			"ve",
+			"function",
+			"StepSimulation",
+			"integration",
+			"simulation"
+		],
+		"dOIndex": 107,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function",
+			"StepSimulation",
+			"integration",
+			"simulation"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.045454545454545456,
+			"words": [
+				"prepared"
+			],
+			"positive": [
+				"prepared"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6985,
+		"nouns": [],
+		"dOIndex": 108,
+		"isQuote": false
+	},
+	{
+		"txt": "The very first thing that StepSimulation does is call CalcAirplaneLoads to calculate the loads acting on the airplane at the current instant in time. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6986,
+		"nouns": [
+			"first",
+			"StepSimulation",
+			"CalcAirplaneLoads",
+			"loads",
+			"airplane",
+			"instant",
+			"time"
+		],
+		"dOIndex": 109,
+		"nouns2": [
+			"StepSimulation",
+			"CalcAirplaneLoads",
+			"airplane",
+			"instant"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " StepSimulation then goes on to calculate the linear acceleration of the airplane based on current loads. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6987,
+		"nouns": [
+			"StepSimulation",
+			"acceleration",
+			"airplane",
+			"loads"
+		],
+		"dOIndex": 110,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"StepSimulation",
+			"acceleration",
+			"airplane"
+		]
+	},
+	{
+		"txt": " Next, the function goes on to integrate, using Euler's method, once to calculate the airplane's linear velocity and then a second time to calculate the airplane's position. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6988,
+		"nouns": [
+			"function",
+			"Euler",
+			"method",
+			"airplane",
+			"velocity",
+			"second",
+			"time",
+			"airplane",
+			"position"
+		],
+		"dOIndex": 111,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function",
+			"airplane",
+			"velocity",
+			"position"
+		]
+	},
+	{
+		"txt": " As we've commented in the code, if you were simulating a particle this is all you would have to do; however, since this is not a particle, you need to handle angular motion.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6989,
+		"nouns": [
+			"ve",
+			"code",
+			"particle",
+			"particle",
+			"motion"
+		],
+		"dOIndex": 112,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"particle"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6990,
+		"nouns": [],
+		"dOIndex": 113,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6991,
+		"nouns": [],
+		"dOIndex": 114,
+		"isQuote": false
+	},
+	{
+		"txt": "The first step in handling angular motion is to calculate the new ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6992,
+		"nouns": [
+			"first",
+			"step",
+			"motion"
+		],
+		"dOIndex": 115,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6993,
+		"nouns": [],
+		"dOIndex": 116,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "angular velocity at this time step, using Euler integration, based on the previously calculated moments acting on the airplane and its mass properties. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6994,
+		"nouns": [
+			"velocity",
+			"time",
+			"step",
+			"Euler",
+			"integration",
+			"moments",
+			"airplane",
+			"mass",
+			"properties"
+		],
+		"dOIndex": 117,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity",
+			"integration",
+			"moments",
+			"airplane",
+			"properties"
+		]
+	},
+	{
+		"txt": " We do this in body coordinates using the following equation of angular motion but rewritten to solve for dω:∑ Mcg = dHcg/dt = I (dω/dt) + (ω × (I ω))",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6995,
+		"nouns": [
+			"body",
+			"coordinates",
+			"equation",
+			"motion",
+			"dω",
+			"∑",
+			"Mcg",
+			"dHcg",
+			"/",
+			"dt",
+			"dω",
+			"/",
+			"dt",
+			"ω",
+			"×",
+			"ω"
+		],
+		"dOIndex": 118,
+		"nouns2": [
+			"coordinates",
+			"equation"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.03225806451612903,
+			"words": [
+				"solve"
+			],
+			"positive": [
+				"solve"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6996,
+		"nouns": [],
+		"dOIndex": 119,
+		"isQuote": false
+	},
+	{
+		"txt": "The next step is to integrate again to update the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6997,
+		"nouns": [
+			"step"
+		],
+		"dOIndex": 120,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "airplane's orientation, which is expressed as a quaternion. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6998,
+		"nouns": [
+			"airplane",
+			"orientation",
+			"quaternion"
+		],
+		"dOIndex": 121,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"airplane",
+			"orientation",
+			"quaternion"
+		]
+	},
+	{
+		"txt": " Here, you need to use the differential equation relating an orientation quaternion to angular velocity that we showed you in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6999,
+		"nouns": [
+			"use",
+			"equation",
+			"orientation",
+			"quaternion",
+			"velocity"
+		],
+		"dOIndex": 122,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equation",
+			"orientation",
+			"quaternion",
+			"velocity"
+		]
+	},
+	{
+		"txt": "Chapter 11:dq/dt = (1/2) ω q",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"strong",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7000,
+		"nouns": [
+			"Chapter",
+			"dq",
+			"/",
+			"dt",
+			"/",
+			"ω",
+			"q"
+		],
+		"dOIndex": 123,
+		"nouns2": [
+			"Chapter"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7001,
+		"nouns": [],
+		"dOIndex": 124,
+		"isQuote": false
+	},
+	{
+		"txt": "Next, to enforce the constraint that this orientation quaternion be",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7002,
+		"nouns": [
+			"constraint",
+			"orientation",
+			"quaternion"
+		],
+		"dOIndex": 125,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"constraint",
+			"orientation",
+			"quaternion"
+		]
+	},
+	{
+		"txt": " a unit",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7003,
+		"nouns": [
+			"unit"
+		],
+		"dOIndex": 126,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " quaternion, the function goes ahead and normalizes the orientation quaternion.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7004,
+		"nouns": [
+			"quaternion",
+			"function",
+			"normalizes",
+			"orientation",
+			"quaternion"
+		],
+		"dOIndex": 127,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternion",
+			"function",
+			"normalizes",
+			"orientation"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7005,
+		"nouns": [],
+		"dOIndex": 128,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7006,
+		"nouns": [],
+		"dOIndex": 129,
+		"isQuote": false
+	},
+	{
+		"txt": "Since the linear velocity was previously calculated in global coordinates (the fixed coordinate system), and since CalcAirplaneLoads needs the velocity in the body fixed (rotating) coordinates system, the function goes ahead and rotates the velocity vector, storing the body fixed vector in the vVelocityBody member of the RigidBody structure. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7007,
+		"nouns": [
+			"velocity",
+			"coordinates",
+			"system",
+			"CalcAirplaneLoads",
+			"velocity",
+			"body",
+			"coordinates",
+			"system",
+			"function",
+			"velocity",
+			"vector",
+			"body",
+			"vector",
+			"vVelocityBody",
+			"member",
+			"RigidBody",
+			"structure"
+		],
+		"dOIndex": 130,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity",
+			"coordinates",
+			"CalcAirplaneLoads",
+			"function",
+			"vVelocityBody",
+			"RigidBody",
+			"structure"
+		],
+		"highfreq": {
+			"velocity": 3,
+			"fixed": 3
+		}
+	},
+	{
+		"txt": " This is done here as a matter of convenience and uses the quaternion rotation function QVRotate to rotate the vector based on the airplane's current orientation. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7008,
+		"nouns": [
+			"matter",
+			"convenience",
+			"quaternion",
+			"rotation",
+			"function",
+			"QVRotate",
+			"vector",
+			"airplane",
+			"orientation"
+		],
+		"dOIndex": 131,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"convenience",
+			"quaternion",
+			"rotation",
+			"function",
+			"QVRotate",
+			"airplane",
+			"orientation"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.03571428571428571,
+			"words": [
+				"matter"
+			],
+			"positive": [
+				"matter"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Notice here that we use the conjugate of the orientation quaternion since we're now rotating from global coordinates to body coordinates.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7009,
+		"nouns": [
+			"Notice",
+			"use",
+			"conjugate",
+			"orientation",
+			"quaternion",
+			"re",
+			"coordinates",
+			"body",
+			"coordinates"
+		],
+		"dOIndex": 132,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Notice",
+			"conjugate",
+			"orientation",
+			"quaternion",
+			"coordinates"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7010,
+		"nouns": [],
+		"dOIndex": 133,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7011,
+		"nouns": [],
+		"dOIndex": 134,
+		"isQuote": false
+	},
+	{
+		"txt": "As another convenience, we calculate the air speed, which is simply the magnitude of the linear velocity vector. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7012,
+		"nouns": [
+			"convenience",
+			"air",
+			"magnitude",
+			"velocity",
+			"vector"
+		],
+		"dOIndex": 135,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"convenience",
+			"magnitude",
+			"velocity"
+		]
+	},
+	{
+		"txt": " This is used to report the air speed in the main window title bar.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7013,
+		"nouns": [
+			"report",
+			"air",
+			"window",
+			"title",
+			"bar"
+		],
+		"dOIndex": 136,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7014,
+		"nouns": [],
+		"dOIndex": 137,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7015,
+		"nouns": [],
+		"dOIndex": 138,
+		"isQuote": false
+	},
+	{
+		"txt": "Lastly, the three Euler angles roll, pitch, and yaw are extracted from the orientation quaternion so that they can also be reported in the main window title bar. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7016,
+		"nouns": [
+			"three Euler",
+			"angles",
+			"roll",
+			"pitch",
+			"yaw",
+			"orientation",
+			"quaternion",
+			"window",
+			"title",
+			"bar"
+		],
+		"dOIndex": 139,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Lastly",
+			"orientation",
+			"quaternion"
+		]
+	},
+	{
+		"txt": " The function to use here ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7017,
+		"nouns": [
+			"function",
+			"use"
+		],
+		"dOIndex": 140,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7018,
+		"nouns": [],
+		"dOIndex": 141,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7019,
+		"nouns": [],
+		"dOIndex": 142,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "is MakeEulerAnglesFromQ, which is defined in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7020,
+		"nouns": [
+			"MakeEulerAnglesFromQ"
+		],
+		"dOIndex": 143,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"MakeEulerAnglesFromQ"
+		]
+	},
+	{
+		"txt": "Appendix C",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7021,
+		"nouns": [
+			"Appendix",
+			"C"
+		],
+		"dOIndex": 144,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Appendix"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7022,
+		"nouns": [],
+		"dOIndex": 145,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7023,
+		"nouns": [],
+		"dOIndex": 146,
+		"isQuote": false
+	},
+	{
+		"txt": "Don't forget, StepSimulation must be called once per ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7024,
+		"nouns": [
+			"Don",
+			"t",
+			"StepSimulation"
+		],
+		"dOIndex": 147,
+		"nouns2": [
+			"StepSimulation"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.1111111111111111,
+			"words": [
+				"forget"
+			],
+			"positive": [
+				"forget"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7025,
+		"nouns": [],
+		"dOIndex": 148,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "simulation cycle.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7026,
+		"nouns": [
+			"simulation",
+			"cycle"
+		],
+		"dOIndex": 149,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulation"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7027,
+		"nouns": [],
+		"dOIndex": 150,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7028,
+		"nouns": [],
+		"dOIndex": 151,
+		"isQuote": false
+	},
+	{
+		"txt": "Flight Controls",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7029,
+		"nouns": [
+			"Flight Controls"
+		],
+		"dOIndex": 152,
+		"nouns2": [
+			"Flight",
+			"Controls"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7030,
+		"nouns": [],
+		"dOIndex": 153,
+		"isQuote": false
+	},
+	{
+		"txt": "At this point, the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7031,
+		"nouns": [
+			"point"
+		],
+		"dOIndex": 154,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7032,
+		"nouns": [],
+		"dOIndex": 155,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7033,
+		"nouns": [],
+		"dOIndex": 156,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "simulation still won't work very well because you have not implemented the flight controls. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7034,
+		"nouns": [
+			"simulation",
+			"t",
+			"work",
+			"flight",
+			"controls"
+		],
+		"dOIndex": 157,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulation",
+			"controls"
+		]
+	},
+	{
+		"txt": " The flight controls allow you to interact with the airplane's various controls surfaces in order to actually fly the plane. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7035,
+		"nouns": [
+			"flight",
+			"controls",
+			"airplane",
+			"controls",
+			"surfaces",
+			"order",
+			"plane"
+		],
+		"dOIndex": 158,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"controls",
+			"airplane",
+			"surfaces"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.045454545454545456,
+			"words": [
+				"allow"
+			],
+			"positive": [
+				"allow"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " We'll use the keyboard as the main input device for the flight controls. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7036,
+		"nouns": [
+			"ll",
+			"use",
+			"keyboard",
+			"input",
+			"device",
+			"flight",
+			"controls"
+		],
+		"dOIndex": 159,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"keyboard",
+			"controls"
+		]
+	},
+	{
+		"txt": " Remember, in a physics based simulation such as this one, you don't directly control the motion of the airplane; you control only how various forces are applied to the airplane, which then, by integration over time, affect the airplane's motion.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7037,
+		"nouns": [
+			"physics",
+			"simulation",
+			"one",
+			"t",
+			"control",
+			"motion",
+			"airplane",
+			"control",
+			"forces",
+			"airplane",
+			"integration",
+			"time",
+			"airplane",
+			"motion"
+		],
+		"dOIndex": 160,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Remember",
+			"physics",
+			"simulation",
+			"control",
+			"airplane",
+			"integration"
+		],
+		"highfreq": {
+			"airplane": 3
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7038,
+		"nouns": [],
+		"dOIndex": 161,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7039,
+		"nouns": [],
+		"dOIndex": 162,
+		"isQuote": false
+	},
+	{
+		"txt": "For this simulation, the flight stick is simulated by the arrow keys. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7040,
+		"nouns": [
+			"simulation",
+			"flight",
+			"arrow",
+			"keys"
+		],
+		"dOIndex": 163,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulation"
+		]
+	},
+	{
+		"txt": " The down arrow pulls back on the stick, raising the nose; the up arrow pushes the stick forward, causing the nose to dive; the left arrow rolls the plane to the left (port side); and the right arrow ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7041,
+		"nouns": [
+			"arrow",
+			"stick",
+			"nose",
+			"arrow",
+			"stick",
+			"nose",
+			"dive",
+			"arrow",
+			"rolls",
+			"plane",
+			"port",
+			"side",
+			"right",
+			"arrow"
+		],
+		"dOIndex": 164,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"highfreq": {
+			"arrow": 4
+		}
+	},
+	{
+		"txt": "rolls the plane to the right (starboard side). ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7042,
+		"nouns": [
+			"rolls",
+			"plane",
+			"right",
+			"side"
+		],
+		"dOIndex": 165,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " The X key applies left rudder action to cause the nose of the plane to yaw toward the left, while the C key applies right rudder action to cause the nose to ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7043,
+		"nouns": [
+			"X",
+			"rudder",
+			"action",
+			"cause",
+			"nose",
+			"plane",
+			"yaw",
+			"C",
+			"right",
+			"rudder",
+			"action",
+			"cause",
+			"nose"
+		],
+		"dOIndex": 166,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "yaw toward the right. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7044,
+		"nouns": [
+			"yaw",
+			"right"
+		],
+		"dOIndex": 167,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Thrust is ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7045,
+		"nouns": [
+			"Thrust"
+		],
+		"dOIndex": 168,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Thrust"
+		]
+	},
+	{
+		"txt": "controlled by the A and Z keys. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7046,
+		"nouns": [
+			"Z",
+			"keys"
+		],
+		"dOIndex": 169,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " The A key increments the propeller thrust by 100 pounds, and the Z key decrements the thrust by 100 pounds. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7047,
+		"nouns": [
+			"increments",
+			"propeller",
+			"thrust",
+			"pounds",
+			"Z",
+			"decrements",
+			"thrust",
+			"pounds"
+		],
+		"dOIndex": 170,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"increments",
+			"propeller",
+			"decrements"
+		]
+	},
+	{
+		"txt": " The minimum thrust is 0, while the maximum available thrust is 3,000 pounds. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7048,
+		"nouns": [
+			"thrust",
+			"thrust",
+			"pounds"
+		],
+		"dOIndex": 171,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " The F key activates the landing flaps to increase lift at low speed, while the D key deactivates the landing flaps.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7049,
+		"nouns": [
+			"F",
+			"activates",
+			"flaps",
+			"increase",
+			"D",
+			"flaps"
+		],
+		"dOIndex": 172,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"activates",
+			"increase"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.045454545454545456,
+			"words": [
+				"increase"
+			],
+			"positive": [
+				"increase"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7050,
+		"nouns": [],
+		"dOIndex": 173,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7051,
+		"nouns": [],
+		"dOIndex": 174,
+		"isQuote": false
+	},
+	{
+		"txt": "We control pitch ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7052,
+		"nouns": [
+			"control",
+			"pitch"
+		],
+		"dOIndex": 175,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"control"
+		]
+	},
+	{
+		"txt": "by deflecting the flaps on the aft elevators; for example, to pitch the nose up, we deflect the aft elevator flaps upward (that is, the trailing edge of the elevator is raised with respect to the leading edge). ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7053,
+		"nouns": [
+			"flaps",
+			"elevators",
+			"example",
+			"pitch",
+			"nose",
+			"elevator",
+			"flaps",
+			"edge",
+			"elevator",
+			"respect",
+			"edge"
+		],
+		"dOIndex": 176,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"elevators",
+			"example",
+			"elevator",
+			"respect"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.10256410256410256,
+			"words": [
+				"leading",
+				"respect"
+			],
+			"positive": [
+				"leading",
+				"respect"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " We control roll in this simulation by applying the flaps differentially; for example, to roll right, we deflect the right flap upward and the left flap downward. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7054,
+		"nouns": [
+			"control",
+			"roll",
+			"simulation",
+			"flaps",
+			"example",
+			"roll",
+			"right",
+			"right",
+			"flap",
+			"flap"
+		],
+		"dOIndex": 177,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"control",
+			"simulation",
+			"example"
+		]
+	},
+	{
+		"txt": " Finally, we control yaw by deflecting the vertical tail rudder; for example, to yaw left, we deflect the trailing edge of the tail rudder toward the left.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7055,
+		"nouns": [
+			"control",
+			"yaw",
+			"tail",
+			"rudder",
+			"example",
+			"yaw",
+			"edge",
+			"tail",
+			"rudder"
+		],
+		"dOIndex": 178,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Finally",
+			"control",
+			"example"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7056,
+		"nouns": [],
+		"dOIndex": 179,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7057,
+		"nouns": [],
+		"dOIndex": 180,
+		"isQuote": false
+	},
+	{
+		"txt": "We've prepared several functions to handle the flight controls that should be called whenever the user is pressing one of the flight control keys. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7058,
+		"nouns": [
+			"ve",
+			"functions",
+			"flight",
+			"controls",
+			"user",
+			"one",
+			"flight",
+			"control",
+			"keys"
+		],
+		"dOIndex": 181,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"functions",
+			"controls",
+			"control"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.04,
+			"words": [
+				"prepared"
+			],
+			"positive": [
+				"prepared"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " There are two functions for the propeller thrust:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7059,
+		"nouns": [
+			"two",
+			"functions",
+			"propeller",
+			"thrust"
+		],
+		"dOIndex": 182,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"functions",
+			"propeller"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7060,
+		"nouns": [],
+		"dOIndex": 183,
+		"isQuote": false
+	},
+	{
+		"txt": "IncThrust simply increases the thrust by _DTHRUST checking to make sure it does not exceed _MAXTHRUST . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7061,
+		"nouns": [
+			"IncThrust",
+			"increases",
+			"thrust",
+			"_DTHRUST",
+			"_MAXTHRUST"
+		],
+		"dOIndex": 184,
+		"nouns2": [
+			"IncThrust",
+			"increases",
+			"_DTHRUST",
+			"_MAXTHRUST"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " We've defined _DTHRUST and _MAXTHRUST as follows:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7062,
+		"nouns": [
+			"ve",
+			"_DTHRUST",
+			"_MAXTHRUST"
+		],
+		"dOIndex": 185,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"_DTHRUST",
+			"_MAXTHRUST"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7063,
+		"nouns": [],
+		"dOIndex": 186,
+		"isQuote": false
+	},
+	{
+		"txt": "DecThrust, on the other hand, decreases the thrust by _DTHRUST checking to make sure it does not fall below 0.",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7064,
+		"nouns": [
+			"DecThrust",
+			"hand",
+			"decreases",
+			"thrust",
+			"_DTHRUST",
+			"fall"
+		],
+		"dOIndex": 187,
+		"nouns2": [
+			"DecThrust",
+			"decreases",
+			"_DTHRUST"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7065,
+		"nouns": [],
+		"dOIndex": 188,
+		"isQuote": false
+	},
+	{
+		"txt": "To control yaw, we've prepared three functions that manipulate the rudder:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7066,
+		"nouns": [
+			"control",
+			"yaw",
+			"ve",
+			"three",
+			"functions",
+			"rudder"
+		],
+		"dOIndex": 189,
+		"nouns2": [
+			"control",
+			"functions"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.09090909090909091,
+			"words": [
+				"prepared"
+			],
+			"positive": [
+				"prepared"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7067,
+		"nouns": [],
+		"dOIndex": 190,
+		"isQuote": false
+	},
+	{
+		"txt": "LeftRudder changes the incidence angle of Element[6], the vertical tail rudder, to 16 degrees, while RightRudder changes the incidence angle to −16 degrees. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7068,
+		"nouns": [
+			"LeftRudder",
+			"changes",
+			"incidence",
+			"angle",
+			"Element[",
+			"tail",
+			"rudder",
+			"degrees",
+			"RightRudder",
+			"changes",
+			"incidence",
+			"angle",
+			"−",
+			"degrees"
+		],
+		"dOIndex": 191,
+		"nouns2": [
+			"LeftRudder",
+			"changes",
+			"incidence",
+			"Element[",
+			"degrees",
+			"RightRudder"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " ZeroRudder centers the rudder at 0 degrees.",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7069,
+		"nouns": [
+			"ZeroRudder",
+			"centers",
+			"rudder",
+			"degrees"
+		],
+		"dOIndex": 192,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"ZeroRudder",
+			"centers",
+			"degrees"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7070,
+		"nouns": [],
+		"dOIndex": 193,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7071,
+		"nouns": [],
+		"dOIndex": 194,
+		"isQuote": false
+	},
+	{
+		"txt": "The ailerons, or flaps, are ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7072,
+		"nouns": [
+			"ailerons",
+			"flaps"
+		],
+		"dOIndex": 195,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"ailerons"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7073,
+		"nouns": [],
+		"dOIndex": 196,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "manipulated by these functions to control roll:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7074,
+		"nouns": [
+			"functions",
+			"control",
+			"roll"
+		],
+		"dOIndex": 197,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"functions",
+			"control"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.14285714285714285,
+			"words": [
+				"manipulated"
+			],
+			"positive": [],
+			"negative": [
+				"manipulated"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7075,
+		"nouns": [],
+		"dOIndex": 198,
+		"isQuote": false
+	},
+	{
+		"txt": "RollLeft deflects the port aileron, located on the port wing section (Element[0]), upward, and the starboard aileron, located on the starboard wing section (Element[3] ), downward. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7076,
+		"nouns": [
+			"RollLeft",
+			"port",
+			"aileron",
+			"port",
+			"section",
+			"Element[",
+			"starboard",
+			"aileron",
+			"starboard",
+			"section",
+			"Element["
+		],
+		"dOIndex": 199,
+		"nouns2": [
+			"RollLeft",
+			"aileron",
+			"section",
+			"Element[",
+			"starboard"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " RollRight does just the opposite, and ZeroAilerons resets the flaps back to their undeflected positions.",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7077,
+		"nouns": [
+			"RollRight",
+			"ZeroAilerons",
+			"resets",
+			"flaps",
+			"positions"
+		],
+		"dOIndex": 200,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"RollRight",
+			"ZeroAilerons",
+			"positions"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7078,
+		"nouns": [],
+		"dOIndex": 201,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7079,
+		"nouns": [],
+		"dOIndex": 202,
+		"isQuote": false
+	},
+	{
+		"txt": "We've defined yet another set of functions to control the aft ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7080,
+		"nouns": [
+			"ve",
+			"functions",
+			"control"
+		],
+		"dOIndex": 203,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"functions",
+			"control"
+		]
+	},
+	{
+		"txt": "elevators so as to control ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7081,
+		"nouns": [
+			"elevators",
+			"control"
+		],
+		"dOIndex": 204,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"elevators",
+			"control"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7082,
+		"nouns": [],
+		"dOIndex": 205,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "pitch:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7083,
+		"nouns": [
+			"pitch"
+		],
+		"dOIndex": 206,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7084,
+		"nouns": [],
+		"dOIndex": 207,
+		"isQuote": false
+	},
+	{
+		"txt": "Element[4] and Element[5] are the elevators. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7085,
+		"nouns": [
+			"Element[",
+			"Element[",
+			"elevators"
+		],
+		"dOIndex": 208,
+		"nouns2": [
+			"Element[",
+			"elevators"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " PitchUp deflects their flaps upward, and PitchDown deflects their flaps downward. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7086,
+		"nouns": [
+			"PitchUp",
+			"flaps",
+			"PitchDown",
+			"flaps"
+		],
+		"dOIndex": 209,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"PitchUp",
+			"PitchDown"
+		]
+	},
+	{
+		"txt": " ZeroElevators resets their flaps back to their undeflected positions.",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7087,
+		"nouns": [
+			"ZeroElevators",
+			"resets",
+			"flaps",
+			"positions"
+		],
+		"dOIndex": 210,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"ZeroElevators",
+			"positions"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7088,
+		"nouns": [],
+		"dOIndex": 211,
+		"isQuote": false
+	},
+	{
+		"txt": "Finally, there are two more functions to control the landing flaps:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7089,
+		"nouns": [
+			"two",
+			"functions",
+			"control",
+			"flaps"
+		],
+		"dOIndex": 212,
+		"nouns2": [
+			"Finally",
+			"functions",
+			"control"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7090,
+		"nouns": [],
+		"dOIndex": 213,
+		"isQuote": false
+	},
+	{
+		"txt": "The landing flaps are fitted on the inboard wings sections, port and starboard, which are Element[1] and Element[2] . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7091,
+		"nouns": [
+			"flaps",
+			"wings",
+			"sections",
+			"port",
+			"Element[",
+			"Element["
+		],
+		"dOIndex": 214,
+		"nouns2": [
+			"sections",
+			"Element["
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " FlapsDown deflects the flaps downward, while ZeroFlaps resets them back to their undeflected position.",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7092,
+		"nouns": [
+			"FlapsDown",
+			"flaps",
+			"ZeroFlaps",
+			"resets",
+			"position"
+		],
+		"dOIndex": 215,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"FlapsDown",
+			"ZeroFlaps",
+			"position"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7093,
+		"nouns": [],
+		"dOIndex": 216,
+		"isQuote": false
+	},
+	{
+		"txt": "As we said, these functions should be called when the user is pressing the flight control keys. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7094,
+		"nouns": [
+			"functions",
+			"user",
+			"flight",
+			"control",
+			"keys"
+		],
+		"dOIndex": 217,
+		"nouns2": [
+			"functions",
+			"control"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " Further, they need to be called before StepSimulation is called so that they can be included in the current time step's force and moment calculations. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7095,
+		"nouns": [
+			"StepSimulation",
+			"time",
+			"step",
+			"force",
+			"moment",
+			"calculations"
+		],
+		"dOIndex": 218,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Further",
+			"StepSimulation",
+			"calculations"
+		]
+	},
+	{
+		"txt": " The sequence of calls should look something like this:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7096,
+		"nouns": [
+			"sequence"
+		],
+		"dOIndex": 219,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"sequence"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.2,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7097,
+		"nouns": [],
+		"dOIndex": 220,
+		"isQuote": false
+	},
+	{
+		"txt": "Before StepSimulation is called, we check each of the flight control keys to see if it is being pressed. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7098,
+		"nouns": [
+			"StepSimulation",
+			"check",
+			"flight",
+			"control",
+			"keys"
+		],
+		"dOIndex": 221,
+		"nouns2": [
+			"Before",
+			"StepSimulation",
+			"control"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " If so, then the appropriate function is called.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7099,
+		"nouns": [
+			"function"
+		],
+		"dOIndex": 222,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.2222222222222222,
+			"words": [
+				"appropriate"
+			],
+			"positive": [
+				"appropriate"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7100,
+		"nouns": [],
+		"dOIndex": 223,
+		"isQuote": false
+	},
+	{
+		"txt": "The function IsKeyDown, which checks whether a certain key is pressed, looks like this in a Windows implementation:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7101,
+		"nouns": [
+			"function",
+			"IsKeyDown",
+			"checks",
+			"Windows",
+			"implementation"
+		],
+		"dOIndex": 224,
+		"nouns2": [
+			"function",
+			"IsKeyDown",
+			"Windows",
+			"implementation"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.16666666666666666,
+			"words": [
+				"like",
+				"certain"
+			],
+			"positive": [
+				"like",
+				"certain"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7102,
+		"nouns": [],
+		"dOIndex": 225,
+		"isQuote": false
+	},
+	{
+		"txt": "The important thing to note here is that the keys are being checked asynchronously because it is possible that more than one key will be pressed at any given time, and they must be handled simultaneously instead of one at a time (as would be the case in the standard Windows message processing function).",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7103,
+		"nouns": [
+			"note",
+			"keys",
+			"one",
+			"time",
+			"one",
+			"time",
+			"case",
+			"Windows",
+			"message",
+			"function"
+		],
+		"dOIndex": 226,
+		"nouns2": [
+			"Windows",
+			"message",
+			"function"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.037037037037037035,
+			"words": [
+				"important"
+			],
+			"positive": [
+				"important"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7104,
+		"nouns": [],
+		"dOIndex": 227,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7105,
+		"nouns": [],
+		"dOIndex": 228,
+		"isQuote": false
+	},
+	{
+		"txt": "The addition of flight control code pretty much completes the physics part of the simulation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7106,
+		"nouns": [
+			"addition",
+			"flight",
+			"control",
+			"code",
+			"physics",
+			"part",
+			"simulation"
+		],
+		"dOIndex": 229,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"addition",
+			"control",
+			"physics",
+			"simulation"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.0625,
+			"words": [
+				"pretty"
+			],
+			"positive": [
+				"pretty"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " So far, you have the model, the integrator, and the user input or flight control elements completed. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7107,
+		"nouns": [
+			"model",
+			"integrator",
+			"user",
+			"input",
+			"flight",
+			"control",
+			"elements"
+		],
+		"dOIndex": 230,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"integrator",
+			"control",
+			"elements"
+		]
+	},
+	{
+		"txt": " All that remains is setting up the application's main window and actually drawing something that represents what you're simulating. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7108,
+		"nouns": [
+			"application",
+			"window",
+			"re"
+		],
+		"dOIndex": 231,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"application"
+		]
+	},
+	{
+		"txt": " We'll leave that part up to you, or you can look at the example we've included on the book's website to see what we did on a Windows ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7109,
+		"nouns": [
+			"ll",
+			"part",
+			"example",
+			"ve",
+			"book",
+			"website",
+			"Windows"
+		],
+		"dOIndex": 232,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"website",
+			"Windows"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.03333333333333333,
+			"words": [
+				"leave"
+			],
+			"positive": [],
+			"negative": [
+				"leave"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7110,
+		"nouns": [],
+		"dOIndex": 233,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7111,
+		"nouns": [],
+		"dOIndex": 234,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7112,
+		"nouns": [],
+		"dOIndex": 235,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7113,
+		"nouns": [],
+		"dOIndex": 236,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "machine.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7114,
+		"nouns": [
+			"machine"
+		],
+		"dOIndex": 237,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"machine"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7115,
+		"nouns": [],
+		"dOIndex": 238,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 7116,
+		"nouns": [],
+		"dOIndex": 239,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7117,
+		"nouns": [],
+		"dOIndex": 240,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7118,
+		"nouns": [],
+		"dOIndex": 241,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7119,
+		"nouns": [],
+		"dOIndex": 242
+	},
+	{
+		"txt": "[",
+		"why": "link",
+		"tags": [
+			"sup",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7120,
+		"nouns": [],
+		"dOIndex": 243
+	},
+	{
+		"txt": "22] QVRotate is defined in ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7121,
+		"nouns": [
+			"QVRotate"
+		],
+		"dOIndex": 244,
+		"nouns2": [
+			"QVRotate"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7122,
+		"nouns": [],
+		"dOIndex": 245
+	},
+	{
+		"txt": "Appendix C .",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7123,
+		"nouns": [
+			"Appendix",
+			"C"
+		],
+		"dOIndex": 246,
+		"nouns2": [
+			"Appendix"
+		]
+	}
+]

@@ -1,0 +1,952 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg"><head><title>Chapter 1. Basic Concepts</title><link rel="stylesheet" type="text/css" href="core.css"/><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"/><link rel="up" href="pt01.html" title="Part I. Fundamentals"/><link rel="prev" href="pt01.html" title="Part I. Fundamentals"/><link rel="next" href="ch02.html" title="Chapter 2. Kinematics"/></head><body><section class="chapter" title="Chapter 1. Basic Concepts" epub:type="chapter" id="basic_concepts"><div class="titlepage"><div><div><h2 class="title">Chapter 1. Basic Concepts</h2></div></div></div><p>As a warm-up, this chapter will cover the most basic of the principles that will be used and
+    referenced throughout the remainder of this book. First, we’ll introduce Newton’s laws of
+    motion, which are very important in the study of mechanics. Then we’ll discuss units and
+    measures, where we’ll explain the importance of keeping track of units in your calculations.
+    You’ll also have a look at the units associated with various physical quantities that you’ll be
+    studying. After discussing units, we’ll define our general coordinate system, which will serve
+    as our standard frame of reference. Then we’ll explain the concepts of mass, center of mass, and
+    moment of inertia, and show you how to calculate these quantities for a collection, or
+    combination, of masses. Finally, we’ll discuss Newton’s second law of motion in greater detail,
+    take a quick look at vectors, and briefly discuss relativistic time.</p><div class="sect1" title="Newton’s Laws of Motion"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="newtonas_laws_of_motion">Newton’s Laws of Motion</h2></div></div></div><p>In the late 1600s (around 1687), Sir <a id="I_indexterm1_id288108" class="indexterm"/><a id="I_indexterm1_id288114" class="indexterm"/>Isaac Newton put forth his philosophies on mechanics in his <span class="emphasis"><em>Philosophiae
+        Naturalis Principia Mathematica</em></span>. In this work Newton stated the now-famous laws
+      of motion, which are summarized here:</p><div class="variablelist"><dl><dt><span class="term">Law I</span></dt><dd><p>A body tends to remain at rest or continue to move in a
+          straight line at constant velocity unless acted upon by an external
+          force. This is the so-called concept of inertia.</p></dd><dt><span class="term">Law II</span></dt><dd><p>The acceleration of a body is proportional to the resultant
+          force acting on the body, and this acceleration is in the same
+          direction as the resultant force.</p></dd><dt><span class="term">Law III</span></dt><dd><p>For every force acting on a body (action) there is an equal
+          and opposite reacting force (reaction), where the reaction is
+          collinear to the acting force.</p></dd></dl></div><p>These laws form the basis for much of the analysis in the field of
+    mechanics. Of particular interest to us in the study of dynamics is the
+    second law, which is written:</p><table style="border: 0; " class="simplelist"><tr><td>F = ma</td></tr></table><p>where <span class="emphasis"><em>F</em></span> is the resultant <a id="I_indexterm1_id288207" class="indexterm"/>force acting on the body, <span class="emphasis"><em>m</em></span> is the
+    <a id="I_indexterm1_id288222" class="indexterm"/>mass of the body, and <span class="emphasis"><em>a</em></span> is the
+    <a id="I_indexterm1_id288236" class="indexterm"/><a id="I_indexterm1_id288247" class="indexterm"/>linear acceleration of the body’s center of gravity. We’ll
+    discuss this second law in greater detail later in this chapter, but
+    before that there are some more fundamental issues that we must
+    address.</p></div><div class="sect1" title="Units and Measures"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="units_and_measures">Units and Measures</h2></div></div></div><p>Over years of <a id="I_indexterm1_id288276" class="indexterm"/><a id="I_indexterm1_id288286" class="indexterm"/>teaching various engineering courses, we’ve observed that
+    one of the most common mistakes students make when performing calculations
+    is using the wrong units for a quantity, thus failing to maintain
+    consistent units and producing some pretty wacky answers. For example, in
+    the field of ship performance, the most commonly misused unit is that for
+    speed: people forget to convert speed in knots to speed in meters per
+    second (m/s) or feet per second (ft/s). One knot is equal to 0.514 m/s,
+    and considering that many quantities of interest in this field are
+    proportional to speed squared, this mistake could result in answers that
+    are as much as 185% off target! So, if some of your results look
+    suspicious later on, the first thing you need to do is go back to your
+    formulas and check their dimensional consistency.</p><p>To check dimensional consistency, <a id="un1.2" class="indexterm"/>you must take a closer look at your units of measure and
+    consider their component dimensions. We are not talking about 2D or 3D
+    type dimensions here, but rather the basic measurable dimensions that will
+    make up various <span class="emphasis"><em>derived</em></span> units for the physical
+    quantities that we will be using. These <a id="I_indexterm1_id288330" class="indexterm"/><a id="I_indexterm1_id288341" class="indexterm"/><a id="I_indexterm1_id288351" class="indexterm"/>basic dimensions are <span class="emphasis"><em>mass</em></span>,
+    <span class="emphasis"><em>length</em></span>, and <span class="emphasis"><em>time</em></span>.</p><p>It is important for you to be aware of these dimensions, as well as
+    the combinations of these dimensions that make up the other derived units,
+    so that you can ensure dimensional consistency in your calculations. For
+    example, you know that the <a id="I_indexterm1_id288377" class="indexterm"/><a id="I_indexterm1_id288387" class="indexterm"/>weight of an object is measured in units of force, which can
+    be broken down into component dimensions like so:</p><table style="border: 0; " class="simplelist"><tr><td>F = (M) (L/T<sup>2</sup>)</td></tr></table><p>where <span class="emphasis"><em>M</em></span> is <a id="I_indexterm1_id288423" class="indexterm"/>mass, <span class="emphasis"><em>L</em></span> is length, and
+    <span class="emphasis"><em>T</em></span> is time. <a id="I_indexterm1_id288442" class="indexterm"/>Does this look familiar? Well, if you consider that the
+    component <a id="I_indexterm1_id288453" class="indexterm"/><a id="I_indexterm1_id288464" class="indexterm"/>units for acceleration are
+    (<span class="emphasis"><em>L/T</em></span><sup>2</sup>) and let
+    <span class="emphasis"><em>a</em></span> be the symbol for acceleration and
+    <span class="emphasis"><em>m</em></span> be the symbol for the mass of an object, you
+    get:</p><table style="border: 0; " class="simplelist"><tr><td>F = ma</td></tr></table><p>which is the famous expression of <a id="I_indexterm1_id288499" class="indexterm"/>Newton’s second law of motion. We will take a closer look at
+    this equation later.</p><p>By no means did we just derive this famous formula. What we did was
+    check its dimensional consistency (albeit in reverse), and all that means
+    is that any formulas you develop to represent a force acting on a body had
+    better come out to a consistent set of units in the form
+    (<span class="emphasis"><em>M</em></span>)
+    (<span class="emphasis"><em>L/T</em></span><sup>2</sup>). This may seem
+    trivial at the moment; however, when you start looking at more complicated
+    formulas for the forces acting on a body, you’ll want to be able to break
+    down these formulas into their component dimensions so you can check their
+    dimensional consistency. Later we will use actual units, from the SI
+    (<span class="emphasis"><em>le Système international d’unités</em></span>, or International
+    System of Units)<a id="I_indexterm1_id288535" class="indexterm"/><a id="I_indexterm1_id288541" class="indexterm"/> for our physical quantities. Of course, there are other
+    unit systems, but unless you want to show these values to your gamers, it
+    really does not matter which system you use in your games. Again, what is
+    important is consistency.</p><p>To help clarify this point, consider the formula for the <a id="I_indexterm1_id288552" class="indexterm"/>friction drag on a body moving through a fluid, such as
+    water:</p><table style="border: 0; " class="simplelist"><tr><td>R<sub>f</sub> = 1/2 ρ V<sup>2</sup>
+      S C<sub>f</sub></td></tr></table><p>In this formula, <span class="emphasis"><em>R</em></span><sub>f</sub>
+    represents resistance (a force) due to friction, ρ is the density of
+    water, <span class="emphasis"><em>V</em></span> is the speed of the moving body,
+    <span class="emphasis"><em>S</em></span> is the submerged surface area of the body, and
+    <span class="emphasis"><em>C</em></span><sub>f</sub> is an empirical
+    (experimentally determined) drag coefficient for the body. Now rewriting
+    this formula in terms of basic dimensions instead of variables will show
+    that the dimensions on the left side of the formula match exactly the
+    dimensions on the right side. Since
+    <span class="emphasis"><em>R</em></span><sub>f</sub> is a force, its basic
+    dimensions are of the form:</p><table style="border: 0; " class="simplelist"><tr><td>(M) (L/T<sup>2</sup>)</td></tr></table><p>as discussed earlier, which implies that the dimensions of all the
+    terms on the right side of the equation, when combined, must yield an
+    equivalent form. Considering the basic <a id="I_indexterm1_id288641" class="indexterm"/><a id="I_indexterm1_id288651" class="indexterm"/><a id="I_indexterm1_id288661" class="indexterm"/>units for density, speed, and surface area:</p><div class="itemizedlist"><ul class="itemizedlist"><li class="listitem"><p>Density: (M)/(L<sup>3</sup>)</p></li><li class="listitem"><p>Speed: (L)/(T)</p></li><li class="listitem"><p>Area: (L<sup>2</sup>)</p></li></ul></div><p>and combining these dimensions for the terms, ρ
+    <span class="emphasis"><em>V</em></span><sup>2</sup> <span class="emphasis"><em>S</em></span>,
+    as follows:</p><table style="border: 0; " class="simplelist"><tr><td>[(M)/(L<sup>3</sup>)]
+      [(L)/(T)]<sup>2</sup>
+      [L<sup>2</sup>]</td></tr></table><p>and collecting the dimensions in the numerator and denominator
+    yields the following form:</p><table style="border: 0; " class="simplelist"><tr><td>(M L<sup>2</sup> L<sup>2</sup>)
+      / (L<sup>3</sup> T<sup>2</sup>)</td></tr></table><p>Canceling dimensions that appear in both the numerator and
+    denominator yields:</p><table style="border: 0; " class="simplelist"><tr><td>M (L/T<sup>2</sup>)</td></tr></table><p>which is consistent with the form shown earlier for resistance,
+    <span class="emphasis"><em>R</em></span><sub>f</sub>. This exercise also reveals
+    that the empirical term, <span class="emphasis"><em>C</em></span><sub>f</sub>,
+    for the coefficient of friction must be nondimensional—that is, it is a
+    constant number with no units.</p><p>With that, let’s take a look at some more common physical quantities
+    that you will be using along with their corresponding symbols, component
+    dimensions, and units in both the SI and English systems. This information
+    is summarized in <a class="xref" href="ch01.html#common_physical_quantities_and_units" title="Table 1-1. Common physical quantities and units">Table 1-1</a>.</p><div class="table"><a id="common_physical_quantities_and_units"/><div class="table-title">Table 1-1. Common physical quantities and units</div><div class="table-contents"><table style="border-collapse: collapse; border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; "><colgroup><col class="col1"/><col class="col2"/><col class="col3"/><col class="col4"/><col class="col5"/></colgroup><thead><tr><td style="text-align: left; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Quantity</p></td><td style="text-align: left; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Symbol</p></td><td style="text-align: left; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Dimensions</p></td><td style="text-align: left; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Units, SI</p></td><td style="text-align: left; vertical-align: bottom; border-bottom: 0.5pt solid ; "><p>Units,
+            English</p></td></tr></thead><tbody><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Acceleration,
+            linear</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>A</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>L/<a id="I_indexterm1_id288957" class="indexterm"/><a id="I_indexterm1_id288967" class="indexterm"/>T<sup>2</sup></p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>m/s<sup>2</sup></p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>ft/s<sup>2</sup></p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Acceleration,
+            angular</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>α</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>ra<a id="I_indexterm1_id289036" class="indexterm"/><a id="I_indexterm1_id289046" class="indexterm"/>dian/T<sup>2</sup></p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>radian/s<sup>2</sup></p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>radian/s<sup>2</sup></p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Density</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>ρ</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>M/<a id="I_indexterm1_id289115" class="indexterm"/>L<sup>3</sup></p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>kg/m<sup>3</sup></p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>slug/ft<sup>3</sup></p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Force</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>F</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>M <a id="I_indexterm1_id289185" class="indexterm"/>(L/T<sup>2</sup>)</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>newton, N</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>pound, lbs</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Kinematic
+            viscosity</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>ν</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>L<sup>2</sup>/<a id="I_indexterm1_id289254" class="indexterm"/><a id="I_indexterm1_id289261" class="indexterm"/>T</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>m<sup>2</sup>/s</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>ft<sup>2</sup>/s</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Length</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>L (or x, y, <a id="I_indexterm1_id289321" class="indexterm"/>z)</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>L</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>meters, m</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>feet, ft</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Mass</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>m</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>M</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>kilogram, <a id="I_indexterm1_id289402" class="indexterm"/>kg</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>slug</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Moment
+            (torque)</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>M<sup>[<a id="CHP-1-TFN-1" href="#ftn.CHP-1-TFN-1" class="footnote">a</a>]</sup></p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>M<a id="I_indexterm1_id289479" class="indexterm"/><a id="I_indexterm1_id289489" class="indexterm"/>
+            (L<sup>2</sup>/T<sup>2</sup>)</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>N-m</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>ft-lbs</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Mass Moment of
+            Inertia</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>I</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>M <a id="I_indexterm1_id289558" class="indexterm"/>L<sup>2</sup></p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>kg-m<sup>2</sup></p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>lbs-ft-s<sup>2</sup></p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Pressure</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>P</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>M/<a id="I_indexterm1_id289628" class="indexterm"/>(L T<sup>2</sup>)</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>N/m<sup>2</sup></p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>lbs/ft<sup>2</sup></p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Time</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>T</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>T</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>seconds, <a id="I_indexterm1_id289708" class="indexterm"/>s</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>seconds, s</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Velocity,
+            linear</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>V</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>L/T</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>m/<a id="I_indexterm1_id289768" class="indexterm"/><a id="I_indexterm1_id289777" class="indexterm"/>s</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>ft/s</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Velocity,
+            angular</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>ω</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>rad<a id="I_indexterm1_id289830" class="indexterm"/><a id="I_indexterm1_id289840" class="indexterm"/>ian/T</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>radian/s</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>radian/s</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; "><p>Viscosity</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; "><p>µ</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; "><p>M<a id="I_indexterm1_id289902" class="indexterm"/>/(L T)</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; "><p>N s/<a id="I_indexterm1_id289922" class="indexterm"/>m<sup>2</sup></p></td><td style="text-align: left; vertical-align: top; "><p>lbs •
+            s/ft<sup>2</sup></p></td></tr></tbody><tbody class="footnotes"><tr><td colspan="5"><div class="footnote" id="ftn.CHP-1-TFN-1"><p><sup>[<a href="#CHP-1-TFN-1" class="para">a</a>] </sup>In general, we will use a capital <span class="emphasis"><em>M</em></span>
+                to represent a moment (torque) acting on a body and a
+                lowercase <span class="emphasis"><em>m</em></span> to represent the mass of a
+                body. If we’re referring to the basic dimension of mass in a
+                general sense—that is, referring to the dimensional components
+                of derived units of measure—we’ll use a capital
+                <span class="emphasis"><em>M</em></span>. Usually, the meanings of these symbols
+                will be obvious based on the context in which they are used;
+                however, we will specify their meanings in cases where
+                ambiguity may exist.</p></div></td></tr></tbody></table></div></div></div><div class="sect1" title="Coordinate System"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="coordinate_system">Coordinate System</h2></div></div></div><p>Throughout this book <a id="I_indexterm1_id289956" class="indexterm"/><a id="I_indexterm1_id289966" class="indexterm"/>we will refer to a standard, <span class="emphasis"><em>right-handed</em></span> Cartesian
+      coordinate system when specifying positions in 2D or 3D space. In two dimensions we will use
+      the coordinate system shown in <a class="xref" href="ch01.html#right-handed_coordinate_system" title="Figure 1-1. Right-handed coordinate system">Figure 1-1</a>(a), where
+      rotations are measured positive counterclockwise.</p><div class="figure"><a id="right-handed_coordinate_system"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject1_id289998"/><img src="httpatomoreillycomsourceoreillyimages1598870.png" alt="Right-handed coordinate system"/></div></div><div class="figure-title">Figure 1-1. Right-handed coordinate system</div></div><p>In three dimensions we will use the coordinate system shown in <a class="xref" href="ch01.html#right-handed_coordinate_system" title="Figure 1-1. Right-handed coordinate system">Figure 1-1</a>(b), where rotations about the
+    <a id="I_indexterm1_id290028" class="indexterm"/>x-axis are positive from <a id="I_indexterm1_id290035" class="indexterm"/><a id="I_indexterm1_id290041" class="indexterm"/>positive <span class="emphasis"><em>y</em></span> to positive
+    <span class="emphasis"><em>z</em></span>, rotations about the y-axis are positive from
+    positive <span class="emphasis"><em>z</em></span> to positive <span class="emphasis"><em>x</em></span>, and
+    rotations about the z-axis are positive from positive
+    <span class="emphasis"><em>x</em></span> to positive <span class="emphasis"><em>y</em></span>.</p></div><div class="sect1" title="Vectors"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="vectors">Vectors</h2></div></div></div><p>Let us take <a id="I_indexterm1_id290086" class="indexterm"/>you back for a moment to your high school math class and
+    review the concept of <span class="emphasis"><em>vectors</em></span>. Essentially, a vector
+    is a quantity that has both <a id="I_indexterm1_id290101" class="indexterm"/><a id="I_indexterm1_id290114" class="indexterm"/><a id="I_indexterm1_id290123" class="indexterm"/><a id="I_indexterm1_id290133" class="indexterm"/>magnitude as well as direction. Recall that a
+    <span class="emphasis"><em>scalar</em></span>, unlike a vector, <a id="I_indexterm1_id290148" class="indexterm"/><a id="I_indexterm1_id290158" class="indexterm"/><a id="I_indexterm1_id290168" class="indexterm"/>has only magnitude and no direction. In mechanics,
+    quantities such as force, velocity, acceleration, and momentum are
+    <a id="I_indexterm1_id290180" class="indexterm"/>vectors, and you must consider both their magnitude and
+    direction. Quantities such as <a id="I_indexterm1_id290192" class="indexterm"/>distance, density, viscosity, and the like are
+    scalars.</p><p>With regard to notation, we’ll use boldface type to indicate a
+    vector quantity, such as force, <span class="strong"><strong>F</strong></span>. When
+    referring to the magnitude only of a vector quantity, we’ll use standard
+    type. For example, the magnitude of the vector force, <span class="strong"><strong>F</strong></span>, is F with components along the coordinate
+    axes, F<sub>x</sub>, F<sub>y</sub>, and
+    F<sub>z</sub>. In the code samples throughout the book, we’ll
+    use the <code class="literal">*</code> (asterisk) to indicate vector
+    dot product, or scalar product, operations depending on the context, and
+    we’ll use the <code class="literal">^</code> (caret) to indicate
+    vector cross product.</p><p>Because we will be using vectors throughout this book, it is important that you refresh
+      your memory on the basic vector operations, such as vector addition, dot product, and cross
+      product, among others. For your convenience (so you don’t have to drag out that old math
+      book), we’ve included a summary of the basic vector operations in <a class="xref" href="apa.html" title="Appendix A. Vector Operations">Appendix A</a>. This appendix provides code for a <code class="literal">Vector</code> class that contains all the important vector math functionality. Further,
+      we explain how to use specific vector operations—such as the dot-product and cross-product
+      operations—to perform some common and useful, calculations. For example, in dynamics you’ll
+      often have to find a vector perpendicular, or <span class="emphasis"><em>normal</em></span>, to a plane or
+      contacting surface; you use the <a id="I_indexterm1_id290276" class="indexterm"/><a id="I_indexterm1_id290283" class="indexterm"/><a id="I_indexterm1_id290289" class="indexterm"/><a id="I_indexterm1_id290298" class="indexterm"/>cross-product operation for this task. Another common calculation involves finding
+      the shortest distance from a point to a plane in space; you use the <a id="I_indexterm1_id290308" class="indexterm"/><a id="I_indexterm1_id290313" class="indexterm"/><a id="I_indexterm1_id290319" class="indexterm"/>dot-product operation here. Both of these tasks are described in <a class="xref" href="apa.html" title="Appendix A. Vector Operations">Appendix A</a>, which we encourage you to review before delving too deeply
+      into the example code presented throughout the remainder of this book.</p></div><div class="sect1" title="Derivatives and Integrals"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="derivatives_and_integrals">Derivatives and Integrals</h2></div></div></div><p>If you’re not familiar with calculus, or The Calculus, don’t let the
+    use of derivatives and integrals in this text worry you. While we’ll write
+    equations using derivatives and integrals, we’ll show you explicitly how
+    to deal with them computationally throughout this book. Without going into
+    a dissertation on all the properties and applications of derivatives and
+    integrals, let’s touch on their physical significance as they relate to
+    the material we’ll cover.</p><p>You can think of a <a id="I_indexterm1_id290356" class="indexterm"/>derivative as the rate of change in one variable with
+    respect to another variable, or in other words, derivatives tells you how
+    fast one variable changes as some other variable changes. Take speed, for
+    example. A car travels at a certain speed covering some distance in a
+    certain period of time. Its speed, on average, is the distance traveled
+    over a specific time interval. If it travels a distance of 60 kilometers
+    in one hour, then its average speed is 60 kilometers an hour. When we’re
+    doing simulations, the ones you’ll see later in this book, we’re
+    interested in what the car is doing over very short time intervals. As the
+    time interval gets really small and we consider the distance traveled over
+    that very short period of time, we’re looking at
+    <span class="emphasis"><em>instantaneous</em></span> speed. We usually write such relations
+    using symbols like the following:</p><table style="border: 0; " class="simplelist"><tr><td>|v| = ds/dt</td></tr></table><p>where <span class="emphasis"><em>v</em></span> is the speed, <span class="emphasis"><em>ds</em></span>
+    is a small distance (a <span class="emphasis"><em>differential</em></span> distance), and
+    <span class="emphasis"><em>dt</em></span> is a small, differential, period of time. In
+    reality, for our simulations, we’ll never deal with infinitely small
+    numbers; we’ll use small numbers, such as time intervals of 1 millisecond,
+    but not infinitely small numbers.</p><p>For our purposes, you can think of <a id="I_indexterm1_id290412" class="indexterm"/>integrals as the reverse, or the inverse, of derivatives; integration is the
+      inverse of differentiation. The symbol ∫ represents integration. You can think of integration
+      as a process of adding up a bunch of infinitely small chunks of some variable. Here again, we
+      are not going to deal with infinitely small pieces of anything, but instead will consider
+      small, discrete parcels of some variable—for example, a small, discrete amount of time, area,
+      or mass. In these cases, we’ll use the ∑ symbol instead of the integration symbol. Consider a
+      loaf of bread that’s sliced into uniformly thick slices along its whole length. If you wanted
+      to compute the volume of that loaf of bread, you can approximate it by starting at one end and
+      computing the volume of the first slice, approximating its volume as though it were a very
+      short, square cylinder; then moving on to the second slice, estimating its volume and adding
+      that to the volume of the first slice; and then moving on to the third, and fourth, and so on,
+      aggregating the volume of the loaf as you move toward the other end. Integration applies this
+      technique to infinitely thin slices of volume to compute the volume of any arbitrary shape.
+      The same techniques apply to other computations—for example, computing areas,
+        <span class="emphasis"><em>inertias</em></span>, masses, and so on, and even aggregating distance traveled
+      over successive small slices of time, as you’ll see later. In fact, this latter application is
+      the inverse of the derivative of distance with respect to time, which gives speed. Using
+      integration and differentiation in this way allows you to work back and forth when computing
+      speed, acceleration, and distance traveled, as you’ll see shortly. In fact, we’ll use these
+      concepts heavily throughout the rest of this book.</p></div><div class="sect1" title="Mass, Center of Mass, and Moment of Inertia"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="mass_comma_center_of_mass_comma_and_mome">Mass, Center of Mass, and Moment of Inertia</h2></div></div></div><p>The properties of a <a id="I_indexterm1_id290465" class="indexterm"/>body—<span class="emphasis"><em>mass</em></span>, <span class="emphasis"><em>center of
+    mass</em></span>, and <span class="emphasis"><em>moment of inertia</em></span>, collectively
+    called <span class="emphasis"><em>mass properties—</em></span>are absolutely crucial to the
+    study of mechanics, as the <a id="I_indexterm1_id290491" class="indexterm"/><a id="I_indexterm1_id290498" class="indexterm"/><a id="I_indexterm1_id290508" class="indexterm"/><a id="I_indexterm1_id290518" class="indexterm"/>linear and angular<sup>[<a id="CHP-1-FN-1" href="#ftn.CHP-1-FN-1" epub:type="noteref" class="footnote">5</a>]</sup> motion of a body and a body’s response to a given force are
+    functions of these mass properties. Thus, in order to accurately model a
+    body in motion, you need to know or be capable of calculating these mass
+    properties. Let’s look at a few definitions first.</p><p>In general, people think of mass <a id="I_indexterm1_id290551" class="indexterm"/><a id="I_indexterm1_id290560" class="indexterm"/>as a measure of the amount of matter in a body. For our
+    purposes in the study of mechanics, we can also think of mass as a measure
+    of a body’s resistance to motion or a change in its motion. Thus, the
+    greater a body’s mass, the harder it will be to set it in motion or change
+    its motion.</p><p>In laymen’s terms, the <a id="I_indexterm1_id290578" class="indexterm"/><a id="I_indexterm1_id290587" class="indexterm"/><a id="I_indexterm1_id290597" class="indexterm"/>center of mass (also known as <span class="emphasis"><em>center of
+    gravity</em></span>) is the point in a body around which the mass of the
+    body is evenly distributed. In mechanics, the center of mass is the point
+    through which any force can act on the body without resulting in a
+    rotation of the body.</p><p>Although most people are familiar with the terms
+    <span class="emphasis"><em>mass</em></span> and <span class="emphasis"><em>center of gravity</em></span>, the
+    term<a id="I_indexterm1_id290627" class="indexterm"/> <span class="emphasis"><em>moment of inertia</em></span> is not so familiar;
+    however, in mechanics it is equally important. The <a id="I_indexterm1_id290642" class="indexterm"/><a id="I_indexterm1_id290652" class="indexterm"/>mass moment of inertia of a body is a quantitative measure
+    of the radial distribution of the mass of a body about a given axis of
+    rotation. Analogous to mass being a measure of a body’s resistance to
+    linear motion, mass moment of inertia (also known <a id="I_indexterm1_id290665" class="indexterm"/>as <span class="emphasis"><em>rotational inertia</em></span>) is a measure of
+    a body’s resistance to rotational motion.</p><p>Now that you know what these properties mean, let’s look at how to
+    calculate each.</p><p>For a given body <a id="I_indexterm1_id290687" class="indexterm"/><a id="I_indexterm1_id290698" class="indexterm"/>made up of a number of particles, the total mass of the body
+    is simply the sum of the masses of all elemental particles making up the
+    body, where the mass of each elemental particle is its mass density times
+    its volume. Assuming that the body is of uniform density, then the total
+    mass of the body is simply the density of the body times the total volume
+    of the body. This is expressed in the following equation:</p><table style="border: 0; " class="simplelist"><tr><td>m = ∫ ρ dV = ρ ∫ dV</td></tr></table><p>In practice, you rarely need to take the volume integral to find the
+    mass of a body, especially considering that many of the bodies we will
+    consider—for example, cars and planes—are not of uniform density. Thus,
+    you will simplify these complicated bodies by breaking them down into an
+    ensemble of component bodies of known or easily calculable mass and simply
+    sum the masses of all components to arrive at the total mass.</p><p>The calculation of the<a id="ce1.6" class="indexterm"/><a id="mc1.6" class="indexterm"/> center of gravity of a body is a little more involved.
+    First, divide the body into a finite number of elemental masses with the
+    center of each mass specified relative to the reference coordinate system
+    axes. We’ll refer to these elemental masses as
+    <span class="emphasis"><em>m</em></span><sub>i</sub>. Next, take the
+    <span class="emphasis"><em>first moment</em></span> of each mass about the reference axes
+    and then add up all of these moments. The first moment is the product of
+    the mass times the distance along a given coordinate axis from the origin
+    to the center of mass. Finally, divide this sum of moments by the total
+    mass of the body, yielding the coordinates to the center of mass of the
+    body relative to the reference axes. You must perform this calculation
+    once for each dimension—that is, twice when working in 2D and three times
+    when working in 3D. Here are the equations for the 3D coordinates of the
+    center of mass of a body:</p><table style="border: 0; " class="simplelist"><tr><td>x<sub>c</sub> = {∫ x<sub>o</sub> dm} /
+      m</td></tr><tr><td>y<sub>c</sub> = {∫ y<sub>o</sub> dm} /
+      m</td></tr><tr><td>z<sub>c</sub> = {∫ z<sub>o</sub> dm} /
+      m</td></tr></table><p>where (<span class="emphasis"><em>x</em></span>, <span class="emphasis"><em>y</em></span>,
+    <span class="emphasis"><em>z</em></span>)<sub>c</sub> are the coordinates of the
+    center of mass for the body and (<span class="emphasis"><em>x</em></span>,
+    <span class="emphasis"><em>y</em></span>, <span class="emphasis"><em>z</em></span>)<sub>o</sub>
+    are the coordinates of the center of mass of each elemental mass. The
+    quantities <span class="emphasis"><em>x</em></span><sub>o</sub>
+    <span class="emphasis"><em>dm</em></span>, <span class="emphasis"><em>y</em></span><sub>o</sub>
+    <span class="emphasis"><em>dm</em></span>, and
+    <span class="emphasis"><em>z</em></span><sub>o</sub> <span class="emphasis"><em>dm</em></span>
+    represent the first moments of the elemental mass,
+    <span class="emphasis"><em>dm</em></span>, about each of the coordinate axes.</p><p>Here again, don’t worry too much about the integrals in these
+    equations. In practice, you will be summing finite numbers of masses and
+    the formulas will take on the friendlier forms shown here:</p><table style="border: 0; " class="simplelist"><tr><td>x<sub>c</sub> = {Σ
+      x<sub>o</sub>m<sub>i</sub>} / {Σ
+      m<sub>i</sub>}</td></tr><tr><td>y<sub>c</sub> = {Σ
+      y<sub>o</sub>m<sub>i</sub>} / {Σ
+      m<sub>i</sub>}</td></tr><tr><td>z<sub>c</sub> = {Σ
+      z<sub>o</sub>m<sub>i</sub>} / {Σ
+      m<sub>i</sub>}</td></tr></table><p>Note that you can easily substitute weights for masses in these
+    formulas since the constant acceleration due to gravity,
+    <span class="emphasis"><em>g</em></span>, would appear in both the numerators and
+    denominators, thus dropping out of the equations. Recall that the weight
+    of an object is its mass times the acceleration due to gravity,
+    <span class="emphasis"><em>g</em></span>, which is 9.8 m/s<sup>2</sup> at
+    sea level.</p><p>The formulas for calculating the total mass and center of gravity
+    for a system of discrete point masses can conveniently be written in
+    vector notation as follows:</p><table style="border: 0; " class="simplelist"><tr><td>m<sub>t</sub> = Σ m<sub>i</sub></td></tr><tr><td><span class="strong"><strong>CG</strong></span> =[Σ (<span class="strong"><strong>cg</strong></span><sub>i</sub>)
+      (m<sub>i</sub>)] / m<sub>t</sub></td></tr></table><p>where <span class="emphasis"><em>m</em></span><sub>t</sub> is the total
+    mass, <span class="emphasis"><em>m</em></span><sub>i</sub> is the mass of each
+    point mass in the system, <span class="strong"><strong>CG</strong></span> is the
+    combined center of gravity, and <span class="strong"><strong>cg</strong></span><sub>i</sub> is the location of the
+    center of gravity of each point mass in design, or reference, coordinates.
+    Notice that <span class="strong"><strong>CG</strong></span> and <span class="strong"><strong>cg</strong></span><sub>i</sub> are shown as vectors
+    since they denote position in Cartesian coordinates. This is a matter of
+    convenience since it allows you to take care of the
+    <span class="emphasis"><em>x</em></span>, <span class="emphasis"><em>y</em></span>, and <span class="emphasis"><em>z</em></span>
+    components (or just <span class="emphasis"><em>x</em></span> and <span class="emphasis"><em>y</em></span> in
+    two dimensions) in one shot.</p><p>In the code samples that follow, let’s assume that the point masses
+    making up the body are represented by an array of structures where each
+    structure contains the point mass’s design coordinates and mass. The
+    structure will also contain an element to hold the coordinates of the
+    point mass relative to the combined center of gravity of the rigid body,
+    which will be calculated later.</p><a id="I_programlisting1_id291091"/><pre class="programlisting">typedef struct _PointMass
+{
+   float mass;
+   Vector designPosition;
+   Vector correctedPosition;
+} PointMass;
+
+// Assume that _NUMELEMENTS has been defined
+PointMassElements[_NUMELEMENTS];</pre><p>Here’s some code that illustrates how to calculate the total mass
+    and combined center of gravity of the elements:</p><a id="I_programlisting1_id291103"/><pre class="programlisting">int  i;
+float TotalMass;
+Vector CombinedCG;
+Vector FirstMoment;
+
+TotalMass = 0;
+for(i=0; i&lt;_NUMELEMENTS; i++)
+   TotalMass FAC+= Elements[i].mass;
+
+FirstMoment = Vector(0, 0, 0);
+for(i=0; i&lt;_NUMELEMENTS; i++)
+{
+   FirstMoment += Element[i].mass * Element[i].designPosition;
+}
+CombinedCG = FirstMoment / TotalMass;</pre><p>Now that the combined center of gravity location has been found, you
+    can calculate the relative position of each point mass as <a id="I_indexterm1_id291115" class="indexterm"/><a id="I_indexterm1_id291125" class="indexterm"/>follows:</p><a id="I_programlisting1_id291136"/><pre class="programlisting">for(i=0; i&lt;_NUMELEMENTS; i++)
+{
+   Element[i].correctedPosition = Element[i].designPosition -
+                  CombinedCG;
+}</pre><p>To calculate <a id="ma1.6" class="indexterm"/><a id="mm1.6" class="indexterm"/><a id="mo1.6" class="indexterm"/>mass moment of inertia, you need to take the second moment
+    of each elemental mass making up the body about each coordinate axis. The
+    second moment is then the product of the mass times distance squared. That
+    distance is not the distance to the elemental mass centroid along the
+    coordinate axis as in the calculation for center of mass, but rather the
+    perpendicular distance from the coordinate axis, about which we want to
+    calculate the moment of inertia, to the elemental mass centroid.</p><p>Referring to <a class="xref" href="ch01.html#arbitrary_body_in_3d" title="Figure 1-2. Arbitrary body in 3D">Figure 1-2</a> for an
+    arbitrary body in three dimensions, when calculating moment of inertia
+    about the x-axis, <span class="emphasis"><em>I</em></span><sub>xx</sub>, this
+    distance, <span class="emphasis"><em>r</em></span>, will be in the yz-plane such that
+    <span class="emphasis"><em>r</em></span><sub>x</sub><sup>2</sup>
+    = <span class="emphasis"><em>y</em></span><sup>2</sup> +
+    <span class="emphasis"><em>z</em></span><sup>2</sup>. Similarly, for the
+    moment of inertia about the y-axis,
+    <span class="emphasis"><em>I</em></span><sub>yy</sub>,
+    <span class="emphasis"><em>r</em></span><sub>y</sub><sup>2</sup>
+    = <span class="emphasis"><em>z</em></span><sup>2</sup> +
+    <span class="emphasis"><em>x</em></span><sup>2</sup>, and for the moment of
+    inertia about the z-axis, <span class="emphasis"><em>I</em></span><sub>zz</sub>,
+    <span class="emphasis"><em>r</em></span><sub>z</sub><sup>2</sup>
+    = <span class="emphasis"><em>x</em></span><sup>2</sup> +
+    <span class="emphasis"><em>y</em></span><sup>2</sup>.</p><div class="figure"><a id="arbitrary_body_in_3d"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject1_id291301"/><img src="httpatomoreillycomsourceoreillyimages1598871.png" alt="Arbitrary body in 3D"/></div></div><div class="figure-title">Figure 1-2. Arbitrary body in 3D</div></div><p>The equations for mass moment of inertia about the coordinate axes
+    in 3D are:</p><table style="border: 0; " class="simplelist"><tr><td>I<sub>xx</sub> = ∫
+      r<sub>x</sub><sup>2</sup> dm = ∫
+      (y<sup>2</sup> + z<sup>2</sup>)
+      dm</td></tr><tr><td>I<sub>yy</sub> = ∫
+      r<sub>y</sub><sup>2</sup> dm = ∫
+      (z<sup>2</sup> + x<sup>2</sup>)
+      dm</td></tr><tr><td>I<sub>zz</sub> = ∫
+      r<sub>z</sub><sup>2</sup> dm = ∫
+      (x<sup>2</sup> + y<sup>2</sup>)
+      dm</td></tr></table><p>Let’s look for a moment at a common situation that arises in
+    practice. Say you are given the moment of inertia,
+    <span class="emphasis"><em>I</em></span><sub>o</sub>, of a body about an axis,
+    called the <span class="emphasis"><em>neutral axis</em></span>, <a id="I_indexterm1_id291412" class="indexterm"/>passing through the center of mass of the body, but you want
+    to know the moment of inertia, <span class="emphasis"><em>I</em></span>, about an axis some
+    distance from but parallel to this neutral axis. In this case, you can use
+    the transfer of axes, or <span class="emphasis"><em>parallel axis theorem</em></span>, to
+    <a id="I_indexterm1_id291428" class="indexterm"/>determine the moment of inertia about this new axis. The
+    formula to use is:</p><table style="border: 0; " class="simplelist"><tr><td>I = I<sub>o</sub> +
+      md<sup>2</sup></td></tr></table><p>where <span class="emphasis"><em>m</em></span> is the mass of the body and
+    <span class="emphasis"><em>d</em></span> is the perpendicular distance between the parallel
+    axes.</p><p>There is an important practical observation to make here: the new
+    moment of inertia is a function of the distance separating the axes
+    squared. This means that in cases where
+    <span class="emphasis"><em>I</em></span><sub>o</sub> is known to be relatively
+    small and <span class="emphasis"><em>d</em></span> relatively large, you can safely ignore
+    <span class="emphasis"><em>I</em></span><sub>o</sub>, since the
+    <span class="emphasis"><em>md</em></span><sup>2</sup> term will dominate.
+    You must use your best judgment here, of course. This formula for transfer
+    of axes also indicates that the moment of inertia of a body will be at its
+    minimum when calculated about an axis passing through the body’s center of
+    gravity. The body’s moment of inertia about any parallel axis will always
+    increase by an amount,
+    <span class="emphasis"><em>md</em></span><sup>2</sup>, when calculated about
+    an axis not passing through the body’s center of mass.</p><p>In practice, calculating mass moment of inertia for all but the
+    simplest shapes of uniform density is a complicated endeavor, so we will
+    often approximate the moment of inertia of a body about axes passing
+    through its center of mass by using simple formulas for basic shapes that
+    approximate the object. Further, we will break down complicated bodies
+    into smaller components and take advantage of the fact that
+    <span class="emphasis"><em>I</em></span><sub>o</sub> may be negligible for
+    certain components considering its
+    <span class="emphasis"><em>md</em></span><sup>2</sup> contribution to the
+    total body’s moment of inertia.</p><p><a class="xref" href="ch01.html#circular_cylinder_colon_ixx_equals_iyy" title="Figure 1-3. Circular cylinder: Ixx = Iyy = (1/4) mr2 + (1/12) ml2; Izz = (1/2) mr2">Figure 1-3</a> through <a class="xref" href="ch01.html#spherical_shell_colon_ixx_equals_iyy_equ" title="Figure 1-7. Spherical shell: Ixx = Iyy = Izz = (2/3) mr2">Figure 1-7</a> show some simple solid geometries for
+      which you can easily calculate mass moments of inertia. The mass moment of inertia formulas
+      for each of these simple geometries of homogenous density about the three coordinate axes are
+      shown in the figure captions. You can readily find similar formulas for other basic geometries
+      in college-level dynamics texts (see the <a class="link" href="apd.html" title="Appendix D. Bibliography">Bibliography</a> at
+      the end of this book for a <a id="I_indexterm1_id291542" class="indexterm"/><a id="I_indexterm1_id291548" class="indexterm"/><a id="I_indexterm1_id291554" class="indexterm"/>few sources).</p><div class="figure"><a id="circular_cylinder_colon_ixx_equals_iyy"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject1_id291596"/><img src="httpatomoreillycomsourceoreillyimages1598872.png" alt="Circular cylinder: Ixx = Iyy = (1/4) mr2 + (1/12) ml2; Izz = (1/2) mr2"/></div></div><div class="figure-title">Figure 1-3. Circular cylinder: I<sub>xx</sub> =
+      I<sub>yy</sub> = (1/4) mr<sup>2</sup> +
+      (1/12) ml<sup>2</sup>; I<sub>zz</sub> =
+      (1/2) mr<sup>2</sup></div></div><div class="figure"><a id="circular_cylindrical_shell_colon_ixx_equ"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject1_id291647"/><img src="httpatomoreillycomsourceoreillyimages1598873.png.jpg" alt="Circular cylindrical shell: Ixx = Iyy = (1/2) mr2 + (1/12) ml2; Izz = mr2"/></div></div><div class="figure-title">Figure 1-4. Circular cylindrical shell: I<sub>xx</sub> =
+      I<sub>yy</sub> = (1/2) mr<sup>2</sup> +
+      (1/12) ml<sup>2</sup>; I<sub>zz</sub> =
+      mr<sup>2</sup></div></div><div class="figure"><a id="rectangular_cylinder_colon_ixx_equals"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject1_id291710"/><img src="httpatomoreillycomsourceoreillyimages1598874.png" alt="Rectangular cylinder: Ixx = (1/12) m(a2 + l2); Iyy = (1/12) m(b2 + l2); Izz = (1/12) m(a2 + b2)"/></div></div><div class="figure-title">Figure 1-5. Rectangular cylinder: I<sub>xx</sub> = (1/12)
+      m(a<sup>2</sup> + l<sup>2</sup>);
+      I<sub>yy</sub> = (1/12) m(b<sup>2</sup> +
+      l<sup>2</sup>); I<sub>zz</sub> = (1/12)
+      m(a<sup>2</sup> + b<sup>2</sup>)</div></div><div class="figure"><a id="sphere_colon_ixx_equals_iyy_equals_izz"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject1_id291752"/><img src="httpatomoreillycomsourceoreillyimages1598875.png.jpg" alt="Sphere: Ixx = Iyy = Izz = (2/5) mr2"/></div></div><div class="figure-title">Figure 1-6. Sphere: I<sub>xx</sub> = I<sub>yy</sub> =
+      I<sub>zz</sub> = (2/5)
+      mr<sup>2</sup></div></div><div class="figure"><a id="spherical_shell_colon_ixx_equals_iyy_equ"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject1_id291794"/><img src="httpatomoreillycomsourceoreillyimages1598876.png.jpg" alt="Spherical shell: Ixx = Iyy = Izz = (2/3) mr2"/></div></div><div class="figure-title">Figure 1-7. Spherical shell: I<sub>xx</sub> =
+      I<sub>yy</sub> = I<sub>zz</sub> = (2/3)
+      mr<sup>2</sup></div></div><p>As you can see,<a id="I_indexterm1_id291815" class="indexterm"/><a id="I_indexterm1_id291825" class="indexterm"/> these formulas are relatively simple to implement. The
+    trick here is to break up a complex body into a number of smaller, simpler
+    representative geometries whose combination will approximate the complex
+    body’s inertia properties. This exercise is largely a matter of judgment
+    considering the desired level of <a id="I_indexterm1_id291835" class="indexterm"/><a id="I_indexterm1_id291844" class="indexterm"/><a id="I_indexterm1_id291853" class="indexterm"/>accuracy.</p><p>Let’s look at a simple 2D example <a id="mp1.6" class="indexterm"/>demonstrating how to apply the formulas discussed in this
+    section. Suppose you’re working on a top-down-view auto racing game where
+    you want to simulate the automobile sprite based on 2D rigid-body
+    dynamics. At the start of the game, the player’s car is at the starting
+    line, full of fuel and ready to go. Before starting the simulation, you
+    need to calculate the mass properties of the car, driver, and fuel load at
+    this initial state. In this case, the <span class="emphasis"><em>body</em></span> is made up
+    of three components: the car, driver, and full load of fuel. Later during
+    the game, however, the mass of this body will change as fuel burns off and
+    the driver gets thrown after a crash! For now, let’s focus on the initial
+    condition, as illustrated in <a class="xref" href="ch01.html#example_body_consisting_of_car_comma_dri" title="Figure 1-8. Example body consisting of car, driver, and fuel">Figure 1-8</a>.</p><div class="figure"><a id="example_body_consisting_of_car_comma_dri"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject1_id291912"/><img src="httpatomoreillycomsourceoreillyimages1598877.png" alt="Example body consisting of car, driver, and fuel"/></div></div><div class="figure-title">Figure 1-8. Example body consisting of car, driver, and fuel</div></div><p>The properties of each component in this example are given in <a class="xref" href="ch01.html#example_properties" title="Table 1-2. Example properties">Table 1-2</a>. Note that length is measured along the
+    x-axis, width along the y-axis, and height would be coming out of the
+    screen. Also note that the coordinates—in the form
+    (<span class="emphasis"><em>x</em></span>, <span class="emphasis"><em>y</em></span>)—to the centroid of each
+    component are referenced to the global origin.</p><div class="table"><a id="example_properties"/><div class="table-title">Table 1-2. Example properties</div><div class="table-contents"><table style="border-collapse: collapse; border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; "><colgroup><col class="col1"/><col class="col2"/><col class="col3"/></colgroup><thead><tr><td style="text-align: left; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Car</p></td><td style="text-align: left; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Driver
+            (seated)</p></td><td style="text-align: left; vertical-align: bottom; border-bottom: 0.5pt solid ; "><p>Fuel</p></td></tr></thead><tbody><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Length = 4.70
+            m</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Length = 0.90
+            m</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>Length = 0.50
+            m</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Width = 1.80
+            m</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Width = 0.50
+            m</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>Width = 0.90
+            m</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Height = 1.25
+            m</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Height = 1.10
+            m</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>Height = 0.30
+            m</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Weight = 17,500
+            N</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Weight = 850
+            N</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>Density of fuel = 750
+            kg/m<sup>3</sup></p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; "><p>Centroid = (30.5, 30.5)
+            m</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; "><p>Centroid = (31.50, 31.00)
+            m</p></td><td style="text-align: left; vertical-align: top; "><p>Centroid = (28.00, 30.50)
+            m</p></td></tr></tbody></table></div></div><p>The first mass property we want to <a id="I_indexterm1_id292196" class="indexterm"/>calculate is the mass of the body. This is a simple
+    calculation since we are already given the weight of the car and the
+    driver. The only other component of weight we need is that of the fuel.
+    Since we are given the mass density of the fuel and the geometry of the
+    tank, we can calculate the volume of the tank and multiply by the density
+    and the acceleration due to gravity to get the weight of the fuel in the
+    tank. This yields 920.6 N of fuel, as shown here:</p><table style="border: 0; " class="simplelist"><tr><td>W<sub>fuel</sub> = ρvg = (750
+      kg/m<sup>3</sup>) (0.50 m) (0.90 m) (0.30 m) (9.81
+      m/s<sup>2</sup>) = 993 N</td></tr></table><div class="note" title="Note"><h3 class="title">Note</h3><p>Acceleration due to gravity is the acceleration of a falling
+      object as it falls toward the earth. The weight of an object is equal to
+      its mass times the acceleration due to gravity. The symbol
+      <span class="emphasis"><em>g</em></span> is used to represent the acceleration due to
+      gravity, and on Earth the value of <span class="emphasis"><em>g</em></span> is
+      approximately 9.8 m/s<sup>2</sup> at sea level. Units
+      for weight in the metric system are Newtons,
+      <span class="emphasis"><em>N</em></span>.</p></div><p>Now, the total weight of the body is:</p><table style="border: 0; " class="simplelist"><tr><td>W<sub>total</sub> = W<sub>car</sub> +
+      W<sub>driver</sub> + W<sub>fuel</sub></td></tr><tr><td>W<sub>total</sub> = 17,500 N + 850 N + 993 N =
+      19,343 N</td></tr></table><p>To get the mass of the body, you simply divide the weight by the
+    acceleration due to gravity.</p><table style="border: 0; " class="simplelist"><tr><td>M<sub>total</sub> = W<sub>total/</sub>g
+      = 19,343 N /(9.81 m/s<sup>2</sup>) = 1972 kg</td></tr></table><p>The next mass property we want is the location of the <a id="I_indexterm1_id292322" class="indexterm"/>center of gravity of the body. In this example we will calculate the centroid
+      relative to the global origin. We will also apply the first moment formula twice, once for the
+        <span class="emphasis"><em>x</em></span> coordinate and again for the <span class="emphasis"><em>y</em></span>
+      coordinate:</p><table style="border: 0; " class="simplelist"><tr><td>X<sub>cg</sub> <sub>body</sub> =
+      {(x<sub>cg car</sub>)(W<sub>car</sub>) +
+      (x<sub>cg driver</sub>)(W<sub>driver</sub>) +
+      (x<sub>cg fuel</sub>)(W<sub>fuel</sub>)} /
+      W<sub>total</sub></td></tr><tr><td>X<sub>cg body</sub> = {(30.50 m)(17,500 N) + (31.50
+      m)(850 N) + (28.00 m)(993 N)} / 19,343 N</td></tr><tr><td>X<sub>cg</sub> <sub>body</sub> = 30.42
+      m</td></tr><tr><td>Y<sub>cg</sub> <sub>body</sub> =
+      {(y<sub>cg car</sub>)(W<sub>car</sub>) +
+      (y<sub>cg driver</sub>)(W<sub>driver</sub>) +
+      (y<sub>cg fuel</sub>)(W<sub>fuel</sub>)} /
+      W<sub>total</sub></td></tr><tr><td>Y<sub>cg body</sub> = {(30.50 m)(17,500 N) + (31.00
+      m)(850 N) + (30.50 m)(993 N)} / 19,343 N</td></tr><tr><td>Y<sub>cg</sub> <sub>body</sub> = 30.52
+      m</td></tr></table><p>Notice that we used weight in these equations instead of mass.
+    Remember we can do this because the acceleration due to gravity built into
+    the weight value is constant and appears in both the numerator and
+    denominator, thus canceling out.</p><p>Now it’s time to calculate the <a id="mmi1.6" class="indexterm"/><a id="mi1.6" class="indexterm"/>mass moment of inertia of the body. This is easy enough in
+    this 2D example since we have only one rotational axis, coming out of the
+    paper, and thus need only perform the calculation once. The first step is
+    to calculate the local moment of inertia of each component about its own
+    neutral axis. Given the limited information we have on the geometry and
+    mass distribution of each component, we will make a simplifying
+    approximation by assuming that each component can be represented by a
+    rectangular cylinder, and will thus use the corresponding formula for
+    moment of inertia from <a class="xref" href="ch01.html#rectangular_cylinder_colon_ixx_equals" title="Figure 1-5. Rectangular cylinder: Ixx = (1/12) m(a2 + l2); Iyy = (1/12) m(b2 + l2); Izz = (1/12) m(a2 + b2)">Figure 1-5</a>. In the equations to
+    follow, we’ll use a lowercase <span class="emphasis"><em>w</em></span> to represent width so
+    as to not confuse it with weight, where we’ve been using a capital
+    <span class="emphasis"><em>W</em></span>.</p><table style="border: 0; " class="simplelist"><tr><td>I<sub>o car</sub> = (m/12)
+      (w<sup>2</sup> + L<sup>2</sup>)</td></tr><tr><td>I<sub>o car</sub> = ((17,500 N / 9.81
+      m/s<sup>2</sup>) / 12 ) ((1.80
+      m)<sup>2</sup> + (4.70 m)<sup>2</sup>) =
+      3765.5 N − s<sup>2</sup> − m</td></tr><tr><td>I<sub>o driver</sub> = (m/12)
+      (w<sup>2</sup> + L<sup>2</sup>)</td></tr><tr><td>I<sub>o driver</sub> = ((850 N / 9.81
+      m/s<sup>2</sup>) / 12) ((0.50
+      m)<sup>2</sup> + (0.90 m)<sup>2</sup>) =
+      7.7 N − s<sup>2</sup> − m</td></tr><tr><td>I<sub>o fuel</sub> = (m/12)
+      (w<sup>2</sup> + L<sup>2</sup>)</td></tr><tr><td>I<sub>o fuel</sub> = ((993 N / 9.81
+      m/s<sup>2</sup>) / 12) ((0.90
+      m)<sup>2</sup> + (0.50 m)<sup>2</sup>) =
+      8.9 N − s<sup>2</sup> − m</td></tr></table><p>Since these are the moments of inertia of each component about its
+    own neutral axis, we now need to use the <a id="I_indexterm1_id292648" class="indexterm"/>parallel axis theorem to transfer these moments to the
+    neutral axis of the body, which is located at the body center of gravity
+    that we recently calculated. To do this, we must find the distance from
+    the body center of gravity to each component’s center of gravity. The
+    distances squared from each component to the body center of gravity
+    are:</p><table style="border: 0; " class="simplelist"><tr><td>d<sup>2</sup><sub>car</sub> =
+      (x<sub>cg car</sub> −
+      X<sub>cg</sub>)<sup>2</sup> +
+      (y<sub>cg car</sub> −
+      Y<sub>cg</sub>)<sup>2</sup></td></tr><tr><td>d<sup>2</sup><sub>car</sub> = (30.50
+      m − 30.42 m)<sup>2</sup> + (30.50 m − 30.53
+      m)<sup>2</sup> = 0.01
+      m<sup>2</sup></td></tr><tr><td>d<sup>2</sup><sub>driver</sub> =
+      (x<sub>cg driver</sub> −
+      X<sub>cg</sub>)<sup>2</sup> +
+      (y<sub>cg driver</sub> −
+      Y<sub>cg</sub>)<sup>2</sup></td></tr><tr><td>d<sup>2</sup><sub>driver</sub> =
+      (31.50 m − 30.42 m)<sup>2</sup> + (31.25 m − 30.53
+      m)<sup>2</sup> = 1.68
+      m<sup>2</sup></td></tr><tr><td>d<sup>2</sup><sub>fuel</sub> =
+      (x<sub>cg fuel</sub> −
+      X<sub>cg</sub>)<sup>2</sup> +
+      (y<sub>cg fuel</sub> −
+      Y<sub>cg</sub>)<sup>2</sup></td></tr><tr><td>d<sup>2</sup><sub>fuel</sub> =
+      (28.00 m − 30.42 m)<sup>2</sup> + (30.50 m − 30.53
+      m)<sup>2</sup> = 5.86
+      m<sup>2</sup></td></tr></table><p>Now we can apply the parallel axis theorem as follows:</p><table style="border: 0; " class="simplelist"><tr><td>I<sub>cg car</sub> = I<sub>o</sub> +
+      md<sup>2</sup></td></tr><tr><td>I<sub>cg car</sub> = 3765.5 N −
+      s<sup>2</sup> − m + (17,500 N / 9.81
+      m/s<sup>2</sup>) (0.01 m<sup>2</sup>) =
+      3783.34 N − s<sup>2</sup> − m</td></tr><tr><td>I<sub>cg driver</sub> = I<sub>o</sub> +
+      md<sup>2</sup></td></tr><tr><td>I<sub>cg driver</sub> = 7.7 N −
+      s<sup>2</sup> − m + (850 N / 9.81
+      m/s<sup>2</sup>) (1.68 m<sup>2</sup>) =
+      153.27 N − s<sup>2</sup> − m</td></tr><tr><td>I<sub>cg fuel</sub> = I<sub>o</sub> +
+      md<sup>2</sup></td></tr><tr><td>I<sub>cg fuel</sub> = 8.9 N −
+      s<sup>2</sup> − m + (993 N / 9.81
+      m/s<sup>2</sup>) (5.86 m<sup>2</sup>) =
+      602.07 N − s<sup>2</sup> − m</td></tr></table><p>Notice how the calculations for the
+    <span class="emphasis"><em>I</em></span><sub>cg</sub> of the driver and the fuel
+    are dominated by their <span class="emphasis"><em>md</em></span><sup>2</sup>
+    terms. In this example, the local inertia of the driver and fuel is only
+    2.7% and 2.1%, respectively, of their corresponding
+    <span class="emphasis"><em>md</em></span><sup>2</sup> terms.</p><p>Finally, we can obtain the total moment of inertia of the body about
+    its own neutral axis by summing the
+    <span class="emphasis"><em>I</em></span><sub>cg</sub> contributions of each
+    component as follows:</p><table style="border: 0; " class="simplelist"><tr><td>I<sub>cg total</sub> = I<sub>cg
+      car</sub> + I<sub>cg driver</sub> + I<sub>cg
+      fuel</sub></td></tr><tr><td>I<sub>cg total</sub> = 3783.34 N −
+      s<sup>2</sup> − m + 153.27 N −
+      s<sup>2</sup> − m + 602.07 N −
+      s<sup>2</sup> − m = 4538.68 N −
+      s<sup>2</sup> − m</td></tr></table><p>The mass properties of the body—that is, the combination of the car,
+    driver, and full tank of fuel—are shown in <a class="xref" href="ch01.html#example_summary_of_mass_properties" title="Table 1-3. Example summary of mass properties">Table 1-3</a>.</p><div class="table"><a id="example_summary_of_mass_properties"/><div class="table-title">Table 1-3. Example summary of mass properties</div><div class="table-contents"><table style="border-collapse: collapse; border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; "><colgroup><col class="col1"/><col class="col2"/></colgroup><thead><tr><td style="text-align: left; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Property</p></td><td style="text-align: left; vertical-align: bottom; border-bottom: 0.5pt solid ; "><p>Computed
+            value</p></td></tr></thead><tbody><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Total mass
+            (weight)</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>1972 kg (19,343
+            N)</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Combined center of mass
+            location</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>(<span class="emphasis"><em>x</em></span>,<span class="emphasis"><em>y</em></span>)
+            = (30.42 m, 30.53 m)</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; "><p>Mass moment of
+            inertia</p></td><td style="text-align: left; vertical-align: top; "><p>4538.68 N –
+            s<sup>2</sup> – m</p></td></tr></tbody></table></div></div><p>It is important that you understand the concepts illustrated in this example well because
+      as we move on to more complicated systems and especially to general motion in 3D, these
+      calculations are only going to get more complicated. Moreover, the motion of the bodies to be
+      simulated are functions of these mass properties, where mass will determine how these bodies
+      are affected by forces, center of mass will be used to track position, and mass moment of
+      inertia will determine how these bodies rotate under the action of noncentroidal
+      forces.</p><p>So far, we have looked at moments of inertia about the three coordinate axes in 3D space.
+      However, in general 3D rigid-body dynamics, the body may rotate about any axis—not necessarily
+      one of the coordinate axes, even if the local coordinate axes pass through the body center of
+      mass. This complication implies that we must add a few more terms to our set of
+        <span class="emphasis"><em>I</em></span>’s for a body to handle this generalized rotation. We will address
+      this topic further later in this chapter, but before we do that we need to go over Newton’s
+      second law of motion in <a id="I_indexterm1_id293188" class="indexterm"/><a id="I_indexterm1_id293197" class="indexterm"/><a id="I_indexterm1_id293207" class="indexterm"/>detail.</p></div><div class="sect1" title="Newton’s Second Law of Motion"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="newtonas_second_law_of_motion">Newton’s Second Law of Motion</h2></div></div></div><p>As we stated in the first <a id="ne1.7" class="indexterm"/>section of this chapter, Newton’s second law of motion is of particular interest
+      in the study of mechanics. Recall that the equation form of Newton’s second law is:</p><table style="border: 0; " class="simplelist"><tr><td>F = ma</td></tr></table><p>where <span class="emphasis"><em>F</em></span> is the resultant <a id="I_indexterm1_id293266" class="indexterm"/>force acting on the body, <span class="emphasis"><em>m</em></span> is the
+    <a id="I_indexterm1_id293281" class="indexterm"/>mass of the body, and <span class="emphasis"><em>a</em></span> is the
+    <a id="I_indexterm1_id293296" class="indexterm"/><a id="I_indexterm1_id293306" class="indexterm"/>linear acceleration of the body center of gravity.</p><p>If you rearrange this equation as follows:</p><table style="border: 0; " class="simplelist"><tr><td>F/m = a</td></tr></table><p>you can see how the mass of a body acts as a measure of resistance
+    to motion. Observe here that as mass increases in the denominator for a
+    constant applied force, then the resulting acceleration of the body will
+    decrease. You could say that the body of greater mass offers greater
+    resistance to motion. Similarly, as the mass decreases for a constant
+    applied force, then the resulting acceleration of the body will increase,
+    and you could say that the body of smaller mass offers lower resistance to
+    motion.</p><p>Newton’s second law also states that the resulting acceleration is
+    in the same <a id="I_indexterm1_id293342" class="indexterm"/>direction as the resultant force on the body; thus, force
+    and acceleration must be treated as vector quantities. In general, there
+    may be more than one force acting on the body at a given time, which means
+    that the resultant force is the vector sum of all forces acting on the
+    body. So, you can now write:</p><table style="border: 0; " class="simplelist"><tr><td>∑ <span class="strong"><strong>F</strong></span> = m<span class="strong"><strong>a</strong></span></td></tr></table><p>where <span class="strong"><strong>a</strong></span> represents the <a id="I_indexterm1_id293386" class="indexterm"/><a id="I_indexterm1_id293392" class="indexterm"/>acceleration vector.</p><p>In 3D, the force and acceleration vectors will have
+    <span class="emphasis"><em>x</em></span>, <span class="emphasis"><em>y</em></span>, and <span class="emphasis"><em>z</em></span>
+    components in the Cartesian reference system. In this case, the component
+    equations of motion are written as follows:</p><table style="border: 0; " class="simplelist"><tr><td>∑ F<sub>x</sub> =
+      ma<sub>x</sub></td></tr><tr><td>∑ F<sub>y</sub> =
+      ma<sub>y</sub></td></tr><tr><td>∑ F<sub>z</sub> =
+      ma<sub>z</sub></td></tr></table><p>An alternative way to interpret Newton’s second law is that the sum
+    of all forces acting on a body is equal to the rate of change of the
+    body’s momentum over time, which is the derivative of momentum with
+    respect to time. Momentum equals mass times velocity, and since velocity
+    is a vector quantity, so is momentum. Thus:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>G</strong></span> = m<span class="strong"><strong>v</strong></span></td></tr></table><p>where <span class="strong"><strong>G</strong></span> is linear momentum of
+    <a id="I_indexterm1_id293491" class="indexterm"/><a id="I_indexterm1_id293497" class="indexterm"/>the body, <span class="emphasis"><em>m</em></span> is the body’s mass, and
+    <span class="strong"><strong>v</strong></span> is velocity of the center of gravity
+    of the body. The time rate of change of momentum is the derivative of
+    momentum with respect to time:</p><table style="border: 0; " class="simplelist"><tr><td>d<span class="strong"><strong>G</strong></span>/dt = d/dt (m<span class="strong"><strong>v</strong></span>)</td></tr></table><p>Assuming that the body mass is constant (for now), you can
+    write:</p><table style="border: 0; " class="simplelist"><tr><td>d<span class="strong"><strong>G</strong></span>/dt = m d<span class="strong"><strong>v</strong></span>/dt</td></tr></table><p>Observing that the time rate of change of velocity, d<span class="strong"><strong>v</strong></span>/dt, is acceleration, we arrive at:</p><table style="border: 0; " class="simplelist"><tr><td>d<span class="strong"><strong>G</strong></span>/dt = m<span class="strong"><strong>a</strong></span></td></tr></table><p>and:</p><table style="border: 0; " class="simplelist"><tr><td>∑ <span class="strong"><strong>F</strong></span> = d<span class="strong"><strong>G</strong></span>/dt = m<span class="strong"><strong>a</strong></span></td></tr></table><p>So far we have considered only translation of the body without
+    rotation. In generalized 3D motion, you must account for the rotational
+    motion of the body and will thus need some additional equations to fully
+    describe the body’s motion. Specifically, you will require analogous
+    formulas relating the sum of all <a id="I_indexterm1_id293634" class="indexterm"/>moments (torque) on a body to the rate of change in its
+    angular momentum over time, or the <a id="I_indexterm1_id293645" class="indexterm"/><a id="I_indexterm1_id293655" class="indexterm"/><a id="I_indexterm1_id293665" class="indexterm"/>derivative of angular momentum with respect to time. This
+    gives us:</p><table style="border: 0; " class="simplelist"><tr><td>∑ <span class="strong"><strong>M</strong></span><sub>cg</sub>
+      = d/dt (<span class="strong"><strong>H</strong></span><sub>cg</sub>)</td></tr></table><p>where <span class="emphasis"><em>∑</em></span> <span class="strong"><strong>M</strong></span><sub>cg</sub> is the sum of all
+    moments about the body center of gravity, and <span class="strong"><strong>H</strong></span> is the angular momentum of the body. <span class="strong"><strong>M</strong></span><sub>cg</sub> can be expressed
+    as:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>M</strong></span><sub>cg</sub> =
+      <span class="strong"><strong>r</strong></span> × <span class="strong"><strong>F</strong></span></td></tr></table><p>where <span class="strong"><strong>F</strong></span> is a force acting on the
+    body, and <span class="strong"><strong>r</strong></span> is the distance vector from
+    <span class="strong"><strong>F</strong></span>, perpendicular to the line of action
+    of <span class="strong"><strong>F</strong></span> (i.e., perpendicular to the vector
+    <span class="strong"><strong>F</strong></span>), to the center of gravity of the
+    body, and × is the vector cross-product operator.</p><p>The angular momentum of the body is the sum of the moments of the
+    momentum of all particles in the body about the axis of rotation, which in
+    this case we assume passes through the center of gravity of the body. This
+    can be expressed as:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>H</strong></span><sub>cg</sub> =
+      ∑ <span class="strong"><strong>r</strong></span><sub>i</sub> ×
+      m<sub>i</sub> (<span class="strong"><strong>ω</strong></span> ×
+      <span class="strong"><strong>r</strong></span><sub>i</sub>)</td></tr></table><p>where <span class="emphasis"><em>i</em></span> represents the <span class="emphasis"><em>i</em></span>th
+    particle making up the body, ω is the angular velocity of the body about
+    the axis under consideration, and (<span class="strong"><strong>r</strong></span><sub>i</sub> ×
+    <span class="emphasis"><em>m</em></span><sub>i</sub> (<span class="strong"><strong>ω</strong></span> × <span class="strong"><strong>r</strong></span><sub>i</sub>)) is the angular
+    momentum of the <span class="emphasis"><em>i</em></span>th particle, which has a magnitude
+    of
+    <span class="emphasis"><em>m</em></span><sub>i</sub>ω<span class="emphasis"><em>r</em></span><sub>i</sub><sup>2</sup>.
+    For rotation about a given axis, this equation can be rewritten in the
+    form:</p><table style="border: 0; " class="simplelist"><tr><td>H<sub>cg</sub> = ∫ ω <span class="strong"><strong>r</strong></span><sup>2</sup> dm</td></tr></table><p>Given that the angular velocity is <a id="I_indexterm1_id293934" class="indexterm"/><a id="I_indexterm1_id293944" class="indexterm"/>the same for all particles making up the rigid body, we
+    have:</p><table style="border: 0; " class="simplelist"><tr><td>H<sub>cg</sub> = ω ∫ <span class="strong"><strong>r</strong></span><sup>2</sup> dm</td></tr></table><p>and recalling that <a id="I_indexterm1_id293982" class="indexterm"/>moment of inertia, <span class="emphasis"><em>I</em></span>, equals
+    <span class="emphasis"><em>∫</em></span> <span class="strong"><strong>r</strong></span><sup>2</sup>
+    <span class="emphasis"><em>dm</em></span>, we get:</p><table style="border: 0; " class="simplelist"><tr><td>H<sub>cg</sub> = Iω</td></tr></table><p>Taking the derivative with respect to time, we obtain:</p><table style="border: 0; " class="simplelist"><tr><td>dH<sub>cg</sub>/dt = d/dt (Iω) = I dω/dt =
+      Iα</td></tr></table><p>where <span class="emphasis"><em>α</em></span> is the angular acceleration of the body
+    about a given axis.</p><p>Finally, we can write:</p><table style="border: 0; " class="simplelist"><tr><td>∑ <span class="strong"><strong>M</strong></span><sub>cg</sub>
+      = <span class="strong"><strong>I</strong></span>α</td></tr></table><p>As we stated in our discussion on mass moment of inertia, we will
+    have to further generalize our formulas for moment of inertia and angular
+    moment to account for rotation about any body axis. Generally, <span class="strong"><strong>M</strong></span> and <span class="emphasis"><em>α</em></span> will be <a id="I_indexterm1_id294096" class="indexterm"/><a id="I_indexterm1_id294106" class="indexterm"/><a id="I_indexterm1_id294116" class="indexterm"/><a id="I_indexterm1_id294125" class="indexterm"/>vector quantities, while <span class="strong"><strong>I</strong></span> will be a <span class="emphasis"><em>tensor</em></span><sup>[<a id="CHP-1-FN-2" href="#ftn.CHP-1-FN-2" epub:type="noteref" class="footnote">6</a>]</sup> since the magnitude of moment of inertia for a body may vary
+    depending on the axis of rotation (see the sidebar <a class="xref" href="ch01.html#tensors" title="Tensors">Tensors</a>).</p><div class="sidebar"><a id="tensors"/><div class="sidebar-title">Tensors</div><p>A tensor is a <a id="I_indexterm1_id294180" class="indexterm"/>mathematical expression that has <a id="I_indexterm1_id294191" class="indexterm"/><a id="I_indexterm1_id294201" class="indexterm"/>magnitude and direction, but its magnitude may not be
+      unique depending on the direction. Tensors are typically used to
+      represent properties of materials where these properties have different
+      magnitudes in different directions. Materials with properties that vary
+      depending on direction are called <span class="emphasis"><em>anisotropic</em></span>
+      <a id="I_indexterm1_id294218" class="indexterm"/>(<span class="emphasis"><em>isotropic</em></span> implies <a id="I_indexterm1_id294230" class="indexterm"/>the same magnitude in all directions). For example,
+      consider the elasticity (or strength) of two common materials, a sheet
+      of plain paper and a piece of woven or knitted cloth. Take the sheet of
+      paper and, holding it flat, pull on it softly from opposing ends. Try
+      this length-wise, width-wise, and along a diagonal. You should observe
+      that the paper seems just as strong, or stretches about the same, in all
+      directions. It is isotropic; therefore, only a single scalar constant is
+      required to represent its strength for all directions.</p><p>Now, try to find a piece of cloth with a simple, relatively loose
+      weave where the threads in one direction are perpendicular to the
+      threads in the other direction. Most neckties will do. Try the same pull
+      test that you conducted with the sheet of paper, pulling the cloth along
+      each thread direction and then at a diagonal to the threads. You should
+      observe that the cloth stretches more when you pull it along a diagonal
+      to the threads as opposed to pulling it along the direction of the run
+      of the threads. The cloth is anisotropic in that it exhibits different
+      elastic (or strength) properties depending on the direction of pull;
+      thus, a collection of vector quantities (a tensor) is required to
+      represent its strength for all directions.</p><p>In the context of this book, the property under consideration is a
+      body’s moment of inertia, which in 3D requires nine components to fully
+      describe it for any arbitrary rotation. Moment of inertia is not a
+      <a id="I_indexterm1_id294257" class="indexterm"/>strength property as in the paper and cloth example, but
+      it is a property of the body that varies with the axis of rotation.
+      Since nine components are required, moment of inertia will be
+      generalized in the form of a 3×3 matrix (i.e., a
+      <span class="emphasis"><em>second-rank</em></span> tensor) later in this book.</p></div><p>We need to mention a few things at this point regarding coordinates,
+    which will become important when you’re writing your real-time simulator.
+    Both of the equations of motion have, so far, been written in terms of
+    global coordinates and not body-fixed coordinates. That’s OK for the
+    linear equation of motion, where you can track the body’s location and
+    velocity in the global coordinate system. However, from a computational
+    point of view, you don’t want to do that for the angular equation of
+    motion for bodies that rotate in three dimensions.<sup>[<a id="CHP-1-FN-3" href="#ftn.CHP-1-FN-3" epub:type="noteref" class="footnote">7</a>]</sup> The reason is because the moment of inertia term, when
+    calculated with respect to global coordinates, actually changes depending
+    on the body’s position and orientation. This means that during your
+    simulation you’ll have to recalculate the inertia matrix (and its inverse)
+    a lot, which is computationally inefficient. It’s better to rewrite the
+    equations of motion in terms of local (attached to the body) coordinates
+    so you have to calculate the inertia matrix (and its inverse) only once at
+    the start of your simulation.</p><p>In general, the time <a id="I_indexterm1_id294304" class="indexterm"/>derivative of a vector, <span class="strong"><strong>V</strong></span>, in a fixed (nonrotating) coordinate system is
+    related to its time derivative in a rotating coordinate system by the
+    following:</p><table style="border: 0; " class="simplelist"><tr><td>(d<span class="strong"><strong>V</strong></span>/dt)<sub>fixed</sub> = (d<span class="strong"><strong>V</strong></span>/dt)<sub>rot</sub> + (<span class="strong"><strong>ω</strong></span> × <span class="strong"><strong>V</strong></span>)</td></tr></table><p>The (<span class="strong"><strong>ω</strong></span> × <span class="strong"><strong>V</strong></span>) term represents the difference between
+    <span class="strong"><strong>V</strong></span>’s time derivative as measured in the
+    fixed coordinate system and <span class="strong"><strong>V</strong></span>’s time
+    derivative as measured in the rotating coordinate system. We can use this
+    relation to rewrite the angular equation of motion in terms of local, or
+    body-fixed, coordinates. Further, the vector to consider is the angular
+    momentum vector <span class="strong"><strong>H</strong></span><sub>cg</sub>. Recall that <span class="strong"><strong>H</strong></span><sub>cg</sub> = <span class="strong"><strong>Iω</strong></span> and its time derivative are equal to the sum
+    of moments about the body’s center of gravity. These are the pieces you
+    need for the angular equation of motion, and you can get to that equation
+    by substituting <span class="strong"><strong>H</strong></span><sub>cg</sub> in place of <span class="strong"><strong>V</strong></span> in the derivative transform relation as
+    follows:</p><table style="border: 0; " class="simplelist"><tr><td>∑ <span class="strong"><strong>M</strong></span><sub>cg</sub>
+      = d<span class="strong"><strong>H</strong></span><sub>cg</sub>/dt
+      <span class="strong"><strong>= I</strong></span> (d<span class="strong"><strong>ω</strong></span>/dt) + (<span class="strong"><strong>ω</strong></span> ×
+      (<span class="strong"><strong>I ω</strong></span>))</td></tr></table><p>where the moments, inertia tensor, and angular velocity are all
+    expressed in local (body) coordinates. Although this equation looks a bit
+    more complicated than the one we showed you earlier, it is much more
+    convenient to use since <span class="strong"><strong>I</strong></span> will be
+    constant throughout your simulation (unless your body’s mass or geometry
+    changes for some reason during your simulation), and the moments are
+    relatively easy to calculate in local coordinates. You’ll put this
+    equation to use in <a class="xref" href="ch15.html" title="Chapter 15. Aircraft">Chapter 15</a> when we show you how to
+    develop a simple 3D rigid-body <a id="I_indexterm1_id294504" class="indexterm"/>simulator.</p></div><div class="sect1" title="Inertia Tensor"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="inertia_tensor">Inertia Tensor</h2></div></div></div><p>Take another <a id="I_indexterm1_id294523" class="indexterm"/><a id="te1.8" class="indexterm"/>look at the angular equation of motion and notice that we
+    set the inertia term, <span class="strong"><strong>I</strong></span>, in bold,
+    implying that it is a vector. You’ve already seen that, for
+    two-dimensional problems, this inertia term reduces to a scalar quantity
+    representing the moment of inertia about the single axis of rotation.
+    However, in three dimensions there are three coordinate axes about which
+    the body can rotate. Moreover, in generalized three dimensions, the body
+    can rotate about any arbitrary axis. Thus, for three-dimensional problems,
+    <span class="strong"><strong>I</strong></span> is actually a 3×3 matrix—a
+    second-rank tensor.</p><p>To understand where this inertia matrix comes from, you must look
+    again at the <a id="I_indexterm1_id294568" class="indexterm"/><a id="I_indexterm1_id294579" class="indexterm"/><a id="I_indexterm1_id294589" class="indexterm"/>angular momentum equation:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>H</strong></span><sub>cg</sub> =
+      ∫ (<span class="strong"><strong>r</strong></span> × (<span class="strong"><strong>ω</strong></span> × <span class="strong"><strong>r</strong></span>))
+      dm</td></tr></table><p>where <span class="strong"><strong>ω</strong></span> is the angular velocity
+    of the body; <span class="strong"><strong>r</strong></span> is the distance from the
+    body’s center of gravity to each elemental mass, <span class="emphasis"><em>dm</em></span>;
+    and (<span class="strong"><strong>r</strong></span> × (<span class="strong"><strong>ω</strong></span> <span class="emphasis"><em>×</em></span> <span class="strong"><strong>r</strong></span>))<span class="emphasis"><em>dm</em></span> is the angular
+    momentum of each elemental mass. The term in parentheses is <a id="I_indexterm1_id294682" class="indexterm"/>called a <span class="emphasis"><em>triple vector product</em></span> and can
+    be expanded by taking the vector cross products. <span class="strong"><strong>r</strong></span> and <span class="strong"><strong>ω</strong></span> are
+    vectors that can be written as follows:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>r</strong></span> = x <span class="strong"><strong>i</strong></span> + y <span class="strong"><strong>j</strong></span> + z
+      <span class="strong"><strong>k</strong></span></td></tr><tr><td><span class="strong"><strong>ω =</strong></span> ω<sub>x</sub>
+      <span class="strong"><strong>i</strong></span> + ω<sub>y</sub>
+      <span class="strong"><strong>j</strong></span> + ω<sub>z</sub>
+      <span class="strong"><strong>k</strong></span></td></tr></table><p>Expanding the triple vector product term yields:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>H</strong></span><sub>cg</sub> =
+      ∫ {[(y<sup>2</sup> +
+      z<sup>2</sup>)ω<sub>x</sub> −
+      xyω<sub>y</sub> - xzω<sub>z</sub><span class="strong"><strong>] i +</strong></span></td></tr><tr><td>[ −yxω<sub>x</sub> + (z<sup>2</sup>
+      + x<sup>2</sup>)ω<sub>y</sub> −
+      yzω<sub>z</sub>] <span class="strong"><strong>j</strong></span>
+      +</td></tr><tr><td>[−zxω<sub>x</sub> − zyω<sub>y</sub> +
+      (x<sup>2</sup> + y<sup>2</sup>)ωz]
+      <span class="strong"><strong>k</strong></span>} dm</td></tr></table><p>To simplify this equation, let’s replace a few terms by
+    letting:</p><table style="border: 0; " class="simplelist"><tr><td>I<sub>xx</sub> = ∫ (y<sup>2</sup> +
+      z<sup>2</sup>) dm</td></tr><tr><td>I<sub>yy</sub> = ∫ (z<sup>2</sup> +
+      x<sup>2</sup>) dm</td></tr><tr><td>I<sub>zz</sub> = ∫ (x<sup>2</sup> +
+      y<sup>2</sup>) dm</td></tr><tr><td>I<sub>xy</sub> = I<sub>yx</sub> = ∫ (xy)
+      dm</td></tr><tr><td>I<sub>xz</sub> = I<sub>zx</sub> = ∫ (xz)
+      dm</td></tr><tr><td>I<sub>yz</sub> = I<sub>zy</sub> = ∫ (yz)
+      dm</td></tr></table><p>Substituting these <span class="emphasis"><em>I</em></span> variables, some of which
+    should look familiar to you, back into the expanded equation
+    yields:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>H</strong></span><sub>cg</sub> =
+      [I<sub>xx</sub> ω<sub>x</sub> −
+      I<sub>xy</sub> ω<sub>y</sub> −
+      I<sub>xz</sub> ω<sub>z</sub>] <span class="strong"><strong>i</strong></span> +</td></tr><tr><td>[−I<sub>yx</sub> ω<sub>x</sub> +
+      I<sub>yy</sub> ω<sub>y</sub> −
+      I<sub>yz</sub> ω<sub>z</sub>] <span class="strong"><strong>j</strong></span> +</td></tr><tr><td>[−I<sub>zx</sub> ω<sub>x</sub> −
+      I<sub>zy</sub> ω<sub>y</sub> +
+      I<sub>zz</sub> ω<sub>z</sub>] <span class="strong"><strong>k</strong></span></td></tr></table><p>Simplifying this a step further by letting <span class="strong"><strong>I</strong></span> be a matrix:</p><table style="border: 0; " class="simplelist"><tr><td>I<sub>xx</sub> −I<sub>xy</sub>
+      −I<sub>xz</sub></td></tr><tr><td><span class="strong"><strong>I</strong></span> =
+      −I<sub>yx</sub> I<sub>yy</sub>
+      −I<sub>yz</sub></td></tr><tr><td>−I<sub>zx</sub> −I<sub>zy</sub>
+      I<sub>zz</sub></td></tr></table><p>yields the following equation:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>H</strong></span><sub>cg</sub> =
+      <span class="strong"><strong>I ω</strong></span></td></tr></table><p>You already know that <span class="strong"><strong>I</strong></span>
+    represents the moment of inertia, and the terms that should look familiar
+    to you already are the moment of inertia terms about the three coordinate
+    axes, <span class="emphasis"><em>I</em></span><sub>xx</sub>,
+    <span class="emphasis"><em>I</em></span><sub>yy</sub>, and
+    <span class="emphasis"><em>I</em></span><sub>zz</sub>. The other terms are
+    <a id="I_indexterm1_id295202" class="indexterm"/><a id="I_indexterm1_id295212" class="indexterm"/>called <span class="emphasis"><em>products of inertia</em></span> (see <a class="xref" href="ch01.html#products_of_inertia" title="Figure 1-9. Products of inertia">Figure 1-9</a>):</p><table style="border: 0; " class="simplelist"><tr><td>I<sub>xy</sub> = I<sub>yx</sub> = ∫ (xy)
+      dm</td></tr><tr><td>I<sub>xz</sub> = I<sub>zx</sub> = ∫ (xz)
+      dm</td></tr><tr><td>I<sub>yz</sub> = I<sub>zy</sub> = ∫ (yz)
+      dm</td></tr></table><div class="figure"><a id="products_of_inertia"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject1_id295278"/><img src="httpatomoreillycomsourceoreillyimages1598878.png" alt="Products of inertia"/></div></div><div class="figure-title">Figure 1-9. Products of inertia</div></div><p>Just like the parallel axis theorem, there’s a similar <a id="I_indexterm1_id295299" class="indexterm"/><a id="I_indexterm1_id295305" class="indexterm"/>transfer of axis formula that applies to products of
+    inertia:</p><table style="border: 0; " class="simplelist"><tr><td>I<sub>xy</sub> = I<sub>o(xy)</sub> + m
+      d<sub>x</sub> d<sub>y</sub></td></tr><tr><td>I<sub>xz</sub> = I<sub>o(xz)</sub> + m
+      d<sub>x</sub> d<sub>z</sub></td></tr><tr><td>I<sub>yz</sub> = I<sub>o(yz)</sub> + m
+      d<sub>y</sub> d<sub>z</sub></td></tr></table><p>where the <span class="emphasis"><em>I</em></span><sub>o</sub> terms
+    represent the local products of inertia (that is, the products of inertia
+    of the object about axes that pass through its own center of gravity),
+    <span class="emphasis"><em>m</em></span> is the object’s mass, and the
+    <span class="emphasis"><em>d</em></span> terms are the distances between the coordinate axes
+    that pass through the object’s center of gravity and a parallel set of
+    axes some distance away (see <a class="xref" href="ch01.html#transfer_of_axes" title="Figure 1-10. Transfer of axes">Figure 1-10</a>).</p><p>You’ll notice that we did not give you any product of inertia
+      formulas for the simple shapes shown earlier in <a class="xref" href="ch01.html#circular_cylinder_colon_ixx_equals_iyy" title="Figure 1-3. Circular cylinder: Ixx = Iyy = (1/4) mr2 + (1/12) ml2; Izz = (1/2) mr2">Figure 1-3</a> through <a class="xref" href="ch01.html#spherical_shell_colon_ixx_equals_iyy_equ" title="Figure 1-7. Spherical shell: Ixx = Iyy = Izz = (2/3) mr2">Figure 1-7</a>. The reason is that
+      the given moments of inertia were about the<a id="I_indexterm1_id295411" class="indexterm"/> <span class="emphasis"><em>principal axes</em></span> for these shapes. For
+      any body, there exists a set of axes—called the principal axes—oriented
+      such that the product of inertia terms in the inertia tensor are all
+      zero.</p><div class="figure"><a id="transfer_of_axes"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject1_id295437"/><img src="httpatomoreillycomsourceoreillyimages1598879.png" alt="Transfer of axes"/></div></div><div class="figure-title">Figure 1-10. Transfer of axes</div></div><p>For the simple geometries shown earlier, each coordinate axis
+    represented a <a id="I_indexterm1_id295457" class="indexterm"/><a id="I_indexterm1_id295468" class="indexterm"/>plane of symmetry, and products of inertia go to zero about
+    axes that represent planes of symmetry. You can see this by examining the
+    product of inertia formulas, where, for example, all of the
+    <span class="emphasis"><em>(xy)</em></span> terms in the integral will be cancelled out by
+    each corresponding <span class="emphasis"><em>−(xy)</em></span> term if the body is
+    symmetric about the y-axis, as illustrated in <a class="xref" href="ch01.html#symmetry" title="Figure 1-11. Symmetry">Figure 1-11</a>.</p><div class="figure"><a id="symmetry"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject1_id295502"/><img src="httpatomoreillycomsourceoreillyimages1598880.png" alt="Symmetry"/></div></div><div class="figure-title">Figure 1-11. Symmetry</div></div><p>For composite bodies, however, there may not be any planes of
+    symmetry, and the orientation of the principal axes will not be obvious.
+    Further, you may not even want to use the principal axes as your local
+    coordinate axes for a given rigid body since it may be awkward to do so.
+    For example, consider the airplane from the <code class="literal">FlightSim</code> discussion in <a class="xref" href="ch07.html" title="Chapter 7. Real-Time Simulations">Chapter 7</a>, where you’ll have the local coordinate
+    design axes running, relative to the pilot, fore and aft, up and down, and
+    left and right. This orientation is convenient for locating the parts of
+    the wings, tail, elevators, etc. with respect to one another, but these
+    axes don’t necessarily represent the principal axes of the airplane. The
+    end result is that you’ll use axes that are convenient and deal with the
+    nonzero products of inertia (which, by the way, can be either positive or
+    negative).</p><p>We already showed you how to calculate the combined moments of
+    inertia for a composite body made up of a few smaller elements. Accounting
+    for the product of inertia terms follows the same procedure except that,
+    typically, your elements are such that their local product of inertia
+    terms are zero. This is the case only if you represent your elements by
+    simple geometries such as point masses, spheres, rectangles, etc. That
+    being the case, the main contribution to the rigid body’s products of
+    inertia will be due to the transfer of axes terms for each element.</p><p>Before looking at some sample code, let’s first revise the element
+    structure to include a new term to hold the element’s local <a id="I_indexterm1_id295553" class="indexterm"/>moment of inertia as follows:</p><a id="I_programlisting1_id295565"/><pre class="programlisting">typedef struct _PointMass
+{
+   float mass;
+   Vector designPosition;
+   Vector correctedPosition;
+   Vector localInertia;
+} PointMass;</pre><p>Here we’re using a vector to represent the three local moment of
+    inertia terms and we’re also assuming that the local products of inertia
+    are zero for each element.</p><p>The following code sample shows how to calculate the <a id="I_indexterm1_id295579" class="indexterm"/>inertia tensor given the component elements:</p><a id="I_programlisting1_id295592"/><pre class="programlisting">float   Ixx, Iyy, Izz, Ixy, Ixz, Iyz;
+Matrix3x3 InertiaTensor;
+
+Ixx = 0;  Iyy = 0;  Izz = 0;
+Ixy = 0;  Ixz = 0;  Iyz = 0;
+
+for (i = 0; i&lt;_NUMELEMENTS; i++)
+{
+   Ixx += Element[i].LocalInertia.x +
+      Element[i].mass * (Element[i].correctedPosition.y *
+      Element[i].correctedPosition.y +
+      Element[i].correctedPosition.z *
+      Element[i].correctedPosition.z);
+
+   Iyy += Element[i].LocalInertia.y +
+      Element[i].mass * (Element[i].correctedPosition.z *
+      Element[i].correctedPosition.z +
+      Element[i].correctedPosition.x *
+      Element[i].correctedPosition.x);
+
+   Izz += Element[i].LocalInertia.z +
+      Element[i].mass * (Element[i].correctedPosition.x *
+      Element[i].correctedPosition.x +
+      Element[i].correctedPosition.y *
+      Element[i].correctedPosition.y);
+
+   Ixy += Element[i].mass * (Element[i].correctedPosition.x *
+      Element[i].correctedPosition.y);
+
+   Ixz += Element[i].mass * (Element[i].correctedPosition.x *
+      Element[i].correctedPosition.z);
+
+   Iyz += Element[i].mass * (Element[i].correctedPosition.y *
+      Element[i].correctedPosition.z);
+}
+
+// e11 stands for element on row 1 column 1, e12 for row 1 column 2, etc.
+InertiaTensor.e11 = Ixx;
+InertiaTensor.e12 = -Ixy;
+InertiaTensor.e13 = -Ixz;
+
+InertiaTensor.e21 = -Ixy;
+InertiaTensor.e22 = Iyy;
+InertiaTensor.e23 = -Iyz;
+
+InertiaTensor.e31 = -Ixz;
+InertiaTensor.e32 = -Iyz;
+InertiaTensor.e33 = Izz;</pre><p>Note that the inertia tensor is calculated about axes that pass
+    through the combined center of gravity for the rigid body, so be sure to
+    use the corrected coordinates for each element relative to the combined
+    center of gravity when applying the transfer of axes formulas.</p><p>We should also mention that this calculation is for the inertia
+    tensor in body-fixed coordinates, or local coordinates. As we discussed
+    earlier in this chapter, it is better to rewrite the angular equation of
+    motion in terms of local coordinates and use the local inertia tensor to
+    save some number crunching in your real-time <a id="I_indexterm1_id295620" class="indexterm"/>simulation.</p></div><div class="sect1" title="Relativistic Time"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="relativistic_time">Relativistic Time</h2></div></div></div><p>To allow for a <a id="re1.9" class="indexterm"/><a id="ti1.9" class="indexterm"/>thorough understanding of how advanced space vehicles work
+    as well as give you a mechanism by which to alter time in your games, we
+    would like to offer a brief introduction to the theory of relativity, and
+    particularly its effect on time. In our everyday experience, it is safe to
+    assume that the clock on your wall is ticking at the same rate as the
+    clock on our wall as we write this. However, the reason we all know the
+    name <a id="I_indexterm1_id295675" class="indexterm"/>Albert Einstein is that he had the foresight to abandon time
+    as a constant. Instead he postulated that <a id="sp1.9" class="indexterm"/><a id="li1.9" class="indexterm"/>light travels at the same speed regardless of the motion of
+    the source.</p><p>That is to say, if you shine a flashlight in a vacuum, the electromagnetic radiation it
+      emits in the form of visible light travels at a set velocity of <span class="emphasis"><em>c</em></span>
+      (299,792,458 m/s). Now, if you take that same flashlight and put it on the nose of a rocket
+      traveling at half that speed directly at you, you might expect that light is traveling at you
+      with a velocity of 1.5<span class="emphasis"><em>c</em></span>. Yet, the rocket-powered flashlight would still
+      be observed as emitting light at a velocity of <span class="emphasis"><em>c</em></span>. As Einstein’s theory of
+      special relativity matured, the postulate has been reformulated to state that there is a
+      maximum speed at which information can be transferred in the space-time continuum, a principal <a id="I_indexterm1_id295737" class="indexterm"/>called <span class="emphasis"><em>locality</em></span>. As electromagnetic radiation has <a id="I_indexterm1_id295748" class="indexterm"/>no mass,<sup>[<a id="CHP-1-FN-4" href="#ftn.CHP-1-FN-4" epub:type="noteref" class="footnote">8</a>]</sup> it travels at this maximum speed in a vacuum.</p><p>The most startling consequence of the theory is that time is no
+    longer absolute. The postulate that the speed of light is constant for all
+    frames of reference requires that time slow down, or
+    <span class="emphasis"><em>dilate</em></span>, as velocity increases. It is actually fairly
+    easy to demonstrate this result.</p><p>The following example depicts a conceptual clock. A beam of light is
+    bouncing between two mirrors. The time it takes for the beam of light to
+    start from one mirror, bounce off the second, and return to the first
+    constitutes one “tick” of this clock. That tick can be calculated
+    as:</p><table style="border: 0; " class="simplelist"><tr><td>Δt = 2L/c</td></tr></table><p>Where <span class="emphasis"><em>L</em></span> is the distance between the mirrors and
+    <span class="emphasis"><em>c</em></span> is the speed of light. <a class="xref" href="ch01.html#traveling_with_the_clock" title="Figure 1-12. Traveling with the clock">Figure 1-12</a> shows what the clock would look like
+    if you were above it traveling at its velocity.</p><div class="figure"><a id="traveling_with_the_clock"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject1_id295820"/><img src="httpatomoreillycomsourceoreillyimages1598881.png" alt="Traveling with the clock"/></div></div><div class="figure-title">Figure 1-12. Traveling with the clock</div></div><p>Now suppose that you are above the mirrors as they speed past you to
+    the right. Then the clock would look something like <a class="xref" href="ch01.html#stationary_with_respect_to_the_clock" title="Figure 1-13. Stationary with respect to the clock">Figure 1-13</a>.</p><div class="figure"><a id="stationary_with_respect_to_the_clock"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject1_id295858"/><img src="httpatomoreillycomsourceoreillyimages1598882.png" alt="Stationary with respect to the clock"/></div></div><div class="figure-title">Figure 1-13. Stationary with respect to the clock</div></div><p>One tick of the clock is now defined as twice the distance of the
+    hypotenuse over the speed of light. Clearly <span class="emphasis"><em>H</em></span> must be
+    larger than <span class="emphasis"><em>L</em></span>, so we see that the clock with the
+    relative velocity will take longer to tick than if you were moving with
+    the clock.</p><p>If this isn’t clear, we can also come to the same conclusion a
+    different way. If we define the speed of light as the amount of time it
+    takes for the light beam to travel the distance between the mirrors
+    divided by the time it took to travel that distance, we see that:</p><table style="border: 0; " class="simplelist"><tr><td>c = 2L/Δt</td></tr></table><p>but because the speed of light must be held constant in all frames
+    of reference via locality, we also have:</p><table style="border: 0; " class="simplelist"><tr><td>c = 2H/Δt</td></tr></table><p>For the two preceding equations to be equivalent, Δt must be
+    different for each system.</p><p>This means that if I were in a rocket moving at high velocity past you as you read this
+      book, you would look at the clock on my rocket wall and see it ticking more slowly than your
+      clock. Now, it may seem as though I would look out of my rocket and see your clock running
+      fast, but in fact the opposite is true. I would consider myself at rest and you speeding past
+      me such that I would say <span class="emphasis"><em>your</em></span> clock is running slowly. This may seem
+      counterintuitive, but think of it in the same way as visual perspective. If you are at a great
+      distance from me, then you appear to be small. That doesn’t imply that I would appear to be
+      huge to you!</p><p>Now the amount of dilation for a given velocity
+    <span class="emphasis"><em>v</em></span> is <a id="lo1.9" class="indexterm"/>given by the <span class="emphasis"><em>Lorentz
+    transformation</em></span>:</p><table style="border: 0; " class="simplelist"><tr><td>Δt’ = γΔt</td></tr></table><p>where:</p><div class="informalequation"><div class="mediaobject"><img src="eq_0101.png" alt="Stationary with respect to the clock"/></div></div><p>is called <a id="I_indexterm1_id295985" class="indexterm"/>the <span class="emphasis"><em>Lorentz factor</em></span>.</p><p>For velocities approaching the speed of light, the effect of time
+    dilation is dramatic. Imagine if you had a twin sister. She boards a
+    spaceship and is accelerated to three-fourths the speed of light relative
+    to you on Earth. Upon her return, according to her clock, 20 years have
+    elapsed since she left. However, due to time dilation you will have aged
+    30 years. While this seems paradoxical given that you both will have
+    observed each other’s time as running slowly compared to your own, the
+    paradox is resolved by the fact that special relativity claims only that
+    inertial frames of reference are identical. For the spaceship to return to
+    Earth, it must accelerate by changing directions or, in other words,
+    become a noninertial frame of reference. Once the ship is no longer an
+    inertial frame of reference, there will appear to be a jump in the
+    stay-at-home twin’s age. Strange but true!</p><p>In addition to time dilation due to relative velocity, time also slows down in the
+      presence of strong gravitational fields as a result of Einstein’s theory of general
+      relativity. This sort of time dilation is not relative in the sense that if I were closer to a
+      black hole than you, we’d both agree that my clock is ticking less often than yours. However,
+      given that all physical processes would be slower, there is no way to establish which clock is
+      “faster” and which is “slower.” It is all relative!</p><p>As some games require a way to speed up or slow down time, the
+    applications of time dilation allow for a physical phenomenon to enable
+    time manipulation. Imagine your character needing to be sent to the future
+    to complete some task. That character could be put into a centrifuge and
+    accelerated near the speed of light. Upon exiting the centrifuge, he would
+    essentially have time-traveled into the future. However, if you plan to
+    stay within the limits of physics, then it is a one-way trip: there is no
+    way to reverse time in relativity! Additionally, if you would like to send
+    a character to a nearby star, you can do so within the limits of physics
+    as well. By accelerating a spaceship, a human being would be able to
+    travel a great distance in a lifetime. In fact, with a constant
+    acceleration of 9.8 m/s<sup>2</sup>, which would make the
+    astronauts feel like they were on Earth, you could travel the entire
+    visible galaxy. However, you would have essentially time-traveled billions
+    of years into the future. We are sure that you can imagine any number of
+    scenarios where such a mechanism might make your game more interesting
+    while always remaining in the realm of the physically possible!</p><p>Now, besides those implications to games involving space flight or
+    high-velocity travel, time dilation is also important to some surprising
+    digital electronic applications. For instance, the Global Positioning
+    System (GPS), described in detail in <a class="xref" href="ch22.html" title="Chapter 22. Gaming from One Place to Another">Chapter 22</a>, must take relativistic time
+    dilation into account when calculating position. The satellite’s high
+    speed slows the clock compared to your watch on Earth; however, being
+    farther up the Earth’s gravity causes it to tick faster than a terrestrial
+    clock. The specifics of this combined effect are discussed in <a class="xref" href="ch22.html" title="Chapter 22. Gaming from One Place to Another">Chapter 22</a>.</p><p>Another point you might find interesting is that it is now easy to see how the “you can’t
+      travel faster than light” rule is a result of the theory of relativity. Should you accelerate
+      such that your velocity, <span class="emphasis"><em>v</em></span>, is equal to <span class="emphasis"><em>c</em></span>, the
+      Lorentz transformation attempts to divide by zero. For games where faster-than-light travel is
+      a practical necessity, you will have to imagine a mechanism to prevent this but be able to
+      break the rules with <a id="I_indexterm1_id296068" class="indexterm"/><a id="I_indexterm1_id296078" class="indexterm"/><a id="I_indexterm1_id296087" class="indexterm"/><a id="I_indexterm1_id296096" class="indexterm"/><a id="I_indexterm1_id296106" class="indexterm"/>style.</p></div><div class="footnotes" epub:type="footnotes"><br/><hr style="width: 100; align: left;"/><div class="footnote" epub:type="footnote" id="ftn.CHP-1-FN-1"><p><sup>[<a href="#CHP-1-FN-1" class="para">5</a>] </sup><span class="emphasis"><em>Linear motion</em></span> refers to motion in space
+        without regard to rotation; <span class="emphasis"><em>angular motion</em></span> refers
+        specifically to the rotation of a body about any axis (the body may or
+        may not be undergoing linear motion at the same time).</p></div><div class="footnote" epub:type="footnote" id="ftn.CHP-1-FN-2"><p><sup>[<a href="#CHP-1-FN-2" class="para">6</a>] </sup>In this case, <span class="strong"><strong>I</strong></span> will be a
+        second-rank tensor, which is essentially a 3×3 matrix. A vector is
+        actually a tensor of rank one, and a scalar is actually a tensor of
+        rank zero.</p></div><div class="footnote" epub:type="footnote" id="ftn.CHP-1-FN-3"><p><sup>[<a href="#CHP-1-FN-3" class="para">7</a>] </sup>In two dimensions, it’s OK to leave the angular equation of
+        motion as it’s shown here since the moment of inertia term is simply a
+        constant scalar quantity.</p></div><div class="footnote" epub:type="footnote" id="ftn.CHP-1-FN-4"><p><sup>[<a href="#CHP-1-FN-4" class="para">8</a>] </sup>Photons, the particle form of electromagnetic radiation, can have relativistic mass
+          but are hypothesized to have no “rest mass.” To avoid getting into quantum
+          electrodynamics, here we’ll just consider them without mass.</p></div></div></section></body></html>

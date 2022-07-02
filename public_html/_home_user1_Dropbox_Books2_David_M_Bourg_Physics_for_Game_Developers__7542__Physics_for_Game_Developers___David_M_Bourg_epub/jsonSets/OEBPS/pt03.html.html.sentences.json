@@ -1,0 +1,162 @@
+[
+	{
+		"txt": "",
+		"why": "br tag like",
+		"sentenceIndex": 8036,
+		"nouns": [],
+		"dOIndex": 0,
+		"isQuote": false
+	},
+	{
+		"txt": "Part III. Physical Modeling",
+		"why": "p",
+		"tags": [
+			"h1",
+			"div",
+			"div",
+			"div",
+			"div"
+		],
+		"sentenceIndex": 8037,
+		"nouns": [
+			"Part",
+			"III"
+		],
+		"dOIndex": 1,
+		"nouns2": [
+			"Physical",
+			"Modeling"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 8038,
+		"nouns": [],
+		"dOIndex": 2
+	},
+	{
+		"txt": "Part III focuses on physical modeling. ",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div"
+		],
+		"sentenceIndex": 8039,
+		"nouns": [
+			"Part",
+			"III"
+		],
+		"dOIndex": 3
+	},
+	{
+		"txt": " The aim of this part is to provide you with valuable physical insight so you can make better judgments on what to include in your models and what you can safely leave out without sacrificing physical realism. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 8040,
+		"nouns": [
+			"aim",
+			"part",
+			"insight",
+			"judgments",
+			"models",
+			"realism"
+		],
+		"dOIndex": 4,
+		"nouns2": [
+			"insight",
+			"judgments",
+			"realism"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.05128205128205128,
+			"words": [
+				"leave",
+				"safely",
+				"better"
+			],
+			"positive": [
+				"safely",
+				"better"
+			],
+			"negative": [
+				"leave"
+			]
+		}
+	},
+	{
+		"txt": " We cannot and do not attempt to cover all the possible things you might want to simulate. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 8041,
+		"nouns": [
+			"attempt",
+			"things"
+		],
+		"dOIndex": 5,
+		"nouns2": [
+			"attempt"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.05263157894736842,
+			"words": [
+				"want"
+			],
+			"positive": [
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Instead, we cover several typical things you may try to simulate in a game such as aircraft, boats, and sports balls, among others in order to give you some insight into their physical nature and into some of the choices you must make when developing suitable models. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"div",
+			"div"
+		],
+		"sentenceIndex": 8042,
+		"nouns": [
+			"things",
+			"game",
+			"aircraft",
+			"boats",
+			"sports",
+			"balls",
+			"others",
+			"order",
+			"insight",
+			"nature",
+			"choices",
+			"models"
+		],
+		"dOIndex": 6,
+		"nouns2": [
+			"Instead",
+			"aircraft",
+			"insight",
+			"choices"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.04081632653061224,
+			"words": [
+				"suitable"
+			],
+			"positive": [
+				"suitable"
+			],
+			"negative": []
+		}
+	}
+]

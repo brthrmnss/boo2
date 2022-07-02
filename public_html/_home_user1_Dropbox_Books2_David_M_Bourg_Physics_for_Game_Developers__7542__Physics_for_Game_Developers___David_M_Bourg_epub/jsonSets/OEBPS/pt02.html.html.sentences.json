@@ -1,0 +1,111 @@
+[
+	{
+		"txt": "",
+		"why": "br tag like",
+		"sentenceIndex": 4704,
+		"nouns": [],
+		"dOIndex": 0,
+		"isQuote": false
+	},
+	{
+		"txt": "Part II. Rigid Body Dynamics",
+		"why": "p",
+		"tags": [
+			"h1",
+			"div",
+			"div",
+			"div",
+			"div"
+		],
+		"sentenceIndex": 4705,
+		"nouns": [
+			"Part",
+			"II",
+			"Body Dynamics"
+		],
+		"dOIndex": 1,
+		"nouns2": [
+			"Dynamics"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 4706,
+		"nouns": [],
+		"dOIndex": 2
+	},
+	{
+		"txt": "Part II focuses on rigid body dynamics and development of both single  and multibody simulations. ",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div"
+		],
+		"sentenceIndex": 4707,
+		"nouns": [
+			"Part",
+			"II",
+			"body",
+			"dynamics",
+			"development",
+			"both",
+			"multibody",
+			"simulations"
+		],
+		"dOIndex": 3,
+		"nouns2": [
+			"dynamics",
+			"development",
+			"multibody",
+			"simulations"
+		]
+	},
+	{
+		"txt": " This part covers numerical integration, real time simulation of particles and rigid bodies, and connected rigid bodies. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4708,
+		"nouns": [
+			"part",
+			"integration",
+			"time",
+			"simulation",
+			"particles",
+			"bodies",
+			"bodies"
+		],
+		"dOIndex": 4,
+		"nouns2": [
+			"integration",
+			"simulation",
+			"particles"
+		]
+	},
+	{
+		"txt": " Generally, this part covers what most game programmers consider elements of a physics engine. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 4709,
+		"nouns": [
+			"part",
+			"game",
+			"programmers",
+			"elements",
+			"physics",
+			"engine"
+		],
+		"dOIndex": 5,
+		"nouns2": [
+			"Generally",
+			"programmers",
+			"elements",
+			"physics"
+		]
+	}
+]

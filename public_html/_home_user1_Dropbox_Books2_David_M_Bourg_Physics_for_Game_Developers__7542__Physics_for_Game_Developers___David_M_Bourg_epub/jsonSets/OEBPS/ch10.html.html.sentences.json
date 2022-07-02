@@ -1,0 +1,8351 @@
+[
+	{
+		"txt": "",
+		"why": "br tag like",
+		"sentenceIndex": 6080,
+		"nouns": [],
+		"dOIndex": 0,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 10. Implementing Collision Response",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6081,
+		"nouns": [
+			"Chapter",
+			"Collision Response"
+		],
+		"dOIndex": 1,
+		"nouns2": [
+			"Chapter",
+			"Implementing",
+			"Collision",
+			"Response"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.6666666666666666,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "In this chapter, we'll show you how to add a ",
+		"why": "link",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 6082,
+		"nouns": [
+			"chapter",
+			"ll",
+			"show"
+		],
+		"dOIndex": 2,
+		"nouns2": [
+			"chapter"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6083,
+		"nouns": [],
+		"dOIndex": 3,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6084,
+		"nouns": [],
+		"dOIndex": 4,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6085,
+		"nouns": [],
+		"dOIndex": 5,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "little excitement to the hovercraft example discussed in the preceding chapter. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6086,
+		"nouns": [
+			"excitement",
+			"hovercraft",
+			"example",
+			"chapter"
+		],
+		"dOIndex": 6,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"excitement",
+			"hovercraft",
+			"example",
+			"chapter"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.25,
+			"words": [
+				"excitement"
+			],
+			"positive": [
+				"excitement"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Specifically, we'll add another hovercraft and show you how to add collision response so that the hovercraft can crash into each other and bounce off like a couple of bumper cars. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6087,
+		"nouns": [
+			"ll",
+			"hovercraft",
+			"show",
+			"collision",
+			"response",
+			"hovercraft",
+			"crash",
+			"couple",
+			"bumper",
+			"cars"
+		],
+		"dOIndex": 7,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Specifically",
+			"hovercraft",
+			"collision",
+			"response"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.06060606060606061,
+			"words": [
+				"like",
+				"crash",
+				"collision"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": [
+				"crash",
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " This is an important element for many types of games, so it's crucial that you understand the code that we'll present here. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6088,
+		"nouns": [
+			"element",
+			"types",
+			"games",
+			"code",
+			"ll"
+		],
+		"dOIndex": 8,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"element"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08333333333333333,
+			"words": [
+				"important"
+			],
+			"positive": [
+				"important"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Now would be a good time to go back and review ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 6089,
+		"nouns": [
+			"time",
+			"review"
+		],
+		"dOIndex": 9,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.23076923076923078,
+			"words": [
+				"good"
+			],
+			"positive": [
+				"good"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "Chapter 5",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 6090,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 10,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " to refresh your memory on the fundamentals of rigid body collision response since we'll use the principles and formulas discussed there to develop the collision response algorithms for the hovercraft simulation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6091,
+		"nouns": [
+			"memory",
+			"fundamentals",
+			"body",
+			"collision",
+			"response",
+			"ll",
+			"use",
+			"principles",
+			"formulas",
+			"collision",
+			"response",
+			"algorithms",
+			"hovercraft",
+			"simulation"
+		],
+		"dOIndex": 11,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"fundamentals",
+			"collision",
+			"response",
+			"principles",
+			"formulas",
+			"algorithms",
+			"hovercraft",
+			"simulation"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.12121212121212122,
+			"words": [
+				"collision",
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision",
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " In ",
+		"why": "link",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 6092,
+		"nouns": [],
+		"dOIndex": 12,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 8",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 6093,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 13,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " you saw how to implement linear collision response for particles, and now we'll show you how to handle angular effects.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6094,
+		"nouns": [
+			"collision",
+			"response",
+			"particles",
+			"ll",
+			"show",
+			"effects"
+		],
+		"dOIndex": 14,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"response",
+			"particles",
+			"effects"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.09523809523809523,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 6095,
+		"nouns": [],
+		"dOIndex": 15,
+		"isQuote": false
+	},
+	{
+		"txt": "To start simply, we'll first show you how to implement collision response as if the hovercraft were a couple of particles just like those in ",
+		"why": "link",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 6096,
+		"nouns": [
+			"ll",
+			"first",
+			"show",
+			"collision",
+			"response",
+			"hovercraft",
+			"couple",
+			"particles"
+		],
+		"dOIndex": 16,
+		"nouns2": [
+			"collision",
+			"response",
+			"hovercraft",
+			"particles"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"like",
+				"collision"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": [
+				"collision"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 8",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 6097,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 17,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6098,
+		"nouns": [],
+		"dOIndex": 18,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " This approach uses only linear impulse and does not include angular effects, so the results will be somewhat unrealistic for these hovercraft; however, this approach is applicable to other types of problems that you may be interested in (for example, billiard ball collisions). ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6099,
+		"nouns": [
+			"approach",
+			"impulse",
+			"effects",
+			"results",
+			"hovercraft",
+			"approach",
+			"types",
+			"problems",
+			"example",
+			"billiard",
+			"ball",
+			"collisions"
+		],
+		"dOIndex": 19,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"approach",
+			"impulse",
+			"effects",
+			"results",
+			"hovercraft",
+			"problems",
+			"example",
+			"billiard",
+			"collisions"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.044444444444444446,
+			"words": [
+				"collisions",
+				"interested",
+				"problems"
+			],
+			"positive": [
+				"interested"
+			],
+			"negative": [
+				"collisions",
+				"problems"
+			]
+		}
+	},
+	{
+		"txt": " Plus, taking this approach allows us to show you very clearly the distinction between linear and angular effects. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6100,
+		"nouns": [
+			"Plus",
+			"approach",
+			"show",
+			"distinction",
+			"effects"
+		],
+		"dOIndex": 20,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"approach",
+			"distinction",
+			"effects"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.05,
+			"words": [
+				"clearly"
+			],
+			"positive": [
+				"clearly"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Including angular effects will make the simulation much more realistic; when the hovercraft crash into each other, not only will they bounce off each other, but they will also spin.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6101,
+		"nouns": [
+			"effects",
+			"simulation",
+			"hovercraft",
+			"crash"
+		],
+		"dOIndex": 21,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Including",
+			"effects",
+			"simulation",
+			"hovercraft"
+		],
+		"highfreq": {
+			"will": 3
+		},
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.06451612903225806,
+			"words": [
+				"crash"
+			],
+			"positive": [],
+			"negative": [
+				"crash"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 6102,
+		"nouns": [],
+		"dOIndex": 22,
+		"isQuote": false
+	},
+	{
+		"txt": "Before diving into collisions, let's add another hovercraft to the example we started in ",
+		"why": "link",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 6103,
+		"nouns": [
+			"collisions",
+			"hovercraft",
+			"example"
+		],
+		"dOIndex": 23,
+		"nouns2": [
+			"Before",
+			"collisions",
+			"hovercraft",
+			"example"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.13333333333333333,
+			"words": [
+				"collisions"
+			],
+			"positive": [],
+			"negative": [
+				"collisions"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 9",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 6104,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 24,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6105,
+		"nouns": [],
+		"dOIndex": 25,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Recall in that example, we had a single craft that you could control using the keyboard. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6106,
+		"nouns": [
+			"example",
+			"craft",
+			"control",
+			"keyboard"
+		],
+		"dOIndex": 26,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Recall",
+			"example",
+			"control",
+			"keyboard"
+		]
+	},
+	{
+		"txt": " Now, we'll add another hovercraft that simply moves under constant forward thrust. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6107,
+		"nouns": [
+			"ll",
+			"hovercraft",
+			"moves",
+			"thrust"
+		],
+		"dOIndex": 27,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hovercraft"
+		]
+	},
+	{
+		"txt": " Later, when we add collision detection and response you'll be able to run into this new hovercraft to alter its course.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6108,
+		"nouns": [
+			"collision",
+			"detection",
+			"response",
+			"ll",
+			"hovercraft",
+			"course"
+		],
+		"dOIndex": 28,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"detection",
+			"response",
+			"hovercraft"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.09090909090909091,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 6109,
+		"nouns": [],
+		"dOIndex": 29,
+		"isQuote": false
+	},
+	{
+		"txt": "Referring back to the example from ",
+		"why": "link",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 6110,
+		"nouns": [
+			"example"
+		],
+		"dOIndex": 30,
+		"nouns2": [
+			"Referring",
+			"example"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 9, we need to add another craft as follows:",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 6111,
+		"nouns": [
+			"Chapter",
+			"craft"
+		],
+		"dOIndex": 31,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6112,
+		"nouns": [],
+		"dOIndex": 32,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6113,
+		"nouns": [],
+		"dOIndex": 33,
+		"isQuote": false
+	},
+	{
+		"txt": "We're calling the new hovercraft, very creatively, Craft2 . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"section"
+		],
+		"sentenceIndex": 6114,
+		"nouns": [
+			"re",
+			"hovercraft",
+			"Craft"
+		],
+		"dOIndex": 34,
+		"nouns2": [
+			"hovercraft"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " In the Initialize function, we must now add the following code:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"section"
+		],
+		"sentenceIndex": 6115,
+		"nouns": [
+			"Initialize",
+			"function",
+			"code"
+		],
+		"dOIndex": 35,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Initialize",
+			"function"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6116,
+		"nouns": [],
+		"dOIndex": 36,
+		"isQuote": false
+	},
+	{
+		"txt": "This new code sample positions the second hovercraft in the middle of the screen and pointing toward the bottom.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6117,
+		"nouns": [
+			"code",
+			"sample",
+			"positions",
+			"second",
+			"hovercraft",
+			"middle",
+			"screen",
+			"bottom"
+		],
+		"dOIndex": 37,
+		"nouns2": [
+			"positions",
+			"hovercraft"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"section"
+		],
+		"sentenceIndex": 6118,
+		"nouns": [],
+		"dOIndex": 38,
+		"isQuote": false
+	},
+	{
+		"txt": "There are a few required changes to UpdateSimulation as well. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"section"
+		],
+		"sentenceIndex": 6119,
+		"nouns": [
+			"changes",
+			"UpdateSimulation"
+		],
+		"dOIndex": 39,
+		"nouns2": [
+			"changes",
+			"UpdateSimulation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " First, add Craft2.UpdateBodyEuler(dt); right after the line Craft.UpdateBodyEuler(dt); . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"section"
+		],
+		"sentenceIndex": 6120,
+		"nouns": [
+			"First",
+			"Craft",
+			"UpdateBodyEuler",
+			"dt",
+			"right",
+			"line",
+			"Craft",
+			"UpdateBodyEuler",
+			"dt"
+		],
+		"dOIndex": 40,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"UpdateBodyEuler"
+		]
+	},
+	{
+		"txt": " Then, add DrawCraft(Craft2, RGB(200, 200, 0)); after the similar line that draws the first Craft . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"section"
+		],
+		"sentenceIndex": 6121,
+		"nouns": [
+			"DrawCraft",
+			"Craft",
+			"RGB",
+			"line",
+			"first",
+			"Craft"
+		],
+		"dOIndex": 41,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"DrawCraft"
+		]
+	},
+	{
+		"txt": " Craft2 will be drawn yellow to distinguish it from the first Craft . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"section"
+		],
+		"sentenceIndex": 6122,
+		"nouns": [
+			"Craft",
+			"first",
+			"Craft"
+		],
+		"dOIndex": 42,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Finally, add the following lies at the end of UpdateSimulation:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"section"
+		],
+		"sentenceIndex": 6123,
+		"nouns": [
+			"end",
+			"UpdateSimulation"
+		],
+		"dOIndex": 43,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Finally",
+			"UpdateSimulation"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6124,
+		"nouns": [],
+		"dOIndex": 44,
+		"isQuote": false
+	},
+	{
+		"txt": "Now, we can add the code to handle collision detection and response, allowing you to ram your hovercraft into the new one we just added.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6125,
+		"nouns": [
+			"code",
+			"collision",
+			"detection",
+			"response",
+			"hovercraft",
+			"one"
+		],
+		"dOIndex": 45,
+		"nouns2": [
+			"collision",
+			"detection",
+			"response",
+			"hovercraft"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.08,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"section"
+		],
+		"sentenceIndex": 6126,
+		"nouns": [],
+		"dOIndex": 46,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 6127,
+		"nouns": [],
+		"dOIndex": 47,
+		"isQuote": false
+	},
+	{
+		"txt": "Linear Collision Response",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6128,
+		"nouns": [
+			"Linear Collision",
+			"Response"
+		],
+		"dOIndex": 48,
+		"nouns2": [
+			"Linear",
+			"Collision",
+			"Response"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.6666666666666666,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6129,
+		"nouns": [],
+		"dOIndex": 49,
+		"isQuote": false
+	},
+	{
+		"txt": "In this section, ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6130,
+		"nouns": [
+			"section"
+		],
+		"dOIndex": 50,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"section"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6131,
+		"nouns": [],
+		"dOIndex": 51,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "we'll show you how to implement simple collision response, assuming that the two hovercraft are particles. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6132,
+		"nouns": [
+			"ll",
+			"show",
+			"collision",
+			"response",
+			"two",
+			"hovercraft",
+			"particles"
+		],
+		"dOIndex": 52,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"response",
+			"hovercraft",
+			"particles"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.11764705882352941,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " We're going to implement only bare minimum collision detection in this simulation; however, regardless of the level of sophistication of your collision detection routines, there are very specific pieces of information that you must collect from your collision detection routine(s) in order for your physics based collision response routines to work.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6133,
+		"nouns": [
+			"re",
+			"collision",
+			"detection",
+			"simulation",
+			"level",
+			"sophistication",
+			"collision",
+			"detection",
+			"routines",
+			"pieces",
+			"information",
+			"collision",
+			"detection",
+			"order",
+			"physics",
+			"collision",
+			"response",
+			"routines",
+			"work"
+		],
+		"dOIndex": 53,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"detection",
+			"simulation",
+			"sophistication",
+			"routines",
+			"information",
+			"physics",
+			"response"
+		],
+		"highfreq": {
+			"collision": 4,
+			"detection": 3,
+			"your": 3
+		},
+		"sentiment": {
+			"score": -8,
+			"comparative": -0.15384615384615385,
+			"words": [
+				"collision",
+				"collision",
+				"collision",
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision",
+				"collision",
+				"collision",
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6134,
+		"nouns": [],
+		"dOIndex": 54,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6135,
+		"nouns": [],
+		"dOIndex": 55,
+		"isQuote": false
+	},
+	{
+		"txt": "To revise the hovercraft example of the previous chapter to include simple collision response, you'll have to modify the UpdateSimulation function and add a couple more functions: CheckForCollision and ApplyImpulse .",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6136,
+		"nouns": [
+			"hovercraft",
+			"example",
+			"chapter",
+			"collision",
+			"response",
+			"ll",
+			"UpdateSimulation",
+			"function",
+			"couple",
+			"functions",
+			"CheckForCollision",
+			"ApplyImpulse"
+		],
+		"dOIndex": 56,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hovercraft",
+			"example",
+			"chapter",
+			"collision",
+			"response",
+			"UpdateSimulation",
+			"function",
+			"functions",
+			"CheckForCollision",
+			"ApplyImpulse"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.06451612903225806,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6137,
+		"nouns": [],
+		"dOIndex": 57,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6138,
+		"nouns": [],
+		"dOIndex": 58,
+		"isQuote": false
+	},
+	{
+		"txt": "Before showing you CheckForCollision, we want to explain what your ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6139,
+		"nouns": [
+			"CheckForCollision"
+		],
+		"dOIndex": 59,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Before",
+			"CheckForCollision"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.09090909090909091,
+			"words": [
+				"want"
+			],
+			"positive": [
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "collision detection function must do. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6140,
+		"nouns": [
+			"collision",
+			"detection",
+			"function"
+		],
+		"dOIndex": 60,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"detection",
+			"function"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.3333333333333333,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " First, it must let you know whether or not there is a collision occurring between the hovercraft. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6141,
+		"nouns": [
+			"First",
+			"collision",
+			"hovercraft"
+		],
+		"dOIndex": 61,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"hovercraft"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.10526315789473684,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " Secondly, it must let you know if the hovercraft are penetrating each other. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6142,
+		"nouns": [
+			"hovercraft"
+		],
+		"dOIndex": 62,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Secondly",
+			"hovercraft"
+		]
+	},
+	{
+		"txt": " Thirdly, if the hovercraft are colliding, it must tell you what the collision normal vector is and what the relative velocity",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6143,
+		"nouns": [
+			"hovercraft",
+			"collision",
+			"vector",
+			"velocity"
+		],
+		"dOIndex": 63,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Thirdly",
+			"hovercraft",
+			"collision",
+			"velocity"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.13636363636363635,
+			"words": [
+				"collision",
+				"colliding"
+			],
+			"positive": [],
+			"negative": [
+				"collision",
+				"colliding"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6144,
+		"nouns": [],
+		"dOIndex": 64,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " is between the colliding hovercraft.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6145,
+		"nouns": [
+			"hovercraft"
+		],
+		"dOIndex": 65,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hovercraft"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.16666666666666666,
+			"words": [
+				"colliding"
+			],
+			"positive": [],
+			"negative": [
+				"colliding"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6146,
+		"nouns": [],
+		"dOIndex": 66,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6147,
+		"nouns": [],
+		"dOIndex": 67,
+		"isQuote": false
+	},
+	{
+		"txt": "To determine whether or not there is a collision, you need to consider two factors:",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6148,
+		"nouns": [
+			"collision",
+			"two",
+			"factors"
+		],
+		"dOIndex": 68,
+		"nouns2": [
+			"collision",
+			"factors"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.13333333333333333,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6149,
+		"nouns": [],
+		"dOIndex": 69,
+		"isQuote": false
+	},
+	{
+		"txt": "Whether or not the objects are close enough, within numerical tolerances, to be considered in colliding contact",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"li",
+			"ul",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6150,
+		"nouns": [
+			"objects",
+			"tolerances",
+			"contact"
+		],
+		"dOIndex": 70,
+		"nouns2": [
+			"Whether",
+			"objects",
+			"tolerances",
+			"contact"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.058823529411764705,
+			"words": [
+				"colliding"
+			],
+			"positive": [],
+			"negative": [
+				"colliding"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6151,
+		"nouns": [],
+		"dOIndex": 71,
+		"isQuote": false
+	},
+	{
+		"txt": "What the relative normal velocity is between the objects",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"li",
+			"ul",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6152,
+		"nouns": [
+			"velocity",
+			"objects"
+		],
+		"dOIndex": 72,
+		"nouns2": [
+			"velocity",
+			"objects"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6153,
+		"nouns": [],
+		"dOIndex": 73,
+		"isQuote": false
+	},
+	{
+		"txt": "If the objects aren't close to each other, they obviously have not collided. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6154,
+		"nouns": [
+			"objects",
+			"aren",
+			"t"
+		],
+		"dOIndex": 74,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"objects"
+		]
+	},
+	{
+		"txt": " If they are within your tolerance for contact, then they may be colliding; and if they are touching and overlapping such that they are moving inside each other, they are penetrating, as illustrated in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6155,
+		"nouns": [
+			"tolerance",
+			"contact"
+		],
+		"dOIndex": 75,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"tolerance",
+			"contact"
+		],
+		"highfreq": {
+			"they": 5
+		},
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.027777777777777776,
+			"words": [
+				"colliding",
+				"tolerance"
+			],
+			"positive": [
+				"tolerance"
+			],
+			"negative": [
+				"colliding"
+			]
+		}
+	},
+	{
+		"txt": "Figure 10 1",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6156,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 76,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6157,
+		"nouns": [],
+		"dOIndex": 77,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " If your collision detection routine finds that the two objects are indeed close enough to be in colliding contact, then you have to do another check on the relative normal velocity to see if they are moving away from each other or toward each other. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6158,
+		"nouns": [
+			"collision",
+			"detection",
+			"two",
+			"objects",
+			"contact",
+			"check",
+			"velocity"
+		],
+		"dOIndex": 78,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"detection",
+			"objects",
+			"contact",
+			"velocity"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.06382978723404255,
+			"words": [
+				"colliding",
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"colliding",
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " A collision occurs when the objects are in contact and the contact points are moving toward each other.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6159,
+		"nouns": [
+			"collision",
+			"objects",
+			"contact",
+			"contact",
+			"points"
+		],
+		"dOIndex": 79,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"objects",
+			"contact"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.10526315789473684,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6160,
+		"nouns": [],
+		"dOIndex": 80,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6161,
+		"nouns": [],
+		"dOIndex": 81,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6162,
+		"nouns": [],
+		"dOIndex": 82,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6163,
+		"nouns": [],
+		"dOIndex": 83,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6164,
+		"nouns": [],
+		"dOIndex": 84,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 10 1. Collision nomenclature",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6165,
+		"nouns": [
+			"Figure",
+			"Collision",
+			"nomenclature"
+		],
+		"dOIndex": 85,
+		"nouns2": [
+			"Figure",
+			"Collision",
+			"nomenclature"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6166,
+		"nouns": [],
+		"dOIndex": 86,
+		"isQuote": false
+	},
+	{
+		"txt": "Penetration is ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6167,
+		"nouns": [
+			"Penetration"
+		],
+		"dOIndex": 87,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Penetration"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6168,
+		"nouns": [],
+		"dOIndex": 88,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "important because if your objects overlap during the simulation, the results won't look realistic you'll have one hovercraft moving inside the other. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6169,
+		"nouns": [
+			"objects",
+			"overlap",
+			"simulation",
+			"results",
+			"t",
+			"ll",
+			"one",
+			"hovercraft"
+		],
+		"dOIndex": 89,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"objects",
+			"overlap",
+			"simulation",
+			"results",
+			"hovercraft"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08695652173913043,
+			"words": [
+				"important"
+			],
+			"positive": [
+				"important"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " What you have to do is detect this penetration condition and then back up your simulation, reduce the time step, and try again. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6170,
+		"nouns": [
+			"penetration",
+			"condition",
+			"simulation",
+			"time",
+			"step"
+		],
+		"dOIndex": 90,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"penetration",
+			"condition",
+			"simulation"
+		]
+	},
+	{
+		"txt": " You keep doing this until they are no longer penetrating or they are within tolerance to be considered colliding.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6171,
+		"nouns": [
+			"tolerance"
+		],
+		"dOIndex": 91,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"tolerance"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"colliding",
+				"tolerance",
+				"no"
+			],
+			"positive": [
+				"tolerance"
+			],
+			"negative": [
+				"colliding",
+				"no"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6172,
+		"nouns": [],
+		"dOIndex": 92,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6173,
+		"nouns": [],
+		"dOIndex": 93,
+		"isQuote": false
+	},
+	{
+		"txt": "You need to determine the normal velocity vector of the collision in order to calculate the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6174,
+		"nouns": [
+			"velocity",
+			"vector",
+			"collision",
+			"order"
+		],
+		"dOIndex": 94,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity",
+			"collision"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.11764705882352941,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6175,
+		"nouns": [],
+		"dOIndex": 95,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6176,
+		"nouns": [],
+		"dOIndex": 96,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "collision impulse that will be used to simulate their response to the collision. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6177,
+		"nouns": [
+			"collision",
+			"impulse",
+			"response",
+			"collision"
+		],
+		"dOIndex": 97,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"impulse",
+			"response"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.2857142857142857,
+			"words": [
+				"collision",
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision",
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " For simple cases, determining this normal vector is fairly straightforward. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6178,
+		"nouns": [
+			"cases",
+			"vector"
+		],
+		"dOIndex": 98,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " In the case of particles or spheres, the collision normal is simply along the line that connects the centers of gravity of each colliding object; this ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6179,
+		"nouns": [
+			"case",
+			"particles",
+			"spheres",
+			"collision",
+			"line",
+			"centers",
+			"gravity",
+			"object"
+		],
+		"dOIndex": 99,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"particles",
+			"spheres",
+			"collision",
+			"centers",
+			"gravity"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.10714285714285714,
+			"words": [
+				"colliding",
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"colliding",
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6180,
+		"nouns": [],
+		"dOIndex": 100,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "is central impact, as discussed in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6181,
+		"nouns": [
+			"impact"
+		],
+		"dOIndex": 101,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 5, and is the same as that used for the particle example in ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6182,
+		"nouns": [
+			"Chapter",
+			"particle",
+			"example"
+		],
+		"dOIndex": 102,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter",
+			"particle",
+			"example"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6183,
+		"nouns": [],
+		"dOIndex": 103,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 8 .",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6184,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 104,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6185,
+		"nouns": [],
+		"dOIndex": 105,
+		"isQuote": false
+	},
+	{
+		"txt": "Now take a look at the function we've prepared for this simulation to check for collisions:",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6186,
+		"nouns": [
+			"look",
+			"function",
+			"ve",
+			"simulation",
+			"check",
+			"collisions"
+		],
+		"dOIndex": 106,
+		"nouns2": [
+			"function",
+			"simulation",
+			"collisions"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.0625,
+			"words": [
+				"collisions",
+				"prepared"
+			],
+			"positive": [
+				"prepared"
+			],
+			"negative": [
+				"collisions"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6187,
+		"nouns": [],
+		"dOIndex": 107,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6188,
+		"nouns": [],
+		"dOIndex": 108,
+		"isQuote": false
+	},
+	{
+		"txt": "This function uses a simple bounding circle check ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6189,
+		"nouns": [
+			"function",
+			"circle",
+			"check"
+		],
+		"dOIndex": 109,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6190,
+		"nouns": [],
+		"dOIndex": 110,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "to determine whether or not the hovercraft are colliding. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6191,
+		"nouns": [
+			"hovercraft"
+		],
+		"dOIndex": 111,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hovercraft"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.1,
+			"words": [
+				"colliding"
+			],
+			"positive": [],
+			"negative": [
+				"colliding"
+			]
+		}
+	},
+	{
+		"txt": " The first thing it does is calculate the distance, r , that represents the absolute minimum separation between these hovercraft when they are in contact. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6192,
+		"nouns": [
+			"first",
+			"distance",
+			"r",
+			"separation",
+			"hovercraft",
+			"contact"
+		],
+		"dOIndex": 112,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distance",
+			"separation",
+			"hovercraft",
+			"contact"
+		]
+	},
+	{
+		"txt": " ColRadius is the radius of the bounding circle of the hovercraft. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6193,
+		"nouns": [
+			"ColRadius",
+			"radius",
+			"circle",
+			"hovercraft"
+		],
+		"dOIndex": 113,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"ColRadius",
+			"hovercraft"
+		]
+	},
+	{
+		"txt": " We must compute it for each hovercraft upon initialization as follows:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6194,
+		"nouns": [
+			"hovercraft",
+			"initialization"
+		],
+		"dOIndex": 114,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hovercraft",
+			"initialization"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6195,
+		"nouns": [],
+		"dOIndex": 115,
+		"isQuote": false
+	},
+	{
+		"txt": "Next, the distance separating the hovercraft at the time this function is called is determined and stored in the variable d . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6196,
+		"nouns": [
+			"distance",
+			"hovercraft",
+			"time",
+			"function"
+		],
+		"dOIndex": 116,
+		"nouns2": [
+			"distance",
+			"hovercraft",
+			"function"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08695652173913043,
+			"words": [
+				"determined"
+			],
+			"positive": [
+				"determined"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " Since we're assuming that these hovercraft are particles, determining d is simply a matter of calculating the distance between the coordinates of each craft's center of gravity. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6197,
+		"nouns": [
+			"re",
+			"hovercraft",
+			"particles",
+			"matter",
+			"distance",
+			"coordinates",
+			"craft",
+			"center",
+			"gravity"
+		],
+		"dOIndex": 117,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hovercraft",
+			"particles",
+			"distance",
+			"coordinates",
+			"gravity"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.034482758620689655,
+			"words": [
+				"matter"
+			],
+			"positive": [
+				"matter"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " In terms of vectors, this is simply the position vector of one craft minus the position vector of the other.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6198,
+		"nouns": [
+			"terms",
+			"vectors",
+			"position",
+			"vector",
+			"one",
+			"craft",
+			"position",
+			"vector"
+		],
+		"dOIndex": 118,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"vectors",
+			"position"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6199,
+		"nouns": [],
+		"dOIndex": 119,
+		"isQuote": false
+	},
+	{
+		"txt": "Once the function has d and r, it needs to determine the actual amount of space, s , separating the hovercraft's bounding circles. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6200,
+		"nouns": [
+			"function",
+			"r",
+			"amount",
+			"space",
+			"hovercraft",
+			"circles"
+		],
+		"dOIndex": 120,
+		"nouns2": [
+			"function",
+			"hovercraft",
+			"circles"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " After this separation is determined, the function normalizes the vector d . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6201,
+		"nouns": [
+			"separation",
+			"function",
+			"normalizes",
+			"vector"
+		],
+		"dOIndex": 121,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"separation",
+			"function",
+			"normalizes"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.14285714285714285,
+			"words": [
+				"determined"
+			],
+			"positive": [
+				"determined"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Since the vector d is along the line that separates the hovercraft's centers of gravity, normalizing it yields the collision normal vector that we need for our collision response calculations. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6202,
+		"nouns": [
+			"vector",
+			"line",
+			"hovercraft",
+			"centers",
+			"gravity",
+			"yields",
+			"collision",
+			"vector",
+			"collision",
+			"response",
+			"calculations"
+		],
+		"dOIndex": 122,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hovercraft",
+			"centers",
+			"gravity",
+			"collision",
+			"response",
+			"calculations"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.125,
+			"words": [
+				"collision",
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision",
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " The collision normal vector is saved in the global variable vCollisionNormal .",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6203,
+		"nouns": [
+			"collision",
+			"vector"
+		],
+		"dOIndex": 123,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"saved",
+				"collision"
+			],
+			"positive": [
+				"saved"
+			],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6204,
+		"nouns": [],
+		"dOIndex": 124,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6205,
+		"nouns": [],
+		"dOIndex": 125,
+		"isQuote": false
+	},
+	{
+		"txt": "After calculating the collision normal, this function goes on to determine the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6206,
+		"nouns": [
+			"collision",
+			"function"
+		],
+		"dOIndex": 126,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"function"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.15384615384615385,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6207,
+		"nouns": [],
+		"dOIndex": 127,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "relative velocity between the hovercraft. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6208,
+		"nouns": [
+			"velocity",
+			"hovercraft"
+		],
+		"dOIndex": 128,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity",
+			"hovercraft"
+		]
+	},
+	{
+		"txt": " In vector form, this is simply the difference between the velocity vectors of each craft. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6209,
+		"nouns": [
+			"vector",
+			"form",
+			"difference",
+			"velocity",
+			"vectors",
+			"craft"
+		],
+		"dOIndex": 129,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"difference",
+			"velocity",
+			"vectors"
+		]
+	},
+	{
+		"txt": " Note that the velocity vectors used here must be in global coordinates, not body fixed (local) coordinates. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6210,
+		"nouns": [
+			"velocity",
+			"vectors",
+			"coordinates",
+			"body",
+			"coordinates"
+		],
+		"dOIndex": 130,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity",
+			"vectors",
+			"coordinates"
+		]
+	},
+	{
+		"txt": " Since what's really needed to determine if a collision is made is the",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6211,
+		"nouns": [
+			"collision"
+		],
+		"dOIndex": 131,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.14285714285714285,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " relative normal velocity, the function proceeds to take the vector dot product of the relative velocity and the collision normal vectors, saving the result in the variable Vrn",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6212,
+		"nouns": [
+			"velocity",
+			"function",
+			"proceeds",
+			"vector",
+			"dot",
+			"product",
+			"velocity",
+			"collision",
+			"vectors",
+			"result",
+			"Vrn"
+		],
+		"dOIndex": 132,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity",
+			"function",
+			"proceeds",
+			"product",
+			"collision",
+			"vectors"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.06896551724137931,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6213,
+		"nouns": [],
+		"dOIndex": 133,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6214,
+		"nouns": [],
+		"dOIndex": 134,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6215,
+		"nouns": [],
+		"dOIndex": 135,
+		"isQuote": false
+	},
+	{
+		"txt": "At this point, all of the calculations are complete, and the only thing left to do is make the appropriate checks to determine if there is a collision, penetration, or no collision at all.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6216,
+		"nouns": [
+			"point",
+			"calculations",
+			"checks",
+			"collision",
+			"penetration",
+			"collision"
+		],
+		"dOIndex": 136,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"calculations",
+			"collision",
+			"penetration"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.08823529411764706,
+			"words": [
+				"collision",
+				"no",
+				"collision",
+				"appropriate"
+			],
+			"positive": [
+				"appropriate"
+			],
+			"negative": [
+				"collision",
+				"no",
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6217,
+		"nouns": [],
+		"dOIndex": 137,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6218,
+		"nouns": [],
+		"dOIndex": 138,
+		"isQuote": false
+	},
+	{
+		"txt": "The first check is to see if the hovercraft are colliding. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6219,
+		"nouns": [
+			"first",
+			"check",
+			"hovercraft"
+		],
+		"dOIndex": 139,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hovercraft"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.08333333333333333,
+			"words": [
+				"colliding"
+			],
+			"positive": [],
+			"negative": [
+				"colliding"
+			]
+		}
+	},
+	{
+		"txt": " We determine this by comparing the absolute value of the separation between the hovercraft, s, with a ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6220,
+		"nouns": [
+			"value",
+			"separation",
+			"hovercraft"
+		],
+		"dOIndex": 140,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"separation",
+			"hovercraft"
+		]
+	},
+	{
+		"txt": "distance tolerance, ctol",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6221,
+		"nouns": [
+			"distance",
+			"tolerance",
+			"ctol"
+		],
+		"dOIndex": 141,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distance",
+			"tolerance"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.6666666666666666,
+			"words": [
+				"tolerance"
+			],
+			"positive": [
+				"tolerance"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6222,
+		"nouns": [],
+		"dOIndex": 142,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " If the absolute value of s is less than ctol , a collision might be occurring. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6223,
+		"nouns": [
+			"value",
+			"ctol",
+			"collision"
+		],
+		"dOIndex": 143,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.1111111111111111,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " The second requirement is that the relative normal velocity be negative, which implies that the points of impact on the hovercraft are moving toward each other. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6224,
+		"nouns": [
+			"second",
+			"requirement",
+			"velocity",
+			"points",
+			"impact",
+			"hovercraft"
+		],
+		"dOIndex": 144,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"requirement",
+			"velocity",
+			"hovercraft"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.07142857142857142,
+			"words": [
+				"negative"
+			],
+			"positive": [],
+			"negative": [
+				"negative"
+			]
+		}
+	},
+	{
+		"txt": " If there is a collision, the function returns a 1 to indicate that collision response is necessary.",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6225,
+		"nouns": [
+			"collision",
+			"function",
+			"returns",
+			"collision",
+			"response"
+		],
+		"dOIndex": 145,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"function",
+			"returns",
+			"response"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.2222222222222222,
+			"words": [
+				"collision",
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision",
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6226,
+		"nouns": [],
+		"dOIndex": 146,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6227,
+		"nouns": [],
+		"dOIndex": 147,
+		"isQuote": false
+	},
+	{
+		"txt": "If the hovercraft are found not to be colliding, then we perform a second check to see if they've moved so close together that they are penetrating each other. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6228,
+		"nouns": [
+			"hovercraft",
+			"second",
+			"check",
+			"ve"
+		],
+		"dOIndex": 148,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hovercraft"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.03333333333333333,
+			"words": [
+				"colliding"
+			],
+			"positive": [],
+			"negative": [
+				"colliding"
+			]
+		}
+	},
+	{
+		"txt": " In this case, if s is less than –ctol, the hovercraft are penetrating and the function returns a −1 . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6229,
+		"nouns": [
+			"case",
+			"–ctol",
+			"hovercraft",
+			"function",
+			"returns",
+			"−"
+		],
+		"dOIndex": 149,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hovercraft",
+			"function",
+			"returns"
+		]
+	},
+	{
+		"txt": " If the hovercraft are not colliding and not penetrating, then the function simply returns a 0 , indicating that no further action is required.",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6230,
+		"nouns": [
+			"hovercraft",
+			"function",
+			"returns",
+			"action"
+		],
+		"dOIndex": 150,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hovercraft",
+			"function",
+			"returns"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"no",
+				"colliding"
+			],
+			"positive": [
+				"colliding"
+			],
+			"negative": [
+				"no"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6231,
+		"nouns": [],
+		"dOIndex": 151,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6232,
+		"nouns": [],
+		"dOIndex": 152,
+		"isQuote": false
+	},
+	{
+		"txt": "Before moving on, let's say a word or two about ctol  the collision tolerance distance. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6233,
+		"nouns": [
+			"word",
+			"two",
+			"ctol",
+			"collision",
+			"tolerance",
+			"distance"
+		],
+		"dOIndex": 153,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Before",
+			"collision",
+			"tolerance",
+			"distance"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"tolerance",
+				"collision"
+			],
+			"positive": [
+				"tolerance"
+			],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " This value is subject to tuning. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6234,
+		"nouns": [
+			"value",
+			"subject"
+		],
+		"dOIndex": 154,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"subject"
+		]
+	},
+	{
+		"txt": " There's no single value that works well in all cases. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6235,
+		"nouns": [
+			"value",
+			"works",
+			"cases"
+		],
+		"dOIndex": 155,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.08333333333333333,
+			"words": [
+				"no"
+			],
+			"positive": [],
+			"negative": [
+				"no"
+			]
+		}
+	},
+	{
+		"txt": " You must consider the overall sizes of the objects potentially colliding, the step size you're using, and how far the colliding objects are from the viewer while being rendered (i.e., their scale). ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6236,
+		"nouns": [
+			"sizes",
+			"objects",
+			"step",
+			"size",
+			"re",
+			"objects",
+			"viewer",
+			"e",
+			"scale"
+		],
+		"dOIndex": 156,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"objects"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.058823529411764705,
+			"words": [
+				"colliding",
+				"colliding"
+			],
+			"positive": [],
+			"negative": [
+				"colliding",
+				"colliding"
+			]
+		}
+	},
+	{
+		"txt": " Basically, you should choose a value that makes collisions look correct, so that on the one hand objects do not appear to be penetrating each other, and on the other hand you do not report a collision when objects do not appear to be touching at all.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6237,
+		"nouns": [
+			"value",
+			"collisions",
+			"one",
+			"hand",
+			"objects",
+			"hand",
+			"report",
+			"collision",
+			"objects"
+		],
+		"dOIndex": 157,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Basically",
+			"collisions",
+			"objects",
+			"collision"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.08333333333333333,
+			"words": [
+				"collision",
+				"collisions"
+			],
+			"positive": [],
+			"negative": [
+				"collision",
+				"collisions"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6238,
+		"nouns": [],
+		"dOIndex": 158,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6239,
+		"nouns": [],
+		"dOIndex": 159,
+		"isQuote": false
+	},
+	{
+		"txt": "Take a look now at the other new function, ApplyImpulse:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6240,
+		"nouns": [
+			"look",
+			"function",
+			"ApplyImpulse"
+		],
+		"dOIndex": 160,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function",
+			"ApplyImpulse"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6241,
+		"nouns": [],
+		"dOIndex": 161,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6242,
+		"nouns": [],
+		"dOIndex": 162,
+		"isQuote": false
+	},
+	{
+		"txt": "This is a simple but crucial function for collision response. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6243,
+		"nouns": [
+			"function",
+			"collision",
+			"response"
+		],
+		"dOIndex": 163,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function",
+			"collision",
+			"response"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.18181818181818182,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " What it does is calculate the linear collision impulse as a function of the colliding hovercraft's relative normal velocity, masses, and coefficient of restitution, using the formula that we showed you in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6244,
+		"nouns": [
+			"collision",
+			"impulse",
+			"function",
+			"hovercraft",
+			"velocity",
+			"masses",
+			"coefficient",
+			"restitution",
+			"formula"
+		],
+		"dOIndex": 164,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"impulse",
+			"function",
+			"hovercraft",
+			"velocity",
+			"coefficient",
+			"restitution",
+			"formula"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.08823529411764706,
+			"words": [
+				"colliding",
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"colliding",
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "Chapter 5",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6245,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 165,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6246,
+		"nouns": [],
+		"dOIndex": 166,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Further, it applies this impulse to each hovercraft, effectively changing their velocities in response to the collision. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6247,
+		"nouns": [
+			"impulse",
+			"hovercraft",
+			"velocities",
+			"response",
+			"collision"
+		],
+		"dOIndex": 167,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Further",
+			"impulse",
+			"hovercraft",
+			"velocities",
+			"response",
+			"collision"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"collision",
+				"effectively"
+			],
+			"positive": [
+				"effectively"
+			],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " Note that the impulse is applied to one hovercraft and then the negative impulse applied to the other.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6248,
+		"nouns": [
+			"impulse",
+			"one",
+			"hovercraft",
+			"impulse"
+		],
+		"dOIndex": 168,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"impulse",
+			"hovercraft"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.10526315789473684,
+			"words": [
+				"negative"
+			],
+			"positive": [],
+			"negative": [
+				"negative"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6249,
+		"nouns": [],
+		"dOIndex": 169,
+		"isQuote": false
+	},
+	{
+		"txt": "With those two new functions complete, it's now time to revise UpdateSimulation to handle collision detection and response as the simulation steps through time. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6250,
+		"nouns": [
+			"two",
+			"functions",
+			"time",
+			"UpdateSimulation",
+			"collision",
+			"detection",
+			"response",
+			"simulation",
+			"steps",
+			"time"
+		],
+		"dOIndex": 170,
+		"nouns2": [
+			"functions",
+			"UpdateSimulation",
+			"collision",
+			"detection",
+			"response",
+			"simulation"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.08,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " Here's what the new UpdateSimulation function looks like:",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6251,
+		"nouns": [
+			"UpdateSimulation",
+			"function"
+		],
+		"dOIndex": 171,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"UpdateSimulation",
+			"function"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.2222222222222222,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6252,
+		"nouns": [],
+		"dOIndex": 172,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6253,
+		"nouns": [],
+		"dOIndex": 173,
+		"isQuote": false
+	},
+	{
+		"txt": "Obviously, this version is more complicated than the original version. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6254,
+		"nouns": [
+			"version",
+			"version"
+		],
+		"dOIndex": 174,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Obviously",
+			"version"
+		]
+	},
+	{
+		"txt": " There's one main reason for this:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6255,
+		"nouns": [
+			"one",
+			"reason"
+		],
+		"dOIndex": 175,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6256,
+		"nouns": [],
+		"dOIndex": 176,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " penetration could occur because the hovercraft can move far enough within a single time step to become overlapped. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6257,
+		"nouns": [
+			"penetration",
+			"hovercraft",
+			"move",
+			"time",
+			"step"
+		],
+		"dOIndex": 177,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"penetration",
+			"hovercraft"
+		]
+	},
+	{
+		"txt": " Visually, this situation is unappealing and unrealistic, so you should to try to prevent it.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6258,
+		"nouns": [
+			"situation"
+		],
+		"dOIndex": 178,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Visually",
+			"situation"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.0625,
+			"words": [
+				"prevent"
+			],
+			"positive": [],
+			"negative": [
+				"prevent"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6259,
+		"nouns": [],
+		"dOIndex": 179,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6260,
+		"nouns": [],
+		"dOIndex": 180,
+		"isQuote": false
+	},
+	{
+		"txt": "The first thing this function does is enter a while loop:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6261,
+		"nouns": [
+			"first",
+			"function",
+			"loop"
+		],
+		"dOIndex": 181,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6262,
+		"nouns": [],
+		"dOIndex": 182,
+		"isQuote": false
+	},
+	{
+		"txt": "This loop is used to back up the simulation if penetration has occurred on the initial time step. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6263,
+		"nouns": [
+			"loop",
+			"simulation",
+			"penetration",
+			"time",
+			"step"
+		],
+		"dOIndex": 183,
+		"nouns2": [
+			"simulation",
+			"penetration"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " What happens is this: the function first tries to update the hovercraft and then checks to see if there is a collision. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6264,
+		"nouns": [
+			"function",
+			"first",
+			"hovercraft",
+			"checks",
+			"collision"
+		],
+		"dOIndex": 184,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function",
+			"hovercraft",
+			"collision"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.08333333333333333,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " If there is a collision, then it gets handled by applying the impulse. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6265,
+		"nouns": [
+			"collision",
+			"impulse"
+		],
+		"dOIndex": 185,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"impulse"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.13333333333333333,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " If there is penetration, however, then you know the time step was too big and you have to try again. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6266,
+		"nouns": [
+			"penetration",
+			"time",
+			"step"
+		],
+		"dOIndex": 186,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"penetration"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.045454545454545456,
+			"words": [
+				"big"
+			],
+			"positive": [
+				"big"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " When this occurs, tryAgain is set to true , the time step is cut in half, and another attempt is made. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6267,
+		"nouns": [
+			"tryAgain",
+			"time",
+			"step",
+			"half",
+			"attempt"
+		],
+		"dOIndex": 187,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"tryAgain",
+			"attempt"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.043478260869565216,
+			"words": [
+				"cut",
+				"true"
+			],
+			"positive": [
+				"true"
+			],
+			"negative": [
+				"cut"
+			]
+		}
+	},
+	{
+		"txt": " The function stays in this loop as long as there is penetration or until the time step has been reduced to a size small enough to force an exit to the loop. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6268,
+		"nouns": [
+			"function",
+			"loop",
+			"penetration",
+			"time",
+			"step",
+			"size",
+			"force",
+			"exit",
+			"loop"
+		],
+		"dOIndex": 188,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function",
+			"penetration"
+		]
+	},
+	{
+		"txt": " The purpose of this looping is to find the largest step size, less than or equal to dt , that can be taken and still avoid penetration. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6269,
+		"nouns": [
+			"purpose",
+			"step",
+			"size",
+			"dt",
+			"penetration"
+		],
+		"dOIndex": 189,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"purpose",
+			"penetration"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.034482758620689655,
+			"words": [
+				"avoid"
+			],
+			"positive": [],
+			"negative": [
+				"avoid"
+			]
+		}
+	},
+	{
+		"txt": " You either want a collision or no collision.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6270,
+		"nouns": [
+			"want",
+			"collision",
+			"collision"
+		],
+		"dOIndex": 190,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.4444444444444444,
+			"words": [
+				"collision",
+				"no",
+				"collision",
+				"want"
+			],
+			"positive": [
+				"want"
+			],
+			"negative": [
+				"collision",
+				"no",
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6271,
+		"nouns": [],
+		"dOIndex": 191,
+		"isQuote": false
+	},
+	{
+		"txt": "You might ask yourself when does small become too small in terms of time step? ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6272,
+		"nouns": [
+			"terms",
+			"time",
+			"step"
+		],
+		"dOIndex": 192,
+		"isQuote": false
+	},
+	{
+		"txt": " Too small is obviously when the time step approaches 0 and your entire simulation grinds to a halt. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6273,
+		"nouns": [
+			"time",
+			"step",
+			"approaches",
+			"simulation",
+			"halt"
+		],
+		"dOIndex": 193,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"approaches",
+			"simulation"
+		]
+	},
+	{
+		"txt": " Therefore, you may want to put in some criteria to exit this loop before things slow down too much. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6274,
+		"nouns": [
+			"criteria",
+			"exit",
+			"loop",
+			"things"
+		],
+		"dOIndex": 194,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Therefore",
+			"criteria"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.047619047619047616,
+			"words": [
+				"want"
+			],
+			"positive": [
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " This is all subject to tuning, by the way, and it also depends on the value you set for ctol . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6275,
+		"nouns": [
+			"subject",
+			"way",
+			"value",
+			"ctol"
+		],
+		"dOIndex": 195,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"subject"
+		]
+	},
+	{
+		"txt": " We can't stress enough the importance of tuning these parameters. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6276,
+		"nouns": [
+			"t",
+			"stress",
+			"importance",
+			"parameters"
+		],
+		"dOIndex": 196,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"importance",
+			"parameters"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.25,
+			"words": [
+				"importance",
+				"stress"
+			],
+			"positive": [
+				"importance",
+				"stress"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Basically, you must strive for visual realism while keeping your frame rates up to required levels.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6277,
+		"nouns": [
+			"realism",
+			"frame",
+			"rates",
+			"levels"
+		],
+		"dOIndex": 197,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Basically",
+			"realism"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6278,
+		"nouns": [],
+		"dOIndex": 198,
+		"isQuote": false
+	},
+	{
+		"txt": "Looking inside this while loop reveals what's going on. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6279,
+		"nouns": [
+			"loop"
+		],
+		"dOIndex": 199,
+		"nouns2": [
+			"Looking"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " First, tryAgain is set to false, optimistically assuming that there will be no penetration, and we make copies of the hovercraft's states, reflecting the last successful call to UpdateSimulation .",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6280,
+		"nouns": [
+			"First",
+			"tryAgain",
+			"penetration",
+			"copies",
+			"hovercraft",
+			"states",
+			"UpdateSimulation"
+		],
+		"dOIndex": 200,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"tryAgain",
+			"penetration",
+			"hovercraft",
+			"UpdateSimulation"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.03225806451612903,
+			"words": [
+				"successful",
+				"no",
+				"false"
+			],
+			"positive": [
+				"successful"
+			],
+			"negative": [
+				"no",
+				"false"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6281,
+		"nouns": [],
+		"dOIndex": 201,
+		"isQuote": false
+	},
+	{
+		"txt": "Next, we make the usual call to UpdateBody for each copy of the hovercraft. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6282,
+		"nouns": [
+			"UpdateBody",
+			"copy",
+			"hovercraft"
+		],
+		"dOIndex": 202,
+		"nouns2": [
+			"UpdateBody",
+			"hovercraft"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " Then a call to the collision detection function, CheckForCollision, is made to see if Craft is colliding with or penetrating Craft2 . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6283,
+		"nouns": [
+			"call",
+			"collision",
+			"detection",
+			"function",
+			"CheckForCollision",
+			"Craft",
+			"Craft"
+		],
+		"dOIndex": 203,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"detection",
+			"function",
+			"CheckForCollision"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.125,
+			"words": [
+				"colliding",
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"colliding",
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " If there is penetration, then tryAgain is set to true, dtime is cut in half, didPen is set to true, and the function takes another lap through the while loop. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6284,
+		"nouns": [
+			"penetration",
+			"tryAgain",
+			"dtime",
+			"half",
+			"didPen",
+			"function",
+			"lap",
+			"loop"
+		],
+		"dOIndex": 204,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"penetration",
+			"tryAgain",
+			"function"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.09375,
+			"words": [
+				"true",
+				"cut",
+				"true"
+			],
+			"positive": [
+				"true",
+				"true"
+			],
+			"negative": [
+				"cut"
+			]
+		}
+	},
+	{
+		"txt": " didPen is a flag that lets us know that a penetration condition did occur.",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6285,
+		"nouns": [
+			"didPen",
+			"flag",
+			"penetration",
+			"condition"
+		],
+		"dOIndex": 205,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"penetration",
+			"condition"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6286,
+		"nouns": [],
+		"dOIndex": 206,
+		"isQuote": false
+	},
+	{
+		"txt": "If there was a collision, the function handles it by applying the appropriate impulse:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6287,
+		"nouns": [
+			"collision",
+			"function",
+			"impulse"
+		],
+		"dOIndex": 207,
+		"nouns2": [
+			"collision",
+			"function",
+			"impulse"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"appropriate",
+				"collision"
+			],
+			"positive": [
+				"appropriate"
+			],
+			"negative": [
+				"collision"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6288,
+		"nouns": [],
+		"dOIndex": 208,
+		"isQuote": false
+	},
+	{
+		"txt": "After getting through the while loop, the updated hovercraft states are saved and UpdateSimulation is complete.",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6289,
+		"nouns": [
+			"loop",
+			"hovercraft",
+			"states",
+			"UpdateSimulation"
+		],
+		"dOIndex": 209,
+		"nouns2": [
+			"hovercraft",
+			"UpdateSimulation"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.125,
+			"words": [
+				"saved"
+			],
+			"positive": [
+				"saved"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6290,
+		"nouns": [],
+		"dOIndex": 210,
+		"isQuote": false
+	},
+	{
+		"txt": "The last bit of code you need to add includes a few new global variables and defines:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6291,
+		"nouns": [
+			"bit",
+			"code",
+			"variables"
+		],
+		"dOIndex": 211,
+		"nouns2": [
+			"variables"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6292,
+		"nouns": [],
+		"dOIndex": 212,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6293,
+		"nouns": [],
+		"dOIndex": 213,
+		"isQuote": false
+	},
+	{
+		"txt": "The only one we haven't mentioned so far, although you've seen it in ApplyImpulse, is fCr , the coefficient of restitution. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6294,
+		"nouns": [
+			"one",
+			"haven",
+			"t",
+			"ve",
+			"ApplyImpulse",
+			"fCr",
+			"coefficient",
+			"restitution"
+		],
+		"dOIndex": 214,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"ApplyImpulse",
+			"coefficient",
+			"restitution"
+		]
+	},
+	{
+		"txt": " Here we have it set to 0.5, which means that the collisions are halfway between perfectly elastic and perfectly inelastic (refer back to our earlier discussions on coefficients of restitution in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6295,
+		"nouns": [
+			"collisions",
+			"inelastic",
+			"discussions",
+			"coefficients",
+			"restitution"
+		],
+		"dOIndex": 215,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collisions",
+			"inelastic",
+			"discussions",
+			"coefficients",
+			"restitution"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.12121212121212122,
+			"words": [
+				"perfectly",
+				"perfectly",
+				"collisions"
+			],
+			"positive": [
+				"perfectly",
+				"perfectly"
+			],
+			"negative": [
+				"collisions"
+			]
+		}
+	},
+	{
+		"txt": "Chapter 5",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6296,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 216,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " if you've forgotten these terms). ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6297,
+		"nouns": [
+			"ve",
+			"terms"
+		],
+		"dOIndex": 217,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.14285714285714285,
+			"words": [
+				"forgotten"
+			],
+			"positive": [],
+			"negative": [
+				"forgotten"
+			]
+		}
+	},
+	{
+		"txt": " This is one of those parameters that you'll have to tune to get the desired behavior.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6298,
+		"nouns": [
+			"one",
+			"parameters",
+			"ll",
+			"tune",
+			"behavior"
+		],
+		"dOIndex": 218,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"parameters",
+			"behavior"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.11764705882352941,
+			"words": [
+				"desired"
+			],
+			"positive": [
+				"desired"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6299,
+		"nouns": [],
+		"dOIndex": 219,
+		"isQuote": false
+	},
+	{
+		"txt": "While we're on the subject of tuning, we should mention that you'll also have to play with the linear drag coefficient used to calculate the drag force on the hovercraft. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6300,
+		"nouns": [
+			"re",
+			"subject",
+			"ll",
+			"drag",
+			"coefficient",
+			"drag",
+			"force",
+			"hovercraft"
+		],
+		"dOIndex": 220,
+		"nouns2": [
+			"subject",
+			"coefficient",
+			"hovercraft"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.06451612903225806,
+			"words": [
+				"drag",
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag",
+				"drag"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " While this coefficient is used to simulate fluid dynamic drag, it also plays an important role in terms of numerical stability. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6301,
+		"nouns": [
+			"coefficient",
+			"fluid",
+			"drag",
+			"role",
+			"terms",
+			"stability"
+		],
+		"dOIndex": 221,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coefficient",
+			"stability"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.043478260869565216,
+			"words": [
+				"important",
+				"drag"
+			],
+			"positive": [
+				"important"
+			],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " You need some damping in your simulation so that your integrator does not blow up that is, damping helps keep your simulation stable.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6302,
+		"nouns": [
+			"simulation",
+			"integrator",
+			"blow",
+			"simulation"
+		],
+		"dOIndex": 222,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulation",
+			"integrator"
+		],
+		"highfreq": {
+			"your": 3
+		},
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.16666666666666666,
+			"words": [
+				"stable",
+				"helps"
+			],
+			"positive": [
+				"stable",
+				"helps"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6303,
+		"nouns": [],
+		"dOIndex": 223,
+		"isQuote": false
+	},
+	{
+		"txt": "That's pretty much it as far as implementing basic collision response. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6304,
+		"nouns": [
+			"collision",
+			"response"
+		],
+		"dOIndex": 224,
+		"nouns2": [
+			"collision",
+			"response"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.08333333333333333,
+			"words": [
+				"collision",
+				"pretty"
+			],
+			"positive": [
+				"pretty"
+			],
+			"negative": [
+				"collision"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " If you run this example, you'll be able to drive the hovercraft into each other and bounce off accordingly. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6305,
+		"nouns": [
+			"example",
+			"ll",
+			"drive",
+			"hovercraft"
+		],
+		"dOIndex": 225,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"hovercraft"
+		]
+	},
+	{
+		"txt": " You can play around with the mass of each hovercraft and the coefficient of restitution to see how the craft behave when one is more massive than the other, or when the collision is somewhere between perfectly elastic and perfectly inelastic.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6306,
+		"nouns": [
+			"mass",
+			"hovercraft",
+			"coefficient",
+			"restitution",
+			"craft",
+			"one",
+			"collision",
+			"inelastic"
+		],
+		"dOIndex": 226,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hovercraft",
+			"coefficient",
+			"restitution",
+			"collision",
+			"inelastic"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.09523809523809523,
+			"words": [
+				"perfectly",
+				"perfectly",
+				"collision"
+			],
+			"positive": [
+				"perfectly",
+				"perfectly"
+			],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6307,
+		"nouns": [],
+		"dOIndex": 227,
+		"isQuote": false
+	},
+	{
+		"txt": "You may notice that the collision response in this example sometimes looks a little strange. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6308,
+		"nouns": [
+			"notice",
+			"collision",
+			"response",
+			"example"
+		],
+		"dOIndex": 228,
+		"nouns2": [
+			"collision",
+			"response",
+			"example"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.1875,
+			"words": [
+				"strange",
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"strange",
+				"collision"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " Keep in mind that's because this collision response algorithm, so far, assumes that the hovercraft are round when in fact they are rectangular. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6309,
+		"nouns": [
+			"mind",
+			"collision",
+			"response",
+			"algorithm",
+			"hovercraft",
+			"round",
+			"fact"
+		],
+		"dOIndex": 229,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"response",
+			"algorithm",
+			"hovercraft"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.08,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " This approach will work just fine for round objects like billiard balls, but to get the level of realism required for non round rigid bodies you need to include angular effects. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6310,
+		"nouns": [
+			"approach",
+			"work",
+			"round",
+			"objects",
+			"billiard",
+			"balls",
+			"level",
+			"realism",
+			"round",
+			"bodies",
+			"effects"
+		],
+		"dOIndex": 230,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"approach",
+			"objects",
+			"billiard",
+			"realism",
+			"effects"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.12121212121212122,
+			"words": [
+				"like",
+				"fine"
+			],
+			"positive": [
+				"like",
+				"fine"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " We'll show you how to do that in the ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6311,
+		"nouns": [
+			"ll",
+			"show"
+		],
+		"dOIndex": 231,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6312,
+		"nouns": [],
+		"dOIndex": 232,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "next section.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6313,
+		"nouns": [
+			"section"
+		],
+		"dOIndex": 233,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"section"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6314,
+		"nouns": [],
+		"dOIndex": 234,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6315,
+		"nouns": [],
+		"dOIndex": 235,
+		"isQuote": false
+	},
+	{
+		"txt": "Angular Effects",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6316,
+		"nouns": [
+			"Effects"
+		],
+		"dOIndex": 236,
+		"nouns2": [
+			"Angular",
+			"Effects"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6317,
+		"nouns": [],
+		"dOIndex": 237,
+		"isQuote": false
+	},
+	{
+		"txt": "Including angular ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6318,
+		"nouns": [],
+		"dOIndex": 238,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Including"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6319,
+		"nouns": [],
+		"dOIndex": 239,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "effects will yield more realistic collision responses for these rigid bodies, the hovercraft. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6320,
+		"nouns": [
+			"effects",
+			"collision",
+			"responses",
+			"bodies",
+			"hovercraft"
+		],
+		"dOIndex": 240,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"effects",
+			"collision",
+			"responses",
+			"hovercraft"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.14285714285714285,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " To get this to work, you'll have to make several changes to ApplyImpulse and CheckForCollision; . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6321,
+		"nouns": [
+			"work",
+			"ll",
+			"changes",
+			"ApplyImpulse",
+			"CheckForCollision"
+		],
+		"dOIndex": 241,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"changes",
+			"ApplyImpulse",
+			"CheckForCollision"
+		]
+	},
+	{
+		"txt": " UpdateSimulation will remain unchanged. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6322,
+		"nouns": [
+			"UpdateSimulation"
+		],
+		"dOIndex": 242,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"UpdateSimulation"
+		]
+	},
+	{
+		"txt": " The more extensive changes are in CheckForCollision , so we'll discuss it first.",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6323,
+		"nouns": [
+			"changes",
+			"CheckForCollision",
+			"ll",
+			"first"
+		],
+		"dOIndex": 243,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"changes",
+			"CheckForCollision"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6324,
+		"nouns": [],
+		"dOIndex": 244,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6325,
+		"nouns": [],
+		"dOIndex": 245,
+		"isQuote": false
+	},
+	{
+		"txt": "The new version of CheckForCollision will do more than a simple bounding circle check. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6326,
+		"nouns": [
+			"version",
+			"CheckForCollision",
+			"circle",
+			"check"
+		],
+		"dOIndex": 246,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"version",
+			"CheckForCollision"
+		]
+	},
+	{
+		"txt": " Here, each hovercraft will be represented by a polygon with four edges and four vertices, and the types of contact that will be checked for are vertex vertex and vertex edge contact (see ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6327,
+		"nouns": [
+			"hovercraft",
+			"polygon",
+			"four",
+			"edges",
+			"four",
+			"vertices",
+			"types",
+			"contact",
+			"vertex",
+			"vertex",
+			"vertex",
+			"edge",
+			"contact"
+		],
+		"dOIndex": 247,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hovercraft",
+			"polygon",
+			"vertices",
+			"contact"
+		],
+		"highfreq": {
+			"vertex": 3
+		}
+	},
+	{
+		"txt": "Figure 10 2",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6328,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 248,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " ).",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6329,
+		"nouns": [],
+		"dOIndex": 249,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "[",
+		"why": "link",
+		"tags": [
+			"sup",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6330,
+		"nouns": [],
+		"dOIndex": 250,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "19]",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"sup",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6331,
+		"nouns": [],
+		"dOIndex": 251,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6332,
+		"nouns": [],
+		"dOIndex": 252,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6333,
+		"nouns": [],
+		"dOIndex": 253,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6334,
+		"nouns": [],
+		"dOIndex": 254,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6335,
+		"nouns": [],
+		"dOIndex": 255,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6336,
+		"nouns": [],
+		"dOIndex": 256,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 10 2. Types of collision",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6337,
+		"nouns": [
+			"Figure",
+			"Types",
+			"collision"
+		],
+		"dOIndex": 257,
+		"nouns2": [
+			"Figure",
+			"collision"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.5,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6338,
+		"nouns": [],
+		"dOIndex": 258,
+		"isQuote": false
+	},
+	{
+		"txt": "In addition to the tasks discussed in the last section, this new version of CheckForCollision must also determine the exact point of contact between the hovercraft. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6339,
+		"nouns": [
+			"addition",
+			"tasks",
+			"section",
+			"version",
+			"CheckForCollision",
+			"point",
+			"contact",
+			"hovercraft"
+		],
+		"dOIndex": 259,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"addition",
+			"section",
+			"version",
+			"CheckForCollision",
+			"contact",
+			"hovercraft"
+		]
+	},
+	{
+		"txt": " This is a very important distinction between this new version and the last. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6340,
+		"nouns": [
+			"distinction",
+			"version"
+		],
+		"dOIndex": 260,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distinction",
+			"version"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.13333333333333333,
+			"words": [
+				"important"
+			],
+			"positive": [
+				"important"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " You need to know the point of contact because in order to affect the angular velocity, you must apply the impulse at the point of contact. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6341,
+		"nouns": [
+			"point",
+			"contact",
+			"order",
+			"velocity",
+			"impulse",
+			"point",
+			"contact"
+		],
+		"dOIndex": 261,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"contact",
+			"velocity",
+			"impulse"
+		]
+	},
+	{
+		"txt": " In the last section, the normal to the contact point always passed through the center of gravity of the hovercraft because we assumed they were spheres; that's not the case here.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6342,
+		"nouns": [
+			"section",
+			"contact",
+			"point",
+			"center",
+			"gravity",
+			"hovercraft",
+			"spheres",
+			"case"
+		],
+		"dOIndex": 262,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"section",
+			"contact",
+			"gravity",
+			"hovercraft",
+			"spheres"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6343,
+		"nouns": [],
+		"dOIndex": 263,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6344,
+		"nouns": [],
+		"dOIndex": 264,
+		"isQuote": false
+	},
+	{
+		"txt": "This now brings up the challenge of finding the collision normal. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6345,
+		"nouns": [
+			"challenge",
+			"collision"
+		],
+		"dOIndex": 265,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"challenge",
+			"collision"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.25,
+			"words": [
+				"collision",
+				"challenge"
+			],
+			"positive": [],
+			"negative": [
+				"collision",
+				"challenge"
+			]
+		}
+	},
+	{
+		"txt": " There are two cases to consider here. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6346,
+		"nouns": [
+			"two",
+			"cases"
+		],
+		"dOIndex": 266,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " In edge vertex collisions, the normal is always perpendicular to the edge that's involved in the collision. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6347,
+		"nouns": [
+			"edge",
+			"vertex",
+			"collisions",
+			"edge",
+			"collision"
+		],
+		"dOIndex": 267,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collisions",
+			"collision"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.21052631578947367,
+			"words": [
+				"collision",
+				"collisions"
+			],
+			"positive": [],
+			"negative": [
+				"collision",
+				"collisions"
+			]
+		}
+	},
+	{
+		"txt": " In vertex vertex collisions, however, the normal is ambiguous, so we've resorted to taking the normal parallel to the line connecting the hovercraft's centers of gravity.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6348,
+		"nouns": [
+			"vertex",
+			"vertex",
+			"collisions",
+			"ve",
+			"line",
+			"hovercraft",
+			"centers",
+			"gravity"
+		],
+		"dOIndex": 268,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collisions",
+			"hovercraft",
+			"centers",
+			"gravity"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.07407407407407407,
+			"words": [
+				"collisions"
+			],
+			"positive": [],
+			"negative": [
+				"collisions"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6349,
+		"nouns": [],
+		"dOIndex": 269,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6350,
+		"nouns": [],
+		"dOIndex": 270,
+		"isQuote": false
+	},
+	{
+		"txt": "All of these considerations make CheckForCollisions a little more involved than in the previous section. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6351,
+		"nouns": [
+			"considerations",
+			"CheckForCollisions",
+			"section"
+		],
+		"dOIndex": 271,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"considerations",
+			"CheckForCollisions",
+			"section"
+		]
+	},
+	{
+		"txt": " The following code listing shows what we mean:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6352,
+		"nouns": [
+			"code"
+		],
+		"dOIndex": 272,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6353,
+		"nouns": [],
+		"dOIndex": 273,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6354,
+		"nouns": [],
+		"dOIndex": 274,
+		"isQuote": false
+	},
+	{
+		"txt": "The first thing that CheckForCollision does is perform a quick bounding circle check to see if there is a possible collision. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6355,
+		"nouns": [
+			"first",
+			"CheckForCollision",
+			"circle",
+			"check",
+			"collision"
+		],
+		"dOIndex": 275,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"CheckForCollision",
+			"collision"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.09090909090909091,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " If no collision is detected, the function simply exits, returning 0 . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6356,
+		"nouns": [
+			"collision",
+			"function",
+			"exits"
+		],
+		"dOIndex": 276,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"function"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.21428571428571427,
+			"words": [
+				"collision",
+				"no"
+			],
+			"positive": [],
+			"negative": [
+				"collision",
+				"no"
+			]
+		}
+	},
+	{
+		"txt": " This is the same bounding circle check",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6357,
+		"nouns": [
+			"circle",
+			"check"
+		],
+		"dOIndex": 277,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6358,
+		"nouns": [],
+		"dOIndex": 278,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " performed in the earlier version:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6359,
+		"nouns": [
+			"version"
+		],
+		"dOIndex": 279,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"version"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6360,
+		"nouns": [],
+		"dOIndex": 280,
+		"isQuote": false
+	},
+	{
+		"txt": "If the bounding circle check indicates the possibility of a collision, then CheckForCollision proceeds by setting up a couple of polygons, represented by vertex lists, for each hovercraft:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6361,
+		"nouns": [
+			"circle",
+			"check",
+			"possibility",
+			"collision",
+			"CheckForCollision",
+			"proceeds",
+			"couple",
+			"polygons",
+			"vertex",
+			"lists",
+			"hovercraft"
+		],
+		"dOIndex": 281,
+		"nouns2": [
+			"possibility",
+			"collision",
+			"CheckForCollision",
+			"proceeds",
+			"polygons",
+			"hovercraft"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.07142857142857142,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6362,
+		"nouns": [],
+		"dOIndex": 282,
+		"isQuote": false
+	},
+	{
+		"txt": "The vertex lists are initialized in unrotated body fixed (local) coordinates based on the length and width of the hovercraft. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6363,
+		"nouns": [
+			"vertex",
+			"lists",
+			"body",
+			"coordinates",
+			"length",
+			"width",
+			"hovercraft"
+		],
+		"dOIndex": 283,
+		"nouns2": [
+			"coordinates",
+			"hovercraft"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " The vertices are then rotated to reflect the orientation of each hovercraft. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6364,
+		"nouns": [
+			"vertices",
+			"orientation",
+			"hovercraft"
+		],
+		"dOIndex": 284,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"vertices",
+			"orientation",
+			"hovercraft"
+		]
+	},
+	{
+		"txt": " After that, the position of each hovercraft is added to each vertex to convert from local coordinates to global coordinates",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6365,
+		"nouns": [
+			"position",
+			"hovercraft",
+			"vertex",
+			"coordinates",
+			"coordinates"
+		],
+		"dOIndex": 285,
+		"nouns2": [
+			"position",
+			"hovercraft",
+			"coordinates"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6366,
+		"nouns": [],
+		"dOIndex": 286,
+		"isQuote": false
+	},
+	{
+		"txt": "Checking first for vertex vertex collisions, the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6367,
+		"nouns": [
+			"first",
+			"vertex",
+			"vertex",
+			"collisions"
+		],
+		"dOIndex": 287,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Checking",
+			"collisions"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.25,
+			"words": [
+				"collisions"
+			],
+			"positive": [],
+			"negative": [
+				"collisions"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6368,
+		"nouns": [],
+		"dOIndex": 288,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "function iterates through each vertex in one list, comparing it with each vertex in the other list to see if the points are coincident.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6369,
+		"nouns": [
+			"function",
+			"iterates",
+			"vertex",
+			"one",
+			"list",
+			"vertex",
+			"list",
+			"points"
+		],
+		"dOIndex": 289,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function",
+			"iterates"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6370,
+		"nouns": [],
+		"dOIndex": 290,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6371,
+		"nouns": [],
+		"dOIndex": 291,
+		"isQuote": false
+	},
+	{
+		"txt": "This comparison makes a call to another new function, ArePointsEqual:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6372,
+		"nouns": [
+			"comparison",
+			"call",
+			"function"
+		],
+		"dOIndex": 292,
+		"nouns2": [
+			"comparison",
+			"function",
+			"ArePointsEqual"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6373,
+		"nouns": [],
+		"dOIndex": 293,
+		"isQuote": false
+	},
+	{
+		"txt": "ArePointsEqual simply checks to see if the points are within a specified distance from each other, as shown here:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6374,
+		"nouns": [
+			"checks",
+			"points",
+			"distance"
+		],
+		"dOIndex": 294,
+		"nouns2": [
+			"ArePointsEqual",
+			"distance"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6375,
+		"nouns": [],
+		"dOIndex": 295,
+		"isQuote": false
+	},
+	{
+		"txt": "Within the nested for loops of the vertex vertex check, we perform a number of important calculations to determine the collision normal vector and relative velocity that are required for collision response.",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6376,
+		"nouns": [
+			"loops",
+			"vertex",
+			"vertex",
+			"check",
+			"number",
+			"calculations",
+			"collision",
+			"vector",
+			"velocity",
+			"collision",
+			"response"
+		],
+		"dOIndex": 296,
+		"nouns2": [
+			"Within",
+			"calculations",
+			"collision",
+			"velocity",
+			"response"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.0625,
+			"words": [
+				"collision",
+				"collision",
+				"important"
+			],
+			"positive": [
+				"important"
+			],
+			"negative": [
+				"collision",
+				"collision"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6377,
+		"nouns": [],
+		"dOIndex": 297,
+		"isQuote": false
+	},
+	{
+		"txt": "First, we calculate the collision point, which is simply the coordinates of a vertex that is involved in the collision. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6378,
+		"nouns": [
+			"First",
+			"collision",
+			"point",
+			"coordinates",
+			"vertex",
+			"collision"
+		],
+		"dOIndex": 298,
+		"nouns2": [
+			"collision",
+			"coordinates"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.19047619047619047,
+			"words": [
+				"collision",
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision",
+				"collision"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " Note that this point will be in global coordinates, so it will have to be converted to local coordinates for each hovercraft in order to be useful for collision response. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6379,
+		"nouns": [
+			"point",
+			"coordinates",
+			"coordinates",
+			"hovercraft",
+			"order",
+			"collision",
+			"response"
+		],
+		"dOIndex": 299,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coordinates",
+			"hovercraft",
+			"collision",
+			"response"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"collision",
+				"useful"
+			],
+			"positive": [
+				"useful"
+			],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " Here's how that's done:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6380,
+		"nouns": [],
+		"dOIndex": 300,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6381,
+		"nouns": [],
+		"dOIndex": 301,
+		"isQuote": false
+	},
+	{
+		"txt": "The second calculation is aimed at determining the collision normal vector, which for vertex vertex collisions we've assumed is along the line connecting the centers of gravity of each hovercraft. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6382,
+		"nouns": [
+			"second",
+			"calculation",
+			"collision",
+			"vector",
+			"vertex",
+			"vertex",
+			"collisions",
+			"ve",
+			"line",
+			"centers",
+			"gravity",
+			"hovercraft"
+		],
+		"dOIndex": 302,
+		"nouns2": [
+			"calculation",
+			"collision",
+			"collisions",
+			"centers",
+			"gravity",
+			"hovercraft"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.12903225806451613,
+			"words": [
+				"collisions",
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collisions",
+				"collision"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " The calculation is the same as that shown in the earlier version of CheckForCollision:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6383,
+		"nouns": [
+			"calculation",
+			"version",
+			"CheckForCollision"
+		],
+		"dOIndex": 303,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"calculation",
+			"version",
+			"CheckForCollision"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6384,
+		"nouns": [],
+		"dOIndex": 304,
+		"isQuote": false
+	},
+	{
+		"txt": "The third and final calculation is aimed at determining the relative velocity between the points of impact. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6385,
+		"nouns": [
+			"third",
+			"calculation",
+			"velocity",
+			"points",
+			"impact"
+		],
+		"dOIndex": 305,
+		"nouns2": [
+			"calculation",
+			"velocity"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " This is an important distinction from the earlier version, since the velocities of the points of impact on each body are functions of the linear and angular velocities of the hovercraft:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6386,
+		"nouns": [
+			"distinction",
+			"version",
+			"velocities",
+			"points",
+			"impact",
+			"body",
+			"functions",
+			"velocities",
+			"hovercraft"
+		],
+		"dOIndex": 306,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distinction",
+			"version",
+			"velocities",
+			"functions",
+			"hovercraft"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.0625,
+			"words": [
+				"important"
+			],
+			"positive": [
+				"important"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6387,
+		"nouns": [],
+		"dOIndex": 307,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6388,
+		"nouns": [],
+		"dOIndex": 308,
+		"isQuote": false
+	},
+	{
+		"txt": "Here, v1 and v2 represent the velocities of the points of collision relative to each hovercraft in local coordinates, which are then converted to global coordinates. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6389,
+		"nouns": [
+			"v",
+			"v",
+			"velocities",
+			"points",
+			"collision",
+			"hovercraft",
+			"coordinates",
+			"coordinates"
+		],
+		"dOIndex": 309,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocities",
+			"collision",
+			"hovercraft",
+			"coordinates"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.07407407407407407,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " Once we've obtained the relative velocity, vRelativeVelocity, we obtain the relative normal velocity, Vrn, by taking the dot product of the relative velocity with the collision normal ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6390,
+		"nouns": [
+			"ve",
+			"velocity",
+			"vRelativeVelocity",
+			"velocity",
+			"Vrn",
+			"dot",
+			"product",
+			"velocity",
+			"collision"
+		],
+		"dOIndex": 310,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity",
+			"vRelativeVelocity",
+			"product",
+			"collision"
+		],
+		"highfreq": {
+			"relative": 3,
+			"velocity": 3
+		},
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.06896551724137931,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6391,
+		"nouns": [],
+		"dOIndex": 311,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "vector.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6392,
+		"nouns": [
+			"vector"
+		],
+		"dOIndex": 312,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6393,
+		"nouns": [],
+		"dOIndex": 313,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6394,
+		"nouns": [],
+		"dOIndex": 314,
+		"isQuote": false
+	},
+	{
+		"txt": "If there is no vertex vertex collision, CheckForCollision proceeds to check for ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6395,
+		"nouns": [
+			"vertex",
+			"vertex",
+			"collision",
+			"CheckForCollision",
+			"proceeds",
+			"check"
+		],
+		"dOIndex": 315,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"CheckForCollision",
+			"proceeds"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.23076923076923078,
+			"words": [
+				"collision",
+				"no"
+			],
+			"positive": [],
+			"negative": [
+				"collision",
+				"no"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6396,
+		"nouns": [],
+		"dOIndex": 316,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "vertex edge collisions:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6397,
+		"nouns": [
+			"vertex",
+			"edge",
+			"collisions"
+		],
+		"dOIndex": 317,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collisions"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.6666666666666666,
+			"words": [
+				"collisions"
+			],
+			"positive": [],
+			"negative": [
+				"collisions"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6398,
+		"nouns": [],
+		"dOIndex": 318,
+		"isQuote": false
+	},
+	{
+		"txt": "Here, the nested for loops check each vertex in one list to see if it is in contact with each edge built from the vertices in the other list. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6399,
+		"nouns": [
+			"loops",
+			"check",
+			"vertex",
+			"one",
+			"list",
+			"contact",
+			"edge",
+			"vertices",
+			"list"
+		],
+		"dOIndex": 319,
+		"nouns2": [
+			"contact",
+			"vertices"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " After building the edge under consideration, we save and normalize a copy of it to represent a unit vector pointing along the edge:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6400,
+		"nouns": [
+			"edge",
+			"consideration",
+			"copy",
+			"unit",
+			"vector",
+			"edge"
+		],
+		"dOIndex": 320,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"consideration"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08333333333333333,
+			"words": [
+				"save"
+			],
+			"positive": [
+				"save"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6401,
+		"nouns": [],
+		"dOIndex": 321,
+		"isQuote": false
+	},
+	{
+		"txt": "Variable u represents that unit vector, and it will be used in subsequent calculations. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6402,
+		"nouns": [
+			"unit",
+			"vector",
+			"calculations"
+		],
+		"dOIndex": 322,
+		"nouns2": [
+			"Variable",
+			"calculations"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " The next set of calculations determines the location of the projection of the vertex under consideration onto the edge under consideration, as well as the minimum distance from the vertex to edge:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6403,
+		"nouns": [
+			"calculations",
+			"location",
+			"projection",
+			"vertex",
+			"consideration",
+			"edge",
+			"consideration",
+			"distance",
+			"vertex",
+			"edge"
+		],
+		"dOIndex": 323,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"calculations",
+			"location",
+			"projection",
+			"consideration",
+			"distance"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6404,
+		"nouns": [],
+		"dOIndex": 324,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6405,
+		"nouns": [],
+		"dOIndex": 325,
+		"isQuote": false
+	},
+	{
+		"txt": "Variable p is a vector from the first vertex on the edge to the vertex under consideration, and proj is the distance from the first edge vertex, along the edge, to the point upon which the vertex projects. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6406,
+		"nouns": [
+			"p",
+			"vector",
+			"first",
+			"vertex",
+			"edge",
+			"vertex",
+			"consideration",
+			"proj",
+			"distance",
+			"first",
+			"edge",
+			"vertex",
+			"edge",
+			"point",
+			"vertex",
+			"projects"
+		],
+		"dOIndex": 326,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Variable",
+			"consideration",
+			"distance",
+			"projects"
+		],
+		"highfreq": {
+			"vertex": 4,
+			"edge": 3
+		}
+	},
+	{
+		"txt": " dist is the minimum distance from the vertex to the edge. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6407,
+		"nouns": [
+			"dist",
+			"distance",
+			"vertex",
+			"edge"
+		],
+		"dOIndex": 327,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distance"
+		]
+	},
+	{
+		"txt": " ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6408,
+		"nouns": [],
+		"dOIndex": 328,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 10 3",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6409,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 329,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " illustrates this geometry.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6410,
+		"nouns": [
+			"geometry"
+		],
+		"dOIndex": 330,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"geometry"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6411,
+		"nouns": [],
+		"dOIndex": 331,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6412,
+		"nouns": [],
+		"dOIndex": 332,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6413,
+		"nouns": [],
+		"dOIndex": 333,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6414,
+		"nouns": [],
+		"dOIndex": 334,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6415,
+		"nouns": [],
+		"dOIndex": 335,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 10 3. Vertex edge check",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6416,
+		"nouns": [
+			"Figure",
+			"Vertex",
+			"edge",
+			"check"
+		],
+		"dOIndex": 336,
+		"nouns2": [
+			"Figure",
+			"Vertex"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6417,
+		"nouns": [],
+		"dOIndex": 337,
+		"isQuote": false
+	},
+	{
+		"txt": "If there is a collision, the global location of the point of impact is equal to the vertex under consideration, which we must convert to local coordinates for each hovercraft, as shown here:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6418,
+		"nouns": [
+			"collision",
+			"location",
+			"point",
+			"impact",
+			"vertex",
+			"consideration",
+			"coordinates",
+			"hovercraft"
+		],
+		"dOIndex": 338,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"location",
+			"consideration",
+			"coordinates",
+			"hovercraft"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.06060606060606061,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6419,
+		"nouns": [],
+		"dOIndex": 339,
+		"isQuote": false
+	},
+	{
+		"txt": "Since, in this type of collision, the collision normal vector is perpendicular to the edge, you can determine it by taking the result of the cross product of u and p and crossing it with u as follows:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6420,
+		"nouns": [
+			"type",
+			"collision",
+			"collision",
+			"vector",
+			"edge",
+			"result",
+			"cross",
+			"product",
+			"p"
+		],
+		"dOIndex": 340,
+		"nouns2": [
+			"collision",
+			"product"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.10526315789473684,
+			"words": [
+				"collision",
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision",
+				"collision"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6421,
+		"nouns": [],
+		"dOIndex": 341,
+		"isQuote": false
+	},
+	{
+		"txt": "These calculations give you a unit length vector in the plane of vectors u and p and perpendicular to the edge.",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6422,
+		"nouns": [
+			"calculations",
+			"unit",
+			"length",
+			"vector",
+			"plane",
+			"vectors",
+			"p",
+			"edge"
+		],
+		"dOIndex": 342,
+		"nouns2": [
+			"calculations",
+			"vectors"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6423,
+		"nouns": [],
+		"dOIndex": 343,
+		"isQuote": false
+	},
+	{
+		"txt": "Next, the relative velocity between the points of impact on each hovercraft is determined, just as in the vertex vertex collision check:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6424,
+		"nouns": [
+			"velocity",
+			"points",
+			"impact",
+			"hovercraft",
+			"vertex",
+			"vertex",
+			"collision",
+			"check"
+		],
+		"dOIndex": 344,
+		"nouns2": [
+			"velocity",
+			"hovercraft",
+			"collision"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"collision",
+				"determined"
+			],
+			"positive": [
+				"determined"
+			],
+			"negative": [
+				"collision"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6425,
+		"nouns": [],
+		"dOIndex": 345,
+		"isQuote": false
+	},
+	{
+		"txt": "In determining whether or not the vertex under consideration is in fact colliding with an edge, you have to check to see if the distance from the vertex is within your collision tolerance, and you also have to make sure the vertex actually projects onto the edge (that is, it does not project beyond the endpoints of the edge). ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6426,
+		"nouns": [
+			"vertex",
+			"consideration",
+			"fact",
+			"edge",
+			"check",
+			"distance",
+			"vertex",
+			"collision",
+			"tolerance",
+			"vertex",
+			"projects",
+			"edge",
+			"project",
+			"endpoints",
+			"edge"
+		],
+		"dOIndex": 346,
+		"nouns2": [
+			"consideration",
+			"distance",
+			"collision",
+			"tolerance",
+			"projects",
+			"project",
+			"endpoints"
+		],
+		"highfreq": {
+			"vertex": 3,
+			"edge": 3
+		},
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.016666666666666666,
+			"words": [
+				"tolerance",
+				"collision",
+				"colliding"
+			],
+			"positive": [
+				"tolerance"
+			],
+			"negative": [
+				"collision",
+				"colliding"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " Additionally, you need to make sure the relative normal velocity indicates that the points of contact are moving toward each other. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6427,
+		"nouns": [
+			"velocity",
+			"points",
+			"contact"
+		],
+		"dOIndex": 347,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Additionally",
+			"velocity",
+			"contact"
+		]
+	},
+	{
+		"txt": " Here's how this check looks:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6428,
+		"nouns": [
+			"check"
+		],
+		"dOIndex": 348,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6429,
+		"nouns": [],
+		"dOIndex": 349,
+		"isQuote": false
+	},
+	{
+		"txt": "After CheckForCollision checks for vertex vertex and vertex edge collisions, it goes on to check for penetration:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6430,
+		"nouns": [
+			"CheckForCollision",
+			"checks",
+			"vertex",
+			"vertex",
+			"vertex",
+			"edge",
+			"collisions",
+			"check",
+			"penetration"
+		],
+		"dOIndex": 350,
+		"nouns2": [
+			"CheckForCollision",
+			"collisions",
+			"penetration"
+		],
+		"highfreq": {
+			"vertex": 3
+		},
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.11764705882352941,
+			"words": [
+				"collisions"
+			],
+			"positive": [],
+			"negative": [
+				"collisions"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6431,
+		"nouns": [],
+		"dOIndex": 351,
+		"isQuote": false
+	},
+	{
+		"txt": "This check is a standard point in polygon check using the vector dot product to determine if any vertex of one polygon lies within the bounds of the other polygon. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6432,
+		"nouns": [
+			"check",
+			"point",
+			"polygon",
+			"check",
+			"vector",
+			"dot",
+			"product",
+			"vertex",
+			"one",
+			"polygon",
+			"bounds",
+			"polygon"
+		],
+		"dOIndex": 352,
+		"nouns2": [
+			"polygon",
+			"product"
+		],
+		"highfreq": {
+			"polygon": 3
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " After this check, the function simply returns the appropriate result. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6433,
+		"nouns": [
+			"check",
+			"function",
+			"returns",
+			"result"
+		],
+		"dOIndex": 353,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function",
+			"returns"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.16666666666666666,
+			"words": [
+				"appropriate"
+			],
+			"positive": [
+				"appropriate"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Here again, 0 indicates no collision or penetration, 1 indicates a collision, and −1 indicates penetration.",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6434,
+		"nouns": [
+			"collision",
+			"penetration",
+			"collision",
+			"−",
+			"penetration"
+		],
+		"dOIndex": 354,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"penetration"
+		],
+		"highfreq": {
+			"indicates": 3
+		},
+		"sentiment": {
+			"score": -5,
+			"comparative": -0.29411764705882354,
+			"words": [
+				"collision",
+				"collision",
+				"no"
+			],
+			"positive": [],
+			"negative": [
+				"collision",
+				"collision",
+				"no"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6435,
+		"nouns": [],
+		"dOIndex": 355,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6436,
+		"nouns": [],
+		"dOIndex": 356,
+		"isQuote": false
+	},
+	{
+		"txt": "With CheckForCollision out of the way, turn your attention to ApplyImpulse , which also has to be revised to include angular effects. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6437,
+		"nouns": [
+			"CheckForCollision",
+			"way",
+			"attention",
+			"ApplyImpulse",
+			"effects"
+		],
+		"dOIndex": 357,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"CheckForCollision",
+			"attention",
+			"ApplyImpulse",
+			"effects"
+		]
+	},
+	{
+		"txt": " Specifically, you need to use the impulse formula that includes angular as well as linear effects (see ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6438,
+		"nouns": [
+			"use",
+			"impulse",
+			"formula",
+			"effects"
+		],
+		"dOIndex": 358,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Specifically",
+			"impulse",
+			"formula",
+			"effects"
+		]
+	},
+	{
+		"txt": "Chapter 5",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6439,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 359,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " ), and you also have to apply the impulse to the hovercraft's angular velocities in addition to their linear velocities. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6440,
+		"nouns": [
+			"impulse",
+			"hovercraft",
+			"velocities",
+			"addition",
+			"velocities"
+		],
+		"dOIndex": 360,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"impulse",
+			"hovercraft",
+			"velocities",
+			"addition"
+		]
+	},
+	{
+		"txt": " Here's how the new ApplyImpulse function looks:",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6441,
+		"nouns": [
+			"ApplyImpulse",
+			"function"
+		],
+		"dOIndex": 361,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"ApplyImpulse",
+			"function"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6442,
+		"nouns": [],
+		"dOIndex": 362,
+		"isQuote": false
+	},
+	{
+		"txt": "Remember, the impulse is applied to one hovercraft while its negative is applied to the other.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6443,
+		"nouns": [
+			"impulse",
+			"one",
+			"hovercraft"
+		],
+		"dOIndex": 363,
+		"nouns2": [
+			"Remember",
+			"impulse",
+			"hovercraft"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.125,
+			"words": [
+				"negative"
+			],
+			"positive": [],
+			"negative": [
+				"negative"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6444,
+		"nouns": [],
+		"dOIndex": 364,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6445,
+		"nouns": [],
+		"dOIndex": 365,
+		"isQuote": false
+	},
+	{
+		"txt": "That does it for this new version of the hovercraft simulation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6446,
+		"nouns": [
+			"version",
+			"hovercraft",
+			"simulation"
+		],
+		"dOIndex": 366,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"version",
+			"hovercraft",
+			"simulation"
+		]
+	},
+	{
+		"txt": " If you run the program now, you'll see that you can crash the hovercraft into each other and they bounce and rotate accordingly. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6447,
+		"nouns": [
+			"program",
+			"ll",
+			"crash",
+			"hovercraft"
+		],
+		"dOIndex": 367,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"program",
+			"hovercraft"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.08,
+			"words": [
+				"crash"
+			],
+			"positive": [],
+			"negative": [
+				"crash"
+			]
+		}
+	},
+	{
+		"txt": " This makes for a much more realistic simulation than the simple, linear collision response approach of the last section. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6448,
+		"nouns": [
+			"simulation",
+			"collision",
+			"response",
+			"approach",
+			"section"
+		],
+		"dOIndex": 368,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulation",
+			"collision",
+			"response",
+			"approach",
+			"section"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.09523809523809523,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " Here again, you can play with the mass of each hovercraft and the coefficient of restitution to see how these parameters affect the collision response between the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6449,
+		"nouns": [
+			"mass",
+			"hovercraft",
+			"coefficient",
+			"restitution",
+			"parameters",
+			"collision",
+			"response"
+		],
+		"dOIndex": 369,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hovercraft",
+			"coefficient",
+			"restitution",
+			"parameters",
+			"collision",
+			"response"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.06896551724137931,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6450,
+		"nouns": [],
+		"dOIndex": 370,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6451,
+		"nouns": [],
+		"dOIndex": 371,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6452,
+		"nouns": [],
+		"dOIndex": 372,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6453,
+		"nouns": [],
+		"dOIndex": 373,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6454,
+		"nouns": [],
+		"dOIndex": 374,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6455,
+		"nouns": [],
+		"dOIndex": 375,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6456,
+		"nouns": [],
+		"dOIndex": 376,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "hovercraft.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6457,
+		"nouns": [
+			"hovercraft"
+		],
+		"dOIndex": 377,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hovercraft"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6458,
+		"nouns": [],
+		"dOIndex": 378,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 6459,
+		"nouns": [],
+		"dOIndex": 379,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6460,
+		"nouns": [],
+		"dOIndex": 380,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6461,
+		"nouns": [],
+		"dOIndex": 381,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6462,
+		"nouns": [],
+		"dOIndex": 382
+	},
+	{
+		"txt": "[",
+		"why": "link",
+		"tags": [
+			"sup",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6463,
+		"nouns": [],
+		"dOIndex": 383
+	},
+	{
+		"txt": "19",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6464,
+		"nouns": [],
+		"dOIndex": 384
+	},
+	{
+		"txt": " ] Note that this function does not handle multiple contact points.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6465,
+		"nouns": [
+			"function",
+			"contact",
+			"points"
+		],
+		"dOIndex": 385,
+		"nouns2": [
+			"function",
+			"contact"
+		]
+	}
+]

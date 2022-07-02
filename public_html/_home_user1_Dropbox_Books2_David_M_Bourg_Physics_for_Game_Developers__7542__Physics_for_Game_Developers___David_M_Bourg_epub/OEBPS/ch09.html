@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg"><head><title>Chapter 9. 2D Rigid-Body Simulator</title><link rel="stylesheet" type="text/css" href="core.css"/><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"/><link rel="up" href="pt02.html" title="Part II. Rigid-Body Dynamics"/><link rel="prev" href="ch08.html" title="Chapter 8. Particles"/><link rel="next" href="ch10.html" title="Chapter 10. Implementing Collision Response"/></head><body><section class="chapter" title="Chapter 9. 2D Rigid-Body Simulator" epub:type="chapter" id="d_rigid-body_simulator"><div class="titlepage"><div><div><h2 class="title">Chapter 9. 2D Rigid-Body Simulator</h2></div></div></div><p>After reading <a class="xref" href="ch08.html" title="Chapter 8. Particles">Chapter 8</a>, <a id="si9.0" class="indexterm"/><a id="ri9.0" class="indexterm"/><a id="I_indexterm3_id325070" class="indexterm"/>you’ve learned the main ingredients that go into a simulator,
+  specifically a particle simulator. In this chapter we’ll look beyond
+  particles at 2D rigid bodies. The main difference here is that rigid bodies
+  rotate, and you must deal with an additional equation of motion—namely, the
+  angular equation of motion relating a rigid body’s angular acceleration and
+  inertia to the sum of all moments (torques) acting on the rigid body. The
+  fundamental elements of the simulator—the model, integrator, renderer,
+  etc.—are the same as before; you just have to deal with rotation. In two
+  dimensions, handling rotation is simple. Things get a bit more involved when
+  handling rotation in three dimensions, and we’ll treat that problem in <a class="xref" href="ch11.html" title="Chapter 11. Rotation in 3D Rigid-Body Simulators">Chapter 11</a>.</p><p>The example we’ll take a close look at in this chapter is simple by
+  design. We want to focus on the differences between the particle simulator
+  and a 2D rigid-body simulator. In <a class="xref" href="ch10.html" title="Chapter 10. Implementing Collision Response">Chapter 10</a>, we’ll extend this simple
+  example to deal with multiple rigid bodies and collisions. That’s where
+  things really get interesting. For now, we’ll consider a single rigid body,
+  a virtual hovercraft, that moves around the screen under the influences of
+  thrust forces that you can control with the keyboard. While simple, this
+  example covers the most fundamental aspects of simulating 2D rigid
+  bodies.</p><p><a class="xref" href="ch09.html#d_rigid-body_example" title="Figure 9-1. 2D rigid-body example">Figure 9-1</a> shows our virtual <a id="ho9.0" class="indexterm"/>hovercraft. The pointy end is the front, and the hovercraft
+  will start off moving from the left side of the screen to the right. Using
+  the arrow keys, you can increase or decrease its speed and make it turn left
+  or right (port or starboard).</p><div class="figure"><a id="d_rigid-body_example"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject3_id325146"/><img src="httpatomoreillycomsourceoreillyimages1598941.png" alt="2D rigid-body example"/></div></div><div class="figure-title">Figure 9-1. 2D rigid-body example</div></div><p>In this simulation, the world coordinate system has its x-axis
+  pointing to the right, its y-axis pointing down toward the bottom of the
+  screen, and the z-axis pointing into the screen. Even though this is a 2D
+  example where all motion is confined to the x-y plane, you still need a
+  z-axis about which the hovercraft will rotate. Also, the local, or
+  body-fixed, coordinate system has its x-axis pointing toward the front of
+  the hovercraft, its y-axis pointing to the starboard side, and its z-axis
+  into the screen. The local coordinate system is fixed to the rigid body at
+  its center of gravity location.</p><div class="sect1" title="Model"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="model">Model</h2></div></div></div><p>The hovercraft <a id="tw9.1" class="indexterm"/><a id="mo9.1" class="indexterm"/>modeled in this simulation is a simplified version of the
+    hovercraft we’ll model in <a class="xref" href="ch17.html" title="Chapter 17. Cars and Hovercraft">Chapter 17</a>. You can
+    refer to <a class="xref" href="ch17.html" title="Chapter 17. Cars and Hovercraft">Chapter 17</a> for more details on that
+    model. For convenience we repeat some of the basic properties of the model
+    here. <a class="xref" href="ch09.html#simple_hovercraft_model" title="Figure 9-2. Simple hovercraft model">Figure 9-2</a> illustrates the main
+    features of the model.</p><div class="figure"><a id="simple_hovercraft_model"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject3_id325253"/><img src="httpatomoreillycomsourceoreillyimages1598942.png" alt="Simple hovercraft model"/></div></div><div class="figure-title">Figure 9-2. Simple hovercraft model</div></div><p>We’re assuming this hovercraft operates over smooth land and is
+    fitted with a single airscrew propeller, located toward the aft end of the
+    craft, that provides forward thrust. For controllability, the craft is
+    fitted with two bow thrusters, one to port and the other to starboard.
+    These bow thrusters are used to steer the hovercraft.</p><p>We use a simplified drag model where the only drag component is due
+    to aerodynamic drag on the entire craft with a constant projected area.
+    This model is similar to the one used in <a class="xref" href="ch08.html" title="Chapter 8. Particles">Chapter 8</a> for
+    particle drag. A more rigorous model would consider the actual projected
+    area of the craft as a function of the direction of relative velocity, as
+    in the flight simulator example discussed in <a class="xref" href="ch15.html" title="Chapter 15. Aircraft">Chapter 15</a>,
+    as well as the frictional drag between the bottom of the craft’s skirt and
+    the ground. We also assume that the center of drag—the point through which
+    we can assume the drag force vector is applied—is located some distance
+    aft of the center of gravity so as to give a little directional stability
+    (that is, to counteract rotation). This serves the same function as the
+    vertical tail fins on aircraft. Again, a more rigorous model would include
+    the effects of rotation on aerodynamic drag, but we ignore that
+    here.</p><p>In code, the first thing you need to do to represent this vehicle is
+    define a rigid-body class that contains all of the information you’ll need
+    to track it and calculate the forces and moments acting on it. This
+    <code class="literal">RigidBody2D</code> class is very similar to
+    the <code class="literal">Particle</code> class from <a class="xref" href="ch08.html" title="Chapter 8. Particles">Chapter 8</a>, but with some additions mostly dealing with
+    rotation. Here’s how we did it:</p><a id="I_programlisting3_id325329"/><pre class="programlisting">class RigidBody2D {
+public:
+    float    fMass;       // total mass (constant)
+    float    fInertia;    // mass moment of inertia
+    float    fInertiaInverse;   // inverse of mass moment of inertia
+    Vector    vPosition;        // position in earth coordinates
+    Vector    vVelocity;        // velocity in earth coordinates
+    Vector    vVelocityBody;    // velocity in body coordinates
+    Vector    vAngularVelocity; // angular velocity in body coordinates
+
+    float    fSpeed;            // speed
+    float    fOrientation;      // orientation
+
+    Vector    vForces;          // total force on body
+    Vector    vMoment;          // total moment on body
+
+    float    ThrustForce;       // Magnitude of the thrust force
+    Vector    PThrust, SThrust; // bow thruster forces
+
+    float    fWidth;            // bounding dimensions
+    float    fLength;
+    float    fHeight;
+
+    Vector    CD; // location of center of drag in body coordinates
+    Vector    CT; // location of center of propeller thrust in body coords.
+    Vector    CPT; // location of port bow thruster thrust in body coords.
+    Vector    CST; // location of starboard bow thruster thrust in body
+                   // coords.
+
+    float    ProjectedArea;     // projected area of the body
+
+    RigidBody2D(void);
+    void    CalcLoads(void);
+    void    UpdateBodyEuler(double dt);
+    void    SetThrusters(bool p, bool s);
+    void    ModulateThrust(bool up);
+};</pre><p>The code comments briefly explain each property, and so far you’ve
+    seen all these properties somewhere in this book, so we won’t explain them
+    again here. That said, notice that several of these properties are the
+    same as those shown in the <code class="literal">Particle</code>
+    class from <a class="xref" href="ch08.html" title="Chapter 8. Particles">Chapter 8</a>. These properties include <code class="literal">fMass</code>, <code class="literal">vPosition</code>, <code class="literal">vVelocity</code>, <code class="literal">fSpeed</code>, <code class="literal">vForces</code>, and <code class="literal">fRadius</code>. All of the other properties are new and
+    required to handle the rotational motion aspects of rigid bodies.</p><p>The <code class="literal">RigidBody2D</code> constructor is
+    straightforward, as shown next, and simply initializes all the properties
+    to some arbitrarily tuned values we decided worked well. In <a class="xref" href="ch17.html" title="Chapter 17. Cars and Hovercraft">Chapter 17</a>, you’ll see how we model a more realistic
+    hovercraft.</p><a id="I_programlisting3_id325416"/><pre class="programlisting">RigidBody2D::RigidBody2D(void)
+{
+    fMass = 100;
+    fInertia = 500;
+    fInertiaInverse = 1/fInertia;
+    vPosition.x = 0;
+    vPosition.y = 0;
+    fWidth = 10;
+    fLength = 20;
+    fHeight = 5;
+    fOrientation = 0;
+
+    CD.x = −0.25*fLength;
+    CD.y = 0.0f;
+    CD.z = 0.0f;
+
+    CT.x = −0.5*fLength;
+    CT.y = 0.0f;
+    CT.z = 0.0f;
+
+    CPT.x = 0.5*fLength;
+    CPT.y = −0.5*fWidth;
+    CPT.z = 0.0f;
+
+    CST.x = 0.5*fLength;
+    CST.y = 0.5*fWidth;
+    CST.z = 0.0f;
+
+    ProjectedArea = (fLength + fWidth)/2 * fHeight; // an approximation
+    ThrustForce = _THRUSTFORCE;
+}</pre><p>As in the particle simulator of <a class="xref" href="ch08.html" title="Chapter 8. Particles">Chapter 8</a>, you’ll
+    notice here that the <code class="literal">Vector</code> class is
+    actually a <span class="emphasis"><em>triple</em></span> (that is, it has three
+    components—x, y, and z). Since this is a 2D example, the
+    <span class="emphasis"><em>z</em></span> components will always be 0, except in the case of
+    the angular velocity vector where only the <span class="emphasis"><em>z</em></span>
+    component will be used (since rotation occurs only about the z-axis). The
+    class that we use in this example is discussed in <a class="xref" href="apa.html" title="Appendix A. Vector Operations">Appendix A</a>. The reason we didn’t write a separate 2D
+    vector class, one with only <span class="emphasis"><em>x</em></span> and
+    <span class="emphasis"><em>y</em></span> components, is because we’ll extend this code to 3D
+    later and wanted to get you accustomed to using the 3D vector class.
+    Besides, it’s pretty easy to create a 2D vector class from the 3D class by
+    simply stripping out the <span class="emphasis"><em>z</em></span> component.</p><p>As with the particle example of <a class="xref" href="ch08.html" title="Chapter 8. Particles">Chapter 8</a>, we
+    need a <code class="literal">CalcLoads</code> method for the rigid
+    body. As before, this method will compute all the loads acting on the
+    rigid body, but now these loads include both forces and moments that will
+    cause rotation. <code class="literal">CalcLoads</code> looks like
+    this:</p><a id="I_programlisting3_id325495"/><pre class="programlisting">void    RigidBody2D::CalcLoads(void)
+{
+    Vector    Fb;        // stores the sum of forces
+    Vector    Mb;        // stores the sum of moments
+    Vector    Thrust;    // thrust vector
+
+    // reset forces and moments:
+    vForces.x = 0.0f;
+    vForces.y = 0.0f;
+    vForces.z = 0.0f;    // always zero in 2D
+
+    vMoment.x = 0.0f;    // always zero in 2D
+    vMoment.y = 0.0f;    // always zero in 2D
+    vMoment.z = 0.0f;
+
+    Fb.x = 0.0f;
+    Fb.y = 0.0f;
+    Fb.z = 0.0f;
+
+    Mb.x = 0.0f;
+    Mb.y = 0.0f;
+    Mb.z = 0.0f;
+
+    // Define the thrust vector, which acts through the craft's CG
+    Thrust.x = 1.0f;
+    Thrust.y = 0.0f;
+    Thrust.z = 0.0f;     // zero in 2D
+    Thrust *= ThrustForce;
+
+    // Calculate forces and moments in body space:
+    Vector   vLocalVelocity;
+    float    fLocalSpeed;
+    Vector   vDragVector;
+    float    tmp;
+    Vector   vResultant;
+    Vector   vtmp;
+
+    // Calculate the aerodynamic drag force:
+        // Calculate local velocity:
+        // The local velocity includes the velocity due to
+        // linear motion of the craft,
+        // plus the velocity at each element
+        // due to the rotation of the craft.
+
+        vtmp = vAngularVelocity^CD; // rotational part
+        vLocalVelocity = vVelocityBody + vtmp;
+
+        // Calculate local air speed
+        fLocalSpeed = vLocalVelocity.Magnitude();
+
+        // Find the direction in which drag will act.
+        // Drag always acts in line with the relative
+        // velocity but in the opposing direction
+        if(fLocalSpeed &gt; tol)
+        {
+            vLocalVelocity.Normalize();
+            vDragVector = -vLocalVelocity;
+
+            // Determine the resultant force on the element.
+            tmp = 0.5f * rho * fLocalSpeed*fLocalSpeed
+                         * ProjectedArea;
+            vResultant = vDragVector * _LINEARDRAGCOEFFICIENT * tmp;
+
+            // Keep a running total of these resultant forces
+            Fb += vResultant;
+
+            // Calculate the moment about the CG
+            // and keep a running total of these moments
+
+            vtmp = CD^vResultant;
+            Mb += vtmp;
+        }
+
+        // Calculate the Port &amp; Starboard bow thruster forces:
+        // Keep a running total of these resultant forces
+
+        Fb += PThrust;
+
+
+        // Calculate the moment about the CG of this element's force
+        // and keep a running total of these moments (total moment)
+        vtmp = CPT^PThrust;
+        Mb += vtmp;
+
+        // Keep a running total of these resultant forces (total force)
+        Fb += SThrust;
+
+        // Calculate the moment about the CG of this element's force
+        // and keep a running total of these moments (total moment)
+        vtmp = CST^SThrust;
+        Mb += vtmp;
+
+    // Now add the propulsion thrust
+    Fb += Thrust; // no moment since line of action is through CG
+
+    // Convert forces from model space to earth space
+    vForces = VRotate2D(fOrientation, Fb);
+
+    vMoment += Mb;
+}</pre><p>The first thing that <code class="literal">CalcLoads</code>
+    does is initialize the force and moment variables that will contain the
+    total of all forces and moments acting on the craft at any instant in
+    time. Just as we must aggregate forces, we must also aggregate moments.
+    The forces will be used along with the linear equation of motion to
+    compute the linear displacement of the rigid body, while the moments will
+    be used with the angular equation of motion to compute <a id="I_indexterm3_id325538" class="indexterm"/>the orientation of the body.</p><p>The function then goes on to define a vector representing the
+    propeller thrust, <code class="literal">Thrust</code>. The propeller
+    thrust vector acts in the positive (local) x-direction and has a magnitude
+    defined by <code class="literal">ThrustForce</code>, which the user
+    sets via the keyboard interface (we’ll get to that later). Note that if
+    <code class="literal">ThrustForce</code> is negative, then the
+    thrust will actually be a reversing thrust instead of a forward
+    thrust.</p><p>After defining the thrust vector, this function goes on to calculate
+    the aerodynamic drag acting on the hovercraft. These calculations are very
+    similar to those discussed in <a class="xref" href="ch17.html" title="Chapter 17. Cars and Hovercraft">Chapter 17</a>. The
+    first thing to do is determine the relative velocity at the center of
+    drag, considering both linear and angular motion. You’ll need the
+    magnitude of the relative velocity vector when calculating the magnitude
+    of the drag force, and you’ll need the direction of the relative velocity
+    vector to determine the direction of the drag force since it always
+    opposes the velocity vector. The line <code class="literal">vtmp =
+    vAngularVelocity^CD</code> computes the linear velocity at the drag
+    center by taking the vector cross product of the angular velocity vector
+    with the position vector of the drag center, <code class="literal">CD</code>. The result is stored in a temporary vector,
+    <code class="literal">vtmp</code>, and then added vectorially to the
+    body velocity vector, <code class="literal">vVelocityBody</code>.
+    The result of this vector addition is a velocity vector representing the
+    velocity of the point defined by <code class="literal">CD</code>,
+    including contributions from the body’s linear and angular motion. We
+    compute the actual drag force, which acts in line with but in a direction
+    opposing the velocity vector, in a manner similar to that for particles,
+    using a simple formula relating the drag force to the speed squared,
+    density of air, projected area, and a drag coefficient. The following code
+    performs this calculation:</p><a id="I_programlisting3_id325624"/><pre class="programlisting">            vLocalVelocity.Normalize();
+            vDragVector = -vLocalVelocity;
+
+            // Determine the resultant force on the element.
+            tmp = 0.5f * rho * fLocalSpeed*fLocalSpeed
+                         * ProjectedArea;
+            vResultant = vDragVector * _LINEARDRAGCOEFFICIENT * tmp;</pre><p>Note that the drag coefficient, <code class="literal">LINEARDRAGCOEFFICIENT</code>, is defined as
+    follows:</p><a id="I_programlisting3_id325642"/><pre class="programlisting">#define LINEARDRAGCOEFFICIENT     1.25f</pre><p>Once the drag force is determined, it gets aggregated in the total
+    force vector as follows:</p><a id="I_programlisting3_id325653"/><pre class="programlisting">              Fb += vResultant;</pre><p>In addition to aggregating this force, we must aggregate the moment
+    due to that force in the total moment vector as follows:</p><a id="I_programlisting3_id325664"/><pre class="programlisting">              vtmp = CD^vResultant;
+              Mb += vtmp;</pre><p>The first line computes the moment due to the drag force by taking
+    the vector cross product of the position vector, to the center of drag,
+    with the drag force vector. The second line adds this force to the
+    variable, accumulating these moments.</p><p>With the drag calculation complete, <code class="literal">CalcLoads</code> proceeds to calculate the forces and
+    moments due to the bow thrusters, which may be active or inactive at any
+    given time.</p><a id="I_programlisting3_id325687"/><pre class="programlisting">        Fb += PThrust;
+
+        vtmp = CPT^PThrust;
+        Mb += vtmp;</pre><p>The first line aggregates the port bow thruster force into <code class="literal">Fb</code>. <code class="literal">PThrust</code>
+    is a force vector computed in the <code class="literal">SetThrusters</code> method in response to your keyboard
+    input. The next two lines compute and aggregate the moment due to the
+    thruster force. A similar set of code lines follows, computing the force
+    and moment due to the starboard bow thruster.</p><p>Next, the propeller thrust force is added to the running total of
+    forces. Remember, since the propeller thrust force acts through the center
+    of gravity, there is no moment to worry about. Thus, all we need
+    is:</p><a id="I_programlisting3_id325723"/><pre class="programlisting">    Fb += Thrust; // no moment since line of action is through CG</pre><p>Finally, the total force is transformed from local coordinates to
+    world coordinates via a vector rotation given the orientation of the
+    hovercraft, and the total forces and moments are stored so they are
+    available when it comes time to integrate the equations of motion at each
+    time step.</p><p>As you can see, computing loads on a rigid body is a bit more
+    complex than what you saw earlier when dealing with particles. This, of
+    course, is due to the nature of rigid bodies being able to rotate. What’s
+    nice, though, is that all this new complexity is encapsulated in <code class="literal">CalcLoads</code>, and the rest of the simulator is
+    pretty much the same as when we’re dealing with <a id="I_indexterm3_id325747" class="indexterm"/><a id="I_indexterm3_id325756" class="indexterm"/>particles.</p><div class="sect2" title="Transforming Coordinates"><div class="titlepage"><div><div><h3 class="title" id="transforming_coordinates">Transforming Coordinates</h3></div></div></div><p>Let’s talk about <a id="I_indexterm3_id325781" class="indexterm"/><a id="I_indexterm3_id325788" class="indexterm"/>transformation from local to world coordinates a bit more
+      since you’ll see this sort of transform again in a few places. When
+      computing forces acting on the rigid body, we want those forces in a
+      vector form relative to the coordinates that are fixed with respect to
+      the hovercraft (e.g., relative to the body’s center of gravity with the
+      x-axis pointing toward the front of the body and the y-axis pointing
+      toward the starboard side). This simplifies our calculations of forces
+      and moments. However, when integrating the equation of motion to see how
+      the body translates in world coordinates, we use the <a id="I_indexterm3_id325801" class="indexterm"/>equations of motion in world coordinates, requiring us to
+      represent the aggregate force in world coordinates. That’s why we
+      rotated the aggregate force at the end of the <code class="literal">CalcLoads</code> method.</p><p>In two dimensions, the coordinate transformation involves a little
+      trigonometry as shown in the following <code class="literal">VRotate2D</code> function:</p><a id="I_programlisting3_id325835"/><pre class="programlisting">Vector    VRotate2D( float angle, Vector u)
+{
+    float    x,y;
+
+    x = u.x * cos(DegreesToRadians(-angle)) +
+        u.y * sin(DegreesToRadians(-angle));
+    y = -u.x * sin(DegreesToRadians(-angle)) +
+        u.y * cos(DegreesToRadians(-angle));
+
+    return Vector( x, y, 0);
+}</pre><p>The angle here represents the orientation of the local, body fixed
+      coordinate system with respect to the world coordinate system. When
+      converting from local coordinates to world coordinates, use a positive
+      angle; use a negative angle when going the other way. This is just the
+      convention we’ve adopted so transformations from local coordinates to
+      world coordinates are positive. You can see we actually take the
+      negative of the <code class="literal">angle</code> parameter, so
+      in reality you could do away with that negative, and then
+      transformations from local coordinates to world coordinates would
+      actually be negative. It’s your preference. You’ll see this function
+      used a few more times in different situations before the end of this
+      chapter.</p></div><div class="sect2" title="Integrator"><div class="titlepage"><div><div><h3 class="title" id="integrator-id1">Integrator</h3></div></div></div><p>The <code class="literal">UpdateBodyEuler</code> method
+      <a id="tw9.1.2" class="indexterm"/><a id="in9.1.2" class="indexterm"/>actually integrates the equations of motion for the rigid
+      body. Since we’re dealing with a rigid body, unlike a particle, we have
+      two equations of motion: one for translation, and the other for
+      rotation. The following code sample shows <code class="literal">UpdateBodyEuler</code>.</p><a id="I_programlisting3_id325922"/><pre class="programlisting">void    RigidBody2D::UpdateBodyEuler(double dt)
+{
+        Vector a;
+        Vector dv;
+        Vector ds;
+        float  aa;
+        float  dav;
+        float  dr;
+
+        // Calculate forces and moments:
+        CalcLoads();
+
+        // Integrate linear equation of motion:
+        a = vForces / fMass;
+
+        dv = a * dt;
+        vVelocity += dv;
+
+        ds = vVelocity * dt;
+        vPosition += ds;
+
+        // Integrate angular equation of motion:
+        aa = vMoment.z / fInertia;
+
+        dav = aa * dt;
+
+        vAngularVelocity.z += dav;
+
+        dr = RadiansToDegrees(vAngularVelocity.z * dt);
+        fOrientation += dr;
+
+        // Misc. calculations:
+        fSpeed = vVelocity.Magnitude();
+        vVelocityBody = VRotate2D(-fOrientation, vVelocity);
+}</pre><p>As the name of this method implies, we’ve implemented Euler’s
+      <a id="I_indexterm3_id325937" class="indexterm"/>method of integration as described in <a class="xref" href="ch07.html" title="Chapter 7. Real-Time Simulations">Chapter 7</a>. Integrating the linear equation of
+      motion for a rigid body follows exactly the same steps we used for
+      integrating the linear equation of motion for particles. All that’s
+      required is to divide the aggregate forces acting on a body by the mass
+      of the body to get the body’s acceleration. The line of code <code class="literal">a = vForces / fMass</code> does just this. Notice
+      here that <code class="literal">a</code> is a <code class="literal">Vector</code>, as is <code class="literal">vForces</code>. <code class="literal">fMass</code> is a scalar, and the <code class="literal">/</code> operator defined in the <code class="literal">Vector</code> class takes care of dividing each
+      component of the <code class="literal">vForces</code> vector by
+      <code class="literal">fMass</code> and setting the corresponding
+      components in <code class="literal">a</code>. The change in
+      velocity, <code class="literal">dv</code>, is equal to
+      acceleration times the change in time, <code class="literal">dt</code>. The body’s new velocity is then computed
+      by the line <code class="literal">vVelocity += dv</code>. Here
+      again, <code class="literal">vVelocity</code> and <code class="literal">dv</code> are <code class="literal">Vector</code>s and the <code class="literal">+=</code> operator takes care of the vector
+      arithmetic. This is the first actual integration for translation.</p><p>The second integration takes place in the next few lines, where we
+      determine the body’s displacement and new position by integrating its
+      velocity. The line <code class="literal">ds = vVelocity *
+      dt</code> determines the displacement, or change in the body’s
+      position, and the line <code class="literal">vPosition +=
+      ds</code> computes the new position by adding the displacement to the
+      body’s old position. That’s it for translation.</p><p>The next order of business is to integrate the angular equation of
+      motion to find the body’s <a id="I_indexterm3_id326087" class="indexterm"/>new orientation. The line <code class="literal">aa =
+      vMoment.z / fInertia;</code> computes the body’s angular acceleration
+      by dividing the aggregate moment acting on the body by its mass moment
+      of inertia. <code class="literal">aa</code> is a scalar, as is
+      <code class="literal">fInertia</code> since this is a 2D problem.
+      In 3D, things are a bit more complicated, and we’ll get to that in <a class="xref" href="ch11.html" title="Chapter 11. Rotation in 3D Rigid-Body Simulators">Chapter 11</a>.</p><p>We compute the change in angular velocity, <code class="literal">dav</code>, a scalar, by multiplying <code class="literal">aa</code> by the time step size, <code class="literal">dt</code>. The new angular velocity is simply the old
+      velocity plus the change: <code class="literal">vAngularVelocity.z +=
+      dav</code>. The change in orientation is equal to the new angular
+      velocity multiplied by the time step: <code class="literal">vAngularVelocity.z * dt</code>. Notice that we
+      convert the change in orientation from radians to degrees here since
+      we’re keeping track of orientation in degrees. You don’t really have to,
+      so long as you’re consistent.</p><p>The last line in <code class="literal">UpdateBodyEuler</code> computes the body’s linear
+      speed by transforming the magnitude of its velocity vector to local,
+      body coordinates. Recall in <code class="literal">CalcLoads</code>
+      that we require the body’s velocity in body-fixed coordinates in order
+      to compute the <a id="I_indexterm3_id326176" class="indexterm"/><a id="I_indexterm3_id326186" class="indexterm"/>drag force on the body.</p></div><div class="sect2" title="Rendering"><div class="titlepage"><div><div><h3 class="title" id="rendering-id1">Rendering</h3></div></div></div><p>In this simple example, rendering the <a id="I_indexterm3_id326210" class="indexterm"/><a id="I_indexterm3_id326223" class="indexterm"/>virtual hovercraft is just a little more involved than
+      rendering the particles in the example from <a class="xref" href="ch08.html" title="Chapter 8. Particles">Chapter 8</a>. All we do is draw a few connected lines using
+      Windows API calls wrapped in our own functions to hide some of the
+      Windows-specific code. The following code snippet is all we need to
+      render the hovercraft:</p><a id="I_programlisting3_id326245"/><pre class="programlisting">void    DrawCraft(RigidBody2D    craft, COLORREF clr)
+{
+    Vector    vList[5];
+    double    wd, lg;
+    int       i;
+    Vector    v1;
+
+    wd = craft.fWidth;
+    lg = craft.fLength;
+    vList[0].x = lg/2;     vList[0].y = wd/2;
+    vList[1].x = -lg/2;    vList[1].y = wd/2;
+    vList[2].x = -lg/2;    vList[2].y = -wd/2;
+    vList[3].x = lg/2;     vList[3].y = -wd/2;
+    vList[4].x = lg/2*1.5; vList[4].y = 0;
+    for(i=0; i&lt;5; i++)
+    {
+        v1 = VRotate2D(craft.fOrientation, vList[i]);
+        vList[i] = v1 + craft.vPosition;
+    }
+
+    DrawLine(vList[0].x, vList[0].y, vList[1].x, vList[1].y, 2, clr);
+    DrawLine(vList[1].x, vList[1].y, vList[2].x, vList[2].y, 2, clr);
+    DrawLine(vList[2].x, vList[2].y, vList[3].x, vList[3].y, 2, clr);
+    DrawLine(vList[3].x, vList[3].y, vList[4].x, vList[4].y, 2, clr);
+    DrawLine(vList[4].x, vList[4].y, vList[0].x, vList[0].y, 2, clr);
+}</pre><p>You can use your own rendering code here, of course, and all you
+      really need to pay close attention to is transforming the coordinates
+      for the outline of the hovercraft from body to world coordinates. This
+      involves rotating the vertex coordinates from body-fixed space using the
+      <code class="literal">VRotate2D</code> function and then adding
+      the position of the center of gravity of the hovercraft to each
+      transformed vertex. These lines take care of this coordinate
+      transformation:</p><a id="I_programlisting3_id326272"/><pre class="programlisting">    for(i=0; i&lt;5; i++)
+    {
+        v1 = VRotate2D(craft.fOrientation, vList[i]);
+        vList[i] = v1 + craft.vPosition;
+    }</pre></div></div><div class="sect1" title="The Basic Simulator"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="the_basic_simulator-id1">The Basic Simulator</h2></div></div></div><p>The heart of this<a id="tw9.2" class="indexterm"/> simulation is handled by the <code class="literal">RigidBody2D</code> class described earlier. However, we
+    need to show you how that class is used in the context of the main
+    program. This simulator is very similar to that shown in <a class="xref" href="ch08.html" title="Chapter 8. Particles">Chapter 8</a> for particles, so if you’ve read that chapter
+    already you can breeze through this section.</p><p>First, we define a few global variables as follows:</p><a id="I_programlisting3_id326327"/><pre class="programlisting">// Global Variables:
+int            FrameCounter = 0;
+RigidBody2D    Craft;</pre><p><code class="literal">FrameCounter</code> counts the number of
+    time steps integrated before the graphics display is updated. How many
+    time steps you allow the simulation to integrate before updating the
+    display is a matter of tuning. You’ll see how this is used momentarily
+    when we discuss the <code class="literal">UpdateSimulation</code>
+    function. <code class="literal">Craft</code> is a <code class="literal">RigidBody2D</code> type that will represent our virtual
+    hovercraft.</p><p>For the most part, <code class="literal">Craft</code> is
+    initialized in accordance with the <code class="literal">RigidBody2D</code> constructor shown earlier. However,
+    its position is at the origin, so we make a call to the following <code class="literal">Initialize</code> function to locate the <code class="literal">Craft</code> in the middle of the screen vertically and
+    on the left side. We set its orientation to 0 degrees so it points toward
+    the right side of the screen:</p><a id="I_programlisting3_id326391"/><pre class="programlisting">bool    Initialize(void)
+{
+    Craft.vPosition.x = _WINWIDTH/10;
+    Craft.vPosition.y = _WINHEIGHT/2;
+    Craft.fOrientation = 0;
+
+    return true;
+}</pre><p>OK, now let’s consider <code class="literal">UpdateSimulation</code> as shown in the code snippet
+    below. This function gets called every cycle through the program’s main
+    message loop and is responsible for making appropriate function calls to
+    update the hovercraft’s position and orientation, as well as rendering the
+    scene. It also checks the states of the keyboard arrow keys and makes
+    appropriate function calls:</p><a id="I_programlisting3_id326411"/><pre class="programlisting">void    UpdateSimulation(void)
+{
+    double  dt = _TIMESTEP;
+    RECT    r;
+
+    Craft.SetThrusters(false, false);
+
+    if (IsKeyDown(VK_UP))
+        Craft.ModulateThrust(true);
+
+    if (IsKeyDown(VK_DOWN))
+        Craft.ModulateThrust(false);
+
+    if (IsKeyDown(VK_RIGHT))
+        Craft.SetThrusters(true, false);
+
+    if (IsKeyDown(VK_LEFT))
+        Craft.SetThrusters(false, true);
+
+    // update the simulation
+    Craft.UpdateBodyEuler(dt);
+
+    if(FrameCounter &gt;= _RENDER_FRAME_COUNT)
+    {
+        // update the display
+        ClearBackBuffer();
+
+        DrawCraft(Craft, RGB(0,0,255));
+
+        CopyBackBufferToWindow();
+        FrameCounter = 0;
+    } else
+        FrameCounter++;
+
+    if(Craft.vPosition.x &gt; _WINWIDTH) Craft.vPosition.x = 0;
+    if(Craft.vPosition.x &lt; 0) Craft.vPosition.x = _WINWIDTH;
+    if(Craft.vPosition.y &gt; _WINHEIGHT) Craft.vPosition.y = 0;
+    if(Craft.vPosition.y &lt; 0) Craft.vPosition.y = _WINHEIGHT;
+}</pre><p>The local variable <code class="literal">dt</code> represents
+    the small yet finite amount of time, in seconds, over which each
+    integration step is taken. The global <code class="literal">define
+    _TIMESTEP</code> stores the time step, which we have set to 0.001
+    seconds. This value is subject to tuning.</p><p>The first action <code class="literal">UpdateSimulation</code>
+    takes is to reset the states of the bow thrusters to inactive by calling
+    the <code class="literal">SetThrusters</code> method as
+    follows:</p><a id="I_programlisting3_id326458"/><pre class="programlisting">Craft.SetThrusters(false, false);</pre><p>Next, the keyboard is polled using the function <code class="literal">IsKeyDown</code>. This is a wrapper function we created
+    to encapsulate the necessary Windows API calls used to check key states.
+    If the up arrow key is pressed, then the <code class="literal">RigidBody2D</code> method <code class="literal">ModulateThrust</code> is called, as shown here:</p><a id="I_programlisting3_id326488"/><pre class="programlisting">Craft.ModulateThrust(true);</pre><p>If the down arrow key is pressed, then <code class="literal">ModulateThrust</code> is called, passing <code class="literal">false</code> instead of <code class="literal">true</code>.</p><p><code class="literal">ModulateThrust</code> looks like
+    this:</p><a id="I_programlisting3_id326524"/><pre class="programlisting">void    RigidBody2D::ModulateThrust(bool up)
+{
+    double    dT = up ? _DTHRUST:-_DTHRUST;
+
+    ThrustForce += dT;
+
+    if(ThrustForce &gt; _MAXTHRUST) ThrustForce = _MAXTHRUST;
+    if(ThrustForce &lt; _MINTHRUST) ThrustForce = _MINTHRUST;
+}</pre><p>All it does is increment the propeller thrust force by a small
+    amount, either increasing it or decreasing it, depending on the value of
+    the <code class="literal">up</code> parameter.</p><p>Getting back to <code class="literal">UpdateSimulation</code>,
+    we make a couple more calls to <code class="literal">IsKeyDown</code>, checking the states of the left and
+    right arrow keys. If the left arrow key is down, then the <code class="literal">RigidBody2D</code> method <code class="literal">SetThrusters</code> is called, passing <code class="literal">false</code> as the first parameter and <code class="literal">true</code> as the second parameter. If the right arrow
+    key is down, these parameter values are reversed. <code class="literal">SetThrusters</code> looks like this:</p><a id="I_programlisting3_id326591"/><pre class="programlisting">void    RigidBody2D::SetThrusters(bool p, bool s)
+{
+    PThrust.x = 0;
+    PThrust.y = 0;
+    SThrust.x = 0;
+    SThrust.y = 0;
+
+    if(p)
+        PThrust.y = _STEERINGFORCE;
+    if(s)
+        SThrust.y = -_STEERINGFORCE;
+}</pre><p>It resets the port and starboard bow thruster thrust vectors and
+    then sets them according to the parameters passed in <code class="literal">SetThrusters</code>. If <code class="literal">p</code> is <code class="literal">true</code>,
+    then a right turn is desired and a port thrust force, <code class="literal">PThrust</code>, is created, pointing toward the
+    starboard side. This seems opposite of what you’d expect, but it is the
+    port bow thruster that is fired, pushing the bow of the hovercraft toward
+    the right (starboard) side. Similarly, if <code class="literal">s</code> is <code class="literal">true</code>, a
+    thrust force is created that will push the bow of the hovercraft to the
+    left (port) side.</p><p>Now with the thrust forces managed, <code class="literal">UpdateSimulation</code> makes the call:</p><a id="I_programlisting3_id326652"/><pre class="programlisting">Craft.UpdateBodyEuler(dt)</pre><p><code class="literal">UpdateBodyEuler</code> integrates the
+    equations of motion as discussed earlier.</p><p>The next segment of code checks the value of the frame counter. If
+    the frame counter has reached the defined number of frames (stored in
+    <code class="literal">_RENDER_FRAME_COUNT</code>), then the back
+    buffer is cleared to prepare it for drawing upon and ultimately copying to
+    the screen.</p><p>Finally, the last four lines of code wrap the hovercraft’s position
+    around the edges of the <a id="I_indexterm3_id326682" class="indexterm"/>screen.</p></div><div class="sect1" title="Tuning"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="tuning-id1">Tuning</h2></div></div></div><p>You’ll probably<a id="I_indexterm3_id326702" class="indexterm"/><a id="I_indexterm3_id326715" class="indexterm"/> want to tune this example to run well on your computer
+    since we didn’t implement any profiling for processor speed. Moreover, you
+    should tune the various parameters governing the behavior of the
+    hovercraft to see how it responds. The way we have it set up now makes the
+    hovercraft exhibit a soft sort of response to turning—that is, upon
+    application of turning forces, the craft will tend to keep tracking in its
+    original heading for a bit even while yawed. It will not respond like a
+    car would turn. You can change this behavior, of course.</p><p>Some things we suggest you play with include the time step size and
+    the various constants we’ve defined as follows:</p><a id="I_programlisting3_id326739"/><pre class="programlisting">#define  _THRUSTFORCE      5.0f
+#define  _MAXTHRUST        10.0f
+#define  _MINTHRUST        0.0f
+#define  _DTHRUST          0.001f
+#define  _STEERINGFORCE    3.0f
+#define  _LINEARDRAGCOEFFICIENT    1.25f</pre><p><code class="literal">_THRUSTFORCE</code> is the initial
+    magnitude of the propeller thrust force. <code class="literal">_MAXTHRUST</code> and <code class="literal">_MINTHRUST</code> set upper and lower bounds to this
+    force, which is modulated by the user pressing the up and down arrow keys.
+    <code class="literal">_DTHRUST</code> is the incremental change in
+    thrust in response to the user pressing the up and down arrow keys.
+    <code class="literal">_STEERINGFORCE</code> is the magnitude of the
+    bow thruster forces. You should definitely play with this value to see how
+    the behavior of the hovercraft changes. Finally, <code class="literal">_LINEARDRAGCOEFFICIENT</code> is the drag coefficient
+    used to compute aerodynamic drag. This is another good value to play with
+    to see how behavior is affected. Speaking of drag, the location of the
+    center of drag that’s initialized in the <code class="literal">RigidBody2D</code> constructor is a good parameter to
+    change in order to understand how it affects the behavior of the
+    hovercraft. It influences the craft’s directional stability, which affects
+    its turning radius—particularly at higher <a id="I_indexterm3_id326799" class="indexterm"/><a id="I_indexterm3_id326808" class="indexterm"/><a id="I_indexterm3_id326818" class="indexterm"/>speeds.</p></div></section></body></html>

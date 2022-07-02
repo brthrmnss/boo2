@@ -1,0 +1,5022 @@
+[
+	{
+		"txt": "",
+		"why": "br tag like",
+		"sentenceIndex": 14628,
+		"nouns": [],
+		"dOIndex": 0,
+		"isQuote": false
+	},
+	{
+		"txt": "Appendix C. Quaternion Operations",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14629,
+		"nouns": [
+			"Appendix",
+			"C",
+			"Quaternion Operations"
+		],
+		"dOIndex": 1,
+		"nouns2": [
+			"Appendix",
+			"Quaternion",
+			"Operations"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "This appendix implements a class called Quaternion that encapsulates all of the operations you need to handle quaternions when writing 3D rigid body simulations.",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 14630,
+		"nouns": [
+			"appendix",
+			"implements",
+			"class",
+			"Quaternion",
+			"encapsulates",
+			"operations",
+			"quaternions",
+			"D",
+			"body",
+			"simulations"
+		],
+		"dOIndex": 2,
+		"nouns2": [
+			"appendix",
+			"implements",
+			"Quaternion",
+			"encapsulates",
+			"operations",
+			"quaternions",
+			"simulations"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 14631,
+		"nouns": [],
+		"dOIndex": 3,
+		"isQuote": false
+	},
+	{
+		"txt": "Quaternion Class",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14632,
+		"nouns": [
+			"Quaternion Class"
+		],
+		"dOIndex": 4,
+		"nouns2": [
+			"Quaternion"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "The Quaternion class is defined ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14633,
+		"nouns": [
+			"Quaternion",
+			"class"
+		],
+		"dOIndex": 5,
+		"nouns2": [
+			"Quaternion"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14634,
+		"nouns": [],
+		"dOIndex": 6,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "with a scalar component, n, and vector component, v, where v is the vector, × i + y j + z k . ",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14635,
+		"nouns": [
+			"component",
+			"n",
+			"vector",
+			"component",
+			"v",
+			"v",
+			"vector",
+			"×",
+			"y",
+			"j",
+			"z",
+			"k"
+		],
+		"dOIndex": 7,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"component"
+		]
+	},
+	{
+		"txt": " The class has two constructors, one of which initializes the quaternion to 0, and the other of which initializes the elements to those passed to the constructor:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14636,
+		"nouns": [
+			"class",
+			"two",
+			"constructors",
+			"one",
+			"initializes",
+			"quaternion",
+			"initializes",
+			"elements",
+			"constructor"
+		],
+		"dOIndex": 8,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"constructors",
+			"initializes",
+			"quaternion",
+			"elements",
+			"constructor"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14637,
+		"nouns": [],
+		"dOIndex": 9,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14638,
+		"nouns": [],
+		"dOIndex": 10,
+		"isQuote": false
+	},
+	{
+		"txt": "Magnitude",
+		"why": "p",
+		"tags": [
+			"h3",
+			"div",
+			"div",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14639,
+		"nouns": [
+			"Magnitude"
+		],
+		"dOIndex": 11,
+		"nouns2": [
+			"Magnitude"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14640,
+		"nouns": [],
+		"dOIndex": 12,
+		"isQuote": false
+	},
+	{
+		"txt": "The method Magnitude returns the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14641,
+		"nouns": [
+			"method",
+			"Magnitude",
+			"returns"
+		],
+		"dOIndex": 13,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Magnitude",
+			"returns"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14642,
+		"nouns": [],
+		"dOIndex": 14,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "magnitude of the quaternion according to the following formula:|q| = ",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14643,
+		"nouns": [
+			"magnitude",
+			"quaternion",
+			"formula",
+			"|q|"
+		],
+		"dOIndex": 15,
+		"nouns2": [
+			"magnitude",
+			"quaternion",
+			"formula"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14644,
+		"nouns": [],
+		"dOIndex": 16,
+		"isQuote": false
+	},
+	{
+		"txt": "This is similar to calculating the magnitude of a vector except that for quaternions you have to take the fourth term, the scalar n , into account.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14645,
+		"nouns": [
+			"magnitude",
+			"vector",
+			"quaternions",
+			"term",
+			"n",
+			"account"
+		],
+		"dOIndex": 17,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"magnitude",
+			"quaternions",
+			"account"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14646,
+		"nouns": [],
+		"dOIndex": 18,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14647,
+		"nouns": [],
+		"dOIndex": 19,
+		"isQuote": false
+	},
+	{
+		"txt": "Here's the code that calculates the magnitude for our Quaternion class:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14648,
+		"nouns": [
+			"code",
+			"magnitude",
+			"Quaternion",
+			"class"
+		],
+		"dOIndex": 20,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"magnitude",
+			"Quaternion"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14649,
+		"nouns": [],
+		"dOIndex": 21,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14650,
+		"nouns": [],
+		"dOIndex": 22,
+		"isQuote": false
+	},
+	{
+		"txt": "GetVector",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14651,
+		"nouns": [
+			"GetVector"
+		],
+		"dOIndex": 23,
+		"nouns2": [
+			"GetVector"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14652,
+		"nouns": [],
+		"dOIndex": 24,
+		"isQuote": false
+	},
+	{
+		"txt": "The method GetVector returns ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14653,
+		"nouns": [
+			"method",
+			"GetVector",
+			"returns"
+		],
+		"dOIndex": 25,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"GetVector",
+			"returns"
+		]
+	},
+	{
+		"txt": "the vector part of the quaternion. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14654,
+		"nouns": [
+			"vector",
+			"part",
+			"quaternion"
+		],
+		"dOIndex": 26,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternion"
+		]
+	},
+	{
+		"txt": " This method uses the Vector class defined in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14655,
+		"nouns": [
+			"method",
+			"Vector",
+			"class"
+		],
+		"dOIndex": 27,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Vector"
+		]
+	},
+	{
+		"txt": "Appendix A:",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14656,
+		"nouns": [
+			"Appendix"
+		],
+		"dOIndex": 28,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Appendix"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14657,
+		"nouns": [],
+		"dOIndex": 29,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14658,
+		"nouns": [],
+		"dOIndex": 30,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14659,
+		"nouns": [],
+		"dOIndex": 31,
+		"isQuote": false
+	},
+	{
+		"txt": "GetScalar",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14660,
+		"nouns": [
+			"GetScalar"
+		],
+		"dOIndex": 32,
+		"nouns2": [
+			"GetScalar"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14661,
+		"nouns": [],
+		"dOIndex": 33,
+		"isQuote": false
+	},
+	{
+		"txt": "The method GetScalar returns the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14662,
+		"nouns": [
+			"method",
+			"GetScalar",
+			"returns"
+		],
+		"dOIndex": 34,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"GetScalar",
+			"returns"
+		]
+	},
+	{
+		"txt": "scalar part of the quaternion:",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14663,
+		"nouns": [
+			"part",
+			"quaternion"
+		],
+		"dOIndex": 35,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternion"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14664,
+		"nouns": [],
+		"dOIndex": 36,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14665,
+		"nouns": [],
+		"dOIndex": 37,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14666,
+		"nouns": [],
+		"dOIndex": 38,
+		"isQuote": false
+	},
+	{
+		"txt": "Quaternion Addition: The += Operator",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14667,
+		"nouns": [
+			"Quaternion",
+			"Addition",
+			"+=",
+			"Operator"
+		],
+		"dOIndex": 39,
+		"nouns2": [
+			"Quaternion",
+			"Addition",
+			"Operator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14668,
+		"nouns": [],
+		"dOIndex": 40,
+		"isQuote": false
+	},
+	{
+		"txt": "This operator ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14669,
+		"nouns": [
+			"operator"
+		],
+		"dOIndex": 41,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"operator"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14670,
+		"nouns": [],
+		"dOIndex": 42,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14671,
+		"nouns": [],
+		"dOIndex": 43,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14672,
+		"nouns": [],
+		"dOIndex": 44,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14673,
+		"nouns": [],
+		"dOIndex": 45,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "performs quaternion addition by simply adding the quaternion, q , to the current quaternion on a component by component basis.",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14674,
+		"nouns": [
+			"quaternion",
+			"addition",
+			"quaternion",
+			"q",
+			"quaternion",
+			"component",
+			"component",
+			"basis"
+		],
+		"dOIndex": 46,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternion",
+			"addition",
+			"component"
+		],
+		"highfreq": {
+			"quaternion": 3
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14675,
+		"nouns": [],
+		"dOIndex": 47,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14676,
+		"nouns": [],
+		"dOIndex": 48,
+		"isQuote": false
+	},
+	{
+		"txt": "If q and p are two quaternions, then:q + p = [nq + np, (xq + xp) i + (yq + yp) j + (zq + zp) k]",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14677,
+		"nouns": [
+			"q",
+			"p",
+			"two",
+			"quaternions",
+			"q",
+			"p",
+			"[nq",
+			"np",
+			"xq",
+			"xp",
+			"yq",
+			"yp",
+			"j",
+			"zq",
+			"zp",
+			"k]"
+		],
+		"dOIndex": 49,
+		"nouns2": [
+			"quaternions"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14678,
+		"nouns": [],
+		"dOIndex": 50,
+		"isQuote": false
+	},
+	{
+		"txt": "Here, nq + np is the scalar part of the resulting quaternion, while (xq + xp) i + (yq + yp) j + (zq + zp) k is the vector part.",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14679,
+		"nouns": [
+			"nq",
+			"np",
+			"part",
+			"quaternion",
+			"xq",
+			"xp",
+			"yq",
+			"yp",
+			"j",
+			"zq",
+			"zp",
+			"k",
+			"vector",
+			"part"
+		],
+		"dOIndex": 51,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternion"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14680,
+		"nouns": [],
+		"dOIndex": 52,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14681,
+		"nouns": [],
+		"dOIndex": 53,
+		"isQuote": false
+	},
+	{
+		"txt": "Quaternion addition is both associative and commutative; thus:q + (p + h) = (q + p) + hq + p = p + q",
+		"why": "p",
+		"tags": [
+			"strong",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14682,
+		"nouns": [
+			"Quaternion",
+			"addition",
+			"both",
+			"associative",
+			"commutative",
+			"q",
+			"p",
+			"h",
+			"q",
+			"p",
+			"hq",
+			"p",
+			"p",
+			"q"
+		],
+		"dOIndex": 54,
+		"nouns2": [
+			"Quaternion",
+			"addition",
+			"associative",
+			"commutative"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14683,
+		"nouns": [],
+		"dOIndex": 55,
+		"isQuote": false
+	},
+	{
+		"txt": "Here's the code that adds the quaternion q to our Quaternion class:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14684,
+		"nouns": [
+			"code",
+			"quaternion",
+			"q",
+			"Quaternion",
+			"class"
+		],
+		"dOIndex": 56,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternion",
+			"Quaternion"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14685,
+		"nouns": [],
+		"dOIndex": 57,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14686,
+		"nouns": [],
+		"dOIndex": 58,
+		"isQuote": false
+	},
+	{
+		"txt": "Quaternion Subtraction: The −= Operator",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14687,
+		"nouns": [
+			"Quaternion",
+			"Subtraction",
+			"−=",
+			"Operator"
+		],
+		"dOIndex": 59,
+		"nouns2": [
+			"Quaternion",
+			"Subtraction",
+			"Operator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14688,
+		"nouns": [],
+		"dOIndex": 60,
+		"isQuote": false
+	},
+	{
+		"txt": "This operator performs ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14689,
+		"nouns": [
+			"operator"
+		],
+		"dOIndex": 61,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"operator"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14690,
+		"nouns": [],
+		"dOIndex": 62,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14691,
+		"nouns": [],
+		"dOIndex": 63,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14692,
+		"nouns": [],
+		"dOIndex": 64,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14693,
+		"nouns": [],
+		"dOIndex": 65,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "quaternion subtraction by simply subtracting the quaternion, q , from the current quaternion on a component by component basis.",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14694,
+		"nouns": [
+			"quaternion",
+			"subtraction",
+			"quaternion",
+			"q",
+			"quaternion",
+			"component",
+			"component",
+			"basis"
+		],
+		"dOIndex": 66,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternion",
+			"subtraction",
+			"component"
+		],
+		"highfreq": {
+			"quaternion": 3
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14695,
+		"nouns": [],
+		"dOIndex": 67,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14696,
+		"nouns": [],
+		"dOIndex": 68,
+		"isQuote": false
+	},
+	{
+		"txt": "If q and p are two quaternions, then:q − p = q + (−p) = [nq − np, (xq − xp) i + (yq − yp) j + (zq − zp) k]",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14697,
+		"nouns": [
+			"q",
+			"p",
+			"two",
+			"quaternions",
+			"q",
+			"−",
+			"p",
+			"q",
+			"−p",
+			"[nq",
+			"−",
+			"np",
+			"xq",
+			"−",
+			"xp",
+			"yq",
+			"−",
+			"yp",
+			"j",
+			"zq",
+			"−",
+			"zp",
+			"k]"
+		],
+		"dOIndex": 69,
+		"nouns2": [
+			"quaternions"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14698,
+		"nouns": [],
+		"dOIndex": 70,
+		"isQuote": false
+	},
+	{
+		"txt": "Here, nq − np is the scalar part of the resulting quaternion, while (xq − xp) i + (yq − yp) j + (zq − zp) k is the vector part.",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14699,
+		"nouns": [
+			"nq",
+			"−",
+			"np",
+			"part",
+			"quaternion",
+			"xq",
+			"−",
+			"xp",
+			"yq",
+			"−",
+			"yp",
+			"j",
+			"zq",
+			"−",
+			"zp",
+			"k",
+			"vector",
+			"part"
+		],
+		"dOIndex": 71,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternion"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14700,
+		"nouns": [],
+		"dOIndex": 72,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14701,
+		"nouns": [],
+		"dOIndex": 73,
+		"isQuote": false
+	},
+	{
+		"txt": "Here's the code that subtracts the quaternion q from our Quaternion class:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14702,
+		"nouns": [
+			"code",
+			"subtracts",
+			"quaternion",
+			"q",
+			"Quaternion",
+			"class"
+		],
+		"dOIndex": 74,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"subtracts",
+			"quaternion",
+			"Quaternion"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14703,
+		"nouns": [],
+		"dOIndex": 75,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14704,
+		"nouns": [],
+		"dOIndex": 76,
+		"isQuote": false
+	},
+	{
+		"txt": "Scalar Multiplication: The *= Operator",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14705,
+		"nouns": [
+			"Multiplication",
+			"*=",
+			"Operator"
+		],
+		"dOIndex": 77,
+		"nouns2": [
+			"Scalar",
+			"Multiplication",
+			"Operator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14706,
+		"nouns": [],
+		"dOIndex": 78,
+		"isQuote": false
+	},
+	{
+		"txt": "This operator simply multiplies ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14707,
+		"nouns": [
+			"operator"
+		],
+		"dOIndex": 79,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"operator"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14708,
+		"nouns": [],
+		"dOIndex": 80,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14709,
+		"nouns": [],
+		"dOIndex": 81,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14710,
+		"nouns": [],
+		"dOIndex": 82,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14711,
+		"nouns": [],
+		"dOIndex": 83,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "each component in the quaternion by the scalar s . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14712,
+		"nouns": [
+			"component",
+			"quaternion"
+		],
+		"dOIndex": 84,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"component",
+			"quaternion"
+		]
+	},
+	{
+		"txt": " This operation is similar to scaling a vector, as described in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14713,
+		"nouns": [
+			"operation",
+			"vector"
+		],
+		"dOIndex": 85,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"operation"
+		]
+	},
+	{
+		"txt": "Appendix A:",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14714,
+		"nouns": [
+			"Appendix"
+		],
+		"dOIndex": 86,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Appendix"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14715,
+		"nouns": [],
+		"dOIndex": 87,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14716,
+		"nouns": [],
+		"dOIndex": 88,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14717,
+		"nouns": [],
+		"dOIndex": 89,
+		"isQuote": false
+	},
+	{
+		"txt": "Scalar Division: The /= Operator",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14718,
+		"nouns": [
+			"Division",
+			"/",
+			"Operator"
+		],
+		"dOIndex": 90,
+		"nouns2": [
+			"Scalar",
+			"Division",
+			"Operator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14719,
+		"nouns": [],
+		"dOIndex": 91,
+		"isQuote": false
+	},
+	{
+		"txt": "This operator simply ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14720,
+		"nouns": [
+			"operator"
+		],
+		"dOIndex": 92,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"operator"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14721,
+		"nouns": [],
+		"dOIndex": 93,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14722,
+		"nouns": [],
+		"dOIndex": 94,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14723,
+		"nouns": [],
+		"dOIndex": 95,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14724,
+		"nouns": [],
+		"dOIndex": 96,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "divides each component in the quaternion by the scalar s:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14725,
+		"nouns": [
+			"component",
+			"quaternion"
+		],
+		"dOIndex": 97,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"component",
+			"quaternion"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14726,
+		"nouns": [],
+		"dOIndex": 98,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14727,
+		"nouns": [],
+		"dOIndex": 99,
+		"isQuote": false
+	},
+	{
+		"txt": "Conjugate: The ~ Operator",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14728,
+		"nouns": [
+			"Conjugate",
+			"~",
+			"Operator"
+		],
+		"dOIndex": 100,
+		"nouns2": [
+			"Conjugate",
+			"Operator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14729,
+		"nouns": [],
+		"dOIndex": 101,
+		"isQuote": false
+	},
+	{
+		"txt": "This operator takes the",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14730,
+		"nouns": [
+			"operator"
+		],
+		"dOIndex": 102,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"operator"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14731,
+		"nouns": [],
+		"dOIndex": 103,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14732,
+		"nouns": [],
+		"dOIndex": 104,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14733,
+		"nouns": [],
+		"dOIndex": 105,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " conjugate of the quaternion, ~q , which is simply the negative of the vector part. ",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14734,
+		"nouns": [
+			"conjugate",
+			"quaternion",
+			"~q",
+			"vector",
+			"part"
+		],
+		"dOIndex": 106,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"conjugate",
+			"quaternion"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.11764705882352941,
+			"words": [
+				"negative"
+			],
+			"positive": [],
+			"negative": [
+				"negative"
+			]
+		}
+	},
+	{
+		"txt": " If q = [n, xi + yj + zk], then ~q = [n, (−x) i + (−y) j + (−z) k ].",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14735,
+		"nouns": [
+			"q",
+			"[n",
+			"xi",
+			"yj",
+			"zk]",
+			"~q",
+			"[n",
+			"−x",
+			"−y",
+			"j",
+			"−z",
+			"k"
+		],
+		"dOIndex": 107,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14736,
+		"nouns": [],
+		"dOIndex": 108,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14737,
+		"nouns": [],
+		"dOIndex": 109,
+		"isQuote": false
+	},
+	{
+		"txt": "The conjugate of the product of quaternions is equal to the product of the quaternion conjugates, but in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14738,
+		"nouns": [
+			"conjugate",
+			"product",
+			"quaternions",
+			"product",
+			"quaternion",
+			"conjugates"
+		],
+		"dOIndex": 110,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"conjugate",
+			"product",
+			"quaternions",
+			"quaternion",
+			"conjugates"
+		]
+	},
+	{
+		"txt": "reverse order:~(qp) = (~p)(~q)",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14739,
+		"nouns": [
+			"order",
+			"~",
+			"qp",
+			"~p",
+			"~q"
+		],
+		"dOIndex": 111,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 14740,
+		"nouns": [],
+		"dOIndex": 112,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14741,
+		"nouns": [],
+		"dOIndex": 113,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Here's the code that computes the conjugate for our Quaternion class:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14742,
+		"nouns": [
+			"code",
+			"conjugate",
+			"Quaternion",
+			"class"
+		],
+		"dOIndex": 114,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"conjugate",
+			"Quaternion"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14743,
+		"nouns": [],
+		"dOIndex": 115,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14744,
+		"nouns": [],
+		"dOIndex": 116,
+		"isQuote": false
+	},
+	{
+		"txt": "Quaternion Functions and Operators",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14745,
+		"nouns": [
+			"Quaternion Functions",
+			"Operators"
+		],
+		"dOIndex": 117,
+		"nouns2": [
+			"Quaternion",
+			"Functions",
+			"Operators"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14746,
+		"nouns": [],
+		"dOIndex": 118,
+		"isQuote": false
+	},
+	{
+		"txt": "The functions and overloaded ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14747,
+		"nouns": [
+			"functions"
+		],
+		"dOIndex": 119,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"functions"
+		]
+	},
+	{
+		"txt": "operators that follow are useful when you are performing operations with two quaternions, or with a quaternion and a scalar, or a quaternion and a vector. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14748,
+		"nouns": [
+			"operators",
+			"operations",
+			"two",
+			"quaternions",
+			"quaternion",
+			"quaternion",
+			"vector"
+		],
+		"dOIndex": 120,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"operators",
+			"operations",
+			"quaternions",
+			"quaternion"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.07407407407407407,
+			"words": [
+				"useful"
+			],
+			"positive": [
+				"useful"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Here, the quaternions are assumed to be of the type Quaternion, and vectors of the type Vector, as discussed in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14749,
+		"nouns": [
+			"quaternions",
+			"type",
+			"Quaternion",
+			"vectors",
+			"type Vector"
+		],
+		"dOIndex": 121,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternions",
+			"Quaternion",
+			"vectors",
+			"Vector"
+		]
+	},
+	{
+		"txt": "Appendix A",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14750,
+		"nouns": [
+			"Appendix"
+		],
+		"dOIndex": 122,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Appendix"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14751,
+		"nouns": [],
+		"dOIndex": 123,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14752,
+		"nouns": [],
+		"dOIndex": 124,
+		"isQuote": false
+	},
+	{
+		"txt": "Quaternion Addition: The + Operator",
+		"why": "p",
+		"tags": [
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14753,
+		"nouns": [
+			"Quaternion",
+			"Addition",
+			"Operator"
+		],
+		"dOIndex": 125,
+		"nouns2": [
+			"Quaternion",
+			"Addition",
+			"Operator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "This operator ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14754,
+		"nouns": [
+			"operator"
+		],
+		"dOIndex": 126,
+		"nouns2": [
+			"operator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14755,
+		"nouns": [],
+		"dOIndex": 127,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14756,
+		"nouns": [],
+		"dOIndex": 128,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14757,
+		"nouns": [],
+		"dOIndex": 129,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "performs quaternion addition by simply adding the quaternion q1 to quaternion q2 on a component by component basis:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14758,
+		"nouns": [
+			"quaternion",
+			"addition",
+			"quaternion",
+			"q",
+			"quaternion",
+			"q",
+			"component",
+			"component",
+			"basis"
+		],
+		"dOIndex": 130,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternion",
+			"addition",
+			"component"
+		],
+		"highfreq": {
+			"quaternion": 3
+		}
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14759,
+		"nouns": [],
+		"dOIndex": 131,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14760,
+		"nouns": [],
+		"dOIndex": 132,
+		"isQuote": false
+	},
+	{
+		"txt": "Quaternion Subtraction: The − Operator",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14761,
+		"nouns": [
+			"Quaternion",
+			"Subtraction",
+			"−",
+			"Operator"
+		],
+		"dOIndex": 133,
+		"nouns2": [
+			"Quaternion",
+			"Subtraction",
+			"Operator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14762,
+		"nouns": [],
+		"dOIndex": 134,
+		"isQuote": false
+	},
+	{
+		"txt": "This operator performs ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14763,
+		"nouns": [
+			"operator"
+		],
+		"dOIndex": 135,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"operator"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14764,
+		"nouns": [],
+		"dOIndex": 136,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14765,
+		"nouns": [],
+		"dOIndex": 137,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14766,
+		"nouns": [],
+		"dOIndex": 138,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "quaternion subtraction by simply subtracting the quaternion q2 from quaternion q1 on a component by component basis:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14767,
+		"nouns": [
+			"quaternion",
+			"subtraction",
+			"quaternion",
+			"q",
+			"quaternion",
+			"q",
+			"component",
+			"component",
+			"basis"
+		],
+		"dOIndex": 139,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternion",
+			"subtraction",
+			"component"
+		],
+		"highfreq": {
+			"quaternion": 3
+		}
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14768,
+		"nouns": [],
+		"dOIndex": 140,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14769,
+		"nouns": [],
+		"dOIndex": 141,
+		"isQuote": false
+	},
+	{
+		"txt": "Quaternion Multiplication: The * Operator",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14770,
+		"nouns": [
+			"Quaternion",
+			"Multiplication",
+			"Operator"
+		],
+		"dOIndex": 142,
+		"nouns2": [
+			"Quaternion",
+			"Multiplication",
+			"Operator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14771,
+		"nouns": [],
+		"dOIndex": 143,
+		"isQuote": false
+	},
+	{
+		"txt": "This operator performs ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14772,
+		"nouns": [
+			"operator"
+		],
+		"dOIndex": 144,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"operator"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14773,
+		"nouns": [],
+		"dOIndex": 145,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14774,
+		"nouns": [],
+		"dOIndex": 146,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14775,
+		"nouns": [],
+		"dOIndex": 147,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "quaternion multiplication according to the following formula:q p = nq np − vq • vp + nqvp + npvq + (vq × vp)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14776,
+		"nouns": [
+			"quaternion",
+			"multiplication",
+			"formula",
+			"q",
+			"p",
+			"nq",
+			"np",
+			"−",
+			"vq",
+			"•",
+			"vp",
+			"nqvp",
+			"npvq",
+			"vq",
+			"×",
+			"vp"
+		],
+		"dOIndex": 148,
+		"nouns2": [
+			"quaternion",
+			"multiplication",
+			"formula"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14777,
+		"nouns": [],
+		"dOIndex": 149,
+		"isQuote": false
+	},
+	{
+		"txt": "Here, nqnp − vq • vp is the scalar part of the result, while nqvp + npvq + (vq × vp ) is the vector part. ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14778,
+		"nouns": [
+			"nqnp",
+			"−",
+			"vq",
+			"•",
+			"vp",
+			"part",
+			"result",
+			"nqvp",
+			"npvq",
+			"vq",
+			"×",
+			"vp",
+			"vector",
+			"part"
+		],
+		"dOIndex": 150,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Also note that vq and vp are the vector parts of q and p , respectively, • is the vector dot product operator, and × is the vector cross product operator.",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14779,
+		"nouns": [
+			"note",
+			"vq",
+			"vp",
+			"vector",
+			"parts",
+			"q",
+			"p",
+			"•",
+			"vector",
+			"dot",
+			"product",
+			"operator",
+			"×",
+			"vector",
+			"product",
+			"operator"
+		],
+		"dOIndex": 151,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"product",
+			"operator"
+		],
+		"highfreq": {
+			"vector": 3
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14780,
+		"nouns": [],
+		"dOIndex": 152,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14781,
+		"nouns": [],
+		"dOIndex": 153,
+		"isQuote": false
+	},
+	{
+		"txt": "Quaternion multiplication is associative but not commutative; thus:q(ph) = (qp)hqp ≠ pq",
+		"why": "p",
+		"tags": [
+			"strong",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14782,
+		"nouns": [
+			"Quaternion",
+			"multiplication",
+			"associative",
+			"commutative",
+			"q",
+			"ph",
+			"qp",
+			"hqp",
+			"≠",
+			"pq"
+		],
+		"dOIndex": 154,
+		"nouns2": [
+			"Quaternion",
+			"multiplication",
+			"associative",
+			"commutative"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14783,
+		"nouns": [],
+		"dOIndex": 155,
+		"isQuote": false
+	},
+	{
+		"txt": "Here's the code that multiplies two Quaternions, q1 and q2:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14784,
+		"nouns": [
+			"code",
+			"two",
+			"Quaternions",
+			"q",
+			"q"
+		],
+		"dOIndex": 156,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Quaternions"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14785,
+		"nouns": [],
+		"dOIndex": 157,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14786,
+		"nouns": [],
+		"dOIndex": 158,
+		"isQuote": false
+	},
+	{
+		"txt": "Scalar Multiplication: The * Operator",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14787,
+		"nouns": [
+			"Multiplication",
+			"Operator"
+		],
+		"dOIndex": 159,
+		"nouns2": [
+			"Scalar",
+			"Multiplication",
+			"Operator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14788,
+		"nouns": [],
+		"dOIndex": 160,
+		"isQuote": false
+	},
+	{
+		"txt": "This operator simply multiplies",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14789,
+		"nouns": [
+			"operator"
+		],
+		"dOIndex": 161,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"operator"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14790,
+		"nouns": [],
+		"dOIndex": 162,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14791,
+		"nouns": [],
+		"dOIndex": 163,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14792,
+		"nouns": [],
+		"dOIndex": 164,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " each component in the quaternion by the scalar s . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14793,
+		"nouns": [
+			"component",
+			"quaternion"
+		],
+		"dOIndex": 165,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"component",
+			"quaternion"
+		]
+	},
+	{
+		"txt": " There are two forms of this operator, depending on the order in which the quaternion and scalar are encountered:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14794,
+		"nouns": [
+			"two",
+			"forms",
+			"operator",
+			"order",
+			"quaternion"
+		],
+		"dOIndex": 166,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"operator",
+			"quaternion"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14795,
+		"nouns": [],
+		"dOIndex": 167,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14796,
+		"nouns": [],
+		"dOIndex": 168,
+		"isQuote": false
+	},
+	{
+		"txt": "Vector Multiplication: The * Operator",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14797,
+		"nouns": [
+			"Vector",
+			"Multiplication",
+			"Operator"
+		],
+		"dOIndex": 169,
+		"nouns2": [
+			"Vector",
+			"Multiplication",
+			"Operator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14798,
+		"nouns": [],
+		"dOIndex": 170,
+		"isQuote": false
+	},
+	{
+		"txt": "This operator multiplies the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14799,
+		"nouns": [
+			"operator"
+		],
+		"dOIndex": 171,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"operator"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14800,
+		"nouns": [],
+		"dOIndex": 172,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14801,
+		"nouns": [],
+		"dOIndex": 173,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14802,
+		"nouns": [],
+		"dOIndex": 174,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "quaternion q by the vector v as though the vector v were a quaternion with its scalar component equal to 0. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14803,
+		"nouns": [
+			"quaternion",
+			"q",
+			"vector",
+			"v",
+			"vector",
+			"v",
+			"quaternion",
+			"component"
+		],
+		"dOIndex": 175,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternion",
+			"component"
+		]
+	},
+	{
+		"txt": " There are two forms of this operator, depending on the order in which the quaternion and vector are encountered. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14804,
+		"nouns": [
+			"two",
+			"forms",
+			"operator",
+			"order",
+			"quaternion",
+			"vector"
+		],
+		"dOIndex": 176,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"operator",
+			"quaternion"
+		]
+	},
+	{
+		"txt": " Since v is assumed to be a quaternion with its scalar part equal to 0, the rules of multiplication follow those outlined earlier for quaternion multiplication:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14805,
+		"nouns": [
+			"v",
+			"quaternion",
+			"part",
+			"rules",
+			"multiplication",
+			"quaternion",
+			"multiplication"
+		],
+		"dOIndex": 177,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternion",
+			"multiplication"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14806,
+		"nouns": [],
+		"dOIndex": 178,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14807,
+		"nouns": [],
+		"dOIndex": 179,
+		"isQuote": false
+	},
+	{
+		"txt": "Scalar Division: The / Operator",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14808,
+		"nouns": [
+			"Division",
+			"/",
+			"Operator"
+		],
+		"dOIndex": 180,
+		"nouns2": [
+			"Scalar",
+			"Division",
+			"Operator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14809,
+		"nouns": [],
+		"dOIndex": 181,
+		"isQuote": false
+	},
+	{
+		"txt": "This operator ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14810,
+		"nouns": [
+			"operator"
+		],
+		"dOIndex": 182,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"operator"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14811,
+		"nouns": [],
+		"dOIndex": 183,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14812,
+		"nouns": [],
+		"dOIndex": 184,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14813,
+		"nouns": [],
+		"dOIndex": 185,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "simply divides each component in the quaternion by the scalar s:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14814,
+		"nouns": [
+			"component",
+			"quaternion"
+		],
+		"dOIndex": 186,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"component",
+			"quaternion"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14815,
+		"nouns": [],
+		"dOIndex": 187,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14816,
+		"nouns": [],
+		"dOIndex": 188,
+		"isQuote": false
+	},
+	{
+		"txt": "QGetAngle",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14817,
+		"nouns": [
+			"QGetAngle"
+		],
+		"dOIndex": 189,
+		"nouns2": [
+			"QGetAngle"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14818,
+		"nouns": [],
+		"dOIndex": 190,
+		"isQuote": false
+	},
+	{
+		"txt": "This function[",
+		"why": "link",
+		"tags": [
+			"sup",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14819,
+		"nouns": [
+			"function["
+		],
+		"dOIndex": 191,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function["
+		]
+	},
+	{
+		"txt": "30] extracts the ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14820,
+		"nouns": [
+			"extracts"
+		],
+		"dOIndex": 192,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"extracts"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14821,
+		"nouns": [],
+		"dOIndex": 193,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14822,
+		"nouns": [],
+		"dOIndex": 194,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "angle of rotation about the axis represented by the vector part of the quaternion:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14823,
+		"nouns": [
+			"angle",
+			"rotation",
+			"axis",
+			"vector",
+			"part",
+			"quaternion"
+		],
+		"dOIndex": 195,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"rotation",
+			"quaternion"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14824,
+		"nouns": [],
+		"dOIndex": 196,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14825,
+		"nouns": [],
+		"dOIndex": 197,
+		"isQuote": false
+	},
+	{
+		"txt": "QGetAxis",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14826,
+		"nouns": [
+			"QGetAxis"
+		],
+		"dOIndex": 198,
+		"nouns2": [
+			"QGetAxis"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14827,
+		"nouns": [],
+		"dOIndex": 199,
+		"isQuote": false
+	},
+	{
+		"txt": "This function ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14828,
+		"nouns": [
+			"function"
+		],
+		"dOIndex": 200,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14829,
+		"nouns": [],
+		"dOIndex": 201,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "returns a unit vector along the axis of rotation represented by the vector part of the quaternion q:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14830,
+		"nouns": [
+			"returns",
+			"unit",
+			"vector",
+			"axis",
+			"rotation",
+			"vector",
+			"part",
+			"quaternion",
+			"q"
+		],
+		"dOIndex": 202,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"returns",
+			"rotation",
+			"quaternion"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14831,
+		"nouns": [],
+		"dOIndex": 203,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14832,
+		"nouns": [],
+		"dOIndex": 204,
+		"isQuote": false
+	},
+	{
+		"txt": "QRotate",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14833,
+		"nouns": [
+			"QRotate"
+		],
+		"dOIndex": 205,
+		"nouns2": [
+			"QRotate"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14834,
+		"nouns": [],
+		"dOIndex": 206,
+		"isQuote": false
+	},
+	{
+		"txt": "This function ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14835,
+		"nouns": [
+			"function"
+		],
+		"dOIndex": 207,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14836,
+		"nouns": [],
+		"dOIndex": 208,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "rotates the quaternion p by q according to the formula:p' = (q)(p)(~q)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14837,
+		"nouns": [
+			"quaternion",
+			"p",
+			"q",
+			"formula",
+			"p",
+			"q",
+			"p",
+			"~q"
+		],
+		"dOIndex": 209,
+		"nouns2": [
+			"quaternion",
+			"formula"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14838,
+		"nouns": [],
+		"dOIndex": 210,
+		"isQuote": false
+	},
+	{
+		"txt": "Here, ~q is the conjugate of the unit quaternion q . ",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14839,
+		"nouns": [
+			"~q",
+			"conjugate",
+			"unit",
+			"quaternion",
+			"q"
+		],
+		"dOIndex": 211,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"conjugate",
+			"quaternion"
+		]
+	},
+	{
+		"txt": " Here's the code:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14840,
+		"nouns": [
+			"code"
+		],
+		"dOIndex": 212,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14841,
+		"nouns": [],
+		"dOIndex": 213,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14842,
+		"nouns": [],
+		"dOIndex": 214,
+		"isQuote": false
+	},
+	{
+		"txt": "QVRotate",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14843,
+		"nouns": [
+			"QVRotate"
+		],
+		"dOIndex": 215,
+		"nouns2": [
+			"QVRotate"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14844,
+		"nouns": [],
+		"dOIndex": 216,
+		"isQuote": false
+	},
+	{
+		"txt": "This function ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14845,
+		"nouns": [
+			"function"
+		],
+		"dOIndex": 217,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14846,
+		"nouns": [],
+		"dOIndex": 218,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "rotates the vector v by the unit quaternion q according to the formula:p' = (q)(v)(~q)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14847,
+		"nouns": [
+			"vector",
+			"v",
+			"unit",
+			"quaternion",
+			"q",
+			"formula",
+			"p",
+			"q",
+			"v",
+			"~q"
+		],
+		"dOIndex": 219,
+		"nouns2": [
+			"quaternion",
+			"formula"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14848,
+		"nouns": [],
+		"dOIndex": 220,
+		"isQuote": false
+	},
+	{
+		"txt": "Here, ~q is the conjugate of the unit quaternion q . ",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14849,
+		"nouns": [
+			"~q",
+			"conjugate",
+			"unit",
+			"quaternion",
+			"q"
+		],
+		"dOIndex": 221,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"conjugate",
+			"quaternion"
+		]
+	},
+	{
+		"txt": " Here's the code:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14850,
+		"nouns": [
+			"code"
+		],
+		"dOIndex": 222,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14851,
+		"nouns": [],
+		"dOIndex": 223,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14852,
+		"nouns": [],
+		"dOIndex": 224,
+		"isQuote": false
+	},
+	{
+		"txt": "MakeQFromEulerAngles",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14853,
+		"nouns": [
+			"MakeQFromEulerAngles"
+		],
+		"dOIndex": 225,
+		"nouns2": [
+			"MakeQFromEulerAngles"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14854,
+		"nouns": [],
+		"dOIndex": 226,
+		"isQuote": false
+	},
+	{
+		"txt": "This function ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14855,
+		"nouns": [
+			"function"
+		],
+		"dOIndex": 227,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14856,
+		"nouns": [],
+		"dOIndex": 228,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14857,
+		"nouns": [],
+		"dOIndex": 229,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "constructs a quaternion from a set of Euler angles.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14858,
+		"nouns": [
+			"quaternion",
+			"Euler",
+			"angles"
+		],
+		"dOIndex": 230,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternion"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14859,
+		"nouns": [],
+		"dOIndex": 231,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14860,
+		"nouns": [],
+		"dOIndex": 232,
+		"isQuote": false
+	},
+	{
+		"txt": "For a given set of Euler angles, yaw (ψ), pitch (τ), and roll (φ), defining rotation about the z axis, then the y axis, and then the z axis, you can construct the representative rotation quaternion. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14861,
+		"nouns": [
+			"Euler",
+			"angles",
+			"yaw",
+			"ψ",
+			"pitch",
+			"τ",
+			"roll",
+			"φ",
+			"rotation",
+			"z",
+			"axis",
+			"y",
+			"axis",
+			"z",
+			"axis",
+			"representative",
+			"rotation",
+			"quaternion"
+		],
+		"dOIndex": 233,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"rotation",
+			"representative",
+			"quaternion"
+		],
+		"highfreq": {
+			"axis": 3
+		}
+	},
+	{
+		"txt": " You do this by first constructing a quaternion for each Euler angle and then multiplying the three quaternions following the rules of quaternion multiplication. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14862,
+		"nouns": [
+			"first",
+			"quaternion",
+			"Euler",
+			"angle",
+			"three",
+			"quaternions",
+			"rules",
+			"quaternion",
+			"multiplication"
+		],
+		"dOIndex": 234,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternion",
+			"quaternions",
+			"multiplication"
+		]
+	},
+	{
+		"txt": " Here are the three quaternions representing each Euler rotation angle:qroll = [cos(φ/2), (sin(φ/2)) i + 0 j + 0 k]qpitch = [cos(τ /2), 0 i + (sin(τ /2)) j + 0 k]qyaw = [cos(ψ /2), 0 i + 0 j + (sin(ψ /2)) k]",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14863,
+		"nouns": [
+			"three",
+			"quaternions",
+			"Euler",
+			"rotation",
+			"angle",
+			"qroll",
+			"[cos",
+			"φ",
+			"/",
+			"sin",
+			"φ",
+			"/",
+			"j",
+			"k]qpitch",
+			"[cos",
+			"τ",
+			"/",
+			"sin",
+			"τ",
+			"/",
+			"j",
+			"k]qyaw",
+			"[cos",
+			"ψ",
+			"/",
+			"j",
+			"sin",
+			"ψ",
+			"/",
+			"k]"
+		],
+		"dOIndex": 235,
+		"nouns2": [
+			"quaternions",
+			"rotation",
+			"k]qpitch"
+		],
+		"highfreq": {
+			"[cos": 3
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14864,
+		"nouns": [],
+		"dOIndex": 236,
+		"isQuote": false
+	},
+	{
+		"txt": "Each one of these quaternions is of unit length.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14865,
+		"nouns": [
+			"one",
+			"quaternions",
+			"unit",
+			"length"
+		],
+		"dOIndex": 237,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternions"
+		]
+	},
+	{
+		"txt": "[",
+		"why": "link",
+		"tags": [
+			"sup",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14866,
+		"nouns": [],
+		"dOIndex": 238,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "31]",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14867,
+		"nouns": [],
+		"dOIndex": 239,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 14868,
+		"nouns": [],
+		"dOIndex": 240,
+		"isQuote": false
+	},
+	{
+		"txt": "Now you can multiply these quaternions to obtain a single one that represents the rotation, or orientation, defined by the three Euler angles:q = qyawqpitchqroll",
+		"why": "p",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14869,
+		"nouns": [
+			"quaternions",
+			"one",
+			"rotation",
+			"orientation",
+			"three Euler",
+			"angles",
+			"q",
+			"qyawqpitchqroll"
+		],
+		"dOIndex": 241,
+		"nouns2": [
+			"quaternions",
+			"rotation",
+			"orientation",
+			"qyawqpitchqroll"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Performing this multiplication yields:q = [ {cos(φ/2) cos(τ /2) cos(ψ /2) + sin(φ/2) sin(τ /2) sin(ψ /2)},{ sin(φ/2) cos(τ /2) cos(ψ /2)   cos(φ/2) sin(τ /2) sin(ψ /2) } i +{ cos(φ/2) sin(τ /2) cos(ψ /2) + sin(φ/2) cos(τ /2) sin(ψ /2) } j +{ cos(φ/2) cos(τ /2) sin(ψ /2)   sin(φ/2) sin(τ /2) cos(ψ /2) } k ]",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14870,
+		"nouns": [
+			"multiplication",
+			"yields",
+			"q",
+			"{cos",
+			"φ",
+			"/",
+			"cos",
+			"τ",
+			"/",
+			"cos",
+			"ψ",
+			"/",
+			"sin",
+			"φ",
+			"/",
+			"sin",
+			"τ",
+			"/",
+			"sin",
+			"ψ",
+			"/",
+			"sin",
+			"φ",
+			"/",
+			"cos",
+			"τ",
+			"/",
+			"cos",
+			"ψ",
+			"/",
+			"cos",
+			"φ",
+			"/",
+			"sin",
+			"τ",
+			"/",
+			"sin",
+			"ψ",
+			"/",
+			"+{",
+			"cos",
+			"φ",
+			"/",
+			"sin",
+			"τ",
+			"/",
+			"cos",
+			"ψ",
+			"/",
+			"sin",
+			"φ",
+			"/",
+			"cos",
+			"τ",
+			"/",
+			"sin",
+			"ψ",
+			"/",
+			"j",
+			"+{",
+			"cos",
+			"φ",
+			"/",
+			"cos",
+			"τ",
+			"/",
+			"sin",
+			"ψ",
+			"/",
+			"sin",
+			"φ",
+			"/",
+			"sin",
+			"τ",
+			"/",
+			"cos",
+			"ψ",
+			"/",
+			"k"
+		],
+		"dOIndex": 242,
+		"nouns2": [
+			"Performing",
+			"multiplication"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Here's the code that takes three Euler angles and returns a quaternion:",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14871,
+		"nouns": [
+			"code",
+			"three Euler",
+			"angles",
+			"returns",
+			"quaternion"
+		],
+		"dOIndex": 243,
+		"nouns2": [
+			"returns",
+			"quaternion"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14872,
+		"nouns": [],
+		"dOIndex": 244,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14873,
+		"nouns": [],
+		"dOIndex": 245,
+		"isQuote": false
+	},
+	{
+		"txt": "MakeEulerAnglesFromQ",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14874,
+		"nouns": [
+			"MakeEulerAnglesFromQ"
+		],
+		"dOIndex": 246,
+		"nouns2": [
+			"MakeEulerAnglesFromQ"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14875,
+		"nouns": [],
+		"dOIndex": 247,
+		"isQuote": false
+	},
+	{
+		"txt": "This function ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14876,
+		"nouns": [
+			"function"
+		],
+		"dOIndex": 248,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14877,
+		"nouns": [],
+		"dOIndex": 249,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14878,
+		"nouns": [],
+		"dOIndex": 250,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "extracts the three Euler angles from a given quaternion.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14879,
+		"nouns": [
+			"extracts",
+			"three Euler",
+			"angles",
+			"quaternion"
+		],
+		"dOIndex": 251,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"extracts",
+			"quaternion"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14880,
+		"nouns": [],
+		"dOIndex": 252,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14881,
+		"nouns": [],
+		"dOIndex": 253,
+		"isQuote": false
+	},
+	{
+		"txt": "You can extract the three Euler angles from a quaternion by first converting the quaternion to a rotation matrix and then extracting the Euler angles from the rotation matrix. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14882,
+		"nouns": [
+			"three Euler",
+			"angles",
+			"quaternion",
+			"first",
+			"quaternion",
+			"rotation",
+			"matrix",
+			"Euler",
+			"angles",
+			"rotation",
+			"matrix"
+		],
+		"dOIndex": 254,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternion",
+			"rotation"
+		]
+	},
+	{
+		"txt": " Let R be a nine element rotation matrix:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14883,
+		"nouns": [
+			"R",
+			"nine",
+			"element",
+			"rotation",
+			"matrix"
+		],
+		"dOIndex": 255,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"element",
+			"rotation"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14884,
+		"nouns": [],
+		"dOIndex": 256,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14885,
+		"nouns": [],
+		"dOIndex": 257,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 14886,
+		"nouns": [],
+		"dOIndex": 258,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14887,
+		"nouns": [],
+		"dOIndex": 259,
+		"isQuote": false
+	},
+	{
+		"txt": "and let q be a quaternion:q = [n, x i + y j + z k]",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14888,
+		"nouns": [
+			"q",
+			"quaternion",
+			"q",
+			"[n",
+			"x",
+			"y",
+			"j",
+			"z",
+			"k]"
+		],
+		"dOIndex": 260,
+		"nouns2": [
+			"quaternion"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14889,
+		"nouns": [],
+		"dOIndex": 261,
+		"isQuote": false
+	},
+	{
+		"txt": "Then each element in R is calculated from q as follows:r11 = n2 + x2 − y2 − z2r21 = 2xy+2znr31 = 2zx − 2ynr12 = 2xy − 2znr22 = n2 − x2 + y2 − z2r32 = 2zy + 2xnr13 = 2xz + 2ynr23 = 2yz − 2xnr33 = n2 − x2 − y2 + z2",
+		"why": "p",
+		"tags": [
+			"sup",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14890,
+		"nouns": [
+			"element",
+			"R",
+			"q",
+			"r",
+			"n",
+			"x",
+			"− y",
+			"−",
+			"z",
+			"r",
+			"xy+",
+			"znr",
+			"zx",
+			"−",
+			"ynr",
+			"xy",
+			"−",
+			"znr",
+			"n",
+			"−",
+			"x",
+			"y",
+			"−",
+			"z",
+			"r",
+			"zy",
+			"xnr",
+			"xz",
+			"ynr",
+			"yz",
+			"−",
+			"xnr",
+			"n",
+			"−",
+			"x",
+			"− y",
+			"z"
+		],
+		"dOIndex": 262,
+		"nouns2": [
+			"element"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14891,
+		"nouns": [],
+		"dOIndex": 263,
+		"isQuote": false
+	},
+	{
+		"txt": "To extract the Euler angles, yaw (ψ), pitch (τ), and roll (φ), from R, you can use these relations:sin τ = −r31tan φ = r32 / r33tan ψ = r21 / r11",
+		"why": "p",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14892,
+		"nouns": [
+			"Euler",
+			"angles",
+			"yaw",
+			"ψ",
+			"pitch",
+			"τ",
+			"roll",
+			"φ",
+			"R",
+			"use",
+			"relations",
+			"sin",
+			"τ",
+			"−r",
+			"φ",
+			"r",
+			"/",
+			"r",
+			"ψ",
+			"r",
+			"/",
+			"r"
+		],
+		"dOIndex": 264,
+		"nouns2": [
+			"relations"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14893,
+		"nouns": [],
+		"dOIndex": 265,
+		"isQuote": false
+	},
+	{
+		"txt": "Here's the code that extracts the three Euler angles, returned in the form of a Vector, from a given quaternion:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14894,
+		"nouns": [
+			"code",
+			"extracts",
+			"three Euler",
+			"angles",
+			"form",
+			"Vector",
+			"quaternion"
+		],
+		"dOIndex": 266,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"extracts",
+			"Vector",
+			"quaternion"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14895,
+		"nouns": [],
+		"dOIndex": 267,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14896,
+		"nouns": [],
+		"dOIndex": 268,
+		"isQuote": false
+	},
+	{
+		"txt": "Conversion Functions",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14897,
+		"nouns": [
+			"Conversion Functions"
+		],
+		"dOIndex": 269,
+		"nouns2": [
+			"Conversion",
+			"Functions"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14898,
+		"nouns": [],
+		"dOIndex": 270,
+		"isQuote": false
+	},
+	{
+		"txt": "These two functions ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14899,
+		"nouns": [
+			"two",
+			"functions"
+		],
+		"dOIndex": 271,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"functions"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14900,
+		"nouns": [],
+		"dOIndex": 272,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14901,
+		"nouns": [],
+		"dOIndex": 273,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14902,
+		"nouns": [],
+		"dOIndex": 274,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14903,
+		"nouns": [],
+		"dOIndex": 275,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14904,
+		"nouns": [],
+		"dOIndex": 276,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "are used to convert angles from degrees to radians and radians to degrees. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14905,
+		"nouns": [
+			"angles",
+			"degrees",
+			"radians",
+			"radians",
+			"degrees"
+		],
+		"dOIndex": 277,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"degrees",
+			"radians"
+		]
+	},
+	{
+		"txt": " They are not specific to quaternions but are used in some of the code samples shown ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14906,
+		"nouns": [
+			"quaternions",
+			"code",
+			"samples"
+		],
+		"dOIndex": 278,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternions",
+			"samples"
+		]
+	},
+	{
+		"txt": "earlier:",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14907,
+		"nouns": [],
+		"dOIndex": 279,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14908,
+		"nouns": [],
+		"dOIndex": 280,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14909,
+		"nouns": [],
+		"dOIndex": 281,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 14910,
+		"nouns": [],
+		"dOIndex": 282,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14911,
+		"nouns": [],
+		"dOIndex": 283,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 14912,
+		"nouns": [],
+		"dOIndex": 284,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14913,
+		"nouns": [],
+		"dOIndex": 285,
+		"isQuote": false
+	},
+	{
+		"txt": "[",
+		"why": "link",
+		"tags": [
+			"sup",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14914,
+		"nouns": [],
+		"dOIndex": 286,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "30] For a description of how quaternions are used to represent rotation, refer to the section ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14915,
+		"nouns": [
+			"description",
+			"quaternions",
+			"rotation",
+			"section"
+		],
+		"dOIndex": 287,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"description",
+			"quaternions",
+			"rotation",
+			"section"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 14916,
+		"nouns": [],
+		"dOIndex": 288,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Quaternions in ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14917,
+		"nouns": [
+			"Quaternions"
+		],
+		"dOIndex": 289,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Quaternions"
+		]
+	},
+	{
+		"txt": "Chapter 11",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14918,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 290,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14919,
+		"nouns": [],
+		"dOIndex": 291,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14920,
+		"nouns": [],
+		"dOIndex": 292,
+		"isQuote": false
+	},
+	{
+		"txt": "[",
+		"why": "link",
+		"tags": [
+			"sup",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14921,
+		"nouns": [],
+		"dOIndex": 293
+	},
+	{
+		"txt": "31] You can verify this by recalling the trigonometric relation cos2θ + sin2",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"sup",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 14922,
+		"nouns": [
+			"trigonometric",
+			"relation",
+			"cos",
+			"θ",
+			"sin"
+		],
+		"dOIndex": 294,
+		"nouns2": [
+			"trigonometric",
+			"relation"
+		]
+	},
+	{
+		"txt": " θ = 1.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14923,
+		"nouns": [
+			"θ"
+		],
+		"dOIndex": 295
+	}
+]

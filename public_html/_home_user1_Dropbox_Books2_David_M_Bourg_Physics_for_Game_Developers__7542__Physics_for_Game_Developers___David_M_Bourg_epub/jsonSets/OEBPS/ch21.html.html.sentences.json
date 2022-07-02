@@ -1,0 +1,9186 @@
+[
+	{
+		"txt": "",
+		"why": "br tag like",
+		"sentenceIndex": 11407,
+		"nouns": [],
+		"dOIndex": 0,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 21. Accelerometers",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11408,
+		"nouns": [
+			"Chapter",
+			"Accelerometers"
+		],
+		"dOIndex": 1,
+		"nouns2": [
+			"Chapter",
+			"Accelerometers"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Accelerometers are a ",
+		"why": "link",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 11409,
+		"nouns": [
+			"Accelerometers"
+		],
+		"dOIndex": 2,
+		"nouns2": [
+			"Accelerometers"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "good introduction to a class of electronic ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 11410,
+		"nouns": [
+			"introduction",
+			"class"
+		],
+		"dOIndex": 3,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"introduction"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.375,
+			"words": [
+				"good"
+			],
+			"positive": [
+				"good"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11411,
+		"nouns": [],
+		"dOIndex": 4,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11412,
+		"nouns": [],
+		"dOIndex": 5,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "components called microelectromechanical systems (MEMS). ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 11413,
+		"nouns": [
+			"components",
+			"systems",
+			"MEMS"
+		],
+		"dOIndex": 6,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"components",
+			"systems"
+		]
+	},
+	{
+		"txt": " An accelerometer can either be one axis, two axis, or three axis. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11414,
+		"nouns": [
+			"accelerometer",
+			"be",
+			"one",
+			"axis",
+			"two",
+			"axis",
+			"three",
+			"axis"
+		],
+		"dOIndex": 7,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"accelerometer"
+		],
+		"highfreq": {
+			"axis": 3
+		}
+	},
+	{
+		"txt": " This designates how many different directions it can simultaneously measure acceleration. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11415,
+		"nouns": [
+			"directions",
+			"measure",
+			"acceleration"
+		],
+		"dOIndex": 8,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"directions",
+			"measure",
+			"acceleration"
+		]
+	},
+	{
+		"txt": " Most gaming devices have three axis accelerometers.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11416,
+		"nouns": [
+			"devices",
+			"three",
+			"axis",
+			"accelerometers"
+		],
+		"dOIndex": 9,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"devices",
+			"accelerometers"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 11417,
+		"nouns": [],
+		"dOIndex": 10,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11418,
+		"nouns": [],
+		"dOIndex": 11,
+		"isQuote": false
+	},
+	{
+		"txt": "As far as game development is concerned, acceleration values are typically delivered to your program via an API with units in multiples of g . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 11419,
+		"nouns": [
+			"game",
+			"development",
+			"acceleration",
+			"values",
+			"program",
+			"API",
+			"units",
+			"multiples",
+			"g"
+		],
+		"dOIndex": 12,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"development",
+			"acceleration",
+			"program",
+			"multiples"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.07692307692307693,
+			"words": [
+				"concerned"
+			],
+			"positive": [],
+			"negative": [
+				"concerned"
+			]
+		}
+	},
+	{
+		"txt": " One glink https:2 . ",
+		"why": "split inside sentence",
+		"tags": [
+			"sup",
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 11420,
+		"nouns": [
+			"One",
+			"glink",
+			"https"
+		],
+		"dOIndex": 13,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Let's pretend that we have a one axis accelerometer and we orient it such that the axis is pointing toward the center of the earth. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11421,
+		"nouns": [
+			"one",
+			"axis",
+			"accelerometer",
+			"orient",
+			"axis",
+			"center",
+			"earth"
+		],
+		"dOIndex": 14,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"accelerometer"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.037037037037037035,
+			"words": [
+				"pretend"
+			],
+			"positive": [],
+			"negative": [
+				"pretend"
+			]
+		}
+	},
+	{
+		"txt": " It would register 1g . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 11422,
+		"nouns": [
+			"g"
+		],
+		"dOIndex": 15,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Now, if we travel far away from any mass, such that there is no gravity, the accelerometer will read 0. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11423,
+		"nouns": [
+			"travel",
+			"mass",
+			"gravity",
+			"accelerometer"
+		],
+		"dOIndex": 16,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"gravity",
+			"accelerometer"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.045454545454545456,
+			"words": [
+				"no"
+			],
+			"positive": [],
+			"negative": [
+				"no"
+			]
+		}
+	},
+	{
+		"txt": "link https:g during that one second interval. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 11424,
+		"nouns": [
+			"link",
+			"https",
+			"g",
+			"one",
+			"second"
+		],
+		"dOIndex": 17,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Indeed, it is impossible to tell the difference between acceleration due to gravity and acceleration due to changing velocity.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11425,
+		"nouns": [
+			"difference",
+			"acceleration",
+			"gravity",
+			"acceleration",
+			"velocity"
+		],
+		"dOIndex": 18,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Indeed",
+			"difference",
+			"acceleration",
+			"gravity",
+			"velocity"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 11426,
+		"nouns": [],
+		"dOIndex": 19,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11427,
+		"nouns": [],
+		"dOIndex": 20,
+		"isQuote": false
+	},
+	{
+		"txt": "Real life motion is generally nonsteady. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11428,
+		"nouns": [
+			"life",
+			"motion",
+			"nonsteady"
+		],
+		"dOIndex": 21,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"nonsteady"
+		]
+	},
+	{
+		"txt": " Depending on your application's goals, you might have to apply different smoothing functions such as high pass or low pass filters . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 11429,
+		"nouns": [
+			"application",
+			"goals",
+			"functions",
+			"filters"
+		],
+		"dOIndex": 22,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Depending",
+			"application",
+			"functions",
+			"filters"
+		]
+	},
+	{
+		"txt": " This ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 11430,
+		"nouns": [],
+		"dOIndex": 23,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11431,
+		"nouns": [],
+		"dOIndex": 24,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11432,
+		"nouns": [],
+		"dOIndex": 25,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "amounts ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 11433,
+		"nouns": [
+			"amounts"
+		],
+		"dOIndex": 26,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"amounts"
+		]
+	},
+	{
+		"txt": "to digital signal processing",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 11434,
+		"nouns": [],
+		"dOIndex": 27,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " , a topic that has consumed entire texts. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11435,
+		"nouns": [
+			"topic",
+			"texts"
+		],
+		"dOIndex": 28,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " One example we can recommend is Digital Signal Processing: A Computer Science Perspective by ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 11436,
+		"nouns": [
+			"One",
+			"example",
+			"Computer Science",
+			"Perspective"
+		],
+		"dOIndex": 29,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"Digital",
+			"Signal",
+			"Processing",
+			"Computer",
+			"Science",
+			"Perspective"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.125,
+			"words": [
+				"recommend"
+			],
+			"positive": [
+				"recommend"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "Jonathan Y. Stein (Wiley).",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11437,
+		"nouns": [
+			"Jonathan Y",
+			"Stein",
+			"Wiley"
+		],
+		"dOIndex": 30,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Jonathan"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 11438,
+		"nouns": [],
+		"dOIndex": 31,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11439,
+		"nouns": [],
+		"dOIndex": 32,
+		"isQuote": false
+	},
+	{
+		"txt": "Also, many accelerometers have a method to set ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 11440,
+		"nouns": [
+			"accelerometers",
+			"method"
+		],
+		"dOIndex": 33,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"accelerometers"
+		]
+	},
+	{
+		"txt": "the polling rate",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 11441,
+		"nouns": [
+			"rate"
+		],
+		"dOIndex": 34,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " , or the number of times per second that the program requests updates from the accelerometer. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11442,
+		"nouns": [
+			"number",
+			"times",
+			"second",
+			"program",
+			"requests",
+			"updates",
+			"accelerometer"
+		],
+		"dOIndex": 35,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"program",
+			"requests",
+			"updates",
+			"accelerometer"
+		]
+	},
+	{
+		"txt": " This is ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 11443,
+		"nouns": [],
+		"dOIndex": 36,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "called frequency",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 11444,
+		"nouns": [
+			"frequency"
+		],
+		"dOIndex": 37,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"frequency"
+		]
+	},
+	{
+		"txt": " and is given in hertz (Hz). ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11445,
+		"nouns": [
+			"hertz",
+			"Hz"
+		],
+		"dOIndex": 38,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " This parameter can be used to enhance the performance of the program when fine resolution of the acceleration over time is not needed.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11446,
+		"nouns": [
+			"parameter",
+			"performance",
+			"program",
+			"resolution",
+			"acceleration",
+			"time"
+		],
+		"dOIndex": 39,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"parameter",
+			"performance",
+			"program",
+			"resolution",
+			"acceleration"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.16666666666666666,
+			"words": [
+				"resolution",
+				"fine"
+			],
+			"positive": [
+				"resolution",
+				"fine"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 11447,
+		"nouns": [],
+		"dOIndex": 40,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11448,
+		"nouns": [],
+		"dOIndex": 41,
+		"isQuote": false
+	},
+	{
+		"txt": "When you accept input from an accelerometer or do any other kind of signal processing you have to accept that input won't come precisely when you want it. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11449,
+		"nouns": [
+			"input",
+			"accelerometer",
+			"kind",
+			"input",
+			"t"
+		],
+		"dOIndex": 42,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"accelerometer"
+		],
+		"sentiment": {
+			"score": 5,
+			"comparative": 0.1724137931034483,
+			"words": [
+				"want",
+				"accept",
+				"kind",
+				"accept"
+			],
+			"positive": [
+				"want",
+				"accept",
+				"kind",
+				"accept"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The operating systems normally used for gaming Windows, OS X, Linux are not real time environments. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11450,
+		"nouns": [
+			"systems",
+			"Windows",
+			"OS",
+			"X",
+			"Linux",
+			"time",
+			"environments"
+		],
+		"dOIndex": 43,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"systems",
+			"Windows",
+			"environments"
+		]
+	},
+	{
+		"txt": " This means that although you set the polling rate at once a second, this guarantees only that the data will be delivered no sooner than once a second. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 11451,
+		"nouns": [
+			"rate",
+			"second",
+			"guarantees",
+			"data",
+			"second"
+		],
+		"dOIndex": 44,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"guarantees"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.03333333333333333,
+			"words": [
+				"no"
+			],
+			"positive": [],
+			"negative": [
+				"no"
+			]
+		}
+	},
+	{
+		"txt": " If something distracts the operating system, such as the arrival of packets on the network, the signal you get from the accelerometer may be delayed.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11452,
+		"nouns": [
+			"distracts",
+			"system",
+			"packets",
+			"network",
+			"accelerometer"
+		],
+		"dOIndex": 45,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distracts",
+			"packets",
+			"network",
+			"accelerometer"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.11538461538461539,
+			"words": [
+				"delayed",
+				"distracts"
+			],
+			"positive": [],
+			"negative": [
+				"delayed",
+				"distracts"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 11453,
+		"nouns": [],
+		"dOIndex": 46,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11454,
+		"nouns": [],
+		"dOIndex": 47,
+		"isQuote": false
+	},
+	{
+		"txt": "Accelerometer Theory",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11455,
+		"nouns": [
+			"Accelerometer Theory"
+		],
+		"dOIndex": 48,
+		"nouns2": [
+			"Accelerometer",
+			"Theory"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11456,
+		"nouns": [],
+		"dOIndex": 49,
+		"isQuote": false
+	},
+	{
+		"txt": "The way in which ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11457,
+		"nouns": [
+			"way"
+		],
+		"dOIndex": 50,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "MEMS measure accelerometers is more basic in principle than you may think. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11458,
+		"nouns": [
+			"MEMS",
+			"measure",
+			"accelerometers",
+			"principle"
+		],
+		"dOIndex": 51,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"measure",
+			"accelerometers",
+			"principle"
+		]
+	},
+	{
+		"txt": " The major accomplishment is miniaturizing the technology until it can fit inside a computer chip! ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11459,
+		"nouns": [
+			"accomplishment",
+			"technology",
+			"computer",
+			"chip"
+		],
+		"dOIndex": 52,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"accomplishment",
+			"technology",
+			"computer"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.17647058823529413,
+			"words": [
+				"fit",
+				"accomplishment"
+			],
+			"positive": [
+				"fit",
+				"accomplishment"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " To clearly illustrate the basic principle, we will first show you the mechanics of it in the macro scale version of a known mass and spring. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11460,
+		"nouns": [
+			"principle",
+			"first",
+			"show",
+			"mechanics",
+			"macro",
+			"scale",
+			"version",
+			"mass"
+		],
+		"dOIndex": 53,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"principle",
+			"mechanics",
+			"version"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.03571428571428571,
+			"words": [
+				"clearly"
+			],
+			"positive": [
+				"clearly"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Let's say you build something like the contraption shown in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11461,
+		"nouns": [
+			"contraption"
+		],
+		"dOIndex": 54,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"contraption"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.16666666666666666,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "Figure 21 1",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11462,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 55,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " and take it on an elevator in an area where there is no gravity. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11463,
+		"nouns": [
+			"elevator",
+			"area",
+			"gravity"
+		],
+		"dOIndex": 56,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"elevator",
+			"gravity"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.0625,
+			"words": [
+				"no"
+			],
+			"positive": [],
+			"negative": [
+				"no"
+			]
+		}
+	},
+	{
+		"txt": " We'll worry about the effects of gravity in a minute.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11464,
+		"nouns": [
+			"ll",
+			"effects",
+			"gravity",
+			"minute"
+		],
+		"dOIndex": 57,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"effects",
+			"gravity"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.2727272727272727,
+			"words": [
+				"worry"
+			],
+			"positive": [],
+			"negative": [
+				"worry"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11465,
+		"nouns": [],
+		"dOIndex": 58,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11466,
+		"nouns": [],
+		"dOIndex": 59,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11467,
+		"nouns": [],
+		"dOIndex": 60,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11468,
+		"nouns": [],
+		"dOIndex": 61,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11469,
+		"nouns": [],
+		"dOIndex": 62,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 21 1. Simple accelerometer in absence of acceleration",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11470,
+		"nouns": [
+			"Figure",
+			"accelerometer",
+			"absence",
+			"acceleration"
+		],
+		"dOIndex": 63,
+		"nouns2": [
+			"Figure",
+			"Simple",
+			"accelerometer",
+			"absence",
+			"acceleration"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11471,
+		"nouns": [],
+		"dOIndex": 64,
+		"isQuote": false
+	},
+	{
+		"txt": "As you can see, the device consists of a known mass at the end of a spring next to a measuring stick. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11472,
+		"nouns": [
+			"device",
+			"mass",
+			"end"
+		],
+		"dOIndex": 65,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " When the elevator is not accelerating, the mass is at the 0 mark. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11473,
+		"nouns": [
+			"elevator",
+			"mass",
+			"mark"
+		],
+		"dOIndex": 66,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"elevator"
+		]
+	},
+	{
+		"txt": " When the elevator accelerates up or down, the mass at the end of the spring resists that ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11474,
+		"nouns": [
+			"elevator",
+			"mass",
+			"end"
+		],
+		"dOIndex": 67,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"elevator"
+		]
+	},
+	{
+		"txt": "acceleration and tends to stay at rest. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11475,
+		"nouns": [
+			"acceleration",
+			"rest"
+		],
+		"dOIndex": 68,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"acceleration"
+		]
+	},
+	{
+		"txt": " This is ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11476,
+		"nouns": [],
+		"dOIndex": 69,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Newton's first law in action. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11477,
+		"nouns": [
+			"Newton",
+			"first",
+			"law",
+			"action"
+		],
+		"dOIndex": 70,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Newton"
+		]
+	},
+	{
+		"txt": " Inertial loading causes the spring to stretch or compress. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11478,
+		"nouns": [
+			"causes",
+			"stretch"
+		],
+		"dOIndex": 71,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Inertial",
+			"stretch"
+		]
+	},
+	{
+		"txt": " If the elevator is accelerating upward, the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11479,
+		"nouns": [
+			"elevator"
+		],
+		"dOIndex": 72,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"elevator"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11480,
+		"nouns": [],
+		"dOIndex": 73,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "mass will cause the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11481,
+		"nouns": [
+			"mass",
+			"cause"
+		],
+		"dOIndex": 74,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "spring to stretch downward. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11482,
+		"nouns": [
+			"stretch"
+		],
+		"dOIndex": 75,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"stretch"
+		]
+	},
+	{
+		"txt": " Recall from ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11483,
+		"nouns": [],
+		"dOIndex": 76,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Recall"
+		]
+	},
+	{
+		"txt": "Chapter 3 that the force acting on a spring is linearly dependent on the displacement of the mass via the equation:Fn = kd",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11484,
+		"nouns": [
+			"Chapter",
+			"force",
+			"displacement",
+			"mass",
+			"equation",
+			"Fn",
+			"kd"
+		],
+		"dOIndex": 77,
+		"nouns2": [
+			"Chapter",
+			"displacement",
+			"equation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 11485,
+		"nouns": [],
+		"dOIndex": 78,
+		"isQuote": false
+	},
+	{
+		"txt": "We can directly measure the ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11486,
+		"nouns": [
+			"measure"
+		],
+		"dOIndex": 79,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"measure"
+		]
+	},
+	{
+		"txt": "displacement, d, so we can determine the force in that direction, n",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11487,
+		"nouns": [
+			"displacement",
+			"force",
+			"direction",
+			"n"
+		],
+		"dOIndex": 80,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"displacement",
+			"direction"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11488,
+		"nouns": [],
+		"dOIndex": 81,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " As the mass is known, voila!",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11489,
+		"nouns": [
+			"mass",
+			"voila"
+		],
+		"dOIndex": 82,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "an = m/Fn",
+		"why": "p",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11490,
+		"nouns": [
+			"m",
+			"/",
+			"Fn"
+		],
+		"dOIndex": 83,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11491,
+		"nouns": [],
+		"dOIndex": 84,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": true,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "As an aside, the fact that you can tell that you are accelerating without having to look outside the elevator is what makes this a ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11492,
+		"nouns": [
+			"fact",
+			"elevator"
+		],
+		"dOIndex": 85,
+		"ignoreDOBcNoQuotes": false,
+		"isQuote": false,
+		"nounsProcAll": [
+			"fact",
+			"elevator"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"elevator"
+		]
+	},
+	{
+		"txt": " \"noninertial frame of reference,\" ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11493,
+		"isQuote": true,
+		"nouns": [
+			"frame",
+			"reference"
+		],
+		"dOIndex": 86,
+		"nounsProcAll": [
+			"frame",
+			"reference"
+		],
+		"sfxfx": [],
+		"gspkNameUnknown": "Chapter",
+		"nouns2": [
+			"reference"
+		]
+	},
+	{
+		"txt": " as discussed in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11494,
+		"nouns": [],
+		"dOIndex": 87,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [],
+		"sfxfx": []
+	},
+	{
+		"txt": "Chapter 2",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11495,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 88,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"Chapter"
+		],
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11496,
+		"nouns": [],
+		"dOIndex": 89,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": " No worries if you don't totally understand that; it isn't important for what we are discussing here.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11497,
+		"nouns": [
+			"worries",
+			"t",
+			"isn",
+			"t"
+		],
+		"dOIndex": 90,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"worries",
+			"t",
+			"isn",
+			"t"
+		],
+		"nouns2": [
+			"worries"
+		],
+		"sentiment": {
+			"score": -6,
+			"comparative": -0.3333333333333333,
+			"words": [
+				"important",
+				"worries",
+				"no"
+			],
+			"positive": [],
+			"negative": [
+				"important",
+				"worries",
+				"no"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11498,
+		"nouns": [],
+		"dOIndex": 91,
+		"isQuote": false
+	},
+	{
+		"txt": "Now, let's put our elevator back on earth. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11499,
+		"nouns": [
+			"elevator",
+			"earth"
+		],
+		"dOIndex": 92,
+		"nouns2": [
+			"elevator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " With the same device, the mass will not be at 0 even if the elevator is not accelerating because ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11500,
+		"nouns": [
+			"device",
+			"mass",
+			"elevator"
+		],
+		"dOIndex": 93,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"elevator"
+		]
+	},
+	{
+		"txt": "gravity is pulling it down. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11501,
+		"nouns": [
+			"gravity"
+		],
+		"dOIndex": 94,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"gravity"
+		]
+	},
+	{
+		"txt": " Previously we used units of inches, which we then converted to force and finally to acceleration. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11502,
+		"nouns": [
+			"units",
+			"inches",
+			"force",
+			"acceleration"
+		],
+		"dOIndex": 95,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Previously",
+			"acceleration"
+		]
+	},
+	{
+		"txt": " However, we now have a direct measure of the acceleration due to gravity and could easily place a mark on where the mass is and call it 1g . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11503,
+		"nouns": [
+			"measure",
+			"acceleration",
+			"gravity",
+			"place",
+			"mark",
+			"mass",
+			"g"
+		],
+		"dOIndex": 96,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"measure",
+			"acceleration",
+			"gravity"
+		]
+	},
+	{
+		"txt": " Also we could place marks along the ruler at the same intervals. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11504,
+		"nouns": [
+			"place",
+			"marks",
+			"ruler",
+			"intervals"
+		],
+		"dOIndex": 97,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"intervals"
+		]
+	},
+	{
+		"txt": "link https:2 . ",
+		"why": "split inside sentence",
+		"tags": [
+			"sup",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11505,
+		"nouns": [
+			"link",
+			"https"
+		],
+		"dOIndex": 98,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " The mass should move down the scale to 2g , and anyone standing in the elevator would feel twice as heavy as normal.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11506,
+		"nouns": [
+			"mass",
+			"move",
+			"scale",
+			"g",
+			"anyone",
+			"elevator"
+		],
+		"dOIndex": 99,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"elevator"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11507,
+		"nouns": [],
+		"dOIndex": 100,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11508,
+		"nouns": [],
+		"dOIndex": 101,
+		"isQuote": false
+	},
+	{
+		"txt": "link https:2 . ",
+		"why": "split inside sentence",
+		"tags": [
+			"sup",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11509,
+		"nouns": [
+			"link",
+			"https"
+		],
+		"dOIndex": 102,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " We could easily do this by just releasing the brakes and letting gravity do the work. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11510,
+		"nouns": [
+			"brakes",
+			"gravity",
+			"work"
+		],
+		"dOIndex": 103,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"gravity"
+		]
+	},
+	{
+		"txt": " Now in freefall we don't feel gravity at all, right? ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11511,
+		"nouns": [
+			"freefall",
+			"t",
+			"gravity",
+			"right"
+		],
+		"dOIndex": 104,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"freefall",
+			"gravity"
+		]
+	},
+	{
+		"txt": " That's because the downward acceleration is canceling the acceleration due to gravity. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11512,
+		"nouns": [
+			"acceleration",
+			"acceleration",
+			"gravity"
+		],
+		"dOIndex": 105,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"acceleration",
+			"gravity"
+		]
+	},
+	{
+		"txt": " The mass will be back at 0 just like out in space, far from any gravitational bodies. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11513,
+		"nouns": [
+			"mass",
+			"space",
+			"bodies"
+		],
+		"dOIndex": 106,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.10526315789473684,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " It is for this reason, and not a lack of gravity, that astronauts float around. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11514,
+		"nouns": [
+			"reason",
+			"lack",
+			"gravity",
+			"astronauts"
+		],
+		"dOIndex": 107,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"gravity",
+			"astronauts"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.11764705882352941,
+			"words": [
+				"lack"
+			],
+			"positive": [],
+			"negative": [
+				"lack"
+			]
+		}
+	},
+	{
+		"txt": " They are in freefall around the earth.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11515,
+		"nouns": [
+			"freefall",
+			"earth"
+		],
+		"dOIndex": 108,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"freefall"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11516,
+		"nouns": [],
+		"dOIndex": 109,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11517,
+		"nouns": [],
+		"dOIndex": 110,
+		"isQuote": false
+	},
+	{
+		"txt": "Lastly, if we accelerate the elevator downward at 2g, the mass would move to the −1g mark on the ruler. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11518,
+		"nouns": [
+			"elevator",
+			"g",
+			"mass",
+			"−",
+			"g",
+			"mark",
+			"ruler"
+		],
+		"dOIndex": 111,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Lastly",
+			"elevator"
+		]
+	},
+	{
+		"txt": " This is because the downward acceleration is now overwhelming gravity. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11519,
+		"nouns": [
+			"acceleration",
+			"gravity"
+		],
+		"dOIndex": 112,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"acceleration",
+			"gravity"
+		]
+	},
+	{
+		"txt": " Those in the elevator would find themselves standing on the ceiling feeling exactly as they would standing on the ground! ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11520,
+		"nouns": [
+			"elevator",
+			"ground"
+		],
+		"dOIndex": 113,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"elevator"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.045454545454545456,
+			"words": [
+				"feeling"
+			],
+			"positive": [
+				"feeling"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " In fact, one of ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11521,
+		"nouns": [
+			"fact",
+			"one"
+		],
+		"dOIndex": 114,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Einstein's accomplishments was showing that it is impossible to distinguish gravity from inertial accelerations. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11522,
+		"nouns": [
+			"Einstein",
+			"accomplishments",
+			"gravity",
+			"accelerations"
+		],
+		"dOIndex": 115,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Einstein",
+			"accomplishments",
+			"gravity",
+			"accelerations"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.13333333333333333,
+			"words": [
+				"accomplishments"
+			],
+			"positive": [
+				"accomplishments"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " We'll leave the details of that for independent study and get back to accelerometers in the form of ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11523,
+		"nouns": [
+			"ll",
+			"details",
+			"study",
+			"accelerometers",
+			"form"
+		],
+		"dOIndex": 116,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"details",
+			"accelerometers"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.05,
+			"words": [
+				"leave"
+			],
+			"positive": [],
+			"negative": [
+				"leave"
+			]
+		}
+	},
+	{
+		"txt": "MEMS.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11524,
+		"nouns": [
+			"MEMS"
+		],
+		"dOIndex": 117,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11525,
+		"nouns": [],
+		"dOIndex": 118,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11526,
+		"nouns": [],
+		"dOIndex": 119,
+		"isQuote": false
+	},
+	{
+		"txt": "MEMS Accelerometers",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11527,
+		"nouns": [
+			"MEMS",
+			"Accelerometers"
+		],
+		"dOIndex": 120,
+		"nouns2": [
+			"Accelerometers"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11528,
+		"nouns": [],
+		"dOIndex": 121,
+		"isQuote": false
+	},
+	{
+		"txt": "Micro scale accelerometers are not that much different from the machine previously described but generally use a cantilevered beam instead of a spring. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11529,
+		"nouns": [
+			"Micro",
+			"scale",
+			"accelerometers",
+			"machine",
+			"use",
+			"beam"
+		],
+		"dOIndex": 122,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"accelerometers",
+			"machine"
+		]
+	},
+	{
+		"txt": " To track more than one axis, sometimes three discrete accelerometers are placed out of plane with respect to one another. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11530,
+		"nouns": [
+			"track",
+			"one",
+			"axis",
+			"three",
+			"accelerometers",
+			"plane",
+			"respect",
+			"one"
+		],
+		"dOIndex": 123,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"accelerometers",
+			"respect"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.09090909090909091,
+			"words": [
+				"respect"
+			],
+			"positive": [
+				"respect"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Alternatively, more complex models use elements that can sense all three directions within a single integrated sensor. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11531,
+		"nouns": [
+			"models",
+			"use",
+			"elements",
+			"sense",
+			"three",
+			"directions",
+			"sensor"
+		],
+		"dOIndex": 124,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Alternatively",
+			"elements",
+			"directions"
+		]
+	},
+	{
+		"txt": " These generally give better results.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11532,
+		"nouns": [
+			"results"
+		],
+		"dOIndex": 125,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"results"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.3333333333333333,
+			"words": [
+				"better"
+			],
+			"positive": [
+				"better"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11533,
+		"nouns": [],
+		"dOIndex": 126,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11534,
+		"nouns": [],
+		"dOIndex": 127,
+		"isQuote": false
+	},
+	{
+		"txt": "The only important difference from the aforementioned examples, besides MEMS being thousands of times smaller in scale than the mass and spring, is how to measure the deflection of the test mass. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11535,
+		"nouns": [
+			"difference",
+			"examples",
+			"MEMS",
+			"thousands",
+			"times",
+			"scale",
+			"mass",
+			"measure",
+			"deflection",
+			"test",
+			"mass"
+		],
+		"dOIndex": 128,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"difference",
+			"examples",
+			"thousands",
+			"measure",
+			"deflection"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.06060606060606061,
+			"words": [
+				"important"
+			],
+			"positive": [
+				"important"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " There are three common methods employed in accelerometers. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11536,
+		"nouns": [
+			"three",
+			"methods",
+			"accelerometers"
+		],
+		"dOIndex": 129,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"methods",
+			"accelerometers"
+		]
+	},
+	{
+		"txt": " For most game devices where extreme accuracy isn't required, the deflection is usually measured as a change in capacitance. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11537,
+		"nouns": [
+			"game",
+			"devices",
+			"accuracy",
+			"isn",
+			"t",
+			"deflection",
+			"change",
+			"capacitance"
+		],
+		"dOIndex": 130,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"devices",
+			"accuracy",
+			"deflection",
+			"capacitance"
+		]
+	},
+	{
+		"txt": " This is somewhat the same way that capacitive touch screens work, as described in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11538,
+		"nouns": [
+			"way",
+			"capacitive",
+			"touch",
+			"screens",
+			"work"
+		],
+		"dOIndex": 131,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"capacitive",
+			"screens"
+		]
+	},
+	{
+		"txt": "Chapter 20, and is shown in ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11539,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 132,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11540,
+		"nouns": [],
+		"dOIndex": 133,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 21 2 .",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11541,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 134,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11542,
+		"nouns": [],
+		"dOIndex": 135,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11543,
+		"nouns": [],
+		"dOIndex": 136,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11544,
+		"nouns": [],
+		"dOIndex": 137,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11545,
+		"nouns": [],
+		"dOIndex": 138,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11546,
+		"nouns": [],
+		"dOIndex": 139,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 21 2. MEMS cantilever accelerometer",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11547,
+		"nouns": [
+			"Figure",
+			"MEMS",
+			"cantilever",
+			"accelerometer"
+		],
+		"dOIndex": 140,
+		"nouns2": [
+			"Figure",
+			"cantilever",
+			"accelerometer"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11548,
+		"nouns": [],
+		"dOIndex": 141,
+		"isQuote": false
+	},
+	{
+		"txt": "The beam deflects under the influence of the external accelerations of the test mass and brings two charged plates farther or closer together. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11549,
+		"nouns": [
+			"beam",
+			"influence",
+			"accelerations",
+			"test",
+			"mass",
+			"two",
+			"plates"
+		],
+		"dOIndex": 142,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"influence",
+			"accelerations"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.125,
+			"words": [
+				"charged"
+			],
+			"positive": [],
+			"negative": [
+				"charged"
+			]
+		}
+	},
+	{
+		"txt": " This changes the capacitance of the system. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11550,
+		"nouns": [
+			"changes",
+			"capacitance",
+			"system"
+		],
+		"dOIndex": 143,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"changes",
+			"capacitance"
+		]
+	},
+	{
+		"txt": " This change can then be calibrated to the imposed acceleration.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11551,
+		"nouns": [
+			"change",
+			"acceleration"
+		],
+		"dOIndex": 144,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"acceleration"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.09090909090909091,
+			"words": [
+				"imposed"
+			],
+			"positive": [],
+			"negative": [
+				"imposed"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11552,
+		"nouns": [],
+		"dOIndex": 145,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11553,
+		"nouns": [],
+		"dOIndex": 146,
+		"isQuote": false
+	},
+	{
+		"txt": "Other methods include integrating ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11554,
+		"nouns": [
+			"methods"
+		],
+		"dOIndex": 147,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"methods"
+		]
+	},
+	{
+		"txt": "a piezoresister in the beam itself so that the deflection of the beam changes the resistance of the circuit. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11555,
+		"nouns": [
+			"piezoresister",
+			"beam",
+			"deflection",
+			"beam",
+			"changes",
+			"resistance",
+			"circuit"
+		],
+		"dOIndex": 148,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"piezoresister",
+			"deflection",
+			"changes",
+			"resistance",
+			"circuit"
+		]
+	},
+	{
+		"txt": " Although this ultimately gives better results, these are harder to manufacture. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11556,
+		"nouns": [
+			"results",
+			"are"
+		],
+		"dOIndex": 149,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Although",
+			"results"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.15384615384615385,
+			"words": [
+				"better"
+			],
+			"positive": [
+				"better"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " For the most demanding applications, there are accelerometers using piezoelectric elements based on quartz crystals. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11557,
+		"nouns": [
+			"applications",
+			"accelerometers",
+			"elements",
+			"quartz",
+			"crystals"
+		],
+		"dOIndex": 150,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"applications",
+			"accelerometers",
+			"elements",
+			"crystals"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.058823529411764705,
+			"words": [
+				"demanding"
+			],
+			"positive": [],
+			"negative": [
+				"demanding"
+			]
+		}
+	},
+	{
+		"txt": " These are very sensitive even during high frequency changes in acceleration but are generally not used in sensing human input ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11558,
+		"nouns": [
+			"are",
+			"frequency",
+			"changes",
+			"acceleration",
+			"input"
+		],
+		"dOIndex": 151,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"frequency",
+			"changes",
+			"acceleration"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11559,
+		"nouns": [],
+		"dOIndex": 152,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11560,
+		"nouns": [],
+		"dOIndex": 153,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "motion.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11561,
+		"nouns": [
+			"motion"
+		],
+		"dOIndex": 154,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11562,
+		"nouns": [],
+		"dOIndex": 155,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11563,
+		"nouns": [],
+		"dOIndex": 156,
+		"isQuote": false
+	},
+	{
+		"txt": "Common Accelerometer Specifications",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11564,
+		"nouns": [
+			"Common",
+			"Accelerometer",
+			"Specifications"
+		],
+		"dOIndex": 157,
+		"nouns2": [
+			"Common",
+			"Accelerometer",
+			"Specifications"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11565,
+		"nouns": [],
+		"dOIndex": 158,
+		"isQuote": false
+	},
+	{
+		"txt": "To help you better ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11566,
+		"nouns": [],
+		"dOIndex": 159,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.8,
+			"words": [
+				"better",
+				"help"
+			],
+			"positive": [
+				"better",
+				"help"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "experiment with accelerometers, we've collected the specifications on a few of the most common accelerometers in use at the time of writing. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11567,
+		"nouns": [
+			"experiment",
+			"accelerometers",
+			"ve",
+			"specifications",
+			"accelerometers",
+			"use",
+			"time"
+		],
+		"dOIndex": 160,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"experiment",
+			"accelerometers",
+			"specifications"
+		]
+	},
+	{
+		"txt": " The future may hold cheap accelerometers based on quantum tunneling",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11568,
+		"nouns": [
+			"future",
+			"accelerometers",
+			"quantum"
+		],
+		"dOIndex": 161,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"accelerometers",
+			"quantum"
+		]
+	},
+	{
+		"txt": " that can provide almost limitless accuracy, but ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11569,
+		"nouns": [
+			"accuracy"
+		],
+		"dOIndex": 162,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"accuracy"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11570,
+		"nouns": [],
+		"dOIndex": 163,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Table 21 1 outlines what you'll generally be working with for now.",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11571,
+		"nouns": [
+			"Table",
+			"outlines",
+			"ll"
+		],
+		"dOIndex": 164,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"outlines"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11572,
+		"nouns": [],
+		"dOIndex": 165,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Table 21 1. Current common accelerometers",
+		"why": "p",
+		"tags": [
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11573,
+		"nouns": [
+			"Table",
+			"accelerometers"
+		],
+		"dOIndex": 166,
+		"nouns2": [
+			"Current",
+			"accelerometers"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Device",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"thead",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11574,
+		"nouns": [
+			"Device"
+		],
+		"dOIndex": 167,
+		"nouns2": [
+			"Device"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Accelerometer chip",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"thead",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11575,
+		"nouns": [
+			"Accelerometer",
+			"chip"
+		],
+		"dOIndex": 168,
+		"nouns2": [
+			"Accelerometer"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Sensor range",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"thead",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11576,
+		"nouns": [
+			"Sensor",
+			"range"
+		],
+		"dOIndex": 169,
+		"nouns2": [
+			"Sensor"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Sampling rate",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"thead",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11577,
+		"nouns": [
+			"rate"
+		],
+		"dOIndex": 170,
+		"nouns2": [
+			"Sampling"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "iPhone/iPad/ Motorola Droid",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11578,
+		"nouns": [
+			"iPhone",
+			"/",
+			"iPad",
+			"/ Motorola",
+			"Droid"
+		],
+		"dOIndex": 171,
+		"nouns2": [
+			"Motorola"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "LIS331D",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11579,
+		"nouns": [
+			"LIS",
+			"D"
+		],
+		"dOIndex": 172,
+		"isQuote": false
+	},
+	{
+		"txt": "±2g*",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11580,
+		"nouns": [
+			"±",
+			"g*"
+		],
+		"dOIndex": 173,
+		"isQuote": false
+	},
+	{
+		"txt": "100 Hz or 400 Hz",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11581,
+		"nouns": [
+			"Hz",
+			"Hz"
+		],
+		"dOIndex": 174,
+		"isQuote": false
+	},
+	{
+		"txt": "Nintendo Wii",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11582,
+		"nouns": [
+			"Nintendo",
+			"Wii"
+		],
+		"dOIndex": 175,
+		"nouns2": [
+			"Nintendo"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "ADXl330",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11583,
+		"nouns": [
+			"ADXl"
+		],
+		"dOIndex": 176,
+		"isQuote": false
+	},
+	{
+		"txt": "±3g",
+		"why": "p",
+		"tags": [
+			"em",
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11584,
+		"nouns": [
+			"±",
+			"g"
+		],
+		"dOIndex": 177,
+		"isQuote": false
+	},
+	{
+		"txt": "link https:",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11585,
+		"nouns": [
+			"link",
+			"https"
+		],
+		"dOIndex": 178,
+		"isQuote": false
+	},
+	{
+		"txt": "z axis: 0.5 Hz to 550 Hz",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11586,
+		"nouns": [
+			"z",
+			"axis",
+			"Hz",
+			"Hz"
+		],
+		"dOIndex": 179,
+		"isQuote": false
+	},
+	{
+		"txt": "Sony Six Axis",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11587,
+		"nouns": [
+			"Sony",
+			"Six Axis"
+		],
+		"dOIndex": 180,
+		"isQuote": false
+	},
+	{
+		"txt": "Not published",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11588,
+		"nouns": [],
+		"dOIndex": 181,
+		"isQuote": false
+	},
+	{
+		"txt": "±3g",
+		"why": "p",
+		"tags": [
+			"em",
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11589,
+		"nouns": [
+			"±",
+			"g"
+		],
+		"dOIndex": 182,
+		"isQuote": false
+	},
+	{
+		"txt": "100 Hz",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11590,
+		"nouns": [
+			"Hz"
+		],
+		"dOIndex": 183,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11591,
+		"nouns": [],
+		"dOIndex": 184,
+		"isQuote": false
+	},
+	{
+		"txt": "Note",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11592,
+		"nouns": [],
+		"dOIndex": 185,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11593,
+		"nouns": [],
+		"dOIndex": 186,
+		"isQuote": false
+	},
+	{
+		"txt": "The chip LIS221D is actually capable of two modes. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11594,
+		"nouns": [
+			"chip",
+			"LIS",
+			"D",
+			"two",
+			"modes"
+		],
+		"dOIndex": 187,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.1,
+			"words": [
+				"capable"
+			],
+			"positive": [
+				"capable"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " One mode is ±2g and the other is ±8g . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11595,
+		"nouns": [
+			"One",
+			"mode",
+			"±",
+			"g",
+			"±",
+			"g"
+		],
+		"dOIndex": 188,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " This is dynamically selectable according to the chips datasheet; however, neither iOS nor Android allows developers to change the mode through the API.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11596,
+		"nouns": [
+			"selectable",
+			"chips",
+			"datasheet",
+			"iOS",
+			"Android",
+			"developers",
+			"change",
+			"mode",
+			"API"
+		],
+		"dOIndex": 189,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"selectable",
+			"datasheet",
+			"Android",
+			"developers"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11597,
+		"nouns": [],
+		"dOIndex": 190,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11598,
+		"nouns": [],
+		"dOIndex": 191,
+		"isQuote": false
+	},
+	{
+		"txt": "The 2g limit for phones can cause problems when you're attempting to record motion. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11599,
+		"nouns": [
+			"g",
+			"limit",
+			"phones",
+			"cause",
+			"problems",
+			"re",
+			"record",
+			"motion"
+		],
+		"dOIndex": 192,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"problems"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.13333333333333333,
+			"words": [
+				"problems"
+			],
+			"positive": [],
+			"negative": [
+				"problems"
+			]
+		}
+	},
+	{
+		"txt": " This limitation will be discussed later in this chapter. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11600,
+		"nouns": [
+			"limitation",
+			"chapter"
+		],
+		"dOIndex": 193,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"limitation",
+			"chapter"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.09090909090909091,
+			"words": [
+				"limitation"
+			],
+			"positive": [],
+			"negative": [
+				"limitation"
+			]
+		}
+	},
+	{
+		"txt": " The larger range of Wii and Sony controllers demonstrate that they are dedicated to gaming where larger accelerations are expected.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11601,
+		"nouns": [
+			"range",
+			"Wii",
+			"Sony",
+			"controllers",
+			"accelerations"
+		],
+		"dOIndex": 194,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"controllers",
+			"accelerations"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.09523809523809523,
+			"words": [
+				"dedicated"
+			],
+			"positive": [
+				"dedicated"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11602,
+		"nouns": [],
+		"dOIndex": 195,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11603,
+		"nouns": [],
+		"dOIndex": 196,
+		"isQuote": false
+	},
+	{
+		"txt": "Data Clipping",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11604,
+		"nouns": [
+			"Data"
+		],
+		"dOIndex": 197,
+		"nouns2": [
+			"Clipping"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11605,
+		"nouns": [],
+		"dOIndex": 198,
+		"isQuote": false
+	},
+	{
+		"txt": "The human arm is ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11606,
+		"nouns": [
+			"arm"
+		],
+		"dOIndex": 199,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11607,
+		"nouns": [],
+		"dOIndex": 200,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "capable of exceeding the ±2g range of the iPhone's sensor easily. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11608,
+		"nouns": [
+			"±",
+			"g",
+			"range",
+			"iPhone",
+			"sensor"
+		],
+		"dOIndex": 201,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.08333333333333333,
+			"words": [
+				"capable"
+			],
+			"positive": [
+				"capable"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The values reported by the API will actually exceed 2g up to about 2.3g . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11609,
+		"nouns": [
+			"values",
+			"API",
+			"g",
+			"g"
+		],
+		"dOIndex": 202,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " The accuracy of these values that exceed the specification is unknown. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11610,
+		"nouns": [
+			"accuracy",
+			"values",
+			"specification"
+		],
+		"dOIndex": 203,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"accuracy",
+			"specification"
+		]
+	},
+	{
+		"txt": " Regardless, they are probably at least as accurate as the option of trying to recreate the data, so if required they can be used. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11611,
+		"nouns": [
+			"option",
+			"data"
+		],
+		"dOIndex": 204,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Regardless"
+		]
+	},
+	{
+		"txt": " All values above this upper limit will be reported as the upper limit such that if you graphed the values, they would look like ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11612,
+		"nouns": [
+			"values",
+			"limit",
+			"limit",
+			"values"
+		],
+		"dOIndex": 205,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.07692307692307693,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "Figure 21 3",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11613,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 206,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11614,
+		"nouns": [],
+		"dOIndex": 207,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11615,
+		"nouns": [],
+		"dOIndex": 208,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11616,
+		"nouns": [],
+		"dOIndex": 209,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11617,
+		"nouns": [],
+		"dOIndex": 210,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11618,
+		"nouns": [],
+		"dOIndex": 211,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11619,
+		"nouns": [],
+		"dOIndex": 212,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 21 3. Acceleration graph showing clipping",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11620,
+		"nouns": [
+			"Figure",
+			"Acceleration",
+			"graph"
+		],
+		"dOIndex": 213,
+		"nouns2": [
+			"Figure",
+			"Acceleration"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11621,
+		"nouns": [],
+		"dOIndex": 214,
+		"isQuote": false
+	},
+	{
+		"txt": "There are several different ways to handle data clipping. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11622,
+		"nouns": [
+			"ways",
+			"data"
+		],
+		"dOIndex": 215,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " One is to discard the data and alert the user that he has exceeded the available range. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11623,
+		"nouns": [
+			"One",
+			"data",
+			"user",
+			"range"
+		],
+		"dOIndex": 216,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.10526315789473684,
+			"words": [
+				"alert",
+				"discard"
+			],
+			"positive": [],
+			"negative": [
+				"alert",
+				"discard"
+			]
+		}
+	},
+	{
+		"txt": " Another is to attempt to recreate the missing data. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11624,
+		"nouns": [
+			"attempt",
+			"data"
+		],
+		"dOIndex": 217,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Another",
+			"attempt"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.18181818181818182,
+			"words": [
+				"missing"
+			],
+			"positive": [],
+			"negative": [
+				"missing"
+			]
+		}
+	},
+	{
+		"txt": " If you are recording the data for later processing, you can use both segment 1 and segment 2 to fit the curve between the point at which the data began to be clipped and the point in which meaningful data collection is resumed. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11625,
+		"nouns": [
+			"data",
+			"use",
+			"both",
+			"segment",
+			"segment",
+			"curve",
+			"point",
+			"data",
+			"point",
+			"data",
+			"collection"
+		],
+		"dOIndex": 218,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"segment",
+			"collection"
+		],
+		"highfreq": {
+			"data": 3
+		},
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.06666666666666667,
+			"words": [
+				"meaningful",
+				"fit"
+			],
+			"positive": [
+				"meaningful",
+				"fit"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " This is highly application dependent, and the curve used to fit the data will have to be matched to the activity at hand. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11626,
+		"nouns": [
+			"application",
+			"curve",
+			"data",
+			"activity",
+			"hand"
+		],
+		"dOIndex": 219,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"application",
+			"activity"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.04,
+			"words": [
+				"fit"
+			],
+			"positive": [
+				"fit"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " If you are recording the data for later processing, you can use both segment 1 and segment 2 to give your data.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11627,
+		"nouns": [
+			"data",
+			"use",
+			"both",
+			"segment",
+			"segment",
+			"data"
+		],
+		"dOIndex": 220,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"segment"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11628,
+		"nouns": [],
+		"dOIndex": 221,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11629,
+		"nouns": [],
+		"dOIndex": 222,
+		"isQuote": false
+	},
+	{
+		"txt": "If you are attempting to process the signal in real time, you'll have only segment 1 to work from. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11630,
+		"nouns": [
+			"process",
+			"time",
+			"ll",
+			"segment",
+			"work"
+		],
+		"dOIndex": 223,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"process",
+			"segment"
+		]
+	},
+	{
+		"txt": " This could result in a discontinuity when meaningful data collection resumes, and you'll have to decide how to deal with that given the particulars of what you are doing with the data.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11631,
+		"nouns": [
+			"result",
+			"discontinuity",
+			"data",
+			"collection",
+			"ll",
+			"particulars",
+			"data"
+		],
+		"dOIndex": 224,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"discontinuity",
+			"collection",
+			"particulars"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.06060606060606061,
+			"words": [
+				"meaningful"
+			],
+			"positive": [
+				"meaningful"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11632,
+		"nouns": [],
+		"dOIndex": 225,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11633,
+		"nouns": [],
+		"dOIndex": 226,
+		"isQuote": false
+	},
+	{
+		"txt": "Sensing Orientation",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11634,
+		"nouns": [
+			"Orientation"
+		],
+		"dOIndex": 227,
+		"nouns2": [
+			"Sensing",
+			"Orientation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11635,
+		"nouns": [],
+		"dOIndex": 228,
+		"isQuote": false
+	},
+	{
+		"txt": "Sensing rotation in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11636,
+		"nouns": [
+			"rotation"
+		],
+		"dOIndex": 229,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Sensing",
+			"rotation"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11637,
+		"nouns": [],
+		"dOIndex": 230,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11638,
+		"nouns": [],
+		"dOIndex": 231,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "three degrees of freedom amounts to sensing a rigid body's orientation and is a complex problem that cannot be fully resolved using only accelerometers. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11639,
+		"nouns": [
+			"three",
+			"degrees",
+			"freedom",
+			"amounts",
+			"body",
+			"orientation",
+			"problem",
+			"accelerometers"
+		],
+		"dOIndex": 232,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"degrees",
+			"freedom",
+			"amounts",
+			"orientation",
+			"problem",
+			"accelerometers"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08,
+			"words": [
+				"resolved",
+				"problem",
+				"freedom"
+			],
+			"positive": [
+				"resolved",
+				"freedom"
+			],
+			"negative": [
+				"problem"
+			]
+		}
+	},
+	{
+		"txt": " Think about holding the device vertically. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11640,
+		"nouns": [
+			"device"
+		],
+		"dOIndex": 233,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " If you rotate the device about the axis described by the gravity vector, none of the accelerometers will measure any change in the force acting on their test masses. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11641,
+		"nouns": [
+			"device",
+			"axis",
+			"gravity",
+			"vector",
+			"none",
+			"accelerometers",
+			"measure",
+			"change",
+			"force",
+			"test",
+			"masses"
+		],
+		"dOIndex": 234,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"gravity",
+			"accelerometers",
+			"measure"
+		]
+	},
+	{
+		"txt": " We can't measure that degree of freedom. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11642,
+		"nouns": [
+			"t",
+			"measure",
+			"degree",
+			"freedom"
+		],
+		"dOIndex": 235,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"measure",
+			"freedom"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.2222222222222222,
+			"words": [
+				"freedom"
+			],
+			"positive": [
+				"freedom"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " To do so, we'd need to fix a ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11643,
+		"nouns": [],
+		"dOIndex": 236,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "gyroscope to the device, and even these run into problems when a body is free to rotate about all three axes. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11644,
+		"nouns": [
+			"gyroscope",
+			"device",
+			"run",
+			"problems",
+			"body",
+			"three",
+			"axes"
+		],
+		"dOIndex": 237,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"gyroscope",
+			"problems"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.045454545454545456,
+			"words": [
+				"free",
+				"problems"
+			],
+			"positive": [
+				"free"
+			],
+			"negative": [
+				"problems"
+			]
+		}
+	},
+	{
+		"txt": " See ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11645,
+		"nouns": [],
+		"dOIndex": 238,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 11",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11646,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 239,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " for a discussion on Euler angles.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11647,
+		"nouns": [
+			"discussion",
+			"Euler",
+			"angles"
+		],
+		"dOIndex": 240,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"discussion"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11648,
+		"nouns": [],
+		"dOIndex": 241,
+		"isQuote": false
+	},
+	{
+		"txt": "Now let's discuss what we can accomplish. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11649,
+		"nouns": [],
+		"dOIndex": 242,
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.25,
+			"words": [
+				"accomplish"
+			],
+			"positive": [
+				"accomplish"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " First, ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11650,
+		"nouns": [
+			"First"
+		],
+		"dOIndex": 243,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 21 4 demonstrates the coordinate system",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11651,
+		"nouns": [
+			"Figure",
+			"coordinate",
+			"system"
+		],
+		"dOIndex": 244,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure",
+			"coordinate"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11652,
+		"nouns": [],
+		"dOIndex": 245,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " we'll use; the actual coordinate system used will be determined by the manufacturer of your device, so make sure to check its documentation.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11653,
+		"nouns": [
+			"ll",
+			"use",
+			"system",
+			"manufacturer",
+			"device",
+			"check",
+			"documentation"
+		],
+		"dOIndex": 246,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"manufacturer",
+			"documentation"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08333333333333333,
+			"words": [
+				"determined"
+			],
+			"positive": [
+				"determined"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11654,
+		"nouns": [],
+		"dOIndex": 247,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11655,
+		"nouns": [],
+		"dOIndex": 248,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11656,
+		"nouns": [],
+		"dOIndex": 249,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11657,
+		"nouns": [],
+		"dOIndex": 250,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11658,
+		"nouns": [],
+		"dOIndex": 251,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 21 4. Accelerometer coordinate system",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11659,
+		"nouns": [
+			"Figure",
+			"Accelerometer",
+			"system"
+		],
+		"dOIndex": 252,
+		"nouns2": [
+			"Figure",
+			"Accelerometer"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11660,
+		"nouns": [],
+		"dOIndex": 253,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": true,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "Now if we make some assumptions based on how a user will hold our device, we can determine some ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11661,
+		"nouns": [
+			"assumptions",
+			"user",
+			"device"
+		],
+		"dOIndex": 254,
+		"ignoreDOBcNoQuotes": false,
+		"isQuote": false,
+		"nounsProcAll": [
+			"assumptions",
+			"user",
+			"device"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"assumptions"
+		]
+	},
+	{
+		"txt": " \"gross\" ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11662,
+		"nouns": [],
+		"dOIndex": 255,
+		"isQuote": true,
+		"nounsProcAll": [],
+		"sfxfx": [],
+		"gspkNameUnknown": "narrator",
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.6666666666666666,
+			"words": [
+				"gross"
+			],
+			"positive": [],
+			"negative": [
+				"gross"
+			]
+		}
+	},
+	{
+		"txt": " orientations. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11663,
+		"nouns": [
+			"orientations"
+		],
+		"dOIndex": 256,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [
+			"orientations"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"orientations"
+		]
+	},
+	{
+		"txt": " For illustration, ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11664,
+		"nouns": [
+			"illustration"
+		],
+		"dOIndex": 257,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"illustration"
+		],
+		"nouns2": [
+			"illustration"
+		]
+	},
+	{
+		"txt": "Table 21 2 gives some idea of what each value would be for each gross direction, assuming the coordinate system shown in ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11665,
+		"nouns": [
+			"Table",
+			"idea",
+			"value",
+			"direction",
+			"coordinate",
+			"system"
+		],
+		"dOIndex": 258,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"Table",
+			"idea",
+			"value",
+			"direction",
+			"coordinate",
+			"system"
+		],
+		"nouns2": [
+			"direction",
+			"coordinate"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.09090909090909091,
+			"words": [
+				"gross"
+			],
+			"positive": [],
+			"negative": [
+				"gross"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11666,
+		"nouns": [],
+		"dOIndex": 259,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "Figure 21 4 .",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11667,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 260,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"Figure"
+		],
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11668,
+		"nouns": [],
+		"dOIndex": 261,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "Table 21 2. Gross acceleration values and orientations",
+		"why": "p",
+		"tags": [
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11669,
+		"nouns": [
+			"Table",
+			"Gross",
+			"acceleration",
+			"values",
+			"orientations"
+		],
+		"dOIndex": 262,
+		"nouns2": [
+			"acceleration",
+			"orientations"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Device orientation",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"thead",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11670,
+		"nouns": [
+			"Device",
+			"orientation"
+		],
+		"dOIndex": 263,
+		"nouns2": [
+			"Device",
+			"orientation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "X",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"thead",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11671,
+		"nouns": [
+			"X"
+		],
+		"dOIndex": 264,
+		"isQuote": false
+	},
+	{
+		"txt": "Y",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"thead",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11672,
+		"nouns": [
+			"Y"
+		],
+		"dOIndex": 265,
+		"isQuote": false
+	},
+	{
+		"txt": "Z",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"thead",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11673,
+		"nouns": [
+			"Z"
+		],
+		"dOIndex": 266,
+		"isQuote": false
+	},
+	{
+		"txt": "Face down on table",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11674,
+		"nouns": [
+			"Face",
+			"table"
+		],
+		"dOIndex": 267,
+		"isQuote": false
+	},
+	{
+		"txt": "0",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11675,
+		"nouns": [],
+		"dOIndex": 268,
+		"isQuote": false
+	},
+	{
+		"txt": "0",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11676,
+		"nouns": [],
+		"dOIndex": 269,
+		"isQuote": false
+	},
+	{
+		"txt": "1",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11677,
+		"nouns": [],
+		"dOIndex": 270,
+		"isQuote": false
+	},
+	{
+		"txt": "Face up on table",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11678,
+		"nouns": [
+			"Face",
+			"table"
+		],
+		"dOIndex": 271,
+		"isQuote": false
+	},
+	{
+		"txt": "0",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11679,
+		"nouns": [],
+		"dOIndex": 272,
+		"isQuote": false
+	},
+	{
+		"txt": "0",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11680,
+		"nouns": [],
+		"dOIndex": 273,
+		"isQuote": false
+	},
+	{
+		"txt": "−1",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11681,
+		"nouns": [
+			"−"
+		],
+		"dOIndex": 274,
+		"isQuote": false
+	},
+	{
+		"txt": "Horizontal on table, right side down",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11682,
+		"nouns": [
+			"table",
+			"right",
+			"side"
+		],
+		"dOIndex": 275,
+		"nouns2": [
+			"Horizontal"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "1",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11683,
+		"nouns": [],
+		"dOIndex": 276,
+		"isQuote": false
+	},
+	{
+		"txt": "0",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11684,
+		"nouns": [],
+		"dOIndex": 277,
+		"isQuote": false
+	},
+	{
+		"txt": "0",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11685,
+		"nouns": [],
+		"dOIndex": 278,
+		"isQuote": false
+	},
+	{
+		"txt": "Horizontal on table, left side down",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11686,
+		"nouns": [
+			"table",
+			"side"
+		],
+		"dOIndex": 279,
+		"nouns2": [
+			"Horizontal"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "−1",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11687,
+		"nouns": [
+			"−"
+		],
+		"dOIndex": 280,
+		"isQuote": false
+	},
+	{
+		"txt": "0",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11688,
+		"nouns": [],
+		"dOIndex": 281,
+		"isQuote": false
+	},
+	{
+		"txt": "0",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11689,
+		"nouns": [],
+		"dOIndex": 282,
+		"isQuote": false
+	},
+	{
+		"txt": "Vertical on table, bottom down",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11690,
+		"nouns": [
+			"table",
+			"bottom"
+		],
+		"dOIndex": 283,
+		"nouns2": [
+			"Vertical"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "0",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11691,
+		"nouns": [],
+		"dOIndex": 284,
+		"isQuote": false
+	},
+	{
+		"txt": "−1",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11692,
+		"nouns": [
+			"−"
+		],
+		"dOIndex": 285,
+		"isQuote": false
+	},
+	{
+		"txt": "0",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11693,
+		"nouns": [],
+		"dOIndex": 286,
+		"isQuote": false
+	},
+	{
+		"txt": "Vertical on table, top down",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11694,
+		"nouns": [
+			"table"
+		],
+		"dOIndex": 287,
+		"nouns2": [
+			"Vertical"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.4,
+			"words": [
+				"top"
+			],
+			"positive": [
+				"top"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "0",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11695,
+		"nouns": [],
+		"dOIndex": 288,
+		"isQuote": false
+	},
+	{
+		"txt": "1",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11696,
+		"nouns": [],
+		"dOIndex": 289,
+		"isQuote": false
+	},
+	{
+		"txt": "0",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11697,
+		"nouns": [],
+		"dOIndex": 290,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11698,
+		"nouns": [],
+		"dOIndex": 291,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": true,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "There are a few things to note here. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11699,
+		"nouns": [
+			"things",
+			"note"
+		],
+		"dOIndex": 292,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"things",
+			"note"
+		]
+	},
+	{
+		"txt": " First, if you were to hold the phone in these orientations with your hand, the accelerometer is sensitive enough to pick up small deviations from true vertical. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11700,
+		"nouns": [
+			"First",
+			"phone",
+			"orientations",
+			"hand",
+			"accelerometer",
+			"deviations"
+		],
+		"dOIndex": 293,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"First",
+			"phone",
+			"orientations",
+			"hand",
+			"accelerometer",
+			"deviations"
+		],
+		"nouns2": [
+			"orientations",
+			"accelerometer",
+			"deviations"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.06896551724137931,
+			"words": [
+				"true"
+			],
+			"positive": [
+				"true"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " We are considering these the ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11701,
+		"nouns": [],
+		"dOIndex": 294,
+		"ignoreDOBcNoQuotes": false,
+		"isQuote": false,
+		"nounsProcAll": [],
+		"sfxfx": []
+	},
+	{
+		"txt": " \"gross\" ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11702,
+		"nouns": [],
+		"dOIndex": 295,
+		"isQuote": true,
+		"nounsProcAll": [],
+		"sfxfx": [],
+		"gspkNameUnknown": "narrator",
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.6666666666666666,
+			"words": [
+				"gross"
+			],
+			"positive": [],
+			"negative": [
+				"gross"
+			]
+		}
+	},
+	{
+		"txt": " orientations such that these small deviations should be ignored.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11703,
+		"nouns": [
+			"orientations",
+			"deviations"
+		],
+		"dOIndex": 296,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [
+			"orientations",
+			"deviations"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"orientations",
+			"deviations"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.2,
+			"words": [
+				"ignored"
+			],
+			"positive": [],
+			"negative": [
+				"ignored"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11704,
+		"nouns": [],
+		"dOIndex": 297,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11705,
+		"nouns": [],
+		"dOIndex": 298,
+		"isQuote": false
+	},
+	{
+		"txt": "Sensing Tilt",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11706,
+		"nouns": [
+			"Tilt"
+		],
+		"dOIndex": 299,
+		"nouns2": [
+			"Sensing"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11707,
+		"nouns": [],
+		"dOIndex": 300,
+		"isQuote": false
+	},
+	{
+		"txt": "Although we can't ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11708,
+		"nouns": [
+			"t"
+		],
+		"dOIndex": 301,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Although"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11709,
+		"nouns": [],
+		"dOIndex": 302,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "determine exactly what angle the user is holding the phone about all three axes, we can pick one axis, assume that it is pointing down, and then find the change in the angle from that assumption over time. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11710,
+		"nouns": [
+			"angle",
+			"user",
+			"phone",
+			"three",
+			"axes",
+			"one",
+			"axis",
+			"change",
+			"angle",
+			"assumption",
+			"time"
+		],
+		"dOIndex": 303,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"assumption"
+		]
+	},
+	{
+		"txt": " For instance, if the phone is lying on a table, the average acceleration in the z direction will be −1, and in the other directions, 0. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11711,
+		"nouns": [
+			"instance",
+			"phone",
+			"table",
+			"acceleration",
+			"z",
+			"direction",
+			"−",
+			"directions"
+		],
+		"dOIndex": 304,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"instance",
+			"acceleration",
+			"direction",
+			"directions"
+		]
+	},
+	{
+		"txt": " Even if the user spins the phone, the values will remain as previously indicated and we cannot sense that rotation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11712,
+		"nouns": [
+			"user",
+			"phone",
+			"values",
+			"sense",
+			"rotation"
+		],
+		"dOIndex": 305,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"rotation"
+		]
+	},
+	{
+		"txt": " However, if the user lifts one edge from the table we'll call this tilting it then the accelerometer will register different values. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11713,
+		"nouns": [
+			"user",
+			"one",
+			"edge",
+			"table",
+			"ll",
+			"accelerometer",
+			"values"
+		],
+		"dOIndex": 306,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"accelerometer"
+		]
+	},
+	{
+		"txt": " Some of the acceleration due to gravity will act on the other two axes. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11714,
+		"nouns": [
+			"acceleration",
+			"gravity",
+			"act",
+			"two",
+			"axes"
+		],
+		"dOIndex": 307,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"acceleration",
+			"gravity"
+		]
+	},
+	{
+		"txt": " By sensing this change, an accelerometer will allow us to determine at what angle the device is tilted.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11715,
+		"nouns": [
+			"change",
+			"accelerometer",
+			"angle",
+			"device"
+		],
+		"dOIndex": 308,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"accelerometer"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.05263157894736842,
+			"words": [
+				"allow"
+			],
+			"positive": [
+				"allow"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11716,
+		"nouns": [],
+		"dOIndex": 309,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11717,
+		"nouns": [],
+		"dOIndex": 310,
+		"isQuote": false
+	},
+	{
+		"txt": "Using Tilt to Control a Sprite",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11718,
+		"nouns": [
+			"Tilt",
+			"Control",
+			"Sprite"
+		],
+		"dOIndex": 311,
+		"nouns2": [
+			"Control",
+			"Sprite"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11719,
+		"nouns": [],
+		"dOIndex": 312,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": true,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "Here we will ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11720,
+		"nouns": [],
+		"dOIndex": 313,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11721,
+		"nouns": [],
+		"dOIndex": 314,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "show you how to implement code for a simple game that asks the user to move an avatar to a target by tilting the phone. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11722,
+		"nouns": [
+			"show",
+			"code",
+			"game",
+			"user",
+			"move",
+			"avatar",
+			"target",
+			"phone"
+		],
+		"dOIndex": 315,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"show",
+			"code",
+			"game",
+			"user",
+			"move",
+			"avatar",
+			"target",
+			"phone"
+		]
+	},
+	{
+		"txt": " First, we will briefly show an example of determining the rotation about a single axis. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11723,
+		"nouns": [
+			"First",
+			"show",
+			"example",
+			"rotation",
+			"axis"
+		],
+		"dOIndex": 316,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"First",
+			"show",
+			"example",
+			"rotation",
+			"axis"
+		],
+		"nouns2": [
+			"example",
+			"rotation"
+		]
+	},
+	{
+		"txt": " Let's assume we have an accelerometer rotated at some arbitrary angle, α, which is what our algorithm will solve for. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11724,
+		"nouns": [
+			"accelerometer",
+			"angle",
+			"α",
+			"algorithm"
+		],
+		"dOIndex": 317,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"accelerometer",
+			"angle",
+			"α",
+			"algorithm"
+		],
+		"nouns2": [
+			"accelerometer",
+			"algorithm"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.045454545454545456,
+			"words": [
+				"solve"
+			],
+			"positive": [
+				"solve"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " As previously discussed, accelerometers generally report values as multiples of near earth gravity, g . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11725,
+		"nouns": [
+			"accelerometers",
+			"report",
+			"values",
+			"multiples",
+			"earth",
+			"gravity",
+			"g"
+		],
+		"dOIndex": 318,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"accelerometers",
+			"report",
+			"values",
+			"multiples",
+			"earth",
+			"gravity",
+			"g"
+		],
+		"nouns2": [
+			"accelerometers",
+			"multiples",
+			"gravity"
+		]
+	},
+	{
+		"txt": " For the following example, we are concerned only with the x  and y axis values, ax and ay , respectively. ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11726,
+		"nouns": [
+			"example",
+			"x",
+			"y",
+			"axis",
+			"values",
+			"ax",
+			"ay"
+		],
+		"dOIndex": 319,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"example",
+			"x",
+			"y",
+			"axis",
+			"values",
+			"ax",
+			"ay"
+		],
+		"nouns2": [
+			"example"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.08695652173913043,
+			"words": [
+				"concerned"
+			],
+			"positive": [],
+			"negative": [
+				"concerned"
+			]
+		}
+	},
+	{
+		"txt": " If the device were in the ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11727,
+		"nouns": [
+			"device"
+		],
+		"dOIndex": 320,
+		"ignoreDOBcNoQuotes": false,
+		"isQuote": false,
+		"nounsProcAll": [
+			"device"
+		],
+		"sfxfx": []
+	},
+	{
+		"txt": " \"upright\" ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11728,
+		"nouns": [],
+		"dOIndex": 321,
+		"isQuote": true,
+		"nounsProcAll": [],
+		"sfxfx": [],
+		"gspkNameUnknown": "narrator"
+	},
+	{
+		"txt": " position, then ax would equal 0 and ay would equal 1. ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11729,
+		"nouns": [
+			"position",
+			"ax",
+			"ay"
+		],
+		"dOIndex": 322,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [
+			"position",
+			"ax",
+			"ay"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"position"
+		]
+	},
+	{
+		"txt": " After rotating the device, we'd see different values that are related to our angle α by use of the arctangent function. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11730,
+		"nouns": [
+			"device",
+			"values",
+			"angle",
+			"α",
+			"use",
+			"arctangent",
+			"function"
+		],
+		"dOIndex": 323,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"device",
+			"values",
+			"angle",
+			"α",
+			"use",
+			"arctangent",
+			"function"
+		],
+		"nouns2": [
+			"arctangent",
+			"function"
+		]
+	},
+	{
+		"txt": " In this case, because ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11731,
+		"nouns": [
+			"case"
+		],
+		"dOIndex": 324,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"case"
+		]
+	},
+	{
+		"txt": "the single argument atan function included in most programming languages doesn't differentiate between diametrically opposed directions, it is beneficial to use the two argument function",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11732,
+		"nouns": [
+			"argument",
+			"atan",
+			"function",
+			"languages",
+			"doesn",
+			"t",
+			"directions",
+			"use",
+			"two",
+			"argument",
+			"function"
+		],
+		"dOIndex": 325,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"argument",
+			"atan",
+			"function",
+			"languages",
+			"doesn",
+			"t",
+			"directions",
+			"use",
+			"two",
+			"argument",
+			"function"
+		],
+		"nouns2": [
+			"argument",
+			"function",
+			"languages",
+			"directions"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11733,
+		"nouns": [],
+		"dOIndex": 326,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": " The relevant C code is as follows:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11734,
+		"nouns": [
+			"C",
+			"code"
+		],
+		"dOIndex": 327,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"C",
+			"code"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 11735,
+		"nouns": [],
+		"dOIndex": 328,
+		"isQuote": false
+	},
+	{
+		"txt": "This is pretty straightforward, but there are a few things to point out. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11736,
+		"nouns": [
+			"things",
+			"point"
+		],
+		"dOIndex": 329,
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.07142857142857142,
+			"words": [
+				"pretty"
+			],
+			"positive": [
+				"pretty"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " First, the way in which your program will get results from the accelerometer will vary greatly between platforms, so we have encapsulated that API specific code in a getXacceleration() function. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11737,
+		"nouns": [
+			"First",
+			"way",
+			"program",
+			"results",
+			"accelerometer",
+			"platforms",
+			"API",
+			"code",
+			"getXacceleration",
+			"function"
+		],
+		"dOIndex": 330,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"program",
+			"results",
+			"accelerometer",
+			"platforms",
+			"getXacceleration",
+			"function"
+		]
+	},
+	{
+		"txt": " In fact, most operating systems will be continuously polling the accelerometer in a separate thread, so you'll have to have a logical operator that tells your accelerometer object when you actually want to see those values passed to your program. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11738,
+		"nouns": [
+			"fact",
+			"systems",
+			"accelerometer",
+			"thread",
+			"ll",
+			"operator",
+			"accelerometer",
+			"object",
+			"values",
+			"program"
+		],
+		"dOIndex": 331,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"systems",
+			"accelerometer",
+			"operator",
+			"program"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.023809523809523808,
+			"words": [
+				"want"
+			],
+			"positive": [
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Example Objective C code for the accelerometer in the iPhone will be shown later. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11739,
+		"nouns": [
+			"Example",
+			"Objective",
+			"C",
+			"code",
+			"accelerometer",
+			"iPhone"
+		],
+		"dOIndex": 332,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Example",
+			"Objective",
+			"accelerometer"
+		]
+	},
+	{
+		"txt": " Secondly, you'll notice that we are using an if statement that changes the radians to degrees in such a way as to return proper 0°–360° answers. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11740,
+		"nouns": [
+			"ll",
+			"notice",
+			"statement",
+			"changes",
+			"radians",
+			"degrees",
+			"way",
+			"return",
+			"°–",
+			"°",
+			"answers"
+		],
+		"dOIndex": 333,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Secondly",
+			"statement",
+			"changes",
+			"radians",
+			"degrees",
+			"answers"
+		]
+	},
+	{
+		"txt": " This avoids having to pay attention to the sign, as atan2 returns only answers between 0° and 180°, using a negative value to represent the other half of the range. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11741,
+		"nouns": [
+			"attention",
+			"sign",
+			"atan",
+			"returns",
+			"answers",
+			"°",
+			"°",
+			"value",
+			"half",
+			"range"
+		],
+		"dOIndex": 334,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"attention",
+			"returns",
+			"answers"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.125,
+			"words": [
+				"negative",
+				"pay",
+				"avoids"
+			],
+			"positive": [],
+			"negative": [
+				"negative",
+				"pay",
+				"avoids"
+			]
+		}
+	},
+	{
+		"txt": " For example, an output of 0° means the device is vertical, an output of 90° means the device is rotated 90° to the left, and an output of 180° means the device is upside down.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11742,
+		"nouns": [
+			"example",
+			"output",
+			"°",
+			"device",
+			"output",
+			"°",
+			"device",
+			"°",
+			"output",
+			"°",
+			"device"
+		],
+		"dOIndex": 335,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example"
+		],
+		"highfreq": {
+			"output": 3,
+			"means": 3,
+			"device": 3
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11743,
+		"nouns": [],
+		"dOIndex": 336,
+		"isQuote": false
+	},
+	{
+		"txt": "Now let's extend this to two dimensions. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11744,
+		"nouns": [
+			"two",
+			"dimensions"
+		],
+		"dOIndex": 337,
+		"nouns2": [
+			"dimensions"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.125,
+			"words": [
+				"extend"
+			],
+			"positive": [
+				"extend"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " This will tell us not only how far the phone is from vertical about one axis, but its inclination about the y axis as well.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11745,
+		"nouns": [
+			"phone",
+			"one",
+			"axis",
+			"inclination",
+			"y",
+			"axis"
+		],
+		"dOIndex": 338,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"inclination"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11746,
+		"nouns": [],
+		"dOIndex": 339,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11747,
+		"nouns": [],
+		"dOIndex": 340,
+		"isQuote": false
+	},
+	{
+		"txt": "Two Degrees of Freedom",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11748,
+		"nouns": [
+			"Two",
+			"Degrees",
+			"Freedom"
+		],
+		"dOIndex": 341,
+		"nouns2": [
+			"Degrees",
+			"Freedom"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.5,
+			"words": [
+				"freedom"
+			],
+			"positive": [
+				"freedom"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11749,
+		"nouns": [],
+		"dOIndex": 342,
+		"isQuote": false
+	},
+	{
+		"txt": "Now let's say that we want to ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11750,
+		"nouns": [],
+		"dOIndex": 343,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.125,
+			"words": [
+				"want"
+			],
+			"positive": [
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "develop a game in which we control a sprite moving in a 2D world. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11751,
+		"nouns": [
+			"game",
+			"control",
+			"sprite",
+			"D",
+			"world"
+		],
+		"dOIndex": 344,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"control"
+		]
+	},
+	{
+		"txt": " The user would hold the device as if it were lying on a table and look down from above. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11752,
+		"nouns": [
+			"user",
+			"device",
+			"table"
+		],
+		"dOIndex": 345,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " He or she would then tilt the phone out of that plane to get the sprite to move in the desired direction. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11753,
+		"nouns": [
+			"tilt",
+			"phone",
+			"plane",
+			"sprite",
+			"move",
+			"direction"
+		],
+		"dOIndex": 346,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"direction"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08333333333333333,
+			"words": [
+				"desired"
+			],
+			"positive": [
+				"desired"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The fraction of gravity that the accelerometer is now experiencing in the x  and y directions will be inputs into our simulation.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11754,
+		"nouns": [
+			"fraction",
+			"gravity",
+			"accelerometer",
+			"x",
+			"y",
+			"directions",
+			"inputs",
+			"simulation"
+		],
+		"dOIndex": 347,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"fraction",
+			"gravity",
+			"accelerometer",
+			"directions",
+			"simulation"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11755,
+		"nouns": [],
+		"dOIndex": 348,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11756,
+		"nouns": [],
+		"dOIndex": 349,
+		"isQuote": false
+	},
+	{
+		"txt": "The example will be demonstrated ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11757,
+		"nouns": [
+			"example"
+		],
+		"dOIndex": 350,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example"
+		]
+	},
+	{
+		"txt": "using Objective C code for the iPhone, and we'll be using the Qwartz2D graphics framework. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11758,
+		"nouns": [
+			"Objective",
+			"C",
+			"code",
+			"iPhone",
+			"ll",
+			"Qwartz2D",
+			"graphics",
+			"framework"
+		],
+		"dOIndex": 351,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Objective",
+			"Qwartz2D",
+			"graphics",
+			"framework"
+		]
+	},
+	{
+		"txt": " If you aren't familiar with Objective C, don't worry we'll explain what we are doing in each step, and you can port that code to whatever language you are working in.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11759,
+		"nouns": [
+			"aren",
+			"t",
+			"Objective",
+			"C",
+			"t",
+			"ll",
+			"step",
+			"port",
+			"code",
+			"language"
+		],
+		"dOIndex": 352,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Objective",
+			"language"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.09375,
+			"words": [
+				"worry"
+			],
+			"positive": [
+				"worry"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11760,
+		"nouns": [],
+		"dOIndex": 353,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11761,
+		"nouns": [],
+		"dOIndex": 354,
+		"isQuote": false
+	},
+	{
+		"txt": "The first step will be to set up our accelerometer. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11762,
+		"nouns": [
+			"first",
+			"step",
+			"accelerometer"
+		],
+		"dOIndex": 355,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"accelerometer"
+		]
+	},
+	{
+		"txt": " In this case we are going to initialize it in our tiltViewController.m file so that we have:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11763,
+		"nouns": [
+			"case",
+			"initialize",
+			"tiltViewController",
+			"m"
+		],
+		"dOIndex": 356,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"initialize",
+			"tiltViewController"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 11764,
+		"nouns": [],
+		"dOIndex": 357,
+		"isQuote": false
+	},
+	{
+		"txt": "The important concept here is that we have defined a name for our accelerometer object, accelerometer, and we have set its updateInterval property to kPollingRate . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11765,
+		"nouns": [
+			"concept",
+			"name",
+			"accelerometer",
+			"object",
+			"accelerometer",
+			"property",
+			"kPollingRate"
+		],
+		"dOIndex": 358,
+		"nouns2": [
+			"concept",
+			"accelerometer",
+			"property",
+			"kPollingRate"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.07407407407407407,
+			"words": [
+				"important"
+			],
+			"positive": [
+				"important"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " This constant was defined in tiltViewController.h as link https: , which corresponds to 60 Hz. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11766,
+		"nouns": [
+			"tiltViewController",
+			"h",
+			"link",
+			"https",
+			"Hz"
+		],
+		"dOIndex": 359,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"tiltViewController"
+		]
+	},
+	{
+		"txt": " In other words, this tells the operating system to update our program's accelerometer object 60 times a second. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11767,
+		"nouns": [
+			"words",
+			"system",
+			"program",
+			"accelerometer",
+			"object",
+			"times",
+			"second"
+		],
+		"dOIndex": 360,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"program",
+			"accelerometer"
+		]
+	},
+	{
+		"txt": " Also in tiltViewController.m, we write what happens when the accelerometer object gets updated via the accelerometer's didAccelerate: function as follows:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11768,
+		"nouns": [
+			"tiltViewController",
+			"m",
+			"accelerometer",
+			"object",
+			"accelerometer",
+			"didAccelerate",
+			"function"
+		],
+		"dOIndex": 361,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"tiltViewController",
+			"accelerometer",
+			"didAccelerate",
+			"function"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 11769,
+		"nouns": [],
+		"dOIndex": 362,
+		"isQuote": false
+	},
+	{
+		"txt": "This function is called every time the acceleration object is updated and does two things. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11770,
+		"nouns": [
+			"function",
+			"time",
+			"acceleration",
+			"object",
+			"two",
+			"things"
+		],
+		"dOIndex": 363,
+		"nouns2": [
+			"function",
+			"acceleration"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " First, it takes the acceleration data from the accelerometer and passes it to the SpriteView class, which we'll talk about in a second. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11771,
+		"nouns": [
+			"First",
+			"acceleration",
+			"data",
+			"accelerometer",
+			"SpriteView",
+			"class",
+			"ll",
+			"second"
+		],
+		"dOIndex": 364,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"acceleration",
+			"accelerometer",
+			"SpriteView"
+		]
+	},
+	{
+		"txt": " Then it tells the SpriteView to go ahead and redraw itself.",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11772,
+		"nouns": [
+			"SpriteView"
+		],
+		"dOIndex": 365,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"SpriteView"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11773,
+		"nouns": [],
+		"dOIndex": 366,
+		"isQuote": false
+	},
+	{
+		"txt": "The SpriteView class is where the action happens and consists of a header file, SpriteView.h, where we define the following global variables:UIImage *sprite",
+		"why": "p",
+		"tags": [
+			"code",
+			"dt",
+			"dl",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11774,
+		"nouns": [
+			"SpriteView",
+			"class",
+			"action",
+			"header",
+			"SpriteView",
+			"h",
+			"variables",
+			"UIImage",
+			"*sprite"
+		],
+		"dOIndex": 367,
+		"nouns2": [
+			"SpriteView",
+			"variables",
+			"UIImage",
+			"*sprite"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "A pointer to the image that will be used to represent our sprite on the screen.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11775,
+		"nouns": [
+			"pointer",
+			"image",
+			"sprite",
+			"screen"
+		],
+		"dOIndex": 368,
+		"nouns2": [
+			"pointer"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "currentPos",
+		"why": "p",
+		"tags": [
+			"code",
+			"dt",
+			"dl",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11776,
+		"nouns": [
+			"currentPos"
+		],
+		"dOIndex": 369,
+		"nouns2": [
+			"currentPos"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "The position on the screen where we want the sprite to be drawn.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11777,
+		"nouns": [
+			"position",
+			"screen",
+			"sprite"
+		],
+		"dOIndex": 370,
+		"nouns2": [
+			"position"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.07692307692307693,
+			"words": [
+				"want"
+			],
+			"positive": [
+				"want"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "prevPos",
+		"why": "p",
+		"tags": [
+			"code",
+			"dt",
+			"dl",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11778,
+		"nouns": [
+			"prevPos"
+		],
+		"dOIndex": 371,
+		"nouns2": [
+			"prevPos"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "The previous position of the sprite on the screen. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11779,
+		"nouns": [
+			"position",
+			"sprite",
+			"screen"
+		],
+		"dOIndex": 372,
+		"nouns2": [
+			"position"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " We will use this to tell the draw function what parts of the screen need to be redrawn.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11780,
+		"nouns": [
+			"use",
+			"draw",
+			"function",
+			"parts",
+			"screen"
+		],
+		"dOIndex": 373,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function"
+		]
+	},
+	{
+		"txt": "UIAcceleration *acceleration",
+		"why": "p",
+		"tags": [
+			"code",
+			"dt",
+			"dl",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11781,
+		"nouns": [
+			"UIAcceleration",
+			"*acceleration"
+		],
+		"dOIndex": 374,
+		"nouns2": [
+			"UIAcceleration",
+			"*acceleration"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "A special Objective C data type to hold data from the accelerometer.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11782,
+		"nouns": [
+			"Objective",
+			"C",
+			"data",
+			"type",
+			"data",
+			"accelerometer"
+		],
+		"dOIndex": 375,
+		"nouns2": [
+			"Objective",
+			"accelerometer"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "CGFloat xVelocity and CGFloat yVelocity",
+		"why": "p",
+		"tags": [
+			"code",
+			"dt",
+			"dl",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11783,
+		"nouns": [
+			"CGFloat",
+			"xVelocity",
+			"CGFloat",
+			"yVelocity"
+		],
+		"dOIndex": 376,
+		"nouns2": [
+			"CGFloat",
+			"xVelocity",
+			"yVelocity"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Float variables to hold the current velocity in the x direction and y direction, respectively.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11784,
+		"nouns": [
+			"variables",
+			"velocity",
+			"x",
+			"direction",
+			"y",
+			"direction"
+		],
+		"dOIndex": 377,
+		"nouns2": [
+			"variables",
+			"velocity",
+			"direction"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "CGFloat convertX and CGFloat convertY",
+		"why": "p",
+		"tags": [
+			"code",
+			"dt",
+			"dl",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11785,
+		"nouns": [
+			"CGFloat",
+			"convertX",
+			"CGFloat",
+			"convertY"
+		],
+		"dOIndex": 378,
+		"nouns2": [
+			"CGFloat",
+			"convertX",
+			"convertY"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Float variables to hold the ratios for converting our physics engine's results in meters to pixels based on an assumed world size.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11786,
+		"nouns": [
+			"variables",
+			"ratios",
+			"physics",
+			"engine",
+			"results",
+			"meters",
+			"pixels",
+			"world",
+			"size"
+		],
+		"dOIndex": 379,
+		"nouns2": [
+			"variables",
+			"physics",
+			"results"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11787,
+		"nouns": [],
+		"dOIndex": 380,
+		"isQuote": false
+	},
+	{
+		"txt": "Additionally, we've defined the following global constants:g",
+		"why": "p",
+		"tags": [
+			"code",
+			"dt",
+			"dl",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11788,
+		"nouns": [
+			"ve",
+			"constants",
+			"g"
+		],
+		"dOIndex": 381,
+		"nouns2": [
+			"Additionally",
+			"constants"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "link https:2 . ",
+		"why": "split inside sentence",
+		"tags": [
+			"sup",
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11789,
+		"nouns": [
+			"link",
+			"https"
+		],
+		"dOIndex": 382,
+		"isQuote": false
+	},
+	{
+		"txt": " This will convert the accelerometer's values from g to m/s2 for use in calculating velocity. ",
+		"why": "split inside sentence",
+		"tags": [
+			"sup",
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11790,
+		"nouns": [
+			"accelerometer",
+			"values",
+			"g",
+			"m",
+			"/",
+			"use",
+			"velocity"
+		],
+		"dOIndex": 383,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"accelerometer",
+			"velocity"
+		]
+	},
+	{
+		"txt": " This can also be tuned to represent an arbitrary acceleration instead of just using gravity as the force (e.g., percent of jet engine thrust).",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11791,
+		"nouns": [
+			"acceleration",
+			"gravity",
+			"force",
+			"e",
+			"g",
+			"percent",
+			"jet",
+			"engine",
+			"thrust"
+		],
+		"dOIndex": 384,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"acceleration",
+			"gravity",
+			"percent"
+		]
+	},
+	{
+		"txt": "kWorldHeight and kWorldWidth",
+		"why": "p",
+		"tags": [
+			"code",
+			"dt",
+			"dl",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11792,
+		"nouns": [
+			"kWorldHeight",
+			"kWorldWidth"
+		],
+		"dOIndex": 385,
+		"nouns2": [
+			"kWorldHeight",
+			"kWorldWidth"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "These values are used to allow the programmer to change the assumed world dimensions. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11793,
+		"nouns": [
+			"values",
+			"programmer",
+			"change",
+			"world",
+			"dimensions"
+		],
+		"dOIndex": 386,
+		"nouns2": [
+			"programmer",
+			"dimensions"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.06666666666666667,
+			"words": [
+				"allow"
+			],
+			"positive": [
+				"allow"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " Higher values mean each pixel is a greater distance in meters. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11794,
+		"nouns": [
+			"values",
+			"pixel",
+			"distance",
+			"meters"
+		],
+		"dOIndex": 387,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Higher",
+			"distance"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.23076923076923078,
+			"words": [
+				"greater"
+			],
+			"positive": [
+				"greater"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The world will always be scaled to fit on the screen, so a large world means the sprite will appear to move slower (a few pixels at a time) for a given acceleration. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11795,
+		"nouns": [
+			"world",
+			"screen",
+			"world",
+			"sprite",
+			"move",
+			"pixels",
+			"time",
+			"acceleration"
+		],
+		"dOIndex": 388,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"acceleration"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.02857142857142857,
+			"words": [
+				"fit"
+			],
+			"positive": [
+				"fit"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Note that our current code doesn't scale the sprite.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11796,
+		"nouns": [
+			"code",
+			"doesn",
+			"t",
+			"scale",
+			"sprite"
+		],
+		"dOIndex": 389,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11797,
+		"nouns": [],
+		"dOIndex": 390,
+		"isQuote": false
+	},
+	{
+		"txt": "Now we'll show you how we use these variables in SpriteView.m to move our sprite on our screen as a result of the accelerometer values. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11798,
+		"nouns": [
+			"ll",
+			"show",
+			"use",
+			"variables",
+			"SpriteView",
+			"m",
+			"move",
+			"sprite",
+			"screen",
+			"result",
+			"accelerometer",
+			"values"
+		],
+		"dOIndex": 391,
+		"nouns2": [
+			"variables",
+			"SpriteView",
+			"accelerometer"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " First, we have some initialization to do, which takes place in the initWithCoder: method that runs the first time the view is loaded:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11799,
+		"nouns": [
+			"First",
+			"initialization",
+			"place",
+			"initWithCoder",
+			"method",
+			"first",
+			"time",
+			"view"
+		],
+		"dOIndex": 392,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"initialization",
+			"initWithCoder"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 11800,
+		"nouns": [],
+		"dOIndex": 393,
+		"isQuote": false
+	},
+	{
+		"txt": "Most of this is pretty straightforward. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11801,
+		"nouns": [],
+		"dOIndex": 394,
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.14285714285714285,
+			"words": [
+				"pretty"
+			],
+			"positive": [
+				"pretty"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " We tell our program where to find the sprite image we've chosen and set its initial position to the center of the screen. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11802,
+		"nouns": [
+			"program",
+			"sprite",
+			"image",
+			"ve",
+			"position",
+			"center",
+			"screen"
+		],
+		"dOIndex": 395,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"program",
+			"position"
+		]
+	},
+	{
+		"txt": " We also set its initial velocity to 0 in both directions. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11803,
+		"nouns": [
+			"velocity",
+			"both",
+			"directions"
+		],
+		"dOIndex": 396,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity",
+			"directions"
+		]
+	},
+	{
+		"txt": " We then go ahead and initialize our convertX and convertY variables based on the self.bounds.size property, which gives the bounds of the view in pixels. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11804,
+		"nouns": [
+			"initialize",
+			"convertX",
+			"convertY",
+			"variables",
+			"self",
+			"bounds",
+			"size",
+			"property",
+			"bounds",
+			"view",
+			"pixels"
+		],
+		"dOIndex": 397,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"initialize",
+			"convertX",
+			"convertY",
+			"variables",
+			"property"
+		]
+	},
+	{
+		"txt": " We'll show exactly how this affects our program later. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11805,
+		"nouns": [
+			"ll",
+			"show",
+			"program"
+		],
+		"dOIndex": 398,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"program"
+		]
+	},
+	{
+		"txt": " Next, we'll write a custom mutator for the CurrentPos variable:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11806,
+		"nouns": [
+			"ll",
+			"custom",
+			"mutator",
+			"CurrentPos"
+		],
+		"dOIndex": 399,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"mutator",
+			"CurrentPos"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 11807,
+		"nouns": [],
+		"dOIndex": 400,
+		"isQuote": false
+	},
+	{
+		"txt": "In case you are unfamiliar with Objective C, when you define a class instance variable it will automatically define a mutator that simply updates the value of the variable to the value you are passing it. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11808,
+		"nouns": [
+			"case",
+			"Objective",
+			"C",
+			"class",
+			"instance",
+			"mutator",
+			"updates",
+			"value",
+			"value"
+		],
+		"dOIndex": 401,
+		"nouns2": [
+			"Objective",
+			"instance",
+			"mutator",
+			"updates"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " However, in the preceding example we are overriding that mutator to do some additional work. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11809,
+		"nouns": [
+			"example",
+			"mutator",
+			"work"
+		],
+		"dOIndex": 402,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"example",
+			"mutator"
+		]
+	},
+	{
+		"txt": " The first thing we do is to set the prevPos variable to the current position of the sprite and then update the currentPos with the value the mutator was given. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11810,
+		"nouns": [
+			"first",
+			"prevPos",
+			"position",
+			"sprite",
+			"currentPos",
+			"value",
+			"mutator"
+		],
+		"dOIndex": 403,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"prevPos",
+			"position",
+			"currentPos",
+			"mutator"
+		]
+	},
+	{
+		"txt": " However, our physics engine isn't going to include collision response with the screen boundaries, so we go on to check if the sprite has reached the screen edge. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11811,
+		"nouns": [
+			"physics",
+			"engine",
+			"isn",
+			"t",
+			"collision",
+			"response",
+			"screen",
+			"boundaries",
+			"check",
+			"sprite",
+			"screen",
+			"edge"
+		],
+		"dOIndex": 404,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"physics",
+			"collision",
+			"response",
+			"boundaries"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.03333333333333333,
+			"words": [
+				"reached",
+				"collision"
+			],
+			"positive": [
+				"reached"
+			],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " If so, we simply tell the program to leave it on the edge and to set the velocity in that direction to 0. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11812,
+		"nouns": [
+			"program",
+			"edge",
+			"velocity",
+			"direction"
+		],
+		"dOIndex": 405,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"program",
+			"velocity",
+			"direction"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.04,
+			"words": [
+				"leave"
+			],
+			"positive": [],
+			"negative": [
+				"leave"
+			]
+		}
+	},
+	{
+		"txt": " Lastly, we define a couple of rectangles based on the new position of the sprite and the old position of the sprite. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11813,
+		"nouns": [
+			"couple",
+			"rectangles",
+			"position",
+			"sprite",
+			"position",
+			"sprite"
+		],
+		"dOIndex": 406,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Lastly",
+			"rectangles",
+			"position"
+		]
+	},
+	{
+		"txt": " After we union those rectangles together, we tell the operating system to redraw the screen in that area with the setNeedDisplayInRect: method. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11814,
+		"nouns": [
+			"union",
+			"rectangles",
+			"system",
+			"screen",
+			"area",
+			"setNeedDisplayInRect",
+			"method"
+		],
+		"dOIndex": 407,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"rectangles",
+			"setNeedDisplayInRect"
+		]
+	},
+	{
+		"txt": " As you might recall, our accelerometer object is calling the draw method every time it updates, and it is in this method that we will put our physics engine:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11815,
+		"nouns": [
+			"accelerometer",
+			"object",
+			"draw",
+			"method",
+			"time",
+			"updates",
+			"method",
+			"physics",
+			"engine"
+		],
+		"dOIndex": 408,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"accelerometer",
+			"updates",
+			"physics"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 11816,
+		"nouns": [],
+		"dOIndex": 409,
+		"isQuote": false
+	},
+	{
+		"txt": "Previously, we discussed issues with timing when working with accelerometer data. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11817,
+		"nouns": [
+			"issues",
+			"accelerometer",
+			"data"
+		],
+		"dOIndex": 410,
+		"nouns2": [
+			"Previously",
+			"accelerometer"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " In this case, Objective C makes it very easy to get the correct elapsed time in seconds. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11818,
+		"nouns": [
+			"case",
+			"Objective",
+			"C",
+			"time",
+			"seconds"
+		],
+		"dOIndex": 411,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Objective",
+			"seconds"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.05263157894736842,
+			"words": [
+				"easy"
+			],
+			"positive": [
+				"easy"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " We first define a static variable, lastUpdateTime, as an NSDate type. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11819,
+		"nouns": [
+			"first",
+			"lastUpdateTime",
+			"NSDate",
+			"type"
+		],
+		"dOIndex": 412,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"lastUpdateTime",
+			"NSDate"
+		]
+	},
+	{
+		"txt": " This type has a built in function to give the time interval in seconds from now, which we assign to an NSTimeInterval variable. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11820,
+		"nouns": [
+			"type",
+			"function",
+			"time",
+			"seconds"
+		],
+		"dOIndex": 413,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function",
+			"seconds",
+			"NSTimeInterval"
+		]
+	},
+	{
+		"txt": " Skipping down to the last two lines, we are simply updating the last update time by releasing and reinitializing the variable. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11821,
+		"nouns": [
+			"two",
+			"lines",
+			"time"
+		],
+		"dOIndex": 414,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Skipping"
+		]
+	},
+	{
+		"txt": " As it is static, it will remain even after the function returns. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11822,
+		"nouns": [
+			"function",
+			"returns"
+		],
+		"dOIndex": 415,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function",
+			"returns"
+		]
+	},
+	{
+		"txt": " If you are using a lower level language, you might have to write your own timeIntervalSinceNow function that takes into account the particular clock frequency of the system.",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11823,
+		"nouns": [
+			"level",
+			"language",
+			"timeIntervalSinceNow",
+			"function",
+			"account",
+			"clock",
+			"frequency",
+			"system"
+		],
+		"dOIndex": 416,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"language",
+			"timeIntervalSinceNow",
+			"function",
+			"account",
+			"frequency"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11824,
+		"nouns": [],
+		"dOIndex": 417,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11825,
+		"nouns": [],
+		"dOIndex": 418,
+		"isQuote": false
+	},
+	{
+		"txt": "Now that we have our time interval in seconds, we can calculate our new position. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11826,
+		"nouns": [
+			"time",
+			"seconds",
+			"position"
+		],
+		"dOIndex": 419,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"seconds",
+			"position"
+		]
+	},
+	{
+		"txt": " Recall from ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11827,
+		"nouns": [],
+		"dOIndex": 420,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Recall"
+		]
+	},
+	{
+		"txt": "Chapter 2:s2 = s1 + v1 t + (a t2)/2",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11828,
+		"nouns": [
+			"Chapter",
+			"v",
+			"t",
+			"t",
+			"/"
+		],
+		"dOIndex": 421,
+		"nouns2": [
+			"Chapter"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 11829,
+		"nouns": [],
+		"dOIndex": 422,
+		"isQuote": false
+	},
+	{
+		"txt": "which we have rearranged to be:Δs = s2 − s1 = v1 t + (a t2)/2",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11830,
+		"nouns": [
+			"Δs",
+			"−",
+			"v",
+			"t",
+			"t",
+			"/"
+		],
+		"dOIndex": 423,
+		"isQuote": false
+	},
+	{
+		"txt": "This gets programmed as:",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11831,
+		"nouns": [],
+		"dOIndex": 424,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 11832,
+		"nouns": [],
+		"dOIndex": 425,
+		"isQuote": false
+	},
+	{
+		"txt": "We then convert this displacement in meters to displacement in pixels using an appropriate ratio for the size of our world. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11833,
+		"nouns": [
+			"displacement",
+			"meters",
+			"displacement",
+			"pixels",
+			"ratio",
+			"size",
+			"world"
+		],
+		"dOIndex": 426,
+		"nouns2": [
+			"displacement"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.09090909090909091,
+			"words": [
+				"appropriate"
+			],
+			"positive": [
+				"appropriate"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " Before we can move on, we have to calculate our new velocity at our new position. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11834,
+		"nouns": [
+			"move",
+			"velocity",
+			"position"
+		],
+		"dOIndex": 427,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Before",
+			"velocity",
+			"position"
+		]
+	},
+	{
+		"txt": " So we again assume the acceleration as constant over the update interval, and recalling:v2 = v1 + a Δt",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11835,
+		"nouns": [
+			"acceleration",
+			"update",
+			"v",
+			"v",
+			"Δt"
+		],
+		"dOIndex": 428,
+		"nouns2": [
+			"acceleration"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11836,
+		"nouns": [],
+		"dOIndex": 429,
+		"isQuote": false
+	},
+	{
+		"txt": "from ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11837,
+		"nouns": [],
+		"dOIndex": 430,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 2, we can solve for the new xVelocity with:",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11838,
+		"nouns": [
+			"Chapter",
+			"xVelocity"
+		],
+		"dOIndex": 431,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter",
+			"xVelocity"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.1111111111111111,
+			"words": [
+				"solve"
+			],
+			"positive": [
+				"solve"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11839,
+		"nouns": [],
+		"dOIndex": 432,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 11840,
+		"nouns": [],
+		"dOIndex": 433,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11841,
+		"nouns": [],
+		"dOIndex": 434
+	},
+	{
+		"txt": "As you can see from the complete method description, the code of the y direction is similar. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11842,
+		"nouns": [
+			"method",
+			"description",
+			"code",
+			"y",
+			"direction"
+		],
+		"dOIndex": 435,
+		"nouns2": [
+			"description",
+			"direction"
+		]
+	},
+	{
+		"txt": " Finally, we call the currentPos mutator to set the new position based on the change in displacements. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11843,
+		"nouns": [
+			"currentPos",
+			"mutator",
+			"position",
+			"change",
+			"displacements"
+		],
+		"dOIndex": 436,
+		"nouns2": [
+			"Finally",
+			"currentPos",
+			"mutator",
+			"position",
+			"displacements"
+		]
+	},
+	{
+		"txt": " Recall that this is a custom mutator that also tells the operating system to update the display. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11844,
+		"nouns": [
+			"custom",
+			"mutator",
+			"system",
+			"display"
+		],
+		"dOIndex": 437,
+		"nouns2": [
+			"Recall",
+			"mutator",
+			"display"
+		]
+	},
+	{
+		"txt": " After the draw method is finished, the accelerometer waits 1/60 of a second and then calls it again. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11845,
+		"nouns": [
+			"draw",
+			"method",
+			"accelerometer",
+			"/",
+			"second"
+		],
+		"dOIndex": 438,
+		"nouns2": [
+			"accelerometer"
+		]
+	},
+	{
+		"txt": " You could extend this program by adding in friction, fluid resistance, and collisions with the screen boundaries using the methods outlined in the other chapters of this ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11846,
+		"nouns": [
+			"program",
+			"friction",
+			"fluid",
+			"resistance",
+			"collisions",
+			"screen",
+			"boundaries",
+			"methods",
+			"chapters"
+		],
+		"dOIndex": 439,
+		"nouns2": [
+			"program",
+			"friction",
+			"resistance",
+			"collisions",
+			"boundaries",
+			"methods",
+			"chapters"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.034482758620689655,
+			"words": [
+				"collisions",
+				"extend"
+			],
+			"positive": [
+				"extend"
+			],
+			"negative": [
+				"collisions"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11847,
+		"nouns": [],
+		"dOIndex": 440
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11848,
+		"nouns": [],
+		"dOIndex": 441
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11849,
+		"nouns": [],
+		"dOIndex": 442
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11850,
+		"nouns": [],
+		"dOIndex": 443
+	},
+	{
+		"txt": "book.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11851,
+		"nouns": [
+			"book"
+		],
+		"dOIndex": 444
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11852,
+		"nouns": [],
+		"dOIndex": 445
+	}
+]

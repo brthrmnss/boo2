@@ -1,0 +1,10123 @@
+[
+	{
+		"txt": "",
+		"why": "br tag like",
+		"sentenceIndex": 6,
+		"nouns": [],
+		"dOIndex": 0,
+		"isQuote": false
+	},
+	{
+		"txt": "Preface",
+		"why": "br tag like",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7,
+		"nouns": [
+			"Preface"
+		],
+		"dOIndex": 1,
+		"nouns2": [
+			"Preface"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Who Is This Book For?",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 8,
+		"nouns": [
+			"Book"
+		],
+		"dOIndex": 2,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 9,
+		"nouns": [],
+		"dOIndex": 3,
+		"isQuote": false
+	},
+	{
+		"txt": "Simply put, this book is targeted at computer game developers who do not have a strong mechanics or physics background, charged with the task of incorporating real physics in their games. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 10,
+		"nouns": [
+			"book",
+			"computer",
+			"game",
+			"developers",
+			"mechanics",
+			"physics",
+			"background",
+			"task",
+			"physics",
+			"games"
+		],
+		"dOIndex": 4,
+		"nouns2": [
+			"Simply",
+			"computer",
+			"developers",
+			"mechanics",
+			"physics",
+			"background"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.03125,
+			"words": [
+				"charged",
+				"strong"
+			],
+			"positive": [
+				"strong"
+			],
+			"negative": [
+				"charged"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " ",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11,
+		"nouns": [],
+		"dOIndex": 5,
+		"isQuote": false
+	},
+	{
+		"txt": "As a game developer, and very likely as a gamer yourself, you've seen products being advertised as ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12,
+		"nouns": [
+			"game",
+			"developer",
+			"gamer",
+			"ve",
+			"products"
+		],
+		"dOIndex": 6,
+		"nouns2": [
+			"developer",
+			"products"
+		],
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [
+			"game",
+			"developer",
+			"gamer",
+			"ve",
+			"products"
+		],
+		"sfxfx": []
+	},
+	{
+		"txt": " \"ultra realistic,\" ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 13,
+		"isQuote": true,
+		"nouns": [],
+		"dOIndex": 7,
+		"nounsProcAll": [],
+		"sfxfx": [],
+		"gspkNameUnknown": "They"
+	},
+	{
+		"txt": " or as using ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 14,
+		"nouns": [],
+		"dOIndex": 8,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [],
+		"sfxfx": []
+	},
+	{
+		"txt": " \"real world physics.\" ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 15,
+		"isQuote": true,
+		"nouns": [
+			"world",
+			"physics"
+		],
+		"dOIndex": 9,
+		"nounsProcAll": [
+			"world",
+			"physics"
+		],
+		"sfxfx": [],
+		"gspkNameUnknown": "They",
+		"nouns2": [
+			"physics"
+		]
+	},
+	{
+		"txt": " At the same time you, or perhaps your company's marketing department, are wondering how you can spice up your own games with such realism. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 16,
+		"nouns": [
+			"time",
+			"company",
+			"department",
+			"spice",
+			"games",
+			"realism"
+		],
+		"dOIndex": 10,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [
+			"time",
+			"company",
+			"department",
+			"spice",
+			"games",
+			"realism"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"company",
+			"department",
+			"realism"
+		]
+	},
+	{
+		"txt": " Or perhaps you want to try something completely new that requires you to explore real physics. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 17,
+		"nouns": [
+			"physics"
+		],
+		"dOIndex": 11,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"physics"
+		],
+		"nouns2": [
+			"physics"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.05555555555555555,
+			"words": [
+				"want"
+			],
+			"positive": [
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The only problem is that you threw your college physics text in the lake after final exams and haven't touched the subject since. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 18,
+		"nouns": [
+			"problem",
+			"college",
+			"physics",
+			"text",
+			"lake",
+			"exams",
+			"haven",
+			"t",
+			"subject"
+		],
+		"dOIndex": 12,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"problem",
+			"college",
+			"physics",
+			"text",
+			"lake",
+			"exams",
+			"haven",
+			"t",
+			"subject"
+		],
+		"nouns2": [
+			"problem",
+			"college",
+			"physics",
+			"subject"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.08,
+			"words": [
+				"problem"
+			],
+			"positive": [],
+			"negative": [
+				"problem"
+			]
+		}
+	},
+	{
+		"txt": " Maybe you licensed a really cool physics engine, but you have no idea how the underlying principles work and how they will affect what you're trying to model. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 19,
+		"nouns": [
+			"physics",
+			"engine",
+			"idea",
+			"principles",
+			"work",
+			"re",
+			"model"
+		],
+		"dOIndex": 13,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"physics",
+			"engine",
+			"idea",
+			"principles",
+			"work",
+			"re",
+			"model",
+			"They"
+		],
+		"nouns2": [
+			"physics",
+			"principles"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"no",
+				"cool"
+			],
+			"positive": [
+				"cool"
+			],
+			"negative": [
+				"no"
+			]
+		}
+	},
+	{
+		"txt": " Or, perhaps you are charged with the task of tuning someone else's physics code but you really don't understand how it works. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 20,
+		"nouns": [
+			"task",
+			"someone",
+			"physics",
+			"code",
+			"t",
+			"works"
+		],
+		"dOIndex": 14,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"task",
+			"someone",
+			"physics",
+			"code",
+			"t",
+			"works"
+		],
+		"nouns2": [
+			"someone",
+			"physics"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.125,
+			"words": [
+				"charged"
+			],
+			"positive": [],
+			"negative": [
+				"charged"
+			]
+		}
+	},
+	{
+		"txt": " Well then, this book is for you. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 21,
+		"nouns": [
+			"book"
+		],
+		"dOIndex": 15,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"book"
+		]
+	},
+	{
+		"txt": " ",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 22,
+		"nouns": [],
+		"dOIndex": 16,
+		"isQuote": false
+	},
+	{
+		"txt": "Sure you could scour the Internet, trade journals, and magazines for information and how to's on adding physics based realism to your games. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 23,
+		"nouns": [
+			"Internet",
+			"trade",
+			"journals",
+			"magazines",
+			"information",
+			"physics",
+			"realism",
+			"games"
+		],
+		"dOIndex": 17,
+		"nouns2": [
+			"Internet",
+			"journals",
+			"magazines",
+			"information",
+			"physics",
+			"realism"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " You could even fish out that old physics text and start from scratch. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 24,
+		"nouns": [
+			"fish",
+			"physics",
+			"text",
+			"scratch"
+		],
+		"dOIndex": 18,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"physics",
+			"scratch"
+		]
+	},
+	{
+		"txt": " However, you're likely to find that either the material is too general to be applied directly, or too advanced requiring you to search for other sources to get up to speed on the basics. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 25,
+		"nouns": [
+			"re",
+			"search",
+			"sources",
+			"basics"
+		],
+		"dOIndex": 19,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"sources"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.027777777777777776,
+			"words": [
+				"advanced"
+			],
+			"positive": [
+				"advanced"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " This book will pull together the information you need and will serve as the starting point for you, the game developer, in your effort to enrich your game's content with physics based realism. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 26,
+		"nouns": [
+			"book",
+			"information",
+			"point",
+			"game",
+			"developer",
+			"effort",
+			"game",
+			"content",
+			"physics",
+			"realism"
+		],
+		"dOIndex": 20,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"information",
+			"developer",
+			"content",
+			"physics",
+			"realism"
+		]
+	},
+	{
+		"txt": " ",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 27,
+		"nouns": [],
+		"dOIndex": 21,
+		"isQuote": false
+	},
+	{
+		"txt": "This book is not a recipe book that simply gives sample code for a miscellaneous set of problems. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 28,
+		"nouns": [
+			"book",
+			"recipe",
+			"book",
+			"sample",
+			"code",
+			"problems"
+		],
+		"dOIndex": 22,
+		"nouns2": [
+			"problems"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.10526315789473684,
+			"words": [
+				"problems"
+			],
+			"positive": [],
+			"negative": [
+				"problems"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " The Internet is full of such example programs (some very good ones we might add). ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 29,
+		"nouns": [
+			"Internet",
+			"example",
+			"programs",
+			"ones"
+		],
+		"dOIndex": 23,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Internet",
+			"example",
+			"programs"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.17647058823529413,
+			"words": [
+				"good"
+			],
+			"positive": [
+				"good"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Rather than give you a collection of specific solutions to specific problems, our aim is to arm you with a thorough and fundamental understanding of the relevant topics such that you can formulate your own solutions to a variety of problems. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 30,
+		"nouns": [
+			"collection",
+			"solutions",
+			"problems",
+			"aim",
+			"arm",
+			"topics",
+			"solutions",
+			"variety",
+			"problems"
+		],
+		"dOIndex": 24,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Rather",
+			"collection",
+			"solutions",
+			"problems",
+			"variety"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.046511627906976744,
+			"words": [
+				"problems",
+				"solutions",
+				"problems",
+				"solutions"
+			],
+			"positive": [
+				"solutions",
+				"solutions"
+			],
+			"negative": [
+				"problems",
+				"problems"
+			]
+		}
+	},
+	{
+		"txt": " We'll do this by explaining, in detail, the principles of physics applicable to game development, and by providing complimentary hand calculation examples in addition to sample programs. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 31,
+		"nouns": [
+			"ll",
+			"detail",
+			"principles",
+			"physics",
+			"game",
+			"development",
+			"hand",
+			"calculation",
+			"examples",
+			"addition",
+			"sample",
+			"programs"
+		],
+		"dOIndex": 25,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"principles",
+			"physics",
+			"development",
+			"calculation",
+			"examples",
+			"addition",
+			"programs"
+		]
+	},
+	{
+		"txt": " ",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 32,
+		"nouns": [],
+		"dOIndex": 26,
+		"isQuote": false
+	},
+	{
+		"txt": "What We Assume You Know",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 33,
+		"nouns": [],
+		"dOIndex": 27,
+		"nouns2": [
+			"Assume"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " Although we don't assume that you are a physics expert, we do assume that you have at least a basic college level understanding of classical physics typical of non physics and non engineering majors. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 34,
+		"nouns": [
+			"t",
+			"physics",
+			"expert",
+			"college",
+			"level",
+			"physics",
+			"physics",
+			"majors"
+		],
+		"dOIndex": 28,
+		"nouns2": [
+			"Although",
+			"physics",
+			"college"
+		],
+		"highfreq": {
+			"physics": 3
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " It is not essential that your physics background is fresh in your mind as the first several chapters of this book review the subjects relevant to game physics. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 35,
+		"nouns": [
+			"physics",
+			"background",
+			"mind",
+			"first",
+			"chapters",
+			"book",
+			"review",
+			"subjects",
+			"game",
+			"physics"
+		],
+		"dOIndex": 29,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"physics",
+			"background",
+			"chapters",
+			"subjects"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.03333333333333333,
+			"words": [
+				"fresh"
+			],
+			"positive": [
+				"fresh"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " ",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 36,
+		"nouns": [],
+		"dOIndex": 30,
+		"isQuote": false
+	},
+	{
+		"txt": "We also assume that you are proficient in trigonometry, vector, and matrix math, although we do include reference material in the appendices. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 37,
+		"nouns": [
+			"trigonometry",
+			"vector",
+			"matrix",
+			"math",
+			"reference",
+			"appendices"
+		],
+		"dOIndex": 31,
+		"nouns2": [
+			"trigonometry",
+			"reference",
+			"appendices"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " Further, we assume that you have at least a basic college level understanding of calculus, including integration and differentiation of explicit functions. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 38,
+		"nouns": [
+			"college",
+			"level",
+			"calculus",
+			"integration",
+			"differentiation",
+			"functions"
+		],
+		"dOIndex": 32,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Further",
+			"college",
+			"calculus",
+			"integration",
+			"differentiation",
+			"functions"
+		]
+	},
+	{
+		"txt": " Numerical integration and differentiation is a different story, and we cover these techniques in detail in the later chapters of this book. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 39,
+		"nouns": [
+			"integration",
+			"differentiation",
+			"story",
+			"techniques",
+			"detail",
+			"chapters",
+			"book"
+		],
+		"dOIndex": 33,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Numerical",
+			"integration",
+			"differentiation",
+			"techniques",
+			"chapters"
+		]
+	},
+	{
+		"txt": " ",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 40,
+		"nouns": [],
+		"dOIndex": 34,
+		"isQuote": false
+	},
+	{
+		"txt": "Mechanics",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 41,
+		"nouns": [
+			"Mechanics"
+		],
+		"dOIndex": 35,
+		"nouns2": [
+			"Mechanics"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " Most people that we've talked to when we was developing the concept for this book immediately thought of flight simulators when the phrases ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 42,
+		"nouns": [
+			"people",
+			"ve",
+			"concept",
+			"book",
+			"flight",
+			"simulators",
+			"phrases"
+		],
+		"dOIndex": 36,
+		"nouns2": [
+			"people",
+			"concept",
+			"flight",
+			"simulators",
+			"phrases"
+		],
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [
+			"people",
+			"ve",
+			"concept",
+			"book",
+			"flight",
+			"simulators",
+			"phrases"
+		],
+		"sfxfx": []
+	},
+	{
+		"txt": " \"real physics\" ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 43,
+		"nouns": [
+			"physics"
+		],
+		"dOIndex": 37,
+		"isQuote": true,
+		"nounsProcAll": [
+			"physics"
+		],
+		"sfxfx": [],
+		"gspkNameUnknown": "narrator",
+		"nouns2": [
+			"physics"
+		]
+	},
+	{
+		"txt": " and ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 44,
+		"nouns": [],
+		"dOIndex": 38,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [],
+		"sfxfx": []
+	},
+	{
+		"txt": " \"real time simulation\" ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 45,
+		"nouns": [
+			"time",
+			"simulation"
+		],
+		"dOIndex": 39,
+		"isQuote": true,
+		"nounsProcAll": [
+			"time",
+			"simulation"
+		],
+		"sfxfx": [],
+		"gspkNameUnknown": "narrator",
+		"nouns2": [
+			"simulation"
+		]
+	},
+	{
+		"txt": " came up. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 46,
+		"nouns": [],
+		"dOIndex": 40,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [],
+		"sfxfx": []
+	},
+	{
+		"txt": " Certainly cutting edge flight simulations are relevant in this context; however, many different types of games, and specific game elements, stand to benefit from physics based realism. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 47,
+		"nouns": [
+			"edge",
+			"flight",
+			"simulations",
+			"context",
+			"types",
+			"games",
+			"game",
+			"elements",
+			"benefit",
+			"physics",
+			"realism"
+		],
+		"dOIndex": 41,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"edge",
+			"flight",
+			"simulations",
+			"context",
+			"types",
+			"games",
+			"game",
+			"elements",
+			"benefit",
+			"physics",
+			"realism"
+		],
+		"nouns2": [
+			"Certainly",
+			"simulations",
+			"context",
+			"elements",
+			"benefit",
+			"physics",
+			"realism"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.034482758620689655,
+			"words": [
+				"benefit",
+				"cutting"
+			],
+			"positive": [
+				"benefit"
+			],
+			"negative": [
+				"cutting"
+			]
+		}
+	},
+	{
+		"txt": " ",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 48,
+		"nouns": [],
+		"dOIndex": 42,
+		"isQuote": false
+	},
+	{
+		"txt": "Consider this example: You're working on the next blockbuster hunting game complete with first person 3D, beautiful textures, and an awesome sound track to set the mood, but something is missing. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 49,
+		"nouns": [
+			"example",
+			"re",
+			"blockbuster",
+			"game",
+			"first",
+			"person",
+			"D",
+			"textures",
+			"sound",
+			"track",
+			"mood"
+		],
+		"dOIndex": 43,
+		"nouns2": [
+			"Consider",
+			"example",
+			"blockbuster",
+			"textures"
+		],
+		"sentiment": {
+			"score": 8,
+			"comparative": 0.25,
+			"words": [
+				"missing",
+				"awesome",
+				"beautiful",
+				"blockbuster"
+			],
+			"positive": [
+				"awesome",
+				"beautiful",
+				"blockbuster"
+			],
+			"negative": [
+				"missing"
+			]
+		},
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": true,
+		"nounsProcAll": [
+			"example",
+			"re",
+			"blockbuster",
+			"game",
+			"first",
+			"person",
+			"D",
+			"textures",
+			"sound",
+			"track",
+			"mood"
+		]
+	},
+	{
+		"txt": " That something is realism. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 50,
+		"nouns": [
+			"realism"
+		],
+		"dOIndex": 44,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"realism"
+		],
+		"nouns2": [
+			"realism"
+		]
+	},
+	{
+		"txt": " Specifically, you want the game to ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 51,
+		"nouns": [
+			"game"
+		],
+		"dOIndex": 45,
+		"ignoreDOBcNoQuotes": false,
+		"isQuote": false,
+		"nounsProcAll": [
+			"game"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"Specifically"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.125,
+			"words": [
+				"want"
+			],
+			"positive": [
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " \"feel\" ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 52,
+		"nouns": [],
+		"dOIndex": 46,
+		"isQuote": true,
+		"nounsProcAll": [],
+		"sfxfx": [],
+		"gspkNameUnknown": "D"
+	},
+	{
+		"txt": " more real by challenging the gamer's marksmanship, and you want to do this by adding considerations such as distance to target, wind speed and direction, and muzzle velocity, among others. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 53,
+		"nouns": [
+			"gamer",
+			"marksmanship",
+			"considerations",
+			"distance",
+			"target",
+			"wind",
+			"direction",
+			"muzzle",
+			"velocity",
+			"others"
+		],
+		"dOIndex": 47,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [
+			"gamer",
+			"marksmanship",
+			"considerations",
+			"distance",
+			"target",
+			"wind",
+			"direction",
+			"muzzle",
+			"velocity",
+			"others"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"marksmanship",
+			"considerations",
+			"distance",
+			"direction",
+			"velocity"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.03125,
+			"words": [
+				"want"
+			],
+			"positive": [
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Moreover, you don't want to fake these elements, but rather, you'd like to realistically model them based on the principles of physics. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 54,
+		"nouns": [
+			"t",
+			"elements",
+			"model",
+			"principles",
+			"physics"
+		],
+		"dOIndex": 48,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"t",
+			"elements",
+			"model",
+			"principles",
+			"physics"
+		],
+		"nouns2": [
+			"Moreover",
+			"elements",
+			"principles",
+			"physics"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.08333333333333333,
+			"words": [
+				"like",
+				"fake",
+				"want"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": [
+				"fake",
+				"want"
+			]
+		}
+	},
+	{
+		"txt": " Gary Powell, with MathEngine Plc, put it like this ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 55,
+		"nouns": [
+			"Gary Powell",
+			"MathEngine",
+			"Plc"
+		],
+		"dOIndex": 49,
+		"ignoreDOBcNoQuotes": false,
+		"isQuote": false,
+		"nounsProcAll": [
+			"Gary Powell",
+			"MathEngine",
+			"Plc"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"Powell",
+			"MathEngine"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.18181818181818182,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " \"The illusion and immersive experience of the virtual world, so carefully built up with high polygon models, detailed textures and advanced lighting, is so often shattered as soon as objects start to move and interact.\"",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 56,
+		"isQuote": true,
+		"nouns": [
+			"illusion",
+			"immersive",
+			"experience",
+			"world",
+			"polygon",
+			"models",
+			"textures",
+			"objects",
+			"move"
+		],
+		"dOIndex": 50,
+		"nounsProcAll": [
+			"illusion",
+			"immersive",
+			"experience",
+			"world",
+			"polygon",
+			"models",
+			"textures",
+			"objects",
+			"move"
+		],
+		"sfxfx": [],
+		"gspkNameUnknown": "D",
+		"nouns2": [
+			"illusion",
+			"immersive",
+			"experience",
+			"polygon",
+			"textures",
+			"objects"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.027777777777777776,
+			"words": [
+				"shattered",
+				"advanced",
+				"carefully"
+			],
+			"positive": [
+				"advanced",
+				"carefully"
+			],
+			"negative": [
+				"shattered"
+			]
+		}
+	},
+	{
+		"txt": "[",
+		"why": "link",
+		"tags": [
+			"sup",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 57,
+		"nouns": [],
+		"dOIndex": 51,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [],
+		"sfxfx": []
+	},
+	{
+		"txt": "1]",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"sup",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 58,
+		"nouns": [],
+		"dOIndex": 52,
+		"ignoreDOBcNoQuotes": false,
+		"isQuote": false,
+		"nounsProcAll": [],
+		"sfxfx": []
+	},
+	{
+		"txt": " \"It's all about interactivity and immersiveness,\" ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 59,
+		"isQuote": true,
+		"nouns": [
+			"interactivity",
+			"immersiveness"
+		],
+		"dOIndex": 53,
+		"nounsProcAll": [
+			"interactivity",
+			"immersiveness"
+		],
+		"sfxfx": [],
+		"gspkNameUnknown": "D",
+		"nouns2": [
+			"interactivity",
+			"immersiveness"
+		]
+	},
+	{
+		"txt": " says Dr. Steven Collins, CEO of Havok.com.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 60,
+		"nouns": [
+			"Dr. Steven",
+			"Steven Collins",
+			"CEO",
+			"Havok",
+			"com"
+		],
+		"dOIndex": 54,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [
+			"Dr. Steven",
+			"Steven Collins",
+			"CEO",
+			"Havok",
+			"com"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"Steven",
+			"Collins"
+		]
+	},
+	{
+		"txt": "[",
+		"why": "link",
+		"tags": [
+			"sup",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 61,
+		"nouns": [],
+		"dOIndex": 55,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "2]",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"sup",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 62,
+		"nouns": [],
+		"dOIndex": 56,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": " We think both these guys or right on target. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 63,
+		"nouns": [
+			"both",
+			"guys",
+			"right",
+			"target"
+		],
+		"dOIndex": 57,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"both",
+			"guys",
+			"right",
+			"target"
+		]
+	},
+	{
+		"txt": " Why invest so much time and effort making your game world look as realistic as possible, but not take the extra step to make it behave just as realistically? ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 64,
+		"nouns": [
+			"time",
+			"effort",
+			"game",
+			"world",
+			"step"
+		],
+		"dOIndex": 58,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"time",
+			"effort",
+			"game",
+			"world",
+			"step"
+		]
+	},
+	{
+		"txt": " ",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 65,
+		"nouns": [],
+		"dOIndex": 59,
+		"isQuote": false
+	},
+	{
+		"txt": "Here are a few examples of specific game elements that stand to benefit, in terms of realism, from the use of real physics:",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 66,
+		"nouns": [
+			"examples",
+			"game",
+			"elements",
+			"benefit",
+			"terms",
+			"realism",
+			"use",
+			"physics"
+		],
+		"dOIndex": 60,
+		"nouns2": [
+			"examples",
+			"elements",
+			"benefit",
+			"realism",
+			"physics"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08695652173913043,
+			"words": [
+				"benefit"
+			],
+			"positive": [
+				"benefit"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "The trajectory of rockets and missiles including the effects of fuel burn off",
+		"why": "list tag",
+		"tags": [
+			"p",
+			"li",
+			"ul",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 67,
+		"nouns": [
+			"trajectory",
+			"rockets",
+			"missiles",
+			"effects",
+			"fuel"
+		],
+		"dOIndex": 61,
+		"nouns2": [
+			"trajectory",
+			"rockets",
+			"missiles",
+			"effects"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 68,
+		"nouns": [],
+		"dOIndex": 62,
+		"isQuote": false
+	},
+	{
+		"txt": "The collision of objects such as billiard balls ",
+		"why": "p",
+		"tags": [
+			"p",
+			"li",
+			"ul",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 69,
+		"nouns": [
+			"collision",
+			"objects",
+			"billiard",
+			"balls"
+		],
+		"dOIndex": 63,
+		"nouns2": [
+			"collision",
+			"objects",
+			"billiard"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.2222222222222222,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "The effects of gravitation between large objects such as planets and battle stations ",
+		"why": "list tag",
+		"tags": [
+			"p",
+			"li",
+			"ul",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 70,
+		"nouns": [
+			"effects",
+			"gravitation",
+			"objects",
+			"planets",
+			"battle",
+			"stations"
+		],
+		"dOIndex": 64,
+		"nouns2": [
+			"effects",
+			"gravitation",
+			"objects",
+			"planets",
+			"stations"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.07142857142857142,
+			"words": [
+				"battle"
+			],
+			"positive": [],
+			"negative": [
+				"battle"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 71,
+		"nouns": [],
+		"dOIndex": 65,
+		"isQuote": false
+	},
+	{
+		"txt": "The stability of cars racing around tight curves ",
+		"why": "p",
+		"tags": [
+			"p",
+			"li",
+			"ul",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 72,
+		"nouns": [
+			"stability",
+			"cars",
+			"curves"
+		],
+		"dOIndex": 66,
+		"nouns2": [
+			"stability"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "The dynamics of boats and other waterborne vehicles ",
+		"why": "list tag",
+		"tags": [
+			"p",
+			"li",
+			"ul",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 73,
+		"nouns": [
+			"dynamics",
+			"boats",
+			"waterborne",
+			"vehicles"
+		],
+		"dOIndex": 67,
+		"nouns2": [
+			"dynamics",
+			"waterborne",
+			"vehicles"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 74,
+		"nouns": [],
+		"dOIndex": 68,
+		"isQuote": false
+	},
+	{
+		"txt": "The flight path of a baseball after being struck by a bat ",
+		"why": "p",
+		"tags": [
+			"p",
+			"li",
+			"ul",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 75,
+		"nouns": [
+			"flight",
+			"path",
+			"baseball",
+			"bat"
+		],
+		"dOIndex": 69,
+		"nouns2": [
+			"baseball"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.07692307692307693,
+			"words": [
+				"struck"
+			],
+			"positive": [],
+			"negative": [
+				"struck"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "The flight of a playing card being tossed into a hat ",
+		"why": "p",
+		"tags": [
+			"p",
+			"li",
+			"ul",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 76,
+		"nouns": [
+			"flight",
+			"card",
+			"hat"
+		],
+		"dOIndex": 70,
+		"isQuote": false
+	},
+	{
+		"txt": "This is by no means an exhaustive list, but just a few examples to get you in the right frame of mind, so to speak. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 77,
+		"nouns": [
+			"list",
+			"examples",
+			"right",
+			"frame",
+			"mind"
+		],
+		"dOIndex": 71,
+		"nouns2": [
+			"examples"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.038461538461538464,
+			"words": [
+				"no"
+			],
+			"positive": [],
+			"negative": [
+				"no"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " Pretty much anything in your games that bounces around, flies, rolls, slides, or isn't sitting dead still can be realistically modeled to create compelling, believable content for your games. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 78,
+		"nouns": [
+			"games",
+			"rolls",
+			"slides",
+			"isn",
+			"t",
+			"content",
+			"games"
+		],
+		"dOIndex": 72,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Pretty",
+			"content"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.06451612903225806,
+			"words": [
+				"dead",
+				"pretty"
+			],
+			"positive": [
+				"pretty"
+			],
+			"negative": [
+				"dead"
+			]
+		}
+	},
+	{
+		"txt": " ",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 79,
+		"nouns": [],
+		"dOIndex": 73,
+		"isQuote": false
+	},
+	{
+		"txt": "So how can this realism be achieved? ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 80,
+		"nouns": [
+			"realism"
+		],
+		"dOIndex": 74,
+		"nouns2": [
+			"realism"
+		],
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": true,
+		"nounsProcAll": [
+			"realism"
+		]
+	},
+	{
+		"txt": " By using physics, of course, which brings us back to the title of this section, the subject of mechanics . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 81,
+		"nouns": [
+			"physics",
+			"course",
+			"title",
+			"section",
+			"subject",
+			"mechanics"
+		],
+		"dOIndex": 75,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"physics",
+			"course",
+			"title",
+			"section",
+			"subject",
+			"mechanics"
+		],
+		"nouns2": [
+			"physics",
+			"section",
+			"subject",
+			"mechanics"
+		]
+	},
+	{
+		"txt": " Physics is a vast field of science that covers many different, but related subjects. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 82,
+		"nouns": [
+			"Physics",
+			"field",
+			"science",
+			"subjects"
+		],
+		"dOIndex": 76,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"Physics",
+			"field",
+			"science",
+			"subjects"
+		],
+		"nouns2": [
+			"Physics",
+			"science",
+			"subjects"
+		]
+	},
+	{
+		"txt": " The subject most applicable to realistic game content is the subject of mechanics, which is really what's meant by ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 83,
+		"nouns": [
+			"subject",
+			"game",
+			"content",
+			"subject",
+			"mechanics"
+		],
+		"dOIndex": 77,
+		"ignoreDOBcNoQuotes": false,
+		"isQuote": false,
+		"nounsProcAll": [
+			"subject",
+			"game",
+			"content",
+			"subject",
+			"mechanics"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"subject",
+			"content",
+			"mechanics"
+		]
+	},
+	{
+		"txt": " \"real physics.\" ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 84,
+		"isQuote": true,
+		"nouns": [
+			"physics"
+		],
+		"dOIndex": 78,
+		"nounsProcAll": [
+			"physics"
+		],
+		"sfxfx": [],
+		"gspkNameUnknown": "Physics",
+		"nouns2": [
+			"physics"
+		]
+	},
+	{
+		"txt": " ",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 85,
+		"nouns": [],
+		"dOIndex": 79,
+		"isQuote": false
+	},
+	{
+		"txt": "By definition, mechanics is the study of bodies at rest and in motion, and of the effect of forces on them. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 86,
+		"nouns": [
+			"definition",
+			"mechanics",
+			"study",
+			"bodies",
+			"rest",
+			"motion",
+			"effect",
+			"forces"
+		],
+		"dOIndex": 80,
+		"nouns2": [
+			"definition",
+			"mechanics"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " The subject of mechanics is subdivided into statics, which specifically focuses on bodies at rest, and dynamics , which focuses on bodies in motion. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 87,
+		"nouns": [
+			"subject",
+			"mechanics",
+			"statics",
+			"bodies",
+			"rest",
+			"dynamics",
+			"bodies",
+			"motion"
+		],
+		"dOIndex": 81,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"subject",
+			"mechanics",
+			"statics",
+			"dynamics"
+		]
+	},
+	{
+		"txt": " One of the oldest and most studied subjects of physics, the formal origins of mechanics can be traced back more than 2000 years to Aristotle. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 88,
+		"nouns": [
+			"One",
+			"subjects",
+			"physics",
+			"origins",
+			"mechanics",
+			"years",
+			"Aristotle"
+		],
+		"dOIndex": 82,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"subjects",
+			"physics",
+			"origins",
+			"mechanics",
+			"Aristotle"
+		]
+	},
+	{
+		"txt": " An even earlier treatment of the subject was formalized in Problems of Mechanics , but the origins of this work are unknown. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 89,
+		"nouns": [
+			"treatment",
+			"subject",
+			"Problems",
+			"Mechanics",
+			"origins",
+			"work"
+		],
+		"dOIndex": 83,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"treatment",
+			"subject",
+			"Problems",
+			"Mechanics",
+			"origins"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.08333333333333333,
+			"words": [
+				"problems"
+			],
+			"positive": [],
+			"negative": [
+				"problems"
+			]
+		}
+	},
+	{
+		"txt": " Although some of these early works attributed some physical phenomena to magical elements, the contributions of such great minds as Galileo, Kepler, Euler, Lagrange, d'Alembert, Newton, and Einstein, to name a few, have helped develop our understanding of this subject to such a degree that we have been able to achieve the remarkable state of technological advancement that we see today. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 90,
+		"nouns": [
+			"works",
+			"phenomena",
+			"elements",
+			"contributions",
+			"minds",
+			"Galileo",
+			"Kepler",
+			"Euler",
+			"Lagrange",
+			"Alembert",
+			"Newton",
+			"Einstein",
+			"name",
+			"subject",
+			"degree",
+			"state",
+			"advancement",
+			"today"
+		],
+		"dOIndex": 84,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Although",
+			"phenomena",
+			"elements",
+			"contributions",
+			"Galileo",
+			"Kepler",
+			"Lagrange",
+			"Alembert",
+			"Newton",
+			"Einstein",
+			"subject",
+			"advancement"
+		],
+		"sentiment": {
+			"score": 5,
+			"comparative": 0.07936507936507936,
+			"words": [
+				"remarkable",
+				"great"
+			],
+			"positive": [
+				"remarkable",
+				"great"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " ",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 91,
+		"nouns": [],
+		"dOIndex": 85,
+		"isQuote": false
+	},
+	{
+		"txt": "Because you want your game content to be alive and active, we'll primarily look at bodies in motion and will thus delve into the details of the subject of dynamics. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 92,
+		"nouns": [
+			"game",
+			"content",
+			"ll",
+			"bodies",
+			"motion",
+			"details",
+			"subject",
+			"dynamics"
+		],
+		"dOIndex": 86,
+		"nouns2": [
+			"Because",
+			"content",
+			"details",
+			"subject",
+			"dynamics"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.0967741935483871,
+			"words": [
+				"active",
+				"alive",
+				"want"
+			],
+			"positive": [
+				"active",
+				"alive",
+				"want"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " Within the subject of dynamics there are even more specific subjects to investigate, namely, kinematics, which focuses on the motion of bodies without regard to the forces that act on the body, and kinetics , which considers both the motion of bodies and the forces that act on or otherwise affect bodies in motion. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 93,
+		"nouns": [
+			"subject",
+			"dynamics",
+			"subjects",
+			"kinematics",
+			"motion",
+			"bodies",
+			"regard",
+			"forces",
+			"act",
+			"body",
+			"kinetics",
+			"both",
+			"motion",
+			"bodies",
+			"forces",
+			"act",
+			"bodies",
+			"motion"
+		],
+		"dOIndex": 87,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Within",
+			"subject",
+			"dynamics",
+			"subjects",
+			"kinematics",
+			"kinetics"
+		],
+		"highfreq": {
+			"motion": 3,
+			"bodies": 3
+		}
+	},
+	{
+		"txt": " We'll take a very close look at these two subjects throughout this book. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 94,
+		"nouns": [
+			"ll",
+			"two",
+			"subjects",
+			"book"
+		],
+		"dOIndex": 88,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"subjects"
+		]
+	},
+	{
+		"txt": " ",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 95,
+		"nouns": [],
+		"dOIndex": 89,
+		"isQuote": false
+	},
+	{
+		"txt": "Digital Physics",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 96,
+		"nouns": [
+			"Physics"
+		],
+		"dOIndex": 90,
+		"nouns2": [
+			"Digital",
+			"Physics"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "This book's first edition focused exclusively on mechanics. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 97,
+		"nouns": [
+			"book",
+			"first",
+			"edition",
+			"mechanics"
+		],
+		"dOIndex": 91,
+		"nouns2": [
+			"edition",
+			"mechanics"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.2222222222222222,
+			"words": [
+				"focused"
+			],
+			"positive": [
+				"focused"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " More than a decade after its release we've broadened our definition of game physics to include digital physics not in the cosmological sense but in the context of the physics associated with such devices as smart phones and their unique user interaction experience. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 98,
+		"nouns": [
+			"decade",
+			"release",
+			"ve",
+			"definition",
+			"game",
+			"physics",
+			"physics",
+			"sense",
+			"context",
+			"physics",
+			"devices",
+			"phones",
+			"user",
+			"interaction",
+			"experience"
+		],
+		"dOIndex": 92,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"release",
+			"definition",
+			"physics",
+			"context",
+			"devices",
+			"interaction",
+			"experience"
+		],
+		"highfreq": {
+			"physics": 3
+		},
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.022222222222222223,
+			"words": [
+				"smart"
+			],
+			"positive": [
+				"smart"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " As more platforms such as the Wii, PlayStation, X Box and smart phones come out and are expanded developers will have to keep up with and understand the new input and sensors technologies that accompany these platforms in order to keep producing fresh gaming experiences. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 99,
+		"nouns": [
+			"platforms",
+			"Wii",
+			"PlayStation",
+			"X Box",
+			"phones",
+			"developers",
+			"input",
+			"sensors",
+			"technologies",
+			"platforms",
+			"order",
+			"experiences"
+		],
+		"dOIndex": 93,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"platforms",
+			"PlayStation",
+			"developers",
+			"sensors",
+			"technologies",
+			"experiences"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.0425531914893617,
+			"words": [
+				"fresh",
+				"smart"
+			],
+			"positive": [
+				"fresh",
+				"smart"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " But you shouldn't look at this as a burden, and instead look at it as an opportunity to enhance the user's interactive experience with your games. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 100,
+		"nouns": [
+			"shouldn",
+			"t",
+			"burden",
+			"opportunity",
+			"user",
+			"experience",
+			"games"
+		],
+		"dOIndex": 94,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"shouldn",
+			"opportunity",
+			"experience"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"opportunity",
+				"burden"
+			],
+			"positive": [
+				"opportunity"
+			],
+			"negative": [
+				"burden"
+			]
+		}
+	},
+	{
+		"txt": " ",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 101,
+		"nouns": [],
+		"dOIndex": 95,
+		"isQuote": false
+	},
+	{
+		"txt": "Arrangement of This Book",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 102,
+		"nouns": [
+			"Arrangement",
+			"Book"
+		],
+		"dOIndex": 96,
+		"nouns2": [
+			"Arrangement"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " Physics based realism is not new to gaming, and in fact many games on the shelves these days advertise their physics engines. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 103,
+		"nouns": [
+			"Physics",
+			"realism",
+			"fact",
+			"games",
+			"shelves",
+			"days",
+			"physics",
+			"engines"
+		],
+		"dOIndex": 97,
+		"nouns2": [
+			"Physics",
+			"realism",
+			"shelves",
+			"physics",
+			"engines"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " Also, many 3D modeling and animation tools have physics engines built in to help realistically animate specific types of motion. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 104,
+		"nouns": [
+			"D",
+			"animation",
+			"tools",
+			"physics",
+			"engines",
+			"types",
+			"motion"
+		],
+		"dOIndex": 98,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"animation",
+			"physics",
+			"engines"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.09090909090909091,
+			"words": [
+				"help"
+			],
+			"positive": [
+				"help"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Naturally, there are magazine articles that appear every now and then that discuss various aspects of physics based game content. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 105,
+		"nouns": [
+			"magazine",
+			"articles",
+			"aspects",
+			"physics",
+			"game",
+			"content"
+		],
+		"dOIndex": 99,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Naturally",
+			"magazine",
+			"articles",
+			"aspects",
+			"physics",
+			"content"
+		]
+	},
+	{
+		"txt": " In parallel, but at a different level, research in the area of real time rigid body[",
+		"why": "link",
+		"tags": [
+			"sup",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 106,
+		"nouns": [
+			"level",
+			"research",
+			"area",
+			"time",
+			"body["
+		],
+		"dOIndex": 100,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"research"
+		]
+	},
+	{
+		"txt": "3]",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"sup",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 107,
+		"nouns": [],
+		"dOIndex": 101,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " simulation has been active for many years, and the technical journals are full of papers that deal with various aspects of this subject. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 108,
+		"nouns": [
+			"simulation",
+			"years",
+			"journals",
+			"papers",
+			"aspects",
+			"subject"
+		],
+		"dOIndex": 102,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulation",
+			"journals",
+			"aspects",
+			"subject"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.04,
+			"words": [
+				"active"
+			],
+			"positive": [
+				"active"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " You'll find papers on subjects ranging from the simulation of multiple, connected rigid bodies to the simulation of cloth. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 109,
+		"nouns": [
+			"ll",
+			"papers",
+			"subjects",
+			"simulation",
+			"bodies",
+			"simulation",
+			"cloth"
+		],
+		"dOIndex": 103,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"subjects",
+			"simulation"
+		]
+	},
+	{
+		"txt": " However, while these are fascinating subjects and valuable resources, as we hinted earlier, many of them are of limited immediate use to the game developer as they first require a solid understanding of the subject of mechanics requiring you to learn the basics from other sources. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 110,
+		"nouns": [
+			"are",
+			"subjects",
+			"resources",
+			"use",
+			"game",
+			"developer",
+			"first",
+			"subject",
+			"mechanics",
+			"basics",
+			"sources"
+		],
+		"dOIndex": 104,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"subjects",
+			"resources",
+			"developer",
+			"subject",
+			"mechanics",
+			"sources"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.08333333333333333,
+			"words": [
+				"solid",
+				"limited",
+				"fascinating"
+			],
+			"positive": [
+				"solid",
+				"fascinating"
+			],
+			"negative": [
+				"limited"
+			]
+		}
+	},
+	{
+		"txt": " Further, many of them focus primarily on the mathematics involved in solving the equations of motion and don't address the practical treatment of the forces acting on the body or system being simulated. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 111,
+		"nouns": [
+			"focus",
+			"mathematics",
+			"equations",
+			"motion",
+			"t",
+			"address",
+			"treatment",
+			"forces",
+			"body",
+			"system"
+		],
+		"dOIndex": 105,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Further",
+			"mathematics",
+			"equations",
+			"address",
+			"treatment"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.02857142857142857,
+			"words": [
+				"solving"
+			],
+			"positive": [
+				"solving"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " ",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 112,
+		"nouns": [],
+		"dOIndex": 106,
+		"isQuote": false
+	},
+	{
+		"txt": "We asked John Nagle, with Animats, what is, in his opinion, the most difficult part of developing a physics based simulation for games and his response was developing numerically stable, robust code.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 113,
+		"nouns": [
+			"John Nagle",
+			"Animats",
+			"opinion",
+			"part",
+			"physics",
+			"simulation",
+			"games",
+			"response",
+			"code"
+		],
+		"dOIndex": 107,
+		"nouns2": [
+			"Animats",
+			"opinion",
+			"physics",
+			"simulation",
+			"response"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.09375,
+			"words": [
+				"robust",
+				"stable",
+				"difficult"
+			],
+			"positive": [
+				"robust",
+				"stable"
+			],
+			"negative": [
+				"difficult"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "[",
+		"why": "link",
+		"tags": [
+			"sup",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 114,
+		"nouns": [],
+		"dOIndex": 108,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "4]",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"sup",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 115,
+		"nouns": [],
+		"dOIndex": 109,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Gary Powell echoed this when he told me that minimizing the amount of parameter tuning to produce stable, realistic behavior was one of the most difficult challenges. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 116,
+		"nouns": [
+			"Gary Powell",
+			"amount",
+			"parameter",
+			"behavior",
+			"one",
+			"challenges"
+		],
+		"dOIndex": 110,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Powell",
+			"parameter",
+			"behavior",
+			"challenges"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.034482758620689655,
+			"words": [
+				"difficult",
+				"stable"
+			],
+			"positive": [
+				"stable"
+			],
+			"negative": [
+				"difficult"
+			]
+		}
+	},
+	{
+		"txt": " We agree; speed and robustness in dealing with the mathematics of bodies in motion are crucial elements of a simulator. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 117,
+		"nouns": [
+			"robustness",
+			"mathematics",
+			"bodies",
+			"motion",
+			"elements",
+			"simulator"
+		],
+		"dOIndex": 111,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"robustness",
+			"mathematics",
+			"elements",
+			"simulator"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.045454545454545456,
+			"words": [
+				"agree"
+			],
+			"positive": [
+				"agree"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " And on top of that, so are completeness and accuracy in representing the interacting forces that initiate and perpetuate the simulation in the first place. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 118,
+		"nouns": [
+			"completeness",
+			"accuracy",
+			"forces",
+			"simulation",
+			"first",
+			"place"
+		],
+		"dOIndex": 112,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"completeness",
+			"accuracy",
+			"simulation"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.07407407407407407,
+			"words": [
+				"top"
+			],
+			"positive": [
+				"top"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " As you'll see later in this book, forces govern the behavior of objects in your simulation and you need to model them accurately if your objects are to behave realistically. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 119,
+		"nouns": [
+			"ll",
+			"book",
+			"forces",
+			"behavior",
+			"objects",
+			"simulation",
+			"model",
+			"objects"
+		],
+		"dOIndex": 113,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"behavior",
+			"objects",
+			"simulation"
+		]
+	},
+	{
+		"txt": " ",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 120,
+		"nouns": [],
+		"dOIndex": 114,
+		"isQuote": false
+	},
+	{
+		"txt": "This prerequisite understanding of mechanics and the real world nature of forces that may act on a particular body or system have governed the organization of this book. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 121,
+		"nouns": [
+			"prerequisite",
+			"mechanics",
+			"world",
+			"nature",
+			"forces",
+			"act",
+			"body",
+			"system",
+			"organization",
+			"book"
+		],
+		"dOIndex": 115,
+		"nouns2": [
+			"prerequisite",
+			"mechanics",
+			"organization"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " Generally, this book is organized in four parts with each building on the material covered in previous parts: ",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 122,
+		"nouns": [
+			"book",
+			"four",
+			"parts",
+			"parts"
+		],
+		"dOIndex": 116,
+		"nouns2": [
+			"Generally"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 123,
+		"nouns": [],
+		"dOIndex": 117,
+		"isQuote": false
+	},
+	{
+		"txt": "Part I",
+		"why": "p",
+		"tags": [
+			"a",
+			"dt",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 124,
+		"nouns": [
+			"Part"
+		],
+		"dOIndex": 118,
+		"isQuote": false
+	},
+	{
+		"txt": "A mechanics refresher, comprising Chapters ",
+		"why": "link",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 125,
+		"nouns": [
+			"mechanics",
+			"refresher",
+			"Chapters"
+		],
+		"dOIndex": 119,
+		"nouns2": [
+			"mechanics",
+			"refresher",
+			"Chapters"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "1 through ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 126,
+		"nouns": [],
+		"dOIndex": 120,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 127,
+		"nouns": [],
+		"dOIndex": 121,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "6 .",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 128,
+		"nouns": [],
+		"dOIndex": 122,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 129,
+		"nouns": [],
+		"dOIndex": 123,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 1, Basic Concepts",
+		"why": "p",
+		"tags": [
+			"em",
+			"a",
+			"dt",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 130,
+		"nouns": [
+			"Chapter",
+			"Basic Concepts"
+		],
+		"dOIndex": 124,
+		"nouns2": [
+			"Chapter",
+			"Concepts"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "This warm up chapter covers the most basic of principles that are used and referred to throughout this book. The specific topics addressed include mass and center of mass, Newton's Laws, inertia, units and measures, and vectors. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 131,
+		"nouns": [
+			"chapter",
+			"principles",
+			"book",
+			"topics",
+			"mass",
+			"center",
+			"mass",
+			"Newton",
+			"Laws",
+			"inertia",
+			"units",
+			"measures",
+			"vectors"
+		],
+		"dOIndex": 125,
+		"nouns2": [
+			"chapter",
+			"principles",
+			"Newton",
+			"inertia",
+			"measures",
+			"vectors"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.02631578947368421,
+			"words": [
+				"warm"
+			],
+			"positive": [
+				"warm"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " ",
+		"why": "p",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 132,
+		"nouns": [],
+		"dOIndex": 126,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 133,
+		"nouns": [],
+		"dOIndex": 127,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 2, Kinematics",
+		"why": "p",
+		"tags": [
+			"em",
+			"a",
+			"dt",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 134,
+		"nouns": [
+			"Chapter",
+			"Kinematics"
+		],
+		"dOIndex": 128,
+		"nouns2": [
+			"Chapter",
+			"Kinematics"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "This chapter covers such topics as linear and angular velocity, acceleration, momentum, and the general motion of particles and rigid bodies in two and three dimensions.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 135,
+		"nouns": [
+			"chapter",
+			"topics",
+			"velocity",
+			"acceleration",
+			"momentum",
+			"motion",
+			"particles",
+			"bodies",
+			"two",
+			"three",
+			"dimensions"
+		],
+		"dOIndex": 129,
+		"nouns2": [
+			"chapter",
+			"velocity",
+			"acceleration",
+			"momentum",
+			"particles",
+			"dimensions"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 136,
+		"nouns": [],
+		"dOIndex": 130,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 137,
+		"nouns": [],
+		"dOIndex": 131,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 3, Force",
+		"why": "p",
+		"tags": [
+			"em",
+			"a",
+			"dt",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 138,
+		"nouns": [
+			"Chapter",
+			"Force"
+		],
+		"dOIndex": 132,
+		"nouns2": [
+			"Chapter"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "The principles of force and torque are covered in this chapter, which serves as a bridge from the subject of kinematics to that of kinetics. General categories of forces are discussed including drag forces, force fields, and pressure.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 139,
+		"nouns": [
+			"principles",
+			"force",
+			"torque",
+			"chapter",
+			"bridge",
+			"subject",
+			"kinematics",
+			"kinetics",
+			"categories",
+			"forces",
+			"drag",
+			"forces",
+			"force",
+			"fields",
+			"pressure"
+		],
+		"dOIndex": 133,
+		"nouns2": [
+			"principles",
+			"chapter",
+			"subject",
+			"kinematics",
+			"kinetics",
+			"General",
+			"categories",
+			"pressure"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.05263157894736842,
+			"words": [
+				"pressure",
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"pressure",
+				"drag"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 140,
+		"nouns": [],
+		"dOIndex": 134,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 141,
+		"nouns": [],
+		"dOIndex": 135,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 4, Kinetics",
+		"why": "p",
+		"tags": [
+			"em",
+			"a",
+			"dt",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 142,
+		"nouns": [
+			"Chapter",
+			"Kinetics"
+		],
+		"dOIndex": 136,
+		"nouns2": [
+			"Chapter",
+			"Kinetics"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "This chapter combines elements of Chapters ",
+		"why": "link",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 143,
+		"nouns": [
+			"chapter",
+			"elements",
+			"Chapters"
+		],
+		"dOIndex": 137,
+		"nouns2": [
+			"chapter",
+			"elements",
+			"Chapters"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "2 and ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 144,
+		"nouns": [],
+		"dOIndex": 138,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 145,
+		"nouns": [],
+		"dOIndex": 139,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "3 to address the subject of kinetics and explains the difference between kinematics and kinetics. Further discussion treats the kinetics of particles and rigid bodies in two and three dimensions.",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 146,
+		"nouns": [
+			"address",
+			"subject",
+			"kinetics",
+			"difference",
+			"kinematics",
+			"kinetics",
+			"discussion",
+			"kinetics",
+			"particles",
+			"bodies",
+			"two",
+			"three",
+			"dimensions"
+		],
+		"dOIndex": 140,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"address",
+			"subject",
+			"kinetics",
+			"difference",
+			"kinematics",
+			"Further",
+			"discussion",
+			"particles",
+			"dimensions"
+		],
+		"highfreq": {
+			"kinetics": 3
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 147,
+		"nouns": [],
+		"dOIndex": 141,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 148,
+		"nouns": [],
+		"dOIndex": 142,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 5, Collisions",
+		"why": "p",
+		"tags": [
+			"em",
+			"a",
+			"dt",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 149,
+		"nouns": [
+			"Chapter",
+			"Collisions"
+		],
+		"dOIndex": 143,
+		"nouns2": [
+			"Chapter",
+			"Collisions"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -1,
+			"words": [
+				"collisions"
+			],
+			"positive": [],
+			"negative": [
+				"collisions"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "In this chapter we'll cover particle and rigid body collision response, that is, what happens after two objects run in to each other.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 150,
+		"nouns": [
+			"chapter",
+			"ll",
+			"particle",
+			"body",
+			"collision",
+			"response",
+			"two",
+			"objects"
+		],
+		"dOIndex": 144,
+		"nouns2": [
+			"chapter",
+			"particle",
+			"collision",
+			"response",
+			"objects"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.08695652173913043,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 151,
+		"nouns": [],
+		"dOIndex": 145,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 152,
+		"nouns": [],
+		"dOIndex": 146,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 6, Projectiles",
+		"why": "p",
+		"tags": [
+			"em",
+			"a",
+			"dt",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 153,
+		"nouns": [
+			"Chapter",
+			"Projectiles"
+		],
+		"dOIndex": 147,
+		"nouns2": [
+			"Chapter",
+			"Projectiles"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "This chapter will focus on the physics of simple projectiles laying the ground work for further specific modeling treatment in later chapters. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 154,
+		"nouns": [
+			"chapter",
+			"focus",
+			"physics",
+			"projectiles",
+			"ground",
+			"work",
+			"treatment",
+			"chapters"
+		],
+		"dOIndex": 148,
+		"nouns2": [
+			"chapter",
+			"physics",
+			"projectiles",
+			"treatment",
+			"chapters"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " ",
+		"why": "p",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 155,
+		"nouns": [],
+		"dOIndex": 149,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 156,
+		"nouns": [],
+		"dOIndex": 150,
+		"isQuote": false
+	},
+	{
+		"txt": "Part II",
+		"why": "p",
+		"tags": [
+			"a",
+			"dt",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 157,
+		"nouns": [
+			"Part",
+			"II"
+		],
+		"dOIndex": 151,
+		"isQuote": false
+	},
+	{
+		"txt": "An introduction to real time simulations, comprising Chapters ",
+		"why": "link",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 158,
+		"nouns": [
+			"introduction",
+			"time",
+			"simulations",
+			"Chapters"
+		],
+		"dOIndex": 152,
+		"nouns2": [
+			"introduction",
+			"simulations",
+			"Chapters"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "7 through ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 159,
+		"nouns": [],
+		"dOIndex": 153,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 160,
+		"nouns": [],
+		"dOIndex": 154,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "14 .",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 161,
+		"nouns": [],
+		"dOIndex": 155,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 162,
+		"nouns": [],
+		"dOIndex": 156,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 163,
+		"nouns": [],
+		"dOIndex": 157,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 7, Real Time Simulations",
+		"why": "p",
+		"tags": [
+			"em",
+			"a",
+			"dt",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 164,
+		"nouns": [
+			"Chapter",
+			"Time",
+			"Simulations"
+		],
+		"dOIndex": 158,
+		"nouns2": [
+			"Chapter",
+			"Simulations"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "This chapter will introduce real time simulations and detail the core of such simulations the numerical integrator. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 165,
+		"nouns": [
+			"chapter",
+			"time",
+			"simulations",
+			"detail",
+			"core",
+			"simulations",
+			"integrator"
+		],
+		"dOIndex": 159,
+		"nouns2": [
+			"chapter",
+			"simulations",
+			"integrator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " Various methods will be presented and coverage will include stability and tuning. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 166,
+		"nouns": [
+			"methods",
+			"coverage",
+			"stability"
+		],
+		"dOIndex": 160,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Various",
+			"methods",
+			"coverage",
+			"stability"
+		]
+	},
+	{
+		"txt": " ",
+		"why": "p",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 167,
+		"nouns": [],
+		"dOIndex": 161,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 168,
+		"nouns": [],
+		"dOIndex": 162,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 8, Particles",
+		"why": "p",
+		"tags": [
+			"em",
+			"a",
+			"dt",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 169,
+		"nouns": [
+			"Chapter",
+			"Particles"
+		],
+		"dOIndex": 163,
+		"nouns2": [
+			"Chapter",
+			"Particles"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Before diving into rigid body simulations, this chapter will show how to implement a particle simulation, which will be extended in the next chapter to include rigid bodies.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 170,
+		"nouns": [
+			"body",
+			"simulations",
+			"chapter",
+			"show",
+			"particle",
+			"simulation",
+			"chapter",
+			"bodies"
+		],
+		"dOIndex": 164,
+		"nouns2": [
+			"Before",
+			"simulations",
+			"chapter",
+			"particle",
+			"simulation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 171,
+		"nouns": [],
+		"dOIndex": 165,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 172,
+		"nouns": [],
+		"dOIndex": 166,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 9, 2D Rigid Body Simulator",
+		"why": "p",
+		"tags": [
+			"em",
+			"a",
+			"dt",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 173,
+		"nouns": [
+			"Chapter",
+			"D",
+			"Body Simulator"
+		],
+		"dOIndex": 167,
+		"nouns2": [
+			"Chapter",
+			"Simulator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "This chapter will extend the particle simulator from the previous chapter showing how to implement rigid bodies, which primarily consists of adding rotation and dealing with the inertia tensor.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 174,
+		"nouns": [
+			"chapter",
+			"particle",
+			"simulator",
+			"chapter",
+			"bodies",
+			"rotation",
+			"inertia",
+			"tensor"
+		],
+		"dOIndex": 168,
+		"nouns2": [
+			"chapter",
+			"particle",
+			"simulator",
+			"rotation",
+			"inertia"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.034482758620689655,
+			"words": [
+				"extend"
+			],
+			"positive": [
+				"extend"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 175,
+		"nouns": [],
+		"dOIndex": 169,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 176,
+		"nouns": [],
+		"dOIndex": 170,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 10, Implementing Collision Response",
+		"why": "p",
+		"tags": [
+			"em",
+			"a",
+			"dt",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 177,
+		"nouns": [
+			"Chapter",
+			"Collision Response"
+		],
+		"dOIndex": 171,
+		"nouns2": [
+			"Chapter",
+			"Implementing",
+			"Collision",
+			"Response"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.5,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "Collision detection and response will be combined to implement real‐time collision capabilities in the 2D simulator.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 178,
+		"nouns": [
+			"Collision",
+			"detection",
+			"response",
+			"real‐time",
+			"collision",
+			"capabilities",
+			"D",
+			"simulator"
+		],
+		"dOIndex": 172,
+		"nouns2": [
+			"Collision",
+			"detection",
+			"response",
+			"real‐time",
+			"collision",
+			"capabilities",
+			"simulator"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.1875,
+			"words": [
+				"capabilities",
+				"collision",
+				"collision"
+			],
+			"positive": [
+				"capabilities"
+			],
+			"negative": [
+				"collision",
+				"collision"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 179,
+		"nouns": [],
+		"dOIndex": 173,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 180,
+		"nouns": [],
+		"dOIndex": 174,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 11, Rotation in 3D Rigid Body Simulators",
+		"why": "p",
+		"tags": [
+			"em",
+			"a",
+			"dt",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 181,
+		"nouns": [
+			"Chapter",
+			"Rotation",
+			"D",
+			"Body",
+			"Simulators"
+		],
+		"dOIndex": 175,
+		"nouns2": [
+			"Chapter",
+			"Rotation",
+			"Simulators"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "This chapter will address how to handle rigid body rotation in 3D including how to deal with the inertia tensor. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 182,
+		"nouns": [
+			"chapter",
+			"address",
+			"body",
+			"rotation",
+			"D",
+			"inertia",
+			"tensor"
+		],
+		"dOIndex": 176,
+		"nouns2": [
+			"chapter",
+			"address",
+			"rotation",
+			"inertia"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " Then we'll show the reader how to extend the 2D simulator to 3D.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 183,
+		"nouns": [
+			"ll",
+			"show",
+			"reader",
+			"D",
+			"simulator",
+			"D"
+		],
+		"dOIndex": 177,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulator"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.07142857142857142,
+			"words": [
+				"extend"
+			],
+			"positive": [
+				"extend"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 184,
+		"nouns": [],
+		"dOIndex": 178,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 185,
+		"nouns": [],
+		"dOIndex": 179,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 12, 3D Rigid Body Simulator",
+		"why": "p",
+		"tags": [
+			"em",
+			"a",
+			"dt",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 186,
+		"nouns": [
+			"Chapter",
+			"D",
+			"Body Simulator"
+		],
+		"dOIndex": 180,
+		"nouns2": [
+			"Chapter",
+			"Simulator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Multiple unconnected bodies will be incorporated in the simulator in this chapter. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 187,
+		"nouns": [
+			"Multiple",
+			"bodies",
+			"simulator",
+			"chapter"
+		],
+		"dOIndex": 181,
+		"nouns2": [
+			"Multiple",
+			"simulator",
+			"chapter"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " Introduction of multiple bodies requires resolution of multiple rigid body collisions, which can be very tricky. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 188,
+		"nouns": [
+			"Introduction",
+			"bodies",
+			"resolution",
+			"body",
+			"collisions"
+		],
+		"dOIndex": 182,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Introduction",
+			"resolution",
+			"collisions"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"collisions",
+				"resolution"
+			],
+			"positive": [
+				"resolution"
+			],
+			"negative": [
+				"collisions"
+			]
+		}
+	},
+	{
+		"txt": " Issues of stability and realism will be covered. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 189,
+		"nouns": [
+			"Issues",
+			"stability",
+			"realism"
+		],
+		"dOIndex": 183,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Issues",
+			"stability",
+			"realism"
+		]
+	},
+	{
+		"txt": " ",
+		"why": "p",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 190,
+		"nouns": [],
+		"dOIndex": 184,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 191,
+		"nouns": [],
+		"dOIndex": 185,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 13, Connecting Objects",
+		"why": "p",
+		"tags": [
+			"em",
+			"a",
+			"dt",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 192,
+		"nouns": [
+			"Chapter",
+			"Objects"
+		],
+		"dOIndex": 186,
+		"nouns2": [
+			"Chapter",
+			"Connecting",
+			"Objects"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Taking things a step further, this chapter will show how to join rigid bodies forming connected bodies, which may be used to simulate human bodies, complex vehicles that may blow apart, among many other game objects. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 193,
+		"nouns": [
+			"things",
+			"step",
+			"chapter",
+			"show",
+			"bodies",
+			"bodies",
+			"bodies",
+			"vehicles",
+			"blow",
+			"game",
+			"objects"
+		],
+		"dOIndex": 187,
+		"nouns2": [
+			"Taking",
+			"chapter",
+			"vehicles",
+			"objects"
+		],
+		"highfreq": {
+			"bodies": 3
+		},
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.02702702702702703,
+			"words": [
+				"join"
+			],
+			"positive": [
+				"join"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " Various connector types will be considered. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 194,
+		"nouns": [
+			"connector",
+			"types"
+		],
+		"dOIndex": 188,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Various",
+			"connector"
+		]
+	},
+	{
+		"txt": " ",
+		"why": "p",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 195,
+		"nouns": [],
+		"dOIndex": 189,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 196,
+		"nouns": [],
+		"dOIndex": 190,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 14, Physics Engines",
+		"why": "p",
+		"tags": [
+			"em",
+			"a",
+			"dt",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 197,
+		"nouns": [
+			"Chapter",
+			"Physics Engines"
+		],
+		"dOIndex": 191,
+		"nouns2": [
+			"Chapter",
+			"Physics",
+			"Engines"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "In this chapter, specific aspects of automobile performance are addressed, including aerodynamic drag, rolling resistance, skidding distance, and roadway banking.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 198,
+		"nouns": [
+			"chapter",
+			"aspects",
+			"automobile",
+			"performance",
+			"drag",
+			"resistance",
+			"distance",
+			"roadway"
+		],
+		"dOIndex": 192,
+		"nouns2": [
+			"chapter",
+			"aspects",
+			"automobile",
+			"performance",
+			"resistance",
+			"distance",
+			"roadway"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.05,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 199,
+		"nouns": [],
+		"dOIndex": 193,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 200,
+		"nouns": [],
+		"dOIndex": 194,
+		"isQuote": false
+	},
+	{
+		"txt": "Part III",
+		"why": "p",
+		"tags": [
+			"a",
+			"dt",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 201,
+		"nouns": [
+			"Part",
+			"III"
+		],
+		"dOIndex": 195,
+		"isQuote": false
+	},
+	{
+		"txt": " A look at some real world problems, comprising Chapters ",
+		"why": "link",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 202,
+		"nouns": [
+			"look",
+			"world",
+			"problems",
+			"Chapters"
+		],
+		"dOIndex": 196,
+		"nouns2": [
+			"problems",
+			"Chapters"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.18181818181818182,
+			"words": [
+				"problems"
+			],
+			"positive": [],
+			"negative": [
+				"problems"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "15 through ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 203,
+		"nouns": [],
+		"dOIndex": 197,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 204,
+		"nouns": [],
+		"dOIndex": 198,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "19 .",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 205,
+		"nouns": [],
+		"dOIndex": 199,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 206,
+		"nouns": [],
+		"dOIndex": 200,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 207,
+		"nouns": [],
+		"dOIndex": 201,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 15, Aircraft",
+		"why": "p",
+		"tags": [
+			"em",
+			"a",
+			"dt",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 208,
+		"nouns": [
+			"Chapter",
+			"Aircraft"
+		],
+		"dOIndex": 202,
+		"nouns2": [
+			"Chapter",
+			"Aircraft"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "This chapter focuses on the elements of flight including propulsor forces, drag, geometry, mass, and most importantly lift.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 209,
+		"nouns": [
+			"chapter",
+			"elements",
+			"flight",
+			"propulsor",
+			"forces",
+			"drag",
+			"geometry",
+			"mass"
+		],
+		"dOIndex": 203,
+		"nouns2": [
+			"chapter",
+			"elements",
+			"propulsor",
+			"geometry"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.05555555555555555,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 210,
+		"nouns": [],
+		"dOIndex": 204,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 211,
+		"nouns": [],
+		"dOIndex": 205,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 16, Ships and Boats",
+		"why": "p",
+		"tags": [
+			"em",
+			"a",
+			"dt",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 212,
+		"nouns": [
+			"Chapter",
+			"Ships",
+			"Boats"
+		],
+		"dOIndex": 206,
+		"nouns2": [
+			"Chapter"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "The fundamental elements of floating vehicles are discussed in this chapter, including floatation, stability, volume, drag, and speed. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 213,
+		"nouns": [
+			"elements",
+			"vehicles",
+			"chapter",
+			"floatation",
+			"stability",
+			"volume",
+			"drag"
+		],
+		"dOIndex": 207,
+		"nouns2": [
+			"elements",
+			"vehicles",
+			"chapter",
+			"floatation",
+			"stability"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.05263157894736842,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " ",
+		"why": "p",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 214,
+		"nouns": [],
+		"dOIndex": 208,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 215,
+		"nouns": [],
+		"dOIndex": 209,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 17, Cars and Hovercraft",
+		"why": "p",
+		"tags": [
+			"em",
+			"a",
+			"dt",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 216,
+		"nouns": [
+			"Chapter",
+			"Cars",
+			"Hovercraft"
+		],
+		"dOIndex": 210,
+		"nouns2": [
+			"Chapter",
+			"Hovercraft"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "In this chapter, specific aspects of automobile performance are addressed, including aerodynamic drag, rolling resistance, skidding distance, and roadway banking. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 217,
+		"nouns": [
+			"chapter",
+			"aspects",
+			"automobile",
+			"performance",
+			"drag",
+			"resistance",
+			"distance",
+			"roadway"
+		],
+		"dOIndex": 211,
+		"nouns2": [
+			"chapter",
+			"aspects",
+			"automobile",
+			"performance",
+			"resistance",
+			"distance",
+			"roadway"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.047619047619047616,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " Additionally hovercraft shares some of the same characteristics of both cars and boats. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 218,
+		"nouns": [
+			"hovercraft",
+			"shares",
+			"characteristics",
+			"both",
+			"cars",
+			"boats"
+		],
+		"dOIndex": 212,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Additionally",
+			"hovercraft",
+			"characteristics"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.06666666666666667,
+			"words": [
+				"shares"
+			],
+			"positive": [
+				"shares"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " This chapter will consider those characteristics that distinguish the hovercraft as a unique vehicle. Topics covered include hovering flight, aerostatic lift, and directional control ",
+		"why": "p",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 219,
+		"nouns": [
+			"chapter",
+			"characteristics",
+			"hovercraft",
+			"vehicle",
+			"Topics",
+			"flight",
+			"aerostatic",
+			"control"
+		],
+		"dOIndex": 213,
+		"nouns2": [
+			"chapter",
+			"characteristics",
+			"hovercraft",
+			"vehicle",
+			"Topics",
+			"aerostatic",
+			"control"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 220,
+		"nouns": [],
+		"dOIndex": 214,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 18, Guns and Explosions",
+		"why": "p",
+		"tags": [
+			"em",
+			"a",
+			"dt",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 221,
+		"nouns": [
+			"Chapter",
+			"Guns",
+			"Explosions"
+		],
+		"dOIndex": 215,
+		"nouns2": [
+			"Chapter",
+			"Explosions"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "This chapter will focus on the physics of guns including power, recoil, and projectile flight. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 222,
+		"nouns": [
+			"chapter",
+			"focus",
+			"physics",
+			"guns",
+			"power",
+			"recoil",
+			"projectile",
+			"flight"
+		],
+		"dOIndex": 216,
+		"nouns2": [
+			"chapter",
+			"physics",
+			"projectile"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " Since we generally want things to explode when hit with a large projectile, this chapter will also address the physics of and modeling explosions.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 223,
+		"nouns": [
+			"things",
+			"projectile",
+			"chapter",
+			"address",
+			"physics",
+			"explosions"
+		],
+		"dOIndex": 217,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"projectile",
+			"chapter",
+			"address",
+			"physics",
+			"explosions"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.04,
+			"words": [
+				"want"
+			],
+			"positive": [
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 224,
+		"nouns": [],
+		"dOIndex": 218,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 225,
+		"nouns": [],
+		"dOIndex": 219,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 19, Sports",
+		"why": "p",
+		"tags": [
+			"em",
+			"a",
+			"dt",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 226,
+		"nouns": [
+			"Chapter",
+			"Sports"
+		],
+		"dOIndex": 220,
+		"nouns2": [
+			"Chapter",
+			"Sports"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "This chapter will focus on the physics of ball sports such as baseball, golf, and tennis. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 227,
+		"nouns": [
+			"chapter",
+			"focus",
+			"physics",
+			"ball",
+			"sports",
+			"baseball",
+			"golf",
+			"tennis"
+		],
+		"dOIndex": 221,
+		"nouns2": [
+			"chapter",
+			"physics",
+			"baseball"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " Coverage will go beyond projectile physics and include such topics as including pitching, bat swing, bat‐ball impact, golf club swing and club ball impact, plus tennis racket swinging and racket/ball impacts.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 228,
+		"nouns": [
+			"Coverage",
+			"projectile",
+			"physics",
+			"topics",
+			"bat",
+			"bat‐ball",
+			"impact",
+			"golf",
+			"club",
+			"club",
+			"ball",
+			"impact",
+			"tennis",
+			"racket",
+			"racket",
+			"/",
+			"ball",
+			"impacts"
+		],
+		"dOIndex": 222,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Coverage",
+			"projectile",
+			"physics",
+			"bat‐ball",
+			"impacts"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 229,
+		"nouns": [],
+		"dOIndex": 223,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 230,
+		"nouns": [],
+		"dOIndex": 224,
+		"isQuote": false
+	},
+	{
+		"txt": "Part IV",
+		"why": "p",
+		"tags": [
+			"a",
+			"dt",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 231,
+		"nouns": [
+			"Part IV"
+		],
+		"dOIndex": 225,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapters in this part of the book will explain the physics behind accelerometers, touch screens, GPS and other gizmos showing the reader how to leverage these elements in their games, comprising Chapters ",
+		"why": "link",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 232,
+		"nouns": [
+			"Chapters",
+			"part",
+			"book",
+			"physics",
+			"accelerometers",
+			"touch",
+			"screens",
+			"GPS",
+			"gizmos",
+			"reader",
+			"leverage",
+			"elements",
+			"games",
+			"Chapters"
+		],
+		"dOIndex": 226,
+		"nouns2": [
+			"Chapters",
+			"physics",
+			"accelerometers",
+			"screens",
+			"leverage",
+			"elements"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "20 through ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 233,
+		"nouns": [],
+		"dOIndex": 227,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 234,
+		"nouns": [],
+		"dOIndex": 228,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "26 .",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 235,
+		"nouns": [],
+		"dOIndex": 229,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 236,
+		"nouns": [],
+		"dOIndex": 230,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 237,
+		"nouns": [],
+		"dOIndex": 231,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 20, Touch Screens",
+		"why": "p",
+		"tags": [
+			"em",
+			"a",
+			"dt",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 238,
+		"nouns": [
+			"Chapter",
+			"Touch",
+			"Screens"
+		],
+		"dOIndex": 232,
+		"nouns2": [
+			"Chapter",
+			"Screens"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Touch screens facilitate virtual tactile interfaces with mobile device games, such as those made for the iPhone. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 239,
+		"nouns": [
+			"Touch",
+			"screens",
+			"interfaces",
+			"device",
+			"games",
+			"iPhone"
+		],
+		"dOIndex": 233,
+		"nouns2": [
+			"screens",
+			"interfaces"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " This chapter will explain the physics of touch screen and how the reader can leverage this interface in their games particularly with respect to virtual physical interaction with game elements through gesturing.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 240,
+		"nouns": [
+			"chapter",
+			"physics",
+			"touch",
+			"screen",
+			"reader",
+			"leverage",
+			"interface",
+			"games",
+			"respect",
+			"interaction",
+			"game",
+			"elements"
+		],
+		"dOIndex": 234,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"chapter",
+			"physics",
+			"leverage",
+			"interface",
+			"respect",
+			"interaction",
+			"elements"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.06060606060606061,
+			"words": [
+				"respect"
+			],
+			"positive": [
+				"respect"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 241,
+		"nouns": [],
+		"dOIndex": 235,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 242,
+		"nouns": [],
+		"dOIndex": 236,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 21, Accelerometers",
+		"why": "p",
+		"tags": [
+			"em",
+			"a",
+			"dt",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 243,
+		"nouns": [
+			"Chapter",
+			"Accelerometers"
+		],
+		"dOIndex": 237,
+		"nouns2": [
+			"Chapter",
+			"Accelerometers"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Accelerometers are now widely used in mobile devices and game controllers allowing virtual physical interaction between players and game objects. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 244,
+		"nouns": [
+			"Accelerometers",
+			"devices",
+			"game",
+			"controllers",
+			"interaction",
+			"players",
+			"game",
+			"objects"
+		],
+		"dOIndex": 238,
+		"nouns2": [
+			"Accelerometers",
+			"devices",
+			"controllers",
+			"interaction",
+			"players",
+			"objects"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " This chapter will explain how accelerometers work, what data they provide and how that data can be manipulated with respect to virtual physical interaction with game elements. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 245,
+		"nouns": [
+			"chapter",
+			"accelerometers",
+			"work",
+			"data",
+			"data",
+			"respect",
+			"interaction",
+			"game",
+			"elements"
+		],
+		"dOIndex": 239,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"chapter",
+			"accelerometers",
+			"respect",
+			"interaction",
+			"elements"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.034482758620689655,
+			"words": [
+				"respect",
+				"manipulated"
+			],
+			"positive": [
+				"respect"
+			],
+			"negative": [
+				"manipulated"
+			]
+		}
+	},
+	{
+		"txt": " Topics covered will include, but not be limited to integration of acceleration data to derive velocities and displacements and rotations.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 246,
+		"nouns": [
+			"Topics",
+			"integration",
+			"acceleration",
+			"data",
+			"velocities",
+			"displacements",
+			"rotations"
+		],
+		"dOIndex": 240,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Topics",
+			"integration",
+			"acceleration",
+			"velocities",
+			"displacements",
+			"rotations"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.047619047619047616,
+			"words": [
+				"limited"
+			],
+			"positive": [],
+			"negative": [
+				"limited"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 247,
+		"nouns": [],
+		"dOIndex": 241,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 248,
+		"nouns": [],
+		"dOIndex": 242,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 22, Gaming from One Place to Another",
+		"why": "p",
+		"tags": [
+			"em",
+			"a",
+			"dt",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 249,
+		"nouns": [
+			"Chapter",
+			"One Place"
+		],
+		"dOIndex": 243,
+		"nouns2": [
+			"Chapter",
+			"Gaming",
+			"Another"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Mobile devices commonly have GPS capabilities and this chapter will explain the physics of the GPS system including relativistic effects. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 250,
+		"nouns": [
+			"Mobile",
+			"devices",
+			"GPS",
+			"capabilities",
+			"chapter",
+			"physics",
+			"GPS",
+			"system",
+			"effects"
+		],
+		"dOIndex": 244,
+		"nouns2": [
+			"Mobile",
+			"devices",
+			"capabilities",
+			"chapter",
+			"physics",
+			"effects"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.047619047619047616,
+			"words": [
+				"capabilities"
+			],
+			"positive": [
+				"capabilities"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " Further, GPS data will be explained and this chapter showing the reader how to manipulate that data for virtual interaction with game elements. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 251,
+		"nouns": [
+			"GPS",
+			"data",
+			"chapter",
+			"reader",
+			"data",
+			"interaction",
+			"game",
+			"elements"
+		],
+		"dOIndex": 245,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Further",
+			"chapter",
+			"interaction",
+			"elements"
+		]
+	},
+	{
+		"txt": " For example, we'll show the reader how to differentiate GPS data to derive speed and acceleration among other manipulations. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 252,
+		"nouns": [
+			"example",
+			"ll",
+			"show",
+			"reader",
+			"GPS",
+			"data",
+			"acceleration",
+			"manipulations"
+		],
+		"dOIndex": 246,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"acceleration",
+			"manipulations"
+		]
+	},
+	{
+		"txt": " ",
+		"why": "p",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 253,
+		"nouns": [],
+		"dOIndex": 247,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 254,
+		"nouns": [],
+		"dOIndex": 248,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 23, Pressure Sensors and Load Cells",
+		"why": "p",
+		"tags": [
+			"em",
+			"a",
+			"dt",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 255,
+		"nouns": [
+			"Chapter",
+			"Pressure",
+			"Sensors",
+			"Load",
+			"Cells"
+		],
+		"dOIndex": 249,
+		"nouns2": [
+			"Chapter",
+			"Pressure",
+			"Sensors"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.16666666666666666,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "Pressure sensing devices are used in games as a means of allowing players to interact with game elements, for example, the Wii balance board uses pressure sensors allowing players to interact with the Wii Fit game. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 256,
+		"nouns": [
+			"Pressure",
+			"devices",
+			"games",
+			"players",
+			"game",
+			"elements",
+			"example",
+			"Wii",
+			"balance",
+			"board",
+			"pressure",
+			"sensors",
+			"players",
+			"Wii",
+			"game"
+		],
+		"dOIndex": 250,
+		"nouns2": [
+			"Pressure",
+			"devices",
+			"players",
+			"elements",
+			"example",
+			"balance",
+			"pressure",
+			"sensors"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.02702702702702703,
+			"words": [
+				"fit",
+				"pressure",
+				"pressure"
+			],
+			"positive": [
+				"fit"
+			],
+			"negative": [
+				"pressure",
+				"pressure"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " This chapter will explain the physics behind such pressure sensors, what data they generate, and how to manipulate that data for game interaction.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 257,
+		"nouns": [
+			"chapter",
+			"physics",
+			"pressure",
+			"sensors",
+			"data",
+			"data",
+			"game",
+			"interaction"
+		],
+		"dOIndex": 251,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"chapter",
+			"physics",
+			"pressure",
+			"sensors",
+			"interaction"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.041666666666666664,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 258,
+		"nouns": [],
+		"dOIndex": 252,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 259,
+		"nouns": [],
+		"dOIndex": 253,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 24, 3D Display",
+		"why": "p",
+		"tags": [
+			"em",
+			"a",
+			"dt",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 260,
+		"nouns": [
+			"Chapter",
+			"D",
+			"Display"
+		],
+		"dOIndex": 254,
+		"nouns2": [
+			"Chapter",
+			"Display"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "The new PlayStation Move and Microsoft's Kinect use optical tracking systems to detect the position of players' game controllers or gestures. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 261,
+		"nouns": [
+			"PlayStation",
+			"Microsoft",
+			"Kinect",
+			"use",
+			"systems",
+			"position",
+			"players",
+			"game",
+			"controllers",
+			"gestures"
+		],
+		"dOIndex": 255,
+		"nouns2": [
+			"PlayStation",
+			"Microsoft",
+			"Kinect",
+			"systems",
+			"position",
+			"players",
+			"controllers",
+			"gestures"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " This chapter will explain the physics behind optical tracking and how to leverage this technology in games.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 262,
+		"nouns": [
+			"chapter",
+			"physics",
+			"leverage",
+			"technology",
+			"games"
+		],
+		"dOIndex": 256,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"chapter",
+			"physics",
+			"leverage",
+			"technology"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 263,
+		"nouns": [],
+		"dOIndex": 257,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 264,
+		"nouns": [],
+		"dOIndex": 258,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 25, Optical Tracking",
+		"why": "p",
+		"tags": [
+			"em",
+			"a",
+			"dt",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 265,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 259,
+		"nouns2": [
+			"Chapter",
+			"Optical",
+			"Tracking"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "As televisions and handheld game consoles race to implement 3D displays, several different technologies are being developed. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 266,
+		"nouns": [
+			"televisions",
+			"game",
+			"consoles",
+			"race",
+			"D",
+			"displays",
+			"technologies"
+		],
+		"dOIndex": 260,
+		"nouns2": [
+			"televisions",
+			"consoles",
+			"displays",
+			"technologies"
+		],
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": true,
+		"nounsProcAll": [
+			"televisions",
+			"game",
+			"consoles",
+			"race",
+			"D",
+			"displays",
+			"technologies"
+		]
+	},
+	{
+		"txt": " By understanding the physics of the glasses dependent stereoscopic displays, the new ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 267,
+		"nouns": [
+			"physics",
+			"glasses",
+			"stereoscopic",
+			"displays"
+		],
+		"dOIndex": 261,
+		"ignoreDOBcNoQuotes": false,
+		"isQuote": false,
+		"nounsProcAll": [
+			"physics",
+			"glasses",
+			"stereoscopic",
+			"displays"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"physics",
+			"glasses",
+			"stereoscopic",
+			"displays"
+		]
+	},
+	{
+		"txt": " \"glasses free\" ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 268,
+		"nouns": [
+			"glasses"
+		],
+		"dOIndex": 262,
+		"isQuote": true,
+		"nounsProcAll": [
+			"glasses"
+		],
+		"sfxfx": [],
+		"gspkNameUnknown": "narrator",
+		"nouns2": [
+			"glasses"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.25,
+			"words": [
+				"free"
+			],
+			"positive": [
+				"free"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " autostereoscopic displays, and looking forward to holography and volumetric displays, developers will be better positioned to leverage these effects in their games.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 269,
+		"nouns": [
+			"autostereoscopic",
+			"displays",
+			"holography",
+			"displays",
+			"developers",
+			"leverage",
+			"effects",
+			"games"
+		],
+		"dOIndex": 263,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [
+			"autostereoscopic",
+			"displays",
+			"holography",
+			"displays",
+			"developers",
+			"leverage",
+			"effects",
+			"games"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"autostereoscopic",
+			"displays",
+			"holography",
+			"developers",
+			"leverage",
+			"effects"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08695652173913043,
+			"words": [
+				"better"
+			],
+			"positive": [
+				"better"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 270,
+		"nouns": [],
+		"dOIndex": 264,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 271,
+		"nouns": [],
+		"dOIndex": 265,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 26, Sound",
+		"why": "p",
+		"tags": [
+			"em",
+			"a",
+			"dt",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 272,
+		"nouns": [
+			"Chapter",
+			"Sound"
+		],
+		"dOIndex": 266,
+		"nouns2": [
+			"Chapter"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Sound is a particularly important part of a game's immersive experience; however, to date no book on game physics addresses the physics of sound. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 273,
+		"nouns": [
+			"Sound",
+			"part",
+			"game",
+			"immersive",
+			"experience",
+			"date",
+			"book",
+			"game",
+			"physics",
+			"addresses",
+			"physics",
+			"sound"
+		],
+		"dOIndex": 267,
+		"nouns2": [
+			"immersive",
+			"experience",
+			"physics",
+			"addresses"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.04,
+			"words": [
+				"no",
+				"important"
+			],
+			"positive": [
+				"important"
+			],
+			"negative": [
+				"no"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " This chapter will focus on sound physics including such topics of sound speed and the Doppler Effect. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 274,
+		"nouns": [
+			"chapter",
+			"focus",
+			"sound",
+			"physics",
+			"topics",
+			"sound",
+			"Doppler",
+			"Effect"
+		],
+		"dOIndex": 268,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"chapter",
+			"physics",
+			"Doppler",
+			"Effect"
+		]
+	},
+	{
+		"txt": " Discussions will also include why sound physics is often ignored in games, for example, when simulating explosions in outer space. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 275,
+		"nouns": [
+			"Discussions",
+			"sound",
+			"physics",
+			"games",
+			"example",
+			"explosions",
+			"space"
+		],
+		"dOIndex": 269,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Discussions",
+			"physics",
+			"example",
+			"explosions"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.09090909090909091,
+			"words": [
+				"ignored"
+			],
+			"positive": [],
+			"negative": [
+				"ignored"
+			]
+		}
+	},
+	{
+		"txt": " ",
+		"why": "p",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 276,
+		"nouns": [],
+		"dOIndex": 270,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 277,
+		"nouns": [],
+		"dOIndex": 271,
+		"isQuote": false
+	},
+	{
+		"txt": "Appendix A",
+		"why": "p",
+		"tags": [
+			"a",
+			"dt",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 278,
+		"nouns": [
+			"Appendix"
+		],
+		"dOIndex": 272,
+		"nouns2": [
+			"Appendix"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "This appendix shows you how to implement a C++ class that captures all of the vector operations that you'll need to when writing 2D or 3D simulations. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 279,
+		"nouns": [
+			"appendix",
+			"C++",
+			"class",
+			"vector",
+			"operations",
+			"ll",
+			"D",
+			"D",
+			"simulations"
+		],
+		"dOIndex": 273,
+		"nouns2": [
+			"appendix",
+			"operations",
+			"simulations"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " ",
+		"why": "p",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 280,
+		"nouns": [],
+		"dOIndex": 274,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 281,
+		"nouns": [],
+		"dOIndex": 275,
+		"isQuote": false
+	},
+	{
+		"txt": "Appendix B",
+		"why": "p",
+		"tags": [
+			"a",
+			"dt",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 282,
+		"nouns": [
+			"Appendix B"
+		],
+		"dOIndex": 276,
+		"nouns2": [
+			"Appendix"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "This appendix implements a class that captures all of the operations you need to handle 3x3 matrices.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 283,
+		"nouns": [
+			"appendix",
+			"implements",
+			"class",
+			"operations",
+			"x",
+			"matrices"
+		],
+		"dOIndex": 277,
+		"nouns2": [
+			"appendix",
+			"implements",
+			"operations",
+			"matrices"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 284,
+		"nouns": [],
+		"dOIndex": 278,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 285,
+		"nouns": [],
+		"dOIndex": 279,
+		"isQuote": false
+	},
+	{
+		"txt": "Appendix C",
+		"why": "p",
+		"tags": [
+			"a",
+			"dt",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 286,
+		"nouns": [
+			"Appendix",
+			"C"
+		],
+		"dOIndex": 280,
+		"nouns2": [
+			"Appendix"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "This appendix implements a class that captures all of the operations you need to handle quaternions when writing 3D rigid body simulations.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 287,
+		"nouns": [
+			"appendix",
+			"implements",
+			"class",
+			"operations",
+			"quaternions",
+			"D",
+			"body",
+			"simulations"
+		],
+		"dOIndex": 281,
+		"nouns2": [
+			"appendix",
+			"implements",
+			"operations",
+			"quaternions",
+			"simulations"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 288,
+		"nouns": [],
+		"dOIndex": 282,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 289,
+		"nouns": [],
+		"dOIndex": 283,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 290,
+		"nouns": [],
+		"dOIndex": 284,
+		"isQuote": false
+	},
+	{
+		"txt": "Part I focuses on fundamental topics in Newtonian mechanics such as kinematics and kinetics. ",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 291,
+		"nouns": [
+			"Part",
+			"topics",
+			"mechanics",
+			"kinematics",
+			"kinetics"
+		],
+		"dOIndex": 285,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Newtonian",
+			"mechanics",
+			"kinematics",
+			"kinetics"
+		]
+	},
+	{
+		"txt": " Kinematics deals with the motion of objects. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 292,
+		"nouns": [
+			"Kinematics",
+			"deals",
+			"motion",
+			"objects"
+		],
+		"dOIndex": 286,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Kinematics",
+			"objects"
+		]
+	},
+	{
+		"txt": " We'll cover both linear and angular velocity and acceleration. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 293,
+		"nouns": [
+			"ll",
+			"both",
+			"velocity",
+			"acceleration"
+		],
+		"dOIndex": 287,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity",
+			"acceleration"
+		]
+	},
+	{
+		"txt": " Kinetics deals with forces and resulting motion. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 294,
+		"nouns": [
+			"Kinetics",
+			"deals",
+			"forces",
+			"motion"
+		],
+		"dOIndex": 288,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Kinetics"
+		]
+	},
+	{
+		"txt": " Part I serves as a primer for ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 295,
+		"nouns": [
+			"Part",
+			"primer"
+		],
+		"dOIndex": 289,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Part II",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 296,
+		"nouns": [
+			"Part",
+			"II"
+		],
+		"dOIndex": 290,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " that covers rigid body dynamics. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 297,
+		"nouns": [
+			"body",
+			"dynamics"
+		],
+		"dOIndex": 291,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"dynamics"
+		]
+	},
+	{
+		"txt": " Readers already versed in classical mechanics can skip ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 298,
+		"nouns": [
+			"Readers",
+			"mechanics"
+		],
+		"dOIndex": 292,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Readers",
+			"mechanics"
+		]
+	},
+	{
+		"txt": "Part I",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 299,
+		"nouns": [
+			"Part"
+		],
+		"dOIndex": 293,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " without loss of continuity.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 300,
+		"nouns": [
+			"loss",
+			"continuity"
+		],
+		"dOIndex": 294,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"continuity"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.6,
+			"words": [
+				"loss"
+			],
+			"positive": [],
+			"negative": [
+				"loss"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 301,
+		"nouns": [],
+		"dOIndex": 295,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 302,
+		"nouns": [],
+		"dOIndex": 296,
+		"isQuote": false
+	},
+	{
+		"txt": "Part II focuses on rigid body dynamics and development of both single and multi body simulations. ",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 303,
+		"nouns": [
+			"Part",
+			"II",
+			"body",
+			"dynamics",
+			"development",
+			"both",
+			"multi",
+			"body",
+			"simulations"
+		],
+		"dOIndex": 297,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"dynamics",
+			"development",
+			"simulations"
+		]
+	},
+	{
+		"txt": " This part covers numerical integration, real time simulation of particles and rigid bodies, and connected rigid bodies. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 304,
+		"nouns": [
+			"part",
+			"integration",
+			"time",
+			"simulation",
+			"particles",
+			"bodies",
+			"bodies"
+		],
+		"dOIndex": 298,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"integration",
+			"simulation",
+			"particles"
+		]
+	},
+	{
+		"txt": " Generally, this part covers what most game programmers consider elements of a physics engine. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 305,
+		"nouns": [
+			"part",
+			"game",
+			"programmers",
+			"elements",
+			"physics",
+			"engine"
+		],
+		"dOIndex": 299,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Generally",
+			"programmers",
+			"elements",
+			"physics"
+		]
+	},
+	{
+		"txt": " ",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 306,
+		"nouns": [],
+		"dOIndex": 300,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 307,
+		"nouns": [],
+		"dOIndex": 301,
+		"isQuote": false
+	},
+	{
+		"txt": "Part III focuses on physical modeling. ",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 308,
+		"nouns": [
+			"Part",
+			"III"
+		],
+		"dOIndex": 302,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " The aim of this part is to provide valuable physical insight for the reader so they can make better judgments on what to include in their models and what they can safely leave out without sacrificing physical realism. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 309,
+		"nouns": [
+			"aim",
+			"part",
+			"insight",
+			"reader",
+			"judgments",
+			"models",
+			"realism"
+		],
+		"dOIndex": 303,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"insight",
+			"judgments",
+			"realism"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.05,
+			"words": [
+				"leave",
+				"safely",
+				"better"
+			],
+			"positive": [
+				"safely",
+				"better"
+			],
+			"negative": [
+				"leave"
+			]
+		}
+	},
+	{
+		"txt": " We cannot and do not attempt to cover all the possible things you might want to simulate. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 310,
+		"nouns": [
+			"attempt",
+			"things"
+		],
+		"dOIndex": 304,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"attempt"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.05263157894736842,
+			"words": [
+				"want"
+			],
+			"positive": [
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Instead we cover several typical things you may try to simulate in a game such as aircraft, boats, sports balls, among others with the purpose of giving you some insight into the physical nature of those things and some of the choices you must make when developing suitable models. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 311,
+		"nouns": [
+			"things",
+			"game",
+			"aircraft",
+			"boats",
+			"sports",
+			"balls",
+			"others",
+			"purpose",
+			"insight",
+			"nature",
+			"things",
+			"choices",
+			"models"
+		],
+		"dOIndex": 305,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Instead",
+			"aircraft",
+			"purpose",
+			"insight",
+			"choices"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.0392156862745098,
+			"words": [
+				"suitable"
+			],
+			"positive": [
+				"suitable"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " ",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 312,
+		"nouns": [],
+		"dOIndex": 306,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 313,
+		"nouns": [],
+		"dOIndex": 307,
+		"isQuote": false
+	},
+	{
+		"txt": "Part IV covers digital physics in a broad sense. ",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 314,
+		"nouns": [
+			"Part IV",
+			"physics",
+			"sense"
+		],
+		"dOIndex": 308,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"physics"
+		]
+	},
+	{
+		"txt": " This is an exciting topic as it relates to the technologies associated with mobile platforms, such as smart phones like the iPhone, and ground breaking game systems such as the Nentendo Wii. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 315,
+		"nouns": [
+			"topic",
+			"technologies",
+			"platforms",
+			"phones",
+			"iPhone",
+			"ground",
+			"game",
+			"systems",
+			"Nentendo",
+			"Wii"
+		],
+		"dOIndex": 309,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"technologies",
+			"platforms",
+			"systems",
+			"Nentendo"
+		],
+		"sentiment": {
+			"score": 6,
+			"comparative": 0.17647058823529413,
+			"words": [
+				"like",
+				"smart",
+				"exciting"
+			],
+			"positive": [
+				"like",
+				"smart",
+				"exciting"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Chapters in this part of the book will explain the physics behind accelerometers, touch screens, GPS and other gizmos showing the reader how to leverage these elements in their games. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 316,
+		"nouns": [
+			"Chapters",
+			"part",
+			"book",
+			"physics",
+			"accelerometers",
+			"touch",
+			"screens",
+			"GPS",
+			"gizmos",
+			"reader",
+			"leverage",
+			"elements",
+			"games"
+		],
+		"dOIndex": 310,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapters",
+			"physics",
+			"accelerometers",
+			"screens",
+			"leverage",
+			"elements"
+		]
+	},
+	{
+		"txt": " We recognize that these topics are not what most game programmers typically think about when they think of game physics; however, the technologies covered play an increasingly important role in modern mobile games and we feel it important to explain the underlying physics behind them with the hope that you'll be better able to leverage these technologies in your games. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 317,
+		"nouns": [
+			"topics",
+			"game",
+			"programmers",
+			"game",
+			"physics",
+			"technologies",
+			"role",
+			"games",
+			"physics",
+			"hope",
+			"ll",
+			"leverage",
+			"technologies",
+			"games"
+		],
+		"dOIndex": 311,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"programmers",
+			"physics",
+			"technologies",
+			"leverage"
+		],
+		"sentiment": {
+			"score": 8,
+			"comparative": 0.12903225806451613,
+			"words": [
+				"better",
+				"hope",
+				"important",
+				"important"
+			],
+			"positive": [
+				"better",
+				"hope",
+				"important",
+				"important"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " ",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 318,
+		"nouns": [],
+		"dOIndex": 312,
+		"isQuote": false
+	},
+	{
+		"txt": "In addition to resources pertaining to real time simulations, the ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 319,
+		"nouns": [
+			"addition",
+			"resources",
+			"time",
+			"simulations"
+		],
+		"dOIndex": 313,
+		"nouns2": [
+			"addition",
+			"resources",
+			"simulations"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Bibliography",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 320,
+		"nouns": [
+			"Bibliography"
+		],
+		"dOIndex": 314,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Bibliography"
+		]
+	},
+	{
+		"txt": " at the end of this book will provide sources of information on mechanics, mathematics, and other specific technical subjects, such as books on aerodynamics.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 321,
+		"nouns": [
+			"end",
+			"book",
+			"sources",
+			"information",
+			"mechanics",
+			"mathematics",
+			"subjects",
+			"books",
+			"aerodynamics"
+		],
+		"dOIndex": 315,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"sources",
+			"information",
+			"mechanics",
+			"mathematics",
+			"subjects",
+			"aerodynamics"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 322,
+		"nouns": [],
+		"dOIndex": 316,
+		"isQuote": false
+	},
+	{
+		"txt": "Conventions Used in This Book",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 323,
+		"nouns": [
+			"Conventions",
+			"Book"
+		],
+		"dOIndex": 317,
+		"nouns2": [
+			"Conventions"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "The following typographical conventions are used in this book:Constant width",
+		"why": "p",
+		"tags": [
+			"code",
+			"dt",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 324,
+		"nouns": [
+			"conventions",
+			"book",
+			"width"
+		],
+		"dOIndex": 318,
+		"nouns2": [
+			"conventions",
+			"Constant"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Used to indicate command line computer output, code examples, Registry keys, and keyboard accelerators (see ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 325,
+		"nouns": [
+			"command",
+			"line",
+			"computer",
+			"output",
+			"code",
+			"examples",
+			"Registry",
+			"keys",
+			"keyboard",
+			"accelerators"
+		],
+		"dOIndex": 319,
+		"nouns2": [
+			"command",
+			"computer",
+			"output",
+			"examples",
+			"registry",
+			"keyboard",
+			"accelerators"
+		],
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [
+			"command",
+			"line",
+			"computer",
+			"output",
+			"code",
+			"examples",
+			"Registry",
+			"keys",
+			"keyboard",
+			"accelerators"
+		],
+		"sfxfx": []
+	},
+	{
+		"txt": " \"Keyboard Accelerators\" ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 326,
+		"nouns": [
+			"Keyboard",
+			"Accelerators"
+		],
+		"dOIndex": 320,
+		"isQuote": true,
+		"nounsProcAll": [
+			"Keyboard",
+			"Accelerators"
+		],
+		"sfxfx": [],
+		"gspkNameUnknown": "narrator",
+		"nouns2": [
+			"Keyboard",
+			"Accelerators"
+		]
+	},
+	{
+		"txt": " later in this book).",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 327,
+		"nouns": [
+			"book"
+		],
+		"dOIndex": 321,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [
+			"book"
+		],
+		"sfxfx": []
+	},
+	{
+		"txt": "Constant width italic",
+		"why": "p",
+		"tags": [
+			"code",
+			"em",
+			"dt",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 328,
+		"nouns": [
+			"width",
+			"italic"
+		],
+		"dOIndex": 322,
+		"nouns2": [
+			"Constant"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Used to indicate variables in code examples.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 329,
+		"nouns": [
+			"variables",
+			"code",
+			"examples"
+		],
+		"dOIndex": 323,
+		"nouns2": [
+			"variables",
+			"examples"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Italic",
+		"why": "p",
+		"tags": [
+			"em",
+			"dt",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 330,
+		"nouns": [
+			"Italic"
+		],
+		"dOIndex": 324,
+		"nouns2": [
+			"Italic"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Introduces new terms and to indicate URLs, variables, filenames and directories, commands, and file extensions.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 331,
+		"nouns": [
+			"terms",
+			"URLs",
+			"variables",
+			"filenames",
+			"directories",
+			"commands",
+			"extensions"
+		],
+		"dOIndex": 325,
+		"nouns2": [
+			"Introduces",
+			"variables",
+			"filenames",
+			"directories",
+			"commands",
+			"extensions"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Bold",
+		"why": "p",
+		"tags": [
+			"strong",
+			"dt",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 332,
+		"nouns": [
+			"Bold"
+		],
+		"dOIndex": 326,
+		"sentiment": {
+			"score": 2,
+			"comparative": 2,
+			"words": [
+				"bold"
+			],
+			"positive": [
+				"bold"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "Indicates vector variables.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 333,
+		"nouns": [
+			"vector",
+			"variables"
+		],
+		"dOIndex": 327,
+		"nouns2": [
+			"Indicates",
+			"variables"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 334,
+		"nouns": [],
+		"dOIndex": 328,
+		"isQuote": false
+	},
+	{
+		"txt": "Tip",
+		"why": "p",
+		"tags": [
+			"h3",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 335,
+		"nouns": [
+			"Tip"
+		],
+		"dOIndex": 329,
+		"isQuote": false
+	},
+	{
+		"txt": "This icon signifies a tip, suggestion, or general note.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 336,
+		"nouns": [
+			"icon",
+			"tip",
+			"suggestion",
+			"note"
+		],
+		"dOIndex": 330,
+		"nouns2": [
+			"suggestion"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 337,
+		"nouns": [],
+		"dOIndex": 331,
+		"isQuote": false
+	},
+	{
+		"txt": "Caution",
+		"why": "p",
+		"tags": [
+			"h3",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 338,
+		"nouns": [
+			"Caution"
+		],
+		"dOIndex": 332,
+		"nouns2": [
+			"Caution"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "This icon indicates a warning or caution.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 339,
+		"nouns": [
+			"icon",
+			"caution"
+		],
+		"dOIndex": 333,
+		"nouns2": [
+			"caution"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.42857142857142855,
+			"words": [
+				"warning"
+			],
+			"positive": [],
+			"negative": [
+				"warning"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 340,
+		"nouns": [],
+		"dOIndex": 334,
+		"isQuote": false
+	},
+	{
+		"txt": "We use boldface type to indicate a vector quantity, such as force, F . ",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 341,
+		"nouns": [
+			"use",
+			"boldface",
+			"type",
+			"vector",
+			"quantity",
+			"force",
+			"F"
+		],
+		"dOIndex": 335,
+		"nouns2": [
+			"boldface",
+			"quantity"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " When referring to the magnitude only of a vector quantity, we use standard type. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 342,
+		"nouns": [
+			"magnitude",
+			"vector",
+			"quantity",
+			"use",
+			"type"
+		],
+		"dOIndex": 336,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"magnitude",
+			"quantity"
+		]
+	},
+	{
+		"txt": " For example, the magnitude of the vector force, F , is F with components along the coordinate axes, Fx, Fy, and Fz. ",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 343,
+		"nouns": [
+			"example",
+			"magnitude",
+			"vector",
+			"force",
+			"F",
+			"F",
+			"components",
+			"coordinate",
+			"axes",
+			"Fx",
+			"Fz"
+		],
+		"dOIndex": 337,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"magnitude",
+			"components",
+			"coordinate"
+		]
+	},
+	{
+		"txt": " In the code samples throughout the book, we use the * (asterisk) to indicate vector dot product, or scalar product, operations depending on the context, and we use the ^ (caret) to indicate vector cross product. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 344,
+		"nouns": [
+			"code",
+			"samples",
+			"book",
+			"use",
+			"asterisk",
+			"vector",
+			"dot",
+			"product",
+			"product",
+			"operations",
+			"context",
+			"use",
+			"^",
+			"caret",
+			"vector",
+			"product"
+		],
+		"dOIndex": 338,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"samples",
+			"asterisk",
+			"product",
+			"operations",
+			"context"
+		],
+		"highfreq": {
+			"product": 3
+		}
+	},
+	{
+		"txt": " ",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 345,
+		"nouns": [],
+		"dOIndex": 339,
+		"isQuote": false
+	},
+	{
+		"txt": "Using Code Examples",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 346,
+		"nouns": [
+			"Code",
+			"Examples"
+		],
+		"dOIndex": 340,
+		"nouns2": [
+			"Examples"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "This book is here to help you get your job done. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 347,
+		"nouns": [
+			"book",
+			"job"
+		],
+		"dOIndex": 341,
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.16666666666666666,
+			"words": [
+				"help"
+			],
+			"positive": [
+				"help"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " In general, if this book includes code examples, you may use the code in your programs and documentation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 348,
+		"nouns": [
+			"book",
+			"code",
+			"examples",
+			"use",
+			"code",
+			"programs",
+			"documentation"
+		],
+		"dOIndex": 342,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"examples",
+			"programs",
+			"documentation"
+		]
+	},
+	{
+		"txt": " You do not need to contact us for permission unless you're reproducing a significant portion of the code. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 349,
+		"nouns": [
+			"contact",
+			"permission",
+			"re",
+			"portion",
+			"code"
+		],
+		"dOIndex": 343,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"contact",
+			"permission",
+			"portion"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.05,
+			"words": [
+				"significant"
+			],
+			"positive": [
+				"significant"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " For example, writing a program that uses several chunks of code from this book does not require permission. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 350,
+		"nouns": [
+			"example",
+			"program",
+			"chunks",
+			"code",
+			"book",
+			"permission"
+		],
+		"dOIndex": 344,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"program",
+			"permission"
+		]
+	},
+	{
+		"txt": " Selling or distributing a CD ROM of examples from O'Reilly books does require permission. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 351,
+		"nouns": [
+			"CD",
+			"ROM",
+			"examples",
+			"books",
+			"permission"
+		],
+		"dOIndex": 345,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Selling",
+			"examples",
+			"Reilly",
+			"permission"
+		]
+	},
+	{
+		"txt": " Answering a question by citing this book and quoting example code does not require permission. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 352,
+		"nouns": [
+			"question",
+			"book",
+			"example",
+			"code",
+			"permission"
+		],
+		"dOIndex": 346,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Answering",
+			"question",
+			"example",
+			"permission"
+		]
+	},
+	{
+		"txt": " Incorporating a significant amount of example code from this book into your product's documentation does require permission.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 353,
+		"nouns": [
+			"amount",
+			"example",
+			"code",
+			"book",
+			"product",
+			"documentation",
+			"permission"
+		],
+		"dOIndex": 347,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Incorporating",
+			"example",
+			"product",
+			"documentation",
+			"permission"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.05555555555555555,
+			"words": [
+				"significant"
+			],
+			"positive": [
+				"significant"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 354,
+		"nouns": [],
+		"dOIndex": 348,
+		"isQuote": false
+	},
+	{
+		"txt": "We appreciate, but do not require, attribution. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 355,
+		"nouns": [
+			"attribution"
+		],
+		"dOIndex": 349,
+		"nouns2": [
+			"attribution"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.25,
+			"words": [
+				"appreciate"
+			],
+			"positive": [
+				"appreciate"
+			],
+			"negative": []
+		},
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": true,
+		"nounsProcAll": [
+			"attribution"
+		]
+	},
+	{
+		"txt": " An attribution usually includes the title, author, publisher, and ISBN. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 356,
+		"nouns": [
+			"attribution",
+			"title",
+			"author",
+			"publisher",
+			"ISBN"
+		],
+		"dOIndex": 350,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"attribution",
+			"title",
+			"author",
+			"publisher",
+			"ISBN"
+		],
+		"nouns2": [
+			"attribution",
+			"publisher"
+		]
+	},
+	{
+		"txt": " For example: ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 357,
+		"nouns": [
+			"example"
+		],
+		"dOIndex": 351,
+		"ignoreDOBcNoQuotes": false,
+		"isQuote": false,
+		"nounsProcAll": [
+			"example"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"example"
+		]
+	},
+	{
+		"txt": " \"",
+		"why": "split inside sentence",
+		"tags": [],
+		"isQuote": true,
+		"sentenceIndex": 358,
+		"quoteMode": true,
+		"nouns": [],
+		"dOIndex": 352,
+		"nounsProcAll": [],
+		"sfxfx": [],
+		"gspkNameUnknown": "ISBN"
+	},
+	{
+		"txt": "Physics for Game Developers, 2nd Edition by David M. Bourg and Bryan Bywalec (O'Reilly). ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 359,
+		"quoteMode": true,
+		"nouns": [
+			"Physics",
+			"Game",
+			"Developers",
+			"Edition",
+			"David M",
+			"Bourg",
+			"Bryan",
+			"Bywalec"
+		],
+		"dOIndex": 353,
+		"isQuote": true,
+		"nounsProcAll": [
+			"Physics",
+			"Game",
+			"Developers",
+			"Edition",
+			"David M",
+			"Bourg",
+			"Bryan",
+			"Bywalec"
+		],
+		"sfxfx": [],
+		"gspkNameUnknown": "ISBN",
+		"nouns2": [
+			"Physics",
+			"Developers",
+			"Edition",
+			"Bywalec",
+			"Reilly"
+		]
+	},
+	{
+		"txt": " Copyright 2013 David M. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 360,
+		"quoteMode": true,
+		"nouns": [
+			"Copyright",
+			"David M"
+		],
+		"dOIndex": 354,
+		"isQuote": true,
+		"nounsProcAll": [
+			"Copyright",
+			"David M"
+		],
+		"sfxfx": [],
+		"gspkNameUnknown": "ISBN",
+		"nouns2": [
+			"Copyright"
+		]
+	},
+	{
+		"txt": " Bourg and Bryan Bywalec, 978 1 449 39251 2.\"",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 361,
+		"quoteMode": true,
+		"nouns": [
+			"Bourg",
+			"Bryan",
+			"Bywalec"
+		],
+		"dOIndex": 355,
+		"isQuote": true,
+		"nounsProcAll": [
+			"Bourg",
+			"Bryan",
+			"Bywalec"
+		],
+		"sfxfx": [],
+		"gspkNameUnknown": "ISBN",
+		"nouns2": [
+			"Bywalec"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 362,
+		"nouns": [],
+		"dOIndex": 356,
+		"isQuote": false
+	},
+	{
+		"txt": "If you feel your use of code examples falls outside fair use or the permission given above, feel free to contact us at ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 363,
+		"nouns": [
+			"use",
+			"code",
+			"examples",
+			"use",
+			"permission",
+			"contact"
+		],
+		"dOIndex": 357,
+		"nouns2": [
+			"examples",
+			"permission",
+			"contact"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.125,
+			"words": [
+				"free",
+				"fair"
+			],
+			"positive": [
+				"free",
+				"fair"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "permissions@oreilly.com",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 364,
+		"nouns": [],
+		"dOIndex": 358,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 365,
+		"nouns": [],
+		"dOIndex": 359,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 366,
+		"nouns": [],
+		"dOIndex": 360,
+		"isQuote": false
+	},
+	{
+		"txt": "Safari® Books Online",
+		"why": "br tag like",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 367,
+		"nouns": [
+			"Safari®",
+			"Books Online"
+		],
+		"dOIndex": 361,
+		"nouns2": [
+			"Safari®",
+			"Online"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Note",
+		"why": "p",
+		"tags": [
+			"h3",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 368,
+		"nouns": [],
+		"dOIndex": 362,
+		"isQuote": false
+	},
+	{
+		"txt": "Safari Books Online (",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 369,
+		"nouns": [
+			"Safari",
+			"Books Online"
+		],
+		"dOIndex": 363,
+		"nouns2": [
+			"Safari",
+			"Online"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "www.safaribooksonline.com) is an on demand digital library that delivers expert ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 370,
+		"nouns": [
+			"www",
+			"safaribooksonline",
+			"com",
+			"demand",
+			"library",
+			"expert"
+		],
+		"dOIndex": 364,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"safaribooksonline",
+			"library"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.09090909090909091,
+			"words": [
+				"demand"
+			],
+			"positive": [],
+			"negative": [
+				"demand"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 371,
+		"nouns": [],
+		"dOIndex": 365,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "content in both book and video form from the world's leading authors in technology and business.",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 372,
+		"nouns": [
+			"content",
+			"both",
+			"book",
+			"video",
+			"form",
+			"world",
+			"authors",
+			"technology",
+			"business"
+		],
+		"dOIndex": 366,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"content",
+			"authors",
+			"technology",
+			"business"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.125,
+			"words": [
+				"leading"
+			],
+			"positive": [
+				"leading"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 373,
+		"nouns": [],
+		"dOIndex": 367,
+		"isQuote": false
+	},
+	{
+		"txt": "Technology professionals, software developers, web designers, and business and creative professionals use Safari Books Online as their primary resource for research, problem solving, learning, and certification training.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 374,
+		"nouns": [
+			"Technology",
+			"professionals",
+			"software",
+			"developers",
+			"web",
+			"designers",
+			"business",
+			"professionals",
+			"use Safari",
+			"Books Online",
+			"resource",
+			"research",
+			"problem",
+			"certification"
+		],
+		"dOIndex": 368,
+		"nouns2": [
+			"Technology",
+			"professionals",
+			"software",
+			"developers",
+			"designers",
+			"business",
+			"Safari",
+			"Online",
+			"resource",
+			"research",
+			"problem",
+			"certification"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.037037037037037035,
+			"words": [
+				"solving",
+				"problem",
+				"creative"
+			],
+			"positive": [
+				"solving",
+				"creative"
+			],
+			"negative": [
+				"problem"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 375,
+		"nouns": [],
+		"dOIndex": 369,
+		"isQuote": false
+	},
+	{
+		"txt": "Safari Books Online offers a range of ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 376,
+		"nouns": [
+			"Safari",
+			"Books Online",
+			"range"
+		],
+		"dOIndex": 370,
+		"nouns2": [
+			"Safari",
+			"Online"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "product mixes and pricing programs for ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 377,
+		"nouns": [
+			"product",
+			"mixes",
+			"programs"
+		],
+		"dOIndex": 371,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"product",
+			"programs"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 378,
+		"nouns": [],
+		"dOIndex": 372,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "organizations, ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 379,
+		"nouns": [
+			"organizations"
+		],
+		"dOIndex": 373,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"organizations"
+		]
+	},
+	{
+		"txt": "government agencies, and ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 380,
+		"nouns": [
+			"government",
+			"agencies"
+		],
+		"dOIndex": 374,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"government",
+			"agencies"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 381,
+		"nouns": [],
+		"dOIndex": 375,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "individuals . ",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 382,
+		"nouns": [
+			"individuals"
+		],
+		"dOIndex": 376,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"individuals"
+		]
+	},
+	{
+		"txt": " Subscribers have access to thousands of books, training videos, and prepublication manuscripts in one fully searchable database from publishers like O'Reilly Media, Prentice Hall Professional, Addison Wesley Professional, Microsoft Press, Sams, Que, Peachpit Press, Focal Press, Cisco Press, John Wiley & Sons, Syngress, Morgan Kaufmann, IBM Redbooks, Packt, Adobe Press, FT Press, Apress, Manning, New Riders, McGraw Hill, Jones & Bartlett, Course Technology, and dozens ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 383,
+		"nouns": [
+			"Subscribers",
+			"access",
+			"thousands",
+			"books",
+			"videos",
+			"prepublication",
+			"manuscripts",
+			"one",
+			"searchable",
+			"database",
+			"publishers",
+			"Media",
+			"Prentice Hall",
+			"Addison Wesley",
+			"Microsoft Press",
+			"Sams",
+			"Peachpit Press",
+			"Press",
+			"Cisco Press",
+			"John Wiley",
+			"Sons",
+			"Syngress",
+			"Morgan Kaufmann",
+			"IBM",
+			"Redbooks",
+			"Packt",
+			"Adobe Press",
+			"FT Press",
+			"Apress",
+			"New Riders",
+			"McGraw Hill",
+			"Jones",
+			"Bartlett",
+			"Course Technology",
+			"dozens"
+		],
+		"dOIndex": 377,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Subscribers",
+			"thousands",
+			"prepublication",
+			"manuscripts",
+			"searchable",
+			"database",
+			"publishers",
+			"Reilly",
+			"Prentice",
+			"Professional",
+			"Addison",
+			"Wesley",
+			"Microsoft",
+			"Peachpit",
+			"Syngress",
+			"Morgan",
+			"Kaufmann",
+			"Redbooks",
+			"Apress",
+			"Manning",
+			"Riders",
+			"McGraw",
+			"Bartlett",
+			"Course",
+			"Technology"
+		],
+		"highfreq": {
+			"Press": 6
+		},
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.029850746268656716,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "more",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 384,
+		"nouns": [],
+		"dOIndex": 378,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 385,
+		"nouns": [],
+		"dOIndex": 379,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " For more information about Safari Books Online, please visit us ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 386,
+		"nouns": [
+			"information",
+			"Safari",
+			"Books Online",
+			"visit"
+		],
+		"dOIndex": 380,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"information",
+			"Safari",
+			"Online"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.08333333333333333,
+			"words": [
+				"please"
+			],
+			"positive": [
+				"please"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "online",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 387,
+		"nouns": [],
+		"dOIndex": 381,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 388,
+		"nouns": [],
+		"dOIndex": 382,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 389,
+		"nouns": [],
+		"dOIndex": 383,
+		"isQuote": false
+	},
+	{
+		"txt": "How to Contact Us",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 390,
+		"nouns": [
+			"Contact Us"
+		],
+		"dOIndex": 384,
+		"nouns2": [
+			"Contact"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Please address comments and questions concerning this book to the publisher:O'Reilly Media, Inc.",
+		"why": "split inside sentence",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 391,
+		"nouns": [
+			"address",
+			"comments",
+			"questions",
+			"book",
+			"publisher",
+			"Media",
+			"Inc"
+		],
+		"dOIndex": 385,
+		"nouns2": [
+			"Please",
+			"address",
+			"comments",
+			"questions",
+			"publisher",
+			"Reilly"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.07692307692307693,
+			"words": [
+				"please"
+			],
+			"positive": [
+				"please"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "1005 Gravenstein Highway NorthSebastopol, CA 95472800 998 9938 (in the United States or Canada)707 829 0515 (international or local)707 829 0104 (fax)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 392,
+		"nouns": [
+			"Gravenstein Highway",
+			"NorthSebastopol",
+			"States",
+			"Canada",
+			"fax"
+		],
+		"dOIndex": 386,
+		"nouns2": [
+			"Gravenstein",
+			"Highway",
+			"NorthSebastopol",
+			"United",
+			"States",
+			"Canada"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.045454545454545456,
+			"words": [
+				"united"
+			],
+			"positive": [
+				"united"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "We have a web page for this book, where we list errata, examples, and any additional information. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 393,
+		"nouns": [
+			"web",
+			"page",
+			"book",
+			"list",
+			"errata",
+			"examples",
+			"information"
+		],
+		"dOIndex": 387,
+		"nouns2": [
+			"examples",
+			"information"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " You can access this page at ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 394,
+		"nouns": [
+			"access",
+			"page"
+		],
+		"dOIndex": 388,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "link https:",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 395,
+		"nouns": [
+			"link",
+			"https"
+		],
+		"dOIndex": 389,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 396,
+		"nouns": [],
+		"dOIndex": 390,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 397,
+		"nouns": [],
+		"dOIndex": 391,
+		"isQuote": false
+	},
+	{
+		"txt": "To comment or ask technical questions about this book, send email to ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 398,
+		"nouns": [
+			"questions",
+			"book",
+			"email"
+		],
+		"dOIndex": 392,
+		"nouns2": [
+			"questions"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "bookquestions@oreilly.com",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 399,
+		"nouns": [],
+		"dOIndex": 393,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 400,
+		"nouns": [],
+		"dOIndex": 394,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 401,
+		"nouns": [],
+		"dOIndex": 395,
+		"isQuote": false
+	},
+	{
+		"txt": "For more information about our books, courses, conferences, and news, see our website at ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 402,
+		"nouns": [
+			"information",
+			"books",
+			"courses",
+			"conferences",
+			"news",
+			"website"
+		],
+		"dOIndex": 396,
+		"nouns2": [
+			"information",
+			"courses",
+			"conferences",
+			"website"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "link https:",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 403,
+		"nouns": [
+			"link",
+			"https"
+		],
+		"dOIndex": 397,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 404,
+		"nouns": [],
+		"dOIndex": 398,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 405,
+		"nouns": [],
+		"dOIndex": 399,
+		"isQuote": false
+	},
+	{
+		"txt": "Find us on Facebook: ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 406,
+		"nouns": [
+			"Facebook"
+		],
+		"dOIndex": 400,
+		"nouns2": [
+			"Facebook"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "link https:",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 407,
+		"nouns": [
+			"link",
+			"https"
+		],
+		"dOIndex": 401,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 408,
+		"nouns": [],
+		"dOIndex": 402,
+		"isQuote": false
+	},
+	{
+		"txt": "Follow us on Twitter: ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 409,
+		"nouns": [
+			"Twitter"
+		],
+		"dOIndex": 403,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Follow",
+			"Twitter"
+		]
+	},
+	{
+		"txt": "link https:",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 410,
+		"nouns": [
+			"link",
+			"https"
+		],
+		"dOIndex": 404,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 411,
+		"nouns": [],
+		"dOIndex": 405,
+		"isQuote": false
+	},
+	{
+		"txt": "Watch us on YouTube: ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 412,
+		"nouns": [
+			"Watch",
+			"YouTube"
+		],
+		"dOIndex": 406,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"YouTube"
+		]
+	},
+	{
+		"txt": "link https:",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 413,
+		"nouns": [
+			"link",
+			"https"
+		],
+		"dOIndex": 407,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 414,
+		"nouns": [],
+		"dOIndex": 408,
+		"isQuote": false
+	},
+	{
+		"txt": "Acknowledgments",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 415,
+		"nouns": [
+			"Acknowledgments"
+		],
+		"dOIndex": 409,
+		"nouns2": [
+			"Acknowledgments"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "We want to thank Andy Oram, the editor of this edition of the book, for his skillful review of our writing and his insightful comments and suggestions, not to mention his patience. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 416,
+		"nouns": [
+			"Andy",
+			"Oram",
+			"editor",
+			"edition",
+			"book",
+			"review",
+			"comments",
+			"suggestions",
+			"patience"
+		],
+		"dOIndex": 410,
+		"nouns2": [
+			"edition",
+			"comments",
+			"suggestions",
+			"patience"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.09090909090909091,
+			"words": [
+				"thank",
+				"want"
+			],
+			"positive": [
+				"thank",
+				"want"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " We also want to express my appreciation to O'Reilly for agreeing to take on this project giving us the opportunity to expand on the original edition. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 417,
+		"nouns": [
+			"appreciation",
+			"project",
+			"opportunity",
+			"edition"
+		],
+		"dOIndex": 411,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"appreciation",
+			"Reilly",
+			"project",
+			"opportunity",
+			"edition"
+		],
+		"sentiment": {
+			"score": 6,
+			"comparative": 0.21428571428571427,
+			"words": [
+				"expand",
+				"opportunity",
+				"appreciation",
+				"want"
+			],
+			"positive": [
+				"expand",
+				"opportunity",
+				"appreciation",
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Furthermore, special thanks go to all of the production and technical staff at O'Reilly. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 418,
+		"nouns": [
+			"thanks",
+			"production",
+			"staff"
+		],
+		"dOIndex": 412,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Furthermore",
+			"production",
+			"Reilly"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.125,
+			"words": [
+				"thanks"
+			],
+			"positive": [
+				"thanks"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " ",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 419,
+		"nouns": [],
+		"dOIndex": 413,
+		"isQuote": false
+	},
+	{
+		"txt": "We'd also like to thank the technical reviewers, Christian Stober and Paul Zirkle, whose valuable insight added much to this edition. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 420,
+		"nouns": [
+			"reviewers",
+			"Christian Stober",
+			"Paul",
+			"Zirkle",
+			"insight",
+			"edition"
+		],
+		"dOIndex": 414,
+		"nouns2": [
+			"reviewers",
+			"Christian",
+			"Stober",
+			"Zirkle",
+			"insight",
+			"edition"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.18181818181818182,
+			"words": [
+				"thank",
+				"like"
+			],
+			"positive": [
+				"thank",
+				"like"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " ",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 421,
+		"nouns": [],
+		"dOIndex": 415,
+		"isQuote": false
+	},
+	{
+		"txt": "Individually, David would like to thank his loving wife and best friend, Helena, for her endless support and encouragement, and his wonderful daughter, Natalia, for making every day special. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 422,
+		"nouns": [
+			"David",
+			"wife",
+			"friend",
+			"Helena",
+			"support",
+			"encouragement",
+			"daughter",
+			"Natalia",
+			"day"
+		],
+		"dOIndex": 416,
+		"nouns2": [
+			"Individually",
+			"Helena",
+			"support",
+			"encouragement",
+			"daughter",
+			"Natalia"
+		],
+		"sentiment": {
+			"score": 18,
+			"comparative": 0.6,
+			"words": [
+				"wonderful",
+				"encouragement",
+				"support",
+				"friend",
+				"best",
+				"loving",
+				"thank",
+				"like"
+			],
+			"positive": [
+				"wonderful",
+				"encouragement",
+				"support",
+				"friend",
+				"best",
+				"loving",
+				"thank",
+				"like"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " ",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 423,
+		"nouns": [],
+		"dOIndex": 417,
+		"isQuote": false
+	},
+	{
+		"txt": "Bryan would like to thank his co author David for the opportunity to help with the second edition and would also like to thank his parents, Barry and Sharon, for raising him to be curious about the world. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 424,
+		"nouns": [
+			"Bryan",
+			"co",
+			"author David",
+			"opportunity",
+			"second",
+			"edition",
+			"parents",
+			"Barry",
+			"Sharon",
+			"world"
+		],
+		"dOIndex": 418,
+		"nouns2": [
+			"opportunity",
+			"edition",
+			"parents",
+			"Sharon"
+		],
+		"sentiment": {
+			"score": 13,
+			"comparative": 0.3333333333333333,
+			"words": [
+				"curious",
+				"thank",
+				"like",
+				"help",
+				"opportunity",
+				"thank",
+				"like"
+			],
+			"positive": [
+				"curious",
+				"thank",
+				"like",
+				"help",
+				"opportunity",
+				"thank",
+				"like"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " Lastly, he would like to thank his fiancee, Anne Hasuly, for her support without which many chapters would still be half finished. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 425,
+		"nouns": [
+			"fiancee",
+			"Anne",
+			"support",
+			"chapters",
+			"half"
+		],
+		"dOIndex": 419,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Lastly",
+			"fiancee",
+			"Hasuly",
+			"support",
+			"chapters"
+		],
+		"sentiment": {
+			"score": 6,
+			"comparative": 0.25,
+			"words": [
+				"support",
+				"thank",
+				"like"
+			],
+			"positive": [
+				"support",
+				"thank",
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " ",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 426,
+		"nouns": [],
+		"dOIndex": 420,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 427,
+		"nouns": [],
+		"dOIndex": 421,
+		"isQuote": false
+	},
+	{
+		"txt": "[",
+		"why": "link",
+		"tags": [
+			"sup",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 428,
+		"nouns": [],
+		"dOIndex": 422,
+		"isQuote": false
+	},
+	{
+		"txt": "1] ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"sup",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 429,
+		"nouns": [],
+		"dOIndex": 423,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "At the time of this book's first edition, Gary Powell worked for MathEngine Plc. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 430,
+		"nouns": [
+			"time",
+			"book",
+			"first",
+			"edition",
+			"Gary Powell",
+			"MathEngine",
+			"Plc"
+		],
+		"dOIndex": 424,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"edition",
+			"Powell",
+			"MathEngine"
+		]
+	},
+	{
+		"txt": " Their products included Dynamics Toolkit 2 and Collision Toolkit 1, which handled single and multiple body dynamics. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 431,
+		"nouns": [
+			"products",
+			"Dynamics",
+			"Toolkit",
+			"Collision",
+			"Toolkit",
+			"body",
+			"dynamics"
+		],
+		"dOIndex": 425,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"products",
+			"Dynamics",
+			"Toolkit",
+			"Collision",
+			"dynamics"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.10526315789473684,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " Currently the company operates under the name CM Labs.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 432,
+		"nouns": [
+			"company",
+			"name",
+			"CM Labs"
+		],
+		"dOIndex": 426,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Currently",
+			"company"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 433,
+		"nouns": [],
+		"dOIndex": 427,
+		"isQuote": false
+	},
+	{
+		"txt": "[",
+		"why": "link",
+		"tags": [
+			"sup",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 434,
+		"nouns": [],
+		"dOIndex": 428,
+		"isQuote": false
+	},
+	{
+		"txt": "2] ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"sup",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 435,
+		"nouns": [],
+		"dOIndex": 429,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "At the time of this book's first edition, Dr. Collins was the CEO of Havok.com. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 436,
+		"nouns": [
+			"time",
+			"book",
+			"first",
+			"edition",
+			"Dr. Collins",
+			"Collins",
+			"CEO",
+			"Havok",
+			"com"
+		],
+		"dOIndex": 430,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"edition",
+			"Collins"
+		]
+	},
+	{
+		"txt": " Their technology handled rigid body, soft body, cloth, and fluid and particle dynamics. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 437,
+		"nouns": [
+			"technology",
+			"body",
+			"body",
+			"cloth",
+			"fluid",
+			"particle",
+			"dynamics"
+		],
+		"dOIndex": 431,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"technology",
+			"particle",
+			"dynamics"
+		]
+	},
+	{
+		"txt": " Intel purchased Havok in 2005. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 438,
+		"nouns": [
+			"Intel",
+			"Havok"
+		],
+		"dOIndex": 432,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " ",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 439,
+		"nouns": [],
+		"dOIndex": 433,
+		"isQuote": false
+	},
+	{
+		"txt": "[",
+		"why": "link",
+		"tags": [
+			"sup",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 440,
+		"nouns": [],
+		"dOIndex": 434,
+		"isQuote": false
+	},
+	{
+		"txt": "3] ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"sup",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 441,
+		"nouns": [],
+		"dOIndex": 435,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "A rigid body is formally defined as a body, composed of a system of particles, whose particles remain at fixed distances from each other with no relative translation or rotation among particles. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 442,
+		"nouns": [
+			"body",
+			"body",
+			"system",
+			"particles",
+			"particles",
+			"distances",
+			"translation",
+			"rotation",
+			"particles"
+		],
+		"dOIndex": 436,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"particles",
+			"distances",
+			"translation",
+			"rotation"
+		],
+		"highfreq": {
+			"particles": 3
+		},
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.030303030303030304,
+			"words": [
+				"no"
+			],
+			"positive": [],
+			"negative": [
+				"no"
+			]
+		}
+	},
+	{
+		"txt": " Although the subject of mechanics deals with flexible bodies and even fluids such as water, we'll focus our attention on bodies that are rigid.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 443,
+		"nouns": [
+			"subject",
+			"mechanics",
+			"deals",
+			"bodies",
+			"fluids",
+			"water",
+			"ll",
+			"focus",
+			"attention",
+			"bodies"
+		],
+		"dOIndex": 437,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Although",
+			"subject",
+			"mechanics",
+			"attention"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 444,
+		"nouns": [],
+		"dOIndex": 438,
+		"isQuote": false
+	},
+	{
+		"txt": "[",
+		"why": "link",
+		"tags": [
+			"sup",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 445,
+		"nouns": [],
+		"dOIndex": 439
+	},
+	{
+		"txt": "4] ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"sup",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 446,
+		"nouns": [],
+		"dOIndex": 440
+	},
+	{
+		"txt": "At the time of this book's first edition, John Nagle was the developer of Falling Bodies, a dynamics plug in for Softimage|3D. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 447,
+		"nouns": [
+			"time",
+			"book",
+			"first",
+			"edition",
+			"John Nagle",
+			"developer",
+			"Bodies",
+			"dynamics",
+			"plug",
+			"Softimage|",
+			"D"
+		],
+		"dOIndex": 441,
+		"nouns2": [
+			"edition",
+			"developer",
+			"Falling",
+			"Bodies",
+			"dynamics",
+			"Softimage|"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.043478260869565216,
+			"words": [
+				"falling"
+			],
+			"positive": [],
+			"negative": [
+				"falling"
+			]
+		}
+	}
+]

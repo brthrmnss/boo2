@@ -1,0 +1,8084 @@
+[
+	{
+		"txt": "",
+		"why": "br tag like",
+		"sentenceIndex": 11853,
+		"nouns": [],
+		"dOIndex": 0,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 22. Gaming from One Place to Another",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11854,
+		"nouns": [
+			"Chapter",
+			"One Place"
+		],
+		"dOIndex": 1,
+		"nouns2": [
+			"Chapter",
+			"Gaming",
+			"Another"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Once a tool meant to help the ",
+		"why": "link",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 11855,
+		"nouns": [
+			"tool"
+		],
+		"dOIndex": 2,
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.25,
+			"words": [
+				"help"
+			],
+			"positive": [
+				"help"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11856,
+		"nouns": [],
+		"dOIndex": 3,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "United States guide intercontinental ballistic missiles, the Global Positioning System (GPS) has evolved to be a part of our everyday lives. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 11857,
+		"nouns": [
+			"States",
+			"guide",
+			"missiles",
+			"System",
+			"GPS",
+			"part",
+			"lives"
+		],
+		"dOIndex": 4,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"United",
+			"States",
+			"missiles",
+			"Global",
+			"Positioning",
+			"System"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.045454545454545456,
+			"words": [
+				"united"
+			],
+			"positive": [
+				"united"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The current generation will never have known a world where getting lost was something that couldn't be fixed by trilaterating their position between satellites orbiting the planet. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11858,
+		"nouns": [
+			"generation",
+			"world",
+			"couldn",
+			"t",
+			"position",
+			"satellites",
+			"planet"
+		],
+		"dOIndex": 5,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"generation",
+			"position",
+			"satellites"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.10344827586206896,
+			"words": [
+				"lost"
+			],
+			"positive": [],
+			"negative": [
+				"lost"
+			]
+		}
+	},
+	{
+		"txt": " Although GPS has become commonplace in the navigational world, the proliferation of smartphones is just now opening the doors to GPS gaming. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11859,
+		"nouns": [
+			"GPS",
+			"world",
+			"proliferation",
+			"smartphones",
+			"doors",
+			"GPS"
+		],
+		"dOIndex": 6,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Although",
+			"proliferation",
+			"smartphones"
+		]
+	},
+	{
+		"txt": " While this genre is just emerging, we'd like to give you an introduction to the physics behind GPS and the current applications in the gaming world.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11860,
+		"nouns": [
+			"genre",
+			"introduction",
+			"physics",
+			"GPS",
+			"applications",
+			"world"
+		],
+		"dOIndex": 7,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"introduction",
+			"physics",
+			"applications"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.07407407407407407,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 11861,
+		"nouns": [],
+		"dOIndex": 8,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11862,
+		"nouns": [],
+		"dOIndex": 9,
+		"isQuote": false
+	},
+	{
+		"txt": "Let's recall that ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 11863,
+		"nouns": [],
+		"dOIndex": 10,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11864,
+		"nouns": [],
+		"dOIndex": 11,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11865,
+		"nouns": [],
+		"dOIndex": 12,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "positions near the earth's surface are generally given in the geographic coordinate system , more often described as latitude, longitude, and altitude. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 11866,
+		"nouns": [
+			"positions",
+			"earth",
+			"surface",
+			"system",
+			"latitude",
+			"longitude",
+			"altitude"
+		],
+		"dOIndex": 13,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"positions",
+			"surface",
+			"latitude",
+			"longitude",
+			"altitude"
+		]
+	},
+	{
+		"txt": " Latitude is a ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 11867,
+		"nouns": [
+			"Latitude"
+		],
+		"dOIndex": 14,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Latitude"
+		]
+	},
+	{
+		"txt": "measure in degrees of how far north or south you are from the equator. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11868,
+		"nouns": [
+			"measure",
+			"degrees",
+			"equator"
+		],
+		"dOIndex": 15,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"measure",
+			"degrees",
+			"equator"
+		]
+	},
+	{
+		"txt": " Longitude",
+		"why": "link",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 11869,
+		"nouns": [
+			"Longitude"
+		],
+		"dOIndex": 16,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Longitude"
+		]
+	},
+	{
+		"txt": "is the measure in degrees of how far east or west you are from the prime meridian. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11870,
+		"nouns": [
+			"measure",
+			"degrees",
+			"west",
+			"meridian"
+		],
+		"dOIndex": 17,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"measure",
+			"degrees",
+			"meridian"
+		]
+	},
+	{
+		"txt": " A meridian is a line of constant latitude that runs from the North Pole to the South Pole. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11871,
+		"nouns": [
+			"meridian",
+			"line",
+			"latitude",
+			"North Pole",
+			"South Pole"
+		],
+		"dOIndex": 18,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"meridian",
+			"latitude"
+		]
+	},
+	{
+		"txt": " The prime meridian is arbitrarily defined as the meridian that passes through the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 11872,
+		"nouns": [
+			"meridian",
+			"meridian"
+		],
+		"dOIndex": 19,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"meridian"
+		]
+	},
+	{
+		"txt": "Greenwich Observatory in the ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 11873,
+		"nouns": [
+			"Greenwich Observatory"
+		],
+		"dOIndex": 20,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Greenwich",
+			"Observatory"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11874,
+		"nouns": [],
+		"dOIndex": 21,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "UK. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11875,
+		"nouns": [
+			"UK"
+		],
+		"dOIndex": 22,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Altitude is usually given as the measure of how far above or below sea level you are at the point described by latitude and longitude.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 11876,
+		"nouns": [
+			"Altitude",
+			"measure",
+			"sea",
+			"level",
+			"point",
+			"latitude",
+			"longitude"
+		],
+		"dOIndex": 23,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Altitude",
+			"measure",
+			"latitude",
+			"longitude"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 11877,
+		"nouns": [],
+		"dOIndex": 24,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11878,
+		"nouns": [],
+		"dOIndex": 25,
+		"isQuote": false
+	},
+	{
+		"txt": "Location Based Gaming",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11879,
+		"nouns": [
+			"Location"
+		],
+		"dOIndex": 26,
+		"nouns2": [
+			"Location",
+			"Gaming"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11880,
+		"nouns": [],
+		"dOIndex": 27,
+		"isQuote": false
+	},
+	{
+		"txt": "Before getting ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11881,
+		"nouns": [],
+		"dOIndex": 28,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Before"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11882,
+		"nouns": [],
+		"dOIndex": 29,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11883,
+		"nouns": [],
+		"dOIndex": 30,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "to the physics behind GPS, we'd like to take a moment to discuss how GPS is being implemented into games. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11884,
+		"nouns": [
+			"physics",
+			"GPS",
+			"moment",
+			"GPS",
+			"games"
+		],
+		"dOIndex": 31,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"physics"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.09523809523809523,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Right now, this is an emerging market that is just starting to gain traction. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11885,
+		"nouns": [
+			"market",
+			"gain",
+			"traction"
+		],
+		"dOIndex": 32,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"traction"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.125,
+			"words": [
+				"gain"
+			],
+			"positive": [
+				"gain"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " There are several broad categories into which games fall. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11886,
+		"nouns": [
+			"categories",
+			"games",
+			"fall"
+		],
+		"dOIndex": 33,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"categories"
+		]
+	},
+	{
+		"txt": " Another step beyond what the accelerometer did, GPS enables users to move computer games not only off the couch but also out into the world.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11887,
+		"nouns": [
+			"step",
+			"accelerometer",
+			"GPS",
+			"users",
+			"move",
+			"computer",
+			"games",
+			"couch",
+			"world"
+		],
+		"dOIndex": 34,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Another",
+			"accelerometer",
+			"computer"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11888,
+		"nouns": [],
+		"dOIndex": 35,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11889,
+		"nouns": [],
+		"dOIndex": 36,
+		"isQuote": false
+	},
+	{
+		"txt": "Geocaching and Reverse Geocaching",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11890,
+		"nouns": [],
+		"dOIndex": 37,
+		"nouns2": [
+			"Geocaching",
+			"Reverse"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11891,
+		"nouns": [],
+		"dOIndex": 38,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": true,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "Geocaching is the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11892,
+		"nouns": [],
+		"dOIndex": 39,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [],
+		"nouns2": [
+			"Geocaching"
+		]
+	},
+	{
+		"txt": "oldest form of gaming involving GPS. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11893,
+		"nouns": [
+			"form",
+			"GPS"
+		],
+		"dOIndex": 40,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"form",
+			"GPS"
+		]
+	},
+	{
+		"txt": " It originated after selective availability was removed from GPS, making it more accurate, in the year 2000. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11894,
+		"nouns": [
+			"availability",
+			"GPS",
+			"year"
+		],
+		"dOIndex": 41,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"availability",
+			"GPS",
+			"year"
+		],
+		"nouns2": [
+			"availability"
+		]
+	},
+	{
+		"txt": " In its most basic form, it is the process of hunting down a ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11895,
+		"nouns": [
+			"form",
+			"process"
+		],
+		"dOIndex": 42,
+		"ignoreDOBcNoQuotes": false,
+		"isQuote": false,
+		"nounsProcAll": [
+			"form",
+			"process"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"process"
+		]
+	},
+	{
+		"txt": " \"cache\" ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11896,
+		"nouns": [
+			"cache"
+		],
+		"dOIndex": 43,
+		"isQuote": true,
+		"nounsProcAll": [
+			"cache"
+		],
+		"sfxfx": [],
+		"gspkNameUnknown": "narrator"
+	},
+	{
+		"txt": " using provided GPS coordinates. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11897,
+		"nouns": [
+			"GPS",
+			"coordinates"
+		],
+		"dOIndex": 44,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [
+			"GPS",
+			"coordinates"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"coordinates"
+		]
+	},
+	{
+		"txt": " The cache usually has a logbook and may contain other items such as coins with serial numbers that the finder can move to another cache and track online.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11898,
+		"nouns": [
+			"cache",
+			"logbook",
+			"items",
+			"coins",
+			"numbers",
+			"finder",
+			"move",
+			"cache",
+			"track"
+		],
+		"dOIndex": 45,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"cache",
+			"logbook",
+			"items",
+			"coins",
+			"numbers",
+			"finder",
+			"move",
+			"cache",
+			"track"
+		],
+		"nouns2": [
+			"logbook",
+			"numbers"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11899,
+		"nouns": [],
+		"dOIndex": 46,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11900,
+		"nouns": [],
+		"dOIndex": 47,
+		"isQuote": false
+	},
+	{
+		"txt": "Because of the large amount of setup involved in implementing a geocaching game on a commercial scale, most implementations are community based. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11901,
+		"nouns": [
+			"amount",
+			"setup",
+			"game",
+			"scale",
+			"implementations",
+			"community"
+		],
+		"dOIndex": 48,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Because",
+			"implementations",
+			"community"
+		]
+	},
+	{
+		"txt": " However, ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11902,
+		"nouns": [],
+		"dOIndex": 49,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However"
+		]
+	},
+	{
+		"txt": "reverse geocaching has more promise for the gaming industry. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11903,
+		"nouns": [
+			"promise",
+			"industry"
+		],
+		"dOIndex": 50,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"promise",
+			"industry"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.1,
+			"words": [
+				"promise"
+			],
+			"positive": [
+				"promise"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " In this variation there is nothing at the supplied coordinates, but traveling to them is required to execute some action. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11904,
+		"nouns": [
+			"variation",
+			"coordinates",
+			"action"
+		],
+		"dOIndex": 51,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"variation",
+			"coordinates"
+		]
+	},
+	{
+		"txt": " Think of it as carrying around a cache that cannot be unlocked until it is within range of some specific coordinate. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11905,
+		"nouns": [
+			"cache",
+			"range"
+		],
+		"dOIndex": 52,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " This could be used to force users to travel in order to unlock a game item. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11906,
+		"nouns": [
+			"force",
+			"users",
+			"travel",
+			"order",
+			"game",
+			"item"
+		],
+		"dOIndex": 53,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " For instance, perhaps to gain the ability to use a sword in a game, the user must travel to the nearest sporting goods store. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11907,
+		"nouns": [
+			"instance",
+			"gain",
+			"ability",
+			"use",
+			"sword",
+			"game",
+			"user",
+			"travel",
+			"goods",
+			"store"
+		],
+		"dOIndex": 54,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"instance",
+			"ability"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.15384615384615385,
+			"words": [
+				"ability",
+				"gain"
+			],
+			"positive": [
+				"ability",
+				"gain"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The commercial possibility of corporate tie ins is an obvious plus.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11908,
+		"nouns": [
+			"possibility",
+			"tie",
+			"ins"
+		],
+		"dOIndex": 55,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"possibility"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11909,
+		"nouns": [],
+		"dOIndex": 56,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11910,
+		"nouns": [],
+		"dOIndex": 57,
+		"isQuote": false
+	},
+	{
+		"txt": "Mixed Reality",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11911,
+		"nouns": [
+			"Reality"
+		],
+		"dOIndex": 58,
+		"nouns2": [
+			"Reality"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11912,
+		"nouns": [],
+		"dOIndex": 59,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": true,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "Mixed reality games ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11913,
+		"nouns": [
+			"reality",
+			"games"
+		],
+		"dOIndex": 60,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"reality",
+			"games"
+		],
+		"nouns2": [
+			"reality"
+		]
+	},
+	{
+		"txt": "are similar to geocaching. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11914,
+		"nouns": [],
+		"dOIndex": 61,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": " They go beyond just using the coordinates of the user to trigger events, to using reality based locals. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11915,
+		"nouns": [
+			"coordinates",
+			"user",
+			"events",
+			"reality",
+			"locals"
+		],
+		"dOIndex": 62,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"coordinates",
+			"user",
+			"events",
+			"reality",
+			"locals",
+			"They"
+		],
+		"nouns2": [
+			"coordinates",
+			"reality"
+		]
+	},
+	{
+		"txt": " A current example is Gbanga's Famiglia . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11916,
+		"nouns": [
+			"example",
+			"Gbanga",
+			"Famiglia"
+		],
+		"dOIndex": 63,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"example",
+			"Gbanga",
+			"Famiglia"
+		],
+		"nouns2": [
+			"example",
+			"Gbanga",
+			"Famiglia"
+		]
+	},
+	{
+		"txt": " In this game your movement in the real world allows you to discover virtual establishments in the game world. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11917,
+		"nouns": [
+			"game",
+			"movement",
+			"world",
+			"establishments",
+			"game",
+			"world"
+		],
+		"dOIndex": 64,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"game",
+			"movement",
+			"world",
+			"establishments",
+			"game",
+			"world"
+		],
+		"nouns2": [
+			"movement",
+			"establishments"
+		]
+	},
+	{
+		"txt": " This divorces it from the actual physical locations that your GPS is reporting but requires moving between locations in the real world to move your character in the virtual world. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11918,
+		"nouns": [
+			"divorces",
+			"locations",
+			"GPS",
+			"locations",
+			"world",
+			"move",
+			"character",
+			"world"
+		],
+		"dOIndex": 65,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"divorces",
+			"locations",
+			"GPS",
+			"locations",
+			"world",
+			"move",
+			"character",
+			"world"
+		],
+		"nouns2": [
+			"divorces",
+			"locations",
+			"character"
+		]
+	},
+	{
+		"txt": " Popular right now is the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11919,
+		"nouns": [
+			"Popular",
+			"right"
+		],
+		"dOIndex": 66,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"Popular",
+			"right"
+		],
+		"nouns2": [
+			"Popular"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.42857142857142855,
+			"words": [
+				"popular"
+			],
+			"positive": [
+				"popular"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "FourSquare app on mobile devices. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11920,
+		"nouns": [
+			"FourSquare",
+			"app",
+			"devices"
+		],
+		"dOIndex": 67,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"FourSquare",
+			"app",
+			"devices"
+		],
+		"nouns2": [
+			"FourSquare",
+			"devices"
+		]
+	},
+	{
+		"txt": " This is the simplest possible implementation of mixed reality gaming. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11921,
+		"nouns": [
+			"implementation",
+			"reality"
+		],
+		"dOIndex": 68,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"implementation",
+			"reality"
+		],
+		"nouns2": [
+			"implementation",
+			"reality"
+		]
+	},
+	{
+		"txt": " FourSquare allows a user to become the mayor of a place if she ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11922,
+		"nouns": [
+			"FourSquare",
+			"user",
+			"mayor",
+			"place"
+		],
+		"dOIndex": 69,
+		"ignoreDOBcNoQuotes": false,
+		"isQuote": false,
+		"nounsProcAll": [
+			"FourSquare",
+			"user",
+			"mayor",
+			"place",
+			"She"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"FourSquare"
+		]
+	},
+	{
+		"txt": " \"checks in\" ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11923,
+		"nouns": [
+			"checks"
+		],
+		"dOIndex": 70,
+		"isQuote": true,
+		"nounsProcAll": [
+			"checks"
+		],
+		"sfxfx": [],
+		"gspkNameUnknown": "narrator"
+	},
+	{
+		"txt": " at the locale more than anyone else.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11924,
+		"nouns": [
+			"locale",
+			"anyone"
+		],
+		"dOIndex": 71,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [
+			"locale",
+			"anyone"
+		],
+		"sfxfx": []
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11925,
+		"nouns": [],
+		"dOIndex": 72,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11926,
+		"nouns": [],
+		"dOIndex": 73,
+		"isQuote": false
+	},
+	{
+		"txt": "Street Games",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11927,
+		"nouns": [
+			"Street Games"
+		],
+		"dOIndex": 74,
+		"nouns2": [
+			"Street"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11928,
+		"nouns": [],
+		"dOIndex": 75,
+		"isQuote": false
+	},
+	{
+		"txt": "Street games ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11929,
+		"nouns": [
+			"Street",
+			"games"
+		],
+		"dOIndex": 76,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Street"
+		]
+	},
+	{
+		"txt": "are another step beyond mixed reality. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11930,
+		"nouns": [
+			"step",
+			"reality"
+		],
+		"dOIndex": 77,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"reality"
+		]
+	},
+	{
+		"txt": " These turn the environment around the user into a virtual game board. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11931,
+		"nouns": [
+			"turn",
+			"environment",
+			"user",
+			"game",
+			"board"
+		],
+		"dOIndex": 78,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"environment"
+		]
+	},
+	{
+		"txt": " One example is the recent Pac Manhattan multiplayer game using GPS in smartphones to play a live version of Pac Man in Washington Square Park. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11932,
+		"nouns": [
+			"One",
+			"example",
+			"Pac Manhattan",
+			"multiplayer",
+			"game",
+			"GPS",
+			"smartphones",
+			"live",
+			"version",
+			"Pac",
+			"Man",
+			"Washington Square",
+			"Park"
+		],
+		"dOIndex": 79,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"Manhattan",
+			"multiplayer",
+			"smartphones",
+			"version",
+			"Washington",
+			"Square"
+		]
+	},
+	{
+		"txt": " In general, the idea is to create a court for game play using the environment surrounding the user. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11933,
+		"nouns": [
+			"idea",
+			"court",
+			"game",
+			"environment",
+			"user"
+		],
+		"dOIndex": 80,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"environment"
+		]
+	},
+	{
+		"txt": " The relationship between users is tracked in the virtual space of the game and provides the interactive elements.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11934,
+		"nouns": [
+			"relationship",
+			"users",
+			"space",
+			"game",
+			"elements"
+		],
+		"dOIndex": 81,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"relationship",
+			"elements"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11935,
+		"nouns": [],
+		"dOIndex": 82,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11936,
+		"nouns": [],
+		"dOIndex": 83,
+		"isQuote": false
+	},
+	{
+		"txt": "What Time Is It?",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11937,
+		"nouns": [
+			"Time"
+		],
+		"dOIndex": 84,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11938,
+		"nouns": [],
+		"dOIndex": 85,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11939,
+		"nouns": [],
+		"dOIndex": 86,
+		"isQuote": false
+	},
+	{
+		"txt": "The story of GPS",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11940,
+		"nouns": [
+			"story",
+			"GPS"
+		],
+		"dOIndex": 87,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11941,
+		"nouns": [],
+		"dOIndex": 88,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " really begins with a prize offered by the British government in 1717 for a simple way to determine your ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11942,
+		"nouns": [
+			"prize",
+			"government",
+			"way"
+		],
+		"dOIndex": 89,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"British",
+			"government"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11943,
+		"nouns": [],
+		"dOIndex": 90,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "longitude. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11944,
+		"nouns": [
+			"longitude"
+		],
+		"dOIndex": 91,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"longitude"
+		]
+	},
+	{
+		"txt": " Awarded in 1773, the accepted solution was to compare local noon to the official noon sighted at the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11945,
+		"nouns": [
+			"solution",
+			"noon",
+			"noon"
+		],
+		"dOIndex": 92,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Awarded",
+			"solution"
+		],
+		"sentiment": {
+			"score": 5,
+			"comparative": 0.25,
+			"words": [
+				"solution",
+				"accepted",
+				"awarded"
+			],
+			"positive": [
+				"solution",
+				"accepted",
+				"awarded"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "Greenwich Observatory. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11946,
+		"nouns": [
+			"Greenwich Observatory"
+		],
+		"dOIndex": 93,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Greenwich",
+			"Observatory"
+		]
+	},
+	{
+		"txt": " The difference between these two times would allow you to tell how far around the world you were from the observatory. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11947,
+		"nouns": [
+			"difference",
+			"two",
+			"times",
+			"world",
+			"observatory"
+		],
+		"dOIndex": 94,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"difference",
+			"observatory"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.043478260869565216,
+			"words": [
+				"allow"
+			],
+			"positive": [
+				"allow"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Fast forward three centuries, and we have satellites orbiting the earth, broadcasting time stamped messages. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11948,
+		"nouns": [
+			"Fast",
+			"three",
+			"centuries",
+			"satellites",
+			"earth",
+			"time",
+			"messages"
+		],
+		"dOIndex": 95,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"centuries",
+			"satellites",
+			"messages"
+		]
+	},
+	{
+		"txt": " By calculating the difference between the time the message was received and the time it was transmitted, we can calculate our distance from the satellite. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11949,
+		"nouns": [
+			"difference",
+			"time",
+			"message",
+			"time",
+			"distance",
+			"satellite"
+		],
+		"dOIndex": 96,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"difference",
+			"message",
+			"distance",
+			"satellite"
+		]
+	},
+	{
+		"txt": " In both cases you need an accurate way to keep or measure time. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11950,
+		"nouns": [
+			"both",
+			"cases",
+			"way",
+			"measure",
+			"time"
+		],
+		"dOIndex": 97,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"measure"
+		]
+	},
+	{
+		"txt": " For sailors in the 1800s, the device was the newly invented chronometer. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11951,
+		"nouns": [
+			"sailors",
+			"device",
+			"chronometer"
+		],
+		"dOIndex": 98,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"sailors",
+			"chronometer"
+		]
+	},
+	{
+		"txt": " For us, it is the atomic clock.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11952,
+		"nouns": [
+			"clock"
+		],
+		"dOIndex": 99,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11953,
+		"nouns": [],
+		"dOIndex": 100,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11954,
+		"nouns": [],
+		"dOIndex": 101,
+		"isQuote": false
+	},
+	{
+		"txt": "Because the signals from a GPS satellite are moving at the speed of light, you need a very accurate clock to keep track of how long it took to travel to you. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11955,
+		"nouns": [
+			"signals",
+			"GPS",
+			"satellite",
+			"light",
+			"clock",
+			"track",
+			"travel"
+		],
+		"dOIndex": 102,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Because",
+			"signals",
+			"satellite"
+		]
+	},
+	{
+		"txt": " For instance, if the clock you are using to time when the signal arrives is 1 microsecond off, you will estimate a distance over 900 miles in error. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11956,
+		"nouns": [
+			"instance",
+			"clock",
+			"time",
+			"microsecond",
+			"estimate",
+			"distance",
+			"miles",
+			"error"
+		],
+		"dOIndex": 103,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"instance",
+			"microsecond",
+			"estimate",
+			"distance"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.06666666666666667,
+			"words": [
+				"error"
+			],
+			"positive": [],
+			"negative": [
+				"error"
+			]
+		}
+	},
+	{
+		"txt": " On the supply side of the signal, each satellite has an atomic clock, and internal GPS time is accurate to about 14 nanoseconds. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11957,
+		"nouns": [
+			"side",
+			"satellite",
+			"clock",
+			"GPS",
+			"time",
+			"nanoseconds"
+		],
+		"dOIndex": 104,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"satellite",
+			"nanoseconds"
+		]
+	},
+	{
+		"txt": " The problem is that you also need a very accurate clock in the receiver, and it would be pretty hard to fit an atomic clock into a phone economically. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11958,
+		"nouns": [
+			"problem",
+			"clock",
+			"receiver",
+			"clock",
+			"phone"
+		],
+		"dOIndex": 105,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"problem",
+			"receiver"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.03225806451612903,
+			"words": [
+				"fit",
+				"hard",
+				"pretty",
+				"problem"
+			],
+			"positive": [
+				"fit",
+				"pretty"
+			],
+			"negative": [
+				"hard",
+				"problem"
+			]
+		}
+	},
+	{
+		"txt": " To get around this, the receiver must figure out the correct current time based on the signals from the satellites.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11959,
+		"nouns": [
+			"receiver",
+			"figure",
+			"time",
+			"signals",
+			"satellites"
+		],
+		"dOIndex": 106,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"receiver",
+			"signals",
+			"satellites"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11960,
+		"nouns": [],
+		"dOIndex": 107,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11961,
+		"nouns": [],
+		"dOIndex": 108,
+		"isQuote": false
+	},
+	{
+		"txt": "Two Dimensional Mathematical Treatment",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11962,
+		"nouns": [
+			"Two",
+			"Treatment"
+		],
+		"dOIndex": 109,
+		"nouns2": [
+			"Dimensional",
+			"Mathematical",
+			"Treatment"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11963,
+		"nouns": [],
+		"dOIndex": 110,
+		"isQuote": false
+	},
+	{
+		"txt": "This section will ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11964,
+		"nouns": [
+			"section"
+		],
+		"dOIndex": 111,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"section"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11965,
+		"nouns": [],
+		"dOIndex": 112,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "give you a good idea of how GPS systems determine their location. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11966,
+		"nouns": [
+			"idea",
+			"GPS",
+			"systems",
+			"location"
+		],
+		"dOIndex": 113,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"systems",
+			"location"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.23076923076923078,
+			"words": [
+				"good"
+			],
+			"positive": [
+				"good"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " This background will help you in many applications of geometry in games in general, but most GPS devices do the heavy lifting and report through an API your current latitude and longitude. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11967,
+		"nouns": [
+			"background",
+			"applications",
+			"geometry",
+			"games",
+			"GPS",
+			"devices",
+			"report",
+			"API",
+			"latitude",
+			"longitude"
+		],
+		"dOIndex": 114,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"background",
+			"applications",
+			"geometry",
+			"devices",
+			"latitude",
+			"longitude"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.058823529411764705,
+			"words": [
+				"help"
+			],
+			"positive": [
+				"help"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Some APIs may include more information for example, the current iOS API, called Core Location, gives the current ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11968,
+		"nouns": [
+			"APIs",
+			"information",
+			"example",
+			"iOS API",
+			"Core Location"
+		],
+		"dOIndex": 115,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"information",
+			"example",
+			"Location"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11969,
+		"nouns": [],
+		"dOIndex": 116,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "latitude and longitude, the direction of travel, the distance traveled, and the distance in meters to a given coordinate. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11970,
+		"nouns": [
+			"latitude",
+			"longitude",
+			"direction",
+			"travel",
+			"distance",
+			"distance",
+			"meters"
+		],
+		"dOIndex": 117,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"latitude",
+			"longitude",
+			"direction",
+			"distance"
+		]
+	},
+	{
+		"txt": " It also gives an estimate for the error associated with its position fix in meters.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11971,
+		"nouns": [
+			"estimate",
+			"error",
+			"position",
+			"meters"
+		],
+		"dOIndex": 118,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"estimate",
+			"position"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.125,
+			"words": [
+				"error"
+			],
+			"positive": [],
+			"negative": [
+				"error"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11972,
+		"nouns": [],
+		"dOIndex": 119,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11973,
+		"nouns": [],
+		"dOIndex": 120,
+		"isQuote": false
+	},
+	{
+		"txt": "One way to get your position via the kind of information that GPS provides is a technique ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11974,
+		"nouns": [
+			"One",
+			"way",
+			"position",
+			"kind",
+			"information",
+			"GPS",
+			"technique"
+		],
+		"dOIndex": 121,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"position",
+			"information",
+			"technique"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.1111111111111111,
+			"words": [
+				"kind"
+			],
+			"positive": [
+				"kind"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "called trilateration",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11975,
+		"nouns": [
+			"trilateration"
+		],
+		"dOIndex": 122,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"trilateration"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11976,
+		"nouns": [],
+		"dOIndex": 123,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " We are going to give this problem a mathematical treatment in two dimensions. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11977,
+		"nouns": [
+			"problem",
+			"treatment",
+			"two",
+			"dimensions"
+		],
+		"dOIndex": 124,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"problem",
+			"treatment",
+			"dimensions"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.13333333333333333,
+			"words": [
+				"problem"
+			],
+			"positive": [],
+			"negative": [
+				"problem"
+			]
+		}
+	},
+	{
+		"txt": " You could extend this to three dimensions by using spheres instead of circles.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11978,
+		"nouns": [
+			"three",
+			"dimensions",
+			"spheres",
+			"circles"
+		],
+		"dOIndex": 125,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"dimensions",
+			"spheres",
+			"circles"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.07142857142857142,
+			"words": [
+				"extend"
+			],
+			"positive": [
+				"extend"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11979,
+		"nouns": [],
+		"dOIndex": 126,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11980,
+		"nouns": [],
+		"dOIndex": 127,
+		"isQuote": false
+	},
+	{
+		"txt": "To begin, we can list our unknowns: our x coordinate and y coordinate in space, and the error in our receiver's clock (or bias), b . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11981,
+		"nouns": [
+			"list",
+			"unknowns",
+			"x",
+			"y",
+			"space",
+			"error",
+			"receiver",
+			"clock",
+			"bias",
+			"b"
+		],
+		"dOIndex": 128,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"unknowns",
+			"receiver"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.1111111111111111,
+			"words": [
+				"bias",
+				"error"
+			],
+			"positive": [],
+			"negative": [
+				"bias",
+				"error"
+			]
+		}
+	},
+	{
+		"txt": " In a two dimensional plane, trilateration among three circles gives you an exact position; in three dimensional space, four spheres are required to determine all three special coordinates. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11982,
+		"nouns": [
+			"two",
+			"plane",
+			"trilateration",
+			"three",
+			"circles",
+			"position",
+			"three",
+			"space",
+			"four",
+			"spheres",
+			"three",
+			"coordinates"
+		],
+		"dOIndex": 129,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"trilateration",
+			"circles",
+			"position",
+			"spheres",
+			"coordinates"
+		],
+		"highfreq": {
+			"three": 3
+		}
+	},
+	{
+		"txt": " Note that if we included an assumption about being on the surface of some geometric shape, such as the earth, we could reduce the number of unknowns. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11983,
+		"nouns": [
+			"assumption",
+			"surface",
+			"shape",
+			"earth",
+			"number",
+			"unknowns"
+		],
+		"dOIndex": 130,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"assumption",
+			"surface",
+			"unknowns"
+		]
+	},
+	{
+		"txt": " No such simplification is used here to provide you with the most general case.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11984,
+		"nouns": [
+			"simplification",
+			"case"
+		],
+		"dOIndex": 131,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simplification"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.06666666666666667,
+			"words": [
+				"no"
+			],
+			"positive": [],
+			"negative": [
+				"no"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11985,
+		"nouns": [],
+		"dOIndex": 132,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11986,
+		"nouns": [],
+		"dOIndex": 133,
+		"isQuote": false
+	},
+	{
+		"txt": "In our example, we are somewhere on the surface of the two dimensional earth, shown in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11987,
+		"nouns": [
+			"example",
+			"surface",
+			"two",
+			"earth"
+		],
+		"dOIndex": 134,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"surface"
+		]
+	},
+	{
+		"txt": "Figure 22 1",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11988,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 135,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " as a light gray solid disk. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11989,
+		"nouns": [
+			"light",
+			"disk"
+		],
+		"dOIndex": 136,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.125,
+			"words": [
+				"solid",
+				"gray"
+			],
+			"positive": [
+				"solid"
+			],
+			"negative": [
+				"gray"
+			]
+		}
+	},
+	{
+		"txt": " This disk is being orbited by several GPS satellites. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11990,
+		"nouns": [
+			"disk",
+			"GPS",
+			"satellites"
+		],
+		"dOIndex": 137,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"satellites"
+		]
+	},
+	{
+		"txt": " The satellites' orbits are regular, and their positions at any time are tabulated in an almanac that is stored in the receiver. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 11991,
+		"nouns": [
+			"satellites",
+			"orbits",
+			"positions",
+			"time",
+			"almanac",
+			"receiver"
+		],
+		"dOIndex": 138,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"satellites",
+			"positions",
+			"almanac",
+			"receiver"
+		]
+	},
+	{
+		"txt": " The time of transmission is encoded in the signal so that the givens are xi, yi, and ti, with i =1,2,3.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11992,
+		"nouns": [
+			"time",
+			"transmission",
+			"givens",
+			"xi",
+			"yi",
+			"ti"
+		],
+		"dOIndex": 139,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"transmission"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11993,
+		"nouns": [],
+		"dOIndex": 140,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11994,
+		"nouns": [],
+		"dOIndex": 141,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11995,
+		"nouns": [],
+		"dOIndex": 142,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11996,
+		"nouns": [],
+		"dOIndex": 143,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11997,
+		"nouns": [],
+		"dOIndex": 144,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 22 1. Trilateration in 2D",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 11998,
+		"nouns": [
+			"Figure",
+			"Trilateration",
+			"D"
+		],
+		"dOIndex": 145,
+		"nouns2": [
+			"Figure",
+			"Trilateration"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 11999,
+		"nouns": [],
+		"dOIndex": 146,
+		"isQuote": false
+	},
+	{
+		"txt": "To make things easier for us, we are going to abandon the coordinate system of the earth and use the coordinate system defined by our three satellites. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12000,
+		"nouns": [
+			"things",
+			"coordinate",
+			"system",
+			"earth",
+			"use",
+			"coordinate",
+			"system",
+			"three",
+			"satellites"
+		],
+		"dOIndex": 147,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coordinate",
+			"satellites"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.07142857142857142,
+			"words": [
+				"abandon"
+			],
+			"positive": [],
+			"negative": [
+				"abandon"
+			]
+		}
+	},
+	{
+		"txt": " The origin will be at satellite 1, the x axis going directly from satellite 1 straight to satellite 2 and the y axis being perpendicular to that. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12001,
+		"nouns": [
+			"origin",
+			"satellite",
+			"x",
+			"axis",
+			"satellite",
+			"satellite",
+			"y",
+			"axis"
+		],
+		"dOIndex": 148,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"satellite"
+		],
+		"highfreq": {
+			"satellite": 3
+		},
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.034482758620689655,
+			"words": [
+				"straight"
+			],
+			"positive": [
+				"straight"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " This is shown in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12002,
+		"nouns": [],
+		"dOIndex": 149,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 22 2",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12003,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 150,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12004,
+		"nouns": [],
+		"dOIndex": 151,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12005,
+		"nouns": [],
+		"dOIndex": 152,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12006,
+		"nouns": [],
+		"dOIndex": 153,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12007,
+		"nouns": [],
+		"dOIndex": 154,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12008,
+		"nouns": [],
+		"dOIndex": 155,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12009,
+		"nouns": [],
+		"dOIndex": 156,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 22 2. Satellite coordinate system",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12010,
+		"nouns": [
+			"Figure",
+			"Satellite",
+			"system"
+		],
+		"dOIndex": 157,
+		"nouns2": [
+			"Figure",
+			"Satellite"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12011,
+		"nouns": [],
+		"dOIndex": 158,
+		"isQuote": false
+	},
+	{
+		"txt": "The equations of the three circles are therefore:r21 = x2+y2r22 = (x–d)2+y2r23 = (x–i)2+(y–j)2",
+		"why": "p",
+		"tags": [
+			"sup",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12012,
+		"nouns": [
+			"equations",
+			"three",
+			"circles",
+			"r",
+			"x",
+			"+y",
+			"r",
+			"x–d",
+			"+y",
+			"r",
+			"x–i",
+			"y–j"
+		],
+		"dOIndex": 159,
+		"nouns2": [
+			"equations",
+			"circles"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12013,
+		"nouns": [],
+		"dOIndex": 160,
+		"isQuote": false
+	},
+	{
+		"txt": "Each radius is found by subtracting the transmission time, ti , from the current time and multiplying by the speed of light. ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12014,
+		"nouns": [
+			"radius",
+			"transmission",
+			"time",
+			"ti",
+			"time",
+			"light"
+		],
+		"dOIndex": 161,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"transmission"
+		]
+	},
+	{
+		"txt": " As the speed of light is very large, and our current time is only a rough estimate, these radii are commonly referred ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12015,
+		"nouns": [
+			"light",
+			"time",
+			"estimate",
+			"radii"
+		],
+		"dOIndex": 162,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"estimate"
+		]
+	},
+	{
+		"txt": "to as pseudoranges",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12016,
+		"nouns": [
+			"pseudoranges"
+		],
+		"dOIndex": 163,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pseudoranges"
+		]
+	},
+	{
+		"txt": " to remind us they are still approximate. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12017,
+		"nouns": [],
+		"dOIndex": 164,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " The x and y values that satisfy these equations are our current location in two dimensional space. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12018,
+		"nouns": [
+			"x",
+			"y",
+			"values",
+			"equations",
+			"location",
+			"two",
+			"space"
+		],
+		"dOIndex": 165,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equations",
+			"location"
+		]
+	},
+	{
+		"txt": " We now subtract the second equation from the first:r12 – r22 = x2 + y2 – (x d)2 – y2r12 – r22 = x2 – (x d)2",
+		"why": "p",
+		"tags": [
+			"sup",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12019,
+		"nouns": [
+			"second",
+			"equation",
+			"first",
+			"r",
+			"–",
+			"r",
+			"x",
+			"y",
+			"–",
+			"x",
+			"– y",
+			"r",
+			"–",
+			"r",
+			"x",
+			"–",
+			"x"
+		],
+		"dOIndex": 166,
+		"nouns2": [
+			"equation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12020,
+		"nouns": [],
+		"dOIndex": 167,
+		"isQuote": false
+	},
+	{
+		"txt": "Solving for x gives:x = (r12 – r22+d2) / 2d",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12021,
+		"nouns": [
+			"x",
+			"x",
+			"r",
+			"–",
+			"r",
+			"+d",
+			"/"
+		],
+		"dOIndex": 168,
+		"nouns2": [
+			"Solving"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.1,
+			"words": [
+				"solving"
+			],
+			"positive": [
+				"solving"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12022,
+		"nouns": [],
+		"dOIndex": 169,
+		"isQuote": false
+	},
+	{
+		"txt": "where d is the distance between the known locations of satellite 1 and satellite 2. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12023,
+		"nouns": [
+			"distance",
+			"locations",
+			"satellite",
+			"satellite"
+		],
+		"dOIndex": 170,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distance",
+			"locations",
+			"satellite"
+		]
+	},
+	{
+		"txt": " We now substitute our x coordinate back into the first circle's equation:y2 = r12 – [((r12 – r22 + d2)2) / (4d2)]",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12024,
+		"nouns": [
+			"substitute",
+			"x",
+			"first",
+			"circle",
+			"equation",
+			"y",
+			"r",
+			"–",
+			"r",
+			"–",
+			"r",
+			"/"
+		],
+		"dOIndex": 171,
+		"nouns2": [
+			"substitute",
+			"equation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12025,
+		"nouns": [],
+		"dOIndex": 172,
+		"isQuote": false
+	},
+	{
+		"txt": "and finally after we take the square root:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12026,
+		"nouns": [
+			"square",
+			"root"
+		],
+		"dOIndex": 173,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 12027,
+		"nouns": [],
+		"dOIndex": 174,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12028,
+		"nouns": [],
+		"dOIndex": 175,
+		"isQuote": false
+	},
+	{
+		"txt": "notice that the y value is now expressed as a positive or negative square root. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12029,
+		"nouns": [
+			"notice",
+			"y",
+			"value",
+			"square",
+			"root"
+		],
+		"dOIndex": 176,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"negative",
+				"positive"
+			],
+			"positive": [
+				"positive"
+			],
+			"negative": [
+				"negative"
+			]
+		}
+	},
+	{
+		"txt": " This means there can be zero, one, or two real number solutions. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12030,
+		"nouns": [
+			"zero",
+			"one",
+			"two",
+			"number",
+			"solutions"
+		],
+		"dOIndex": 177,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"solutions"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.07142857142857142,
+			"words": [
+				"solutions"
+			],
+			"positive": [
+				"solutions"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " If the circles do not intersect, then the quantity under the square root will be negative and the y value will have zero real solutions. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12031,
+		"nouns": [
+			"circles",
+			"quantity",
+			"square",
+			"root",
+			"y",
+			"value",
+			"zero",
+			"solutions"
+		],
+		"dOIndex": 178,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"circles",
+			"quantity",
+			"solutions"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.037037037037037035,
+			"words": [
+				"solutions",
+				"negative"
+			],
+			"positive": [
+				"solutions"
+			],
+			"negative": [
+				"negative"
+			]
+		}
+	},
+	{
+		"txt": " This is unlikely for the first two satellites because you have already received pseudoranges to them in the form of r1 and r2 , which the algorithm assumes to have zero error. ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12032,
+		"nouns": [
+			"first",
+			"two",
+			"satellites",
+			"pseudoranges",
+			"form",
+			"r",
+			"r",
+			"algorithm",
+			"zero",
+			"error"
+		],
+		"dOIndex": 179,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"satellites",
+			"pseudoranges",
+			"algorithm"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.08823529411764706,
+			"words": [
+				"error",
+				"unlikely"
+			],
+			"positive": [],
+			"negative": [
+				"error",
+				"unlikely"
+			]
+		}
+	},
+	{
+		"txt": " If the two circles happen to intersect at only a single tangent point, the y will have one solution and will be equal to 0. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12033,
+		"nouns": [
+			"two",
+			"circles",
+			"point",
+			"y",
+			"one",
+			"solution"
+		],
+		"dOIndex": 180,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"circles",
+			"solution"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.037037037037037035,
+			"words": [
+				"solution"
+			],
+			"positive": [
+				"solution"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " This is also unlikely. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12034,
+		"nouns": [],
+		"dOIndex": 181,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.16666666666666666,
+			"words": [
+				"unlikely"
+			],
+			"positive": [],
+			"negative": [
+				"unlikely"
+			]
+		}
+	},
+	{
+		"txt": " The most likely result will be that y will be the set of two values, plus or minus the square root of a positive value, and that those two points will be widely separated.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12035,
+		"nouns": [
+			"result",
+			"y",
+			"two",
+			"values",
+			"square",
+			"root",
+			"value",
+			"two",
+			"points"
+		],
+		"dOIndex": 182,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"highfreq": {
+			"will": 3
+		},
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.05714285714285714,
+			"words": [
+				"positive"
+			],
+			"positive": [
+				"positive"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12036,
+		"nouns": [],
+		"dOIndex": 183,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12037,
+		"nouns": [],
+		"dOIndex": 184,
+		"isQuote": false
+	},
+	{
+		"txt": "Now if we included the assumption that we were on the earth's surface, we could already break the tie between the two points by picking whichever was closest to the earth's surface. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12038,
+		"nouns": [
+			"assumption",
+			"earth",
+			"surface",
+			"tie",
+			"two",
+			"points",
+			"earth",
+			"surface"
+		],
+		"dOIndex": 185,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"assumption",
+			"surface"
+		]
+	},
+	{
+		"txt": " However, we still would have to deal with the likelihood that there is a large error in our position given the imprecise clock in the receiver.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12039,
+		"nouns": [
+			"likelihood",
+			"error",
+			"position",
+			"clock",
+			"receiver"
+		],
+		"dOIndex": 186,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"likelihood",
+			"position",
+			"receiver"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.07407407407407407,
+			"words": [
+				"error"
+			],
+			"positive": [],
+			"negative": [
+				"error"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12040,
+		"nouns": [],
+		"dOIndex": 187,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12041,
+		"nouns": [],
+		"dOIndex": 188,
+		"isQuote": false
+	},
+	{
+		"txt": "We can fix our position (x,y ) with no assumptions and account for clock bias by introducing the third point and its pseudorange. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12042,
+		"nouns": [
+			"position",
+			"x",
+			"y",
+			"assumptions",
+			"account",
+			"clock",
+			"bias",
+			"third",
+			"point",
+			"pseudorange"
+		],
+		"dOIndex": 189,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"position",
+			"assumptions",
+			"account",
+			"pseudorange"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.08333333333333333,
+			"words": [
+				"bias",
+				"no"
+			],
+			"positive": [],
+			"negative": [
+				"bias",
+				"no"
+			]
+		}
+	},
+	{
+		"txt": " Now, it was very likely that the circles obtained from the first two satellites would intersect because of the way that GPS satellites are arranged around the earth. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12043,
+		"nouns": [
+			"circles",
+			"first",
+			"two",
+			"satellites",
+			"way",
+			"GPS",
+			"satellites",
+			"earth"
+		],
+		"dOIndex": 190,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"circles",
+			"satellites"
+		]
+	},
+	{
+		"txt": " However, because our calculations use pseudoranges, it is relatively unlikely that the third circle will pass directly through one of the two points defined by the intersection of the first two circles. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12044,
+		"nouns": [
+			"calculations",
+			"use",
+			"pseudoranges",
+			"third",
+			"circle",
+			"one",
+			"two",
+			"points",
+			"intersection",
+			"first",
+			"two",
+			"circles"
+		],
+		"dOIndex": 191,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"calculations",
+			"pseudoranges",
+			"intersection",
+			"circles"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.029411764705882353,
+			"words": [
+				"unlikely"
+			],
+			"positive": [],
+			"negative": [
+				"unlikely"
+			]
+		}
+	},
+	{
+		"txt": " To remove such clock related distance errors, we first calculate which point (x,y) or (x,–y) is closer to (i,j ) and choose that to be our assumed location. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12045,
+		"nouns": [
+			"clock",
+			"distance",
+			"errors",
+			"first",
+			"point",
+			"x",
+			"y",
+			"x",
+			"–y",
+			"j",
+			"location"
+		],
+		"dOIndex": 192,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distance",
+			"location"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.06666666666666667,
+			"words": [
+				"errors"
+			],
+			"positive": [],
+			"negative": [
+				"errors"
+			]
+		}
+	},
+	{
+		"txt": " The difference between the smaller of these two distances and the pseudorange r3 is then our distance correction, da . ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12046,
+		"nouns": [
+			"difference",
+			"two",
+			"distances",
+			"pseudorange",
+			"r",
+			"distance",
+			"correction",
+			"da"
+		],
+		"dOIndex": 193,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"difference",
+			"distances",
+			"pseudorange",
+			"distance",
+			"correction"
+		]
+	},
+	{
+		"txt": " As the signal is traveling at the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12047,
+		"nouns": [],
+		"dOIndex": 194,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12048,
+		"nouns": [],
+		"dOIndex": 195,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "speed of light, the following quotient provides an estimate of the error between the correct time and the receiver's time:b = da/c",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12049,
+		"nouns": [
+			"light",
+			"quotient",
+			"estimate",
+			"error",
+			"time",
+			"receiver",
+			"time",
+			"b",
+			"da",
+			"/",
+			"c"
+		],
+		"dOIndex": 196,
+		"nouns2": [
+			"quotient",
+			"estimate",
+			"receiver"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.09090909090909091,
+			"words": [
+				"error"
+			],
+			"positive": [],
+			"negative": [
+				"error"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12050,
+		"nouns": [],
+		"dOIndex": 197,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": true,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "As all the GPS satellites have synchronized atomic clocks, the same bias exists for each. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12051,
+		"nouns": [
+			"GPS",
+			"satellites",
+			"clocks",
+			"bias"
+		],
+		"dOIndex": 198,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"GPS",
+			"satellites",
+			"clocks",
+			"bias"
+		],
+		"nouns2": [
+			"satellites"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.0625,
+			"words": [
+				"bias"
+			],
+			"positive": [],
+			"negative": [
+				"bias"
+			]
+		}
+	},
+	{
+		"txt": " This means that the bias we calculated would actually affect the first pseudoranges we used to find our initial bias. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12052,
+		"nouns": [
+			"bias",
+			"first",
+			"pseudoranges",
+			"bias"
+		],
+		"dOIndex": 199,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"bias",
+			"first",
+			"pseudoranges",
+			"bias"
+		],
+		"nouns2": [
+			"pseudoranges"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.09090909090909091,
+			"words": [
+				"bias",
+				"bias"
+			],
+			"positive": [],
+			"negative": [
+				"bias",
+				"bias"
+			]
+		}
+	},
+	{
+		"txt": " Therefore an iterative approach is required to adjust all the variables in real time until they converge. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12053,
+		"nouns": [
+			"iterative",
+			"approach",
+			"variables",
+			"time"
+		],
+		"dOIndex": 200,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"iterative",
+			"approach",
+			"variables",
+			"time",
+			"They"
+		],
+		"nouns2": [
+			"Therefore",
+			"iterative",
+			"approach",
+			"variables"
+		]
+	},
+	{
+		"txt": " A more direct, but less obvious, algebraic solution that requires no iteration was developed by ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12054,
+		"nouns": [
+			"solution",
+			"iteration"
+		],
+		"dOIndex": 201,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"solution",
+			"iteration"
+		],
+		"nouns2": [
+			"solution",
+			"iteration"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"no",
+				"solution"
+			],
+			"positive": [
+				"solution"
+			],
+			"negative": [
+				"no"
+			]
+		}
+	},
+	{
+		"txt": "Stephen Bancroft. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12055,
+		"nouns": [
+			"Stephen Bancroft"
+		],
+		"dOIndex": 202,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"Stephen Bancroft"
+		],
+		"nouns2": [
+			"Stephen",
+			"Bancroft"
+		]
+	},
+	{
+		"txt": " It is detailed in his paper ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12056,
+		"nouns": [
+			"paper"
+		],
+		"dOIndex": 203,
+		"ignoreDOBcNoQuotes": false,
+		"isQuote": false,
+		"nounsProcAll": [
+			"paper"
+		],
+		"sfxfx": []
+	},
+	{
+		"txt": " \"An Algebraic Solution of the GPS Equations\" ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12057,
+		"nouns": [
+			"Solution",
+			"GPS",
+			"Equations"
+		],
+		"dOIndex": 204,
+		"isQuote": true,
+		"nounsProcAll": [
+			"Solution",
+			"GPS",
+			"Equations"
+		],
+		"sfxfx": [],
+		"gspkNameUnknown": "narrator",
+		"nouns2": [
+			"Algebraic",
+			"Solution",
+			"Equations"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.1111111111111111,
+			"words": [
+				"solution"
+			],
+			"positive": [
+				"solution"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " in the IEEE Transactions on Aerospace and Electronics Systems journal.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12058,
+		"nouns": [
+			"IEEE",
+			"Transactions",
+			"Aerospace",
+			"Electronics Systems"
+		],
+		"dOIndex": 205,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [
+			"IEEE",
+			"Transactions",
+			"Aerospace",
+			"Electronics Systems"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"Transactions",
+			"Aerospace",
+			"Electronics",
+			"Systems"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12059,
+		"nouns": [],
+		"dOIndex": 206,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12060,
+		"nouns": [],
+		"dOIndex": 207,
+		"isQuote": false
+	},
+	{
+		"txt": "Besides clock errors, other errors are introduced by the atmosphere, signals bouncing off the ground and back to the receiver, relativistic effects (discussed in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12061,
+		"nouns": [
+			"clock",
+			"errors",
+			"errors",
+			"atmosphere",
+			"signals",
+			"ground",
+			"receiver",
+			"effects"
+		],
+		"dOIndex": 208,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Besides",
+			"atmosphere",
+			"signals",
+			"receiver",
+			"effects"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.16,
+			"words": [
+				"errors",
+				"errors"
+			],
+			"positive": [],
+			"negative": [
+				"errors",
+				"errors"
+			]
+		}
+	},
+	{
+		"txt": "Chapter 2), and ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12062,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 209,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12063,
+		"nouns": [],
+		"dOIndex": 210,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12064,
+		"nouns": [],
+		"dOIndex": 211,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12065,
+		"nouns": [],
+		"dOIndex": 212,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "atomic clock drift. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12066,
+		"nouns": [
+			"clock",
+			"drift"
+		],
+		"dOIndex": 213,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " These are all accounted for in mathematical models applied to the raw position data. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12067,
+		"nouns": [
+			"are",
+			"models",
+			"position",
+			"data"
+		],
+		"dOIndex": 214,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"position"
+		]
+	},
+	{
+		"txt": " For instance, the GPS clocks lose about 7,214 nanoseconds every day due to their velocity according to special relativity. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12068,
+		"nouns": [
+			"instance",
+			"GPS",
+			"clocks",
+			"nanoseconds",
+			"day",
+			"velocity",
+			"relativity"
+		],
+		"dOIndex": 215,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"instance",
+			"nanoseconds",
+			"velocity",
+			"relativity"
+		]
+	},
+	{
+		"txt": " However, because they are higher up in the earth's gravity well, they gain 45,850 nanoseconds every day according to general relativity. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12069,
+		"nouns": [
+			"earth",
+			"gravity",
+			"gain",
+			"nanoseconds",
+			"day",
+			"relativity"
+		],
+		"dOIndex": 216,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"gravity",
+			"nanoseconds",
+			"relativity"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08695652173913043,
+			"words": [
+				"gain"
+			],
+			"positive": [
+				"gain"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The net effect is found by adding these values together: they run 38,640 nanoseconds faster each day, which would cause about 10 kilometers inaccuracy to build each day they are in orbit. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12070,
+		"nouns": [
+			"effect",
+			"values",
+			"nanoseconds",
+			"day",
+			"kilometers",
+			"inaccuracy",
+			"day",
+			"orbit"
+		],
+		"dOIndex": 217,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"nanoseconds",
+			"kilometers",
+			"inaccuracy"
+		]
+	},
+	{
+		"txt": " To account for this, the clocks in the GPS receivers are pre adjusted from 10.23 MHz to 10.22999999543 MHz. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12071,
+		"nouns": [
+			"account",
+			"clocks",
+			"GPS",
+			"receivers",
+			"pre",
+			"MHz",
+			"MHz"
+		],
+		"dOIndex": 218,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"account",
+			"receivers"
+		]
+	},
+	{
+		"txt": " The fact that we are giving you a number to 11 decimal places demonstrates the amount of accuracy the modern age enjoys in its time keeping.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12072,
+		"nouns": [
+			"fact",
+			"number",
+			"places",
+			"amount",
+			"accuracy",
+			"age",
+			"time"
+		],
+		"dOIndex": 219,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"accuracy"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.07407407407407407,
+			"words": [
+				"enjoys"
+			],
+			"positive": [
+				"enjoys"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12073,
+		"nouns": [],
+		"dOIndex": 220,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12074,
+		"nouns": [],
+		"dOIndex": 221,
+		"isQuote": false
+	},
+	{
+		"txt": "Once the bias is taken care of and all the other possible errors adjusted for, the converged solution can be translated back into whatever coordinate system is convenient to give to the end user. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12075,
+		"nouns": [
+			"bias",
+			"care",
+			"errors",
+			"solution",
+			"system",
+			"end",
+			"user"
+		],
+		"dOIndex": 222,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"solution"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"solution",
+				"errors",
+				"care",
+				"bias"
+			],
+			"positive": [
+				"solution",
+				"care"
+			],
+			"negative": [
+				"errors",
+				"bias"
+			]
+		}
+	},
+	{
+		"txt": " Usually this is latitude, longitude, and ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12076,
+		"nouns": [
+			"latitude",
+			"longitude"
+		],
+		"dOIndex": 223,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Usually",
+			"latitude",
+			"longitude"
+		]
+	},
+	{
+		"txt": "altitude. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12077,
+		"nouns": [
+			"altitude"
+		],
+		"dOIndex": 224,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"altitude"
+		]
+	},
+	{
+		"txt": " Next, we will learn how to calculate different quantities based in the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12078,
+		"nouns": [
+			"quantities"
+		],
+		"dOIndex": 225,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quantities"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12079,
+		"nouns": [],
+		"dOIndex": 226,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "geographic coordinate ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12080,
+		"nouns": [],
+		"dOIndex": 227,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12081,
+		"nouns": [],
+		"dOIndex": 228,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12082,
+		"nouns": [],
+		"dOIndex": 229,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12083,
+		"nouns": [],
+		"dOIndex": 230,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12084,
+		"nouns": [],
+		"dOIndex": 231,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12085,
+		"nouns": [],
+		"dOIndex": 232,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "system.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12086,
+		"nouns": [
+			"system"
+		],
+		"dOIndex": 233,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12087,
+		"nouns": [],
+		"dOIndex": 234,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12088,
+		"nouns": [],
+		"dOIndex": 235,
+		"isQuote": false
+	},
+	{
+		"txt": "Location, Location, Location",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12089,
+		"nouns": [
+			"Location",
+			"Location",
+			"Location"
+		],
+		"dOIndex": 236,
+		"nouns2": [
+			"Location"
+		],
+		"highfreq": {
+			"Location": 3
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12090,
+		"nouns": [],
+		"dOIndex": 237,
+		"isQuote": false
+	},
+	{
+		"txt": "Let's take a minute to discuss distance between two ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12091,
+		"nouns": [
+			"minute",
+			"distance",
+			"two"
+		],
+		"dOIndex": 238,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distance"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12092,
+		"nouns": [],
+		"dOIndex": 239,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12093,
+		"nouns": [],
+		"dOIndex": 240,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12094,
+		"nouns": [],
+		"dOIndex": 241,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12095,
+		"nouns": [],
+		"dOIndex": 242,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "latitude and longitude coordinates. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12096,
+		"nouns": [
+			"latitude",
+			"longitude",
+			"coordinates"
+		],
+		"dOIndex": 243,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"latitude",
+			"longitude",
+			"coordinates"
+		]
+	},
+	{
+		"txt": " You might be tempted to calculate it as the distance between two points. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12097,
+		"nouns": [
+			"distance",
+			"two",
+			"points"
+		],
+		"dOIndex": 244,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distance"
+		]
+	},
+	{
+		"txt": " For very small distances, this approximation is probably accurate enough. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12098,
+		"nouns": [
+			"distances",
+			"approximation"
+		],
+		"dOIndex": 245,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distances",
+			"approximation"
+		]
+	},
+	{
+		"txt": " However, because the earth is actually a sphere, over great distances the calculated route will be much shorter than the actual distance along the surface.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12099,
+		"nouns": [
+			"earth",
+			"sphere",
+			"distances",
+			"route",
+			"distance",
+			"surface"
+		],
+		"dOIndex": 246,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"distances",
+			"distance",
+			"surface"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.11538461538461539,
+			"words": [
+				"great"
+			],
+			"positive": [
+				"great"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12100,
+		"nouns": [],
+		"dOIndex": 247,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12101,
+		"nouns": [],
+		"dOIndex": 248,
+		"isQuote": false
+	},
+	{
+		"txt": "The shortest distance between two points on a sphere, especially in problems of navigation, is ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12102,
+		"nouns": [
+			"distance",
+			"two",
+			"points",
+			"sphere",
+			"problems",
+			"navigation"
+		],
+		"dOIndex": 249,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distance",
+			"problems",
+			"navigation"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.125,
+			"words": [
+				"problems"
+			],
+			"positive": [],
+			"negative": [
+				"problems"
+			]
+		}
+	},
+	{
+		"txt": "called a great circle",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12103,
+		"nouns": [
+			"circle"
+		],
+		"dOIndex": 250,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.75,
+			"words": [
+				"great"
+			],
+			"positive": [
+				"great"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12104,
+		"nouns": [],
+		"dOIndex": 251,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " A great circle is the intersection of a sphere and a plane defined by the center point of the sphere, the origin, and the destination. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12105,
+		"nouns": [
+			"circle",
+			"intersection",
+			"sphere",
+			"plane",
+			"center",
+			"point",
+			"sphere",
+			"origin",
+			"destination"
+		],
+		"dOIndex": 252,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"intersection",
+			"destination"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.1111111111111111,
+			"words": [
+				"great"
+			],
+			"positive": [
+				"great"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The resulting course actually has a heading that constantly changes. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12106,
+		"nouns": [
+			"course",
+			"changes"
+		],
+		"dOIndex": 253,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"changes"
+		]
+	},
+	{
+		"txt": " On ships, this is avoided in favor of ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12107,
+		"nouns": [
+			"ships",
+			"favor"
+		],
+		"dOIndex": 254,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.1,
+			"words": [
+				"favor",
+				"avoided"
+			],
+			"positive": [
+				"favor"
+			],
+			"negative": [
+				"avoided"
+			]
+		}
+	},
+	{
+		"txt": "using a rhumb line",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12108,
+		"nouns": [
+			"rhumb",
+			"line"
+		],
+		"dOIndex": 255,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " , which is the shortest path of constant heading. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12109,
+		"nouns": [
+			"path"
+		],
+		"dOIndex": 256,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " This makes navigation easier at the expense of time. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12110,
+		"nouns": [
+			"navigation",
+			"expense",
+			"time"
+		],
+		"dOIndex": 257,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"navigation",
+			"expense"
+		]
+	},
+	{
+		"txt": " Airplanes, however, do follow great circle routes to minimize fuel burn.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12111,
+		"nouns": [
+			"Airplanes",
+			"circle",
+			"routes",
+			"fuel"
+		],
+		"dOIndex": 258,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Airplanes"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.25,
+			"words": [
+				"great"
+			],
+			"positive": [
+				"great"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12112,
+		"nouns": [],
+		"dOIndex": 259,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12113,
+		"nouns": [],
+		"dOIndex": 260,
+		"isQuote": false
+	},
+	{
+		"txt": "Distance",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12114,
+		"nouns": [
+			"Distance"
+		],
+		"dOIndex": 261,
+		"nouns2": [
+			"Distance"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12115,
+		"nouns": [],
+		"dOIndex": 262,
+		"isQuote": false
+	},
+	{
+		"txt": "There are several ways of ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12116,
+		"nouns": [
+			"ways"
+		],
+		"dOIndex": 263,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "calculating the distance along a great circle. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12117,
+		"nouns": [
+			"distance",
+			"circle"
+		],
+		"dOIndex": 264,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distance"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.375,
+			"words": [
+				"great"
+			],
+			"positive": [
+				"great"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The one we will discuss here ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12118,
+		"nouns": [
+			"one"
+		],
+		"dOIndex": 265,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "is the haversine formula",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12119,
+		"nouns": [
+			"haversine",
+			"formula"
+		],
+		"dOIndex": 266,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"haversine",
+			"formula"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12120,
+		"nouns": [],
+		"dOIndex": 267,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " There are other methods like ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12121,
+		"nouns": [
+			"methods"
+		],
+		"dOIndex": 268,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"methods"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.2857142857142857,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "the spherical law of cosines and ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12122,
+		"nouns": [
+			"law",
+			"cosines"
+		],
+		"dOIndex": 269,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"cosines"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12123,
+		"nouns": [],
+		"dOIndex": 270,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "the Vincenty formula , but the haversine is more accurate for small distances than the spherical law of cosines while remaining much simpler than the Vincenty formula.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12124,
+		"nouns": [
+			"Vincenty",
+			"formula",
+			"haversine",
+			"distances",
+			"law",
+			"cosines",
+			"Vincenty",
+			"formula"
+		],
+		"dOIndex": 271,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Vincenty",
+			"formula",
+			"haversine",
+			"distances",
+			"cosines"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12125,
+		"nouns": [],
+		"dOIndex": 272,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12126,
+		"nouns": [],
+		"dOIndex": 273,
+		"isQuote": false
+	},
+	{
+		"txt": "The haversine formula for distance is:d = (R)(c)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12127,
+		"nouns": [
+			"haversine",
+			"formula",
+			"distance",
+			"R",
+			"c"
+		],
+		"dOIndex": 274,
+		"nouns2": [
+			"haversine",
+			"formula",
+			"distance"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12128,
+		"nouns": [],
+		"dOIndex": 275,
+		"isQuote": false
+	},
+	{
+		"txt": "where R = earth's radius and c is the angular distance in radians given by:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12129,
+		"nouns": [
+			"R",
+			"earth",
+			"radius",
+			"c",
+			"distance",
+			"radians"
+		],
+		"dOIndex": 276,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distance",
+			"radians"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 12130,
+		"nouns": [],
+		"dOIndex": 277,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12131,
+		"nouns": [],
+		"dOIndex": 278,
+		"isQuote": false
+	},
+	{
+		"txt": "Here, a is the square of half the chord length between the two points, calculated as:a = sin2(Δlat/2) + cos(lat1)cos(lat2)sin2(Δlong /2)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12132,
+		"nouns": [
+			"square",
+			"half",
+			"chord",
+			"length",
+			"two",
+			"points",
+			"sin",
+			"Δlat",
+			"/",
+			"cos",
+			"lat",
+			"cos",
+			"lat",
+			"sin",
+			"Δlong",
+			"/"
+		],
+		"dOIndex": 279,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12133,
+		"nouns": [],
+		"dOIndex": 280,
+		"isQuote": false
+	},
+	{
+		"txt": "Finally:Δlong = long2 – long1Δlat = lat2 – lat1",
+		"why": "p",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12134,
+		"nouns": [
+			"Δlong",
+			"–",
+			"Δlat",
+			"lat",
+			"–",
+			"lat"
+		],
+		"dOIndex": 281,
+		"nouns2": [
+			"Finally"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12135,
+		"nouns": [],
+		"dOIndex": 282,
+		"isQuote": false
+	},
+	{
+		"txt": "Remember to first convert the angles to radians before using them in the trig function. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12136,
+		"nouns": [
+			"first",
+			"angles",
+			"radians",
+			"trig",
+			"function"
+		],
+		"dOIndex": 283,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Remember",
+			"radians",
+			"function"
+		]
+	},
+	{
+		"txt": " Next we will begin showing you an implementation of several different formulas in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12137,
+		"nouns": [
+			"implementation",
+			"formulas"
+		],
+		"dOIndex": 284,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"implementation",
+			"formulas"
+		]
+	},
+	{
+		"txt": "Objective C; however, these should translate to C with little modification. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12138,
+		"nouns": [
+			"Objective",
+			"C",
+			"C",
+			"modification"
+		],
+		"dOIndex": 285,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Objective",
+			"modification"
+		]
+	},
+	{
+		"txt": " These all use the following data structure to hold latitude and longitude information:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12139,
+		"nouns": [
+			"use",
+			"data",
+			"structure",
+			"latitude",
+			"longitude",
+			"information"
+		],
+		"dOIndex": 286,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"structure",
+			"latitude",
+			"longitude",
+			"information"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 12140,
+		"nouns": [],
+		"dOIndex": 287,
+		"isQuote": false
+	},
+	{
+		"txt": "Given this, the haversine implementation would look like:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12141,
+		"nouns": [
+			"haversine",
+			"implementation"
+		],
+		"dOIndex": 288,
+		"nouns2": [
+			"haversine",
+			"implementation"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.25,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 12142,
+		"nouns": [],
+		"dOIndex": 289,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12143,
+		"nouns": [],
+		"dOIndex": 290,
+		"isQuote": false
+	},
+	{
+		"txt": "One limitation of the preceding method is that if the two locations are ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12144,
+		"nouns": [
+			"One",
+			"limitation",
+			"method",
+			"two",
+			"locations"
+		],
+		"dOIndex": 291,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"limitation",
+			"locations"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.07142857142857142,
+			"words": [
+				"limitation"
+			],
+			"positive": [],
+			"negative": [
+				"limitation"
+			]
+		}
+	},
+	{
+		"txt": "nearly antipodal",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12145,
+		"nouns": [],
+		"dOIndex": 292,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "  that is, on opposite sides of the earth then the haversine formula may have round off issues that could results in errors on the order of 2 km. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12146,
+		"nouns": [
+			"sides",
+			"earth",
+			"haversine",
+			"formula",
+			"round",
+			"issues",
+			"results",
+			"errors",
+			"order",
+			"km"
+		],
+		"dOIndex": 293,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"haversine",
+			"formula",
+			"results"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.06451612903225806,
+			"words": [
+				"errors"
+			],
+			"positive": [],
+			"negative": [
+				"errors"
+			]
+		}
+	},
+	{
+		"txt": " These, however, will be over a distance of 20,000 km. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12147,
+		"nouns": [
+			"distance",
+			"km"
+		],
+		"dOIndex": 294,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distance"
+		]
+	},
+	{
+		"txt": " If extreme accuracy is required for nearly antipodal coordinates, you can fall back to the spherical law of cosines, which is best suited for large distances such as the antipodal case.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12148,
+		"nouns": [
+			"accuracy",
+			"coordinates",
+			"fall",
+			"law",
+			"cosines",
+			"distances",
+			"case"
+		],
+		"dOIndex": 295,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"accuracy",
+			"coordinates",
+			"cosines",
+			"distances"
+		],
+		"sentiment": {
+			"score": 5,
+			"comparative": 0.15625,
+			"words": [
+				"suited",
+				"best"
+			],
+			"positive": [
+				"suited",
+				"best"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12149,
+		"nouns": [],
+		"dOIndex": 296,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12150,
+		"nouns": [],
+		"dOIndex": 297,
+		"isQuote": false
+	},
+	{
+		"txt": "Great Circle Heading",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12151,
+		"nouns": [
+			"Great Circle"
+		],
+		"dOIndex": 298,
+		"nouns2": [
+			"Circle",
+			"Heading"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 1,
+			"words": [
+				"great"
+			],
+			"positive": [
+				"great"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12152,
+		"nouns": [],
+		"dOIndex": 299,
+		"isQuote": false
+	},
+	{
+		"txt": "As discussed before, to follow the shortest path between two points on a ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12153,
+		"nouns": [
+			"path",
+			"two",
+			"points"
+		],
+		"dOIndex": 300,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12154,
+		"nouns": [],
+		"dOIndex": 301,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "sphere you must travel along a great circle. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12155,
+		"nouns": [
+			"sphere",
+			"travel",
+			"circle"
+		],
+		"dOIndex": 302,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.3333333333333333,
+			"words": [
+				"great"
+			],
+			"positive": [
+				"great"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " However, this requires that your heading be constantly changing with time. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12156,
+		"nouns": [
+			"time"
+		],
+		"dOIndex": 303,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However"
+		]
+	},
+	{
+		"txt": " The formula to calculate your initial heading, ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12157,
+		"nouns": [
+			"formula"
+		],
+		"dOIndex": 304,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"formula"
+		]
+	},
+	{
+		"txt": "or forward azimuth, is:Θi = atan2[sin(Δlong)cos(lat2), cos(lat1)sin(lat2) – sin(lat1)cos(lat2)cos(Δlong)]",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12158,
+		"nouns": [
+			"azimuth",
+			"Θi",
+			"atan",
+			"[sin",
+			"Δlong",
+			"cos",
+			"lat",
+			"cos",
+			"lat",
+			"sin",
+			"lat",
+			"–",
+			"sin",
+			"lat",
+			"cos",
+			"lat",
+			"cos",
+			"Δlong"
+		],
+		"dOIndex": 305,
+		"nouns2": [
+			"azimuth"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 12159,
+		"nouns": [],
+		"dOIndex": 306,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12160,
+		"nouns": [],
+		"dOIndex": 307,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Recall that ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12161,
+		"nouns": [],
+		"dOIndex": 308,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Recall"
+		]
+	},
+	{
+		"txt": "atan2 is the two argument variation of the arctangent",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12162,
+		"nouns": [
+			"atan",
+			"two",
+			"argument",
+			"variation",
+			"arctangent"
+		],
+		"dOIndex": 309,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"argument",
+			"variation",
+			"arctangent"
+		]
+	},
+	{
+		"txt": " function. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12163,
+		"nouns": [
+			"function"
+		],
+		"dOIndex": 310,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function"
+		]
+	},
+	{
+		"txt": " It returns a normalized angle in radians between −π and π (−180° and 180°). ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12164,
+		"nouns": [
+			"returns",
+			"angle",
+			"radians",
+			"−π",
+			"π",
+			"−",
+			"°",
+			"°"
+		],
+		"dOIndex": 311,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"returns",
+			"radians"
+		]
+	},
+	{
+		"txt": " The code that calculates the value and returns the compass bearing is as follows:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12165,
+		"nouns": [
+			"code",
+			"value",
+			"returns",
+			"compass"
+		],
+		"dOIndex": 312,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"returns",
+			"compass"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 12166,
+		"nouns": [],
+		"dOIndex": 313,
+		"isQuote": false
+	},
+	{
+		"txt": "A negative angle involves starting at 0° and rotating in the decreasing heading direction, but compasses aren't labeled with negative values! ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12167,
+		"nouns": [
+			"angle",
+			"°",
+			"direction",
+			"compasses",
+			"aren",
+			"t",
+			"values"
+		],
+		"dOIndex": 314,
+		"nouns2": [
+			"direction",
+			"compasses"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.18181818181818182,
+			"words": [
+				"negative",
+				"negative"
+			],
+			"positive": [],
+			"negative": [
+				"negative",
+				"negative"
+			]
+		},
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": true,
+		"nounsProcAll": [
+			"angle",
+			"°",
+			"direction",
+			"compasses",
+			"aren",
+			"t",
+			"values"
+		]
+	},
+	{
+		"txt": " To fix this, the line that has the comment ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12168,
+		"nouns": [
+			"line",
+			"comment"
+		],
+		"dOIndex": 315,
+		"ignoreDOBcNoQuotes": false,
+		"isQuote": false,
+		"nounsProcAll": [
+			"line",
+			"comment"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"comment"
+		]
+	},
+	{
+		"txt": " \"fix range\" ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12169,
+		"nouns": [
+			"range"
+		],
+		"dOIndex": 316,
+		"isQuote": true,
+		"nounsProcAll": [
+			"range"
+		],
+		"sfxfx": [],
+		"gspkNameUnknown": "narrator"
+	},
+	{
+		"txt": " is using a ternary operator to say that if the bearing is less than 0, return the value the compass would read. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12170,
+		"nouns": [
+			"ternary",
+			"operator",
+			"return",
+			"value",
+			"compass"
+		],
+		"dOIndex": 317,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [
+			"ternary",
+			"operator",
+			"return",
+			"value",
+			"compass"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"ternary",
+			"operator",
+			"compass"
+		]
+	},
+	{
+		"txt": " For example, if the bearing were −10°, then the compass bearing is −10° + 360° = 350°. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12171,
+		"nouns": [
+			"example",
+			"−",
+			"°",
+			"compass",
+			"−",
+			"°",
+			"°",
+			"°"
+		],
+		"dOIndex": 318,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"example",
+			"−",
+			"°",
+			"compass",
+			"−",
+			"°",
+			"°",
+			"°"
+		],
+		"nouns2": [
+			"example",
+			"compass"
+		]
+	},
+	{
+		"txt": " If the value is positive, then it just returns the same value.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12172,
+		"nouns": [
+			"value",
+			"returns",
+			"value"
+		],
+		"dOIndex": 319,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"value",
+			"returns",
+			"value"
+		],
+		"nouns2": [
+			"returns"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.15384615384615385,
+			"words": [
+				"positive"
+			],
+			"positive": [
+				"positive"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12173,
+		"nouns": [],
+		"dOIndex": 320,
+		"isQuote": false
+	},
+	{
+		"txt": "To find the final bearing, we simply take the initial bearing going from the end point to the start point and then reverse it. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12174,
+		"nouns": [
+			"end",
+			"point",
+			"start",
+			"point"
+		],
+		"dOIndex": 321,
+		"isQuote": false
+	},
+	{
+		"txt": " The code is produced as follows:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12175,
+		"nouns": [
+			"code"
+		],
+		"dOIndex": 322,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 12176,
+		"nouns": [],
+		"dOIndex": 323,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12177,
+		"nouns": [],
+		"dOIndex": 324,
+		"isQuote": false
+	},
+	{
+		"txt": "The difference here is that we have flipped lat1, long1 and lat2, long2 while converting the locations to radians. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12178,
+		"nouns": [
+			"difference",
+			"lat",
+			"lat",
+			"locations",
+			"radians"
+		],
+		"dOIndex": 325,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"difference",
+			"locations",
+			"radians"
+		]
+	},
+	{
+		"txt": " Also, before we return the bearing value, we reverse it by adding 180° degrees to it. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12179,
+		"nouns": [
+			"return",
+			"value",
+			"°",
+			"degrees"
+		],
+		"dOIndex": 326,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"degrees"
+		]
+	},
+	{
+		"txt": " The modulo operator (% ) ensures that values over 360° are rolled over into compass coordinates. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12180,
+		"nouns": [
+			"modulo",
+			"operator",
+			"%",
+			"values",
+			"°",
+			"compass",
+			"coordinates"
+		],
+		"dOIndex": 327,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"operator",
+			"compass",
+			"coordinates"
+		]
+	},
+	{
+		"txt": " For example, if we calculate a bearing of 350° and add 180° to it, we get 530° degrees. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12181,
+		"nouns": [
+			"example",
+			"°",
+			"°",
+			"°",
+			"degrees"
+		],
+		"dOIndex": 328,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"degrees"
+		]
+	},
+	{
+		"txt": " If you start at 0° and go around 530°, you'll end up at 170°. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12182,
+		"nouns": [
+			"°",
+			"°",
+			"ll",
+			"end",
+			"°"
+		],
+		"dOIndex": 329,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " The modulo operator",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12183,
+		"nouns": [
+			"modulo",
+			"operator"
+		],
+		"dOIndex": 330,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"operator"
+		]
+	},
+	{
+		"txt": " will result in the bearing being calculated with this correct compass value.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12184,
+		"nouns": [
+			"result",
+			"compass",
+			"value"
+		],
+		"dOIndex": 331,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"compass"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12185,
+		"nouns": [],
+		"dOIndex": 332,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12186,
+		"nouns": [],
+		"dOIndex": 333,
+		"isQuote": false
+	},
+	{
+		"txt": "Rhumb Line",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12187,
+		"nouns": [
+			"Rhumb Line"
+		],
+		"dOIndex": 334,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12188,
+		"nouns": [],
+		"dOIndex": 335,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": true,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "As discussed before, it is ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12189,
+		"nouns": [],
+		"dOIndex": 336,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "sometimes preferable to take a longer path of constant heading, called a rhumb line, as compared to constantly changing your heading to follow a great circle path. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12190,
+		"nouns": [
+			"path",
+			"rhumb",
+			"line",
+			"circle",
+			"path"
+		],
+		"dOIndex": 337,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"path",
+			"rhumb",
+			"line",
+			"circle",
+			"path"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.10714285714285714,
+			"words": [
+				"great"
+			],
+			"positive": [
+				"great"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The rhumb line will be longer than the great circle, and the distance you are from the great circle route at any moment is called ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12191,
+		"nouns": [
+			"rhumb",
+			"line",
+			"circle",
+			"distance",
+			"circle",
+			"route",
+			"moment"
+		],
+		"dOIndex": 338,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"rhumb",
+			"line",
+			"circle",
+			"distance",
+			"circle",
+			"route",
+			"moment"
+		],
+		"nouns2": [
+			"distance"
+		],
+		"sentiment": {
+			"score": 6,
+			"comparative": 0.2222222222222222,
+			"words": [
+				"great",
+				"great"
+			],
+			"positive": [
+				"great",
+				"great"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "the cross track error",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12192,
+		"nouns": [
+			"cross",
+			"track",
+			"error"
+		],
+		"dOIndex": 339,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"cross",
+			"track",
+			"error"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.5,
+			"words": [
+				"error"
+			],
+			"positive": [],
+			"negative": [
+				"error"
+			]
+		}
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12193,
+		"nouns": [],
+		"dOIndex": 340,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": " To cross the Atlantic is about 5% longer if you follow a rhumb line. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12194,
+		"nouns": [
+			"Atlantic",
+			"%",
+			"rhumb",
+			"line"
+		],
+		"dOIndex": 341,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"Atlantic",
+			"%",
+			"rhumb",
+			"line"
+		],
+		"nouns2": [
+			"Atlantic"
+		]
+	},
+	{
+		"txt": " The extreme example of going from the East Coast of the United States to China is about 30% longer. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12195,
+		"nouns": [
+			"example",
+			"East Coast",
+			"States",
+			"China",
+			"%"
+		],
+		"dOIndex": 342,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"example",
+			"East Coast",
+			"States",
+			"China",
+			"%"
+		],
+		"nouns2": [
+			"example",
+			"United",
+			"States"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.047619047619047616,
+			"words": [
+				"united"
+			],
+			"positive": [
+				"united"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " However, such large penalties are rarely encountered because ships have to alter course to avoid land! ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12196,
+		"nouns": [
+			"penalties",
+			"ships",
+			"course",
+			"land"
+		],
+		"dOIndex": 343,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"penalties",
+			"ships",
+			"course",
+			"land"
+		],
+		"nouns2": [
+			"However",
+			"penalties"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.05555555555555555,
+			"words": [
+				"avoid"
+			],
+			"positive": [],
+			"negative": [
+				"avoid"
+			]
+		}
+	},
+	{
+		"txt": " This makes ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12197,
+		"nouns": [],
+		"dOIndex": 344,
+		"ignoreDOBcNoQuotes": false,
+		"isQuote": false,
+		"nounsProcAll": [],
+		"sfxfx": []
+	},
+	{
+		"txt": " \"as the crow flies\" ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12198,
+		"nouns": [
+			"crow"
+		],
+		"dOIndex": 345,
+		"isQuote": true,
+		"nounsProcAll": [
+			"crow"
+		],
+		"sfxfx": [],
+		"gspkNameUnknown": "narrator"
+	},
+	{
+		"txt": " examples unrealistic.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12199,
+		"nouns": [
+			"examples"
+		],
+		"dOIndex": 346,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [
+			"examples"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"examples"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12200,
+		"nouns": [],
+		"dOIndex": 347,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12201,
+		"nouns": [],
+		"dOIndex": 348,
+		"isQuote": false
+	},
+	{
+		"txt": "If your game is providing navigation information to anyone but pilots, it will probably be using rhumb lines. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12202,
+		"nouns": [
+			"game",
+			"navigation",
+			"information",
+			"anyone",
+			"pilots",
+			"rhumb",
+			"lines"
+		],
+		"dOIndex": 349,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"navigation",
+			"information"
+		]
+	},
+	{
+		"txt": " The following are the formulas used to calculate distance and bearing between two coordinates on a rhumb line. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12203,
+		"nouns": [
+			"formulas",
+			"distance",
+			"two",
+			"coordinates",
+			"rhumb",
+			"line"
+		],
+		"dOIndex": 350,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"formulas",
+			"distance",
+			"coordinates"
+		]
+	},
+	{
+		"txt": " The easiest way to begin is to flatten the globe. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12204,
+		"nouns": [
+			"way",
+			"globe"
+		],
+		"dOIndex": 351,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " In a ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12205,
+		"nouns": [],
+		"dOIndex": 352,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Mercator projection, rhumb lines are straight. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12206,
+		"nouns": [
+			"Mercator",
+			"projection",
+			"rhumb",
+			"lines"
+		],
+		"dOIndex": 353,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Mercator",
+			"projection"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.14285714285714285,
+			"words": [
+				"straight"
+			],
+			"positive": [
+				"straight"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " In fact, this makes graphically solving the problem very simple. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12207,
+		"nouns": [
+			"fact",
+			"problem"
+		],
+		"dOIndex": 354,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"problem"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.08333333333333333,
+			"words": [
+				"problem",
+				"solving"
+			],
+			"positive": [
+				"solving"
+			],
+			"negative": [
+				"problem"
+			]
+		}
+	},
+	{
+		"txt": " You use a ruler. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12208,
+		"nouns": [
+			"use",
+			"ruler"
+		],
+		"dOIndex": 355,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Mathematically, things get a bit more complicated. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12209,
+		"nouns": [
+			"things",
+			"bit"
+		],
+		"dOIndex": 356,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Mathematically"
+		]
+	},
+	{
+		"txt": " The following equation gives Δφ, which is the difference in latitude after taking into account that we have stretched them in order to flatten the sphere:Δφ = ln[tan(lat2/2 + π/4) / tan(lat1/2 + π/4)]",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12210,
+		"nouns": [
+			"equation",
+			"Δφ",
+			"difference",
+			"latitude",
+			"account",
+			"order",
+			"sphere",
+			"Δφ",
+			"ln[tan",
+			"lat",
+			"/",
+			"π",
+			"/",
+			"/",
+			"lat",
+			"/",
+			"π",
+			"/"
+		],
+		"dOIndex": 357,
+		"nouns2": [
+			"equation",
+			"difference",
+			"latitude",
+			"account"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12211,
+		"nouns": [],
+		"dOIndex": 358,
+		"isQuote": false
+	},
+	{
+		"txt": "The distance between two points on a rhumb line is given by:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12212,
+		"nouns": [
+			"distance",
+			"two",
+			"points",
+			"rhumb",
+			"line"
+		],
+		"dOIndex": 359,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distance"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 12213,
+		"nouns": [],
+		"dOIndex": 360,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12214,
+		"nouns": [],
+		"dOIndex": 361,
+		"isQuote": false
+	},
+	{
+		"txt": "The variable q is a value whose formula depends on Δφ. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12215,
+		"nouns": [
+			"q",
+			"value",
+			"formula",
+			"Δφ"
+		],
+		"dOIndex": 362,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"formula"
+		]
+	},
+	{
+		"txt": " If Δφ is equal to 0, that means that the calculated course is going to be either directly east or west. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12216,
+		"nouns": [
+			"Δφ",
+			"course",
+			"west"
+		],
+		"dOIndex": 363,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " If that is the case, then the intermediate value of q is:q = cos(lat1)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12217,
+		"nouns": [
+			"case",
+			"value",
+			"q",
+			"q",
+			"cos",
+			"lat"
+		],
+		"dOIndex": 364,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12218,
+		"nouns": [],
+		"dOIndex": 365,
+		"isQuote": false
+	},
+	{
+		"txt": "if Δφ is not equal to 0, then:q = Δlat/Δφ",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12219,
+		"nouns": [
+			"Δφ",
+			"q",
+			"Δlat",
+			"/",
+			"Δφ"
+		],
+		"dOIndex": 366,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12220,
+		"nouns": [],
+		"dOIndex": 367,
+		"isQuote": false
+	},
+	{
+		"txt": "You can see that if not properly implemented, a direct east or west course would result in division by 0. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12221,
+		"nouns": [
+			"west",
+			"course",
+			"division"
+		],
+		"dOIndex": 368,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"division"
+		]
+	},
+	{
+		"txt": " Finally, the constant bearing is:Θrhumb = atan2(Δlong, Δφ)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12222,
+		"nouns": [
+			"Θrhumb",
+			"atan",
+			"Δlong",
+			"Δφ"
+		],
+		"dOIndex": 369,
+		"nouns2": [
+			"Finally",
+			"Θrhumb"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12223,
+		"nouns": [],
+		"dOIndex": 370,
+		"isQuote": false
+	},
+	{
+		"txt": "There are, in fact, an infinite number of rhumb lines that will get us to our end point. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12224,
+		"nouns": [
+			"fact",
+			"number",
+			"rhumb",
+			"lines",
+			"end",
+			"point"
+		],
+		"dOIndex": 371,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " However, the longer ones will either take us the wrong way around the globe, or spiral around the globe before hitting our end point. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12225,
+		"nouns": [
+			"ones",
+			"take",
+			"way",
+			"globe",
+			"globe",
+			"end",
+			"point"
+		],
+		"dOIndex": 372,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.07692307692307693,
+			"words": [
+				"wrong"
+			],
+			"positive": [],
+			"negative": [
+				"wrong"
+			]
+		}
+	},
+	{
+		"txt": " At any rate, the shortest route will be the one in which Δlong is less that 180°. ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12226,
+		"nouns": [
+			"rate",
+			"route",
+			"one",
+			"Δlong",
+			"°"
+		],
+		"dOIndex": 373,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " The preceding is implemented in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12227,
+		"nouns": [],
+		"dOIndex": 374,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Objective C as follows:",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12228,
+		"nouns": [
+			"Objective",
+			"C"
+		],
+		"dOIndex": 375,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Objective"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12229,
+		"nouns": [],
+		"dOIndex": 376,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 12230,
+		"nouns": [],
+		"dOIndex": 377,
+		"isQuote": false
+	},
+	{
+		"txt": "There are a few things worth pointing out. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12231,
+		"nouns": [
+			"things"
+		],
+		"dOIndex": 378,
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.2222222222222222,
+			"words": [
+				"worth"
+			],
+			"positive": [
+				"worth"
+			],
+			"negative": []
+		},
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": true,
+		"nounsProcAll": [
+			"things"
+		]
+	},
+	{
+		"txt": " First is that we are using a ternary function in the line commented by ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12232,
+		"nouns": [
+			"First",
+			"ternary",
+			"function",
+			"line"
+		],
+		"dOIndex": 379,
+		"ignoreDOBcNoQuotes": false,
+		"isQuote": false,
+		"nounsProcAll": [
+			"First",
+			"ternary",
+			"function",
+			"line"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"ternary",
+			"function"
+		]
+	},
+	{
+		"txt": " \"avoids division by 0\" ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12233,
+		"nouns": [
+			"division"
+		],
+		"dOIndex": 380,
+		"isQuote": true,
+		"nounsProcAll": [
+			"division"
+		],
+		"sfxfx": [],
+		"gspkNameUnknown": "narrator",
+		"nouns2": [
+			"division"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.16666666666666666,
+			"words": [
+				"avoids"
+			],
+			"positive": [],
+			"negative": [
+				"avoids"
+			]
+		}
+	},
+	{
+		"txt": " to take care of the case when deltaPhi is equal to 0. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12234,
+		"nouns": [
+			"care",
+			"case",
+			"deltaPhi"
+		],
+		"dOIndex": 381,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [
+			"care",
+			"case",
+			"deltaPhi"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"deltaPhi"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.14285714285714285,
+			"words": [
+				"care"
+			],
+			"positive": [
+				"care"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " If it is 0, q is set to cos(lat1); if not, then it is set to dlat/deltaPhi . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12235,
+		"nouns": [
+			"q",
+			"cos",
+			"lat",
+			"dlat",
+			"/",
+			"deltaPhi"
+		],
+		"dOIndex": 382,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"q",
+			"cos",
+			"lat",
+			"dlat",
+			"/",
+			"deltaPhi"
+		],
+		"nouns2": [
+			"deltaPhi"
+		]
+	},
+	{
+		"txt": " The if statement immediately following ensures that if dLon is greater than π (180°), hence putting us on a longer than required rhumb line, then we should correct the value to correspond to the shortest route. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12236,
+		"nouns": [
+			"statement",
+			"dLon",
+			"π",
+			"°",
+			"rhumb",
+			"line",
+			"value",
+			"route"
+		],
+		"dOIndex": 383,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"statement",
+			"dLon",
+			"π",
+			"°",
+			"rhumb",
+			"line",
+			"value",
+			"route"
+		],
+		"nouns2": [
+			"statement"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.07894736842105263,
+			"words": [
+				"greater"
+			],
+			"positive": [
+				"greater"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " This is achieved via the ternary, which ensures that dLon is less than π and nonnegative. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12237,
+		"nouns": [
+			"ternary",
+			"dLon",
+			"π",
+			"nonnegative"
+		],
+		"dOIndex": 384,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"ternary",
+			"dLon",
+			"π",
+			"nonnegative"
+		],
+		"nouns2": [
+			"ternary",
+			"nonnegative"
+		]
+	},
+	{
+		"txt": " Lastly, we convert from a normalized radian answer to a compass direction.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12238,
+		"nouns": [
+			"radian",
+			"answer",
+			"compass",
+			"direction"
+		],
+		"dOIndex": 385,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"radian",
+			"answer",
+			"compass",
+			"direction"
+		],
+		"nouns2": [
+			"Lastly",
+			"compass",
+			"direction"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12239,
+		"nouns": [],
+		"dOIndex": 386,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12240,
+		"nouns": [],
+		"dOIndex": 387
+	},
+	{
+		"txt": "Now that you have a good idea about how to calculate position and distance in the geographic coordinate system, you can use the earlier chapters to determine other quantities like speed and ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12241,
+		"nouns": [
+			"idea",
+			"position",
+			"distance",
+			"system",
+			"use",
+			"chapters",
+			"quantities"
+		],
+		"dOIndex": 388,
+		"nouns2": [
+			"position",
+			"distance",
+			"chapters",
+			"quantities"
+		],
+		"sentiment": {
+			"score": 5,
+			"comparative": 0.15151515151515152,
+			"words": [
+				"like",
+				"good"
+			],
+			"positive": [
+				"like",
+				"good"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12242,
+		"nouns": [],
+		"dOIndex": 389
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12243,
+		"nouns": [],
+		"dOIndex": 390
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12244,
+		"nouns": [],
+		"dOIndex": 391
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 12245,
+		"nouns": [],
+		"dOIndex": 392
+	},
+	{
+		"txt": "acceleration.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 12246,
+		"nouns": [
+			"acceleration"
+		],
+		"dOIndex": 393,
+		"nouns2": [
+			"acceleration"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 12247,
+		"nouns": [],
+		"dOIndex": 394
+	}
+]

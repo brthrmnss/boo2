@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg"><head><title>Chapter 25. Optical Tracking</title><link rel="stylesheet" type="text/css" href="core.css"/><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"/><link rel="up" href="pt04.html" title="Part IV. Digital Physics"/><link rel="prev" href="ch24.html" title="Chapter 24. 3D Display"/><link rel="next" href="ch26.html" title="Chapter 26. Sound"/></head><body><section class="chapter" title="Chapter 25. Optical Tracking" epub:type="chapter" id="optical_tracking"><div class="titlepage"><div><div><h2 class="title">Chapter 25. Optical Tracking</h2></div></div></div><p>In previous chapters we discussed how accelerometers have changed the
+  way that people interact with video games. The same sort of innovation is
+  occurring with <a id="I_indexterm6_id362222" class="indexterm"/>optical sensors. Cameras, both in visual and infrared
+  spectrums, are being used to generate input for games. This chapter will
+  focus on the Microsoft Kinect for Windows SDK and give an overview of how to
+  make a simple game that combines optical tracking with physics. First we’ll
+  give a short introduction on the technologies these systems use to turn a
+  camera into a tracking device.</p><p>Without getting too detailed, we should start by discussing a few
+  things about digital cameras. First, most of us are familiar with the
+  “megapixel” metric used to describe digital cameras. This number is a
+  measure of how many pixels of information the camera records in a single
+  frame. It is equal to the height of the frame in pixels multiplied by the
+  width of the frame in pixels. A pixel, or picture element, contains
+  information on intensity, color, and the location of the pixel relative to
+  some origin. The amount of information depends on the bits per pixel and
+  corresponds to the amount of color variation a particular pixel can display.
+  Perhaps you’ve seen your graphics set to 16-bit or 24-bit modes. This
+  describes how many colors a particular pixel can display. A 24-bit pixel can
+  be one of 16.8 million different colors at any instant. It is commonly held
+  that the human eye can differentiate among about 10 million colors; 24-bit
+  color is called “true color,” as it can display more colors than your eye
+  can recognize. You might also see 32-bit color modes; these include an extra
+  8 bits for a transparency channel that tells the computer what to do if this
+  image were put on top of another image. This is sometimes referred to
+  <a id="I_indexterm6_id362250" class="indexterm"/><a id="I_indexterm6_id362256" class="indexterm"/>as <span class="emphasis"><em>opacity</em></span> or
+  <span class="emphasis"><em>alpha</em></span>.</p><p>Optical tracking and computer vision, in general, work by detecting
+  <a id="I_indexterm6_id362274" class="indexterm"/>patterns in this wealth of pixel data. Pattern recognition is
+  a mature field of computer science research. The human brain is an excellent
+  pattern recognizer. For instance, look at <a class="xref" href="ch25.html#four_unrelated_geometric_entities" title="Figure 25-1. Four unrelated geometric entities">Figure 25-1</a>. Most of us can’t help but
+  see a face in what is in reality a collection of three random shapes. Our
+  brains are so primed to recognize the basic pattern of a human face that we
+  can do it even when we don’t want to!</p><div class="figure"><a id="four_unrelated_geometric_entities"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject6_id362302"/><img src="httpatomoreillycomsourceoreillyimages1599020.png.jpg" alt="Four unrelated geometric entities"/></div></div><div class="figure-title">Figure 25-1. Four unrelated geometric entities</div></div><p>Computers, on the other hand, have a harder time looking at two
+  circles and a few lines and saying, “Hey, this is a smiling face.”</p><div class="sect1" title="Sensors and SDKs"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="sensors_and_sdks">Sensors and SDKs</h2></div></div></div><p>The modern <a id="I_indexterm6_id362336" class="indexterm"/>interest in computer vision as a consumer input for computer
+    games has led to the development of several SDKs for performing
+    computer-vision pattern recognition. One such system is Kinect for
+    Windows. Although Microsoft provides a very high-level API with the
+    Kinect, the downside is that you are locked into its hardware. The popular
+    open source alternative is OpenCV, a library of computer-vision
+    algorithms. Its advantage is that it can use a wide variety of camera
+    hardware and not just the Kinect sensor.</p><div class="sect2" title="Kinect"><div class="titlepage"><div><div><h3 class="title" id="kinect">Kinect</h3></div></div></div><p>The Kinect was <a id="I_indexterm6_id362364" class="indexterm"/><a id="I_indexterm6_id362376" class="indexterm"/>originally developed for the Xbox 360 but has recently
+      been rebranded to include Kinect for Windows. As console game design has
+      high entrance requirements, the Kinect for Windows allows more casual
+      developers to try their hand at creating games with optical input. The
+      system has a hardware component, called the Kinect sensor, and the
+      previously mentioned Kinect SDK that does a lot of the heavy lifting for
+      us in terms of pattern recognition and depth sensing. The hardware
+      component consists of an infrared projector, infrared camera, visible
+      light camera, and an array of microphones. The two cameras and the
+      projector form the basis of the optical tracking system. The projector
+      sends out infrared light that is invisible to humans. This light bounces
+      off objects and is reflected back to the Kinect. The infrared camera
+      records the reflected light pattern, and based on how it has been
+      distorted, calculates how far the object is from the sensor. This exact
+      method is carried out in the hardware of the sensor and is proprietary.
+      However, the patent applications reveal that a special lens projects
+      circles that, when reflected, become ellipses of varying shapes. The
+      shape of the ellipse depends on the depth of the object reflecting it.
+      In general, this is a much-improved <a id="I_indexterm6_id362394" class="indexterm"/>version of <span class="emphasis"><em>depth from focus</em></span>, in which
+      the computer assumes that blurry objects are farther away than objects
+      in focus.</p><p>As for object detection, the Kinect comes with a great set of
+      algorithms for skeleton direction. It can also be trained to detect
+      other objects, but skeleton detection is really its forte. The skeleton
+      detection is good because of the massive amount of training Microsoft
+      used for the algorithms when creating the SDK. If you were to use an
+      average computer to run the Kinect skeleton training program, it would
+      take about three years. Luckily, Microsoft had 1,000 computers lying
+      around, so it takes them only a day to run the training simulation. This
+      gives you an idea of the amount of training you need to provide for
+      consumer-level tracking in your own algorithms. The Kinect can track up
+      to six people with two of them being in “active” mode. For these 2
+      people, 20 individual joints are tracked. The sensor can also track
+      people while standing or sitting.</p></div><div class="sect2" title="OpenCV"><div class="titlepage"><div><div><h3 class="title" id="opencv">OpenCV</h3></div></div></div><p>The OpenCV method <a id="I_indexterm6_id362434" class="indexterm"/><a id="I_indexterm6_id362444" class="indexterm"/>for 3D reconstruction is, well, more open! The library is
+      designed to work with any common webcam or other camera you can get
+      connected to your computer. OpenCV works well with stereoscopic cameras
+      and is also capable of attempting to map depth with a single camera.
+      However, those results would not be accurate enough to control a game,
+      so we suggest you stick with two cameras if you’re trying to use regular
+      webcams.</p><p>Indeed, finding depth is relatively straightforward using OpenCV. The built-in function
+          <code class="literal">ReprojectImageTo3D</code> calculates a vector for each pixel
+          (<span class="emphasis"><em>x</em></span>,<span class="emphasis"><em>y</em></span>) based on a <span class="emphasis"><em>disparity
+          map</em></span>. A disparity map<a id="I_indexterm6_id362480" class="indexterm"/> is a data set that describes how pixels have changed from one image to the
+        next; if you have stereoscopic cameras, this essentially is the reverse of the technique we
+        use in <a class="xref" href="ch24.html" title="Chapter 24. 3D Display">Chapter 24</a> when dealing with 3D displays. To create a disparity map,
+        OpenCV provides the handy function <code class="literal">FindStereoCorrespondenceGC()</code>. This function takes a set of images, assumes them
+        to be from a sterescopic source, and generates a disparity map by systematically comparing
+        them. The documentation is very complete, and there are several books on the subject of
+        OpenCV, including <a class="ulink" href="http://shop.oreilly.com/product/0636920022497.do" target="_top"><span class="emphasis"><em>Learning OpenCV</em></span></a> by <a id="I_indexterm6_id362512" class="indexterm"/>Gary Bradski and Adrian Kaehler<a id="I_indexterm6_id362520" class="indexterm"/> (O’Reilly), so we again will save the details for independent study.</p><p>Object detection is also <a id="I_indexterm6_id362529" class="indexterm"/>possible with OpenCV. The common example in the OpenCV
+      project uses <span class="emphasis"><em>Harr-like</em></span> features to <a id="I_indexterm6_id362540" class="indexterm"/>recognize objects. These features are rectangles whose
+      mathematical structure allows for very fast computation. By developing
+      patterns of these rectangles for a given object, a program can detect
+      objects out of the background. For example, one such pattern could be if
+      a selection rectangle includes an edge. The program would detect an edge
+      in the pixel data by finding a sharp gradient between color and/or other
+      attributes. If you detect the right number of edges in the right
+      position, you have detected your object.</p><p>Hardcoding a pattern for the computer to look for would result in
+      a very narrow set of recognition criteria. Therefore, computer-vision
+      algorithms rely on a system of training rather than hard programming.
+      Specifically, they use <span class="emphasis"><em>cascade classifier
+      training</em></span>.</p><p>The training process works well but requires a large image set.
+      Typical examples require 6,000 negative images and 1,500 positive
+      images. The negative images are commonly called background images. When
+      training the algorithm, you take 1,200 of your positive images and draw
+      selection rectangles around the object you are trying to detect. The
+      computer learns that the pattern in the selection rectangles you’ve
+      given it is one to be identified. This will take the average computer a
+      long, long time. The remaining images are used for testing to ensure
+      that your algorithm has satisfactory accuracy in detecting the patterns
+      you’ve shown it. The larger the sample set, including different
+      lighting, the more accurate the system will be. Once the algorithm is
+      trained to detect a particular object, all you need is the training
+      file—usually an <span class="emphasis"><em>.xml</em></span> file—to share that training
+      with another computer.</p></div></div><div class="sect1" title="Numerical Differentiation"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="numerical_differentiation">Numerical Differentiation</h2></div></div></div><p>As previously noted, <a id="op25.2" class="indexterm"/><a id="di25.2" class="indexterm"/>there are many ways to collect optical tracking data, but
+    since we are focusing on the physics aspects, we’ll now talk about how to
+    process the data to get meaningfully physical simulation. By combining
+    object detection with depth sensing, we can detect and then track an
+    object as it moves in the camera’s field of vision. Let’s assume that you
+    have used the frame rate or internal clock to generate data of the
+    following format:</p><a id="I_programlisting6_id362625"/><pre class="programlisting">{(x[i],y[i],z[i],t[i]),(x[i+1],y[i+1],z[i+1],t[i+1]) ,
+(x[i+2],y[i+2],z[i+2],t[i+2]), ...}</pre><p>Now, a single data point consisting of three coordinates and a
+    timestamp doesn’t allow us to determine what is going on with an object’s
+    velocity or acceleration. However, as the camera is supplying new position
+    data at around 20–30 Hz, we will generate a time history of position or
+    displacement. Using techniques similar to the numerical integration we
+    used to take acceleration and turn it into velocities and then turn those
+    velocities into position in earlier chapters, we can apply numerical
+    differentiation to accomplish the reverse. Specifically, we can use the
+    finite difference method.</p><p>For velocity, we need a first-order finite difference numerical
+    differentiation scheme. Because we know the current data point and the
+    previous data point, we are looking backward in time to get the current
+    position. This is known <a id="I_indexterm6_id362645" class="indexterm"/>as the <span class="emphasis"><em>backward difference scheme</em></span>. In
+    general, the backward difference is given by:</p><table style="border: 0; " class="simplelist"><tr><td>f’(x) = lim h→0 (f(x+h) – f(x)) / h</td></tr></table><p>We must use the backward difference for the first-order
+    differentiation, as we know only the present position and past positions.
+    In our case, <span class="emphasis"><em>h</em></span> is the difference in time between two
+    data points and has a nonzero, fixed value. Therefore, the equation can be
+    rewritten as:</p><table style="border: 0; " class="simplelist"><tr><td>(f(x+h) – f(x)) / h = ∆f(x)/h</td></tr></table><p>where ∆<span class="emphasis"><em>f</em></span>(<span class="emphasis"><em>x</em></span>) is the
+    position at the second timestamp minus the position at the first
+    timestamp, and <span class="emphasis"><em>h</em></span> is the difference in time. This is
+    relatively straightforward, as we are just calculating the distance
+    traveled divided by the time it took to travel that distance. This is the
+    definition of average velocity.</p><p>Note that because we are finding the average velocity between the two data points, if the
+      time delta, <span class="emphasis"><em>h</em></span>, is too large, this will not accurately approximate the
+      instantaneous velocity of the object. You may be tempted to push whatever hardware you have to
+      its limit and get the highest possible sampling rate; however, if the time step is too small,
+      the subtraction of one displacement from another will result in significant round-off error
+      using floating-point arithmetic. You must take care to ensure that when you’re selecting a
+      timestamp, (<span class="emphasis"><em>t[i] + h</em></span>) <span class="emphasis"><em>– t</em></span>[<span class="emphasis"><em>i</em></span>] is
+      exactly <span class="emphasis"><em>h</em></span>. For more information on tuning these parameters, refer to the
+      classic <span class="emphasis"><em>Numerical Recipes in C</em></span>. The function to find velocity from our
+      data structure would be as follows. Note that in our notation,
+        <span class="emphasis"><em>t</em></span>[<span class="emphasis"><em>i</em></span>−<span class="emphasis"><em>1</em></span>] is behind in time
+      compared to <span class="emphasis"><em>t</em></span>[<span class="emphasis"><em>i</em></span>], so we are using the backward form.
+      Your program needs to ensure that <span class="emphasis"><em>t</em></span>[<span class="emphasis"><em>i</em></span>−1] exists
+      before executing this function:</p><a id="I_programlisting6_id362709"/><pre class="programlisting">Vector findVelocity (x[i-1], y[i-1], z[i-1], t[i-1], x[i], y[i], z[i], t[i]){
+
+    float vx, vy, vz;
+
+    vx = (x[i] − x[i-1])/(t[i]-t[i-1]);
+    vy = (y[i] − y[i-1])/(t[i]-t[i-1]);
+    vz = (z[i] − z[i-1])/(t[i]-t[i-1]);
+
+    vector velocity = {vx, vy, vz};
+
+    return velocity;
+
+}</pre><p>To compute the acceleration vector<a id="I_indexterm6_id362773" class="indexterm"/><a id="I_indexterm6_id362780" class="indexterm"/>, we need to compare two velocities. However, we note that
+    to get a velocity, we need two data points. Therefore, a total of three
+    data points is required. The acceleration we solve for will actually be
+    the acceleration for the middle data point as we compare the backward and
+    forward difference. This technique is named the <span class="emphasis"><em>second-order
+    central difference</em></span>. In <a id="I_indexterm6_id362797" class="indexterm"/><a id="I_indexterm6_id362804" class="indexterm"/>general, that form is as follows:</p><table style="border: 0; " class="simplelist"><tr><td>f’’(x) = (f(x+2h) – 2f(x+h) + f(x)) /
+      h<sup>2</sup></td></tr></table><p>This allows you to compute the acceleration directly without first finding the velocities.
+      Here again, <span class="emphasis"><em>f</em></span>(<span class="emphasis"><em>x</em></span>) is the position reported by the
+      sensor and <span class="emphasis"><em>h</em></span> is the time step between data points. The same discussion of
+        <span class="emphasis"><em>h</em></span> applies here as well. Some tuning of the time step might be required
+      to provide a stable differential. Of particular note with central difference forms is that
+      periodic functions that are in sync with your time step may result in zero slope. If the
+      motion you are tracking is periodic, you should take care to avoid a time step near the period
+      of oscillation. This is called <span class="emphasis"><em>aliasing</em></span> and is a problem with all signal
+      analysis, including computer graphics displays. Also, note that this cannot be computed until
+      at least three time steps have been stored. In our notation,
+        <span class="emphasis"><em>t</em></span>[<span class="emphasis"><em>i</em></span>−1] is the center data point,
+        <span class="emphasis"><em>t</em></span>[<span class="emphasis"><em>i</em></span>−2] the backward value, and
+        <span class="emphasis"><em>t</em></span>[<span class="emphasis"><em>i</em></span>] the forward value. The acceleration function
+      would therefore be as follows:</p><a id="I_programlisting6_id362830"/><pre class="programlisting">Vector findAcceleration (x[i-2], y[i-2], z[i-2], t[i-2], x[i-1], y[i-1], z[i-1], 
+                         t[i-1], x[i], y[i], z[i], t[i] ){
+
+    float ax, ay, az, h;
+    vector acceleration;
+
+    h = t[i]-t[i-1];
+
+    ax = (x[i] − 2*x[i-1] + x[i-2]) / h;
+    ay = (y[i] − 2*y[i-1] + y[i-2]) / h;
+    az = (z[i] − 2*z[i-1] + z[i-2]) / h;
+
+    return acceleration = {ax, ay, az};
+}</pre><p>Now, let’s say that you are tracking a ball in someone’s hand. Until
+    he lets it go, the velocity and acceleration we are calculating could
+    change at any moment in any number of ways. It is not until the user lets
+    go of the ball that the physics we have discussed takes over. Hence, you
+    have to optically track it until he completes the throw. Once the ball is
+    released, the physics from the rest of this book applies! You can then use
+    the position at time of release, the velocity vector, and the acceleration
+    vector to plot its trajectory in the <a id="I_indexterm6_id362892" class="indexterm"/><a id="I_indexterm6_id362902" class="indexterm"/>game.</p></div></section></body></html>

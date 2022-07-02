@@ -1,0 +1,7241 @@
+[
+	{
+		"txt": "",
+		"why": "br tag like",
+		"sentenceIndex": 5733,
+		"nouns": [],
+		"dOIndex": 0,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 9. 2D Rigid Body Simulator",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5734,
+		"nouns": [
+			"Chapter",
+			"D",
+			"Body Simulator"
+		],
+		"dOIndex": 1,
+		"nouns2": [
+			"Chapter",
+			"Simulator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "After reading ",
+		"why": "link",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 5735,
+		"nouns": [],
+		"dOIndex": 2,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 8, ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 5736,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 3,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5737,
+		"nouns": [],
+		"dOIndex": 4,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5738,
+		"nouns": [],
+		"dOIndex": 5,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5739,
+		"nouns": [],
+		"dOIndex": 6,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "you've learned the main ingredients that go into a simulator, specifically a particle simulator. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5740,
+		"nouns": [
+			"ve",
+			"ingredients",
+			"simulator",
+			"particle",
+			"simulator"
+		],
+		"dOIndex": 7,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"ingredients",
+			"simulator",
+			"particle"
+		]
+	},
+	{
+		"txt": " In this chapter we'll look beyond particles at 2D rigid bodies. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5741,
+		"nouns": [
+			"chapter",
+			"ll",
+			"particles",
+			"D",
+			"bodies"
+		],
+		"dOIndex": 8,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"chapter",
+			"particles"
+		]
+	},
+	{
+		"txt": " The main difference here is that rigid bodies rotate, and you must deal with an additional equation of motion namely, the angular equation of motion relating a rigid body's angular acceleration and inertia to the sum of all moments (torques) acting on the rigid body. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5742,
+		"nouns": [
+			"difference",
+			"bodies",
+			"equation",
+			"motion",
+			"equation",
+			"motion",
+			"body",
+			"acceleration",
+			"inertia",
+			"sum",
+			"moments",
+			"torques",
+			"body"
+		],
+		"dOIndex": 9,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"difference",
+			"equation",
+			"acceleration",
+			"inertia",
+			"moments",
+			"torques"
+		],
+		"highfreq": {
+			"rigid": 3
+		}
+	},
+	{
+		"txt": " The fundamental elements of the simulator the model, integrator, renderer, etc. are the same as before; you just have to deal with rotation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5743,
+		"nouns": [
+			"elements",
+			"simulator",
+			"model",
+			"integrator",
+			"renderer",
+			"rotation"
+		],
+		"dOIndex": 10,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"elements",
+			"simulator",
+			"integrator",
+			"renderer",
+			"rotation"
+		]
+	},
+	{
+		"txt": " In two dimensions, handling rotation is simple. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5744,
+		"nouns": [
+			"two",
+			"dimensions",
+			"rotation"
+		],
+		"dOIndex": 11,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"dimensions",
+			"rotation"
+		]
+	},
+	{
+		"txt": " Things get a bit more involved when handling rotation in three dimensions, and we'll treat that problem in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 5745,
+		"nouns": [
+			"Things",
+			"bit",
+			"rotation",
+			"three",
+			"dimensions",
+			"ll",
+			"problem"
+		],
+		"dOIndex": 12,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Things",
+			"rotation",
+			"dimensions",
+			"problem"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.1,
+			"words": [
+				"problem"
+			],
+			"positive": [],
+			"negative": [
+				"problem"
+			]
+		}
+	},
+	{
+		"txt": "Chapter 11",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 5746,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 13,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5747,
+		"nouns": [],
+		"dOIndex": 14,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 5748,
+		"nouns": [],
+		"dOIndex": 15,
+		"isQuote": false
+	},
+	{
+		"txt": "The example we'll take a close look at in this chapter is simple by design. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5749,
+		"nouns": [
+			"example",
+			"ll",
+			"close",
+			"chapter",
+			"design"
+		],
+		"dOIndex": 16,
+		"nouns2": [
+			"example",
+			"chapter"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " We want to focus on the differences between the particle simulator and a 2D rigid body simulator. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5750,
+		"nouns": [
+			"focus",
+			"differences",
+			"particle",
+			"simulator",
+			"D",
+			"body",
+			"simulator"
+		],
+		"dOIndex": 17,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"differences",
+			"particle",
+			"simulator"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.05263157894736842,
+			"words": [
+				"want"
+			],
+			"positive": [
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " In ",
+		"why": "link",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 5751,
+		"nouns": [],
+		"dOIndex": 18,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 10",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 5752,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 19,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " , we'll extend this simple example to deal with multiple rigid bodies and collisions. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5753,
+		"nouns": [
+			"ll",
+			"example",
+			"bodies",
+			"collisions"
+		],
+		"dOIndex": 20,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"collisions"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.0625,
+			"words": [
+				"collisions",
+				"extend"
+			],
+			"positive": [
+				"extend"
+			],
+			"negative": [
+				"collisions"
+			]
+		}
+	},
+	{
+		"txt": " That's where things really get interesting. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5754,
+		"nouns": [
+			"things"
+		],
+		"dOIndex": 21,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.25,
+			"words": [
+				"interesting"
+			],
+			"positive": [
+				"interesting"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " For now, we'll consider a single rigid body, a virtual hovercraft, that moves around the screen under the influences of thrust forces that you can control with the keyboard. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5755,
+		"nouns": [
+			"ll",
+			"body",
+			"hovercraft",
+			"moves",
+			"screen",
+			"influences",
+			"thrust",
+			"forces",
+			"control",
+			"keyboard"
+		],
+		"dOIndex": 22,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hovercraft",
+			"influences",
+			"control",
+			"keyboard"
+		]
+	},
+	{
+		"txt": " While simple, this example covers the most fundamental aspects of simulating 2D rigid bodies.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5756,
+		"nouns": [
+			"example",
+			"aspects",
+			"D",
+			"bodies"
+		],
+		"dOIndex": 23,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"aspects"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 5757,
+		"nouns": [],
+		"dOIndex": 24,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5758,
+		"nouns": [],
+		"dOIndex": 25,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 9 1 shows our virtual ",
+		"why": "link",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 5759,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 26,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": "hovercraft. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5760,
+		"nouns": [
+			"hovercraft"
+		],
+		"dOIndex": 27,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hovercraft"
+		]
+	},
+	{
+		"txt": " The pointy end is the front, and the hovercraft will start off moving from the left side of the screen to the right. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5761,
+		"nouns": [
+			"end",
+			"front",
+			"hovercraft",
+			"side",
+			"screen",
+			"right"
+		],
+		"dOIndex": 28,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hovercraft"
+		]
+	},
+	{
+		"txt": " Using the arrow keys, you can increase or decrease its speed and make it turn left or right (port or starboard).",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5762,
+		"nouns": [
+			"arrow",
+			"keys",
+			"increase",
+			"decrease",
+			"right",
+			"port"
+		],
+		"dOIndex": 29,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"increase",
+			"decrease"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.045454545454545456,
+			"words": [
+				"increase"
+			],
+			"positive": [
+				"increase"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 5763,
+		"nouns": [],
+		"dOIndex": 30,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5764,
+		"nouns": [],
+		"dOIndex": 31,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5765,
+		"nouns": [],
+		"dOIndex": 32,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5766,
+		"nouns": [],
+		"dOIndex": 33,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5767,
+		"nouns": [],
+		"dOIndex": 34,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 9 1. 2D rigid body example",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5768,
+		"nouns": [
+			"Figure",
+			"D",
+			"body",
+			"example"
+		],
+		"dOIndex": 35,
+		"nouns2": [
+			"Figure",
+			"example"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5769,
+		"nouns": [],
+		"dOIndex": 36,
+		"isQuote": false
+	},
+	{
+		"txt": "In this simulation, the world coordinate system has its x axis pointing to the right, its y axis pointing down toward the bottom of the screen, and the z axis pointing into the screen. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5770,
+		"nouns": [
+			"simulation",
+			"world",
+			"system",
+			"x",
+			"axis",
+			"right",
+			"y",
+			"axis",
+			"bottom",
+			"screen",
+			"z",
+			"axis",
+			"screen"
+		],
+		"dOIndex": 37,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulation"
+		],
+		"highfreq": {
+			"axis": 3,
+			"pointing": 3
+		}
+	},
+	{
+		"txt": " Even though this is a 2D example where all motion is confined to the x y plane, you still need a z axis about which the hovercraft will rotate. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5771,
+		"nouns": [
+			"D",
+			"example",
+			"motion",
+			"x y",
+			"plane",
+			"z",
+			"axis",
+			"hovercraft"
+		],
+		"dOIndex": 38,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"hovercraft"
+		]
+	},
+	{
+		"txt": " Also, the local, or body fixed, coordinate system has its x axis pointing toward the front of the hovercraft, its y axis pointing to the starboard side, and its z axis into the screen. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5772,
+		"nouns": [
+			"body",
+			"system",
+			"x",
+			"axis",
+			"front",
+			"hovercraft",
+			"y",
+			"axis",
+			"starboard",
+			"side",
+			"z",
+			"axis",
+			"screen"
+		],
+		"dOIndex": 39,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hovercraft",
+			"starboard"
+		],
+		"highfreq": {
+			"axis": 3
+		}
+	},
+	{
+		"txt": " The local coordinate system is fixed to the rigid body at its center of gravity location.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5773,
+		"nouns": [
+			"system",
+			"body",
+			"center",
+			"gravity",
+			"location"
+		],
+		"dOIndex": 40,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"gravity",
+			"location"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 5774,
+		"nouns": [],
+		"dOIndex": 41,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5775,
+		"nouns": [],
+		"dOIndex": 42,
+		"isQuote": false
+	},
+	{
+		"txt": "Model",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5776,
+		"nouns": [
+			"Model"
+		],
+		"dOIndex": 43,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5777,
+		"nouns": [],
+		"dOIndex": 44,
+		"isQuote": false
+	},
+	{
+		"txt": "The hovercraft ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5778,
+		"nouns": [
+			"hovercraft"
+		],
+		"dOIndex": 45,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hovercraft"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5779,
+		"nouns": [],
+		"dOIndex": 46,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "modeled in this simulation is a simplified version of the hovercraft we'll model in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5780,
+		"nouns": [
+			"simulation",
+			"version",
+			"hovercraft",
+			"ll",
+			"model"
+		],
+		"dOIndex": 47,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulation",
+			"version",
+			"hovercraft"
+		]
+	},
+	{
+		"txt": "Chapter 17",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5781,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 48,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5782,
+		"nouns": [],
+		"dOIndex": 49,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " You can refer to ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5783,
+		"nouns": [],
+		"dOIndex": 50,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 17",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5784,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 51,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " for more details on that model. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5785,
+		"nouns": [
+			"details",
+			"model"
+		],
+		"dOIndex": 52,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"details"
+		]
+	},
+	{
+		"txt": " For convenience we repeat some of the basic properties of the model here. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5786,
+		"nouns": [
+			"convenience",
+			"properties",
+			"model"
+		],
+		"dOIndex": 53,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"convenience",
+			"properties"
+		]
+	},
+	{
+		"txt": " ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5787,
+		"nouns": [],
+		"dOIndex": 54,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 9 2",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5788,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 55,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " illustrates the main features of the model.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5789,
+		"nouns": [
+			"features",
+			"model"
+		],
+		"dOIndex": 56,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"features"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5790,
+		"nouns": [],
+		"dOIndex": 57,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5791,
+		"nouns": [],
+		"dOIndex": 58,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5792,
+		"nouns": [],
+		"dOIndex": 59,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5793,
+		"nouns": [],
+		"dOIndex": 60,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5794,
+		"nouns": [],
+		"dOIndex": 61,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 9 2. Simple hovercraft model",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5795,
+		"nouns": [
+			"Figure",
+			"hovercraft",
+			"model"
+		],
+		"dOIndex": 62,
+		"nouns2": [
+			"Figure",
+			"Simple",
+			"hovercraft"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5796,
+		"nouns": [],
+		"dOIndex": 63,
+		"isQuote": false
+	},
+	{
+		"txt": "We're assuming this hovercraft operates over smooth land and is fitted with a single airscrew propeller, located toward the aft end of the craft, that provides forward thrust. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5797,
+		"nouns": [
+			"re",
+			"hovercraft",
+			"land",
+			"airscrew",
+			"propeller",
+			"end",
+			"craft",
+			"thrust"
+		],
+		"dOIndex": 64,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hovercraft",
+			"airscrew",
+			"propeller"
+		]
+	},
+	{
+		"txt": " For controllability, the craft is fitted with two bow thrusters, one to port and the other to starboard. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5798,
+		"nouns": [
+			"controllability",
+			"craft",
+			"two",
+			"bow",
+			"thrusters",
+			"one",
+			"port"
+		],
+		"dOIndex": 65,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"controllability",
+			"thrusters"
+		]
+	},
+	{
+		"txt": " These bow thrusters are used to steer the hovercraft.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5799,
+		"nouns": [
+			"bow",
+			"thrusters",
+			"hovercraft"
+		],
+		"dOIndex": 66,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"thrusters",
+			"hovercraft"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5800,
+		"nouns": [],
+		"dOIndex": 67,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5801,
+		"nouns": [],
+		"dOIndex": 68,
+		"isQuote": false
+	},
+	{
+		"txt": "We use a simplified drag model where the only drag component is due to aerodynamic drag on the entire craft with a constant projected area. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5802,
+		"nouns": [
+			"use",
+			"drag",
+			"model",
+			"drag",
+			"component",
+			"drag",
+			"craft",
+			"area"
+		],
+		"dOIndex": 69,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"component"
+		],
+		"highfreq": {
+			"drag": 3
+		},
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.11538461538461539,
+			"words": [
+				"drag",
+				"drag",
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag",
+				"drag",
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " This model is similar to the one used in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5803,
+		"nouns": [
+			"model",
+			"one"
+		],
+		"dOIndex": 70,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 8",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5804,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 71,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " for particle drag. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5805,
+		"nouns": [
+			"particle",
+			"drag"
+		],
+		"dOIndex": 72,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"particle"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.2,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " A more rigorous model would consider the actual projected area of the craft as a function of the direction of relative velocity, as in the flight simulator example discussed in ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5806,
+		"nouns": [
+			"model",
+			"area",
+			"craft",
+			"function",
+			"direction",
+			"velocity",
+			"flight",
+			"simulator",
+			"example"
+		],
+		"dOIndex": 73,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function",
+			"direction",
+			"velocity",
+			"simulator",
+			"example"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.09375,
+			"words": [
+				"rigorous"
+			],
+			"positive": [
+				"rigorous"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "Chapter 15",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5807,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 74,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " , as well as the frictional drag between the bottom of the craft's skirt and the ground. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5808,
+		"nouns": [
+			"drag",
+			"bottom",
+			"craft",
+			"skirt",
+			"ground"
+		],
+		"dOIndex": 75,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.05263157894736842,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " We also assume that the center of drag the point through which we can assume the drag force vector is applied is located some distance aft of the center of gravity so as to give a little directional stability (that is, to counteract rotation). ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5809,
+		"nouns": [
+			"center",
+			"drag",
+			"point",
+			"drag",
+			"force",
+			"vector",
+			"distance",
+			"center",
+			"gravity",
+			"stability",
+			"rotation"
+		],
+		"dOIndex": 76,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distance",
+			"gravity",
+			"stability",
+			"rotation"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.043478260869565216,
+			"words": [
+				"drag",
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag",
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " This serves the same function as the vertical tail fins on aircraft. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5810,
+		"nouns": [
+			"function",
+			"tail",
+			"fins",
+			"aircraft"
+		],
+		"dOIndex": 77,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function",
+			"aircraft"
+		]
+	},
+	{
+		"txt": " Again, a more rigorous model would include the effects of rotation on aerodynamic drag, but we ignore that here.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5811,
+		"nouns": [
+			"model",
+			"effects",
+			"rotation",
+			"drag"
+		],
+		"dOIndex": 78,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"effects",
+			"rotation"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.05,
+			"words": [
+				"ignore",
+				"drag",
+				"rigorous"
+			],
+			"positive": [
+				"rigorous"
+			],
+			"negative": [
+				"ignore",
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5812,
+		"nouns": [],
+		"dOIndex": 79,
+		"isQuote": false
+	},
+	{
+		"txt": "In code, the first thing you need to do to represent this vehicle is define a rigid body class that contains all of the information you'll need to track it and calculate the forces and moments acting on it. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5813,
+		"nouns": [
+			"code",
+			"first",
+			"vehicle",
+			"body",
+			"class",
+			"information",
+			"ll",
+			"track",
+			"forces",
+			"moments"
+		],
+		"dOIndex": 80,
+		"nouns2": [
+			"vehicle",
+			"information",
+			"moments"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " This RigidBody2D class is very similar to the Particle class from ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5814,
+		"nouns": [
+			"RigidBody2D",
+			"class",
+			"Particle",
+			"class"
+		],
+		"dOIndex": 81,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"RigidBody2D",
+			"Particle"
+		]
+	},
+	{
+		"txt": "Chapter 8",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5815,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 82,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " , but with some additions mostly dealing with rotation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5816,
+		"nouns": [
+			"additions",
+			"rotation"
+		],
+		"dOIndex": 83,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"additions",
+			"rotation"
+		]
+	},
+	{
+		"txt": " Here's how we did it:",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5817,
+		"nouns": [],
+		"dOIndex": 84,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 5818,
+		"nouns": [],
+		"dOIndex": 85,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5819,
+		"nouns": [],
+		"dOIndex": 86,
+		"isQuote": false
+	},
+	{
+		"txt": "The code comments briefly explain each property, and so far you've seen all these properties somewhere in this book, so we won't explain them again here. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5820,
+		"nouns": [
+			"code",
+			"comments",
+			"property",
+			"ve",
+			"properties",
+			"book",
+			"t"
+		],
+		"dOIndex": 87,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"comments",
+			"property",
+			"properties"
+		]
+	},
+	{
+		"txt": " That said, notice that several of these properties are the same as those shown in the Particle class from ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5821,
+		"nouns": [
+			"said",
+			"notice",
+			"properties",
+			"Particle",
+			"class"
+		],
+		"dOIndex": 88,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"properties",
+			"Particle"
+		]
+	},
+	{
+		"txt": "Chapter 8",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5822,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 89,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5823,
+		"nouns": [],
+		"dOIndex": 90,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " These properties include fMass, vPosition, vVelocity, fSpeed, vForces, and fRadius . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5824,
+		"nouns": [
+			"properties",
+			"fMass",
+			"vPosition",
+			"vVelocity",
+			"vForces",
+			"fRadius"
+		],
+		"dOIndex": 91,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"properties",
+			"vPosition",
+			"vVelocity",
+			"vForces",
+			"fRadius"
+		]
+	},
+	{
+		"txt": " All of the other properties are new and required to handle the rotational motion aspects of rigid bodies.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5825,
+		"nouns": [
+			"properties",
+			"motion",
+			"aspects",
+			"bodies"
+		],
+		"dOIndex": 92,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"properties",
+			"aspects"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5826,
+		"nouns": [],
+		"dOIndex": 93,
+		"isQuote": false
+	},
+	{
+		"txt": "The RigidBody2D constructor is straightforward, as shown next, and simply initializes all the properties to some arbitrarily tuned values we decided worked well. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5827,
+		"nouns": [
+			"RigidBody2D",
+			"constructor",
+			"initializes",
+			"properties",
+			"values"
+		],
+		"dOIndex": 94,
+		"nouns2": [
+			"RigidBody2D",
+			"constructor",
+			"initializes",
+			"properties"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " In ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5828,
+		"nouns": [],
+		"dOIndex": 95,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 17",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5829,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 96,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " , you'll see how we model a more realistic hovercraft.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5830,
+		"nouns": [
+			"ll",
+			"model",
+			"hovercraft"
+		],
+		"dOIndex": 97,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hovercraft"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5831,
+		"nouns": [],
+		"dOIndex": 98,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 5832,
+		"nouns": [],
+		"dOIndex": 99,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5833,
+		"nouns": [],
+		"dOIndex": 100,
+		"isQuote": false
+	},
+	{
+		"txt": "As in the particle simulator of ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5834,
+		"nouns": [
+			"particle",
+			"simulator"
+		],
+		"dOIndex": 101,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"particle",
+			"simulator"
+		]
+	},
+	{
+		"txt": "Chapter 8, you'll notice here that the Vector class is actually a triple",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5835,
+		"nouns": [
+			"Chapter",
+			"ll",
+			"notice",
+			"Vector",
+			"class"
+		],
+		"dOIndex": 102,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter",
+			"Vector"
+		]
+	},
+	{
+		"txt": " (that is, it has three components x, y, and z). ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5836,
+		"nouns": [
+			"three",
+			"components",
+			"x",
+			"y",
+			"z"
+		],
+		"dOIndex": 103,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"components"
+		]
+	},
+	{
+		"txt": " Since this is a 2D example, the z components will always be 0, except in the case of the angular velocity vector where only the z component will be used (since rotation occurs only about the z axis). ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5837,
+		"nouns": [
+			"D",
+			"example",
+			"z",
+			"components",
+			"case",
+			"velocity",
+			"vector",
+			"z",
+			"component",
+			"rotation",
+			"z",
+			"axis"
+		],
+		"dOIndex": 104,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"components",
+			"velocity",
+			"component",
+			"rotation"
+		]
+	},
+	{
+		"txt": " The class that we use in this example is discussed in ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5838,
+		"nouns": [
+			"class",
+			"use",
+			"example"
+		],
+		"dOIndex": 105,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example"
+		]
+	},
+	{
+		"txt": "Appendix A",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5839,
+		"nouns": [
+			"Appendix"
+		],
+		"dOIndex": 106,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Appendix"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5840,
+		"nouns": [],
+		"dOIndex": 107,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " The reason we didn't write a separate 2D vector class, one with only x and y components, is because we'll extend this code to 3D later and wanted to get you accustomed to using the 3D vector class. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5841,
+		"nouns": [
+			"reason",
+			"t",
+			"D",
+			"vector",
+			"class",
+			"one",
+			"x",
+			"y",
+			"components",
+			"ll",
+			"code",
+			"D",
+			"D",
+			"vector",
+			"class"
+		],
+		"dOIndex": 108,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"components"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.025,
+			"words": [
+				"extend"
+			],
+			"positive": [
+				"extend"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Besides, it's pretty easy to create a 2D vector class from the 3D class by simply stripping out the z component.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5842,
+		"nouns": [
+			"D",
+			"vector",
+			"class",
+			"D",
+			"class",
+			"z",
+			"component"
+		],
+		"dOIndex": 109,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Besides",
+			"component"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.09090909090909091,
+			"words": [
+				"easy",
+				"pretty"
+			],
+			"positive": [
+				"easy",
+				"pretty"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5843,
+		"nouns": [],
+		"dOIndex": 110,
+		"isQuote": false
+	},
+	{
+		"txt": "As with the particle example of ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5844,
+		"nouns": [
+			"particle",
+			"example"
+		],
+		"dOIndex": 111,
+		"nouns2": [
+			"particle",
+			"example"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 8, we need a CalcLoads",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"code",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5845,
+		"nouns": [
+			"Chapter",
+			"CalcLoads"
+		],
+		"dOIndex": 112,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter",
+			"CalcLoads"
+		]
+	},
+	{
+		"txt": " method for the rigid body. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5846,
+		"nouns": [
+			"method",
+			"body"
+		],
+		"dOIndex": 113,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " As before, this method will compute all the loads acting on the rigid body, but now these loads include both forces and moments that will cause rotation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5847,
+		"nouns": [
+			"method",
+			"loads",
+			"body",
+			"loads",
+			"both",
+			"forces",
+			"moments",
+			"cause",
+			"rotation"
+		],
+		"dOIndex": 114,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"moments",
+			"rotation"
+		]
+	},
+	{
+		"txt": " CalcLoads looks like this:",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5848,
+		"nouns": [
+			"CalcLoads"
+		],
+		"dOIndex": 115,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"CalcLoads"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.4,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 5849,
+		"nouns": [],
+		"dOIndex": 116,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5850,
+		"nouns": [],
+		"dOIndex": 117,
+		"isQuote": false
+	},
+	{
+		"txt": "The first thing that CalcLoads does is initialize the force and moment variables that will contain the total of all forces and moments acting on the craft at any instant in time. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5851,
+		"nouns": [
+			"first",
+			"CalcLoads",
+			"initialize",
+			"force",
+			"moment",
+			"variables",
+			"forces",
+			"moments",
+			"craft",
+			"instant",
+			"time"
+		],
+		"dOIndex": 118,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"CalcLoads",
+			"initialize",
+			"variables",
+			"moments",
+			"instant"
+		]
+	},
+	{
+		"txt": " Just as we must aggregate forces, we must also aggregate moments. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5852,
+		"nouns": [
+			"forces",
+			"moments"
+		],
+		"dOIndex": 119,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"moments"
+		]
+	},
+	{
+		"txt": " The forces will be used along with the linear equation of motion to compute the linear displacement of the rigid body, while the moments will be used with the angular equation of motion to compute ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5853,
+		"nouns": [
+			"forces",
+			"equation",
+			"motion",
+			"displacement",
+			"body",
+			"moments",
+			"equation",
+			"motion"
+		],
+		"dOIndex": 120,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equation",
+			"displacement",
+			"moments"
+		]
+	},
+	{
+		"txt": "the orientation of the body.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5854,
+		"nouns": [
+			"orientation",
+			"body"
+		],
+		"dOIndex": 121,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"orientation"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5855,
+		"nouns": [],
+		"dOIndex": 122,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5856,
+		"nouns": [],
+		"dOIndex": 123,
+		"isQuote": false
+	},
+	{
+		"txt": "The function then goes on to define a vector representing the propeller thrust, Thrust . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5857,
+		"nouns": [
+			"function",
+			"vector",
+			"propeller",
+			"thrust",
+			"Thrust"
+		],
+		"dOIndex": 124,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function",
+			"propeller",
+			"Thrust"
+		]
+	},
+	{
+		"txt": " The propeller thrust vector acts in the positive (local) x direction and has a magnitude defined by ThrustForce , which the user sets via the keyboard interface (we'll get to that later). ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5858,
+		"nouns": [
+			"propeller",
+			"thrust",
+			"vector",
+			"acts",
+			"x",
+			"direction",
+			"magnitude",
+			"ThrustForce",
+			"user",
+			"sets",
+			"keyboard",
+			"interface",
+			"ll"
+		],
+		"dOIndex": 125,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"propeller",
+			"direction",
+			"magnitude",
+			"ThrustForce",
+			"keyboard",
+			"interface"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.058823529411764705,
+			"words": [
+				"positive"
+			],
+			"positive": [
+				"positive"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Note that if ThrustForce is negative, then the thrust will actually be a reversing thrust instead of a forward thrust.",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5859,
+		"nouns": [
+			"ThrustForce",
+			"thrust",
+			"thrust",
+			"thrust"
+		],
+		"dOIndex": 126,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"ThrustForce"
+		],
+		"highfreq": {
+			"thrust": 3
+		},
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.09523809523809523,
+			"words": [
+				"negative"
+			],
+			"positive": [],
+			"negative": [
+				"negative"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5860,
+		"nouns": [],
+		"dOIndex": 127,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5861,
+		"nouns": [],
+		"dOIndex": 128,
+		"isQuote": false
+	},
+	{
+		"txt": "After defining the thrust vector, this function goes on to calculate the aerodynamic drag acting on the hovercraft. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5862,
+		"nouns": [
+			"thrust",
+			"vector",
+			"function",
+			"drag",
+			"hovercraft"
+		],
+		"dOIndex": 129,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function",
+			"hovercraft"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.05263157894736842,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " These calculations are very similar to those discussed in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5863,
+		"nouns": [
+			"calculations"
+		],
+		"dOIndex": 130,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"calculations"
+		]
+	},
+	{
+		"txt": "Chapter 17",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5864,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 131,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5865,
+		"nouns": [],
+		"dOIndex": 132,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " The first thing to do is determine the relative velocity at the center of drag, considering both linear and angular motion. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5866,
+		"nouns": [
+			"first",
+			"velocity",
+			"center",
+			"drag",
+			"both",
+			"motion"
+		],
+		"dOIndex": 133,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.043478260869565216,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " You'll need the magnitude of the relative velocity vector when calculating the magnitude of the drag force, and you'll need the direction of the relative velocity vector to determine the direction of the drag force since it always opposes the velocity vector. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5867,
+		"nouns": [
+			"ll",
+			"magnitude",
+			"velocity",
+			"vector",
+			"magnitude",
+			"drag",
+			"force",
+			"ll",
+			"direction",
+			"velocity",
+			"vector",
+			"direction",
+			"drag",
+			"force",
+			"velocity",
+			"vector"
+		],
+		"dOIndex": 134,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"magnitude",
+			"velocity",
+			"direction"
+		],
+		"highfreq": {
+			"velocity": 3,
+			"vector": 3
+		},
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.045454545454545456,
+			"words": [
+				"drag",
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag",
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " The line vtmp = vAngularVelocity^CD computes the linear velocity at the drag center by taking the vector cross product of the angular velocity vector with the position vector of the drag center, CD . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5868,
+		"nouns": [
+			"line",
+			"vtmp",
+			"vAngularVelocity^CD",
+			"velocity",
+			"drag",
+			"center",
+			"vector",
+			"product",
+			"velocity",
+			"vector",
+			"position",
+			"vector",
+			"drag",
+			"center",
+			"CD"
+		],
+		"dOIndex": 135,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"vAngularVelocity^CD",
+			"velocity",
+			"product",
+			"position"
+		],
+		"highfreq": {
+			"vector": 3
+		},
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.05555555555555555,
+			"words": [
+				"drag",
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag",
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " The result is stored in a temporary vector, vtmp, and then added vectorially to the body velocity vector, vVelocityBody . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5869,
+		"nouns": [
+			"result",
+			"vector",
+			"vtmp",
+			"body",
+			"velocity",
+			"vector",
+			"vVelocityBody"
+		],
+		"dOIndex": 136,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity",
+			"vVelocityBody"
+		]
+	},
+	{
+		"txt": " The result of this vector addition is a velocity vector representing the velocity of the point defined by CD , including contributions from the body's linear and angular motion. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5870,
+		"nouns": [
+			"result",
+			"vector",
+			"addition",
+			"velocity",
+			"vector",
+			"velocity",
+			"point",
+			"CD",
+			"contributions",
+			"body",
+			"motion"
+		],
+		"dOIndex": 137,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"addition",
+			"velocity",
+			"contributions"
+		]
+	},
+	{
+		"txt": " We compute the actual drag force, which acts in line with but in a direction opposing the velocity vector, in a manner similar to that for particles, using a simple formula relating the drag force to the speed squared, density of air, projected area, and a drag coefficient. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5871,
+		"nouns": [
+			"drag",
+			"force",
+			"acts",
+			"line",
+			"direction",
+			"velocity",
+			"vector",
+			"manner",
+			"particles",
+			"formula",
+			"drag",
+			"force",
+			"density",
+			"air",
+			"area",
+			"drag",
+			"coefficient"
+		],
+		"dOIndex": 138,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"direction",
+			"velocity",
+			"particles",
+			"formula",
+			"density",
+			"coefficient"
+		],
+		"highfreq": {
+			"drag": 3
+		},
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.06,
+			"words": [
+				"drag",
+				"drag",
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag",
+				"drag",
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " The following code performs this calculation:",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5872,
+		"nouns": [
+			"code",
+			"calculation"
+		],
+		"dOIndex": 139,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"calculation"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 5873,
+		"nouns": [],
+		"dOIndex": 140,
+		"isQuote": false
+	},
+	{
+		"txt": "Note that the drag coefficient, LINEARDRAGCOEFFICIENT, is defined as follows:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5874,
+		"nouns": [
+			"drag",
+			"coefficient",
+			"LINEARDRAGCOEFFICIENT"
+		],
+		"dOIndex": 141,
+		"nouns2": [
+			"coefficient",
+			"LINEARDRAGCOEFFICIENT"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.1,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 5875,
+		"nouns": [],
+		"dOIndex": 142,
+		"isQuote": false
+	},
+	{
+		"txt": "Once the drag force is determined, it gets aggregated in the total force vector as follows:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5876,
+		"nouns": [
+			"drag",
+			"force",
+			"force",
+			"vector"
+		],
+		"dOIndex": 143,
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.0625,
+			"words": [
+				"determined",
+				"drag"
+			],
+			"positive": [
+				"determined"
+			],
+			"negative": [
+				"drag"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 5877,
+		"nouns": [],
+		"dOIndex": 144,
+		"isQuote": false
+	},
+	{
+		"txt": "In addition to aggregating this force, we must aggregate the moment due to that force in the total moment vector as follows:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5878,
+		"nouns": [
+			"addition",
+			"force",
+			"moment",
+			"force",
+			"moment",
+			"vector"
+		],
+		"dOIndex": 145,
+		"nouns2": [
+			"addition"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 5879,
+		"nouns": [],
+		"dOIndex": 146,
+		"isQuote": false
+	},
+	{
+		"txt": "The first line computes the moment due to the drag force by taking the vector cross product of the position vector, to the center of drag, with the drag force vector. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5880,
+		"nouns": [
+			"first",
+			"line",
+			"moment",
+			"drag",
+			"force",
+			"vector",
+			"product",
+			"position",
+			"vector",
+			"center",
+			"drag",
+			"drag",
+			"force",
+			"vector"
+		],
+		"dOIndex": 147,
+		"nouns2": [
+			"product",
+			"position"
+		],
+		"highfreq": {
+			"drag": 3,
+			"vector": 3
+		},
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.09375,
+			"words": [
+				"drag",
+				"drag",
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag",
+				"drag",
+				"drag"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " The second line adds this force to the variable, accumulating these moments.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5881,
+		"nouns": [
+			"second",
+			"line",
+			"force",
+			"moments"
+		],
+		"dOIndex": 148,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"moments"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5882,
+		"nouns": [],
+		"dOIndex": 149,
+		"isQuote": false
+	},
+	{
+		"txt": "With the drag calculation complete, CalcLoads proceeds to calculate the forces and moments due to the bow thrusters, which may be active or inactive at any given time.",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5883,
+		"nouns": [
+			"drag",
+			"calculation",
+			"CalcLoads",
+			"proceeds",
+			"forces",
+			"moments",
+			"bow",
+			"thrusters",
+			"time"
+		],
+		"dOIndex": 150,
+		"nouns2": [
+			"calculation",
+			"CalcLoads",
+			"proceeds",
+			"moments",
+			"thrusters"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"active",
+				"drag"
+			],
+			"positive": [
+				"active"
+			],
+			"negative": [
+				"drag"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5884,
+		"nouns": [],
+		"dOIndex": 151,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 5885,
+		"nouns": [],
+		"dOIndex": 152,
+		"isQuote": false
+	},
+	{
+		"txt": "The first line aggregates the port bow thruster force into Fb . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5886,
+		"nouns": [
+			"first",
+			"line",
+			"aggregates",
+			"port",
+			"bow",
+			"thruster",
+			"force",
+			"Fb"
+		],
+		"dOIndex": 153,
+		"nouns2": [
+			"aggregates",
+			"thruster"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " PThrust is a force vector computed in the SetThrusters method in response to your keyboard input. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5887,
+		"nouns": [
+			"PThrust",
+			"force",
+			"vector",
+			"SetThrusters",
+			"method",
+			"response",
+			"keyboard",
+			"input"
+		],
+		"dOIndex": 154,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"PThrust",
+			"SetThrusters",
+			"response",
+			"keyboard"
+		]
+	},
+	{
+		"txt": " The next two lines compute and aggregate the moment due to the thruster force. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5888,
+		"nouns": [
+			"two",
+			"lines",
+			"moment",
+			"thruster",
+			"force"
+		],
+		"dOIndex": 155,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"thruster"
+		]
+	},
+	{
+		"txt": " A similar set of code lines follows, computing the force and moment due to the starboard bow thruster.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5889,
+		"nouns": [
+			"code",
+			"lines",
+			"force",
+			"moment",
+			"starboard",
+			"bow",
+			"thruster"
+		],
+		"dOIndex": 156,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"starboard",
+			"thruster"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5890,
+		"nouns": [],
+		"dOIndex": 157,
+		"isQuote": false
+	},
+	{
+		"txt": "Next, the propeller thrust force is added to the running total of forces. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5891,
+		"nouns": [
+			"propeller",
+			"thrust",
+			"force",
+			"forces"
+		],
+		"dOIndex": 158,
+		"nouns2": [
+			"propeller"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " Remember, since the propeller thrust force acts through the center of gravity, there is no moment to worry about. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5892,
+		"nouns": [
+			"propeller",
+			"thrust",
+			"force",
+			"acts",
+			"center",
+			"gravity",
+			"moment"
+		],
+		"dOIndex": 159,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Remember",
+			"propeller",
+			"gravity"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.19047619047619047,
+			"words": [
+				"worry",
+				"no"
+			],
+			"positive": [],
+			"negative": [
+				"worry",
+				"no"
+			]
+		}
+	},
+	{
+		"txt": " Thus, all we need is:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5893,
+		"nouns": [],
+		"dOIndex": 160,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 5894,
+		"nouns": [],
+		"dOIndex": 161,
+		"isQuote": false
+	},
+	{
+		"txt": "Finally, the total force is transformed from local coordinates to world coordinates via a vector rotation given the orientation of the hovercraft, and the total forces and moments are stored so they are available when it comes time to integrate the equations of motion at each time step.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5895,
+		"nouns": [
+			"force",
+			"coordinates",
+			"world",
+			"coordinates",
+			"vector",
+			"rotation",
+			"orientation",
+			"hovercraft",
+			"forces",
+			"moments",
+			"time",
+			"equations",
+			"motion",
+			"time",
+			"step"
+		],
+		"dOIndex": 162,
+		"nouns2": [
+			"Finally",
+			"coordinates",
+			"rotation",
+			"orientation",
+			"hovercraft",
+			"moments",
+			"equations"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5896,
+		"nouns": [],
+		"dOIndex": 163,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5897,
+		"nouns": [],
+		"dOIndex": 164,
+		"isQuote": false
+	},
+	{
+		"txt": "As you can see, computing loads on a rigid body is a bit more complex than what you saw earlier when dealing with particles. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5898,
+		"nouns": [
+			"loads",
+			"body",
+			"bit",
+			"particles"
+		],
+		"dOIndex": 165,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"particles"
+		]
+	},
+	{
+		"txt": " This, of course, is due to the nature of rigid bodies being able to rotate. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5899,
+		"nouns": [
+			"course",
+			"nature",
+			"bodies"
+		],
+		"dOIndex": 166,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " What's nice, though, is that all this new complexity is encapsulated in CalcLoads, and the rest of the simulator is pretty much the same as when we're dealing with ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5900,
+		"nouns": [
+			"complexity",
+			"CalcLoads",
+			"rest",
+			"simulator",
+			"re"
+		],
+		"dOIndex": 167,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"complexity",
+			"CalcLoads",
+			"simulator"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.12903225806451613,
+			"words": [
+				"pretty",
+				"nice"
+			],
+			"positive": [
+				"pretty",
+				"nice"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5901,
+		"nouns": [],
+		"dOIndex": 168,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "particles.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5902,
+		"nouns": [
+			"particles"
+		],
+		"dOIndex": 169,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"particles"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5903,
+		"nouns": [],
+		"dOIndex": 170,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5904,
+		"nouns": [],
+		"dOIndex": 171,
+		"isQuote": false
+	},
+	{
+		"txt": "Transforming Coordinates",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5905,
+		"nouns": [
+			"Coordinates"
+		],
+		"dOIndex": 172,
+		"nouns2": [
+			"Transforming",
+			"Coordinates"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5906,
+		"nouns": [],
+		"dOIndex": 173,
+		"isQuote": false
+	},
+	{
+		"txt": "Let's talk about ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5907,
+		"nouns": [],
+		"dOIndex": 174,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5908,
+		"nouns": [],
+		"dOIndex": 175,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "transformation from local to world coordinates a bit more since you'll see this sort of transform again in a few places. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5909,
+		"nouns": [
+			"transformation",
+			"world",
+			"coordinates",
+			"bit",
+			"ll",
+			"sort",
+			"places"
+		],
+		"dOIndex": 176,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"transformation",
+			"coordinates"
+		]
+	},
+	{
+		"txt": " When computing forces acting on the rigid body, we want those forces in a vector form relative to the coordinates that are fixed with respect to the hovercraft (e.g., relative to the body's center of gravity with the x axis pointing toward the front of the body and the y axis pointing toward the starboard side). ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5910,
+		"nouns": [
+			"forces",
+			"body",
+			"forces",
+			"vector",
+			"form",
+			"coordinates",
+			"respect",
+			"hovercraft",
+			"e",
+			"g",
+			"body",
+			"center",
+			"gravity",
+			"x",
+			"axis",
+			"front",
+			"body",
+			"y",
+			"axis",
+			"starboard",
+			"side"
+		],
+		"dOIndex": 177,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coordinates",
+			"respect",
+			"hovercraft",
+			"gravity",
+			"starboard"
+		],
+		"highfreq": {
+			"body": 3
+		},
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.05172413793103448,
+			"words": [
+				"respect",
+				"want"
+			],
+			"positive": [
+				"respect",
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " This simplifies our calculations of forces and moments. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5911,
+		"nouns": [
+			"calculations",
+			"forces",
+			"moments"
+		],
+		"dOIndex": 178,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"calculations",
+			"moments"
+		]
+	},
+	{
+		"txt": " However, when integrating the equation of motion to see how the body translates in world coordinates, we use the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5912,
+		"nouns": [
+			"equation",
+			"motion",
+			"body",
+			"world",
+			"coordinates",
+			"use"
+		],
+		"dOIndex": 179,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"equation",
+			"coordinates"
+		]
+	},
+	{
+		"txt": "equations of motion in world coordinates, requiring us to represent the aggregate force in world coordinates. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5913,
+		"nouns": [
+			"equations",
+			"motion",
+			"world",
+			"coordinates",
+			"force",
+			"world",
+			"coordinates"
+		],
+		"dOIndex": 180,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equations",
+			"coordinates"
+		]
+	},
+	{
+		"txt": " That's why we rotated the aggregate force at the end of the CalcLoads method.",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5914,
+		"nouns": [
+			"force",
+			"end",
+			"CalcLoads",
+			"method"
+		],
+		"dOIndex": 181,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"CalcLoads"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5915,
+		"nouns": [],
+		"dOIndex": 182,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5916,
+		"nouns": [],
+		"dOIndex": 183,
+		"isQuote": false
+	},
+	{
+		"txt": "In two dimensions, the coordinate transformation involves a little trigonometry as shown in the following VRotate2D function:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5917,
+		"nouns": [
+			"two",
+			"dimensions",
+			"coordinate",
+			"transformation",
+			"trigonometry",
+			"VRotate",
+			"D",
+			"function"
+		],
+		"dOIndex": 184,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"dimensions",
+			"coordinate",
+			"transformation",
+			"trigonometry",
+			"VRotate",
+			"function"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 5918,
+		"nouns": [],
+		"dOIndex": 185,
+		"isQuote": false
+	},
+	{
+		"txt": "The angle here represents the orientation of the local, body fixed coordinate system with respect to the world coordinate system. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5919,
+		"nouns": [
+			"angle",
+			"orientation",
+			"body",
+			"system",
+			"respect",
+			"world",
+			"system"
+		],
+		"dOIndex": 186,
+		"nouns2": [
+			"orientation",
+			"respect"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.09523809523809523,
+			"words": [
+				"respect"
+			],
+			"positive": [
+				"respect"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " When converting from local coordinates to world coordinates, use a positive angle; use a negative angle when going the other way. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5920,
+		"nouns": [
+			"coordinates",
+			"world",
+			"coordinates",
+			"use",
+			"angle",
+			"use",
+			"angle",
+			"way"
+		],
+		"dOIndex": 187,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coordinates"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"negative",
+				"positive"
+			],
+			"positive": [
+				"positive"
+			],
+			"negative": [
+				"negative"
+			]
+		}
+	},
+	{
+		"txt": " This is just the convention we've adopted so transformations from local coordinates to world coordinates are positive. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5921,
+		"nouns": [
+			"convention",
+			"ve",
+			"transformations",
+			"coordinates",
+			"world",
+			"coordinates"
+		],
+		"dOIndex": 188,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"convention",
+			"transformations",
+			"coordinates"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.10526315789473684,
+			"words": [
+				"positive"
+			],
+			"positive": [
+				"positive"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " You can see we actually take the negative of the angle parameter, so in reality you could do away with that negative, and then transformations from local coordinates to world coordinates would actually be negative. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5922,
+		"nouns": [
+			"angle",
+			"parameter",
+			"reality",
+			"transformations",
+			"coordinates",
+			"world",
+			"coordinates"
+		],
+		"dOIndex": 189,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"parameter",
+			"reality",
+			"transformations",
+			"coordinates"
+		],
+		"highfreq": {
+			"negative": 3
+		},
+		"sentiment": {
+			"score": -6,
+			"comparative": -0.16216216216216217,
+			"words": [
+				"negative",
+				"negative",
+				"negative"
+			],
+			"positive": [],
+			"negative": [
+				"negative",
+				"negative",
+				"negative"
+			]
+		}
+	},
+	{
+		"txt": " It's your preference. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5923,
+		"nouns": [
+			"preference"
+		],
+		"dOIndex": 190,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"preference"
+		]
+	},
+	{
+		"txt": " You'll see this function used a few more times in different situations before the end of this chapter.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5924,
+		"nouns": [
+			"ll",
+			"function",
+			"times",
+			"situations",
+			"end",
+			"chapter"
+		],
+		"dOIndex": 191,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function",
+			"situations",
+			"chapter"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5925,
+		"nouns": [],
+		"dOIndex": 192,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5926,
+		"nouns": [],
+		"dOIndex": 193,
+		"isQuote": false
+	},
+	{
+		"txt": "Integrator",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5927,
+		"nouns": [
+			"Integrator"
+		],
+		"dOIndex": 194,
+		"nouns2": [
+			"Integrator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5928,
+		"nouns": [],
+		"dOIndex": 195,
+		"isQuote": false
+	},
+	{
+		"txt": "The UpdateBodyEuler method ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5929,
+		"nouns": [
+			"UpdateBodyEuler",
+			"method"
+		],
+		"dOIndex": 196,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"UpdateBodyEuler"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5930,
+		"nouns": [],
+		"dOIndex": 197,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "actually integrates the equations of motion for the rigid body. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5931,
+		"nouns": [
+			"equations",
+			"motion",
+			"body"
+		],
+		"dOIndex": 198,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equations"
+		]
+	},
+	{
+		"txt": " Since we're dealing with a rigid body, unlike a particle, we have two equations of motion: one for translation, and the other for rotation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5932,
+		"nouns": [
+			"re",
+			"body",
+			"particle",
+			"two",
+			"equations",
+			"motion",
+			"one",
+			"translation",
+			"rotation"
+		],
+		"dOIndex": 199,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"particle",
+			"equations",
+			"translation",
+			"rotation"
+		]
+	},
+	{
+		"txt": " The following code sample shows UpdateBodyEuler .",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5933,
+		"nouns": [
+			"code",
+			"sample",
+			"UpdateBodyEuler"
+		],
+		"dOIndex": 200,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"UpdateBodyEuler"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5934,
+		"nouns": [],
+		"dOIndex": 201,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 5935,
+		"nouns": [],
+		"dOIndex": 202,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5936,
+		"nouns": [],
+		"dOIndex": 203,
+		"isQuote": false
+	},
+	{
+		"txt": "As the name of this method implies, we've implemented Euler's ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5937,
+		"nouns": [
+			"name",
+			"method",
+			"ve",
+			"Euler"
+		],
+		"dOIndex": 204,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "method of integration as described in ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5938,
+		"nouns": [
+			"method",
+			"integration"
+		],
+		"dOIndex": 205,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"integration"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5939,
+		"nouns": [],
+		"dOIndex": 206,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 7 . ",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5940,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 207,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " Integrating the linear equation of motion for a rigid body follows exactly the same steps we used for integrating the linear equation of motion for particles. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5941,
+		"nouns": [
+			"equation",
+			"motion",
+			"body",
+			"steps",
+			"equation",
+			"motion",
+			"particles"
+		],
+		"dOIndex": 208,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Integrating",
+			"equation",
+			"particles"
+		]
+	},
+	{
+		"txt": " All that's required is to divide the aggregate forces acting on a body by the mass of the body to get the body's acceleration. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5942,
+		"nouns": [
+			"forces",
+			"body",
+			"mass",
+			"body",
+			"body",
+			"acceleration"
+		],
+		"dOIndex": 209,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"acceleration"
+		],
+		"highfreq": {
+			"body": 3
+		}
+	},
+	{
+		"txt": " The line of code a = vForces / fMass does just this. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5943,
+		"nouns": [
+			"line",
+			"code",
+			"vForces",
+			"/",
+			"fMass"
+		],
+		"dOIndex": 210,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"vForces"
+		]
+	},
+	{
+		"txt": " Notice here that a is a Vector, as is vForces . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5944,
+		"nouns": [
+			"Notice",
+			"Vector",
+			"vForces"
+		],
+		"dOIndex": 211,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Notice",
+			"Vector",
+			"vForces"
+		]
+	},
+	{
+		"txt": " fMass is a scalar, and the / operator defined in the Vector class takes care of dividing each component of the vForces vector by fMass and setting the corresponding components in a . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5945,
+		"nouns": [
+			"fMass",
+			"/",
+			"operator",
+			"Vector",
+			"class",
+			"care",
+			"component",
+			"vForces",
+			"vector",
+			"fMass",
+			"components"
+		],
+		"dOIndex": 212,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"operator",
+			"Vector",
+			"component",
+			"vForces",
+			"components"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.05714285714285714,
+			"words": [
+				"care"
+			],
+			"positive": [
+				"care"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The change in velocity, dv, is equal to acceleration times the change in time, dt . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5946,
+		"nouns": [
+			"change",
+			"velocity",
+			"dv",
+			"acceleration",
+			"times",
+			"change",
+			"time",
+			"dt"
+		],
+		"dOIndex": 213,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity",
+			"acceleration"
+		]
+	},
+	{
+		"txt": " The body's new velocity is then computed by the line vVelocity += dv . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5947,
+		"nouns": [
+			"body",
+			"velocity",
+			"line",
+			"vVelocity",
+			"+=",
+			"dv"
+		],
+		"dOIndex": 214,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity",
+			"vVelocity"
+		]
+	},
+	{
+		"txt": " Here again, vVelocity and dv are Vectors and the += operator takes care of the vector arithmetic. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5948,
+		"nouns": [
+			"vVelocity",
+			"dv",
+			"Vectors",
+			"+=",
+			"operator",
+			"care",
+			"vector",
+			"arithmetic"
+		],
+		"dOIndex": 215,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"vVelocity",
+			"Vectors",
+			"operator",
+			"arithmetic"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.10526315789473684,
+			"words": [
+				"care"
+			],
+			"positive": [
+				"care"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " This is the first actual integration for translation.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5949,
+		"nouns": [
+			"first",
+			"integration",
+			"translation"
+		],
+		"dOIndex": 216,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"integration",
+			"translation"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5950,
+		"nouns": [],
+		"dOIndex": 217,
+		"isQuote": false
+	},
+	{
+		"txt": "The second integration takes place in the next few lines, where we determine the body's displacement and new position by integrating its velocity. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5951,
+		"nouns": [
+			"second",
+			"integration",
+			"place",
+			"lines",
+			"body",
+			"displacement",
+			"position",
+			"velocity"
+		],
+		"dOIndex": 218,
+		"nouns2": [
+			"integration",
+			"displacement",
+			"position",
+			"velocity"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " The line ds = vVelocity * dt determines the displacement, or change in the body's position, and the line vPosition += ds computes the new position by adding the displacement to the body's old position. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5952,
+		"nouns": [
+			"line",
+			"ds",
+			"vVelocity",
+			"dt",
+			"displacement",
+			"change",
+			"body",
+			"position",
+			"line",
+			"vPosition",
+			"+=",
+			"ds",
+			"position",
+			"displacement",
+			"body",
+			"position"
+		],
+		"dOIndex": 219,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"vVelocity",
+			"displacement",
+			"position",
+			"vPosition"
+		],
+		"highfreq": {
+			"position": 3
+		}
+	},
+	{
+		"txt": " That's it for translation.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5953,
+		"nouns": [
+			"translation"
+		],
+		"dOIndex": 220,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"translation"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5954,
+		"nouns": [],
+		"dOIndex": 221,
+		"isQuote": false
+	},
+	{
+		"txt": "The next order of business is to integrate the angular equation of motion to find the body's ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5955,
+		"nouns": [
+			"order",
+			"business",
+			"equation",
+			"motion",
+			"body"
+		],
+		"dOIndex": 222,
+		"nouns2": [
+			"business",
+			"equation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "new orientation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5956,
+		"nouns": [
+			"orientation"
+		],
+		"dOIndex": 223,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"orientation"
+		]
+	},
+	{
+		"txt": " The line link https: computes the body's angular acceleration by dividing the aggregate moment acting on the body by its mass moment of inertia. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5957,
+		"nouns": [
+			"line",
+			"link",
+			"https",
+			"body",
+			"acceleration",
+			"moment",
+			"body",
+			"mass",
+			"moment",
+			"inertia"
+		],
+		"dOIndex": 224,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"acceleration",
+			"inertia"
+		]
+	},
+	{
+		"txt": " aa is a scalar, as is fInertia since this is a 2D problem. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5958,
+		"nouns": [
+			"aa",
+			"fInertia",
+			"D",
+			"problem"
+		],
+		"dOIndex": 225,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"fInertia",
+			"problem"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.13333333333333333,
+			"words": [
+				"problem"
+			],
+			"positive": [],
+			"negative": [
+				"problem"
+			]
+		}
+	},
+	{
+		"txt": " In 3D, things are a bit more complicated, and we'll get to that in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5959,
+		"nouns": [
+			"D",
+			"things",
+			"bit",
+			"ll"
+		],
+		"dOIndex": 226,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 11",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5960,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 227,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5961,
+		"nouns": [],
+		"dOIndex": 228,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5962,
+		"nouns": [],
+		"dOIndex": 229,
+		"isQuote": false
+	},
+	{
+		"txt": "We compute the change in angular velocity, dav, a scalar, by multiplying aa by the time step size, dt . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5963,
+		"nouns": [
+			"change",
+			"velocity",
+			"dav",
+			"aa",
+			"time",
+			"step",
+			"size",
+			"dt"
+		],
+		"dOIndex": 230,
+		"nouns2": [
+			"velocity"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " The new angular velocity is simply the old velocity plus the change: vAngularVelocity.z += dav . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5964,
+		"nouns": [
+			"velocity",
+			"velocity",
+			"change",
+			"vAngularVelocity",
+			"z",
+			"+=",
+			"dav"
+		],
+		"dOIndex": 231,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity",
+			"vAngularVelocity"
+		]
+	},
+	{
+		"txt": " The change in orientation is equal to the new angular velocity multiplied by the time step: vAngularVelocity.z * dt . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5965,
+		"nouns": [
+			"change",
+			"orientation",
+			"velocity",
+			"time",
+			"step",
+			"vAngularVelocity",
+			"z",
+			"dt"
+		],
+		"dOIndex": 232,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"orientation",
+			"velocity",
+			"vAngularVelocity"
+		]
+	},
+	{
+		"txt": " Notice that we convert the change in orientation from radians to degrees here since we're keeping track of orientation in degrees. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5966,
+		"nouns": [
+			"Notice",
+			"change",
+			"orientation",
+			"radians",
+			"degrees",
+			"re",
+			"track",
+			"orientation",
+			"degrees"
+		],
+		"dOIndex": 233,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Notice",
+			"orientation",
+			"radians",
+			"degrees"
+		]
+	},
+	{
+		"txt": " You don't really have to, so long as you're consistent.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5967,
+		"nouns": [
+			"t",
+			"re"
+		],
+		"dOIndex": 234,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5968,
+		"nouns": [],
+		"dOIndex": 235,
+		"isQuote": false
+	},
+	{
+		"txt": "The last line in UpdateBodyEuler computes the body's linear speed by transforming the magnitude of its velocity vector to local, body coordinates. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5969,
+		"nouns": [
+			"line",
+			"UpdateBodyEuler",
+			"body",
+			"magnitude",
+			"velocity",
+			"vector",
+			"body",
+			"coordinates"
+		],
+		"dOIndex": 236,
+		"nouns2": [
+			"UpdateBodyEuler",
+			"magnitude",
+			"velocity",
+			"coordinates"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " Recall in CalcLoads that we require the body's velocity in body fixed coordinates in order to compute the ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5970,
+		"nouns": [
+			"CalcLoads",
+			"body",
+			"velocity",
+			"body",
+			"coordinates",
+			"order"
+		],
+		"dOIndex": 237,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Recall",
+			"CalcLoads",
+			"velocity",
+			"coordinates"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5971,
+		"nouns": [],
+		"dOIndex": 238,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "drag force on the body.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5972,
+		"nouns": [
+			"drag",
+			"force",
+			"body"
+		],
+		"dOIndex": 239,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.2,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5973,
+		"nouns": [],
+		"dOIndex": 240,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5974,
+		"nouns": [],
+		"dOIndex": 241,
+		"isQuote": false
+	},
+	{
+		"txt": "Rendering",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5975,
+		"nouns": [],
+		"dOIndex": 242,
+		"nouns2": [
+			"Rendering"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5976,
+		"nouns": [],
+		"dOIndex": 243,
+		"isQuote": false
+	},
+	{
+		"txt": "In this simple example, rendering the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5977,
+		"nouns": [
+			"example"
+		],
+		"dOIndex": 244,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5978,
+		"nouns": [],
+		"dOIndex": 245,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "virtual hovercraft is just a little more involved than rendering the particles in the example from ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5979,
+		"nouns": [
+			"hovercraft",
+			"particles",
+			"example"
+		],
+		"dOIndex": 246,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hovercraft",
+			"particles",
+			"example"
+		]
+	},
+	{
+		"txt": "Chapter 8",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5980,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 247,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5981,
+		"nouns": [],
+		"dOIndex": 248,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " All we do is draw a few connected lines using Windows API calls wrapped in our own functions to hide some of the Windows specific code. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5982,
+		"nouns": [
+			"lines",
+			"Windows API",
+			"functions",
+			"Windows",
+			"code"
+		],
+		"dOIndex": 249,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Windows",
+			"functions"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.03571428571428571,
+			"words": [
+				"hide"
+			],
+			"positive": [],
+			"negative": [
+				"hide"
+			]
+		}
+	},
+	{
+		"txt": " The following code snippet is all we need to render the hovercraft:",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5983,
+		"nouns": [
+			"code",
+			"snippet",
+			"hovercraft"
+		],
+		"dOIndex": 250,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"snippet",
+			"hovercraft"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 5984,
+		"nouns": [],
+		"dOIndex": 251,
+		"isQuote": false
+	},
+	{
+		"txt": "You can use your own rendering code here, of course, and all you really need to pay close attention to is transforming the coordinates for the outline of the hovercraft from body to world coordinates. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5985,
+		"nouns": [
+			"use",
+			"code",
+			"course",
+			"attention",
+			"coordinates",
+			"outline",
+			"hovercraft",
+			"body",
+			"world",
+			"coordinates"
+		],
+		"dOIndex": 252,
+		"nouns2": [
+			"attention",
+			"coordinates",
+			"outline",
+			"hovercraft"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.027777777777777776,
+			"words": [
+				"pay"
+			],
+			"positive": [],
+			"negative": [
+				"pay"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " This involves rotating the vertex coordinates from body fixed space using the VRotate2D function and then adding the position of the center of gravity of the hovercraft to each transformed vertex. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5986,
+		"nouns": [
+			"vertex",
+			"coordinates",
+			"body",
+			"space",
+			"VRotate2D",
+			"function",
+			"position",
+			"center",
+			"gravity",
+			"hovercraft",
+			"vertex"
+		],
+		"dOIndex": 253,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coordinates",
+			"VRotate2D",
+			"function",
+			"position",
+			"gravity",
+			"hovercraft"
+		]
+	},
+	{
+		"txt": " These lines take care of this coordinate transformation:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5987,
+		"nouns": [
+			"lines",
+			"care",
+			"coordinate",
+			"transformation"
+		],
+		"dOIndex": 254,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coordinate",
+			"transformation"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.2222222222222222,
+			"words": [
+				"care"
+			],
+			"positive": [
+				"care"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 5988,
+		"nouns": [],
+		"dOIndex": 255,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5989,
+		"nouns": [],
+		"dOIndex": 256,
+		"isQuote": false
+	},
+	{
+		"txt": "The Basic Simulator",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5990,
+		"nouns": [
+			"Basic Simulator"
+		],
+		"dOIndex": 257,
+		"nouns2": [
+			"Simulator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 5991,
+		"nouns": [],
+		"dOIndex": 258,
+		"isQuote": false
+	},
+	{
+		"txt": "The heart of this",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5992,
+		"nouns": [
+			"heart"
+		],
+		"dOIndex": 259,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " simulation is handled by the RigidBody2D",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5993,
+		"nouns": [
+			"simulation",
+			"RigidBody2D"
+		],
+		"dOIndex": 260,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulation",
+			"RigidBody2D"
+		]
+	},
+	{
+		"txt": " class described earlier. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5994,
+		"nouns": [
+			"class"
+		],
+		"dOIndex": 261,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " However, we need to show you how that class is used in the context of the main program. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5995,
+		"nouns": [
+			"show",
+			"class",
+			"context",
+			"program"
+		],
+		"dOIndex": 262,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"context",
+			"program"
+		]
+	},
+	{
+		"txt": " This simulator is very similar to that shown in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5996,
+		"nouns": [
+			"simulator"
+		],
+		"dOIndex": 263,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulator"
+		]
+	},
+	{
+		"txt": "Chapter 8",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5997,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 264,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " for particles, so if you've read that chapter already you can breeze through this section.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 5998,
+		"nouns": [
+			"particles",
+			"ve",
+			"chapter",
+			"breeze",
+			"section"
+		],
+		"dOIndex": 265,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"particles",
+			"chapter",
+			"section"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 5999,
+		"nouns": [],
+		"dOIndex": 266,
+		"isQuote": false
+	},
+	{
+		"txt": "First, we define a few global variables as follows:",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6000,
+		"nouns": [
+			"First",
+			"variables"
+		],
+		"dOIndex": 267,
+		"nouns2": [
+			"variables"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6001,
+		"nouns": [],
+		"dOIndex": 268,
+		"isQuote": false
+	},
+	{
+		"txt": "FrameCounter counts the number of time steps integrated before the graphics display is updated. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6002,
+		"nouns": [
+			"FrameCounter",
+			"counts",
+			"number",
+			"time",
+			"steps",
+			"graphics",
+			"display"
+		],
+		"dOIndex": 269,
+		"nouns2": [
+			"FrameCounter",
+			"graphics",
+			"display"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " How many time steps you allow the simulation to integrate before updating the display is a matter of tuning. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6003,
+		"nouns": [
+			"time",
+			"steps",
+			"simulation",
+			"display",
+			"matter"
+		],
+		"dOIndex": 270,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulation",
+			"display"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.09523809523809523,
+			"words": [
+				"matter",
+				"allow"
+			],
+			"positive": [
+				"matter",
+				"allow"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " You'll see how this is used momentarily when we discuss the UpdateSimulation function. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6004,
+		"nouns": [
+			"ll",
+			"UpdateSimulation",
+			"function"
+		],
+		"dOIndex": 271,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"UpdateSimulation",
+			"function"
+		]
+	},
+	{
+		"txt": " Craft is a RigidBody2D type that will represent our virtual hovercraft.",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6005,
+		"nouns": [
+			"Craft",
+			"RigidBody2D",
+			"type",
+			"hovercraft"
+		],
+		"dOIndex": 272,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"RigidBody2D",
+			"hovercraft"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6006,
+		"nouns": [],
+		"dOIndex": 273,
+		"isQuote": false
+	},
+	{
+		"txt": "For the most part, Craft is initialized in accordance with the RigidBody2D constructor shown earlier. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6007,
+		"nouns": [
+			"part",
+			"Craft",
+			"accordance",
+			"RigidBody2D",
+			"constructor"
+		],
+		"dOIndex": 274,
+		"nouns2": [
+			"accordance",
+			"RigidBody2D",
+			"constructor"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " However, its position is at the origin, so we make a call to the following Initialize function to locate the Craft in the middle of the screen vertically and on the left side. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6008,
+		"nouns": [
+			"position",
+			"origin",
+			"call",
+			"Initialize",
+			"function",
+			"Craft",
+			"middle",
+			"screen",
+			"side"
+		],
+		"dOIndex": 275,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"position",
+			"Initialize",
+			"function"
+		]
+	},
+	{
+		"txt": " We set its orientation to 0 degrees so it points toward the right side of the screen:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6009,
+		"nouns": [
+			"orientation",
+			"degrees",
+			"points",
+			"right",
+			"side",
+			"screen"
+		],
+		"dOIndex": 276,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"orientation",
+			"degrees"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6010,
+		"nouns": [],
+		"dOIndex": 277,
+		"isQuote": false
+	},
+	{
+		"txt": "OK, now let's consider UpdateSimulation as shown in the code snippet below. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6011,
+		"nouns": [
+			"UpdateSimulation",
+			"code",
+			"snippet"
+		],
+		"dOIndex": 278,
+		"nouns2": [
+			"UpdateSimulation",
+			"snippet"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " This function gets called every cycle through the program's main message loop and is responsible for making appropriate function calls to update the hovercraft's position and orientation, as well as rendering the scene. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6012,
+		"nouns": [
+			"function",
+			"cycle",
+			"program",
+			"message",
+			"loop",
+			"function",
+			"hovercraft",
+			"position",
+			"orientation",
+			"scene"
+		],
+		"dOIndex": 279,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function",
+			"program",
+			"message",
+			"hovercraft",
+			"position",
+			"orientation"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.11428571428571428,
+			"words": [
+				"appropriate",
+				"responsible"
+			],
+			"positive": [
+				"appropriate",
+				"responsible"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " It also checks the states of the keyboard arrow keys and makes appropriate function calls:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6013,
+		"nouns": [
+			"checks",
+			"states",
+			"keyboard",
+			"arrow",
+			"keys",
+			"function"
+		],
+		"dOIndex": 280,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"keyboard",
+			"function"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.125,
+			"words": [
+				"appropriate"
+			],
+			"positive": [
+				"appropriate"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6014,
+		"nouns": [],
+		"dOIndex": 281,
+		"isQuote": false
+	},
+	{
+		"txt": "The local variable dt represents the small yet finite amount of time, in seconds, over which each integration step is taken. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6015,
+		"nouns": [
+			"dt",
+			"amount",
+			"time",
+			"seconds",
+			"integration",
+			"step"
+		],
+		"dOIndex": 282,
+		"nouns2": [
+			"seconds",
+			"integration"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " The global define _TIMESTEP stores the time step, which we have set to 0.001 seconds. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6016,
+		"nouns": [
+			"_TIMESTEP",
+			"stores",
+			"time",
+			"step",
+			"seconds"
+		],
+		"dOIndex": 283,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"_TIMESTEP",
+			"seconds"
+		]
+	},
+	{
+		"txt": " This value is subject to tuning.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6017,
+		"nouns": [
+			"value",
+			"subject"
+		],
+		"dOIndex": 284,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"subject"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6018,
+		"nouns": [],
+		"dOIndex": 285,
+		"isQuote": false
+	},
+	{
+		"txt": "The first action UpdateSimulation takes is to reset the states of the bow thrusters to inactive by calling the SetThrusters method as follows:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6019,
+		"nouns": [
+			"first",
+			"action",
+			"UpdateSimulation",
+			"reset",
+			"states",
+			"bow",
+			"thrusters",
+			"SetThrusters",
+			"method"
+		],
+		"dOIndex": 286,
+		"nouns2": [
+			"UpdateSimulation",
+			"thrusters",
+			"SetThrusters"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6020,
+		"nouns": [],
+		"dOIndex": 287,
+		"isQuote": false
+	},
+	{
+		"txt": "Next, the keyboard is polled using the function IsKeyDown . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6021,
+		"nouns": [
+			"keyboard",
+			"function",
+			"IsKeyDown"
+		],
+		"dOIndex": 288,
+		"nouns2": [
+			"keyboard",
+			"function",
+			"IsKeyDown"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " This is a wrapper function we created to encapsulate the necessary Windows API calls used to check key states. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6022,
+		"nouns": [
+			"wrapper",
+			"function",
+			"Windows API",
+			"check",
+			"states"
+		],
+		"dOIndex": 289,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"wrapper",
+			"function",
+			"Windows"
+		]
+	},
+	{
+		"txt": " If the up arrow key is pressed, then the RigidBody2D method ModulateThrust is called, as shown here:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6023,
+		"nouns": [
+			"arrow",
+			"RigidBody2D",
+			"method",
+			"ModulateThrust"
+		],
+		"dOIndex": 290,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"RigidBody2D",
+			"ModulateThrust"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6024,
+		"nouns": [],
+		"dOIndex": 291,
+		"isQuote": false
+	},
+	{
+		"txt": "If the down arrow key is pressed, then ModulateThrust is called, passing false instead of true .",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6025,
+		"nouns": [
+			"arrow",
+			"ModulateThrust"
+		],
+		"dOIndex": 292,
+		"nouns2": [
+			"ModulateThrust"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.058823529411764705,
+			"words": [
+				"true",
+				"false"
+			],
+			"positive": [
+				"true"
+			],
+			"negative": [
+				"false"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6026,
+		"nouns": [],
+		"dOIndex": 293,
+		"isQuote": false
+	},
+	{
+		"txt": "ModulateThrust looks like this:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6027,
+		"nouns": [
+			"ModulateThrust"
+		],
+		"dOIndex": 294,
+		"nouns2": [
+			"ModulateThrust"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.5,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6028,
+		"nouns": [],
+		"dOIndex": 295,
+		"isQuote": false
+	},
+	{
+		"txt": "All it does is increment the propeller thrust force by a small amount, either increasing it or decreasing it, depending on the value of the up parameter.",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6029,
+		"nouns": [
+			"increment",
+			"propeller",
+			"thrust",
+			"force",
+			"amount",
+			"value",
+			"parameter"
+		],
+		"dOIndex": 296,
+		"nouns2": [
+			"increment",
+			"propeller",
+			"parameter"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6030,
+		"nouns": [],
+		"dOIndex": 297,
+		"isQuote": false
+	},
+	{
+		"txt": "Getting back to UpdateSimulation, we make a couple more calls to IsKeyDown , checking the states of the left and right arrow keys. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6031,
+		"nouns": [
+			"UpdateSimulation",
+			"couple",
+			"IsKeyDown",
+			"states",
+			"right",
+			"arrow",
+			"keys"
+		],
+		"dOIndex": 298,
+		"nouns2": [
+			"Getting",
+			"UpdateSimulation",
+			"IsKeyDown"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " If the left arrow key is down, then the RigidBody2D method SetThrusters is called, passing false as the first parameter and true as the second parameter. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6032,
+		"nouns": [
+			"arrow",
+			"RigidBody2D",
+			"method",
+			"SetThrusters",
+			"first",
+			"parameter",
+			"second",
+			"parameter"
+		],
+		"dOIndex": 299,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"RigidBody2D",
+			"SetThrusters",
+			"parameter"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.03571428571428571,
+			"words": [
+				"true",
+				"false"
+			],
+			"positive": [
+				"true"
+			],
+			"negative": [
+				"false"
+			]
+		}
+	},
+	{
+		"txt": " If the right arrow key is down, these parameter values are reversed. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6033,
+		"nouns": [
+			"right",
+			"arrow",
+			"parameter",
+			"values"
+		],
+		"dOIndex": 300,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"parameter"
+		]
+	},
+	{
+		"txt": " SetThrusters looks like this:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6034,
+		"nouns": [
+			"SetThrusters"
+		],
+		"dOIndex": 301,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"SetThrusters"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.4,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6035,
+		"nouns": [],
+		"dOIndex": 302,
+		"isQuote": false
+	},
+	{
+		"txt": "It resets the port and starboard bow thruster thrust vectors and then sets them according to the parameters passed in SetThrusters . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6036,
+		"nouns": [
+			"resets",
+			"port",
+			"bow",
+			"thruster",
+			"thrust",
+			"vectors",
+			"sets",
+			"parameters",
+			"SetThrusters"
+		],
+		"dOIndex": 303,
+		"nouns2": [
+			"thruster",
+			"vectors",
+			"parameters",
+			"SetThrusters"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " If p is true, then a right turn is desired and a port thrust force, PThrust , is created, pointing toward the starboard side. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6037,
+		"nouns": [
+			"p",
+			"right",
+			"port",
+			"thrust",
+			"force",
+			"PThrust",
+			"starboard",
+			"side"
+		],
+		"dOIndex": 304,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"PThrust",
+			"starboard"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.15384615384615385,
+			"words": [
+				"desired",
+				"true"
+			],
+			"positive": [
+				"desired",
+				"true"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " This seems opposite of what you'd expect, but it is the port bow thruster that is fired, pushing the bow of the hovercraft toward the right (starboard) side. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6038,
+		"nouns": [
+			"port",
+			"bow",
+			"thruster",
+			"bow",
+			"hovercraft",
+			"right",
+			"side"
+		],
+		"dOIndex": 305,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"thruster",
+			"hovercraft"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.06666666666666667,
+			"words": [
+				"fired"
+			],
+			"positive": [],
+			"negative": [
+				"fired"
+			]
+		}
+	},
+	{
+		"txt": " Similarly, if s is true , a thrust force is created that will push the bow of the hovercraft to the left (port) side.",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6039,
+		"nouns": [
+			"thrust",
+			"force",
+			"bow",
+			"hovercraft",
+			"port",
+			"side"
+		],
+		"dOIndex": 306,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Similarly",
+			"hovercraft"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08,
+			"words": [
+				"true"
+			],
+			"positive": [
+				"true"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6040,
+		"nouns": [],
+		"dOIndex": 307,
+		"isQuote": false
+	},
+	{
+		"txt": "Now with the thrust forces managed, UpdateSimulation makes the call:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6041,
+		"nouns": [
+			"thrust",
+			"forces",
+			"UpdateSimulation",
+			"call"
+		],
+		"dOIndex": 308,
+		"nouns2": [
+			"UpdateSimulation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6042,
+		"nouns": [],
+		"dOIndex": 309,
+		"isQuote": false
+	},
+	{
+		"txt": "UpdateBodyEuler integrates the equations of motion as discussed earlier.",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6043,
+		"nouns": [
+			"UpdateBodyEuler",
+			"equations",
+			"motion"
+		],
+		"dOIndex": 310,
+		"nouns2": [
+			"UpdateBodyEuler",
+			"equations"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6044,
+		"nouns": [],
+		"dOIndex": 311,
+		"isQuote": false
+	},
+	{
+		"txt": "The next segment of code checks the value of the frame counter. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6045,
+		"nouns": [
+			"segment",
+			"code",
+			"checks",
+			"value",
+			"frame",
+			"counter"
+		],
+		"dOIndex": 312,
+		"nouns2": [
+			"segment",
+			"counter"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " If the frame counter has reached the defined number of frames (stored in _RENDER_FRAME_COUNT ), then the back buffer is cleared to prepare it for drawing upon and ultimately copying to the screen.",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6046,
+		"nouns": [
+			"frame",
+			"counter",
+			"number",
+			"frames",
+			"_RENDER_FRAME_COUNT",
+			"buffer",
+			"screen"
+		],
+		"dOIndex": 313,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"counter",
+			"_RENDER_FRAME_COUNT"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.058823529411764705,
+			"words": [
+				"cleared",
+				"reached"
+			],
+			"positive": [
+				"cleared",
+				"reached"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6047,
+		"nouns": [],
+		"dOIndex": 314,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6048,
+		"nouns": [],
+		"dOIndex": 315,
+		"isQuote": false
+	},
+	{
+		"txt": "Finally, the last four lines of code wrap the hovercraft's position around the edges of the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6049,
+		"nouns": [
+			"four",
+			"lines",
+			"code",
+			"hovercraft",
+			"position",
+			"edges"
+		],
+		"dOIndex": 316,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Finally",
+			"hovercraft",
+			"position"
+		]
+	},
+	{
+		"txt": "screen.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6050,
+		"nouns": [
+			"screen"
+		],
+		"dOIndex": 317,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6051,
+		"nouns": [],
+		"dOIndex": 318,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6052,
+		"nouns": [],
+		"dOIndex": 319,
+		"isQuote": false
+	},
+	{
+		"txt": "Tuning",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6053,
+		"nouns": [],
+		"dOIndex": 320,
+		"nouns2": [
+			"Tuning"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6054,
+		"nouns": [],
+		"dOIndex": 321,
+		"isQuote": false
+	},
+	{
+		"txt": "You'll probably",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6055,
+		"nouns": [
+			"ll"
+		],
+		"dOIndex": 322,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6056,
+		"nouns": [],
+		"dOIndex": 323,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " want to tune this example to run well on your computer since we didn't implement any profiling for processor speed. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6057,
+		"nouns": [
+			"tune",
+			"example",
+			"computer",
+			"t",
+			"processor"
+		],
+		"dOIndex": 324,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"computer",
+			"processor"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.045454545454545456,
+			"words": [
+				"want"
+			],
+			"positive": [
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Moreover, you should tune the various parameters governing the behavior of the hovercraft to see how it responds. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6058,
+		"nouns": [
+			"tune",
+			"parameters",
+			"behavior",
+			"hovercraft"
+		],
+		"dOIndex": 325,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Moreover",
+			"parameters",
+			"behavior",
+			"hovercraft"
+		]
+	},
+	{
+		"txt": " The way we have it set up now makes the hovercraft exhibit a soft sort of response to turning that is, upon application of turning forces, the craft will tend to keep tracking in its original heading for a bit even while yawed. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6059,
+		"nouns": [
+			"way",
+			"hovercraft",
+			"exhibit",
+			"sort",
+			"response",
+			"application",
+			"forces",
+			"craft",
+			"bit"
+		],
+		"dOIndex": 326,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hovercraft",
+			"exhibit",
+			"response",
+			"application"
+		]
+	},
+	{
+		"txt": " It will not respond like a car would turn. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6060,
+		"nouns": [
+			"car"
+		],
+		"dOIndex": 327,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.18181818181818182,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " You can change this behavior, of course.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6061,
+		"nouns": [
+			"change",
+			"behavior",
+			"course"
+		],
+		"dOIndex": 328,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"behavior"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6062,
+		"nouns": [],
+		"dOIndex": 329,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6063,
+		"nouns": [],
+		"dOIndex": 330,
+		"isQuote": false
+	},
+	{
+		"txt": "Some things we suggest you play with include the time step size and the various constants we've defined as follows:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6064,
+		"nouns": [
+			"things",
+			"time",
+			"step",
+			"size",
+			"constants",
+			"ve"
+		],
+		"dOIndex": 331,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"constants"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6065,
+		"nouns": [],
+		"dOIndex": 332,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6066,
+		"nouns": [],
+		"dOIndex": 333
+	},
+	{
+		"txt": "_THRUSTFORCE is the initial magnitude of the propeller thrust force. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6067,
+		"nouns": [
+			"_THRUSTFORCE",
+			"magnitude",
+			"propeller",
+			"thrust",
+			"force"
+		],
+		"dOIndex": 334,
+		"nouns2": [
+			"_THRUSTFORCE",
+			"magnitude",
+			"propeller"
+		]
+	},
+	{
+		"txt": " _MAXTHRUST and _MINTHRUST set upper and lower bounds to this force, which is modulated by the user pressing the up and down arrow keys. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6068,
+		"nouns": [
+			"_MAXTHRUST",
+			"_MINTHRUST",
+			"bounds",
+			"force",
+			"user",
+			"arrow",
+			"keys"
+		],
+		"dOIndex": 335,
+		"nouns2": [
+			"_MAXTHRUST",
+			"_MINTHRUST"
+		]
+	},
+	{
+		"txt": " _DTHRUST is the incremental change in thrust in response to the user pressing the up and down arrow keys. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6069,
+		"nouns": [
+			"_DTHRUST",
+			"change",
+			"thrust",
+			"response",
+			"user",
+			"arrow",
+			"keys"
+		],
+		"dOIndex": 336,
+		"nouns2": [
+			"_DTHRUST",
+			"response"
+		]
+	},
+	{
+		"txt": " _STEERINGFORCE is the magnitude of the bow thruster forces. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6070,
+		"nouns": [
+			"_STEERINGFORCE",
+			"magnitude",
+			"bow",
+			"thruster",
+			"forces"
+		],
+		"dOIndex": 337,
+		"nouns2": [
+			"_STEERINGFORCE",
+			"magnitude",
+			"thruster"
+		]
+	},
+	{
+		"txt": " You should definitely play with this value to see how the behavior of the hovercraft changes. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6071,
+		"nouns": [
+			"value",
+			"behavior",
+			"hovercraft",
+			"changes"
+		],
+		"dOIndex": 338,
+		"nouns2": [
+			"behavior",
+			"hovercraft",
+			"changes"
+		]
+	},
+	{
+		"txt": " Finally, _LINEARDRAGCOEFFICIENT is the drag coefficient used to compute aerodynamic drag. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6072,
+		"nouns": [
+			"_LINEARDRAGCOEFFICIENT",
+			"drag",
+			"coefficient",
+			"drag"
+		],
+		"dOIndex": 339,
+		"nouns2": [
+			"Finally",
+			"_LINEARDRAGCOEFFICIENT",
+			"coefficient"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.15384615384615385,
+			"words": [
+				"drag",
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag",
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " This is another good value to play with to see how behavior is affected. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6073,
+		"nouns": [
+			"value",
+			"behavior"
+		],
+		"dOIndex": 340,
+		"nouns2": [
+			"behavior"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.125,
+			"words": [
+				"affected",
+				"good"
+			],
+			"positive": [
+				"good"
+			],
+			"negative": [
+				"affected"
+			]
+		}
+	},
+	{
+		"txt": " Speaking of drag, the location of the center of drag that's initialized in the RigidBody2D constructor is a good parameter to change in order to understand how it affects the behavior of the hovercraft. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6074,
+		"nouns": [
+			"drag",
+			"location",
+			"center",
+			"drag",
+			"RigidBody2D",
+			"constructor",
+			"parameter",
+			"change",
+			"order",
+			"behavior",
+			"hovercraft"
+		],
+		"dOIndex": 341,
+		"nouns2": [
+			"Speaking",
+			"location",
+			"RigidBody2D",
+			"constructor",
+			"parameter",
+			"behavior",
+			"hovercraft"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.027777777777777776,
+			"words": [
+				"good",
+				"drag",
+				"drag"
+			],
+			"positive": [
+				"good"
+			],
+			"negative": [
+				"drag",
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " It influences the craft's directional stability, which affects its turning radius particularly at higher ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6075,
+		"nouns": [
+			"influences",
+			"craft",
+			"stability",
+			"radius"
+		],
+		"dOIndex": 342,
+		"nouns2": [
+			"influences",
+			"stability"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6076,
+		"nouns": [],
+		"dOIndex": 343
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6077,
+		"nouns": [],
+		"dOIndex": 344
+	},
+	{
+		"txt": "speeds.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6078,
+		"nouns": [
+			"speeds"
+		],
+		"dOIndex": 345
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6079,
+		"nouns": [],
+		"dOIndex": 346
+	}
+]

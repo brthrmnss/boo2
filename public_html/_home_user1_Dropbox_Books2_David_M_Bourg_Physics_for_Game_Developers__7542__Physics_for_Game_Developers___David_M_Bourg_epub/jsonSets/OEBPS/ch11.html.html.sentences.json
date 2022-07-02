@@ -1,0 +1,7973 @@
+[
+	{
+		"txt": "",
+		"why": "br tag like",
+		"sentenceIndex": 6466,
+		"nouns": [],
+		"dOIndex": 0,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 11. Rotation in 3D Rigid Body Simulators",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6467,
+		"nouns": [
+			"Chapter",
+			"Rotation",
+			"D",
+			"Body",
+			"Simulators"
+		],
+		"dOIndex": 1,
+		"nouns2": [
+			"Chapter",
+			"Rotation",
+			"Simulators"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "A fundamental difference between ",
+		"why": "link",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 6468,
+		"nouns": [
+			"difference"
+		],
+		"dOIndex": 2,
+		"nouns2": [
+			"difference"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6469,
+		"nouns": [],
+		"dOIndex": 3,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6470,
+		"nouns": [],
+		"dOIndex": 4,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6471,
+		"nouns": [],
+		"dOIndex": 5,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "particles and rigid bodies is that we cannot ignore rotation of rigid bodies. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6472,
+		"nouns": [
+			"particles",
+			"bodies",
+			"rotation",
+			"bodies"
+		],
+		"dOIndex": 6,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"particles",
+			"rotation"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.07142857142857142,
+			"words": [
+				"ignore"
+			],
+			"positive": [],
+			"negative": [
+				"ignore"
+			]
+		}
+	},
+	{
+		"txt": " This applies to both 2D and 3D rigid bodies. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6473,
+		"nouns": [
+			"both",
+			"D",
+			"D",
+			"bodies"
+		],
+		"dOIndex": 7,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " In two dimensions, it's quite easy to express the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 6474,
+		"nouns": [
+			"two",
+			"dimensions"
+		],
+		"dOIndex": 8,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"dimensions"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.09090909090909091,
+			"words": [
+				"easy"
+			],
+			"positive": [
+				"easy"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "orientation of a rigid body; you need only a single scalar to represent the body's rotation about a single axis. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6475,
+		"nouns": [
+			"orientation",
+			"body",
+			"body",
+			"rotation",
+			"axis"
+		],
+		"dOIndex": 9,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"orientation",
+			"rotation"
+		]
+	},
+	{
+		"txt": " In three dimensions, however, there are three primary coordinate axes about each of which a rigid body may rotate. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6476,
+		"nouns": [
+			"three",
+			"dimensions",
+			"three",
+			"axes",
+			"body"
+		],
+		"dOIndex": 10,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"dimensions"
+		]
+	},
+	{
+		"txt": " Moreover, a rigid body in three dimensions may rotate about any arbitrary axis, not necessarily one of the coordinate axes.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6477,
+		"nouns": [
+			"body",
+			"three",
+			"dimensions",
+			"axis",
+			"one",
+			"coordinate",
+			"axes"
+		],
+		"dOIndex": 11,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Moreover",
+			"dimensions",
+			"coordinate"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 6478,
+		"nouns": [],
+		"dOIndex": 12,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6479,
+		"nouns": [],
+		"dOIndex": 13,
+		"isQuote": false
+	},
+	{
+		"txt": "In two dimensions, we say that a rigid body has only one rotational degree of freedom, whereas in three dimensions we say that a rigid body has three rotational ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 6480,
+		"nouns": [
+			"two",
+			"dimensions",
+			"body",
+			"one",
+			"degree",
+			"freedom",
+			"three",
+			"dimensions",
+			"body",
+			"three"
+		],
+		"dOIndex": 14,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"dimensions",
+			"freedom"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.06666666666666667,
+			"words": [
+				"freedom"
+			],
+			"positive": [
+				"freedom"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "degrees of freedom. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6481,
+		"nouns": [
+			"degrees",
+			"freedom"
+		],
+		"dOIndex": 15,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"degrees",
+			"freedom"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.5,
+			"words": [
+				"freedom"
+			],
+			"positive": [
+				"freedom"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " This may lead you to infer that in three dimensions, you must have three scalar quantities to represent a body's rotation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6482,
+		"nouns": [
+			"three",
+			"dimensions",
+			"three",
+			"quantities",
+			"body",
+			"rotation"
+		],
+		"dOIndex": 16,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"dimensions",
+			"quantities",
+			"rotation"
+		]
+	},
+	{
+		"txt": " Indeed, this is a minimum requirement, and you're probably already familiar with a set of angles that represent the orientation of a rigid body in 3D namely, the three ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 6483,
+		"nouns": [
+			"requirement",
+			"re",
+			"angles",
+			"orientation",
+			"body",
+			"D",
+			"three"
+		],
+		"dOIndex": 17,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Indeed",
+			"requirement",
+			"orientation"
+		]
+	},
+	{
+		"txt": "Euler angles (roll, pitch, and yaw) that we'll talk about in ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 6484,
+		"nouns": [
+			"Euler",
+			"angles",
+			"roll",
+			"pitch",
+			"yaw",
+			"ll"
+		],
+		"dOIndex": 18,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6485,
+		"nouns": [],
+		"dOIndex": 19,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 15 .",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 6486,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 20,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 6487,
+		"nouns": [],
+		"dOIndex": 21,
+		"isQuote": false
+	},
+	{
+		"txt": "These three angles roll, pitch, and yaw are very intuitive and easy for us to visualize. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6488,
+		"nouns": [
+			"three",
+			"angles",
+			"roll",
+			"pitch",
+			"yaw"
+		],
+		"dOIndex": 22,
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.058823529411764705,
+			"words": [
+				"easy"
+			],
+			"positive": [
+				"easy"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " For example, in an airplane the nose ",
+		"why": "link",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 6489,
+		"nouns": [
+			"example",
+			"airplane",
+			"nose"
+		],
+		"dOIndex": 23,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"airplane"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6490,
+		"nouns": [],
+		"dOIndex": 24,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "pitches up or down, the plane ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 6491,
+		"nouns": [
+			"pitches",
+			"plane"
+		],
+		"dOIndex": 25,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pitches"
+		]
+	},
+	{
+		"txt": "rolls (or banks) left or right, and the ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 6492,
+		"nouns": [
+			"rolls",
+			"banks",
+			"right"
+		],
+		"dOIndex": 26,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6493,
+		"nouns": [],
+		"dOIndex": 27,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6494,
+		"nouns": [],
+		"dOIndex": 28,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "yaw (or heading) changes to the left or right. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6495,
+		"nouns": [
+			"yaw",
+			"changes",
+			"right"
+		],
+		"dOIndex": 29,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"changes"
+		]
+	},
+	{
+		"txt": " Unfortunately, there's a problem with using these three Euler angles in rigid body simulations. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6496,
+		"nouns": [
+			"problem",
+			"three Euler",
+			"angles",
+			"body",
+			"simulations"
+		],
+		"dOIndex": 30,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Unfortunately",
+			"problem",
+			"simulations"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.125,
+			"words": [
+				"problem"
+			],
+			"positive": [],
+			"negative": [
+				"problem"
+			]
+		}
+	},
+	{
+		"txt": " The problem is a numerical one that occurs when the pitch angle reaches plus or minus 90 degrees (π/2). ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6497,
+		"nouns": [
+			"problem",
+			"one",
+			"pitch",
+			"angle",
+			"degrees",
+			"π",
+			"/"
+		],
+		"dOIndex": 31,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"problem",
+			"degrees"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.047619047619047616,
+			"words": [
+				"reaches",
+				"problem"
+			],
+			"positive": [
+				"reaches"
+			],
+			"negative": [
+				"problem"
+			]
+		}
+	},
+	{
+		"txt": " When this happens, roll and yaw become ambiguous. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6498,
+		"nouns": [
+			"roll",
+			"yaw"
+		],
+		"dOIndex": 32,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Worse yet, the angular equations of motion written in terms of Euler angles contain terms involving the cosine of the pitch angle in the denominator, which means that when the pitch angle is plus or minus 90 degrees the equations become singular (i.e., there's division by 0). ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6499,
+		"nouns": [
+			"equations",
+			"motion",
+			"terms",
+			"Euler",
+			"angles",
+			"terms",
+			"cosine",
+			"pitch",
+			"angle",
+			"denominator",
+			"pitch",
+			"angle",
+			"degrees",
+			"equations",
+			"e",
+			"division"
+		],
+		"dOIndex": 33,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equations",
+			"denominator",
+			"degrees",
+			"division"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.061224489795918366,
+			"words": [
+				"worse"
+			],
+			"positive": [],
+			"negative": [
+				"worse"
+			]
+		}
+	},
+	{
+		"txt": " If this happens in your simulation, the results would be unpredictable to say the least. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6500,
+		"nouns": [
+			"simulation",
+			"results"
+		],
+		"dOIndex": 34,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulation",
+			"results"
+		]
+	},
+	{
+		"txt": " Given this problem with Euler angles, you must use some other means of keeping track of orientation in your simulation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6501,
+		"nouns": [
+			"problem",
+			"Euler",
+			"angles",
+			"use",
+			"track",
+			"orientation",
+			"simulation"
+		],
+		"dOIndex": 35,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"problem",
+			"orientation",
+			"simulation"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.09090909090909091,
+			"words": [
+				"problem"
+			],
+			"positive": [],
+			"negative": [
+				"problem"
+			]
+		}
+	},
+	{
+		"txt": " We'll discuss two such means in this chapter specifically, rotation matrices and quaternions.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6502,
+		"nouns": [
+			"ll",
+			"two",
+			"chapter",
+			"rotation",
+			"matrices",
+			"quaternions"
+		],
+		"dOIndex": 36,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"chapter",
+			"rotation",
+			"matrices",
+			"quaternions"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 6503,
+		"nouns": [],
+		"dOIndex": 37,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6504,
+		"nouns": [],
+		"dOIndex": 38,
+		"isQuote": false
+	},
+	{
+		"txt": "Virtually every computer graphics book that we've read contains a chapter or section on using rotation matrices. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6505,
+		"nouns": [
+			"computer",
+			"graphics",
+			"book",
+			"ve",
+			"chapter",
+			"section",
+			"rotation",
+			"matrices"
+		],
+		"dOIndex": 39,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Virtually",
+			"computer",
+			"graphics",
+			"chapter",
+			"section",
+			"rotation",
+			"matrices"
+		]
+	},
+	{
+		"txt": " Far fewer discuss quaternions, but if you're familiar with quaternions, it's probably in the same context as rotation matrices that is, how they are used to rotate 3D points, objects, scenes, and points of view. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6506,
+		"nouns": [
+			"Far",
+			"quaternions",
+			"re",
+			"quaternions",
+			"context",
+			"rotation",
+			"matrices",
+			"D",
+			"points",
+			"objects",
+			"scenes",
+			"points",
+			"view"
+		],
+		"dOIndex": 40,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternions",
+			"context",
+			"rotation",
+			"matrices",
+			"objects"
+		]
+	},
+	{
+		"txt": " In a simulation, however, you need to get a little more out of rotation matrices or quaternions and will use them in a different context than what you might be accustomed to. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6507,
+		"nouns": [
+			"simulation",
+			"rotation",
+			"matrices",
+			"quaternions",
+			"use",
+			"context"
+		],
+		"dOIndex": 41,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulation",
+			"rotation",
+			"matrices",
+			"quaternions",
+			"context"
+		]
+	},
+	{
+		"txt": " Specifically, you need to keep track of a body's orientation in space and, moreover, the change in orientation over time. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6508,
+		"nouns": [
+			"track",
+			"body",
+			"orientation",
+			"space",
+			"change",
+			"orientation",
+			"time"
+		],
+		"dOIndex": 42,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Specifically",
+			"orientation"
+		]
+	},
+	{
+		"txt": " So it's in this light that we'll discuss rotation matrices and quaternions. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6509,
+		"nouns": [
+			"light",
+			"ll",
+			"rotation",
+			"matrices",
+			"quaternions"
+		],
+		"dOIndex": 43,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"rotation",
+			"matrices",
+			"quaternions"
+		]
+	},
+	{
+		"txt": " We'll try to be as concise as possible so as not to cloud the water with the proofs and derivations that you can find in the texts referred to in the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 6510,
+		"nouns": [
+			"ll",
+			"cloud",
+			"water",
+			"proofs",
+			"derivations",
+			"texts"
+		],
+		"dOIndex": 44,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"derivations"
+		]
+	},
+	{
+		"txt": "Bibliography",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 6511,
+		"nouns": [
+			"Bibliography"
+		],
+		"dOIndex": 45,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Bibliography"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6512,
+		"nouns": [],
+		"dOIndex": 46,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 6513,
+		"nouns": [],
+		"dOIndex": 47,
+		"isQuote": false
+	},
+	{
+		"txt": "Rotation Matrices",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6514,
+		"nouns": [
+			"Rotation",
+			"Matrices"
+		],
+		"dOIndex": 48,
+		"nouns2": [
+			"Rotation",
+			"Matrices"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "A rotation matrix is a 3×3 matrix that, ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6515,
+		"nouns": [
+			"rotation",
+			"matrix",
+			"×",
+			"matrix"
+		],
+		"dOIndex": 49,
+		"nouns2": [
+			"rotation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6516,
+		"nouns": [],
+		"dOIndex": 50,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "when multiplied with a point or vector, results in the rotation of that point about some axis, yielding a new set of coordinates. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6517,
+		"nouns": [
+			"point",
+			"vector",
+			"results",
+			"rotation",
+			"point",
+			"axis",
+			"coordinates"
+		],
+		"dOIndex": 51,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"results",
+			"rotation",
+			"coordinates"
+		]
+	},
+	{
+		"txt": " You can rotate points about axes in one coordinate system or you can use rotation matrices to convert points from one coordinate system to another, where one is rotated relative to the other.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6518,
+		"nouns": [
+			"points",
+			"axes",
+			"one",
+			"system",
+			"use",
+			"rotation",
+			"matrices",
+			"points",
+			"one",
+			"system",
+			"one"
+		],
+		"dOIndex": 52,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"rotation",
+			"matrices"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6519,
+		"nouns": [],
+		"dOIndex": 53,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6520,
+		"nouns": [],
+		"dOIndex": 54,
+		"isQuote": false
+	},
+	{
+		"txt": "Rotating a vector by a rotation matrix is typically written as follows: if v is a vector, and R is a rotation matrix, then v' is v rotated by R according to the formula:v' = R v",
+		"why": "p",
+		"tags": [
+			"strong",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6521,
+		"nouns": [
+			"vector",
+			"rotation",
+			"matrix",
+			"v",
+			"vector",
+			"R",
+			"rotation",
+			"matrix",
+			"v",
+			"v",
+			"R",
+			"formula",
+			"v",
+			"R",
+			"v"
+		],
+		"dOIndex": 55,
+		"nouns2": [
+			"Rotating",
+			"rotation",
+			"formula"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6522,
+		"nouns": [],
+		"dOIndex": 56,
+		"isQuote": false
+	},
+	{
+		"txt": "You can combine multiple rotation matrices reflecting multiple sequential rotations into a single rotation matrix using usual matrix multiplication. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6523,
+		"nouns": [
+			"rotation",
+			"matrices",
+			"rotations",
+			"rotation",
+			"matrix",
+			"matrix",
+			"multiplication"
+		],
+		"dOIndex": 57,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"rotation",
+			"matrices",
+			"rotations",
+			"multiplication"
+		]
+	},
+	{
+		"txt": " If the rotation matrices are expressed in terms of fixed, global coordinates, then they are combined as follows:Rc = R1R2",
+		"why": "p",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6524,
+		"nouns": [
+			"rotation",
+			"matrices",
+			"terms",
+			"coordinates",
+			"Rc",
+			"R",
+			"R"
+		],
+		"dOIndex": 58,
+		"nouns2": [
+			"rotation",
+			"matrices",
+			"coordinates"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6525,
+		"nouns": [],
+		"dOIndex": 59,
+		"isQuote": false
+	},
+	{
+		"txt": "Here Rc is the combined rotation matrix reflecting a rotation first by R1 and then by R2 . ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6526,
+		"nouns": [
+			"Rc",
+			"rotation",
+			"matrix",
+			"rotation",
+			"first",
+			"R",
+			"R"
+		],
+		"dOIndex": 60,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"rotation"
+		]
+	},
+	{
+		"txt": " If the rotation matrices are expressed in terms of rotating, body fixed coordinates, then they are combined in the reverse order as follows:Rc = R2R1",
+		"why": "p",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6527,
+		"nouns": [
+			"rotation",
+			"matrices",
+			"terms",
+			"body",
+			"coordinates",
+			"reverse",
+			"order",
+			"Rc",
+			"R",
+			"R"
+		],
+		"dOIndex": 61,
+		"nouns2": [
+			"rotation",
+			"matrices",
+			"coordinates",
+			"reverse"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6528,
+		"nouns": [],
+		"dOIndex": 62,
+		"isQuote": false
+	},
+	{
+		"txt": "We won't go into the proof of this relation, but the reason it's different depending on how you've defined your rotation matrices is that rotation matrices defined in fixed coordinates are unaffected by the rotation itself since the coordinate axes stay fixed. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6529,
+		"nouns": [
+			"t",
+			"proof",
+			"relation",
+			"reason",
+			"ve",
+			"rotation",
+			"matrices",
+			"rotation",
+			"matrices",
+			"coordinates",
+			"rotation",
+			"coordinate",
+			"axes"
+		],
+		"dOIndex": 63,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"relation",
+			"rotation",
+			"matrices",
+			"coordinates",
+			"coordinate"
+		],
+		"highfreq": {
+			"rotation": 3
+		}
+	},
+	{
+		"txt": " On the other hand, if the rotation matrices are defined relative to a coordinate system that is rotating due to sequential application of rotation matrices, then all rotation matrices after the first will be affected since they were first defined relative to the original state of the coordinate system that is, before the first rotation matrix was applied. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6530,
+		"nouns": [
+			"hand",
+			"rotation",
+			"matrices",
+			"coordinate",
+			"system",
+			"application",
+			"rotation",
+			"matrices",
+			"rotation",
+			"matrices",
+			"first",
+			"first",
+			"state",
+			"coordinate",
+			"system",
+			"first",
+			"rotation",
+			"matrix"
+		],
+		"dOIndex": 64,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"rotation",
+			"matrices",
+			"coordinate",
+			"application"
+		],
+		"highfreq": {
+			"rotation": 4,
+			"matrices": 3,
+			"___first": 3
+		},
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.016666666666666666,
+			"words": [
+				"affected"
+			],
+			"positive": [],
+			"negative": [
+				"affected"
+			]
+		}
+	},
+	{
+		"txt": " This means that the subsequent rotation matrices must be corrected to reflect the new system as affected by the previous rotation before they can be correctly applied. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6531,
+		"nouns": [
+			"rotation",
+			"matrices",
+			"system",
+			"rotation"
+		],
+		"dOIndex": 65,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"rotation",
+			"matrices"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.034482758620689655,
+			"words": [
+				"affected"
+			],
+			"positive": [],
+			"negative": [
+				"affected"
+			]
+		}
+	},
+	{
+		"txt": " In other words, you have to rotate R2 by R1 to get a new R2 before applying it. ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6532,
+		"nouns": [
+			"words",
+			"R",
+			"R",
+			"R"
+		],
+		"dOIndex": 66,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " All this happens to work out in such a way that you reverse the order of multiplication of rotation matrices when they are defined in a r",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6533,
+		"nouns": [
+			"work",
+			"way",
+			"order",
+			"multiplication",
+			"rotation",
+			"matrices",
+			"r"
+		],
+		"dOIndex": 67,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"multiplication",
+			"rotation",
+			"matrices"
+		]
+	},
+	{
+		"txt": "otating coordinate system.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6534,
+		"nouns": [
+			"system"
+		],
+		"dOIndex": 68,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6535,
+		"nouns": [],
+		"dOIndex": 69,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6536,
+		"nouns": [],
+		"dOIndex": 70,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 11 1 shows a right handed coordinate system that illustrates the directions of positive rotation about each coordinate axis.",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6537,
+		"nouns": [
+			"Figure",
+			"right",
+			"system",
+			"directions",
+			"rotation",
+			"coordinate",
+			"axis"
+		],
+		"dOIndex": 71,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure",
+			"directions",
+			"rotation",
+			"coordinate"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.10526315789473684,
+			"words": [
+				"positive"
+			],
+			"positive": [
+				"positive"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6538,
+		"nouns": [],
+		"dOIndex": 72,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6539,
+		"nouns": [],
+		"dOIndex": 73,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6540,
+		"nouns": [],
+		"dOIndex": 74,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6541,
+		"nouns": [],
+		"dOIndex": 75,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6542,
+		"nouns": [],
+		"dOIndex": 76,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 11 1. Right handed coordinate system",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6543,
+		"nouns": [
+			"Figure",
+			"system"
+		],
+		"dOIndex": 77,
+		"nouns2": [
+			"Figure"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6544,
+		"nouns": [],
+		"dOIndex": 78,
+		"isQuote": false
+	},
+	{
+		"txt": "Let's consider rotation around the",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6545,
+		"nouns": [
+			"rotation"
+		],
+		"dOIndex": 79,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"rotation"
+		]
+	},
+	{
+		"txt": " z axis where the point shown in ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6546,
+		"nouns": [
+			"z",
+			"axis",
+			"point"
+		],
+		"dOIndex": 80,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6547,
+		"nouns": [],
+		"dOIndex": 81,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 11 2 is rotated through an angle θ.",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6548,
+		"nouns": [
+			"Figure",
+			"angle",
+			"θ"
+		],
+		"dOIndex": 82,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6549,
+		"nouns": [],
+		"dOIndex": 83,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6550,
+		"nouns": [],
+		"dOIndex": 84,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6551,
+		"nouns": [],
+		"dOIndex": 85,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6552,
+		"nouns": [],
+		"dOIndex": 86,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6553,
+		"nouns": [],
+		"dOIndex": 87,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 11 2. Rotation around the z axis",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6554,
+		"nouns": [
+			"Figure",
+			"Rotation",
+			"z",
+			"axis"
+		],
+		"dOIndex": 88,
+		"nouns2": [
+			"Figure",
+			"Rotation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6555,
+		"nouns": [],
+		"dOIndex": 89,
+		"isQuote": false
+	},
+	{
+		"txt": "The coordinates of the point before the rotation are (x,y,z) and after the rotation the coordinates are (xr, yr, zr ). ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6556,
+		"nouns": [
+			"coordinates",
+			"point",
+			"rotation",
+			"x",
+			"y",
+			"z",
+			"rotation",
+			"coordinates",
+			"xr",
+			"yr",
+			"zr"
+		],
+		"dOIndex": 90,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coordinates",
+			"rotation"
+		]
+	},
+	{
+		"txt": " The rotated coordinates are related to the original coordinates and the rotation angle by the following:xr = x cos θ − y sin θyr = x sin θ + y cos θzr = z",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6557,
+		"nouns": [
+			"coordinates",
+			"coordinates",
+			"rotation",
+			"angle",
+			"xr",
+			"x",
+			"cos",
+			"θ",
+			"− y",
+			"sin",
+			"θyr",
+			"x",
+			"sin",
+			"θ",
+			"y",
+			"cos",
+			"θzr",
+			"z"
+		],
+		"dOIndex": 91,
+		"nouns2": [
+			"coordinates",
+			"rotation"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.11428571428571428,
+			"words": [
+				"sin",
+				"sin"
+			],
+			"positive": [],
+			"negative": [
+				"sin",
+				"sin"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6558,
+		"nouns": [],
+		"dOIndex": 92,
+		"isQuote": false
+	},
+	{
+		"txt": "Notice that since the point is rotating about the z axis, its z coordinate remains unchanged. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6559,
+		"nouns": [
+			"Notice",
+			"point",
+			"z",
+			"axis",
+			"z"
+		],
+		"dOIndex": 93,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Notice"
+		]
+	},
+	{
+		"txt": " To write this in the vector matrix notation, v' = R v, let v= [x y z] and let R be the matrix:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6560,
+		"nouns": [
+			"vector",
+			"matrix",
+			"notation",
+			"v",
+			"R",
+			"v",
+			"v=",
+			"[x y",
+			"z]",
+			"R",
+			"matrix"
+		],
+		"dOIndex": 94,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"notation"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6561,
+		"nouns": [],
+		"dOIndex": 95,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6562,
+		"nouns": [],
+		"dOIndex": 96,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6563,
+		"nouns": [],
+		"dOIndex": 97,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6564,
+		"nouns": [],
+		"dOIndex": 98,
+		"isQuote": false
+	},
+	{
+		"txt": "Here v' will be the new, rotated vector, v' = [xryrzr] .",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6565,
+		"nouns": [
+			"v",
+			"vector",
+			"v",
+			"[xryrzr]"
+		],
+		"dOIndex": 99,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"[xryrzr]"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6566,
+		"nouns": [],
+		"dOIndex": 100,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6567,
+		"nouns": [],
+		"dOIndex": 101,
+		"isQuote": false
+	},
+	{
+		"txt": "Rotation about ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6568,
+		"nouns": [
+			"Rotation"
+		],
+		"dOIndex": 102,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Rotation"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6569,
+		"nouns": [],
+		"dOIndex": 103,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "the x  and y axes is similar to the z axis; however, in those cases the x and y coordinates remain constant during rotations about each axis, respectively. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6570,
+		"nouns": [
+			"x",
+			"y",
+			"axes",
+			"z",
+			"axis",
+			"cases",
+			"x",
+			"y",
+			"coordinates",
+			"rotations",
+			"axis"
+		],
+		"dOIndex": 104,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coordinates",
+			"rotations"
+		]
+	},
+	{
+		"txt": " Looking at rotation about each axis separately will yield three rotation matrices similar to the one we just showed you for rotation about the z axis.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6571,
+		"nouns": [
+			"rotation",
+			"axis",
+			"three",
+			"rotation",
+			"matrices",
+			"one",
+			"rotation",
+			"z",
+			"axis"
+		],
+		"dOIndex": 105,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Looking",
+			"rotation",
+			"matrices"
+		],
+		"highfreq": {
+			"rotation": 3
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6572,
+		"nouns": [],
+		"dOIndex": 106,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6573,
+		"nouns": [],
+		"dOIndex": 107,
+		"isQuote": false
+	},
+	{
+		"txt": "For rotation about the x axis, the matrix is:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6574,
+		"nouns": [
+			"rotation",
+			"x",
+			"axis",
+			"matrix"
+		],
+		"dOIndex": 108,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"rotation"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6575,
+		"nouns": [],
+		"dOIndex": 109,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6576,
+		"nouns": [],
+		"dOIndex": 110,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6577,
+		"nouns": [],
+		"dOIndex": 111,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6578,
+		"nouns": [],
+		"dOIndex": 112,
+		"isQuote": false
+	},
+	{
+		"txt": "And for rotation about the y axis, the matrix is:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6579,
+		"nouns": [
+			"rotation",
+			"y",
+			"axis",
+			"matrix"
+		],
+		"dOIndex": 113,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"rotation"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6580,
+		"nouns": [],
+		"dOIndex": 114,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6581,
+		"nouns": [],
+		"dOIndex": 115,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6582,
+		"nouns": [],
+		"dOIndex": 116,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6583,
+		"nouns": [],
+		"dOIndex": 117,
+		"isQuote": false
+	},
+	{
+		"txt": "These are the rotation matrices you typically see in computer graphics texts in the context of matrix transforms, such as translation, scaling, and rotation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6584,
+		"nouns": [
+			"are",
+			"rotation",
+			"matrices",
+			"computer",
+			"graphics",
+			"texts",
+			"context",
+			"matrix",
+			"translation",
+			"rotation"
+		],
+		"dOIndex": 118,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"rotation",
+			"matrices",
+			"computer",
+			"graphics",
+			"context",
+			"translation"
+		]
+	},
+	{
+		"txt": " You can combine all three of these matrices into a single rotation matrix to represent combinations of rotations about each coordinate axis, using matrix multiplication as mentioned earlier.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6585,
+		"nouns": [
+			"three",
+			"matrices",
+			"rotation",
+			"matrix",
+			"combinations",
+			"rotations",
+			"coordinate",
+			"axis",
+			"matrix",
+			"multiplication"
+		],
+		"dOIndex": 119,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"matrices",
+			"rotation",
+			"combinations",
+			"rotations",
+			"coordinate",
+			"multiplication"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6586,
+		"nouns": [],
+		"dOIndex": 120,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6587,
+		"nouns": [],
+		"dOIndex": 121,
+		"isQuote": false
+	},
+	{
+		"txt": "In rigid body simulations, you can use a rotation matrix to represent the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6588,
+		"nouns": [
+			"body",
+			"simulations",
+			"use",
+			"rotation",
+			"matrix"
+		],
+		"dOIndex": 122,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulations",
+			"rotation"
+		]
+	},
+	{
+		"txt": "orientation of a rigid body. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6589,
+		"nouns": [
+			"orientation",
+			"body"
+		],
+		"dOIndex": 123,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"orientation"
+		]
+	},
+	{
+		"txt": " Another way to think of it is the rotation matrix, when applied to the unrotated rigid body aligned with the fixed global coordinate system, will rotate the rigid body's coordinates so as to resemble the body's current orientation at any given time. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6590,
+		"nouns": [
+			"way",
+			"rotation",
+			"matrix",
+			"body",
+			"system",
+			"body",
+			"coordinates",
+			"body",
+			"orientation",
+			"time"
+		],
+		"dOIndex": 124,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Another",
+			"rotation",
+			"coordinates",
+			"orientation"
+		],
+		"highfreq": {
+			"body": 3
+		}
+	},
+	{
+		"txt": " This leads to another important consideration when using rotation matrices to keep track of orientation in rigid body simulations: the fact that the rotation matrix will be a function of time.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6591,
+		"nouns": [
+			"consideration",
+			"rotation",
+			"matrices",
+			"track",
+			"orientation",
+			"body",
+			"simulations",
+			"fact",
+			"rotation",
+			"matrix",
+			"function",
+			"time"
+		],
+		"dOIndex": 125,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"consideration",
+			"rotation",
+			"matrices",
+			"orientation",
+			"simulations",
+			"function"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.0625,
+			"words": [
+				"important"
+			],
+			"positive": [
+				"important"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6592,
+		"nouns": [],
+		"dOIndex": 126,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6593,
+		"nouns": [],
+		"dOIndex": 127,
+		"isQuote": false
+	},
+	{
+		"txt": "Once you set up your initial rotation matrix for the rigid body, you'll never directly calculate it again from orientation angles; instead, the forces and moments applied to the rigid body will change the body's angular velocity, ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6594,
+		"nouns": [
+			"rotation",
+			"matrix",
+			"body",
+			"ll",
+			"orientation",
+			"angles",
+			"forces",
+			"moments",
+			"body",
+			"change",
+			"body",
+			"velocity"
+		],
+		"dOIndex": 128,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"rotation",
+			"orientation",
+			"moments",
+			"velocity"
+		],
+		"highfreq": {
+			"body": 3
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6595,
+		"nouns": [],
+		"dOIndex": 129,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "likewise causing small changes in orientation at each time step throughout the simulation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6596,
+		"nouns": [
+			"changes",
+			"orientation",
+			"time",
+			"step",
+			"simulation"
+		],
+		"dOIndex": 130,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"changes",
+			"orientation",
+			"simulation"
+		]
+	},
+	{
+		"txt": " Thus, you can see that you must have a means of relating the rotation matrix to angular velocity so that you can update the orientation accordingly. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6597,
+		"nouns": [
+			"rotation",
+			"matrix",
+			"velocity",
+			"orientation"
+		],
+		"dOIndex": 131,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"rotation",
+			"velocity",
+			"orientation"
+		]
+	},
+	{
+		"txt": " The formula you need is as follows:d R / dt = Ω R",
+		"why": "p",
+		"tags": [
+			"strong",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6598,
+		"nouns": [
+			"formula",
+			"R",
+			"/",
+			"dt",
+			"Ω",
+			"R"
+		],
+		"dOIndex": 132,
+		"nouns2": [
+			"formula"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6599,
+		"nouns": [],
+		"dOIndex": 133,
+		"isQuote": false
+	},
+	{
+		"txt": "Here, Ω is a skew symmetric matrix built from the angular velocity vector components as follows:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6600,
+		"nouns": [
+			"Ω",
+			"skew",
+			"matrix",
+			"velocity",
+			"vector",
+			"components"
+		],
+		"dOIndex": 134,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity",
+			"components"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6601,
+		"nouns": [],
+		"dOIndex": 135,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6602,
+		"nouns": [],
+		"dOIndex": 136,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6603,
+		"nouns": [],
+		"dOIndex": 137,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6604,
+		"nouns": [],
+		"dOIndex": 138,
+		"isQuote": false
+	},
+	{
+		"txt": "Notwithstanding a rigorous proof of this relation, it's easy to see its beauty, which is that you can differentiate the rotation matrix by simply matrix multiplying by the angular velocity (in the form of Ω ). ",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6605,
+		"nouns": [
+			"proof",
+			"relation",
+			"beauty",
+			"rotation",
+			"matrix",
+			"matrix",
+			"velocity",
+			"form",
+			"Ω"
+		],
+		"dOIndex": 139,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Notwithstanding",
+			"relation",
+			"rotation",
+			"velocity"
+		],
+		"sentiment": {
+			"score": 7,
+			"comparative": 0.1891891891891892,
+			"words": [
+				"beauty",
+				"easy",
+				"rigorous"
+			],
+			"positive": [
+				"beauty",
+				"easy",
+				"rigorous"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " In a simulation you'll know your initial rotation matrix, and you'll calculate the angular velocity at each time step; thus, you can easily progress, or integrate, the rotation matrix.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6606,
+		"nouns": [
+			"simulation",
+			"ll",
+			"rotation",
+			"matrix",
+			"ll",
+			"velocity",
+			"time",
+			"step",
+			"progress",
+			"rotation",
+			"matrix"
+		],
+		"dOIndex": 140,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulation",
+			"rotation",
+			"velocity",
+			"progress"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.06666666666666667,
+			"words": [
+				"progress"
+			],
+			"positive": [
+				"progress"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6607,
+		"nouns": [],
+		"dOIndex": 141,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6608,
+		"nouns": [],
+		"dOIndex": 142,
+		"isQuote": false
+	},
+	{
+		"txt": "You should be able to see here that since you'll only explicitly calculate the rotation matrix once and will update it with a matrix multiply, you won't have to use computationally expensive trigonometric functions during each time step. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6609,
+		"nouns": [
+			"ll",
+			"rotation",
+			"matrix",
+			"matrix",
+			"t",
+			"use",
+			"trigonometric",
+			"functions",
+			"time",
+			"step"
+		],
+		"dOIndex": 143,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"rotation",
+			"trigonometric",
+			"functions"
+		]
+	},
+	{
+		"txt": " Further, you avoid the singularity problem mentioned in the introduction to this chapter.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6610,
+		"nouns": [
+			"singularity",
+			"problem",
+			"introduction",
+			"chapter"
+		],
+		"dOIndex": 144,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Further",
+			"singularity",
+			"problem",
+			"introduction",
+			"chapter"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.21428571428571427,
+			"words": [
+				"problem",
+				"avoid"
+			],
+			"positive": [],
+			"negative": [
+				"problem",
+				"avoid"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6611,
+		"nouns": [],
+		"dOIndex": 145,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6612,
+		"nouns": [],
+		"dOIndex": 146,
+		"isQuote": false
+	},
+	{
+		"txt": "It should also be obvious that you gain these benefits at some price. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6613,
+		"nouns": [
+			"gain",
+			"benefits",
+			"price"
+		],
+		"dOIndex": 147,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"benefits"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.2857142857142857,
+			"words": [
+				"benefits",
+				"gain"
+			],
+			"positive": [
+				"benefits",
+				"gain"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " First, you have to deal with nine parameters in the rotation matrix (each element in the 3×3 rotation matrix) to represent three angular degrees of freedom. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6614,
+		"nouns": [
+			"First",
+			"nine",
+			"parameters",
+			"rotation",
+			"matrix",
+			"element",
+			"×",
+			"rotation",
+			"matrix",
+			"three",
+			"degrees",
+			"freedom"
+		],
+		"dOIndex": 148,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"parameters",
+			"rotation",
+			"element",
+			"degrees",
+			"freedom"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.07142857142857142,
+			"words": [
+				"freedom"
+			],
+			"positive": [
+				"freedom"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Secondly, in order to do that, you need to impose constraints on the rotation matrix; specifically, you need to enforce the constraint that the matrix be orthogonal with a determinant of 1 so that it satisfies the following (each column in the matrix ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6615,
+		"nouns": [
+			"order",
+			"constraints",
+			"rotation",
+			"matrix",
+			"constraint",
+			"matrix",
+			"determinant",
+			"column",
+			"matrix"
+		],
+		"dOIndex": 149,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Secondly",
+			"constraints",
+			"rotation",
+			"constraint",
+			"determinant"
+		],
+		"highfreq": {
+			"that": 3,
+			"matrix": 3
+		},
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.022222222222222223,
+			"words": [
+				"impose"
+			],
+			"positive": [],
+			"negative": [
+				"impose"
+			]
+		}
+	},
+	{
+		"txt": "represents a unit vector, and they are all at right angles to each other):[",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"sup",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6616,
+		"nouns": [
+			"unit",
+			"vector",
+			"right",
+			"angles"
+		],
+		"dOIndex": 150,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6617,
+		"nouns": [],
+		"dOIndex": 151,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "20]RTR = I",
+		"why": "p",
+		"tags": [
+			"strong",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6618,
+		"nouns": [
+			"]RTR"
+		],
+		"dOIndex": 152,
+		"isQuote": false
+	},
+	{
+		"txt": "Here RTis the transpose of R, and I is the identity matrix. ",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6619,
+		"nouns": [
+			"RTis",
+			"transpose",
+			"R",
+			"identity",
+			"matrix"
+		],
+		"dOIndex": 153,
+		"nouns2": [
+			"transpose",
+			"identity"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " Due to numerical errors such as roundoff and truncation, you'll have to enforce this constraint very often in your simulation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6620,
+		"nouns": [
+			"errors",
+			"roundoff",
+			"truncation",
+			"ll",
+			"constraint",
+			"simulation"
+		],
+		"dOIndex": 154,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"roundoff",
+			"truncation",
+			"constraint",
+			"simulation"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.09090909090909091,
+			"words": [
+				"errors"
+			],
+			"positive": [],
+			"negative": [
+				"errors"
+			]
+		}
+	},
+	{
+		"txt": " Otherwise, your rotation matrix will do more than rotate your objects, it may scale or translate them too.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6621,
+		"nouns": [
+			"rotation",
+			"matrix",
+			"objects",
+			"scale"
+		],
+		"dOIndex": 155,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Otherwise",
+			"rotation",
+			"objects"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6622,
+		"nouns": [],
+		"dOIndex": 156,
+		"isQuote": false
+	},
+	{
+		"txt": "Instead of dealing with nine parameters and trying to constrain six degrees of freedom so that only the three you want can be represented, you could take an alternative approach that lets you keep the advantages rotation matrices have to offer, but at a cheaper price. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6623,
+		"nouns": [
+			"nine",
+			"parameters",
+			"six",
+			"degrees",
+			"freedom",
+			"three",
+			"alternative",
+			"approach",
+			"advantages",
+			"rotation",
+			"matrices",
+			"offer",
+			"price"
+		],
+		"dOIndex": 157,
+		"nouns2": [
+			"Instead",
+			"parameters",
+			"degrees",
+			"freedom",
+			"alternative",
+			"approach",
+			"advantages",
+			"rotation",
+			"matrices"
+		],
+		"sentiment": {
+			"score": 5,
+			"comparative": 0.10638297872340426,
+			"words": [
+				"advantages",
+				"want",
+				"freedom"
+			],
+			"positive": [
+				"advantages",
+				"want",
+				"freedom"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " That alternative, quaternions, is the subject of the next ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6624,
+		"nouns": [
+			"alternative",
+			"quaternions",
+			"subject"
+		],
+		"dOIndex": 158,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"alternative",
+			"quaternions",
+			"subject"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6625,
+		"nouns": [],
+		"dOIndex": 159,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "section.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6626,
+		"nouns": [
+			"section"
+		],
+		"dOIndex": 160,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"section"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6627,
+		"nouns": [],
+		"dOIndex": 161,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6628,
+		"nouns": [],
+		"dOIndex": 162,
+		"isQuote": false
+	},
+	{
+		"txt": "Quaternions",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6629,
+		"nouns": [
+			"Quaternions"
+		],
+		"dOIndex": 163,
+		"nouns2": [
+			"Quaternions"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6630,
+		"nouns": [],
+		"dOIndex": 164,
+		"isQuote": false
+	},
+	{
+		"txt": "Quaternions are somewhat of a ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6631,
+		"nouns": [
+			"Quaternions"
+		],
+		"dOIndex": 165,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Quaternions"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6632,
+		"nouns": [],
+		"dOIndex": 166,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "mathematical oddity. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6633,
+		"nouns": [
+			"oddity"
+		],
+		"dOIndex": 167,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " They were developed over 100 years ago by ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6634,
+		"nouns": [
+			"years"
+		],
+		"dOIndex": 168,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "William Hamilton through his work in complex (imaginary) math but have found very little practical use. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6635,
+		"nouns": [
+			"William Hamilton",
+			"work",
+			"math",
+			"use"
+		],
+		"dOIndex": 169,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"William",
+			"Hamilton"
+		]
+	},
+	{
+		"txt": " A quaternion is a quantity, kind of like a vector, but made up of four components. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6636,
+		"nouns": [
+			"quaternion",
+			"quantity",
+			"kind",
+			"vector",
+			"four",
+			"components"
+		],
+		"dOIndex": 170,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternion",
+			"quantity",
+			"components"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.2222222222222222,
+			"words": [
+				"like",
+				"kind"
+			],
+			"positive": [
+				"like",
+				"kind"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " It is typically written in the form:q = q0 + qxi + qyj + qzk",
+		"why": "p",
+		"tags": [
+			"strong",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6637,
+		"nouns": [
+			"form",
+			"q",
+			"q",
+			"qxi",
+			"qyj",
+			"qzk"
+		],
+		"dOIndex": 171,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6638,
+		"nouns": [],
+		"dOIndex": 172,
+		"isQuote": false
+	},
+	{
+		"txt": "A quaternion is really a four dimensional ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6639,
+		"nouns": [
+			"quaternion",
+			"four"
+		],
+		"dOIndex": 173,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternion"
+		]
+	},
+	{
+		"txt": "quantity in complex space and, unfortunately, does not lend itself to visualization. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6640,
+		"nouns": [
+			"quantity",
+			"space",
+			"visualization"
+		],
+		"dOIndex": 174,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quantity",
+			"visualization"
+		]
+	},
+	{
+		"txt": " Don't worry, though: our use of quaternions to ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6641,
+		"nouns": [
+			"Don",
+			"t",
+			"use",
+			"quaternions"
+		],
+		"dOIndex": 175,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternions"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.3,
+			"words": [
+				"worry"
+			],
+			"positive": [
+				"worry"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "represent orientation in three dimensions does allow us to attach a physical meaning to them, as you'll see in a moment.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6642,
+		"nouns": [
+			"orientation",
+			"three",
+			"dimensions",
+			"ll",
+			"moment"
+		],
+		"dOIndex": 176,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"orientation",
+			"dimensions"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.047619047619047616,
+			"words": [
+				"allow"
+			],
+			"positive": [
+				"allow"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6643,
+		"nouns": [],
+		"dOIndex": 177,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6644,
+		"nouns": [],
+		"dOIndex": 178,
+		"isQuote": false
+	},
+	{
+		"txt": "Of particular interest to us is what's known as a unit quaternion that satisfies the following:q02 + qx2 + qy2 + qz2 = 1",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6645,
+		"nouns": [
+			"interest",
+			"unit",
+			"quaternion",
+			"q",
+			"qx",
+			"qy",
+			"qz"
+		],
+		"dOIndex": 179,
+		"nouns2": [
+			"interest",
+			"quaternion"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.041666666666666664,
+			"words": [
+				"interest"
+			],
+			"positive": [
+				"interest"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6646,
+		"nouns": [],
+		"dOIndex": 180,
+		"isQuote": false
+	},
+	{
+		"txt": "This is analogous to a normalized, or unit, vector.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6647,
+		"nouns": [
+			"unit",
+			"vector"
+		],
+		"dOIndex": 181,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6648,
+		"nouns": [],
+		"dOIndex": 182,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6649,
+		"nouns": [],
+		"dOIndex": 183,
+		"isQuote": false
+	},
+	{
+		"txt": "You can also write a quaternion in the form q = [q0, v], where v is the vector, qxi + qyj + qzk, and q0 is a scalar. ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6650,
+		"nouns": [
+			"quaternion",
+			"form",
+			"q",
+			"[q",
+			"v]",
+			"v",
+			"vector",
+			"qxi",
+			"qyj",
+			"qzk",
+			"q"
+		],
+		"dOIndex": 184,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternion"
+		]
+	},
+	{
+		"txt": " In the context of rotation, v represents the direction in which the axis of rotation points. ",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6651,
+		"nouns": [
+			"context",
+			"rotation",
+			"v",
+			"direction",
+			"axis",
+			"rotation",
+			"points"
+		],
+		"dOIndex": 185,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"context",
+			"rotation",
+			"direction"
+		]
+	},
+	{
+		"txt": " For a given rotation, θ, about an arbitrary axis represented by the unit vector u, the representative quaternion can be written as follows:q = [cos(θ/2) , sin(θ/2) u]",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6652,
+		"nouns": [
+			"rotation",
+			"θ",
+			"axis",
+			"unit",
+			"vector",
+			"representative",
+			"quaternion",
+			"q",
+			"[cos",
+			"θ",
+			"/",
+			"sin",
+			"θ",
+			"/",
+			"u]"
+		],
+		"dOIndex": 186,
+		"nouns2": [
+			"rotation",
+			"representative",
+			"quaternion"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6653,
+		"nouns": [],
+		"dOIndex": 187,
+		"isQuote": false
+	},
+	{
+		"txt": "This is illustrated in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6654,
+		"nouns": [],
+		"dOIndex": 188,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 11 3 for an arbitrary rigid body rotating about an axis passing through its ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6655,
+		"nouns": [
+			"Figure",
+			"body",
+			"axis"
+		],
+		"dOIndex": 189,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6656,
+		"nouns": [],
+		"dOIndex": 190,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "center of gravity. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6657,
+		"nouns": [
+			"center",
+			"gravity"
+		],
+		"dOIndex": 191,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"gravity"
+		]
+	},
+	{
+		"txt": " The rigid body rotates through an angle θ from the position shown in light gray to the position shown in dark gray. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6658,
+		"nouns": [
+			"body",
+			"angle",
+			"θ",
+			"position",
+			"light",
+			"position"
+		],
+		"dOIndex": 192,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"position"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.08333333333333333,
+			"words": [
+				"gray",
+				"gray"
+			],
+			"positive": [],
+			"negative": [
+				"gray",
+				"gray"
+			]
+		}
+	},
+	{
+		"txt": " Here, the unit vector u is the vector v normalized to unit length.",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6659,
+		"nouns": [
+			"unit",
+			"vector",
+			"vector",
+			"v",
+			"unit",
+			"length"
+		],
+		"dOIndex": 193,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6660,
+		"nouns": [],
+		"dOIndex": 194,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6661,
+		"nouns": [],
+		"dOIndex": 195,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6662,
+		"nouns": [],
+		"dOIndex": 196,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6663,
+		"nouns": [],
+		"dOIndex": 197,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6664,
+		"nouns": [],
+		"dOIndex": 198,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 11 3. Quaternion rotation",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6665,
+		"nouns": [
+			"Figure",
+			"Quaternion",
+			"rotation"
+		],
+		"dOIndex": 199,
+		"nouns2": [
+			"Figure",
+			"Quaternion",
+			"rotation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6666,
+		"nouns": [],
+		"dOIndex": 200,
+		"isQuote": false
+	},
+	{
+		"txt": "You can readily see that quaternions, when used to represent rotation or orientation, require you to deal with only four parameters instead of nine, subject to the easily satisfied constraint that the quaternion be a unit quaternion.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6667,
+		"nouns": [
+			"quaternions",
+			"rotation",
+			"orientation",
+			"four",
+			"parameters",
+			"nine",
+			"subject",
+			"constraint",
+			"quaternion",
+			"unit",
+			"quaternion"
+		],
+		"dOIndex": 201,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternions",
+			"rotation",
+			"orientation",
+			"parameters",
+			"subject",
+			"constraint",
+			"quaternion"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.05405405405405406,
+			"words": [
+				"satisfied"
+			],
+			"positive": [
+				"satisfied"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6668,
+		"nouns": [],
+		"dOIndex": 202,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6669,
+		"nouns": [],
+		"dOIndex": 203,
+		"isQuote": false
+	},
+	{
+		"txt": "The use of quaternions to represent orientation is similar to how you would use rotation matrices. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6670,
+		"nouns": [
+			"use",
+			"quaternions",
+			"orientation",
+			"rotation",
+			"matrices"
+		],
+		"dOIndex": 204,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternions",
+			"orientation",
+			"rotation",
+			"matrices"
+		]
+	},
+	{
+		"txt": " First, you set up a quaternion that represents the initial orientation of the rigid body at time 0 (this is the only time you'll calculate the quaternion explicitly). ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6671,
+		"nouns": [
+			"First",
+			"quaternion",
+			"orientation",
+			"body",
+			"time",
+			"time",
+			"ll",
+			"quaternion"
+		],
+		"dOIndex": 205,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternion",
+			"orientation"
+		]
+	},
+	{
+		"txt": " Then you update the orientation to reflect the new orientation at a given instant in time using the angular velocities that are calculated for that instant. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6672,
+		"nouns": [
+			"orientation",
+			"orientation",
+			"instant",
+			"time",
+			"velocities",
+			"instant"
+		],
+		"dOIndex": 206,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"orientation",
+			"instant",
+			"velocities"
+		]
+	},
+	{
+		"txt": " As you can see here, the differential equation relating an orientation quaternion to ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6673,
+		"nouns": [
+			"equation",
+			"orientation",
+			"quaternion"
+		],
+		"dOIndex": 207,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equation",
+			"orientation",
+			"quaternion"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6674,
+		"nouns": [],
+		"dOIndex": 208,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "angular velocity is very similar to that for rotation matrices:dq/dt = (1/2) ω q",
+		"why": "p",
+		"tags": [
+			"strong",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6675,
+		"nouns": [
+			"velocity",
+			"rotation",
+			"matrices",
+			"dq",
+			"/",
+			"dt",
+			"/",
+			"ω",
+			"q"
+		],
+		"dOIndex": 209,
+		"nouns2": [
+			"velocity",
+			"rotation",
+			"matrices"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6676,
+		"nouns": [],
+		"dOIndex": 210,
+		"isQuote": false
+	},
+	{
+		"txt": "Here, the angular velocity is written in quaternion form as [0, ω ] and is expressed in fixed, global coordinates. ",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6677,
+		"nouns": [
+			"velocity",
+			"quaternion",
+			"form",
+			"ω",
+			"coordinates"
+		],
+		"dOIndex": 211,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity",
+			"quaternion",
+			"coordinates"
+		]
+	},
+	{
+		"txt": " (ω is still angular velocity, but you have to put it in quaternion form instead of vector form when multiplying it by a quaternion q.) If ω is expressed in rotating, body fixed coordinates, then you need to use this equation:dq/dt = (1/2) q ω",
+		"why": "p",
+		"tags": [
+			"strong",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6678,
+		"nouns": [
+			"ω",
+			"velocity",
+			"quaternion",
+			"form",
+			"vector",
+			"form",
+			"quaternion",
+			"q",
+			"ω",
+			"body",
+			"coordinates",
+			"use",
+			"equation",
+			"dq",
+			"/",
+			"dt",
+			"/",
+			"q",
+			"ω"
+		],
+		"dOIndex": 212,
+		"nouns2": [
+			"velocity",
+			"quaternion",
+			"coordinates",
+			"equation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6679,
+		"nouns": [],
+		"dOIndex": 213,
+		"isQuote": false
+	},
+	{
+		"txt": "As with rotation matrices, you can use quaternions to rotate points or vectors. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6680,
+		"nouns": [
+			"rotation",
+			"matrices",
+			"use",
+			"quaternions",
+			"points",
+			"vectors"
+		],
+		"dOIndex": 214,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"rotation",
+			"matrices",
+			"quaternions",
+			"vectors"
+		]
+	},
+	{
+		"txt": " If v is a vector, then v' is the rotated vector subject to the quaternion q:v' = qvq*",
+		"why": "p",
+		"tags": [
+			"sup",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6681,
+		"nouns": [
+			"v",
+			"vector",
+			"v",
+			"vector",
+			"subject",
+			"quaternion",
+			"q",
+			"v",
+			"qvq*"
+		],
+		"dOIndex": 215,
+		"nouns2": [
+			"subject",
+			"quaternion"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6682,
+		"nouns": [],
+		"dOIndex": 216,
+		"isQuote": false
+	},
+	{
+		"txt": "Here q* is the conjugate of the quaternion q defined as:q* = q0 – qxi – qyj – qzk",
+		"why": "p",
+		"tags": [
+			"strong",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6683,
+		"nouns": [
+			"q*",
+			"conjugate",
+			"quaternion",
+			"q",
+			"q*",
+			"q",
+			"–",
+			"qxi",
+			"–",
+			"qyj",
+			"–",
+			"qzk"
+		],
+		"dOIndex": 217,
+		"nouns2": [
+			"conjugate",
+			"quaternion"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6684,
+		"nouns": [],
+		"dOIndex": 218,
+		"isQuote": false
+	},
+	{
+		"txt": "You can also use the preceding formula to convert vectors from one coordinate system to another, where one is rotated relative to the other. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6685,
+		"nouns": [
+			"use",
+			"formula",
+			"vectors",
+			"one",
+			"system",
+			"one"
+		],
+		"dOIndex": 219,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"formula",
+			"vectors"
+		]
+	},
+	{
+		"txt": " You have to do this, for example, in your simulations where you are converting forces defined in fixed, global coordinates to rotating, body fixed coordinates so that you can apply the forces to the body; or you might have to convert a body's velocity defined in global coordinates to body coordinates so that you can use the velocity in force calculations.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6686,
+		"nouns": [
+			"example",
+			"simulations",
+			"forces",
+			"coordinates",
+			"body",
+			"coordinates",
+			"forces",
+			"body",
+			"body",
+			"velocity",
+			"coordinates",
+			"body",
+			"coordinates",
+			"use",
+			"velocity",
+			"force",
+			"calculations"
+		],
+		"dOIndex": 220,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"simulations",
+			"coordinates",
+			"velocity",
+			"calculations"
+		],
+		"highfreq": {
+			"coordinates": 4,
+			"body": 4
+		}
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6687,
+		"nouns": [],
+		"dOIndex": 221,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6688,
+		"nouns": [],
+		"dOIndex": 222,
+		"isQuote": false
+	},
+	{
+		"txt": "Quaternion Operations",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6689,
+		"nouns": [
+			"Quaternion Operations"
+		],
+		"dOIndex": 223,
+		"nouns2": [
+			"Quaternion",
+			"Operations"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6690,
+		"nouns": [],
+		"dOIndex": 224,
+		"isQuote": false
+	},
+	{
+		"txt": "As with vectors and matrices, quaternions have their own rules for the various operations that you'll need, such as multiplication, addition, subtraction, and so on. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6691,
+		"nouns": [
+			"vectors",
+			"matrices",
+			"quaternions",
+			"rules",
+			"operations",
+			"ll",
+			"multiplication",
+			"addition",
+			"subtraction"
+		],
+		"dOIndex": 225,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"vectors",
+			"matrices",
+			"quaternions",
+			"operations",
+			"multiplication",
+			"addition",
+			"subtraction"
+		]
+	},
+	{
+		"txt": " To make it easy on you, we've included sample code in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6692,
+		"nouns": [
+			"ve",
+			"sample",
+			"code"
+		],
+		"dOIndex": 226,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.07692307692307693,
+			"words": [
+				"easy"
+			],
+			"positive": [
+				"easy"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "Appendix C",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6693,
+		"nouns": [
+			"Appendix",
+			"C"
+		],
+		"dOIndex": 227,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Appendix"
+		]
+	},
+	{
+		"txt": " that implements all of the quaternion operations you'll need; however, we want to highlight a few of the more important ones here.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6694,
+		"nouns": [
+			"implements",
+			"quaternion",
+			"operations",
+			"ll",
+			"ones"
+		],
+		"dOIndex": 228,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"implements",
+			"quaternion",
+			"operations"
+		],
+		"sentiment": {
+			"score": 5,
+			"comparative": 0.21739130434782608,
+			"words": [
+				"important",
+				"highlight",
+				"want"
+			],
+			"positive": [
+				"important",
+				"highlight",
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6695,
+		"nouns": [],
+		"dOIndex": 229,
+		"isQuote": false
+	},
+	{
+		"txt": "The Quaternion class is ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6696,
+		"nouns": [
+			"Quaternion",
+			"class"
+		],
+		"dOIndex": 230,
+		"nouns2": [
+			"Quaternion"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6697,
+		"nouns": [],
+		"dOIndex": 231,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "defined with a scalar component, n, and vector component, v, where v is the vector, xi + yj + zk . ",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6698,
+		"nouns": [
+			"component",
+			"n",
+			"vector",
+			"component",
+			"v",
+			"v",
+			"vector",
+			"xi",
+			"yj",
+			"zk"
+		],
+		"dOIndex": 232,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"component"
+		]
+	},
+	{
+		"txt": " The class has two constructors, one of which initializes the quaternion to 0, and the other of which initializes the elements to those passed to the constructor:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6699,
+		"nouns": [
+			"class",
+			"two",
+			"constructors",
+			"one",
+			"initializes",
+			"quaternion",
+			"initializes",
+			"elements",
+			"constructor"
+		],
+		"dOIndex": 233,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"constructors",
+			"initializes",
+			"quaternion",
+			"elements",
+			"constructor"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6700,
+		"nouns": [],
+		"dOIndex": 234,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 6701,
+		"nouns": [],
+		"dOIndex": 235,
+		"isQuote": false
+	},
+	{
+		"txt": "Magnitude",
+		"why": "p",
+		"tags": [
+			"h4",
+			"div",
+			"div",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6702,
+		"nouns": [
+			"Magnitude"
+		],
+		"dOIndex": 236,
+		"nouns2": [
+			"Magnitude"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6703,
+		"nouns": [],
+		"dOIndex": 237,
+		"isQuote": false
+	},
+	{
+		"txt": "The Magnitude method ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6704,
+		"nouns": [
+			"Magnitude",
+			"method"
+		],
+		"dOIndex": 238,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Magnitude"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6705,
+		"nouns": [],
+		"dOIndex": 239,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "returns the magnitude of the quaternion according to the following formula:|q| = ",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6706,
+		"nouns": [
+			"returns",
+			"magnitude",
+			"quaternion",
+			"formula",
+			"|q|"
+		],
+		"dOIndex": 240,
+		"nouns2": [
+			"returns",
+			"magnitude",
+			"quaternion",
+			"formula"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6707,
+		"nouns": [],
+		"dOIndex": 241,
+		"isQuote": false
+	},
+	{
+		"txt": "This is similar to calculating the magnitude of a vector, except that for quaternions you have to take the fourth term, the scalar n , into account.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6708,
+		"nouns": [
+			"magnitude",
+			"vector",
+			"quaternions",
+			"term",
+			"n",
+			"account"
+		],
+		"dOIndex": 242,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"magnitude",
+			"quaternions",
+			"account"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6709,
+		"nouns": [],
+		"dOIndex": 243,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6710,
+		"nouns": [],
+		"dOIndex": 244,
+		"isQuote": false
+	},
+	{
+		"txt": "Here's the code that calculates the magnitude for our Quaternion class:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6711,
+		"nouns": [
+			"code",
+			"magnitude",
+			"Quaternion",
+			"class"
+		],
+		"dOIndex": 245,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"magnitude",
+			"Quaternion"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 6712,
+		"nouns": [],
+		"dOIndex": 246,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6713,
+		"nouns": [],
+		"dOIndex": 247,
+		"isQuote": false
+	},
+	{
+		"txt": "Conjugate: The ~ operator",
+		"why": "p",
+		"tags": [
+			"a",
+			"h4",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6714,
+		"nouns": [
+			"Conjugate",
+			"~",
+			"operator"
+		],
+		"dOIndex": 248,
+		"nouns2": [
+			"Conjugate",
+			"operator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6715,
+		"nouns": [],
+		"dOIndex": 249,
+		"isQuote": false
+	},
+	{
+		"txt": "The conjugate of the product of ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6716,
+		"nouns": [
+			"conjugate",
+			"product"
+		],
+		"dOIndex": 250,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"conjugate",
+			"product"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6717,
+		"nouns": [],
+		"dOIndex": 251,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6718,
+		"nouns": [],
+		"dOIndex": 252,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6719,
+		"nouns": [],
+		"dOIndex": 253,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "quaternions is equal to the product of the quaternion conjugates, but in reverse order:~(qp) = (~p)(~q)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6720,
+		"nouns": [
+			"quaternions",
+			"product",
+			"quaternion",
+			"conjugates",
+			"order",
+			"~",
+			"qp",
+			"~p",
+			"~q"
+		],
+		"dOIndex": 254,
+		"nouns2": [
+			"quaternions",
+			"product",
+			"quaternion",
+			"conjugates"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6721,
+		"nouns": [],
+		"dOIndex": 255,
+		"isQuote": false
+	},
+	{
+		"txt": "Here's the code that computes the conjugate for our Quaternion class:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6722,
+		"nouns": [
+			"code",
+			"conjugate",
+			"Quaternion",
+			"class"
+		],
+		"dOIndex": 256,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"conjugate",
+			"Quaternion"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 6723,
+		"nouns": [],
+		"dOIndex": 257,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6724,
+		"nouns": [],
+		"dOIndex": 258,
+		"isQuote": false
+	},
+	{
+		"txt": "QVRotate",
+		"why": "p",
+		"tags": [
+			"a",
+			"h4",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6725,
+		"nouns": [
+			"QVRotate"
+		],
+		"dOIndex": 259,
+		"nouns2": [
+			"QVRotate"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6726,
+		"nouns": [],
+		"dOIndex": 260,
+		"isQuote": false
+	},
+	{
+		"txt": "This function rotates ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6727,
+		"nouns": [
+			"function"
+		],
+		"dOIndex": 261,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6728,
+		"nouns": [],
+		"dOIndex": 262,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "the vector v by the unit quaternion q according to this formula:p' = (q)(v)(~q)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6729,
+		"nouns": [
+			"vector",
+			"v",
+			"unit",
+			"quaternion",
+			"q",
+			"formula",
+			"p",
+			"q",
+			"v",
+			"~q"
+		],
+		"dOIndex": 263,
+		"nouns2": [
+			"quaternion",
+			"formula"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6730,
+		"nouns": [],
+		"dOIndex": 264,
+		"isQuote": false
+	},
+	{
+		"txt": "Here, ~q is the conjugate of the unit quaternion, q:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6731,
+		"nouns": [
+			"~q",
+			"conjugate",
+			"unit",
+			"quaternion",
+			"q"
+		],
+		"dOIndex": 265,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"conjugate",
+			"quaternion"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6732,
+		"nouns": [],
+		"dOIndex": 266,
+		"isQuote": false
+	},
+	{
+		"txt": "This operator takes the conjugate of the quaternion, ~q , which is simply the negative of the vector part. ",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6733,
+		"nouns": [
+			"operator",
+			"conjugate",
+			"quaternion",
+			"~q",
+			"vector",
+			"part"
+		],
+		"dOIndex": 267,
+		"nouns2": [
+			"operator",
+			"conjugate",
+			"quaternion"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.1,
+			"words": [
+				"negative"
+			],
+			"positive": [],
+			"negative": [
+				"negative"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " If q = [n, xi + yj + zk], then ~q = [n, (−x) i + (−y) j + (−z) k ].",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6734,
+		"nouns": [
+			"q",
+			"[n",
+			"xi",
+			"yj",
+			"zk]",
+			"~q",
+			"[n",
+			"−x",
+			"−y",
+			"j",
+			"−z",
+			"k"
+		],
+		"dOIndex": 268,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6735,
+		"nouns": [],
+		"dOIndex": 269,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6736,
+		"nouns": [],
+		"dOIndex": 270,
+		"isQuote": false
+	},
+	{
+		"txt": "Quaternion multiplication: The * operator",
+		"why": "p",
+		"tags": [
+			"a",
+			"h4",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6737,
+		"nouns": [
+			"Quaternion",
+			"multiplication",
+			"operator"
+		],
+		"dOIndex": 271,
+		"nouns2": [
+			"Quaternion",
+			"multiplication",
+			"operator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6738,
+		"nouns": [],
+		"dOIndex": 272,
+		"isQuote": false
+	},
+	{
+		"txt": "This operator performs ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6739,
+		"nouns": [
+			"operator"
+		],
+		"dOIndex": 273,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"operator"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6740,
+		"nouns": [],
+		"dOIndex": 274,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6741,
+		"nouns": [],
+		"dOIndex": 275,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6742,
+		"nouns": [],
+		"dOIndex": 276,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "quaternion multiplication according to the following formula:q p = nq np − vq • vp + nqvp + npvq + (vq × vp)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6743,
+		"nouns": [
+			"quaternion",
+			"multiplication",
+			"formula",
+			"q",
+			"p",
+			"nq",
+			"np",
+			"−",
+			"vq",
+			"•",
+			"vp",
+			"nqvp",
+			"npvq",
+			"vq",
+			"×",
+			"vp"
+		],
+		"dOIndex": 277,
+		"nouns2": [
+			"quaternion",
+			"multiplication",
+			"formula"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6744,
+		"nouns": [],
+		"dOIndex": 278,
+		"isQuote": false
+	},
+	{
+		"txt": "Here, nqnp − vq • vp is the scalar part of the result while nqvp + npvq + (vq × vp ) is the vector part. ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6745,
+		"nouns": [
+			"nqnp",
+			"−",
+			"vq",
+			"•",
+			"vp",
+			"part",
+			"result",
+			"nqvp",
+			"npvq",
+			"vq",
+			"×",
+			"vp",
+			"vector",
+			"part"
+		],
+		"dOIndex": 279,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Also note that vq and vp are the vector parts of q and p , respectively, • is the vector dot product operator, and × is the vector cross product operator.",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6746,
+		"nouns": [
+			"note",
+			"vq",
+			"vp",
+			"vector",
+			"parts",
+			"q",
+			"p",
+			"•",
+			"vector",
+			"dot",
+			"product",
+			"operator",
+			"×",
+			"vector",
+			"product",
+			"operator"
+		],
+		"dOIndex": 280,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"product",
+			"operator"
+		],
+		"highfreq": {
+			"vector": 3
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6747,
+		"nouns": [],
+		"dOIndex": 281,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6748,
+		"nouns": [],
+		"dOIndex": 282,
+		"isQuote": false
+	},
+	{
+		"txt": "Quaternion multiplication is associative but not commutative, thus:q(ph) = (qp)hqp ≠ pq",
+		"why": "p",
+		"tags": [
+			"strong",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6749,
+		"nouns": [
+			"Quaternion",
+			"multiplication",
+			"associative",
+			"commutative",
+			"q",
+			"ph",
+			"qp",
+			"hqp",
+			"≠",
+			"pq"
+		],
+		"dOIndex": 283,
+		"nouns2": [
+			"Quaternion",
+			"multiplication",
+			"associative",
+			"commutative"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6750,
+		"nouns": [],
+		"dOIndex": 284,
+		"isQuote": false
+	},
+	{
+		"txt": "Here's the code that multiplies two Quaternions, q1 and q2:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6751,
+		"nouns": [
+			"code",
+			"two",
+			"Quaternions",
+			"q",
+			"q"
+		],
+		"dOIndex": 285,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Quaternions"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 6752,
+		"nouns": [],
+		"dOIndex": 286,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6753,
+		"nouns": [],
+		"dOIndex": 287,
+		"isQuote": false
+	},
+	{
+		"txt": "Vector multiplication: The * operator",
+		"why": "p",
+		"tags": [
+			"a",
+			"h4",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6754,
+		"nouns": [
+			"Vector",
+			"multiplication",
+			"operator"
+		],
+		"dOIndex": 288,
+		"nouns2": [
+			"Vector",
+			"multiplication",
+			"operator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6755,
+		"nouns": [],
+		"dOIndex": 289,
+		"isQuote": false
+	},
+	{
+		"txt": "This operator ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6756,
+		"nouns": [
+			"operator"
+		],
+		"dOIndex": 290,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"operator"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6757,
+		"nouns": [],
+		"dOIndex": 291,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6758,
+		"nouns": [],
+		"dOIndex": 292,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6759,
+		"nouns": [],
+		"dOIndex": 293,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "multiplies the quaternion, q, by the vector v as though the vector v were a quaternion with its scalar component equal to 0. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6760,
+		"nouns": [
+			"quaternion",
+			"q",
+			"vector",
+			"v",
+			"vector",
+			"v",
+			"quaternion",
+			"component"
+		],
+		"dOIndex": 294,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternion",
+			"component"
+		]
+	},
+	{
+		"txt": " There are two forms of this operator depending on the order in which the quaternion and vector are encountered. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6761,
+		"nouns": [
+			"two",
+			"forms",
+			"operator",
+			"order",
+			"quaternion",
+			"vector"
+		],
+		"dOIndex": 295,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"operator",
+			"quaternion"
+		]
+	},
+	{
+		"txt": " Since v is assumed to be a quaternion with its scalar part equal to 0, the rules of multiplication follow those outlined earlier for quaternion multiplication:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6762,
+		"nouns": [
+			"v",
+			"quaternion",
+			"part",
+			"rules",
+			"multiplication",
+			"quaternion",
+			"multiplication"
+		],
+		"dOIndex": 296,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternion",
+			"multiplication"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 6763,
+		"nouns": [],
+		"dOIndex": 297,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6764,
+		"nouns": [],
+		"dOIndex": 298,
+		"isQuote": false
+	},
+	{
+		"txt": "MakeQFromEulerAngles",
+		"why": "p",
+		"tags": [
+			"a",
+			"h4",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6765,
+		"nouns": [
+			"MakeQFromEulerAngles"
+		],
+		"dOIndex": 299,
+		"nouns2": [
+			"MakeQFromEulerAngles"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6766,
+		"nouns": [],
+		"dOIndex": 300,
+		"isQuote": false
+	},
+	{
+		"txt": "This function ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6767,
+		"nouns": [
+			"function"
+		],
+		"dOIndex": 301,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6768,
+		"nouns": [],
+		"dOIndex": 302,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6769,
+		"nouns": [],
+		"dOIndex": 303,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "constructs a quaternion from a set of Euler angles.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6770,
+		"nouns": [
+			"quaternion",
+			"Euler",
+			"angles"
+		],
+		"dOIndex": 304,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternion"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6771,
+		"nouns": [],
+		"dOIndex": 305,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6772,
+		"nouns": [],
+		"dOIndex": 306,
+		"isQuote": false
+	},
+	{
+		"txt": "For a given set of Euler angles, yaw (ψ), pitch (τ), and roll (φ), defining rotation about the z axis, then the y axis, and then the x axis, you can construct the representative rotation quaternion. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6773,
+		"nouns": [
+			"Euler",
+			"angles",
+			"yaw",
+			"ψ",
+			"pitch",
+			"τ",
+			"roll",
+			"φ",
+			"rotation",
+			"z",
+			"axis",
+			"y",
+			"axis",
+			"x",
+			"axis",
+			"representative",
+			"rotation",
+			"quaternion"
+		],
+		"dOIndex": 307,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"rotation",
+			"representative",
+			"quaternion"
+		],
+		"highfreq": {
+			"axis": 3
+		}
+	},
+	{
+		"txt": " You do this by first constructing a quaternion for each Euler angle and then multiplying the three quaternions following the rules of quaternion multiplication. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6774,
+		"nouns": [
+			"first",
+			"quaternion",
+			"Euler",
+			"angle",
+			"three",
+			"quaternions",
+			"rules",
+			"quaternion",
+			"multiplication"
+		],
+		"dOIndex": 308,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternion",
+			"quaternions",
+			"multiplication"
+		]
+	},
+	{
+		"txt": " Here are the three quaternions representing each Euler rotation angle:qroll = [cos(φ/2), (sin(φ/2)) i + 0 j + 0 k]qpitch = [cos(τ /2), 0 i + (sin(τ /2)) j + 0 k]qyaw = [cos(ψ /2), 0 i + 0 j + (sin(ψ /2)) k]",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6775,
+		"nouns": [
+			"three",
+			"quaternions",
+			"Euler",
+			"rotation",
+			"angle",
+			"qroll",
+			"[cos",
+			"φ",
+			"/",
+			"sin",
+			"φ",
+			"/",
+			"j",
+			"k]qpitch",
+			"[cos",
+			"τ",
+			"/",
+			"sin",
+			"τ",
+			"/",
+			"j",
+			"k]qyaw",
+			"[cos",
+			"ψ",
+			"/",
+			"j",
+			"sin",
+			"ψ",
+			"/",
+			"k]"
+		],
+		"dOIndex": 309,
+		"nouns2": [
+			"quaternions",
+			"rotation",
+			"k]qpitch"
+		],
+		"highfreq": {
+			"[cos": 3
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6776,
+		"nouns": [],
+		"dOIndex": 310,
+		"isQuote": false
+	},
+	{
+		"txt": "Each one of these quaternions is of unit length.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6777,
+		"nouns": [
+			"one",
+			"quaternions",
+			"unit",
+			"length"
+		],
+		"dOIndex": 311,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternions"
+		]
+	},
+	{
+		"txt": "[",
+		"why": "link",
+		"tags": [
+			"sup",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6778,
+		"nouns": [],
+		"dOIndex": 312,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "21]",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6779,
+		"nouns": [],
+		"dOIndex": 313,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6780,
+		"nouns": [],
+		"dOIndex": 314,
+		"isQuote": false
+	},
+	{
+		"txt": "Now you can multiply these quaternions to obtain a single one that represents the rotation, or orientation, defined by the three Euler angles:q = qyawqpitchqroll",
+		"why": "p",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6781,
+		"nouns": [
+			"quaternions",
+			"one",
+			"rotation",
+			"orientation",
+			"three Euler",
+			"angles",
+			"q",
+			"qyawqpitchqroll"
+		],
+		"dOIndex": 315,
+		"nouns2": [
+			"quaternions",
+			"rotation",
+			"orientation",
+			"qyawqpitchqroll"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Performing this multiplication yields:q = [{cos(φ/2) cos(τ /2) cos(ψ /2) + sin(φ/2) sin(τ /2) sin(ψ /2)},{sin(φ/2) cos(τ /2) cos(ψ /2) − cos(φ/2) sin(τ /2) sin(ψ /2)} i +{cos(φ/2) sin(τ /2) cos(ψ /2) + sin(φ/2) cos(τ /2) sin(ψ /2)} j +{cos(φ/2) cos(τ /2) sin(ψ /2) − sin(φ/2) sin(τ /2) cos(ψ /2)} k]",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6782,
+		"nouns": [
+			"multiplication",
+			"yields",
+			"q",
+			"[{cos",
+			"φ",
+			"/",
+			"cos",
+			"τ",
+			"/",
+			"cos",
+			"ψ",
+			"/",
+			"sin",
+			"φ",
+			"/",
+			"sin",
+			"τ",
+			"/",
+			"sin",
+			"ψ",
+			"/",
+			"{sin",
+			"φ",
+			"/",
+			"cos",
+			"τ",
+			"/",
+			"cos",
+			"ψ",
+			"/",
+			"−",
+			"cos",
+			"φ",
+			"/",
+			"sin",
+			"τ",
+			"/",
+			"sin",
+			"ψ",
+			"/",
+			"+{cos",
+			"φ",
+			"/",
+			"sin",
+			"τ",
+			"/",
+			"cos",
+			"ψ",
+			"/",
+			"sin",
+			"φ",
+			"/",
+			"cos",
+			"τ",
+			"/",
+			"sin",
+			"ψ",
+			"/",
+			"j",
+			"+{cos",
+			"φ",
+			"/",
+			"cos",
+			"τ",
+			"/",
+			"sin",
+			"ψ",
+			"/",
+			"−",
+			"sin",
+			"φ",
+			"/",
+			"sin",
+			"τ",
+			"/",
+			"cos",
+			"ψ",
+			"/",
+			"k]"
+		],
+		"dOIndex": 316,
+		"nouns2": [
+			"Performing",
+			"multiplication"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Here's the code that takes three Euler angles and returns a quaternion:",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6783,
+		"nouns": [
+			"code",
+			"three Euler",
+			"angles",
+			"returns",
+			"quaternion"
+		],
+		"dOIndex": 317,
+		"nouns2": [
+			"returns",
+			"quaternion"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 6784,
+		"nouns": [],
+		"dOIndex": 318,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6785,
+		"nouns": [],
+		"dOIndex": 319,
+		"isQuote": false
+	},
+	{
+		"txt": "MakeEulerAnglesFromQ",
+		"why": "p",
+		"tags": [
+			"a",
+			"h4",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6786,
+		"nouns": [
+			"MakeEulerAnglesFromQ"
+		],
+		"dOIndex": 320,
+		"nouns2": [
+			"MakeEulerAnglesFromQ"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6787,
+		"nouns": [],
+		"dOIndex": 321,
+		"isQuote": false
+	},
+	{
+		"txt": "This function ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6788,
+		"nouns": [
+			"function"
+		],
+		"dOIndex": 322,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6789,
+		"nouns": [],
+		"dOIndex": 323,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6790,
+		"nouns": [],
+		"dOIndex": 324,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "extracts the three Euler angles from a given quaternion.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6791,
+		"nouns": [
+			"extracts",
+			"three Euler",
+			"angles",
+			"quaternion"
+		],
+		"dOIndex": 325,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"extracts",
+			"quaternion"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6792,
+		"nouns": [],
+		"dOIndex": 326,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6793,
+		"nouns": [],
+		"dOIndex": 327,
+		"isQuote": false
+	},
+	{
+		"txt": "You can extract the three Euler angles from a quaternion by first converting the quaternion to a rotation matrix and then extracting the Euler angles from the rotation matrix. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6794,
+		"nouns": [
+			"three Euler",
+			"angles",
+			"quaternion",
+			"first",
+			"quaternion",
+			"rotation",
+			"matrix",
+			"Euler",
+			"angles",
+			"rotation",
+			"matrix"
+		],
+		"dOIndex": 328,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternion",
+			"rotation"
+		]
+	},
+	{
+		"txt": " Let R be a nine element rotation matrix:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6795,
+		"nouns": [
+			"R",
+			"nine",
+			"element",
+			"rotation",
+			"matrix"
+		],
+		"dOIndex": 329,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"element",
+			"rotation"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6796,
+		"nouns": [],
+		"dOIndex": 330,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6797,
+		"nouns": [],
+		"dOIndex": 331,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6798,
+		"nouns": [],
+		"dOIndex": 332,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6799,
+		"nouns": [],
+		"dOIndex": 333,
+		"isQuote": false
+	},
+	{
+		"txt": "and let q be a quaternion:q = [n, x i + y j + z k]",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6800,
+		"nouns": [
+			"q",
+			"quaternion",
+			"q",
+			"[n",
+			"x",
+			"y",
+			"j",
+			"z",
+			"k]"
+		],
+		"dOIndex": 334,
+		"nouns2": [
+			"quaternion"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6801,
+		"nouns": [],
+		"dOIndex": 335,
+		"isQuote": false
+	},
+	{
+		"txt": "Then each element in R is calculated from q as follows:r11 = n2 + x2 − y2 − z2r21 = 2xy+2znr31 = 2zx − 2ynr12 = 2xy − 2znr22 = n2 − x2 + y2 − z2r32 = 2zy + 2xnr13 = 2xz + 2ynr23 = 2yz − 2xnr33 = n2 − x2 − y2 + z2",
+		"why": "p",
+		"tags": [
+			"sup",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6802,
+		"nouns": [
+			"element",
+			"R",
+			"q",
+			"r",
+			"n",
+			"x",
+			"− y",
+			"−",
+			"z",
+			"r",
+			"xy+",
+			"znr",
+			"zx",
+			"−",
+			"ynr",
+			"xy",
+			"−",
+			"znr",
+			"n",
+			"−",
+			"x",
+			"y",
+			"−",
+			"z",
+			"r",
+			"zy",
+			"xnr",
+			"xz",
+			"ynr",
+			"yz",
+			"−",
+			"xnr",
+			"n",
+			"−",
+			"x",
+			"− y",
+			"z"
+		],
+		"dOIndex": 336,
+		"nouns2": [
+			"element"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6803,
+		"nouns": [],
+		"dOIndex": 337,
+		"isQuote": false
+	},
+	{
+		"txt": "To extract the Euler angles, yaw (ψ), pitch (τ), and roll (φ), from R, you can use these relations:tan ψ = r21 / r11sin τ = –r31tan φ = r32 / r33",
+		"why": "p",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6804,
+		"nouns": [
+			"Euler",
+			"angles",
+			"yaw",
+			"ψ",
+			"pitch",
+			"τ",
+			"roll",
+			"φ",
+			"R",
+			"use",
+			"relations",
+			"ψ",
+			"r",
+			"/",
+			"r",
+			"sin",
+			"τ",
+			"–r",
+			"φ",
+			"r",
+			"/",
+			"r"
+		],
+		"dOIndex": 338,
+		"nouns2": [
+			"relations"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6805,
+		"nouns": [],
+		"dOIndex": 339,
+		"isQuote": false
+	},
+	{
+		"txt": "Here's the code that extracts the three Euler angles, returned in the form of a Vector, from a given ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6806,
+		"nouns": [
+			"code",
+			"extracts",
+			"three Euler",
+			"angles",
+			"form",
+			"Vector"
+		],
+		"dOIndex": 340,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"extracts",
+			"Vector"
+		]
+	},
+	{
+		"txt": "quaternion:",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6807,
+		"nouns": [
+			"quaternion"
+		],
+		"dOIndex": 341,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternion"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6808,
+		"nouns": [],
+		"dOIndex": 342,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 6809,
+		"nouns": [],
+		"dOIndex": 343,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6810,
+		"nouns": [],
+		"dOIndex": 344,
+		"isQuote": false
+	},
+	{
+		"txt": "Quaternions in 3D Simulators",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6811,
+		"nouns": [
+			"Quaternions",
+			"D",
+			"Simulators"
+		],
+		"dOIndex": 345,
+		"nouns2": [
+			"Quaternions",
+			"Simulators"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6812,
+		"nouns": [],
+		"dOIndex": 346,
+		"isQuote": false
+	},
+	{
+		"txt": "The quaternion operations just ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6813,
+		"nouns": [
+			"quaternion",
+			"operations"
+		],
+		"dOIndex": 347,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternion",
+			"operations"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6814,
+		"nouns": [],
+		"dOIndex": 348,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "presented are required when you are using ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6815,
+		"nouns": [],
+		"dOIndex": 349,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "quaternions to represent orientation in 3D simulations. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6816,
+		"nouns": [
+			"quaternions",
+			"orientation",
+			"D",
+			"simulations"
+		],
+		"dOIndex": 350,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternions",
+			"orientation",
+			"simulations"
+		]
+	},
+	{
+		"txt": " All the 3D simulations discussed in this book use these quaternion operations, and in this section we'll highlight where they are used in the context of the airplane example presented in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6817,
+		"nouns": [
+			"D",
+			"simulations",
+			"book",
+			"use",
+			"quaternion",
+			"operations",
+			"section",
+			"ll",
+			"context",
+			"airplane",
+			"example"
+		],
+		"dOIndex": 351,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulations",
+			"quaternion",
+			"operations",
+			"section",
+			"context",
+			"airplane",
+			"example"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.06060606060606061,
+			"words": [
+				"highlight"
+			],
+			"positive": [
+				"highlight"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "Chapter 15",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6818,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 352,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6819,
+		"nouns": [],
+		"dOIndex": 353,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6820,
+		"nouns": [],
+		"dOIndex": 354,
+		"isQuote": false
+	},
+	{
+		"txt": "When initializing the ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6821,
+		"nouns": [],
+		"dOIndex": 355,
+		"isQuote": false
+	},
+	{
+		"txt": "orientation of the airplane, you have to set its orientation quaternion to something corresponding to the Euler angles you desire. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6822,
+		"nouns": [
+			"orientation",
+			"airplane",
+			"orientation",
+			"quaternion",
+			"Euler",
+			"angles",
+			"desire"
+		],
+		"dOIndex": 356,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"orientation",
+			"airplane",
+			"quaternion"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.047619047619047616,
+			"words": [
+				"desire"
+			],
+			"positive": [
+				"desire"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " You do so as follows:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6823,
+		"nouns": [],
+		"dOIndex": 357,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6824,
+		"nouns": [],
+		"dOIndex": 358,
+		"isQuote": false
+	},
+	{
+		"txt": "In this code sample, Airplane is a rigid body class with the property qOrientation, which represents the orientation quaternion, which is a Quaternion class. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6825,
+		"nouns": [
+			"code",
+			"sample",
+			"Airplane",
+			"body",
+			"class",
+			"property",
+			"qOrientation",
+			"orientation",
+			"quaternion",
+			"Quaternion",
+			"class"
+		],
+		"dOIndex": 359,
+		"nouns2": [
+			"Airplane",
+			"property",
+			"qOrientation",
+			"orientation",
+			"quaternion",
+			"Quaternion"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " iRoll, iPitch, and iYaw are the three Euler angles describing the orientation of the airplane.",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6826,
+		"nouns": [
+			"iRoll",
+			"iPitch",
+			"iYaw",
+			"three Euler",
+			"angles",
+			"orientation",
+			"airplane"
+		],
+		"dOIndex": 360,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"orientation",
+			"airplane"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6827,
+		"nouns": [],
+		"dOIndex": 361,
+		"isQuote": false
+	},
+	{
+		"txt": "If at any time you want to report the Euler angles for example, in a heads up display like interface for the game player you can use MakeEulerAnglesFromQ, as follows:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6828,
+		"nouns": [
+			"time",
+			"report",
+			"Euler",
+			"angles",
+			"example",
+			"heads",
+			"display",
+			"interface",
+			"game",
+			"player",
+			"use",
+			"MakeEulerAnglesFromQ"
+		],
+		"dOIndex": 362,
+		"nouns2": [
+			"example",
+			"display",
+			"interface",
+			"MakeEulerAnglesFromQ"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.1,
+			"words": [
+				"like",
+				"want"
+			],
+			"positive": [
+				"like",
+				"want"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6829,
+		"nouns": [],
+		"dOIndex": 363,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6830,
+		"nouns": [],
+		"dOIndex": 364,
+		"isQuote": false
+	},
+	{
+		"txt": "Very often, it's more convenient to calculate loads on an object like the airplane using body fixed coordinates. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6831,
+		"nouns": [
+			"loads",
+			"object",
+			"airplane",
+			"body",
+			"coordinates"
+		],
+		"dOIndex": 365,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"airplane",
+			"coordinates"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.10526315789473684,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " For example, when computing aerodynamic drag on the airplane, you'll want to know the relative air velocity over the aircraft in body fixed coordinates. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6832,
+		"nouns": [
+			"example",
+			"drag",
+			"airplane",
+			"ll",
+			"air",
+			"velocity",
+			"aircraft",
+			"body",
+			"coordinates"
+		],
+		"dOIndex": 366,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"airplane",
+			"velocity",
+			"aircraft",
+			"coordinates"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"want",
+				"drag"
+			],
+			"positive": [
+				"want"
+			],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " The resulting drag force will also be in body fixed coordinates. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6833,
+		"nouns": [
+			"drag",
+			"force",
+			"body",
+			"coordinates"
+		],
+		"dOIndex": 367,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coordinates"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.07692307692307693,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " However, when resolving all the loads on the aircraft to determine its motion in earth fixed coordinates, you'll want to convert those forces from body fixed coordinates to earth fixed coordinates. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6834,
+		"nouns": [
+			"loads",
+			"aircraft",
+			"motion",
+			"earth",
+			"coordinates",
+			"ll",
+			"forces",
+			"body",
+			"coordinates",
+			"earth",
+			"coordinates"
+		],
+		"dOIndex": 368,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"aircraft",
+			"coordinates"
+		],
+		"highfreq": {
+			"fixed": 3,
+			"coordinates": 3
+		},
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.09090909090909091,
+			"words": [
+				"want",
+				"resolving"
+			],
+			"positive": [
+				"want",
+				"resolving"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " You can use QVRotate to rotate any vector, such as a force vector, from one coordinate system to another. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6835,
+		"nouns": [
+			"use",
+			"QVRotate",
+			"vector",
+			"force",
+			"vector",
+			"one",
+			"system"
+		],
+		"dOIndex": 369,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"QVRotate"
+		]
+	},
+	{
+		"txt": " The following code sample ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6836,
+		"nouns": [
+			"code",
+			"sample"
+		],
+		"dOIndex": 370,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6837,
+		"nouns": [],
+		"dOIndex": 371,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "shows how QVRotate is used to convert a force vector in body fixed coordinates to the equivalent force in earth fixed coordinates.",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6838,
+		"nouns": [
+			"QVRotate",
+			"force",
+			"vector",
+			"body",
+			"coordinates",
+			"equivalent",
+			"force",
+			"earth",
+			"coordinates"
+		],
+		"dOIndex": 372,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"QVRotate",
+			"coordinates",
+			"equivalent"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6839,
+		"nouns": [],
+		"dOIndex": 373,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6840,
+		"nouns": [],
+		"dOIndex": 374,
+		"isQuote": false
+	},
+	{
+		"txt": "Throughout the simulation, you'll have to update the airplane's orientation by integrating the angular equations of motion. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6841,
+		"nouns": [
+			"simulation",
+			"ll",
+			"airplane",
+			"orientation",
+			"equations",
+			"motion"
+		],
+		"dOIndex": 375,
+		"nouns2": [
+			"Throughout",
+			"simulation",
+			"airplane",
+			"orientation",
+			"equations"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " The first step in handling angular motion is to calculate the new angular velocity at a given time step based on the previously calculated moments acting on the airplane and its mass properties. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6842,
+		"nouns": [
+			"first",
+			"step",
+			"motion",
+			"velocity",
+			"time",
+			"step",
+			"moments",
+			"airplane",
+			"mass",
+			"properties"
+		],
+		"dOIndex": 376,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity",
+			"moments",
+			"airplane",
+			"properties"
+		]
+	},
+	{
+		"txt": " We do this in body coordinates using the angular equation of motion:∑ Mcg = dHcg/dt = I (dω/dt) + (ω × (I ω))",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6843,
+		"nouns": [
+			"body",
+			"coordinates",
+			"equation",
+			"motion",
+			"∑",
+			"Mcg",
+			"dHcg",
+			"/",
+			"dt",
+			"dω",
+			"/",
+			"dt",
+			"ω",
+			"×",
+			"ω"
+		],
+		"dOIndex": 377,
+		"nouns2": [
+			"coordinates",
+			"equation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "The next step is to integrate again to update the airplane's orientation, which is expressed as a quaternion. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6844,
+		"nouns": [
+			"step",
+			"airplane",
+			"orientation",
+			"quaternion"
+		],
+		"dOIndex": 378,
+		"nouns2": [
+			"airplane",
+			"orientation",
+			"quaternion"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " Here, you need to use the differential equation relating an orientation quaternion to angular velocity that we discussed earlier:dq/dt = (1/2) ω q",
+		"why": "p",
+		"tags": [
+			"strong",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"a",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6845,
+		"nouns": [
+			"use",
+			"equation",
+			"orientation",
+			"quaternion",
+			"velocity",
+			"dq",
+			"/",
+			"dt",
+			"/",
+			"ω",
+			"q"
+		],
+		"dOIndex": 379,
+		"nouns2": [
+			"equation",
+			"orientation",
+			"quaternion",
+			"velocity"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6846,
+		"nouns": [],
+		"dOIndex": 380,
+		"isQuote": false
+	},
+	{
+		"txt": "Next, to enforce the constraint that this orientation quaternion ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6847,
+		"nouns": [
+			"constraint",
+			"orientation",
+			"quaternion"
+		],
+		"dOIndex": 381,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"constraint",
+			"orientation",
+			"quaternion"
+		]
+	},
+	{
+		"txt": "be a unit",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6848,
+		"nouns": [
+			"unit"
+		],
+		"dOIndex": 382,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " quaternion, you must normalize the orientation quaternion. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6849,
+		"nouns": [
+			"quaternion",
+			"orientation",
+			"quaternion"
+		],
+		"dOIndex": 383,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quaternion",
+			"orientation"
+		]
+	},
+	{
+		"txt": " The following code sample illustrates these steps:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6850,
+		"nouns": [
+			"code",
+			"sample",
+			"steps"
+		],
+		"dOIndex": 384,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6851,
+		"nouns": [],
+		"dOIndex": 385,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6852,
+		"nouns": [],
+		"dOIndex": 386,
+		"isQuote": false
+	},
+	{
+		"txt": "Notice the last line of code in the preceding sample. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6853,
+		"nouns": [
+			"Notice",
+			"line",
+			"code",
+			"sample"
+		],
+		"dOIndex": 387,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Notice"
+		]
+	},
+	{
+		"txt": " That line converts the airplane's velocity vector from earth fixed coordinates to body fixed coordinates using QVRotate . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6854,
+		"nouns": [
+			"line",
+			"converts",
+			"airplane",
+			"velocity",
+			"vector",
+			"earth",
+			"coordinates",
+			"body",
+			"coordinates",
+			"QVRotate"
+		],
+		"dOIndex": 388,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"converts",
+			"airplane",
+			"velocity",
+			"coordinates",
+			"QVRotate"
+		]
+	},
+	{
+		"txt": " Recall that it's more convenient to compute body forces in body fixed coordinates. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6855,
+		"nouns": [
+			"body",
+			"forces",
+			"body",
+			"coordinates"
+		],
+		"dOIndex": 389,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Recall",
+			"coordinates"
+		]
+	},
+	{
+		"txt": " QVRotate allows you to work with vectors back and forth from body fixed to earth fixed ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6856,
+		"nouns": [
+			"QVRotate",
+			"work",
+			"vectors",
+			"body",
+			"earth"
+		],
+		"dOIndex": 390,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"QVRotate",
+			"vectors"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6857,
+		"nouns": [],
+		"dOIndex": 391,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6858,
+		"nouns": [],
+		"dOIndex": 392,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6859,
+		"nouns": [],
+		"dOIndex": 393,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6860,
+		"nouns": [],
+		"dOIndex": 394,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6861,
+		"nouns": [],
+		"dOIndex": 395,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6862,
+		"nouns": [],
+		"dOIndex": 396,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6863,
+		"nouns": [],
+		"dOIndex": 397,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "coordinates.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6864,
+		"nouns": [
+			"coordinates"
+		],
+		"dOIndex": 398,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coordinates"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6865,
+		"nouns": [],
+		"dOIndex": 399,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 6866,
+		"nouns": [],
+		"dOIndex": 400,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6867,
+		"nouns": [],
+		"dOIndex": 401,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 6868,
+		"nouns": [],
+		"dOIndex": 402,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 6869,
+		"nouns": [],
+		"dOIndex": 403,
+		"isQuote": false
+	},
+	{
+		"txt": "[",
+		"why": "link",
+		"tags": [
+			"sup",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6870,
+		"nouns": [],
+		"dOIndex": 404,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "20",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6871,
+		"nouns": [],
+		"dOIndex": 405,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " ] Two vectors are orthogonal if their dot product is 0.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6872,
+		"nouns": [
+			"Two",
+			"vectors",
+			"dot",
+			"product"
+		],
+		"dOIndex": 406,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"vectors",
+			"product"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6873,
+		"nouns": [],
+		"dOIndex": 407,
+		"isQuote": false
+	},
+	{
+		"txt": "[",
+		"why": "link",
+		"tags": [
+			"sup",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6874,
+		"nouns": [],
+		"dOIndex": 408
+	},
+	{
+		"txt": "21] You can verify this by recalling the trigonometric relation cos2θ + sin2",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"sup",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 6875,
+		"nouns": [
+			"trigonometric",
+			"relation",
+			"cos",
+			"θ",
+			"sin"
+		],
+		"dOIndex": 409,
+		"nouns2": [
+			"trigonometric",
+			"relation"
+		]
+	},
+	{
+		"txt": " θ = 1.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 6876,
+		"nouns": [
+			"θ"
+		],
+		"dOIndex": 410
+	}
+]

@@ -1,0 +1,10712 @@
+[
+	{
+		"txt": "",
+		"why": "br tag like",
+		"sentenceIndex": 3449,
+		"nouns": [],
+		"dOIndex": 0,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 5. Collisions",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3450,
+		"nouns": [
+			"Chapter",
+			"Collisions"
+		],
+		"dOIndex": 1,
+		"nouns2": [
+			"Chapter",
+			"Collisions"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Now that you understand the ",
+		"why": "link",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3451,
+		"nouns": [],
+		"dOIndex": 2,
+		"isQuote": false
+	},
+	{
+		"txt": "motion of particles and rigid bodies, you need to consider what happens when they run into each other. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3452,
+		"nouns": [
+			"motion",
+			"particles",
+			"bodies"
+		],
+		"dOIndex": 3,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"particles"
+		]
+	},
+	{
+		"txt": " That's what we'll address in this chapter; specifically, we'll show you how to handle particle and, more interestingly, rigid body collision response.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3453,
+		"nouns": [
+			"ll",
+			"address",
+			"chapter",
+			"ll",
+			"show",
+			"particle",
+			"body",
+			"collision",
+			"response"
+		],
+		"dOIndex": 4,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"address",
+			"chapter",
+			"particle",
+			"collision",
+			"response"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.08695652173913043,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3454,
+		"nouns": [],
+		"dOIndex": 5,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3455,
+		"nouns": [],
+		"dOIndex": 6,
+		"isQuote": false
+	},
+	{
+		"txt": "Before moving forward, we need to make a distinction between collision detection and collision response . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3456,
+		"nouns": [
+			"distinction",
+			"collision",
+			"detection",
+			"collision",
+			"response"
+		],
+		"dOIndex": 7,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Before",
+			"distinction",
+			"collision",
+			"detection",
+			"response"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.23529411764705882,
+			"words": [
+				"collision",
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision",
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3457,
+		"nouns": [],
+		"dOIndex": 8,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Collision detection is a computational geometry problem involving the determination of whether and where two or more objects have collided. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3458,
+		"nouns": [
+			"Collision",
+			"detection",
+			"geometry",
+			"problem",
+			"determination",
+			"two",
+			"objects"
+		],
+		"dOIndex": 9,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Collision",
+			"detection",
+			"geometry",
+			"problem",
+			"determination",
+			"objects"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.19047619047619047,
+			"words": [
+				"problem",
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"problem",
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3459,
+		"nouns": [],
+		"dOIndex": 10,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Collision response is a kinetics problem involving the motion of two or more objects after they have collided. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3460,
+		"nouns": [
+			"Collision",
+			"response",
+			"kinetics",
+			"problem",
+			"motion",
+			"two",
+			"objects"
+		],
+		"dOIndex": 11,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Collision",
+			"response",
+			"kinetics",
+			"problem",
+			"objects"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.21052631578947367,
+			"words": [
+				"problem",
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"problem",
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " While the two problems are intimately related, we'll focus solely on the problem of collision response in this chapter. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3461,
+		"nouns": [
+			"two",
+			"problems",
+			"ll",
+			"focus",
+			"problem",
+			"collision",
+			"response",
+			"chapter"
+		],
+		"dOIndex": 12,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"problems",
+			"problem",
+			"collision",
+			"response",
+			"chapter"
+		],
+		"sentiment": {
+			"score": -6,
+			"comparative": -0.2857142857142857,
+			"words": [
+				"collision",
+				"problem",
+				"problems"
+			],
+			"positive": [],
+			"negative": [
+				"collision",
+				"problem",
+				"problems"
+			]
+		}
+	},
+	{
+		"txt": " Later, in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3462,
+		"nouns": [],
+		"dOIndex": 13,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 7 through ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3463,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 14,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3464,
+		"nouns": [],
+		"dOIndex": 15,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 13 , we'll show you how to implement collision detection and response in various real time simulations, which draw upon concepts presented in this chapter.",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3465,
+		"nouns": [
+			"Chapter",
+			"ll",
+			"show",
+			"collision",
+			"detection",
+			"response",
+			"time",
+			"simulations",
+			"concepts",
+			"chapter"
+		],
+		"dOIndex": 16,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter",
+			"collision",
+			"detection",
+			"response",
+			"simulations",
+			"concepts",
+			"chapter"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.08,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3466,
+		"nouns": [],
+		"dOIndex": 17,
+		"isQuote": false
+	},
+	{
+		"txt": "Our treatment of rigid body collision response in this chapter is based on classical (Newtonian) impact principles. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3467,
+		"nouns": [
+			"treatment",
+			"body",
+			"collision",
+			"response",
+			"chapter",
+			"impact",
+			"principles"
+		],
+		"dOIndex": 18,
+		"nouns2": [
+			"treatment",
+			"collision",
+			"response",
+			"chapter",
+			"Newtonian",
+			"principles"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.1111111111111111,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " Here, colliding bodies are treated as rigid irrespective of their construction and material. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3468,
+		"nouns": [
+			"bodies",
+			"construction"
+		],
+		"dOIndex": 19,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"construction"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.06666666666666667,
+			"words": [
+				"colliding"
+			],
+			"positive": [],
+			"negative": [
+				"colliding"
+			]
+		}
+	},
+	{
+		"txt": " As in earlier chapters, the rigid bodies discussed here do not change shape even upon impact. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3469,
+		"nouns": [
+			"chapters",
+			"bodies",
+			"change",
+			"shape",
+			"impact"
+		],
+		"dOIndex": 20,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"chapters"
+		]
+	},
+	{
+		"txt": " This, of course, is an idealization. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3470,
+		"nouns": [
+			"course",
+			"idealization"
+		],
+		"dOIndex": 21,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"idealization"
+		]
+	},
+	{
+		"txt": " You know from your everyday experience that when objects collide they dent, bend, compress, or crumple. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3471,
+		"nouns": [
+			"experience",
+			"objects",
+			"collide",
+			"dent",
+			"crumple"
+		],
+		"dOIndex": 22,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"experience",
+			"objects",
+			"collide",
+			"crumple"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.16666666666666666,
+			"words": [
+				"dent",
+				"collide"
+			],
+			"positive": [],
+			"negative": [
+				"dent",
+				"collide"
+			]
+		}
+	},
+	{
+		"txt": " For example, when a baseball strikes a bat, it may compress as much as three quarters of an inch during the millisecond of impact. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3472,
+		"nouns": [
+			"example",
+			"baseball",
+			"strikes",
+			"bat",
+			"three",
+			"quarters",
+			"inch",
+			"millisecond",
+			"impact"
+		],
+		"dOIndex": 23,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"baseball",
+			"strikes",
+			"quarters",
+			"millisecond"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.038461538461538464,
+			"words": [
+				"strikes"
+			],
+			"positive": [],
+			"negative": [
+				"strikes"
+			]
+		}
+	},
+	{
+		"txt": " Notwithstanding this reality, we'll rely on well established analytical and empirical methods to approximate rigid body collisions.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3473,
+		"nouns": [
+			"reality",
+			"ll",
+			"methods",
+			"body",
+			"collisions"
+		],
+		"dOIndex": 24,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Notwithstanding",
+			"reality",
+			"methods",
+			"collisions"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.1111111111111111,
+			"words": [
+				"collisions"
+			],
+			"positive": [],
+			"negative": [
+				"collisions"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3474,
+		"nouns": [],
+		"dOIndex": 25,
+		"isQuote": false
+	},
+	{
+		"txt": "This classical approach is widely used in engineering machine design, analysis, and simulations; however, for ",
+		"why": "link",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3475,
+		"nouns": [
+			"approach",
+			"machine",
+			"design",
+			"analysis",
+			"simulations"
+		],
+		"dOIndex": 26,
+		"nouns2": [
+			"approach",
+			"machine",
+			"analysis",
+			"simulations"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "rigid body simulations there is another class of methods, known ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3476,
+		"nouns": [
+			"body",
+			"simulations",
+			"class",
+			"methods"
+		],
+		"dOIndex": 27,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulations",
+			"methods"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3477,
+		"nouns": [],
+		"dOIndex": 28,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "as penalty methods , at your disposal.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3478,
+		"nouns": [
+			"penalty",
+			"methods"
+		],
+		"dOIndex": 29,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"penalty",
+			"methods"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.2857142857142857,
+			"words": [
+				"penalty"
+			],
+			"positive": [],
+			"negative": [
+				"penalty"
+			]
+		}
+	},
+	{
+		"txt": "[",
+		"why": "link",
+		"tags": [
+			"sup",
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3479,
+		"nouns": [],
+		"dOIndex": 30,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "13",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3480,
+		"nouns": [],
+		"dOIndex": 31,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " ] In penalty methods, the force at impact is represented by a temporary spring that gets compressed between the objects at the point of impact. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3481,
+		"nouns": [
+			"penalty",
+			"methods",
+			"force",
+			"impact",
+			"objects",
+			"point",
+			"impact"
+		],
+		"dOIndex": 32,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"penalty",
+			"methods",
+			"objects"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.07407407407407407,
+			"words": [
+				"penalty"
+			],
+			"positive": [],
+			"negative": [
+				"penalty"
+			]
+		}
+	},
+	{
+		"txt": " This spring compresses over a very short time and applies equal and opposite forces to the colliding bodies to simulate collision response. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3482,
+		"nouns": [
+			"compresses",
+			"time",
+			"forces",
+			"bodies",
+			"collision",
+			"response"
+		],
+		"dOIndex": 33,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"compresses",
+			"collision",
+			"response"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.125,
+			"words": [
+				"collision",
+				"colliding"
+			],
+			"positive": [],
+			"negative": [
+				"collision",
+				"colliding"
+			]
+		}
+	},
+	{
+		"txt": " Proponents of this method say it has the advantage of ease of implementation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3483,
+		"nouns": [
+			"Proponents",
+			"method",
+			"advantage",
+			"implementation"
+		],
+		"dOIndex": 34,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Proponents",
+			"advantage",
+			"implementation"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.26666666666666666,
+			"words": [
+				"ease",
+				"advantage"
+			],
+			"positive": [
+				"ease",
+				"advantage"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " However, one of the difficulties encountered in its implementation is numerical instability. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3484,
+		"nouns": [
+			"one",
+			"difficulties",
+			"implementation",
+			"instability"
+		],
+		"dOIndex": 35,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"difficulties",
+			"implementation",
+			"instability"
+		]
+	},
+	{
+		"txt": " There are other arguments for and against the use of penalty methods, but we won't get into the debate here. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3485,
+		"nouns": [
+			"arguments",
+			"use",
+			"penalty",
+			"methods",
+			"t",
+			"debate"
+		],
+		"dOIndex": 36,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"arguments",
+			"penalty",
+			"methods"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.09090909090909091,
+			"words": [
+				"penalty"
+			],
+			"positive": [],
+			"negative": [
+				"penalty"
+			]
+		}
+	},
+	{
+		"txt": " Instead, we've included several references in the ",
+		"why": "link",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3486,
+		"nouns": [
+			"ve",
+			"references"
+		],
+		"dOIndex": 37,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Instead",
+			"references"
+		]
+	},
+	{
+		"txt": "Bibliography",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3487,
+		"nouns": [
+			"Bibliography"
+		],
+		"dOIndex": 38,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Bibliography"
+		]
+	},
+	{
+		"txt": " for you to review if you are so inclined. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3488,
+		"nouns": [
+			"review"
+		],
+		"dOIndex": 39,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Other methods of modeling collisions exist as well. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3489,
+		"nouns": [
+			"methods",
+			"collisions"
+		],
+		"dOIndex": 40,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"methods",
+			"collisions"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.2,
+			"words": [
+				"collisions"
+			],
+			"positive": [],
+			"negative": [
+				"collisions"
+			]
+		}
+	},
+	{
+		"txt": " For example, nonlinear finite element simulations are commonly used to model collisions during product design, such as the impact of a cellphone with the ground. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3490,
+		"nouns": [
+			"example",
+			"nonlinear",
+			"element",
+			"simulations",
+			"model",
+			"collisions",
+			"product",
+			"design",
+			"impact",
+			"cellphone",
+			"ground"
+		],
+		"dOIndex": 41,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"nonlinear",
+			"element",
+			"simulations",
+			"collisions",
+			"product",
+			"cellphone"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.07407407407407407,
+			"words": [
+				"collisions"
+			],
+			"positive": [],
+			"negative": [
+				"collisions"
+			]
+		}
+	},
+	{
+		"txt": " These methods can be quite accurate; however, they are too slow for real time applications. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3491,
+		"nouns": [
+			"methods",
+			"time",
+			"applications"
+		],
+		"dOIndex": 42,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"methods",
+			"applications"
+		]
+	},
+	{
+		"txt": " Further, they are overkill for games.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3492,
+		"nouns": [
+			"overkill",
+			"games"
+		],
+		"dOIndex": 43,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Further",
+			"overkill"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 3493,
+		"nouns": [],
+		"dOIndex": 44,
+		"isQuote": false
+	},
+	{
+		"txt": "Impulse Momentum Principle",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3494,
+		"nouns": [
+			"Impulse",
+			"Momentum",
+			"Principle"
+		],
+		"dOIndex": 45,
+		"nouns2": [
+			"Impulse",
+			"Momentum",
+			"Principle"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Impulse is defined ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3495,
+		"nouns": [
+			"Impulse"
+		],
+		"dOIndex": 46,
+		"nouns2": [
+			"Impulse"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3496,
+		"nouns": [],
+		"dOIndex": 47,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3497,
+		"nouns": [],
+		"dOIndex": 48,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3498,
+		"nouns": [],
+		"dOIndex": 49,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3499,
+		"nouns": [],
+		"dOIndex": 50,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "as a force that acts over a very short period of time. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3500,
+		"nouns": [
+			"force",
+			"acts",
+			"period",
+			"time"
+		],
+		"dOIndex": 51,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " For example, the force exerted on a ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3501,
+		"nouns": [
+			"example",
+			"force"
+		],
+		"dOIndex": 52,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example"
+		]
+	},
+	{
+		"txt": "bullet when fired from a gun is an impulse force. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3502,
+		"nouns": [
+			"bullet",
+			"gun",
+			"impulse",
+			"force"
+		],
+		"dOIndex": 53,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"impulse"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.2727272727272727,
+			"words": [
+				"gun",
+				"fired"
+			],
+			"positive": [],
+			"negative": [
+				"gun",
+				"fired"
+			]
+		}
+	},
+	{
+		"txt": " The collision forces between two colliding objects are impulse forces, as when you kick a football or hit a baseball with a bat.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3503,
+		"nouns": [
+			"collision",
+			"forces",
+			"two",
+			"objects",
+			"impulse",
+			"forces",
+			"kick",
+			"football",
+			"baseball",
+			"bat"
+		],
+		"dOIndex": 54,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"objects",
+			"impulse",
+			"football",
+			"baseball"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.125,
+			"words": [
+				"colliding",
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"colliding",
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3504,
+		"nouns": [],
+		"dOIndex": 55,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3505,
+		"nouns": [],
+		"dOIndex": 56,
+		"isQuote": false
+	},
+	{
+		"txt": "More specifically, impulse is a vector quantity equal to the change in momentum. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3506,
+		"nouns": [
+			"impulse",
+			"vector",
+			"quantity",
+			"change",
+			"momentum"
+		],
+		"dOIndex": 57,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"impulse",
+			"quantity",
+			"momentum"
+		]
+	},
+	{
+		"txt": " The so called impulse momentum principle says that the change in moment is equal to the applied impulse. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3507,
+		"nouns": [
+			"impulse",
+			"momentum",
+			"principle",
+			"change",
+			"moment",
+			"impulse"
+		],
+		"dOIndex": 58,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"impulse",
+			"momentum",
+			"principle"
+		]
+	},
+	{
+		"txt": " For problems involving constant ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3508,
+		"nouns": [
+			"problems"
+		],
+		"dOIndex": 59,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"problems"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.3333333333333333,
+			"words": [
+				"problems"
+			],
+			"positive": [],
+			"negative": [
+				"problems"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3509,
+		"nouns": [],
+		"dOIndex": 60,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3510,
+		"nouns": [],
+		"dOIndex": 61,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3511,
+		"nouns": [],
+		"dOIndex": 62,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "mass and moment of inertia, you can write:Linear impulse = o (t– to t+)F dt = m (v+ – v–)Angular impulse = o (t– to t+)M dt = I (ω+ – ω–)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3512,
+		"nouns": [
+			"mass",
+			"moment",
+			"inertia",
+			"Linear",
+			"impulse",
+			"t–",
+			"t+",
+			"F",
+			"dt",
+			"m",
+			"v+",
+			"–",
+			"v–",
+			"impulse",
+			"t–",
+			"t+",
+			"M",
+			"dt",
+			"ω+",
+			"–",
+			"ω–"
+		],
+		"dOIndex": 63,
+		"nouns2": [
+			"inertia",
+			"Linear",
+			"impulse",
+			"Angular"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3513,
+		"nouns": [],
+		"dOIndex": 64,
+		"isQuote": false
+	},
+	{
+		"txt": "In these equations, F is the impulsive force, M is the impulsive torque",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3514,
+		"nouns": [
+			"equations",
+			"F",
+			"force",
+			"M",
+			"torque"
+		],
+		"dOIndex": 65,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equations"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3515,
+		"nouns": [],
+		"dOIndex": 66,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " (or moment), t is time, v is velocity, the subscript – refers to the instant just prior to impact, and the subscript + refers to the instant just after impact. ",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3516,
+		"nouns": [
+			"moment",
+			"t",
+			"time",
+			"v",
+			"velocity",
+			"subscript",
+			"–",
+			"instant",
+			"impact",
+			"subscript",
+			"instant",
+			"impact"
+		],
+		"dOIndex": 67,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity",
+			"subscript",
+			"instant"
+		]
+	},
+	{
+		"txt": " You can calculate the average impulse force and torque using the following equations:F = m (v+ – v–) / (t+ – t–)M = I (ω+ – ω–) / (t+ – t–)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3517,
+		"nouns": [
+			"impulse",
+			"force",
+			"torque",
+			"equations",
+			"F",
+			"m",
+			"v+",
+			"–",
+			"v–",
+			"/",
+			"t+",
+			"–",
+			"t–",
+			"M",
+			"ω+",
+			"–",
+			"ω–",
+			"/",
+			"t+",
+			"–",
+			"t–"
+		],
+		"dOIndex": 68,
+		"nouns2": [
+			"impulse",
+			"equations"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3518,
+		"nouns": [],
+		"dOIndex": 69,
+		"isQuote": false
+	},
+	{
+		"txt": "Consider this simple example: a 150 gram (0.15 kg) bullet is fired from a gun at a muzzle velocity of 756 m/s. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3519,
+		"nouns": [
+			"example",
+			"gram",
+			"kg",
+			"bullet",
+			"gun",
+			"muzzle",
+			"velocity",
+			"m",
+			"/"
+		],
+		"dOIndex": 70,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Consider",
+			"example",
+			"velocity"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.13043478260869565,
+			"words": [
+				"gun",
+				"fired"
+			],
+			"positive": [],
+			"negative": [
+				"gun",
+				"fired"
+			]
+		}
+	},
+	{
+		"txt": " The bullet takes 0.0008 seconds to travel through the 610 mm (0.610 m) rifle barrel. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3520,
+		"nouns": [
+			"bullet",
+			"seconds",
+			"travel",
+			"mm",
+			"m",
+			"rifle",
+			"barrel"
+		],
+		"dOIndex": 71,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"seconds"
+		]
+	},
+	{
+		"txt": " Calculate the impulse and the average impulsive force exerted on the bullet. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3521,
+		"nouns": [
+			"impulse",
+			"force",
+			"bullet"
+		],
+		"dOIndex": 72,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Calculate",
+			"impulse"
+		]
+	},
+	{
+		"txt": " In this example, the bullet's mass is a constant 150 grams and its initial velocity is 0, thus its initial momentum is 0. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3522,
+		"nouns": [
+			"example",
+			"bullet",
+			"mass",
+			"grams",
+			"velocity",
+			"momentum"
+		],
+		"dOIndex": 73,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"velocity",
+			"momentum"
+		]
+	},
+	{
+		"txt": " Immediately after the gun is fired, the bullet's momentum is its mass times the muzzle velocity, which yields a momentum of 113.4 kg m/s. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3523,
+		"nouns": [
+			"gun",
+			"bullet",
+			"momentum",
+			"mass",
+			"times",
+			"muzzle",
+			"velocity",
+			"yields",
+			"momentum",
+			"kg",
+			"m",
+			"/"
+		],
+		"dOIndex": 74,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Immediately",
+			"momentum",
+			"velocity"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.11538461538461539,
+			"words": [
+				"fired",
+				"gun"
+			],
+			"positive": [],
+			"negative": [
+				"fired",
+				"gun"
+			]
+		}
+	},
+	{
+		"txt": " The impulse is equal to the change in momentum, and is simply 113.4 kg m/s. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3524,
+		"nouns": [
+			"impulse",
+			"change",
+			"momentum",
+			"kg",
+			"m",
+			"/"
+		],
+		"dOIndex": 75,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"impulse",
+			"momentum"
+		]
+	},
+	{
+		"txt": " The average impulse force is equal to the impulse divided by the duration of application of the force, or in this case:link https:Average impulse force = 141,750 N",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3525,
+		"nouns": [
+			"impulse",
+			"force",
+			"impulse",
+			"duration",
+			"application",
+			"force",
+			"case",
+			"link",
+			"https",
+			"Average",
+			"impulse",
+			"force",
+			"N"
+		],
+		"dOIndex": 76,
+		"nouns2": [
+			"impulse",
+			"duration",
+			"application",
+			"Average"
+		],
+		"highfreq": {
+			"impulse": 3,
+			"force": 3
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3526,
+		"nouns": [],
+		"dOIndex": 77,
+		"isQuote": false
+	},
+	{
+		"txt": "This is a simple but important illustration of the concept of impulse, and you'll use the same principle when dealing with rigid body impacts. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3527,
+		"nouns": [
+			"illustration",
+			"concept",
+			"impulse",
+			"ll",
+			"use",
+			"principle",
+			"body",
+			"impacts"
+		],
+		"dOIndex": 78,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"illustration",
+			"concept",
+			"impulse",
+			"principle",
+			"impacts"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08,
+			"words": [
+				"important"
+			],
+			"positive": [
+				"important"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " During impacts, the forces of impact are usually very high and the duration of impact is usually very short. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3528,
+		"nouns": [
+			"impacts",
+			"forces",
+			"impact",
+			"duration",
+			"impact"
+		],
+		"dOIndex": 79,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"During",
+			"impacts",
+			"duration"
+		]
+	},
+	{
+		"txt": " When two objects collide, each applies an impulse force to the other; these forces are equal in magnitude but opposite in direction. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3529,
+		"nouns": [
+			"two",
+			"objects",
+			"collide",
+			"impulse",
+			"force",
+			"forces",
+			"magnitude",
+			"direction"
+		],
+		"dOIndex": 80,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"objects",
+			"collide",
+			"impulse",
+			"magnitude",
+			"direction"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.041666666666666664,
+			"words": [
+				"collide"
+			],
+			"positive": [],
+			"negative": [
+				"collide"
+			]
+		}
+	},
+	{
+		"txt": " In the gun example, the impulse applied to the bullet to set it in motion is also applied in the opposite direction to the gun, giving you a nice kick in the shoulder. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3530,
+		"nouns": [
+			"gun",
+			"example",
+			"impulse",
+			"bullet",
+			"motion",
+			"direction",
+			"gun",
+			"kick",
+			"shoulder"
+		],
+		"dOIndex": 81,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"impulse",
+			"direction",
+			"shoulder"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.02857142857142857,
+			"words": [
+				"nice",
+				"gun",
+				"gun"
+			],
+			"positive": [
+				"nice"
+			],
+			"negative": [
+				"gun",
+				"gun"
+			]
+		}
+	},
+	{
+		"txt": " This is simply ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3531,
+		"nouns": [],
+		"dOIndex": 82,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Newton's third law in action.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3532,
+		"nouns": [
+			"Newton",
+			"third",
+			"law",
+			"action"
+		],
+		"dOIndex": 83,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Newton"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3533,
+		"nouns": [],
+		"dOIndex": 84,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3534,
+		"nouns": [],
+		"dOIndex": 85,
+		"isQuote": false
+	},
+	{
+		"txt": "Impact",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3535,
+		"nouns": [
+			"Impact"
+		],
+		"dOIndex": 86,
+		"nouns2": [
+			"Impact"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3536,
+		"nouns": [],
+		"dOIndex": 87,
+		"isQuote": false
+	},
+	{
+		"txt": "In addition to the impulse momentum principle discussed in the previous section, our classical impact, or ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3537,
+		"nouns": [
+			"addition",
+			"impulse",
+			"momentum",
+			"principle",
+			"section",
+			"impact"
+		],
+		"dOIndex": 88,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"addition",
+			"impulse",
+			"momentum",
+			"principle",
+			"section"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3538,
+		"nouns": [],
+		"dOIndex": 89,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3539,
+		"nouns": [],
+		"dOIndex": 90,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3540,
+		"nouns": [],
+		"dOIndex": 91,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "collision response, analysis relies on another fundamental principle: Newton's principle of ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3541,
+		"nouns": [
+			"collision",
+			"response",
+			"analysis",
+			"principle",
+			"Newton",
+			"principle"
+		],
+		"dOIndex": 92,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"response",
+			"analysis",
+			"principle",
+			"Newton"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.16666666666666666,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3542,
+		"nouns": [],
+		"dOIndex": 93,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3543,
+		"nouns": [],
+		"dOIndex": 94,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3544,
+		"nouns": [],
+		"dOIndex": 95,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "conservation of momentum, which states that when a system of ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3545,
+		"nouns": [
+			"conservation",
+			"momentum",
+			"states",
+			"system"
+		],
+		"dOIndex": 96,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"conservation",
+			"momentum"
+		]
+	},
+	{
+		"txt": "rigid bodies collide, momentum is conserved. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3546,
+		"nouns": [
+			"bodies",
+			"collide",
+			"momentum"
+		],
+		"dOIndex": 97,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collide",
+			"momentum"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.14285714285714285,
+			"words": [
+				"collide"
+			],
+			"positive": [],
+			"negative": [
+				"collide"
+			]
+		}
+	},
+	{
+		"txt": " This means that for bodies of constant mass, the sum of their masses times their respective velocities before the impact is equal to the sum of their masses times their respective velocities after the impact:m1v1– + m2v2– = m1v1+ + m2v2+",
+		"why": "p",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3547,
+		"nouns": [
+			"bodies",
+			"mass",
+			"sum",
+			"masses",
+			"times",
+			"velocities",
+			"impact",
+			"sum",
+			"masses",
+			"times",
+			"velocities",
+			"impact",
+			"m",
+			"v",
+			"–",
+			"m",
+			"v",
+			"–",
+			"m",
+			"v",
+			"m",
+			"v"
+		],
+		"dOIndex": 98,
+		"nouns2": [
+			"velocities"
+		],
+		"highfreq": {
+			"their": 4
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3548,
+		"nouns": [],
+		"dOIndex": 99,
+		"isQuote": false
+	},
+	{
+		"txt": "Here, m refers to mass, v refers to velocity, subscript 1 refers to body one, subscript 2 refers to body two, subscript – refers to the instant just prior to impact, and subscript + refers to the instant just after impact.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3549,
+		"nouns": [
+			"m",
+			"mass",
+			"v",
+			"velocity",
+			"subscript",
+			"body",
+			"one",
+			"subscript",
+			"body",
+			"two",
+			"subscript",
+			"–",
+			"instant",
+			"impact",
+			"subscript",
+			"instant",
+			"impact"
+		],
+		"dOIndex": 100,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity",
+			"subscript",
+			"instant"
+		],
+		"highfreq": {
+			"refers": 6,
+			"subscript": 4
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3550,
+		"nouns": [],
+		"dOIndex": 101,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3551,
+		"nouns": [],
+		"dOIndex": 102,
+		"isQuote": false
+	},
+	{
+		"txt": "A crucial assumption of this method is that during the instant of impact the only force that matters is the impact force; all other forces are assumed negligible over that very short duration. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3552,
+		"nouns": [
+			"assumption",
+			"method",
+			"instant",
+			"impact",
+			"force",
+			"matters",
+			"impact",
+			"force",
+			"forces",
+			"duration"
+		],
+		"dOIndex": 103,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"assumption",
+			"instant",
+			"matters",
+			"duration"
+		],
+		"highfreq": {
+			"that": 3
+		},
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.029411764705882353,
+			"words": [
+				"matters"
+			],
+			"positive": [
+				"matters"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Remember this assumption, because in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3553,
+		"nouns": [
+			"assumption"
+		],
+		"dOIndex": 104,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Remember",
+			"assumption"
+		]
+	},
+	{
+		"txt": "Chapter 10",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3554,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 105,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " we'll rely on it when implementing collision response in an example 2D real time simulation.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3555,
+		"nouns": [
+			"ll",
+			"collision",
+			"response",
+			"example",
+			"D",
+			"time",
+			"simulation"
+		],
+		"dOIndex": 106,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"response",
+			"example",
+			"simulation"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.125,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3556,
+		"nouns": [],
+		"dOIndex": 107,
+		"isQuote": false
+	},
+	{
+		"txt": "We've already stated that rigid bodies don't change shape during impacts, and you know from your own experience that real objects do change shape during impacts. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3557,
+		"nouns": [
+			"ve",
+			"bodies",
+			"t",
+			"change",
+			"shape",
+			"impacts",
+			"experience",
+			"objects",
+			"change",
+			"shape",
+			"impacts"
+		],
+		"dOIndex": 108,
+		"nouns2": [
+			"impacts",
+			"experience",
+			"objects"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " What's happening in real life is ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3558,
+		"nouns": [
+			"life"
+		],
+		"dOIndex": 109,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "that kinetic energy is being converted to",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3559,
+		"nouns": [
+			"energy"
+		],
+		"dOIndex": 110,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3560,
+		"nouns": [],
+		"dOIndex": 111,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " strain energy to cause the objects to deform. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3561,
+		"nouns": [
+			"strain",
+			"energy",
+			"cause",
+			"objects",
+			"deform"
+		],
+		"dOIndex": 112,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"objects"
+		]
+	},
+	{
+		"txt": " (See the sidebar ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3562,
+		"nouns": [
+			"sidebar"
+		],
+		"dOIndex": 113,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"sidebar"
+		]
+	},
+	{
+		"txt": "Kinetic Energy",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3563,
+		"nouns": [
+			"Energy"
+		],
+		"dOIndex": 114,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Kinetic",
+			"Energy"
+		]
+	},
+	{
+		"txt": " for further details on this topic.) When the deformation in the objects is permanent, energy is lost and thus kinetic energy is not conserved.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3564,
+		"nouns": [
+			"details",
+			"topic",
+			"deformation",
+			"objects",
+			"energy",
+			"energy"
+		],
+		"dOIndex": 115,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"details",
+			"deformation",
+			"objects"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.12,
+			"words": [
+				"lost"
+			],
+			"positive": [],
+			"negative": [
+				"lost"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3565,
+		"nouns": [],
+		"dOIndex": 116,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Kinetic Energy",
+		"why": "p",
+		"tags": [
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3566,
+		"nouns": [
+			"Energy"
+		],
+		"dOIndex": 117,
+		"nouns2": [
+			"Kinetic",
+			"Energy"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3567,
+		"nouns": [],
+		"dOIndex": 118,
+		"isQuote": false
+	},
+	{
+		"txt": "Kinetic energy is a ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3568,
+		"nouns": [
+			"energy"
+		],
+		"dOIndex": 119,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Kinetic"
+		]
+	},
+	{
+		"txt": "form of energy associated with moving bodies. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3569,
+		"nouns": [
+			"form",
+			"energy",
+			"bodies"
+		],
+		"dOIndex": 120,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " It is equal to the energy required to accelerate the body from rest, which is also equal to the energy required to bring the moving body to a stop. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3570,
+		"nouns": [
+			"energy",
+			"body",
+			"rest",
+			"energy",
+			"body",
+			"stop"
+		],
+		"dOIndex": 121,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.03225806451612903,
+			"words": [
+				"stop"
+			],
+			"positive": [],
+			"negative": [
+				"stop"
+			]
+		}
+	},
+	{
+		"txt": " As you might expect, kinetic energy is a function of the body's speed, or velocity, in addition to its mass. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3571,
+		"nouns": [
+			"energy",
+			"function",
+			"body",
+			"velocity",
+			"addition",
+			"mass"
+		],
+		"dOIndex": 122,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function",
+			"velocity",
+			"addition"
+		]
+	},
+	{
+		"txt": " The formula for ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3572,
+		"nouns": [
+			"formula"
+		],
+		"dOIndex": 123,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"formula"
+		]
+	},
+	{
+		"txt": "linear kinetic energy is:KElinear = (1/2) m v2",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"sup",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3573,
+		"nouns": [
+			"energy",
+			"KElinear",
+			"/",
+			"m",
+			"v"
+		],
+		"dOIndex": 124,
+		"nouns2": [
+			"KElinear"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 3574,
+		"nouns": [],
+		"dOIndex": 125,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3575,
+		"nouns": [],
+		"dOIndex": 126,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Angular, or rotational, ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3576,
+		"nouns": [],
+		"dOIndex": 127,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Angular"
+		]
+	},
+	{
+		"txt": "kinetic energy is a function of the body's inertia and angular velocity:KEangular = (1/2) I ω2",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"sup",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3577,
+		"nouns": [
+			"energy",
+			"function",
+			"body",
+			"inertia",
+			"velocity",
+			"KEangular",
+			"/",
+			"ω"
+		],
+		"dOIndex": 128,
+		"nouns2": [
+			"function",
+			"inertia",
+			"velocity",
+			"KEangular"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 3578,
+		"nouns": [],
+		"dOIndex": 129,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3579,
+		"nouns": [],
+		"dOIndex": 130,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Conservation of kinetic energy between two colliding bodies means that the sum of kinetic energy of both bodies prior to impact is equal to the sum of the kinetic energy of both bodies after impact:m1v21– + m2v22– = m1v21+ + m2v22+",
+		"why": "p",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3580,
+		"nouns": [
+			"Conservation",
+			"energy",
+			"two",
+			"bodies",
+			"sum",
+			"energy",
+			"both",
+			"bodies",
+			"impact",
+			"sum",
+			"energy",
+			"both",
+			"bodies",
+			"impact",
+			"m",
+			"v",
+			"–",
+			"m",
+			"v",
+			"–",
+			"m",
+			"v",
+			"m",
+			"v"
+		],
+		"dOIndex": 131,
+		"nouns2": [
+			"Conservation"
+		],
+		"highfreq": {
+			"kinetic": 3,
+			"energy": 3,
+			"bodies": 3
+		},
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.024390243902439025,
+			"words": [
+				"colliding"
+			],
+			"positive": [],
+			"negative": [
+				"colliding"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3581,
+		"nouns": [],
+		"dOIndex": 132,
+		"isQuote": false
+	},
+	{
+		"txt": "Collisions that involve losses in kinetic energy are ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3582,
+		"nouns": [
+			"Collisions",
+			"losses",
+			"energy"
+		],
+		"dOIndex": 133,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Collisions"
+		],
+		"sentiment": {
+			"score": -5,
+			"comparative": -0.5555555555555556,
+			"words": [
+				"losses",
+				"collisions"
+			],
+			"positive": [],
+			"negative": [
+				"losses",
+				"collisions"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3583,
+		"nouns": [],
+		"dOIndex": 134,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3584,
+		"nouns": [],
+		"dOIndex": 135,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3585,
+		"nouns": [],
+		"dOIndex": 136,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "said to be inelastic, or plastic , collisions. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3586,
+		"nouns": [
+			"inelastic",
+			"plastic",
+			"collisions"
+		],
+		"dOIndex": 137,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"inelastic",
+			"plastic",
+			"collisions"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.2222222222222222,
+			"words": [
+				"collisions"
+			],
+			"positive": [],
+			"negative": [
+				"collisions"
+			]
+		}
+	},
+	{
+		"txt": " For example, if you throw two clay balls against each other, their kinetic energy is converted to permanent strain energy in deforming the clay balls, and their collision response that is, their motion after impact is less than spectacular. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3587,
+		"nouns": [
+			"example",
+			"two",
+			"clay",
+			"balls",
+			"energy",
+			"strain",
+			"energy",
+			"clay",
+			"balls",
+			"collision",
+			"response",
+			"motion",
+			"impact"
+		],
+		"dOIndex": 138,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"collision",
+			"response"
+		],
+		"highfreq": {
+			"their": 3
+		},
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.04878048780487805,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " If the collision is perfectly inelastic , then the two balls of clay will stick to each other and move together at the same velocity after impact. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3588,
+		"nouns": [
+			"collision",
+			"inelastic",
+			"two",
+			"balls",
+			"clay",
+			"move",
+			"velocity",
+			"impact"
+		],
+		"dOIndex": 139,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"inelastic",
+			"velocity"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.034482758620689655,
+			"words": [
+				"perfectly",
+				"collision"
+			],
+			"positive": [
+				"perfectly"
+			],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " Collisions where kinetic energy is conserved are called perfectly elastic . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3589,
+		"nouns": [
+			"Collisions",
+			"energy"
+		],
+		"dOIndex": 140,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Collisions"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.07692307692307693,
+			"words": [
+				"perfectly",
+				"collisions"
+			],
+			"positive": [
+				"perfectly"
+			],
+			"negative": [
+				"collisions"
+			]
+		}
+	},
+	{
+		"txt": " In these collisions, the sum of kinetic energy of all objects before the impact is equal to the sum of kinetic energy of all objects after the impact. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3590,
+		"nouns": [
+			"collisions",
+			"sum",
+			"energy",
+			"objects",
+			"impact",
+			"sum",
+			"energy",
+			"objects",
+			"impact"
+		],
+		"dOIndex": 141,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collisions",
+			"objects"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.06666666666666667,
+			"words": [
+				"collisions"
+			],
+			"positive": [],
+			"negative": [
+				"collisions"
+			]
+		}
+	},
+	{
+		"txt": " A good example of elastic impact (though not perfectly elastic) is the collision between two billiard balls where the ball deformation is negligible and certainly not permanent under normal circumstances.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3591,
+		"nouns": [
+			"example",
+			"impact",
+			"collision",
+			"two",
+			"billiard",
+			"balls",
+			"ball",
+			"deformation",
+			"circumstances"
+		],
+		"dOIndex": 142,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"collision",
+			"billiard",
+			"deformation",
+			"circumstances"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.06451612903225806,
+			"words": [
+				"collision",
+				"perfectly",
+				"good"
+			],
+			"positive": [
+				"good"
+			],
+			"negative": [
+				"collision",
+				"perfectly"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3592,
+		"nouns": [],
+		"dOIndex": 143,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3593,
+		"nouns": [],
+		"dOIndex": 144,
+		"isQuote": false
+	},
+	{
+		"txt": "Of course, in reality, impacts are somewhere between perfectly elastic and perfectly inelastic. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3594,
+		"nouns": [
+			"course",
+			"reality",
+			"impacts",
+			"inelastic"
+		],
+		"dOIndex": 145,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"reality",
+			"impacts",
+			"inelastic"
+		],
+		"sentiment": {
+			"score": 6,
+			"comparative": 0.42857142857142855,
+			"words": [
+				"perfectly",
+				"perfectly"
+			],
+			"positive": [
+				"perfectly",
+				"perfectly"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " This means that for rigid bodies, which don't change shape at all, we'll have to rely on an empirical relation to quantify the degree of elasticity of the impact(s) that we're trying to simulate. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3595,
+		"nouns": [
+			"bodies",
+			"t",
+			"change",
+			"shape",
+			"ll",
+			"relation",
+			"degree",
+			"elasticity",
+			"impact",
+			"re"
+		],
+		"dOIndex": 146,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"relation",
+			"elasticity"
+		]
+	},
+	{
+		"txt": " The relation that we'll use is the ratio of the relative separation velocity to the relative approach velocity of the colliding objects:e = −(v1+ − v2+) / (v1− − v2−)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3596,
+		"nouns": [
+			"relation",
+			"ll",
+			"use",
+			"ratio",
+			"separation",
+			"velocity",
+			"approach",
+			"velocity",
+			"objects",
+			"e",
+			"−",
+			"v",
+			"−",
+			"v",
+			"/",
+			"v",
+			"−",
+			"−",
+			"v",
+			"−"
+		],
+		"dOIndex": 147,
+		"nouns2": [
+			"relation",
+			"separation",
+			"velocity",
+			"approach",
+			"objects"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.03225806451612903,
+			"words": [
+				"colliding"
+			],
+			"positive": [],
+			"negative": [
+				"colliding"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3597,
+		"nouns": [],
+		"dOIndex": 148,
+		"isQuote": false
+	},
+	{
+		"txt": "Here e is known as the coefficient of restitution and ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3598,
+		"nouns": [
+			"e",
+			"coefficient",
+			"restitution"
+		],
+		"dOIndex": 149,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coefficient",
+			"restitution"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3599,
+		"nouns": [],
+		"dOIndex": 150,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "is a function of the colliding objects' material, construction, and geometry. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3600,
+		"nouns": [
+			"function",
+			"objects",
+			"construction",
+			"geometry"
+		],
+		"dOIndex": 151,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function",
+			"objects",
+			"construction",
+			"geometry"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.08333333333333333,
+			"words": [
+				"colliding"
+			],
+			"positive": [],
+			"negative": [
+				"colliding"
+			]
+		}
+	},
+	{
+		"txt": " This coefficient can be experimentally determined for specific impact scenarios for example, the collision between a baseball and bat, or a golf club and ball. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3601,
+		"nouns": [
+			"coefficient",
+			"impact",
+			"scenarios",
+			"example",
+			"collision",
+			"baseball",
+			"bat",
+			"golf",
+			"club",
+			"ball"
+		],
+		"dOIndex": 152,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coefficient",
+			"scenarios",
+			"example",
+			"collision",
+			"baseball"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"collision",
+				"determined"
+			],
+			"positive": [
+				"determined"
+			],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " For perfectly inelastic collisions, e is 0, and for perfectly elastic collisions, e is 1. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3602,
+		"nouns": [
+			"inelastic",
+			"collisions",
+			"e",
+			"collisions",
+			"e"
+		],
+		"dOIndex": 153,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"inelastic",
+			"collisions"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.11764705882352941,
+			"words": [
+				"collisions",
+				"perfectly",
+				"collisions",
+				"perfectly"
+			],
+			"positive": [
+				"perfectly",
+				"perfectly"
+			],
+			"negative": [
+				"collisions",
+				"collisions"
+			]
+		}
+	},
+	{
+		"txt": " For collisions that are neither perfectly inelastic nor perfectly elastic, e can be any value between 0 and 1. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3603,
+		"nouns": [
+			"collisions",
+			"inelastic",
+			"e",
+			"value"
+		],
+		"dOIndex": 154,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collisions",
+			"inelastic"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.19047619047619047,
+			"words": [
+				"perfectly",
+				"perfectly",
+				"collisions"
+			],
+			"positive": [
+				"perfectly",
+				"perfectly"
+			],
+			"negative": [
+				"collisions"
+			]
+		}
+	},
+	{
+		"txt": " In this regard, the velocities considered are along the line of action of the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3604,
+		"nouns": [
+			"regard",
+			"velocities",
+			"line",
+			"action"
+		],
+		"dOIndex": 155,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocities"
+		]
+	},
+	{
+		"txt": "collision.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3605,
+		"nouns": [
+			"collision"
+		],
+		"dOIndex": 156,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -2,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3606,
+		"nouns": [],
+		"dOIndex": 157,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3607,
+		"nouns": [],
+		"dOIndex": 158,
+		"isQuote": false
+	},
+	{
+		"txt": "In frictionless collisions, the line of action of impact is a line perpendicular (or normal) to the colliding surfaces. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3608,
+		"nouns": [
+			"collisions",
+			"line",
+			"action",
+			"impact",
+			"line",
+			"surfaces"
+		],
+		"dOIndex": 159,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collisions",
+			"surfaces"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.15,
+			"words": [
+				"colliding",
+				"collisions"
+			],
+			"positive": [],
+			"negative": [
+				"colliding",
+				"collisions"
+			]
+		}
+	},
+	{
+		"txt": " When the velocity of the bodies is along the line of action, the impact is said to be direct . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3609,
+		"nouns": [
+			"velocity",
+			"bodies",
+			"line",
+			"action",
+			"impact"
+		],
+		"dOIndex": 160,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity"
+		]
+	},
+	{
+		"txt": " ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3610,
+		"nouns": [],
+		"dOIndex": 161,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3611,
+		"nouns": [],
+		"dOIndex": 162,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "When the line of action passes through the center of mass of the bodies, the collision is said to ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3612,
+		"nouns": [
+			"line",
+			"action",
+			"center",
+			"mass",
+			"bodies",
+			"collision"
+		],
+		"dOIndex": 163,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.1,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3613,
+		"nouns": [],
+		"dOIndex": 164,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "be central . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3614,
+		"nouns": [],
+		"dOIndex": 165,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Particles and spheres of uniform mass distribution always experience central impact. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3615,
+		"nouns": [
+			"Particles",
+			"spheres",
+			"uniform",
+			"mass",
+			"distribution",
+			"experience",
+			"impact"
+		],
+		"dOIndex": 166,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Particles",
+			"spheres",
+			"uniform",
+			"distribution",
+			"experience"
+		]
+	},
+	{
+		"txt": " Direct central impact ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3616,
+		"nouns": [
+			"impact"
+		],
+		"dOIndex": 167,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Direct"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3617,
+		"nouns": [],
+		"dOIndex": 168,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "occurs when the line of action passes through the centers of mass of the colliding bodies and their velocity is along the line of action. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3618,
+		"nouns": [
+			"line",
+			"action",
+			"centers",
+			"mass",
+			"bodies",
+			"velocity",
+			"line",
+			"action"
+		],
+		"dOIndex": 169,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"centers",
+			"velocity"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.038461538461538464,
+			"words": [
+				"colliding"
+			],
+			"positive": [],
+			"negative": [
+				"colliding"
+			]
+		}
+	},
+	{
+		"txt": " When the velocities of the bodies are not along the line of action, the impact is said to ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3619,
+		"nouns": [
+			"velocities",
+			"bodies",
+			"line",
+			"action",
+			"impact"
+		],
+		"dOIndex": 170,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocities"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3620,
+		"nouns": [],
+		"dOIndex": 171,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "be oblique . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3621,
+		"nouns": [],
+		"dOIndex": 172,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " You can analyze oblique impacts in terms of component coordinates where the component parallel to the line of action experiences the impact, but the component perpendicular to the line of action does not. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3622,
+		"nouns": [
+			"impacts",
+			"terms",
+			"component",
+			"coordinates",
+			"component",
+			"line",
+			"action",
+			"experiences",
+			"impact",
+			"component",
+			"line",
+			"action"
+		],
+		"dOIndex": 173,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"impacts",
+			"component",
+			"coordinates",
+			"experiences"
+		],
+		"highfreq": {
+			"component": 3
+		}
+	},
+	{
+		"txt": " ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3623,
+		"nouns": [],
+		"dOIndex": 174,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 5 1",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3624,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 175,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " illustrates these impacts.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3625,
+		"nouns": [
+			"impacts"
+		],
+		"dOIndex": 176,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"impacts"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3626,
+		"nouns": [],
+		"dOIndex": 177,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3627,
+		"nouns": [],
+		"dOIndex": 178,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3628,
+		"nouns": [],
+		"dOIndex": 179,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3629,
+		"nouns": [],
+		"dOIndex": 180,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3630,
+		"nouns": [],
+		"dOIndex": 181,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 5 1. Types of impact",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3631,
+		"nouns": [
+			"Figure",
+			"Types",
+			"impact"
+		],
+		"dOIndex": 182,
+		"nouns2": [
+			"Figure"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3632,
+		"nouns": [],
+		"dOIndex": 183,
+		"isQuote": false
+	},
+	{
+		"txt": "As an example, consider the collision between two ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3633,
+		"nouns": [
+			"example",
+			"collision",
+			"two"
+		],
+		"dOIndex": 184,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"collision"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.2222222222222222,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3634,
+		"nouns": [],
+		"dOIndex": 185,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3635,
+		"nouns": [],
+		"dOIndex": 186,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "billiard balls illustrated in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3636,
+		"nouns": [
+			"billiard",
+			"balls"
+		],
+		"dOIndex": 187,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"billiard"
+		]
+	},
+	{
+		"txt": "Figure 5 2",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3637,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 188,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3638,
+		"nouns": [],
+		"dOIndex": 189,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3639,
+		"nouns": [],
+		"dOIndex": 190,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3640,
+		"nouns": [],
+		"dOIndex": 191,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3641,
+		"nouns": [],
+		"dOIndex": 192,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3642,
+		"nouns": [],
+		"dOIndex": 193,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3643,
+		"nouns": [],
+		"dOIndex": 194,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 5 2. Example billiard ball collision",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3644,
+		"nouns": [
+			"Figure",
+			"Example",
+			"billiard",
+			"ball",
+			"collision"
+		],
+		"dOIndex": 195,
+		"nouns2": [
+			"Figure",
+			"Example",
+			"billiard",
+			"collision"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.4,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3645,
+		"nouns": [],
+		"dOIndex": 196,
+		"isQuote": false
+	},
+	{
+		"txt": "Both balls are a standard 57 mm in diameter, and each weighs 156 grams. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3646,
+		"nouns": [
+			"balls",
+			"mm",
+			"diameter",
+			"grams"
+		],
+		"dOIndex": 197,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"diameter"
+		]
+	},
+	{
+		"txt": " Assume that the collision is nearly perfectly elastic and the coefficient of restitution is 0.9. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3647,
+		"nouns": [
+			"collision",
+			"coefficient",
+			"restitution"
+		],
+		"dOIndex": 198,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Assume",
+			"collision",
+			"coefficient",
+			"restitution"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.058823529411764705,
+			"words": [
+				"perfectly",
+				"collision"
+			],
+			"positive": [
+				"perfectly"
+			],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " If the velocity of ball 1 when it strikes ball 2 is 6 m/s in the x direction, as shown in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3648,
+		"nouns": [
+			"velocity",
+			"ball",
+			"strikes",
+			"ball",
+			"m",
+			"/",
+			"x",
+			"direction"
+		],
+		"dOIndex": 199,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity",
+			"strikes",
+			"direction"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.043478260869565216,
+			"words": [
+				"strikes"
+			],
+			"positive": [],
+			"negative": [
+				"strikes"
+			]
+		}
+	},
+	{
+		"txt": "Figure 5 2",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3649,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 200,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " , calculate the velocities of both balls after the collision assuming that this is a frictionless collision.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3650,
+		"nouns": [
+			"velocities",
+			"both",
+			"balls",
+			"collision",
+			"collision"
+		],
+		"dOIndex": 201,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocities",
+			"collision"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.2222222222222222,
+			"words": [
+				"collision",
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision",
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3651,
+		"nouns": [],
+		"dOIndex": 202,
+		"isQuote": false
+	},
+	{
+		"txt": "The first thing you need to do is recognize that the line of action of impact is along the line connecting the centers of gravity of both balls, which, since these are spheres, is also normal to both surfaces. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3652,
+		"nouns": [
+			"first",
+			"line",
+			"action",
+			"impact",
+			"line",
+			"centers",
+			"gravity",
+			"both",
+			"balls",
+			"are",
+			"spheres",
+			"both",
+			"surfaces"
+		],
+		"dOIndex": 203,
+		"nouns2": [
+			"centers",
+			"gravity",
+			"spheres",
+			"surfaces"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " You can then write the unit normal vector as follows:n = n = (0.866) i – (0.5)j",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3653,
+		"nouns": [
+			"unit",
+			"vector",
+			"n",
+			"n",
+			"–",
+			"j"
+		],
+		"dOIndex": 204,
+		"isQuote": false
+	},
+	{
+		"txt": "where n is the unit normal vector, r is the ball radius, and i and j represent unit vectors in the x  and y directions, respectively.",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3654,
+		"nouns": [
+			"n",
+			"unit",
+			"vector",
+			"r",
+			"ball",
+			"radius",
+			"j",
+			"unit",
+			"vectors",
+			"x",
+			"y",
+			"directions"
+		],
+		"dOIndex": 205,
+		"nouns2": [
+			"vectors",
+			"directions"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3655,
+		"nouns": [],
+		"dOIndex": 206,
+		"isQuote": false
+	},
+	{
+		"txt": "Now that you have the line of action of the collision, or the unit normal vector, you can calculate the relative normal velocity between the balls at the instant of collision.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3656,
+		"nouns": [
+			"line",
+			"action",
+			"collision",
+			"unit",
+			"vector",
+			"velocity",
+			"balls",
+			"instant",
+			"collision"
+		],
+		"dOIndex": 207,
+		"nouns2": [
+			"collision",
+			"velocity",
+			"instant"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.12903225806451613,
+			"words": [
+				"collision",
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision",
+				"collision"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "vrn = [v1– – v2–] • nvrn = [(6 m/s) i + (0 m/s) j ] • [ (0.864) i – (0.5) j]vrnlink https:",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3657,
+		"nouns": [
+			"vrn",
+			"[v",
+			"–",
+			"–",
+			"v",
+			"–]",
+			"•",
+			"nvrn",
+			"m",
+			"/",
+			"m",
+			"/",
+			"j",
+			"•",
+			"–",
+			"j]vrnlink",
+			"https"
+		],
+		"dOIndex": 208,
+		"nouns2": [
+			"j]vrnlink"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "This will be used as v1n– in the following equations. ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3658,
+		"nouns": [
+			"v",
+			"n–",
+			"equations"
+		],
+		"dOIndex": 209,
+		"nouns2": [
+			"equations"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " Notice here that since ball 2 is initially at rest, v2– is 0.",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3659,
+		"nouns": [
+			"Notice",
+			"ball",
+			"rest",
+			"v",
+			"–"
+		],
+		"dOIndex": 210,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Notice"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3660,
+		"nouns": [],
+		"dOIndex": 211,
+		"isQuote": false
+	},
+	{
+		"txt": "Now you can apply the principle of conservation of momentum in the normal direction as follows:m1 v1n– + m2 v2n– = m1 v1n+ + m2 v2n+",
+		"why": "p",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3661,
+		"nouns": [
+			"principle",
+			"conservation",
+			"momentum",
+			"direction",
+			"m",
+			"v",
+			"n–",
+			"m",
+			"v",
+			"n–",
+			"m",
+			"v",
+			"n+",
+			"m",
+			"v",
+			"n+"
+		],
+		"dOIndex": 212,
+		"nouns2": [
+			"principle",
+			"conservation",
+			"momentum",
+			"direction"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Noting that m1 equals m2 since the balls are identical, and that v2n– is 0, and then solving for v1n+ yields:v1n+ = v1n– – v2n+",
+		"why": "p",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3662,
+		"nouns": [
+			"m",
+			"m",
+			"balls",
+			"v",
+			"n–",
+			"v",
+			"n+",
+			"yields",
+			"v",
+			"n+",
+			"v",
+			"n–",
+			"–",
+			"v",
+			"n+"
+		],
+		"dOIndex": 213,
+		"nouns2": [
+			"Noting"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.04,
+			"words": [
+				"solving"
+			],
+			"positive": [
+				"solving"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "To actually solve for these velocities, you need to use the equation for coefficient of restitution and make the substitution for v1n+ . ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3663,
+		"nouns": [
+			"velocities",
+			"use",
+			"equation",
+			"coefficient",
+			"restitution",
+			"substitution",
+			"v",
+			"n+"
+		],
+		"dOIndex": 214,
+		"nouns2": [
+			"velocities",
+			"equation",
+			"coefficient",
+			"restitution",
+			"substitution"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.041666666666666664,
+			"words": [
+				"solve"
+			],
+			"positive": [
+				"solve"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " Then, you'll be able to solve for v2n+ . ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3664,
+		"nouns": [
+			"ll",
+			"v",
+			"n+"
+		],
+		"dOIndex": 215,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.09090909090909091,
+			"words": [
+				"solve"
+			],
+			"positive": [
+				"solve"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Here's how to proceed:e = (–v1n+ + v2n+) / (v1n– – v2n–)e v1n– = –(v1n– – v2n+) + v2n+v2n+ = v1n– (e + 1) / 2v2n+link https:",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3665,
+		"nouns": [
+			"e",
+			"–v",
+			"n+",
+			"v",
+			"n+",
+			"/",
+			"v",
+			"n–",
+			"–",
+			"v",
+			"n–",
+			"e",
+			"v",
+			"n–",
+			"–",
+			"v",
+			"n–",
+			"–",
+			"v",
+			"n+",
+			"v",
+			"n+v",
+			"n+",
+			"v",
+			"n–",
+			"e",
+			"/",
+			"v",
+			"n+link",
+			"https"
+		],
+		"dOIndex": 216,
+		"isQuote": false
+	},
+	{
+		"txt": "Using this result and the formula for v1n+ yields:v1n+link https:",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3666,
+		"nouns": [
+			"result",
+			"formula",
+			"v",
+			"n+",
+			"yields",
+			"v",
+			"n+link",
+			"https"
+		],
+		"dOIndex": 217,
+		"nouns2": [
+			"formula"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Since the collision is frictionless, there is no impulse acting in the tangential direction. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3667,
+		"nouns": [
+			"collision",
+			"impulse",
+			"direction"
+		],
+		"dOIndex": 218,
+		"nouns2": [
+			"collision",
+			"impulse",
+			"direction"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.2,
+			"words": [
+				"no",
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"no",
+				"collision"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " This means that momentum is conserved in that direction too and that the final tangential speed of ball 1 is equal to its initial tangential speed, which in this case is equal to 3 m/s (this equals (6m/s) sin 30°). ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3668,
+		"nouns": [
+			"momentum",
+			"direction",
+			"ball",
+			"case",
+			"m",
+			"/",
+			"m",
+			"/",
+			"sin",
+			"°"
+		],
+		"dOIndex": 219,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"momentum",
+			"direction"
+		],
+		"highfreq": {
+			"that": 3
+		},
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.047619047619047616,
+			"words": [
+				"sin"
+			],
+			"positive": [],
+			"negative": [
+				"sin"
+			]
+		}
+	},
+	{
+		"txt": " Since ball 2 had no initial tangential speed, its velocity after impact is solely in the normal direction. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3669,
+		"nouns": [
+			"ball",
+			"velocity",
+			"impact",
+			"direction"
+		],
+		"dOIndex": 220,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity",
+			"direction"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.05,
+			"words": [
+				"no"
+			],
+			"positive": [],
+			"negative": [
+				"no"
+			]
+		}
+	},
+	{
+		"txt": " Converting these results back to x y coordinates instead of normal and tangential coordinates yields the following velocities for each ball after impact:v2+link https:ilink https:jv1+link https:i +link https:jv1+link https:ilink https:j",
+		"why": "p",
+		"tags": [
+			"strong",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3670,
+		"nouns": [
+			"results",
+			"x y",
+			"coordinates",
+			"coordinates",
+			"yields",
+			"velocities",
+			"ball",
+			"impact",
+			"v",
+			"+link",
+			"https",
+			"ilink",
+			"https",
+			"jv",
+			"+link",
+			"https",
+			"+link",
+			"https",
+			"jv",
+			"+link",
+			"https",
+			"ilink",
+			"https",
+			"j"
+		],
+		"dOIndex": 221,
+		"nouns2": [
+			"Converting",
+			"results",
+			"coordinates",
+			"velocities"
+		],
+		"highfreq": {
+			"+link": 4,
+			"https": 6
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "To further ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3671,
+		"nouns": [],
+		"dOIndex": 222,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3672,
+		"nouns": [],
+		"dOIndex": 223,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3673,
+		"nouns": [],
+		"dOIndex": 224,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "illustrate the application of these collision response principles, consider another example, this time the collision between a ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3674,
+		"nouns": [
+			"application",
+			"collision",
+			"response",
+			"principles",
+			"example",
+			"time",
+			"collision"
+		],
+		"dOIndex": 225,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"application",
+			"collision",
+			"response",
+			"principles",
+			"example"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.2222222222222222,
+			"words": [
+				"collision",
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision",
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3675,
+		"nouns": [],
+		"dOIndex": 226,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3676,
+		"nouns": [],
+		"dOIndex": 227,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "baseball bat and baseball (as shown in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3677,
+		"nouns": [
+			"baseball",
+			"bat",
+			"baseball"
+		],
+		"dOIndex": 228,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"baseball"
+		]
+	},
+	{
+		"txt": "Figure 5 3",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3678,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 229,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " ). ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3679,
+		"nouns": [],
+		"dOIndex": 230,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " We are looking at a side view, staring down the barrel of the bat.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3680,
+		"nouns": [
+			"side",
+			"view",
+			"barrel",
+			"bat"
+		],
+		"dOIndex": 231,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3681,
+		"nouns": [],
+		"dOIndex": 232,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3682,
+		"nouns": [],
+		"dOIndex": 233,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3683,
+		"nouns": [],
+		"dOIndex": 234,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3684,
+		"nouns": [],
+		"dOIndex": 235,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3685,
+		"nouns": [],
+		"dOIndex": 236,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 5 3. Example baseball and bat collision",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3686,
+		"nouns": [
+			"Figure",
+			"Example",
+			"baseball",
+			"bat",
+			"collision"
+		],
+		"dOIndex": 237,
+		"nouns2": [
+			"Figure",
+			"Example",
+			"baseball",
+			"collision"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.3333333333333333,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3687,
+		"nouns": [],
+		"dOIndex": 238,
+		"isQuote": false
+	},
+	{
+		"txt": "To a reasonable degree of accuracy, the motion of a baseball bat at the instant of collision can generally be described as independent of the batter in other words, you can assume that the bat is moving freely and pivoting about a point located near the handle end of the bat. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3688,
+		"nouns": [
+			"degree",
+			"accuracy",
+			"motion",
+			"baseball",
+			"bat",
+			"instant",
+			"collision",
+			"batter",
+			"words",
+			"bat",
+			"point",
+			"handle",
+			"end",
+			"bat"
+		],
+		"dOIndex": 239,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"accuracy",
+			"baseball",
+			"instant",
+			"collision"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.038461538461538464,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " Assume that the ball strikes the bat on the sweet spot that is, a point near the",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3689,
+		"nouns": [
+			"ball",
+			"strikes",
+			"bat",
+			"spot",
+			"point"
+		],
+		"dOIndex": 240,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Assume",
+			"strikes"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.05555555555555555,
+			"words": [
+				"sweet",
+				"strikes"
+			],
+			"positive": [
+				"sweet"
+			],
+			"negative": [
+				"strikes"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3690,
+		"nouns": [],
+		"dOIndex": 241,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " center of percussion.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3691,
+		"nouns": [
+			"center",
+			"percussion"
+		],
+		"dOIndex": 242,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"percussion"
+		]
+	},
+	{
+		"txt": "[",
+		"why": "link",
+		"tags": [
+			"sup",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3692,
+		"nouns": [],
+		"dOIndex": 243,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "14",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3693,
+		"nouns": [],
+		"dOIndex": 244,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " ] Further assume that the bat is swung in the horizontal plane and that the baseball is traveling in the horizontal plane when it strikes the bat. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3694,
+		"nouns": [
+			"bat",
+			"plane",
+			"baseball",
+			"plane",
+			"strikes",
+			"bat"
+		],
+		"dOIndex": 245,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Further",
+			"baseball",
+			"strikes"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.034482758620689655,
+			"words": [
+				"strikes"
+			],
+			"positive": [],
+			"negative": [
+				"strikes"
+			]
+		}
+	},
+	{
+		"txt": " The bat is of standard dimensions with a maximum diameter of 70 mm and a weight of 1.02 kg. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3695,
+		"nouns": [
+			"bat",
+			"dimensions",
+			"diameter",
+			"mm",
+			"weight",
+			"kg"
+		],
+		"dOIndex": 246,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"dimensions",
+			"diameter"
+		]
+	},
+	{
+		"txt": " The ball is also of standard dimensions with a radius of 37 mm and a weight of 0.15 kg. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3696,
+		"nouns": [
+			"ball",
+			"dimensions",
+			"radius",
+			"mm",
+			"weight",
+			"kg"
+		],
+		"dOIndex": 247,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"dimensions"
+		]
+	},
+	{
+		"txt": " The ball reaches a speed of 40 m/s (90 mph) at the instant it strikes the bat, and the speed of the bat at the point of impact is 31 m/s (70 mph). ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3697,
+		"nouns": [
+			"ball",
+			"m",
+			"/",
+			"mph",
+			"instant",
+			"strikes",
+			"bat",
+			"bat",
+			"point",
+			"impact",
+			"m",
+			"/",
+			"mph"
+		],
+		"dOIndex": 248,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"instant",
+			"strikes"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"strikes",
+				"reaches"
+			],
+			"positive": [
+				"reaches"
+			],
+			"negative": [
+				"strikes"
+			]
+		}
+	},
+	{
+		"txt": " For this collision, the coefficient of restitution is 0.46. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3698,
+		"nouns": [
+			"collision",
+			"coefficient",
+			"restitution"
+		],
+		"dOIndex": 249,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"coefficient",
+			"restitution"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.18181818181818182,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " In the millisecond of impact that occurs, the baseball compresses quite a bit; however, in this analysis assume that both the bat and the ball are rigid. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3699,
+		"nouns": [
+			"millisecond",
+			"impact",
+			"baseball",
+			"compresses",
+			"bit",
+			"analysis",
+			"both",
+			"bat",
+			"ball"
+		],
+		"dOIndex": 250,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"millisecond",
+			"baseball",
+			"compresses",
+			"analysis"
+		]
+	},
+	{
+		"txt": " Finally, assume that this impact is frictionless.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3700,
+		"nouns": [
+			"impact"
+		],
+		"dOIndex": 251,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Finally"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3701,
+		"nouns": [],
+		"dOIndex": 252,
+		"isQuote": false
+	},
+	{
+		"txt": "As in the previous example, the line of action of impact is along the line connecting the ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3702,
+		"nouns": [
+			"example",
+			"line",
+			"action",
+			"impact",
+			"line"
+		],
+		"dOIndex": 253,
+		"nouns2": [
+			"example"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3703,
+		"nouns": [],
+		"dOIndex": 254,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "centers of gravity of the bat and ball; thus, the unit normal vector is:n = n = (0.875) i + (0.484) j",
+		"why": "p",
+		"tags": [
+			"strong",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3704,
+		"nouns": [
+			"centers",
+			"gravity",
+			"bat",
+			"ball",
+			"unit",
+			"vector",
+			"n",
+			"n",
+			"j"
+		],
+		"dOIndex": 255,
+		"nouns2": [
+			"centers",
+			"gravity"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3705,
+		"nouns": [],
+		"dOIndex": 256,
+		"isQuote": false
+	},
+	{
+		"txt": "Here the subscripts 1 and 2 denote the bat and ball, respectively.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3706,
+		"nouns": [
+			"subscripts",
+			"bat",
+			"ball"
+		],
+		"dOIndex": 257,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"subscripts"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3707,
+		"nouns": [],
+		"dOIndex": 258,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3708,
+		"nouns": [],
+		"dOIndex": 259,
+		"isQuote": false
+	},
+	{
+		"txt": "The relative normal velocity between the bat and ball is:vrn = [v1− − v2−] • nvrn = [(71 m/s) i + (0 m/s) j ] • [ (0.875) i − (0.484) j]vrnlink https:",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3709,
+		"nouns": [
+			"velocity",
+			"bat",
+			"ball",
+			"vrn",
+			"[v",
+			"−",
+			"−",
+			"v",
+			"−]",
+			"•",
+			"nvrn",
+			"m",
+			"/",
+			"m",
+			"/",
+			"j",
+			"•",
+			"−",
+			"j]vrnlink",
+			"https"
+		],
+		"dOIndex": 260,
+		"nouns2": [
+			"velocity",
+			"j]vrnlink"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3710,
+		"nouns": [],
+		"dOIndex": 261,
+		"isQuote": false
+	},
+	{
+		"txt": "The velocity components of the bat and ball in the normal direction are:v1n− = v1− • nlink https:v2n− = v2− • nlink https:",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3711,
+		"nouns": [
+			"velocity",
+			"components",
+			"bat",
+			"ball",
+			"direction",
+			"v",
+			"n−",
+			"v",
+			"−",
+			"•",
+			"nlink",
+			"https",
+			"v",
+			"n−",
+			"v",
+			"−",
+			"•",
+			"nlink",
+			"https"
+		],
+		"dOIndex": 262,
+		"nouns2": [
+			"velocity",
+			"components",
+			"direction"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3712,
+		"nouns": [],
+		"dOIndex": 263,
+		"isQuote": false
+	},
+	{
+		"txt": "Applying the principle of conservation of momentum ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3713,
+		"nouns": [
+			"principle",
+			"conservation",
+			"momentum"
+		],
+		"dOIndex": 264,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Applying",
+			"principle",
+			"conservation",
+			"momentum"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3714,
+		"nouns": [],
+		"dOIndex": 265,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3715,
+		"nouns": [],
+		"dOIndex": 266,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3716,
+		"nouns": [],
+		"dOIndex": 267,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3717,
+		"nouns": [],
+		"dOIndex": 268,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3718,
+		"nouns": [],
+		"dOIndex": 269,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "in the normal direction and solving for v1n+ yields:m1 v1n− + m2 v2n− = m1 v1n+ + m2 v2n+link https:=(1.02 kg) v1n+ + (0.15 kg) v2n+v1n+link https:2n+",
+		"why": "p",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3719,
+		"nouns": [
+			"direction",
+			"v",
+			"n+",
+			"yields",
+			"m",
+			"v",
+			"n−",
+			"m",
+			"v",
+			"n−",
+			"m",
+			"v",
+			"n+",
+			"m",
+			"v",
+			"n+link",
+			"https",
+			"kg",
+			"v",
+			"n+",
+			"kg",
+			"v",
+			"n+v",
+			"n+link",
+			"https",
+			"n+"
+		],
+		"dOIndex": 270,
+		"nouns2": [
+			"direction"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.037037037037037035,
+			"words": [
+				"solving"
+			],
+			"positive": [
+				"solving"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3720,
+		"nouns": [],
+		"dOIndex": 271,
+		"isQuote": false
+	},
+	{
+		"txt": "As in the previous example, applying the formula for coefficient of restitution",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3721,
+		"nouns": [
+			"example",
+			"formula",
+			"coefficient",
+			"restitution"
+		],
+		"dOIndex": 272,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"formula",
+			"coefficient",
+			"restitution"
+		]
+	},
+	{
+		"txt": " with the preceding formula for v1n+ yields:e = (−v1n+ + v2n+) / (v1n− − v2n−)link https:2n+ + v2n+link https:v2n+link https:and v1n+link https:",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3722,
+		"nouns": [
+			"formula",
+			"v",
+			"n+",
+			"yields",
+			"e",
+			"−v",
+			"n+",
+			"v",
+			"n+",
+			"/",
+			"v",
+			"n−",
+			"−",
+			"v",
+			"n−",
+			"link",
+			"https",
+			"n+",
+			"v",
+			"n+link",
+			"https",
+			"v",
+			"n+link",
+			"https",
+			"v",
+			"n+link",
+			"https"
+		],
+		"dOIndex": 273,
+		"nouns2": [
+			"formula"
+		],
+		"highfreq": {
+			"https": 4,
+			"n+link": 3
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 3723,
+		"nouns": [],
+		"dOIndex": 274,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3724,
+		"nouns": [],
+		"dOIndex": 275,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Here again, since this impact is frictionless, each object retains its original ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3725,
+		"nouns": [
+			"impact",
+			"object"
+		],
+		"dOIndex": 276,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3726,
+		"nouns": [],
+		"dOIndex": 277,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "tangential velocity component. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3727,
+		"nouns": [
+			"velocity",
+			"component"
+		],
+		"dOIndex": 278,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity",
+			"component"
+		]
+	},
+	{
+		"txt": " For the bat, this component is 15 m/s, while for the ball it's −19.3 m/s. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3728,
+		"nouns": [
+			"bat",
+			"component",
+			"m",
+			"/",
+			"ball",
+			"−",
+			"m",
+			"/"
+		],
+		"dOIndex": 279,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"component"
+		]
+	},
+	{
+		"txt": " Converting these normal and tangential components to x y coordinates yields the following bat and ball velocities for the instant just after impact:v1+link https:ilink https:jv2+ = 30 m/s ilink https:j",
+		"why": "p",
+		"tags": [
+			"strong",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3729,
+		"nouns": [
+			"components",
+			"x y",
+			"coordinates",
+			"yields",
+			"bat",
+			"ball",
+			"velocities",
+			"instant",
+			"impact",
+			"v",
+			"+link",
+			"https",
+			"ilink",
+			"https",
+			"jv",
+			"m",
+			"/",
+			"ilink",
+			"https",
+			"j"
+		],
+		"dOIndex": 280,
+		"nouns2": [
+			"Converting",
+			"components",
+			"coordinates",
+			"velocities",
+			"instant"
+		],
+		"highfreq": {
+			"https": 3
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3730,
+		"nouns": [],
+		"dOIndex": 281,
+		"isQuote": false
+	},
+	{
+		"txt": "Both of these examples illustrate fundamental impact analysis using the classical approach. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3731,
+		"nouns": [
+			"examples",
+			"impact",
+			"analysis",
+			"approach"
+		],
+		"dOIndex": 282,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"examples",
+			"analysis",
+			"approach"
+		]
+	},
+	{
+		"txt": " They also share an important assumption that the impacts are frictionless. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3732,
+		"nouns": [
+			"share",
+			"assumption",
+			"impacts"
+		],
+		"dOIndex": 283,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"assumption",
+			"impacts"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.23076923076923078,
+			"words": [
+				"important",
+				"share"
+			],
+			"positive": [
+				"important",
+				"share"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " In reality, you know that billiard balls and baseballs and bats collide with friction; otherwise, you would not be able to apply English in billiards or create lift generating spin on baseballs. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3733,
+		"nouns": [
+			"reality",
+			"billiard",
+			"balls",
+			"baseballs",
+			"bats",
+			"collide",
+			"friction",
+			"English",
+			"billiards",
+			"baseballs"
+		],
+		"dOIndex": 284,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"reality",
+			"billiard",
+			"baseballs",
+			"collide",
+			"friction",
+			"English",
+			"billiards"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.029411764705882353,
+			"words": [
+				"collide"
+			],
+			"positive": [],
+			"negative": [
+				"collide"
+			]
+		}
+	},
+	{
+		"txt": " Later in this chapter we'll discuss how to include friction in your impact",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3734,
+		"nouns": [
+			"chapter",
+			"ll",
+			"friction",
+			"impact"
+		],
+		"dOIndex": 285,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"chapter",
+			"friction"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3735,
+		"nouns": [],
+		"dOIndex": 286,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3736,
+		"nouns": [],
+		"dOIndex": 287,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3737,
+		"nouns": [],
+		"dOIndex": 288,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3738,
+		"nouns": [],
+		"dOIndex": 289,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3739,
+		"nouns": [],
+		"dOIndex": 290,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " analysis.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3740,
+		"nouns": [
+			"analysis"
+		],
+		"dOIndex": 291,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"analysis"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3741,
+		"nouns": [],
+		"dOIndex": 292,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3742,
+		"nouns": [],
+		"dOIndex": 293,
+		"isQuote": false
+	},
+	{
+		"txt": "Linear and Angular Impulse",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3743,
+		"nouns": [
+			"Linear",
+			"Impulse"
+		],
+		"dOIndex": 294,
+		"nouns2": [
+			"Linear",
+			"Angular",
+			"Impulse"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3744,
+		"nouns": [],
+		"dOIndex": 295,
+		"isQuote": false
+	},
+	{
+		"txt": "In the previous ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3745,
+		"nouns": [],
+		"dOIndex": 296,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3746,
+		"nouns": [],
+		"dOIndex": 297,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3747,
+		"nouns": [],
+		"dOIndex": 298,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3748,
+		"nouns": [],
+		"dOIndex": 299,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3749,
+		"nouns": [],
+		"dOIndex": 300,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3750,
+		"nouns": [],
+		"dOIndex": 301,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "section, you were able to work through the specific examples by hand using the principle of conservation of momentum and the coefficient of restitution. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3751,
+		"nouns": [
+			"section",
+			"work",
+			"examples",
+			"hand",
+			"principle",
+			"conservation",
+			"momentum",
+			"coefficient",
+			"restitution"
+		],
+		"dOIndex": 302,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"section",
+			"examples",
+			"principle",
+			"conservation",
+			"momentum",
+			"coefficient",
+			"restitution"
+		]
+	},
+	{
+		"txt": " This approach will suffice if you're writing games where the collision events are well defined and anticipated. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3752,
+		"nouns": [
+			"approach",
+			"re",
+			"games",
+			"collision",
+			"events"
+		],
+		"dOIndex": 303,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"approach",
+			"collision"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.10526315789473684,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " However, if you're writing a real time simulation where objects, especially arbitrarily shaped rigid bodies, may or may not collide, then you'll want to use a more general approach. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3753,
+		"nouns": [
+			"re",
+			"time",
+			"simulation",
+			"objects",
+			"bodies",
+			"collide",
+			"ll",
+			"use",
+			"approach"
+		],
+		"dOIndex": 304,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"simulation",
+			"objects",
+			"collide",
+			"approach"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.06451612903225806,
+			"words": [
+				"want",
+				"collide"
+			],
+			"positive": [
+				"want",
+				"collide"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " This approach involves the use of formulas to calculate the actual impulse between colliding objects so that you can apply this impulse to each object, instantly changing its velocity. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3754,
+		"nouns": [
+			"approach",
+			"use",
+			"formulas",
+			"impulse",
+			"objects",
+			"impulse",
+			"object",
+			"velocity"
+		],
+		"dOIndex": 305,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"approach",
+			"formulas",
+			"impulse",
+			"objects",
+			"velocity"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.03225806451612903,
+			"words": [
+				"colliding"
+			],
+			"positive": [],
+			"negative": [
+				"colliding"
+			]
+		}
+	},
+	{
+		"txt": " In this section, we'll derive the equations for impulse, both linear and angular, and we'll show you how to implement these equations in code in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3755,
+		"nouns": [
+			"section",
+			"ll",
+			"equations",
+			"impulse",
+			"both",
+			"ll",
+			"show",
+			"equations",
+			"code"
+		],
+		"dOIndex": 306,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"section",
+			"equations",
+			"impulse"
+		]
+	},
+	{
+		"txt": "Chapter 10",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3756,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 307,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3757,
+		"nouns": [],
+		"dOIndex": 308,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3758,
+		"nouns": [],
+		"dOIndex": 309,
+		"isQuote": false
+	},
+	{
+		"txt": "When you're dealing with particles or spheres, the only impulse formula that you'll need is that for linear impulse, which will allow you to calculate the new linear velocities of the objects after impact. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3759,
+		"nouns": [
+			"re",
+			"particles",
+			"spheres",
+			"impulse",
+			"formula",
+			"ll",
+			"impulse",
+			"velocities",
+			"objects",
+			"impact"
+		],
+		"dOIndex": 310,
+		"nouns2": [
+			"particles",
+			"spheres",
+			"impulse",
+			"formula",
+			"velocities",
+			"objects"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.02857142857142857,
+			"words": [
+				"allow"
+			],
+			"positive": [
+				"allow"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " So, the first formula that we'll derive for you is that for linear impulse between two colliding objects, as shown in ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3760,
+		"nouns": [
+			"first",
+			"formula",
+			"ll",
+			"impulse",
+			"two",
+			"objects"
+		],
+		"dOIndex": 311,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"formula",
+			"impulse",
+			"objects"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.043478260869565216,
+			"words": [
+				"colliding"
+			],
+			"positive": [],
+			"negative": [
+				"colliding"
+			]
+		}
+	},
+	{
+		"txt": "Figure 5 4",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3761,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 312,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3762,
+		"nouns": [],
+		"dOIndex": 313,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3763,
+		"nouns": [],
+		"dOIndex": 314,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3764,
+		"nouns": [],
+		"dOIndex": 315,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3765,
+		"nouns": [],
+		"dOIndex": 316,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3766,
+		"nouns": [],
+		"dOIndex": 317,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3767,
+		"nouns": [],
+		"dOIndex": 318,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 5 4. Two colliding particles (or spheres)",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3768,
+		"nouns": [
+			"Figure",
+			"Two",
+			"particles",
+			"spheres"
+		],
+		"dOIndex": 319,
+		"nouns2": [
+			"Figure",
+			"particles",
+			"spheres"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.16666666666666666,
+			"words": [
+				"colliding"
+			],
+			"positive": [],
+			"negative": [
+				"colliding"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3769,
+		"nouns": [],
+		"dOIndex": 320,
+		"isQuote": false
+	},
+	{
+		"txt": "For now, assume the collision is frictionless and the line of action of the impulse is along the line connecting the centers of mass of the two objects. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3770,
+		"nouns": [
+			"collision",
+			"line",
+			"action",
+			"impulse",
+			"line",
+			"centers",
+			"mass",
+			"two",
+			"objects"
+		],
+		"dOIndex": 321,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"impulse",
+			"centers",
+			"objects"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.06896551724137931,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " This line is normal to the surfaces of both objects.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3771,
+		"nouns": [
+			"line",
+			"surfaces",
+			"both",
+			"objects"
+		],
+		"dOIndex": 322,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"surfaces",
+			"objects"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3772,
+		"nouns": [],
+		"dOIndex": 323,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3773,
+		"nouns": [],
+		"dOIndex": 324,
+		"isQuote": false
+	},
+	{
+		"txt": "To derive the formula for linear impulse, you have to consider the formula from the definition of impulse along with the formula for coefficient of restitution. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3774,
+		"nouns": [
+			"formula",
+			"impulse",
+			"formula",
+			"definition",
+			"impulse",
+			"formula",
+			"coefficient",
+			"restitution"
+		],
+		"dOIndex": 325,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"formula",
+			"impulse",
+			"definition",
+			"coefficient",
+			"restitution"
+		],
+		"highfreq": {
+			"formula": 3
+		}
+	},
+	{
+		"txt": " Here let J represent the impulse:|J| = m (|v+| − |v−|)e = −(|v1+| − |v2+|)/(|v1−| − |v2−|)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3775,
+		"nouns": [
+			"J",
+			"impulse",
+			"|J|",
+			"m",
+			"|v+|",
+			"−",
+			"|v−|",
+			"e",
+			"−",
+			"|v",
+			"+|",
+			"−",
+			"|v",
+			"+|",
+			"/",
+			"|v",
+			"−|",
+			"−",
+			"|v",
+			"−|"
+		],
+		"dOIndex": 326,
+		"nouns2": [
+			"impulse"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3776,
+		"nouns": [],
+		"dOIndex": 327,
+		"isQuote": false
+	},
+	{
+		"txt": "In these equations the velocities are those along the line of action of the impact, which in this case is a line connecting the centers of mass of the two objects. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3777,
+		"nouns": [
+			"equations",
+			"velocities",
+			"line",
+			"action",
+			"impact",
+			"case",
+			"line",
+			"centers",
+			"mass",
+			"two",
+			"objects"
+		],
+		"dOIndex": 328,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equations",
+			"velocities",
+			"centers",
+			"objects"
+		]
+	},
+	{
+		"txt": " Since the same impulse applies to each object (just in opposite directions), you actually have three equations to deal with:|J| = m1 (|v1+| − |v1−|)|−J| = m2 (|v2+| − |v2−|)e = −(|v1+|− |v2+|)/(|v1−| − |v2 |)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3778,
+		"nouns": [
+			"impulse",
+			"object",
+			"directions",
+			"three",
+			"equations",
+			"|J|",
+			"m",
+			"|v",
+			"+|",
+			"−",
+			"|v",
+			"−|",
+			"|−J|",
+			"m",
+			"|v",
+			"+|",
+			"−",
+			"|v",
+			"−|",
+			"e",
+			"−",
+			"|v",
+			"+|−",
+			"|v",
+			"+|",
+			"/",
+			"|v",
+			"−|",
+			"−",
+			"|v",
+			"|"
+		],
+		"dOIndex": 329,
+		"nouns2": [
+			"impulse",
+			"directions",
+			"equations"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3779,
+		"nouns": [],
+		"dOIndex": 330,
+		"isQuote": false
+	},
+	{
+		"txt": "Notice we've assumed that J acts positively on body 1 and its negation, –J , acts on body 2. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3780,
+		"nouns": [
+			"Notice",
+			"ve",
+			"J",
+			"acts",
+			"body",
+			"negation",
+			"–J",
+			"acts",
+			"body"
+		],
+		"dOIndex": 331,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Notice",
+			"negation"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.1,
+			"words": [
+				"positively"
+			],
+			"positive": [
+				"positively"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Also notice that there are three unknowns in these equations: the impulse and the velocities of both bodies after the impact. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3781,
+		"nouns": [
+			"notice",
+			"three",
+			"unknowns",
+			"equations",
+			"impulse",
+			"velocities",
+			"both",
+			"bodies",
+			"impact"
+		],
+		"dOIndex": 332,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"unknowns",
+			"equations",
+			"impulse",
+			"velocities"
+		]
+	},
+	{
+		"txt": " Since there are three equations and three unknowns, you can solve for each unknown by rearranging the two impulse equations and substituting them into the equation for e . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3782,
+		"nouns": [
+			"three",
+			"equations",
+			"three",
+			"unknowns",
+			"two",
+			"impulse",
+			"equations",
+			"equation",
+			"e"
+		],
+		"dOIndex": 333,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equations",
+			"unknowns",
+			"impulse",
+			"equation"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.03225806451612903,
+			"words": [
+				"solve"
+			],
+			"positive": [
+				"solve"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " After some algebra, you'll end up with a formula for J that you can then use to determine the velocities of each body just after impact. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3783,
+		"nouns": [
+			"algebra",
+			"ll",
+			"end",
+			"formula",
+			"J",
+			"use",
+			"velocities",
+			"body",
+			"impact"
+		],
+		"dOIndex": 334,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"algebra",
+			"formula",
+			"velocities"
+		]
+	},
+	{
+		"txt": " Here's how that's done:For body 1: |v1+| = |J|/m1 + |v1–|For body 2: |v2+| = –|J|/m2 + |v2–|",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3784,
+		"nouns": [
+			"body",
+			"|v",
+			"+|",
+			"|J|",
+			"/",
+			"m",
+			"|v",
+			"–|For",
+			"body",
+			"|v",
+			"+|",
+			"–|J|",
+			"/",
+			"m",
+			"|v",
+			"–|"
+		],
+		"dOIndex": 335,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3785,
+		"nouns": [],
+		"dOIndex": 336,
+		"isQuote": false
+	},
+	{
+		"txt": "Substituting |v1+| and |v2+| into the equation for e yields:e (|v1–| – |v2–|) = –[( |J|/m1 + |v1–|) – (–|J|/m2 + |v2–|)]e (|v1 | – |v2–|) + |v1–| – |v2–| = –J (1/m1 + 1/m2)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3786,
+		"nouns": [
+			"|v",
+			"+|",
+			"|v",
+			"+|",
+			"equation",
+			"e",
+			"yields",
+			"e",
+			"|v",
+			"–|",
+			"–",
+			"|v",
+			"–|",
+			"–[",
+			"|J|",
+			"/",
+			"m",
+			"|v",
+			"–|",
+			"–",
+			"–|J|",
+			"/",
+			"m",
+			"|v",
+			"–|",
+			"]e",
+			"|v",
+			"|",
+			"–",
+			"|v",
+			"–|",
+			"|v",
+			"–|",
+			"–",
+			"|v",
+			"–|",
+			"–J",
+			"/",
+			"m",
+			"/",
+			"m"
+		],
+		"dOIndex": 337,
+		"nouns2": [
+			"Substituting",
+			"equation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3787,
+		"nouns": [],
+		"dOIndex": 338,
+		"isQuote": false
+	},
+	{
+		"txt": "Let |vr| = (|v1–| – |v2–|); then:e |vr| + |vr| = –|J| (1/m1 + 1/m2)|J| = –|vr|(e + 1)/(1/m1 + 1/m2)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3788,
+		"nouns": [
+			"|vr|",
+			"|v",
+			"–|",
+			"–",
+			"|v",
+			"–|",
+			"e",
+			"|vr|",
+			"|vr|",
+			"–|J|",
+			"/",
+			"m",
+			"/",
+			"m",
+			"|J|",
+			"–|vr|",
+			"e",
+			"/",
+			"/",
+			"m",
+			"/",
+			"m"
+		],
+		"dOIndex": 339,
+		"highfreq": {
+			"|vr|": 3
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3789,
+		"nouns": [],
+		"dOIndex": 340,
+		"isQuote": false
+	},
+	{
+		"txt": "Since the line of action is normal to the colliding surfaces, vr is the relative velocity along the line of action of impact, and J acts along the line of action of impact, which in this case is normal to the surfaces, as we've already stated.",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3790,
+		"nouns": [
+			"line",
+			"action",
+			"surfaces",
+			"vr",
+			"velocity",
+			"line",
+			"action",
+			"impact",
+			"J",
+			"acts",
+			"line",
+			"action",
+			"impact",
+			"case",
+			"surfaces",
+			"ve"
+		],
+		"dOIndex": 341,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"surfaces",
+			"velocity"
+		],
+		"highfreq": {
+			"line": 3,
+			"action": 3
+		},
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.021739130434782608,
+			"words": [
+				"colliding"
+			],
+			"positive": [],
+			"negative": [
+				"colliding"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3791,
+		"nouns": [],
+		"dOIndex": 342,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3792,
+		"nouns": [],
+		"dOIndex": 343,
+		"isQuote": false
+	},
+	{
+		"txt": "Now that you have a formula for the impulse, you can use the definition of impulse along with this formula to calculate the change in linear velocity of the objects involved in the impact. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3793,
+		"nouns": [
+			"formula",
+			"impulse",
+			"use",
+			"definition",
+			"impulse",
+			"formula",
+			"change",
+			"velocity",
+			"objects",
+			"impact"
+		],
+		"dOIndex": 344,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"formula",
+			"impulse",
+			"definition",
+			"velocity",
+			"objects"
+		]
+	},
+	{
+		"txt": " Here's how that's done in the case of two objects colliding:v1+ = v1– + (|J| n)/m1v2+ = v2– + (–|J| n)/m2",
+		"why": "p",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3794,
+		"nouns": [
+			"case",
+			"two",
+			"objects",
+			"v",
+			"v",
+			"–",
+			"|J|",
+			"n",
+			"/",
+			"m",
+			"v",
+			"v",
+			"–",
+			"–|J|",
+			"n",
+			"/",
+			"m"
+		],
+		"dOIndex": 345,
+		"nouns2": [
+			"objects"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3795,
+		"nouns": [],
+		"dOIndex": 346,
+		"isQuote": false
+	},
+	{
+		"txt": "Notice that for the second object, the negative of the impulse is applied since it acts on both objects equally but in opposite directions.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3796,
+		"nouns": [
+			"Notice",
+			"second",
+			"object",
+			"impulse",
+			"acts",
+			"both",
+			"objects",
+			"directions"
+		],
+		"dOIndex": 347,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Notice",
+			"impulse",
+			"objects",
+			"directions"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.08333333333333333,
+			"words": [
+				"negative"
+			],
+			"positive": [],
+			"negative": [
+				"negative"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3797,
+		"nouns": [],
+		"dOIndex": 348,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3798,
+		"nouns": [],
+		"dOIndex": 349,
+		"isQuote": false
+	},
+	{
+		"txt": "When dealing with rigid bodies that rotate, you'll have to derive a new equation for impulse that includes angular effects. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3799,
+		"nouns": [
+			"bodies",
+			"ll",
+			"equation",
+			"impulse",
+			"effects"
+		],
+		"dOIndex": 350,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equation",
+			"impulse",
+			"effects"
+		]
+	},
+	{
+		"txt": " You'll use this impulse to calculate new linear and angular velocities of the objects just after impact. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3800,
+		"nouns": [
+			"ll",
+			"use",
+			"impulse",
+			"velocities",
+			"objects",
+			"impact"
+		],
+		"dOIndex": 351,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"impulse",
+			"velocities",
+			"objects"
+		]
+	},
+	{
+		"txt": " Consider the two objects colliding at point P, as shown in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3801,
+		"nouns": [
+			"two",
+			"objects",
+			"point",
+			"P"
+		],
+		"dOIndex": 352,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Consider",
+			"objects"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.07692307692307693,
+			"words": [
+				"colliding"
+			],
+			"positive": [],
+			"negative": [
+				"colliding"
+			]
+		}
+	},
+	{
+		"txt": "Figure 5 5",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3802,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 353,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3803,
+		"nouns": [],
+		"dOIndex": 354,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3804,
+		"nouns": [],
+		"dOIndex": 355,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3805,
+		"nouns": [],
+		"dOIndex": 356,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3806,
+		"nouns": [],
+		"dOIndex": 357,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3807,
+		"nouns": [],
+		"dOIndex": 358,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3808,
+		"nouns": [],
+		"dOIndex": 359,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 5 5. Two colliding rigid bodies",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3809,
+		"nouns": [
+			"Figure",
+			"Two",
+			"bodies"
+		],
+		"dOIndex": 360,
+		"nouns2": [
+			"Figure"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.2,
+			"words": [
+				"colliding"
+			],
+			"positive": [],
+			"negative": [
+				"colliding"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3810,
+		"nouns": [],
+		"dOIndex": 361,
+		"isQuote": false
+	},
+	{
+		"txt": "There's a crucial distinction between this collision and that discussed earlier. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3811,
+		"nouns": [
+			"distinction",
+			"collision"
+		],
+		"dOIndex": 362,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distinction",
+			"collision"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.16666666666666666,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " In this case, the velocity at the point of contact on each body is a function of not only the objects' linear velocity but also their angular velocities, and you'll have to recall from ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3812,
+		"nouns": [
+			"case",
+			"velocity",
+			"point",
+			"contact",
+			"body",
+			"function",
+			"objects",
+			"velocity",
+			"velocities",
+			"ll"
+		],
+		"dOIndex": 363,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity",
+			"contact",
+			"function",
+			"objects",
+			"velocities"
+		]
+	},
+	{
+		"txt": "Chapter 2 the following formula in order to calculate the velocities at the impact point on each body:vp = vg + (ω × r)",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3813,
+		"nouns": [
+			"Chapter",
+			"formula",
+			"order",
+			"velocities",
+			"impact",
+			"point",
+			"body",
+			"vp",
+			"vg",
+			"ω",
+			"×",
+			"r"
+		],
+		"dOIndex": 364,
+		"nouns2": [
+			"Chapter",
+			"formula",
+			"velocities"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 3814,
+		"nouns": [],
+		"dOIndex": 365,
+		"isQuote": false
+	},
+	{
+		"txt": "In this relation, r is the vector from the body's center of gravity to the point P .",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3815,
+		"nouns": [
+			"relation",
+			"r",
+			"vector",
+			"body",
+			"center",
+			"gravity",
+			"point",
+			"P"
+		],
+		"dOIndex": 366,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"relation",
+			"gravity"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3816,
+		"nouns": [],
+		"dOIndex": 367,
+		"isQuote": false
+	},
+	{
+		"txt": "Using this formula, you can rewrite the two formulas relating the linear velocity after impact to the impulse and initial velocity as follows:For body 1: v1g+ + (ω1+ × r1) = J/m1 + v1g– + (ω1– × r1)For body 2: v2g+ + (ω2+ × r2) = –J/m2 + v2g– + (ω2– × r2)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3817,
+		"nouns": [
+			"formula",
+			"two",
+			"formulas",
+			"velocity",
+			"impact",
+			"impulse",
+			"velocity",
+			"body",
+			"v",
+			"g+",
+			"ω",
+			"×",
+			"r",
+			"J",
+			"/",
+			"m",
+			"v",
+			"g–",
+			"ω",
+			"–",
+			"×",
+			"r",
+			"body",
+			"v",
+			"g+",
+			"ω",
+			"×",
+			"r",
+			"–J",
+			"/",
+			"m",
+			"v",
+			"g–",
+			"ω",
+			"–",
+			"×",
+			"r"
+		],
+		"dOIndex": 368,
+		"nouns2": [
+			"formula",
+			"formulas",
+			"velocity",
+			"impulse"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "There are two additional unknowns here, the angular velocities after impact, which means that you need two additional equations. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3818,
+		"nouns": [
+			"two",
+			"unknowns",
+			"velocities",
+			"impact",
+			"two",
+			"equations"
+		],
+		"dOIndex": 369,
+		"nouns2": [
+			"unknowns",
+			"velocities",
+			"equations"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " You can get these equations from the definition of angular impulse:For body 1: (r1 × J) = I1 (ω1+ – ω1–)For body 2: (r2 × –J) = I2 (ω2+ – ω2–)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3819,
+		"nouns": [
+			"equations",
+			"definition",
+			"impulse",
+			"body",
+			"r",
+			"× J",
+			"ω",
+			"–",
+			"ω",
+			"–",
+			"body",
+			"r",
+			"×",
+			"–J",
+			"ω",
+			"–",
+			"ω",
+			"–"
+		],
+		"dOIndex": 370,
+		"nouns2": [
+			"equations",
+			"definition",
+			"impulse"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Here we calculate the moment due to the impulse by taking the vector cross product of the impulse with the distance from the body's center of gravity to the point of application of the impulse.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3820,
+		"nouns": [
+			"moment",
+			"impulse",
+			"vector",
+			"product",
+			"impulse",
+			"distance",
+			"body",
+			"center",
+			"gravity",
+			"point",
+			"application",
+			"impulse"
+		],
+		"dOIndex": 371,
+		"nouns2": [
+			"impulse",
+			"product",
+			"distance",
+			"gravity",
+			"application"
+		],
+		"highfreq": {
+			"impulse": 3
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3821,
+		"nouns": [],
+		"dOIndex": 372,
+		"isQuote": false
+	},
+	{
+		"txt": "By combining all of these equations with the equation for e and following the same procedure used when deriving the linear impulse formula, you'll end up with a formula for |J | that takes into account both linear and angular effects, which you can then use to find the linear and angular velocities of each body immediately after impact. ",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3822,
+		"nouns": [
+			"equations",
+			"equation",
+			"e",
+			"procedure",
+			"impulse",
+			"formula",
+			"ll",
+			"end",
+			"formula",
+			"|J",
+			"|",
+			"account",
+			"both",
+			"effects",
+			"use",
+			"velocities",
+			"body",
+			"impact"
+		],
+		"dOIndex": 373,
+		"nouns2": [
+			"equations",
+			"equation",
+			"procedure",
+			"impulse",
+			"formula",
+			"account",
+			"effects",
+			"velocities"
+		],
+		"highfreq": {
+			"linear": 3
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " Here's the result:|J| = –(vr• n)(e + 1)/[1/m1 + 1/m2 + n •((r1 × n)/I1) × r1 + n • ((r2 × n)/I2) × r2]",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3823,
+		"nouns": [
+			"result",
+			"|J|",
+			"–",
+			"vr•",
+			"n",
+			"e",
+			"/",
+			"/",
+			"m",
+			"/",
+			"m",
+			"n",
+			"•",
+			"r",
+			"×",
+			"n",
+			"/",
+			"×",
+			"r",
+			"n",
+			"•",
+			"r",
+			"×",
+			"n",
+			"/",
+			"×",
+			"r"
+		],
+		"dOIndex": 374,
+		"isQuote": false
+	},
+	{
+		"txt": "Here vr is the relative velocity along the line of action at the impact point P, and n is a unit vector along the line of action at the impact point pointing out from body 1.",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3824,
+		"nouns": [
+			"vr",
+			"velocity",
+			"line",
+			"action",
+			"impact",
+			"point",
+			"P",
+			"n",
+			"unit",
+			"vector",
+			"line",
+			"action",
+			"impact",
+			"point",
+			"body"
+		],
+		"dOIndex": 375,
+		"nouns2": [
+			"velocity"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3825,
+		"nouns": [],
+		"dOIndex": 376,
+		"isQuote": false
+	},
+	{
+		"txt": "With this new formula for |J|, you can calculate the change in linear and angular velocities of the objects involved in the collision using these formulas:v1+ = v1− + (|J| n)/m1v2+ = v2− + (−|J| n)/m2ω1+ = ω1− + (r1 × |J| n)/I1ω2+ = ω2− + (r2 × −|J| n)/I2",
+		"why": "p",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3826,
+		"nouns": [
+			"formula",
+			"|J|",
+			"change",
+			"velocities",
+			"objects",
+			"collision",
+			"formulas",
+			"v",
+			"v",
+			"−",
+			"|J|",
+			"n",
+			"/",
+			"m",
+			"v",
+			"v",
+			"−",
+			"−|J|",
+			"n",
+			"/",
+			"m",
+			"ω",
+			"ω",
+			"−",
+			"r",
+			"×",
+			"|J|",
+			"n",
+			"/",
+			"ω",
+			"ω",
+			"−",
+			"r",
+			"×",
+			"−|J|",
+			"n",
+			"/"
+		],
+		"dOIndex": 377,
+		"nouns2": [
+			"formula",
+			"velocities",
+			"objects",
+			"collision",
+			"formulas"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.04,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "As we said earlier, we'll show you how to implement these formulas for ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3827,
+		"nouns": [
+			"ll",
+			"show",
+			"formulas"
+		],
+		"dOIndex": 378,
+		"nouns2": [
+			"formulas"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3828,
+		"nouns": [],
+		"dOIndex": 379,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3829,
+		"nouns": [],
+		"dOIndex": 380,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3830,
+		"nouns": [],
+		"dOIndex": 381,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3831,
+		"nouns": [],
+		"dOIndex": 382,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3832,
+		"nouns": [],
+		"dOIndex": 383,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "impulse in code when you get to ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3833,
+		"nouns": [
+			"impulse",
+			"code"
+		],
+		"dOIndex": 384,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"impulse"
+		]
+	},
+	{
+		"txt": "Chapter 10",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3834,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 385,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3835,
+		"nouns": [],
+		"dOIndex": 386,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3836,
+		"nouns": [],
+		"dOIndex": 387,
+		"isQuote": false
+	},
+	{
+		"txt": "Friction",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3837,
+		"nouns": [
+			"Friction"
+		],
+		"dOIndex": 388,
+		"nouns2": [
+			"Friction"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Friction acts between ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3838,
+		"nouns": [
+			"Friction",
+			"acts"
+		],
+		"dOIndex": 389,
+		"nouns2": [
+			"Friction"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3839,
+		"nouns": [],
+		"dOIndex": 390,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "contacting surfaces to resist motion. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3840,
+		"nouns": [
+			"surfaces",
+			"motion"
+		],
+		"dOIndex": 391,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"surfaces"
+		]
+	},
+	{
+		"txt": " When objects collide in any type of collision except direct impact, for that very brief moment of contact, they will experience a friction force that acts tangentially to the contacting surfaces. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3841,
+		"nouns": [
+			"objects",
+			"collide",
+			"type",
+			"collision",
+			"impact",
+			"moment",
+			"contact",
+			"experience",
+			"friction",
+			"force",
+			"acts",
+			"surfaces"
+		],
+		"dOIndex": 392,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"objects",
+			"collide",
+			"collision",
+			"contact",
+			"experience",
+			"friction",
+			"surfaces"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.09090909090909091,
+			"words": [
+				"collision",
+				"collide"
+			],
+			"positive": [],
+			"negative": [
+				"collision",
+				"collide"
+			]
+		}
+	},
+	{
+		"txt": " Not only will this tangential force change the linear velocities of the colliding objects in the tangential direction, but it will also create a moment (torque) on the objects, which tends to change their angular velocities. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3842,
+		"nouns": [
+			"force",
+			"change",
+			"velocities",
+			"objects",
+			"direction",
+			"moment",
+			"torque",
+			"objects",
+			"change",
+			"velocities"
+		],
+		"dOIndex": 393,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocities",
+			"objects",
+			"direction"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.02631578947368421,
+			"words": [
+				"colliding"
+			],
+			"positive": [],
+			"negative": [
+				"colliding"
+			]
+		}
+	},
+	{
+		"txt": " This tangential impulse combined with the normal impulse results in an effective line of action of the total collision impulse that is no longer perpendicular to the contacting surfaces.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3843,
+		"nouns": [
+			"impulse",
+			"impulse",
+			"results",
+			"line",
+			"action",
+			"collision",
+			"impulse",
+			"surfaces"
+		],
+		"dOIndex": 394,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"impulse",
+			"results",
+			"collision",
+			"surfaces"
+		],
+		"highfreq": {
+			"impulse": 3
+		},
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.03333333333333333,
+			"words": [
+				"no",
+				"collision",
+				"effective"
+			],
+			"positive": [
+				"effective"
+			],
+			"negative": [
+				"no",
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3844,
+		"nouns": [],
+		"dOIndex": 395,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3845,
+		"nouns": [],
+		"dOIndex": 396,
+		"isQuote": false
+	},
+	{
+		"txt": "In practice, it is very difficult to quantify this collision friction force due to the fact that the friction force is not necessarily constant if the collision is such that the friction force does not develop beyond the maximum static friction force. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3846,
+		"nouns": [
+			"practice",
+			"collision",
+			"friction",
+			"force",
+			"fact",
+			"friction",
+			"force",
+			"collision",
+			"friction",
+			"force",
+			"friction",
+			"force"
+		],
+		"dOIndex": 397,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"practice",
+			"collision",
+			"friction"
+		],
+		"highfreq": {
+			"friction": 4,
+			"force": 4
+		},
+		"sentiment": {
+			"score": -5,
+			"comparative": -0.11627906976744186,
+			"words": [
+				"collision",
+				"collision",
+				"difficult"
+			],
+			"positive": [],
+			"negative": [
+				"collision",
+				"collision",
+				"difficult"
+			]
+		}
+	},
+	{
+		"txt": " Further complications stem from the fact that objects do tend to deform when they collide, creating an additional source of resistance. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3847,
+		"nouns": [
+			"complications",
+			"fact",
+			"objects",
+			"deform",
+			"collide",
+			"source",
+			"resistance"
+		],
+		"dOIndex": 398,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Further",
+			"complications",
+			"objects",
+			"collide",
+			"resistance"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.043478260869565216,
+			"words": [
+				"collide"
+			],
+			"positive": [],
+			"negative": [
+				"collide"
+			]
+		}
+	},
+	{
+		"txt": " That said, since the friction force is a function of the normal force between the contacting surfaces, you know that the ratio of the normal force to the friction force is equal to the coefficient of friction. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3848,
+		"nouns": [
+			"said",
+			"friction",
+			"force",
+			"function",
+			"force",
+			"surfaces",
+			"ratio",
+			"force",
+			"friction",
+			"force",
+			"coefficient",
+			"friction"
+		],
+		"dOIndex": 399,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"friction",
+			"function",
+			"surfaces",
+			"coefficient"
+		],
+		"highfreq": {
+			"friction": 3,
+			"force": 4
+		}
+	},
+	{
+		"txt": " If you assume that the collisions are such that the kinetic coefficient of friction is applicable, then this ratio is constant.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3849,
+		"nouns": [
+			"collisions",
+			"coefficient",
+			"friction",
+			"ratio"
+		],
+		"dOIndex": 400,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collisions",
+			"coefficient",
+			"friction"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.09090909090909091,
+			"words": [
+				"collisions"
+			],
+			"positive": [],
+			"negative": [
+				"collisions"
+			]
+		}
+	},
+	{
+		"txt": "µk = Ff / Fn",
+		"why": "p",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3850,
+		"nouns": [
+			"µk",
+			"Ff",
+			"/",
+			"Fn"
+		],
+		"dOIndex": 401,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3851,
+		"nouns": [],
+		"dOIndex": 402,
+		"isQuote": false
+	},
+	{
+		"txt": "Here, Ff is the tangential friction force and Fn is the normal impact force. ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3852,
+		"nouns": [
+			"Ff",
+			"friction",
+			"force",
+			"Fn",
+			"impact",
+			"force"
+		],
+		"dOIndex": 403,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"friction"
+		]
+	},
+	{
+		"txt": " You can extend this to say that the ratio of the tangential impulse to normal impulse is equal to the coefficient of friction.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3853,
+		"nouns": [
+			"ratio",
+			"impulse",
+			"impulse",
+			"coefficient",
+			"friction"
+		],
+		"dOIndex": 404,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"impulse",
+			"coefficient",
+			"friction"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.041666666666666664,
+			"words": [
+				"extend"
+			],
+			"positive": [
+				"extend"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3854,
+		"nouns": [],
+		"dOIndex": 405,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3855,
+		"nouns": [],
+		"dOIndex": 406,
+		"isQuote": false
+	},
+	{
+		"txt": "Consider the collision between the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3856,
+		"nouns": [
+			"collision"
+		],
+		"dOIndex": 407,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Consider",
+			"collision"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.3333333333333333,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3857,
+		"nouns": [],
+		"dOIndex": 408,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3858,
+		"nouns": [],
+		"dOIndex": 409,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "golf club head and golf ball illustrated in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3859,
+		"nouns": [
+			"golf",
+			"club",
+			"head",
+			"golf",
+			"ball"
+		],
+		"dOIndex": 410,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 5 6",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3860,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 411,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3861,
+		"nouns": [],
+		"dOIndex": 412,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3862,
+		"nouns": [],
+		"dOIndex": 413,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3863,
+		"nouns": [],
+		"dOIndex": 414,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3864,
+		"nouns": [],
+		"dOIndex": 415,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3865,
+		"nouns": [],
+		"dOIndex": 416,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3866,
+		"nouns": [],
+		"dOIndex": 417,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 5 6. Golf club–golf ball collision",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3867,
+		"nouns": [
+			"Figure",
+			"Golf",
+			"club–golf",
+			"ball",
+			"collision"
+		],
+		"dOIndex": 418,
+		"nouns2": [
+			"Figure",
+			"club–golf",
+			"collision"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.4,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3868,
+		"nouns": [],
+		"dOIndex": 419,
+		"isQuote": false
+	},
+	{
+		"txt": "In the upper velocity diagram, v– represents the relative velocity between the ball and club head at the instant of impact, v+ represents the velocity of the ball just after impact, vt– and vt+ represent the tangential components of the ball velocity at and just after the instant of impact, respectively.",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3869,
+		"nouns": [
+			"velocity",
+			"diagram",
+			"v–",
+			"velocity",
+			"ball",
+			"club",
+			"head",
+			"instant",
+			"impact",
+			"v+",
+			"velocity",
+			"ball",
+			"impact",
+			"vt–",
+			"vt+",
+			"components",
+			"ball",
+			"velocity",
+			"instant",
+			"impact"
+		],
+		"dOIndex": 420,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity",
+			"diagram",
+			"instant",
+			"components"
+		],
+		"highfreq": {
+			"velocity": 4,
+			"ball": 3,
+			"impact": 3
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3870,
+		"nouns": [],
+		"dOIndex": 421,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3871,
+		"nouns": [],
+		"dOIndex": 422,
+		"isQuote": false
+	},
+	{
+		"txt": "If this were a frictionless collision, vt– and vt+ would be equal, as would the angles α and θ. ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3872,
+		"nouns": [
+			"were",
+			"collision",
+			"vt–",
+			"vt+",
+			"angles",
+			"α",
+			"θ"
+		],
+		"dOIndex": 423,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.1,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " However, with friction the tangential velocity of the ball is reduced, making vt+ less than vt– , which also means that α will be less than θ.",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3873,
+		"nouns": [
+			"friction",
+			"velocity",
+			"ball",
+			"vt+",
+			"vt–",
+			"α",
+			"θ"
+		],
+		"dOIndex": 424,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"friction",
+			"velocity"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3874,
+		"nouns": [],
+		"dOIndex": 425,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3875,
+		"nouns": [],
+		"dOIndex": 426,
+		"isQuote": false
+	},
+	{
+		"txt": "The lower force diagram in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3876,
+		"nouns": [
+			"force",
+			"diagram"
+		],
+		"dOIndex": 427,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"diagram"
+		]
+	},
+	{
+		"txt": "Figure 5 6",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3877,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 428,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " illustrates the forces involved in this collision with friction. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3878,
+		"nouns": [
+			"forces",
+			"collision",
+			"friction"
+		],
+		"dOIndex": 429,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"friction"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.18181818181818182,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " Since the ratio of the tangential friction force to the normal collision force is equal to the coefficient of friction, you can develop an equation relating the angle φ to the coefficient of friction.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3879,
+		"nouns": [
+			"ratio",
+			"friction",
+			"force",
+			"collision",
+			"force",
+			"coefficient",
+			"friction",
+			"equation",
+			"angle",
+			"φ",
+			"coefficient",
+			"friction"
+		],
+		"dOIndex": 430,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"friction",
+			"collision",
+			"coefficient",
+			"equation"
+		],
+		"highfreq": {
+			"friction": 3
+		},
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.05714285714285714,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "tan φ = Ff / Fn = µ",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3880,
+		"nouns": [
+			"φ",
+			"Ff",
+			"/",
+			"Fn",
+			"µ"
+		],
+		"dOIndex": 431,
+		"isQuote": false
+	},
+	{
+		"txt": "In addition to this friction force changing the linear velocity of the ball in the tangential direction, it will also change the angular velocity of the ball. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3881,
+		"nouns": [
+			"addition",
+			"friction",
+			"force",
+			"velocity",
+			"ball",
+			"direction",
+			"change",
+			"velocity",
+			"ball"
+		],
+		"dOIndex": 432,
+		"nouns2": [
+			"addition",
+			"friction",
+			"velocity",
+			"direction"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " Since the friction force is acting on the ball's surface some distance from its center of gravity, it creates a moment (torque) about the ball's center of gravity, which causes the ball to spin. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3882,
+		"nouns": [
+			"friction",
+			"force",
+			"ball",
+			"surface",
+			"distance",
+			"center",
+			"gravity",
+			"moment",
+			"torque",
+			"ball",
+			"center",
+			"gravity",
+			"causes",
+			"ball"
+		],
+		"dOIndex": 433,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"friction",
+			"surface",
+			"distance",
+			"gravity"
+		],
+		"highfreq": {
+			"ball": 3
+		}
+	},
+	{
+		"txt": " You can develop an equation for the new angular velocity of the ball in terms of the normal impact force or impulse:Σ Mcg = Ff r = Icg dω/dtµ Fn r = Icg dω/dtµ Fn r dt = Icg dωo(t– to t+) Fn dt = Icg / (µ r) o(ω– to ω+) ω dω",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3883,
+		"nouns": [
+			"equation",
+			"velocity",
+			"ball",
+			"terms",
+			"impact",
+			"force",
+			"impulse",
+			"Σ",
+			"Mcg",
+			"Ff",
+			"r",
+			"Icg",
+			"dω",
+			"/",
+			"dtµ",
+			"Fn",
+			"r",
+			"Icg",
+			"dω",
+			"/",
+			"dtµ",
+			"Fn",
+			"r",
+			"dt",
+			"Icg",
+			"dωo",
+			"t–",
+			"t+",
+			"Fn",
+			"dt",
+			"Icg",
+			"/",
+			"µ",
+			"r",
+			"ω–",
+			"ω+",
+			"ω",
+			"dω"
+		],
+		"dOIndex": 434,
+		"nouns2": [
+			"equation",
+			"velocity",
+			"impulse"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Notice here that the integral on the left is the normal impulse; thus:Impulse = Icg / (µ r) (ω+ – ω–)ω+ = (Impulse) (µ r) / Icg + ω–",
+		"why": "p",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3884,
+		"nouns": [
+			"Notice",
+			"impulse",
+			"Impulse",
+			"Icg",
+			"/",
+			"µ",
+			"r",
+			"ω+",
+			"–",
+			"ω–",
+			"ω+",
+			"Impulse",
+			"µ",
+			"r",
+			"/",
+			"Icg",
+			"ω–"
+		],
+		"dOIndex": 435,
+		"nouns2": [
+			"Notice",
+			"impulse",
+			"Impulse"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "This relation looks very similar to the ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3885,
+		"nouns": [
+			"relation"
+		],
+		"dOIndex": 436,
+		"nouns2": [
+			"relation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3886,
+		"nouns": [],
+		"dOIndex": 437,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3887,
+		"nouns": [],
+		"dOIndex": 438,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "angular impulse equation that we showed you earlier in this chapter, and you can use it to approximate the friction induced spin in specific collision problems.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3888,
+		"nouns": [
+			"impulse",
+			"equation",
+			"chapter",
+			"use",
+			"friction",
+			"collision",
+			"problems"
+		],
+		"dOIndex": 439,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"impulse",
+			"equation",
+			"chapter",
+			"friction",
+			"collision",
+			"problems"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.15384615384615385,
+			"words": [
+				"problems",
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"problems",
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3889,
+		"nouns": [],
+		"dOIndex": 440,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3890,
+		"nouns": [],
+		"dOIndex": 441,
+		"isQuote": false
+	},
+	{
+		"txt": "Turn back to the equation for impulse, J , in the last section that includes both linear and angular effects. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3891,
+		"nouns": [
+			"equation",
+			"impulse",
+			"J",
+			"section",
+			"both",
+			"effects"
+		],
+		"dOIndex": 442,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equation",
+			"impulse",
+			"section",
+			"effects"
+		]
+	},
+	{
+		"txt": " Here it is again for convenience:|J| = –(vr• n)(e + 1) / [1/m1 + 1/m2 + n •((r1 × n)/I1) × r1 + n • ((r2 × n)/I2) × r2]",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3892,
+		"nouns": [
+			"convenience",
+			"|J|",
+			"–",
+			"vr•",
+			"n",
+			"e",
+			"/",
+			"/",
+			"m",
+			"/",
+			"m",
+			"n",
+			"•",
+			"r",
+			"×",
+			"n",
+			"/",
+			"×",
+			"r",
+			"n",
+			"•",
+			"r",
+			"×",
+			"n",
+			"/",
+			"×",
+			"r"
+		],
+		"dOIndex": 443,
+		"nouns2": [
+			"convenience"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3893,
+		"nouns": [],
+		"dOIndex": 444,
+		"isQuote": false
+	},
+	{
+		"txt": "This formula gives you the collision impulse in the normal direction. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3894,
+		"nouns": [
+			"formula",
+			"collision",
+			"impulse",
+			"direction"
+		],
+		"dOIndex": 445,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"formula",
+			"collision",
+			"impulse",
+			"direction"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.16666666666666666,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " To see how friction fits in you must keep in mind that friction acts tangentially to the contacting surfaces, that combining the friction force with the normal impact force yields a new effective line of action for the collision, and that the friction force (and impulse) is a function of the normal force (impulse) and coefficient of friction. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3895,
+		"nouns": [
+			"friction",
+			"mind",
+			"friction",
+			"acts",
+			"surfaces",
+			"friction",
+			"force",
+			"impact",
+			"force",
+			"yields",
+			"line",
+			"action",
+			"collision",
+			"friction",
+			"force",
+			"impulse",
+			"function",
+			"force",
+			"impulse",
+			"coefficient",
+			"friction"
+		],
+		"dOIndex": 446,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"friction",
+			"surfaces",
+			"collision",
+			"impulse",
+			"function",
+			"coefficient"
+		],
+		"highfreq": {
+			"friction": 5,
+			"that": 3,
+			"force": 4
+		},
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"collision",
+				"effective"
+			],
+			"positive": [
+				"effective"
+			],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " Considering all these factors, the new equations to calculate the change in linear and angular velocities of two colliding objects are as follows:v1+ = v1– + (J n + (µ J) t) / m1v2+ = v2– + (–J n + (µ J) t) / m2ω1+ = ω1– + (r1 × (J n+ (µ J) t)) / Icgω2+ = ω2– + (r2 × (–J n+ (µ J) t)) / Icg",
+		"why": "p",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3896,
+		"nouns": [
+			"factors",
+			"equations",
+			"change",
+			"velocities",
+			"two",
+			"objects",
+			"v",
+			"v",
+			"–",
+			"J",
+			"n",
+			"µ J",
+			"t",
+			"/",
+			"m",
+			"v",
+			"v",
+			"–",
+			"–J",
+			"n",
+			"µ J",
+			"t",
+			"/",
+			"m",
+			"ω",
+			"ω",
+			"–",
+			"r",
+			"×",
+			"J",
+			"n+",
+			"µ J",
+			"t",
+			"/",
+			"Icgω",
+			"ω",
+			"–",
+			"r",
+			"×",
+			"–J",
+			"n+",
+			"µ J",
+			"t",
+			"/",
+			"Icg"
+		],
+		"dOIndex": 447,
+		"nouns2": [
+			"Considering",
+			"factors",
+			"equations",
+			"velocities",
+			"objects"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.014285714285714285,
+			"words": [
+				"colliding"
+			],
+			"positive": [],
+			"negative": [
+				"colliding"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3897,
+		"nouns": [],
+		"dOIndex": 448,
+		"isQuote": false
+	},
+	{
+		"txt": "In these equations, t is the unit tangent vector, which is tangent to the collision surfaces and at a right angle to the unit normal vector. ",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3898,
+		"nouns": [
+			"equations",
+			"t",
+			"unit",
+			"vector",
+			"collision",
+			"surfaces",
+			"right",
+			"angle",
+			"unit",
+			"vector"
+		],
+		"dOIndex": 449,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equations",
+			"collision",
+			"surfaces"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.07407407407407407,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " You can calculate the tangent vector if you know the unit normal vector and the relative velocity vector in the same plane as the normal vector.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3899,
+		"nouns": [
+			"vector",
+			"unit",
+			"vector",
+			"velocity",
+			"vector",
+			"plane",
+			"vector"
+		],
+		"dOIndex": 450,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity"
+		],
+		"highfreq": {
+			"vector": 4
+		}
+	},
+	{
+		"txt": "t = (n × vr) × nt = t / |t|",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3900,
+		"nouns": [
+			"t",
+			"n",
+			"×",
+			"vr",
+			"×",
+			"nt",
+			"t",
+			"/",
+			"|t|"
+		],
+		"dOIndex": 451,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3901,
+		"nouns": [],
+		"dOIndex": 452,
+		"isQuote": false
+	},
+	{
+		"txt": "For many problems that you'll face, you may be able to reasonably neglect friction in your collision response routines since its effect may be small compared to the effect of the normal impulse itself. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3902,
+		"nouns": [
+			"problems",
+			"ll",
+			"face",
+			"neglect",
+			"friction",
+			"collision",
+			"response",
+			"routines",
+			"effect",
+			"effect",
+			"impulse"
+		],
+		"dOIndex": 453,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"problems",
+			"neglect",
+			"friction",
+			"collision",
+			"response",
+			"routines",
+			"impulse"
+		],
+		"sentiment": {
+			"score": -6,
+			"comparative": -0.17142857142857143,
+			"words": [
+				"collision",
+				"neglect",
+				"problems"
+			],
+			"positive": [],
+			"negative": [
+				"collision",
+				"neglect",
+				"problems"
+			]
+		}
+	},
+	{
+		"txt": " However, for some types of problems, friction is crucial. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3903,
+		"nouns": [
+			"types",
+			"problems",
+			"friction"
+		],
+		"dOIndex": 454,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"problems",
+			"friction"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.18181818181818182,
+			"words": [
+				"problems"
+			],
+			"positive": [],
+			"negative": [
+				"problems"
+			]
+		}
+	},
+	{
+		"txt": " For example, the flight trajectory of a golf ball depends greatly on the spin imparted to it as a result of the club–ball collision. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3904,
+		"nouns": [
+			"example",
+			"flight",
+			"trajectory",
+			"golf",
+			"ball",
+			"spin",
+			"result",
+			"club–ball",
+			"collision"
+		],
+		"dOIndex": 455,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"trajectory",
+			"club–ball",
+			"collision"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.07692307692307693,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " We'll discuss how spin affects trajectory in the next chapter, which covers projectile ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3905,
+		"nouns": [
+			"ll",
+			"trajectory",
+			"chapter",
+			"projectile"
+		],
+		"dOIndex": 456,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"trajectory",
+			"chapter",
+			"projectile"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3906,
+		"nouns": [],
+		"dOIndex": 457,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3907,
+		"nouns": [],
+		"dOIndex": 458,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3908,
+		"nouns": [],
+		"dOIndex": 459,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3909,
+		"nouns": [],
+		"dOIndex": 460,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "motion.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3910,
+		"nouns": [
+			"motion"
+		],
+		"dOIndex": 461,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3911,
+		"nouns": [],
+		"dOIndex": 462,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [],
+		"sentenceIndex": 3912,
+		"nouns": [],
+		"dOIndex": 463,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3913,
+		"nouns": [],
+		"dOIndex": 464,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 3914,
+		"nouns": [],
+		"dOIndex": 465,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 3915,
+		"nouns": [],
+		"dOIndex": 466,
+		"isQuote": false
+	},
+	{
+		"txt": "[",
+		"why": "link",
+		"tags": [
+			"sup",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3916,
+		"nouns": [],
+		"dOIndex": 467,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "13",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3917,
+		"nouns": [],
+		"dOIndex": 468,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " ] We use the classical approach in this book and are mentioning penalty methods only to let you know that the method we're going to show is not the only one. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3918,
+		"nouns": [
+			"use",
+			"approach",
+			"book",
+			"penalty",
+			"methods",
+			"method",
+			"re",
+			"show",
+			"one"
+		],
+		"dOIndex": 469,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"approach",
+			"penalty",
+			"methods"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.06060606060606061,
+			"words": [
+				"penalty"
+			],
+			"positive": [],
+			"negative": [
+				"penalty"
+			]
+		}
+	},
+	{
+		"txt": " Roughly speaking, the penalty in penalty methods refers to the numerical spring constants, which are usually large, that are used to represent the stiffness of the springs and thus the hardness (or softness) of the colliding bodies. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3919,
+		"nouns": [
+			"penalty",
+			"penalty",
+			"methods",
+			"constants",
+			"stiffness",
+			"springs",
+			"hardness",
+			"softness",
+			"bodies"
+		],
+		"dOIndex": 470,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Roughly",
+			"penalty",
+			"methods",
+			"constants",
+			"stiffness",
+			"springs",
+			"hardness",
+			"softness"
+		],
+		"sentiment": {
+			"score": -5,
+			"comparative": -0.1282051282051282,
+			"words": [
+				"colliding",
+				"penalty",
+				"penalty"
+			],
+			"positive": [],
+			"negative": [
+				"colliding",
+				"penalty",
+				"penalty"
+			]
+		}
+	},
+	{
+		"txt": " These constants are used in the system of equations of motion describing the motion of all the bodies under consideration before and after the collision.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3920,
+		"nouns": [
+			"constants",
+			"system",
+			"equations",
+			"motion",
+			"motion",
+			"bodies",
+			"consideration",
+			"collision"
+		],
+		"dOIndex": 471,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"constants",
+			"equations",
+			"consideration",
+			"collision"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.07692307692307693,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3921,
+		"nouns": [],
+		"dOIndex": 472,
+		"isQuote": false
+	},
+	{
+		"txt": "[",
+		"why": "link",
+		"tags": [
+			"sup",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3922,
+		"nouns": [],
+		"dOIndex": 473
+	},
+	{
+		"txt": "14] ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"sup",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3923,
+		"nouns": [],
+		"dOIndex": 474
+	},
+	{
+		"txt": "The center of percussion is a point located near one of the nodes of natural vibration, and is the point at which, when the bat strikes the ball, no force is transmitted to the handle of the bat. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3924,
+		"nouns": [
+			"center",
+			"percussion",
+			"point",
+			"one",
+			"nodes",
+			"vibration",
+			"point",
+			"bat",
+			"strikes",
+			"ball",
+			"force",
+			"handle",
+			"bat"
+		],
+		"dOIndex": 475,
+		"nouns2": [
+			"percussion",
+			"vibration",
+			"strikes"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.02564102564102564,
+			"words": [
+				"no",
+				"strikes",
+				"natural"
+			],
+			"positive": [
+				"natural"
+			],
+			"negative": [
+				"no",
+				"strikes"
+			]
+		}
+	},
+	{
+		"txt": " If you've ever hit a baseball incorrectly such that you get a painful vibrating sensation in your hands, then you know what it feels like to miss the center of percussion.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3925,
+		"nouns": [
+			"ve",
+			"baseball",
+			"sensation",
+			"hands",
+			"center",
+			"percussion"
+		],
+		"dOIndex": 476,
+		"nouns2": [
+			"baseball",
+			"sensation",
+			"percussion"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.0625,
+			"words": [
+				"miss",
+				"like",
+				"painful"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": [
+				"miss",
+				"painful"
+			]
+		}
+	}
+]

@@ -1,0 +1,11470 @@
+[
+	{
+		"txt": "",
+		"why": "br tag like",
+		"sentenceIndex": 2464,
+		"nouns": [],
+		"dOIndex": 0,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 3. Force",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2465,
+		"nouns": [
+			"Chapter",
+			"Force"
+		],
+		"dOIndex": 1,
+		"nouns2": [
+			"Chapter"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "This chapter is a prerequisite to ",
+		"why": "link",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 2466,
+		"nouns": [
+			"chapter",
+			"prerequisite"
+		],
+		"dOIndex": 2,
+		"nouns2": [
+			"chapter",
+			"prerequisite"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 4",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 2467,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 3,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " , which addresses the subject of kinetics. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2468,
+		"nouns": [
+			"addresses",
+			"subject",
+			"kinetics"
+		],
+		"dOIndex": 4,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"addresses",
+			"subject",
+			"kinetics"
+		]
+	},
+	{
+		"txt": " The aim here is to provide you with enough of a background on forces so you can readily appreciate the subject of kinetics. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2469,
+		"nouns": [
+			"aim",
+			"background",
+			"forces",
+			"subject",
+			"kinetics"
+		],
+		"dOIndex": 5,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"background",
+			"subject",
+			"kinetics"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08,
+			"words": [
+				"appreciate"
+			],
+			"positive": [
+				"appreciate"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " This chapter is not meant to be the final word on the subject of force. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2470,
+		"nouns": [
+			"chapter",
+			"word",
+			"subject",
+			"force"
+		],
+		"dOIndex": 6,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"chapter",
+			"subject"
+		]
+	},
+	{
+		"txt": " In fact, we feel that the subject of force is so important to realistic simulations that we'll revisit it several times in various contexts throughout the remainder of this book. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2471,
+		"nouns": [
+			"fact",
+			"subject",
+			"force",
+			"simulations",
+			"ll",
+			"times",
+			"contexts",
+			"remainder",
+			"book"
+		],
+		"dOIndex": 7,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"subject",
+			"simulations",
+			"contexts",
+			"remainder"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.0625,
+			"words": [
+				"important"
+			],
+			"positive": [
+				"important"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " In this chapter, we'll discuss the two fundamental categories of force and briefly explain some important specific types of force. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2472,
+		"nouns": [
+			"chapter",
+			"ll",
+			"two",
+			"categories",
+			"force",
+			"types",
+			"force"
+		],
+		"dOIndex": 8,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"chapter",
+			"categories"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.09090909090909091,
+			"words": [
+				"important"
+			],
+			"positive": [
+				"important"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " We'll also explain the relationship between force and torque.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2473,
+		"nouns": [
+			"ll",
+			"relationship",
+			"force",
+			"torque"
+		],
+		"dOIndex": 9,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"relationship"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 2474,
+		"nouns": [],
+		"dOIndex": 10,
+		"isQuote": false
+	},
+	{
+		"txt": "Forces",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2475,
+		"nouns": [
+			"Forces"
+		],
+		"dOIndex": 11,
+		"nouns2": [
+			"Forces"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "As we mentioned in ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2476,
+		"nouns": [],
+		"dOIndex": 12,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 2, you need to ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2477,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 13,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2478,
+		"nouns": [],
+		"dOIndex": 14,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "understand the concept of force before you can fully understand the subject of kinetics. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2479,
+		"nouns": [
+			"concept",
+			"force",
+			"subject",
+			"kinetics"
+		],
+		"dOIndex": 15,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"concept",
+			"subject",
+			"kinetics"
+		]
+	},
+	{
+		"txt": " Kinematics is only half the battle. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2480,
+		"nouns": [
+			"Kinematics",
+			"half",
+			"battle"
+		],
+		"dOIndex": 16,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Kinematics"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.125,
+			"words": [
+				"battle"
+			],
+			"positive": [],
+			"negative": [
+				"battle"
+			]
+		}
+	},
+	{
+		"txt": " You are already familiar with the concept of force from your daily experiences. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2481,
+		"nouns": [
+			"concept",
+			"force",
+			"experiences"
+		],
+		"dOIndex": 17,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"concept",
+			"experiences"
+		]
+	},
+	{
+		"txt": " You exert a force on this book as you hold it in your hands, counteracting gravity. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2482,
+		"nouns": [
+			"force",
+			"book",
+			"hands",
+			"gravity"
+		],
+		"dOIndex": 18,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"gravity"
+		]
+	},
+	{
+		"txt": " You exert force on your mouse as you move it from one point to another. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2483,
+		"nouns": [
+			"force",
+			"mouse",
+			"move",
+			"one",
+			"point"
+		],
+		"dOIndex": 19,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " When you play soccer, you exert force on the ball as you kick it. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2484,
+		"nouns": [
+			"soccer",
+			"force",
+			"ball",
+			"kick"
+		],
+		"dOIndex": 20,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " In general, force is what makes an object move, or more precisely, what produces an acceleration that changes the velocity. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2485,
+		"nouns": [
+			"force",
+			"object",
+			"move",
+			"acceleration",
+			"changes",
+			"velocity"
+		],
+		"dOIndex": 21,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"acceleration",
+			"changes",
+			"velocity"
+		]
+	},
+	{
+		"txt": " Even as you hold this book, although it may not be moving, you've effectively produced an acceleration that cancels the acceleration from gravity. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2486,
+		"nouns": [
+			"book",
+			"ve",
+			"acceleration",
+			"acceleration",
+			"gravity"
+		],
+		"dOIndex": 22,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"acceleration",
+			"gravity"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.04,
+			"words": [
+				"cancels",
+				"effectively"
+			],
+			"positive": [
+				"effectively"
+			],
+			"negative": [
+				"cancels"
+			]
+		}
+	},
+	{
+		"txt": " When you kick that soccer ball, you change its velocity from, say, 0 when the ball is at rest to some positive value as the ball leaves your foot. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2487,
+		"nouns": [
+			"kick",
+			"soccer",
+			"ball",
+			"change",
+			"velocity",
+			"ball",
+			"rest",
+			"value",
+			"ball",
+			"foot"
+		],
+		"dOIndex": 23,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity"
+		],
+		"highfreq": {
+			"ball": 3
+		},
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.06451612903225806,
+			"words": [
+				"positive"
+			],
+			"positive": [
+				"positive"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " These are some examples of externally ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2488,
+		"nouns": [
+			"are",
+			"examples"
+		],
+		"dOIndex": 24,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"examples"
+		]
+	},
+	{
+		"txt": "applied contact",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2489,
+		"nouns": [
+			"contact"
+		],
+		"dOIndex": 25,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"contact"
+		]
+	},
+	{
+		"txt": " forces.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2490,
+		"nouns": [
+			"forces"
+		],
+		"dOIndex": 26,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2491,
+		"nouns": [],
+		"dOIndex": 27,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2492,
+		"nouns": [],
+		"dOIndex": 28,
+		"isQuote": false
+	},
+	{
+		"txt": "There's another broad category of forces, in addition to contact forces, ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2493,
+		"nouns": [
+			"category",
+			"forces",
+			"addition",
+			"contact",
+			"forces"
+		],
+		"dOIndex": 29,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"category",
+			"addition",
+			"contact"
+		]
+	},
+	{
+		"txt": "called field forces or ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2494,
+		"nouns": [
+			"field",
+			"forces"
+		],
+		"dOIndex": 30,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2495,
+		"nouns": [],
+		"dOIndex": 31,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "sometimes forces at a distance . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2496,
+		"nouns": [
+			"forces",
+			"distance"
+		],
+		"dOIndex": 32,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distance"
+		]
+	},
+	{
+		"txt": " These forces can act on a body without actually having to make contact with it. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2497,
+		"nouns": [
+			"forces",
+			"act",
+			"body",
+			"contact"
+		],
+		"dOIndex": 33,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"contact"
+		]
+	},
+	{
+		"txt": " A good example is the gravitational attraction between objects. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2498,
+		"nouns": [
+			"example",
+			"attraction",
+			"objects"
+		],
+		"dOIndex": 34,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"attraction",
+			"objects"
+		],
+		"sentiment": {
+			"score": 5,
+			"comparative": 0.45454545454545453,
+			"words": [
+				"attraction",
+				"good"
+			],
+			"positive": [
+				"attraction",
+				"good"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Another example is the electromagnetic attraction between charged particles. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2499,
+		"nouns": [
+			"example",
+			"electromagnetic",
+			"attraction",
+			"particles"
+		],
+		"dOIndex": 35,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Another",
+			"example",
+			"electromagnetic",
+			"attraction",
+			"particles"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.09090909090909091,
+			"words": [
+				"charged",
+				"attraction"
+			],
+			"positive": [
+				"attraction"
+			],
+			"negative": [
+				"charged"
+			]
+		}
+	},
+	{
+		"txt": " The concept of a force field was developed long ago to help us visualize the interaction between objects subject to forces at a distance. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2500,
+		"nouns": [
+			"concept",
+			"force",
+			"field",
+			"interaction",
+			"objects",
+			"subject",
+			"forces",
+			"distance"
+		],
+		"dOIndex": 36,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"concept",
+			"interaction",
+			"objects",
+			"subject",
+			"distance"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.07692307692307693,
+			"words": [
+				"help"
+			],
+			"positive": [
+				"help"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " You can say that an object is subjected to the gravitational field of another object. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2501,
+		"nouns": [
+			"object",
+			"field",
+			"object"
+		],
+		"dOIndex": 37,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Thinking in terms of force fields can help you grasp the fact that an object can exert a force on another object without having to physically touch it.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2502,
+		"nouns": [
+			"terms",
+			"force",
+			"fields",
+			"fact",
+			"object",
+			"force",
+			"object",
+			"touch"
+		],
+		"dOIndex": 38,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Thinking"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.06896551724137931,
+			"words": [
+				"help"
+			],
+			"positive": [
+				"help"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2503,
+		"nouns": [],
+		"dOIndex": 39,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2504,
+		"nouns": [],
+		"dOIndex": 40,
+		"isQuote": false
+	},
+	{
+		"txt": "Within these two broad categories of forces, there are specific types of forces related to various physical phenomena forces due to friction, buoyancy, and pressure, among others. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2505,
+		"nouns": [
+			"two",
+			"categories",
+			"forces",
+			"types",
+			"forces",
+			"phenomena",
+			"forces",
+			"friction",
+			"buoyancy",
+			"pressure",
+			"others"
+		],
+		"dOIndex": 41,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Within",
+			"categories",
+			"phenomena",
+			"friction",
+			"buoyancy",
+			"pressure"
+		],
+		"highfreq": {
+			"forces": 3
+		},
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.03571428571428571,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " We'll discuss idealizations of several of these types of forces in this chapter. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2506,
+		"nouns": [
+			"ll",
+			"idealizations",
+			"types",
+			"forces",
+			"chapter"
+		],
+		"dOIndex": 42,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"idealizations",
+			"chapter"
+		]
+	},
+	{
+		"txt": " Later in this book, we'll revisit these forces from a more practical point of view.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2507,
+		"nouns": [
+			"book",
+			"ll",
+			"forces",
+			"point",
+			"view"
+		],
+		"dOIndex": 43,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2508,
+		"nouns": [],
+		"dOIndex": 44,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2509,
+		"nouns": [],
+		"dOIndex": 45,
+		"isQuote": false
+	},
+	{
+		"txt": "Before going further, we need to explain the implications of Newton's ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2510,
+		"nouns": [
+			"implications",
+			"Newton"
+		],
+		"dOIndex": 46,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Before",
+			"implications",
+			"Newton"
+		]
+	},
+	{
+		"txt": "third law as introduced in ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2511,
+		"nouns": [
+			"third",
+			"law"
+		],
+		"dOIndex": 47,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2512,
+		"nouns": [],
+		"dOIndex": 48,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 1 . ",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2513,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 49,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " Remember, Newton's third law states that for every force acting on a body, there is an equal and opposite reacting force. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2514,
+		"nouns": [
+			"Newton",
+			"third",
+			"law",
+			"states",
+			"force",
+			"body",
+			"force"
+		],
+		"dOIndex": 50,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Remember",
+			"Newton"
+		]
+	},
+	{
+		"txt": " This means that forces must exist in pairs a single force can't exist by itself.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2515,
+		"nouns": [
+			"forces",
+			"pairs",
+			"force",
+			"t"
+		],
+		"dOIndex": 51,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2516,
+		"nouns": [],
+		"dOIndex": 52,
+		"isQuote": false
+	},
+	{
+		"txt": "Consider the gravitational attraction between the earth and yourself. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2517,
+		"nouns": [
+			"attraction",
+			"earth"
+		],
+		"dOIndex": 53,
+		"nouns2": [
+			"Consider",
+			"attraction"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.2,
+			"words": [
+				"attraction"
+			],
+			"positive": [
+				"attraction"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " The earth is exerting a force your weight on you, accelerating you toward its center. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2518,
+		"nouns": [
+			"earth",
+			"force",
+			"weight",
+			"center"
+		],
+		"dOIndex": 54,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Likewise, you are exerting a force on the earth, accelerating it toward you. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2519,
+		"nouns": [
+			"force",
+			"earth"
+		],
+		"dOIndex": 55,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Likewise"
+		]
+	},
+	{
+		"txt": " The huge difference between your mass and the earth's makes the acceleration of the earth in this case so small that it's negligible. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2520,
+		"nouns": [
+			"difference",
+			"mass",
+			"earth",
+			"acceleration",
+			"earth",
+			"case"
+		],
+		"dOIndex": 56,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"difference",
+			"acceleration"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.04,
+			"words": [
+				"huge"
+			],
+			"positive": [
+				"huge"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Earlier we said you are exerting a force on this book to hold it up; likewise, this book is exerting a force on your hands equal in magnitude but opposite in direction to the force you are exerting on it. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2521,
+		"nouns": [
+			"force",
+			"book",
+			"book",
+			"force",
+			"hands",
+			"magnitude",
+			"direction",
+			"force"
+		],
+		"dOIndex": 57,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Earlier",
+			"magnitude",
+			"direction"
+		],
+		"highfreq": {
+			"exerting": 3,
+			"force": 3
+		}
+	},
+	{
+		"txt": " You feel this reaction force as the book's weight.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2522,
+		"nouns": [
+			"reaction",
+			"force",
+			"book",
+			"weight"
+		],
+		"dOIndex": 58,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"reaction"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2523,
+		"nouns": [],
+		"dOIndex": 59,
+		"isQuote": false
+	},
+	{
+		"txt": "This phenomenon of action reaction is the basis for rocket propulsion. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2524,
+		"nouns": [
+			"phenomenon",
+			"action",
+			"reaction",
+			"basis",
+			"rocket",
+			"propulsion"
+		],
+		"dOIndex": 60,
+		"nouns2": [
+			"phenomenon",
+			"reaction",
+			"propulsion"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " A rocket engine exerts force on the fuel molecules that are accelerated out of the engine exhaust nozzle. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2525,
+		"nouns": [
+			"rocket",
+			"engine",
+			"force",
+			"fuel",
+			"molecules",
+			"engine",
+			"exhaust",
+			"nozzle"
+		],
+		"dOIndex": 61,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"molecules",
+			"exhaust"
+		]
+	},
+	{
+		"txt": " The force required to accelerate these molecules is exerted back against the rocket as a reaction force ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2526,
+		"nouns": [
+			"force",
+			"molecules",
+			"rocket",
+			"reaction",
+			"force"
+		],
+		"dOIndex": 62,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"molecules",
+			"reaction"
+		]
+	},
+	{
+		"txt": "called thrust",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2527,
+		"nouns": [
+			"thrust"
+		],
+		"dOIndex": 63,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2528,
+		"nouns": [],
+		"dOIndex": 64,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Throughout the remainder of this book, you'll see many other examples of action reaction, which is an important phenomenon in rigid body dynamics. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2529,
+		"nouns": [
+			"remainder",
+			"book",
+			"ll",
+			"examples",
+			"action",
+			"reaction",
+			"phenomenon",
+			"body",
+			"dynamics"
+		],
+		"dOIndex": 65,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Throughout",
+			"remainder",
+			"examples",
+			"reaction",
+			"phenomenon",
+			"dynamics"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08,
+			"words": [
+				"important"
+			],
+			"positive": [
+				"important"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " It is especially important when we are dealing with collisions and objects in contact, as you'll see later.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2530,
+		"nouns": [
+			"collisions",
+			"objects",
+			"contact",
+			"ll"
+		],
+		"dOIndex": 66,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collisions",
+			"objects",
+			"contact"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"collisions",
+				"important"
+			],
+			"positive": [
+				"important"
+			],
+			"negative": [
+				"collisions"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2531,
+		"nouns": [],
+		"dOIndex": 67,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2532,
+		"nouns": [],
+		"dOIndex": 68,
+		"isQuote": false
+	},
+	{
+		"txt": "Force Fields",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2533,
+		"nouns": [
+			"Force Fields"
+		],
+		"dOIndex": 69,
+		"nouns2": [
+			"Fields"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2534,
+		"nouns": [],
+		"dOIndex": 70,
+		"isQuote": false
+	},
+	{
+		"txt": "The best example of a ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2535,
+		"nouns": [
+			"example"
+		],
+		"dOIndex": 71,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.5,
+			"words": [
+				"best"
+			],
+			"positive": [
+				"best"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2536,
+		"nouns": [],
+		"dOIndex": 72,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "force field or force at a distance is the gravitational attraction between objects. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2537,
+		"nouns": [
+			"force",
+			"field",
+			"force",
+			"distance",
+			"attraction",
+			"objects"
+		],
+		"dOIndex": 73,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distance",
+			"attraction",
+			"objects"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.14285714285714285,
+			"words": [
+				"attraction"
+			],
+			"positive": [
+				"attraction"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Newton's law of gravitation",
+		"why": "link",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2538,
+		"nouns": [
+			"Newton",
+			"law",
+			"gravitation"
+		],
+		"dOIndex": 74,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Newton",
+			"gravitation"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2539,
+		"nouns": [],
+		"dOIndex": 75,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "states that the force of attraction between two masses is directly proportional to the product of the masses and inversely proportional to the square of the distances separating the centers of each mass. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2540,
+		"nouns": [
+			"states",
+			"force",
+			"attraction",
+			"two",
+			"masses",
+			"product",
+			"masses",
+			"square",
+			"distances",
+			"centers",
+			"mass"
+		],
+		"dOIndex": 76,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"attraction",
+			"product",
+			"distances",
+			"centers"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.058823529411764705,
+			"words": [
+				"attraction"
+			],
+			"positive": [
+				"attraction"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Further, this law states that the line of action of the force of attraction is along the line that connects the centers of the two masses. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2541,
+		"nouns": [
+			"law",
+			"states",
+			"line",
+			"action",
+			"force",
+			"attraction",
+			"line",
+			"centers",
+			"two",
+			"masses"
+		],
+		"dOIndex": 77,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Further",
+			"attraction",
+			"centers"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.07142857142857142,
+			"words": [
+				"attraction"
+			],
+			"positive": [
+				"attraction"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " This is written as follows:Fa = (G m1 m2) / r2",
+		"why": "p",
+		"tags": [
+			"sup",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2542,
+		"nouns": [
+			"Fa",
+			"G",
+			"m",
+			"m",
+			"/",
+			"r"
+		],
+		"dOIndex": 78,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2543,
+		"nouns": [],
+		"dOIndex": 79,
+		"isQuote": false
+	},
+	{
+		"txt": "where G is the gravitational constant, Newton's so called",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2544,
+		"nouns": [
+			"G",
+			"Newton"
+		],
+		"dOIndex": 80,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Newton"
+		]
+	},
+	{
+		"txt": "universal constant",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2545,
+		"nouns": [],
+		"dOIndex": 81,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2546,
+		"nouns": [],
+		"dOIndex": 82,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " G was first measured experimentally by Sir Henry Cavendish ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2547,
+		"nouns": [
+			"G",
+			"first",
+			"Sir Henry",
+			"Cavendish"
+		],
+		"dOIndex": 83,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Cavendish"
+		]
+	},
+	{
+		"txt": "in 1798 and equals 6.673×10−11 (N–m2)/kg2 in metric units or 3.436×10−8 ft4/(lb s4",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"sup",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2548,
+		"nouns": [
+			"×",
+			"−",
+			"N–m",
+			"/",
+			"kg",
+			"units",
+			"×",
+			"−",
+			"ft",
+			"/",
+			"lb"
+		],
+		"dOIndex": 84,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " ) in English units.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2549,
+		"nouns": [
+			"English",
+			"units"
+		],
+		"dOIndex": 85,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"English"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2550,
+		"nouns": [],
+		"dOIndex": 86,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2551,
+		"nouns": [],
+		"dOIndex": 87,
+		"isQuote": false
+	},
+	{
+		"txt": "So far in this book, I've been using the acceleration due to gravity, glink https:2link https:2 ). ",
+		"why": "split inside sentence",
+		"tags": [
+			"sup",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2552,
+		"nouns": [
+			"book",
+			"ve",
+			"acceleration",
+			"gravity",
+			"glink",
+			"https",
+			"link",
+			"https"
+		],
+		"dOIndex": 88,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"acceleration",
+			"gravity"
+		]
+	},
+	{
+		"txt": " This is true when you are near the earth's surface for example, at sea level. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2553,
+		"nouns": [
+			"earth",
+			"surface",
+			"example",
+			"sea",
+			"level"
+		],
+		"dOIndex": 89,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"surface",
+			"example"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.11764705882352941,
+			"words": [
+				"true"
+			],
+			"positive": [
+				"true"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " In reality, g varies with ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2554,
+		"nouns": [
+			"reality",
+			"g"
+		],
+		"dOIndex": 90,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"reality"
+		]
+	},
+	{
+		"txt": "altitude maybe not by much for our purposes, but it does. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2555,
+		"nouns": [
+			"altitude",
+			"purposes"
+		],
+		"dOIndex": 91,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"altitude",
+			"purposes"
+		]
+	},
+	{
+		"txt": " Consider Newton's second law along with the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2556,
+		"nouns": [
+			"Newton",
+			"second",
+			"law"
+		],
+		"dOIndex": 92,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Consider",
+			"Newton"
+		]
+	},
+	{
+		"txt": "law of gravitation for a body near the earth. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2557,
+		"nouns": [
+			"law",
+			"gravitation",
+			"body",
+			"earth"
+		],
+		"dOIndex": 93,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"gravitation"
+		]
+	},
+	{
+		"txt": " Equating these two laws, in equation form, yields:m a = (G Me m) / (Re + h)2",
+		"why": "p",
+		"tags": [
+			"sup",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2558,
+		"nouns": [
+			"two",
+			"laws",
+			"equation",
+			"form",
+			"yields",
+			"m",
+			"G",
+			"m",
+			"/",
+			"Re",
+			"h"
+		],
+		"dOIndex": 94,
+		"nouns2": [
+			"Equating",
+			"equation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2559,
+		"nouns": [],
+		"dOIndex": 95,
+		"isQuote": false
+	},
+	{
+		"txt": "where m is the mass of the body, a is the acceleration of the body due to the gravitational attraction between it and the earth, Me is the earth's mass, Re is the radius of the earth, and h is the altitude of the body. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2560,
+		"nouns": [
+			"m",
+			"mass",
+			"body",
+			"acceleration",
+			"body",
+			"attraction",
+			"earth",
+			"earth",
+			"mass",
+			"Re",
+			"radius",
+			"earth",
+			"h",
+			"altitude",
+			"body"
+		],
+		"dOIndex": 96,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"acceleration",
+			"attraction",
+			"altitude"
+		],
+		"highfreq": {
+			"body": 3,
+			"earth": 3
+		},
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.043478260869565216,
+			"words": [
+				"attraction"
+			],
+			"positive": [
+				"attraction"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " If you solve this equation for a, you'll have a formula for the acceleration due to gravity as a function of altitude:a = g' = (G Me) / (Re + h)2",
+		"why": "p",
+		"tags": [
+			"sup",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2561,
+		"nouns": [
+			"equation",
+			"ll",
+			"formula",
+			"acceleration",
+			"gravity",
+			"function",
+			"altitude",
+			"g",
+			"G",
+			"/",
+			"Re",
+			"h"
+		],
+		"dOIndex": 97,
+		"nouns2": [
+			"equation",
+			"formula",
+			"acceleration",
+			"gravity",
+			"function",
+			"altitude"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.03125,
+			"words": [
+				"solve"
+			],
+			"positive": [
+				"solve"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2562,
+		"nouns": [],
+		"dOIndex": 98,
+		"isQuote": false
+	},
+	{
+		"txt": "The radius of the earth is approximately 6.38×106 m, and its mass is about 5.98×1024 kgs. ",
+		"why": "split inside sentence",
+		"tags": [
+			"sup",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2563,
+		"nouns": [
+			"radius",
+			"earth",
+			"×",
+			"m",
+			"mass",
+			"×",
+			"kgs"
+		],
+		"dOIndex": 99,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Substituting these values in the preceding equation and assuming 0 altitude (sea level) yields the constant g that we've been using so far that is, glink https:2 .",
+		"why": "split inside sentence",
+		"tags": [
+			"sup",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2564,
+		"nouns": [
+			"values",
+			"equation",
+			"altitude",
+			"sea",
+			"level",
+			"yields",
+			"g",
+			"ve",
+			"glink",
+			"https"
+		],
+		"dOIndex": 100,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Substituting",
+			"equation",
+			"altitude"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2565,
+		"nouns": [],
+		"dOIndex": 101,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2566,
+		"nouns": [],
+		"dOIndex": 102,
+		"isQuote": false
+	},
+	{
+		"txt": "Friction",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2567,
+		"nouns": [
+			"Friction"
+		],
+		"dOIndex": 103,
+		"nouns2": [
+			"Friction"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2568,
+		"nouns": [],
+		"dOIndex": 104,
+		"isQuote": false
+	},
+	{
+		"txt": "Frictional forces (friction) ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2569,
+		"nouns": [
+			"forces",
+			"friction"
+		],
+		"dOIndex": 105,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Frictional",
+			"friction"
+		]
+	},
+	{
+		"txt": "always resist motion and are due to the interaction between contacting surfaces. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2570,
+		"nouns": [
+			"motion",
+			"interaction",
+			"surfaces"
+		],
+		"dOIndex": 106,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"interaction",
+			"surfaces"
+		]
+	},
+	{
+		"txt": " Thus, friction is a ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2571,
+		"nouns": [
+			"friction"
+		],
+		"dOIndex": 107,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"friction"
+		]
+	},
+	{
+		"txt": "contact force. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2572,
+		"nouns": [
+			"contact",
+			"force"
+		],
+		"dOIndex": 108,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"contact"
+		]
+	},
+	{
+		"txt": " Friction is always parallel to the contacting surfaces at the point of contact that is, friction is tangential to the contacting surfaces. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2573,
+		"nouns": [
+			"Friction",
+			"surfaces",
+			"point",
+			"contact",
+			"friction",
+			"surfaces"
+		],
+		"dOIndex": 109,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Friction",
+			"surfaces",
+			"contact",
+			"friction"
+		]
+	},
+	{
+		"txt": " The magnitude of the frictional force is a function of the normal force between the contacting surfaces and the surface roughness.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2574,
+		"nouns": [
+			"magnitude",
+			"force",
+			"function",
+			"force",
+			"surfaces",
+			"surface",
+			"roughness"
+		],
+		"dOIndex": 110,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"magnitude",
+			"function",
+			"surfaces",
+			"surface",
+			"roughness"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2575,
+		"nouns": [],
+		"dOIndex": 111,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2576,
+		"nouns": [],
+		"dOIndex": 112,
+		"isQuote": false
+	},
+	{
+		"txt": "This is easiest to visualize by looking at a simple block on a horizontal surface, as shown in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2577,
+		"nouns": [
+			"block",
+			"surface"
+		],
+		"dOIndex": 113,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"surface"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.05263157894736842,
+			"words": [
+				"block"
+			],
+			"positive": [],
+			"negative": [
+				"block"
+			]
+		}
+	},
+	{
+		"txt": "Figure 3 1",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2578,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 114,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2579,
+		"nouns": [],
+		"dOIndex": 115,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2580,
+		"nouns": [],
+		"dOIndex": 116,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2581,
+		"nouns": [],
+		"dOIndex": 117,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2582,
+		"nouns": [],
+		"dOIndex": 118,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2583,
+		"nouns": [],
+		"dOIndex": 119,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2584,
+		"nouns": [],
+		"dOIndex": 120,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 3 1. Friction: block in contact with horizontal surface",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2585,
+		"nouns": [
+			"Figure",
+			"Friction",
+			"block",
+			"contact",
+			"surface"
+		],
+		"dOIndex": 121,
+		"nouns2": [
+			"Figure",
+			"Friction",
+			"contact",
+			"surface"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.125,
+			"words": [
+				"block"
+			],
+			"positive": [],
+			"negative": [
+				"block"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2586,
+		"nouns": [],
+		"dOIndex": 122,
+		"isQuote": false
+	},
+	{
+		"txt": "In ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2587,
+		"nouns": [],
+		"dOIndex": 123,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 3 1, the block is resting on the horizontal surface with a small force, Fa",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"sub",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2588,
+		"nouns": [
+			"Figure",
+			"block",
+			"surface",
+			"force",
+			"Fa"
+		],
+		"dOIndex": 124,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure",
+			"surface"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.06666666666666667,
+			"words": [
+				"block"
+			],
+			"positive": [],
+			"negative": [
+				"block"
+			]
+		}
+	},
+	{
+		"txt": " , applied to the block on a line of action through the block's center of mass. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2589,
+		"nouns": [
+			"block",
+			"line",
+			"action",
+			"block",
+			"center",
+			"mass"
+		],
+		"dOIndex": 125,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.05555555555555555,
+			"words": [
+				"block"
+			],
+			"positive": [],
+			"negative": [
+				"block"
+			]
+		}
+	},
+	{
+		"txt": " As this applied force increases, a frictional force will develop between the block and the horizontal surface, tending to resist the motion of the block. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2590,
+		"nouns": [
+			"force",
+			"increases",
+			"force",
+			"block",
+			"surface",
+			"motion",
+			"block"
+		],
+		"dOIndex": 126,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"increases",
+			"surface"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.07407407407407407,
+			"words": [
+				"block",
+				"block"
+			],
+			"positive": [],
+			"negative": [
+				"block",
+				"block"
+			]
+		}
+	},
+	{
+		"txt": " The maximum value of this ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2591,
+		"nouns": [
+			"value"
+		],
+		"dOIndex": 127,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "frictional force is:Ffmax = µs N",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2592,
+		"nouns": [
+			"force",
+			"Ffmax",
+			"µs",
+			"N"
+		],
+		"dOIndex": 128,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 2593,
+		"nouns": [],
+		"dOIndex": 129,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2594,
+		"nouns": [],
+		"dOIndex": 130,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "where µs is the experimentally determined coefficient ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2595,
+		"nouns": [
+			"µs",
+			"coefficient"
+		],
+		"dOIndex": 131,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coefficient"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.25,
+			"words": [
+				"determined"
+			],
+			"positive": [
+				"determined"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2596,
+		"nouns": [],
+		"dOIndex": 132,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "of static[",
+		"why": "link",
+		"tags": [
+			"sup",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2597,
+		"nouns": [
+			"static["
+		],
+		"dOIndex": 133,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"static["
+		]
+	},
+	{
+		"txt": "9] friction and N",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2598,
+		"nouns": [
+			"friction",
+			"N"
+		],
+		"dOIndex": 134,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"friction"
+		]
+	},
+	{
+		"txt": " is the normal (perpendicular) force between the block and the surface, which equals the weight of the block in this case. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2599,
+		"nouns": [
+			"force",
+			"block",
+			"surface",
+			"weight",
+			"block",
+			"case"
+		],
+		"dOIndex": 135,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"surface"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.08695652173913043,
+			"words": [
+				"block",
+				"block"
+			],
+			"positive": [],
+			"negative": [
+				"block",
+				"block"
+			]
+		}
+	},
+	{
+		"txt": " As the applied force increases but is still less than Ffmax, the block will remain static and Ff will be equal in magnitude to the applied force. ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2600,
+		"nouns": [
+			"force",
+			"increases",
+			"Ffmax",
+			"block",
+			"Ff",
+			"magnitude",
+			"force"
+		],
+		"dOIndex": 136,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"increases",
+			"magnitude"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.034482758620689655,
+			"words": [
+				"block"
+			],
+			"positive": [],
+			"negative": [
+				"block"
+			]
+		}
+	},
+	{
+		"txt": " The block is in static equilibrium. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2601,
+		"nouns": [
+			"block",
+			"equilibrium"
+		],
+		"dOIndex": 137,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equilibrium"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.125,
+			"words": [
+				"block"
+			],
+			"positive": [],
+			"negative": [
+				"block"
+			]
+		}
+	},
+	{
+		"txt": " When the applied force becomes greater than Ffmax , the frictional force can no longer impede the block's motion and the block will accelerate under the influence of the applied force. ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2602,
+		"nouns": [
+			"force",
+			"Ffmax",
+			"force",
+			"block",
+			"motion",
+			"block",
+			"influence",
+			"force"
+		],
+		"dOIndex": 138,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"influence"
+		],
+		"highfreq": {
+			"force": 3
+		},
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.030303030303030304,
+			"words": [
+				"block",
+				"impede",
+				"no",
+				"greater"
+			],
+			"positive": [
+				"greater"
+			],
+			"negative": [
+				"block",
+				"impede",
+				"no"
+			]
+		}
+	},
+	{
+		"txt": " Immediately after the block starts its motion, the frictional force will decrease from Ffmax to Ffk, where Ffk is:Ffk = µk N",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2603,
+		"nouns": [
+			"block",
+			"motion",
+			"force",
+			"decrease",
+			"Ffmax",
+			"Ffk",
+			"Ffk",
+			"Ffk",
+			"µk",
+			"N"
+		],
+		"dOIndex": 139,
+		"nouns2": [
+			"Immediately",
+			"decrease"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.043478260869565216,
+			"words": [
+				"block"
+			],
+			"positive": [],
+			"negative": [
+				"block"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "Here k means kinetic since the block is in motion, ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2604,
+		"nouns": [
+			"k",
+			"block",
+			"motion"
+		],
+		"dOIndex": 140,
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.09090909090909091,
+			"words": [
+				"block"
+			],
+			"positive": [],
+			"negative": [
+				"block"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2605,
+		"nouns": [],
+		"dOIndex": 141,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "and µk, the coefficient of kinetic friction,[",
+		"why": "link",
+		"tags": [
+			"sup",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2606,
+		"nouns": [
+			"µk",
+			"coefficient",
+			"friction"
+		],
+		"dOIndex": 142,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coefficient",
+			"friction"
+		]
+	},
+	{
+		"txt": "10] is less than µs",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"sub",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2607,
+		"nouns": [
+			"µs"
+		],
+		"dOIndex": 143,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2608,
+		"nouns": [],
+		"dOIndex": 144,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Like the static coefficient of friction, the kinetic coefficient of friction is determined experimentally. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2609,
+		"nouns": [
+			"coefficient",
+			"friction",
+			"coefficient",
+			"friction"
+		],
+		"dOIndex": 145,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coefficient",
+			"friction"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.25,
+			"words": [
+				"determined",
+				"like"
+			],
+			"positive": [
+				"determined",
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2610,
+		"nouns": [],
+		"dOIndex": 146,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Table 3 1",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2611,
+		"nouns": [
+			"Table"
+		],
+		"dOIndex": 147,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " shows typical coefficients of friction for several surfaces in contact.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2612,
+		"nouns": [
+			"coefficients",
+			"friction",
+			"surfaces",
+			"contact"
+		],
+		"dOIndex": 148,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coefficients",
+			"friction",
+			"surfaces",
+			"contact"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2613,
+		"nouns": [],
+		"dOIndex": 149,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Table 3 1. Coefficients of friction of common surfaces",
+		"why": "p",
+		"tags": [
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2614,
+		"nouns": [
+			"Table",
+			"Coefficients",
+			"friction",
+			"surfaces"
+		],
+		"dOIndex": 150,
+		"nouns2": [
+			"Coefficients",
+			"friction",
+			"surfaces"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Surface condition",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"thead",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2615,
+		"nouns": [
+			"Surface",
+			"condition"
+		],
+		"dOIndex": 151,
+		"nouns2": [
+			"Surface",
+			"condition"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Μs",
+		"why": "p",
+		"tags": [
+			"sub",
+			"p",
+			"td",
+			"tr",
+			"thead",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2616,
+		"nouns": [
+			"Μs"
+		],
+		"dOIndex": 152,
+		"isQuote": false
+	},
+	{
+		"txt": "Μu",
+		"why": "p",
+		"tags": [
+			"sub",
+			"p",
+			"td",
+			"tr",
+			"thead",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2617,
+		"nouns": [
+			"Μu"
+		],
+		"dOIndex": 153,
+		"isQuote": false
+	},
+	{
+		"txt": "% difference",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"thead",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2618,
+		"nouns": [
+			"%",
+			"difference"
+		],
+		"dOIndex": 154,
+		"nouns2": [
+			"difference"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Dry glass on glass",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2619,
+		"nouns": [
+			"Dry",
+			"glass",
+			"glass"
+		],
+		"dOIndex": 155,
+		"isQuote": false
+	},
+	{
+		"txt": "0.94",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2620,
+		"nouns": [],
+		"dOIndex": 156,
+		"isQuote": false
+	},
+	{
+		"txt": "0.4",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2621,
+		"nouns": [],
+		"dOIndex": 157,
+		"isQuote": false
+	},
+	{
+		"txt": "54%",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2622,
+		"nouns": [
+			"%"
+		],
+		"dOIndex": 158,
+		"isQuote": false
+	},
+	{
+		"txt": "Dry iron on iron",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2623,
+		"nouns": [
+			"Dry",
+			"iron",
+			"iron"
+		],
+		"dOIndex": 159,
+		"isQuote": false
+	},
+	{
+		"txt": "1.1",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2624,
+		"nouns": [],
+		"dOIndex": 160,
+		"isQuote": false
+	},
+	{
+		"txt": "0.15",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2625,
+		"nouns": [],
+		"dOIndex": 161,
+		"isQuote": false
+	},
+	{
+		"txt": "86%",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2626,
+		"nouns": [
+			"%"
+		],
+		"dOIndex": 162,
+		"isQuote": false
+	},
+	{
+		"txt": "Dry rubber on pavement",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2627,
+		"nouns": [
+			"Dry",
+			"rubber",
+			"pavement"
+		],
+		"dOIndex": 163,
+		"nouns2": [
+			"pavement"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "0.55",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2628,
+		"nouns": [],
+		"dOIndex": 164,
+		"isQuote": false
+	},
+	{
+		"txt": "0.4",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2629,
+		"nouns": [],
+		"dOIndex": 165,
+		"isQuote": false
+	},
+	{
+		"txt": "27%",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2630,
+		"nouns": [
+			"%"
+		],
+		"dOIndex": 166,
+		"isQuote": false
+	},
+	{
+		"txt": "Dry steel on steel",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2631,
+		"nouns": [
+			"Dry",
+			"steel",
+			"steel"
+		],
+		"dOIndex": 167,
+		"isQuote": false
+	},
+	{
+		"txt": "0.78",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2632,
+		"nouns": [],
+		"dOIndex": 168,
+		"isQuote": false
+	},
+	{
+		"txt": "0.42",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2633,
+		"nouns": [],
+		"dOIndex": 169,
+		"isQuote": false
+	},
+	{
+		"txt": "46%",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2634,
+		"nouns": [
+			"%"
+		],
+		"dOIndex": 170,
+		"isQuote": false
+	},
+	{
+		"txt": "Dry Teflon on Teflon",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2635,
+		"nouns": [
+			"Dry Teflon",
+			"Teflon"
+		],
+		"dOIndex": 171,
+		"nouns2": [
+			"Teflon"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "0.04",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2636,
+		"nouns": [],
+		"dOIndex": 172,
+		"isQuote": false
+	},
+	{
+		"txt": "0.04",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2637,
+		"nouns": [],
+		"dOIndex": 173,
+		"isQuote": false
+	},
+	{
+		"txt": " ",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2638,
+		"nouns": [],
+		"dOIndex": 174,
+		"isQuote": false
+	},
+	{
+		"txt": "Dry wood on wood",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2639,
+		"nouns": [
+			"Dry",
+			"wood",
+			"wood"
+		],
+		"dOIndex": 175,
+		"isQuote": false
+	},
+	{
+		"txt": "0.38",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2640,
+		"nouns": [],
+		"dOIndex": 176,
+		"isQuote": false
+	},
+	{
+		"txt": "0.2",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2641,
+		"nouns": [],
+		"dOIndex": 177,
+		"isQuote": false
+	},
+	{
+		"txt": "47%",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2642,
+		"nouns": [
+			"%"
+		],
+		"dOIndex": 178,
+		"isQuote": false
+	},
+	{
+		"txt": "Ice on ice",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2643,
+		"nouns": [
+			"Ice",
+			"ice"
+		],
+		"dOIndex": 179,
+		"isQuote": false
+	},
+	{
+		"txt": "0.1",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2644,
+		"nouns": [],
+		"dOIndex": 180,
+		"isQuote": false
+	},
+	{
+		"txt": "0.03",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2645,
+		"nouns": [],
+		"dOIndex": 181,
+		"isQuote": false
+	},
+	{
+		"txt": "70%",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2646,
+		"nouns": [
+			"%"
+		],
+		"dOIndex": 182,
+		"isQuote": false
+	},
+	{
+		"txt": "Oiled steel on steel",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2647,
+		"nouns": [
+			"steel",
+			"steel"
+		],
+		"dOIndex": 183,
+		"isQuote": false
+	},
+	{
+		"txt": "0.10",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2648,
+		"nouns": [],
+		"dOIndex": 184,
+		"isQuote": false
+	},
+	{
+		"txt": "0.08",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2649,
+		"nouns": [],
+		"dOIndex": 185,
+		"isQuote": false
+	},
+	{
+		"txt": "20%",
+		"why": "p",
+		"tags": [
+			"p",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2650,
+		"nouns": [
+			"%"
+		],
+		"dOIndex": 186,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2651,
+		"nouns": [],
+		"dOIndex": 187,
+		"isQuote": false
+	},
+	{
+		"txt": "The data in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2652,
+		"nouns": [
+			"data"
+		],
+		"dOIndex": 188,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Table 3 1",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2653,
+		"nouns": [
+			"Table"
+		],
+		"dOIndex": 189,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " is provided here to show you the magnitude of some typical friction coefficients and the relative difference between the static and kinetic coefficients for certain surface conditions. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2654,
+		"nouns": [
+			"show",
+			"magnitude",
+			"friction",
+			"coefficients",
+			"difference",
+			"coefficients",
+			"surface",
+			"conditions"
+		],
+		"dOIndex": 190,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"magnitude",
+			"friction",
+			"coefficients",
+			"difference",
+			"surface",
+			"conditions"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.034482758620689655,
+			"words": [
+				"certain"
+			],
+			"positive": [
+				"certain"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Other data is available for these and other surface conditions in the technical literature (see the ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2655,
+		"nouns": [
+			"data",
+			"surface",
+			"conditions",
+			"literature"
+		],
+		"dOIndex": 191,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"surface",
+			"conditions",
+			"literature"
+		]
+	},
+	{
+		"txt": "Bibliography",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2656,
+		"nouns": [
+			"Bibliography"
+		],
+		"dOIndex": 192,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Bibliography"
+		]
+	},
+	{
+		"txt": " for sources). ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2657,
+		"nouns": [
+			"sources"
+		],
+		"dOIndex": 193,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"sources"
+		]
+	},
+	{
+		"txt": " Note that experimentally determined friction coefficient data will vary, even for the same surface conditions, depending on the specific condition of the material used in the experiments and the execution of the ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2658,
+		"nouns": [
+			"friction",
+			"coefficient",
+			"data",
+			"surface",
+			"conditions",
+			"condition",
+			"experiments",
+			"execution"
+		],
+		"dOIndex": 194,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"friction",
+			"coefficient",
+			"surface",
+			"conditions",
+			"condition",
+			"experiments",
+			"execution"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.058823529411764705,
+			"words": [
+				"determined"
+			],
+			"positive": [
+				"determined"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2659,
+		"nouns": [],
+		"dOIndex": 195,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "experiment itself.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2660,
+		"nouns": [
+			"experiment"
+		],
+		"dOIndex": 196,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"experiment"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2661,
+		"nouns": [],
+		"dOIndex": 197,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2662,
+		"nouns": [],
+		"dOIndex": 198,
+		"isQuote": false
+	},
+	{
+		"txt": "Fluid Dynamic Drag",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2663,
+		"nouns": [
+			"Fluid Dynamic"
+		],
+		"dOIndex": 199,
+		"nouns2": [
+			"Dynamic"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.3333333333333333,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2664,
+		"nouns": [],
+		"dOIndex": 200,
+		"isQuote": false
+	},
+	{
+		"txt": "Fluid dynamic ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2665,
+		"nouns": [
+			"Fluid"
+		],
+		"dOIndex": 201,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2666,
+		"nouns": [],
+		"dOIndex": 202,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2667,
+		"nouns": [],
+		"dOIndex": 203,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "drag forces oppose motion like friction. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2668,
+		"nouns": [
+			"drag",
+			"forces",
+			"motion",
+			"friction"
+		],
+		"dOIndex": 204,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"friction"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.14285714285714285,
+			"words": [
+				"like",
+				"drag"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " In fact, a major component of fluid dynamic drag is friction that results from the relative flow of the fluid over (and in contact with) the body's surface. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2669,
+		"nouns": [
+			"fact",
+			"component",
+			"fluid",
+			"drag",
+			"friction",
+			"results",
+			"flow",
+			"fluid",
+			"contact",
+			"body",
+			"surface"
+		],
+		"dOIndex": 205,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"component",
+			"friction",
+			"results",
+			"contact",
+			"surface"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.03333333333333333,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " Friction is not the only component of fluid dynamic drag, though. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2670,
+		"nouns": [
+			"Friction",
+			"component",
+			"fluid",
+			"drag"
+		],
+		"dOIndex": 206,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Friction",
+			"component"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.07692307692307693,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " Depending on the shape of the body, its speed, and the nature of the fluid, fluid dynamic drag will have additional components due to pressure variations in the fluid as it flows around the body. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2671,
+		"nouns": [
+			"shape",
+			"body",
+			"nature",
+			"fluid",
+			"fluid",
+			"drag",
+			"components",
+			"pressure",
+			"variations",
+			"fluid",
+			"flows",
+			"body"
+		],
+		"dOIndex": 207,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Depending",
+			"components",
+			"pressure",
+			"variations"
+		],
+		"highfreq": {
+			"fluid": 3
+		},
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.05405405405405406,
+			"words": [
+				"pressure",
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"pressure",
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " If the body is located at the interface between two fluids (like a ship on the ocean where the two fluids are air and water), an additional component of drag will exist due to the wave generation.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2672,
+		"nouns": [
+			"body",
+			"interface",
+			"two",
+			"fluids",
+			"ship",
+			"ocean",
+			"two",
+			"fluids",
+			"air",
+			"water",
+			"component",
+			"drag",
+			"wave",
+			"generation"
+		],
+		"dOIndex": 208,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"interface",
+			"component",
+			"generation"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.02631578947368421,
+			"words": [
+				"drag",
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2673,
+		"nouns": [],
+		"dOIndex": 209,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2674,
+		"nouns": [],
+		"dOIndex": 210,
+		"isQuote": false
+	},
+	{
+		"txt": "In general, fluid dynamic drag is a complicated phenomenon that is a function of several factors. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2675,
+		"nouns": [
+			"fluid",
+			"drag",
+			"phenomenon",
+			"function",
+			"factors"
+		],
+		"dOIndex": 211,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"phenomenon",
+			"function",
+			"factors"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.058823529411764705,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " We won't go into detail in this section on all these factors, since we'll revisit this subject later. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2676,
+		"nouns": [
+			"t",
+			"detail",
+			"section",
+			"factors",
+			"ll",
+			"subject"
+		],
+		"dOIndex": 212,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"section",
+			"factors",
+			"subject"
+		]
+	},
+	{
+		"txt": " However, we do want to discuss how ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2677,
+		"nouns": [],
+		"dOIndex": 213,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.1111111111111111,
+			"words": [
+				"want"
+			],
+			"positive": [
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "the viscous",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2678,
+		"nouns": [],
+		"dOIndex": 214,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " (frictional) component of these drag forces is typically idealized.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2679,
+		"nouns": [
+			"component",
+			"drag",
+			"forces"
+		],
+		"dOIndex": 215,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"component"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.1,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2680,
+		"nouns": [],
+		"dOIndex": 216,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2681,
+		"nouns": [],
+		"dOIndex": 217,
+		"isQuote": false
+	},
+	{
+		"txt": "Ideal viscous drag is a function of velocity and some experimentally ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2682,
+		"nouns": [
+			"drag",
+			"function",
+			"velocity"
+		],
+		"dOIndex": 218,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function",
+			"velocity"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.08333333333333333,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2683,
+		"nouns": [],
+		"dOIndex": 219,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "determined drag coefficient that's supposed to take into account the surface conditions of the body, the fluid properties (density and viscosity), and the flow conditions. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2684,
+		"nouns": [
+			"drag",
+			"coefficient",
+			"account",
+			"surface",
+			"conditions",
+			"body",
+			"fluid",
+			"properties",
+			"density",
+			"viscosity",
+			"flow",
+			"conditions"
+		],
+		"dOIndex": 220,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coefficient",
+			"account",
+			"surface",
+			"conditions",
+			"properties",
+			"density",
+			"viscosity"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.038461538461538464,
+			"words": [
+				"drag",
+				"determined"
+			],
+			"positive": [
+				"determined"
+			],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " You'll typically see a formula for viscous drag force in the form:Fv = –Cf v",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2685,
+		"nouns": [
+			"ll",
+			"formula",
+			"drag",
+			"force",
+			"form",
+			"Fv",
+			"–Cf",
+			"v"
+		],
+		"dOIndex": 221,
+		"nouns2": [
+			"formula"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.0625,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2686,
+		"nouns": [],
+		"dOIndex": 222,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": true,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "where Cf is the drag coefficient, v is the body's speed, and the minus sign means that the force opposes motion. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2687,
+		"nouns": [
+			"Cf",
+			"drag",
+			"coefficient",
+			"v",
+			"body",
+			"sign",
+			"force",
+			"motion"
+		],
+		"dOIndex": 223,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"Cf",
+			"drag",
+			"coefficient",
+			"v",
+			"body",
+			"sign",
+			"force",
+			"motion"
+		],
+		"nouns2": [
+			"coefficient"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.045454545454545456,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " This formula is valid for slow moving objects in a viscous fluid. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2688,
+		"nouns": [
+			"formula",
+			"objects",
+			"fluid"
+		],
+		"dOIndex": 224,
+		"ignoreDOBcNoQuotes": false,
+		"isQuote": false,
+		"nounsProcAll": [
+			"formula",
+			"objects",
+			"fluid"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"formula",
+			"objects"
+		]
+	},
+	{
+		"txt": " \"Slow moving\" ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2689,
+		"nouns": [],
+		"dOIndex": 225,
+		"isQuote": true,
+		"nounsProcAll": [],
+		"sfxfx": [],
+		"gspkNameUnknown": "narrator"
+	},
+	{
+		"txt": " implies that the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2690,
+		"nouns": [],
+		"dOIndex": 226,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [],
+		"sfxfx": []
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2691,
+		"nouns": [],
+		"dOIndex": 227,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "flow around the body is laminar , which means that the flow streamlines are undisturbed and parallel.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2692,
+		"nouns": [
+			"flow",
+			"body",
+			"laminar",
+			"flow",
+			"streamlines"
+		],
+		"dOIndex": 228,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"flow",
+			"body",
+			"laminar",
+			"flow",
+			"streamlines"
+		],
+		"nouns2": [
+			"laminar",
+			"streamlines"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2693,
+		"nouns": [],
+		"dOIndex": 229,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2694,
+		"nouns": [],
+		"dOIndex": 230,
+		"isQuote": false
+	},
+	{
+		"txt": "For fast moving objects, you'll use the formula for Fv written as a function of speed squared as follows:Fv = –Cf v2",
+		"why": "p",
+		"tags": [
+			"sup",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2695,
+		"nouns": [
+			"objects",
+			"ll",
+			"use",
+			"formula",
+			"Fv",
+			"function",
+			"Fv",
+			"–Cf",
+			"v"
+		],
+		"dOIndex": 231,
+		"nouns2": [
+			"objects",
+			"formula",
+			"function"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2696,
+		"nouns": [],
+		"dOIndex": 232,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [],
+		"sfxfx": []
+	},
+	{
+		"txt": " \"Fast moving\" ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2697,
+		"nouns": [
+			"Fast"
+		],
+		"dOIndex": 233,
+		"isQuote": true,
+		"nounsProcAll": [
+			"Fast"
+		],
+		"sfxfx": [],
+		"gspkNameUnknown": "narrator"
+	},
+	{
+		"txt": " implies that the flow around the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2698,
+		"nouns": [
+			"flow"
+		],
+		"dOIndex": 234,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [
+			"flow"
+		],
+		"sfxfx": []
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2699,
+		"nouns": [],
+		"dOIndex": 235,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "object is turbulent , which means that the flow streamlines are no longer parallel and there is a sort of mixing effect in the flow around the object. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2700,
+		"nouns": [
+			"object",
+			"flow",
+			"streamlines",
+			"sort",
+			"effect",
+			"flow",
+			"object"
+		],
+		"dOIndex": 236,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"object",
+			"flow",
+			"streamlines",
+			"sort",
+			"effect",
+			"flow",
+			"object"
+		],
+		"nouns2": [
+			"streamlines"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.034482758620689655,
+			"words": [
+				"no"
+			],
+			"positive": [],
+			"negative": [
+				"no"
+			]
+		}
+	},
+	{
+		"txt": " Note that the values of Cf are generally not the same for these two equations. ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2701,
+		"nouns": [
+			"values",
+			"Cf",
+			"two",
+			"equations"
+		],
+		"dOIndex": 237,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"values",
+			"Cf",
+			"two",
+			"equations"
+		],
+		"nouns2": [
+			"equations"
+		]
+	},
+	{
+		"txt": " In addition to the factors mentioned earlier, Cf depends significantly on whether the flow is laminar or turbulent.",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2702,
+		"nouns": [
+			"addition",
+			"factors",
+			"Cf",
+			"flow",
+			"laminar"
+		],
+		"dOIndex": 238,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"addition",
+			"factors",
+			"Cf",
+			"flow",
+			"laminar"
+		],
+		"nouns2": [
+			"addition",
+			"factors",
+			"laminar"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2703,
+		"nouns": [],
+		"dOIndex": 239,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2704,
+		"nouns": [],
+		"dOIndex": 240,
+		"isQuote": false
+	},
+	{
+		"txt": "Both of these equations are very simplified and inadequate for practical analysis of fluid flow problems. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2705,
+		"nouns": [
+			"equations",
+			"analysis",
+			"fluid",
+			"flow",
+			"problems"
+		],
+		"dOIndex": 241,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equations",
+			"analysis",
+			"problems"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.23529411764705882,
+			"words": [
+				"problems",
+				"inadequate"
+			],
+			"positive": [],
+			"negative": [
+				"problems",
+				"inadequate"
+			]
+		}
+	},
+	{
+		"txt": " However, they do offer certain advantages in computer game simulations. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2706,
+		"nouns": [
+			"offer",
+			"advantages",
+			"computer",
+			"game",
+			"simulations"
+		],
+		"dOIndex": 242,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"advantages",
+			"computer",
+			"simulations"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.25,
+			"words": [
+				"advantages",
+				"certain"
+			],
+			"positive": [
+				"advantages",
+				"certain"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Most obviously, these formulas are easy to implement you need only know the velocity of the body under consideration, which you get from your kinematic equations, and an assumed value for the drag coefficient. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2707,
+		"nouns": [
+			"formulas",
+			"velocity",
+			"body",
+			"consideration",
+			"kinematic",
+			"equations",
+			"value",
+			"drag",
+			"coefficient"
+		],
+		"dOIndex": 243,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"formulas",
+			"velocity",
+			"consideration",
+			"kinematic",
+			"equations",
+			"coefficient"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"drag",
+				"easy"
+			],
+			"positive": [
+				"easy"
+			],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " This is convenient, as your game world will typically have many different types of objects of all sizes and shapes that would make rigorous analysis of each of their drag properties impractical. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2708,
+		"nouns": [
+			"game",
+			"world",
+			"types",
+			"objects",
+			"sizes",
+			"shapes",
+			"analysis",
+			"drag",
+			"properties"
+		],
+		"dOIndex": 244,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"objects",
+			"analysis",
+			"properties"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.058823529411764705,
+			"words": [
+				"drag",
+				"rigorous"
+			],
+			"positive": [
+				"rigorous"
+			],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " If the illusion of realism is all you need, not real life accuracy, then these formulas may be sufficient.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2709,
+		"nouns": [
+			"illusion",
+			"realism",
+			"life",
+			"accuracy",
+			"formulas"
+		],
+		"dOIndex": 245,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"illusion",
+			"realism",
+			"accuracy",
+			"formulas"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2710,
+		"nouns": [],
+		"dOIndex": 246,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2711,
+		"nouns": [],
+		"dOIndex": 247,
+		"isQuote": false
+	},
+	{
+		"txt": "Another advantage of using these idealized formulas is that you can tweak the drag coefficients as you see fit to help reduce numerical instabilities when solving the equations of motion, while maintaining the illusion of realistic behavior. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2712,
+		"nouns": [
+			"advantage",
+			"formulas",
+			"tweak",
+			"drag",
+			"coefficients",
+			"instabilities",
+			"equations",
+			"motion",
+			"illusion",
+			"behavior"
+		],
+		"dOIndex": 248,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Another",
+			"advantage",
+			"formulas",
+			"coefficients",
+			"instabilities",
+			"equations",
+			"illusion",
+			"behavior"
+		],
+		"sentiment": {
+			"score": 5,
+			"comparative": 0.13157894736842105,
+			"words": [
+				"solving",
+				"help",
+				"fit",
+				"drag",
+				"advantage"
+			],
+			"positive": [
+				"solving",
+				"help",
+				"fit",
+				"advantage"
+			],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " If real life accuracy is what you're going for, then you'll have no choice but to consider a more involved (read: complicated) approach for determining fluid dynamic drag. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2713,
+		"nouns": [
+			"life",
+			"accuracy",
+			"re",
+			"ll",
+			"choice",
+			"approach",
+			"fluid",
+			"drag"
+		],
+		"dOIndex": 249,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"accuracy",
+			"approach"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.06666666666666667,
+			"words": [
+				"drag",
+				"no"
+			],
+			"positive": [],
+			"negative": [
+				"drag",
+				"no"
+			]
+		}
+	},
+	{
+		"txt": " We'll talk more about drag in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2714,
+		"nouns": [
+			"ll",
+			"drag"
+		],
+		"dOIndex": 250,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.125,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": "Chapter 6 through ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2715,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 251,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2716,
+		"nouns": [],
+		"dOIndex": 252,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 10 .",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2717,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 253,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2718,
+		"nouns": [],
+		"dOIndex": 254,
+		"isQuote": false
+	},
+	{
+		"txt": "Pressure",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2719,
+		"nouns": [
+			"Pressure"
+		],
+		"dOIndex": 255,
+		"nouns2": [
+			"Pressure"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -1,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "Many people confuse ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2720,
+		"nouns": [
+			"people"
+		],
+		"dOIndex": 256,
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.5,
+			"words": [
+				"confuse"
+			],
+			"positive": [],
+			"negative": [
+				"confuse"
+			]
+		},
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": true,
+		"nounsProcAll": [
+			"people"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2721,
+		"nouns": [],
+		"dOIndex": 257,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "pressure with force. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2722,
+		"nouns": [
+			"pressure",
+			"force"
+		],
+		"dOIndex": 258,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"pressure",
+			"force"
+		],
+		"nouns2": [
+			"pressure"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.25,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " You have probably heard people say, when explaining a phenomenon, something like, ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2723,
+		"nouns": [
+			"people",
+			"phenomenon"
+		],
+		"dOIndex": 259,
+		"ignoreDOBcNoQuotes": false,
+		"isQuote": false,
+		"nounsProcAll": [
+			"people",
+			"phenomenon"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"phenomenon"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.14285714285714285,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " \"It pushed with a force of 100 pounds per square inch.\" ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2724,
+		"isQuote": true,
+		"nouns": [
+			"force",
+			"pounds",
+			"square",
+			"inch"
+		],
+		"dOIndex": 260,
+		"nounsProcAll": [
+			"force",
+			"pounds",
+			"square",
+			"inch"
+		],
+		"sfxfx": [],
+		"gspkNameUnknown": "They"
+	},
+	{
+		"txt": " While you understand what they mean, they are technically referring to pressure, not force. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2725,
+		"nouns": [
+			"pressure",
+			"force"
+		],
+		"dOIndex": 261,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [
+			"pressure",
+			"force",
+			"They"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"pressure"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.0625,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " Pressure is force per unit area, thus the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2726,
+		"nouns": [
+			"Pressure",
+			"force",
+			"unit",
+			"area"
+		],
+		"dOIndex": 262,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"Pressure",
+			"force",
+			"unit",
+			"area"
+		],
+		"nouns2": [
+			"Pressure"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.1,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2727,
+		"nouns": [],
+		"dOIndex": 263,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2728,
+		"nouns": [],
+		"dOIndex": 264,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "units pounds per square inch (psi) or pounds per square foot (psf) ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2729,
+		"nouns": [
+			"units",
+			"pounds",
+			"square",
+			"inch",
+			"psi",
+			"pounds",
+			"square",
+			"foot",
+			"psf"
+		],
+		"dOIndex": 265,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"units",
+			"pounds",
+			"square",
+			"inch",
+			"psi",
+			"pounds",
+			"square",
+			"foot",
+			"psf"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2730,
+		"nouns": [],
+		"dOIndex": 266,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "and so on. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2731,
+		"nouns": [],
+		"dOIndex": 267,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": " Given the pressure, you'll need to know the total area acted on by this pressure in order to determine the resultant force. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2732,
+		"nouns": [
+			"pressure",
+			"ll",
+			"area",
+			"pressure",
+			"order",
+			"force"
+		],
+		"dOIndex": 268,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"pressure",
+			"ll",
+			"area",
+			"pressure",
+			"order",
+			"force"
+		],
+		"nouns2": [
+			"pressure"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.08333333333333333,
+			"words": [
+				"pressure",
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure",
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " Force equals pressure times area:F = PA",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2733,
+		"nouns": [
+			"Force",
+			"pressure",
+			"times",
+			"area",
+			"F",
+			"PA"
+		],
+		"dOIndex": 269,
+		"nouns2": [
+			"pressure"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.125,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2734,
+		"nouns": [],
+		"dOIndex": 270,
+		"isQuote": false
+	},
+	{
+		"txt": "This formula tells you that for constant pressure, the greater the area acted upon, the greater the resultant force. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2735,
+		"nouns": [
+			"formula",
+			"pressure",
+			"area",
+			"force"
+		],
+		"dOIndex": 271,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"formula",
+			"pressure"
+		],
+		"sentiment": {
+			"score": 5,
+			"comparative": 0.25,
+			"words": [
+				"greater",
+				"greater",
+				"pressure"
+			],
+			"positive": [
+				"greater",
+				"greater"
+			],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " If you rearrange this equation solving for pressure, you'll see that pressure is inversely proportional to area that is, the greater the area for a given applied force, the smaller the resulting pressure and vice versa.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2736,
+		"nouns": [
+			"equation",
+			"pressure",
+			"ll",
+			"pressure",
+			"area",
+			"area",
+			"force",
+			"pressure",
+			"vice"
+		],
+		"dOIndex": 272,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equation",
+			"pressure"
+		],
+		"highfreq": {
+			"pressure": 3
+		},
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.02702702702702703,
+			"words": [
+				"pressure",
+				"greater",
+				"pressure",
+				"pressure",
+				"solving"
+			],
+			"positive": [
+				"greater",
+				"solving"
+			],
+			"negative": [
+				"pressure",
+				"pressure",
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": "P = F/A",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2737,
+		"nouns": [
+			"P",
+			"F",
+			"/"
+		],
+		"dOIndex": 273,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2738,
+		"nouns": [],
+		"dOIndex": 274,
+		"isQuote": false
+	},
+	{
+		"txt": "An important characteristic of pressure is that it always acts normally (perpendicularly) to the surface of the body or object it is acting on. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2739,
+		"nouns": [
+			"pressure",
+			"acts",
+			"surface",
+			"body",
+			"object"
+		],
+		"dOIndex": 275,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure",
+			"surface"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.04,
+			"words": [
+				"pressure",
+				"important"
+			],
+			"positive": [
+				"important"
+			],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " This fact gives you a clue as to the direction of the resultant force vector.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2740,
+		"nouns": [
+			"fact",
+			"clue",
+			"direction",
+			"force",
+			"vector"
+		],
+		"dOIndex": 276,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"direction"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2741,
+		"nouns": [],
+		"dOIndex": 277,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2742,
+		"nouns": [],
+		"dOIndex": 278,
+		"isQuote": false
+	},
+	{
+		"txt": "We wanted to mention pressure here because you'll be working with it to calculate forces when you get to the chapters in this book that cover the mechanics of ships, boats, and hovercraft. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2743,
+		"nouns": [
+			"pressure",
+			"ll",
+			"forces",
+			"chapters",
+			"book",
+			"mechanics",
+			"ships",
+			"boats",
+			"hovercraft"
+		],
+		"dOIndex": 279,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure",
+			"chapters",
+			"mechanics",
+			"hovercraft"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.029411764705882353,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " There, the pressures that you'll consider are ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2744,
+		"nouns": [
+			"pressures",
+			"ll"
+		],
+		"dOIndex": 280,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressures"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2745,
+		"nouns": [],
+		"dOIndex": 281,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "hydrostatic pressure (buoyancy) and aerostatic lift. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2746,
+		"nouns": [
+			"pressure",
+			"buoyancy",
+			"aerostatic"
+		],
+		"dOIndex": 282,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure",
+			"buoyancy",
+			"aerostatic"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.14285714285714285,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " We'll take a brief look at buoyancy next.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2747,
+		"nouns": [
+			"ll",
+			"buoyancy"
+		],
+		"dOIndex": 283,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"buoyancy"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2748,
+		"nouns": [],
+		"dOIndex": 284,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2749,
+		"nouns": [],
+		"dOIndex": 285,
+		"isQuote": false
+	},
+	{
+		"txt": "Buoyancy",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2750,
+		"nouns": [
+			"Buoyancy"
+		],
+		"dOIndex": 286,
+		"nouns2": [
+			"Buoyancy"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2751,
+		"nouns": [],
+		"dOIndex": 287,
+		"isQuote": false
+	},
+	{
+		"txt": "You've no doubt felt the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2752,
+		"nouns": [
+			"ve",
+			"doubt"
+		],
+		"dOIndex": 288,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.3333333333333333,
+			"words": [
+				"doubt",
+				"no"
+			],
+			"positive": [],
+			"negative": [
+				"doubt",
+				"no"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2753,
+		"nouns": [],
+		"dOIndex": 289,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "effects of buoyancy when immersing yourself in the bathtub. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2754,
+		"nouns": [
+			"effects",
+			"buoyancy",
+			"bathtub"
+		],
+		"dOIndex": 290,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"effects",
+			"buoyancy",
+			"bathtub"
+		]
+	},
+	{
+		"txt": " Buoyancy is why you feel lighter in water than you do in air and why some people can float on their backs in a swimming pool.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2755,
+		"nouns": [
+			"Buoyancy",
+			"water",
+			"air",
+			"people",
+			"backs",
+			"pool"
+		],
+		"dOIndex": 291,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Buoyancy"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.037037037037037035,
+			"words": [
+				"backs"
+			],
+			"positive": [
+				"backs"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2756,
+		"nouns": [],
+		"dOIndex": 292,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2757,
+		"nouns": [],
+		"dOIndex": 293,
+		"isQuote": false
+	},
+	{
+		"txt": "Buoyancy is a force that develops when an object is immersed in a fluid. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2758,
+		"nouns": [
+			"Buoyancy",
+			"force",
+			"object",
+			"fluid"
+		],
+		"dOIndex": 294,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Buoyancy"
+		]
+	},
+	{
+		"txt": " It's a function of the volume of the object and the density of the fluid and results from the pressure differential between the fluid just above the object and the fluid just below the object. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2759,
+		"nouns": [
+			"function",
+			"volume",
+			"object",
+			"density",
+			"fluid",
+			"results",
+			"pressure",
+			"fluid",
+			"object",
+			"fluid",
+			"object"
+		],
+		"dOIndex": 295,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function",
+			"density",
+			"results",
+			"pressure"
+		],
+		"highfreq": {
+			"object": 3,
+			"fluid": 3
+		},
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.02702702702702703,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " Pressure ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2760,
+		"nouns": [
+			"Pressure"
+		],
+		"dOIndex": 296,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Pressure"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.3333333333333333,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2761,
+		"nouns": [],
+		"dOIndex": 297,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "increases the deeper you go in a fluid, thus the pressure is greater at the bottom of an object of a given height than it is at the top of the object. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2762,
+		"nouns": [
+			"increases",
+			"fluid",
+			"pressure",
+			"bottom",
+			"object",
+			"height",
+			"object"
+		],
+		"dOIndex": 298,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"increases",
+			"pressure"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.12121212121212122,
+			"words": [
+				"top",
+				"greater",
+				"pressure"
+			],
+			"positive": [
+				"top",
+				"greater"
+			],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " Consider the cube shown in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2763,
+		"nouns": [
+			"cube"
+		],
+		"dOIndex": 299,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Consider"
+		]
+	},
+	{
+		"txt": "Figure 3 2",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2764,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 300,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2765,
+		"nouns": [],
+		"dOIndex": 301,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2766,
+		"nouns": [],
+		"dOIndex": 302,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2767,
+		"nouns": [],
+		"dOIndex": 303,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2768,
+		"nouns": [],
+		"dOIndex": 304,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2769,
+		"nouns": [],
+		"dOIndex": 305,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2770,
+		"nouns": [],
+		"dOIndex": 306,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 3 2. Immersed cube",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2771,
+		"nouns": [
+			"Figure",
+			"cube"
+		],
+		"dOIndex": 307,
+		"nouns2": [
+			"Figure",
+			"Immersed"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2772,
+		"nouns": [],
+		"dOIndex": 308,
+		"isQuote": false
+	},
+	{
+		"txt": "Let s denote the cube's length, width, and height, which are all equal. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2773,
+		"nouns": [
+			"cube",
+			"length",
+			"width",
+			"height"
+		],
+		"dOIndex": 309,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Further, let ht denote the depth to the top of the cube and hb the depth to the bottom of the cube. ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2774,
+		"nouns": [
+			"ht",
+			"depth",
+			"cube",
+			"hb",
+			"depth",
+			"bottom",
+			"cube"
+		],
+		"dOIndex": 310,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Further"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08333333333333333,
+			"words": [
+				"top"
+			],
+			"positive": [
+				"top"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The pressure at the top of the cube is Pt= ρ g ht , which acts over the entire surface area of the top of the cube, normal to the surface in the downward direction. ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2775,
+		"nouns": [
+			"pressure",
+			"cube",
+			"Pt=",
+			"ρ",
+			"g",
+			"ht",
+			"acts",
+			"surface",
+			"area",
+			"cube",
+			"surface",
+			"direction"
+		],
+		"dOIndex": 311,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure",
+			"surface",
+			"direction"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.08108108108108109,
+			"words": [
+				"top",
+				"top",
+				"pressure"
+			],
+			"positive": [
+				"top",
+				"top"
+			],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " The pressure at the bottom of the cube is Pb= ρ g hb , which acts over the entire surface area of the bottom of the cube, normal to the surface in the upward direction. ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2776,
+		"nouns": [
+			"pressure",
+			"bottom",
+			"cube",
+			"Pb=",
+			"ρ",
+			"g",
+			"hb",
+			"acts",
+			"surface",
+			"area",
+			"bottom",
+			"cube",
+			"surface",
+			"direction"
+		],
+		"dOIndex": 312,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure",
+			"surface",
+			"direction"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.02702702702702703,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " Note that the pressure acting on the sides of the cube increases linearly with submergence, from Pt to Pb . ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2777,
+		"nouns": [
+			"pressure",
+			"sides",
+			"cube",
+			"increases",
+			"submergence",
+			"Pt",
+			"Pb"
+		],
+		"dOIndex": 313,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure",
+			"increases",
+			"submergence"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.045454545454545456,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " Also, note that since the side pressure is symmetric, equal and opposite, the net side pressure is 0, which means that the net side force (due to pressure) is also 0. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2778,
+		"nouns": [
+			"note",
+			"side",
+			"pressure",
+			"side",
+			"pressure",
+			"side",
+			"force",
+			"pressure"
+		],
+		"dOIndex": 314,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure"
+		],
+		"highfreq": {
+			"side": 3,
+			"pressure": 3
+		},
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.09090909090909091,
+			"words": [
+				"pressure",
+				"pressure",
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure",
+				"pressure",
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " The same is not true of the top and bottom pressures, which are obviously not equal, although they are opposite.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2779,
+		"nouns": [
+			"bottom",
+			"pressures"
+		],
+		"dOIndex": 315,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressures"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"top",
+				"true"
+			],
+			"positive": [
+				"top"
+			],
+			"negative": [
+				"true"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2780,
+		"nouns": [],
+		"dOIndex": 316,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2781,
+		"nouns": [],
+		"dOIndex": 317,
+		"isQuote": false
+	},
+	{
+		"txt": "The force acting down on the top of the cube is equal to the pressure at the top of the cube times the surface area of the top. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2782,
+		"nouns": [
+			"force",
+			"cube",
+			"pressure",
+			"cube",
+			"times",
+			"surface",
+			"area"
+		],
+		"dOIndex": 318,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure",
+			"surface"
+		],
+		"sentiment": {
+			"score": 5,
+			"comparative": 0.1724137931034483,
+			"words": [
+				"top",
+				"top",
+				"pressure",
+				"top"
+			],
+			"positive": [
+				"top",
+				"top",
+				"top"
+			],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " This can be written as follows:Ft = Pt AtFt = (ρ g ht) (s2)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2783,
+		"nouns": [
+			"Ft",
+			"Pt",
+			"AtFt",
+			"ρ",
+			"g",
+			"ht"
+		],
+		"dOIndex": 319,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2784,
+		"nouns": [],
+		"dOIndex": 320,
+		"isQuote": false
+	},
+	{
+		"txt": "Similarly, the force acting upward on the bottom of the cube is equal to the pressure at the bottom times the surface area of the bottom.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2785,
+		"nouns": [
+			"force",
+			"bottom",
+			"cube",
+			"pressure",
+			"bottom",
+			"times",
+			"surface",
+			"area",
+			"bottom"
+		],
+		"dOIndex": 321,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Similarly",
+			"pressure",
+			"surface"
+		],
+		"highfreq": {
+			"bottom": 3
+		},
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.038461538461538464,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": "Fb = Pb AbFb = (ρ g hb) (s2)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2786,
+		"nouns": [
+			"Fb",
+			"Pb",
+			"AbFb",
+			"ρ",
+			"g",
+			"hb"
+		],
+		"dOIndex": 322,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2787,
+		"nouns": [],
+		"dOIndex": 323,
+		"isQuote": false
+	},
+	{
+		"txt": "The net vertical force (buoyancy) equals the difference between the top and bottom forces:FB = Fb – FtFB = (ρ g hb) (s2) – (ρ g ht) (s2)FB = (ρ g) (s2) (hb – ht)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2788,
+		"nouns": [
+			"force",
+			"buoyancy",
+			"difference",
+			"bottom",
+			"forces",
+			"FB",
+			"Fb",
+			"–",
+			"FtFB",
+			"ρ",
+			"g",
+			"hb",
+			"–",
+			"ρ",
+			"g",
+			"ht",
+			"FB",
+			"ρ",
+			"g",
+			"hb",
+			"–",
+			"ht"
+		],
+		"dOIndex": 324,
+		"nouns2": [
+			"buoyancy",
+			"difference"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.05714285714285714,
+			"words": [
+				"top"
+			],
+			"positive": [
+				"top"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2789,
+		"nouns": [],
+		"dOIndex": 325,
+		"isQuote": false
+	},
+	{
+		"txt": "This formula gives the magnitude of the buoyancy force. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2790,
+		"nouns": [
+			"formula",
+			"magnitude",
+			"buoyancy",
+			"force"
+		],
+		"dOIndex": 326,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"formula",
+			"magnitude",
+			"buoyancy"
+		]
+	},
+	{
+		"txt": " Its direction is straight up, counteracting the weight of the object.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2791,
+		"nouns": [
+			"direction",
+			"weight",
+			"object"
+		],
+		"dOIndex": 327,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"direction"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.08333333333333333,
+			"words": [
+				"straight"
+			],
+			"positive": [
+				"straight"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2792,
+		"nouns": [],
+		"dOIndex": 328,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2793,
+		"nouns": [],
+		"dOIndex": 329,
+		"isQuote": false
+	},
+	{
+		"txt": "There is an important observation we need to make here. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2794,
+		"nouns": [
+			"observation"
+		],
+		"dOIndex": 330,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"observation"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.18181818181818182,
+			"words": [
+				"important"
+			],
+			"positive": [
+				"important"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Notice that (hb– ht) is simply the height of the cube, which is s in this case. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2795,
+		"nouns": [
+			"Notice",
+			"hb–",
+			"ht",
+			"height",
+			"cube",
+			"case"
+		],
+		"dOIndex": 331,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Notice"
+		]
+	},
+	{
+		"txt": " Substituting s in place of (hb– ht ) reveals that the buoyancy force is a function of the volume of the cube.",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2796,
+		"nouns": [
+			"place",
+			"hb–",
+			"ht",
+			"buoyancy",
+			"force",
+			"function",
+			"volume",
+			"cube"
+		],
+		"dOIndex": 332,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Substituting",
+			"buoyancy",
+			"function"
+		]
+	},
+	{
+		"txt": "FB = (ρ g) (s3)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2797,
+		"nouns": [
+			"FB",
+			"ρ",
+			"g"
+		],
+		"dOIndex": 333,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2798,
+		"nouns": [],
+		"dOIndex": 334,
+		"isQuote": false
+	},
+	{
+		"txt": "This is great since it means that all you need to do in order to calculate ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2799,
+		"nouns": [
+			"order"
+		],
+		"dOIndex": 335,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.17647058823529413,
+			"words": [
+				"great"
+			],
+			"positive": [
+				"great"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "buoyancy is to first calculate the volume of the object and then multiply that volume by the specific ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2800,
+		"nouns": [
+			"buoyancy",
+			"first",
+			"volume",
+			"object",
+			"volume"
+		],
+		"dOIndex": 336,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"buoyancy"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2801,
+		"nouns": [],
+		"dOIndex": 337,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "weight[",
+		"why": "link",
+		"tags": [
+			"sup",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2802,
+		"nouns": [
+			"weight["
+		],
+		"dOIndex": 338,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"weight["
+		]
+	},
+	{
+		"txt": "11] (ρ g",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2803,
+		"nouns": [
+			"ρ",
+			"g"
+		],
+		"dOIndex": 339,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " ) of the fluid. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2804,
+		"nouns": [
+			"fluid"
+		],
+		"dOIndex": 340,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " In truth, that's a little easier said than done for all but the simplest geometries. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2805,
+		"nouns": [
+			"truth",
+			"geometries"
+		],
+		"dOIndex": 341,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"geometries"
+		]
+	},
+	{
+		"txt": " If you're dealing with spheres, cubes, cylinders, and the like, then calculating volume is easy. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2806,
+		"nouns": [
+			"re",
+			"spheres",
+			"cubes",
+			"cylinders",
+			"volume"
+		],
+		"dOIndex": 342,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"spheres",
+			"cylinders"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.17647058823529413,
+			"words": [
+				"easy",
+				"like"
+			],
+			"positive": [
+				"easy",
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " However, if you're dealing with any arbitrary geometry, then the volume calculation becomes more difficult. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2807,
+		"nouns": [
+			"re",
+			"geometry",
+			"volume",
+			"calculation"
+		],
+		"dOIndex": 343,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"geometry",
+			"calculation"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.058823529411764705,
+			"words": [
+				"difficult"
+			],
+			"positive": [],
+			"negative": [
+				"difficult"
+			]
+		}
+	},
+	{
+		"txt": " There are two ways to handle this difficulty. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2808,
+		"nouns": [
+			"two",
+			"ways",
+			"difficulty"
+		],
+		"dOIndex": 344,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"difficulty"
+		]
+	},
+	{
+		"txt": " The first way is to simply divide the object into a number of smaller objects of simpler geometry, calculate their volumes, and then add them all up. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2809,
+		"nouns": [
+			"first",
+			"way",
+			"object",
+			"number",
+			"objects",
+			"geometry",
+			"volumes"
+		],
+		"dOIndex": 345,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"objects",
+			"geometry",
+			"volumes"
+		]
+	},
+	{
+		"txt": " The second way is to use numerical integration techniques to calculate volume by integrating over the surface of the object.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2810,
+		"nouns": [
+			"second",
+			"way",
+			"use",
+			"integration",
+			"techniques",
+			"volume",
+			"surface",
+			"object"
+		],
+		"dOIndex": 346,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"integration",
+			"techniques",
+			"surface"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2811,
+		"nouns": [],
+		"dOIndex": 347,
+		"isQuote": false
+	},
+	{
+		"txt": "You should also note that buoyancy is a function of fluid density, and you don't have to be in a fluid as dense as water to experience the force of buoyancy. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2812,
+		"nouns": [
+			"note",
+			"buoyancy",
+			"function",
+			"fluid",
+			"density",
+			"t",
+			"fluid",
+			"water",
+			"experience",
+			"force",
+			"buoyancy"
+		],
+		"dOIndex": 348,
+		"nouns2": [
+			"buoyancy",
+			"function",
+			"density",
+			"experience"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " In fact, there are buoyant forces acting on you right now, although they are very small, due to the fact that you are immersed in air. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2813,
+		"nouns": [
+			"fact",
+			"forces",
+			"right",
+			"fact",
+			"air"
+		],
+		"dOIndex": 349,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.07142857142857142,
+			"words": [
+				"buoyant"
+			],
+			"positive": [
+				"buoyant"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Water is many times more dense than air, which is why you notice the force of buoyancy when in water and not in air. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2814,
+		"nouns": [
+			"Water",
+			"times",
+			"air",
+			"notice",
+			"force",
+			"buoyancy",
+			"water",
+			"air"
+		],
+		"dOIndex": 350,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"buoyancy"
+		]
+	},
+	{
+		"txt": " Keep in mind, though, that for very light objects with relatively large volumes, the buoyant forces in air may be significant. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2815,
+		"nouns": [
+			"mind",
+			"light",
+			"objects",
+			"volumes",
+			"forces",
+			"air"
+		],
+		"dOIndex": 351,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"objects",
+			"volumes"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.13043478260869565,
+			"words": [
+				"significant",
+				"buoyant"
+			],
+			"positive": [
+				"significant",
+				"buoyant"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " For example, consider simulating a large ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2816,
+		"nouns": [
+			"example"
+		],
+		"dOIndex": 352,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2817,
+		"nouns": [],
+		"dOIndex": 353,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "balloon.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2818,
+		"nouns": [
+			"balloon"
+		],
+		"dOIndex": 354,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"balloon"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2819,
+		"nouns": [],
+		"dOIndex": 355,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2820,
+		"nouns": [],
+		"dOIndex": 356,
+		"isQuote": false
+	},
+	{
+		"txt": "Springs and Dampers",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2821,
+		"nouns": [
+			"Springs",
+			"Dampers"
+		],
+		"dOIndex": 357,
+		"nouns2": [
+			"Springs",
+			"Dampers"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2822,
+		"nouns": [],
+		"dOIndex": 358,
+		"isQuote": false
+	},
+	{
+		"txt": "Springs are ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2823,
+		"nouns": [
+			"Springs"
+		],
+		"dOIndex": 359,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Springs"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2824,
+		"nouns": [],
+		"dOIndex": 360,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "structural elements that, when connected between two objects, apply equal and opposite forces to each object. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2825,
+		"nouns": [
+			"elements",
+			"two",
+			"objects",
+			"forces",
+			"object"
+		],
+		"dOIndex": 361,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"elements",
+			"objects"
+		]
+	},
+	{
+		"txt": " This spring force follows ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2826,
+		"nouns": [
+			"force"
+		],
+		"dOIndex": 362,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Hooke's law and is a function of the stretched or compressed length of the spring relative to the rest length of the spring and the spring constant of the spring. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2827,
+		"nouns": [
+			"Hooke",
+			"law",
+			"function",
+			"length",
+			"rest",
+			"length"
+		],
+		"dOIndex": 363,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function"
+		]
+	},
+	{
+		"txt": " Hooke's law states that the amount of stretch or compression is directly proportional to the force being applied. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2828,
+		"nouns": [
+			"Hooke",
+			"law",
+			"states",
+			"amount",
+			"stretch",
+			"compression",
+			"force"
+		],
+		"dOIndex": 364,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"stretch",
+			"compression"
+		]
+	},
+	{
+		"txt": " The spring ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2829,
+		"nouns": [],
+		"dOIndex": 365,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "constant is a quantity that relates the force exerted by the spring to its deflection:Fs = ks (L – r)",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2830,
+		"nouns": [
+			"quantity",
+			"force",
+			"deflection",
+			"Fs",
+			"ks",
+			"L",
+			"–",
+			"r"
+		],
+		"dOIndex": 366,
+		"nouns2": [
+			"quantity",
+			"deflection"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 2831,
+		"nouns": [],
+		"dOIndex": 367,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2832,
+		"nouns": [],
+		"dOIndex": 368,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Here, Fs is the spring force, ks is the spring constant, L is the stretched or compressed length of the spring, and r is the rest length of the spring. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2833,
+		"nouns": [
+			"Fs",
+			"force",
+			"ks",
+			"L",
+			"length",
+			"r",
+			"rest",
+			"length"
+		],
+		"dOIndex": 369,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " In the metric system of units, Fs would be measured in newtons (1 N = 1 kg m/s2), L and r in meters, and ks in kg/s2 . ",
+		"why": "split inside sentence",
+		"tags": [
+			"sup",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2834,
+		"nouns": [
+			"system",
+			"units",
+			"Fs",
+			"newtons",
+			"N",
+			"kg",
+			"m",
+			"/",
+			"L",
+			"r",
+			"meters",
+			"ks",
+			"kg",
+			"/"
+		],
+		"dOIndex": 370,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"newtons"
+		]
+	},
+	{
+		"txt": " If the spring is connected between two objects, it exerts a force of Fs on one object and –Fs on the other; these",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2835,
+		"nouns": [
+			"two",
+			"objects",
+			"force",
+			"Fs",
+			"one",
+			"object",
+			"–Fs"
+		],
+		"dOIndex": 371,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"objects"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2836,
+		"nouns": [],
+		"dOIndex": 372,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2837,
+		"nouns": [],
+		"dOIndex": 373,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " are equal and opposite forces.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2838,
+		"nouns": [
+			"forces"
+		],
+		"dOIndex": 374,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2839,
+		"nouns": [],
+		"dOIndex": 375,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2840,
+		"nouns": [],
+		"dOIndex": 376,
+		"isQuote": false
+	},
+	{
+		"txt": "Dampers are usually ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2841,
+		"nouns": [
+			"Dampers"
+		],
+		"dOIndex": 377,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Dampers"
+		]
+	},
+	{
+		"txt": "used in conjunction with springs in numerical simulations. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2842,
+		"nouns": [
+			"conjunction",
+			"springs",
+			"simulations"
+		],
+		"dOIndex": 378,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"conjunction",
+			"springs",
+			"simulations"
+		]
+	},
+	{
+		"txt": " They act like viscous drag in that they act against velocity. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2843,
+		"nouns": [
+			"act",
+			"drag",
+			"act",
+			"velocity"
+		],
+		"dOIndex": 379,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.07692307692307693,
+			"words": [
+				"drag",
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " In this case, if the damper is connected between two objects that are moving toward or away from each other, the damper acts to slow the relative velocity between the two objects. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2844,
+		"nouns": [
+			"case",
+			"damper",
+			"two",
+			"objects",
+			"damper",
+			"acts",
+			"velocity",
+			"two",
+			"objects"
+		],
+		"dOIndex": 380,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"objects",
+			"velocity"
+		]
+	},
+	{
+		"txt": " The force developed by a damper is proportional to the relative velocity of the connected objects and a damping constant, kd , that relates relative velocity to damping force.",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2845,
+		"nouns": [
+			"force",
+			"damper",
+			"velocity",
+			"objects",
+			"kd",
+			"velocity",
+			"force"
+		],
+		"dOIndex": 381,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity",
+			"objects"
+		]
+	},
+	{
+		"txt": "Fd = kd (v1 – v2)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2846,
+		"nouns": [
+			"Fd",
+			"kd",
+			"v",
+			"–",
+			"v"
+		],
+		"dOIndex": 382,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2847,
+		"nouns": [],
+		"dOIndex": 383,
+		"isQuote": false
+	},
+	{
+		"txt": "This equation shows the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2848,
+		"nouns": [
+			"equation"
+		],
+		"dOIndex": 384,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equation"
+		]
+	},
+	{
+		"txt": "damping force, Fd",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2849,
+		"nouns": [
+			"force",
+			"Fd"
+		],
+		"dOIndex": 385,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " , as a function of the damping constant and the relative velocity of the connected points on the two connected bodies. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2850,
+		"nouns": [
+			"function",
+			"velocity",
+			"points",
+			"two",
+			"bodies"
+		],
+		"dOIndex": 386,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function",
+			"velocity"
+		]
+	},
+	{
+		"txt": " In metric units, where the damping force is measured in newtons and velocity in m/s, kd has units of kg/s.",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2851,
+		"nouns": [
+			"units",
+			"force",
+			"newtons",
+			"velocity",
+			"m",
+			"/",
+			"kd",
+			"units",
+			"kg",
+			"/"
+		],
+		"dOIndex": 387,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"newtons",
+			"velocity"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2852,
+		"nouns": [],
+		"dOIndex": 388,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2853,
+		"nouns": [],
+		"dOIndex": 389,
+		"isQuote": false
+	},
+	{
+		"txt": "Typically, springs and dampers are combined into a single spring damper element, where a single formula represents the combined force. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2854,
+		"nouns": [
+			"springs",
+			"dampers",
+			"damper",
+			"element",
+			"formula",
+			"force"
+		],
+		"dOIndex": 390,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Typically",
+			"springs",
+			"dampers",
+			"element",
+			"formula"
+		]
+	},
+	{
+		"txt": " Using vector notation, we can write the formula for a ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2855,
+		"nouns": [
+			"vector",
+			"notation",
+			"formula"
+		],
+		"dOIndex": 391,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"notation",
+			"formula"
+		]
+	},
+	{
+		"txt": "spring damper element connecting two bodies as follows:F1 = –{ks (L – r) + kd ((v1 – v2) • L)/L} L/L",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2856,
+		"nouns": [
+			"damper",
+			"element",
+			"two",
+			"bodies",
+			"F",
+			"–{ks",
+			"L",
+			"–",
+			"r",
+			"kd",
+			"v",
+			"–",
+			"v",
+			"• L",
+			"/",
+			"L} L",
+			"/ L"
+		],
+		"dOIndex": 392,
+		"nouns2": [
+			"element"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 2857,
+		"nouns": [],
+		"dOIndex": 393,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2858,
+		"nouns": [],
+		"dOIndex": 394,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Here, F1 is the force exerted on body 1, while the force, F2, exerted on body 2 is:F2 = –F1",
+		"why": "p",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2859,
+		"nouns": [
+			"F",
+			"force",
+			"body",
+			"force",
+			"F",
+			"body",
+			"F",
+			"–F"
+		],
+		"dOIndex": 395,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2860,
+		"nouns": [],
+		"dOIndex": 396,
+		"isQuote": false
+	},
+	{
+		"txt": "L is the length of the spring damper (L, not in bold print, is the magnitude of the vector L ), which is equal to the vector difference in position between the connected points on bodies 1 and 2. ",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2861,
+		"nouns": [
+			"L",
+			"length",
+			"damper",
+			"L",
+			"print",
+			"magnitude",
+			"vector L",
+			"vector",
+			"difference",
+			"position",
+			"points",
+			"bodies"
+		],
+		"dOIndex": 397,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"magnitude",
+			"difference",
+			"position"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.05,
+			"words": [
+				"bold"
+			],
+			"positive": [
+				"bold"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " If the connected objects are particles, then L is equal to the position of body 1 minus the position of body 2. ",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2862,
+		"nouns": [
+			"objects",
+			"particles",
+			"L",
+			"position",
+			"body",
+			"position",
+			"body"
+		],
+		"dOIndex": 398,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"objects",
+			"particles",
+			"position"
+		]
+	},
+	{
+		"txt": " Similarly, v1 and v2 are the velocities of the connected points on bodies 1 and 2. ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2863,
+		"nouns": [
+			"v",
+			"v",
+			"velocities",
+			"points",
+			"bodies"
+		],
+		"dOIndex": 399,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Similarly",
+			"velocities"
+		]
+	},
+	{
+		"txt": " The quantity (v1 – v2 ) represents the relative velocity between the connected bodies.",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2864,
+		"nouns": [
+			"quantity",
+			"v",
+			"–",
+			"v",
+			"velocity",
+			"bodies"
+		],
+		"dOIndex": 400,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quantity",
+			"velocity"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2865,
+		"nouns": [],
+		"dOIndex": 401,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2866,
+		"nouns": [],
+		"dOIndex": 402,
+		"isQuote": false
+	},
+	{
+		"txt": "Springs and dampers are useful when you want to ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2867,
+		"nouns": [
+			"Springs",
+			"dampers"
+		],
+		"dOIndex": 403,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Springs",
+			"dampers"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.3,
+			"words": [
+				"want",
+				"useful"
+			],
+			"positive": [
+				"want",
+				"useful"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2868,
+		"nouns": [],
+		"dOIndex": 404,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2869,
+		"nouns": [],
+		"dOIndex": 405,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "simulate collections of connected particles or rigid bodies. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2870,
+		"nouns": [
+			"collections",
+			"particles",
+			"bodies"
+		],
+		"dOIndex": 406,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collections",
+			"particles"
+		]
+	},
+	{
+		"txt": " The spring force provides the structure, or glue, that holds the bodies together (or keeps them separated by a certain distance), while the damper helps smooth out the motion between the connected bodies so it's not too jerky or springy. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2871,
+		"nouns": [
+			"force",
+			"structure",
+			"glue",
+			"bodies",
+			"distance",
+			"damper",
+			"motion",
+			"bodies",
+			"springy"
+		],
+		"dOIndex": 407,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"structure",
+			"distance",
+			"springy"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.07142857142857142,
+			"words": [
+				"helps",
+				"certain"
+			],
+			"positive": [
+				"helps",
+				"certain"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " These dampers are also very important from a numerical stability point of view in that they help keep your simulations from blowing up. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2872,
+		"nouns": [
+			"dampers",
+			"stability",
+			"point",
+			"view",
+			"simulations"
+		],
+		"dOIndex": 408,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"dampers",
+			"stability",
+			"simulations"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.16,
+			"words": [
+				"help",
+				"important"
+			],
+			"positive": [
+				"help",
+				"important"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " We're getting a little ahead of ourselves here, but we'll show you how to use these spring dampers in real time simulations in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2873,
+		"nouns": [
+			"re",
+			"ll",
+			"show",
+			"use",
+			"dampers",
+			"time",
+			"simulations"
+		],
+		"dOIndex": 409,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"dampers",
+			"simulations"
+		]
+	},
+	{
+		"txt": "Chapter 13",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2874,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 410,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2875,
+		"nouns": [],
+		"dOIndex": 411,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2876,
+		"nouns": [],
+		"dOIndex": 412,
+		"isQuote": false
+	},
+	{
+		"txt": "Force and Torque",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2877,
+		"nouns": [
+			"Force",
+			"Torque"
+		],
+		"dOIndex": 413,
+		"nouns2": [
+			"Torque"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "We need to make the ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2878,
+		"nouns": [],
+		"dOIndex": 414,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2879,
+		"nouns": [],
+		"dOIndex": 415,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "distinction here between force and torque.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2880,
+		"nouns": [
+			"distinction",
+			"force",
+			"torque"
+		],
+		"dOIndex": 416,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distinction"
+		]
+	},
+	{
+		"txt": "[",
+		"why": "link",
+		"tags": [
+			"sup",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2881,
+		"nouns": [],
+		"dOIndex": 417,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "12] Force is what causes ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2882,
+		"nouns": [
+			"Force",
+			"causes"
+		],
+		"dOIndex": 418,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2883,
+		"nouns": [],
+		"dOIndex": 419,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2884,
+		"nouns": [],
+		"dOIndex": 420,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2885,
+		"nouns": [],
+		"dOIndex": 421,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2886,
+		"nouns": [],
+		"dOIndex": 422,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2887,
+		"nouns": [],
+		"dOIndex": 423,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2888,
+		"nouns": [],
+		"dOIndex": 424,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "linear acceleration, while ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2889,
+		"nouns": [
+			"acceleration"
+		],
+		"dOIndex": 425,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"acceleration"
+		]
+	},
+	{
+		"txt": "torque is what causes rotational acceleration. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2890,
+		"nouns": [
+			"torque",
+			"causes",
+			"acceleration"
+		],
+		"dOIndex": 426,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"acceleration"
+		]
+	},
+	{
+		"txt": " Torque is force times distance. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2891,
+		"nouns": [
+			"Torque",
+			"force",
+			"times",
+			"distance"
+		],
+		"dOIndex": 427,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Torque",
+			"distance"
+		]
+	},
+	{
+		"txt": " Specifically, to calculate the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2892,
+		"nouns": [],
+		"dOIndex": 428,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Specifically"
+		]
+	},
+	{
+		"txt": "torque applied by a force acting on an object, you need to calculate the perpendicular distance from the axis of rotation to the line of action of the force and then multiply this distance by the magnitude of the force.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2893,
+		"nouns": [
+			"torque",
+			"force",
+			"object",
+			"distance",
+			"axis",
+			"rotation",
+			"line",
+			"action",
+			"force",
+			"distance",
+			"magnitude",
+			"force"
+		],
+		"dOIndex": 429,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distance",
+			"rotation",
+			"magnitude"
+		],
+		"highfreq": {
+			"force": 3
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2894,
+		"nouns": [],
+		"dOIndex": 430,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2895,
+		"nouns": [],
+		"dOIndex": 431,
+		"isQuote": false
+	},
+	{
+		"txt": "This calculation gives the magnitude of the torque. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2896,
+		"nouns": [
+			"calculation",
+			"magnitude",
+			"torque"
+		],
+		"dOIndex": 432,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"calculation",
+			"magnitude"
+		]
+	},
+	{
+		"txt": " Typical units for force are pounds, newtons, and tons. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2897,
+		"nouns": [
+			"units",
+			"force",
+			"pounds",
+			"newtons",
+			"tons"
+		],
+		"dOIndex": 433,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Typical",
+			"newtons"
+		]
+	},
+	{
+		"txt": " Since torque is force times a distance, its units take the form of a length unit times a force unit (e.g., foot pounds, newton meters, or foot tons).",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2898,
+		"nouns": [
+			"torque",
+			"force",
+			"times",
+			"distance",
+			"units",
+			"form",
+			"length",
+			"unit",
+			"times",
+			"force",
+			"unit",
+			"e",
+			"g",
+			"foot",
+			"pounds",
+			"newton",
+			"meters",
+			"foot",
+			"tons"
+		],
+		"dOIndex": 434,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distance"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2899,
+		"nouns": [],
+		"dOIndex": 435,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2900,
+		"nouns": [],
+		"dOIndex": 436,
+		"isQuote": false
+	},
+	{
+		"txt": "Since both force and torque are vector quantities, you must also determine the direction of the torque vector. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2901,
+		"nouns": [
+			"both",
+			"force",
+			"torque",
+			"vector",
+			"quantities",
+			"direction",
+			"torque",
+			"vector"
+		],
+		"dOIndex": 437,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quantities",
+			"direction"
+		]
+	},
+	{
+		"txt": " The force vector is easy to visualize: its line of action passes through the point of application of the force, with its direction determined by the direction in which the force is applied. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2902,
+		"nouns": [
+			"force",
+			"vector",
+			"line",
+			"action",
+			"point",
+			"application",
+			"force",
+			"direction",
+			"direction",
+			"force"
+		],
+		"dOIndex": 438,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"application",
+			"direction"
+		],
+		"highfreq": {
+			"force": 3
+		},
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.08571428571428572,
+			"words": [
+				"determined",
+				"easy"
+			],
+			"positive": [
+				"determined",
+				"easy"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " As a vector, the torque's line of action is along the axis of rotation, with the direction determined by the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2903,
+		"nouns": [
+			"vector",
+			"torque",
+			"line",
+			"action",
+			"axis",
+			"rotation",
+			"direction"
+		],
+		"dOIndex": 439,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"rotation",
+			"direction"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.09090909090909091,
+			"words": [
+				"determined"
+			],
+			"positive": [
+				"determined"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "direction of rotation and ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2904,
+		"nouns": [
+			"direction",
+			"rotation"
+		],
+		"dOIndex": 440,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"direction",
+			"rotation"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2905,
+		"nouns": [],
+		"dOIndex": 441,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "the right hand rule (see ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2906,
+		"nouns": [
+			"right",
+			"hand",
+			"rule"
+		],
+		"dOIndex": 442,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 3 3",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2907,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 443,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " ). ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2908,
+		"nouns": [],
+		"dOIndex": 444,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " As noted in ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2909,
+		"nouns": [],
+		"dOIndex": 445,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 2",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2910,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 446,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " , the right hand rule is a simple trick to help you keep track of vector directions in this case, the torque vector. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2911,
+		"nouns": [
+			"right",
+			"hand",
+			"rule",
+			"trick",
+			"track",
+			"vector",
+			"directions",
+			"case",
+			"torque",
+			"vector"
+		],
+		"dOIndex": 447,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"directions"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08,
+			"words": [
+				"help"
+			],
+			"positive": [
+				"help"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Pretend to curl the fingers of your right hand around the axis of rotation with your fingertips pointing in the direction of rotation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2912,
+		"nouns": [
+			"fingers",
+			"right",
+			"hand",
+			"axis",
+			"rotation",
+			"fingertips",
+			"direction",
+			"rotation"
+		],
+		"dOIndex": 448,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Pretend",
+			"fingers",
+			"rotation",
+			"fingertips",
+			"direction"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.04,
+			"words": [
+				"pretend"
+			],
+			"positive": [],
+			"negative": [
+				"pretend"
+			]
+		}
+	},
+	{
+		"txt": " Now extend your thumb, as though you are giving a thumbs up, while keeping your fingers curled around the axis. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2913,
+		"nouns": [
+			"thumb",
+			"thumbs",
+			"fingers",
+			"axis"
+		],
+		"dOIndex": 449,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"fingers"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.045454545454545456,
+			"words": [
+				"extend"
+			],
+			"positive": [
+				"extend"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The direction that your thumb is pointing indicates the direction of the torque vector. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2914,
+		"nouns": [
+			"direction",
+			"thumb",
+			"direction",
+			"torque",
+			"vector"
+		],
+		"dOIndex": 450,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"direction"
+		]
+	},
+	{
+		"txt": " Note that this makes the torque vector perpendicular to the applied force vector, as shown in ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2915,
+		"nouns": [
+			"torque",
+			"vector",
+			"force",
+			"vector"
+		],
+		"dOIndex": 451,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 3 3",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2916,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 452,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2917,
+		"nouns": [],
+		"dOIndex": 453,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2918,
+		"nouns": [],
+		"dOIndex": 454,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2919,
+		"nouns": [],
+		"dOIndex": 455,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2920,
+		"nouns": [],
+		"dOIndex": 456,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2921,
+		"nouns": [],
+		"dOIndex": 457,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2922,
+		"nouns": [],
+		"dOIndex": 458,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 3 3. Force and torque",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2923,
+		"nouns": [
+			"Figure",
+			"Force",
+			"torque"
+		],
+		"dOIndex": 459,
+		"nouns2": [
+			"Figure"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2924,
+		"nouns": [],
+		"dOIndex": 460,
+		"isQuote": false
+	},
+	{
+		"txt": "We said earlier that you find the magnitude of ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2925,
+		"nouns": [
+			"magnitude"
+		],
+		"dOIndex": 461,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"magnitude"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2926,
+		"nouns": [],
+		"dOIndex": 462,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "torque by multiplying the magnitude of the applied force times the perpendicular distance between the axis of rotation and the line of action of the force. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2927,
+		"nouns": [
+			"torque",
+			"magnitude",
+			"force",
+			"times",
+			"distance",
+			"axis",
+			"rotation",
+			"line",
+			"action",
+			"force"
+		],
+		"dOIndex": 463,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"magnitude",
+			"distance",
+			"rotation"
+		]
+	},
+	{
+		"txt": " This calculation is easy to perform in two dimensions where the perpendicular distance (d in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2928,
+		"nouns": [
+			"calculation",
+			"two",
+			"dimensions",
+			"distance"
+		],
+		"dOIndex": 464,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"calculation",
+			"dimensions",
+			"distance"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.058823529411764705,
+			"words": [
+				"easy"
+			],
+			"positive": [
+				"easy"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "Figure 3 3",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2929,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 465,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " ) is readily calculable.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2930,
+		"nouns": [],
+		"dOIndex": 466,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2931,
+		"nouns": [],
+		"dOIndex": 467,
+		"isQuote": false
+	},
+	{
+		"txt": "However, in three dimensions you'll want to be able to calculate torque by knowing only the force vector and the coordinates of its point of application on the body relative to the axis of rotation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2932,
+		"nouns": [
+			"three",
+			"dimensions",
+			"ll",
+			"torque",
+			"force",
+			"vector",
+			"coordinates",
+			"point",
+			"application",
+			"body",
+			"axis",
+			"rotation"
+		],
+		"dOIndex": 468,
+		"nouns2": [
+			"However",
+			"dimensions",
+			"coordinates",
+			"application",
+			"rotation"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.027777777777777776,
+			"words": [
+				"want"
+			],
+			"positive": [
+				"want"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " You can accomplish this by using the following formula:M = r × F",
+		"why": "p",
+		"tags": [
+			"strong",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2933,
+		"nouns": [
+			"formula",
+			"M",
+			"r",
+			"×",
+			"F"
+		],
+		"dOIndex": 469,
+		"nouns2": [
+			"formula"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.14285714285714285,
+			"words": [
+				"accomplish"
+			],
+			"positive": [
+				"accomplish"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "The torque, M, is the vector cross product of the position vector, r, and the force vector, F .",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2934,
+		"nouns": [
+			"torque",
+			"M",
+			"vector",
+			"product",
+			"position",
+			"vector",
+			"r",
+			"force",
+			"vector",
+			"F"
+		],
+		"dOIndex": 470,
+		"nouns2": [
+			"product",
+			"position"
+		],
+		"highfreq": {
+			"vector": 3
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2935,
+		"nouns": [],
+		"dOIndex": 471,
+		"isQuote": false
+	},
+	{
+		"txt": "In rectangular coordinates you can write the distance, force, and torque vectors as follows:r = x i + y j + z kF = Fxi + Fyj + FzkM = Mxi + Myj + Mzk",
+		"why": "p",
+		"tags": [
+			"strong",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2936,
+		"nouns": [
+			"coordinates",
+			"distance",
+			"force",
+			"torque",
+			"vectors",
+			"r",
+			"x",
+			"y",
+			"j",
+			"z",
+			"kF",
+			"Fxi",
+			"Fyj",
+			"FzkM",
+			"Mxi",
+			"Myj",
+			"Mzk"
+		],
+		"dOIndex": 472,
+		"nouns2": [
+			"coordinates",
+			"distance",
+			"vectors"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "The scalar components of r (x, y, and z) are the coordinate distances from the axis of rotation to the point of application of the force, F . ",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2937,
+		"nouns": [
+			"components",
+			"r",
+			"x",
+			"y",
+			"z",
+			"coordinate",
+			"distances",
+			"axis",
+			"rotation",
+			"point",
+			"application",
+			"force",
+			"F"
+		],
+		"dOIndex": 473,
+		"nouns2": [
+			"components",
+			"coordinate",
+			"distances",
+			"rotation",
+			"application"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " The scalar components of the torque vector, M, are defined by the following:Mx = y Fz – z FyMy = z Fx – x FzMz = x Fy – y Fx",
+		"why": "p",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2938,
+		"nouns": [
+			"components",
+			"torque",
+			"vector",
+			"M",
+			"Mx",
+			"y",
+			"Fz",
+			"–",
+			"z",
+			"FyMy",
+			"z",
+			"Fx",
+			"–",
+			"x",
+			"FzMz",
+			"x",
+			"– y",
+			"Fx"
+		],
+		"dOIndex": 474,
+		"nouns2": [
+			"components"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Consider the rigid body shown in ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2939,
+		"nouns": [
+			"body"
+		],
+		"dOIndex": 475,
+		"nouns2": [
+			"Consider"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 3 4 acted upon by the force F",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"strong",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2940,
+		"nouns": [
+			"Figure",
+			"force",
+			"F"
+		],
+		"dOIndex": 476,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " at a point away from the body's center of mass.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2941,
+		"nouns": [
+			"point",
+			"body",
+			"center",
+			"mass"
+		],
+		"dOIndex": 477,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2942,
+		"nouns": [],
+		"dOIndex": 478,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2943,
+		"nouns": [],
+		"dOIndex": 479,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2944,
+		"nouns": [],
+		"dOIndex": 480,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2945,
+		"nouns": [],
+		"dOIndex": 481,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2946,
+		"nouns": [],
+		"dOIndex": 482,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 3 4. Torque example",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2947,
+		"nouns": [
+			"Figure",
+			"Torque",
+			"example"
+		],
+		"dOIndex": 483,
+		"nouns2": [
+			"Figure",
+			"Torque",
+			"example"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2948,
+		"nouns": [],
+		"dOIndex": 484,
+		"isQuote": false
+	},
+	{
+		"txt": "In this example F, a, and b are given and are as follows:F = (−90 lbs) i + (156 lbs) j + (0) ka = 0.66 ftb = 0.525 ft",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2949,
+		"nouns": [
+			"example",
+			"F",
+			"b",
+			"F",
+			"−",
+			"lbs",
+			"lbs",
+			"j",
+			"ka",
+			"ftb",
+			"ft"
+		],
+		"dOIndex": 485,
+		"nouns2": [
+			"example"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2950,
+		"nouns": [],
+		"dOIndex": 486,
+		"isQuote": false
+	},
+	{
+		"txt": "Calculate the torque about the body's center of mass due to the force F .",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2951,
+		"nouns": [
+			"torque",
+			"body",
+			"center",
+			"mass",
+			"force",
+			"F"
+		],
+		"dOIndex": 487,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Calculate"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2952,
+		"nouns": [],
+		"dOIndex": 488,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2953,
+		"nouns": [],
+		"dOIndex": 489,
+		"isQuote": false
+	},
+	{
+		"txt": "The first step is to put together the distance vector from the point of application of F to the body's center of mass. ",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2954,
+		"nouns": [
+			"first",
+			"step",
+			"distance",
+			"vector",
+			"point",
+			"application",
+			"F",
+			"body",
+			"center",
+			"mass"
+		],
+		"dOIndex": 490,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distance",
+			"application"
+		]
+	},
+	{
+		"txt": " Since the local coordinates a and b are given, r is simply:r = (0.66 ft) i + (0.525 ft) j + (0) k",
+		"why": "p",
+		"tags": [
+			"strong",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2955,
+		"nouns": [
+			"coordinates",
+			"b",
+			"r",
+			"r",
+			"ft",
+			"ft",
+			"j",
+			"k"
+		],
+		"dOIndex": 491,
+		"nouns2": [
+			"coordinates"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2956,
+		"nouns": [],
+		"dOIndex": 492,
+		"isQuote": false
+	},
+	{
+		"txt": "Now using the formula M = r × F (or the formulas for the components of the torque vector shown earlier), you can write:M = [(0.66 ft) i + (0.525 ft) j + (0) k] × [(−90 lbs) i + (156 lbs) j + (0) k]M = [(0.66 ft) (156 lbs) – (0.525 ft) (−90 lbs)] kM = (150.2 ft lbs) k",
+		"why": "p",
+		"tags": [
+			"strong",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2957,
+		"nouns": [
+			"formula M",
+			"r",
+			"×",
+			"F",
+			"formulas",
+			"components",
+			"torque",
+			"vector",
+			"M",
+			"ft",
+			"ft",
+			"j",
+			"k]",
+			"×",
+			"−",
+			"lbs",
+			"lbs",
+			"j",
+			"k]M",
+			"ft",
+			"lbs",
+			"–",
+			"ft",
+			"−",
+			"lbs",
+			"kM",
+			"ft",
+			"lbs",
+			"k"
+		],
+		"dOIndex": 493,
+		"nouns2": [
+			"formula",
+			"formulas",
+			"components"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2958,
+		"nouns": [],
+		"dOIndex": 494,
+		"isQuote": false
+	},
+	{
+		"txt": "Note that the x and y components of the torque vector are 0; thus, the torque moment is pointing directly along the z axis. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2959,
+		"nouns": [
+			"x",
+			"y",
+			"components",
+			"torque",
+			"vector",
+			"torque",
+			"moment",
+			"z",
+			"axis"
+		],
+		"dOIndex": 495,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"components"
+		]
+	},
+	{
+		"txt": " The torque vector would be pointing out of the page of this book in this case.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2960,
+		"nouns": [
+			"torque",
+			"vector",
+			"page",
+			"book",
+			"case"
+		],
+		"dOIndex": 496,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2961,
+		"nouns": [],
+		"dOIndex": 497,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2962,
+		"nouns": [],
+		"dOIndex": 498,
+		"isQuote": false
+	},
+	{
+		"txt": "In dynamics you need to consider the sum, or total, of all forces acting on an object separately from the sum of all torques acting on a body. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2963,
+		"nouns": [
+			"dynamics",
+			"sum",
+			"forces",
+			"object",
+			"sum",
+			"torques",
+			"body"
+		],
+		"dOIndex": 499,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"dynamics",
+			"torques"
+		]
+	},
+	{
+		"txt": " When summing forces, you simply add, vectorally, all of the forces without regard to their point of application. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2964,
+		"nouns": [
+			"forces",
+			"forces",
+			"regard",
+			"point",
+			"application"
+		],
+		"dOIndex": 500,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"application"
+		]
+	},
+	{
+		"txt": " However, when summing torques you must take into account the point of application of the forces to calculate the torques, as shown in the previous example. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2965,
+		"nouns": [
+			"torques",
+			"account",
+			"point",
+			"application",
+			"forces",
+			"torques",
+			"example"
+		],
+		"dOIndex": 501,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"torques",
+			"account",
+			"application",
+			"example"
+		]
+	},
+	{
+		"txt": " Then you can take the vector sum of all torques acting on the body.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2966,
+		"nouns": [
+			"vector",
+			"sum",
+			"torques",
+			"body"
+		],
+		"dOIndex": 502,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"torques"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2967,
+		"nouns": [],
+		"dOIndex": 503,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2968,
+		"nouns": [],
+		"dOIndex": 504,
+		"isQuote": false
+	},
+	{
+		"txt": "When you are considering rigid bodies that are not physically constrained to rotate about a fixed axis, any force acting through ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2969,
+		"nouns": [
+			"bodies",
+			"axis",
+			"force"
+		],
+		"dOIndex": 505,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.09090909090909091,
+			"words": [
+				"constrained"
+			],
+			"positive": [],
+			"negative": [
+				"constrained"
+			]
+		}
+	},
+	{
+		"txt": "the body's center of mass will not produce a torque on the body about its center of gravity. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2970,
+		"nouns": [
+			"body",
+			"center",
+			"mass",
+			"torque",
+			"body",
+			"center",
+			"gravity"
+		],
+		"dOIndex": 506,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"gravity"
+		]
+	},
+	{
+		"txt": " In this case, the axis of rotation passes through the center of mass of the body and the vector r would be 0 (all components 0). ",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2971,
+		"nouns": [
+			"case",
+			"axis",
+			"rotation",
+			"center",
+			"mass",
+			"body",
+			"vector",
+			"r",
+			"components"
+		],
+		"dOIndex": 507,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"rotation",
+			"components"
+		]
+	},
+	{
+		"txt": " When a force acts through a point on the body some distance away from its center of mass, a torque on the body will develop, and the angular motion of the body will be affected. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2972,
+		"nouns": [
+			"force",
+			"acts",
+			"point",
+			"body",
+			"distance",
+			"center",
+			"mass",
+			"torque",
+			"body",
+			"motion",
+			"body"
+		],
+		"dOIndex": 508,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distance"
+		],
+		"highfreq": {
+			"body": 3
+		},
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.02702702702702703,
+			"words": [
+				"affected"
+			],
+			"positive": [],
+			"negative": [
+				"affected"
+			]
+		}
+	},
+	{
+		"txt": " Generally, ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2973,
+		"nouns": [],
+		"dOIndex": 509,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Generally"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2974,
+		"nouns": [],
+		"dOIndex": 510,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "field forces, which are forces at a distance, are assumed to act through a body's center of mass; thus, only the body's linear motion will be affected unless the body is constrained to rotate about a fixed point. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2975,
+		"nouns": [
+			"field",
+			"forces",
+			"forces",
+			"distance",
+			"act",
+			"body",
+			"center",
+			"mass",
+			"body",
+			"motion",
+			"body",
+			"point"
+		],
+		"dOIndex": 511,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distance"
+		],
+		"highfreq": {
+			"body": 3
+		},
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.07692307692307693,
+			"words": [
+				"constrained",
+				"affected"
+			],
+			"positive": [],
+			"negative": [
+				"constrained",
+				"affected"
+			]
+		}
+	},
+	{
+		"txt": " Other contact forces, however, generally do not act through a body's center of mass (they could but aren't necessarily assumed to) and tend to affect the body's angular motion as well as its ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2976,
+		"nouns": [
+			"contact",
+			"forces",
+			"act",
+			"body",
+			"center",
+			"mass",
+			"aren",
+			"t",
+			"body",
+			"motion"
+		],
+		"dOIndex": 512,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"contact"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2977,
+		"nouns": [],
+		"dOIndex": 513,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "linear motion.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2978,
+		"nouns": [
+			"motion"
+		],
+		"dOIndex": 514,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2979,
+		"nouns": [],
+		"dOIndex": 515,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2980,
+		"nouns": [],
+		"dOIndex": 516,
+		"isQuote": false
+	},
+	{
+		"txt": "Summary",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2981,
+		"nouns": [
+			"Summary"
+		],
+		"dOIndex": 517,
+		"nouns2": [
+			"Summary"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2982,
+		"nouns": [],
+		"dOIndex": 518,
+		"isQuote": false
+	},
+	{
+		"txt": "As we said earlier, this chapter on forces is your bridge from kinematics to kinetics. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2983,
+		"nouns": [
+			"chapter",
+			"forces",
+			"bridge",
+			"kinematics",
+			"kinetics"
+		],
+		"dOIndex": 519,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"chapter",
+			"kinematics",
+			"kinetics"
+		]
+	},
+	{
+		"txt": " Here you've looked at the major force categories contact forces and force fields and some important specific types of forces. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2984,
+		"nouns": [
+			"ve",
+			"force",
+			"categories",
+			"contact",
+			"forces",
+			"force",
+			"fields",
+			"types",
+			"forces"
+		],
+		"dOIndex": 520,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"categories",
+			"contact"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.09090909090909091,
+			"words": [
+				"important"
+			],
+			"positive": [
+				"important"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " This chapter was meant to give you enough theoretical background on forces so you can fully appreciate the subject of kinetics that's covered in the next chapter. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2985,
+		"nouns": [
+			"chapter",
+			"background",
+			"forces",
+			"subject",
+			"kinetics",
+			"chapter"
+		],
+		"dOIndex": 521,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"chapter",
+			"background",
+			"subject",
+			"kinetics"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.06896551724137931,
+			"words": [
+				"appreciate"
+			],
+			"positive": [
+				"appreciate"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " In ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2986,
+		"nouns": [],
+		"dOIndex": 522,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 15 through ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2987,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 523,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 2988,
+		"nouns": [],
+		"dOIndex": 524,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 19 , you'll revisit the subject of forces from a much more practical point of view when we investigate specific real life problems. ",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2989,
+		"nouns": [
+			"Chapter",
+			"ll",
+			"subject",
+			"forces",
+			"point",
+			"view",
+			"life",
+			"problems"
+		],
+		"dOIndex": 525,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter",
+			"subject",
+			"problems"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.08333333333333333,
+			"words": [
+				"problems"
+			],
+			"positive": [],
+			"negative": [
+				"problems"
+			]
+		}
+	},
+	{
+		"txt": " We'll also introduce some new specific types of force in those chapters that we didn't cover here.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2990,
+		"nouns": [
+			"ll",
+			"types",
+			"force",
+			"chapters",
+			"t"
+		],
+		"dOIndex": 526,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"chapters"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2991,
+		"nouns": [],
+		"dOIndex": 527,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 2992,
+		"nouns": [],
+		"dOIndex": 528,
+		"isQuote": false
+	},
+	{
+		"txt": "[",
+		"why": "link",
+		"tags": [
+			"sup",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2993,
+		"nouns": [],
+		"dOIndex": 529,
+		"isQuote": false
+	},
+	{
+		"txt": "9] Static",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2994,
+		"nouns": [],
+		"dOIndex": 530,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Static"
+		]
+	},
+	{
+		"txt": " here implies that there is no motion; the block is sitting still with all forces balancing.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2995,
+		"nouns": [
+			"motion",
+			"block",
+			"forces"
+		],
+		"dOIndex": 531,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.11764705882352941,
+			"words": [
+				"block",
+				"no"
+			],
+			"positive": [],
+			"negative": [
+				"block",
+				"no"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2996,
+		"nouns": [],
+		"dOIndex": 532,
+		"isQuote": false
+	},
+	{
+		"txt": "[",
+		"why": "link",
+		"tags": [
+			"sup",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2997,
+		"nouns": [],
+		"dOIndex": 533,
+		"isQuote": false
+	},
+	{
+		"txt": "10] The term dynamic is sometimes used here instead of kinetic",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 2998,
+		"nouns": [
+			"term"
+		],
+		"dOIndex": 534,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 2999,
+		"nouns": [],
+		"dOIndex": 535,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3000,
+		"nouns": [],
+		"dOIndex": 536,
+		"isQuote": false
+	},
+	{
+		"txt": "[",
+		"why": "link",
+		"tags": [
+			"sup",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3001,
+		"nouns": [],
+		"dOIndex": 537,
+		"isQuote": false
+	},
+	{
+		"txt": "11] ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"sup",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3002,
+		"nouns": [],
+		"dOIndex": 538,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Specific weight is density times the acceleration due to gravity. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3003,
+		"nouns": [
+			"weight",
+			"density",
+			"times",
+			"acceleration",
+			"gravity"
+		],
+		"dOIndex": 539,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Specific",
+			"density",
+			"acceleration",
+			"gravity"
+		]
+	},
+	{
+		"txt": " Typical units are lbs/ft3 and N/m3 .",
+		"why": "split inside sentence",
+		"tags": [
+			"sup",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3004,
+		"nouns": [
+			"units",
+			"lbs",
+			"/",
+			"ft",
+			"N",
+			"/",
+			"m"
+		],
+		"dOIndex": 540,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Typical"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3005,
+		"nouns": [],
+		"dOIndex": 541,
+		"isQuote": false
+	},
+	{
+		"txt": "[",
+		"why": "link",
+		"tags": [
+			"sup",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3006,
+		"nouns": [],
+		"dOIndex": 542
+	},
+	{
+		"txt": "12] Another common term for torque is moment",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 3007,
+		"nouns": [
+			"term",
+			"torque",
+			"moment"
+		],
+		"dOIndex": 543,
+		"nouns2": [
+			"Another"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 3008,
+		"nouns": [],
+		"dOIndex": 544
+	}
+]

@@ -1,0 +1,5118 @@
+[
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 0
+	},
+	{
+		"index": 2,
+		"txt": "Chapter 26. Sound",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 26_ Sound_Chapter 26_ Sound____.wav",
+		"duration": 0.81,
+		"sentenceIndex": 13595,
+		"timestamp": 0.5
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 1.31
+	},
+	{
+		"index": 3,
+		"txt": "In this chapter we'll explore",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_this_chapter_we_ll_explore_his_chapter_we_ll_explore____.wav",
+		"duration": 0.62,
+		"sentenceIndex": 13596,
+		"timestamp": 1.81
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 2.43
+	},
+	{
+		"index": 4,
+		"txt": "some basic physics of sound and how you can capture 3D sound effects in games.",
+		"file": "/home/user1/trash/dirOutputSet/_100_some_basic_physics_of_sound_and_how_D_sound_effects_in_games_____.wav",
+		"duration": 1.77,
+		"sentenceIndex": 13597,
+		"timestamp": 2.93
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 4.7
+	},
+	{
+		"index": 5,
+		"txt": "We'll refer to the OpenAL audio API for some code examples, but the physics we discuss is independent of any particular API.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ll_refer_to_the_OpenAL_audio_API_nt_of_any_particular_API_____.wav",
+		"duration": 2.89,
+		"sentenceIndex": 13598,
+		"timestamp": 5.2
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 8.09
+	},
+	{
+		"index": 6,
+		"txt": "If you're new to OpenAL, it's basically OpenGL for audio.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_you_re_new_to_OpenAL__it_s_basic_sically_OpenGL_for_audio_____.wav",
+		"duration": 1.43,
+		"sentenceIndex": 13599,
+		"timestamp": 8.59
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 10.02
+	},
+	{
+		"index": 8,
+		"txt": "OpenAL uses some very easy to understand abstractions for creating sound effects and handles all the mixing, filters, and 3D synthesis for you.",
+		"file": "/home/user1/trash/dirOutputSet/_100_OpenAL_uses_some_very_easy_to_under_and_3D_synthesis_for_you_____.wav",
+		"duration": 3.17,
+		"sentenceIndex": 13601,
+		"timestamp": 10.52
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 13.69
+	},
+	{
+		"index": 9,
+		"txt": "You basically create sound sources, associate those sources with buffers that store the sound data, and then manipulate those sources by positioning them and setting their velocity (among other properties).",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_basically_create_sound_sources___among_other_properties______.wav",
+		"duration": 4.18,
+		"sentenceIndex": 13602,
+		"timestamp": 14.19
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 18.369999999999997
+	},
+	{
+		"index": 10,
+		"txt": "You can have multiple sources, of course, but there's only one listener .",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_have_multiple_sources__of_c_ere_s_only_one_listener______.wav",
+		"duration": 1.51,
+		"sentenceIndex": 13603,
+		"timestamp": 18.869999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 20.38
+	},
+	{
+		"index": 11,
+		"txt": "You do have to set properties of the listener, such as the listener's position and velocity, in order to properly simulate 3D sound.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_do_have_to_set_properties_of_th_operly_simulate_3D_sound_____.wav",
+		"duration": 2.72,
+		"sentenceIndex": 13604,
+		"timestamp": 20.88
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 23.599999999999998
+	},
+	{
+		"index": 12,
+		"txt": "We'll talk more about these things throughout the chapter.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ll_talk_more_about_these_things__s_throughout_the_chapter_____.wav",
+		"duration": 1.04,
+		"sentenceIndex": 13605,
+		"timestamp": 24.099999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 25.139999999999997
+	},
+	{
+		"index": 15,
+		"txt": "What Is Sound?",
+		"file": "/home/user1/trash/dirOutputSet/_100_What_Is_Sound__What_Is_Sound_____.wav",
+		"duration": 0.31,
+		"sentenceIndex": 13608,
+		"timestamp": 25.639999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 25.949999999999996
+	},
+	{
+		"index": 18,
+		"txt": "If you look up the definition of sound online, you'll get answers like sound is a vibration; a sensation perceived by our brains through stimulation of organs in our inner ear; and a density or pressure fluctuation, or wave, traveling through a medium.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_you_look_up_the_definition_of_so_aveling_through_a_medium_____.wav",
+		"duration": 5.48,
+		"sentenceIndex": 13611,
+		"timestamp": 26.449999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 31.929999999999996
+	},
+	{
+		"index": 19,
+		"txt": "So which is it?",
+		"file": "/home/user1/trash/dirOutputSet/_100_So_which_is_it__So_which_is_it_____.wav",
+		"duration": 0.28,
+		"sentenceIndex": 13612,
+		"timestamp": 32.42999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 32.709999999999994
+	},
+	{
+		"index": 20,
+		"txt": "Well, it's all of them, and the interpretation you use depends on the context in which you're examining sound.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Well__it_s_all_of_them__and_the_int_h_you_re_examining_sound_____.wav",
+		"duration": 2.23,
+		"sentenceIndex": 13613,
+		"timestamp": 33.209999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 35.43999999999999
+	},
+	{
+		"index": 21,
+		"txt": "For example, noise control engineers aiming to minimize noise on ships focus on vibrations propagating through the ship's structure, while medical doctors worry more about the biomechanics of our inner ear and how our brains interpret the sensations picked up by our ears, and physicists take a fundamental look at density and pressure fluctuations through compressible materials and how these waves interact with each other and the environment.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_example__noise_control_engineer_ther_and_the_environment_____.wav",
+		"duration": 8.91,
+		"sentenceIndex": 13614,
+		"timestamp": 35.93999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 44.849999999999994
+	},
+	{
+		"index": 22,
+		"txt": "We don't mean to suggest that each of these disciplines views sound only in a single way or context, but what we're saying is that each discipline often has its own perspective, priorities, and standard language for the subject.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_don_t_mean_to_suggest_that_each__language_for_the_subject_____.wav",
+		"duration": 4.62,
+		"sentenceIndex": 13615,
+		"timestamp": 45.349999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 49.96999999999999
+	},
+	{
+		"index": 23,
+		"txt": "To us, in the context of games, sound is what the player hears through his speakers or headphones that helps to create an immersive gaming environment.",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_us__in_the_context_of_games__sou_rsive_gaming_environment_____.wav",
+		"duration": 2.97,
+		"sentenceIndex": 13616,
+		"timestamp": 50.46999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 53.43999999999999
+	},
+	{
+		"index": 24,
+		"txt": "However, in order to create realistic sounds that lend themselves to creating an immersive environment, complimenting immersive visuals and in game behaviors, we need to understand the physics of sound, how we perceive it, and what sound tells us about its source and the environment.",
+		"file": "/home/user1/trash/dirOutputSet/_100_However__in_order_to_create_realist_urce_and_the_environment_____.wav",
+		"duration": 5.6,
+		"sentenceIndex": 13617,
+		"timestamp": 53.93999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 59.53999999999999
+	},
+	{
+		"index": 27,
+		"txt": "Given that this is a book on game physics, we're going to take a fundamental view of sound, which is that sound is what our brain perceives as our ears sense density and pressure fluctuations in the air surrounding us.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Given_that_this_is_a_book_on_game_p_n_the_air_surrounding_us_____.wav",
+		"duration": 4.41,
+		"sentenceIndex": 13620,
+		"timestamp": 60.03999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 64.44999999999999
+	},
+	{
+		"index": 28,
+		"txt": "These density and pressure fluctuations are waves, and as such we'll refer to sound waves .",
+		"file": "/home/user1/trash/dirOutputSet/_100_These_density_and_pressure_fluctuat_ll_refer_to_sound_waves______.wav",
+		"duration": 2.03,
+		"sentenceIndex": 13621,
+		"timestamp": 64.94999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 66.97999999999999
+	},
+	{
+		"index": 29,
+		"txt": "Let's take a closer look.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Let_s_take_a_closer_look__Let_s_take_a_closer_look_____.wav",
+		"duration": 0.52,
+		"sentenceIndex": 13622,
+		"timestamp": 67.47999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 67.99999999999999
+	},
+	{
+		"index": 32,
+		"txt": "If a compressible medium experiences a pressure change say, due to a driven piston its volume will change and thus its density will change.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_a_compressible_medium_experience__its_density_will_change_____.wav",
+		"duration": 2.97,
+		"sentenceIndex": 13625,
+		"timestamp": 68.49999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 71.46999999999998
+	},
+	{
+		"index": 33,
+		"txt": "In the case of a driven piston, the region directly in front of the piston will experience the compression first, resulting in a region of increased density and increased pressure.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_the_case_of_a_driven_piston__the_y_and_increased_pressure_____.wav",
+		"duration": 3.52,
+		"sentenceIndex": 13626,
+		"timestamp": 71.96999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 75.48999999999998
+	},
+	{
+		"index": 34,
+		"txt": "This is called",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_called_This_is_called____.wav",
+		"duration": 0.34,
+		"sentenceIndex": 13627,
+		"timestamp": 75.98999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 76.32999999999998
+	},
+	{
+		"index": 35,
+		"txt": "condensation",
+		"file": "/home/user1/trash/dirOutputSet/_100_condensation_condensation____.wav",
+		"duration": 0.35,
+		"sentenceIndex": 13628,
+		"timestamp": 76.82999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 77.17999999999998
+	},
+	{
+		"index": 37,
+		"txt": "For sound, you can think of that piston as the cone of a loudspeaker.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_sound__you_can_think_of_that_pi_he_cone_of_a_loudspeaker_____.wav",
+		"duration": 1.4,
+		"sentenceIndex": 13630,
+		"timestamp": 77.67999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 79.07999999999998
+	},
+	{
+		"index": 38,
+		"txt": "That region of increased",
+		"file": "/home/user1/trash/dirOutputSet/_100_That_region_of_increased_That_region_of_increased____.wav",
+		"duration": 0.53,
+		"sentenceIndex": 13631,
+		"timestamp": 79.57999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 80.10999999999999
+	},
+	{
+		"index": 40,
+		"txt": "density and pressure will propagate through the medium, traveling at the speed of sound in that given medium.",
+		"file": "/home/user1/trash/dirOutputSet/_100_density_and_pressure_will_propagate_und_in_that_given_medium_____.wav",
+		"duration": 2.07,
+		"sentenceIndex": 13633,
+		"timestamp": 80.60999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 82.67999999999998
+	},
+	{
+		"index": 42,
+		"txt": "Figure 26 1",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 26_1_Figure 26_1____.wav",
+		"duration": 0.61,
+		"sentenceIndex": 13635,
+		"timestamp": 83.17999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 83.78999999999998
+	},
+	{
+		"index": 43,
+		"txt": "illustrates this concept.",
+		"file": "/home/user1/trash/dirOutputSet/_100_illustrates_this_concept__illustrates_this_concept_____.wav",
+		"duration": 0.52,
+		"sentenceIndex": 13636,
+		"timestamp": 84.28999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 84.80999999999997
+	},
+	{
+		"index": 49,
+		"txt": "Figure 26 1. Driven piston and loudspeaker analogue",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 26_1_ Driven_piston_and_loud__and_loudspeaker_analogue____.wav",
+		"duration": 1.69,
+		"sentenceIndex": 13642,
+		"timestamp": 85.30999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 86.99999999999997
+	},
+	{
+		"index": 51,
+		"txt": "Figure 26 1(a) illustrates the driven piston concept, while",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 26_1_a__illustrates_the_driv_ven_piston_concept__while____.wav",
+		"duration": 1.69,
+		"sentenceIndex": 13644,
+		"timestamp": 87.49999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 89.18999999999997
+	},
+	{
+		"index": 52,
+		"txt": "Figure 26 1",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 26_1_Figure 26_1____.wav",
+		"duration": 0.61,
+		"sentenceIndex": 13645,
+		"timestamp": 89.68999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 90.29999999999997
+	},
+	{
+		"index": 53,
+		"txt": "(b) illustrates the loudspeaker analogue.",
+		"file": "/home/user1/trash/dirOutputSet/_100__b__illustrates_the_loudspeaker_ana_the_loudspeaker_analogue_____.wav",
+		"duration": 0.99,
+		"sentenceIndex": 13646,
+		"timestamp": 90.79999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 91.78999999999996
+	},
+	{
+		"index": 54,
+		"txt": "As the piston or cone displaces fluid (say, air), causing compression, and then withdraws, a single high pressure region followed by a low pressure region will be created.",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_the_piston_or_cone_displaces_flu_e_region_will_be_created_____.wav",
+		"duration": 3.76,
+		"sentenceIndex": 13647,
+		"timestamp": 92.28999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 96.04999999999997
+	},
+	{
+		"index": 55,
+		"txt": "The low pressure region resulting from withdrawal of the piston is called",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_low_pressure_region_resulting_f_l_of_the_piston_is_called____.wav",
+		"duration": 1.4,
+		"sentenceIndex": 13648,
+		"timestamp": 96.54999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 97.94999999999997
+	},
+	{
+		"index": 56,
+		"txt": "rarefaction",
+		"file": "/home/user1/trash/dirOutputSet/_100_rarefaction_rarefaction____.wav",
+		"duration": 0.35,
+		"sentenceIndex": 13649,
+		"timestamp": 98.44999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 98.79999999999997
+	},
+	{
+		"index": 58,
+		"txt": "That resulting solitary wave of pressure will head off through the air to the right in",
+		"file": "/home/user1/trash/dirOutputSet/_100_That_resulting_solitary_wave_of_pre_h_the_air_to_the_right_in____.wav",
+		"duration": 1.55,
+		"sentenceIndex": 13651,
+		"timestamp": 99.29999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 100.84999999999997
+	},
+	{
+		"index": 59,
+		"txt": "Figure 26 1",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 26_1_Figure 26_1____.wav",
+		"duration": 0.61,
+		"sentenceIndex": 13652,
+		"timestamp": 101.34999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 101.95999999999997
+	},
+	{
+		"index": 60,
+		"txt": "at the speed corresponding to the speed of sound in air.",
+		"file": "/home/user1/trash/dirOutputSet/_100_at_the_speed_corresponding_to_the_s_he_speed_of_sound_in_air_____.wav",
+		"duration": 1.12,
+		"sentenceIndex": 13653,
+		"timestamp": 102.45999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 103.57999999999997
+	},
+	{
+		"index": 61,
+		"txt": "If the piston, or speaker cone, pulses back and forth, as illustrated in",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_the_piston__or_speaker_cone__pul__forth__as_illustrated_in____.wav",
+		"duration": 1.75,
+		"sentenceIndex": 13654,
+		"timestamp": 104.07999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 105.82999999999997
+	},
+	{
+		"index": 62,
+		"txt": "Figure 26 2",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 26_2_Figure 26_2____.wav",
+		"duration": 0.66,
+		"sentenceIndex": 13655,
+		"timestamp": 106.32999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 106.98999999999997
+	},
+	{
+		"index": 63,
+		"txt": ", a series of these high /low pressure regions will be created, resulting in a continuous series of waves a sound wave propagating to the right.",
+		"file": "/home/user1/trash/dirOutputSet/_100___a_series_of_these_high__low_press_propagating_to_the_right_____.wav",
+		"duration": 2.97,
+		"sentenceIndex": 13656,
+		"timestamp": 107.48999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 110.45999999999997
+	},
+	{
+		"index": 69,
+		"txt": "Figure 26 2. Sound wave",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 26_2_ Sound_wave_Figure 26_2_ Sound_wave____.wav",
+		"duration": 1.12,
+		"sentenceIndex": 13662,
+		"timestamp": 110.95999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 112.07999999999997
+	},
+	{
+		"index": 71,
+		"txt": "The wavelength of this sound wave (i.e., the distance measured from pressure peak to pressure peak) is a function of the frequency of pulsation, or vibration, of the cone.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_wavelength_of_this_sound_wave___r_vibration__of_the_cone_____.wav",
+		"duration": 3.78,
+		"sentenceIndex": 13664,
+		"timestamp": 112.57999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 116.35999999999997
+	},
+	{
+		"index": 72,
+		"txt": "The resulting sound wave's frequency is related to the inverse of its wavelength that is, f = 1/λ.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_resulting_sound_wave_s_frequenc_elength_that_is__f___1_______.wav",
+		"duration": 2.67,
+		"sentenceIndex": 13665,
+		"timestamp": 116.85999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 119.52999999999997
+	},
+	{
+		"index": 73,
+		"txt": "The pressure amplitude versus time waveform for this scenario is illustrated in",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_pressure_amplitude_versus_time__cenario_is_illustrated_in____.wav",
+		"duration": 1.8,
+		"sentenceIndex": 13666,
+		"timestamp": 120.02999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 121.82999999999997
+	},
+	{
+		"index": 74,
+		"txt": "Figure 26 2",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 26_2_Figure 26_2____.wav",
+		"duration": 0.66,
+		"sentenceIndex": 13667,
+		"timestamp": 122.32999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 122.98999999999997
+	},
+	{
+		"index": 76,
+		"txt": "We've illustrated the pressure wave as a",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ve_illustrated_the_pressure_wave_ed_the_pressure_wave_as_a____.wav",
+		"duration": 0.81,
+		"sentenceIndex": 13669,
+		"timestamp": 123.48999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 124.29999999999997
+	},
+	{
+		"index": 77,
+		"txt": "harmonic sine wave, which need not be the case in reality since the sound coming from a speaker could be composed of an aggregate of many different wave components.",
+		"file": "/home/user1/trash/dirOutputSet/_100_harmonic_sine_wave__which_need_not__ifferent_wave_components_____.wav",
+		"duration": 3.21,
+		"sentenceIndex": 13670,
+		"timestamp": 124.79999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 128.00999999999996
+	},
+	{
+		"index": 78,
+		"txt": "We'll say more on this later.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ll_say_more_on_this_later__l_say_more_on_this_later_____.wav",
+		"duration": 0.55,
+		"sentenceIndex": 13671,
+		"timestamp": 128.50999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 129.05999999999997
+	},
+	{
+		"index": 81,
+		"txt": "One thing we do want to point out is that a sound wave is a longitudinal wave and not a transverse wave like an ocean wave, for example.",
+		"file": "/home/user1/trash/dirOutputSet/_100_One_thing_we_do_want_to_point_out_i__ocean_wave__for_example_____.wav",
+		"duration": 2.75,
+		"sentenceIndex": 13674,
+		"timestamp": 129.55999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 132.30999999999997
+	},
+	{
+		"index": 82,
+		"txt": "In a transverse wave, the displacement of the medium due to the wave is perpendicular to the direction of travel of the wave.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_a_transverse_wave__the_displacem_on_of_travel_of_the_wave_____.wav",
+		"duration": 2.4,
+		"sentenceIndex": 13675,
+		"timestamp": 132.80999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 135.20999999999998
+	},
+	{
+		"index": 83,
+		"txt": "In a longitudinal wave, the displacement is along the direction of travel of the wave.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_a_longitudinal_wave__the_displac_on_of_travel_of_the_wave_____.wav",
+		"duration": 1.8,
+		"sentenceIndex": 13676,
+		"timestamp": 135.70999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 137.51
+	},
+	{
+		"index": 84,
+		"txt": "The higher density and pressure regions of a sound wave are due to compression of the medium along the direction of travel of the wave.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_higher_density_and_pressure_reg_on_of_travel_of_the_wave_____.wav",
+		"duration": 2.47,
+		"sentenceIndex": 13677,
+		"timestamp": 138.01
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 140.48
+	},
+	{
+		"index": 85,
+		"txt": "Thus, sound waves are longitudinal waves.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Thus__sound_waves_are_longitudinal__s_are_longitudinal_waves_____.wav",
+		"duration": 1.04,
+		"sentenceIndex": 13678,
+		"timestamp": 140.98
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 142.01999999999998
+	},
+	{
+		"index": 88,
+		"txt": "So, sound waves are variations in density and pressure moving through a medium.",
+		"file": "/home/user1/trash/dirOutputSet/_100_So__sound_waves_are_variations_in_d__moving_through_a_medium_____.wav",
+		"duration": 1.74,
+		"sentenceIndex": 13681,
+		"timestamp": 142.51999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 144.26
+	},
+	{
+		"index": 89,
+		"txt": "But how do we hear them?",
+		"file": "/home/user1/trash/dirOutputSet/_100_But_how_do_we_hear_them__But_how_do_we_hear_them_____.wav",
+		"duration": 0.47,
+		"sentenceIndex": 13682,
+		"timestamp": 144.76
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 145.23
+	},
+	{
+		"index": 90,
+		"txt": "In essence the pressure wave, created by some mechanical vibration like that of a speaker cone, gets converted back to a vibration in our inner ear.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_essence_the_pressure_wave__creat_bration_in_our_inner_ear_____.wav",
+		"duration": 3.09,
+		"sentenceIndex": 13683,
+		"timestamp": 145.73
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 148.82
+	},
+	{
+		"index": 91,
+		"txt": "And that vibration gets interpreted by our brains as sound the sound we hear.",
+		"file": "/home/user1/trash/dirOutputSet/_100_And_that_vibration_gets_interpreted__sound_the_sound_we_hear_____.wav",
+		"duration": 1.53,
+		"sentenceIndex": 13684,
+		"timestamp": 149.32
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 150.85
+	},
+	{
+		"index": 93,
+		"txt": "Figure 26 3",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 26_3_Figure 26_3____.wav",
+		"duration": 0.67,
+		"sentenceIndex": 13686,
+		"timestamp": 151.35
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 152.01999999999998
+	},
+	{
+		"index": 94,
+		"txt": "illustrates this concept.",
+		"file": "/home/user1/trash/dirOutputSet/_100_illustrates_this_concept__illustrates_this_concept_____.wav",
+		"duration": 0.52,
+		"sentenceIndex": 13687,
+		"timestamp": 152.51999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 153.04
+	},
+	{
+		"index": 100,
+		"txt": "Figure 26 3. Illustration of how we hear",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 26_3_ Illustration_of_how_we_lustration_of_how_we_hear____.wav",
+		"duration": 1.33,
+		"sentenceIndex": 13693,
+		"timestamp": 153.54
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 154.87
+	},
+	{
+		"index": 102,
+		"txt": "Our outer ears help capture and direct pressure waves into our ear canals.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Our_outer_ears_help_capture_and_dir_aves_into_our_ear_canals_____.wav",
+		"duration": 1.62,
+		"sentenceIndex": 13695,
+		"timestamp": 155.37
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 156.99
+	},
+	{
+		"index": 103,
+		"txt": "These pressure waves travel down the ear canal, impinging on the eardrum, which causes the eardrum to vibrate.",
+		"file": "/home/user1/trash/dirOutputSet/_100_These_pressure_waves_travel_down_th_s_the_eardrum_to_vibrate_____.wav",
+		"duration": 2.4,
+		"sentenceIndex": 13696,
+		"timestamp": 157.49
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 159.89000000000001
+	},
+	{
+		"index": 104,
+		"txt": "This is where the pressure variations get converted back to mechanical vibration.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_where_the_pressure_variatio__to_mechanical_vibration_____.wav",
+		"duration": 1.51,
+		"sentenceIndex": 13697,
+		"timestamp": 160.39000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 161.9
+	},
+	{
+		"index": 105,
+		"txt": "Beyond the eardrum, biology and chemistry work their magic to convert those vibrations into electrical impulses that our brains interpret as sound.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Beyond_the_eardrum__biology_and_che_rains_interpret_as_sound_____.wav",
+		"duration": 3.11,
+		"sentenceIndex": 13698,
+		"timestamp": 162.4
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 165.51000000000002
+	},
+	{
+		"index": 108,
+		"txt": "Our ears are sensitive enough to detect pressure",
+		"file": "/home/user1/trash/dirOutputSet/_100_Our_ears_are_sensitive_enough_to_de_enough_to_detect_pressure____.wav",
+		"duration": 0.94,
+		"sentenceIndex": 13701,
+		"timestamp": 166.01000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 166.95000000000002
+	},
+	{
+		"index": 109,
+		"txt": "waves in the 20 to 20,000 hertz (Hz)",
+		"file": "/home/user1/trash/dirOutputSet/_100_waves_in_the_20_to_20_000_hertz__Hz_e_20_to_20_000_hertz__Hz_____.wav",
+		"duration": 1.2,
+		"sentenceIndex": 13702,
+		"timestamp": 167.45000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 168.65
+	},
+	{
+		"index": 111,
+		"txt": "frequency range.",
+		"file": "/home/user1/trash/dirOutputSet/_100_frequency_range__frequency_range_____.wav",
+		"duration": 0.45,
+		"sentenceIndex": 13704,
+		"timestamp": 169.15
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 169.6
+	},
+	{
+		"index": 112,
+		"txt": "(A hertz is one cycle per second.) We interpret frequency as pitch.",
+		"file": "/home/user1/trash/dirOutputSet/_100__A_hertz_is_one_cycle_per_second____rpret_frequency_as_pitch_____.wav",
+		"duration": 1.47,
+		"sentenceIndex": 13705,
+		"timestamp": 170.1
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 171.57
+	},
+	{
+		"index": 113,
+		"txt": "High pitch sounds (think tweeters) correspond to high frequencies, and low pitch sounds (think bass) correspond to low frequencies.",
+		"file": "/home/user1/trash/dirOutputSet/_100_High_pitch_sounds__think_tweeters___spond_to_low_frequencies_____.wav",
+		"duration": 3.12,
+		"sentenceIndex": 13706,
+		"timestamp": 172.07
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 175.19
+	},
+	{
+		"index": 116,
+		"txt": "Aside from",
+		"file": "/home/user1/trash/dirOutputSet/_100_Aside_from_Aside_from____.wav",
+		"duration": 0.32,
+		"sentenceIndex": 13709,
+		"timestamp": 175.69
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 176.01
+	},
+	{
+		"index": 117,
+		"txt": "pitch, an obvious characteristic of sound that we perceive is its loudness.",
+		"file": "/home/user1/trash/dirOutputSet/_100_pitch__an_obvious_characteristic_of_perceive_is_its_loudness_____.wav",
+		"duration": 1.62,
+		"sentenceIndex": 13710,
+		"timestamp": 176.51
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 178.13
+	},
+	{
+		"index": 118,
+		"txt": "Loudness",
+		"file": "/home/user1/trash/dirOutputSet/_100_Loudness_Loudness____.wav",
+		"duration": 0.27,
+		"sentenceIndex": 13711,
+		"timestamp": 178.63
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 178.9
+	},
+	{
+		"index": 119,
+		"txt": "is related to the amplitude of the pressure wave, among other factors such as duration.",
+		"file": "/home/user1/trash/dirOutputSet/_100_is_related_to_the_amplitude_of_the__factors_such_as_duration_____.wav",
+		"duration": 1.8,
+		"sentenceIndex": 13712,
+		"timestamp": 179.4
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 181.20000000000002
+	},
+	{
+		"index": 120,
+		"txt": "We often think of loudness in terms of volume, or power, or intensity.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_often_think_of_loudness_in_terms___or_power__or_intensity_____.wav",
+		"duration": 1.67,
+		"sentenceIndex": 13713,
+		"timestamp": 181.70000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 183.37
+	},
+	{
+		"index": 121,
+		"txt": "All these characteristics are related, and we can write various formulas relating these characteristics to other features of the sound wave.",
+		"file": "/home/user1/trash/dirOutputSet/_100_All_these_characteristics_are_relat_atures_of_the_sound_wave_____.wav",
+		"duration": 2.71,
+		"sentenceIndex": 13714,
+		"timestamp": 183.87
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 186.58
+	},
+	{
+		"index": 122,
+		"txt": "Sound waves have",
+		"file": "/home/user1/trash/dirOutputSet/_100_Sound_waves_have_Sound_waves_have____.wav",
+		"duration": 0.44,
+		"sentenceIndex": 13715,
+		"timestamp": 187.08
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 187.52
+	},
+	{
+		"index": 123,
+		"txt": "kinetic energy, which is related to the mass of the medium disturbed by the pressure wave and the speed at which that mass is disturbed.",
+		"file": "/home/user1/trash/dirOutputSet/_100_kinetic_energy__which_is_related_to_h_that_mass_is_disturbed_____.wav",
+		"duration": 2.63,
+		"sentenceIndex": 13716,
+		"timestamp": 188.02
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 190.65
+	},
+	{
+		"index": 124,
+		"txt": "Power",
+		"file": "/home/user1/trash/dirOutputSet/_100_Power_Power____.wav",
+		"duration": 0.18,
+		"sentenceIndex": 13717,
+		"timestamp": 191.15
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 191.33
+	},
+	{
+		"index": 125,
+		"txt": "is the time rate of change of energy transference.",
+		"file": "/home/user1/trash/dirOutputSet/_100_is_the_time_rate_of_change_of_energ_e_of_energy_transference_____.wav",
+		"duration": 1.06,
+		"sentenceIndex": 13718,
+		"timestamp": 191.83
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 192.89000000000001
+	},
+	{
+		"index": 126,
+		"txt": "And intensity is related to how much power flows through a given area.",
+		"file": "/home/user1/trash/dirOutputSet/_100_And_intensity_is_related_to_how_muc_ows_through_a_given_area_____.wav",
+		"duration": 1.35,
+		"sentenceIndex": 13719,
+		"timestamp": 193.39000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 194.74
+	},
+	{
+		"index": 127,
+		"txt": "The bottom line is that the more power a sound has, or the more intense it is, the louder it seems to you, the listener.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_bottom_line_is_that_the_more_po_ems_to_you__the_listener_____.wav",
+		"duration": 2.46,
+		"sentenceIndex": 13720,
+		"timestamp": 195.24
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 197.70000000000002
+	},
+	{
+		"index": 128,
+		"txt": "At some point, a sound can be so intense as to cause discomfort or pain.",
+		"file": "/home/user1/trash/dirOutputSet/_100_At_some_point__a_sound_can_be_so_in_cause_discomfort_or_pain_____.wav",
+		"duration": 1.68,
+		"sentenceIndex": 13721,
+		"timestamp": 198.20000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 199.88000000000002
+	},
+	{
+		"index": 131,
+		"txt": "Customarily, intensity is measured in units of decibels.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Customarily__intensity_is_measured__red_in_units_of_decibels_____.wav",
+		"duration": 1.42,
+		"sentenceIndex": 13724,
+		"timestamp": 200.38000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 201.8
+	},
+	{
+		"index": 132,
+		"txt": "A decibel represents the",
+		"file": "/home/user1/trash/dirOutputSet/_100_A_decibel_represents_the_A_decibel_represents_the____.wav",
+		"duration": 0.53,
+		"sentenceIndex": 13725,
+		"timestamp": 202.3
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 202.83
+	},
+	{
+		"index": 133,
+		"txt": "intensity of a sound relative to some standard reference, which is usually taken as the sound intensity corresponding to the threshold of hearing.",
+		"file": "/home/user1/trash/dirOutputSet/_100_intensity_of_a_sound_relative_to_so_the_threshold_of_hearing_____.wav",
+		"duration": 2.96,
+		"sentenceIndex": 13726,
+		"timestamp": 203.33
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 206.29000000000002
+	},
+	{
+		"index": 134,
+		"txt": "Zero decibels, or 0 dB, corresponds to the threshold of hearing.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Zero_decibels__or_0_dB__corresponds_the_threshold_of_hearing_____.wav",
+		"duration": 1.92,
+		"sentenceIndex": 13727,
+		"timestamp": 206.79000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 208.71
+	},
+	{
+		"index": 135,
+		"txt": "The intensity is so low you can't hear it.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_intensity_is_so_low_you_can_t_h_so_low_you_can_t_hear_it_____.wav",
+		"duration": 0.88,
+		"sentenceIndex": 13728,
+		"timestamp": 209.21
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 210.09
+	},
+	{
+		"index": 136,
+		"txt": "When sounds reach about 120–130 dB, they start to cause pain.",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_sounds_reach_about_120_130_dB__they_start_to_cause_pain_____.wav",
+		"duration": 2.07,
+		"sentenceIndex": 13729,
+		"timestamp": 210.59
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 212.66
+	},
+	{
+		"index": 138,
+		"txt": "Table 26 1",
+		"file": "/home/user1/trash/dirOutputSet/_100_Table 26_1_Table 26_1____.wav",
+		"duration": 0.56,
+		"sentenceIndex": 13731,
+		"timestamp": 213.16
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 213.72
+	},
+	{
+		"index": 139,
+		"txt": "lists some typical intensity values for common sounds.",
+		"file": "/home/user1/trash/dirOutputSet/_100_lists_some_typical_intensity_values_values_for_common_sounds_____.wav",
+		"duration": 1.31,
+		"sentenceIndex": 13732,
+		"timestamp": 214.22
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 215.53
+	},
+	{
+		"index": 141,
+		"txt": "Table 26 1. Typical sound intensities",
+		"file": "/home/user1/trash/dirOutputSet/_100_Table 26_1_ Typical_sound_intensiti_Typical_sound_intensities____.wav",
+		"duration": 1.4,
+		"sentenceIndex": 13734,
+		"timestamp": 216.03
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 217.43
+	},
+	{
+		"index": 142,
+		"txt": "Sound",
+		"file": "/home/user1/trash/dirOutputSet/_100_Sound_Sound____.wav",
+		"duration": 0.21,
+		"sentenceIndex": 13735,
+		"timestamp": 217.93
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 218.14000000000001
+	},
+	{
+		"index": 143,
+		"txt": "Typical intensity",
+		"file": "/home/user1/trash/dirOutputSet/_100_Typical_intensity_Typical_intensity____.wav",
+		"duration": 0.47,
+		"sentenceIndex": 13736,
+		"timestamp": 218.64000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 219.11
+	},
+	{
+		"index": 144,
+		"txt": "Jet airplane, fairly close",
+		"file": "/home/user1/trash/dirOutputSet/_100_Jet_airplane__fairly_close_et_airplane__fairly_close____.wav",
+		"duration": 0.76,
+		"sentenceIndex": 13737,
+		"timestamp": 219.61
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 220.37
+	},
+	{
+		"index": 145,
+		"txt": "150 dB",
+		"file": "/home/user1/trash/dirOutputSet/_100_150_dB_150_dB____.wav",
+		"duration": 0.71,
+		"sentenceIndex": 13738,
+		"timestamp": 220.87
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 221.58
+	},
+	{
+		"index": 146,
+		"txt": "Gun shot",
+		"file": "/home/user1/trash/dirOutputSet/_100_Gun_shot_Gun_shot____.wav",
+		"duration": 0.28,
+		"sentenceIndex": 13739,
+		"timestamp": 222.08
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 222.36
+	},
+	{
+		"index": 147,
+		"txt": "160 to 180 dB depending on the gun",
+		"file": "/home/user1/trash/dirOutputSet/_100_160_to_180_dB_depending_on_the_gun_0_dB_depending_on_the_gun____.wav",
+		"duration": 1.45,
+		"sentenceIndex": 13740,
+		"timestamp": 222.86
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 224.31
+	},
+	{
+		"index": 148,
+		"txt": "Crying baby",
+		"file": "/home/user1/trash/dirOutputSet/_100_Crying_baby_Crying_baby____.wav",
+		"duration": 0.31,
+		"sentenceIndex": 13741,
+		"timestamp": 224.81
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 225.12
+	},
+	{
+		"index": 149,
+		"txt": "130 dB (painful!)",
+		"file": "/home/user1/trash/dirOutputSet/_100_130_dB__painful___130_dB__painful______.wav",
+		"duration": 0.93,
+		"sentenceIndex": 13742,
+		"timestamp": 225.62
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 226.55
+	},
+	{
+		"index": 150,
+		"txt": "Loud scream",
+		"file": "/home/user1/trash/dirOutputSet/_100_Loud_scream_Loud_scream____.wav",
+		"duration": 0.36,
+		"sentenceIndex": 13743,
+		"timestamp": 227.05
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 227.41000000000003
+	},
+	{
+		"index": 151,
+		"txt": "Up to 128 dB (world record set in 1988)",
+		"file": "/home/user1/trash/dirOutputSet/_100_Up_to_128_dB__world_record_set_in_1_world_record_set_in_1988_____.wav",
+		"duration": 1.77,
+		"sentenceIndex": 13744,
+		"timestamp": 227.91000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 229.68000000000004
+	},
+	{
+		"index": 152,
+		"txt": "Typical conversation",
+		"file": "/home/user1/trash/dirOutputSet/_100_Typical_conversation_Typical_conversation____.wav",
+		"duration": 0.5,
+		"sentenceIndex": 13745,
+		"timestamp": 230.18000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 230.68000000000004
+	},
+	{
+		"index": 153,
+		"txt": "50 to 60 dB",
+		"file": "/home/user1/trash/dirOutputSet/_100_50_to_60_dB_50_to_60_dB____.wav",
+		"duration": 0.66,
+		"sentenceIndex": 13746,
+		"timestamp": 231.18000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 231.84000000000003
+	},
+	{
+		"index": 154,
+		"txt": "Whisper",
+		"file": "/home/user1/trash/dirOutputSet/_100_Whisper_Whisper____.wav",
+		"duration": 0.19,
+		"sentenceIndex": 13747,
+		"timestamp": 232.34000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 232.53000000000003
+	},
+	{
+		"index": 155,
+		"txt": "About 10 dB",
+		"file": "/home/user1/trash/dirOutputSet/_100_About_10_dB_About_10_dB____.wav",
+		"duration": 0.58,
+		"sentenceIndex": 13748,
+		"timestamp": 233.03000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 233.61000000000004
+	},
+	{
+		"index": 157,
+		"txt": "The intensity values shown in",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_intensity_values_shown_in_intensity_values_shown_in____.wav",
+		"duration": 0.77,
+		"sentenceIndex": 13750,
+		"timestamp": 234.11000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 234.88000000000005
+	},
+	{
+		"index": 158,
+		"txt": "Table 26 1",
+		"file": "/home/user1/trash/dirOutputSet/_100_Table 26_1_Table 26_1____.wav",
+		"duration": 0.56,
+		"sentenceIndex": 13751,
+		"timestamp": 235.38000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 235.94000000000005
+	},
+	{
+		"index": 159,
+		"txt": "are typical and surely there's wide variation in those levels depending on, for example, the type of aircraft, or the person you're talking to, or the softness of the person's voice whispering to you.",
+		"file": "/home/user1/trash/dirOutputSet/_100_are_typical_and_surely_there_s_wide__voice_whispering_to_you_____.wav",
+		"duration": 4.15,
+		"sentenceIndex": 13752,
+		"timestamp": 236.44000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 240.59000000000006
+	},
+	{
+		"index": 160,
+		"txt": "It's common sense, but if you're writing a game you'll want to reflect some level of realism in the intensity of various sound effects in your game.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_s_common_sense__but_if_you_re_wr_und_effects_in_your_game_____.wav",
+		"duration": 2.89,
+		"sentenceIndex": 13753,
+		"timestamp": 241.09000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 243.98000000000005
+	},
+	{
+		"index": 162,
+		"txt": "Now, intensity is actually a logarithmic scale.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now__intensity_is_actually_a_logari_ally_a_logarithmic_scale_____.wav",
+		"duration": 1.23,
+		"sentenceIndex": 13755,
+		"timestamp": 244.48000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 245.71000000000004
+	},
+	{
+		"index": 163,
+		"txt": "It is generally accepted that a sound measured 10 dB higher than another is considered twice as loud.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_is_generally_accepted_that_a_sou_considered_twice_as_loud_____.wav",
+		"duration": 2.11,
+		"sentenceIndex": 13756,
+		"timestamp": 246.21000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 248.32000000000005
+	},
+	{
+		"index": 164,
+		"txt": "This is perceived loudness.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_perceived_loudness__is_is_perceived_loudness_____.wav",
+		"duration": 0.6,
+		"sentenceIndex": 13757,
+		"timestamp": 248.82000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 249.42000000000004
+	},
+	{
+		"index": 165,
+		"txt": "Thus, a crying baby is way more than twice as loud as a normal conversation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Thus__a_crying_baby_is_way_more_tha_as_a_normal_conversation_____.wav",
+		"duration": 1.73,
+		"sentenceIndex": 13758,
+		"timestamp": 249.92000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 251.65000000000003
+	},
+	{
+		"index": 166,
+		"txt": "Parents",
+		"file": "/home/user1/trash/dirOutputSet/_100_Parents_Parents____.wav",
+		"duration": 0.23,
+		"sentenceIndex": 13759,
+		"timestamp": 252.15000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 252.38000000000002
+	},
+	{
+		"index": 167,
+		"txt": "already know that.",
+		"file": "/home/user1/trash/dirOutputSet/_100_already_know_that__already_know_that_____.wav",
+		"duration": 0.38,
+		"sentenceIndex": 13760,
+		"timestamp": 252.88000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 253.26000000000002
+	},
+	{
+		"index": 170,
+		"txt": "Characteristics of and Behavior of Sound Waves",
+		"file": "/home/user1/trash/dirOutputSet/_100_Characteristics_of_and_Behavior_of__d_Behavior_of_Sound_Waves____.wav",
+		"duration": 1.06,
+		"sentenceIndex": 13763,
+		"timestamp": 253.76000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 254.82000000000002
+	},
+	{
+		"index": 172,
+		"txt": "Now that we've",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now_that_we_ve_Now_that_we_ve____.wav",
+		"duration": 0.34,
+		"sentenceIndex": 13765,
+		"timestamp": 255.32000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 255.66000000000003
+	},
+	{
+		"index": 173,
+		"txt": "established what sound is, we're going to generally refer to sound waves",
+		"file": "/home/user1/trash/dirOutputSet/_100_established_what_sound_is__we_re_go_ally_refer_to_sound_waves____.wav",
+		"duration": 1.6,
+		"sentenceIndex": 13766,
+		"timestamp": 256.16
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 257.76000000000005
+	},
+	{
+		"index": 174,
+		"txt": "throughout the remainder of this chapter.",
+		"file": "/home/user1/trash/dirOutputSet/_100_throughout_the_remainder_of_this_ch_emainder_of_this_chapter_____.wav",
+		"duration": 0.75,
+		"sentenceIndex": 13767,
+		"timestamp": 258.26000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 259.01000000000005
+	},
+	{
+		"index": 175,
+		"txt": "Remember, sound waves are pressure waves that get interpreted by our brains as sound.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Remember__sound_waves_are_pressure__d_by_our_brains_as_sound_____.wav",
+		"duration": 1.8,
+		"sentenceIndex": 13768,
+		"timestamp": 259.51000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 261.31000000000006
+	},
+	{
+		"index": 176,
+		"txt": "The bottom line is that we're dealing with waves, longitudinal waves.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_bottom_line_is_that_we_re_deali_aves__longitudinal_waves_____.wav",
+		"duration": 1.42,
+		"sentenceIndex": 13769,
+		"timestamp": 261.81000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 263.2300000000001
+	},
+	{
+		"index": 177,
+		"txt": "Therefore, we can use principles of wave mechanics to describe sound waves.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Therefore__we_can_use_principles_of__to_describe_sound_waves_____.wav",
+		"duration": 1.7,
+		"sentenceIndex": 13770,
+		"timestamp": 263.7300000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 265.43000000000006
+	},
+	{
+		"index": 178,
+		"txt": "Furthermore, since sound waves (think pressure waves) displace real mass, they can interact with the environment.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Furthermore__since_sound_waves__thi_act_with_the_environment_____.wav",
+		"duration": 2.63,
+		"sentenceIndex": 13771,
+		"timestamp": 265.93000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 268.56000000000006
+	},
+	{
+		"index": 179,
+		"txt": "We already know that pressure waves interact with our eardrums to trigger some biochemical action, causing our brains to interpret sound.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_already_know_that_pressure_waves_rains_to_interpret_sound_____.wav",
+		"duration": 2.74,
+		"sentenceIndex": 13772,
+		"timestamp": 269.06000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 271.80000000000007
+	},
+	{
+		"index": 180,
+		"txt": "Conversely, the environment can interact with the pressure wave to alter its characteristics.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Conversely__the_environment_can_int_lter_its_characteristics_____.wav",
+		"duration": 1.92,
+		"sentenceIndex": 13773,
+		"timestamp": 272.30000000000007
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 274.2200000000001
+	},
+	{
+		"index": 183,
+		"txt": "Harmonic Wave",
+		"file": "/home/user1/trash/dirOutputSet/_100_Harmonic_Wave_Harmonic_Wave____.wav",
+		"duration": 0.41,
+		"sentenceIndex": 13776,
+		"timestamp": 274.7200000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 275.1300000000001
+	},
+	{
+		"index": 185,
+		"txt": "Let's consider a one dimensional",
+		"file": "/home/user1/trash/dirOutputSet/_100_Let_s_consider_a_one_dimensional_onsider_a_one_dimensional____.wav",
+		"duration": 0.64,
+		"sentenceIndex": 13778,
+		"timestamp": 275.6300000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 276.2700000000001
+	},
+	{
+		"index": 186,
+		"txt": "harmonic pressure wave one that could be created by the driven piston shown in",
+		"file": "/home/user1/trash/dirOutputSet/_100_harmonic_pressure_wave_one_that_cou_he_driven_piston_shown_in____.wav",
+		"duration": 1.57,
+		"sentenceIndex": 13779,
+		"timestamp": 276.7700000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 278.3400000000001
+	},
+	{
+		"index": 188,
+		"txt": "Figure 26 1 (a).",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 26_1__a___Figure 26_1__a______.wav",
+		"duration": 0.97,
+		"sentenceIndex": 13781,
+		"timestamp": 278.8400000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 279.8100000000001
+	},
+	{
+		"index": 189,
+		"txt": "Let the x direction correspond to distance, positive from left to right.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Let_the_x_direction_correspond_to_d_itive_from_left_to_right_____.wav",
+		"duration": 1.52,
+		"sentenceIndex": 13782,
+		"timestamp": 280.3100000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 281.8300000000001
+	},
+	{
+		"index": 190,
+		"txt": "Thus, the wave of",
+		"file": "/home/user1/trash/dirOutputSet/_100_Thus__the_wave_of_Thus__the_wave_of____.wav",
+		"duration": 0.5,
+		"sentenceIndex": 13783,
+		"timestamp": 282.3300000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 282.8300000000001
+	},
+	{
+		"index": 191,
+		"txt": "Figure 26 1",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 26_1_Figure 26_1____.wav",
+		"duration": 0.61,
+		"sentenceIndex": 13784,
+		"timestamp": 283.3300000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 283.9400000000001
+	},
+	{
+		"index": 192,
+		"txt": "(a) travels in the positive x direction.",
+		"file": "/home/user1/trash/dirOutputSet/_100__a__travels_in_the_positive_x_direc_the_positive_x_direction_____.wav",
+		"duration": 0.96,
+		"sentenceIndex": 13785,
+		"timestamp": 284.4400000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 285.4000000000001
+	},
+	{
+		"index": 193,
+		"txt": "Let ΔP represent the change in pressure from the ambient pressure at any given time.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Let__P_represent_the_change_in_pres_essure_at_any_given_time_____.wav",
+		"duration": 2.01,
+		"sentenceIndex": 13786,
+		"timestamp": 285.9000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 287.9100000000001
+	},
+	{
+		"index": 194,
+		"txt": "Let AP represent the amplitude of the pressure wave.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Let_AP_represent_the_amplitude_of_t_ude_of_the_pressure_wave_____.wav",
+		"duration": 1.13,
+		"sentenceIndex": 13787,
+		"timestamp": 288.4100000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 289.5400000000001
+	},
+	{
+		"index": 195,
+		"txt": "Remember, the pressure will vary by some amount greater than the ambient pressure when condensation occurs to some amount lower than ambient pressure when rarefaction occurs.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Remember__the_pressure_will_vary_by__when_rarefaction_occurs_____.wav",
+		"duration": 3.43,
+		"sentenceIndex": 13788,
+		"timestamp": 290.0400000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 293.4700000000001
+	},
+	{
+		"index": 196,
+		"txt": "The range in peak pressures relative to ambient is −AP to +AP .",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_range_in_peak_pressures_relativ_o_ambient_is__AP_to__AP______.wav",
+		"duration": 2.25,
+		"sentenceIndex": 13789,
+		"timestamp": 293.9700000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 296.2200000000001
+	},
+	{
+		"index": 197,
+		"txt": "Assuming a harmonic wave, we can write:ΔP = AP sin(kx – ωt – φ)",
+		"file": "/home/user1/trash/dirOutputSet/_100_Assuming_a_harmonic_wave__we_can_wr___P___AP_sin_kx____t_________.wav",
+		"duration": 3.15,
+		"sentenceIndex": 13790,
+		"timestamp": 296.7200000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 299.87000000000006
+	},
+	{
+		"index": 198,
+		"txt": "k is called the wave number and is equal to 2π/λ, where λ is the wave length.",
+		"file": "/home/user1/trash/dirOutputSet/_100_k_is_called_the_wave_number_and_is__ere___is_the_wave_length_____.wav",
+		"duration": 2.8,
+		"sentenceIndex": 13791,
+		"timestamp": 300.37000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 303.1700000000001
+	},
+	{
+		"index": 199,
+		"txt": "x is the coordinate representing the position under consideration. ω is called angular, or circular, frequency and is equal to 2πf, where f is the frequency of the sound wave.",
+		"file": "/home/user1/trash/dirOutputSet/_100_x_is_the_coordinate_representing_th_quency_of_the_sound_wave_____.wav",
+		"duration": 4.65,
+		"sentenceIndex": 13792,
+		"timestamp": 303.6700000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 308.32000000000005
+	},
+	{
+		"index": 200,
+		"txt": "t represents time.",
+		"file": "/home/user1/trash/dirOutputSet/_100_t_represents_time__t_represents_time_____.wav",
+		"duration": 0.5,
+		"sentenceIndex": 13793,
+		"timestamp": 308.82000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 309.32000000000005
+	},
+	{
+		"index": 201,
+		"txt": "Finally, φ is called the phase angle, also known as the phase shift.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Finally____is_called_the_phase_angl_known_as_the_phase_shift_____.wav",
+		"duration": 1.85,
+		"sentenceIndex": 13794,
+		"timestamp": 309.82000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 311.6700000000001
+	},
+	{
+		"index": 202,
+		"txt": "It represents an offset of the wave along the x axis in this case.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_represents_an_offset_of_the_wave__the_x_axis_in_this_case_____.wav",
+		"duration": 1.5,
+		"sentenceIndex": 13795,
+		"timestamp": 312.1700000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 313.6700000000001
+	},
+	{
+		"index": 204,
+		"txt": "With this equation, we can plot what ΔP at a particular x location as a function of time.",
+		"file": "/home/user1/trash/dirOutputSet/_100_With_this_equation__we_can_plot_wha_on_as_a_function_of_time_____.wav",
+		"duration": 2.23,
+		"sentenceIndex": 13797,
+		"timestamp": 314.1700000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 316.4000000000001
+	},
+	{
+		"index": 206,
+		"txt": "Figure 26 4 illustrates such a plot assuming that AP, λ, and f are all equal to 1 and φ is equal to 0.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 26_4_illustrates_such_a_plot_to_1_and___is_equal_to_0_____.wav",
+		"duration": 3.45,
+		"sentenceIndex": 13799,
+		"timestamp": 316.9000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 320.3500000000001
+	},
+	{
+		"index": 212,
+		"txt": "Figure 26 4. Harmonic wave",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 26_4_ Harmonic_wave_igure 26_4_ Harmonic_wave____.wav",
+		"duration": 1.17,
+		"sentenceIndex": 13805,
+		"timestamp": 320.8500000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 322.0200000000001
+	},
+	{
+		"index": 214,
+		"txt": "Physically, if you were to measure the change in pressure over time at some point, x, the plot would look like that shown in",
+		"file": "/home/user1/trash/dirOutputSet/_100_Physically__if_you_were_to_measure__d_look_like_that_shown_in____.wav",
+		"duration": 2.54,
+		"sentenceIndex": 13807,
+		"timestamp": 322.5200000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 325.0600000000001
+	},
+	{
+		"index": 215,
+		"txt": "Figure 26 4",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 26_4_Figure 26_4____.wav",
+		"duration": 0.65,
+		"sentenceIndex": 13808,
+		"timestamp": 325.5600000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 326.2100000000001
+	},
+	{
+		"index": 218,
+		"txt": "Superposition",
+		"file": "/home/user1/trash/dirOutputSet/_100_Superposition_Superposition____.wav",
+		"duration": 0.38,
+		"sentenceIndex": 13811,
+		"timestamp": 326.7100000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 327.0900000000001
+	},
+	{
+		"index": 219,
+		"txt": "In general, sound waves",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_general__sound_waves_In_general__sound_waves____.wav",
+		"duration": 0.67,
+		"sentenceIndex": 13812,
+		"timestamp": 327.5900000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 328.2600000000001
+	},
+	{
+		"index": 220,
+		"txt": "don't look like the pure harmonic wave shown in",
+		"file": "/home/user1/trash/dirOutputSet/_100_don_t_look_like_the_pure_harmonic_w_re_harmonic_wave_shown_in____.wav",
+		"duration": 0.94,
+		"sentenceIndex": 13813,
+		"timestamp": 328.7600000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 329.7000000000001
+	},
+	{
+		"index": 222,
+		"txt": "Figure 26 4 unless the sound is a pure tone.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 26_4_unless_the_sound_is_a_p_the_sound_is_a_pure_tone_____.wav",
+		"duration": 1.33,
+		"sentenceIndex": 13815,
+		"timestamp": 330.2000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 331.5300000000001
+	},
+	{
+		"index": 223,
+		"txt": "A non pure tone will have other wiggles in its plot resulting from components at other frequencies and phases.",
+		"file": "/home/user1/trash/dirOutputSet/_100_A_non_pure_tone_will_have_other_wig_r_frequencies_and_phases_____.wav",
+		"duration": 2.25,
+		"sentenceIndex": 13816,
+		"timestamp": 332.0300000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 334.2800000000001
+	},
+	{
+		"index": 224,
+		"txt": "Similarly, if you record the sound pressure at a single point in a room, for example, where multiple sound sources exist, the pressure recording at the point in question will not correspond to the sound of any particular sound source.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Similarly__if_you_record_the_sound___particular_sound_source_____.wav",
+		"duration": 4.86,
+		"sentenceIndex": 13817,
+		"timestamp": 334.7800000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 339.6400000000001
+	},
+	{
+		"index": 225,
+		"txt": "Instead, the recorded pressure time history will be some combination of all the sources present, and what you hear is some combination of all the sound sources.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Instead__the_recorded_pressure_time_of_all_the_sound_sources_____.wav",
+		"duration": 3.25,
+		"sentenceIndex": 13818,
+		"timestamp": 340.1400000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 343.3900000000001
+	},
+	{
+		"index": 227,
+		"txt": "A good approximation for how these various sound components combine is simply to sum the results of each component at the particular point in question.",
+		"file": "/home/user1/trash/dirOutputSet/_100_A_good_approximation_for_how_these__icular_point_in_question_____.wav",
+		"duration": 2.91,
+		"sentenceIndex": 13820,
+		"timestamp": 343.8900000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 346.8000000000001
+	},
+	{
+		"index": 228,
+		"txt": "This is the principle of superposition.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_the_principle_of_superposit_inciple_of_superposition_____.wav",
+		"duration": 0.8,
+		"sentenceIndex": 13821,
+		"timestamp": 347.3000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 348.10000000000014
+	},
+	{
+		"index": 231,
+		"txt": "Figure 26 5 shows 10 different waveforms, each with different amplitudes, frequencies, and phases.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 26_5_shows_10_different_wave__frequencies__and_phases_____.wav",
+		"duration": 2.73,
+		"sentenceIndex": 13824,
+		"timestamp": 348.60000000000014
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 351.33000000000015
+	},
+	{
+		"index": 232,
+		"txt": "The principle of superposition says that we can add all these waveforms to determine the combined result.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_principle_of_superposition_says_mine_the_combined_result_____.wav",
+		"duration": 2.05,
+		"sentenceIndex": 13825,
+		"timestamp": 351.83000000000015
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 353.88000000000017
+	},
+	{
+		"index": 238,
+		"txt": "Figure 26 5. Ten different waves",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 26_5_ Ten_different_waves_26_5_ Ten_different_waves____.wav",
+		"duration": 1.26,
+		"sentenceIndex": 13831,
+		"timestamp": 354.38000000000017
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 355.64000000000016
+	},
+	{
+		"index": 240,
+		"txt": "Figure 26 6 shows the resulting wave.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 26_6_shows_the_resulting_wav_shows_the_resulting_wave_____.wav",
+		"duration": 1.18,
+		"sentenceIndex": 13833,
+		"timestamp": 356.14000000000016
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 357.32000000000016
+	},
+	{
+		"index": 241,
+		"txt": "Note that the individual waves are added algebraically.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Note_that_the_individual_waves_are___are_added_algebraically_____.wav",
+		"duration": 1.21,
+		"sentenceIndex": 13834,
+		"timestamp": 357.82000000000016
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 359.03000000000014
+	},
+	{
+		"index": 242,
+		"txt": "At any given instant in time, some waves produce positive pressure changes, while others produce negative pressure changes.",
+		"file": "/home/user1/trash/dirOutputSet/_100_At_any_given_instant_in_time__some__egative_pressure_changes_____.wav",
+		"duration": 2.66,
+		"sentenceIndex": 13835,
+		"timestamp": 359.53000000000014
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 362.19000000000017
+	},
+	{
+		"index": 243,
+		"txt": "This means that some waves add together to make bigger pressure changes, but it also means that some can add together to make smaller pressure changes.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_means_that_some_waves_add_toge_smaller_pressure_changes_____.wav",
+		"duration": 2.96,
+		"sentenceIndex": 13836,
+		"timestamp": 362.69000000000017
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 365.65000000000015
+	},
+	{
+		"index": 244,
+		"txt": "In other words, waves can be either constructive or destructive.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_other_words__waves_can_be_either_structive_or_destructive_____.wav",
+		"duration": 1.37,
+		"sentenceIndex": 13837,
+		"timestamp": 366.15000000000015
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 367.52000000000015
+	},
+	{
+		"index": 245,
+		"txt": "Some waves can cancel each other out completely, which is the basis for noise cancellation technologies.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Some_waves_can_cancel_each_other_ou_ancellation_technologies_____.wav",
+		"duration": 2.11,
+		"sentenceIndex": 13838,
+		"timestamp": 368.02000000000015
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 370.13000000000017
+	},
+	{
+		"index": 251,
+		"txt": "Figure 26 6. Resulting wave",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 26_6_ Resulting_wave_gure 26_6_ Resulting_wave____.wav",
+		"duration": 1.18,
+		"sentenceIndex": 13844,
+		"timestamp": 370.63000000000017
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 371.8100000000002
+	},
+	{
+		"index": 253,
+		"txt": "Speed of Sound",
+		"file": "/home/user1/trash/dirOutputSet/_100_Speed_of_Sound_Speed_of_Sound____.wav",
+		"duration": 0.39,
+		"sentenceIndex": 13846,
+		"timestamp": 372.3100000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 372.70000000000016
+	},
+	{
+		"index": 255,
+		"txt": "Sound waves",
+		"file": "/home/user1/trash/dirOutputSet/_100_Sound_waves_Sound_waves____.wav",
+		"duration": 0.4,
+		"sentenceIndex": 13848,
+		"timestamp": 373.20000000000016
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 373.60000000000014
+	},
+	{
+		"index": 256,
+		"txt": "travel through a medium at some finite speed, which is a function of that medium's elastic and inertial properties.",
+		"file": "/home/user1/trash/dirOutputSet/_100_travel_through_a_medium_at_some_fin__and_inertial_properties_____.wav",
+		"duration": 2.3,
+		"sentenceIndex": 13849,
+		"timestamp": 374.10000000000014
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 376.40000000000015
+	},
+	{
+		"index": 257,
+		"txt": "In general, sound travels faster in stiffer, less compressible mediums than it does in softer or more compressible mediums.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_general__sound_travels_faster_in_ore_compressible_mediums_____.wav",
+		"duration": 2.78,
+		"sentenceIndex": 13850,
+		"timestamp": 376.90000000000015
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 379.6800000000001
+	},
+	{
+		"index": 258,
+		"txt": "For example, the speed of sound in air is about 340 m/s, depending on temperature, moisture content, and other factors, but it's about 1500 m/s in seawater.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_example__the_speed_of_sound_in__out_1500_m_s_in_seawater_____.wav",
+		"duration": 4.71,
+		"sentenceIndex": 13851,
+		"timestamp": 380.1800000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 384.8900000000001
+	},
+	{
+		"index": 259,
+		"txt": "Water is a lot less compressible than air.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Water_is_a_lot_less_compressible_th_ss_compressible_than_air_____.wav",
+		"duration": 0.9,
+		"sentenceIndex": 13852,
+		"timestamp": 385.3900000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 386.2900000000001
+	},
+	{
+		"index": 260,
+		"txt": "Taking this a step further, the speed of sound in a solid such as iron is about 5,100 m/s.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Taking_this_a_step_further__the_spe__iron_is_about_5_100_m_s_____.wav",
+		"duration": 2.57,
+		"sentenceIndex": 13853,
+		"timestamp": 386.7900000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 389.36000000000007
+	},
+	{
+		"index": 263,
+		"txt": "You might say,",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_might_say__You_might_say_______.wav",
+		"duration": 0.39,
+		"sentenceIndex": 13856,
+		"timestamp": 389.86000000000007
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 390.25000000000006
+	},
+	{
+		"index": 264,
+		"txt": "\"So what; why do I have to worry about the speed of sound in my game?\"",
+		"file": "/home/user1/trash/dirOutputSet/IVONA_2_Kendra_100_So_what__why_do_I_have_to_worry_abo_peed_of_sound_in_my_game_______.wav",
+		"duration": 1.57,
+		"sentenceIndex": 13857,
+		"timestamp": 390.75000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 392.32000000000005
+	},
+	{
+		"index": 265,
+		"txt": "Well, the speed at which sound waves travel tells us something about the sound source, and you can leverage those cues in your game to enhance its immersive feel.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Well__the_speed_at_which_sound_wave_hance_its_immersive_feel_______.wav",
+		"duration": 3.18,
+		"sentenceIndex": 13858,
+		"timestamp": 392.82000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 396.00000000000006
+	},
+	{
+		"index": 266,
+		"txt": "Let's say an enemy unit fires a gun in your 3D shooter, and that enemy is some distance from your player.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Let_s_say_an_enemy_unit_fires_a_gun_istance_from_your_player_____.wav",
+		"duration": 2.35,
+		"sentenceIndex": 13859,
+		"timestamp": 396.50000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 398.8500000000001
+	},
+	{
+		"index": 267,
+		"txt": "The player should see the muzzle flash before she hears the sound of the gun firing.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_player_should_see_the_muzzle_fl__sound_of_the_gun_firing_____.wav",
+		"duration": 1.54,
+		"sentenceIndex": 13860,
+		"timestamp": 399.3500000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 400.8900000000001
+	},
+	{
+		"index": 268,
+		"txt": "This delay is due to the fact that light travels far faster than sound.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_delay_is_due_to_the_fact_that__ls_far_faster_than_sound_____.wav",
+		"duration": 1.44,
+		"sentenceIndex": 13861,
+		"timestamp": 401.3900000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 402.8300000000001
+	},
+	{
+		"index": 269,
+		"txt": "The delay between seeing the muzzle flash and hearing the shot gives the player some sense of the distance from which the enemy is firing.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_delay_between_seeing_the_muzzle_hich_the_enemy_is_firing_____.wav",
+		"duration": 2.43,
+		"sentenceIndex": 13862,
+		"timestamp": 403.3300000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 405.7600000000001
+	},
+	{
+		"index": 272,
+		"txt": "With respect to 3D sound effects, our ears hear sounds coming from an oblique direction at slightly different times because of the separation distance between our ears.",
+		"file": "/home/user1/trash/dirOutputSet/_100_With_respect_to_3D_sound_effects__o_istance_between_our_ears_____.wav",
+		"duration": 3.37,
+		"sentenceIndex": 13865,
+		"timestamp": 406.2600000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 409.6300000000001
+	},
+	{
+		"index": 273,
+		"txt": "That time lag, albeit very short, gives us some cues as to the direction from which the sound is coming.",
+		"file": "/home/user1/trash/dirOutputSet/_100_That_time_lag__albeit_very_short__g_hich_the_sound_is_coming_____.wav",
+		"duration": 2.29,
+		"sentenceIndex": 13866,
+		"timestamp": 410.1300000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 412.42000000000013
+	},
+	{
+		"index": 274,
+		"txt": "We'll say more on this later on this chapter.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ll_say_more_on_this_later_on_thi_is_later_on_this_chapter_____.wav",
+		"duration": 0.85,
+		"sentenceIndex": 13867,
+		"timestamp": 412.92000000000013
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 413.77000000000015
+	},
+	{
+		"index": 277,
+		"txt": "Additionally, the Doppler effect",
+		"file": "/home/user1/trash/dirOutputSet/_100_Additionally__the_Doppler_effect_nally__the_Doppler_effect____.wav",
+		"duration": 0.71,
+		"sentenceIndex": 13870,
+		"timestamp": 414.27000000000015
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 414.98000000000013
+	},
+	{
+		"index": 278,
+		"txt": ", which we'll discuss later, is also a function of the speed of sound.",
+		"file": "/home/user1/trash/dirOutputSet/_100___which_we_ll_discuss_later__is_als_on_of_the_speed_of_sound_____.wav",
+		"duration": 1.44,
+		"sentenceIndex": 13871,
+		"timestamp": 415.48000000000013
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 416.92000000000013
+	},
+	{
+		"index": 281,
+		"txt": "In OpenAL you",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_OpenAL_you_In_OpenAL_you____.wav",
+		"duration": 0.38,
+		"sentenceIndex": 13874,
+		"timestamp": 417.42000000000013
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 417.8000000000001
+	},
+	{
+		"index": 282,
+		"txt": "set the desired sound speed using the alSpeedOfSound",
+		"file": "/home/user1/trash/dirOutputSet/_100_set_the_desired_sound_speed_using_t__using_the_alSpeedOfSound____.wav",
+		"duration": 1.27,
+		"sentenceIndex": 13875,
+		"timestamp": 418.3000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 419.5700000000001
+	},
+	{
+		"index": 283,
+		"txt": "function, passing a single floating point argument representing the sound speed.",
+		"file": "/home/user1/trash/dirOutputSet/_100_function__passing_a_single_floating_esenting_the_sound_speed_____.wav",
+		"duration": 1.72,
+		"sentenceIndex": 13876,
+		"timestamp": 420.0700000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 421.79000000000013
+	},
+	{
+		"index": 284,
+		"txt": "The specified value is saved in",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_specified_value_is_saved_in_ecified_value_is_saved_in____.wav",
+		"duration": 0.79,
+		"sentenceIndex": 13877,
+		"timestamp": 422.29000000000013
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 423.08000000000015
+	},
+	{
+		"index": 285,
+		"txt": "the AL_SPEED_OF_SOUND",
+		"file": "/home/user1/trash/dirOutputSet/_100_the_AL_SPEED_OF_SOUND_the_AL_SPEED_OF_SOUND____.wav",
+		"duration": 1.26,
+		"sentenceIndex": 13878,
+		"timestamp": 423.58000000000015
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 424.84000000000015
+	},
+	{
+		"index": 286,
+		"txt": "property.",
+		"file": "/home/user1/trash/dirOutputSet/_100_property__property_____.wav",
+		"duration": 0.21,
+		"sentenceIndex": 13879,
+		"timestamp": 425.34000000000015
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 425.5500000000001
+	},
+	{
+		"index": 287,
+		"txt": "The default value is 343.3, which is the speed of sound in air at 20°C expressed in m/s.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_default_value_is_343_3__which_i_at_20_C_expressed_in_m_s_____.wav",
+		"duration": 2.91,
+		"sentenceIndex": 13880,
+		"timestamp": 426.0500000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 428.96000000000015
+	},
+	{
+		"index": 290,
+		"txt": "Attenuation",
+		"file": "/home/user1/trash/dirOutputSet/_100_Attenuation_Attenuation____.wav",
+		"duration": 0.34,
+		"sentenceIndex": 13883,
+		"timestamp": 429.46000000000015
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 429.8000000000001
+	},
+	{
+		"index": 292,
+		"txt": "Attenuation is the",
+		"file": "/home/user1/trash/dirOutputSet/_100_Attenuation_is_the_Attenuation_is_the____.wav",
+		"duration": 0.45,
+		"sentenceIndex": 13885,
+		"timestamp": 430.3000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 430.7500000000001
+	},
+	{
+		"index": 293,
+		"txt": "falloff in intensity of a sound over distance.",
+		"file": "/home/user1/trash/dirOutputSet/_100_falloff_in_intensity_of_a_sound_ove_of_a_sound_over_distance_____.wav",
+		"duration": 1,
+		"sentenceIndex": 13886,
+		"timestamp": 431.2500000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 432.2500000000001
+	},
+	{
+		"index": 294,
+		"txt": "Earlier we explained that sound intensity is related to how much power flows through a given area.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Earlier_we_explained_that_sound_int_ows_through_a_given_area_____.wav",
+		"duration": 1.95,
+		"sentenceIndex": 13887,
+		"timestamp": 432.7500000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 434.7000000000001
+	},
+	{
+		"index": 295,
+		"txt": "Imagine a point sound source, which",
+		"file": "/home/user1/trash/dirOutputSet/_100_Imagine_a_point_sound_source__which_point_sound_source__which____.wav",
+		"duration": 0.86,
+		"sentenceIndex": 13888,
+		"timestamp": 435.2000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 436.0600000000001
+	},
+	{
+		"index": 296,
+		"txt": "creates spherical pressure waves that propagate radially from the source.",
+		"file": "/home/user1/trash/dirOutputSet/_100_creates_spherical_pressure_waves_th_radially_from_the_source_____.wav",
+		"duration": 1.51,
+		"sentenceIndex": 13889,
+		"timestamp": 436.5600000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 438.0700000000001
+	},
+	{
+		"index": 298,
+		"txt": "Figure 26 7",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 26_7_Figure 26_7____.wav",
+		"duration": 0.67,
+		"sentenceIndex": 13891,
+		"timestamp": 438.5700000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 439.2400000000001
+	},
+	{
+		"index": 299,
+		"txt": "illustrates this concept.",
+		"file": "/home/user1/trash/dirOutputSet/_100_illustrates_this_concept__illustrates_this_concept_____.wav",
+		"duration": 0.52,
+		"sentenceIndex": 13892,
+		"timestamp": 439.7400000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 440.2600000000001
+	},
+	{
+		"index": 305,
+		"txt": "Figure 26 7. Spherical sound waves",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 26_7_ Spherical_sound_waves__7_ Spherical_sound_waves____.wav",
+		"duration": 1.37,
+		"sentenceIndex": 13898,
+		"timestamp": 440.7600000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 442.1300000000001
+	},
+	{
+		"index": 307,
+		"txt": "Assuming the sound is being generated with a constant power, you can see that the area through which that power flows grows with increasing distance, r , from the source.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Assuming_the_sound_is_being_generat_nce__r___from_the_source_____.wav",
+		"duration": 3.4,
+		"sentenceIndex": 13900,
+		"timestamp": 442.6300000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 446.0300000000001
+	},
+	{
+		"index": 308,
+		"txt": "Intensity is equal to power divided by area, thus the intensity at radius r4 is less than that at, say, r1 because the surface area at r4 is larger.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Intensity_is_equal_to_power_divided_ace_area_at_r4_is_larger_____.wav",
+		"duration": 3.76,
+		"sentenceIndex": 13901,
+		"timestamp": 446.5300000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 450.2900000000001
+	},
+	{
+		"index": 309,
+		"txt": "The surface area of a sphere is 4πr2 .",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_surface_area_of_a_sphere_is_4_r_rea_of_a_sphere_is_4_r2______.wav",
+		"duration": 1.45,
+		"sentenceIndex": 13902,
+		"timestamp": 450.7900000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 452.24000000000007
+	},
+	{
+		"index": 310,
+		"txt": "Without going into all the details, we can state that the amplitude of the spherical sound wave is inversely proportional to r2 .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Without_going_into_all_the_details__sely_proportional_to_r2______.wav",
+		"duration": 2.64,
+		"sentenceIndex": 13903,
+		"timestamp": 452.74000000000007
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 455.38000000000005
+	},
+	{
+		"index": 313,
+		"txt": "This is an ideal treatment so far.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_an_ideal_treatment_so_far__n_ideal_treatment_so_far_____.wav",
+		"duration": 0.8,
+		"sentenceIndex": 13906,
+		"timestamp": 455.88000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 456.68000000000006
+	},
+	{
+		"index": 314,
+		"txt": "In reality attenuation is also a function of other factors, including the scattering and absorption of the sound wave as it interacts with the medium and the environment.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_reality_attenuation_is_also_a_fu_dium_and_the_environment_____.wav",
+		"duration": 3.36,
+		"sentenceIndex": 13907,
+		"timestamp": 457.18000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 460.5400000000001
+	},
+	{
+		"index": 315,
+		"txt": "You can model attenuation in many ways, taking into account various levels of detail at increasing computational expense.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_model_attenuation_in_many_w_ng_computational_expense_____.wav",
+		"duration": 2.7,
+		"sentenceIndex": 13908,
+		"timestamp": 461.0400000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 463.74000000000007
+	},
+	{
+		"index": 316,
+		"txt": "However, for games, relatively simple distance based models are sufficient.",
+		"file": "/home/user1/trash/dirOutputSet/_100_However__for_games__relatively_simp_ed_models_are_sufficient_____.wav",
+		"duration": 1.74,
+		"sentenceIndex": 13909,
+		"timestamp": 464.24000000000007
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 465.9800000000001
+	},
+	{
+		"index": 319,
+		"txt": "Attenuation provides another cue that tells us something about the sound source.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Attenuation_provides_another_cue_th_g_about_the_sound_source_____.wav",
+		"duration": 1.64,
+		"sentenceIndex": 13912,
+		"timestamp": 466.4800000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 468.12000000000006
+	},
+	{
+		"index": 320,
+		"txt": "In your game, you wouldn't want the intensity, or volume, of a sound generated far from the player to be the same as that from a source very close to the player.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_your_game__you_wouldn_t_want_the_very_close_to_the_player_____.wav",
+		"duration": 3.21,
+		"sentenceIndex": 13913,
+		"timestamp": 468.62000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 471.83000000000004
+	},
+	{
+		"index": 321,
+		"txt": "Attenuation tells the player something about the distance between him and the sound source.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Attenuation_tells_the_player_someth_him_and_the_sound_source_____.wav",
+		"duration": 1.81,
+		"sentenceIndex": 13914,
+		"timestamp": 472.33000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 474.14000000000004
+	},
+	{
+		"index": 324,
+		"txt": "OpenAL includes several different distance based models from which you can choose.",
+		"file": "/home/user1/trash/dirOutputSet/_100_OpenAL_includes_several_different_d_rom_which_you_can_choose_____.wav",
+		"duration": 1.57,
+		"sentenceIndex": 13917,
+		"timestamp": 474.64000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 476.21000000000004
+	},
+	{
+		"index": 325,
+		"txt": "The OpenAL documentation describes the particulars of each, but the default model is an inverse distance based model where the gain of the source sound is adjusted in inverse proportion to the distance from the sound source.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_OpenAL_documentation_describes__ce_from_the_sound_source_____.wav",
+		"duration": 4.39,
+		"sentenceIndex": 13918,
+		"timestamp": 476.71000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 481.1
+	},
+	{
+		"index": 326,
+		"txt": "Gain is an amplification factor applied to the recorded amplitude of the sound effect you're using.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Gain_is_an_amplification_factor_app_ound_effect_you_re_using_____.wav",
+		"duration": 2.03,
+		"sentenceIndex": 13919,
+		"timestamp": 481.6
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 483.63
+	},
+	{
+		"index": 329,
+		"txt": "You can change distance models in OpenAL",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_change_distance_models_in_O_distance_models_in_OpenAL____.wav",
+		"duration": 1.1,
+		"sentenceIndex": 13922,
+		"timestamp": 484.13
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 485.23
+	},
+	{
+		"index": 330,
+		"txt": "using the alDistanceModel",
+		"file": "/home/user1/trash/dirOutputSet/_100_using_the_alDistanceModel_using_the_alDistanceModel____.wav",
+		"duration": 0.64,
+		"sentenceIndex": 13923,
+		"timestamp": 485.73
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 486.37
+	},
+	{
+		"index": 331,
+		"txt": "function (see the OpenAL programmers manual for valid parameters).",
+		"file": "/home/user1/trash/dirOutputSet/_100_function__see_the_OpenAL_programmer_al_for_valid_parameters______.wav",
+		"duration": 1.55,
+		"sentenceIndex": 13924,
+		"timestamp": 486.87
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 488.42
+	},
+	{
+		"index": 334,
+		"txt": "Reflection",
+		"file": "/home/user1/trash/dirOutputSet/_100_Reflection_Reflection____.wav",
+		"duration": 0.27,
+		"sentenceIndex": 13927,
+		"timestamp": 488.92
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 489.19
+	},
+	{
+		"index": 336,
+		"txt": "When sound waves",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_sound_waves_When_sound_waves____.wav",
+		"duration": 0.43,
+		"sentenceIndex": 13929,
+		"timestamp": 489.69
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 490.12
+	},
+	{
+		"index": 337,
+		"txt": "passing through one medium reach another medium or object, such as a wall, part of the original sound wave is reflected off the object, while part of it is absorbed by (and transmitted through) the object.",
+		"file": "/home/user1/trash/dirOutputSet/_100_passing_through_one_medium_reach_an_tted_through__the_object_____.wav",
+		"duration": 4.2,
+		"sentenceIndex": 13930,
+		"timestamp": 490.62
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 494.82
+	},
+	{
+		"index": 338,
+		"txt": "Depending on the dispositions of the sound source and the listener, some sound waves will reach the listener via some direct path.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Depending_on_the_dispositions_of_th_ner_via_some_direct_path_____.wav",
+		"duration": 2.45,
+		"sentenceIndex": 13931,
+		"timestamp": 495.32
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 497.77
+	},
+	{
+		"index": 339,
+		"txt": "Reflected waves may also reach the listener, although their energy may have been reduced after their interaction with whatever they bounced off.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Reflected_waves_may_also_reach_the__hatever_they_bounced_off_____.wav",
+		"duration": 2.63,
+		"sentenceIndex": 13932,
+		"timestamp": 498.27
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 500.9
+	},
+	{
+		"index": 341,
+		"txt": "Figure 26 8",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 26_8_Figure 26_8____.wav",
+		"duration": 0.65,
+		"sentenceIndex": 13934,
+		"timestamp": 501.4
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 502.04999999999995
+	},
+	{
+		"index": 342,
+		"txt": "illustrates this concept, where some sound waves reach the listener directly and others reach the listener after having been reflected from walls.",
+		"file": "/home/user1/trash/dirOutputSet/_100_illustrates_this_concept__where_som_een_reflected_from_walls_____.wav",
+		"duration": 2.86,
+		"sentenceIndex": 13935,
+		"timestamp": 502.54999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 505.40999999999997
+	},
+	{
+		"index": 348,
+		"txt": "Figure 26 8. Reflected waves",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 26_8_ Reflected_waves_ure 26_8_ Reflected_waves____.wav",
+		"duration": 1.21,
+		"sentenceIndex": 13941,
+		"timestamp": 505.90999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 507.11999999999995
+	},
+	{
+		"index": 350,
+		"txt": "The degree to which sound waves are reflected has to do with the characteristics of the material from which they bounce.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_degree_to_which_sound_waves_are_l_from_which_they_bounce_____.wav",
+		"duration": 2.1,
+		"sentenceIndex": 13943,
+		"timestamp": 507.61999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 509.71999999999997
+	},
+	{
+		"index": 351,
+		"txt": "Smooth, hard surfaces will tend to reflect more of the sound energy, while softer, irregular surfaces will tend to absorb more energy and scatter the waves that are reflected.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Smooth__hard_surfaces_will_tend_to__waves_that_are_reflected_____.wav",
+		"duration": 3.76,
+		"sentenceIndex": 13944,
+		"timestamp": 510.21999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 513.98
+	},
+	{
+		"index": 352,
+		"txt": "These characteristics lend a certain quality to the ultimate sound the listener hears.",
+		"file": "/home/user1/trash/dirOutputSet/_100_These_characteristics_lend_a_certai_sound_the_listener_hears_____.wav",
+		"duration": 1.69,
+		"sentenceIndex": 13945,
+		"timestamp": 514.48
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 516.1700000000001
+	},
+	{
+		"index": 353,
+		"txt": "The same sound played in a tiled bathroom will have a distinctly different quality than if it were played in a room with carpet, drapes, and tapestries.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_same_sound_played_in_a_tiled_ba___drapes__and_tapestries_____.wav",
+		"duration": 3.05,
+		"sentenceIndex": 13946,
+		"timestamp": 516.6700000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 519.72
+	},
+	{
+		"index": 354,
+		"txt": "In the bathroom the sound may sound echoic, while in the carpeted room it may sound muted.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_the_bathroom_the_sound_may_sound__room_it_may_sound_muted_____.wav",
+		"duration": 1.76,
+		"sentenceIndex": 13947,
+		"timestamp": 520.22
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 521.98
+	},
+	{
+		"index": 355,
+		"txt": "Somewhere in between these two types of rooms, the sound may reverberate.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Somewhere_in_between_these_two_type_he_sound_may_reverberate_____.wav",
+		"duration": 1.52,
+		"sentenceIndex": 13948,
+		"timestamp": 522.48
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 524
+	},
+	{
+		"index": 356,
+		"txt": "Reverberation is a perceived prolonging of the original sound due to reflections of the sound within the space.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Reverberation_is_a_perceived_prolon_e_sound_within_the_space_____.wav",
+		"duration": 2.2,
+		"sentenceIndex": 13949,
+		"timestamp": 524.5
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 526.7
+	},
+	{
+		"index": 359,
+		"txt": "In your games, it would be prohibitively expensive (computationally speaking) to try to model various sound sources interacting with all the walls and objects in any given space within the game in real time.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_your_games__it_would_be_prohibit_in_the_game_in_real_time_____.wav",
+		"duration": 4.41,
+		"sentenceIndex": 13952,
+		"timestamp": 527.2
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 531.61
+	},
+	{
+		"index": 360,
+		"txt": "Such computations are possible and are often used in acoustic engineering and noise control applications, but again, it's too costly for a game.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Such_computations_are_possible_and___s_too_costly_for_a_game_____.wav",
+		"duration": 3.19,
+		"sentenceIndex": 13953,
+		"timestamp": 532.11
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 535.3000000000001
+	},
+	{
+		"index": 361,
+		"txt": "What you can do, however, is mimic the reflective or reverberant qualities of any given space in your game environment by adjusting the reverberation of your sound sources.",
+		"file": "/home/user1/trash/dirOutputSet/_100_What_you_can_do__however__is_mimic__on_of_your_sound_sources_____.wav",
+		"duration": 3.43,
+		"sentenceIndex": 13954,
+		"timestamp": 535.8000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 539.23
+	},
+	{
+		"index": 362,
+		"txt": "One approach is to record sound effects with the quality you're looking for to represent the space in which that sound effect would apply.",
+		"file": "/home/user1/trash/dirOutputSet/_100_One_approach_is_to_record_sound_eff_sound_effect_would_apply_____.wav",
+		"duration": 2.51,
+		"sentenceIndex": 13955,
+		"timestamp": 539.73
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 542.24
+	},
+	{
+		"index": 363,
+		"txt": "For example, you could record the echoic sound of dripping water in a stone room to enhance the atmosphere of a dungeon.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_example__you_could_record_the_e__atmosphere_of_a_dungeon_____.wav",
+		"duration": 2.32,
+		"sentenceIndex": 13956,
+		"timestamp": 542.74
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 545.0600000000001
+	},
+	{
+		"index": 366,
+		"txt": "Alternatively, if you're using a system such as",
+		"file": "/home/user1/trash/dirOutputSet/_100_Alternatively__if_you_re_using_a_sy_re_using_a_system_such_as____.wav",
+		"duration": 1.09,
+		"sentenceIndex": 13959,
+		"timestamp": 545.5600000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 546.6500000000001
+	},
+	{
+		"index": 369,
+		"txt": "OpenAL and if the reverberation special effect is available on your sound card, you can assign certain reverberation characteristics to individual sound sources to mimic specific environments.",
+		"file": "/home/user1/trash/dirOutputSet/_100_OpenAL_and_if_the_reverberation_spe_ic_specific_environments_____.wav",
+		"duration": 3.93,
+		"sentenceIndex": 13962,
+		"timestamp": 547.1500000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 551.08
+	},
+	{
+		"index": 370,
+		"txt": "This sort of approach falls within the realm of environmental modeling, and the OpenAL Effects Extension Guide (part of the OpenAL documentation) gives some pretty good tips on how to use its special effects extensions for environmental modeling.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_sort_of_approach_falls_within__r_environmental_modeling_____.wav",
+		"duration": 5.06,
+		"sentenceIndex": 13963,
+		"timestamp": 551.58
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 556.64
+	},
+	{
+		"index": 373,
+		"txt": "Doppler Effect",
+		"file": "/home/user1/trash/dirOutputSet/_100_Doppler_Effect_Doppler_Effect____.wav",
+		"duration": 0.35,
+		"sentenceIndex": 13966,
+		"timestamp": 557.14
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 557.49
+	},
+	{
+		"index": 375,
+		"txt": "The Doppler effect",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_Doppler_effect_The_Doppler_effect____.wav",
+		"duration": 0.39,
+		"sentenceIndex": 13968,
+		"timestamp": 557.99
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 558.38
+	},
+	{
+		"index": 376,
+		"txt": "results when there is a relative motion between a sound source and the listener.",
+		"file": "/home/user1/trash/dirOutputSet/_100_results_when_there_is_a_relative_mo__source_and_the_listener_____.wav",
+		"duration": 1.4,
+		"sentenceIndex": 13969,
+		"timestamp": 558.88
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 560.28
+	},
+	{
+		"index": 377,
+		"txt": "It manifests itself as an increase in frequency when the source and listener are approaching each other, and a decrease in frequency when the source and listener are moving away from each other.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_manifests_itself_as_an_increase__ing_away_from_each_other_____.wav",
+		"duration": 3.76,
+		"sentenceIndex": 13970,
+		"timestamp": 560.78
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 564.54
+	},
+	{
+		"index": 378,
+		"txt": "For example, the horn of an approaching train seems to increase in pitch as it gets closer but seems to decrease in pitch as the train passes and moves away.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_example__the_horn_of_an_approac_in_passes_and_moves_away_____.wav",
+		"duration": 3.22,
+		"sentenceIndex": 13971,
+		"timestamp": 565.04
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 568.26
+	},
+	{
+		"index": 379,
+		"txt": "The Doppler effect is a very obvious clue as to the relative motion of a sound source that you can capture in your games.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_Doppler_effect_is_a_very_obviou_an_capture_in_your_games_____.wav",
+		"duration": 2.29,
+		"sentenceIndex": 13972,
+		"timestamp": 568.76
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 571.05
+	},
+	{
+		"index": 380,
+		"txt": "For example, you could model the sound of a speeding car with a Doppler effect complimenting visual cues of a car approaching and passing by a player.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_example__you_could_model_the_so__and_passing_by_a_player_____.wav",
+		"duration": 2.82,
+		"sentenceIndex": 13973,
+		"timestamp": 571.55
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 574.37
+	},
+	{
+		"index": 383,
+		"txt": "What's happening physically is that the encounter frequency of the sound waves relative to the listener is augmented, owing to the relative velocity.",
+		"file": "/home/user1/trash/dirOutputSet/_100_What_s_happening_physically_is_that_to_the_relative_velocity_____.wav",
+		"duration": 2.77,
+		"sentenceIndex": 13976,
+		"timestamp": 574.87
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 577.64
+	},
+	{
+		"index": 384,
+		"txt": "An approaching velocity means there are more waves encountered by the listener per unit of time, which is heard as a higher frequency than the source frequency.",
+		"file": "/home/user1/trash/dirOutputSet/_100_An_approaching_velocity_means_there_han_the_source_frequency_____.wav",
+		"duration": 3,
+		"sentenceIndex": 13977,
+		"timestamp": 578.14
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 581.14
+	},
+	{
+		"index": 385,
+		"txt": "Conversely, a departing velocity means there are fewer waves encountered per unit of time, which is heard as a lower frequency.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Conversely__a_departing_velocity_me_ard_as_a_lower_frequency_____.wav",
+		"duration": 2.69,
+		"sentenceIndex": 13978,
+		"timestamp": 581.64
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 584.33
+	},
+	{
+		"index": 386,
+		"txt": "Assuming still air, the increased frequency heard when the sound source and listener are approaching each other is given by the relation:fh = f [(c + vl)/(c + vs)]",
+		"file": "/home/user1/trash/dirOutputSet/_100_Assuming_still_air__the_increased_f_h___f___c___vl___c___vs______.wav",
+		"duration": 3.99,
+		"sentenceIndex": 13979,
+		"timestamp": 584.83
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 588.82
+	},
+	{
+		"index": 388,
+		"txt": "where fh is the frequency heard by the listener, c is the speed of sound, vl is the speed of the listener, and vs is the speed of the source.",
+		"file": "/home/user1/trash/dirOutputSet/_100_where_fh_is_the_frequency_heard_by___the_speed_of_the_source_____.wav",
+		"duration": 2.99,
+		"sentenceIndex": 13981,
+		"timestamp": 589.32
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 592.3100000000001
+	},
+	{
+		"index": 389,
+		"txt": "This equation shows that the frequency heard by the listener is increased in proportion to the ratio of the sum of the speed of sound plus the relative speed of the source and listener to the speed of sound.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_equation_shows_that_the_freque_er_to_the_speed_of_sound_____.wav",
+		"duration": 3.94,
+		"sentenceIndex": 13982,
+		"timestamp": 592.8100000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 596.7500000000001
+	},
+	{
+		"index": 390,
+		"txt": "If the source and listener are moving away from each other, then vr is negative and the frequency heard is reduced.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_the_source_and_listener_are_movi_equency_heard_is_reduced_____.wav",
+		"duration": 2.33,
+		"sentenceIndex": 13983,
+		"timestamp": 597.2500000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 599.5800000000002
+	},
+	{
+		"index": 393,
+		"txt": "For your game, you could use prerecorded sounds with Doppler effects for passing cars or other moving sound sources; however, you won't be able to adjust the Doppler effect to represent the actual relative speed between sound source and listener if you're simulating the object to which the sound is attached using the techniques discussed in this book.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_your_game__you_could_use_prerec_s_discussed_in_this_book_____.wav",
+		"duration": 6.76,
+		"sentenceIndex": 13986,
+		"timestamp": 600.0800000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 606.8400000000001
+	},
+	{
+		"index": 394,
+		"txt": "Your prerecorded sound is fixed.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Your_prerecorded_sound_is_fixed__erecorded_sound_is_fixed_____.wav",
+		"duration": 0.77,
+		"sentenceIndex": 13987,
+		"timestamp": 607.3400000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 608.1100000000001
+	},
+	{
+		"index": 395,
+		"txt": "It may work just fine, by the way.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_may_work_just_fine__by_the_way__rk_just_fine__by_the_way_____.wav",
+		"duration": 0.83,
+		"sentenceIndex": 13988,
+		"timestamp": 608.6100000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 609.4400000000002
+	},
+	{
+		"index": 396,
+		"txt": "That said, if you're using an audio system such as",
+		"file": "/home/user1/trash/dirOutputSet/_100_That_said__if_you_re_using_an_audio_g_an_audio_system_such_as____.wav",
+		"duration": 1.23,
+		"sentenceIndex": 13989,
+		"timestamp": 609.9400000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 611.1700000000002
+	},
+	{
+		"index": 397,
+		"txt": "OpenAL, you can use its built in Doppler effect capabilities.",
+		"file": "/home/user1/trash/dirOutputSet/_100_OpenAL__you_can_use_its_built_in_Do_pler_effect_capabilities_____.wav",
+		"duration": 1.4,
+		"sentenceIndex": 13990,
+		"timestamp": 611.6700000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 613.0700000000002
+	},
+	{
+		"index": 398,
+		"txt": "Basically, if you're simulating an object that's generating a sound, you update its sound source to reflect the object's velocity while at the same time updating the listener object to reflect the player's velocity.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Basically__if_you_re_simulating_an__ct_the_player_s_velocity_____.wav",
+		"duration": 4.38,
+		"sentenceIndex": 13991,
+		"timestamp": 613.5700000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 617.9500000000002
+	},
+	{
+		"index": 399,
+		"txt": "OpenAL will handle the rest for you.",
+		"file": "/home/user1/trash/dirOutputSet/_100_OpenAL_will_handle_the_rest_for_you__handle_the_rest_for_you_____.wav",
+		"duration": 0.7,
+		"sentenceIndex": 13992,
+		"timestamp": 618.4500000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 619.1500000000002
+	},
+	{
+		"index": 400,
+		"txt": "We'll show a simple example of this in the next",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ll_show_a_simple_example_of_this_ample_of_this_in_the_next____.wav",
+		"duration": 0.95,
+		"sentenceIndex": 13993,
+		"timestamp": 619.6500000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 620.6000000000003
+	},
+	{
+		"index": 401,
+		"txt": "section.",
+		"file": "/home/user1/trash/dirOutputSet/_100_section__section_____.wav",
+		"duration": 0.24,
+		"sentenceIndex": 13994,
+		"timestamp": 621.1000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 621.3400000000003
+	},
+	{
+		"index": 404,
+		"txt": "3D Sound",
+		"file": "/home/user1/trash/dirOutputSet/_100_3D_Sound_3D_Sound____.wav",
+		"duration": 0.41,
+		"sentenceIndex": 13997,
+		"timestamp": 621.8400000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 622.2500000000002
+	},
+	{
+		"index": 406,
+		"txt": "At one time",
+		"file": "/home/user1/trash/dirOutputSet/_100_At_one_time_At_one_time____.wav",
+		"duration": 0.37,
+		"sentenceIndex": 13999,
+		"timestamp": 622.7500000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 623.1200000000002
+	},
+	{
+		"index": 408,
+		"txt": "not so long ago,",
+		"file": "/home/user1/trash/dirOutputSet/_100_not_so_long_ago__not_so_long_ago_______.wav",
+		"duration": 0.51,
+		"sentenceIndex": 14001,
+		"timestamp": 623.6200000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 624.1300000000002
+	},
+	{
+		"index": 409,
+		"txt": "\"3D sound\"",
+		"file": "/home/user1/trash/dirOutputSet/IVONA_2_Kendra_100_3D_sound_3D_sound______.wav",
+		"duration": 0.41,
+		"sentenceIndex": 14002,
+		"timestamp": 624.6300000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 625.0400000000002
+	},
+	{
+		"index": 410,
+		"txt": "was hyped as the next big thing.",
+		"file": "/home/user1/trash/dirOutputSet/_100_was_hyped_as_the_next_big_thing__ed_as_the_next_big_thing_______.wav",
+		"duration": 0.73,
+		"sentenceIndex": 14003,
+		"timestamp": 625.5400000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 626.2700000000002
+	},
+	{
+		"index": 411,
+		"txt": "There's no doubt that for a long time, game sound lagged far behind graphics capabilities.",
+		"file": "/home/user1/trash/dirOutputSet/_100_There_s_no_doubt_that_for_a_long_ti_nd_graphics_capabilities_____.wav",
+		"duration": 1.97,
+		"sentenceIndex": 14004,
+		"timestamp": 626.7700000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 628.7400000000002
+	},
+	{
+		"index": 412,
+		"txt": "It's also true that good 3D sound can compliment good visuals, helping to create a more immersive gaming environment.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_s_also_true_that_good_3D_sound_c_rsive_gaming_environment_____.wav",
+		"duration": 2.54,
+		"sentenceIndex": 14005,
+		"timestamp": 629.2400000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 631.7800000000002
+	},
+	{
+		"index": 413,
+		"txt": "Unfortunately, a lot of early 3D sound just wasn't that good.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Unfortunately__a_lot_of_early_3D_so_nd_just_wasn_t_that_good_____.wav",
+		"duration": 1.52,
+		"sentenceIndex": 14006,
+		"timestamp": 632.2800000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 633.8000000000002
+	},
+	{
+		"index": 414,
+		"txt": "Things are getting better, though, and with the use of headphones and a good sound card, some amazing 3D sounds can be generated.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Things_are_getting_better__though____sounds_can_be_generated_____.wav",
+		"duration": 2.79,
+		"sentenceIndex": 14007,
+		"timestamp": 634.3000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 637.0900000000001
+	},
+	{
+		"index": 417,
+		"txt": "If used properly, 3D sound can give your player the sensation that sounds are coming from different distinct directions.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_used_properly__3D_sound_can_give_rent_distinct_directions_____.wav",
+		"duration": 2.52,
+		"sentenceIndex": 14010,
+		"timestamp": 637.5900000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 640.1100000000001
+	},
+	{
+		"index": 418,
+		"txt": "For example, a shot fired from behind the player would be accompanied by the player hearing a gunshot sound as though it really were coming from behind.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_example__a_shot_fired_from_behi__were_coming_from_behind_____.wav",
+		"duration": 2.88,
+		"sentenceIndex": 14011,
+		"timestamp": 640.6100000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 643.4900000000001
+	},
+	{
+		"index": 419,
+		"txt": "Such directional sound really adds to the immersive experience of a game.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Such_directional_sound_really_adds__ive_experience_of_a_game_____.wav",
+		"duration": 1.48,
+		"sentenceIndex": 14012,
+		"timestamp": 643.9900000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 645.4700000000001
+	},
+	{
+		"index": 422,
+		"txt": "How We Hear in 3D",
+		"file": "/home/user1/trash/dirOutputSet/_100_How_We_Hear_in_3D_How_We_Hear_in_3D____.wav",
+		"duration": 0.54,
+		"sentenceIndex": 14015,
+		"timestamp": 645.9700000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 646.5100000000001
+	},
+	{
+		"index": 424,
+		"txt": "3D sound or more specifically, our ability to localize a sound is the result of a complex interaction between the sound source and our bodies, not to mention the room or environment we happen to be in.",
+		"file": "/home/user1/trash/dirOutputSet/_100_3D_sound_or_more_specifically__our__nment_we_happen_to_be_in_____.wav",
+		"duration": 4.23,
+		"sentenceIndex": 14017,
+		"timestamp": 647.0100000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 651.2400000000001
+	},
+	{
+		"index": 425,
+		"txt": "Ignoring environmental interactions,",
+		"file": "/home/user1/trash/dirOutputSet/_100_Ignoring_environmental_interactions_vironmental_interactions_____.wav",
+		"duration": 0.85,
+		"sentenceIndex": 14018,
+		"timestamp": 651.7400000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 652.5900000000001
+	},
+	{
+		"index": 426,
+		"txt": "Figure 26 9",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 26_9_Figure 26_9____.wav",
+		"duration": 0.7,
+		"sentenceIndex": 14019,
+		"timestamp": 653.0900000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 653.7900000000002
+	},
+	{
+		"index": 427,
+		"txt": "illustrates how a sound wave interacts with one's body.",
+		"file": "/home/user1/trash/dirOutputSet/_100_illustrates_how_a_sound_wave_intera_nteracts_with_one_s_body_____.wav",
+		"duration": 1.11,
+		"sentenceIndex": 14020,
+		"timestamp": 654.2900000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 655.4000000000002
+	},
+	{
+		"index": 433,
+		"txt": "Figure 26 9. 3D sound",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 26_9_ 3D_sound_Figure 26_9_ 3D_sound____.wav",
+		"duration": 1.2,
+		"sentenceIndex": 14026,
+		"timestamp": 655.9000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 657.1000000000003
+	},
+	{
+		"index": 435,
+		"txt": "One of the first things you may notice is that our ears are separated by some finite distance.",
+		"file": "/home/user1/trash/dirOutputSet/_100_One_of_the_first_things_you_may_not__by_some_finite_distance_____.wav",
+		"duration": 1.89,
+		"sentenceIndex": 14028,
+		"timestamp": 657.6000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 659.4900000000002
+	},
+	{
+		"index": 436,
+		"txt": "This means that the sound coming from the source on the right will reach the right ear before it reaches the left ear.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_means_that_the_sound_coming_fr__it_reaches_the_left_ear_____.wav",
+		"duration": 2.05,
+		"sentenceIndex": 14029,
+		"timestamp": 659.9900000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 662.0400000000002
+	},
+	{
+		"index": 437,
+		"txt": "The time delay between the sound reaching each ear is called",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_time_delay_between_the_sound_re_aching_each_ear_is_called____.wav",
+		"duration": 1.25,
+		"sentenceIndex": 14030,
+		"timestamp": 662.5400000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 663.7900000000002
+	},
+	{
+		"index": 438,
+		"txt": "the interaural delay",
+		"file": "/home/user1/trash/dirOutputSet/_100_the_interaural_delay_the_interaural_delay____.wav",
+		"duration": 0.47,
+		"sentenceIndex": 14031,
+		"timestamp": 664.2900000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 664.7600000000002
+	},
+	{
+		"index": 440,
+		"txt": "We can approximately calculate the delay from a sound coming from the side by taking the distance separating the ears and dividing it by the speed of sound.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_can_approximately_calculate_the__it_by_the_speed_of_sound_____.wav",
+		"duration": 2.91,
+		"sentenceIndex": 14033,
+		"timestamp": 665.2600000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 668.1700000000002
+	},
+	{
+		"index": 441,
+		"txt": "In air and for a typical head size, that delay is around half a millisecond.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_air_and_for_a_typical_head_size__round_half_a_millisecond_____.wav",
+		"duration": 1.66,
+		"sentenceIndex": 14034,
+		"timestamp": 668.6700000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 670.3300000000002
+	},
+	{
+		"index": 442,
+		"txt": "The delay will be shorter depending on the orientation of your head with respect to the sound source.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_delay_will_be_shorter_depending_pect_to_the_sound_source_____.wav",
+		"duration": 1.87,
+		"sentenceIndex": 14035,
+		"timestamp": 670.8300000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 672.7000000000002
+	},
+	{
+		"index": 443,
+		"txt": "Whatever the delay is, our brains use that information to help determine the location from which the sound is coming.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Whatever_the_delay_is__our_brains_u_hich_the_sound_is_coming_____.wav",
+		"duration": 2.25,
+		"sentenceIndex": 14036,
+		"timestamp": 673.2000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 675.4500000000002
+	},
+	{
+		"index": 446,
+		"txt": "Additionally, as the sound coming from the right in",
+		"file": "/home/user1/trash/dirOutputSet/_100_Additionally__as_the_sound_coming_f__coming_from_the_right_in____.wav",
+		"duration": 1.06,
+		"sentenceIndex": 14039,
+		"timestamp": 675.9500000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 677.0100000000001
+	},
+	{
+		"index": 447,
+		"txt": "Figure 26 9",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 26_9_Figure 26_9____.wav",
+		"duration": 0.7,
+		"sentenceIndex": 14040,
+		"timestamp": 677.5100000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 678.2100000000002
+	},
+	{
+		"index": 448,
+		"txt": "reaches the head, some of the energy is reflected off the head.",
+		"file": "/home/user1/trash/dirOutputSet/_100_reaches_the_head__some_of_the_energ_s_reflected_off_the_head_____.wav",
+		"duration": 1.28,
+		"sentenceIndex": 14041,
+		"timestamp": 678.7100000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 679.9900000000001
+	},
+	{
+		"index": 449,
+		"txt": "Reflections also occur off the shoulders and torso.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Reflections_also_occur_off_the_shou__the_shoulders_and_torso_____.wav",
+		"duration": 1.12,
+		"sentenceIndex": 14042,
+		"timestamp": 680.4900000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 681.6100000000001
+	},
+	{
+		"index": 450,
+		"txt": "Further, as the sound waves pass the head they tend to bend around it.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Further__as_the_sound_waves_pass_th_y_tend_to_bend_around_it_____.wav",
+		"duration": 1.42,
+		"sentenceIndex": 14043,
+		"timestamp": 682.1100000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 683.5300000000001
+	},
+	{
+		"index": 451,
+		"txt": "Higher frequency waves tend to get blocked by the head, and lower frequency waves tend to pass by with little interruption.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Higher_frequency_waves_tend_to_get__with_little_interruption_____.wav",
+		"duration": 2.47,
+		"sentenceIndex": 14044,
+		"timestamp": 684.0300000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 686.5000000000001
+	},
+	{
+		"index": 452,
+		"txt": "The resulting sound in the shadow region behind the head is somewhat different than the source due to the effective filtering that has occurred via interaction with the head.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_resulting_sound_in_the_shadow_r_nteraction_with_the_head_____.wav",
+		"duration": 2.96,
+		"sentenceIndex": 14045,
+		"timestamp": 687.0000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 689.9600000000002
+	},
+	{
+		"index": 453,
+		"txt": "Also, notice that the orientation of the ears with respect to the sound source is different, and sound waves will interact with the ear and ear canal differently due to this differing orientation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Also__notice_that_the_orientation_o_is_differing_orientation_____.wav",
+		"duration": 3.95,
+		"sentenceIndex": 14046,
+		"timestamp": 690.4600000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 694.4100000000002
+	},
+	{
+		"index": 455,
+		"txt": "If the sound is coming from above or below the person in addition to being offset laterally, the sound will reflect off and diffract around different parts of the body in different ways.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_the_sound_is_coming_from_above_o_e_body_in_different_ways_____.wav",
+		"duration": 3.44,
+		"sentenceIndex": 14048,
+		"timestamp": 694.9100000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 698.3500000000003
+	},
+	{
+		"index": 457,
+		"txt": "Considering all these interactions, it would seem that the sound we end up hearing is quite different from the pure source sound.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Considering_all_these_interactions__om_the_pure_source_sound_____.wav",
+		"duration": 2.43,
+		"sentenceIndex": 14050,
+		"timestamp": 698.8500000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 701.2800000000002
+	},
+	{
+		"index": 458,
+		"txt": "Well, the differences may not be that dramatic, but they are sufficient to allow our brains to pick up on all these cues, allowing us to locate the sound source.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Well__the_differences_may_not_be_th__locate_the_sound_source_____.wav",
+		"duration": 3.27,
+		"sentenceIndex": 14051,
+		"timestamp": 701.7800000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 705.0500000000002
+	},
+	{
+		"index": 459,
+		"txt": "Given that we are all different shapes and sizes, our brains are tuned to our specific bodies when processing these localization cues.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Given_that_we_are_all_different_sha__these_localization_cues_____.wav",
+		"duration": 2.8,
+		"sentenceIndex": 14052,
+		"timestamp": 705.5500000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 708.3500000000001
+	},
+	{
+		"index": 461,
+		"txt": "It would seem that including believable 3D sound is virtually impossible to achieve in games given the complexity of sounds interacting with the listener.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_would_seem_that_including_believ_acting_with_the_listener_____.wav",
+		"duration": 3.06,
+		"sentenceIndex": 14054,
+		"timestamp": 708.8500000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 711.9100000000001
+	},
+	{
+		"index": 462,
+		"txt": "Certainly you can't model every potential game player along with your game sounds to compute how they interact with each other.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Certainly_you_can_t_model_every_pot_interact_with_each_other_____.wav",
+		"duration": 2.39,
+		"sentenceIndex": 14055,
+		"timestamp": 712.4100000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 714.8000000000001
+	},
+	{
+		"index": 463,
+		"txt": "That said, one approach to capturing the important localization cues is to use what are",
+		"file": "/home/user1/trash/dirOutputSet/_100_That_said__one_approach_to_capturin_n_cues_is_to_use_what_are____.wav",
+		"duration": 1.87,
+		"sentenceIndex": 14056,
+		"timestamp": 715.3000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 717.1700000000001
+	},
+	{
+		"index": 465,
+		"txt": "called head related transfer functions (HRTFs).",
+		"file": "/home/user1/trash/dirOutputSet/_100_called_head_related_transfer_functi_ansfer_functions__HRTFs______.wav",
+		"duration": 1.36,
+		"sentenceIndex": 14058,
+		"timestamp": 717.6700000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 719.0300000000001
+	},
+	{
+		"index": 468,
+		"txt": "If you were to place a small microphone in each ear and then record the sound reaching each ear from some known source, you'd have what is called a binaural recording .",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_you_were_to_place_a_small_microp_ed_a_binaural_recording______.wav",
+		"duration": 3.13,
+		"sentenceIndex": 14061,
+		"timestamp": 719.5300000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 722.6600000000001
+	},
+	{
+		"index": 469,
+		"txt": "In",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_In____.wav",
+		"duration": 0.17,
+		"sentenceIndex": 14062,
+		"timestamp": 723.1600000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 723.33
+	},
+	{
+		"index": 470,
+		"txt": "other words, the two recordings one for each ear capture the sound received by each, which, given all the factors we described earlier, are different from each other.",
+		"file": "/home/user1/trash/dirOutputSet/_100_other_words__the_two_recordings_one_ifferent_from_each_other_____.wav",
+		"duration": 3.46,
+		"sentenceIndex": 14063,
+		"timestamp": 723.83
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 727.2900000000001
+	},
+	{
+		"index": 471,
+		"txt": "These two recordings contain information that our brains use to help us localize the source sound.",
+		"file": "/home/user1/trash/dirOutputSet/_100_These_two_recordings_contain_inform_ocalize_the_source_sound_____.wav",
+		"duration": 1.97,
+		"sentenceIndex": 14064,
+		"timestamp": 727.7900000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 729.7600000000001
+	},
+	{
+		"index": 474,
+		"txt": "Now, if you compare these binaural recordings by taking the ratio of each to the source sound, you'd end up with what's called",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now__if_you_compare_these_binaural__end_up_with_what_s_called____.wav",
+		"duration": 2.59,
+		"sentenceIndex": 14067,
+		"timestamp": 730.2600000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 732.8500000000001
+	},
+	{
+		"index": 475,
+		"txt": "a transfer function",
+		"file": "/home/user1/trash/dirOutputSet/_100_a_transfer_function_a_transfer_function____.wav",
+		"duration": 0.45,
+		"sentenceIndex": 14068,
+		"timestamp": 733.3500000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 733.8000000000002
+	},
+	{
+		"index": 476,
+		"txt": "for each ear.",
+		"file": "/home/user1/trash/dirOutputSet/_100_for_each_ear__for_each_ear_____.wav",
+		"duration": 0.29,
+		"sentenceIndex": 14069,
+		"timestamp": 734.3000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 734.5900000000001
+	},
+	{
+		"index": 477,
+		"txt": "(The math is more complicated than we imply here.) These are the HRTFs.",
+		"file": "/home/user1/trash/dirOutputSet/_100__The_math_is_more_complicated_than__re___These_are_the_HRTFs_____.wav",
+		"duration": 1.73,
+		"sentenceIndex": 14070,
+		"timestamp": 735.0900000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 736.8200000000002
+	},
+	{
+		"index": 478,
+		"txt": "And you can derive an HRTF for a sound located at any position relative to a listener.",
+		"file": "/home/user1/trash/dirOutputSet/_100_And_you_can_derive_an_HRTF_for_a_so_n_relative_to_a_listener_____.wav",
+		"duration": 1.89,
+		"sentenceIndex": 14071,
+		"timestamp": 737.3200000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 739.2100000000002
+	},
+	{
+		"index": 479,
+		"txt": "So, the binaural recordings for a source located at a specific location yield a pair of HRTFs.",
+		"file": "/home/user1/trash/dirOutputSet/_100_So__the_binaural_recordings_for_a_s_on_yield_a_pair_of_HRTFs_____.wav",
+		"duration": 2.29,
+		"sentenceIndex": 14072,
+		"timestamp": 739.7100000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 742.0000000000001
+	},
+	{
+		"index": 480,
+		"txt": "That's not too bad, but that's only for one single source location.",
+		"file": "/home/user1/trash/dirOutputSet/_100_That_s_not_too_bad__but_that_s_only_e_single_source_location_____.wav",
+		"duration": 1.5,
+		"sentenceIndex": 14073,
+		"timestamp": 742.5000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 744.0000000000001
+	},
+	{
+		"index": 481,
+		"txt": "You need HRTFs for every location if you are to emulate a 3D sound from any location.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_need_HRTFs_for_every_location_i__sound_from_any_location_____.wav",
+		"duration": 2.2,
+		"sentenceIndex": 14074,
+		"timestamp": 744.5000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 746.7000000000002
+	},
+	{
+		"index": 482,
+		"txt": "Obviously, generating HRTFs for every possible relative location isn't practical, so HRTFs are typically derived from binaural recordings taken at many discrete locations to create a library, so to speak, of transfer functions.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Obviously__generating_HRTFs_for_eve_k__of_transfer_functions_____.wav",
+		"duration": 5.55,
+		"sentenceIndex": 14075,
+		"timestamp": 747.2000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 752.7500000000001
+	},
+	{
+		"index": 485,
+		"txt": "The HRTFs are then used to derive filters for a given sound you want to play back with 3D emulation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_HRTFs_are_then_used_to_derive_f_y_back_with_3D_emulation_____.wav",
+		"duration": 2.29,
+		"sentenceIndex": 14078,
+		"timestamp": 753.2500000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 755.5400000000001
+	},
+	{
+		"index": 486,
+		"txt": "Two",
+		"file": "/home/user1/trash/dirOutputSet/_100_Two_Two____.wav",
+		"duration": 0.18,
+		"sentenceIndex": 14079,
+		"timestamp": 756.0400000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 756.22
+	},
+	{
+		"index": 487,
+		"txt": "filters are required one for each ear.",
+		"file": "/home/user1/trash/dirOutputSet/_100_filters_are_required_one_for_each_e_equired_one_for_each_ear_____.wav",
+		"duration": 0.79,
+		"sentenceIndex": 14080,
+		"timestamp": 756.72
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 757.51
+	},
+	{
+		"index": 488,
+		"txt": "And the HRTFs used to derive those filters are those that correspond closest to the location of the 3D sound source you're trying to emulate.",
+		"file": "/home/user1/trash/dirOutputSet/_100_And_the_HRTFs_used_to_derive_those__you_re_trying_to_emulate_____.wav",
+		"duration": 3.05,
+		"sentenceIndex": 14081,
+		"timestamp": 758.01
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 761.06
+	},
+	{
+		"index": 491,
+		"txt": "It is a lot of work to make all these recordings and derive the corresponding HRTFs.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_is_a_lot_of_work_to_make_all_the__the_corresponding_HRTFs_____.wav",
+		"duration": 1.93,
+		"sentenceIndex": 14084,
+		"timestamp": 761.56
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 763.4899999999999
+	},
+	{
+		"index": 492,
+		"txt": "Sometimes the recordings are made using a dummy, and sometimes real humans are used.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Sometimes_the_recordings_are_made_u_mes_real_humans_are_used_____.wav",
+		"duration": 1.85,
+		"sentenceIndex": 14085,
+		"timestamp": 763.9899999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 765.8399999999999
+	},
+	{
+		"index": 493,
+		"txt": "In either case, it is unlikely that you or your player resemble exactly the dummy or human subject used to make the recordings and HRTFs.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_either_case__it_is_unlikely_that_the_recordings_and_HRTFs_____.wav",
+		"duration": 3.08,
+		"sentenceIndex": 14086,
+		"timestamp": 766.3399999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 769.42
+	},
+	{
+		"index": 494,
+		"txt": "This means the synthesized 3D sound may only approximate the cues for any particular person.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_means_the_synthesized_3D_sound_or_any_particular_person_____.wav",
+		"duration": 2.03,
+		"sentenceIndex": 14087,
+		"timestamp": 769.92
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 771.9499999999999
+	},
+	{
+		"index": 497,
+		"txt": "A Simple Example",
+		"file": "/home/user1/trash/dirOutputSet/_100_A_Simple_Example_A_Simple_Example____.wav",
+		"duration": 0.46,
+		"sentenceIndex": 14090,
+		"timestamp": 772.4499999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 772.91
+	},
+	{
+		"index": 499,
+		"txt": "OpenAL allows you to",
+		"file": "/home/user1/trash/dirOutputSet/_100_OpenAL_allows_you_to_OpenAL_allows_you_to____.wav",
+		"duration": 0.52,
+		"sentenceIndex": 14092,
+		"timestamp": 773.41
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 773.93
+	},
+	{
+		"index": 500,
+		"txt": "simulate 3D sound via easy to use source and listener objects with associated properties of each, such as position, velocity, and orientation, among others.",
+		"file": "/home/user1/trash/dirOutputSet/_100_simulate_3D_sound_via_easy_to_use_s_rientation__among_others_____.wav",
+		"duration": 3.67,
+		"sentenceIndex": 14093,
+		"timestamp": 774.43
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 778.0999999999999
+	},
+	{
+		"index": 501,
+		"txt": "You need only associate the sound data to a source and set its properties, listener position, velocity, and orientation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_need_only_associate_the_sound_d_elocity__and_orientation_____.wav",
+		"duration": 2.66,
+		"sentenceIndex": 14094,
+		"timestamp": 778.5999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 781.2599999999999
+	},
+	{
+		"index": 502,
+		"txt": "OpenAL will handle the rest for you.",
+		"file": "/home/user1/trash/dirOutputSet/_100_OpenAL_will_handle_the_rest_for_you__handle_the_rest_for_you_____.wav",
+		"duration": 0.7,
+		"sentenceIndex": 14095,
+		"timestamp": 781.7599999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 782.4599999999999
+	},
+	{
+		"index": 503,
+		"txt": "How good the results sound depends on the OpenAL implementation you're using and the sound hardware in use.",
+		"file": "/home/user1/trash/dirOutputSet/_100_How_good_the_results_sound_depends__he_sound_hardware_in_use_____.wav",
+		"duration": 2.11,
+		"sentenceIndex": 14096,
+		"timestamp": 782.9599999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 785.0699999999999
+	},
+	{
+		"index": 504,
+		"txt": "OpenAL leaves implementation of things such as HRTFs to the hardware.",
+		"file": "/home/user1/trash/dirOutputSet/_100_OpenAL_leaves_implementation_of_thi_as_HRTFs_to_the_hardware_____.wav",
+		"duration": 1.65,
+		"sentenceIndex": 14097,
+		"timestamp": 785.5699999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 787.2199999999999
+	},
+	{
+		"index": 507,
+		"txt": "For demonstration purposes, we took the PlayStatic example provided in the Creative Labs OpenAL SDK and modified it slightly to have the sound source move around the listener.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_demonstration_purposes__we_took_move_around_the_listener_____.wav",
+		"duration": 3.72,
+		"sentenceIndex": 14100,
+		"timestamp": 787.7199999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 791.4399999999999
+	},
+	{
+		"index": 508,
+		"txt": "We've also included the Doppler effect to give the impression of the source moving toward or away from the listener.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ve_also_included_the_Doppler_eff_r_away_from_the_listener_____.wav",
+		"duration": 1.98,
+		"sentenceIndex": 14101,
+		"timestamp": 791.9399999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 793.92
+	},
+	{
+		"index": 509,
+		"txt": "The relevant code is as follows:",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_relevant_code_is_as_follows__evant_code_is_as_follows_____.wav",
+		"duration": 0.69,
+		"sentenceIndex": 14102,
+		"timestamp": 794.42
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 795.11
+	},
+	{
+		"index": 511,
+		"txt": "There's nothing fancy about this demonstration, and in fact there are no graphics.",
+		"file": "/home/user1/trash/dirOutputSet/_100_There_s_nothing_fancy_about_this_de_ct_there_are_no_graphics_____.wav",
+		"duration": 1.68,
+		"sentenceIndex": 14104,
+		"timestamp": 795.61
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 797.29
+	},
+	{
+		"index": 512,
+		"txt": "The program runs in a console window.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_program_runs_in_a_console_windo_runs_in_a_console_window_____.wav",
+		"duration": 0.82,
+		"sentenceIndex": 14105,
+		"timestamp": 797.79
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 798.61
+	},
+	{
+		"index": 513,
+		"txt": "That's OK, however, since you really need your ears and not your eyes to appreciate this demonstration.",
+		"file": "/home/user1/trash/dirOutputSet/_100_That_s_OK__however__since_you_reall_ciate_this_demonstration_____.wav",
+		"duration": 2.21,
+		"sentenceIndex": 14106,
+		"timestamp": 799.11
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 801.32
+	},
+	{
+		"index": 514,
+		"txt": "Be sure to use headphones if you test it yourself.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Be_sure_to_use_headphones_if_you_te__if_you_test_it_yourself_____.wav",
+		"duration": 1.03,
+		"sentenceIndex": 14107,
+		"timestamp": 801.82
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 802.85
+	},
+	{
+		"index": 515,
+		"txt": "The 3D effect is much better with headphones.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_3D_effect_is_much_better_with_h_h_better_with_headphones_____.wav",
+		"duration": 1.09,
+		"sentenceIndex": 14108,
+		"timestamp": 803.35
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 804.44
+	},
+	{
+		"index": 517,
+		"txt": "The lines of code within main() all the way up to the comment Specify the location of the Listener are just OpenAL initialization calls required to set up the framework and associate a sound file with a sound buffer that will hold the sound data for later playback.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_lines_of_code_within_main___all__data_for_later_playback_____.wav",
+		"duration": 5.15,
+		"sentenceIndex": 14110,
+		"timestamp": 804.94
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 810.09
+	},
+	{
+		"index": 519,
+		"txt": "The next line of code after the aforementioned comment sets the location of the listener.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_next_line_of_code_after_the_afo_location_of_the_listener_____.wav",
+		"duration": 1.63,
+		"sentenceIndex": 14112,
+		"timestamp": 810.59
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 812.22
+	},
+	{
+		"index": 520,
+		"txt": "We specify the listener's location at the origin.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_specify_the_listener_s_location__s_location_at_the_origin_____.wav",
+		"duration": 1.01,
+		"sentenceIndex": 14113,
+		"timestamp": 812.72
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 813.73
+	},
+	{
+		"index": 521,
+		"txt": "In a game, you would set the listener location to the player's location as the player moves about your game world.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_a_game__you_would_set_the_listen_es_about_your_game_world_____.wav",
+		"duration": 2.22,
+		"sentenceIndex": 14114,
+		"timestamp": 814.23
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 816.45
+	},
+	{
+		"index": 522,
+		"txt": "In this example, the listener stays put.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_this_example__the_listener_stays___the_listener_stays_put_____.wav",
+		"duration": 0.91,
+		"sentenceIndex": 14115,
+		"timestamp": 816.95
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 817.86
+	},
+	{
+		"index": 524,
+		"txt": "A source is then created and associated with the previously created sound buffer.",
+		"file": "/home/user1/trash/dirOutputSet/_100_A_source_is_then_created_and_associ_sly_created_sound_buffer_____.wav",
+		"duration": 1.62,
+		"sentenceIndex": 14117,
+		"timestamp": 818.36
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 819.98
+	},
+	{
+		"index": 525,
+		"txt": "Since we want to include the Doppler effect, we set the Doppler factor to 10.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Since_we_want_to_include_the_Dopple_the_Doppler_factor_to_10_____.wav",
+		"duration": 1.61,
+		"sentenceIndex": 14118,
+		"timestamp": 820.48
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 822.09
+	},
+	{
+		"index": 526,
+		"txt": "The default is 1, but we amped it up to enhance the effect.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_default_is_1__but_we_amped_it_u_up_to_enhance_the_effect_____.wav",
+		"duration": 1.28,
+		"sentenceIndex": 14119,
+		"timestamp": 822.59
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 823.87
+	},
+	{
+		"index": 528,
+		"txt": "Next we create six new local variables to store the source's x, y, and z coordinates and the increments in position by which we'll move the source around.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Next_we_create_six_new_local_variab_l_move_the_source_around_____.wav",
+		"duration": 3.54,
+		"sentenceIndex": 14121,
+		"timestamp": 824.37
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 827.91
+	},
+	{
+		"index": 529,
+		"txt": "After initializing those variables, we set a few properties of the source namely, we specify that we want the source sound to loop and then we set its initial position and velocity.",
+		"file": "/home/user1/trash/dirOutputSet/_100_After_initializing_those_variables__al_position_and_velocity_____.wav",
+		"duration": 3.78,
+		"sentenceIndex": 14122,
+		"timestamp": 828.41
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 832.1899999999999
+	},
+	{
+		"index": 530,
+		"txt": "The velocity properties are important for the Doppler effect.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_velocity_properties_are_importa_t_for_the_Doppler_effect_____.wav",
+		"duration": 1.19,
+		"sentenceIndex": 14123,
+		"timestamp": 832.6899999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 833.88
+	},
+	{
+		"index": 531,
+		"txt": "If you forget to set the velocity properties, you'll get no Doppler effect even if you move the source around by changing its position coordinates.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_you_forget_to_set_the_velocity_p_its_position_coordinates_____.wav",
+		"duration": 2.81,
+		"sentenceIndex": 14124,
+		"timestamp": 834.38
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 837.1899999999999
+	},
+	{
+		"index": 533,
+		"txt": "Next, the source is set to play, and a loop is entered to continuously update the source's position every 100 milliseconds.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Next__the_source_is_set_to_play__an_n_every_100_milliseconds_____.wav",
+		"duration": 2.81,
+		"sentenceIndex": 14126,
+		"timestamp": 837.6899999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 840.4999999999999
+	},
+	{
+		"index": 534,
+		"txt": "The code within the loop simply adds the coordinate increments to the current coordinates for the source and checks to be sure the source remains within certain bounds.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_code_within_the_loop_simply_add_ns_within_certain_bounds_____.wav",
+		"duration": 3.03,
+		"sentenceIndex": 14127,
+		"timestamp": 840.9999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 844.0299999999999
+	},
+	{
+		"index": 535,
+		"txt": "If the source gets too far away, attenuation will be such that you won't hear it any longer, which just gets boring.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_the_source_gets_too_far_away__at___which_just_gets_boring_____.wav",
+		"duration": 2.48,
+		"sentenceIndex": 14128,
+		"timestamp": 844.5299999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 847.0099999999999
+	},
+	{
+		"index": 537,
+		"txt": "The remainder of the code takes care of housecleaning upon exit.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_remainder_of_the_code_takes_car__housecleaning_upon_exit_____.wav",
+		"duration": 1.41,
+		"sentenceIndex": 14130,
+		"timestamp": 847.5099999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 848.9199999999998
+	},
+	{
+		"index": 540,
+		"txt": "That's really all there is to creating 3D sound effects using OpenAL.",
+		"file": "/home/user1/trash/dirOutputSet/_100_That_s_really_all_there_is_to_creat_und_effects_using_OpenAL_____.wav",
+		"duration": 1.56,
+		"sentenceIndex": 14133,
+		"timestamp": 849.4199999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 850.9799999999998
+	},
+	{
+		"index": 541,
+		"txt": "Of course, managing multiple sounds with environmental effects in a real game is certainly more involved, but the fundamentals are the",
+		"file": "/home/user1/trash/dirOutputSet/_100_Of_course__managing_multiple_sounds__the_fundamentals_are_the____.wav",
+		"duration": 2.71,
+		"sentenceIndex": 14134,
+		"timestamp": 851.4799999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 854.1899999999998
+	},
+	{
+		"index": 544,
+		"txt": "same.",
+		"file": "/home/user1/trash/dirOutputSet/_100_same__same_____.wav",
+		"duration": 0.2,
+		"sentenceIndex": 14137,
+		"timestamp": 854.6899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 854.8899999999999
+	}
+]

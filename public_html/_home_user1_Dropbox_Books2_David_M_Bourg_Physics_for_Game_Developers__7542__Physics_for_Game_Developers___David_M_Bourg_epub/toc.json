@@ -1,0 +1,336 @@
+{
+	"title": "Physics for Game Developers",
+	"dirMetaOffset": "OEBPS/",
+	"navPoints": [
+		{
+			"title": "Physics for Game Developers",
+			"file": "index.html"
+		},
+		{
+			"title": "Preface",
+			"file": "pr02.html"
+		},
+		{
+			"title": "I. Fundamentals",
+			"file": "pt01.html",
+			"children": [
+				{
+					"title": "1. Basic Concepts",
+					"file": "ch01.html"
+				},
+				{
+					"title": "2. Kinematics",
+					"file": "ch02.html"
+				},
+				{
+					"title": "3. Force",
+					"file": "ch03.html"
+				},
+				{
+					"title": "4. Kinetics",
+					"file": "ch04.html"
+				},
+				{
+					"title": "5. Collisions",
+					"file": "ch05.html"
+				},
+				{
+					"title": "6. Projectiles",
+					"file": "ch06.html"
+				}
+			]
+		},
+		{
+			"title": "II. Rigid-Body Dynamics",
+			"file": "pt02.html",
+			"children": [
+				{
+					"title": "7. Real-Time Simulations",
+					"file": "ch07.html"
+				},
+				{
+					"title": "8. Particles",
+					"file": "ch08.html"
+				},
+				{
+					"title": "9. 2D Rigid-Body Simulator",
+					"file": "ch09.html"
+				},
+				{
+					"title": "10. Implementing Collision Response",
+					"file": "ch10.html"
+				},
+				{
+					"title": "11. Rotation in 3D Rigid-Body Simulators",
+					"file": "ch11.html"
+				},
+				{
+					"title": "12. 3D Rigid-Body Simulator",
+					"file": "ch12.html"
+				},
+				{
+					"title": "13. Connecting Objects",
+					"file": "ch13.html"
+				},
+				{
+					"title": "14. Physics Engines",
+					"file": "ch14.html"
+				}
+			]
+		},
+		{
+			"title": "III. Physical Modeling",
+			"file": "pt03.html",
+			"children": [
+				{
+					"title": "15. Aircraft",
+					"file": "ch15.html"
+				},
+				{
+					"title": "16. Ships and Boats",
+					"file": "ch16.html"
+				},
+				{
+					"title": "17. Cars and Hovercraft",
+					"file": "ch17.html"
+				},
+				{
+					"title": "18. Guns and Explosions",
+					"file": "ch18.html"
+				},
+				{
+					"title": "19. Sports",
+					"file": "ch19.html"
+				}
+			]
+		},
+		{
+			"title": "IV. Digital Physics",
+			"file": "pt04.html",
+			"children": [
+				{
+					"title": "20. Touch Screens",
+					"file": "ch20.html"
+				},
+				{
+					"title": "21. Accelerometers",
+					"file": "ch21.html"
+				},
+				{
+					"title": "22. Gaming from One Place to Another",
+					"file": "ch22.html"
+				},
+				{
+					"title": "23. Pressure Sensors and Load Cells",
+					"file": "ch23.html"
+				},
+				{
+					"title": "24. 3D Display",
+					"file": "ch24.html"
+				},
+				{
+					"title": "25. Optical Tracking",
+					"file": "ch25.html"
+				},
+				{
+					"title": "26. Sound",
+					"file": "ch26.html"
+				}
+			]
+		},
+		{
+			"title": "A. Vector Operations",
+			"file": "apa.html"
+		},
+		{
+			"title": "B. Matrix Operations",
+			"file": "apb.html"
+		},
+		{
+			"title": "C. Quaternion Operations",
+			"file": "apc.html"
+		},
+		{
+			"title": "D. Bibliography",
+			"file": "apd.html"
+		},
+		{
+			"title": "Index",
+			"file": "ix01.html"
+		},
+		{
+			"title": "About the Authors",
+			"file": "author_bios.html"
+		},
+		{
+			"title": "Colophon",
+			"file": "co02.html"
+		},
+		{
+			"title": "Copyright",
+			"file": "copyright.html"
+		}
+	],
+	"flat": [
+		{
+			"title": "Physics for Game Developers",
+			"file": "index.html"
+		},
+		{
+			"title": "Preface",
+			"file": "pr02.html"
+		},
+		{
+			"title": "I. Fundamentals",
+			"file": "pt01.html"
+		},
+		{
+			"title": "1. Basic Concepts",
+			"file": "ch01.html"
+		},
+		{
+			"title": "2. Kinematics",
+			"file": "ch02.html"
+		},
+		{
+			"title": "3. Force",
+			"file": "ch03.html"
+		},
+		{
+			"title": "4. Kinetics",
+			"file": "ch04.html"
+		},
+		{
+			"title": "5. Collisions",
+			"file": "ch05.html"
+		},
+		{
+			"title": "6. Projectiles",
+			"file": "ch06.html"
+		},
+		{
+			"title": "II. Rigid-Body Dynamics",
+			"file": "pt02.html"
+		},
+		{
+			"title": "7. Real-Time Simulations",
+			"file": "ch07.html"
+		},
+		{
+			"title": "8. Particles",
+			"file": "ch08.html"
+		},
+		{
+			"title": "9. 2D Rigid-Body Simulator",
+			"file": "ch09.html"
+		},
+		{
+			"title": "10. Implementing Collision Response",
+			"file": "ch10.html"
+		},
+		{
+			"title": "11. Rotation in 3D Rigid-Body Simulators",
+			"file": "ch11.html"
+		},
+		{
+			"title": "12. 3D Rigid-Body Simulator",
+			"file": "ch12.html"
+		},
+		{
+			"title": "13. Connecting Objects",
+			"file": "ch13.html"
+		},
+		{
+			"title": "14. Physics Engines",
+			"file": "ch14.html"
+		},
+		{
+			"title": "III. Physical Modeling",
+			"file": "pt03.html"
+		},
+		{
+			"title": "15. Aircraft",
+			"file": "ch15.html"
+		},
+		{
+			"title": "16. Ships and Boats",
+			"file": "ch16.html"
+		},
+		{
+			"title": "17. Cars and Hovercraft",
+			"file": "ch17.html"
+		},
+		{
+			"title": "18. Guns and Explosions",
+			"file": "ch18.html"
+		},
+		{
+			"title": "19. Sports",
+			"file": "ch19.html"
+		},
+		{
+			"title": "IV. Digital Physics",
+			"file": "pt04.html"
+		},
+		{
+			"title": "20. Touch Screens",
+			"file": "ch20.html"
+		},
+		{
+			"title": "21. Accelerometers",
+			"file": "ch21.html"
+		},
+		{
+			"title": "22. Gaming from One Place to Another",
+			"file": "ch22.html"
+		},
+		{
+			"title": "23. Pressure Sensors and Load Cells",
+			"file": "ch23.html"
+		},
+		{
+			"title": "24. 3D Display",
+			"file": "ch24.html"
+		},
+		{
+			"title": "25. Optical Tracking",
+			"file": "ch25.html"
+		},
+		{
+			"title": "26. Sound",
+			"file": "ch26.html"
+		},
+		{
+			"title": "A. Vector Operations",
+			"file": "apa.html"
+		},
+		{
+			"title": "B. Matrix Operations",
+			"file": "apb.html"
+		},
+		{
+			"title": "C. Quaternion Operations",
+			"file": "apc.html"
+		},
+		{
+			"title": "D. Bibliography",
+			"file": "apd.html"
+		},
+		{
+			"title": "Index",
+			"file": "ix01.html"
+		},
+		{
+			"title": "About the Authors",
+			"file": "author_bios.html"
+		},
+		{
+			"title": "Colophon",
+			"file": "co02.html"
+		},
+		{
+			"title": "Copyright",
+			"file": "copyright.html"
+		}
+	]
+}

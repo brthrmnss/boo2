@@ -1,0 +1,102 @@
+[
+	{
+		"txt": "",
+		"why": "br tag like",
+		"sentenceIndex": 1,
+		"nouns": [],
+		"dOIndex": 0,
+		"isQuote": false
+	},
+	{
+		"txt": "Physics for Game Developers",
+		"why": "br tag like",
+		"tags": [
+			"h1",
+			"div",
+			"div",
+			"div",
+			"div"
+		],
+		"sentenceIndex": 2,
+		"nouns": [
+			"Physics",
+			"Game",
+			"Developers"
+		],
+		"dOIndex": 1,
+		"nouns2": [
+			"Physics",
+			"Developers"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "David M Bourg",
+		"why": "br tag like",
+		"tags": [
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div"
+		],
+		"sentenceIndex": 3,
+		"nouns": [
+			"David M",
+			"Bourg"
+		],
+		"dOIndex": 2,
+		"isQuote": false
+	},
+	{
+		"txt": "Bryan Bywalec",
+		"why": "p",
+		"tags": [
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div"
+		],
+		"sentenceIndex": 4,
+		"nouns": [
+			"Bryan",
+			"Bywalec"
+		],
+		"dOIndex": 3,
+		"nouns2": [
+			"Bywalec"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Beijing • Cambridge • Farnham • Koln • Sebastopol • Tokyo",
+		"why": "new line \\n",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"div",
+			"div"
+		],
+		"sentenceIndex": 5,
+		"nouns": [
+			"• Cambridge",
+			"• Farnham",
+			"•",
+			"Koln",
+			"•",
+			"Sebastopol",
+			"• Tokyo"
+		],
+		"dOIndex": 4,
+		"nouns2": [
+			"Beijing",
+			"Cambridge",
+			"Farnham",
+			"Sebastopol"
+		]
+	}
+]

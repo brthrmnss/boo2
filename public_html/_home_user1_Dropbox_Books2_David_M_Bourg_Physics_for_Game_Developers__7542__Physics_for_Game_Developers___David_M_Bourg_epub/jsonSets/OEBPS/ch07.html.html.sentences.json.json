@@ -1,0 +1,3326 @@
+[
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 0
+	},
+	{
+		"index": 2,
+		"txt": "Chapter 7. Real Time Simulations",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 7_ Real_Time_Simulations_ 7_ Real_Time_Simulations____.wav",
+		"duration": 1.02,
+		"sentenceIndex": 4711,
+		"timestamp": 0.5
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 1.52
+	},
+	{
+		"index": 3,
+		"txt": "This chapter is the first in a",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_chapter_is_the_first_in_a_chapter_is_the_first_in_a____.wav",
+		"duration": 0.71,
+		"sentenceIndex": 4712,
+		"timestamp": 2.02
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 2.73
+	},
+	{
+		"index": 5,
+		"txt": "series of chapters designed to give you a thorough introduction to the subject of real time simulation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_series_of_chapters_designed_to_give__of_real_time_simulation_____.wav",
+		"duration": 2.05,
+		"sentenceIndex": 4714,
+		"timestamp": 3.23
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 5.279999999999999
+	},
+	{
+		"index": 6,
+		"txt": "We say introduction because the subject is too vast and complex to adequately treat in a few chapters; however, we say thorough because we'll do more than touch on real time simulations.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_say_introduction_because_the_sub_on_real_time_simulations_____.wav",
+		"duration": 3.85,
+		"sentenceIndex": 4715,
+		"timestamp": 5.779999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 9.629999999999999
+	},
+	{
+		"index": 7,
+		"txt": "In fact, we'll walk you through the development of two simple simulations, one in two dimensions and the other in three dimensions.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_fact__we_ll_walk_you_through_the_ther_in_three_dimensions_____.wav",
+		"duration": 2.64,
+		"sentenceIndex": 4716,
+		"timestamp": 10.129999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 12.77
+	},
+	{
+		"index": 10,
+		"txt": "What we hope to do is give you enough of an understanding of this subject so that you can pursue it further with confidence.",
+		"file": "/home/user1/trash/dirOutputSet/_100_What_we_hope_to_do_is_give_you_enou__further_with_confidence_____.wav",
+		"duration": 2.19,
+		"sentenceIndex": 4719,
+		"timestamp": 13.27
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 15.459999999999999
+	},
+	{
+		"index": 11,
+		"txt": "In other words, we want you to have a solid understanding of the fundamentals before jumping in to use someone else's physics engine, or venturing out to write your own.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_other_words__we_want_you_to_have_ng_out_to_write_your_own_____.wav",
+		"duration": 3.32,
+		"sentenceIndex": 4720,
+		"timestamp": 15.959999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 19.279999999999998
+	},
+	{
+		"index": 14,
+		"txt": "In the context of this book, a real time simulation is a process whereby you calculate the state of the object (or objects) you're trying to represent on the fly.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_the_context_of_this_book__a_real__to_represent_on_the_fly_____.wav",
+		"duration": 3.29,
+		"sentenceIndex": 4723,
+		"timestamp": 19.779999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 23.069999999999997
+	},
+	{
+		"index": 15,
+		"txt": "You don't rely on prescripted motion sequences to animate your object, but instead you rely on your physics model, the equations of motion, and your differential equation solver to take care of the motion of your object as the simulation progresses.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_don_t_rely_on_prescripted_motio_he_simulation_progresses_____.wav",
+		"duration": 5.12,
+		"sentenceIndex": 4724,
+		"timestamp": 23.569999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 28.689999999999998
+	},
+	{
+		"index": 16,
+		"txt": "This sort of simulation can be used to model rigid bodies like the airplane in our FlightSim example, or flexible bodies such as cloth and human figures.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_sort_of_simulation_can_be_used__cloth_and_human_figures_____.wav",
+		"duration": 3.13,
+		"sentenceIndex": 4725,
+		"timestamp": 29.189999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 32.32
+	},
+	{
+		"index": 17,
+		"txt": "Perhaps one of the most fundamental aspects of implementing a real time rigid body simulator is solving the equations of motion using numerical integration techniques.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Perhaps_one_of_the_most_fundamental_l_integration_techniques_____.wav",
+		"duration": 3.51,
+		"sentenceIndex": 4726,
+		"timestamp": 32.82
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 36.33
+	},
+	{
+		"index": 18,
+		"txt": "For this reason, we'll spend this entire chapter explaining the numerical integration techniques that you'll use later in the 2D and 3D simulators that we'll develop.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_this_reason__we_ll_spend_this_e_ators_that_we_ll_develop_____.wav",
+		"duration": 3.38,
+		"sentenceIndex": 4727,
+		"timestamp": 36.83
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 40.21
+	},
+	{
+		"index": 21,
+		"txt": "If you refer back for a moment to",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_you_refer_back_for_a_moment_to_efer_back_for_a_moment_to____.wav",
+		"duration": 0.64,
+		"sentenceIndex": 4730,
+		"timestamp": 40.71
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 41.35
+	},
+	{
+		"index": 22,
+		"txt": "Chapter 4",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 4_Chapter 4____.wav",
+		"duration": 0.34,
+		"sentenceIndex": 4731,
+		"timestamp": 41.85
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 42.190000000000005
+	},
+	{
+		"index": 23,
+		"txt": ", where we outlined a generic procedure for solving kinetics problems, you'll see that we've covered a lot of ground so far.",
+		"file": "/home/user1/trash/dirOutputSet/_100___where_we_outlined_a_generic_proce_d_a_lot_of_ground_so_far_____.wav",
+		"duration": 2.39,
+		"sentenceIndex": 4732,
+		"timestamp": 42.690000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 45.080000000000005
+	},
+	{
+		"index": 24,
+		"txt": "The preceding chapters have shown you how to estimate mass properties and develop the governing equations of motion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_preceding_chapters_have_shown_y_ning_equations_of_motion_____.wav",
+		"duration": 2.26,
+		"sentenceIndex": 4733,
+		"timestamp": 45.580000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 47.84
+	},
+	{
+		"index": 25,
+		"txt": "This chapter will show you how to solve the equations of motion in order to determine acceleration, velocity, and displacement.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_chapter_will_show_you_how_to_s_locity__and_displacement_____.wav",
+		"duration": 2.55,
+		"sentenceIndex": 4734,
+		"timestamp": 48.34
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 50.89
+	},
+	{
+		"index": 26,
+		"txt": "We'll follow this chapter up with several showing you how to implement both 2D and 3D rigid body simulations.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ll_follow_this_chapter_up_with_s_D_rigid_body_simulations_____.wav",
+		"duration": 2.39,
+		"sentenceIndex": 4735,
+		"timestamp": 51.39
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 53.78
+	},
+	{
+		"index": 28,
+		"txt": "Integrating the Equations of Motion",
+		"file": "/home/user1/trash/dirOutputSet/_100_Integrating_the_Equations_of_Motion_g_the_Equations_of_Motion____.wav",
+		"duration": 0.73,
+		"sentenceIndex": 4737,
+		"timestamp": 54.28
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 55.01
+	},
+	{
+		"index": 29,
+		"txt": "By now you should",
+		"file": "/home/user1/trash/dirOutputSet/_100_By_now_you_should_By_now_you_should____.wav",
+		"duration": 0.41,
+		"sentenceIndex": 4738,
+		"timestamp": 55.51
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 55.919999999999995
+	},
+	{
+		"index": 31,
+		"txt": "have a thorough understanding of the dynamic equations of motion for particles and rigid bodies.",
+		"file": "/home/user1/trash/dirOutputSet/_100_have_a_thorough_understanding_of_th_rticles_and_rigid_bodies_____.wav",
+		"duration": 1.94,
+		"sentenceIndex": 4740,
+		"timestamp": 56.419999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 58.35999999999999
+	},
+	{
+		"index": 32,
+		"txt": "If not, you may want to go back and review",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_not__you_may_want_to_go_back_and_ant_to_go_back_and_review____.wav",
+		"duration": 0.94,
+		"sentenceIndex": 4741,
+		"timestamp": 58.85999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 59.79999999999999
+	},
+	{
+		"index": 33,
+		"txt": "Chapter 1 through",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 1_through_Chapter 1_through____.wav",
+		"duration": 0.47,
+		"sentenceIndex": 4742,
+		"timestamp": 60.29999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 60.76999999999999
+	},
+	{
+		"index": 35,
+		"txt": "Chapter 4 before reading this one.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 4_before_reading_this_one___before_reading_this_one_____.wav",
+		"duration": 0.76,
+		"sentenceIndex": 4744,
+		"timestamp": 61.26999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 62.02999999999999
+	},
+	{
+		"index": 36,
+		"txt": "The next aspect of dealing with the equations of motion is actually solving them in your simulation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_next_aspect_of_dealing_with_the__them_in_your_simulation_____.wav",
+		"duration": 1.96,
+		"sentenceIndex": 4745,
+		"timestamp": 62.52999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 64.48999999999998
+	},
+	{
+		"index": 37,
+		"txt": "The equations of motion that we've been discussing can be classified as ordinary differential equations.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_equations_of_motion_that_we_ve__y_differential_equations_____.wav",
+		"duration": 2.03,
+		"sentenceIndex": 4746,
+		"timestamp": 64.98999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 67.01999999999998
+	},
+	{
+		"index": 38,
+		"txt": "In",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_In____.wav",
+		"duration": 0.17,
+		"sentenceIndex": 4747,
+		"timestamp": 67.51999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 67.68999999999998
+	},
+	{
+		"index": 39,
+		"txt": "Chapter 2 and",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 2_and_Chapter 2_and____.wav",
+		"duration": 0.39,
+		"sentenceIndex": 4748,
+		"timestamp": 68.18999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 68.57999999999998
+	},
+	{
+		"index": 41,
+		"txt": "Chapter 4 , you were able to solve these differential equations explicitly since you were dealing with simple functions for acceleration, velocity, and displacement.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 4___you_were_able_to_solve__locity__and_displacement_____.wav",
+		"duration": 3.42,
+		"sentenceIndex": 4750,
+		"timestamp": 69.07999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 72.49999999999999
+	},
+	{
+		"index": 42,
+		"txt": "This won't be the case for your simulations.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_won_t_be_the_case_for_your_sim_ase_for_your_simulations_____.wav",
+		"duration": 0.84,
+		"sentenceIndex": 4751,
+		"timestamp": 72.99999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 73.83999999999999
+	},
+	{
+		"index": 43,
+		"txt": "As you'll see in later chapters, force and moment calculations for your system can get pretty complicated and may even rely on tabulated empirical data, which will prevent you from writing simple mathematical functions that can be easily integrated.",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_you_ll_see_in_later_chapters__fo_can_be_easily_integrated_____.wav",
+		"duration": 5.16,
+		"sentenceIndex": 4752,
+		"timestamp": 74.33999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 79.49999999999999
+	},
+	{
+		"index": 44,
+		"txt": "This means that you have to use numerical integration techniques to approximately integrate the equations of motion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_means_that_you_have_to_use_num__the_equations_of_motion_____.wav",
+		"duration": 2.27,
+		"sentenceIndex": 4753,
+		"timestamp": 79.99999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 82.26999999999998
+	},
+	{
+		"index": 45,
+		"txt": "We say approximately because solutions based on numerical integration won't be exact and will have a certain amount of error depending on the chosen method.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_say_approximately_because_soluti_ing_on_the_chosen_method_____.wav",
+		"duration": 2.82,
+		"sentenceIndex": 4754,
+		"timestamp": 82.76999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 85.58999999999997
+	},
+	{
+		"index": 47,
+		"txt": "We're going to start with a rather informal explanation of how we'll apply numerical integration because it will be easier to grasp.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_re_going_to_start_with_a_rather___will_be_easier_to_grasp_____.wav",
+		"duration": 2.4,
+		"sentenceIndex": 4756,
+		"timestamp": 86.08999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 88.48999999999998
+	},
+	{
+		"index": 48,
+		"txt": "Later we'll get into some of the formal mathematics.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Later_we_ll_get_into_some_of_the_fo_f_the_formal_mathematics_____.wav",
+		"duration": 1.03,
+		"sentenceIndex": 4757,
+		"timestamp": 88.98999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 90.01999999999998
+	},
+	{
+		"index": 49,
+		"txt": "Take a look at the differential equation of linear motion for a particle (or rigid body's center of mass):F = m dv/dt",
+		"file": "/home/user1/trash/dirOutputSet/_100_Take_a_look_at_the_differential_equ_nter_of_mass__F___m_dv_dt____.wav",
+		"duration": 2.95,
+		"sentenceIndex": 4758,
+		"timestamp": 90.51999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 93.46999999999998
+	},
+	{
+		"index": 50,
+		"txt": "Recall that this equation is a statement of force equals mass times acceleration, where F is force, m is mass, and dv/dt is the time derivative of velocity, which is acceleration.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Recall_that_this_equation_is_a_stat_y__which_is_acceleration_____.wav",
+		"duration": 4.17,
+		"sentenceIndex": 4759,
+		"timestamp": 93.96999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 98.13999999999999
+	},
+	{
+		"index": 51,
+		"txt": "In the simple examples of the earlier chapters of this book, we rewrote this equation in the following form so it could be integrated explicitly:dv/dt = F/mdv = (F/m) dt",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_the_simple_examples_of_the_earli__dv_dt___F_mdv____F_m__dt____.wav",
+		"duration": 4.66,
+		"sentenceIndex": 4760,
+		"timestamp": 98.63999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 103.29999999999998
+	},
+	{
+		"index": 52,
+		"txt": "One way to interpret this equation is that an infinitesimally small change in velocity, dv, is equal to (F/m ) times an infinitesimally small change in time.",
+		"file": "/home/user1/trash/dirOutputSet/_100_One_way_to_interpret_this_equation__lly_small_change_in_time_____.wav",
+		"duration": 3.84,
+		"sentenceIndex": 4761,
+		"timestamp": 103.79999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 107.63999999999999
+	},
+	{
+		"index": 53,
+		"txt": "In earlier examples, we integrated explicitly by taking the definite integral of the left side of this equation with respect to velocity and the right side with respect to time.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_earlier_examples__we_integrated__ide_with_respect_to_time_____.wav",
+		"duration": 3.57,
+		"sentenceIndex": 4762,
+		"timestamp": 108.13999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 111.70999999999998
+	},
+	{
+		"index": 54,
+		"txt": "In numerical integration you have to take finite steps in time, thus dt goes from being infinitely small to some discrete time increment, ∆t, and you end up with a discrete change in velocity, ∆v:∆v = (F/m) ∆t",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_numerical_integration_you_have_t_elocity___v__v____F_m___t____.wav",
+		"duration": 5.38,
+		"sentenceIndex": 4763,
+		"timestamp": 112.20999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 117.58999999999997
+	},
+	{
+		"index": 55,
+		"txt": "It is important to notice here that this does not give a formula for instantaneous velocity; instead, it gives you only an approximation of the change in velocity.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_is_important_to_notice_here_that_f_the_change_in_velocity_____.wav",
+		"duration": 3.34,
+		"sentenceIndex": 4764,
+		"timestamp": 118.08999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 121.42999999999998
+	},
+	{
+		"index": 56,
+		"txt": "Thus, to approximate the actual velocity of your particle (or rigid body), you have to know what its velocity was before the time change ∆t .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Thus__to_approximate_the_actual_vel_fore_the_time_change__t______.wav",
+		"duration": 3.09,
+		"sentenceIndex": 4765,
+		"timestamp": 121.92999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 125.01999999999998
+	},
+	{
+		"index": 57,
+		"txt": "At the start of your simulation, at time 0, you have to know the starting velocity of your particle.",
+		"file": "/home/user1/trash/dirOutputSet/_100_At_the_start_of_your_simulation__at_elocity_of_your_particle_____.wav",
+		"duration": 2.17,
+		"sentenceIndex": 4766,
+		"timestamp": 125.51999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 127.68999999999998
+	},
+	{
+		"index": 58,
+		"txt": "This is an initial condition and is required in order to uniquely define your particle's velocity as you step",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_an_initial_condition_and_is_le_s_velocity_as_you_step____.wav",
+		"duration": 2.15,
+		"sentenceIndex": 4767,
+		"timestamp": 128.19
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 130.34
+	},
+	{
+		"index": 59,
+		"txt": "through time using this equation:[",
+		"file": "/home/user1/trash/dirOutputSet/_100_through_time_using_this_equation___ime_using_this_equation______.wav",
+		"duration": 0.72,
+		"sentenceIndex": 4768,
+		"timestamp": 130.84
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 131.56
+	},
+	{
+		"index": 61,
+		"txt": "17]vt+∆t = vt + (F/m) ∆t",
+		"file": "/home/user1/trash/dirOutputSet/_100_17_vt__t___vt____F_m___t_17_vt__t___vt____F_m___t____.wav",
+		"duration": 1.78,
+		"sentenceIndex": 4770,
+		"timestamp": 132.06
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 133.84
+	},
+	{
+		"index": 62,
+		"txt": "where the initial condition is:vt=0 = v0",
+		"file": "/home/user1/trash/dirOutputSet/_100_where_the_initial_condition_is_vt_0_al_condition_is_vt_0___v0____.wav",
+		"duration": 1.42,
+		"sentenceIndex": 4771,
+		"timestamp": 134.34
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 135.76
+	},
+	{
+		"index": 63,
+		"txt": "Here vt is velocity at some time t, vt+∆t is velocity at some time plus the time step, ∆t is the time step, and v0 is the initial velocity at time 0.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_vt_is_velocity_at_some_time_t__itial_velocity_at_time_0_____.wav",
+		"duration": 4.2,
+		"sentenceIndex": 4772,
+		"timestamp": 136.26
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 140.45999999999998
+	},
+	{
+		"index": 65,
+		"txt": "You can integrate the linear equation of motion one more time in order to approximate your particle's displacement (or position).",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_integrate_the_linear_equati_splacement__or_position______.wav",
+		"duration": 2.6,
+		"sentenceIndex": 4774,
+		"timestamp": 140.95999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 143.55999999999997
+	},
+	{
+		"index": 66,
+		"txt": "Once you've determined the new velocity value, at time t + ∆t, you can approximate displacement using:st+∆t = st + ∆t (vt+∆t)",
+		"file": "/home/user1/trash/dirOutputSet/_100_Once_you_ve_determined_the_new_velo_g_st__t___st____t__vt__t_____.wav",
+		"duration": 4.17,
+		"sentenceIndex": 4775,
+		"timestamp": 144.05999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 148.22999999999996
+	},
+	{
+		"index": 67,
+		"txt": "where the initial condition on displacement is:st=0 = s0",
+		"file": "/home/user1/trash/dirOutputSet/_100_where_the_initial_condition_on_disp_displacement_is_st_0___s0____.wav",
+		"duration": 1.96,
+		"sentenceIndex": 4776,
+		"timestamp": 148.72999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 150.68999999999997
+	},
+	{
+		"index": 68,
+		"txt": "The integration technique discussed here is known as Euler's method, and it is the most basic integration method.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_integration_technique_discussed_basic_integration_method_____.wav",
+		"duration": 2.26,
+		"sentenceIndex": 4777,
+		"timestamp": 151.18999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 153.44999999999996
+	},
+	{
+		"index": 69,
+		"txt": "While Euler's method is easy to grasp and fairly straightforward to implement, it isn't necessarily the most accurate method.",
+		"file": "/home/user1/trash/dirOutputSet/_100_While_Euler_s_method_is_easy_to_gra_the_most_accurate_method_____.wav",
+		"duration": 2.52,
+		"sentenceIndex": 4778,
+		"timestamp": 153.94999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 156.46999999999997
+	},
+	{
+		"index": 71,
+		"txt": "You can reason that the smaller you make your time step that is, as ∆t approaches dt  the closer you'll get to the exact solution.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_reason_that_the_smaller_you_et_to_the_exact_solution_____.wav",
+		"duration": 2.65,
+		"sentenceIndex": 4780,
+		"timestamp": 156.96999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 159.61999999999998
+	},
+	{
+		"index": 72,
+		"txt": "There are, however, computational problems associated with using very small time steps.",
+		"file": "/home/user1/trash/dirOutputSet/_100_There_are__however__computational_p_ng_very_small_time_steps_____.wav",
+		"duration": 2.09,
+		"sentenceIndex": 4781,
+		"timestamp": 160.11999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 162.20999999999998
+	},
+	{
+		"index": 73,
+		"txt": "Specifically, you'll need a huge number of calculations at very small ∆t 's, and since your calculations won't be exact (depending on numerical precision you'll be rounding off and truncating numbers), you'll end up with a buildup of round off error.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Specifically__you_ll_need_a_huge_nu_ildup_of_round_off_error_____.wav",
+		"duration": 5.27,
+		"sentenceIndex": 4782,
+		"timestamp": 162.70999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 167.98
+	},
+	{
+		"index": 74,
+		"txt": "This means that there is a practical limit as to how small a time step you can take.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_means_that_there_is_a_practica_a_time_step_you_can_take_____.wav",
+		"duration": 1.58,
+		"sentenceIndex": 4783,
+		"timestamp": 168.48
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 170.06
+	},
+	{
+		"index": 75,
+		"txt": "Fortunately, there are several numerical integration techniques at your disposal that are designed to increase accuracy for reasonable step sizes.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Fortunately__there_are_several_nume_or_reasonable_step_sizes_____.wav",
+		"duration": 2.96,
+		"sentenceIndex": 4784,
+		"timestamp": 170.56
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 173.52
+	},
+	{
+		"index": 77,
+		"txt": "Even though we used the linear equation of motion for a particle, this integration technique (and the ones we'll show you later) applies equally well to the angular equations of",
+		"file": "/home/user1/trash/dirOutputSet/_100_Even_though_we_used_the_linear_equa__the_angular_equations_of____.wav",
+		"duration": 3.67,
+		"sentenceIndex": 4786,
+		"timestamp": 174.02
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 177.69
+	},
+	{
+		"index": 79,
+		"txt": "motion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_motion__motion_____.wav",
+		"duration": 0.21,
+		"sentenceIndex": 4788,
+		"timestamp": 178.19
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 178.4
+	},
+	{
+		"index": 82,
+		"txt": "Euler's Method",
+		"file": "/home/user1/trash/dirOutputSet/_100_Euler_s_Method_Euler_s_Method____.wav",
+		"duration": 0.34,
+		"sentenceIndex": 4791,
+		"timestamp": 178.9
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 179.24
+	},
+	{
+		"index": 84,
+		"txt": "The preceding",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_preceding_The_preceding____.wav",
+		"duration": 0.3,
+		"sentenceIndex": 4793,
+		"timestamp": 179.74
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 180.04000000000002
+	},
+	{
+		"index": 86,
+		"txt": "explanation of Euler's method was, as we said, informal.",
+		"file": "/home/user1/trash/dirOutputSet/_100_explanation_of_Euler_s_method_was___as__as_we_said__informal_____.wav",
+		"duration": 1.45,
+		"sentenceIndex": 4795,
+		"timestamp": 180.54000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 181.99
+	},
+	{
+		"index": 87,
+		"txt": "To treat Euler's method in a more mathematically rigorous way, we'll look at the Taylor series expansion of a general function, y(x ).",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_treat_Euler_s_method_in_a_more_m__general_function__y_x_______.wav",
+		"duration": 2.74,
+		"sentenceIndex": 4796,
+		"timestamp": 182.49
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 185.23000000000002
+	},
+	{
+		"index": 88,
+		"txt": "Taylor's theorem",
+		"file": "/home/user1/trash/dirOutputSet/_100_Taylor_s_theorem_Taylor_s_theorem____.wav",
+		"duration": 0.36,
+		"sentenceIndex": 4797,
+		"timestamp": 185.73000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 186.09000000000003
+	},
+	{
+		"index": 90,
+		"txt": "lets you approximate the value of a function at some point by knowing something about that function and its derivatives at some other point.",
+		"file": "/home/user1/trash/dirOutputSet/_100_lets_you_approximate_the_value_of_a_ives_at_some_other_point_____.wav",
+		"duration": 2.6,
+		"sentenceIndex": 4799,
+		"timestamp": 186.59000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 189.19000000000003
+	},
+	{
+		"index": 91,
+		"txt": "This approximation is expressed as an infinite polynomial series of the form:y(x + ∆x) = y(x) + (∆x) y'(x) + ((∆x)2 / 2!) y''(x) + ((∆x)3 / 3!) y'''(x) + · · ·",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_approximation_is_expressed_as__x_3___3___y____x_____________.wav",
+		"duration": 6.84,
+		"sentenceIndex": 4800,
+		"timestamp": 189.69000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 196.53000000000003
+	},
+	{
+		"index": 93,
+		"txt": "where y is some function of x, (x + ∆x) is the new value of x at which you want to approximate y, y' is the first derivative of y, y'' is the second derivative of y , and so on.",
+		"file": "/home/user1/trash/dirOutputSet/_100_where_y_is_some_function_of_x___x___ivative_of_y___and_so_on_____.wav",
+		"duration": 4.58,
+		"sentenceIndex": 4802,
+		"timestamp": 197.03000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 201.61000000000004
+	},
+	{
+		"index": 96,
+		"txt": "In the case of the equation of motion discussed in the preceding section, the function that you are trying to approximate is the velocity as a function of time.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_the_case_of_the_equation_of_moti_ty_as_a_function_of_time_____.wav",
+		"duration": 3.1,
+		"sentenceIndex": 4805,
+		"timestamp": 202.11000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 205.21000000000004
+	},
+	{
+		"index": 97,
+		"txt": "Thus, you can write v(t) instead of y(x), which yields the Taylor expansion:v(t + ∆t) = v(t) + (∆t) v'(t) + ((∆t)2 / 2!) v''(t) + ((∆t)3 / 3!) v'''(t) + · · ·",
+		"file": "/home/user1/trash/dirOutputSet/_100_Thus__you_can_write_v_t__instead_of_t_3___3___v____t_____________.wav",
+		"duration": 6.79,
+		"sentenceIndex": 4806,
+		"timestamp": 205.71000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 212.50000000000003
+	},
+	{
+		"index": 99,
+		"txt": "Note here that v'(t) is equal to dv/dt, which equals F/m in the example equation of motion discussed in the preceding section.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Note_here_that_v__t__is_equal_to_dv_in_the_preceding_section_____.wav",
+		"duration": 3.11,
+		"sentenceIndex": 4808,
+		"timestamp": 213.00000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 216.11000000000004
+	},
+	{
+		"index": 100,
+		"txt": "Note also that you know the value of v at time t .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Note_also_that_you_know_the_value_o_he_value_of_v_at_time_t______.wav",
+		"duration": 1.08,
+		"sentenceIndex": 4809,
+		"timestamp": 216.61000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 217.69000000000005
+	},
+	{
+		"index": 101,
+		"txt": "What you want to find is the value of v at time t + ∆t knowing v at time t and its derivative at time t .",
+		"file": "/home/user1/trash/dirOutputSet/_100_What_you_want_to_find_is_the_value__ts_derivative_at_time_t______.wav",
+		"duration": 2.43,
+		"sentenceIndex": 4810,
+		"timestamp": 218.19000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 220.62000000000006
+	},
+	{
+		"index": 102,
+		"txt": "As a first approximation, and since you don't know anything about v's second, third, or higher derivatives, you can truncate the polynomial series after the term (∆t) v'(t), which yields:v(t + ∆t) = v(t) + (∆t) v'(t)",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_a_first_approximation__and_since____t____v_t______t__v__t_____.wav",
+		"duration": 6.17,
+		"sentenceIndex": 4811,
+		"timestamp": 221.12000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 227.29000000000005
+	},
+	{
+		"index": 104,
+		"txt": "This is the Euler integration formula that you saw in the last section.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_the_Euler_integration_formu__saw_in_the_last_section_____.wav",
+		"duration": 1.4,
+		"sentenceIndex": 4813,
+		"timestamp": 227.79000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 229.19000000000005
+	},
+	{
+		"index": 105,
+		"txt": "Since Euler's formula goes out only to the term that includes the first derivative, the rest of the series that was left off",
+		"file": "/home/user1/trash/dirOutputSet/_100_Since_Euler_s_formula_goes_out_only__series_that_was_left_off____.wav",
+		"duration": 2.49,
+		"sentenceIndex": 4814,
+		"timestamp": 229.69000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 232.18000000000006
+	},
+	{
+		"index": 106,
+		"txt": "is the truncation error",
+		"file": "/home/user1/trash/dirOutputSet/_100_is_the_truncation_error_is_the_truncation_error____.wav",
+		"duration": 0.55,
+		"sentenceIndex": 4815,
+		"timestamp": 232.68000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 233.23000000000008
+	},
+	{
+		"index": 108,
+		"txt": "These terms that were left off are called",
+		"file": "/home/user1/trash/dirOutputSet/_100_These_terms_that_were_left_off_are___were_left_off_are_called____.wav",
+		"duration": 0.84,
+		"sentenceIndex": 4817,
+		"timestamp": 233.73000000000008
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 234.57000000000008
+	},
+	{
+		"index": 109,
+		"txt": "higher order terms",
+		"file": "/home/user1/trash/dirOutputSet/_100_higher_order_terms_higher_order_terms____.wav",
+		"duration": 0.47,
+		"sentenceIndex": 4818,
+		"timestamp": 235.07000000000008
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 235.54000000000008
+	},
+	{
+		"index": 110,
+		"txt": ", and getting rid of them results in a first order approximation.",
+		"file": "/home/user1/trash/dirOutputSet/_100___and_getting_rid_of_them_results_i_irst_order_approximation_____.wav",
+		"duration": 1.23,
+		"sentenceIndex": 4819,
+		"timestamp": 236.04000000000008
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 237.27000000000007
+	},
+	{
+		"index": 111,
+		"txt": "The rationale behind this approximation is that the further you go in the series, the smaller the terms and the less influence they have on the approximation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_rationale_behind_this_approxima_ave_on_the_approximation_____.wav",
+		"duration": 2.98,
+		"sentenceIndex": 4820,
+		"timestamp": 237.77000000000007
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 240.75000000000006
+	},
+	{
+		"index": 112,
+		"txt": "Since ∆t is presumed to be a small number, ∆t2 is even smaller, ∆t3 even smaller, and so on, and since these ∆t terms appear in the numerators, each successively higher order term gets smaller and smaller.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Since__t_is_presumed_to_be_a_small__gets_smaller_and_smaller_____.wav",
+		"duration": 5.23,
+		"sentenceIndex": 4821,
+		"timestamp": 241.25000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 246.48000000000005
+	},
+	{
+		"index": 113,
+		"txt": "In this case, the first truncated term, ((∆t)2 / 2!) v''(t), dominates the truncation error, and this method is said to have an error of order (∆t)2 .",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_this_case__the_first_truncated_t_an_error_of_order___t_2______.wav",
+		"duration": 3.92,
+		"sentenceIndex": 4822,
+		"timestamp": 246.98000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 250.90000000000003
+	},
+	{
+		"index": 116,
+		"txt": "Geometrically, Euler's method approximates a new value, at the current step, for the function under consideration by extrapolating in the direction of the derivative of the function at the previous step.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Geometrically__Euler_s_method_appro_ion_at_the_previous_step_____.wav",
+		"duration": 4.01,
+		"sentenceIndex": 4825,
+		"timestamp": 251.40000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 255.41000000000003
+	},
+	{
+		"index": 117,
+		"txt": "This is illustrated in",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_illustrated_in_This_is_illustrated_in____.wav",
+		"duration": 0.55,
+		"sentenceIndex": 4826,
+		"timestamp": 255.91000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 256.46000000000004
+	},
+	{
+		"index": 118,
+		"txt": "Figure 7 1",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 7_1_Figure 7_1____.wav",
+		"duration": 0.59,
+		"sentenceIndex": 4827,
+		"timestamp": 256.96000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 257.55
+	},
+	{
+		"index": 125,
+		"txt": "Figure 7 1. Euler integration step",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 7_1_ Euler_integration_step_1_ Euler_integration_step____.wav",
+		"duration": 1.2,
+		"sentenceIndex": 4834,
+		"timestamp": 258.05
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 259.25
+	},
+	{
+		"index": 127,
+		"txt": "Figure 7 1 illustrates the truncation error and shows that Euler's method will result in a polygonal approximation of the smooth function under consideration.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 7_1_illustrates_the_truncati_tion_under_consideration_____.wav",
+		"duration": 3.32,
+		"sentenceIndex": 4836,
+		"timestamp": 259.75
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 263.07
+	},
+	{
+		"index": 128,
+		"txt": "Clearly, if you decrease the step size, you increase the number of polygonal segments and better approximate the function.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Clearly__if_you_decrease_the_step_s_approximate_the_function_____.wav",
+		"duration": 2.47,
+		"sentenceIndex": 4837,
+		"timestamp": 263.57
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 266.04
+	},
+	{
+		"index": 129,
+		"txt": "As we said before, though, this isn't always efficient to do since the number of computations in your simulation will increase and round off error will accumulate more rapidly.",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_we_said_before__though__this_isn__accumulate_more_rapidly_____.wav",
+		"duration": 3.59,
+		"sentenceIndex": 4838,
+		"timestamp": 266.54
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 270.13
+	},
+	{
+		"index": 131,
+		"txt": "To illustrate Euler's method in practice, let's examine the linear equation of motion for the ship example of",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_illustrate_Euler_s_method_in_pra_n_for_the_ship_example_of____.wav",
+		"duration": 2.27,
+		"sentenceIndex": 4840,
+		"timestamp": 270.63
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 272.9
+	},
+	{
+		"index": 132,
+		"txt": "Chapter 4:T – (C v) = ma",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 4_T____C_v____ma_Chapter 4_T____C_v____ma____.wav",
+		"duration": 1.44,
+		"sentenceIndex": 4841,
+		"timestamp": 273.4
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 274.84
+	},
+	{
+		"index": 134,
+		"txt": "where T is the propeller's thrust, C is a drag coefficient, v is the ship's velocity, m its mass, and a its acceleration.",
+		"file": "/home/user1/trash/dirOutputSet/_100_where_T_is_the_propeller_s_thrust_____and_a_its_acceleration_____.wav",
+		"duration": 2.91,
+		"sentenceIndex": 4843,
+		"timestamp": 275.34
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 278.25
+	},
+	{
+		"index": 137,
+		"txt": "Figure 7 2 shows the Euler integration solution, using a 0.5s time step, superimposed over the exact solution derived in",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 7_2_shows_the_Euler_integrat_exact_solution_derived_in____.wav",
+		"duration": 3.4,
+		"sentenceIndex": 4846,
+		"timestamp": 278.75
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 282.15
+	},
+	{
+		"index": 138,
+		"txt": "Chapter 4",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 4_Chapter 4____.wav",
+		"duration": 0.34,
+		"sentenceIndex": 4847,
+		"timestamp": 282.65
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 282.98999999999995
+	},
+	{
+		"index": 139,
+		"txt": "for the ship's speed over time.",
+		"file": "/home/user1/trash/dirOutputSet/_100_for_the_ship_s_speed_over_time__e_ship_s_speed_over_time_____.wav",
+		"duration": 0.67,
+		"sentenceIndex": 4848,
+		"timestamp": 283.48999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 284.15999999999997
+	},
+	{
+		"index": 145,
+		"txt": "Figure 7 2. Euler integration comparison",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 7_2_ Euler_integration_compa_er_integration_comparison____.wav",
+		"duration": 1.31,
+		"sentenceIndex": 4854,
+		"timestamp": 284.65999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 285.96999999999997
+	},
+	{
+		"index": 147,
+		"txt": "Zooming in on this graph allows you to see the error in the Euler approximation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Zooming_in_on_this_graph_allows_you__the_Euler_approximation_____.wav",
+		"duration": 1.6,
+		"sentenceIndex": 4856,
+		"timestamp": 286.46999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 288.07
+	},
+	{
+		"index": 148,
+		"txt": "This is shown in",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_shown_in_This_is_shown_in____.wav",
+		"duration": 0.42,
+		"sentenceIndex": 4857,
+		"timestamp": 288.57
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 288.99
+	},
+	{
+		"index": 149,
+		"txt": "Figure 7 3",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 7_3_Figure 7_3____.wav",
+		"duration": 0.56,
+		"sentenceIndex": 4858,
+		"timestamp": 289.49
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 290.05
+	},
+	{
+		"index": 156,
+		"txt": "Figure 7 3. Euler error",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 7_3_ Euler_error_Figure 7_3_ Euler_error____.wav",
+		"duration": 0.94,
+		"sentenceIndex": 4865,
+		"timestamp": 290.55
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 291.49
+	},
+	{
+		"index": 158,
+		"txt": "Table 7 1 shows the numerical values of speed versus time for the range shown in",
+		"file": "/home/user1/trash/dirOutputSet/_100_Table 7_1_shows_the_numerical_value_me_for_the_range_shown_in____.wav",
+		"duration": 1.9,
+		"sentenceIndex": 4867,
+		"timestamp": 291.99
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 293.89
+	},
+	{
+		"index": 159,
+		"txt": "Figure 7 3",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 7_3_Figure 7_3____.wav",
+		"duration": 0.56,
+		"sentenceIndex": 4868,
+		"timestamp": 294.39
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 294.95
+	},
+	{
+		"index": 161,
+		"txt": "Also shown in",
+		"file": "/home/user1/trash/dirOutputSet/_100_Also_shown_in_Also_shown_in____.wav",
+		"duration": 0.41,
+		"sentenceIndex": 4870,
+		"timestamp": 295.45
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 295.86
+	},
+	{
+		"index": 162,
+		"txt": "Table 7 1",
+		"file": "/home/user1/trash/dirOutputSet/_100_Table 7_1_Table 7_1____.wav",
+		"duration": 0.46,
+		"sentenceIndex": 4871,
+		"timestamp": 296.36
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 296.82
+	},
+	{
+		"index": 163,
+		"txt": "is the percent difference, the error, between the exact solution and the Euler solution at each time step.",
+		"file": "/home/user1/trash/dirOutputSet/_100_is_the_percent_difference__the_erro_lution_at_each_time_step_____.wav",
+		"duration": 2.18,
+		"sentenceIndex": 4872,
+		"timestamp": 297.32
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 299.5
+	},
+	{
+		"index": 165,
+		"txt": "Table 7 1. Exact solution versus Euler solution",
+		"file": "/home/user1/trash/dirOutputSet/_100_Table 7_1_ Exact_solution_versus_Eu_ion_versus_Euler_solution____.wav",
+		"duration": 1.48,
+		"sentenceIndex": 4874,
+		"timestamp": 300
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 301.48
+	},
+	{
+		"index": 166,
+		"txt": "Time (s)",
+		"file": "/home/user1/trash/dirOutputSet/_100_Time__s__Time__s_____.wav",
+		"duration": 0.39,
+		"sentenceIndex": 4875,
+		"timestamp": 301.98
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 302.37
+	},
+	{
+		"index": 167,
+		"txt": "Velocity, exact (m/s)",
+		"file": "/home/user1/trash/dirOutputSet/_100_Velocity__exact__m_s__Velocity__exact__m_s_____.wav",
+		"duration": 0.99,
+		"sentenceIndex": 4876,
+		"timestamp": 302.87
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 303.86
+	},
+	{
+		"index": 168,
+		"txt": "Velocity, Euler (m/s)",
+		"file": "/home/user1/trash/dirOutputSet/_100_Velocity__Euler__m_s__Velocity__Euler__m_s_____.wav",
+		"duration": 0.92,
+		"sentenceIndex": 4877,
+		"timestamp": 304.36
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 305.28000000000003
+	},
+	{
+		"index": 169,
+		"txt": "Error",
+		"file": "/home/user1/trash/dirOutputSet/_100_Error_Error____.wav",
+		"duration": 0.16,
+		"sentenceIndex": 4878,
+		"timestamp": 305.78000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 305.94000000000005
+	},
+	{
+		"index": 170,
+		"txt": "6.5",
+		"file": "/home/user1/trash/dirOutputSet/_100_6_5_6_5____.wav",
+		"duration": 0.43,
+		"sentenceIndex": 4879,
+		"timestamp": 306.44000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 306.87000000000006
+	},
+	{
+		"index": 171,
+		"txt": "9.559084",
+		"file": "/home/user1/trash/dirOutputSet/_100_9_559084_9_559084____.wav",
+		"duration": 1.08,
+		"sentenceIndex": 4880,
+		"timestamp": 307.37000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 308.45000000000005
+	},
+	{
+		"index": 172,
+		"txt": "9.733158",
+		"file": "/home/user1/trash/dirOutputSet/_100_9_733158_9_733158____.wav",
+		"duration": 0.94,
+		"sentenceIndex": 4881,
+		"timestamp": 308.95000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 309.89000000000004
+	},
+	{
+		"index": 173,
+		"txt": "1.82%",
+		"file": "/home/user1/trash/dirOutputSet/_100_1_82__1_82_____.wav",
+		"duration": 0.59,
+		"sentenceIndex": 4882,
+		"timestamp": 310.39000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 310.98
+	},
+	{
+		"index": 174,
+		"txt": "7",
+		"file": "/home/user1/trash/dirOutputSet/_100_7_7____.wav",
+		"duration": 0.21,
+		"sentenceIndex": 4883,
+		"timestamp": 311.48
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 311.69
+	},
+	{
+		"index": 175,
+		"txt": "10.06829",
+		"file": "/home/user1/trash/dirOutputSet/_100_10_06829_10_06829____.wav",
+		"duration": 0.85,
+		"sentenceIndex": 4884,
+		"timestamp": 312.19
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 313.04
+	},
+	{
+		"index": 176,
+		"txt": "10.2465",
+		"file": "/home/user1/trash/dirOutputSet/_100_10_2465_10_2465____.wav",
+		"duration": 0.75,
+		"sentenceIndex": 4885,
+		"timestamp": 313.54
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 314.29
+	},
+	{
+		"index": 177,
+		"txt": "1.77%",
+		"file": "/home/user1/trash/dirOutputSet/_100_1_77__1_77_____.wav",
+		"duration": 0.71,
+		"sentenceIndex": 4886,
+		"timestamp": 314.79
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 315.5
+	},
+	{
+		"index": 178,
+		"txt": "7.5",
+		"file": "/home/user1/trash/dirOutputSet/_100_7_5_7_5____.wav",
+		"duration": 0.49,
+		"sentenceIndex": 4887,
+		"timestamp": 316
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 316.49
+	},
+	{
+		"index": 179,
+		"txt": "10.55267",
+		"file": "/home/user1/trash/dirOutputSet/_100_10_55267_10_55267____.wav",
+		"duration": 0.85,
+		"sentenceIndex": 4888,
+		"timestamp": 316.99
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 317.84000000000003
+	},
+	{
+		"index": 180,
+		"txt": "10.73418",
+		"file": "/home/user1/trash/dirOutputSet/_100_10_73418_10_73418____.wav",
+		"duration": 0.82,
+		"sentenceIndex": 4889,
+		"timestamp": 318.34000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 319.16
+	},
+	{
+		"index": 181,
+		"txt": "1.72%",
+		"file": "/home/user1/trash/dirOutputSet/_100_1_72__1_72_____.wav",
+		"duration": 0.69,
+		"sentenceIndex": 4890,
+		"timestamp": 319.66
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 320.35
+	},
+	{
+		"index": 182,
+		"txt": "8",
+		"file": "/home/user1/trash/dirOutputSet/_100_8_8____.wav",
+		"duration": 0.17,
+		"sentenceIndex": 4891,
+		"timestamp": 320.85
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 321.02000000000004
+	},
+	{
+		"index": 183,
+		"txt": "11.01342",
+		"file": "/home/user1/trash/dirOutputSet/_100_11_01342_11_01342____.wav",
+		"duration": 0.94,
+		"sentenceIndex": 4892,
+		"timestamp": 321.52000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 322.46000000000004
+	},
+	{
+		"index": 184,
+		"txt": "11.19747",
+		"file": "/home/user1/trash/dirOutputSet/_100_11_19747_11_19747____.wav",
+		"duration": 1.02,
+		"sentenceIndex": 4893,
+		"timestamp": 322.96000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 323.98
+	},
+	{
+		"index": 185,
+		"txt": "1.67%",
+		"file": "/home/user1/trash/dirOutputSet/_100_1_67__1_67_____.wav",
+		"duration": 0.7,
+		"sentenceIndex": 4894,
+		"timestamp": 324.48
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 325.18
+	},
+	{
+		"index": 186,
+		"txt": "8.5",
+		"file": "/home/user1/trash/dirOutputSet/_100_8_5_8_5____.wav",
+		"duration": 0.4,
+		"sentenceIndex": 4895,
+		"timestamp": 325.68
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 326.08
+	},
+	{
+		"index": 187,
+		"txt": "11.4517",
+		"file": "/home/user1/trash/dirOutputSet/_100_11_4517_11_4517____.wav",
+		"duration": 0.8,
+		"sentenceIndex": 4896,
+		"timestamp": 326.58
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 327.38
+	},
+	{
+		"index": 188,
+		"txt": "11.63759",
+		"file": "/home/user1/trash/dirOutputSet/_100_11_63759_11_63759____.wav",
+		"duration": 0.94,
+		"sentenceIndex": 4897,
+		"timestamp": 327.88
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 328.82
+	},
+	{
+		"index": 189,
+		"txt": "1.62%",
+		"file": "/home/user1/trash/dirOutputSet/_100_1_62__1_62_____.wav",
+		"duration": 0.66,
+		"sentenceIndex": 4898,
+		"timestamp": 329.32
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 329.98
+	},
+	{
+		"index": 191,
+		"txt": "As you can see, the truncation error in this example isn't too bad.",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_you_can_see__the_truncation_erro_is_example_isn_t_too_bad_____.wav",
+		"duration": 1.57,
+		"sentenceIndex": 4900,
+		"timestamp": 330.48
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 332.05
+	},
+	{
+		"index": 192,
+		"txt": "It could be better, though, and we'll show you some more accurate methods in a moment.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_could_be_better__though__and_we__rate_methods_in_a_moment_____.wav",
+		"duration": 1.69,
+		"sentenceIndex": 4901,
+		"timestamp": 332.55
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 334.24
+	},
+	{
+		"index": 193,
+		"txt": "Before that, however, you should notice that in this example Euler's method is also stable that is, it converges well with the exact solution as shown in",
+		"file": "/home/user1/trash/dirOutputSet/_100_Before_that__however__you_should_no_xact_solution_as_shown_in____.wav",
+		"duration": 3.22,
+		"sentenceIndex": 4902,
+		"timestamp": 334.74
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 337.96000000000004
+	},
+	{
+		"index": 194,
+		"txt": "Figure 7 4, where we've carried the time",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 7_4__where_we_ve_carried_the_re_we_ve_carried_the_time____.wav",
+		"duration": 1.12,
+		"sentenceIndex": 4903,
+		"timestamp": 338.46000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 339.58000000000004
+	},
+	{
+		"index": 196,
+		"txt": "range out further.",
+		"file": "/home/user1/trash/dirOutputSet/_100_range_out_further__range_out_further_____.wav",
+		"duration": 0.42,
+		"sentenceIndex": 4905,
+		"timestamp": 340.08000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 340.50000000000006
+	},
+	{
+		"index": 202,
+		"txt": "Figure 7 4. Convergence",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 7_4_ Convergence_Figure 7_4_ Convergence____.wav",
+		"duration": 0.99,
+		"sentenceIndex": 4911,
+		"timestamp": 341.00000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 341.99000000000007
+	},
+	{
+		"index": 204,
+		"txt": "Here's a code snippet that implements Euler's method for this example:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_a_code_snippet_that_implemen__method_for_this_example_____.wav",
+		"duration": 1.44,
+		"sentenceIndex": 4913,
+		"timestamp": 342.49000000000007
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 343.93000000000006
+	},
+	{
+		"index": 206,
+		"txt": "Although Euler's method is stable in this example, that isn't always so, depending on the problem you're trying to solve.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Although_Euler_s_method_is_stable_i_m_you_re_trying_to_solve_____.wav",
+		"duration": 2.48,
+		"sentenceIndex": 4915,
+		"timestamp": 344.43000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 346.9100000000001
+	},
+	{
+		"index": 207,
+		"txt": "This is something that you must keep in mind when implementing any numerical integration scheme.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_something_that_you_must_kee_rical_integration_scheme_____.wav",
+		"duration": 1.81,
+		"sentenceIndex": 4916,
+		"timestamp": 347.4100000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 349.2200000000001
+	},
+	{
+		"index": 208,
+		"txt": "What we mean by stable here is that, in this case, the Euler solution converges with the exact solution.",
+		"file": "/home/user1/trash/dirOutputSet/_100_What_we_mean_by_stable_here_is_that__with_the_exact_solution_____.wav",
+		"duration": 2.2,
+		"sentenceIndex": 4917,
+		"timestamp": 349.7200000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 351.9200000000001
+	},
+	{
+		"index": 209,
+		"txt": "An unstable solution could manifest errors in two ways.",
+		"file": "/home/user1/trash/dirOutputSet/_100_An_unstable_solution_could_manifest_ifest_errors_in_two_ways_____.wav",
+		"duration": 1.29,
+		"sentenceIndex": 4918,
+		"timestamp": 352.4200000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 353.7100000000001
+	},
+	{
+		"index": 210,
+		"txt": "First, successive values could oscillate above and below the exact solution, never quite converging on it.",
+		"file": "/home/user1/trash/dirOutputSet/_100_First__successive_values_could_osci_r_quite_converging_on_it_____.wav",
+		"duration": 2.29,
+		"sentenceIndex": 4919,
+		"timestamp": 354.2100000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 356.5000000000001
+	},
+	{
+		"index": 211,
+		"txt": "Second, successive values could diverge from the exact solution, creating a greater and greater error over time.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Second__successive_values_could_div__greater_error_over_time_____.wav",
+		"duration": 2.41,
+		"sentenceIndex": 4920,
+		"timestamp": 357.0000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 359.41000000000014
+	},
+	{
+		"index": 214,
+		"txt": "Take a look at",
+		"file": "/home/user1/trash/dirOutputSet/_100_Take_a_look_at_Take_a_look_at____.wav",
+		"duration": 0.29,
+		"sentenceIndex": 4923,
+		"timestamp": 359.91000000000014
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 360.20000000000016
+	},
+	{
+		"index": 215,
+		"txt": "Figure 7 5",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 7_5_Figure 7_5____.wav",
+		"duration": 0.63,
+		"sentenceIndex": 4924,
+		"timestamp": 360.70000000000016
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 361.33000000000015
+	},
+	{
+		"index": 217,
+		"txt": "This figure shows how Euler's method can become very unstable.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_figure_shows_how_Euler_s_metho_can_become_very_unstable_____.wav",
+		"duration": 1.3,
+		"sentenceIndex": 4926,
+		"timestamp": 361.83000000000015
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 363.13000000000017
+	},
+	{
+		"index": 218,
+		"txt": "What you see in the graph represents the vibratory motion of a spring mass system.",
+		"file": "/home/user1/trash/dirOutputSet/_100_What_you_see_in_the_graph_represent__of_a_spring_mass_system_____.wav",
+		"duration": 1.63,
+		"sentenceIndex": 4927,
+		"timestamp": 363.63000000000017
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 365.26000000000016
+	},
+	{
+		"index": 219,
+		"txt": "This is a simple dynamical system that should exhibit regular sinusoidal motion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_a_simple_dynamical_system_t_egular_sinusoidal_motion_____.wav",
+		"duration": 1.69,
+		"sentenceIndex": 4928,
+		"timestamp": 365.76000000000016
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 367.45000000000016
+	},
+	{
+		"index": 225,
+		"txt": "Figure 7 5. Unstable results using Euler's method",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 7_5_ Unstable_results_using__ults_using_Euler_s_method____.wav",
+		"duration": 1.57,
+		"sentenceIndex": 4934,
+		"timestamp": 367.95000000000016
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 369.52000000000015
+	},
+	{
+		"index": 227,
+		"txt": "It's clear from the figure that using Euler's method yields terribly unstable results.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_s_clear_from_the_figure_that_usi_erribly_unstable_results_____.wav",
+		"duration": 1.76,
+		"sentenceIndex": 4936,
+		"timestamp": 370.02000000000015
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 371.78000000000014
+	},
+	{
+		"index": 228,
+		"txt": "You can see how the motion amplitude continues to grow.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_see_how_the_motion_amplitud_litude_continues_to_grow_____.wav",
+		"duration": 1.15,
+		"sentenceIndex": 4937,
+		"timestamp": 372.28000000000014
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 373.4300000000001
+	},
+	{
+		"index": 229,
+		"txt": "If this were a game, say, where you have a few objects connected by springs interacting with one another, then this sort of instability would manifest itself by wildly unrealistic motion of those objects.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_this_were_a_game__say__where_you__motion_of_those_objects_____.wav",
+		"duration": 4.35,
+		"sentenceIndex": 4938,
+		"timestamp": 373.9300000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 378.28000000000014
+	},
+	{
+		"index": 230,
+		"txt": "Worse yet, the simulation could blow up, numerically speaking.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Worse_yet__the_simulation_could_blo_up__numerically_speaking_____.wav",
+		"duration": 1.33,
+		"sentenceIndex": 4939,
+		"timestamp": 378.78000000000014
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 380.1100000000001
+	},
+	{
+		"index": 233,
+		"txt": "Often, your choice of step size affects stability where smaller step sizes tend to eliminate or minimize instability and larger steps aggravate the problem.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Often__your_choice_of_step_size_aff_ps_aggravate_the_problem_____.wav",
+		"duration": 3.34,
+		"sentenceIndex": 4942,
+		"timestamp": 380.6100000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 383.9500000000001
+	},
+	{
+		"index": 234,
+		"txt": "If you're working with a particularly unwieldy function, you might find that you have to decrease your step size substantially in order to achieve stability.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_you_re_working_with_a_particular_der_to_achieve_stability_____.wav",
+		"duration": 3.07,
+		"sentenceIndex": 4943,
+		"timestamp": 384.4500000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 387.5200000000001
+	},
+	{
+		"index": 235,
+		"txt": "This, however, increases the number of computations you need to make.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This__however__increases_the_number_tations_you_need_to_make_____.wav",
+		"duration": 1.56,
+		"sentenceIndex": 4944,
+		"timestamp": 388.0200000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 389.5800000000001
+	},
+	{
+		"index": 236,
+		"txt": "One way around this difficulty is to employ what's called an adaptive step size method, in which",
+		"file": "/home/user1/trash/dirOutputSet/_100_One_way_around_this_difficulty_is_t_tep_size_method__in_which____.wav",
+		"duration": 2.02,
+		"sentenceIndex": 4945,
+		"timestamp": 390.0800000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 392.1000000000001
+	},
+	{
+		"index": 237,
+		"txt": "you change your step size on the fly depending on the magnitude of a predicted amount of truncation error from one step to the next.",
+		"file": "/home/user1/trash/dirOutputSet/_100_you_change_your_step_size_on_the_fl_rom_one_step_to_the_next_____.wav",
+		"duration": 2.61,
+		"sentenceIndex": 4946,
+		"timestamp": 392.6000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 395.2100000000001
+	},
+	{
+		"index": 238,
+		"txt": "If the truncation error is too large, then you back up a step, decrease your step size, and try again.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_the_truncation_error_is_too_larg_step_size__and_try_again_____.wav",
+		"duration": 2.33,
+		"sentenceIndex": 4947,
+		"timestamp": 395.7100000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 398.0400000000001
+	},
+	{
+		"index": 241,
+		"txt": "One way to implement this for Euler's method is to first take a step of size ∆t to obtain an estimate at time t + ∆t, and then take two steps (starting from time t again) of size ∆t/2 to obtain another estimate at time t + ∆t .",
+		"file": "/home/user1/trash/dirOutputSet/_100_One_way_to_implement_this_for_Euler_estimate_at_time_t____t______.wav",
+		"duration": 5.87,
+		"sentenceIndex": 4950,
+		"timestamp": 398.5400000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 404.4100000000001
+	},
+	{
+		"index": 242,
+		"txt": "Since we've been talking velocity in the examples so far, let's call the first estimate v1 and the second estimate v2 .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Since_we_ve_been_talking_velocity_i__the_second_estimate_v2______.wav",
+		"duration": 2.75,
+		"sentenceIndex": 4951,
+		"timestamp": 404.9100000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 407.6600000000001
+	},
+	{
+		"index": 244,
+		"txt": "18] A measure of the truncation error is then:et = |v1 – v2|",
+		"file": "/home/user1/trash/dirOutputSet/_100_18__A_measure_of_the_truncation_err_or_is_then_et____v1___v2_____.wav",
+		"duration": 2.42,
+		"sentenceIndex": 4953,
+		"timestamp": 408.1600000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 410.5800000000001
+	},
+	{
+		"index": 246,
+		"txt": "If you wish to keep the truncation error within a specified limit, eto, then you can use the following formula to find out what your step size should be in order to maintain the desired accuracy:∆tnew = ∆told (eto / et) (1/2)",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_you_wish_to_keep_the_truncation______told__eto___et___1_2_____.wav",
+		"duration": 4.99,
+		"sentenceIndex": 4955,
+		"timestamp": 411.0800000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 416.0700000000001
+	},
+	{
+		"index": 247,
+		"txt": "Here, ∆told is the old time step and ∆tnew is the new one that you should use to maintain the desired accuracy.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here___told_is_the_old_time_step_an_ain_the_desired_accuracy_____.wav",
+		"duration": 2.51,
+		"sentenceIndex": 4956,
+		"timestamp": 416.5700000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 419.0800000000001
+	},
+	{
+		"index": 248,
+		"txt": "You'll have to make this check for each time step, and if you find that the error warrants a smaller time step, then you'll have to back up a step and repeat it with the new time step.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_ll_have_to_make_this_check_for__t_with_the_new_time_step_____.wav",
+		"duration": 3.53,
+		"sentenceIndex": 4957,
+		"timestamp": 419.5800000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 423.11000000000007
+	},
+	{
+		"index": 250,
+		"txt": "Here's a revised StepSimulation function that implements this adaptive step size technique, checking the truncation error on",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_a_revised_StepSimulation_fun_g_the_truncation_error_on____.wav",
+		"duration": 2.59,
+		"sentenceIndex": 4959,
+		"timestamp": 423.61000000000007
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 426.20000000000005
+	},
+	{
+		"index": 252,
+		"txt": "the velocity integration:",
+		"file": "/home/user1/trash/dirOutputSet/_100_the_velocity_integration__the_velocity_integration_____.wav",
+		"duration": 0.6,
+		"sentenceIndex": 4961,
+		"timestamp": 426.70000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 427.30000000000007
+	},
+	{
+		"index": 255,
+		"txt": "Better Methods",
+		"file": "/home/user1/trash/dirOutputSet/_100_Better_Methods_Better_Methods____.wav",
+		"duration": 0.33,
+		"sentenceIndex": 4964,
+		"timestamp": 427.80000000000007
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 428.13000000000005
+	},
+	{
+		"index": 257,
+		"txt": "At this point, you might",
+		"file": "/home/user1/trash/dirOutputSet/_100_At_this_point__you_might_At_this_point__you_might____.wav",
+		"duration": 0.54,
+		"sentenceIndex": 4966,
+		"timestamp": 428.63000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 429.1700000000001
+	},
+	{
+		"index": 260,
+		"txt": "be wondering why you can't simply use more terms in the Taylor series to reduce the truncation error of Euler's method.",
+		"file": "/home/user1/trash/dirOutputSet/_100_be_wondering_why_you_can_t_simply_u__error_of_Euler_s_method_____.wav",
+		"duration": 2.52,
+		"sentenceIndex": 4969,
+		"timestamp": 429.6700000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 432.19000000000005
+	},
+	{
+		"index": 261,
+		"txt": "In fact, this is the basis for several integration methods that offer greater accuracy than Euler's basic method for a given step size.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_fact__this_is_the_basis_for_seve_od_for_a_given_step_size_____.wav",
+		"duration": 2.83,
+		"sentenceIndex": 4970,
+		"timestamp": 432.69000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 435.52000000000004
+	},
+	{
+		"index": 262,
+		"txt": "Part of the difficulty associated with picking up more terms in the Taylor's series expansion is in being able to determine the second, third, fourth, and higher derivatives of the function you're trying to integrate.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Part_of_the_difficulty_associated_w_u_re_trying_to_integrate_____.wav",
+		"duration": 4.2,
+		"sentenceIndex": 4971,
+		"timestamp": 436.02000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 440.22
+	},
+	{
+		"index": 263,
+		"txt": "The way around this problem is to perform additional Taylor series expansions to approximate the derivatives of the function under consideration and then substitute those values back into your original expansion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_way_around_this_problem_is_to_p__your_original_expansion_____.wav",
+		"duration": 4.13,
+		"sentenceIndex": 4972,
+		"timestamp": 440.72
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 444.85
+	},
+	{
+		"index": 266,
+		"txt": "Taking this approach to include one",
+		"file": "/home/user1/trash/dirOutputSet/_100_Taking_this_approach_to_include_one_s_approach_to_include_one____.wav",
+		"duration": 0.71,
+		"sentenceIndex": 4975,
+		"timestamp": 445.35
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 446.06
+	},
+	{
+		"index": 268,
+		"txt": "more Taylor term beyond the basic Euler method yields a so called improved Euler method that has a reduced truncation error on the order of (∆t)3 instead of (∆t)2 .",
+		"file": "/home/user1/trash/dirOutputSet/_100_more_Taylor_term_beyond_the_basic_E____t_3_instead_of___t_2______.wav",
+		"duration": 3.88,
+		"sentenceIndex": 4977,
+		"timestamp": 446.56
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 450.44
+	},
+	{
+		"index": 269,
+		"txt": "The formulas for this method are:k1 = (∆t) y'(t, y)k2 = (∆t) y'(t + ∆t, y + k1)y(t + ∆t) = y(t) + ½ (k1 + k2)",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_formulas_for_this_method_are_k1___t____y_t_______k1___k2_____.wav",
+		"duration": 5.27,
+		"sentenceIndex": 4978,
+		"timestamp": 450.94
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 456.21
+	},
+	{
+		"index": 271,
+		"txt": "Here y is a function of t, and y' is the derivative as a function of t and possibly of y depending on the equations you're trying to solve, and ∆t the step size.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_y_is_a_function_of_t__and_y__i_ve__and__t_the_step_size_____.wav",
+		"duration": 3.67,
+		"sentenceIndex": 4980,
+		"timestamp": 456.71
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 460.38
+	},
+	{
+		"index": 274,
+		"txt": "To make this clearer for you, we'll show these formulas in terms of the ship example equation of motion of",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_make_this_clearer_for_you__we_ll_ple_equation_of_motion_of____.wav",
+		"duration": 2.16,
+		"sentenceIndex": 4983,
+		"timestamp": 460.88
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 463.04
+	},
+	{
+		"index": 275,
+		"txt": "Chapter 4",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 4_Chapter 4____.wav",
+		"duration": 0.34,
+		"sentenceIndex": 4984,
+		"timestamp": 463.54
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 463.88
+	},
+	{
+		"index": 276,
+		"txt": ", the same example that we discussed in the previous section.",
+		"file": "/home/user1/trash/dirOutputSet/_100___the_same_example_that_we_discusse__in_the_previous_section_____.wav",
+		"duration": 1.14,
+		"sentenceIndex": 4985,
+		"timestamp": 464.38
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 465.52
+	},
+	{
+		"index": 277,
+		"txt": "In this case, velocity is approximated by the following formulas:k1 = ∆t [1/m (T – C vt)]k2 = ∆t [1/m (T – C (vt + k1))]vt+∆t = vt + ½(k1 + k2)",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_this_case__velocity_is_approxima___vt__t___vt_____k1___k2_____.wav",
+		"duration": 6.75,
+		"sentenceIndex": 4986,
+		"timestamp": 466.02
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 472.77
+	},
+	{
+		"index": 278,
+		"txt": "where vt is the velocity at time t, and vt+∆t is the new velocity at time t+∆t .",
+		"file": "/home/user1/trash/dirOutputSet/_100_where_vt_is_the_velocity_at_time_t__w_velocity_at_time_t__t______.wav",
+		"duration": 2.44,
+		"sentenceIndex": 4987,
+		"timestamp": 473.27
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 475.71
+	},
+	{
+		"index": 280,
+		"txt": "Here is the revised StepSimulation function showing how to implement this method in code:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_is_the_revised_StepSimulation__ment_this_method_in_code_____.wav",
+		"duration": 1.78,
+		"sentenceIndex": 4989,
+		"timestamp": 476.21
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 477.98999999999995
+	},
+	{
+		"index": 283,
+		"txt": "We can carry out this procedure of taking on more Taylor terms even further.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_can_carry_out_this_procedure_of__aylor_terms_even_further_____.wav",
+		"duration": 1.58,
+		"sentenceIndex": 4992,
+		"timestamp": 478.48999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 480.06999999999994
+	},
+	{
+		"index": 284,
+		"txt": "The",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_The____.wav",
+		"duration": 0.13,
+		"sentenceIndex": 4993,
+		"timestamp": 480.56999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 480.69999999999993
+	},
+	{
+		"index": 286,
+		"txt": "popular Runge Kutta method takes such an approach to reduce the truncation error to the order of (∆t)5 .",
+		"file": "/home/user1/trash/dirOutputSet/_100_popular_Runge_Kutta_method_takes_su_r_to_the_order_of___t_5______.wav",
+		"duration": 2.34,
+		"sentenceIndex": 4995,
+		"timestamp": 481.19999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 483.5399999999999
+	},
+	{
+		"index": 287,
+		"txt": "The integration formulas for this method are as follows:k1 = (∆t) y'(t, y)k2 = (∆t) y'(t + ∆t/2, y + k1/2)k3 = (∆t) y'(t + ∆t/2, y + k2/2)k4 = (∆t) y'(t + ∆t, y + k3)y(t + ∆t) = y(t) + 1/6 (k1 + 2 (k2) + 2 (k3) + k4)",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_integration_formulas_for_this_m_1___2__k2____2__k3____k4_____.wav",
+		"duration": 11.65,
+		"sentenceIndex": 4996,
+		"timestamp": 484.0399999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 495.6899999999999
+	},
+	{
+		"index": 289,
+		"txt": "Applying these formulas to our ship example yields:k1 = ∆t [1/m (T – C vt)]k2 = ∆t [1/m (T – C (vt + k1/2))]k3 = ∆t [1/m (T – C (vt + k2/2))]k4 = ∆t [1/m (T – C (vt + k3))]vt+∆t = vt + 1/6 (k1 + 2 (k2) + 2 (k3) + k4)",
+		"file": "/home/user1/trash/dirOutputSet/_100_Applying_these_formulas_to_our_ship_1___2__k2____2__k3____k4_____.wav",
+		"duration": 12.68,
+		"sentenceIndex": 4998,
+		"timestamp": 496.1899999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 508.8699999999999
+	},
+	{
+		"index": 291,
+		"txt": "For our example, the Runge Kutta method is implemented as follows:",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_our_example__the_Runge_Kutta_me_s_implemented_as_follows_____.wav",
+		"duration": 1.37,
+		"sentenceIndex": 5000,
+		"timestamp": 509.3699999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 510.7399999999999
+	},
+	{
+		"index": 294,
+		"txt": "To show you how accuracy is improved over the basic Euler method, we've superimposed integration results for the ship example using these two methods over those shown in",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_show_you_how_accuracy_is_improve_thods_over_those_shown_in____.wav",
+		"duration": 3.35,
+		"sentenceIndex": 5003,
+		"timestamp": 511.2399999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 514.5899999999999
+	},
+	{
+		"index": 295,
+		"txt": "Figure 7 2 and",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 7_2_and_Figure 7_2_and____.wav",
+		"duration": 0.64,
+		"sentenceIndex": 5004,
+		"timestamp": 515.0899999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 515.7299999999999
+	},
+	{
+		"index": 297,
+		"txt": "Figure 7 3 .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 7_3___Figure 7_3______.wav",
+		"duration": 0.56,
+		"sentenceIndex": 5006,
+		"timestamp": 516.2299999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 516.7899999999998
+	},
+	{
+		"index": 299,
+		"txt": "Figure 7 6 and",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 7_6_and_Figure 7_6_and____.wav",
+		"duration": 0.71,
+		"sentenceIndex": 5008,
+		"timestamp": 517.2899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 517.9999999999999
+	},
+	{
+		"index": 300,
+		"txt": "Figure 7 7 show the results, where",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 7_7_show_the_results__where_7_show_the_results__where____.wav",
+		"duration": 1.13,
+		"sentenceIndex": 5009,
+		"timestamp": 518.4999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 519.6299999999999
+	},
+	{
+		"index": 302,
+		"txt": "Figure 7 7 is a zoomed view of 7 6.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 7_7_is_a_zoomed_view_of_7_6___is_a_zoomed_view_of_7_6_____.wav",
+		"duration": 1.25,
+		"sentenceIndex": 5011,
+		"timestamp": 520.1299999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 521.3799999999999
+	},
+	{
+		"index": 308,
+		"txt": "Figure 7 6. Method comparison",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 7_6_ Method_comparison_re 7_6_ Method_comparison____.wav",
+		"duration": 1.14,
+		"sentenceIndex": 5017,
+		"timestamp": 521.8799999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 523.0199999999999
+	},
+	{
+		"index": 313,
+		"txt": "Figure 7 7. A closer look",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 7_7_ A_closer_look_Figure 7_7_ A_closer_look____.wav",
+		"duration": 1.04,
+		"sentenceIndex": 5022,
+		"timestamp": 523.5199999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 524.5599999999998
+	},
+	{
+		"index": 315,
+		"txt": "As you can see from these figures, it's impossible to discern the curves for the improved Euler and Runge Kutta methods from the exact solution because they fall almost right on top of each other.",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_you_can_see_from_these_figures___ght_on_top_of_each_other_____.wav",
+		"duration": 3.65,
+		"sentenceIndex": 5024,
+		"timestamp": 525.0599999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 528.7099999999998
+	},
+	{
+		"index": 316,
+		"txt": "These results clearly show the improvement in accuracy over the basic Euler method, whose curve is distinct from the other three.",
+		"file": "/home/user1/trash/dirOutputSet/_100_These_results_clearly_show_the_impr_nct_from_the_other_three_____.wav",
+		"duration": 2.49,
+		"sentenceIndex": 5025,
+		"timestamp": 529.2099999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 531.6999999999998
+	},
+	{
+		"index": 317,
+		"txt": "Over the interval from 6.5 to 8.5 seconds, the average truncation error is 1.72%, 0.03%, and 3.6×10−6 % for Euler's method, the improved Euler method, the Runge Kutta method, respectively.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Over_the_interval_from_6_5_to_8_5_s_tta_method__respectively_____.wav",
+		"duration": 6.44,
+		"sentenceIndex": 5026,
+		"timestamp": 532.1999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 538.6399999999999
+	},
+	{
+		"index": 318,
+		"txt": "It is obvious, based on these results, that for this problem, the Runge Kutta method yields substantially better results for a given step size than the other two methods.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_is_obvious__based_on_these_resul_an_the_other_two_methods_____.wav",
+		"duration": 3.46,
+		"sentenceIndex": 5027,
+		"timestamp": 539.1399999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 542.5999999999999
+	},
+	{
+		"index": 319,
+		"txt": "Of course, you pay for this accuracy, since you have several more computations per step in the Runge Kutta method.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Of_course__you_pay_for_this_accurac_n_the_Runge_Kutta_method_____.wav",
+		"duration": 2.4,
+		"sentenceIndex": 5028,
+		"timestamp": 543.0999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 545.4999999999999
+	},
+	{
+		"index": 322,
+		"txt": "Both of these methods are generally more stable than Euler's method, which is a huge benefit in real time applications.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Both_of_these_methods_are_generally_n_real_time_applications_____.wav",
+		"duration": 2.41,
+		"sentenceIndex": 5031,
+		"timestamp": 545.9999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 548.4099999999999
+	},
+	{
+		"index": 323,
+		"txt": "Recall our discussion earlier about the stability of Euler's method.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Recall_our_discussion_earlier_about_bility_of_Euler_s_method_____.wav",
+		"duration": 1.33,
+		"sentenceIndex": 5032,
+		"timestamp": 548.9099999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 550.2399999999999
+	},
+	{
+		"index": 325,
+		"txt": "Figure 7 5",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 7_5_Figure 7_5____.wav",
+		"duration": 0.63,
+		"sentenceIndex": 5034,
+		"timestamp": 550.7399999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 551.3699999999999
+	},
+	{
+		"index": 326,
+		"txt": "showed the results of applying Euler's method to an oscillating dynamical system.",
+		"file": "/home/user1/trash/dirOutputSet/_100_showed_the_results_of_applying_Eule_llating_dynamical_system_____.wav",
+		"duration": 1.63,
+		"sentenceIndex": 5035,
+		"timestamp": 551.8699999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 553.4999999999999
+	},
+	{
+		"index": 327,
+		"txt": "There, the motion results that should be sinusoidal were wildly erratic (i.e., unstable).",
+		"file": "/home/user1/trash/dirOutputSet/_100_There__the_motion_results_that_shou_erratic__i_e___unstable______.wav",
+		"duration": 2.12,
+		"sentenceIndex": 5036,
+		"timestamp": 553.9999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 556.1199999999999
+	},
+	{
+		"index": 328,
+		"txt": "Applying the improved Euler method, or the Runge Kutta method, to the same problem yields stable results, as shown in",
+		"file": "/home/user1/trash/dirOutputSet/_100_Applying_the_improved_Euler_method__able_results__as_shown_in____.wav",
+		"duration": 2.51,
+		"sentenceIndex": 5037,
+		"timestamp": 556.6199999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 559.1299999999999
+	},
+	{
+		"index": 329,
+		"txt": "Figure 7 8",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 7_8_Figure 7_8____.wav",
+		"duration": 0.54,
+		"sentenceIndex": 5038,
+		"timestamp": 559.6299999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 560.1699999999998
+	},
+	{
+		"index": 336,
+		"txt": "Figure 7 8. Stable results using the improved Euler or the Runge Kutta methods",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 7_8_ Stable_results_using_th_r_the_Runge_Kutta_methods____.wav",
+		"duration": 1.92,
+		"sentenceIndex": 5045,
+		"timestamp": 560.6699999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 562.5899999999998
+	},
+	{
+		"index": 338,
+		"txt": "Here the oscillatory motion is clearly sinusoidal, as it should be.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_the_oscillatory_motion_is_clea_usoidal__as_it_should_be_____.wav",
+		"duration": 1.51,
+		"sentenceIndex": 5047,
+		"timestamp": 563.0899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 564.5999999999998
+	},
+	{
+		"index": 339,
+		"txt": "The results for this particular problem are almost identical whether you use the improved Euler method or the Runge Kutta method.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_results_for_this_particular_pro_r_the_Runge_Kutta_method_____.wav",
+		"duration": 2.34,
+		"sentenceIndex": 5048,
+		"timestamp": 565.0999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 567.4399999999998
+	},
+	{
+		"index": 340,
+		"txt": "Since for this problem the results of both methods are virtually the same, you can save computational time and memory using the improved Euler method versus the Runge Kutta method.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Since_for_this_problem_the_results__s_the_Runge_Kutta_method_____.wav",
+		"duration": 3.47,
+		"sentenceIndex": 5049,
+		"timestamp": 567.9399999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 571.4099999999999
+	},
+	{
+		"index": 341,
+		"txt": "This can be a significant advantage for real time games.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_can_be_a_significant_advantage_tage_for_real_time_games_____.wav",
+		"duration": 1.24,
+		"sentenceIndex": 5050,
+		"timestamp": 571.9099999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 573.1499999999999
+	},
+	{
+		"index": 342,
+		"txt": "Remember the Runge Kutta method requires four derivative computations per time step.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Remember_the_Runge_Kutta_method_req_mputations_per_time_step_____.wav",
+		"duration": 1.76,
+		"sentenceIndex": 5051,
+		"timestamp": 573.6499999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 575.4099999999999
+	},
+	{
+		"index": 345,
+		"txt": "These methods aren't the only ones at your disposal, but they are the most common.",
+		"file": "/home/user1/trash/dirOutputSet/_100_These_methods_aren_t_the_only_ones__they_are_the_most_common_____.wav",
+		"duration": 1.6,
+		"sentenceIndex": 5054,
+		"timestamp": 575.9099999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 577.5099999999999
+	},
+	{
+		"index": 346,
+		"txt": "The Runge Kutta method is particularly popular as a general purpose numerical integration scheme.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_Runge_Kutta_method_is_particula_rical_integration_scheme_____.wav",
+		"duration": 1.87,
+		"sentenceIndex": 5055,
+		"timestamp": 578.0099999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 579.8799999999999
+	},
+	{
+		"index": 347,
+		"txt": "Other methods attempt to improve computational efficiency even further that is, they are designed to minimize truncation error while still allowing you to take relatively large step sizes so as to reduce the number of steps you have to take in your integration.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Other_methods_attempt_to_improve_co_take_in_your_integration_____.wav",
+		"duration": 5.13,
+		"sentenceIndex": 5056,
+		"timestamp": 580.3799999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 585.5099999999999
+	},
+	{
+		"index": 348,
+		"txt": "Still other methods are especially tailored for specific problem types.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Still_other_methods_are_especially__r_specific_problem_types_____.wav",
+		"duration": 1.38,
+		"sentenceIndex": 5057,
+		"timestamp": 586.0099999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 587.3899999999999
+	},
+	{
+		"index": 349,
+		"txt": "We cite some pretty good references for further reading on this subject in the",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_cite_some_pretty_good_references_ng_on_this_subject_in_the____.wav",
+		"duration": 1.4,
+		"sentenceIndex": 5058,
+		"timestamp": 587.8899999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 589.2899999999998
+	},
+	{
+		"index": 355,
+		"txt": "Bibliography .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Bibliography___Bibliography______.wav",
+		"duration": 0.34,
+		"sentenceIndex": 5064,
+		"timestamp": 589.7899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 590.1299999999999
+	},
+	{
+		"index": 357,
+		"txt": "Summary",
+		"file": "/home/user1/trash/dirOutputSet/_100_Summary_Summary____.wav",
+		"duration": 0.23,
+		"sentenceIndex": 5066,
+		"timestamp": 590.6299999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 590.8599999999999
+	},
+	{
+		"index": 358,
+		"txt": "At this point you should be comfortable with the terms that appear in the equations of motion and be able to calculate terms like the sum of forces and moments, mass, and inertia.",
+		"file": "/home/user1/trash/dirOutputSet/_100_At_this_point_you_should_be_comfort_ments__mass__and_inertia_____.wav",
+		"duration": 3.46,
+		"sentenceIndex": 5067,
+		"timestamp": 591.3599999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 594.8199999999999
+	},
+	{
+		"index": 359,
+		"txt": "You should also have a solid understanding of basic numerical integration techniques.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_should_also_have_a_solid_unders_l_integration_techniques_____.wav",
+		"duration": 1.69,
+		"sentenceIndex": 5068,
+		"timestamp": 595.3199999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 597.01
+	},
+	{
+		"index": 360,
+		"txt": "Implementing these techniques in code is really straightforward since they are composed of simple polynomial functions.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Implementing_these_techniques_in_co_ple_polynomial_functions_____.wav",
+		"duration": 2.3,
+		"sentenceIndex": 5069,
+		"timestamp": 597.51
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 599.81
+	},
+	{
+		"index": 361,
+		"txt": "The hard part is developing the derivative function for your problem.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_hard_part_is_developing_the_der_unction_for_your_problem_____.wav",
+		"duration": 1.27,
+		"sentenceIndex": 5070,
+		"timestamp": 600.31
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 601.5799999999999
+	},
+	{
+		"index": 362,
+		"txt": "In the case of the equations of motion, the derivative function will include all your force and moment calculations for the particle or rigid body that you are modeling.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_the_case_of_the_equations_of_mot_dy_that_you_are_modeling_____.wav",
+		"duration": 3.22,
+		"sentenceIndex": 5071,
+		"timestamp": 602.0799999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 605.3
+	},
+	{
+		"index": 363,
+		"txt": "You'll see some more numerical integration",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_ll_see_some_more_numerical_inte_ore_numerical_integration____.wav",
+		"duration": 0.87,
+		"sentenceIndex": 5072,
+		"timestamp": 605.8
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 606.67
+	},
+	{
+		"index": 364,
+		"txt": "code when you get to",
+		"file": "/home/user1/trash/dirOutputSet/_100_code_when_you_get_to_code_when_you_get_to____.wav",
+		"duration": 0.42,
+		"sentenceIndex": 5073,
+		"timestamp": 607.17
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 607.5899999999999
+	},
+	{
+		"index": 366,
+		"txt": "Chapter 8,",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 8__Chapter 8_____.wav",
+		"duration": 0.36,
+		"sentenceIndex": 5075,
+		"timestamp": 608.0899999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 608.4499999999999
+	},
+	{
+		"index": 367,
+		"txt": "Chapter 9, and",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 9__and_Chapter 9__and____.wav",
+		"duration": 0.52,
+		"sentenceIndex": 5076,
+		"timestamp": 608.9499999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 609.4699999999999
+	},
+	{
+		"index": 369,
+		"txt": "Chapter 11 .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 11___Chapter 11______.wav",
+		"duration": 0.39,
+		"sentenceIndex": 5078,
+		"timestamp": 609.9699999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 610.3599999999999
+	},
+	{
+		"index": 373,
+		"txt": "17] In mathematics, this sort of problem is termed an initial value problem",
+		"file": "/home/user1/trash/dirOutputSet/_100_17__In_mathematics__this_sort_of_pr__an_initial_value_problem____.wav",
+		"duration": 1.93,
+		"sentenceIndex": 5082,
+		"timestamp": 610.8599999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 612.7899999999998
+	},
+	{
+		"index": 377,
+		"txt": "18]",
+		"file": "/home/user1/trash/dirOutputSet/_100_18__18_____.wav",
+		"duration": 0.26,
+		"sentenceIndex": 5086,
+		"timestamp": 613.2899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 613.5499999999998
+	},
+	{
+		"index": 378,
+		"txt": "Even though we're talking about velocity and time here, these techniques apply to any function for example, displacement versus time, etc.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Even_though_we_re_talking_about_vel_acement_versus_time__etc_____.wav",
+		"duration": 3.15,
+		"sentenceIndex": 5087,
+		"timestamp": 614.0499999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 617.1999999999998
+	}
+]

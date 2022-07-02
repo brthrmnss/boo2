@@ -1,0 +1,5048 @@
+[
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 0
+	},
+	{
+		"index": 2,
+		"txt": "Chapter 18. Guns and Explosions",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 18_ Guns_and_Explosions_r 18_ Guns_and_Explosions____.wav",
+		"duration": 0.98,
+		"sentenceIndex": 9852,
+		"timestamp": 0.5
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 1.48
+	},
+	{
+		"index": 3,
+		"txt": "One of the most widely successful video",
+		"file": "/home/user1/trash/dirOutputSet/_100_One_of_the_most_widely_successful_v_t_widely_successful_video____.wav",
+		"duration": 0.88,
+		"sentenceIndex": 9853,
+		"timestamp": 1.98
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 2.86
+	},
+	{
+		"index": 4,
+		"txt": "game genres is the venerable first person shooter.",
+		"file": "/home/user1/trash/dirOutputSet/_100_game_genres_is_the_venerable_first__ble_first_person_shooter_____.wav",
+		"duration": 1.06,
+		"sentenceIndex": 9854,
+		"timestamp": 3.36
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 4.42
+	},
+	{
+		"index": 5,
+		"txt": "Ever since the breakthrough games of Wolfenstein 3D and Doom , the first person shooter has received the lion's share of research and development budgets.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Ever_since_the_breakthrough_games_o__and_development_budgets_____.wav",
+		"duration": 3.2,
+		"sentenceIndex": 9855,
+		"timestamp": 4.92
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 8.120000000000001
+	},
+	{
+		"index": 6,
+		"txt": "It is amazing that the physics of aiming a gun and of a bullet traveling through the air are rarely modeled accurately.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_is_amazing_that_the_physics_of_a_arely_modeled_accurately_____.wav",
+		"duration": 1.94,
+		"sentenceIndex": 9856,
+		"timestamp": 8.620000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 10.56
+	},
+	{
+		"index": 7,
+		"txt": "In general, game designers treat guns like laser beams so that wherever you point them, the bullet goes in an infinitely straight line.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_general__game_designers_treat_gu_infinitely_straight_line_____.wav",
+		"duration": 2.72,
+		"sentenceIndex": 9857,
+		"timestamp": 11.06
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 13.780000000000001
+	},
+	{
+		"index": 8,
+		"txt": "In this chapter we'll discuss how to more accurately model both aiming and the trajectory of bullets, which is known as ballistics.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_this_chapter_we_ll_discuss_how_t_h_is_known_as_ballistics_____.wav",
+		"duration": 2.55,
+		"sentenceIndex": 9858,
+		"timestamp": 14.280000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 16.830000000000002
+	},
+	{
+		"index": 11,
+		"txt": "Projectile Motion",
+		"file": "/home/user1/trash/dirOutputSet/_100_Projectile_Motion_Projectile_Motion____.wav",
+		"duration": 0.4,
+		"sentenceIndex": 9861,
+		"timestamp": 17.330000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 17.73
+	},
+	{
+		"index": 13,
+		"txt": "There are actually",
+		"file": "/home/user1/trash/dirOutputSet/_100_There_are_actually_There_are_actually____.wav",
+		"duration": 0.37,
+		"sentenceIndex": 9863,
+		"timestamp": 18.23
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 18.6
+	},
+	{
+		"index": 18,
+		"txt": "four subtopics of ballistics.",
+		"file": "/home/user1/trash/dirOutputSet/_100_four_subtopics_of_ballistics___subtopics_of_ballistics_____.wav",
+		"duration": 0.66,
+		"sentenceIndex": 9868,
+		"timestamp": 19.1
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 19.76
+	},
+	{
+		"index": 19,
+		"txt": "Internal ballistics is",
+		"file": "/home/user1/trash/dirOutputSet/_100_Internal_ballistics_is_Internal_ballistics_is____.wav",
+		"duration": 0.59,
+		"sentenceIndex": 9869,
+		"timestamp": 20.26
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 20.85
+	},
+	{
+		"index": 20,
+		"txt": "the study of what happens to the bullet inside the barrel of the",
+		"file": "/home/user1/trash/dirOutputSet/_100_the_study_of_what_happens_to_the_bu__inside_the_barrel_of_the____.wav",
+		"duration": 1.15,
+		"sentenceIndex": 9870,
+		"timestamp": 21.35
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 22.5
+	},
+	{
+		"index": 22,
+		"txt": "gun; transitional ballistics is the study of what happens as the bullet exits the barrel.",
+		"file": "/home/user1/trash/dirOutputSet/_100_gun__transitional_ballistics_is_the__bullet_exits_the_barrel_____.wav",
+		"duration": 1.81,
+		"sentenceIndex": 9872,
+		"timestamp": 23
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 24.81
+	},
+	{
+		"index": 23,
+		"txt": "Once the bullet has fully exited the barrel, it is in the realm",
+		"file": "/home/user1/trash/dirOutputSet/_100_Once_the_bullet_has_fully_exited_th_arrel__it_is_in_the_realm____.wav",
+		"duration": 1.26,
+		"sentenceIndex": 9873,
+		"timestamp": 25.31
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 26.57
+	},
+	{
+		"index": 24,
+		"txt": "of external ballistics",
+		"file": "/home/user1/trash/dirOutputSet/_100_of_external_ballistics_of_external_ballistics____.wav",
+		"duration": 0.49,
+		"sentenceIndex": 9874,
+		"timestamp": 27.07
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 27.56
+	},
+	{
+		"index": 26,
+		"txt": "At this point the only acceleration is that of gravity, and the same forces discussed in",
+		"file": "/home/user1/trash/dirOutputSet/_100_At_this_point_the_only_acceleration__same_forces_discussed_in____.wav",
+		"duration": 1.86,
+		"sentenceIndex": 9876,
+		"timestamp": 28.06
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 29.919999999999998
+	},
+	{
+		"index": 27,
+		"txt": "Chapter 6",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 6_Chapter 6____.wav",
+		"duration": 0.35,
+		"sentenceIndex": 9877,
+		"timestamp": 30.419999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 30.77
+	},
+	{
+		"index": 28,
+		"txt": "take over.",
+		"file": "/home/user1/trash/dirOutputSet/_100_take_over__take_over_____.wav",
+		"duration": 0.26,
+		"sentenceIndex": 9878,
+		"timestamp": 31.27
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 31.53
+	},
+	{
+		"index": 29,
+		"txt": "The last topic",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_last_topic_The_last_topic____.wav",
+		"duration": 0.33,
+		"sentenceIndex": 9879,
+		"timestamp": 32.03
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 32.36
+	},
+	{
+		"index": 30,
+		"txt": "is terminal ballistics",
+		"file": "/home/user1/trash/dirOutputSet/_100_is_terminal_ballistics_is_terminal_ballistics____.wav",
+		"duration": 0.49,
+		"sentenceIndex": 9880,
+		"timestamp": 32.86
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 33.35
+	},
+	{
+		"index": 31,
+		"txt": ", which is the study of what happens when the bullet hits its target.",
+		"file": "/home/user1/trash/dirOutputSet/_100___which_is_the_study_of_what_happen_e_bullet_hits_its_target_____.wav",
+		"duration": 1.07,
+		"sentenceIndex": 9881,
+		"timestamp": 33.85
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 34.92
+	},
+	{
+		"index": 32,
+		"txt": "The last two topics are the ones we'll discuss here.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_last_two_topics_are_the_ones_we__ones_we_ll_discuss_here_____.wav",
+		"duration": 1.08,
+		"sentenceIndex": 9882,
+		"timestamp": 35.42
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 36.5
+	},
+	{
+		"index": 33,
+		"txt": "The other phases are more important to firearm manufacturers and not so much to the shooter.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_other_phases_are_more_important_t_so_much_to_the_shooter_____.wav",
+		"duration": 1.94,
+		"sentenceIndex": 9883,
+		"timestamp": 37
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 38.94
+	},
+	{
+		"index": 34,
+		"txt": "If you don't recall the material in",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_you_don_t_recall_the_material_in__t_recall_the_material_in____.wav",
+		"duration": 0.72,
+		"sentenceIndex": 9884,
+		"timestamp": 39.44
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 40.16
+	},
+	{
+		"index": 35,
+		"txt": "Chapter 6",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 6_Chapter 6____.wav",
+		"duration": 0.35,
+		"sentenceIndex": 9885,
+		"timestamp": 40.66
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 41.01
+	},
+	{
+		"index": 36,
+		"txt": ", we highly recommend that you review it before continuing.",
+		"file": "/home/user1/trash/dirOutputSet/_100___we_highly_recommend_that_you_revi_iew_it_before_continuing_____.wav",
+		"duration": 1.13,
+		"sentenceIndex": 9886,
+		"timestamp": 41.51
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 42.64
+	},
+	{
+		"index": 38,
+		"txt": "While we aren't very concerned about what happens in the barrel of the gun, there are a few tidbits we do need to know about the system.",
+		"file": "/home/user1/trash/dirOutputSet/_100_While_we_aren_t_very_concerned_abou_to_know_about_the_system_____.wav",
+		"duration": 2.46,
+		"sentenceIndex": 9888,
+		"timestamp": 43.14
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 45.6
+	},
+	{
+		"index": 39,
+		"txt": "The first is where the barrel is pointed.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_first_is_where_the_barrel_is_po_re_the_barrel_is_pointed_____.wav",
+		"duration": 0.73,
+		"sentenceIndex": 9889,
+		"timestamp": 46.1
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 46.83
+	},
+	{
+		"index": 40,
+		"txt": "This is referred to as the gun's aim,",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_referred_to_as_the_gun_s_ai_rred_to_as_the_gun_s_aim_____.wav",
+		"duration": 0.87,
+		"sentenceIndex": 9890,
+		"timestamp": 47.33
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 48.199999999999996
+	},
+	{
+		"index": 41,
+		"txt": "and is almost universally controlled by where the mouse is on the screen.",
+		"file": "/home/user1/trash/dirOutputSet/_100_and_is_almost_universally_controlle_e_mouse_is_on_the_screen_____.wav",
+		"duration": 1.41,
+		"sentenceIndex": 9891,
+		"timestamp": 48.699999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 50.10999999999999
+	},
+	{
+		"index": 44,
+		"txt": "The next is the initial velocity of the bullet.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_next_is_the_initial_velocity_of_l_velocity_of_the_bullet_____.wav",
+		"duration": 0.9,
+		"sentenceIndex": 9894,
+		"timestamp": 50.60999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 51.50999999999999
+	},
+	{
+		"index": 45,
+		"txt": "The bullet here refers to the actual metal projectile that leaves the barrel; the thing that you load into the gun is called a round and contains a casing, gunpowder, a primer, and, of course, the bullet.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_bullet_here_refers_to_the_actua_d__of_course__the_bullet_____.wav",
+		"duration": 4.22,
+		"sentenceIndex": 9895,
+		"timestamp": 52.00999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 56.22999999999999
+	},
+	{
+		"index": 46,
+		"txt": "The initial velocity is usually measured just after the bullet leaves the muzzle (the end of the barrel) and is appropriately called",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_initial_velocity_is_usually_mea_d_is_appropriately_called____.wav",
+		"duration": 2.5,
+		"sentenceIndex": 9896,
+		"timestamp": 56.72999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 59.22999999999999
+	},
+	{
+		"index": 48,
+		"txt": "the muzzle velocity .",
+		"file": "/home/user1/trash/dirOutputSet/_100_the_muzzle_velocity___the_muzzle_velocity______.wav",
+		"duration": 0.41,
+		"sentenceIndex": 9898,
+		"timestamp": 59.72999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 60.139999999999986
+	},
+	{
+		"index": 49,
+		"txt": "Every kind of ammunition is tested at the factory and given a muzzle velocity.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Every_kind_of_ammunition_is_tested___given_a_muzzle_velocity_____.wav",
+		"duration": 1.5,
+		"sentenceIndex": 9899,
+		"timestamp": 60.639999999999986
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 62.139999999999986
+	},
+	{
+		"index": 50,
+		"txt": "You can add realism to your game by giving different ammunition different muzzle velocities.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_add_realism_to_your_game_by_ferent_muzzle_velocities_____.wav",
+		"duration": 1.74,
+		"sentenceIndex": 9900,
+		"timestamp": 62.639999999999986
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 64.37999999999998
+	},
+	{
+		"index": 51,
+		"txt": "This way, a handgun round won't have the same range as a rifle round.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_way__a_handgun_round_won_t_hav_e_range_as_a_rifle_round_____.wav",
+		"duration": 1.56,
+		"sentenceIndex": 9901,
+		"timestamp": 64.87999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 66.43999999999998
+	},
+	{
+		"index": 52,
+		"txt": "Ammunition also comes with a",
+		"file": "/home/user1/trash/dirOutputSet/_100_Ammunition_also_comes_with_a_unition_also_comes_with_a____.wav",
+		"duration": 0.76,
+		"sentenceIndex": 9902,
+		"timestamp": 66.93999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 67.69999999999999
+	},
+	{
+		"index": 54,
+		"txt": "bullet weight measured in either grams or grains.",
+		"file": "/home/user1/trash/dirOutputSet/_100_bullet_weight_measured_in_either_gr_n_either_grams_or_grains_____.wav",
+		"duration": 0.98,
+		"sentenceIndex": 9904,
+		"timestamp": 68.19999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 69.17999999999999
+	},
+	{
+		"index": 55,
+		"txt": "One grain is equal to 0.0648 grams and is an old unit based on the weight of a single seed of wheat",
+		"file": "/home/user1/trash/dirOutputSet/_100_One_grain_is_equal_to_0_0648_grams__of_a_single_seed_of_wheat____.wav",
+		"duration": 2.61,
+		"sentenceIndex": 9905,
+		"timestamp": 69.67999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 72.28999999999999
+	},
+	{
+		"index": 58,
+		"txt": "Last, but not least, we need some approximation for the way air resistance will affect the flight of a bullet.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Last__but_not_least__we_need_some_a_t_the_flight_of_a_bullet_____.wav",
+		"duration": 2.3,
+		"sentenceIndex": 9908,
+		"timestamp": 72.78999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 75.08999999999999
+	},
+	{
+		"index": 59,
+		"txt": "This is where things start to get interesting for people studying ballistics, but we'll stay away from exotic aerodynamics and use our existing drag model.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_where_things_start_to_get_i__our_existing_drag_model_____.wav",
+		"duration": 3.2,
+		"sentenceIndex": 9909,
+		"timestamp": 75.58999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 78.78999999999999
+	},
+	{
+		"index": 60,
+		"txt": "First, we should review the current state of first person shooter physics.",
+		"file": "/home/user1/trash/dirOutputSet/_100_First__we_should_review_the_current_t_person_shooter_physics_____.wav",
+		"duration": 1.55,
+		"sentenceIndex": 9910,
+		"timestamp": 79.28999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 80.83999999999999
+	},
+	{
+		"index": 63,
+		"txt": "Firearms in games present a",
+		"file": "/home/user1/trash/dirOutputSet/_100_Firearms_in_games_present_a_rearms_in_games_present_a____.wav",
+		"duration": 0.76,
+		"sentenceIndex": 9913,
+		"timestamp": 81.33999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 82.1
+	},
+	{
+		"index": 64,
+		"txt": "unique problem to the game developer.",
+		"file": "/home/user1/trash/dirOutputSet/_100_unique_problem_to_the_game_develope_em_to_the_game_developer_____.wav",
+		"duration": 0.74,
+		"sentenceIndex": 9914,
+		"timestamp": 82.6
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 83.33999999999999
+	},
+	{
+		"index": 65,
+		"txt": "If you have ever been to the firing range, you know that in reality it takes a good deal of practice and concentration to hit a target reliably.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_you_have_ever_been_to_the_firing_to_hit_a_target_reliably_____.wav",
+		"duration": 2.81,
+		"sentenceIndex": 9915,
+		"timestamp": 83.83999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 86.64999999999999
+	},
+	{
+		"index": 66,
+		"txt": "Considering that target shooting is hard enough to be an Olympic sport under very controlled circumstances, the ability for in game characters to spring from cover and shoot five enemies with five bullets is somewhat superhuman.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Considering_that_target_shooting_is_s_is_somewhat_superhuman_____.wav",
+		"duration": 4.62,
+		"sentenceIndex": 9916,
+		"timestamp": 87.14999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 91.77
+	},
+	{
+		"index": 67,
+		"txt": "We have all played games where you find yourself shooting a target very far away, and the procedure is as simple as pointing the crosshair where you want the bullet to go and clicking the mouse button.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_have_all_played_games_where_you__licking_the_mouse_button_____.wav",
+		"duration": 3.64,
+		"sentenceIndex": 9917,
+		"timestamp": 92.27
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 95.91
+	},
+	{
+		"index": 68,
+		"txt": "In reality, the skill needed to get a bullet weighing a few grams to hit something a few hundred meters away is so complicated it is amazing that anyone does it with regularity.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_reality__the_skill_needed_to_get__does_it_with_regularity_____.wav",
+		"duration": 3.42,
+		"sentenceIndex": 9918,
+		"timestamp": 96.41
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 99.83
+	},
+	{
+		"index": 69,
+		"txt": "For those developers wishing to actually model firearm performance in their game, there is a double edged sword to consider.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_those_developers_wishing_to_act__edged_sword_to_consider_____.wav",
+		"duration": 2.51,
+		"sentenceIndex": 9919,
+		"timestamp": 100.33
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 102.84
+	},
+	{
+		"index": 72,
+		"txt": "The physics of what happens to the bullet in its flight are not simple to boil down.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_physics_of_what_happens_to_the___not_simple_to_boil_down_____.wav",
+		"duration": 1.58,
+		"sentenceIndex": 9922,
+		"timestamp": 103.34
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 104.92
+	},
+	{
+		"index": 73,
+		"txt": "However, the behavior of the bullet as it flies downrange is important in the practical art of marksmanship.",
+		"file": "/home/user1/trash/dirOutputSet/_100_However__the_behavior_of_the_bullet_ical_art_of_marksmanship_____.wav",
+		"duration": 2.13,
+		"sentenceIndex": 9923,
+		"timestamp": 105.42
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 107.55
+	},
+	{
+		"index": 74,
+		"txt": "There has been considerable work done to find a way to compare ammunition so that a hunter or marksman can predict the performance of a particular ammunition.",
+		"file": "/home/user1/trash/dirOutputSet/_100_There_has_been_considerable_work_do__a_particular_ammunition_____.wav",
+		"duration": 2.87,
+		"sentenceIndex": 9924,
+		"timestamp": 108.05
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 110.92
+	},
+	{
+		"index": 75,
+		"txt": "The result is a pseudophysical factor",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_result_is_a_pseudophysical_fact_s_a_pseudophysical_factor____.wav",
+		"duration": 0.75,
+		"sentenceIndex": 9925,
+		"timestamp": 111.42
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 112.17
+	},
+	{
+		"index": 77,
+		"txt": "called the ballistic coefficient (BC).",
+		"file": "/home/user1/trash/dirOutputSet/_100_called_the_ballistic_coefficient__B_llistic_coefficient__BC______.wav",
+		"duration": 0.89,
+		"sentenceIndex": 9927,
+		"timestamp": 112.67
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 113.56
+	},
+	{
+		"index": 78,
+		"txt": "The BC is a ratio that determines the ability of a particular bullet to retain its downrange velocity compared to some standard bullet.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_BC_is_a_ratio_that_determines_t__to_some_standard_bullet_____.wav",
+		"duration": 2.9,
+		"sentenceIndex": 9928,
+		"timestamp": 114.06
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 116.96000000000001
+	},
+	{
+		"index": 79,
+		"txt": "The most common form is that of the G1 reference projectile.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_most_common_form_is_that_of_the__G1_reference_projectile_____.wav",
+		"duration": 1.3,
+		"sentenceIndex": 9929,
+		"timestamp": 117.46000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 118.76
+	},
+	{
+		"index": 80,
+		"txt": "However, this number has limited use, as it does not take into account modern bullet shapes that provide very low drag.",
+		"file": "/home/user1/trash/dirOutputSet/_100_However__this_number_has_limited_us_at_provide_very_low_drag_____.wav",
+		"duration": 2.59,
+		"sentenceIndex": 9930,
+		"timestamp": 119.26
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 121.85000000000001
+	},
+	{
+		"index": 81,
+		"txt": "There are updated models whose designations are G2, G3, and ECT.",
+		"file": "/home/user1/trash/dirOutputSet/_100_There_are_updated_models_whose_desi_ions_are_G2__G3__and_ECT_____.wav",
+		"duration": 1.9,
+		"sentenceIndex": 9931,
+		"timestamp": 122.35000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 124.25000000000001
+	},
+	{
+		"index": 82,
+		"txt": "If you are interested in the details of highly accurate ballistic modeling, there are a few free programs that can provide you in depth models such as Remington's Shoot!",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_you_are_interested_in_the_detail_uch_as_Remington_s_Shoot_____.wav",
+		"duration": 3.21,
+		"sentenceIndex": 9932,
+		"timestamp": 124.75000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 127.96000000000001
+	},
+	{
+		"index": 83,
+		"txt": "and the GNU Ballistics program.",
+		"file": "/home/user1/trash/dirOutputSet/_100_and_the_GNU_Ballistics_program__e_GNU_Ballistics_program_____.wav",
+		"duration": 0.7,
+		"sentenceIndex": 9933,
+		"timestamp": 128.46
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 129.16
+	},
+	{
+		"index": 84,
+		"txt": "Given that most first person shooters don't yet include wind effects or bullet drop, we'll limit ourselves to a simplified method of turning the existing parameters in the",
+		"file": "/home/user1/trash/dirOutputSet/_100_Given_that_most_first_person_shoote_xisting_parameters_in_the____.wav",
+		"duration": 3.35,
+		"sentenceIndex": 9934,
+		"timestamp": 129.66
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 133.01
+	},
+	{
+		"index": 85,
+		"txt": "Chapter 6 projectile",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 6_projectile_Chapter 6_projectile____.wav",
+		"duration": 0.53,
+		"sentenceIndex": 9935,
+		"timestamp": 133.51
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 134.04
+	},
+	{
+		"index": 89,
+		"txt": "algorithm.",
+		"file": "/home/user1/trash/dirOutputSet/_100_algorithm__algorithm_____.wav",
+		"duration": 0.28,
+		"sentenceIndex": 9939,
+		"timestamp": 134.54
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 134.82
+	},
+	{
+		"index": 92,
+		"txt": "Taking Aim",
+		"file": "/home/user1/trash/dirOutputSet/_100_Taking_Aim_Taking_Aim____.wav",
+		"duration": 0.29,
+		"sentenceIndex": 9942,
+		"timestamp": 135.32
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 135.60999999999999
+	},
+	{
+		"index": 94,
+		"txt": "When discussing aim,",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_discussing_aim__When_discussing_aim_____.wav",
+		"duration": 0.48,
+		"sentenceIndex": 9944,
+		"timestamp": 136.10999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 136.58999999999997
+	},
+	{
+		"index": 97,
+		"txt": "we'll primarily be talking about rifles or carbines here, as handguns are not usually used for long distance shooting.",
+		"file": "/home/user1/trash/dirOutputSet/_100_we_ll_primarily_be_talking_about_ri_r_long_distance_shooting_____.wav",
+		"duration": 2.44,
+		"sentenceIndex": 9947,
+		"timestamp": 137.08999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 139.52999999999997
+	},
+	{
+		"index": 98,
+		"txt": "Similarly, shotguns, given that they fire many small projectiles, are generally not carefully aimed but instead pointed.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Similarly__shotguns__given_that_the_imed_but_instead_pointed_____.wav",
+		"duration": 2.6,
+		"sentenceIndex": 9948,
+		"timestamp": 140.02999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 142.62999999999997
+	},
+	{
+		"index": 99,
+		"txt": "Both of these weapons are what are",
+		"file": "/home/user1/trash/dirOutputSet/_100_Both_of_these_weapons_are_what_are_hese_weapons_are_what_are____.wav",
+		"duration": 0.66,
+		"sentenceIndex": 9949,
+		"timestamp": 143.12999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 143.78999999999996
+	},
+	{
+		"index": 100,
+		"txt": "known as point blank weapons",
+		"file": "/home/user1/trash/dirOutputSet/_100_known_as_point_blank_weapons_wn_as_point_blank_weapons____.wav",
+		"duration": 0.62,
+		"sentenceIndex": 9950,
+		"timestamp": 144.28999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 144.90999999999997
+	},
+	{
+		"index": 102,
+		"txt": "Rifles have a point blank range, which we will discuss, but for handguns and shotguns this really refers to the fact that at the ranges where these weapons are effective, you can reasonably expect to hit where you the point the gun.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Rifles_have_a_point_blank_range__wh_re_you_the_point_the_gun_____.wav",
+		"duration": 4.41,
+		"sentenceIndex": 9952,
+		"timestamp": 145.40999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 149.81999999999996
+	},
+	{
+		"index": 103,
+		"txt": "That is not to say that these weapons don't need to be aimed to be effective, but in the fast paced combat central to most first person shooters it would be tedious to have the player use the sights on a handgun to effectively hit anything.",
+		"file": "/home/user1/trash/dirOutputSet/_100_That_is_not_to_say_that_these_weapo_effectively_hit_anything_____.wav",
+		"duration": 4.62,
+		"sentenceIndex": 9953,
+		"timestamp": 150.31999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 154.93999999999997
+	},
+	{
+		"index": 104,
+		"txt": "Instead, most games use a",
+		"file": "/home/user1/trash/dirOutputSet/_100_Instead__most_games_use_a_Instead__most_games_use_a______.wav",
+		"duration": 0.87,
+		"sentenceIndex": 9954,
+		"timestamp": 155.43999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 156.30999999999997
+	},
+	{
+		"index": 105,
+		"txt": "\"shoot from the hip\"",
+		"file": "/home/user1/trash/dirOutputSet/IVONA_2_Kendra_100_shoot_from_the_hip_shoot_from_the_hip______.wav",
+		"duration": 0.35,
+		"sentenceIndex": 9955,
+		"timestamp": 156.80999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 157.15999999999997
+	},
+	{
+		"index": 106,
+		"txt": "or free aim model, where the gun is not even in line with the camera.",
+		"file": "/home/user1/trash/dirOutputSet/_100_or_free_aim_model__where_the_gun_is__in_line_with_the_camera_______.wav",
+		"duration": 1.44,
+		"sentenceIndex": 9956,
+		"timestamp": 157.65999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 159.09999999999997
+	},
+	{
+		"index": 107,
+		"txt": "The careful programmer might still check to see if the target is within the effective range of the bullet before counting it as a hit even when auto aiming in this manner.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_careful_programmer_might_still__to_aiming_in_this_manner_____.wav",
+		"duration": 2.97,
+		"sentenceIndex": 9957,
+		"timestamp": 159.59999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 162.56999999999996
+	},
+	{
+		"index": 108,
+		"txt": "The effective range is the distance the bullet can travel before hitting the ground.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_effective_range_is_the_distance_efore_hitting_the_ground_____.wav",
+		"duration": 1.57,
+		"sentenceIndex": 9958,
+		"timestamp": 163.06999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 164.63999999999996
+	},
+	{
+		"index": 109,
+		"txt": "Determining this is a straightforward application of the equations in",
+		"file": "/home/user1/trash/dirOutputSet/_100_Determining_this_is_a_straightforwa_ation_of_the_equations_in____.wav",
+		"duration": 1.36,
+		"sentenceIndex": 9959,
+		"timestamp": 165.13999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 166.49999999999997
+	},
+	{
+		"index": 110,
+		"txt": "Chapter 2 and",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 2_and_Chapter 2_and____.wav",
+		"duration": 0.39,
+		"sentenceIndex": 9960,
+		"timestamp": 166.99999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 167.38999999999996
+	},
+	{
+		"index": 112,
+		"txt": "Chapter 6 .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 6___Chapter 6______.wav",
+		"duration": 0.35,
+		"sentenceIndex": 9962,
+		"timestamp": 167.88999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 168.23999999999995
+	},
+	{
+		"index": 114,
+		"txt": "To discuss",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_discuss_To_discuss____.wav",
+		"duration": 0.27,
+		"sentenceIndex": 9964,
+		"timestamp": 168.73999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 169.00999999999996
+	},
+	{
+		"index": 115,
+		"txt": "firearms, we've adapted the code from the",
+		"file": "/home/user1/trash/dirOutputSet/_100_firearms__we_ve_adapted_the_code_fr_adapted_the_code_from_the____.wav",
+		"duration": 0.89,
+		"sentenceIndex": 9965,
+		"timestamp": 169.50999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 170.39999999999995
+	},
+	{
+		"index": 117,
+		"txt": "Cannon2 example in",
+		"file": "/home/user1/trash/dirOutputSet/_100_Cannon2_example_in_Cannon2_example_in____.wav",
+		"duration": 0.54,
+		"sentenceIndex": 9967,
+		"timestamp": 170.89999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 171.43999999999994
+	},
+	{
+		"index": 118,
+		"txt": "Chapter 6",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 6_Chapter 6____.wav",
+		"duration": 0.35,
+		"sentenceIndex": 9968,
+		"timestamp": 171.93999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 172.28999999999994
+	},
+	{
+		"index": 119,
+		"txt": "to run in a Java program called Marksman.",
+		"file": "/home/user1/trash/dirOutputSet/_100_to_run_in_a_Java_program_called_Mar__program_called_Marksman_____.wav",
+		"duration": 0.91,
+		"sentenceIndex": 9969,
+		"timestamp": 172.78999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 173.69999999999993
+	},
+	{
+		"index": 120,
+		"txt": "In our example, the player is looking through a scope at a target of 1 meter by 1 meter.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_our_example__the_player_is_looki_et_of_1_meter_by_1_meter_____.wav",
+		"duration": 1.75,
+		"sentenceIndex": 9970,
+		"timestamp": 174.19999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 175.94999999999993
+	},
+	{
+		"index": 121,
+		"txt": "We've provided him an adjustable level of zoom so that as the range increases, he can still see the target.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ve_provided_him_an_adjustable_le_can_still_see_the_target_____.wav",
+		"duration": 2.14,
+		"sentenceIndex": 9971,
+		"timestamp": 176.44999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 178.58999999999992
+	},
+	{
+		"index": 122,
+		"txt": "The aiming point is shown as an empty circle, and the bullet hole as a black filled circle.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_aiming_point_is_shown_as_an_emp_as_a_black_filled_circle_____.wav",
+		"duration": 1.78,
+		"sentenceIndex": 9972,
+		"timestamp": 179.08999999999992
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 180.86999999999992
+	},
+	{
+		"index": 123,
+		"txt": "The method we've used to determine where the user is aiming in the model world converts the pixel based location of the mouse to a coordinate in the model world.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_method_we_ve_used_to_determine__inate_in_the_model_world_____.wav",
+		"duration": 2.84,
+		"sentenceIndex": 9973,
+		"timestamp": 181.36999999999992
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 184.20999999999992
+	},
+	{
+		"index": 124,
+		"txt": "This distance and the range are then used to find the angles required to aim the gun.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_distance_and_the_range_are_the__required_to_aim_the_gun_____.wav",
+		"duration": 1.67,
+		"sentenceIndex": 9974,
+		"timestamp": 184.70999999999992
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 186.3799999999999
+	},
+	{
+		"index": 125,
+		"txt": "The code to do this is shown next, where alp and gmm are the angles of inclination and bearing.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_code_to_do_this_is_shown_next____inclination_and_bearing_____.wav",
+		"duration": 2.1,
+		"sentenceIndex": 9975,
+		"timestamp": 186.8799999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 188.9799999999999
+	},
+	{
+		"index": 126,
+		"txt": "These are measured from horizontal and the line of view:",
+		"file": "/home/user1/trash/dirOutputSet/_100_These_are_measured_from_horizontal__tal_and_the_line_of_view_____.wav",
+		"duration": 1.09,
+		"sentenceIndex": 9976,
+		"timestamp": 189.4799999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 190.5699999999999
+	},
+	{
+		"index": 128,
+		"txt": "where targetH/drawH is just the ratio of the target height to the height of the target in pixels on the screen.",
+		"file": "/home/user1/trash/dirOutputSet/_100_where_targetH_drawH_is_just_the_rat__in_pixels_on_the_screen_____.wav",
+		"duration": 2.21,
+		"sentenceIndex": 9978,
+		"timestamp": 191.0699999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 193.27999999999992
+	},
+	{
+		"index": 129,
+		"txt": "This allows the mouse coordinate given in pixels to be converted to meters.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_allows_the_mouse_coordinate_gi_o_be_converted_to_meters_____.wav",
+		"duration": 1.54,
+		"sentenceIndex": 9979,
+		"timestamp": 193.77999999999992
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 195.3199999999999
+	},
+	{
+		"index": 130,
+		"txt": "The arctangent then converts the ratio of these distances to an angle for the gun.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_arctangent_then_converts_the_ra__to_an_angle_for_the_gun_____.wav",
+		"duration": 1.7,
+		"sentenceIndex": 9980,
+		"timestamp": 195.8199999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 197.5199999999999
+	},
+	{
+		"index": 131,
+		"txt": "The constant 200 refers to the pixel coordinate system, which is 200 pixels away from the center of the target.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_constant_200_refers_to_the_pixe_the_center_of_the_target_____.wav",
+		"duration": 2.43,
+		"sentenceIndex": 9981,
+		"timestamp": 198.0199999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 200.4499999999999
+	},
+	{
+		"index": 132,
+		"txt": "If you were to adapt this for a full 3D rendering system, you could remove a lot of these conversions we have to do.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_you_were_to_adapt_this_for_a_ful_onversions_we_have_to_do_____.wav",
+		"duration": 2.26,
+		"sentenceIndex": 9982,
+		"timestamp": 200.9499999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 203.2099999999999
+	},
+	{
+		"index": 135,
+		"txt": "At the 10 meter range shown in",
+		"file": "/home/user1/trash/dirOutputSet/_100_At_the_10_meter_range_shown_in_e_10_meter_range_shown_in____.wav",
+		"duration": 0.71,
+		"sentenceIndex": 9985,
+		"timestamp": 203.7099999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 204.4199999999999
+	},
+	{
+		"index": 136,
+		"txt": "Figure 18 1",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 18_1_Figure 18_1____.wav",
+		"duration": 0.64,
+		"sentenceIndex": 9986,
+		"timestamp": 204.9199999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 205.5599999999999
+	},
+	{
+		"index": 137,
+		"txt": ", we are within point blank range and the bullet hole lines up with the sights.",
+		"file": "/home/user1/trash/dirOutputSet/_100___we_are_within_point_blank_range_a_lines_up_with_the_sights_____.wav",
+		"duration": 1.43,
+		"sentenceIndex": 9987,
+		"timestamp": 206.0599999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 207.4899999999999
+	},
+	{
+		"index": 143,
+		"txt": "Figure 18 1. Point blank range",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 18_1_ Point_blank_range_e 18_1_ Point_blank_range____.wav",
+		"duration": 1.2,
+		"sentenceIndex": 9993,
+		"timestamp": 207.9899999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 209.18999999999988
+	},
+	{
+		"index": 145,
+		"txt": "In",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_In____.wav",
+		"duration": 0.17,
+		"sentenceIndex": 9995,
+		"timestamp": 209.68999999999988
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 209.85999999999987
+	},
+	{
+		"index": 146,
+		"txt": "Figure 18 2",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 18_2_Figure 18_2____.wav",
+		"duration": 0.63,
+		"sentenceIndex": 9996,
+		"timestamp": 210.35999999999987
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 210.98999999999987
+	},
+	{
+		"index": 147,
+		"txt": ", with the target at 100 meters, we see that for some reason the bullet is not hitting the target where we have pointed the weapon.",
+		"file": "/home/user1/trash/dirOutputSet/_100___with_the_target_at_100_meters__we__have_pointed_the_weapon_____.wav",
+		"duration": 2.38,
+		"sentenceIndex": 9997,
+		"timestamp": 211.48999999999987
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 213.86999999999986
+	},
+	{
+		"index": 148,
+		"txt": "At 300 meters, the bullet hole isn't even on the target.",
+		"file": "/home/user1/trash/dirOutputSet/_100_At_300_meters__the_bullet_hole_isn__isn_t_even_on_the_target_____.wav",
+		"duration": 1.37,
+		"sentenceIndex": 9998,
+		"timestamp": 214.36999999999986
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 215.73999999999987
+	},
+	{
+		"index": 149,
+		"txt": "You can see that by simply accounting for projective motion and idealized drag, we are already having trouble hitting the bull's eye.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_see_that_by_simply_accounti_e_hitting_the_bull_s_eye_____.wav",
+		"duration": 2.71,
+		"sentenceIndex": 9999,
+		"timestamp": 216.23999999999987
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 218.94999999999987
+	},
+	{
+		"index": 150,
+		"txt": "The process by which these differences are accounted for is called zeroing the sights .",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_process_by_which_these_differen_lled_zeroing_the_sights______.wav",
+		"duration": 1.79,
+		"sentenceIndex": 10000,
+		"timestamp": 219.44999999999987
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 221.23999999999987
+	},
+	{
+		"index": 156,
+		"txt": "Figure 18 2. Hitting lower than expected",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 18_2_ Hitting_lower_than_exp_tting_lower_than_expected____.wav",
+		"duration": 1.3,
+		"sentenceIndex": 10006,
+		"timestamp": 221.73999999999987
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 223.03999999999988
+	},
+	{
+		"index": 158,
+		"txt": "Zeroing the Sights",
+		"file": "/home/user1/trash/dirOutputSet/_100_Zeroing_the_Sights_Zeroing_the_Sights____.wav",
+		"duration": 0.48,
+		"sentenceIndex": 10008,
+		"timestamp": 223.53999999999988
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 224.01999999999987
+	},
+	{
+		"index": 160,
+		"txt": "The idea of zeroing the",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_idea_of_zeroing_the_The_idea_of_zeroing_the____.wav",
+		"duration": 0.56,
+		"sentenceIndex": 10010,
+		"timestamp": 224.51999999999987
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 225.07999999999987
+	},
+	{
+		"index": 163,
+		"txt": "sights is probably the most important thing to model if you want to have realistic gunplay in your game.",
+		"file": "/home/user1/trash/dirOutputSet/_100_sights_is_probably_the_most_importa_tic_gunplay_in_your_game_____.wav",
+		"duration": 2.03,
+		"sentenceIndex": 10013,
+		"timestamp": 225.57999999999987
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 227.60999999999987
+	},
+	{
+		"index": 164,
+		"txt": "As we mentioned before, when players are running from room to room, they probably don't want to be thinking about the wind and the range.",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_we_mentioned_before__when_player_t_the_wind_and_the_range_____.wav",
+		"duration": 2.53,
+		"sentenceIndex": 10014,
+		"timestamp": 228.10999999999987
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 230.63999999999987
+	},
+	{
+		"index": 165,
+		"txt": "However, for a hunting simulation or a sniper game, it may be appropriate to introduce this.",
+		"file": "/home/user1/trash/dirOutputSet/_100_However__for_a_hunting_simulation_o_priate_to_introduce_this_____.wav",
+		"duration": 1.98,
+		"sentenceIndex": 10015,
+		"timestamp": 231.13999999999987
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 233.11999999999986
+	},
+	{
+		"index": 168,
+		"txt": "When a person is looking through a scope, her body and the rifle become a rigid body so that to change the aim of the weapon, she must rotate her entire body.",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_a_person_is_looking_through_a__t_rotate_her_entire_body_____.wav",
+		"duration": 3.07,
+		"sentenceIndex": 10018,
+		"timestamp": 233.61999999999986
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 236.68999999999986
+	},
+	{
+		"index": 169,
+		"txt": "This is convenient for us, because the player generally controls the shooter's position with his left hand via the keyboard and the direction of aim with the right hand.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_convenient_for_us__because___aim_with_the_right_hand_____.wav",
+		"duration": 3.07,
+		"sentenceIndex": 10019,
+		"timestamp": 237.18999999999986
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 240.25999999999985
+	},
+	{
+		"index": 170,
+		"txt": "Other methods of aiming, briefly described previously as free aim, don't really have a counterpart in the real world, so we'll be limiting ourselves to this solid body aiming.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Other_methods_of_aiming__briefly_de_o_this_solid_body_aiming_____.wav",
+		"duration": 3.59,
+		"sentenceIndex": 10020,
+		"timestamp": 240.75999999999985
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 244.34999999999985
+	},
+	{
+		"index": 173,
+		"txt": "Bullet drop: Gravity and air resistance",
+		"file": "/home/user1/trash/dirOutputSet/_100_Bullet_drop__Gravity_and_air_resist_ravity_and_air_resistance____.wav",
+		"duration": 0.95,
+		"sentenceIndex": 10023,
+		"timestamp": 244.84999999999985
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 245.79999999999984
+	},
+	{
+		"index": 175,
+		"txt": "If you are aiming a rifle horizontally,",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_you_are_aiming_a_rifle_horizonta_ing_a_rifle_horizontally_____.wav",
+		"duration": 0.84,
+		"sentenceIndex": 10025,
+		"timestamp": 246.29999999999984
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 247.13999999999984
+	},
+	{
+		"index": 178,
+		"txt": "you might expect that the bullet leaves the muzzle horizontally, and that gravity and air resistance cause it to drop from there.",
+		"file": "/home/user1/trash/dirOutputSet/_100_you_might_expect_that_the_bullet_le_se_it_to_drop_from_there_____.wav",
+		"duration": 2.36,
+		"sentenceIndex": 10028,
+		"timestamp": 247.63999999999984
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 249.99999999999986
+	},
+	{
+		"index": 180,
+		"txt": "Figure 18 3",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 18_3_Figure 18_3____.wav",
+		"duration": 0.68,
+		"sentenceIndex": 10030,
+		"timestamp": 250.49999999999986
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 251.17999999999986
+	},
+	{
+		"index": 181,
+		"txt": "shows a rifle and scope combination that is mounted perfectly parallel.",
+		"file": "/home/user1/trash/dirOutputSet/_100_shows_a_rifle_and_scope_combination_unted_perfectly_parallel_____.wav",
+		"duration": 1.48,
+		"sentenceIndex": 10031,
+		"timestamp": 251.67999999999986
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 253.15999999999985
+	},
+	{
+		"index": 182,
+		"txt": "Ignoring all other factors for a minute, we see that the bullet will never hit where the scope is pointed.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Ignoring_all_other_factors_for_a_mi_ere_the_scope_is_pointed_____.wav",
+		"duration": 1.97,
+		"sentenceIndex": 10032,
+		"timestamp": 253.65999999999985
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 255.62999999999985
+	},
+	{
+		"index": 183,
+		"txt": "It will always be a few centimeters low.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_will_always_be_a_few_centimeters_be_a_few_centimeters_low_____.wav",
+		"duration": 0.91,
+		"sentenceIndex": 10033,
+		"timestamp": 256.1299999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 257.0399999999999
+	},
+	{
+		"index": 189,
+		"txt": "Figure 18 3. Zero elevation scope",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 18_3_ Zero_elevation_scope_8_3_ Zero_elevation_scope____.wav",
+		"duration": 1.37,
+		"sentenceIndex": 10039,
+		"timestamp": 257.5399999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 258.9099999999999
+	},
+	{
+		"index": 191,
+		"txt": "By adjusting the elevation control of the scope, we can make the rifle hit where the scope is pointed.",
+		"file": "/home/user1/trash/dirOutputSet/_100_By_adjusting_the_elevation_control__ere_the_scope_is_pointed_____.wav",
+		"duration": 2.02,
+		"sentenceIndex": 10041,
+		"timestamp": 259.4099999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 261.4299999999999
+	},
+	{
+		"index": 192,
+		"txt": "(See",
+		"file": "/home/user1/trash/dirOutputSet/_100__See__See____.wav",
+		"duration": 0.23,
+		"sentenceIndex": 10042,
+		"timestamp": 261.9299999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 262.1599999999999
+	},
+	{
+		"index": 193,
+		"txt": "Figure 18 4.) The range at which the bullet will cross the line defined by the scope is called",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 18_4___The_range_at_which_th_ed_by_the_scope_is_called____.wav",
+		"duration": 2.18,
+		"sentenceIndex": 10043,
+		"timestamp": 262.6599999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 264.8399999999999
+	},
+	{
+		"index": 195,
+		"txt": "the zero range .",
+		"file": "/home/user1/trash/dirOutputSet/_100_the_zero_range___the_zero_range______.wav",
+		"duration": 0.42,
+		"sentenceIndex": 10045,
+		"timestamp": 265.3399999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 265.75999999999993
+	},
+	{
+		"index": 196,
+		"txt": "If a target is at the zero range, you simply point the crosshairs and pull the trigger.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_a_target_is_at_the_zero_range__y_irs_and_pull_the_trigger_____.wav",
+		"duration": 1.84,
+		"sentenceIndex": 10046,
+		"timestamp": 266.25999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 268.0999999999999
+	},
+	{
+		"index": 202,
+		"txt": "Figure 18 4. Scope with elevation",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 18_4_ Scope_with_elevation_8_4_ Scope_with_elevation____.wav",
+		"duration": 1.22,
+		"sentenceIndex": 10052,
+		"timestamp": 268.5999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 269.81999999999994
+	},
+	{
+		"index": 204,
+		"txt": "If we remove the target and graph the trajectory, it would look something like",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_we_remove_the_target_and_graph_t_would_look_something_like____.wav",
+		"duration": 1.44,
+		"sentenceIndex": 10054,
+		"timestamp": 270.31999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 271.75999999999993
+	},
+	{
+		"index": 205,
+		"txt": "Figure 18 5",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 18_5_Figure 18_5____.wav",
+		"duration": 0.69,
+		"sentenceIndex": 10055,
+		"timestamp": 272.25999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 272.94999999999993
+	},
+	{
+		"index": 212,
+		"txt": "Figure 18 5. Ballistic trajectory",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 18_5_ Ballistic_trajectory_8_5_ Ballistic_trajectory____.wav",
+		"duration": 1.21,
+		"sentenceIndex": 10062,
+		"timestamp": 273.44999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 274.6599999999999
+	},
+	{
+		"index": 214,
+		"txt": "Here we can see there is a second point in which the bullet will cross the line made by the scope's crosshairs.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_we_can_see_there_is_a_second_p_y_the_scope_s_crosshairs_____.wav",
+		"duration": 2.01,
+		"sentenceIndex": 10064,
+		"timestamp": 275.1599999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 277.1699999999999
+	},
+	{
+		"index": 215,
+		"txt": "This is called",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_called_This_is_called____.wav",
+		"duration": 0.34,
+		"sentenceIndex": 10065,
+		"timestamp": 277.6699999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 278.0099999999999
+	},
+	{
+		"index": 217,
+		"txt": "the far zero, or second zero .",
+		"file": "/home/user1/trash/dirOutputSet/_100_the_far_zero__or_second_zero___ar_zero__or_second_zero______.wav",
+		"duration": 0.85,
+		"sentenceIndex": 10067,
+		"timestamp": 278.5099999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 279.3599999999999
+	},
+	{
+		"index": 218,
+		"txt": "This is generally where the thing you will be shooting at will be.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_generally_where_the_thing_y_l_be_shooting_at_will_be_____.wav",
+		"duration": 1,
+		"sentenceIndex": 10068,
+		"timestamp": 279.8599999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 280.8599999999999
+	},
+	{
+		"index": 219,
+		"txt": "This diagram is often available from ammunition suppliers.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_diagram_is_often_available_fro_rom_ammunition_suppliers_____.wav",
+		"duration": 1.33,
+		"sentenceIndex": 10069,
+		"timestamp": 281.3599999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 282.6899999999999
+	},
+	{
+		"index": 220,
+		"txt": "More often, they provide ballistic tables of downrange heights.",
+		"file": "/home/user1/trash/dirOutputSet/_100_More_often__they_provide_ballistic__les_of_downrange_heights_____.wav",
+		"duration": 1.56,
+		"sentenceIndex": 10070,
+		"timestamp": 283.1899999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 284.7499999999999
+	},
+	{
+		"index": 221,
+		"txt": "It is important when using these charts that you remember they assume the scope to be horizontal and that the bullet starts with a negative height below the scope line.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_is_important_when_using_these_ch_ght_below_the_scope_line_____.wav",
+		"duration": 2.99,
+		"sentenceIndex": 10071,
+		"timestamp": 285.2499999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 288.2399999999999
+	},
+	{
+		"index": 223,
+		"txt": "Table 18 1",
+		"file": "/home/user1/trash/dirOutputSet/_100_Table 18_1_Table 18_1____.wav",
+		"duration": 0.45,
+		"sentenceIndex": 10073,
+		"timestamp": 288.7399999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 289.1899999999999
+	},
+	{
+		"index": 224,
+		"txt": "shows data from Remington's website and assumes the rifle was zeroed at 100 yards; it tells you how far the bullet is below the horizontal at every 50 yards past that 0.",
+		"file": "/home/user1/trash/dirOutputSet/_100_shows_data_from_Remington_s_website_ery_50_yards_past_that_0_____.wav",
+		"duration": 3.88,
+		"sentenceIndex": 10074,
+		"timestamp": 289.6899999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 293.5699999999999
+	},
+	{
+		"index": 225,
+		"txt": "You can tune the drag coefficient in the projectile simulation to match these elevations.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_tune_the_drag_coefficient_i_o_match_these_elevations_____.wav",
+		"duration": 1.7,
+		"sentenceIndex": 10075,
+		"timestamp": 294.0699999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 295.76999999999987
+	},
+	{
+		"index": 227,
+		"txt": "Table 18 1. Long range trajectory Remington Express .45–70 Govt",
+		"file": "/home/user1/trash/dirOutputSet/_100_Table 18_1_ Long_range_trajectory_R_ngton_Express__45_70_Govt____.wav",
+		"duration": 2.42,
+		"sentenceIndex": 10077,
+		"timestamp": 296.26999999999987
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 298.6899999999999
+	},
+	{
+		"index": 228,
+		"txt": "Range in yards",
+		"file": "/home/user1/trash/dirOutputSet/_100_Range_in_yards_Range_in_yards____.wav",
+		"duration": 0.4,
+		"sentenceIndex": 10078,
+		"timestamp": 299.1899999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 299.58999999999986
+	},
+	{
+		"index": 229,
+		"txt": "100",
+		"file": "/home/user1/trash/dirOutputSet/_100_100_100____.wav",
+		"duration": 0.3,
+		"sentenceIndex": 10079,
+		"timestamp": 300.08999999999986
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 300.3899999999999
+	},
+	{
+		"index": 230,
+		"txt": "150",
+		"file": "/home/user1/trash/dirOutputSet/_100_150_150____.wav",
+		"duration": 0.42,
+		"sentenceIndex": 10080,
+		"timestamp": 300.8899999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 301.3099999999999
+	},
+	{
+		"index": 231,
+		"txt": "200",
+		"file": "/home/user1/trash/dirOutputSet/_100_200_200____.wav",
+		"duration": 0.27,
+		"sentenceIndex": 10081,
+		"timestamp": 301.8099999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 302.07999999999987
+	},
+	{
+		"index": 232,
+		"txt": "250",
+		"file": "/home/user1/trash/dirOutputSet/_100_250_250____.wav",
+		"duration": 0.41,
+		"sentenceIndex": 10082,
+		"timestamp": 302.57999999999987
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 302.9899999999999
+	},
+	{
+		"index": 233,
+		"txt": "300",
+		"file": "/home/user1/trash/dirOutputSet/_100_300_300____.wav",
+		"duration": 0.3,
+		"sentenceIndex": 10083,
+		"timestamp": 303.4899999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 303.7899999999999
+	},
+	{
+		"index": 234,
+		"txt": "400",
+		"file": "/home/user1/trash/dirOutputSet/_100_400_400____.wav",
+		"duration": 0.33,
+		"sentenceIndex": 10084,
+		"timestamp": 304.2899999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 304.6199999999999
+	},
+	{
+		"index": 235,
+		"txt": "500",
+		"file": "/home/user1/trash/dirOutputSet/_100_500_500____.wav",
+		"duration": 0.32,
+		"sentenceIndex": 10085,
+		"timestamp": 305.1199999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 305.4399999999999
+	},
+	{
+		"index": 236,
+		"txt": "Drop in inches",
+		"file": "/home/user1/trash/dirOutputSet/_100_Drop_in_inches_Drop_in_inches____.wav",
+		"duration": 0.4,
+		"sentenceIndex": 10086,
+		"timestamp": 305.9399999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 306.33999999999986
+	},
+	{
+		"index": 237,
+		"txt": "0",
+		"file": "/home/user1/trash/dirOutputSet/_100_0_0____.wav",
+		"duration": 0.21,
+		"sentenceIndex": 10087,
+		"timestamp": 306.83999999999986
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 307.04999999999984
+	},
+	{
+		"index": 238,
+		"txt": "−4.6",
+		"file": "/home/user1/trash/dirOutputSet/_100__4_6__4_6____.wav",
+		"duration": 0.74,
+		"sentenceIndex": 10088,
+		"timestamp": 307.54999999999984
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 308.28999999999985
+	},
+	{
+		"index": 239,
+		"txt": "−13.8",
+		"file": "/home/user1/trash/dirOutputSet/_100__13_8__13_8____.wav",
+		"duration": 0.79,
+		"sentenceIndex": 10089,
+		"timestamp": 308.78999999999985
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 309.57999999999987
+	},
+	{
+		"index": 240,
+		"txt": "−28.6",
+		"file": "/home/user1/trash/dirOutputSet/_100__28_6__28_6____.wav",
+		"duration": 0.84,
+		"sentenceIndex": 10090,
+		"timestamp": 310.07999999999987
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 310.91999999999985
+	},
+	{
+		"index": 241,
+		"txt": "−50.1",
+		"file": "/home/user1/trash/dirOutputSet/_100__50_1__50_1____.wav",
+		"duration": 0.71,
+		"sentenceIndex": 10091,
+		"timestamp": 311.41999999999985
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 312.1299999999998
+	},
+	{
+		"index": 242,
+		"txt": "−115.47",
+		"file": "/home/user1/trash/dirOutputSet/_100__115_47__115_47____.wav",
+		"duration": 1.06,
+		"sentenceIndex": 10092,
+		"timestamp": 312.6299999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 313.6899999999998
+	},
+	{
+		"index": 243,
+		"txt": "−219.1",
+		"file": "/home/user1/trash/dirOutputSet/_100__219_1__219_1____.wav",
+		"duration": 0.84,
+		"sentenceIndex": 10093,
+		"timestamp": 314.1899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 315.0299999999998
+	},
+	{
+		"index": 245,
+		"txt": "From this table you can see that the bullet drop is over two feet at 250 yards.",
+		"file": "/home/user1/trash/dirOutputSet/_100_From_this_table_you_can_see_that_th_er_two_feet_at_250_yards_____.wav",
+		"duration": 1.82,
+		"sentenceIndex": 10095,
+		"timestamp": 315.5299999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 317.3499999999998
+	},
+	{
+		"index": 246,
+		"txt": "This means that if the target is at 250 yards and your scope is zeroed at 100 yards, then you would have to aim two feet above your target to hit it.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_means_that_if_the_target_is_at_ve_your_target_to_hit_it_____.wav",
+		"duration": 3.11,
+		"sentenceIndex": 10096,
+		"timestamp": 317.8499999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 320.9599999999998
+	},
+	{
+		"index": 247,
+		"txt": "That might be high enough that you can't even see the target in the scope anymore",
+		"file": "/home/user1/trash/dirOutputSet/_100_That_might_be_high_enough_that_you__rget_in_the_scope_anymore____.wav",
+		"duration": 1.47,
+		"sentenceIndex": 10097,
+		"timestamp": 321.4599999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 322.92999999999984
+	},
+	{
+		"index": 250,
+		"txt": "To counteract this problem, most rifles come with scopes that have",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_counteract_this_problem__most_ri_ome_with_scopes_that_have____.wav",
+		"duration": 1.41,
+		"sentenceIndex": 10100,
+		"timestamp": 323.42999999999984
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 324.83999999999986
+	},
+	{
+		"index": 251,
+		"txt": "elevation adjustments.",
+		"file": "/home/user1/trash/dirOutputSet/_100_elevation_adjustments__elevation_adjustments_____.wav",
+		"duration": 0.53,
+		"sentenceIndex": 10101,
+		"timestamp": 325.33999999999986
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 325.86999999999983
+	},
+	{
+		"index": 252,
+		"txt": "This is a knob on the side of the scope that can be rotated to discrete settings called clicks.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_a_knob_on_the_side_of_the_s_e_settings_called_clicks_____.wav",
+		"duration": 1.83,
+		"sentenceIndex": 10102,
+		"timestamp": 326.36999999999983
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 328.1999999999998
+	},
+	{
+		"index": 253,
+		"txt": "Most scopes use a 1/4 minute of angle adjustment per click although some use 1/8, 1/2, or even full minutes.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Most_scopes_use_a_1_4_minute_of_ang__2__or_even_full_minutes_____.wav",
+		"duration": 2.62,
+		"sentenceIndex": 10103,
+		"timestamp": 328.6999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 331.3199999999998
+	},
+	{
+		"index": 254,
+		"txt": "A minute of angle is simply 1/60 of a degree.",
+		"file": "/home/user1/trash/dirOutputSet/_100_A_minute_of_angle_is_simply_1_60_of__simply_1_60_of_a_degree_____.wav",
+		"duration": 1.01,
+		"sentenceIndex": 10104,
+		"timestamp": 331.8199999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 332.8299999999998
+	},
+	{
+		"index": 255,
+		"txt": "Therefore, when adjusting for elevation, the shooter can turn a knob on the scope, and as she hears the clicks, she knows that she has adjusted her scope however many minutes of angle.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Therefore__when_adjusting_for_eleva_er_many_minutes_of_angle_____.wav",
+		"duration": 3.67,
+		"sentenceIndex": 10105,
+		"timestamp": 333.3299999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 336.99999999999983
+	},
+	{
+		"index": 256,
+		"txt": "Now when she re aims the crosshairs on the target, the barrel will have a slightly different angle than it did before, essentially aiming higher to accommodate the longer distance.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now_when_she_re_aims_the_crosshairs_date_the_longer_distance_____.wav",
+		"duration": 3.43,
+		"sentenceIndex": 10106,
+		"timestamp": 337.49999999999983
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 340.92999999999984
+	},
+	{
+		"index": 259,
+		"txt": "To achieve high accuracy in the field, the shooter would know that she zeroed her rifle to a certain range.",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_achieve_high_accuracy_in_the_fie_rifle_to_a_certain_range_____.wav",
+		"duration": 1.97,
+		"sentenceIndex": 10109,
+		"timestamp": 341.42999999999984
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 343.39999999999986
+	},
+	{
+		"index": 260,
+		"txt": "Then, when attempting a shot, she would estimate the range to her target and adjust the scope however many clicks up or down.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Then__when_attempting_a_shot__she_w_r_many_clicks_up_or_down_____.wav",
+		"duration": 2.45,
+		"sentenceIndex": 10110,
+		"timestamp": 343.89999999999986
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 346.34999999999985
+	},
+	{
+		"index": 261,
+		"txt": "The biggest cause of error is an inaccurate estimate of range.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_biggest_cause_of_error_is_an_in_curate_estimate_of_range_____.wav",
+		"duration": 1.19,
+		"sentenceIndex": 10111,
+		"timestamp": 346.84999999999985
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 348.03999999999985
+	},
+	{
+		"index": 262,
+		"txt": "Modern shooters often use laser range finders to determine exactly what elevation offset is required.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Modern_shooters_often_use_laser_ran_ation_offset_is_required_____.wav",
+		"duration": 2.3,
+		"sentenceIndex": 10112,
+		"timestamp": 348.53999999999985
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 350.83999999999986
+	},
+	{
+		"index": 263,
+		"txt": "In long distance shooting situations, you can provide the range to the users and let them adjust the rifle's scope from the current zero range to a new zero range.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_long_distance_shooting_situation_ange_to_a_new_zero_range_____.wav",
+		"duration": 3.36,
+		"sentenceIndex": 10113,
+		"timestamp": 351.33999999999986
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 354.6999999999999
+	},
+	{
+		"index": 266,
+		"txt": "Most games today don't model even the effect of gravity on a bullet, so adding elevation adjustment to a sniper or hunting portion of your game will add much needed",
+		"file": "/home/user1/trash/dirOutputSet/_100_Most_games_today_don_t_model_even_t_game_will_add_much_needed____.wav",
+		"duration": 3.33,
+		"sentenceIndex": 10116,
+		"timestamp": 355.1999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 358.52999999999986
+	},
+	{
+		"index": 269,
+		"txt": "accuracy.",
+		"file": "/home/user1/trash/dirOutputSet/_100_accuracy__accuracy_____.wav",
+		"duration": 0.27,
+		"sentenceIndex": 10119,
+		"timestamp": 359.02999999999986
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 359.29999999999984
+	},
+	{
+		"index": 272,
+		"txt": "Wind",
+		"file": "/home/user1/trash/dirOutputSet/_100_Wind_Wind____.wav",
+		"duration": 0.19,
+		"sentenceIndex": 10122,
+		"timestamp": 359.79999999999984
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 359.98999999999984
+	},
+	{
+		"index": 274,
+		"txt": "Just like in the",
+		"file": "/home/user1/trash/dirOutputSet/_100_Just_like_in_the_Just_like_in_the____.wav",
+		"duration": 0.34,
+		"sentenceIndex": 10124,
+		"timestamp": 360.48999999999984
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 360.8299999999998
+	},
+	{
+		"index": 275,
+		"txt": "Chapter 6 projectile",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 6_projectile_Chapter 6_projectile____.wav",
+		"duration": 0.53,
+		"sentenceIndex": 10125,
+		"timestamp": 361.3299999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 361.8599999999998
+	},
+	{
+		"index": 278,
+		"txt": "example, our target shooting game's bullets are affected by wind.",
+		"file": "/home/user1/trash/dirOutputSet/_100_example__our_target_shooting_game_s_ets_are_affected_by_wind_____.wav",
+		"duration": 1.4,
+		"sentenceIndex": 10128,
+		"timestamp": 362.3599999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 363.75999999999976
+	},
+	{
+		"index": 279,
+		"txt": "Just as before, a bullet's susceptibility to wind largely depends on its lateral drag coefficient.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Just_as_before__a_bullet_s_suscepti_lateral_drag_coefficient_____.wav",
+		"duration": 2.26,
+		"sentenceIndex": 10129,
+		"timestamp": 364.25999999999976
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 366.51999999999975
+	},
+	{
+		"index": 280,
+		"txt": "In our simulation, you can tune the bullet's susceptibility to the wind by adjusting the factor Cw .",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_our_simulation__you_can_tune_the_adjusting_the_factor_Cw______.wav",
+		"duration": 2.1,
+		"sentenceIndex": 10130,
+		"timestamp": 367.01999999999975
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 369.1199999999998
+	},
+	{
+		"index": 281,
+		"txt": "This, again, will apply only to rifles shooting at long ranges.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This__again__will_apply_only_to_rif__shooting_at_long_ranges_____.wav",
+		"duration": 1.53,
+		"sentenceIndex": 10131,
+		"timestamp": 369.6199999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 371.14999999999975
+	},
+	{
+		"index": 282,
+		"txt": "At 20 meters, the wind will have little to do in determining where a bullet will hit.",
+		"file": "/home/user1/trash/dirOutputSet/_100_At_20_meters__the_wind_will_have_li__where_a_bullet_will_hit_____.wav",
+		"duration": 1.59,
+		"sentenceIndex": 10132,
+		"timestamp": 371.64999999999975
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 373.2399999999997
+	},
+	{
+		"index": 283,
+		"txt": "At 600 meters, it can cause the bullet to be off by a meter!",
+		"file": "/home/user1/trash/dirOutputSet/_100_At_600_meters__it_can_cause_the_bul_let_to_be_off_by_a_meter_____.wav",
+		"duration": 1.35,
+		"sentenceIndex": 10133,
+		"timestamp": 373.7399999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 375.08999999999975
+	},
+	{
+		"index": 284,
+		"txt": "The adjustment for wind is similar to the adjustment for elevation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_adjustment_for_wind_is_similar__adjustment_for_elevation_____.wav",
+		"duration": 1.24,
+		"sentenceIndex": 10134,
+		"timestamp": 375.58999999999975
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 376.82999999999976
+	},
+	{
+		"index": 285,
+		"txt": "By turning a knob, you can adjust your scope or sights to be slightly to the right or left of the barrel's centerline.",
+		"file": "/home/user1/trash/dirOutputSet/_100_By_turning_a_knob__you_can_adjust_y__the_barrel_s_centerline_____.wav",
+		"duration": 2.3,
+		"sentenceIndex": 10135,
+		"timestamp": 377.32999999999976
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 379.62999999999977
+	},
+	{
+		"index": 286,
+		"txt": "This angle, called gamma in our simulation, enables you to cancel out the effect of wind.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_angle__called_gamma_in_our_sim_l_out_the_effect_of_wind_____.wav",
+		"duration": 1.97,
+		"sentenceIndex": 10136,
+		"timestamp": 380.12999999999977
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 382.0999999999998
+	},
+	{
+		"index": 289,
+		"txt": "To deal with wind in the field, we require simple calculations that depend on the particular performance of the shooter's ammunition.",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_deal_with_wind_in_the_field__we__the_shooter_s_ammunition_____.wav",
+		"duration": 2.51,
+		"sentenceIndex": 10139,
+		"timestamp": 382.5999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 385.1099999999998
+	},
+	{
+		"index": 290,
+		"txt": "It may work something like this: if the wind is blowing directly across your shot, the adjustment in inches is going to be half the wind speed in miles per hour.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_may_work_something_like_this__if__speed_in_miles_per_hour_____.wav",
+		"duration": 3.28,
+		"sentenceIndex": 10140,
+		"timestamp": 385.6099999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 388.88999999999976
+	},
+	{
+		"index": 291,
+		"txt": "Of course, there are many other rules of thumb that differ for each caliber of ammunition, but for our simulation you can tune the wind drag coefficient to whatever value you want your shooter to encounter.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Of_course__there_are_many_other_rul_our_shooter_to_encounter_____.wav",
+		"duration": 3.94,
+		"sentenceIndex": 10141,
+		"timestamp": 389.38999999999976
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 393.32999999999976
+	},
+	{
+		"index": 292,
+		"txt": "He will have to spend some time at the range, just like a real shooter, figuring out how much the wind affects his shots.",
+		"file": "/home/user1/trash/dirOutputSet/_100_He_will_have_to_spend_some_time_at__e_wind_affects_his_shots_____.wav",
+		"duration": 2.43,
+		"sentenceIndex": 10142,
+		"timestamp": 393.82999999999976
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 396.25999999999976
+	},
+	{
+		"index": 293,
+		"txt": "As the wind changes, he will have to adjust in real time and either aim to the left or right of the target or readjust the windage settings for the",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_the_wind_changes__he_will_have_t__windage_settings_for_the____.wav",
+		"duration": 2.73,
+		"sentenceIndex": 10143,
+		"timestamp": 396.75999999999976
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 399.4899999999998
+	},
+	{
+		"index": 295,
+		"txt": "scope.",
+		"file": "/home/user1/trash/dirOutputSet/_100_scope__scope_____.wav",
+		"duration": 0.24,
+		"sentenceIndex": 10145,
+		"timestamp": 399.9899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 400.2299999999998
+	},
+	{
+		"index": 298,
+		"txt": "Breathing and Body Position",
+		"file": "/home/user1/trash/dirOutputSet/_100_Breathing_and_Body_Position_eathing_and_Body_Position____.wav",
+		"duration": 0.57,
+		"sentenceIndex": 10148,
+		"timestamp": 400.7299999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 401.2999999999998
+	},
+	{
+		"index": 300,
+		"txt": "Although most games",
+		"file": "/home/user1/trash/dirOutputSet/_100_Although_most_games_Although_most_games____.wav",
+		"duration": 0.45,
+		"sentenceIndex": 10150,
+		"timestamp": 401.7999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 402.2499999999998
+	},
+	{
+		"index": 301,
+		"txt": "don't model gravity and wind when calculating bullet trajectories, many do attempt to regulate the accuracy with which you initially fire the bullet.",
+		"file": "/home/user1/trash/dirOutputSet/_100_don_t_model_gravity_and_wind_when_c_nitially_fire_the_bullet_____.wav",
+		"duration": 3.01,
+		"sentenceIndex": 10151,
+		"timestamp": 402.7499999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 405.75999999999976
+	},
+	{
+		"index": 302,
+		"txt": "Most commonly, game developers accomplish this by approximating the crosshairs with four lines that do not intersect.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Most_commonly__game_developers_acco_es_that_do_not_intersect_____.wav",
+		"duration": 2.5,
+		"sentenceIndex": 10152,
+		"timestamp": 406.25999999999976
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 408.75999999999976
+	},
+	{
+		"index": 303,
+		"txt": "When fired, the bullet will land anywhere within the circle described by the inner endpoints of these four lines.",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_fired__the_bullet_will_land_an_ints_of_these_four_lines_____.wav",
+		"duration": 2.2,
+		"sentenceIndex": 10153,
+		"timestamp": 409.25999999999976
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 411.45999999999975
+	},
+	{
+		"index": 304,
+		"txt": "Different weapons have different accuracies, and the lines can move in or out to reflect that.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Different_weapons_have_different_ac_n_or_out_to_reflect_that_____.wav",
+		"duration": 1.83,
+		"sentenceIndex": 10154,
+		"timestamp": 411.95999999999975
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 413.78999999999974
+	},
+	{
+		"index": 305,
+		"txt": "Usually the first shot is the most accurate, and once the weapon is fired you must",
+		"file": "/home/user1/trash/dirOutputSet/_100_Usually_the_first_shot_is_the_most___weapon_is_fired_you_must______.wav",
+		"duration": 1.64,
+		"sentenceIndex": 10155,
+		"timestamp": 414.28999999999974
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 415.9299999999997
+	},
+	{
+		"index": 306,
+		"txt": "\"resight\"",
+		"file": "/home/user1/trash/dirOutputSet/IVONA_2_Kendra_100_resight_resight______.wav",
+		"duration": 0.21,
+		"sentenceIndex": 10156,
+		"timestamp": 416.4299999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 416.6399999999997
+	},
+	{
+		"index": 307,
+		"txt": "the target, and this takes time.",
+		"file": "/home/user1/trash/dirOutputSet/_100_the_target__and_this_takes_time__get__and_this_takes_time_______.wav",
+		"duration": 0.73,
+		"sentenceIndex": 10157,
+		"timestamp": 417.1399999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 417.8699999999997
+	},
+	{
+		"index": 308,
+		"txt": "Therefore, shots fired in quick succession usually become less and less accurate.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Therefore__shots_fired_in_quick_suc_e_less_and_less_accurate_____.wav",
+		"duration": 1.68,
+		"sentenceIndex": 10158,
+		"timestamp": 418.3699999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 420.0499999999997
+	},
+	{
+		"index": 311,
+		"txt": "In our simulation, we modeled a few things that affect accuracy in the real world and will give you some suggestions for other factors you could easily include.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_our_simulation__we_modeled_a_few_you_could_easily_include_____.wav",
+		"duration": 3.14,
+		"sentenceIndex": 10161,
+		"timestamp": 420.5499999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 423.6899999999997
+	},
+	{
+		"index": 312,
+		"txt": "As our game was most interested in long distance shooting via rifles, the most common source of error is breathing.",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_our_game_was_most_interested_in__ce_of_error_is_breathing_____.wav",
+		"duration": 2.31,
+		"sentenceIndex": 10162,
+		"timestamp": 424.1899999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 426.4999999999997
+	},
+	{
+		"index": 313,
+		"txt": "As discussed before, when a shooter is looking through a scope on a rifle, she essentially becomes a fixed body.",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_discussed_before__when_a_shooter_lly_becomes_a_fixed_body_____.wav",
+		"duration": 2.32,
+		"sentenceIndex": 10163,
+		"timestamp": 426.9999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 429.3199999999997
+	},
+	{
+		"index": 314,
+		"txt": "As she breathes, the rifle is essentially breathing too.",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_she_breathes__the_rifle_is_essen_ssentially_breathing_too_____.wav",
+		"duration": 1.2,
+		"sentenceIndex": 10164,
+		"timestamp": 429.8199999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 431.0199999999997
+	},
+	{
+		"index": 315,
+		"txt": "When making difficult shots, it is very common for the shooter to take a breath and hold it while firing.",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_making_difficult_shots__it_is__and_hold_it_while_firing_____.wav",
+		"duration": 1.96,
+		"sentenceIndex": 10165,
+		"timestamp": 431.5199999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 433.4799999999997
+	},
+	{
+		"index": 316,
+		"txt": "In our simulation, we've modeled this with a breathing class that adjusts the point of aim up and down with time to mimic how a scope moves when the shooter is breathing deeply.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_our_simulation__we_ve_modeled_th_oter_is_breathing_deeply_____.wav",
+		"duration": 3.18,
+		"sentenceIndex": 10166,
+		"timestamp": 433.9799999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 437.1599999999997
+	},
+	{
+		"index": 317,
+		"txt": "This works via a timer started in our initComponents() function that fires every 100 ms.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_works_via_a_timer_started_in_o__that_fires_every_100_ms_____.wav",
+		"duration": 2.02,
+		"sentenceIndex": 10167,
+		"timestamp": 437.6599999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 439.67999999999967
+	},
+	{
+		"index": 318,
+		"txt": "In the code that follows, you'll see that this leads to a breath every two seconds.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_the_code_that_follows__you_ll_se_breath_every_two_seconds_____.wav",
+		"duration": 1.57,
+		"sentenceIndex": 10168,
+		"timestamp": 440.17999999999967
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 441.74999999999966
+	},
+	{
+		"index": 321,
+		"txt": "That function causes the aim point (aimX, aimY) to be moved independently of the cursor via the following algorithm:",
+		"file": "/home/user1/trash/dirOutputSet/_100_That_function_causes_the_aim_point___the_following_algorithm_____.wav",
+		"duration": 2.73,
+		"sentenceIndex": 10171,
+		"timestamp": 442.24999999999966
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 444.9799999999997
+	},
+	{
+		"index": 323,
+		"txt": "Here we are simply moving it up to some limit in our case, 5 pixels and then moving it back down.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_we_are_simply_moving_it_up_to__then_moving_it_back_down_____.wav",
+		"duration": 2.07,
+		"sentenceIndex": 10173,
+		"timestamp": 445.4799999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 447.54999999999967
+	},
+	{
+		"index": 324,
+		"txt": "A better implementation would increase the unsteadiness as the user zooms in, as shakes are magnified also.",
+		"file": "/home/user1/trash/dirOutputSet/_100_A_better_implementation_would_incre_hakes_are_magnified_also_____.wav",
+		"duration": 2.25,
+		"sentenceIndex": 10174,
+		"timestamp": 448.04999999999967
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 450.29999999999967
+	},
+	{
+		"index": 325,
+		"txt": "There is no limit to the innovative functions you can use to move the aiming circle away from the cursor to simulate the reality of having to aim a gun.",
+		"file": "/home/user1/trash/dirOutputSet/_100_There_is_no_limit_to_the_innovative_y_of_having_to_aim_a_gun_____.wav",
+		"duration": 2.9,
+		"sentenceIndex": 10175,
+		"timestamp": 450.79999999999967
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 453.69999999999965
+	},
+	{
+		"index": 326,
+		"txt": "Yet this is certainly an area of first person shooters that is lacking in variety.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Yet_this_is_certainly_an_area_of_fi_at_is_lacking_in_variety_____.wav",
+		"duration": 1.65,
+		"sentenceIndex": 10176,
+		"timestamp": 454.19999999999965
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 455.8499999999996
+	},
+	{
+		"index": 328,
+		"txt": "When he is ready to fire, the user can left click to hold his breath, the variable breathing becomes false , and the crosshairs will stop moving.",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_he_is_ready_to_fire__the_user__sshairs_will_stop_moving_____.wav",
+		"duration": 3.01,
+		"sentenceIndex": 10178,
+		"timestamp": 456.3499999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 459.3599999999996
+	},
+	{
+		"index": 329,
+		"txt": "This simple addition makes the game much more challenging and engaging.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_simple_addition_makes_the_game_challenging_and_engaging_____.wav",
+		"duration": 1.41,
+		"sentenceIndex": 10179,
+		"timestamp": 459.8599999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 461.26999999999964
+	},
+	{
+		"index": 330,
+		"txt": "It should be noted that if the shooter holds his breath too long in real life, the aim will again become unsteady as his body reacts to not having fresh oxygen.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_should_be_noted_that_if_the_shoo__not_having_fresh_oxygen_____.wav",
+		"duration": 3.13,
+		"sentenceIndex": 10180,
+		"timestamp": 461.76999999999964
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 464.89999999999964
+	},
+	{
+		"index": 331,
+		"txt": "Another improvement to this algorithm would be for the aim to become unstable after the left mouse button is pressed for some amount of time.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Another_improvement_to_this_algorit__for_some_amount_of_time_____.wav",
+		"duration": 2.62,
+		"sentenceIndex": 10181,
+		"timestamp": 465.39999999999964
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 468.01999999999964
+	},
+	{
+		"index": 334,
+		"txt": "Many games also change the accuracy of a weapon depending on body position.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Many_games_also_change_the_accuracy_pending_on_body_position_____.wav",
+		"duration": 1.65,
+		"sentenceIndex": 10184,
+		"timestamp": 468.51999999999964
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 470.1699999999996
+	},
+	{
+		"index": 335,
+		"txt": "There are three basic types of",
+		"file": "/home/user1/trash/dirOutputSet/_100_There_are_three_basic_types_of__are_three_basic_types_of____.wav",
+		"duration": 0.64,
+		"sentenceIndex": 10185,
+		"timestamp": 470.6699999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 471.3099999999996
+	},
+	{
+		"index": 336,
+		"txt": "shooting positions: standing, kneeling, and prone.",
+		"file": "/home/user1/trash/dirOutputSet/_100_shooting_positions__standing__kneel_ing__kneeling__and_prone_____.wav",
+		"duration": 1.25,
+		"sentenceIndex": 10186,
+		"timestamp": 471.8099999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 473.0599999999996
+	},
+	{
+		"index": 339,
+		"txt": "Standing is you guessed it standing up.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Standing_is_you_guessed_it_standing_u_guessed_it_standing_up_____.wav",
+		"duration": 0.73,
+		"sentenceIndex": 10189,
+		"timestamp": 473.5599999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 474.2899999999996
+	},
+	{
+		"index": 341,
+		"txt": "Kneeling is some form of squatting rather than just kneeling on your knees.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Kneeling_is_some_form_of_squatting__t_kneeling_on_your_knees_____.wav",
+		"duration": 1.39,
+		"sentenceIndex": 10191,
+		"timestamp": 474.7899999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 476.1799999999996
+	},
+	{
+		"index": 343,
+		"txt": "Prone is laid flat on the ground.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Prone_is_laid_flat_on_the_ground___laid_flat_on_the_ground_____.wav",
+		"duration": 0.68,
+		"sentenceIndex": 10193,
+		"timestamp": 476.6799999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 477.3599999999996
+	},
+	{
+		"index": 344,
+		"txt": "Because the rifle is locked to your body, the less unstable your body is, the less unstable the aim.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Because_the_rifle_is_locked_to_your_he_less_unstable_the_aim_____.wav",
+		"duration": 2.16,
+		"sentenceIndex": 10194,
+		"timestamp": 477.8599999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 480.01999999999964
+	},
+	{
+		"index": 345,
+		"txt": "When standing, your body's muscles have to do a lot of work to remain upright.",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_standing__your_body_s_muscles__f_work_to_remain_upright_____.wav",
+		"duration": 1.6,
+		"sentenceIndex": 10195,
+		"timestamp": 480.51999999999964
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 482.11999999999966
+	},
+	{
+		"index": 346,
+		"txt": "When kneeling, they do less so, and when prone, your muscles don't have to worry about keeping you standing at all.",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_kneeling__they_do_less_so__and_ping_you_standing_at_all_____.wav",
+		"duration": 2.43,
+		"sentenceIndex": 10196,
+		"timestamp": 482.61999999999966
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 485.04999999999967
+	},
+	{
+		"index": 349,
+		"txt": "You can add these parameters as random twitches in the aim and tune them to change the relative advantage of each position.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_add_these_parameters_as_ran_vantage_of_each_position_____.wav",
+		"duration": 2.29,
+		"sentenceIndex": 10199,
+		"timestamp": 485.54999999999967
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 487.8399999999997
+	},
+	{
+		"index": 350,
+		"txt": "However, prone should always be more stable than kneeling, and kneeling more stable than",
+		"file": "/home/user1/trash/dirOutputSet/_100_However__prone_should_always_be_mor_kneeling_more_stable_than____.wav",
+		"duration": 1.78,
+		"sentenceIndex": 10200,
+		"timestamp": 488.3399999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 490.11999999999966
+	},
+	{
+		"index": 353,
+		"txt": "standing.",
+		"file": "/home/user1/trash/dirOutputSet/_100_standing__standing_____.wav",
+		"duration": 0.25,
+		"sentenceIndex": 10203,
+		"timestamp": 490.61999999999966
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 490.86999999999966
+	},
+	{
+		"index": 356,
+		"txt": "Recoil and Impact",
+		"file": "/home/user1/trash/dirOutputSet/_100_Recoil_and_Impact_Recoil_and_Impact____.wav",
+		"duration": 0.49,
+		"sentenceIndex": 10206,
+		"timestamp": 491.36999999999966
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 491.8599999999997
+	},
+	{
+		"index": 358,
+		"txt": "Now that",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now_that_Now_that____.wav",
+		"duration": 0.23,
+		"sentenceIndex": 10208,
+		"timestamp": 492.3599999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 492.5899999999997
+	},
+	{
+		"index": 361,
+		"txt": "we've aimed, fired, and figured out where the bullet is at any given moment, let's talk about the last phase, terminal ballistics.",
+		"file": "/home/user1/trash/dirOutputSet/_100_we_ve_aimed__fired__and_figured_out_ase__terminal_ballistics_____.wav",
+		"duration": 2.82,
+		"sentenceIndex": 10211,
+		"timestamp": 493.0899999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 495.9099999999997
+	},
+	{
+		"index": 362,
+		"txt": "To really understand what happens at the end of a bullet's flight, let's revisit the beginning.",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_really_understand_what_happens_a__s_revisit_the_beginning_____.wav",
+		"duration": 1.73,
+		"sentenceIndex": 10212,
+		"timestamp": 496.4099999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 498.1399999999997
+	},
+	{
+		"index": 363,
+		"txt": "Earlier we talked about recoil as the result of Newton's conservation of momentum .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Earlier_we_talked_about_recoil_as_t_onservation_of_momentum______.wav",
+		"duration": 1.67,
+		"sentenceIndex": 10213,
+		"timestamp": 498.6399999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 500.3099999999997
+	},
+	{
+		"index": 370,
+		"txt": "Everyone has seen a cheesy movie where the hero shoots the bad guy and the bullets cause the bad guy to be blown off his feet.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Everyone_has_seen_a_cheesy_movie_wh_to_be_blown_off_his_feet_____.wav",
+		"duration": 2.47,
+		"sentenceIndex": 10220,
+		"timestamp": 500.8099999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 503.27999999999975
+	},
+	{
+		"index": 371,
+		"txt": "There is a big problem with this!",
+		"file": "/home/user1/trash/dirOutputSet/_100_There_is_a_big_problem_with_this___a_big_problem_with_this_____.wav",
+		"duration": 0.6,
+		"sentenceIndex": 10221,
+		"timestamp": 503.77999999999975
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 504.37999999999977
+	},
+	{
+		"index": 372,
+		"txt": "If the bullets were powerful enough to knock the person they hit off his feet, then the person shooting the gun would also be blown off his feet!",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_the_bullets_were_powerful_enough_so_be_blown_off_his_feet_____.wav",
+		"duration": 2.61,
+		"sentenceIndex": 10222,
+		"timestamp": 504.87999999999977
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 507.4899999999998
+	},
+	{
+		"index": 373,
+		"txt": "In reality, the force felt by the person being shot is nearly the same as the force felt when the weapon recoils.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_reality__the_force_felt_by_the_p__when_the_weapon_recoils_____.wav",
+		"duration": 2.31,
+		"sentenceIndex": 10223,
+		"timestamp": 507.9899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 510.2999999999998
+	},
+	{
+		"index": 374,
+		"txt": "For a 9 mm bullet weighing 7.45 g and leaving the barrel at 390 m/s, the gun will experience recoil such that its momentum is equal to the moment of the bullet.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_a_9_mm_bullet_weighing_7_45_g_a_the_moment_of_the_bullet_____.wav",
+		"duration": 4.33,
+		"sentenceIndex": 10224,
+		"timestamp": 510.7999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 515.1299999999998
+	},
+	{
+		"index": 377,
+		"txt": "One interesting way to incorporate recoil into a video game is in space.",
+		"file": "/home/user1/trash/dirOutputSet/_100_One_interesting_way_to_incorporate__a_video_game_is_in_space_____.wav",
+		"duration": 1.58,
+		"sentenceIndex": 10227,
+		"timestamp": 515.6299999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 517.2099999999998
+	},
+	{
+		"index": 378,
+		"txt": "On Earth, a gun's recoil is pretty quickly transferred to the ground by",
+		"file": "/home/user1/trash/dirOutputSet/_100_On_Earth__a_gun_s_recoil_is_pretty__nsferred_to_the_ground_by____.wav",
+		"duration": 1.54,
+		"sentenceIndex": 10228,
+		"timestamp": 517.7099999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 519.2499999999998
+	},
+	{
+		"index": 379,
+		"txt": "friction between the player and the big bad earth.",
+		"file": "/home/user1/trash/dirOutputSet/_100_friction_between_the_player_and_the_er_and_the_big_bad_earth_____.wav",
+		"duration": 0.94,
+		"sentenceIndex": 10229,
+		"timestamp": 519.7499999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 520.6899999999998
+	},
+	{
+		"index": 380,
+		"txt": "In space, the shooter has no planetary body to push against, so the recoil of the gun becomes the recoil of the gun/person system.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_space__the_shooter_has_no_planet_of_the_gun_person_system_____.wav",
+		"duration": 3,
+		"sentenceIndex": 10230,
+		"timestamp": 521.1899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 524.1899999999998
+	},
+	{
+		"index": 381,
+		"txt": "Next time your character needs to move from one ship to another in a micro gravity environment, you can make her spend some ammo to get herself moving.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Next_time_your_character_needs_to_m_mo_to_get_herself_moving_____.wav",
+		"duration": 3.06,
+		"sentenceIndex": 10231,
+		"timestamp": 524.6899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 527.7499999999998
+	},
+	{
+		"index": 384,
+		"txt": "Now, if you get shot you will probably fall down pretty quickly, but this has more to do with biology than physics.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now__if_you_get_shot_you_will_proba_ith_biology_than_physics_____.wav",
+		"duration": 2.33,
+		"sentenceIndex": 10234,
+		"timestamp": 528.2499999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 530.5799999999998
+	},
+	{
+		"index": 385,
+		"txt": "However, ignoring living targets, if you want to simulate the damage done by a bullet hitting something, it is more important to look at the bullet's",
+		"file": "/home/user1/trash/dirOutputSet/_100_However__ignoring_living_targets__i_t_to_look_at_the_bullet_s____.wav",
+		"duration": 2.93,
+		"sentenceIndex": 10235,
+		"timestamp": 531.0799999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 534.0099999999998
+	},
+	{
+		"index": 386,
+		"txt": "kinetic energy.",
+		"file": "/home/user1/trash/dirOutputSet/_100_kinetic_energy__kinetic_energy_____.wav",
+		"duration": 0.38,
+		"sentenceIndex": 10236,
+		"timestamp": 534.5099999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 534.8899999999998
+	},
+	{
+		"index": 387,
+		"txt": "In fact, bullets and artillery shells are",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_fact__bullets_and_artillery_shel__and_artillery_shells_are____.wav",
+		"duration": 1.03,
+		"sentenceIndex": 10237,
+		"timestamp": 535.3899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 536.4199999999997
+	},
+	{
+		"index": 388,
+		"txt": "called kinetic weapons",
+		"file": "/home/user1/trash/dirOutputSet/_100_called_kinetic_weapons_called_kinetic_weapons____.wav",
+		"duration": 0.51,
+		"sentenceIndex": 10238,
+		"timestamp": 536.9199999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 537.4299999999997
+	},
+	{
+		"index": 389,
+		"txt": ", as their primary means of destroying a target is by transferring their kinetic energy to the target.",
+		"file": "/home/user1/trash/dirOutputSet/_100___as_their_primary_means_of_destroy_tic_energy_to_the_target_____.wav",
+		"duration": 1.98,
+		"sentenceIndex": 10239,
+		"timestamp": 537.9299999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 539.9099999999997
+	},
+	{
+		"index": 390,
+		"txt": "This is different than, say, a bomb that transfers its chemical energy into heat and kinetic energy after impact.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_different_than__say__a_bomb_etic_energy_after_impact_____.wav",
+		"duration": 2.55,
+		"sentenceIndex": 10240,
+		"timestamp": 540.4099999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 542.9599999999997
+	},
+	{
+		"index": 393,
+		"txt": "Explosions",
+		"file": "/home/user1/trash/dirOutputSet/_100_Explosions_Explosions____.wav",
+		"duration": 0.34,
+		"sentenceIndex": 10243,
+		"timestamp": 543.4599999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 543.7999999999997
+	},
+	{
+		"index": 395,
+		"txt": "Accurately",
+		"file": "/home/user1/trash/dirOutputSet/_100_Accurately_Accurately____.wav",
+		"duration": 0.25,
+		"sentenceIndex": 10245,
+		"timestamp": 544.2999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 544.5499999999997
+	},
+	{
+		"index": 396,
+		"txt": "modeling explosions involves multiphysics fluid simulations like the kind discussed in",
+		"file": "/home/user1/trash/dirOutputSet/_100_modeling_explosions_involves_multip_ike_the_kind_discussed_in____.wav",
+		"duration": 1.93,
+		"sentenceIndex": 10246,
+		"timestamp": 545.0499999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 546.9799999999997
+	},
+	{
+		"index": 398,
+		"txt": "Chapter 14 through",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 14_through_Chapter 14_through____.wav",
+		"duration": 0.51,
+		"sentenceIndex": 10248,
+		"timestamp": 547.4799999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 547.9899999999997
+	},
+	{
+		"index": 399,
+		"txt": "Chapter 16",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 16_Chapter 16____.wav",
+		"duration": 0.43,
+		"sentenceIndex": 10249,
+		"timestamp": 548.4899999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 548.9199999999996
+	},
+	{
+		"index": 401,
+		"txt": "One of our pet peeves is that video games usually have a collection of barrels lying around that, if shot once, explode violently enough to blow up nearby vehicles.",
+		"file": "/home/user1/trash/dirOutputSet/_100_One_of_our_pet_peeves_is_that_video__blow_up_nearby_vehicles_____.wav",
+		"duration": 3.51,
+		"sentenceIndex": 10251,
+		"timestamp": 549.4199999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 552.9299999999996
+	},
+	{
+		"index": 402,
+		"txt": "While this makes for an easy out against multiple enemies, it is actually pretty hard to get everyday objects to blow up.",
+		"file": "/home/user1/trash/dirOutputSet/_100_While_this_makes_for_an_easy_out_ag_ryday_objects_to_blow_up_____.wav",
+		"duration": 2.37,
+		"sentenceIndex": 10252,
+		"timestamp": 553.4299999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 555.7999999999996
+	},
+	{
+		"index": 403,
+		"txt": "Shooting a gas can with a handgun will almost never result in a fire, much less an explosion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Shooting_a_gas_can_with_a_handgun_w___much_less_an_explosion_____.wav",
+		"duration": 2.04,
+		"sentenceIndex": 10253,
+		"timestamp": 556.2999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 558.3399999999996
+	},
+	{
+		"index": 404,
+		"txt": "Indeed, even shooting a propane tank with a rifle won't give you fireworks.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Indeed__even_shooting_a_propane_tan_won_t_give_you_fireworks_____.wav",
+		"duration": 1.53,
+		"sentenceIndex": 10254,
+		"timestamp": 558.8399999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 560.3699999999995
+	},
+	{
+		"index": 405,
+		"txt": "It would take something like a tank of 1/4 propane mixed with 3/4 oxygen to explode, and those aren't usually lying around.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_would_take_something_like_a_tank_n_t_usually_lying_around_____.wav",
+		"duration": 2.79,
+		"sentenceIndex": 10255,
+		"timestamp": 560.8699999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 563.6599999999995
+	},
+	{
+		"index": 406,
+		"txt": "Regardless, when we play video games we're often thankful that we have an occasional red barrel to shoot, so we'll review how to make the resulting explosion more accurate even if the ignition is improbable.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Regardless__when_we_play_video_game_e_ignition_is_improbable_____.wav",
+		"duration": 4.04,
+		"sentenceIndex": 10256,
+		"timestamp": 564.1599999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 568.1999999999995
+	},
+	{
+		"index": 408,
+		"txt": "Particle Explosions",
+		"file": "/home/user1/trash/dirOutputSet/_100_Particle_Explosions_Particle_Explosions____.wav",
+		"duration": 0.47,
+		"sentenceIndex": 10258,
+		"timestamp": 568.6999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 569.1699999999995
+	},
+	{
+		"index": 409,
+		"txt": "For most in game explosions,",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_most_in_game_explosions___most_in_game_explosions_____.wav",
+		"duration": 0.69,
+		"sentenceIndex": 10259,
+		"timestamp": 569.6699999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 570.3599999999996
+	},
+	{
+		"index": 412,
+		"txt": "it will be sufficient to implement a particle type explosion that we covered way back in",
+		"file": "/home/user1/trash/dirOutputSet/_100_it_will_be_sufficient_to_implement__at_we_covered_way_back_in____.wav",
+		"duration": 1.62,
+		"sentenceIndex": 10262,
+		"timestamp": 570.8599999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 572.4799999999996
+	},
+	{
+		"index": 413,
+		"txt": "Chapter 2",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 2_Chapter 2____.wav",
+		"duration": 0.32,
+		"sentenceIndex": 10263,
+		"timestamp": 572.9799999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 573.2999999999996
+	},
+	{
+		"index": 415,
+		"txt": "Now, in",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now__in_Now__in____.wav",
+		"duration": 0.39,
+		"sentenceIndex": 10265,
+		"timestamp": 573.7999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 574.1899999999996
+	},
+	{
+		"index": 416,
+		"txt": "Chapter 2 the particles were simply dots,",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 2_the_particles_were_simply_rticles_were_simply_dots_____.wav",
+		"duration": 0.97,
+		"sentenceIndex": 10266,
+		"timestamp": 574.6899999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 575.6599999999996
+	},
+	{
+		"index": 421,
+		"txt": "but they don't have to be limited to such simple sprites.",
+		"file": "/home/user1/trash/dirOutputSet/_100_but_they_don_t_have_to_be_limited_t_d_to_such_simple_sprites_____.wav",
+		"duration": 1.16,
+		"sentenceIndex": 10271,
+		"timestamp": 576.1599999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 577.3199999999996
+	},
+	{
+		"index": 422,
+		"txt": "In some cases, such as sparks from a bullet hitting a metal container, it would be very accurate to model explosions as particles; however, by making our particles look like bits of cars, we can also make it appear that the car itself exploded.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_some_cases__such_as_sparks_from___the_car_itself_exploded_____.wav",
+		"duration": 5.09,
+		"sentenceIndex": 10272,
+		"timestamp": 577.8199999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 582.9099999999996
+	},
+	{
+		"index": 423,
+		"txt": "The reason this is easier is because the particle explosions don't have any",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_reason_this_is_easier_is_becaus_explosions_don_t_have_any____.wav",
+		"duration": 1.41,
+		"sentenceIndex": 10273,
+		"timestamp": 583.4099999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 584.8199999999996
+	},
+	{
+		"index": 425,
+		"txt": "angular motion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_angular_motion__angular_motion_____.wav",
+		"duration": 0.36,
+		"sentenceIndex": 10275,
+		"timestamp": 585.3199999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 585.6799999999996
+	},
+	{
+		"index": 426,
+		"txt": "Although you can assign different parts of the cars to different particles, when they fly off due to the explosion, they won't be rotating.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Although_you_can_assign_different_p___they_won_t_be_rotating_____.wav",
+		"duration": 2.7,
+		"sentenceIndex": 10276,
+		"timestamp": 586.1799999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 588.8799999999997
+	},
+	{
+		"index": 427,
+		"txt": "The good news is that a particle explosion will still give you a realistic distribution of fragments of something on the ground.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_good_news_is_that_a_particle_ex__something_on_the_ground_____.wav",
+		"duration": 2.34,
+		"sentenceIndex": 10277,
+		"timestamp": 589.3799999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 591.7199999999997
+	},
+	{
+		"index": 430,
+		"txt": "To talk about how to link bullets and particle explosions in detail, we'll consider something more physically accurate than a bullet blowing up a car.",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_talk_about_how_to_link_bullets_a__bullet_blowing_up_a_car_____.wav",
+		"duration": 2.97,
+		"sentenceIndex": 10280,
+		"timestamp": 592.2199999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 595.1899999999997
+	},
+	{
+		"index": 431,
+		"txt": "Let's consider a bullet hitting some loose gravel.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Let_s_consider_a_bullet_hitting_som_itting_some_loose_gravel_____.wav",
+		"duration": 0.91,
+		"sentenceIndex": 10281,
+		"timestamp": 595.6899999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 596.5999999999997
+	},
+	{
+		"index": 432,
+		"txt": "This will generally cause the gravel to be thrown up into the air from the bullet collision.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_will_generally_cause_the_grave_rom_the_bullet_collision_____.wav",
+		"duration": 1.51,
+		"sentenceIndex": 10282,
+		"timestamp": 597.0999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 598.6099999999997
+	},
+	{
+		"index": 433,
+		"txt": "Instead of trying to calculate the complex collisions during impact, we'll generate a particle explosion based on the code in",
+		"file": "/home/user1/trash/dirOutputSet/_100_Instead_of_trying_to_calculate_the__sion_based_on_the_code_in____.wav",
+		"duration": 2.49,
+		"sentenceIndex": 10283,
+		"timestamp": 599.1099999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 601.5999999999997
+	},
+	{
+		"index": 434,
+		"txt": "Chapter 2:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 2__Chapter 2_____.wav",
+		"duration": 0.36,
+		"sentenceIndex": 10284,
+		"timestamp": 602.0999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 602.4599999999997
+	},
+	{
+		"index": 438,
+		"txt": "As you can see, the initial velocity V0 controls the strength of the explosion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_you_can_see__the_initial_velocit_trength_of_the_explosion_____.wav",
+		"duration": 1.84,
+		"sentenceIndex": 10288,
+		"timestamp": 602.9599999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 604.7999999999997
+	},
+	{
+		"index": 439,
+		"txt": "In",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_In____.wav",
+		"duration": 0.17,
+		"sentenceIndex": 10289,
+		"timestamp": 605.2999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 605.4699999999997
+	},
+	{
+		"index": 440,
+		"txt": "Chapter 2",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 2_Chapter 2____.wav",
+		"duration": 0.32,
+		"sentenceIndex": 10290,
+		"timestamp": 605.9699999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 606.2899999999997
+	},
+	{
+		"index": 441,
+		"txt": ", we chose this value randomly.",
+		"file": "/home/user1/trash/dirOutputSet/_100___we_chose_this_value_randomly__hose_this_value_randomly_____.wav",
+		"duration": 0.65,
+		"sentenceIndex": 10291,
+		"timestamp": 606.7899999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 607.4399999999997
+	},
+	{
+		"index": 442,
+		"txt": "Now that we have a bullet flying through the air, we can make a better estimate of how strong of an explosion to create.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now_that_we_have_a_bullet_flying_th_f_an_explosion_to_create_____.wav",
+		"duration": 2.21,
+		"sentenceIndex": 10292,
+		"timestamp": 607.9399999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 610.1499999999997
+	},
+	{
+		"index": 443,
+		"txt": "As you recall from earlier in the chapter, a bullet has an energy associated with it at any time, t , in its flight.",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_you_recall_from_earlier_in_the_c__time__t___in_its_flight_____.wav",
+		"duration": 2.45,
+		"sentenceIndex": 10293,
+		"timestamp": 610.6499999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 613.0999999999998
+	},
+	{
+		"index": 444,
+		"txt": "This energy is its kinetic energy and is equal to half the bullet mass times its velocity squared.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_energy_is_its_kinetic_energy_a_mes_its_velocity_squared_____.wav",
+		"duration": 2.1,
+		"sentenceIndex": 10294,
+		"timestamp": 613.5999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 615.6999999999998
+	},
+	{
+		"index": 446,
+		"txt": "In our projectile simulation, it is simple to calculate this energy as the bullet flies through the air.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_our_projectile_simulation__it_is_et_flies_through_the_air_____.wav",
+		"duration": 1.96,
+		"sentenceIndex": 10296,
+		"timestamp": 616.1999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 618.1599999999999
+	},
+	{
+		"index": 447,
+		"txt": "It should be noted that a big bullet moving slowly is just as powerful as a smaller bullet moving quickly.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_should_be_noted_that_a_big_bulle_er_bullet_moving_quickly_____.wav",
+		"duration": 2.03,
+		"sentenceIndex": 10297,
+		"timestamp": 618.6599999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 620.6899999999998
+	},
+	{
+		"index": 448,
+		"txt": "Our upcoming code is going to assume that 100% of the kinetic energy is delivered to the target.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Our_upcoming_code_is_going_to_assum__delivered_to_the_target_____.wav",
+		"duration": 2.14,
+		"sentenceIndex": 10298,
+		"timestamp": 621.1899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 623.3299999999998
+	},
+	{
+		"index": 449,
+		"txt": "This would not be true if a bullet shot straight through something.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_would_not_be_true_if_a_bullet__raight_through_something_____.wav",
+		"duration": 1.06,
+		"sentenceIndex": 10299,
+		"timestamp": 623.8299999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 624.8899999999998
+	},
+	{
+		"index": 450,
+		"txt": "A way to visualize this is to imagine two targets, both hanging from the ceiling.",
+		"file": "/home/user1/trash/dirOutputSet/_100_A_way_to_visualize_this_is_to_imagi_hanging_from_the_ceiling_____.wav",
+		"duration": 1.63,
+		"sentenceIndex": 10300,
+		"timestamp": 625.3899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 627.0199999999998
+	},
+	{
+		"index": 451,
+		"txt": "One is made from paper and one is made from steel.",
+		"file": "/home/user1/trash/dirOutputSet/_100_One_is_made_from_paper_and_one_is_m_d_one_is_made_from_steel_____.wav",
+		"duration": 1.11,
+		"sentenceIndex": 10301,
+		"timestamp": 627.5199999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 628.6299999999998
+	},
+	{
+		"index": 452,
+		"txt": "When shot at, the steel target swings from its support, while the paper target stays still.",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_shot_at__the_steel_target_swin_paper_target_stays_still_____.wav",
+		"duration": 1.99,
+		"sentenceIndex": 10302,
+		"timestamp": 629.1299999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 631.1199999999998
+	},
+	{
+		"index": 453,
+		"txt": "This is because the bullet is passing straight though the paper and not transferring its kinetic energy to the target.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_because_the_bullet_is_passi_tic_energy_to_the_target_____.wav",
+		"duration": 2.12,
+		"sentenceIndex": 10303,
+		"timestamp": 631.6199999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 633.7399999999998
+	},
+	{
+		"index": 454,
+		"txt": "To make things simple, we'll transfer all of the bullet's kinetic energy",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_make_things_simple__we_ll_transf_e_bullet_s_kinetic_energy____.wav",
+		"duration": 1.5,
+		"sentenceIndex": 10304,
+		"timestamp": 634.2399999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 635.7399999999998
+	},
+	{
+		"index": 455,
+		"txt": "to the gravel.",
+		"file": "/home/user1/trash/dirOutputSet/_100_to_the_gravel__to_the_gravel_____.wav",
+		"duration": 0.27,
+		"sentenceIndex": 10305,
+		"timestamp": 636.2399999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 636.5099999999998
+	},
+	{
+		"index": 456,
+		"txt": "In equation form, this would look like:1/2 mb v2bullet = Σ1/2 mg v2gravel",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_equation_form__this_would_look_l_bullet____1_2_mg_v2gravel____.wav",
+		"duration": 2.83,
+		"sentenceIndex": 10306,
+		"timestamp": 637.0099999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 639.8399999999998
+	},
+	{
+		"index": 458,
+		"txt": "Note that this is the sum of the individual bits of gravel's velocities.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Note_that_this_is_the_sum_of_the_in_s_of_gravel_s_velocities_____.wav",
+		"duration": 1.36,
+		"sentenceIndex": 10308,
+		"timestamp": 640.3399999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 641.6999999999998
+	},
+	{
+		"index": 459,
+		"txt": "In,",
+		"file": "/home/user1/trash/dirOutputSet/_100_In__In_____.wav",
+		"duration": 0.21,
+		"sentenceIndex": 10309,
+		"timestamp": 642.1999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 642.4099999999999
+	},
+	{
+		"index": 460,
+		"txt": "Chapter 2, each particle was just given a random velocity anywhere from Vinit/2 to Vinit",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 2__each_particle_was_just_g_ere_from_Vinit_2_to_Vinit____.wav",
+		"duration": 2.19,
+		"sentenceIndex": 10310,
+		"timestamp": 642.9099999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 645.0999999999999
+	},
+	{
+		"index": 462,
+		"txt": "This could lead to creating a set of particles whose energies exceed the input energy.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_could_lead_to_creating_a_set_o__exceed_the_input_energy_____.wav",
+		"duration": 1.64,
+		"sentenceIndex": 10312,
+		"timestamp": 645.5999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 647.2399999999999
+	},
+	{
+		"index": 463,
+		"txt": "To prevent this, we'll add a variable to our explosion class like so:",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_prevent_this__we_ll_add_a_variab__explosion_class_like_so_____.wav",
+		"duration": 1.54,
+		"sentenceIndex": 10313,
+		"timestamp": 647.7399999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 649.2799999999999
+	},
+	{
+		"index": 465,
+		"txt": "Notice that V0 is no longer required, as the available kinetic energy will govern the strength of the explosion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Notice_that_V0_is_no_longer_require_trength_of_the_explosion_____.wav",
+		"duration": 2.34,
+		"sentenceIndex": 10315,
+		"timestamp": 649.7799999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 652.1199999999999
+	},
+	{
+		"index": 466,
+		"txt": "Assuming that the bullet's kinetic energy is given as a variable KEb, our new CreateParticleExplosion function would look like the following:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Assuming_that_the_bullet_s_kinetic___look_like_the_following_____.wav",
+		"duration": 2.7,
+		"sentenceIndex": 10316,
+		"timestamp": 652.6199999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 655.3199999999999
+	},
+	{
+		"index": 468,
+		"txt": "As you can see, we've altered the statements that set the initial velocity of the particles to be a random number generator in a range anywhere from 0 to a velocity that would consume the entire explosion's kinetic energy.",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_you_can_see__we_ve_altered_the_s_plosion_s_kinetic_energy_____.wav",
+		"duration": 4.48,
+		"sentenceIndex": 10318,
+		"timestamp": 655.8199999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 660.3
+	},
+	{
+		"index": 469,
+		"txt": "The next line reduces the available kinetic energy in the explosion by the amount just assigned to the particle.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_next_line_reduces_the_available_assigned_to_the_particle_____.wav",
+		"duration": 2.1,
+		"sentenceIndex": 10319,
+		"timestamp": 660.8
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 662.9
+	},
+	{
+		"index": 470,
+		"txt": "This way, you can be sure that the outgoing explosion is never more powerful then the input.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_way__you_can_be_sure_that_the___powerful_then_the_input_____.wav",
+		"duration": 1.83,
+		"sentenceIndex": 10320,
+		"timestamp": 663.4
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 665.23
+	},
+	{
+		"index": 471,
+		"txt": "A more interesting way to handle this would be to first initialize the particles with some given mass distribution and to assign the velocities not randomly, but with a normal distribution.",
+		"file": "/home/user1/trash/dirOutputSet/_100_A_more_interesting_way_to_handle_th_th_a_normal_distribution_____.wav",
+		"duration": 3.68,
+		"sentenceIndex": 10321,
+		"timestamp": 665.73
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 669.41
+	},
+	{
+		"index": 472,
+		"txt": "Numerical recipes in C can help you accomplish this.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Numerical_recipes_in_C_can_help_you_help_you_accomplish_this_____.wav",
+		"duration": 1.19,
+		"sentenceIndex": 10322,
+		"timestamp": 669.91
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 671.1
+	},
+	{
+		"index": 475,
+		"txt": "Even though the preceding code does not take into account some of the more subtle aspects of the transfer of kinetic energy, it will ensure that a small, slow moving bullet produces a smaller explosion than a big, fast moving one.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Even_though_the_preceding_code_does_n_a_big__fast_moving_one_____.wav",
+		"duration": 4.65,
+		"sentenceIndex": 10325,
+		"timestamp": 671.6
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 676.25
+	},
+	{
+		"index": 476,
+		"txt": "This is something that is lacking in today's video",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_something_that_is_lacking_i__lacking_in_today_s_video____.wav",
+		"duration": 0.95,
+		"sentenceIndex": 10326,
+		"timestamp": 676.75
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 677.7
+	},
+	{
+		"index": 484,
+		"txt": "games.",
+		"file": "/home/user1/trash/dirOutputSet/_100_games__games_____.wav",
+		"duration": 0.27,
+		"sentenceIndex": 10334,
+		"timestamp": 678.2
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 678.47
+	},
+	{
+		"index": 487,
+		"txt": "Polygon Explosions",
+		"file": "/home/user1/trash/dirOutputSet/_100_Polygon_Explosions_Polygon_Explosions____.wav",
+		"duration": 0.56,
+		"sentenceIndex": 10337,
+		"timestamp": 678.97
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 679.53
+	},
+	{
+		"index": 489,
+		"txt": "While particle",
+		"file": "/home/user1/trash/dirOutputSet/_100_While_particle_While_particle____.wav",
+		"duration": 0.34,
+		"sentenceIndex": 10339,
+		"timestamp": 680.03
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 680.37
+	},
+	{
+		"index": 491,
+		"txt": "explosions are appropriate for small, uniform objects, they fail to give appropriate realism when something is blown into identifiable chunks.",
+		"file": "/home/user1/trash/dirOutputSet/_100_explosions_are_appropriate_for_smal_into_identifiable_chunks_____.wav",
+		"duration": 3.08,
+		"sentenceIndex": 10341,
+		"timestamp": 680.87
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 683.95
+	},
+	{
+		"index": 492,
+		"txt": "This is why in video games you rarely see a car explode and the door fly away to land next to you.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_why_in_video_games_you_rare_away_to_land_next_to_you_____.wav",
+		"duration": 2.14,
+		"sentenceIndex": 10342,
+		"timestamp": 684.45
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 686.59
+	},
+	{
+		"index": 493,
+		"txt": "Instead, games usually handle objects like this with a particle explosion that obscures the object while it is re rendered in its now exploded state with the missing pieces having been apparently blown to smithereens.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Instead__games_usually_handle_objec_tly_blown_to_smithereens_____.wav",
+		"duration": 4.36,
+		"sentenceIndex": 10343,
+		"timestamp": 687.09
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 691.45
+	},
+	{
+		"index": 496,
+		"txt": "If you do want to model a full explosion of solid bodies, you can reuse the particle code for the translation aspects.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_you_do_want_to_model_a_full_expl__the_translation_aspects_____.wav",
+		"duration": 2.5,
+		"sentenceIndex": 10346,
+		"timestamp": 691.95
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 694.45
+	},
+	{
+		"index": 497,
+		"txt": "Essentially the particles will now describe the center of gravity of each solid body.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Essentially_the_particles_will_now__avity_of_each_solid_body_____.wav",
+		"duration": 1.68,
+		"sentenceIndex": 10347,
+		"timestamp": 694.95
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 696.63
+	},
+	{
+		"index": 498,
+		"txt": "You will have to add in an initial angular velocity and let the simulation, as described in",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_will_have_to_add_in_an_initial__mulation__as_described_in____.wav",
+		"duration": 1.86,
+		"sentenceIndex": 10348,
+		"timestamp": 697.13
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 698.99
+	},
+	{
+		"index": 499,
+		"txt": "Chapter 12",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 12_Chapter 12____.wav",
+		"duration": 0.38,
+		"sentenceIndex": 10349,
+		"timestamp": 699.49
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 699.87
+	},
+	{
+		"index": 500,
+		"txt": ", handle their motion after that initial angle.",
+		"file": "/home/user1/trash/dirOutputSet/_100___handle_their_motion_after_that_in_after_that_initial_angle_____.wav",
+		"duration": 0.89,
+		"sentenceIndex": 10350,
+		"timestamp": 700.37
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 701.26
+	},
+	{
+		"index": 502,
+		"txt": "While we don't have room to go over another example here, we'll talk a little about the input energy to such an explosion to help you bridge the gap.",
+		"file": "/home/user1/trash/dirOutputSet/_100_While_we_don_t_have_room_to_go_over__help_you_bridge_the_gap_____.wav",
+		"duration": 2.91,
+		"sentenceIndex": 10352,
+		"timestamp": 701.76
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 704.67
+	},
+	{
+		"index": 503,
+		"txt": "While we are on that subject, let's recall that a bullet just doesn't have the energy required to blow something apart.",
+		"file": "/home/user1/trash/dirOutputSet/_100_While_we_are_on_that_subject__let_s__to_blow_something_apart_____.wav",
+		"duration": 2.26,
+		"sentenceIndex": 10353,
+		"timestamp": 705.17
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 707.43
+	},
+	{
+		"index": 504,
+		"txt": "Even when you hit something with a tank mounted gun, it really isn't the kinetic energy of the bullet that blows apart the thing you hit, but some secondary explosion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Even_when_you_hit_something_with_a__some_secondary_explosion_____.wav",
+		"duration": 3.19,
+		"sentenceIndex": 10354,
+		"timestamp": 707.93
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 711.12
+	},
+	{
+		"index": 505,
+		"txt": "In the case of a tank hitting another tank, the molten slag from the impact is usually peppered all over the inside of the tank, causing the fuel or ammunition to explode.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_the_case_of_a_tank_hitting_anoth_or_ammunition_to_explode_____.wav",
+		"duration": 3.36,
+		"sentenceIndex": 10355,
+		"timestamp": 711.62
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 714.98
+	},
+	{
+		"index": 506,
+		"txt": "That is where you get the big booms it's the conversion of chemical energy to heat, light, and pressure",
+		"file": "/home/user1/trash/dirOutputSet/_100_That_is_where_you_get_the_big_booms_heat__light__and_pressure____.wav",
+		"duration": 1.94,
+		"sentenceIndex": 10356,
+		"timestamp": 715.48
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 717.4200000000001
+	},
+	{
+		"index": 508,
+		"txt": "The most common method of quantifying the chemical energy in weapons is",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_most_common_method_of_quantifyi_ical_energy_in_weapons_is____.wav",
+		"duration": 1.45,
+		"sentenceIndex": 10358,
+		"timestamp": 717.9200000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 719.3700000000001
+	},
+	{
+		"index": 509,
+		"txt": "called TNT equivalency",
+		"file": "/home/user1/trash/dirOutputSet/_100_called_TNT_equivalency_called_TNT_equivalency____.wav",
+		"duration": 0.61,
+		"sentenceIndex": 10359,
+		"timestamp": 719.8700000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 720.4800000000001
+	},
+	{
+		"index": 511,
+		"txt": "This is how much TNT it would take to cause the same explosion regardless of what you are actually exploding.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_how_much_TNT_it_would_take__u_are_actually_exploding_____.wav",
+		"duration": 2.12,
+		"sentenceIndex": 10361,
+		"timestamp": 720.9800000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 723.1000000000001
+	},
+	{
+		"index": 512,
+		"txt": "Now, explosion modeling of, say, gasoline and air is pretty complex, so let's stick with TNT.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now__explosion_modeling_of__say__ga__so_let_s_stick_with_TNT_____.wav",
+		"duration": 2.56,
+		"sentenceIndex": 10362,
+		"timestamp": 723.6000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 726.1600000000001
+	},
+	{
+		"index": 513,
+		"txt": "A kilogram of TNT contains 4.184 Mega joules of energy; a 9 mm round has 400 J. You can see from that comparison why it is hard to blow something up by shooting at it, but easy to do with a block of TNT.",
+		"file": "/home/user1/trash/dirOutputSet/_100_A_kilogram_of_TNT_contains_4_184_Me_o_do_with_a_block_of_TNT_____.wav",
+		"duration": 5.51,
+		"sentenceIndex": 10363,
+		"timestamp": 726.6600000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 732.1700000000001
+	},
+	{
+		"index": 516,
+		"txt": "For the purposes of this discussion, let's say you have an open box (five polygon sides) into which your player just tossed a 1 kg block of TNT.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_the_purposes_of_this_discussion_ssed_a_1_kg_block_of_TNT_____.wav",
+		"duration": 3.56,
+		"sentenceIndex": 10366,
+		"timestamp": 732.6700000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 736.23
+	},
+	{
+		"index": 517,
+		"txt": "When the TNT is detonated, you can give each polygon side an initial velocity (translational and angular) and let the kinematic equations take over.",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_the_TNT_is_detonated__you_can__atic_equations_take_over_____.wav",
+		"duration": 3.3,
+		"sentenceIndex": 10367,
+		"timestamp": 736.73
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 740.03
+	},
+	{
+		"index": 518,
+		"txt": "Those velocities can be based on two simple rules.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Those_velocities_can_be_based_on_tw_ased_on_two_simple_rules_____.wav",
+		"duration": 1.15,
+		"sentenceIndex": 10368,
+		"timestamp": 740.53
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 741.68
+	},
+	{
+		"index": 521,
+		"txt": "The velocity vector can be defined by two points: the center of the block of TNT and the center of area of the polygon.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_velocity_vector_can_be_defined__r_of_area_of_the_polygon_____.wav",
+		"duration": 2.6,
+		"sentenceIndex": 10371,
+		"timestamp": 742.18
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 744.78
+	},
+	{
+		"index": 524,
+		"txt": "The sum of all the kinetic energy must be less than the available chemical energy in the TNT.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_sum_of_all_the_kinetic_energy_m_emical_energy_in_the_TNT_____.wav",
+		"duration": 1.88,
+		"sentenceIndex": 10374,
+		"timestamp": 745.28
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 747.16
+	},
+	{
+		"index": 525,
+		"txt": "This can be prorated by the square of the distance from the polygon to the block of TNT.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_can_be_prorated_by_the_square__ygon_to_the_block_of_TNT_____.wav",
+		"duration": 1.79,
+		"sentenceIndex": 10375,
+		"timestamp": 747.66
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 749.4499999999999
+	},
+	{
+		"index": 528,
+		"txt": "The use of the center of area in our first rule will impart some rotation into our polygon, as it will cause a moment about the center of gravity unless the two coincide.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_use_of_the_center_of_area_in_ou__unless_the_two_coincide_____.wav",
+		"duration": 3.51,
+		"sentenceIndex": 10378,
+		"timestamp": 749.9499999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 753.4599999999999
+	},
+	{
+		"index": 529,
+		"txt": "If this is the case, as it would be for our box, aerodynamic drag and unevenness of the explosion will still cause rotation, so you should either model these explicitly or impart some rotational velocity manually.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_this_is_the_case__as_it_would_be_tional_velocity_manually_____.wav",
+		"duration": 4.78,
+		"sentenceIndex": 10379,
+		"timestamp": 753.9599999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 758.7399999999999
+	},
+	{
+		"index": 532,
+		"txt": "Now that we have a velocity direction, we need to define its",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now_that_we_have_a_velocity_directi_on__we_need_to_define_its____.wav",
+		"duration": 1.31,
+		"sentenceIndex": 10382,
+		"timestamp": 759.2399999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 760.5499999999998
+	},
+	{
+		"index": 533,
+		"txt": "magnitude.",
+		"file": "/home/user1/trash/dirOutputSet/_100_magnitude__magnitude_____.wav",
+		"duration": 0.3,
+		"sentenceIndex": 10383,
+		"timestamp": 761.0499999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 761.3499999999998
+	},
+	{
+		"index": 534,
+		"txt": "The force on objects near an explosion is caused by the rapid expansion of gasses due to the heat generated by the detonation of the explosive.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_force_on_objects_near_an_explos_onation_of_the_explosive_____.wav",
+		"duration": 2.84,
+		"sentenceIndex": 10384,
+		"timestamp": 761.8499999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 764.6899999999998
+	},
+	{
+		"index": 535,
+		"txt": "However, not all the chemical energy is transferred to the objects a lot of it is converted into heat, light, and sound.",
+		"file": "/home/user1/trash/dirOutputSet/_100_However__not_all_the_chemical_energ_o_heat__light__and_sound_____.wav",
+		"duration": 2.62,
+		"sentenceIndex": 10385,
+		"timestamp": 765.1899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 767.8099999999998
+	},
+	{
+		"index": 536,
+		"txt": "Typically, only one third of the available chemical energy is converted in the initial detonation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Typically__only_one_third_of_the_av_n_the_initial_detonation_____.wav",
+		"duration": 1.92,
+		"sentenceIndex": 10386,
+		"timestamp": 768.3099999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 770.2299999999998
+	},
+	{
+		"index": 537,
+		"txt": "Let's call this the efficiency of the explosion, which we'll denote by ζ.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Let_s_call_this_the_efficiency_of_t__which_we_ll_denote_by_______.wav",
+		"duration": 1.9,
+		"sentenceIndex": 10387,
+		"timestamp": 770.7299999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 772.6299999999998
+	},
+	{
+		"index": 538,
+		"txt": "Therefore, we can write the relationship between velocities of the polygons as follows:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Therefore__we_can_write_the_relatio__the_polygons_as_follows_____.wav",
+		"duration": 1.91,
+		"sentenceIndex": 10388,
+		"timestamp": 773.1299999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 775.0399999999997
+	},
+	{
+		"index": 541,
+		"txt": "Here, we can tune ζ to give the polygons realistic velocities in the event of an explosion (i.e., not sending them off at the speed of light).",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here__we_can_tune___to_give_the_pol_f_at_the_speed_of_light______.wav",
+		"duration": 3.53,
+		"sentenceIndex": 10391,
+		"timestamp": 775.5399999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 779.0699999999997
+	},
+	{
+		"index": 542,
+		"txt": "If the energy from the explosion is divided up equally, you can see that lighter objects will have higher velocities, as you might expect.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_the_energy_from_the_explosion_is_ies__as_you_might_expect_____.wav",
+		"duration": 2.82,
+		"sentenceIndex": 10392,
+		"timestamp": 779.5699999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 782.3899999999998
+	},
+	{
+		"index": 543,
+		"txt": "You can also adjust the amount of explosion energy available to each object by weighting the object's imparted energy by its distance from the explosion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_also_adjust_the_amount_of_e_tance_from_the_explosion_____.wav",
+		"duration": 2.94,
+		"sentenceIndex": 10393,
+		"timestamp": 782.8899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 785.8299999999998
+	},
+	{
+		"index": 544,
+		"txt": "This should also be tuned in the program, but in general, pressure from an explosion decreases with the cube of distance and exponentially with time.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_should_also_be_tuned_in_the_pr__exponentially_with_time_____.wav",
+		"duration": 2.89,
+		"sentenceIndex": 10394,
+		"timestamp": 786.3299999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 789.2199999999998
+	},
+	{
+		"index": 547,
+		"txt": "If you want to model more complex explosion structure interactions, there are many good references for how, say, buildings, react to bomb blasts.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_you_want_to_model_more_complex_e_gs__react_to_bomb_blasts_____.wav",
+		"duration": 3.2,
+		"sentenceIndex": 10397,
+		"timestamp": 789.7199999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 792.9199999999998
+	},
+	{
+		"index": 548,
+		"txt": "FEMA, as well as the Army and Navy, have several papers on the subject, such as FEMA 426 Reference Manual to Mitigate Potential Terrorist Attacks Against Buildings .",
+		"file": "/home/user1/trash/dirOutputSet/_100_FEMA__as_well_as_the_Army_and_Navy__tacks_Against_Buildings______.wav",
+		"duration": 3.92,
+		"sentenceIndex": 10398,
+		"timestamp": 793.4199999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 797.3399999999998
+	},
+	{
+		"index": 549,
+		"txt": "The general concepts laid out in such documents can increase the realism of the building damage due to",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_general_concepts_laid_out_in_su_he_building_damage_due_to____.wav",
+		"duration": 2.06,
+		"sentenceIndex": 10399,
+		"timestamp": 797.8399999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 799.8999999999997
+	},
+	{
+		"index": 551,
+		"txt": "explosions.",
+		"file": "/home/user1/trash/dirOutputSet/_100_explosions__explosions_____.wav",
+		"duration": 0.34,
+		"sentenceIndex": 10401,
+		"timestamp": 800.3999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 800.7399999999998
+	}
+]

@@ -1,0 +1,4502 @@
+[
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 0
+	},
+	{
+		"index": 2,
+		"txt": "Chapter 21. Accelerometers",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 21_ Accelerometers_hapter 21_ Accelerometers____.wav",
+		"duration": 0.94,
+		"sentenceIndex": 11408,
+		"timestamp": 0.5
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 1.44
+	},
+	{
+		"index": 3,
+		"txt": "Accelerometers are a",
+		"file": "/home/user1/trash/dirOutputSet/_100_Accelerometers_are_a_Accelerometers_are_a____.wav",
+		"duration": 0.56,
+		"sentenceIndex": 11409,
+		"timestamp": 1.94
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 2.5
+	},
+	{
+		"index": 4,
+		"txt": "good introduction to a class of electronic",
+		"file": "/home/user1/trash/dirOutputSet/_100_good_introduction_to_a_class_of_ele__to_a_class_of_electronic____.wav",
+		"duration": 0.85,
+		"sentenceIndex": 11410,
+		"timestamp": 3
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 3.85
+	},
+	{
+		"index": 7,
+		"txt": "components called microelectromechanical systems (MEMS).",
+		"file": "/home/user1/trash/dirOutputSet/_100_components_called_microelectromecha_echanical_systems__MEMS______.wav",
+		"duration": 1.51,
+		"sentenceIndex": 11413,
+		"timestamp": 4.35
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 5.859999999999999
+	},
+	{
+		"index": 8,
+		"txt": "An accelerometer can either be one axis, two axis, or three axis.",
+		"file": "/home/user1/trash/dirOutputSet/_100_An_accelerometer_can_either_be_one___two_axis__or_three_axis_____.wav",
+		"duration": 1.69,
+		"sentenceIndex": 11414,
+		"timestamp": 6.359999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 8.049999999999999
+	},
+	{
+		"index": 9,
+		"txt": "This designates how many different directions it can simultaneously measure acceleration.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_designates_how_many_different__sly_measure_acceleration_____.wav",
+		"duration": 1.73,
+		"sentenceIndex": 11415,
+		"timestamp": 8.549999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 10.28
+	},
+	{
+		"index": 10,
+		"txt": "Most gaming devices have three axis accelerometers.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Most_gaming_devices_have_three_axis_hree_axis_accelerometers_____.wav",
+		"duration": 1.22,
+		"sentenceIndex": 11416,
+		"timestamp": 10.78
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 12
+	},
+	{
+		"index": 13,
+		"txt": "As far as game development is concerned, acceleration values are typically delivered to your program via an API with units in multiples of g .",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_far_as_game_development_is_conce_units_in_multiples_of_g______.wav",
+		"duration": 3.14,
+		"sentenceIndex": 11419,
+		"timestamp": 12.5
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 15.64
+	},
+	{
+		"index": 14,
+		"txt": "One glink https:2 .",
+		"file": "/home/user1/trash/dirOutputSet/_100_One_glink_https_2___One_glink_https_2______.wav",
+		"duration": 0.93,
+		"sentenceIndex": 11420,
+		"timestamp": 16.14
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 17.07
+	},
+	{
+		"index": 15,
+		"txt": "Let's pretend that we have a one axis accelerometer and we orient it such that the axis is pointing toward the center of the earth.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Let_s_pretend_that_we_have_a_one_ax__the_center_of_the_earth_____.wav",
+		"duration": 2.64,
+		"sentenceIndex": 11421,
+		"timestamp": 17.57
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 20.21
+	},
+	{
+		"index": 16,
+		"txt": "It would register 1g .",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_would_register_1g___It_would_register_1g______.wav",
+		"duration": 0.6,
+		"sentenceIndex": 11422,
+		"timestamp": 20.71
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 21.310000000000002
+	},
+	{
+		"index": 17,
+		"txt": "Now, if we travel far away from any mass, such that there is no gravity, the accelerometer will read 0.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now__if_we_travel_far_away_from_any_ccelerometer_will_read_0_____.wav",
+		"duration": 2.5,
+		"sentenceIndex": 11423,
+		"timestamp": 21.810000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 24.310000000000002
+	},
+	{
+		"index": 18,
+		"txt": "link https:g during that one second interval.",
+		"file": "/home/user1/trash/dirOutputSet/_100_link_https_g_during_that_one_second_that_one_second_interval_____.wav",
+		"duration": 1.26,
+		"sentenceIndex": 11424,
+		"timestamp": 24.810000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 26.070000000000004
+	},
+	{
+		"index": 19,
+		"txt": "Indeed, it is impossible to tell the difference between acceleration due to gravity and acceleration due to changing velocity.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Indeed__it_is_impossible_to_tell_th_due_to_changing_velocity_____.wav",
+		"duration": 2.48,
+		"sentenceIndex": 11425,
+		"timestamp": 26.570000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 29.050000000000004
+	},
+	{
+		"index": 22,
+		"txt": "Real life motion is generally nonsteady.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Real_life_motion_is_generally_nonst_n_is_generally_nonsteady_____.wav",
+		"duration": 0.94,
+		"sentenceIndex": 11428,
+		"timestamp": 29.550000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 30.490000000000006
+	},
+	{
+		"index": 23,
+		"txt": "Depending on your application's goals, you might have to apply different smoothing functions such as high pass or low pass filters .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Depending_on_your_application_s_goa_ass_or_low_pass_filters______.wav",
+		"duration": 2.71,
+		"sentenceIndex": 11429,
+		"timestamp": 30.990000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 33.7
+	},
+	{
+		"index": 24,
+		"txt": "This",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_This____.wav",
+		"duration": 0.21,
+		"sentenceIndex": 11430,
+		"timestamp": 34.2
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 34.410000000000004
+	},
+	{
+		"index": 27,
+		"txt": "amounts",
+		"file": "/home/user1/trash/dirOutputSet/_100_amounts_amounts____.wav",
+		"duration": 0.25,
+		"sentenceIndex": 11433,
+		"timestamp": 34.910000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 35.160000000000004
+	},
+	{
+		"index": 28,
+		"txt": "to digital signal processing",
+		"file": "/home/user1/trash/dirOutputSet/_100_to_digital_signal_processing_digital_signal_processing____.wav",
+		"duration": 0.59,
+		"sentenceIndex": 11434,
+		"timestamp": 35.660000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 36.25000000000001
+	},
+	{
+		"index": 29,
+		"txt": ", a topic that has consumed entire texts.",
+		"file": "/home/user1/trash/dirOutputSet/_100___a_topic_that_has_consumed_entire__as_consumed_entire_texts_____.wav",
+		"duration": 0.89,
+		"sentenceIndex": 11435,
+		"timestamp": 36.75000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 37.64000000000001
+	},
+	{
+		"index": 30,
+		"txt": "One example we can recommend is Digital Signal Processing: A Computer Science Perspective by",
+		"file": "/home/user1/trash/dirOutputSet/_100_One_example_we_can_recommend_is_Dig_er_Science_Perspective_by____.wav",
+		"duration": 2.04,
+		"sentenceIndex": 11436,
+		"timestamp": 38.14000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 40.18000000000001
+	},
+	{
+		"index": 31,
+		"txt": "Jonathan Y. Stein (Wiley).",
+		"file": "/home/user1/trash/dirOutputSet/_100_Jonathan_Y__Stein__Wiley___onathan_Y__Stein__Wiley______.wav",
+		"duration": 0.75,
+		"sentenceIndex": 11437,
+		"timestamp": 40.68000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 41.43000000000001
+	},
+	{
+		"index": 34,
+		"txt": "Also, many accelerometers have a method to set",
+		"file": "/home/user1/trash/dirOutputSet/_100_Also__many_accelerometers_have_a_me_ters_have_a_method_to_set____.wav",
+		"duration": 1.19,
+		"sentenceIndex": 11440,
+		"timestamp": 41.93000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 43.120000000000005
+	},
+	{
+		"index": 35,
+		"txt": "the polling rate",
+		"file": "/home/user1/trash/dirOutputSet/_100_the_polling_rate_the_polling_rate____.wav",
+		"duration": 0.37,
+		"sentenceIndex": 11441,
+		"timestamp": 43.620000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 43.99
+	},
+	{
+		"index": 36,
+		"txt": ", or the number of times per second that the program requests updates from the accelerometer.",
+		"file": "/home/user1/trash/dirOutputSet/_100___or_the_number_of_times_per_second_s_from_the_accelerometer_____.wav",
+		"duration": 1.77,
+		"sentenceIndex": 11442,
+		"timestamp": 44.49
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 46.260000000000005
+	},
+	{
+		"index": 37,
+		"txt": "This is",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_This_is____.wav",
+		"duration": 0.3,
+		"sentenceIndex": 11443,
+		"timestamp": 46.760000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 47.06
+	},
+	{
+		"index": 38,
+		"txt": "called frequency",
+		"file": "/home/user1/trash/dirOutputSet/_100_called_frequency_called_frequency____.wav",
+		"duration": 0.38,
+		"sentenceIndex": 11444,
+		"timestamp": 47.56
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 47.940000000000005
+	},
+	{
+		"index": 39,
+		"txt": "and is given in hertz (Hz).",
+		"file": "/home/user1/trash/dirOutputSet/_100_and_is_given_in_hertz__Hz___d_is_given_in_hertz__Hz______.wav",
+		"duration": 0.78,
+		"sentenceIndex": 11445,
+		"timestamp": 48.440000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 49.220000000000006
+	},
+	{
+		"index": 40,
+		"txt": "This parameter can be used to enhance the performance of the program when fine resolution of the acceleration over time is not needed.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_parameter_can_be_used_to_enhan__over_time_is_not_needed_____.wav",
+		"duration": 2.68,
+		"sentenceIndex": 11446,
+		"timestamp": 49.720000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 52.400000000000006
+	},
+	{
+		"index": 43,
+		"txt": "When you accept input from an accelerometer or do any other kind of signal processing you have to accept that input won't come precisely when you want it.",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_you_accept_input_from_an_accel_ecisely_when_you_want_it_____.wav",
+		"duration": 3.01,
+		"sentenceIndex": 11449,
+		"timestamp": 52.900000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 55.910000000000004
+	},
+	{
+		"index": 44,
+		"txt": "The operating systems normally used for gaming Windows, OS X, Linux are not real time environments.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_operating_systems_normally_used_t_real_time_environments_____.wav",
+		"duration": 2.45,
+		"sentenceIndex": 11450,
+		"timestamp": 56.410000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 58.86000000000001
+	},
+	{
+		"index": 45,
+		"txt": "This means that although you set the polling rate at once a second, this guarantees only that the data will be delivered no sooner than once a second.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_means_that_although_you_set_th_ooner_than_once_a_second_____.wav",
+		"duration": 2.85,
+		"sentenceIndex": 11451,
+		"timestamp": 59.36000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 62.21000000000001
+	},
+	{
+		"index": 46,
+		"txt": "If something distracts the operating system, such as the arrival of packets on the network, the signal you get from the accelerometer may be delayed.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_something_distracts_the_operatin_lerometer_may_be_delayed_____.wav",
+		"duration": 2.98,
+		"sentenceIndex": 11452,
+		"timestamp": 62.71000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 65.69000000000001
+	},
+	{
+		"index": 49,
+		"txt": "Accelerometer Theory",
+		"file": "/home/user1/trash/dirOutputSet/_100_Accelerometer_Theory_Accelerometer_Theory____.wav",
+		"duration": 0.55,
+		"sentenceIndex": 11455,
+		"timestamp": 66.19000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 66.74000000000001
+	},
+	{
+		"index": 51,
+		"txt": "The way in which",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_way_in_which_The_way_in_which____.wav",
+		"duration": 0.39,
+		"sentenceIndex": 11457,
+		"timestamp": 67.24000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 67.63000000000001
+	},
+	{
+		"index": 52,
+		"txt": "MEMS measure accelerometers is more basic in principle than you may think.",
+		"file": "/home/user1/trash/dirOutputSet/_100_MEMS_measure_accelerometers_is_more_ciple_than_you_may_think_____.wav",
+		"duration": 1.52,
+		"sentenceIndex": 11458,
+		"timestamp": 68.13000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 69.65
+	},
+	{
+		"index": 53,
+		"txt": "The major accomplishment is miniaturizing the technology until it can fit inside a computer chip!",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_major_accomplishment_is_miniatu_t_inside_a_computer_chip_____.wav",
+		"duration": 1.96,
+		"sentenceIndex": 11459,
+		"timestamp": 70.15
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 72.11
+	},
+	{
+		"index": 54,
+		"txt": "To clearly illustrate the basic principle, we will first show you the mechanics of it in the macro scale version of a known mass and spring.",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_clearly_illustrate_the_basic_pri__a_known_mass_and_spring_____.wav",
+		"duration": 2.69,
+		"sentenceIndex": 11460,
+		"timestamp": 72.61
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 75.3
+	},
+	{
+		"index": 55,
+		"txt": "Let's say you build something like the contraption shown in",
+		"file": "/home/user1/trash/dirOutputSet/_100_Let_s_say_you_build_something_like___the_contraption_shown_in____.wav",
+		"duration": 1.19,
+		"sentenceIndex": 11461,
+		"timestamp": 75.8
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 76.99
+	},
+	{
+		"index": 56,
+		"txt": "Figure 21 1",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 21_1_Figure 21_1____.wav",
+		"duration": 0.66,
+		"sentenceIndex": 11462,
+		"timestamp": 77.49
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 78.14999999999999
+	},
+	{
+		"index": 57,
+		"txt": "and take it on an elevator in an area where there is no gravity.",
+		"file": "/home/user1/trash/dirOutputSet/_100_and_take_it_on_an_elevator_in_an_ar_here_there_is_no_gravity_____.wav",
+		"duration": 1.22,
+		"sentenceIndex": 11463,
+		"timestamp": 78.64999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 79.86999999999999
+	},
+	{
+		"index": 58,
+		"txt": "We'll worry about the effects of gravity in a minute.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ll_worry_about_the_effects_of_gr_s_of_gravity_in_a_minute_____.wav",
+		"duration": 0.96,
+		"sentenceIndex": 11464,
+		"timestamp": 80.36999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 81.32999999999998
+	},
+	{
+		"index": 64,
+		"txt": "Figure 21 1. Simple accelerometer in absence of acceleration",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 21_1_ Simple_accelerometer_i_n_absence_of_acceleration____.wav",
+		"duration": 1.91,
+		"sentenceIndex": 11470,
+		"timestamp": 81.82999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 83.73999999999998
+	},
+	{
+		"index": 66,
+		"txt": "As you can see, the device consists of a known mass at the end of a spring next to a measuring stick.",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_you_can_see__the_device_consists_ext_to_a_measuring_stick_____.wav",
+		"duration": 2.02,
+		"sentenceIndex": 11472,
+		"timestamp": 84.23999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 86.25999999999998
+	},
+	{
+		"index": 67,
+		"txt": "When the elevator is not accelerating, the mass is at the 0 mark.",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_the_elevator_is_not_accelerati_he_mass_is_at_the_0_mark_____.wav",
+		"duration": 1.41,
+		"sentenceIndex": 11473,
+		"timestamp": 86.75999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 88.16999999999997
+	},
+	{
+		"index": 68,
+		"txt": "When the elevator accelerates up or down, the mass at the end of the spring resists that",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_the_elevator_accelerates_up_or_f_the_spring_resists_that____.wav",
+		"duration": 1.69,
+		"sentenceIndex": 11474,
+		"timestamp": 88.66999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 90.35999999999997
+	},
+	{
+		"index": 69,
+		"txt": "acceleration and tends to stay at rest.",
+		"file": "/home/user1/trash/dirOutputSet/_100_acceleration_and_tends_to_stay_at_r_nd_tends_to_stay_at_rest_____.wav",
+		"duration": 0.94,
+		"sentenceIndex": 11475,
+		"timestamp": 90.85999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 91.79999999999997
+	},
+	{
+		"index": 70,
+		"txt": "This is",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_This_is____.wav",
+		"duration": 0.3,
+		"sentenceIndex": 11476,
+		"timestamp": 92.29999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 92.59999999999997
+	},
+	{
+		"index": 71,
+		"txt": "Newton's first law in action.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Newton_s_first_law_in_action__on_s_first_law_in_action_____.wav",
+		"duration": 0.65,
+		"sentenceIndex": 11477,
+		"timestamp": 93.09999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 93.74999999999997
+	},
+	{
+		"index": 72,
+		"txt": "Inertial loading causes the spring to stretch or compress.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Inertial_loading_causes_the_spring__g_to_stretch_or_compress_____.wav",
+		"duration": 1.13,
+		"sentenceIndex": 11478,
+		"timestamp": 94.24999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 95.37999999999997
+	},
+	{
+		"index": 73,
+		"txt": "If the elevator is accelerating upward, the",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_the_elevator_is_accelerating_upw__accelerating_upward__the____.wav",
+		"duration": 0.99,
+		"sentenceIndex": 11479,
+		"timestamp": 95.87999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 96.86999999999996
+	},
+	{
+		"index": 75,
+		"txt": "mass will cause the",
+		"file": "/home/user1/trash/dirOutputSet/_100_mass_will_cause_the_mass_will_cause_the____.wav",
+		"duration": 0.44,
+		"sentenceIndex": 11481,
+		"timestamp": 97.36999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 97.80999999999996
+	},
+	{
+		"index": 76,
+		"txt": "spring to stretch downward.",
+		"file": "/home/user1/trash/dirOutputSet/_100_spring_to_stretch_downward__ring_to_stretch_downward_____.wav",
+		"duration": 0.52,
+		"sentenceIndex": 11482,
+		"timestamp": 98.30999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 98.82999999999996
+	},
+	{
+		"index": 77,
+		"txt": "Recall from",
+		"file": "/home/user1/trash/dirOutputSet/_100_Recall_from_Recall_from____.wav",
+		"duration": 0.3,
+		"sentenceIndex": 11483,
+		"timestamp": 99.32999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 99.62999999999995
+	},
+	{
+		"index": 78,
+		"txt": "Chapter 3 that the force acting on a spring is linearly dependent on the displacement of the mass via the equation:Fn = kd",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 3_that_the_force_acting_on___via_the_equation_Fn___kd____.wav",
+		"duration": 2.82,
+		"sentenceIndex": 11484,
+		"timestamp": 100.12999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 102.94999999999995
+	},
+	{
+		"index": 80,
+		"txt": "We can directly measure the",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_can_directly_measure_the__can_directly_measure_the____.wav",
+		"duration": 0.51,
+		"sentenceIndex": 11486,
+		"timestamp": 103.44999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 103.95999999999995
+	},
+	{
+		"index": 81,
+		"txt": "displacement, d, so we can determine the force in that direction, n",
+		"file": "/home/user1/trash/dirOutputSet/_100_displacement__d__so_we_can_determin_orce_in_that_direction__n____.wav",
+		"duration": 1.67,
+		"sentenceIndex": 11487,
+		"timestamp": 104.45999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 106.12999999999995
+	},
+	{
+		"index": 83,
+		"txt": "As the mass is known, voila",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_the_mass_is_known__voila__the_mass_is_known__voila____.wav",
+		"duration": 0.77,
+		"sentenceIndex": 11489,
+		"timestamp": 106.62999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 107.39999999999995
+	},
+	{
+		"index": 84,
+		"txt": "an = m/Fn",
+		"file": "/home/user1/trash/dirOutputSet/_100_an___m_Fn_an___m_Fn____.wav",
+		"duration": 0.58,
+		"sentenceIndex": 11490,
+		"timestamp": 107.89999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 108.47999999999995
+	},
+	{
+		"index": 86,
+		"txt": "As an aside, the fact that you can tell that you are accelerating without having to look outside the elevator is what makes this a",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_an_aside__the_fact_that_you_can__ator_is_what_makes_this_a______.wav",
+		"duration": 2.56,
+		"sentenceIndex": 11492,
+		"timestamp": 108.97999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 111.53999999999995
+	},
+	{
+		"index": 87,
+		"txt": "\"noninertial frame of reference,\"",
+		"file": "/home/user1/trash/dirOutputSet/IVONA_2_Kendra_100_noninertial_frame_of_reference__rtial_frame_of_reference_______.wav",
+		"duration": 0.71,
+		"sentenceIndex": 11493,
+		"timestamp": 112.03999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 112.74999999999994
+	},
+	{
+		"index": 88,
+		"txt": "as discussed in",
+		"file": "/home/user1/trash/dirOutputSet/_100_as_discussed_in_as_discussed_in______.wav",
+		"duration": 0.43,
+		"sentenceIndex": 11494,
+		"timestamp": 113.24999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 113.67999999999995
+	},
+	{
+		"index": 89,
+		"txt": "Chapter 2",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 2_Chapter 2____.wav",
+		"duration": 0.32,
+		"sentenceIndex": 11495,
+		"timestamp": 114.17999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 114.49999999999994
+	},
+	{
+		"index": 91,
+		"txt": "No worries if you don't totally understand that; it isn't important for what we are discussing here.",
+		"file": "/home/user1/trash/dirOutputSet/_100_No_worries_if_you_don_t_totally_und_t_we_are_discussing_here_____.wav",
+		"duration": 1.99,
+		"sentenceIndex": 11497,
+		"timestamp": 114.99999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 116.98999999999994
+	},
+	{
+		"index": 93,
+		"txt": "Now, let's put our elevator back on earth.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now__let_s_put_our_elevator_back_on_r_elevator_back_on_earth_____.wav",
+		"duration": 0.98,
+		"sentenceIndex": 11499,
+		"timestamp": 117.48999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 118.46999999999994
+	},
+	{
+		"index": 94,
+		"txt": "With the same device, the mass will not be at 0 even if the elevator is not accelerating because",
+		"file": "/home/user1/trash/dirOutputSet/_100_With_the_same_device__the_mass_will__not_accelerating_because____.wav",
+		"duration": 2.11,
+		"sentenceIndex": 11500,
+		"timestamp": 118.96999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 121.07999999999994
+	},
+	{
+		"index": 95,
+		"txt": "gravity is pulling it down.",
+		"file": "/home/user1/trash/dirOutputSet/_100_gravity_is_pulling_it_down__avity_is_pulling_it_down_____.wav",
+		"duration": 0.64,
+		"sentenceIndex": 11501,
+		"timestamp": 121.57999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 122.21999999999994
+	},
+	{
+		"index": 96,
+		"txt": "Previously we used units of inches, which we then converted to force and finally to acceleration.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Previously_we_used_units_of_inches___finally_to_acceleration_____.wav",
+		"duration": 2.11,
+		"sentenceIndex": 11502,
+		"timestamp": 122.71999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 124.82999999999994
+	},
+	{
+		"index": 97,
+		"txt": "However, we now have a direct measure of the acceleration due to gravity and could easily place a mark on where the mass is and call it 1g .",
+		"file": "/home/user1/trash/dirOutputSet/_100_However__we_now_have_a_direct_measu__mass_is_and_call_it_1g______.wav",
+		"duration": 2.87,
+		"sentenceIndex": 11503,
+		"timestamp": 125.32999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 128.19999999999993
+	},
+	{
+		"index": 98,
+		"txt": "Also we could place marks along the ruler at the same intervals.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Also_we_could_place_marks_along_the_er_at_the_same_intervals_____.wav",
+		"duration": 1.26,
+		"sentenceIndex": 11504,
+		"timestamp": 128.69999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 129.95999999999992
+	},
+	{
+		"index": 99,
+		"txt": "link https:2 .",
+		"file": "/home/user1/trash/dirOutputSet/_100_link_https_2___link_https_2______.wav",
+		"duration": 0.83,
+		"sentenceIndex": 11505,
+		"timestamp": 130.45999999999992
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 131.28999999999994
+	},
+	{
+		"index": 100,
+		"txt": "The mass should move down the scale to 2g , and anyone standing in the elevator would feel twice as heavy as normal.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_mass_should_move_down_the_scale_twice_as_heavy_as_normal_____.wav",
+		"duration": 2.39,
+		"sentenceIndex": 11506,
+		"timestamp": 131.78999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 134.17999999999992
+	},
+	{
+		"index": 103,
+		"txt": "link https:2 .",
+		"file": "/home/user1/trash/dirOutputSet/_100_link_https_2___link_https_2______.wav",
+		"duration": 0.83,
+		"sentenceIndex": 11509,
+		"timestamp": 134.67999999999992
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 135.50999999999993
+	},
+	{
+		"index": 104,
+		"txt": "We could easily do this by just releasing the brakes and letting gravity do the work.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_could_easily_do_this_by_just_rel_ting_gravity_do_the_work_____.wav",
+		"duration": 1.57,
+		"sentenceIndex": 11510,
+		"timestamp": 136.00999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 137.57999999999993
+	},
+	{
+		"index": 105,
+		"txt": "Now in freefall we don't feel gravity at all, right?",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now_in_freefall_we_don_t_feel_gravi_el_gravity_at_all__right_____.wav",
+		"duration": 1.2,
+		"sentenceIndex": 11511,
+		"timestamp": 138.07999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 139.27999999999992
+	},
+	{
+		"index": 106,
+		"txt": "That's because the downward acceleration is canceling the acceleration due to gravity.",
+		"file": "/home/user1/trash/dirOutputSet/_100_That_s_because_the_downward_acceler_eleration_due_to_gravity_____.wav",
+		"duration": 1.68,
+		"sentenceIndex": 11512,
+		"timestamp": 139.77999999999992
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 141.45999999999992
+	},
+	{
+		"index": 107,
+		"txt": "The mass will be back at 0 just like out in space, far from any gravitational bodies.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_mass_will_be_back_at_0_just_lik_any_gravitational_bodies_____.wav",
+		"duration": 1.9,
+		"sentenceIndex": 11513,
+		"timestamp": 141.95999999999992
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 143.85999999999993
+	},
+	{
+		"index": 108,
+		"txt": "It is for this reason, and not a lack of gravity, that astronauts float around.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_is_for_this_reason__and_not_a_la__astronauts_float_around_____.wav",
+		"duration": 1.63,
+		"sentenceIndex": 11514,
+		"timestamp": 144.35999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 145.98999999999992
+	},
+	{
+		"index": 109,
+		"txt": "They are in freefall around the earth.",
+		"file": "/home/user1/trash/dirOutputSet/_100_They_are_in_freefall_around_the_ear_reefall_around_the_earth_____.wav",
+		"duration": 0.7,
+		"sentenceIndex": 11515,
+		"timestamp": 146.48999999999992
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 147.1899999999999
+	},
+	{
+		"index": 112,
+		"txt": "Lastly, if we accelerate the elevator downward at 2g, the mass would move to the −1g mark on the ruler.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Lastly__if_we_accelerate_the_elevat_he__1g_mark_on_the_ruler_____.wav",
+		"duration": 2.46,
+		"sentenceIndex": 11518,
+		"timestamp": 147.6899999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 150.14999999999992
+	},
+	{
+		"index": 113,
+		"txt": "This is because the downward acceleration is now overwhelming gravity.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_because_the_downward_accele_now_overwhelming_gravity_____.wav",
+		"duration": 1.39,
+		"sentenceIndex": 11519,
+		"timestamp": 150.64999999999992
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 152.0399999999999
+	},
+	{
+		"index": 114,
+		"txt": "Those in the elevator would find themselves standing on the ceiling feeling exactly as they would standing on the ground!",
+		"file": "/home/user1/trash/dirOutputSet/_100_Those_in_the_elevator_would_find_th_d_standing_on_the_ground_____.wav",
+		"duration": 2.2,
+		"sentenceIndex": 11520,
+		"timestamp": 152.5399999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 154.7399999999999
+	},
+	{
+		"index": 115,
+		"txt": "In fact, one of",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_fact__one_of_In_fact__one_of____.wav",
+		"duration": 0.48,
+		"sentenceIndex": 11521,
+		"timestamp": 155.2399999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 155.71999999999989
+	},
+	{
+		"index": 116,
+		"txt": "Einstein's accomplishments was showing that it is impossible to distinguish gravity from inertial accelerations.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Einstein_s_accomplishments_was_show_m_inertial_accelerations_____.wav",
+		"duration": 2.14,
+		"sentenceIndex": 11522,
+		"timestamp": 156.21999999999989
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 158.35999999999987
+	},
+	{
+		"index": 117,
+		"txt": "We'll leave the details of that for independent study and get back to accelerometers in the form of",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ll_leave_the_details_of_that_for_lerometers_in_the_form_of____.wav",
+		"duration": 1.99,
+		"sentenceIndex": 11523,
+		"timestamp": 158.85999999999987
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 160.84999999999988
+	},
+	{
+		"index": 118,
+		"txt": "MEMS.",
+		"file": "/home/user1/trash/dirOutputSet/_100_MEMS__MEMS_____.wav",
+		"duration": 0.21,
+		"sentenceIndex": 11524,
+		"timestamp": 161.34999999999988
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 161.5599999999999
+	},
+	{
+		"index": 121,
+		"txt": "MEMS Accelerometers",
+		"file": "/home/user1/trash/dirOutputSet/_100_MEMS_Accelerometers_MEMS_Accelerometers____.wav",
+		"duration": 0.55,
+		"sentenceIndex": 11527,
+		"timestamp": 162.0599999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 162.6099999999999
+	},
+	{
+		"index": 123,
+		"txt": "Micro scale accelerometers are not that much different from the machine previously described but generally use a cantilevered beam instead of a spring.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Micro_scale_accelerometers_are_not__beam_instead_of_a_spring_____.wav",
+		"duration": 2.95,
+		"sentenceIndex": 11529,
+		"timestamp": 163.1099999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 166.0599999999999
+	},
+	{
+		"index": 124,
+		"txt": "To track more than one axis, sometimes three discrete accelerometers are placed out of plane with respect to one another.",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_track_more_than_one_axis__someti_h_respect_to_one_another_____.wav",
+		"duration": 2.54,
+		"sentenceIndex": 11530,
+		"timestamp": 166.5599999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 169.09999999999988
+	},
+	{
+		"index": 125,
+		"txt": "Alternatively, more complex models use elements that can sense all three directions within a single integrated sensor.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Alternatively__more_complex_models__single_integrated_sensor_____.wav",
+		"duration": 2.51,
+		"sentenceIndex": 11531,
+		"timestamp": 169.59999999999988
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 172.10999999999987
+	},
+	{
+		"index": 126,
+		"txt": "These generally give better results.",
+		"file": "/home/user1/trash/dirOutputSet/_100_These_generally_give_better_results_ally_give_better_results_____.wav",
+		"duration": 0.71,
+		"sentenceIndex": 11532,
+		"timestamp": 172.60999999999987
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 173.31999999999988
+	},
+	{
+		"index": 129,
+		"txt": "The only important difference from the aforementioned examples, besides MEMS being thousands of times smaller in scale than the mass and spring, is how to measure the deflection of the test mass.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_only_important_difference_from__lection_of_the_test_mass_____.wav",
+		"duration": 3.89,
+		"sentenceIndex": 11535,
+		"timestamp": 173.81999999999988
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 177.70999999999987
+	},
+	{
+		"index": 130,
+		"txt": "There are three common methods employed in accelerometers.",
+		"file": "/home/user1/trash/dirOutputSet/_100_There_are_three_common_methods_empl_ployed_in_accelerometers_____.wav",
+		"duration": 1.15,
+		"sentenceIndex": 11536,
+		"timestamp": 178.20999999999987
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 179.35999999999987
+	},
+	{
+		"index": 131,
+		"txt": "For most game devices where extreme accuracy isn't required, the deflection is usually measured as a change in capacitance.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_most_game_devices_where_extreme__a_change_in_capacitance_____.wav",
+		"duration": 2.55,
+		"sentenceIndex": 11537,
+		"timestamp": 179.85999999999987
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 182.40999999999988
+	},
+	{
+		"index": 132,
+		"txt": "This is somewhat the same way that capacitive touch screens work, as described in",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_somewhat_the_same_way_that__ens_work__as_described_in____.wav",
+		"duration": 1.82,
+		"sentenceIndex": 11538,
+		"timestamp": 182.90999999999988
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 184.72999999999988
+	},
+	{
+		"index": 133,
+		"txt": "Chapter 20, and is shown in",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 20__and_is_shown_in_apter 20__and_is_shown_in____.wav",
+		"duration": 0.74,
+		"sentenceIndex": 11539,
+		"timestamp": 185.22999999999988
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 185.96999999999989
+	},
+	{
+		"index": 135,
+		"txt": "Figure 21 2 .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 21_2___Figure 21_2______.wav",
+		"duration": 0.64,
+		"sentenceIndex": 11541,
+		"timestamp": 186.46999999999989
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 187.10999999999987
+	},
+	{
+		"index": 141,
+		"txt": "Figure 21 2. MEMS cantilever accelerometer",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 21_2_ MEMS_cantilever_accele__cantilever_accelerometer____.wav",
+		"duration": 1.42,
+		"sentenceIndex": 11547,
+		"timestamp": 187.60999999999987
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 189.02999999999986
+	},
+	{
+		"index": 143,
+		"txt": "The beam deflects under the influence of the external accelerations of the test mass and brings two charged plates farther or closer together.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_beam_deflects_under_the_influen_rther_or_closer_together_____.wav",
+		"duration": 2.8,
+		"sentenceIndex": 11549,
+		"timestamp": 189.52999999999986
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 192.32999999999987
+	},
+	{
+		"index": 144,
+		"txt": "This changes the capacitance of the system.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_changes_the_capacitance_of_the_apacitance_of_the_system_____.wav",
+		"duration": 0.83,
+		"sentenceIndex": 11550,
+		"timestamp": 192.82999999999987
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 193.65999999999988
+	},
+	{
+		"index": 145,
+		"txt": "This change can then be calibrated to the imposed acceleration.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_change_can_then_be_calibrated__the_imposed_acceleration_____.wav",
+		"duration": 1.29,
+		"sentenceIndex": 11551,
+		"timestamp": 194.15999999999988
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 195.44999999999987
+	},
+	{
+		"index": 148,
+		"txt": "Other methods include integrating",
+		"file": "/home/user1/trash/dirOutputSet/_100_Other_methods_include_integrating_thods_include_integrating____.wav",
+		"duration": 0.68,
+		"sentenceIndex": 11554,
+		"timestamp": 195.94999999999987
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 196.62999999999988
+	},
+	{
+		"index": 149,
+		"txt": "a piezoresister in the beam itself so that the deflection of the beam changes the resistance of the circuit.",
+		"file": "/home/user1/trash/dirOutputSet/_100_a_piezoresister_in_the_beam_itself__esistance_of_the_circuit_____.wav",
+		"duration": 2.04,
+		"sentenceIndex": 11555,
+		"timestamp": 197.12999999999988
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 199.16999999999987
+	},
+	{
+		"index": 150,
+		"txt": "Although this ultimately gives better results, these are harder to manufacture.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Although_this_ultimately_gives_bett_re_harder_to_manufacture_____.wav",
+		"duration": 1.56,
+		"sentenceIndex": 11556,
+		"timestamp": 199.66999999999987
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 201.22999999999988
+	},
+	{
+		"index": 151,
+		"txt": "For the most demanding applications, there are accelerometers using piezoelectric elements based on quartz crystals.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_the_most_demanding_applications_based_on_quartz_crystals_____.wav",
+		"duration": 2.51,
+		"sentenceIndex": 11557,
+		"timestamp": 201.72999999999988
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 204.23999999999987
+	},
+	{
+		"index": 152,
+		"txt": "These are very sensitive even during high frequency changes in acceleration but are generally not used in sensing human input",
+		"file": "/home/user1/trash/dirOutputSet/_100_These_are_very_sensitive_even_durin_ed_in_sensing_human_input____.wav",
+		"duration": 2.6,
+		"sentenceIndex": 11558,
+		"timestamp": 204.73999999999987
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 207.33999999999986
+	},
+	{
+		"index": 155,
+		"txt": "motion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_motion__motion_____.wav",
+		"duration": 0.21,
+		"sentenceIndex": 11561,
+		"timestamp": 207.83999999999986
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 208.04999999999987
+	},
+	{
+		"index": 158,
+		"txt": "Common Accelerometer Specifications",
+		"file": "/home/user1/trash/dirOutputSet/_100_Common_Accelerometer_Specifications_elerometer_Specifications____.wav",
+		"duration": 0.84,
+		"sentenceIndex": 11564,
+		"timestamp": 208.54999999999987
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 209.38999999999987
+	},
+	{
+		"index": 160,
+		"txt": "To help you better",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_help_you_better_To_help_you_better____.wav",
+		"duration": 0.35,
+		"sentenceIndex": 11566,
+		"timestamp": 209.88999999999987
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 210.23999999999987
+	},
+	{
+		"index": 161,
+		"txt": "experiment with accelerometers, we've collected the specifications on a few of the most common accelerometers in use at the time of writing.",
+		"file": "/home/user1/trash/dirOutputSet/_100_experiment_with_accelerometers__we__e_at_the_time_of_writing_____.wav",
+		"duration": 2.88,
+		"sentenceIndex": 11567,
+		"timestamp": 210.73999999999987
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 213.61999999999986
+	},
+	{
+		"index": 162,
+		"txt": "The future may hold cheap accelerometers based on quantum tunneling",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_future_may_hold_cheap_accelerom_ased_on_quantum_tunneling____.wav",
+		"duration": 1.42,
+		"sentenceIndex": 11568,
+		"timestamp": 214.11999999999986
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 215.53999999999985
+	},
+	{
+		"index": 163,
+		"txt": "that can provide almost limitless accuracy, but",
+		"file": "/home/user1/trash/dirOutputSet/_100_that_can_provide_almost_limitless_a_t_limitless_accuracy__but____.wav",
+		"duration": 1.2,
+		"sentenceIndex": 11569,
+		"timestamp": 216.03999999999985
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 217.23999999999984
+	},
+	{
+		"index": 165,
+		"txt": "Table 21 1 outlines what you'll generally be working with for now.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Table 21_1_outlines_what_you_ll_gen__be_working_with_for_now_____.wav",
+		"duration": 1.51,
+		"sentenceIndex": 11571,
+		"timestamp": 217.73999999999984
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 219.24999999999983
+	},
+	{
+		"index": 167,
+		"txt": "Table 21 1. Current common accelerometers",
+		"file": "/home/user1/trash/dirOutputSet/_100_Table 21_1_ Current_common_accelero_ent_common_accelerometers____.wav",
+		"duration": 1.26,
+		"sentenceIndex": 11573,
+		"timestamp": 219.74999999999983
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 221.00999999999982
+	},
+	{
+		"index": 168,
+		"txt": "Device",
+		"file": "/home/user1/trash/dirOutputSet/_100_Device_Device____.wav",
+		"duration": 0.23,
+		"sentenceIndex": 11574,
+		"timestamp": 221.50999999999982
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 221.7399999999998
+	},
+	{
+		"index": 169,
+		"txt": "Accelerometer chip",
+		"file": "/home/user1/trash/dirOutputSet/_100_Accelerometer_chip_Accelerometer_chip____.wav",
+		"duration": 0.47,
+		"sentenceIndex": 11575,
+		"timestamp": 222.2399999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 222.7099999999998
+	},
+	{
+		"index": 170,
+		"txt": "Sensor range",
+		"file": "/home/user1/trash/dirOutputSet/_100_Sensor_range_Sensor_range____.wav",
+		"duration": 0.38,
+		"sentenceIndex": 11576,
+		"timestamp": 223.2099999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 223.5899999999998
+	},
+	{
+		"index": 171,
+		"txt": "Sampling rate",
+		"file": "/home/user1/trash/dirOutputSet/_100_Sampling_rate_Sampling_rate____.wav",
+		"duration": 0.37,
+		"sentenceIndex": 11577,
+		"timestamp": 224.0899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 224.4599999999998
+	},
+	{
+		"index": 172,
+		"txt": "iPhone/iPad/ Motorola Droid",
+		"file": "/home/user1/trash/dirOutputSet/_100_iPhone_iPad__Motorola_Droid_hone_iPad__Motorola_Droid____.wav",
+		"duration": 1.08,
+		"sentenceIndex": 11578,
+		"timestamp": 224.9599999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 226.03999999999982
+	},
+	{
+		"index": 173,
+		"txt": "LIS331D",
+		"file": "/home/user1/trash/dirOutputSet/_100_LIS331D_LIS331D____.wav",
+		"duration": 0.55,
+		"sentenceIndex": 11579,
+		"timestamp": 226.53999999999982
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 227.08999999999983
+	},
+	{
+		"index": 174,
+		"txt": "±2g*",
+		"file": "/home/user1/trash/dirOutputSet/_100__2g___2g_____.wav",
+		"duration": 0.69,
+		"sentenceIndex": 11580,
+		"timestamp": 227.58999999999983
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 228.27999999999983
+	},
+	{
+		"index": 175,
+		"txt": "100 Hz or 400 Hz",
+		"file": "/home/user1/trash/dirOutputSet/_100_100_Hz_or_400_Hz_100_Hz_or_400_Hz____.wav",
+		"duration": 0.86,
+		"sentenceIndex": 11581,
+		"timestamp": 228.77999999999983
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 229.63999999999984
+	},
+	{
+		"index": 176,
+		"txt": "Nintendo Wii",
+		"file": "/home/user1/trash/dirOutputSet/_100_Nintendo_Wii_Nintendo_Wii____.wav",
+		"duration": 0.35,
+		"sentenceIndex": 11582,
+		"timestamp": 230.13999999999984
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 230.48999999999984
+	},
+	{
+		"index": 177,
+		"txt": "ADXl330",
+		"file": "/home/user1/trash/dirOutputSet/_100_ADXl330_ADXl330____.wav",
+		"duration": 0.48,
+		"sentenceIndex": 11583,
+		"timestamp": 230.98999999999984
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 231.46999999999983
+	},
+	{
+		"index": 178,
+		"txt": "±3g",
+		"file": "/home/user1/trash/dirOutputSet/_100__3g__3g____.wav",
+		"duration": 0.7,
+		"sentenceIndex": 11584,
+		"timestamp": 231.96999999999983
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 232.66999999999982
+	},
+	{
+		"index": 179,
+		"txt": "link https:",
+		"file": "/home/user1/trash/dirOutputSet/_100_link_https__link_https_____.wav",
+		"duration": 0.63,
+		"sentenceIndex": 11585,
+		"timestamp": 233.16999999999982
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 233.7999999999998
+	},
+	{
+		"index": 180,
+		"txt": "z axis: 0.5 Hz to 550 Hz",
+		"file": "/home/user1/trash/dirOutputSet/_100_z_axis__0_5_Hz_to_550_Hz_z_axis__0_5_Hz_to_550_Hz____.wav",
+		"duration": 1.3,
+		"sentenceIndex": 11586,
+		"timestamp": 234.2999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 235.59999999999982
+	},
+	{
+		"index": 181,
+		"txt": "Sony Six Axis",
+		"file": "/home/user1/trash/dirOutputSet/_100_Sony_Six_Axis_Sony_Six_Axis____.wav",
+		"duration": 0.52,
+		"sentenceIndex": 11587,
+		"timestamp": 236.09999999999982
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 236.61999999999983
+	},
+	{
+		"index": 182,
+		"txt": "Not published",
+		"file": "/home/user1/trash/dirOutputSet/_100_Not_published_Not_published____.wav",
+		"duration": 0.35,
+		"sentenceIndex": 11588,
+		"timestamp": 237.11999999999983
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 237.46999999999983
+	},
+	{
+		"index": 183,
+		"txt": "±3g",
+		"file": "/home/user1/trash/dirOutputSet/_100__3g__3g____.wav",
+		"duration": 0.7,
+		"sentenceIndex": 11589,
+		"timestamp": 237.96999999999983
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 238.66999999999982
+	},
+	{
+		"index": 184,
+		"txt": "100 Hz",
+		"file": "/home/user1/trash/dirOutputSet/_100_100_Hz_100_Hz____.wav",
+		"duration": 0.46,
+		"sentenceIndex": 11590,
+		"timestamp": 239.16999999999982
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 239.62999999999982
+	},
+	{
+		"index": 186,
+		"txt": "Note",
+		"file": "/home/user1/trash/dirOutputSet/_100_Note_Note____.wav",
+		"duration": 0.17,
+		"sentenceIndex": 11592,
+		"timestamp": 240.12999999999982
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 240.2999999999998
+	},
+	{
+		"index": 188,
+		"txt": "The chip LIS221D is actually capable of two modes.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_chip_LIS221D_is_actually_capabl_lly_capable_of_two_modes_____.wav",
+		"duration": 1.42,
+		"sentenceIndex": 11594,
+		"timestamp": 240.7999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 242.2199999999998
+	},
+	{
+		"index": 189,
+		"txt": "One mode is ±2g and the other is ±8g .",
+		"file": "/home/user1/trash/dirOutputSet/_100_One_mode_is__2g_and_the_other_is__8_2g_and_the_other_is__8g______.wav",
+		"duration": 1.78,
+		"sentenceIndex": 11595,
+		"timestamp": 242.7199999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 244.4999999999998
+	},
+	{
+		"index": 190,
+		"txt": "This is dynamically selectable according to the chips datasheet; however, neither iOS nor Android allows developers to change the mode through the API.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_dynamically_selectable_acco_the_mode_through_the_API_____.wav",
+		"duration": 3.21,
+		"sentenceIndex": 11596,
+		"timestamp": 244.9999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 248.2099999999998
+	},
+	{
+		"index": 193,
+		"txt": "The 2g limit for phones can cause problems when you're attempting to record motion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_2g_limit_for_phones_can_cause_p_empting_to_record_motion_____.wav",
+		"duration": 1.71,
+		"sentenceIndex": 11599,
+		"timestamp": 248.7099999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 250.41999999999982
+	},
+	{
+		"index": 194,
+		"txt": "This limitation will be discussed later in this chapter.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_limitation_will_be_discussed_l_ed_later_in_this_chapter_____.wav",
+		"duration": 1.05,
+		"sentenceIndex": 11600,
+		"timestamp": 250.91999999999982
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 251.96999999999983
+	},
+	{
+		"index": 195,
+		"txt": "The larger range of Wii and Sony controllers demonstrate that they are dedicated to gaming where larger accelerations are expected.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_larger_range_of_Wii_and_Sony_co_celerations_are_expected_____.wav",
+		"duration": 2.52,
+		"sentenceIndex": 11601,
+		"timestamp": 252.46999999999983
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 254.98999999999984
+	},
+	{
+		"index": 198,
+		"txt": "Data Clipping",
+		"file": "/home/user1/trash/dirOutputSet/_100_Data_Clipping_Data_Clipping____.wav",
+		"duration": 0.32,
+		"sentenceIndex": 11604,
+		"timestamp": 255.48999999999984
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 255.80999999999983
+	},
+	{
+		"index": 200,
+		"txt": "The human arm is",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_human_arm_is_The_human_arm_is____.wav",
+		"duration": 0.46,
+		"sentenceIndex": 11606,
+		"timestamp": 256.30999999999983
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 256.7699999999998
+	},
+	{
+		"index": 202,
+		"txt": "capable of exceeding the ±2g range of the iPhone's sensor easily.",
+		"file": "/home/user1/trash/dirOutputSet/_100_capable_of_exceeding_the__2g_range__e_iPhone_s_sensor_easily_____.wav",
+		"duration": 1.87,
+		"sentenceIndex": 11608,
+		"timestamp": 257.2699999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 259.1399999999998
+	},
+	{
+		"index": 203,
+		"txt": "The values reported by the API will actually exceed 2g up to about 2.3g .",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_values_reported_by_the_API_will_eed_2g_up_to_about_2_3g______.wav",
+		"duration": 2.09,
+		"sentenceIndex": 11609,
+		"timestamp": 259.6399999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 261.7299999999998
+	},
+	{
+		"index": 204,
+		"txt": "The accuracy of these values that exceed the specification is unknown.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_accuracy_of_these_values_that_e_specification_is_unknown_____.wav",
+		"duration": 1.46,
+		"sentenceIndex": 11610,
+		"timestamp": 262.2299999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 263.68999999999977
+	},
+	{
+		"index": 205,
+		"txt": "Regardless, they are probably at least as accurate as the option of trying to recreate the data, so if required they can be used.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Regardless__they_are_probably_at_le_equired_they_can_be_used_____.wav",
+		"duration": 2.78,
+		"sentenceIndex": 11611,
+		"timestamp": 264.18999999999977
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 266.96999999999974
+	},
+	{
+		"index": 206,
+		"txt": "All values above this upper limit will be reported as the upper limit such that if you graphed the values, they would look like",
+		"file": "/home/user1/trash/dirOutputSet/_100_All_values_above_this_upper_limit_w_ues__they_would_look_like____.wav",
+		"duration": 2.33,
+		"sentenceIndex": 11612,
+		"timestamp": 267.46999999999974
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 269.7999999999997
+	},
+	{
+		"index": 207,
+		"txt": "Figure 21 3",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 21_3_Figure 21_3____.wav",
+		"duration": 0.64,
+		"sentenceIndex": 11613,
+		"timestamp": 270.2999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 270.9399999999997
+	},
+	{
+		"index": 214,
+		"txt": "Figure 21 3. Acceleration graph showing clipping",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 21_3_ Acceleration_graph_sho_on_graph_showing_clipping____.wav",
+		"duration": 1.53,
+		"sentenceIndex": 11620,
+		"timestamp": 271.4399999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 272.9699999999997
+	},
+	{
+		"index": 216,
+		"txt": "There are several different ways to handle data clipping.",
+		"file": "/home/user1/trash/dirOutputSet/_100_There_are_several_different_ways_to__to_handle_data_clipping_____.wav",
+		"duration": 0.97,
+		"sentenceIndex": 11622,
+		"timestamp": 273.4699999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 274.4399999999997
+	},
+	{
+		"index": 217,
+		"txt": "One is to discard the data and alert the user that he has exceeded the available range.",
+		"file": "/home/user1/trash/dirOutputSet/_100_One_is_to_discard_the_data_and_aler_eded_the_available_range_____.wav",
+		"duration": 1.69,
+		"sentenceIndex": 11623,
+		"timestamp": 274.9399999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 276.6299999999997
+	},
+	{
+		"index": 218,
+		"txt": "Another is to attempt to recreate the missing data.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Another_is_to_attempt_to_recreate_t_ecreate_the_missing_data_____.wav",
+		"duration": 1.04,
+		"sentenceIndex": 11624,
+		"timestamp": 277.1299999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 278.16999999999973
+	},
+	{
+		"index": 219,
+		"txt": "If you are recording the data for later processing, you can use both segment 1 and segment 2 to fit the curve between the point at which the data began to be clipped and the point in which meaningful data collection is resumed.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_you_are_recording_the_data_for_l_ta_collection_is_resumed_____.wav",
+		"duration": 4.29,
+		"sentenceIndex": 11625,
+		"timestamp": 278.66999999999973
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 282.95999999999975
+	},
+	{
+		"index": 220,
+		"txt": "This is highly application dependent, and the curve used to fit the data will have to be matched to the activity at hand.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_highly_application_dependen__to_the_activity_at_hand_____.wav",
+		"duration": 2.29,
+		"sentenceIndex": 11626,
+		"timestamp": 283.45999999999975
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 285.7499999999998
+	},
+	{
+		"index": 221,
+		"txt": "If you are recording the data for later processing, you can use both segment 1 and segment 2 to give your data.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_you_are_recording_the_data_for_l_ment_2_to_give_your_data_____.wav",
+		"duration": 2.3,
+		"sentenceIndex": 11627,
+		"timestamp": 286.2499999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 288.5499999999998
+	},
+	{
+		"index": 224,
+		"txt": "If you are attempting to process the signal in real time, you'll have only segment 1 to work from.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_you_are_attempting_to_process_th_y_segment_1_to_work_from_____.wav",
+		"duration": 2.01,
+		"sentenceIndex": 11630,
+		"timestamp": 289.0499999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 291.0599999999998
+	},
+	{
+		"index": 225,
+		"txt": "This could result in a discontinuity when meaningful data collection resumes, and you'll have to decide how to deal with that given the particulars of what you are doing with the data.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_could_result_in_a_discontinuit__are_doing_with_the_data_____.wav",
+		"duration": 3.37,
+		"sentenceIndex": 11631,
+		"timestamp": 291.5599999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 294.9299999999998
+	},
+	{
+		"index": 228,
+		"txt": "Sensing Orientation",
+		"file": "/home/user1/trash/dirOutputSet/_100_Sensing_Orientation_Sensing_Orientation____.wav",
+		"duration": 0.55,
+		"sentenceIndex": 11634,
+		"timestamp": 295.4299999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 295.9799999999998
+	},
+	{
+		"index": 230,
+		"txt": "Sensing rotation in",
+		"file": "/home/user1/trash/dirOutputSet/_100_Sensing_rotation_in_Sensing_rotation_in____.wav",
+		"duration": 0.52,
+		"sentenceIndex": 11636,
+		"timestamp": 296.4799999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 296.9999999999998
+	},
+	{
+		"index": 233,
+		"txt": "three degrees of freedom amounts to sensing a rigid body's orientation and is a complex problem that cannot be fully resolved using only accelerometers.",
+		"file": "/home/user1/trash/dirOutputSet/_100_three_degrees_of_freedom_amounts_to_sing_only_accelerometers_____.wav",
+		"duration": 3.18,
+		"sentenceIndex": 11639,
+		"timestamp": 297.4999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 300.6799999999998
+	},
+	{
+		"index": 234,
+		"txt": "Think about holding the device vertically.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Think_about_holding_the_device_vert_ng_the_device_vertically_____.wav",
+		"duration": 0.77,
+		"sentenceIndex": 11640,
+		"timestamp": 301.1799999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 301.94999999999976
+	},
+	{
+		"index": 235,
+		"txt": "If you rotate the device about the axis described by the gravity vector, none of the accelerometers will measure any change in the force acting on their test masses.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_you_rotate_the_device_about_the__ing_on_their_test_masses_____.wav",
+		"duration": 3.25,
+		"sentenceIndex": 11641,
+		"timestamp": 302.44999999999976
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 305.69999999999976
+	},
+	{
+		"index": 236,
+		"txt": "We can't measure that degree of freedom.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_can_t_measure_that_degree_of_fre_e_that_degree_of_freedom_____.wav",
+		"duration": 0.75,
+		"sentenceIndex": 11642,
+		"timestamp": 306.19999999999976
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 306.94999999999976
+	},
+	{
+		"index": 237,
+		"txt": "To do so, we'd need to fix a",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_do_so__we_d_need_to_fix_a_do_so__we_d_need_to_fix_a____.wav",
+		"duration": 0.79,
+		"sentenceIndex": 11643,
+		"timestamp": 307.44999999999976
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 308.2399999999998
+	},
+	{
+		"index": 238,
+		"txt": "gyroscope to the device, and even these run into problems when a body is free to rotate about all three axes.",
+		"file": "/home/user1/trash/dirOutputSet/_100_gyroscope_to_the_device__and_even_t_ate_about_all_three_axes_____.wav",
+		"duration": 2.42,
+		"sentenceIndex": 11644,
+		"timestamp": 308.7399999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 311.1599999999998
+	},
+	{
+		"index": 239,
+		"txt": "See",
+		"file": "/home/user1/trash/dirOutputSet/_100_See_See____.wav",
+		"duration": 0.23,
+		"sentenceIndex": 11645,
+		"timestamp": 311.6599999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 311.8899999999998
+	},
+	{
+		"index": 240,
+		"txt": "Chapter 11",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 11_Chapter 11____.wav",
+		"duration": 0.39,
+		"sentenceIndex": 11646,
+		"timestamp": 312.3899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 312.7799999999998
+	},
+	{
+		"index": 241,
+		"txt": "for a discussion on Euler angles.",
+		"file": "/home/user1/trash/dirOutputSet/_100_for_a_discussion_on_Euler_angles__scussion_on_Euler_angles_____.wav",
+		"duration": 0.76,
+		"sentenceIndex": 11647,
+		"timestamp": 313.2799999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 314.0399999999998
+	},
+	{
+		"index": 243,
+		"txt": "Now let's discuss what we can accomplish.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now_let_s_discuss_what_we_can_accom_s_what_we_can_accomplish_____.wav",
+		"duration": 0.85,
+		"sentenceIndex": 11649,
+		"timestamp": 314.5399999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 315.3899999999998
+	},
+	{
+		"index": 244,
+		"txt": "First,",
+		"file": "/home/user1/trash/dirOutputSet/_100_First__First_____.wav",
+		"duration": 0.25,
+		"sentenceIndex": 11650,
+		"timestamp": 315.8899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 316.1399999999998
+	},
+	{
+		"index": 245,
+		"txt": "Figure 21 4 demonstrates the coordinate system",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 21_4_demonstrates_the_coordi_tes_the_coordinate_system____.wav",
+		"duration": 1.27,
+		"sentenceIndex": 11651,
+		"timestamp": 316.6399999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 317.9099999999998
+	},
+	{
+		"index": 247,
+		"txt": "we'll use; the actual coordinate system used will be determined by the manufacturer of your device, so make sure to check its documentation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_we_ll_use__the_actual_coordinate_sy__check_its_documentation_____.wav",
+		"duration": 2.99,
+		"sentenceIndex": 11653,
+		"timestamp": 318.4099999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 321.3999999999998
+	},
+	{
+		"index": 253,
+		"txt": "Figure 21 4. Accelerometer coordinate system",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 21_4_ Accelerometer_coordina_rometer_coordinate_system____.wav",
+		"duration": 1.46,
+		"sentenceIndex": 11659,
+		"timestamp": 321.8999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 323.3599999999998
+	},
+	{
+		"index": 255,
+		"txt": "Now if we make some assumptions based on how a user will hold our device, we can determine some",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now_if_we_make_some_assumptions_bas_ce__we_can_determine_some______.wav",
+		"duration": 1.99,
+		"sentenceIndex": 11661,
+		"timestamp": 323.8599999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 325.8499999999998
+	},
+	{
+		"index": 256,
+		"txt": "\"gross\"",
+		"file": "/home/user1/trash/dirOutputSet/IVONA_2_Kendra_100_gross_gross______.wav",
+		"duration": 0.22,
+		"sentenceIndex": 11662,
+		"timestamp": 326.3499999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 326.5699999999998
+	},
+	{
+		"index": 257,
+		"txt": "orientations.",
+		"file": "/home/user1/trash/dirOutputSet/_100_orientations__orientations_______.wav",
+		"duration": 0.4,
+		"sentenceIndex": 11663,
+		"timestamp": 327.0699999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 327.4699999999998
+	},
+	{
+		"index": 258,
+		"txt": "For illustration,",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_illustration__For_illustration_____.wav",
+		"duration": 0.46,
+		"sentenceIndex": 11664,
+		"timestamp": 327.9699999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 328.4299999999998
+	},
+	{
+		"index": 259,
+		"txt": "Table 21 2 gives some idea of what each value would be for each gross direction, assuming the coordinate system shown in",
+		"file": "/home/user1/trash/dirOutputSet/_100_Table 21_2_gives_some_idea_of_what__oordinate_system_shown_in____.wav",
+		"duration": 2.71,
+		"sentenceIndex": 11665,
+		"timestamp": 328.9299999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 331.63999999999976
+	},
+	{
+		"index": 261,
+		"txt": "Figure 21 4 .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 21_4___Figure 21_4______.wav",
+		"duration": 0.62,
+		"sentenceIndex": 11667,
+		"timestamp": 332.13999999999976
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 332.75999999999976
+	},
+	{
+		"index": 263,
+		"txt": "Table 21 2. Gross acceleration values and orientations",
+		"file": "/home/user1/trash/dirOutputSet/_100_Table 21_2_ Gross_acceleration_valu_n_values_and_orientations____.wav",
+		"duration": 1.65,
+		"sentenceIndex": 11669,
+		"timestamp": 333.25999999999976
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 334.90999999999974
+	},
+	{
+		"index": 264,
+		"txt": "Device orientation",
+		"file": "/home/user1/trash/dirOutputSet/_100_Device_orientation_Device_orientation____.wav",
+		"duration": 0.51,
+		"sentenceIndex": 11670,
+		"timestamp": 335.40999999999974
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 335.91999999999973
+	},
+	{
+		"index": 265,
+		"txt": "X",
+		"file": "/home/user1/trash/dirOutputSet/_100_X_X____.wav",
+		"duration": 0.19,
+		"sentenceIndex": 11671,
+		"timestamp": 336.41999999999973
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 336.60999999999973
+	},
+	{
+		"index": 266,
+		"txt": "Y",
+		"file": "/home/user1/trash/dirOutputSet/_100_Y_Y____.wav",
+		"duration": 0.19,
+		"sentenceIndex": 11672,
+		"timestamp": 337.10999999999973
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 337.2999999999997
+	},
+	{
+		"index": 267,
+		"txt": "Z",
+		"file": "/home/user1/trash/dirOutputSet/_100_Z_Z____.wav",
+		"duration": 0.2,
+		"sentenceIndex": 11673,
+		"timestamp": 337.7999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 337.9999999999997
+	},
+	{
+		"index": 268,
+		"txt": "Face down on table",
+		"file": "/home/user1/trash/dirOutputSet/_100_Face_down_on_table_Face_down_on_table____.wav",
+		"duration": 0.51,
+		"sentenceIndex": 11674,
+		"timestamp": 338.4999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 339.0099999999997
+	},
+	{
+		"index": 269,
+		"txt": "0",
+		"file": "/home/user1/trash/dirOutputSet/_100_0_0____.wav",
+		"duration": 0.21,
+		"sentenceIndex": 11675,
+		"timestamp": 339.5099999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 339.7199999999997
+	},
+	{
+		"index": 270,
+		"txt": "0",
+		"file": "/home/user1/trash/dirOutputSet/_100_0_0____.wav",
+		"duration": 0.21,
+		"sentenceIndex": 11676,
+		"timestamp": 340.2199999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 340.42999999999967
+	},
+	{
+		"index": 271,
+		"txt": "1",
+		"file": "/home/user1/trash/dirOutputSet/_100_1_1____.wav",
+		"duration": 0.17,
+		"sentenceIndex": 11677,
+		"timestamp": 340.92999999999967
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 341.0999999999997
+	},
+	{
+		"index": 272,
+		"txt": "Face up on table",
+		"file": "/home/user1/trash/dirOutputSet/_100_Face_up_on_table_Face_up_on_table____.wav",
+		"duration": 0.46,
+		"sentenceIndex": 11678,
+		"timestamp": 341.5999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 342.05999999999966
+	},
+	{
+		"index": 273,
+		"txt": "0",
+		"file": "/home/user1/trash/dirOutputSet/_100_0_0____.wav",
+		"duration": 0.21,
+		"sentenceIndex": 11679,
+		"timestamp": 342.55999999999966
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 342.76999999999964
+	},
+	{
+		"index": 274,
+		"txt": "0",
+		"file": "/home/user1/trash/dirOutputSet/_100_0_0____.wav",
+		"duration": 0.21,
+		"sentenceIndex": 11680,
+		"timestamp": 343.26999999999964
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 343.4799999999996
+	},
+	{
+		"index": 275,
+		"txt": "−1",
+		"file": "/home/user1/trash/dirOutputSet/_100__1__1____.wav",
+		"duration": 0.48,
+		"sentenceIndex": 11681,
+		"timestamp": 343.9799999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 344.45999999999964
+	},
+	{
+		"index": 276,
+		"txt": "Horizontal on table, right side down",
+		"file": "/home/user1/trash/dirOutputSet/_100_Horizontal_on_table__right_side_dow_on_table__right_side_down____.wav",
+		"duration": 0.98,
+		"sentenceIndex": 11682,
+		"timestamp": 344.95999999999964
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 345.93999999999966
+	},
+	{
+		"index": 277,
+		"txt": "1",
+		"file": "/home/user1/trash/dirOutputSet/_100_1_1____.wav",
+		"duration": 0.17,
+		"sentenceIndex": 11683,
+		"timestamp": 346.43999999999966
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 346.6099999999997
+	},
+	{
+		"index": 278,
+		"txt": "0",
+		"file": "/home/user1/trash/dirOutputSet/_100_0_0____.wav",
+		"duration": 0.21,
+		"sentenceIndex": 11684,
+		"timestamp": 347.1099999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 347.31999999999965
+	},
+	{
+		"index": 279,
+		"txt": "0",
+		"file": "/home/user1/trash/dirOutputSet/_100_0_0____.wav",
+		"duration": 0.21,
+		"sentenceIndex": 11685,
+		"timestamp": 347.81999999999965
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 348.02999999999963
+	},
+	{
+		"index": 280,
+		"txt": "Horizontal on table, left side down",
+		"file": "/home/user1/trash/dirOutputSet/_100_Horizontal_on_table__left_side_down__on_table__left_side_down____.wav",
+		"duration": 1,
+		"sentenceIndex": 11686,
+		"timestamp": 348.52999999999963
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 349.52999999999963
+	},
+	{
+		"index": 281,
+		"txt": "−1",
+		"file": "/home/user1/trash/dirOutputSet/_100__1__1____.wav",
+		"duration": 0.48,
+		"sentenceIndex": 11687,
+		"timestamp": 350.02999999999963
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 350.50999999999965
+	},
+	{
+		"index": 282,
+		"txt": "0",
+		"file": "/home/user1/trash/dirOutputSet/_100_0_0____.wav",
+		"duration": 0.21,
+		"sentenceIndex": 11688,
+		"timestamp": 351.00999999999965
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 351.21999999999963
+	},
+	{
+		"index": 283,
+		"txt": "0",
+		"file": "/home/user1/trash/dirOutputSet/_100_0_0____.wav",
+		"duration": 0.21,
+		"sentenceIndex": 11689,
+		"timestamp": 351.71999999999963
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 351.9299999999996
+	},
+	{
+		"index": 284,
+		"txt": "Vertical on table, bottom down",
+		"file": "/home/user1/trash/dirOutputSet/_100_Vertical_on_table__bottom_down_cal_on_table__bottom_down____.wav",
+		"duration": 0.82,
+		"sentenceIndex": 11690,
+		"timestamp": 352.4299999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 353.2499999999996
+	},
+	{
+		"index": 285,
+		"txt": "0",
+		"file": "/home/user1/trash/dirOutputSet/_100_0_0____.wav",
+		"duration": 0.21,
+		"sentenceIndex": 11691,
+		"timestamp": 353.7499999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 353.9599999999996
+	},
+	{
+		"index": 286,
+		"txt": "−1",
+		"file": "/home/user1/trash/dirOutputSet/_100__1__1____.wav",
+		"duration": 0.48,
+		"sentenceIndex": 11692,
+		"timestamp": 354.4599999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 354.9399999999996
+	},
+	{
+		"index": 287,
+		"txt": "0",
+		"file": "/home/user1/trash/dirOutputSet/_100_0_0____.wav",
+		"duration": 0.21,
+		"sentenceIndex": 11693,
+		"timestamp": 355.4399999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 355.6499999999996
+	},
+	{
+		"index": 288,
+		"txt": "Vertical on table, top down",
+		"file": "/home/user1/trash/dirOutputSet/_100_Vertical_on_table__top_down_rtical_on_table__top_down____.wav",
+		"duration": 0.75,
+		"sentenceIndex": 11694,
+		"timestamp": 356.1499999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 356.8999999999996
+	},
+	{
+		"index": 289,
+		"txt": "0",
+		"file": "/home/user1/trash/dirOutputSet/_100_0_0____.wav",
+		"duration": 0.21,
+		"sentenceIndex": 11695,
+		"timestamp": 357.3999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 357.60999999999956
+	},
+	{
+		"index": 290,
+		"txt": "1",
+		"file": "/home/user1/trash/dirOutputSet/_100_1_1____.wav",
+		"duration": 0.17,
+		"sentenceIndex": 11696,
+		"timestamp": 358.10999999999956
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 358.2799999999996
+	},
+	{
+		"index": 291,
+		"txt": "0",
+		"file": "/home/user1/trash/dirOutputSet/_100_0_0____.wav",
+		"duration": 0.21,
+		"sentenceIndex": 11697,
+		"timestamp": 358.7799999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 358.98999999999955
+	},
+	{
+		"index": 293,
+		"txt": "There are a few things to note here.",
+		"file": "/home/user1/trash/dirOutputSet/_100_There_are_a_few_things_to_note_here__few_things_to_note_here_____.wav",
+		"duration": 0.67,
+		"sentenceIndex": 11699,
+		"timestamp": 359.48999999999955
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 360.15999999999957
+	},
+	{
+		"index": 294,
+		"txt": "First, if you were to hold the phone in these orientations with your hand, the accelerometer is sensitive enough to pick up small deviations from true vertical.",
+		"file": "/home/user1/trash/dirOutputSet/_100_First__if_you_were_to_hold_the_phon_tions_from_true_vertical_____.wav",
+		"duration": 3.18,
+		"sentenceIndex": 11700,
+		"timestamp": 360.65999999999957
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 363.8399999999996
+	},
+	{
+		"index": 295,
+		"txt": "We are considering these the",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_are_considering_these_the_are_considering_these_the______.wav",
+		"duration": 0.48,
+		"sentenceIndex": 11701,
+		"timestamp": 364.3399999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 364.8199999999996
+	},
+	{
+		"index": 296,
+		"txt": "\"gross\"",
+		"file": "/home/user1/trash/dirOutputSet/IVONA_2_Kendra_100_gross_gross______.wav",
+		"duration": 0.22,
+		"sentenceIndex": 11702,
+		"timestamp": 365.3199999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 365.5399999999996
+	},
+	{
+		"index": 297,
+		"txt": "orientations such that these small deviations should be ignored.",
+		"file": "/home/user1/trash/dirOutputSet/_100_orientations_such_that_these_small__ations_should_be_ignored_______.wav",
+		"duration": 1.35,
+		"sentenceIndex": 11703,
+		"timestamp": 366.0399999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 367.38999999999965
+	},
+	{
+		"index": 300,
+		"txt": "Sensing Tilt",
+		"file": "/home/user1/trash/dirOutputSet/_100_Sensing_Tilt_Sensing_Tilt____.wav",
+		"duration": 0.4,
+		"sentenceIndex": 11706,
+		"timestamp": 367.88999999999965
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 368.2899999999996
+	},
+	{
+		"index": 302,
+		"txt": "Although we can't",
+		"file": "/home/user1/trash/dirOutputSet/_100_Although_we_can_t_Although_we_can_t____.wav",
+		"duration": 0.37,
+		"sentenceIndex": 11708,
+		"timestamp": 368.7899999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 369.1599999999996
+	},
+	{
+		"index": 304,
+		"txt": "determine exactly what angle the user is holding the phone about all three axes, we can pick one axis, assume that it is pointing down, and then find the change in the angle from that assumption over time.",
+		"file": "/home/user1/trash/dirOutputSet/_100_determine_exactly_what_angle_the_us_hat_assumption_over_time_____.wav",
+		"duration": 4.18,
+		"sentenceIndex": 11710,
+		"timestamp": 369.6599999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 373.83999999999963
+	},
+	{
+		"index": 305,
+		"txt": "For instance, if the phone is lying on a table, the average acceleration in the z direction will be −1, and in the other directions, 0.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_instance__if_the_phone_is_lying__the_other_directions__0_____.wav",
+		"duration": 3.34,
+		"sentenceIndex": 11711,
+		"timestamp": 374.33999999999963
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 377.6799999999996
+	},
+	{
+		"index": 306,
+		"txt": "Even if the user spins the phone, the values will remain as previously indicated and we cannot sense that rotation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Even_if_the_user_spins_the_phone__t_nnot_sense_that_rotation_____.wav",
+		"duration": 2.43,
+		"sentenceIndex": 11712,
+		"timestamp": 378.1799999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 380.6099999999996
+	},
+	{
+		"index": 307,
+		"txt": "However, if the user lifts one edge from the table we'll call this tilting it then the accelerometer will register different values.",
+		"file": "/home/user1/trash/dirOutputSet/_100_However__if_the_user_lifts_one_edge_egister_different_values_____.wav",
+		"duration": 2.53,
+		"sentenceIndex": 11713,
+		"timestamp": 381.1099999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 383.6399999999996
+	},
+	{
+		"index": 308,
+		"txt": "Some of the acceleration due to gravity will act on the other two axes.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Some_of_the_acceleration_due_to_gra_ct_on_the_other_two_axes_____.wav",
+		"duration": 1.46,
+		"sentenceIndex": 11714,
+		"timestamp": 384.1399999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 385.59999999999957
+	},
+	{
+		"index": 309,
+		"txt": "By sensing this change, an accelerometer will allow us to determine at what angle the device is tilted.",
+		"file": "/home/user1/trash/dirOutputSet/_100_By_sensing_this_change__an_accelero_gle_the_device_is_tilted_____.wav",
+		"duration": 2.08,
+		"sentenceIndex": 11715,
+		"timestamp": 386.09999999999957
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 388.17999999999955
+	},
+	{
+		"index": 312,
+		"txt": "Using Tilt to Control a Sprite",
+		"file": "/home/user1/trash/dirOutputSet/_100_Using_Tilt_to_Control_a_Sprite__Tilt_to_Control_a_Sprite____.wav",
+		"duration": 0.75,
+		"sentenceIndex": 11718,
+		"timestamp": 388.67999999999955
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 389.42999999999955
+	},
+	{
+		"index": 314,
+		"txt": "Here we will",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_we_will_Here_we_will____.wav",
+		"duration": 0.3,
+		"sentenceIndex": 11720,
+		"timestamp": 389.92999999999955
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 390.22999999999956
+	},
+	{
+		"index": 316,
+		"txt": "show you how to implement code for a simple game that asks the user to move an avatar to a target by tilting the phone.",
+		"file": "/home/user1/trash/dirOutputSet/_100_show_you_how_to_implement_code_for__get_by_tilting_the_phone_____.wav",
+		"duration": 2.35,
+		"sentenceIndex": 11722,
+		"timestamp": 390.72999999999956
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 393.0799999999996
+	},
+	{
+		"index": 317,
+		"txt": "First, we will briefly show an example of determining the rotation about a single axis.",
+		"file": "/home/user1/trash/dirOutputSet/_100_First__we_will_briefly_show_an_exam_tion_about_a_single_axis_____.wav",
+		"duration": 1.91,
+		"sentenceIndex": 11723,
+		"timestamp": 393.5799999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 395.4899999999996
+	},
+	{
+		"index": 318,
+		"txt": "Let's assume we have an accelerometer rotated at some arbitrary angle, α, which is what our algorithm will solve for.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Let_s_assume_we_have_an_acceleromet_algorithm_will_solve_for_____.wav",
+		"duration": 3.13,
+		"sentenceIndex": 11724,
+		"timestamp": 395.9899999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 399.1199999999996
+	},
+	{
+		"index": 319,
+		"txt": "As previously discussed, accelerometers generally report values as multiples of near earth gravity, g .",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_previously_discussed__accelerome_f_near_earth_gravity__g______.wav",
+		"duration": 2.49,
+		"sentenceIndex": 11725,
+		"timestamp": 399.6199999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 402.1099999999996
+	},
+	{
+		"index": 320,
+		"txt": "For the following example, we are concerned only with the x  and y axis values, ax and ay , respectively.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_the_following_example__we_are_c_ax_and_ay___respectively_____.wav",
+		"duration": 2.43,
+		"sentenceIndex": 11726,
+		"timestamp": 402.6099999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 405.0399999999996
+	},
+	{
+		"index": 321,
+		"txt": "If the device were in the",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_the_device_were_in_the_If_the_device_were_in_the______.wav",
+		"duration": 0.42,
+		"sentenceIndex": 11727,
+		"timestamp": 405.5399999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 405.95999999999964
+	},
+	{
+		"index": 322,
+		"txt": "\"upright\"",
+		"file": "/home/user1/trash/dirOutputSet/IVONA_2_Kendra_100_upright_upright______.wav",
+		"duration": 0.23,
+		"sentenceIndex": 11728,
+		"timestamp": 406.45999999999964
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 406.68999999999966
+	},
+	{
+		"index": 323,
+		"txt": "position, then ax would equal 0 and ay would equal 1.",
+		"file": "/home/user1/trash/dirOutputSet/_100_position__then_ax_would_equal_0_and_l_0_and_ay_would_equal_1_______.wav",
+		"duration": 1.34,
+		"sentenceIndex": 11729,
+		"timestamp": 407.18999999999966
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 408.52999999999963
+	},
+	{
+		"index": 324,
+		"txt": "After rotating the device, we'd see different values that are related to our angle α by use of the arctangent function.",
+		"file": "/home/user1/trash/dirOutputSet/_100_After_rotating_the_device__we_d_see__the_arctangent_function_____.wav",
+		"duration": 3.05,
+		"sentenceIndex": 11730,
+		"timestamp": 409.02999999999963
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 412.07999999999964
+	},
+	{
+		"index": 325,
+		"txt": "In this case, because",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_this_case__because_In_this_case__because____.wav",
+		"duration": 0.56,
+		"sentenceIndex": 11731,
+		"timestamp": 412.57999999999964
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 413.13999999999965
+	},
+	{
+		"index": 326,
+		"txt": "the single argument atan function included in most programming languages doesn't differentiate between diametrically opposed directions, it is beneficial to use the two argument function",
+		"file": "/home/user1/trash/dirOutputSet/_100_the_single_argument_atan_function_i_the_two_argument_function____.wav",
+		"duration": 3.83,
+		"sentenceIndex": 11732,
+		"timestamp": 413.63999999999965
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 417.46999999999963
+	},
+	{
+		"index": 328,
+		"txt": "The relevant C code is as follows:",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_relevant_C_code_is_as_follows__ant_C_code_is_as_follows_____.wav",
+		"duration": 0.77,
+		"sentenceIndex": 11734,
+		"timestamp": 417.96999999999963
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 418.7399999999996
+	},
+	{
+		"index": 330,
+		"txt": "This is pretty straightforward, but there are a few things to point out.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_pretty_straightforward__but__few_things_to_point_out_____.wav",
+		"duration": 1.33,
+		"sentenceIndex": 11736,
+		"timestamp": 419.2399999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 420.5699999999996
+	},
+	{
+		"index": 331,
+		"txt": "First, the way in which your program will get results from the accelerometer will vary greatly between platforms, so we have encapsulated that API specific code in a getXacceleration() function.",
+		"file": "/home/user1/trash/dirOutputSet/_100_First__the_way_in_which_your_progra_Xacceleration___function_____.wav",
+		"duration": 4.15,
+		"sentenceIndex": 11737,
+		"timestamp": 421.0699999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 425.2199999999996
+	},
+	{
+		"index": 332,
+		"txt": "In fact, most operating systems will be continuously polling the accelerometer in a separate thread, so you'll have to have a logical operator that tells your accelerometer object when you actually want to see those values passed to your program.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_fact__most_operating_systems_wil_s_passed_to_your_program_____.wav",
+		"duration": 4.96,
+		"sentenceIndex": 11738,
+		"timestamp": 425.7199999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 430.67999999999955
+	},
+	{
+		"index": 333,
+		"txt": "Example Objective C code for the accelerometer in the iPhone will be shown later.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Example_Objective_C_code_for_the_ac_hone_will_be_shown_later_____.wav",
+		"duration": 1.81,
+		"sentenceIndex": 11739,
+		"timestamp": 431.17999999999955
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 432.98999999999955
+	},
+	{
+		"index": 334,
+		"txt": "Secondly, you'll notice that we are using an if statement that changes the radians to degrees in such a way as to return proper 0°–360° answers.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Secondly__you_ll_notice_that_we_are_n_proper_0__360__answers_____.wav",
+		"duration": 3.83,
+		"sentenceIndex": 11740,
+		"timestamp": 433.48999999999955
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 437.31999999999954
+	},
+	{
+		"index": 335,
+		"txt": "This avoids having to pay attention to the sign, as atan2 returns only answers between 0° and 180°, using a negative value to represent the other half of the range.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_avoids_having_to_pay_attention__other_half_of_the_range_____.wav",
+		"duration": 4.22,
+		"sentenceIndex": 11741,
+		"timestamp": 437.81999999999954
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 442.03999999999957
+	},
+	{
+		"index": 336,
+		"txt": "For example, an output of 0° means the device is vertical, an output of 90° means the device is rotated 90° to the left, and an output of 180° means the device is upside down.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_example__an_output_of_0__means__he_device_is_upside_down_____.wav",
+		"duration": 5.13,
+		"sentenceIndex": 11742,
+		"timestamp": 442.53999999999957
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 447.66999999999956
+	},
+	{
+		"index": 338,
+		"txt": "Now let's extend this to two dimensions.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now_let_s_extend_this_to_two_dimens_d_this_to_two_dimensions_____.wav",
+		"duration": 0.83,
+		"sentenceIndex": 11744,
+		"timestamp": 448.16999999999956
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 448.99999999999955
+	},
+	{
+		"index": 339,
+		"txt": "This will tell us not only how far the phone is from vertical about one axis, but its inclination about the y axis as well.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_will_tell_us_not_only_how_far__about_the_y_axis_as_well_____.wav",
+		"duration": 2.87,
+		"sentenceIndex": 11745,
+		"timestamp": 449.49999999999955
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 452.36999999999955
+	},
+	{
+		"index": 342,
+		"txt": "Two Degrees of Freedom",
+		"file": "/home/user1/trash/dirOutputSet/_100_Two_Degrees_of_Freedom_Two_Degrees_of_Freedom____.wav",
+		"duration": 0.55,
+		"sentenceIndex": 11748,
+		"timestamp": 452.86999999999955
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 453.41999999999956
+	},
+	{
+		"index": 344,
+		"txt": "Now let's say that we want to",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now_let_s_say_that_we_want_to_let_s_say_that_we_want_to____.wav",
+		"duration": 0.7,
+		"sentenceIndex": 11750,
+		"timestamp": 453.91999999999956
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 454.61999999999955
+	},
+	{
+		"index": 345,
+		"txt": "develop a game in which we control a sprite moving in a 2D world.",
+		"file": "/home/user1/trash/dirOutputSet/_100_develop_a_game_in_which_we_control__ite_moving_in_a_2D_world_____.wav",
+		"duration": 1.38,
+		"sentenceIndex": 11751,
+		"timestamp": 455.11999999999955
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 456.49999999999955
+	},
+	{
+		"index": 346,
+		"txt": "The user would hold the device as if it were lying on a table and look down from above.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_user_would_hold_the_device_as_i_and_look_down_from_above_____.wav",
+		"duration": 1.62,
+		"sentenceIndex": 11752,
+		"timestamp": 456.99999999999955
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 458.61999999999955
+	},
+	{
+		"index": 347,
+		"txt": "He or she would then tilt the phone out of that plane to get the sprite to move in the desired direction.",
+		"file": "/home/user1/trash/dirOutputSet/_100_He_or_she_would_then_tilt_the_phone_in_the_desired_direction_____.wav",
+		"duration": 1.85,
+		"sentenceIndex": 11753,
+		"timestamp": 459.11999999999955
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 460.9699999999996
+	},
+	{
+		"index": 348,
+		"txt": "The fraction of gravity that the accelerometer is now experiencing in the x  and y directions will be inputs into our simulation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_fraction_of_gravity_that_the_ac_puts_into_our_simulation_____.wav",
+		"duration": 2.67,
+		"sentenceIndex": 11754,
+		"timestamp": 461.4699999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 464.1399999999996
+	},
+	{
+		"index": 351,
+		"txt": "The example will be demonstrated",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_example_will_be_demonstrated_mple_will_be_demonstrated____.wav",
+		"duration": 0.7,
+		"sentenceIndex": 11757,
+		"timestamp": 464.6399999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 465.3399999999996
+	},
+	{
+		"index": 352,
+		"txt": "using Objective C code for the iPhone, and we'll be using the Qwartz2D graphics framework.",
+		"file": "/home/user1/trash/dirOutputSet/_100_using_Objective_C_code_for_the_iPho_rtz2D_graphics_framework_____.wav",
+		"duration": 2.14,
+		"sentenceIndex": 11758,
+		"timestamp": 465.8399999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 467.97999999999956
+	},
+	{
+		"index": 353,
+		"txt": "If you aren't familiar with Objective C, don't worry we'll explain what we are doing in each step, and you can port that code to whatever language you are working in.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_you_aren_t_familiar_with_Objecti_guage_you_are_working_in_____.wav",
+		"duration": 3.32,
+		"sentenceIndex": 11759,
+		"timestamp": 468.47999999999956
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 471.79999999999956
+	},
+	{
+		"index": 356,
+		"txt": "The first step will be to set up our accelerometer.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_first_step_will_be_to_set_up_ou_set_up_our_accelerometer_____.wav",
+		"duration": 0.98,
+		"sentenceIndex": 11762,
+		"timestamp": 472.29999999999956
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 473.2799999999996
+	},
+	{
+		"index": 357,
+		"txt": "In this case we are going to initialize it in our tiltViewController.m file so that we have:",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_this_case_we_are_going_to_initia_r_m_file_so_that_we_have_____.wav",
+		"duration": 2.05,
+		"sentenceIndex": 11763,
+		"timestamp": 473.7799999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 475.8299999999996
+	},
+	{
+		"index": 359,
+		"txt": "The important concept here is that we have defined a name for our accelerometer object, accelerometer, and we have set its updateInterval property to kPollingRate .",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_important_concept_here_is_that__roperty_to_kPollingRate______.wav",
+		"duration": 3.43,
+		"sentenceIndex": 11765,
+		"timestamp": 476.3299999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 479.7599999999996
+	},
+	{
+		"index": 360,
+		"txt": "This constant was defined in tiltViewController.h as link https: , which corresponds to 60 Hz.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_constant_was_defined_in_tiltVi_ich_corresponds_to_60_Hz_____.wav",
+		"duration": 2.68,
+		"sentenceIndex": 11766,
+		"timestamp": 480.2599999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 482.9399999999996
+	},
+	{
+		"index": 361,
+		"txt": "In other words, this tells the operating system to update our program's accelerometer object 60 times a second.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_other_words__this_tells_the_oper_object_60_times_a_second_____.wav",
+		"duration": 2.45,
+		"sentenceIndex": 11767,
+		"timestamp": 483.4399999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 485.8899999999996
+	},
+	{
+		"index": 362,
+		"txt": "Also in tiltViewController.m, we write what happens when the accelerometer object gets updated via the accelerometer's didAccelerate: function as follows:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Also_in_tiltViewController_m__we_wr_ate__function_as_follows_____.wav",
+		"duration": 3.6,
+		"sentenceIndex": 11768,
+		"timestamp": 486.3899999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 489.9899999999996
+	},
+	{
+		"index": 364,
+		"txt": "This function is called every time the acceleration object is updated and does two things.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_function_is_called_every_time__ated_and_does_two_things_____.wav",
+		"duration": 1.94,
+		"sentenceIndex": 11770,
+		"timestamp": 490.4899999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 492.4299999999996
+	},
+	{
+		"index": 365,
+		"txt": "First, it takes the acceleration data from the accelerometer and passes it to the SpriteView class, which we'll talk about in a second.",
+		"file": "/home/user1/trash/dirOutputSet/_100_First__it_takes_the_acceleration_da_l_talk_about_in_a_second_____.wav",
+		"duration": 2.89,
+		"sentenceIndex": 11771,
+		"timestamp": 492.9299999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 495.8199999999996
+	},
+	{
+		"index": 366,
+		"txt": "Then it tells the SpriteView to go ahead and redraw itself.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Then_it_tells_the_SpriteView_to_go___ahead_and_redraw_itself_____.wav",
+		"duration": 1.2,
+		"sentenceIndex": 11772,
+		"timestamp": 496.3199999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 497.5199999999996
+	},
+	{
+		"index": 368,
+		"txt": "The SpriteView class is where the action happens and consists of a header file, SpriteView.h, where we define the following global variables:UIImage *sprite",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_SpriteView_class_is_where_the_a_variables_UIImage__sprite____.wav",
+		"duration": 3.51,
+		"sentenceIndex": 11774,
+		"timestamp": 498.0199999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 501.5299999999996
+	},
+	{
+		"index": 369,
+		"txt": "A pointer to the image that will be used to represent our sprite on the screen.",
+		"file": "/home/user1/trash/dirOutputSet/_100_A_pointer_to_the_image_that_will_be_our_sprite_on_the_screen_____.wav",
+		"duration": 1.47,
+		"sentenceIndex": 11775,
+		"timestamp": 502.0299999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 503.4999999999996
+	},
+	{
+		"index": 370,
+		"txt": "currentPos",
+		"file": "/home/user1/trash/dirOutputSet/_100_currentPos_currentPos____.wav",
+		"duration": 0.31,
+		"sentenceIndex": 11776,
+		"timestamp": 503.9999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 504.3099999999996
+	},
+	{
+		"index": 371,
+		"txt": "The position on the screen where we want the sprite to be drawn.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_position_on_the_screen_where_we_t_the_sprite_to_be_drawn_____.wav",
+		"duration": 1.09,
+		"sentenceIndex": 11777,
+		"timestamp": 504.8099999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 505.8999999999996
+	},
+	{
+		"index": 372,
+		"txt": "prevPos",
+		"file": "/home/user1/trash/dirOutputSet/_100_prevPos_prevPos____.wav",
+		"duration": 0.29,
+		"sentenceIndex": 11778,
+		"timestamp": 506.3999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 506.6899999999996
+	},
+	{
+		"index": 373,
+		"txt": "The previous position of the sprite on the screen.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_previous_position_of_the_sprite_the_sprite_on_the_screen_____.wav",
+		"duration": 0.97,
+		"sentenceIndex": 11779,
+		"timestamp": 507.1899999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 508.1599999999996
+	},
+	{
+		"index": 374,
+		"txt": "We will use this to tell the draw function what parts of the screen need to be redrawn.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_will_use_this_to_tell_the_draw_f_creen_need_to_be_redrawn_____.wav",
+		"duration": 1.58,
+		"sentenceIndex": 11780,
+		"timestamp": 508.6599999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 510.2399999999996
+	},
+	{
+		"index": 375,
+		"txt": "UIAcceleration *acceleration",
+		"file": "/home/user1/trash/dirOutputSet/_100_UIAcceleration__acceleration_cceleration__acceleration____.wav",
+		"duration": 0.79,
+		"sentenceIndex": 11781,
+		"timestamp": 510.7399999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 511.52999999999963
+	},
+	{
+		"index": 376,
+		"txt": "A special Objective C data type to hold data from the accelerometer.",
+		"file": "/home/user1/trash/dirOutputSet/_100_A_special_Objective_C_data_type_to__a_from_the_accelerometer_____.wav",
+		"duration": 1.44,
+		"sentenceIndex": 11782,
+		"timestamp": 512.0299999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 513.4699999999997
+	},
+	{
+		"index": 377,
+		"txt": "CGFloat xVelocity and CGFloat yVelocity",
+		"file": "/home/user1/trash/dirOutputSet/_100_CGFloat_xVelocity_and_CGFloat_yVelo_ity_and_CGFloat_yVelocity____.wav",
+		"duration": 1.34,
+		"sentenceIndex": 11783,
+		"timestamp": 513.9699999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 515.3099999999997
+	},
+	{
+		"index": 378,
+		"txt": "Float variables to hold the current velocity in the x direction and y direction, respectively.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Float_variables_to_hold_the_current__direction__respectively_____.wav",
+		"duration": 2.02,
+		"sentenceIndex": 11784,
+		"timestamp": 515.8099999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 517.8299999999997
+	},
+	{
+		"index": 379,
+		"txt": "CGFloat convertX and CGFloat convertY",
+		"file": "/home/user1/trash/dirOutputSet/_100_CGFloat_convertX_and_CGFloat_conver_ertX_and_CGFloat_convertY____.wav",
+		"duration": 1.13,
+		"sentenceIndex": 11785,
+		"timestamp": 518.3299999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 519.4599999999997
+	},
+	{
+		"index": 380,
+		"txt": "Float variables to hold the ratios for converting our physics engine's results in meters to pixels based on an assumed world size.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Float_variables_to_hold_the_ratios__on_an_assumed_world_size_____.wav",
+		"duration": 2.73,
+		"sentenceIndex": 11786,
+		"timestamp": 519.9599999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 522.6899999999997
+	},
+	{
+		"index": 382,
+		"txt": "Additionally, we've defined the following global constants:g",
+		"file": "/home/user1/trash/dirOutputSet/_100_Additionally__we_ve_defined_the_fol_lowing_global_constants_g____.wav",
+		"duration": 1.38,
+		"sentenceIndex": 11788,
+		"timestamp": 523.1899999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 524.5699999999997
+	},
+	{
+		"index": 383,
+		"txt": "link https:2 .",
+		"file": "/home/user1/trash/dirOutputSet/_100_link_https_2___link_https_2______.wav",
+		"duration": 0.83,
+		"sentenceIndex": 11789,
+		"timestamp": 525.0699999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 525.8999999999997
+	},
+	{
+		"index": 384,
+		"txt": "This will convert the accelerometer's values from g to m/s2 for use in calculating velocity.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_will_convert_the_accelerometer__in_calculating_velocity_____.wav",
+		"duration": 2.27,
+		"sentenceIndex": 11790,
+		"timestamp": 526.3999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 528.6699999999997
+	},
+	{
+		"index": 385,
+		"txt": "This can also be tuned to represent an arbitrary acceleration instead of just using gravity as the force (e.g., percent of jet engine thrust).",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_can_also_be_tuned_to_represent_nt_of_jet_engine_thrust______.wav",
+		"duration": 3.25,
+		"sentenceIndex": 11791,
+		"timestamp": 529.1699999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 532.4199999999997
+	},
+	{
+		"index": 386,
+		"txt": "kWorldHeight and kWorldWidth",
+		"file": "/home/user1/trash/dirOutputSet/_100_kWorldHeight_and_kWorldWidth_rldHeight_and_kWorldWidth____.wav",
+		"duration": 0.77,
+		"sentenceIndex": 11792,
+		"timestamp": 532.9199999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 533.6899999999997
+	},
+	{
+		"index": 387,
+		"txt": "These values are used to allow the programmer to change the assumed world dimensions.",
+		"file": "/home/user1/trash/dirOutputSet/_100_These_values_are_used_to_allow_the__assumed_world_dimensions_____.wav",
+		"duration": 1.69,
+		"sentenceIndex": 11793,
+		"timestamp": 534.1899999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 535.8799999999998
+	},
+	{
+		"index": 388,
+		"txt": "Higher values mean each pixel is a greater distance in meters.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Higher_values_mean_each_pixel_is_a__eater_distance_in_meters_____.wav",
+		"duration": 1.33,
+		"sentenceIndex": 11794,
+		"timestamp": 536.3799999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 537.7099999999998
+	},
+	{
+		"index": 389,
+		"txt": "The world will always be scaled to fit on the screen, so a large world means the sprite will appear to move slower (a few pixels at a time) for a given acceleration.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_world_will_always_be_scaled_to__for_a_given_acceleration_____.wav",
+		"duration": 3.51,
+		"sentenceIndex": 11795,
+		"timestamp": 538.2099999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 541.7199999999998
+	},
+	{
+		"index": 390,
+		"txt": "Note that our current code doesn't scale the sprite.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Note_that_our_current_code_doesn_t__doesn_t_scale_the_sprite_____.wav",
+		"duration": 0.99,
+		"sentenceIndex": 11796,
+		"timestamp": 542.2199999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 543.2099999999998
+	},
+	{
+		"index": 392,
+		"txt": "Now we'll show you how we use these variables in SpriteView.m to move our sprite on our screen as a result of the accelerometer values.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now_we_ll_show_you_how_we_use_these_the_accelerometer_values_____.wav",
+		"duration": 2.87,
+		"sentenceIndex": 11798,
+		"timestamp": 543.7099999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 546.5799999999998
+	},
+	{
+		"index": 393,
+		"txt": "First, we have some initialization to do, which takes place in the initWithCoder: method that runs the first time the view is loaded:",
+		"file": "/home/user1/trash/dirOutputSet/_100_First__we_have_some_initialization___time_the_view_is_loaded_____.wav",
+		"duration": 2.79,
+		"sentenceIndex": 11799,
+		"timestamp": 547.0799999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 549.8699999999998
+	},
+	{
+		"index": 395,
+		"txt": "Most of this is pretty straightforward.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Most_of_this_is_pretty_straightforw_s_pretty_straightforward_____.wav",
+		"duration": 0.75,
+		"sentenceIndex": 11801,
+		"timestamp": 550.3699999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 551.1199999999998
+	},
+	{
+		"index": 396,
+		"txt": "We tell our program where to find the sprite image we've chosen and set its initial position to the center of the screen.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_tell_our_program_where_to_find_t_the_center_of_the_screen_____.wav",
+		"duration": 2.35,
+		"sentenceIndex": 11802,
+		"timestamp": 551.6199999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 553.9699999999998
+	},
+	{
+		"index": 397,
+		"txt": "We also set its initial velocity to 0 in both directions.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_also_set_its_initial_velocity_to__to_0_in_both_directions_____.wav",
+		"duration": 1.37,
+		"sentenceIndex": 11803,
+		"timestamp": 554.4699999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 555.8399999999998
+	},
+	{
+		"index": 398,
+		"txt": "We then go ahead and initialize our convertX and convertY variables based on the self.bounds.size property, which gives the bounds of the view in pixels.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_then_go_ahead_and_initialize_our_ds_of_the_view_in_pixels_____.wav",
+		"duration": 3.21,
+		"sentenceIndex": 11804,
+		"timestamp": 556.3399999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 559.5499999999998
+	},
+	{
+		"index": 399,
+		"txt": "We'll show exactly how this affects our program later.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_ll_show_exactly_how_this_affects_ffects_our_program_later_____.wav",
+		"duration": 1.12,
+		"sentenceIndex": 11805,
+		"timestamp": 560.0499999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 561.1699999999998
+	},
+	{
+		"index": 400,
+		"txt": "Next, we'll write a custom mutator for the CurrentPos variable:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Next__we_ll_write_a_custom_mutator___the_CurrentPos_variable_____.wav",
+		"duration": 1.46,
+		"sentenceIndex": 11806,
+		"timestamp": 561.6699999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 563.1299999999999
+	},
+	{
+		"index": 402,
+		"txt": "In case you are unfamiliar with Objective C, when you define a class instance variable it will automatically define a mutator that simply updates the value of the variable to the value you are passing it.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_case_you_are_unfamiliar_with_Obj_value_you_are_passing_it_____.wav",
+		"duration": 4.04,
+		"sentenceIndex": 11808,
+		"timestamp": 563.6299999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 567.6699999999998
+	},
+	{
+		"index": 403,
+		"txt": "However, in the preceding example we are overriding that mutator to do some additional work.",
+		"file": "/home/user1/trash/dirOutputSet/_100_However__in_the_preceding_example_w__do_some_additional_work_____.wav",
+		"duration": 1.89,
+		"sentenceIndex": 11809,
+		"timestamp": 568.1699999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 570.0599999999998
+	},
+	{
+		"index": 404,
+		"txt": "The first thing we do is to set the prevPos variable to the current position of the sprite and then update the currentPos with the value the mutator was given.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_first_thing_we_do_is_to_set_the_ue_the_mutator_was_given_____.wav",
+		"duration": 2.94,
+		"sentenceIndex": 11810,
+		"timestamp": 570.5599999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 573.4999999999999
+	},
+	{
+		"index": 405,
+		"txt": "However, our physics engine isn't going to include collision response with the screen boundaries, so we go on to check if the sprite has reached the screen edge.",
+		"file": "/home/user1/trash/dirOutputSet/_100_However__our_physics_engine_isn_t_g__reached_the_screen_edge_____.wav",
+		"duration": 3.19,
+		"sentenceIndex": 11811,
+		"timestamp": 573.9999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 577.1899999999999
+	},
+	{
+		"index": 406,
+		"txt": "If so, we simply tell the program to leave it on the edge and to set the velocity in that direction to 0.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_so__we_simply_tell_the_program_t_y_in_that_direction_to_0_____.wav",
+		"duration": 2.13,
+		"sentenceIndex": 11812,
+		"timestamp": 577.6899999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 579.8199999999999
+	},
+	{
+		"index": 407,
+		"txt": "Lastly, we define a couple of rectangles based on the new position of the sprite and the old position of the sprite.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Lastly__we_define_a_couple_of_recta_d_position_of_the_sprite_____.wav",
+		"duration": 2.34,
+		"sentenceIndex": 11813,
+		"timestamp": 580.3199999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 582.66
+	},
+	{
+		"index": 408,
+		"txt": "After we union those rectangles together, we tell the operating system to redraw the screen in that area with the setNeedDisplayInRect: method.",
+		"file": "/home/user1/trash/dirOutputSet/_100_After_we_union_those_rectangles_tog_eedDisplayInRect__method_____.wav",
+		"duration": 3.12,
+		"sentenceIndex": 11814,
+		"timestamp": 583.16
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 586.28
+	},
+	{
+		"index": 409,
+		"txt": "As you might recall, our accelerometer object is calling the draw method every time it updates, and it is in this method that we will put our physics engine:",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_you_might_recall__our_accelerome_l_put_our_physics_engine_____.wav",
+		"duration": 3.09,
+		"sentenceIndex": 11815,
+		"timestamp": 586.78
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 589.87
+	},
+	{
+		"index": 411,
+		"txt": "Previously, we discussed issues with timing when working with accelerometer data.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Previously__we_discussed_issues_wit__with_accelerometer_data_____.wav",
+		"duration": 1.67,
+		"sentenceIndex": 11817,
+		"timestamp": 590.37
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 592.04
+	},
+	{
+		"index": 412,
+		"txt": "In this case, Objective C makes it very easy to get the correct elapsed time in seconds.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_this_case__Objective_C_makes_it___elapsed_time_in_seconds_____.wav",
+		"duration": 1.92,
+		"sentenceIndex": 11818,
+		"timestamp": 592.54
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 594.4599999999999
+	},
+	{
+		"index": 413,
+		"txt": "We first define a static variable, lastUpdateTime, as an NSDate type.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_first_define_a_static_variable___eTime__as_an_NSDate_type_____.wav",
+		"duration": 1.81,
+		"sentenceIndex": 11819,
+		"timestamp": 594.9599999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 596.7699999999999
+	},
+	{
+		"index": 414,
+		"txt": "This type has a built in function to give the time interval in seconds from now, which we assign to an NSTimeInterval variable.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_type_has_a_built_in_function_t__NSTimeInterval_variable_____.wav",
+		"duration": 2.57,
+		"sentenceIndex": 11820,
+		"timestamp": 597.2699999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 599.8399999999999
+	},
+	{
+		"index": 415,
+		"txt": "Skipping down to the last two lines, we are simply updating the last update time by releasing and reinitializing the variable.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Skipping_down_to_the_last_two_lines_nitializing_the_variable_____.wav",
+		"duration": 2.61,
+		"sentenceIndex": 11821,
+		"timestamp": 600.3399999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 602.9499999999999
+	},
+	{
+		"index": 416,
+		"txt": "As it is static, it will remain even after the function returns.",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_it_is_static__it_will_remain_eve_ter_the_function_returns_____.wav",
+		"duration": 1.3,
+		"sentenceIndex": 11822,
+		"timestamp": 603.4499999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 604.7499999999999
+	},
+	{
+		"index": 417,
+		"txt": "If you are using a lower level language, you might have to write your own timeIntervalSinceNow function that takes into account the particular clock frequency of the system.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_you_are_using_a_lower_level_lang__frequency_of_the_system_____.wav",
+		"duration": 3.39,
+		"sentenceIndex": 11823,
+		"timestamp": 605.2499999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 608.6399999999999
+	},
+	{
+		"index": 420,
+		"txt": "Now that we have our time interval in seconds, we can calculate our new position.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now_that_we_have_our_time_interval__lculate_our_new_position_____.wav",
+		"duration": 1.65,
+		"sentenceIndex": 11826,
+		"timestamp": 609.1399999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 610.7899999999998
+	},
+	{
+		"index": 421,
+		"txt": "Recall from",
+		"file": "/home/user1/trash/dirOutputSet/_100_Recall_from_Recall_from____.wav",
+		"duration": 0.3,
+		"sentenceIndex": 11827,
+		"timestamp": 611.2899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 611.5899999999998
+	},
+	{
+		"index": 422,
+		"txt": "Chapter 2:s2 = s1 + v1 t + (a t2)/2",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 2_s2___s1___v1_t____a_t2__2_s2___s1___v1_t____a_t2__2____.wav",
+		"duration": 2.1,
+		"sentenceIndex": 11828,
+		"timestamp": 612.0899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 614.1899999999998
+	},
+	{
+		"index": 424,
+		"txt": "which we have rearranged to be:Δs = s2 − s1 = v1 t + (a t2)/2",
+		"file": "/home/user1/trash/dirOutputSet/_100_which_we_have_rearranged_to_be__s___s2___s1___v1_t____a_t2__2____.wav",
+		"duration": 2.78,
+		"sentenceIndex": 11830,
+		"timestamp": 614.6899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 617.4699999999998
+	},
+	{
+		"index": 425,
+		"txt": "This gets programmed as:",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_gets_programmed_as__This_gets_programmed_as_____.wav",
+		"duration": 0.6,
+		"sentenceIndex": 11831,
+		"timestamp": 617.9699999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 618.5699999999998
+	},
+	{
+		"index": 427,
+		"txt": "We then convert this displacement in meters to displacement in pixels using an appropriate ratio for the size of our world.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_then_convert_this_displacement_i_or_the_size_of_our_world_____.wav",
+		"duration": 2.52,
+		"sentenceIndex": 11833,
+		"timestamp": 619.0699999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 621.5899999999998
+	},
+	{
+		"index": 428,
+		"txt": "Before we can move on, we have to calculate our new velocity at our new position.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Before_we_can_move_on__we_have_to_c_city_at_our_new_position_____.wav",
+		"duration": 1.72,
+		"sentenceIndex": 11834,
+		"timestamp": 622.0899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 623.8099999999998
+	},
+	{
+		"index": 429,
+		"txt": "So we again assume the acceleration as constant over the update interval, and recalling:v2 = v1 + a Δt",
+		"file": "/home/user1/trash/dirOutputSet/_100_So_we_again_assume_the_acceleration__recalling_v2___v1___a__t____.wav",
+		"duration": 3.16,
+		"sentenceIndex": 11835,
+		"timestamp": 624.3099999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 627.4699999999998
+	},
+	{
+		"index": 431,
+		"txt": "from",
+		"file": "/home/user1/trash/dirOutputSet/_100_from_from____.wav",
+		"duration": 0.22,
+		"sentenceIndex": 11837,
+		"timestamp": 627.9699999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 628.1899999999998
+	},
+	{
+		"index": 432,
+		"txt": "Chapter 2, we can solve for the new xVelocity with:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 2__we_can_solve_for_the_new_r_the_new_xVelocity_with_____.wav",
+		"duration": 1.28,
+		"sentenceIndex": 11838,
+		"timestamp": 628.6899999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 629.9699999999998
+	},
+	{
+		"index": 436,
+		"txt": "As you can see from the complete method description, the code of the y direction is similar.",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_you_can_see_from_the_complete_me_e_y_direction_is_similar_____.wav",
+		"duration": 1.77,
+		"sentenceIndex": 11842,
+		"timestamp": 630.4699999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 632.2399999999998
+	},
+	{
+		"index": 437,
+		"txt": "Finally, we call the currentPos mutator to set the new position based on the change in displacements.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Finally__we_call_the_currentPos_mut__change_in_displacements_____.wav",
+		"duration": 2.12,
+		"sentenceIndex": 11843,
+		"timestamp": 632.7399999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 634.8599999999998
+	},
+	{
+		"index": 438,
+		"txt": "Recall that this is a custom mutator that also tells the operating system to update the display.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Recall_that_this_is_a_custom_mutato_em_to_update_the_display_____.wav",
+		"duration": 2.01,
+		"sentenceIndex": 11844,
+		"timestamp": 635.3599999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 637.3699999999998
+	},
+	{
+		"index": 439,
+		"txt": "After the draw method is finished, the accelerometer waits 1/60 of a second and then calls it again.",
+		"file": "/home/user1/trash/dirOutputSet/_100_After_the_draw_method_is_finished____and_then_calls_it_again_____.wav",
+		"duration": 2.18,
+		"sentenceIndex": 11845,
+		"timestamp": 637.8699999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 640.0499999999997
+	},
+	{
+		"index": 440,
+		"txt": "You could extend this program by adding in friction, fluid resistance, and collisions with the screen boundaries using the methods outlined in the other chapters of this",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_could_extend_this_program_by_ad_he_other_chapters_of_this____.wav",
+		"duration": 3.25,
+		"sentenceIndex": 11846,
+		"timestamp": 640.5499999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 643.7999999999997
+	},
+	{
+		"index": 445,
+		"txt": "book.",
+		"file": "/home/user1/trash/dirOutputSet/_100_book__book_____.wav",
+		"duration": 0.13,
+		"sentenceIndex": 11851,
+		"timestamp": 644.2999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 644.4299999999997
+	}
+]

@@ -1,0 +1,436 @@
+{
+	"they": {
+		"data": {
+			"blocks": [
+				{
+					"char": "they",
+					"sentenceIndexBlock": 12,
+					"txt": "As a game developer, and very likely as a gamer yourself, you've seen products being advertised as  \"ultra realistic,\"  or as using  \"real world physics.\"  At the same time you, or perhaps your company's marketing department, are wondering how you can spice up your own games with such realism.  Or perhaps you want to try something completely new that requires you to explore real physics.  The only problem is that you threw your college physics text in the lake after final exams and haven't touched the subject since.  Maybe you licensed a really cool physics engine, but you have no idea how the underlying principles work and how they will affect what you're trying to model.  Or, perhaps you are charged with the task of tuning someone else's physics code but you really don't understand how it works.  Well then, this book is for you. ",
+					"verb": "seen"
+				}
+			],
+			"gSpeakerVoice": ""
+		},
+		"charSIndexes": [
+			12
+		]
+	},
+	"narrator": {
+		"data": {
+			"blocks": 3,
+			"gSpeakerVoice": ""
+		},
+		"charSIndexes": [
+			42,
+			266,
+			325
+		]
+	},
+	"d": {
+		"data": {
+			"blocks": [
+				{
+					"char": "d",
+					"sentenceIndexBlock": 49,
+					"txt": "Consider this example: You're working on the next blockbuster hunting game complete with first person 3D, beautiful textures, and an awesome sound track to set the mood, but something is missing.  That something is realism.  Specifically, you want the game to  \"feel\"  more real by challenging the gamer's marksmanship, and you want to do this by adding considerations such as distance to target, wind speed and direction, and muzzle velocity, among others.  Moreover, you don't want to fake these elements, but rather, you'd like to realistically model them based on the principles of physics.  Gary Powell, with MathEngine Plc, put it like this  \"The illusion and immersive experience of the virtual world, so carefully built up with high polygon models, detailed textures and advanced lighting, is so often shattered as soon as objects start to move and interact.\"[1] \"It's all about interactivity and immersiveness,\"  says Dr. Steven Collins, CEO of Havok.com.[2] We think both these guys or right on target.  Why invest so much time and effort making your game world look as realistic as possible, but not take the extra step to make it behave just as realistically? ",
+					"verb": "want"
+				}
+			],
+			"gSpeakerVoice": ""
+		},
+		"charSIndexes": [
+			49
+		]
+	},
+	"physics": {
+		"data": {
+			"blocks": [
+				{
+					"char": "physics",
+					"sentenceIndexBlock": 80,
+					"txt": "So how can this realism be achieved?  By using physics, of course, which brings us back to the title of this section, the subject of mechanics .  Physics is a vast field of science that covers many different, but related subjects.  The subject most applicable to realistic game content is the subject of mechanics, which is really what's meant by  \"real physics.\" ",
+					"verb": "is"
+				}
+			],
+			"gSpeakerVoice": ""
+		},
+		"charSIndexes": [
+			80
+		]
+	},
+	"isbn": {
+		"data": {
+			"blocks": [
+				{
+					"char": "isbn",
+					"sentenceIndexBlock": 355,
+					"txt": "We appreciate, but do not require, attribution.  An attribution usually includes the title, author, publisher, and ISBN.  For example:  \"Physics for Game Developers, 2nd Edition by David M. Bourg and Bryan Bywalec (O'Reilly).  Copyright 2013 David M.  Bourg and Bryan Bywalec, 978 1 449 39251 2.\""
+				}
+			],
+			"gSpeakerVoice": ""
+		},
+		"charSIndexes": [
+			355
+		]
+	},
+	"einstein": {
+		"data": {
+			"blocks": [
+				{
+					"char": "einstein",
+					"sentenceIndexBlock": 1475,
+					"txt": "In addition to time dilation due to relative velocity, time also slows down in the presence of strong gravitational fields as a result of Einstein's theory of general relativity.  This sort of time dilation is not relative in the sense that if I were closer to a black hole than you, we'd both agree that my clock is ticking less often than yours.  However, given that all physical processes would be slower, there is no way to establish which clock is  \"faster\"  and which is  \"slower.\"  It is all relative!",
+					"verb": "given"
+				}
+			],
+			"gSpeakerVoice": ""
+		},
+		"charSIndexes": [
+			1475
+		]
+	},
+	"chapter": {
+		"data": {
+			"blocks": [
+				{
+					"char": "chapter",
+					"sentenceIndexBlock": 3928,
+					"txt": "This chapter is the first in a series of chapters that discuss specific real world phenomena and systems, such as projectile motion and airplanes, with the goal of giving you a solid understanding of their real life behavior.  This understanding will help you to model these or similar systems accurately in your games.  Instead of relying on purely idealized formulas, we'll present a wide variety of practical formulas and data that you can use.  We've chosen the examples in this and later chapters to illustrate common forces and phenomena that exists in many systems, not just the ones we'll be discussing here.  For example, while Chapter 16 ,  \"Ships and Boats,\"  discusses buoyancy in detail, buoyancy is not limited to ships; any object immersed in a fluid experiences buoyant forces.  The same applies for the topics discussed in this chapter and Chapter 15, Chapter 17, Chapter 18, and Chapter 19 .",
+					"verb": "discusses"
+				}
+			],
+			"gSpeakerVoice": ""
+		},
+		"charSIndexes": [
+			3928
+		]
+	},
+	"cannon": {
+		"data": {
+			"blocks": [
+				{
+					"char": "cannon",
+					"sentenceIndexBlock": 4375,
+					"txt": "In the Cannon2 example in Chapter 4, we implemented the ideal formula for air drag on the projectile.  In that case we used a constant value of drag coefficient that was arbitrarily defined.  As we said earlier, it would be better to use the formula presented in this chapter for total drag along with the total drag coefficient data shown in Figure 6 9 to estimate the drag on the projectile.  While this is more  \"accurate,\"  it does complicate matters for you.  Specifically, the drag coefficient is now a function of the Reynolds number, which is a function of velocity.  You'll have to set up a table of drag coefficients versus the Reynolds number and interpolate this table given the Reynolds number calculated at each time step.  As an alternative, you can fit the drag coefficient data to a curve to derive a formula that you can use instead; however, the drag coefficient data may be such that you'll have to use a piecewise approach and derive curve fits for each segment of the drag coefficient curve.  The sphere data presented herein is one such case.  The data does not lend itself nicely to a single polynomial curve fit over the full range of the Reynolds number.  In such cases, you'll end up with a handful of formulas for drag coefficient, with each formula valid over a limited range of Reynolds numbers.",
+					"verb": "is more"
+				}
+			],
+			"gSpeakerVoice": ""
+		},
+		"charSIndexes": [
+			4375
+		]
+	},
+	"formulas": {
+		"data": {
+			"blocks": [
+				{
+					"char": "formulas",
+					"sentenceIndexBlock": 5692,
+					"txt": "Tuning is an important part of developing any simulator.  Tuning means different things to different people.  For some, tuning is adjusting formulas and coefficients to make your simulation match some specific  \"right answer,\"  while to others tuning is adjusting parameters to make the simulation look and behave how you want it to, whether or not it's technically the right answer.  After all, the right answer for a game is that it's fun and robust.  Speaking of robustness, other folks view tuning in the sense of adjusting parameters to make the simulation stable.  In reality, this is all tuning and you should think of it as a necessary part of developing your simulation.  It's the process by which you tweak, nudge, and adjust things to make the simulation do what you want it to do.",
+					"verb": "is adjusting"
+				}
+			],
+			"gSpeakerVoice": ""
+		},
+		"charSIndexes": [
+			5692
+		]
+	},
+	"elevators": {
+		"data": {
+			"blocks": [
+				{
+					"char": "elevators",
+					"sentenceIndexBlock": 8439,
+					"txt": "Elevators, the tail  \"wings,\"  are used to control the pitch of the aircraft.  (Elevators can be flaps, as shown in Figure 15 2 , or the entire tail wing can rotate as on the Lockheed Martin F 16.) When the elevators are deflected such that their trailing edge goes down with respect to the pilot, a nose down pitch rotation will be induced; that is, the tail of the aircraft will tend to rise relative to its nose, and the aircraft will dive.  In an actual aircraft, the pilot achieves this by pushing the flight stick forward.  When elevators are deflected such that their tailing edge goes up, a nose up pitch rotation will be induced.",
+					"verb": "are used"
+				}
+			],
+			"gSpeakerVoice": ""
+		},
+		"charSIndexes": [
+			8439
+		]
+	},
+	"greek": {
+		"data": {
+			"blocks": [
+				{
+					"char": "greek",
+					"sentenceIndexBlock": 9544,
+					"txt": "For a car to maintain its curved path, there must be a centripetal force (\"center seeking\"  in Greek) that acts on the car.  When riding in a turning car, you feel an apparent centrifugal acceleration, or force directed away from the center of the turn.  This acceleration is really a result of inertia , the tendency of your body and the car to continue on their original path, and is not a real force acting on the car or your body.  The real force is the centripetal force, and without it your car would continue on its straight path and not along the curve.",
+					"verb": "acts"
+				}
+			],
+			"gSpeakerVoice": ""
+		},
+		"charSIndexes": [
+			9544
+		]
+	},
+	"anyone": {
+		"data": {
+			"blocks": [
+				{
+					"char": "anyone",
+					"sentenceIndexBlock": 11269,
+					"txt": "Anyone who has lived in a dry winter has felt the shock of a static electricity discharge.  This zap is possible because the human body is a pretty good capacitor with a capacitance of about 22 pico farads.  This property is known as body capacitance .  Self capacitance screens take advantage of a physical property defined by the amount of electrical charge that must be added to an isolated conductor to raise its potential by one volt.  When the fingers act as a conductor of the body's inherent capacitance, the sensors on the other side of the glass experience a rise in electric potential.  Given that the sensors are on the other side of a good insulator, glass, there won't actually be any discharge of energy, unlike when you touch your metal car door and get  \"zapped.\"  Self capacitance in this manner produces a very strong signal but lacks the ability to accurately resolve multiple touches.  Therefore, it is often used in conjunction with the next type of touch screen we'll discuss, mutual capacitance.",
+					"verb": "given"
+				}
+			],
+			"gSpeakerVoice": ""
+		},
+		"charSIndexes": [
+			11269
+		]
+	},
+	"first": {
+		"data": {
+			"blocks": [
+				{
+					"char": "first",
+					"sentenceIndexBlock": 13387,
+					"txt": "Without getting too detailed, we should start by discussing a few things about digital cameras.  First, most of us are familiar with the  \"megapixel\"  metric used to describe digital cameras.  This number is a measure of how many pixels of information the camera records in a single frame.  It is equal to the height of the frame in pixels multiplied by the width of the frame in pixels.  A pixel, or picture element, contains information on intensity, color, and the location of the pixel relative to some origin.  The amount of information depends on the bits per pixel and corresponds to the amount of color variation a particular pixel can display.  Perhaps you've seen your graphics set to 16 bit or 24 bit modes.  This describes how many colors a particular pixel can display.  A 24 bit pixel can be one of 16.8 million different colors at any instant.  It is commonly held that the human eye can differentiate among about 10 million colors; 24 bit color is called  \"true color,\"  as it can display more colors than your eye can recognize.  You might also see 32 bit color modes; these include an extra 8 bits for a transparency channel that tells the computer what to do if this image were put on top of another image.  This is sometimes referred to as opacity or alpha .",
+					"verb": "are"
+				}
+			],
+			"gSpeakerVoice": ""
+		},
+		"charSIndexes": [
+			13387
+		]
+	},
+	"computers": {
+		"data": {
+			"blocks": [
+				{
+					"char": "computers",
+					"sentenceIndexBlock": 13423,
+					"txt": "Computers, on the other hand, have a harder time looking at two circles and a few lines and saying,  \"Hey, this is a smiling face.\"",
+					"verb": "have"
+				}
+			],
+			"gSpeakerVoice": ""
+		},
+		"charSIndexes": [
+			13423
+		]
+	},
+	"undefined": {
+		"data": {
+			"blocks": [
+				{
+					"char": "undefined",
+					"sentenceIndexBlock": 13998,
+					"txt": "At one time not so long ago,  \"3D sound\"  was hyped as the next big thing.  There's no doubt that for a long time, game sound lagged far behind graphics capabilities.  It's also true that good 3D sound can compliment good visuals, helping to create a more immersive gaming environment.  Unfortunately, a lot of early 3D sound just wasn't that good.  Things are getting better, though, and with the use of headphones and a good sound card, some amazing 3D sounds can be generated.",
+					"verb": "was"
+				}
+			],
+			"gSpeakerVoice": ""
+		},
+		"charSIndexes": [
+			13998
+		]
+	},
+	"bobic": {
+		"data": {
+			"blocks": [
+				{
+					"char": "bobic",
+					"sentenceIndexBlock": 14959,
+					"txt": "Bobic, Nick,  \"Advanced Collision Detection Techniques,\"  Gamasutra, March 2000."
+				}
+			],
+			"gSpeakerVoice": ""
+		},
+		"charSIndexes": [
+			14959
+		]
+	},
+	"mirtich": {
+		"data": {
+			"blocks": 7,
+			"gSpeakerVoice": ""
+		},
+		"charSIndexes": [
+			14976,
+			14980,
+			14984,
+			14988,
+			15136,
+			15140,
+			15144
+		]
+	},
+	"rourke": {
+		"data": {
+			"blocks": [
+				{
+					"char": "rourke",
+					"sentenceIndexBlock": 14992,
+					"txt": "O'Rourke, Joseph,  \"comp.graphics.algorithms Frequently Asked Questions,\"  Copyright 2000 by Joseph O'Rourke."
+				}
+			],
+			"gSpeakerVoice": ""
+		},
+		"charSIndexes": [
+			14992
+		]
+	},
+	"power": {
+		"data": {
+			"blocks": [
+				{
+					"char": "power",
+					"sentenceIndexBlock": 15001,
+					"txt": "Power, H. L. and, Iversen, J. D.,  \"Magnus Effect on Spinning Bodies of Revolution,\"  AIAA Journal Vol.  11, No.  4, April 1973."
+				}
+			],
+			"gSpeakerVoice": ""
+		},
+		"charSIndexes": [
+			15001
+		]
+	},
+	"davies": {
+		"data": {
+			"blocks": [
+				{
+					"char": "davies",
+					"sentenceIndexBlock": 15015,
+					"txt": "Davies, John M.,  \"The Aerodynamics of Golf Balls,\"  Journal of Applied Physics, Volume 20, No.  9, September 1949."
+				}
+			],
+			"gSpeakerVoice": ""
+		},
+		"charSIndexes": [
+			15015
+		]
+	},
+	"macdonald": {
+		"data": {
+			"blocks": [
+				{
+					"char": "macdonald",
+					"sentenceIndexBlock": 15022,
+					"txt": "MacDonald, William M.,  \"The Physics of the drive in golf,\"  Am.  J. Phys.  59 (3), March 1991.",
+					"verb": "am"
+				}
+			],
+			"gSpeakerVoice": ""
+		},
+		"charSIndexes": [
+			15022
+		]
+	},
+	"mcphee": {
+		"data": {
+			"blocks": [
+				{
+					"char": "mcphee",
+					"sentenceIndexBlock": 15028,
+					"txt": "McPhee, John J., and, Andrews, Gordon C.,  \"Effect of sidespin and wind on projectile trajectory, with particular application to golf,\"  Am.  J. Phys.  56 (10), October 1988.",
+					"verb": "am"
+				}
+			],
+			"gSpeakerVoice": ""
+		},
+		"charSIndexes": [
+			15028
+		]
+	},
+	"mehta": {
+		"data": {
+			"blocks": [
+				{
+					"char": "mehta",
+					"sentenceIndexBlock": 15034,
+					"txt": "Mehta, Rabindra D.,  \"Aerodynamics of Sports Balls,\"  Ann.  Rev.  Fluid Mech., 1985.  17: 151 89."
+				}
+			],
+			"gSpeakerVoice": ""
+		},
+		"charSIndexes": [
+			15034
+		]
+	},
+	"shepard": {
+		"data": {
+			"blocks": [
+				{
+					"char": "shepard",
+					"sentenceIndexBlock": 15041,
+					"txt": "Shepard, Ron,  \"Amateur Physics for the Amateur Pool Player,\"  Ron Shepard, 1997."
+				}
+			],
+			"gSpeakerVoice": ""
+		},
+		"charSIndexes": [
+			15041
+		]
+	},
+	"watts": {
+		"data": {
+			"blocks": [
+				{
+					"char": "watts",
+					"sentenceIndexBlock": 15045,
+					"txt": "Watts, Robert G., and, Baroni, Steven,  \"Baseball bat collisions and the resulting trajectories of spinning balls,\"  Am.  J. Phys.  57 (1), January 1989.",
+					"verb": "am"
+				},
+				{
+					"char": "watts",
+					"sentenceIndexBlock": 15051,
+					"txt": "Watts, Robert G., and, Sawyer, Eric,  \"Aerodynamics of a knuckleball,\"  Am.  J. Phys.  43 (11), November 1975.",
+					"verb": "am"
+				}
+			],
+			"gSpeakerVoice": ""
+		},
+		"charSIndexes": [
+			15045,
+			15051
+		]
+	},
+	"beckman": {
+		"data": {
+			"blocks": [
+				{
+					"char": "beckman",
+					"sentenceIndexBlock": 15082,
+					"txt": "Beckman, Brian,  \"Physics of Racing Series,\"  Copyright 1991 by Brian Beckman, Stuttgart West, 1998."
+				}
+			],
+			"gSpeakerVoice": ""
+		},
+		"charSIndexes": [
+			15082
+		]
+	},
+	"hecker": {
+		"data": {
+			"blocks": 4,
+			"gSpeakerVoice": ""
+		},
+		"charSIndexes": [
+			15093,
+			15097,
+			15101,
+			15105
+		]
+	},
+	"lander": {
+		"data": {
+			"blocks": 5,
+			"gSpeakerVoice": ""
+		},
+		"charSIndexes": [
+			15111,
+			15116,
+			15121,
+			15126,
+			15131
+		]
+	}
+}

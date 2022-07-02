@@ -1,0 +1,1744 @@
+[
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 0
+	},
+	{
+		"index": 2,
+		"txt": "Appendix C. Quaternion Operations",
+		"file": "/home/user1/trash/dirOutputSet/_100_Appendix C_ Quaternion_Operations_ C_ Quaternion_Operations____.wav",
+		"duration": 1.05,
+		"sentenceIndex": 14629,
+		"timestamp": 0.5
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 1.55
+	},
+	{
+		"index": 3,
+		"txt": "This appendix implements a class called Quaternion that encapsulates all of the operations you need to handle quaternions when writing 3D rigid body simulations.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_appendix_implements_a_class_ca_D_rigid_body_simulations_____.wav",
+		"duration": 3.31,
+		"sentenceIndex": 14630,
+		"timestamp": 2.05
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 5.359999999999999
+	},
+	{
+		"index": 5,
+		"txt": "Quaternion Class",
+		"file": "/home/user1/trash/dirOutputSet/_100_Quaternion_Class_Quaternion_Class____.wav",
+		"duration": 0.4,
+		"sentenceIndex": 14632,
+		"timestamp": 5.859999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 6.26
+	},
+	{
+		"index": 6,
+		"txt": "The Quaternion class is defined",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_Quaternion_class_is_defined_aternion_class_is_defined____.wav",
+		"duration": 0.68,
+		"sentenceIndex": 14633,
+		"timestamp": 6.76
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 7.4399999999999995
+	},
+	{
+		"index": 8,
+		"txt": "with a scalar component, n, and vector component, v, where v is the vector, × i + y j + z k .",
+		"file": "/home/user1/trash/dirOutputSet/_100_with_a_scalar_component__n__and_vec_vector____i___y_j___z_k______.wav",
+		"duration": 2.93,
+		"sentenceIndex": 14635,
+		"timestamp": 7.9399999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 10.87
+	},
+	{
+		"index": 9,
+		"txt": "The class has two constructors, one of which initializes the quaternion to 0, and the other of which initializes the elements to those passed to the constructor:",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_class_has_two_constructors__one_assed_to_the_constructor_____.wav",
+		"duration": 3.13,
+		"sentenceIndex": 14636,
+		"timestamp": 11.37
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 14.5
+	},
+	{
+		"index": 12,
+		"txt": "Magnitude",
+		"file": "/home/user1/trash/dirOutputSet/_100_Magnitude_Magnitude____.wav",
+		"duration": 0.3,
+		"sentenceIndex": 14639,
+		"timestamp": 15
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 15.3
+	},
+	{
+		"index": 14,
+		"txt": "The method Magnitude returns the",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_method_Magnitude_returns_the_hod_Magnitude_returns_the____.wav",
+		"duration": 0.68,
+		"sentenceIndex": 14641,
+		"timestamp": 15.8
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 16.48
+	},
+	{
+		"index": 16,
+		"txt": "magnitude of the quaternion according to the following formula:|q| =",
+		"file": "/home/user1/trash/dirOutputSet/_100_magnitude_of_the_quaternion_accordi_e_following_formula__q_______.wav",
+		"duration": 2.16,
+		"sentenceIndex": 14643,
+		"timestamp": 16.98
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 19.14
+	},
+	{
+		"index": 18,
+		"txt": "This is similar to calculating the magnitude of a vector except that for quaternions you have to take the fourth term, the scalar n , into account.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_similar_to_calculating_the___scalar_n___into_account_____.wav",
+		"duration": 3.11,
+		"sentenceIndex": 14645,
+		"timestamp": 19.64
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 22.75
+	},
+	{
+		"index": 21,
+		"txt": "Here's the code that calculates the magnitude for our Quaternion class:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_the_code_that_calculates_the_for_our_Quaternion_class_____.wav",
+		"duration": 1.45,
+		"sentenceIndex": 14648,
+		"timestamp": 23.25
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 24.7
+	},
+	{
+		"index": 24,
+		"txt": "GetVector",
+		"file": "/home/user1/trash/dirOutputSet/_100_GetVector_GetVector____.wav",
+		"duration": 0.29,
+		"sentenceIndex": 14651,
+		"timestamp": 25.2
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 25.49
+	},
+	{
+		"index": 26,
+		"txt": "The method GetVector returns",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_method_GetVector_returns__method_GetVector_returns____.wav",
+		"duration": 0.66,
+		"sentenceIndex": 14653,
+		"timestamp": 25.99
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 26.65
+	},
+	{
+		"index": 27,
+		"txt": "the vector part of the quaternion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_the_vector_part_of_the_quaternion__r_part_of_the_quaternion_____.wav",
+		"duration": 0.61,
+		"sentenceIndex": 14654,
+		"timestamp": 27.15
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 27.759999999999998
+	},
+	{
+		"index": 28,
+		"txt": "This method uses the Vector class defined in",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_method_uses_the_Vector_class_d_e_Vector_class_defined_in____.wav",
+		"duration": 0.98,
+		"sentenceIndex": 14655,
+		"timestamp": 28.259999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 29.24
+	},
+	{
+		"index": 29,
+		"txt": "Appendix A:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Appendix A__Appendix A_____.wav",
+		"duration": 0.53,
+		"sentenceIndex": 14656,
+		"timestamp": 29.74
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 30.27
+	},
+	{
+		"index": 33,
+		"txt": "GetScalar",
+		"file": "/home/user1/trash/dirOutputSet/_100_GetScalar_GetScalar____.wav",
+		"duration": 0.3,
+		"sentenceIndex": 14660,
+		"timestamp": 30.77
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 31.07
+	},
+	{
+		"index": 35,
+		"txt": "The method GetScalar returns the",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_method_GetScalar_returns_the_hod_GetScalar_returns_the____.wav",
+		"duration": 0.69,
+		"sentenceIndex": 14662,
+		"timestamp": 31.57
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 32.26
+	},
+	{
+		"index": 36,
+		"txt": "scalar part of the quaternion:",
+		"file": "/home/user1/trash/dirOutputSet/_100_scalar_part_of_the_quaternion__r_part_of_the_quaternion_____.wav",
+		"duration": 0.69,
+		"sentenceIndex": 14663,
+		"timestamp": 32.76
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 33.449999999999996
+	},
+	{
+		"index": 40,
+		"txt": "Quaternion Addition: The += Operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Quaternion_Addition__The____Operato_Addition__The____Operator____.wav",
+		"duration": 1.03,
+		"sentenceIndex": 14667,
+		"timestamp": 33.949999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 34.98
+	},
+	{
+		"index": 42,
+		"txt": "This operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_operator_This_operator____.wav",
+		"duration": 0.33,
+		"sentenceIndex": 14669,
+		"timestamp": 35.48
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 35.809999999999995
+	},
+	{
+		"index": 47,
+		"txt": "performs quaternion addition by simply adding the quaternion, q , to the current quaternion on a component by component basis.",
+		"file": "/home/user1/trash/dirOutputSet/_100_performs_quaternion_addition_by_sim_onent_by_component_basis_____.wav",
+		"duration": 2.73,
+		"sentenceIndex": 14674,
+		"timestamp": 36.309999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 39.03999999999999
+	},
+	{
+		"index": 50,
+		"txt": "If q and p are two quaternions, then:q + p = [nq + np, (xq + xp) i + (yq + yp) j + (zq + zp) k]",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_q_and_p_are_two_quaternions__the_yq___yp__j____zq___zp__k_____.wav",
+		"duration": 4.25,
+		"sentenceIndex": 14677,
+		"timestamp": 39.53999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 43.78999999999999
+	},
+	{
+		"index": 52,
+		"txt": "Here, nq + np is the scalar part of the resulting quaternion, while (xq + xp) i + (yq + yp) j + (zq + zp) k is the vector part.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here__nq___np_is_the_scalar_part_of_zp__k_is_the_vector_part_____.wav",
+		"duration": 4.46,
+		"sentenceIndex": 14679,
+		"timestamp": 44.28999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 48.74999999999999
+	},
+	{
+		"index": 55,
+		"txt": "Quaternion addition is both associative and commutative; thus:q + (p + h) = (q + p) + hq + p = p + q",
+		"file": "/home/user1/trash/dirOutputSet/_100_Quaternion_addition_is_both_associa___q___p____hq___p___p___q____.wav",
+		"duration": 3.77,
+		"sentenceIndex": 14682,
+		"timestamp": 49.24999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 53.019999999999996
+	},
+	{
+		"index": 57,
+		"txt": "Here's the code that adds the quaternion q to our Quaternion class:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_the_code_that_adds_the_quate__to_our_Quaternion_class_____.wav",
+		"duration": 1.36,
+		"sentenceIndex": 14684,
+		"timestamp": 53.519999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 54.879999999999995
+	},
+	{
+		"index": 60,
+		"txt": "Quaternion Subtraction: The −= Operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Quaternion_Subtraction__The____Oper_traction__The____Operator____.wav",
+		"duration": 1.32,
+		"sentenceIndex": 14687,
+		"timestamp": 55.379999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 56.699999999999996
+	},
+	{
+		"index": 62,
+		"txt": "This operator performs",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_operator_performs_This_operator_performs____.wav",
+		"duration": 0.54,
+		"sentenceIndex": 14689,
+		"timestamp": 57.199999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 57.739999999999995
+	},
+	{
+		"index": 67,
+		"txt": "quaternion subtraction by simply subtracting the quaternion, q , from the current quaternion on a component by component basis.",
+		"file": "/home/user1/trash/dirOutputSet/_100_quaternion_subtraction_by_simply_su_onent_by_component_basis_____.wav",
+		"duration": 2.8,
+		"sentenceIndex": 14694,
+		"timestamp": 58.239999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 61.03999999999999
+	},
+	{
+		"index": 70,
+		"txt": "If q and p are two quaternions, then:q − p = q + (−p) = [nq − np, (xq − xp) i + (yq − yp) j + (zq − zp) k]",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_q_and_p_are_two_quaternions__the_yq___yp__j____zq___zp__k_____.wav",
+		"duration": 4.25,
+		"sentenceIndex": 14697,
+		"timestamp": 61.53999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 65.78999999999999
+	},
+	{
+		"index": 72,
+		"txt": "Here, nq − np is the scalar part of the resulting quaternion, while (xq − xp) i + (yq − yp) j + (zq − zp) k is the vector part.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here__nq___np_is_the_scalar_part_of_zp__k_is_the_vector_part_____.wav",
+		"duration": 4.46,
+		"sentenceIndex": 14699,
+		"timestamp": 66.28999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 70.74999999999999
+	},
+	{
+		"index": 75,
+		"txt": "Here's the code that subtracts the quaternion q from our Quaternion class:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_the_code_that_subtracts_the__rom_our_Quaternion_class_____.wav",
+		"duration": 1.49,
+		"sentenceIndex": 14702,
+		"timestamp": 71.24999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 72.73999999999998
+	},
+	{
+		"index": 78,
+		"txt": "Scalar Multiplication: The *= Operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Scalar_Multiplication__The____Opera_lication__The____Operator____.wav",
+		"duration": 1.08,
+		"sentenceIndex": 14705,
+		"timestamp": 73.23999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 74.31999999999998
+	},
+	{
+		"index": 80,
+		"txt": "This operator simply multiplies",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_operator_simply_multiplies_perator_simply_multiplies____.wav",
+		"duration": 0.79,
+		"sentenceIndex": 14707,
+		"timestamp": 74.81999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 75.60999999999999
+	},
+	{
+		"index": 85,
+		"txt": "each component in the quaternion by the scalar s .",
+		"file": "/home/user1/trash/dirOutputSet/_100_each_component_in_the_quaternion_by_ternion_by_the_scalar_s______.wav",
+		"duration": 0.98,
+		"sentenceIndex": 14712,
+		"timestamp": 76.10999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 77.08999999999999
+	},
+	{
+		"index": 86,
+		"txt": "This operation is similar to scaling a vector, as described in",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_operation_is_similar_to_scalin_a_vector__as_described_in____.wav",
+		"duration": 1.47,
+		"sentenceIndex": 14713,
+		"timestamp": 77.58999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 79.05999999999999
+	},
+	{
+		"index": 87,
+		"txt": "Appendix A:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Appendix A__Appendix A_____.wav",
+		"duration": 0.53,
+		"sentenceIndex": 14714,
+		"timestamp": 79.55999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 80.08999999999999
+	},
+	{
+		"index": 91,
+		"txt": "Scalar Division: The /= Operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Scalar_Division__The____Operator_Division__The____Operator____.wav",
+		"duration": 1.06,
+		"sentenceIndex": 14718,
+		"timestamp": 80.58999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 81.64999999999999
+	},
+	{
+		"index": 93,
+		"txt": "This operator simply",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_operator_simply_This_operator_simply____.wav",
+		"duration": 0.49,
+		"sentenceIndex": 14720,
+		"timestamp": 82.14999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 82.63999999999999
+	},
+	{
+		"index": 98,
+		"txt": "divides each component in the quaternion by the scalar s:",
+		"file": "/home/user1/trash/dirOutputSet/_100_divides_each_component_in_the_quate_aternion_by_the_scalar_s_____.wav",
+		"duration": 1.22,
+		"sentenceIndex": 14725,
+		"timestamp": 83.13999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 84.35999999999999
+	},
+	{
+		"index": 101,
+		"txt": "Conjugate: The ~ Operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Conjugate__The___Operator_Conjugate__The___Operator____.wav",
+		"duration": 0.67,
+		"sentenceIndex": 14728,
+		"timestamp": 84.85999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 85.52999999999999
+	},
+	{
+		"index": 103,
+		"txt": "This operator takes the",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_operator_takes_the_This_operator_takes_the____.wav",
+		"duration": 0.51,
+		"sentenceIndex": 14730,
+		"timestamp": 86.02999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 86.53999999999999
+	},
+	{
+		"index": 107,
+		"txt": "conjugate of the quaternion, ~q , which is simply the negative of the vector part.",
+		"file": "/home/user1/trash/dirOutputSet/_100_conjugate_of_the_quaternion___q___w_ative_of_the_vector_part_____.wav",
+		"duration": 1.68,
+		"sentenceIndex": 14734,
+		"timestamp": 87.03999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 88.72
+	},
+	{
+		"index": 108,
+		"txt": "If q = [n, xi + yj + zk], then ~q = [n, (−x) i + (−y) j + (−z) k ].",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_q____n__xi___yj___zk___then__q___x__i_____y__j_____z__k_______.wav",
+		"duration": 3.53,
+		"sentenceIndex": 14735,
+		"timestamp": 89.22
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 92.75
+	},
+	{
+		"index": 111,
+		"txt": "The conjugate of the product of quaternions is equal to the product of the quaternion conjugates, but in",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_conjugate_of_the_product_of_qua_ernion_conjugates__but_in____.wav",
+		"duration": 2.1,
+		"sentenceIndex": 14738,
+		"timestamp": 93.25
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 95.35
+	},
+	{
+		"index": 112,
+		"txt": "reverse order:~(qp) = (~p)(~q)",
+		"file": "/home/user1/trash/dirOutputSet/_100_reverse_order___qp______p___q__se_order___qp______p___q_____.wav",
+		"duration": 1.45,
+		"sentenceIndex": 14739,
+		"timestamp": 95.85
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 97.3
+	},
+	{
+		"index": 115,
+		"txt": "Here's the code that computes the conjugate for our Quaternion class:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_the_code_that_computes_the_c_for_our_Quaternion_class_____.wav",
+		"duration": 1.32,
+		"sentenceIndex": 14742,
+		"timestamp": 97.8
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 99.11999999999999
+	},
+	{
+		"index": 118,
+		"txt": "Quaternion Functions and Operators",
+		"file": "/home/user1/trash/dirOutputSet/_100_Quaternion_Functions_and_Operators_n_Functions_and_Operators____.wav",
+		"duration": 0.76,
+		"sentenceIndex": 14745,
+		"timestamp": 99.61999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 100.38
+	},
+	{
+		"index": 120,
+		"txt": "The functions and overloaded",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_functions_and_overloaded__functions_and_overloaded____.wav",
+		"duration": 0.61,
+		"sentenceIndex": 14747,
+		"timestamp": 100.88
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 101.49
+	},
+	{
+		"index": 121,
+		"txt": "operators that follow are useful when you are performing operations with two quaternions, or with a quaternion and a scalar, or a quaternion and a vector.",
+		"file": "/home/user1/trash/dirOutputSet/_100_operators_that_follow_are_useful_wh__quaternion_and_a_vector_____.wav",
+		"duration": 3.09,
+		"sentenceIndex": 14748,
+		"timestamp": 101.99
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 105.08
+	},
+	{
+		"index": 122,
+		"txt": "Here, the quaternions are assumed to be of the type Quaternion, and vectors of the type Vector, as discussed in",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here__the_quaternions_are_assumed_t_e_Vector__as_discussed_in____.wav",
+		"duration": 2.41,
+		"sentenceIndex": 14749,
+		"timestamp": 105.58
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 107.99
+	},
+	{
+		"index": 123,
+		"txt": "Appendix A",
+		"file": "/home/user1/trash/dirOutputSet/_100_Appendix A_Appendix A____.wav",
+		"duration": 0.48,
+		"sentenceIndex": 14750,
+		"timestamp": 108.49
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 108.97
+	},
+	{
+		"index": 126,
+		"txt": "Quaternion Addition: The + Operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Quaternion_Addition__The___Operator__Addition__The___Operator____.wav",
+		"duration": 0.87,
+		"sentenceIndex": 14753,
+		"timestamp": 109.47
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 110.34
+	},
+	{
+		"index": 127,
+		"txt": "This operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_operator_This_operator____.wav",
+		"duration": 0.33,
+		"sentenceIndex": 14754,
+		"timestamp": 110.84
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 111.17
+	},
+	{
+		"index": 131,
+		"txt": "performs quaternion addition by simply adding the quaternion q1 to quaternion q2 on a component by component basis:",
+		"file": "/home/user1/trash/dirOutputSet/_100_performs_quaternion_addition_by_sim_onent_by_component_basis_____.wav",
+		"duration": 2.73,
+		"sentenceIndex": 14758,
+		"timestamp": 111.67
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 114.4
+	},
+	{
+		"index": 134,
+		"txt": "Quaternion Subtraction: The − Operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Quaternion_Subtraction__The___Opera_btraction__The___Operator____.wav",
+		"duration": 0.92,
+		"sentenceIndex": 14761,
+		"timestamp": 114.9
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 115.82000000000001
+	},
+	{
+		"index": 136,
+		"txt": "This operator performs",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_operator_performs_This_operator_performs____.wav",
+		"duration": 0.54,
+		"sentenceIndex": 14763,
+		"timestamp": 116.32000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 116.86000000000001
+	},
+	{
+		"index": 140,
+		"txt": "quaternion subtraction by simply subtracting the quaternion q2 from quaternion q1 on a component by component basis:",
+		"file": "/home/user1/trash/dirOutputSet/_100_quaternion_subtraction_by_simply_su_onent_by_component_basis_____.wav",
+		"duration": 2.8,
+		"sentenceIndex": 14767,
+		"timestamp": 117.36000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 120.16000000000001
+	},
+	{
+		"index": 143,
+		"txt": "Quaternion Multiplication: The * Operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Quaternion_Multiplication__The___Op_plication__The___Operator____.wav",
+		"duration": 0.94,
+		"sentenceIndex": 14770,
+		"timestamp": 120.66000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 121.60000000000001
+	},
+	{
+		"index": 145,
+		"txt": "This operator performs",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_operator_performs_This_operator_performs____.wav",
+		"duration": 0.54,
+		"sentenceIndex": 14772,
+		"timestamp": 122.10000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 122.64000000000001
+	},
+	{
+		"index": 149,
+		"txt": "quaternion multiplication according to the following formula:q p = nq np − vq  vp + nqvp + npvq + (vq × vp)",
+		"file": "/home/user1/trash/dirOutputSet/_100_quaternion_multiplication_according___nqvp___npvq____vq___vp_____.wav",
+		"duration": 3.86,
+		"sentenceIndex": 14776,
+		"timestamp": 123.14000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 127.00000000000001
+	},
+	{
+		"index": 151,
+		"txt": "Here, nqnp − vq  vp is the scalar part of the result, while nqvp + npvq + (vq × vp ) is the vector part.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here__nqnp___vq__vp_is_the_scalar_p__vp___is_the_vector_part_____.wav",
+		"duration": 3.65,
+		"sentenceIndex": 14778,
+		"timestamp": 127.50000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 131.15
+	},
+	{
+		"index": 152,
+		"txt": "Also note that vq and vp are the vector parts of q and p , respectively,  is the vector dot product operator, and × is the vector cross product operator.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Also_note_that_vq_and_vp_are_the_ve_r_cross_product_operator_____.wav",
+		"duration": 3.78,
+		"sentenceIndex": 14779,
+		"timestamp": 131.65
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 135.43
+	},
+	{
+		"index": 155,
+		"txt": "Quaternion multiplication is associative but not commutative; thus:q(ph) = (qp)hqp ≠ pq",
+		"file": "/home/user1/trash/dirOutputSet/_100_Quaternion_multiplication_is_associ_thus_q_ph_____qp_hqp___pq____.wav",
+		"duration": 2.67,
+		"sentenceIndex": 14782,
+		"timestamp": 135.93
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 138.6
+	},
+	{
+		"index": 157,
+		"txt": "Here's the code that multiplies two Quaternions, q1 and q2:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_the_code_that_multiplies_two_o_Quaternions__q1_and_q2_____.wav",
+		"duration": 1.6,
+		"sentenceIndex": 14784,
+		"timestamp": 139.1
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 140.7
+	},
+	{
+		"index": 160,
+		"txt": "Scalar Multiplication: The * Operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Scalar_Multiplication__The___Operat_plication__The___Operator____.wav",
+		"duration": 0.91,
+		"sentenceIndex": 14787,
+		"timestamp": 141.2
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 142.10999999999999
+	},
+	{
+		"index": 162,
+		"txt": "This operator simply multiplies",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_operator_simply_multiplies_perator_simply_multiplies____.wav",
+		"duration": 0.79,
+		"sentenceIndex": 14789,
+		"timestamp": 142.60999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 143.39999999999998
+	},
+	{
+		"index": 166,
+		"txt": "each component in the quaternion by the scalar s .",
+		"file": "/home/user1/trash/dirOutputSet/_100_each_component_in_the_quaternion_by_ternion_by_the_scalar_s______.wav",
+		"duration": 0.98,
+		"sentenceIndex": 14793,
+		"timestamp": 143.89999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 144.87999999999997
+	},
+	{
+		"index": 167,
+		"txt": "There are two forms of this operator, depending on the order in which the quaternion and scalar are encountered:",
+		"file": "/home/user1/trash/dirOutputSet/_100_There_are_two_forms_of_this_operato_d_scalar_are_encountered_____.wav",
+		"duration": 2.16,
+		"sentenceIndex": 14794,
+		"timestamp": 145.37999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 147.53999999999996
+	},
+	{
+		"index": 170,
+		"txt": "Vector Multiplication: The * Operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Vector_Multiplication__The___Operat_plication__The___Operator____.wav",
+		"duration": 0.85,
+		"sentenceIndex": 14797,
+		"timestamp": 148.03999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 148.88999999999996
+	},
+	{
+		"index": 172,
+		"txt": "This operator multiplies the",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_operator_multiplies_the_s_operator_multiplies_the____.wav",
+		"duration": 0.63,
+		"sentenceIndex": 14799,
+		"timestamp": 149.38999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 150.01999999999995
+	},
+	{
+		"index": 176,
+		"txt": "quaternion q by the vector v as though the vector v were a quaternion with its scalar component equal to 0.",
+		"file": "/home/user1/trash/dirOutputSet/_100_quaternion_q_by_the_vector_v_as_tho_lar_component_equal_to_0_____.wav",
+		"duration": 2.05,
+		"sentenceIndex": 14803,
+		"timestamp": 150.51999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 152.56999999999996
+	},
+	{
+		"index": 177,
+		"txt": "There are two forms of this operator, depending on the order in which the quaternion and vector are encountered.",
+		"file": "/home/user1/trash/dirOutputSet/_100_There_are_two_forms_of_this_operato_d_vector_are_encountered_____.wav",
+		"duration": 2.05,
+		"sentenceIndex": 14804,
+		"timestamp": 153.06999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 155.11999999999998
+	},
+	{
+		"index": 178,
+		"txt": "Since v is assumed to be a quaternion with its scalar part equal to 0, the rules of multiplication follow those outlined earlier for quaternion multiplication:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Since_v_is_assumed_to_be_a_quaterni_uaternion_multiplication_____.wav",
+		"duration": 3.39,
+		"sentenceIndex": 14805,
+		"timestamp": 155.61999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 159.00999999999996
+	},
+	{
+		"index": 181,
+		"txt": "Scalar Division: The / Operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Scalar_Division__The___Operator__Division__The___Operator____.wav",
+		"duration": 0.87,
+		"sentenceIndex": 14808,
+		"timestamp": 159.50999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 160.37999999999997
+	},
+	{
+		"index": 183,
+		"txt": "This operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_operator_This_operator____.wav",
+		"duration": 0.33,
+		"sentenceIndex": 14810,
+		"timestamp": 160.87999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 161.20999999999998
+	},
+	{
+		"index": 187,
+		"txt": "simply divides each component in the quaternion by the scalar s:",
+		"file": "/home/user1/trash/dirOutputSet/_100_simply_divides_each_component_in_th_aternion_by_the_scalar_s_____.wav",
+		"duration": 1.37,
+		"sentenceIndex": 14814,
+		"timestamp": 161.70999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 163.07999999999998
+	},
+	{
+		"index": 190,
+		"txt": "QGetAngle",
+		"file": "/home/user1/trash/dirOutputSet/_100_QGetAngle_QGetAngle____.wav",
+		"duration": 0.27,
+		"sentenceIndex": 14817,
+		"timestamp": 163.57999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 163.85
+	},
+	{
+		"index": 192,
+		"txt": "This function[",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_function__This_function_____.wav",
+		"duration": 0.32,
+		"sentenceIndex": 14819,
+		"timestamp": 164.35
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 164.67
+	},
+	{
+		"index": 193,
+		"txt": "30] extracts the",
+		"file": "/home/user1/trash/dirOutputSet/_100_30__extracts_the_30__extracts_the____.wav",
+		"duration": 0.53,
+		"sentenceIndex": 14820,
+		"timestamp": 165.17
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 165.7
+	},
+	{
+		"index": 196,
+		"txt": "angle of rotation about the axis represented by the vector part of the quaternion:",
+		"file": "/home/user1/trash/dirOutputSet/_100_angle_of_rotation_about_the_axis_re_r_part_of_the_quaternion_____.wav",
+		"duration": 1.63,
+		"sentenceIndex": 14823,
+		"timestamp": 166.2
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 167.82999999999998
+	},
+	{
+		"index": 199,
+		"txt": "QGetAxis",
+		"file": "/home/user1/trash/dirOutputSet/_100_QGetAxis_QGetAxis____.wav",
+		"duration": 0.32,
+		"sentenceIndex": 14826,
+		"timestamp": 168.32999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 168.64999999999998
+	},
+	{
+		"index": 201,
+		"txt": "This function",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_function_This_function____.wav",
+		"duration": 0.32,
+		"sentenceIndex": 14828,
+		"timestamp": 169.14999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 169.46999999999997
+	},
+	{
+		"index": 203,
+		"txt": "returns a unit vector along the axis of rotation represented by the vector part of the quaternion q:",
+		"file": "/home/user1/trash/dirOutputSet/_100_returns_a_unit_vector_along_the_axi_part_of_the_quaternion_q_____.wav",
+		"duration": 2.17,
+		"sentenceIndex": 14830,
+		"timestamp": 169.96999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 172.13999999999996
+	},
+	{
+		"index": 206,
+		"txt": "QRotate",
+		"file": "/home/user1/trash/dirOutputSet/_100_QRotate_QRotate____.wav",
+		"duration": 0.21,
+		"sentenceIndex": 14833,
+		"timestamp": 172.63999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 172.84999999999997
+	},
+	{
+		"index": 208,
+		"txt": "This function",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_function_This_function____.wav",
+		"duration": 0.32,
+		"sentenceIndex": 14835,
+		"timestamp": 173.34999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 173.66999999999996
+	},
+	{
+		"index": 210,
+		"txt": "rotates the quaternion p by q according to the formula:p' = (q)(p)(~q)",
+		"file": "/home/user1/trash/dirOutputSet/_100_rotates_the_quaternion_p_by_q_accor_e_formula_p_____q__p___q_____.wav",
+		"duration": 1.78,
+		"sentenceIndex": 14837,
+		"timestamp": 174.16999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 175.94999999999996
+	},
+	{
+		"index": 212,
+		"txt": "Here, ~q is the conjugate of the unit quaternion q .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here___q_is_the_conjugate_of_the_un_f_the_unit_quaternion_q______.wav",
+		"duration": 1.25,
+		"sentenceIndex": 14839,
+		"timestamp": 176.44999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 177.69999999999996
+	},
+	{
+		"index": 213,
+		"txt": "Here's the code:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_the_code__Here_s_the_code_____.wav",
+		"duration": 0.38,
+		"sentenceIndex": 14840,
+		"timestamp": 178.19999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 178.57999999999996
+	},
+	{
+		"index": 216,
+		"txt": "QVRotate",
+		"file": "/home/user1/trash/dirOutputSet/_100_QVRotate_QVRotate____.wav",
+		"duration": 0.41,
+		"sentenceIndex": 14843,
+		"timestamp": 179.07999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 179.48999999999995
+	},
+	{
+		"index": 218,
+		"txt": "This function",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_function_This_function____.wav",
+		"duration": 0.32,
+		"sentenceIndex": 14845,
+		"timestamp": 179.98999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 180.30999999999995
+	},
+	{
+		"index": 220,
+		"txt": "rotates the vector v by the unit quaternion q according to the formula:p' = (q)(v)(~q)",
+		"file": "/home/user1/trash/dirOutputSet/_100_rotates_the_vector_v_by_the_unit_qu_e_formula_p_____q__v___q_____.wav",
+		"duration": 2.09,
+		"sentenceIndex": 14847,
+		"timestamp": 180.80999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 182.89999999999995
+	},
+	{
+		"index": 222,
+		"txt": "Here, ~q is the conjugate of the unit quaternion q .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here___q_is_the_conjugate_of_the_un_f_the_unit_quaternion_q______.wav",
+		"duration": 1.25,
+		"sentenceIndex": 14849,
+		"timestamp": 183.39999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 184.64999999999995
+	},
+	{
+		"index": 223,
+		"txt": "Here's the code:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_the_code__Here_s_the_code_____.wav",
+		"duration": 0.38,
+		"sentenceIndex": 14850,
+		"timestamp": 185.14999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 185.52999999999994
+	},
+	{
+		"index": 226,
+		"txt": "MakeQFromEulerAngles",
+		"file": "/home/user1/trash/dirOutputSet/_100_MakeQFromEulerAngles_MakeQFromEulerAngles____.wav",
+		"duration": 0.62,
+		"sentenceIndex": 14853,
+		"timestamp": 186.02999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 186.64999999999995
+	},
+	{
+		"index": 228,
+		"txt": "This function",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_function_This_function____.wav",
+		"duration": 0.32,
+		"sentenceIndex": 14855,
+		"timestamp": 187.14999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 187.46999999999994
+	},
+	{
+		"index": 231,
+		"txt": "constructs a quaternion from a set of Euler angles.",
+		"file": "/home/user1/trash/dirOutputSet/_100_constructs_a_quaternion_from_a_set__om_a_set_of_Euler_angles_____.wav",
+		"duration": 0.96,
+		"sentenceIndex": 14858,
+		"timestamp": 187.96999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 188.92999999999995
+	},
+	{
+		"index": 234,
+		"txt": "For a given set of Euler angles, yaw (ψ), pitch (τ), and roll (φ), defining rotation about the z axis, then the y axis, and then the z axis, you can construct the representative rotation quaternion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_a_given_set_of_Euler_angles__ya_tive_rotation_quaternion_____.wav",
+		"duration": 5.87,
+		"sentenceIndex": 14861,
+		"timestamp": 189.42999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 195.29999999999995
+	},
+	{
+		"index": 235,
+		"txt": "You do this by first constructing a quaternion for each Euler angle and then multiplying the three quaternions following the rules of quaternion multiplication.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_do_this_by_first_constructing_a_uaternion_multiplication_____.wav",
+		"duration": 3.06,
+		"sentenceIndex": 14862,
+		"timestamp": 195.79999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 198.85999999999996
+	},
+	{
+		"index": 236,
+		"txt": "Here are the three quaternions representing each Euler rotation angle:qroll = [cos(φ/2), (sin(φ/2)) i + 0 j + 0 k]qpitch = [cos(τ /2), 0 i + (sin(τ /2)) j + 0 k]qyaw = [cos(ψ /2), 0 i + 0 j + (sin(ψ /2)) k]",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_are_the_three_quaternions_repr__i___0_j____sin____2___k_____.wav",
+		"duration": 10.49,
+		"sentenceIndex": 14863,
+		"timestamp": 199.35999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 209.84999999999997
+	},
+	{
+		"index": 238,
+		"txt": "Each one of these quaternions is of unit length.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Each_one_of_these_quaternions_is_of_rnions_is_of_unit_length_____.wav",
+		"duration": 1.02,
+		"sentenceIndex": 14865,
+		"timestamp": 210.34999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 211.36999999999998
+	},
+	{
+		"index": 240,
+		"txt": "31]",
+		"file": "/home/user1/trash/dirOutputSet/_100_31__31_____.wav",
+		"duration": 0.3,
+		"sentenceIndex": 14867,
+		"timestamp": 211.86999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 212.17
+	},
+	{
+		"index": 242,
+		"txt": "Now you can multiply these quaternions to obtain a single one that represents the rotation, or orientation, defined by the three Euler angles:q = qyawqpitchqroll",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now_you_can_multiply_these_quaterni_ngles_q___qyawqpitchqroll____.wav",
+		"duration": 3.73,
+		"sentenceIndex": 14869,
+		"timestamp": 212.67
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 216.39999999999998
+	},
+	{
+		"index": 243,
+		"txt": "Performing this multiplication yields:q = [ {cos(φ/2) cos(τ /2) cos(ψ /2) + sin(φ/2) sin(τ /2) sin(ψ /2)},{ sin(φ/2) cos(τ /2) cos(ψ /2)   cos(φ/2) sin(τ /2) sin(ψ /2) } i +{ cos(φ/2) sin(τ /2) cos(ψ /2) + sin(φ/2) cos(τ /2) sin(ψ /2) } j +{ cos(φ/2) cos(τ /2) sin(ψ /2)   sin(φ/2) sin(τ /2) cos(ψ /2) } k ]",
+		"file": "/home/user1/trash/dirOutputSet/_100_Performing_this_multiplication_yiel_sin____2__cos____2____k______.wav",
+		"duration": 21.63,
+		"sentenceIndex": 14870,
+		"timestamp": 216.89999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 238.52999999999997
+	},
+	{
+		"index": 244,
+		"txt": "Here's the code that takes three Euler angles and returns a quaternion:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_the_code_that_takes_three_Eu_and_returns_a_quaternion_____.wav",
+		"duration": 1.38,
+		"sentenceIndex": 14871,
+		"timestamp": 239.02999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 240.40999999999997
+	},
+	{
+		"index": 247,
+		"txt": "MakeEulerAnglesFromQ",
+		"file": "/home/user1/trash/dirOutputSet/_100_MakeEulerAnglesFromQ_MakeEulerAnglesFromQ____.wav",
+		"duration": 0.6,
+		"sentenceIndex": 14874,
+		"timestamp": 240.90999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 241.50999999999996
+	},
+	{
+		"index": 249,
+		"txt": "This function",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_function_This_function____.wav",
+		"duration": 0.32,
+		"sentenceIndex": 14876,
+		"timestamp": 242.00999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 242.32999999999996
+	},
+	{
+		"index": 252,
+		"txt": "extracts the three Euler angles from a given quaternion.",
+		"file": "/home/user1/trash/dirOutputSet/_100_extracts_the_three_Euler_angles_fro__from_a_given_quaternion_____.wav",
+		"duration": 1.14,
+		"sentenceIndex": 14879,
+		"timestamp": 242.82999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 243.96999999999994
+	},
+	{
+		"index": 255,
+		"txt": "You can extract the three Euler angles from a quaternion by first converting the quaternion to a rotation matrix and then extracting the Euler angles from the rotation matrix.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_extract_the_three_Euler_ang_from_the_rotation_matrix_____.wav",
+		"duration": 3.33,
+		"sentenceIndex": 14882,
+		"timestamp": 244.46999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 247.79999999999995
+	},
+	{
+		"index": 256,
+		"txt": "Let R be a nine element rotation matrix:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Let_R_be_a_nine_element_rotation_ma__element_rotation_matrix_____.wav",
+		"duration": 1.01,
+		"sentenceIndex": 14883,
+		"timestamp": 248.29999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 249.30999999999995
+	},
+	{
+		"index": 261,
+		"txt": "and let q be a quaternion:q = [n, x i + y j + z k]",
+		"file": "/home/user1/trash/dirOutputSet/_100_and_let_q_be_a_quaternion_q____n__x__q____n__x_i___y_j___z_k_____.wav",
+		"duration": 1.97,
+		"sentenceIndex": 14888,
+		"timestamp": 249.80999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 251.77999999999994
+	},
+	{
+		"index": 263,
+		"txt": "Then each element in R is calculated from q as follows:r11 = n2 + x2 − y2 − z2r21 = 2xy+2znr31 = 2zx − 2ynr12 = 2xy − 2znr22 = n2 − x2 + y2 − z2r32 = 2zy + 2xnr13 = 2xz + 2ynr23 = 2yz − 2xnr33 = n2 − x2 − y2 + z2",
+		"file": "/home/user1/trash/dirOutputSet/_100_Then_each_element_in_R_is_calculate_xnr33___n2___x2___y2___z2____.wav",
+		"duration": 10.89,
+		"sentenceIndex": 14890,
+		"timestamp": 252.27999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 263.16999999999996
+	},
+	{
+		"index": 265,
+		"txt": "To extract the Euler angles, yaw (ψ), pitch (τ), and roll (φ), from R, you can use these relations:sin τ = −r31tan φ = r32 / r33tan ψ = r21 / r11",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_extract_the_Euler_angles__yaw____32___r33tan_____r21___r11____.wav",
+		"duration": 7.41,
+		"sentenceIndex": 14892,
+		"timestamp": 263.66999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 271.08
+	},
+	{
+		"index": 267,
+		"txt": "Here's the code that extracts the three Euler angles, returned in the form of a Vector, from a given quaternion:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_the_code_that_extracts_the_t__from_a_given_quaternion_____.wav",
+		"duration": 2.34,
+		"sentenceIndex": 14894,
+		"timestamp": 271.58
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 273.91999999999996
+	},
+	{
+		"index": 270,
+		"txt": "Conversion Functions",
+		"file": "/home/user1/trash/dirOutputSet/_100_Conversion_Functions_Conversion_Functions____.wav",
+		"duration": 0.47,
+		"sentenceIndex": 14897,
+		"timestamp": 274.41999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 274.89
+	},
+	{
+		"index": 272,
+		"txt": "These two functions",
+		"file": "/home/user1/trash/dirOutputSet/_100_These_two_functions_These_two_functions____.wav",
+		"duration": 0.51,
+		"sentenceIndex": 14899,
+		"timestamp": 275.39
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 275.9
+	},
+	{
+		"index": 278,
+		"txt": "are used to convert angles from degrees to radians and radians to degrees.",
+		"file": "/home/user1/trash/dirOutputSet/_100_are_used_to_convert_angles_from_deg_s_and_radians_to_degrees_____.wav",
+		"duration": 1.6,
+		"sentenceIndex": 14905,
+		"timestamp": 276.4
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 278
+	},
+	{
+		"index": 279,
+		"txt": "They are not specific to quaternions but are used in some of the code samples shown",
+		"file": "/home/user1/trash/dirOutputSet/_100_They_are_not_specific_to_quaternion_of_the_code_samples_shown____.wav",
+		"duration": 1.72,
+		"sentenceIndex": 14906,
+		"timestamp": 278.5
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 280.22
+	},
+	{
+		"index": 280,
+		"txt": "earlier:",
+		"file": "/home/user1/trash/dirOutputSet/_100_earlier__earlier_____.wav",
+		"duration": 0.25,
+		"sentenceIndex": 14907,
+		"timestamp": 280.72
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 280.97
+	},
+	{
+		"index": 288,
+		"txt": "30] For a description of how quaternions are used to represent rotation, refer to the section",
+		"file": "/home/user1/trash/dirOutputSet/_100_30__For_a_description_of_how_quater_ion__refer_to_the_section____.wav",
+		"duration": 2.11,
+		"sentenceIndex": 14915,
+		"timestamp": 281.47
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 283.58000000000004
+	},
+	{
+		"index": 290,
+		"txt": "Quaternions in",
+		"file": "/home/user1/trash/dirOutputSet/_100_Quaternions_in_Quaternions_in____.wav",
+		"duration": 0.43,
+		"sentenceIndex": 14917,
+		"timestamp": 284.08000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 284.51000000000005
+	},
+	{
+		"index": 291,
+		"txt": "Chapter 11",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 11_Chapter 11____.wav",
+		"duration": 0.39,
+		"sentenceIndex": 14918,
+		"timestamp": 285.01000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 285.40000000000003
+	},
+	{
+		"index": 295,
+		"txt": "31] You can verify this by recalling the trigonometric relation cos2θ + sin2",
+		"file": "/home/user1/trash/dirOutputSet/_100_31__You_can_verify_this_by_recallin_ric_relation_cos2____sin2____.wav",
+		"duration": 2.47,
+		"sentenceIndex": 14922,
+		"timestamp": 285.90000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 288.37000000000006
+	},
+	{
+		"index": 296,
+		"txt": "θ = 1.",
+		"file": "/home/user1/trash/dirOutputSet/_100_____1______1_____.wav",
+		"duration": 0.81,
+		"sentenceIndex": 14923,
+		"timestamp": 288.87000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 289.68000000000006
+	}
+]

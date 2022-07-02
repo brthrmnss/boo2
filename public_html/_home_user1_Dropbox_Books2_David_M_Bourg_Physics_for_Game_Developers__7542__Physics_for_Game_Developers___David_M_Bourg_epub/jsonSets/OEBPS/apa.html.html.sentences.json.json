@@ -1,0 +1,1758 @@
+[
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 0
+	},
+	{
+		"index": 2,
+		"txt": "Appendix A. Vector Operations",
+		"file": "/home/user1/trash/dirOutputSet/_100_Appendix A_ Vector_Operations_ndix A_ Vector_Operations____.wav",
+		"duration": 1.05,
+		"sentenceIndex": 14140,
+		"timestamp": 0.5
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 1.55
+	},
+	{
+		"index": 3,
+		"txt": "This appendix implements a class called Vector that encapsulates all of the vector operations that you need when writing 2D or 3D rigid body simulations.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_appendix_implements_a_class_ca_D_rigid_body_simulations_____.wav",
+		"duration": 3.31,
+		"sentenceIndex": 14141,
+		"timestamp": 2.05
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 5.359999999999999
+	},
+	{
+		"index": 4,
+		"txt": "Although Vector represents 3D vectors, you can easily reduce it to handle 2D vectors by eliminating all of the z terms or simply constraining the z terms to 0 where appropriate in your implementation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Although_Vector_represents_3D_vecto_e_in_your_implementation_____.wav",
+		"duration": 4.3,
+		"sentenceIndex": 14142,
+		"timestamp": 5.859999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 10.16
+	},
+	{
+		"index": 6,
+		"txt": "Vector Class",
+		"file": "/home/user1/trash/dirOutputSet/_100_Vector_Class_Vector_Class____.wav",
+		"duration": 0.36,
+		"sentenceIndex": 14144,
+		"timestamp": 10.66
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 11.02
+	},
+	{
+		"index": 7,
+		"txt": "The Vector class is",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_Vector_class_is_The_Vector_class_is____.wav",
+		"duration": 0.51,
+		"sentenceIndex": 14145,
+		"timestamp": 11.52
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 12.03
+	},
+	{
+		"index": 9,
+		"txt": "defined with three components x, y, and z  along with several methods and operators that implement basic vector operations.",
+		"file": "/home/user1/trash/dirOutputSet/_100_defined_with_three_components_x__y___basic_vector_operations_____.wav",
+		"duration": 2.8,
+		"sentenceIndex": 14147,
+		"timestamp": 12.53
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 15.329999999999998
+	},
+	{
+		"index": 10,
+		"txt": "The class has two constructors, one of which initializes the vector components to 0, and the other of which initializes the vector components to those passed to the constructor:",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_class_has_two_constructors__one_assed_to_the_constructor_____.wav",
+		"duration": 3.13,
+		"sentenceIndex": 14148,
+		"timestamp": 15.829999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 18.959999999999997
+	},
+	{
+		"index": 13,
+		"txt": "Magnitude",
+		"file": "/home/user1/trash/dirOutputSet/_100_Magnitude_Magnitude____.wav",
+		"duration": 0.3,
+		"sentenceIndex": 14151,
+		"timestamp": 19.459999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 19.759999999999998
+	},
+	{
+		"index": 15,
+		"txt": "The Magnitude method",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_Magnitude_method_The_Magnitude_method____.wav",
+		"duration": 0.5,
+		"sentenceIndex": 14153,
+		"timestamp": 20.259999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 20.759999999999998
+	},
+	{
+		"index": 18,
+		"txt": "simply calculates the scalar magnitude of the vector according to the formula:|v| =",
+		"file": "/home/user1/trash/dirOutputSet/_100_simply_calculates_the_scalar_magnit_ding_to_the_formula__v_______.wav",
+		"duration": 2.47,
+		"sentenceIndex": 14156,
+		"timestamp": 21.259999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 23.729999999999997
+	},
+	{
+		"index": 20,
+		"txt": "This is for a zero based vector where the components are specified relative to the origin.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_for_a_zero_based_vector_whe_d_relative_to_the_origin_____.wav",
+		"duration": 1.76,
+		"sentenceIndex": 14158,
+		"timestamp": 24.229999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 25.99
+	},
+	{
+		"index": 21,
+		"txt": "The magnitude of a vector is equal to its length, as illustrated in",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_magnitude_of_a_vector_is_equal__length__as_illustrated_in____.wav",
+		"duration": 1.49,
+		"sentenceIndex": 14159,
+		"timestamp": 26.49
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 27.979999999999997
+	},
+	{
+		"index": 22,
+		"txt": "Figure A 1",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure A_1_Figure A_1____.wav",
+		"duration": 0.51,
+		"sentenceIndex": 14160,
+		"timestamp": 28.479999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 28.99
+	},
+	{
+		"index": 29,
+		"txt": "Figure A 1. Vector length (magnitude)",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure A_1_ Vector_length__magnitud_Vector_length__magnitude_____.wav",
+		"duration": 1.28,
+		"sentenceIndex": 14167,
+		"timestamp": 29.49
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 30.77
+	},
+	{
+		"index": 31,
+		"txt": "Here's the code that calculates the vector magnitude for our Vector class:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_the_code_that_calculates_the_ude_for_our_Vector_class_____.wav",
+		"duration": 1.5,
+		"sentenceIndex": 14169,
+		"timestamp": 31.27
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 32.769999999999996
+	},
+	{
+		"index": 34,
+		"txt": "Note, you can calculate the components of a vector if you know its length",
+		"file": "/home/user1/trash/dirOutputSet/_100_Note__you_can_calculate_the_compone_or_if_you_know_its_length____.wav",
+		"duration": 1.5,
+		"sentenceIndex": 14172,
+		"timestamp": 33.269999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 34.769999999999996
+	},
+	{
+		"index": 35,
+		"txt": "and direction angles",
+		"file": "/home/user1/trash/dirOutputSet/_100_and_direction_angles_and_direction_angles____.wav",
+		"duration": 0.46,
+		"sentenceIndex": 14173,
+		"timestamp": 35.269999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 35.73
+	},
+	{
+		"index": 37,
+		"txt": "Direction angles are the angles between each coordinate axis and the vector, as shown in",
+		"file": "/home/user1/trash/dirOutputSet/_100_Direction_angles_are_the_angles_bet_d_the_vector__as_shown_in____.wav",
+		"duration": 1.86,
+		"sentenceIndex": 14175,
+		"timestamp": 36.23
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 38.089999999999996
+	},
+	{
+		"index": 38,
+		"txt": "Figure A 2",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure A_2_Figure A_2____.wav",
+		"duration": 0.53,
+		"sentenceIndex": 14176,
+		"timestamp": 38.589999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 39.12
+	},
+	{
+		"index": 45,
+		"txt": "Figure A 2. Direction angles",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure A_2_ Direction_angles_ure A_2_ Direction_angles____.wav",
+		"duration": 1.03,
+		"sentenceIndex": 14183,
+		"timestamp": 39.62
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 40.65
+	},
+	{
+		"index": 47,
+		"txt": "The components of the vector shown in this figure are:vx = |v| cos φxvy = |v| cos φyvz = |v| cos φz",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_components_of_the_vector_shown___v__cos__yvz____v__cos__z____.wav",
+		"duration": 5,
+		"sentenceIndex": 14185,
+		"timestamp": 41.15
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 46.15
+	},
+	{
+		"index": 49,
+		"txt": "The cosines of the direction angles seen in these equations are known",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_cosines_of_the_direction_angles_these_equations_are_known____.wav",
+		"duration": 1.48,
+		"sentenceIndex": 14187,
+		"timestamp": 46.65
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 48.129999999999995
+	},
+	{
+		"index": 51,
+		"txt": "as direction cosines .",
+		"file": "/home/user1/trash/dirOutputSet/_100_as_direction_cosines___as_direction_cosines______.wav",
+		"duration": 0.55,
+		"sentenceIndex": 14189,
+		"timestamp": 48.629999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 49.17999999999999
+	},
+	{
+		"index": 52,
+		"txt": "The sum of the squares of the direction cosines is always equal to 1:cos2 φx + cos2 φy + cos2 φz = 1",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_sum_of_the_squares_of_the_direc_x___cos2__y___cos2__z___1____.wav",
+		"duration": 3.99,
+		"sentenceIndex": 14190,
+		"timestamp": 49.67999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 53.669999999999995
+	},
+	{
+		"index": 54,
+		"txt": "Normalize",
+		"file": "/home/user1/trash/dirOutputSet/_100_Normalize_Normalize____.wav",
+		"duration": 0.29,
+		"sentenceIndex": 14192,
+		"timestamp": 54.169999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 54.459999999999994
+	},
+	{
+		"index": 56,
+		"txt": "The Normalize method normalizes,",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_Normalize_method_normalizes__malize_method_normalizes_____.wav",
+		"duration": 0.81,
+		"sentenceIndex": 14194,
+		"timestamp": 54.959999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 55.769999999999996
+	},
+	{
+		"index": 58,
+		"txt": "or converts, the vector to a unit vector satisfying the following equation:|v| =",
+		"file": "/home/user1/trash/dirOutputSet/_100_or_converts__the_vector_to_a_unit_v__following_equation__v_______.wav",
+		"duration": 2.49,
+		"sentenceIndex": 14196,
+		"timestamp": 56.269999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 58.76
+	},
+	{
+		"index": 60,
+		"txt": "In other words, the length of the normalized vector is 1 unit.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_other_words__the_length_of_the_n_malized_vector_is_1_unit_____.wav",
+		"duration": 1.27,
+		"sentenceIndex": 14198,
+		"timestamp": 59.26
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 60.53
+	},
+	{
+		"index": 61,
+		"txt": "If v is a non unit vector with components x, y, and z, then we can calculate the unit vector u from v as follows:u = v / |v| = (x / |v|) I + (y / |v|) j + (z / |v|) k",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_v_is_a_non_unit_vector_with_comp__y____v___j____z____v___k____.wav",
+		"duration": 7.98,
+		"sentenceIndex": 14199,
+		"timestamp": 61.03
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 69.01
+	},
+	{
+		"index": 63,
+		"txt": "Here |v| is simply the magnitude, or length, of vector v as described earlier.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here__v__is_simply_the_magnitude__o_r_v_as_described_earlier_____.wav",
+		"duration": 2.36,
+		"sentenceIndex": 14201,
+		"timestamp": 69.51
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 71.87
+	},
+	{
+		"index": 66,
+		"txt": "Here's the code that converts our Vector class vector to a unit vector:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_the_code_that_converts_our_V__vector_to_a_unit_vector_____.wav",
+		"duration": 1.47,
+		"sentenceIndex": 14204,
+		"timestamp": 72.37
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 73.84
+	},
+	{
+		"index": 68,
+		"txt": "In this function, tol is a float type tolerance; for example:",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_this_function__tol_is_a_float_ty_e_tolerance__for_example_____.wav",
+		"duration": 1.53,
+		"sentenceIndex": 14206,
+		"timestamp": 74.34
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 75.87
+	},
+	{
+		"index": 71,
+		"txt": "Reverse",
+		"file": "/home/user1/trash/dirOutputSet/_100_Reverse_Reverse____.wav",
+		"duration": 0.25,
+		"sentenceIndex": 14209,
+		"timestamp": 76.37
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 76.62
+	},
+	{
+		"index": 73,
+		"txt": "The Reverse method reverses the",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_Reverse_method_reverses_the_verse_method_reverses_the____.wav",
+		"duration": 0.62,
+		"sentenceIndex": 14211,
+		"timestamp": 77.12
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 77.74000000000001
+	},
+	{
+		"index": 75,
+		"txt": "direction of the vector, which is accomplished by simply taking the negative of each component.",
+		"file": "/home/user1/trash/dirOutputSet/_100_direction_of_the_vector__which_is_a_gative_of_each_component_____.wav",
+		"duration": 1.88,
+		"sentenceIndex": 14213,
+		"timestamp": 78.24000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 80.12
+	},
+	{
+		"index": 76,
+		"txt": "After calling Reverse, the vector will point in a direction opposite to the direction it was pointing before Reverse was called:",
+		"file": "/home/user1/trash/dirOutputSet/_100_After_calling_Reverse__the_vector_w_efore_Reverse_was_called_____.wav",
+		"duration": 2.43,
+		"sentenceIndex": 14214,
+		"timestamp": 80.62
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 83.05000000000001
+	},
+	{
+		"index": 79,
+		"txt": "This operation is illustrated in",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_operation_is_illustrated_in_eration_is_illustrated_in____.wav",
+		"duration": 0.8,
+		"sentenceIndex": 14217,
+		"timestamp": 83.55000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 84.35000000000001
+	},
+	{
+		"index": 80,
+		"txt": "Figure A 3",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure A_3_Figure A_3____.wav",
+		"duration": 0.68,
+		"sentenceIndex": 14218,
+		"timestamp": 84.85000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 85.53000000000002
+	},
+	{
+		"index": 87,
+		"txt": "Figure A 3. Vector reversal",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure A_3_ Vector_reversal_gure A_3_ Vector_reversal____.wav",
+		"duration": 1.16,
+		"sentenceIndex": 14225,
+		"timestamp": 86.03000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 87.19000000000001
+	},
+	{
+		"index": 89,
+		"txt": "Vector Addition: The += Operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Vector_Addition__The____Operator_Addition__The____Operator____.wav",
+		"duration": 0.93,
+		"sentenceIndex": 14227,
+		"timestamp": 87.69000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 88.62000000000002
+	},
+	{
+		"index": 91,
+		"txt": "This summation operator is",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_summation_operator_is_his_summation_operator_is____.wav",
+		"duration": 0.63,
+		"sentenceIndex": 14229,
+		"timestamp": 89.12000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 89.75000000000001
+	},
+	{
+		"index": 96,
+		"txt": "used for vector addition, whereby the passed vector is added to the current vector, component by component.",
+		"file": "/home/user1/trash/dirOutputSet/_100_used_for_vector_addition__whereby_t___component_by_component_____.wav",
+		"duration": 2.16,
+		"sentenceIndex": 14234,
+		"timestamp": 90.25000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 92.41000000000001
+	},
+	{
+		"index": 97,
+		"txt": "Graphically, vectors are added in tip to tail fashion, as illustrated in",
+		"file": "/home/user1/trash/dirOutputSet/_100_Graphically__vectors_are_added_in_t_ashion__as_illustrated_in____.wav",
+		"duration": 1.68,
+		"sentenceIndex": 14235,
+		"timestamp": 92.91000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 94.59000000000002
+	},
+	{
+		"index": 98,
+		"txt": "Figure A 4",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure A_4_Figure A_4____.wav",
+		"duration": 0.52,
+		"sentenceIndex": 14236,
+		"timestamp": 95.09000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 95.61000000000001
+	},
+	{
+		"index": 105,
+		"txt": "Figure A 4. Vector addition",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure A_4_ Vector_addition_gure A_4_ Vector_addition____.wav",
+		"duration": 0.94,
+		"sentenceIndex": 14243,
+		"timestamp": 96.11000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 97.05000000000001
+	},
+	{
+		"index": 107,
+		"txt": "Here's the code that adds the vector u to our Vector class vector:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_the_code_that_adds_the_vecto__our_Vector_class_vector_____.wav",
+		"duration": 1.28,
+		"sentenceIndex": 14245,
+		"timestamp": 97.55000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 98.83000000000001
+	},
+	{
+		"index": 110,
+		"txt": "Vector Subtraction: The −= Operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Vector_Subtraction__The____Operator_traction__The____Operator____.wav",
+		"duration": 1.29,
+		"sentenceIndex": 14248,
+		"timestamp": 99.33000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 100.62000000000002
+	},
+	{
+		"index": 112,
+		"txt": "This subtraction operator is",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_subtraction_operator_is_s_subtraction_operator_is____.wav",
+		"duration": 0.67,
+		"sentenceIndex": 14250,
+		"timestamp": 101.12000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 101.79000000000002
+	},
+	{
+		"index": 117,
+		"txt": "used to subtract the passed vector from the current one, which is performed on a component by component basis.",
+		"file": "/home/user1/trash/dirOutputSet/_100_used_to_subtract_the_passed_vector__onent_by_component_basis_____.wav",
+		"duration": 2.2,
+		"sentenceIndex": 14255,
+		"timestamp": 102.29000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 104.49000000000002
+	},
+	{
+		"index": 118,
+		"txt": "Vector subtraction is very similar to vector addition except that you take the reverse of the second vector and add it to the first, as illustrated in",
+		"file": "/home/user1/trash/dirOutputSet/_100_Vector_subtraction_is_very_similar___first__as_illustrated_in____.wav",
+		"duration": 2.98,
+		"sentenceIndex": 14256,
+		"timestamp": 104.99000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 107.97000000000003
+	},
+	{
+		"index": 119,
+		"txt": "Figure A 5",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure A_5_Figure A_5____.wav",
+		"duration": 0.53,
+		"sentenceIndex": 14257,
+		"timestamp": 108.47000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 109.00000000000003
+	},
+	{
+		"index": 126,
+		"txt": "Figure A 5. Vector subtraction",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure A_5_ Vector_subtraction_e A_5_ Vector_subtraction____.wav",
+		"duration": 1.06,
+		"sentenceIndex": 14264,
+		"timestamp": 109.50000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 110.56000000000003
+	},
+	{
+		"index": 128,
+		"txt": "Here's the code that subtracts vector u from our Vector class vector:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_the_code_that_subtracts_vect__our_Vector_class_vector_____.wav",
+		"duration": 1.32,
+		"sentenceIndex": 14266,
+		"timestamp": 111.06000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 112.38000000000002
+	},
+	{
+		"index": 131,
+		"txt": "Scalar Multiplication: The *= Operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Scalar_Multiplication__The____Opera_lication__The____Operator____.wav",
+		"duration": 1.08,
+		"sentenceIndex": 14269,
+		"timestamp": 112.88000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 113.96000000000002
+	},
+	{
+		"index": 133,
+		"txt": "This is the scalar",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_the_scalar_This_is_the_scalar____.wav",
+		"duration": 0.43,
+		"sentenceIndex": 14271,
+		"timestamp": 114.46000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 114.89000000000003
+	},
+	{
+		"index": 138,
+		"txt": "multiplication operator that's used to multiply a vector by a scalar, effectively scaling the vector's length.",
+		"file": "/home/user1/trash/dirOutputSet/_100_multiplication_operator_that_s_used_ling_the_vector_s_length_____.wav",
+		"duration": 2.28,
+		"sentenceIndex": 14276,
+		"timestamp": 115.39000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 117.67000000000003
+	},
+	{
+		"index": 139,
+		"txt": "When you multiply a vector by a scalar, you simply multiply each vector component by the scalar quantity to obtain the new vector.",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_you_multiply_a_vector_by_a_sca_to_obtain_the_new_vector_____.wav",
+		"duration": 2.68,
+		"sentenceIndex": 14277,
+		"timestamp": 118.17000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 120.85000000000004
+	},
+	{
+		"index": 140,
+		"txt": "The new vector points in the same direction as the unscaled one, but its length will be different (unless the scale factor is 1).",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_new_vector_points_in_the_same_d_s_the_scale_factor_is_1______.wav",
+		"duration": 2.69,
+		"sentenceIndex": 14278,
+		"timestamp": 121.35000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 124.04000000000003
+	},
+	{
+		"index": 141,
+		"txt": "This is illustrated in",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_illustrated_in_This_is_illustrated_in____.wav",
+		"duration": 0.55,
+		"sentenceIndex": 14279,
+		"timestamp": 124.54000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 125.09000000000003
+	},
+	{
+		"index": 142,
+		"txt": "Figure A 6",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure A_6_Figure A_6____.wav",
+		"duration": 0.56,
+		"sentenceIndex": 14280,
+		"timestamp": 125.59000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 126.15000000000003
+	},
+	{
+		"index": 149,
+		"txt": "Figure A 6. Scalar multiplication",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure A_6_ Scalar_multiplication__6_ Scalar_multiplication____.wav",
+		"duration": 1.2,
+		"sentenceIndex": 14287,
+		"timestamp": 126.65000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 127.85000000000004
+	},
+	{
+		"index": 151,
+		"txt": "Here's the code that scales our Vector class vector:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_the_code_that_scales_our_Vec__our_Vector_class_vector_____.wav",
+		"duration": 1.05,
+		"sentenceIndex": 14289,
+		"timestamp": 128.35000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 129.40000000000003
+	},
+	{
+		"index": 154,
+		"txt": "Scalar Division: The /= Operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Scalar_Division__The____Operator_Division__The____Operator____.wav",
+		"duration": 1.06,
+		"sentenceIndex": 14292,
+		"timestamp": 129.90000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 130.96000000000004
+	},
+	{
+		"index": 156,
+		"txt": "This scalar",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_scalar_This_scalar____.wav",
+		"duration": 0.31,
+		"sentenceIndex": 14294,
+		"timestamp": 131.46000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 131.77000000000004
+	},
+	{
+		"index": 161,
+		"txt": "division operator is similar to the scalar multiplication operator except each vector component is divided by the passed scalar quantity:",
+		"file": "/home/user1/trash/dirOutputSet/_100_division_operator_is_similar_to_the_e_passed_scalar_quantity_____.wav",
+		"duration": 2.79,
+		"sentenceIndex": 14299,
+		"timestamp": 132.27000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 135.06000000000003
+	},
+	{
+		"index": 164,
+		"txt": "Conjugate: The − Operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Conjugate__The___Operator_Conjugate__The___Operator____.wav",
+		"duration": 0.67,
+		"sentenceIndex": 14302,
+		"timestamp": 135.56000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 136.23000000000002
+	},
+	{
+		"index": 166,
+		"txt": "The conjugate",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_conjugate_The_conjugate____.wav",
+		"duration": 0.3,
+		"sentenceIndex": 14304,
+		"timestamp": 136.73000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 137.03000000000003
+	},
+	{
+		"index": 170,
+		"txt": "operator simply takes the negative of each vector component and can be used when you are subtracting one vector from another or for reversing the direction of the vector.",
+		"file": "/home/user1/trash/dirOutputSet/_100_operator_simply_takes_the_negative___direction_of_the_vector_____.wav",
+		"duration": 3.27,
+		"sentenceIndex": 14308,
+		"timestamp": 137.53000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 140.80000000000004
+	},
+	{
+		"index": 171,
+		"txt": "Applying the conjugate operator is the same as reversing a vector, as",
+		"file": "/home/user1/trash/dirOutputSet/_100_Applying_the_conjugate_operator_is__as_reversing_a_vector__as____.wav",
+		"duration": 1.53,
+		"sentenceIndex": 14309,
+		"timestamp": 141.30000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 142.83000000000004
+	},
+	{
+		"index": 172,
+		"txt": "discussed earlier:",
+		"file": "/home/user1/trash/dirOutputSet/_100_discussed_earlier__discussed_earlier_____.wav",
+		"duration": 0.47,
+		"sentenceIndex": 14310,
+		"timestamp": 143.33000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 143.80000000000004
+	},
+	{
+		"index": 176,
+		"txt": "Vector Functions and Operators",
+		"file": "/home/user1/trash/dirOutputSet/_100_Vector_Functions_and_Operators_r_Functions_and_Operators____.wav",
+		"duration": 0.74,
+		"sentenceIndex": 14314,
+		"timestamp": 144.30000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 145.04000000000005
+	},
+	{
+		"index": 178,
+		"txt": "The following",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_following_The_following____.wav",
+		"duration": 0.26,
+		"sentenceIndex": 14316,
+		"timestamp": 145.54000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 145.80000000000004
+	},
+	{
+		"index": 179,
+		"txt": "functions and overloaded operators are useful when you are performing operations with two vectors, or with a vector and a scalar, where the vector is based on the Vector",
+		"file": "/home/user1/trash/dirOutputSet/_100_functions_and_overloaded_operators__or_is_based_on_the_Vector____.wav",
+		"duration": 3.41,
+		"sentenceIndex": 14317,
+		"timestamp": 146.30000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 149.71000000000004
+	},
+	{
+		"index": 180,
+		"txt": "class.",
+		"file": "/home/user1/trash/dirOutputSet/_100_class__class_____.wav",
+		"duration": 0.22,
+		"sentenceIndex": 14318,
+		"timestamp": 150.21000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 150.43000000000004
+	},
+	{
+		"index": 183,
+		"txt": "Vector Addition: The + Operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Vector_Addition__The___Operator__Addition__The___Operator____.wav",
+		"duration": 0.77,
+		"sentenceIndex": 14321,
+		"timestamp": 150.93000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 151.70000000000005
+	},
+	{
+		"index": 185,
+		"txt": "This addition",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_addition_This_addition____.wav",
+		"duration": 0.31,
+		"sentenceIndex": 14323,
+		"timestamp": 152.20000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 152.51000000000005
+	},
+	{
+		"index": 189,
+		"txt": "operator adds vector v to vector u according to the formula:u + v = (ux + vx) i + (uy + vy) j + (uz + vz) k",
+		"file": "/home/user1/trash/dirOutputSet/_100_operator_adds_vector_v_to_vector_u___uy___vy__j____uz___vz__k____.wav",
+		"duration": 3.93,
+		"sentenceIndex": 14327,
+		"timestamp": 153.01000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 156.94000000000005
+	},
+	{
+		"index": 191,
+		"txt": "Here's the code:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_the_code__Here_s_the_code_____.wav",
+		"duration": 0.38,
+		"sentenceIndex": 14329,
+		"timestamp": 157.44000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 157.82000000000005
+	},
+	{
+		"index": 194,
+		"txt": "Vector Subtraction: The − Operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Vector_Subtraction__The___Operator_btraction__The___Operator____.wav",
+		"duration": 0.88,
+		"sentenceIndex": 14332,
+		"timestamp": 158.32000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 159.20000000000005
+	},
+	{
+		"index": 196,
+		"txt": "This subtraction",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_subtraction_This_subtraction____.wav",
+		"duration": 0.39,
+		"sentenceIndex": 14334,
+		"timestamp": 159.70000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 160.09000000000003
+	},
+	{
+		"index": 200,
+		"txt": "operator subtracts vector v from vector u according to the formula:u − v = (ux − vx) i + (uy − vy) j + (uz − vz) k",
+		"file": "/home/user1/trash/dirOutputSet/_100_operator_subtracts_vector_v_from_ve__uy___vy__j____uz___vz__k____.wav",
+		"duration": 3.7,
+		"sentenceIndex": 14338,
+		"timestamp": 160.59000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 164.29000000000002
+	},
+	{
+		"index": 202,
+		"txt": "Here's the code:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_the_code__Here_s_the_code_____.wav",
+		"duration": 0.38,
+		"sentenceIndex": 14340,
+		"timestamp": 164.79000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 165.17000000000002
+	},
+	{
+		"index": 205,
+		"txt": "Vector Cross Product: The ^ Operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Vector_Cross_Product__The___Operato_s_Product__The___Operator____.wav",
+		"duration": 0.83,
+		"sentenceIndex": 14343,
+		"timestamp": 165.67000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 166.50000000000003
+	},
+	{
+		"index": 207,
+		"txt": "This cross product operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_cross_product_operator_is_cross_product_operator____.wav",
+		"duration": 0.62,
+		"sentenceIndex": 14345,
+		"timestamp": 167.00000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 167.62000000000003
+	},
+	{
+		"index": 211,
+		"txt": "takes the vector cross product between vectors u and v (u × v) and returns a vector perpendicular to both u and v according to the formula:u × v = (uy * vz − uz * vy) i + (−ux * vz + uz * vx) j + (ux * vy − uy * vx) k",
+		"file": "/home/user1/trash/dirOutputSet/_100_takes_the_vector_cross_product_betw_j____ux___vy___uy___vx__k____.wav",
+		"duration": 6.71,
+		"sentenceIndex": 14349,
+		"timestamp": 168.12000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 174.83000000000004
+	},
+	{
+		"index": 213,
+		"txt": "The resulting vector is perpendicular to the plane that contains vectors u and v .",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_resulting_vector_is_perpendicul_ontains_vectors_u_and_v______.wav",
+		"duration": 1.73,
+		"sentenceIndex": 14351,
+		"timestamp": 175.33000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 177.06000000000003
+	},
+	{
+		"index": 214,
+		"txt": "The direction in which this resulting vector points can be determined by the right hand rule .",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_direction_in_which_this_resulti__by_the_right_hand_rule______.wav",
+		"duration": 1.74,
+		"sentenceIndex": 14352,
+		"timestamp": 177.56000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 179.30000000000004
+	},
+	{
+		"index": 215,
+		"txt": "If you place the two vectors u and v tail to tail, as shown in",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_you_place_the_two_vectors_u_and__tail_to_tail__as_shown_in____.wav",
+		"duration": 1.49,
+		"sentenceIndex": 14353,
+		"timestamp": 179.80000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 181.29000000000005
+	},
+	{
+		"index": 216,
+		"txt": "Figure A 7, and curl your fingers (of your right hand) in the direction from u to v",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure A_7__and_curl_your_fingers___the_direction_from_u_to_v____.wav",
+		"duration": 2.08,
+		"sentenceIndex": 14354,
+		"timestamp": 181.79000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 183.87000000000006
+	},
+	{
+		"index": 217,
+		"txt": ", then your thumb will point in the direction of the resulting vector.",
+		"file": "/home/user1/trash/dirOutputSet/_100___then_your_thumb_will_point_in_the__of_the_resulting_vector_____.wav",
+		"duration": 1.22,
+		"sentenceIndex": 14355,
+		"timestamp": 184.37000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 185.59000000000006
+	},
+	{
+		"index": 223,
+		"txt": "Figure A 7. Vector cross product",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure A_7_ Vector_cross_product_A_7_ Vector_cross_product____.wav",
+		"duration": 1.12,
+		"sentenceIndex": 14361,
+		"timestamp": 186.09000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 187.21000000000006
+	},
+	{
+		"index": 225,
+		"txt": "In this case, the resulting vector points out of the page along the z axis since the vectors u and v lie in the plane formed by the x  and y axes.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_this_case__the_resulting_vector__med_by_the_x__and_y_axes_____.wav",
+		"duration": 3.1,
+		"sentenceIndex": 14363,
+		"timestamp": 187.71000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 190.81000000000006
+	},
+	{
+		"index": 228,
+		"txt": "If two vectors are parallel, then their cross product will be 0.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_two_vectors_are_parallel__then_t__cross_product_will_be_0_____.wav",
+		"duration": 1.5,
+		"sentenceIndex": 14366,
+		"timestamp": 191.31000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 192.81000000000006
+	},
+	{
+		"index": 229,
+		"txt": "This is useful when you need to determine whether or not two vectors are indeed parallel.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_useful_when_you_need_to_det_tors_are_indeed_parallel_____.wav",
+		"duration": 1.77,
+		"sentenceIndex": 14367,
+		"timestamp": 193.31000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 195.08000000000007
+	},
+	{
+		"index": 232,
+		"txt": "The cross product operation is distributive; however, it is not commutative:u × v ≠ v × uu × v = −(v × u)s (u × v) = (s)(u) × v = u × (s)(v)u × ( v + p) = (u × v) + (u × p)",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_cross_product_operation_is_dist____p_____u___v_____u___p_____.wav",
+		"duration": 8.8,
+		"sentenceIndex": 14370,
+		"timestamp": 195.58000000000007
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 204.38000000000008
+	},
+	{
+		"index": 234,
+		"txt": "Here's the code that takes the cross product of vectors u and v:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_the_code_that_takes_the_cros_oduct_of_vectors_u_and_v_____.wav",
+		"duration": 1.3,
+		"sentenceIndex": 14372,
+		"timestamp": 204.88000000000008
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 206.1800000000001
+	},
+	{
+		"index": 236,
+		"txt": "Vector cross products are handy when you need to find normal (perpendicular) vectors.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Vector_cross_products_are_handy_whe___perpendicular__vectors_____.wav",
+		"duration": 1.84,
+		"sentenceIndex": 14374,
+		"timestamp": 206.6800000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 208.5200000000001
+	},
+	{
+		"index": 237,
+		"txt": "For example, when performing collision detection you often need to find the vector normal to the face of a polygon.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_example__when_performing_collis_to_the_face_of_a_polygon_____.wav",
+		"duration": 2.38,
+		"sentenceIndex": 14375,
+		"timestamp": 209.0200000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 211.4000000000001
+	},
+	{
+		"index": 238,
+		"txt": "You can construct two vectors in the plane of the polygon using the polygon's vertices and then take the cross product of these two vectors to get normal vector.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_construct_two_vectors_in_th_ors_to_get_normal_vector_____.wav",
+		"duration": 3.29,
+		"sentenceIndex": 14376,
+		"timestamp": 211.9000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 215.19000000000008
+	},
+	{
+		"index": 241,
+		"txt": "Vector Dot Product: The * Operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Vector_Dot_Product__The___Operator_t_Product__The___Operator____.wav",
+		"duration": 0.79,
+		"sentenceIndex": 14379,
+		"timestamp": 215.69000000000008
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 216.48000000000008
+	},
+	{
+		"index": 243,
+		"txt": "This operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_operator_This_operator____.wav",
+		"duration": 0.33,
+		"sentenceIndex": 14381,
+		"timestamp": 216.98000000000008
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 217.3100000000001
+	},
+	{
+		"index": 248,
+		"txt": "takes the vector dot product between the vectors u and v, according to the formula:u  v = (ux * vx) + (uy * vy) + (uz * vz)",
+		"file": "/home/user1/trash/dirOutputSet/_100_takes_the_vector_dot_product_betwee______uy___vy_____uz___vz_____.wav",
+		"duration": 3.47,
+		"sentenceIndex": 14386,
+		"timestamp": 217.8100000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 221.2800000000001
+	},
+	{
+		"index": 250,
+		"txt": "The dot product represents the projection of the vector u onto the vector v, as illustrated in",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_dot_product_represents_the_proj_ctor_v__as_illustrated_in____.wav",
+		"duration": 2.01,
+		"sentenceIndex": 14388,
+		"timestamp": 221.7800000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 223.79000000000008
+	},
+	{
+		"index": 251,
+		"txt": "Figure A 8",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure A_8_Figure A_8____.wav",
+		"duration": 0.51,
+		"sentenceIndex": 14389,
+		"timestamp": 224.29000000000008
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 224.80000000000007
+	},
+	{
+		"index": 258,
+		"txt": "Figure A 8. Vector dot product",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure A_8_ Vector_dot_product_e A_8_ Vector_dot_product____.wav",
+		"duration": 1.02,
+		"sentenceIndex": 14396,
+		"timestamp": 225.30000000000007
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 226.32000000000008
+	},
+	{
+		"index": 260,
+		"txt": "In this figure, P is the result of the dot product, and it is a scalar.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_this_figure__P_is_the_result_of__duct__and_it_is_a_scalar_____.wav",
+		"duration": 1.47,
+		"sentenceIndex": 14398,
+		"timestamp": 226.82000000000008
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 228.29000000000008
+	},
+	{
+		"index": 261,
+		"txt": "You can also calculate the dot product if you the know the angle between the vectors:P = u  v = |u| |v| cos θ",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_also_calculate_the_dot_prod__P___u__v____u___v__cos______.wav",
+		"duration": 3.77,
+		"sentenceIndex": 14399,
+		"timestamp": 228.79000000000008
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 232.5600000000001
+	},
+	{
+		"index": 263,
+		"txt": "Here's the code that takes the dot product of u and v:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_the_code_that_takes_the_dot__e_dot_product_of_u_and_v_____.wav",
+		"duration": 1.12,
+		"sentenceIndex": 14401,
+		"timestamp": 233.0600000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 234.1800000000001
+	},
+	{
+		"index": 265,
+		"txt": "Vector dot products are handy when you need to find the magnitude of a vector projected onto another one.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Vector_dot_products_are_handy_when__ojected_onto_another_one_____.wav",
+		"duration": 2.09,
+		"sentenceIndex": 14403,
+		"timestamp": 234.6800000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 236.7700000000001
+	},
+	{
+		"index": 266,
+		"txt": "Going back to collision detection as an example, you often have to determine the closest distance from a point, which may be a polygon vertex on one body (body 1) to a polygon face on another body (body 2).",
+		"file": "/home/user1/trash/dirOutputSet/_100_Going_back_to_collision_detection_a_on_another_body__body_2______.wav",
+		"duration": 4.82,
+		"sentenceIndex": 14404,
+		"timestamp": 237.2700000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 242.0900000000001
+	},
+	{
+		"index": 267,
+		"txt": "If you construct a vector from the face under consideration on body 2, using any of its vertices, to the point under consideration from body 1, then you can find the closest distance of that point from the plane of body 2's face by taking the dot product of that point with the normal vector to the plane.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_you_construct_a_vector_from_the__rmal_vector_to_the_plane_____.wav",
+		"duration": 6.22,
+		"sentenceIndex": 14405,
+		"timestamp": 242.5900000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 248.8100000000001
+	},
+	{
+		"index": 268,
+		"txt": "(If the normal vector is not of unit length, then you'll have to divide the result by the magnitude of the normal vector.)",
+		"file": "/home/user1/trash/dirOutputSet/_100__If_the_normal_vector_is_not_of_uni_de_of_the_normal_vector______.wav",
+		"duration": 2.32,
+		"sentenceIndex": 14406,
+		"timestamp": 249.3100000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 251.63000000000008
+	},
+	{
+		"index": 270,
+		"txt": "Scalar Multiplication: The * Operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Scalar_Multiplication__The___Operat_plication__The___Operator____.wav",
+		"duration": 0.91,
+		"sentenceIndex": 14408,
+		"timestamp": 252.13000000000008
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 253.04000000000008
+	},
+	{
+		"index": 272,
+		"txt": "This operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_operator_This_operator____.wav",
+		"duration": 0.33,
+		"sentenceIndex": 14410,
+		"timestamp": 253.54000000000008
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 253.8700000000001
+	},
+	{
+		"index": 276,
+		"txt": "multiplies the vector u by the scalar s on a component by component basis.",
+		"file": "/home/user1/trash/dirOutputSet/_100_multiplies_the_vector_u_by_the_scal_onent_by_component_basis_____.wav",
+		"duration": 1.63,
+		"sentenceIndex": 14414,
+		"timestamp": 254.3700000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 256.0000000000001
+	},
+	{
+		"index": 277,
+		"txt": "There are two versions of this overloaded operator depending on the order in which the vector and scalar are encountered:",
+		"file": "/home/user1/trash/dirOutputSet/_100_There_are_two_versions_of_this_over_d_scalar_are_encountered_____.wav",
+		"duration": 2.22,
+		"sentenceIndex": 14415,
+		"timestamp": 256.5000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 258.72000000000014
+	},
+	{
+		"index": 280,
+		"txt": "Scalar Division: The / Operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Scalar_Division__The___Operator__Division__The___Operator____.wav",
+		"duration": 0.87,
+		"sentenceIndex": 14418,
+		"timestamp": 259.22000000000014
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 260.09000000000015
+	},
+	{
+		"index": 282,
+		"txt": "This operator divides the",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_operator_divides_the_This_operator_divides_the____.wav",
+		"duration": 0.57,
+		"sentenceIndex": 14420,
+		"timestamp": 260.59000000000015
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 261.16000000000014
+	},
+	{
+		"index": 286,
+		"txt": "vector u by the scalar s on a component by component basis:",
+		"file": "/home/user1/trash/dirOutputSet/_100_vector_u_by_the_scalar_s_on_a_compo_onent_by_component_basis_____.wav",
+		"duration": 1.43,
+		"sentenceIndex": 14424,
+		"timestamp": 261.66000000000014
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 263.09000000000015
+	},
+	{
+		"index": 289,
+		"txt": "Triple Scalar Product",
+		"file": "/home/user1/trash/dirOutputSet/_100_Triple_Scalar_Product_Triple_Scalar_Product____.wav",
+		"duration": 0.51,
+		"sentenceIndex": 14427,
+		"timestamp": 263.59000000000015
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 264.10000000000014
+	},
+	{
+		"index": 291,
+		"txt": "This function",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_function_This_function____.wav",
+		"duration": 0.32,
+		"sentenceIndex": 14429,
+		"timestamp": 264.60000000000014
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 264.92000000000013
+	},
+	{
+		"index": 294,
+		"txt": "takes the triple scalar product of the vectors u, v, and w according to the formula:s = u  (v × w)",
+		"file": "/home/user1/trash/dirOutputSet/_100_takes_the_triple_scalar_product_of__he_formula_s___u___v___w_____.wav",
+		"duration": 3.1,
+		"sentenceIndex": 14432,
+		"timestamp": 265.42000000000013
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 268.52000000000015
+	},
+	{
+		"index": 296,
+		"txt": "Here, the result, s , is a scalar.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here__the_result__s___is_a_scalar___result__s___is_a_scalar_____.wav",
+		"duration": 1.01,
+		"sentenceIndex": 14434,
+		"timestamp": 269.02000000000015
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 270.03000000000014
+	},
+	{
+		"index": 297,
+		"txt": "The code is as",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_code_is_as_The_code_is_as____.wav",
+		"duration": 0.33,
+		"sentenceIndex": 14435,
+		"timestamp": 270.53000000000014
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 270.8600000000001
+	},
+	{
+		"index": 298,
+		"txt": "follows:",
+		"file": "/home/user1/trash/dirOutputSet/_100_follows__follows_____.wav",
+		"duration": 0.28,
+		"sentenceIndex": 14436,
+		"timestamp": 271.3600000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 271.6400000000001
+	}
+]

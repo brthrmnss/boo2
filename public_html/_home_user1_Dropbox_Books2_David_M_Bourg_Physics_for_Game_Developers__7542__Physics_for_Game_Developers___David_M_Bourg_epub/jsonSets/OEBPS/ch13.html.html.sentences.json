@@ -1,0 +1,10798 @@
+[
+	{
+		"txt": "",
+		"why": "br tag like",
+		"sentenceIndex": 7124,
+		"nouns": [],
+		"dOIndex": 0,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 13. Connecting Objects",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7125,
+		"nouns": [
+			"Chapter",
+			"Objects"
+		],
+		"dOIndex": 1,
+		"nouns2": [
+			"Chapter",
+			"Connecting",
+			"Objects"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Simulating particles and rigid bodies is ",
+		"why": "link",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 7126,
+		"nouns": [
+			"particles",
+			"bodies"
+		],
+		"dOIndex": 2,
+		"nouns2": [
+			"Simulating",
+			"particles"
+		],
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": true,
+		"nounsProcAll": [
+			"particles",
+			"bodies"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7127,
+		"nouns": [],
+		"dOIndex": 3,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7128,
+		"nouns": [],
+		"dOIndex": 4,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "great fun, and with these simple entities you can achieve a wide variety of effects or simulate a wide variety of objects. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7129,
+		"nouns": [
+			"fun",
+			"entities",
+			"variety",
+			"effects",
+			"variety",
+			"objects"
+		],
+		"dOIndex": 5,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"fun",
+			"entities",
+			"variety",
+			"effects",
+			"variety",
+			"objects"
+		],
+		"nouns2": [
+			"entities",
+			"variety",
+			"effects",
+			"objects"
+		],
+		"sentiment": {
+			"score": 7,
+			"comparative": 0.30434782608695654,
+			"words": [
+				"fun",
+				"great"
+			],
+			"positive": [
+				"fun",
+				"great"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " In this chapter we'll take things a step further, showing you how to simulate connected particles and rigid bodies. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7130,
+		"nouns": [
+			"chapter",
+			"ll",
+			"things",
+			"step",
+			"particles",
+			"bodies"
+		],
+		"dOIndex": 6,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"chapter",
+			"ll",
+			"things",
+			"step",
+			"particles",
+			"bodies"
+		],
+		"nouns2": [
+			"chapter",
+			"particles"
+		]
+	},
+	{
+		"txt": " Doing so opens a whole new realm of possibilities. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7131,
+		"nouns": [
+			"realm",
+			"possibilities"
+		],
+		"dOIndex": 7,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"realm",
+			"possibilities"
+		],
+		"nouns2": [
+			"possibilities"
+		]
+	},
+	{
+		"txt": " In this book's first edition, David showed you how to use ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 7132,
+		"nouns": [
+			"book",
+			"first",
+			"edition",
+			"David",
+			"use"
+		],
+		"dOIndex": 8,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"book",
+			"first",
+			"edition",
+			"David",
+			"use"
+		],
+		"nouns2": [
+			"edition"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7133,
+		"nouns": [],
+		"dOIndex": 9,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "springs and particles to simulate cloth. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7134,
+		"nouns": [
+			"springs",
+			"particles",
+			"cloth"
+		],
+		"dOIndex": 10,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"springs",
+			"particles",
+			"cloth"
+		],
+		"nouns2": [
+			"springs",
+			"particles"
+		]
+	},
+	{
+		"txt": " ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 7135,
+		"nouns": [],
+		"dOIndex": 11,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "Chapter 17 in the first edition covers that, and the ",
+		"why": "link",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 7136,
+		"nouns": [
+			"Chapter",
+			"first",
+			"edition"
+		],
+		"dOIndex": 12,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"Chapter",
+			"first",
+			"edition"
+		],
+		"nouns2": [
+			"Chapter",
+			"edition"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7137,
+		"nouns": [],
+		"dOIndex": 13,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "corresponding ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7138,
+		"nouns": [],
+		"dOIndex": 14,
+		"ignoreDOBcNoQuotes": false,
+		"isQuote": false,
+		"nounsProcAll": [],
+		"sfxfx": []
+	},
+	{
+		"txt": " \"Cloth Simulation\" ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7139,
+		"nouns": [
+			"Cloth",
+			"Simulation"
+		],
+		"dOIndex": 15,
+		"isQuote": true,
+		"nounsProcAll": [
+			"Cloth",
+			"Simulation"
+		],
+		"sfxfx": [],
+		"gspkNameUnknown": "narrator",
+		"nouns2": [
+			"Simulation"
+		]
+	},
+	{
+		"txt": " example on the book's website implements the model. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7140,
+		"nouns": [
+			"example",
+			"book",
+			"website",
+			"implements",
+			"model"
+		],
+		"dOIndex": 16,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [
+			"example",
+			"book",
+			"website",
+			"implements",
+			"model"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"example",
+			"website",
+			"implements"
+		]
+	},
+	{
+		"txt": " As shown in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 7141,
+		"nouns": [],
+		"dOIndex": 17,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "Figure 13 1, the ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 7142,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 18,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"Figure"
+		],
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7143,
+		"nouns": [],
+		"dOIndex": 19,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "flag model is simply a collection of particles initially laid out in a grid pattern connected by linear springs that are then rendered to look like cloth. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7144,
+		"nouns": [
+			"flag",
+			"model",
+			"collection",
+			"particles",
+			"grid",
+			"pattern",
+			"springs",
+			"cloth"
+		],
+		"dOIndex": 20,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"flag",
+			"model",
+			"collection",
+			"particles",
+			"grid",
+			"pattern",
+			"springs",
+			"cloth"
+		],
+		"nouns2": [
+			"collection",
+			"particles",
+			"pattern",
+			"springs"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.07142857142857142,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The springs give structure to the particles, keeping them organized in a mesh that can be rendered while allowing them to move, emulating the movement of a flowing fabric.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7145,
+		"nouns": [
+			"springs",
+			"structure",
+			"particles",
+			"mesh",
+			"move",
+			"movement",
+			"fabric"
+		],
+		"dOIndex": 21,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"springs",
+			"structure",
+			"particles",
+			"mesh",
+			"move",
+			"movement",
+			"fabric"
+		],
+		"nouns2": [
+			"springs",
+			"structure",
+			"particles",
+			"movement"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 7146,
+		"nouns": [],
+		"dOIndex": 22,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7147,
+		"nouns": [],
+		"dOIndex": 23,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7148,
+		"nouns": [],
+		"dOIndex": 24,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7149,
+		"nouns": [],
+		"dOIndex": 25,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7150,
+		"nouns": [],
+		"dOIndex": 26,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": []
+	},
+	{
+		"txt": "Figure 13 1. Network of particles and springs",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7151,
+		"nouns": [
+			"Figure",
+			"Network",
+			"particles",
+			"springs"
+		],
+		"dOIndex": 27,
+		"nouns2": [
+			"Figure",
+			"Network",
+			"particles",
+			"springs"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7152,
+		"nouns": [],
+		"dOIndex": 28,
+		"isQuote": false
+	},
+	{
+		"txt": "Each line in the wireframe flag shown in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 7153,
+		"nouns": [
+			"line",
+			"wireframe",
+			"flag"
+		],
+		"dOIndex": 29,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"wireframe"
+		]
+	},
+	{
+		"txt": "Figure 13 1",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 7154,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 30,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " represents a spring damper element, while the nodes where these springs intersect represent the particles. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7155,
+		"nouns": [
+			"damper",
+			"element",
+			"nodes",
+			"springs",
+			"particles"
+		],
+		"dOIndex": 31,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"element",
+			"springs",
+			"particles"
+		]
+	},
+	{
+		"txt": " We modeled the springs using the ",
+		"why": "link",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 7156,
+		"nouns": [
+			"springs"
+		],
+		"dOIndex": 32,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"springs"
+		]
+	},
+	{
+		"txt": "spring damper formulas that we showed you back in ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 7157,
+		"nouns": [
+			"damper",
+			"formulas"
+		],
+		"dOIndex": 33,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"formulas"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7158,
+		"nouns": [],
+		"dOIndex": 34,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 3 . ",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 7159,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 35,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " The (initially) horizontal and vertical springs provide the basic structure for the flag, while the diagonal springs are there to resist shear forces and lend further strength to the cloth. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7160,
+		"nouns": [
+			"springs",
+			"structure",
+			"flag",
+			"springs",
+			"shear",
+			"forces",
+			"strength",
+			"cloth"
+		],
+		"dOIndex": 36,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"springs",
+			"structure",
+			"strength"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.0625,
+			"words": [
+				"strength"
+			],
+			"positive": [
+				"strength"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Without these shear springs, the cloth would be quite stretchy. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7161,
+		"nouns": [
+			"shear",
+			"springs",
+			"cloth",
+			"stretchy"
+		],
+		"dOIndex": 37,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Without",
+			"springs",
+			"stretchy"
+		]
+	},
+	{
+		"txt": " Note that there are no particles located at the intersection of the diagonal springs.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7162,
+		"nouns": [
+			"particles",
+			"intersection",
+			"springs"
+		],
+		"dOIndex": 38,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"particles",
+			"intersection",
+			"springs"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.06666666666666667,
+			"words": [
+				"no"
+			],
+			"positive": [],
+			"negative": [
+				"no"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 7163,
+		"nouns": [],
+		"dOIndex": 39,
+		"isQuote": false
+	},
+	{
+		"txt": "In this chapter, we'll show you how to use those same techniques to simulate something like a hanging rope or vine. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7164,
+		"nouns": [
+			"chapter",
+			"ll",
+			"show",
+			"use",
+			"techniques",
+			"rope",
+			"vine"
+		],
+		"dOIndex": 40,
+		"nouns2": [
+			"chapter",
+			"techniques"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.09090909090909091,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " You can use these techniques to simulate all sorts of things besides cloth and rope or vines. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7165,
+		"nouns": [
+			"use",
+			"techniques",
+			"sorts",
+			"things",
+			"cloth",
+			"rope",
+			"vines"
+		],
+		"dOIndex": 41,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"techniques"
+		]
+	},
+	{
+		"txt": " For example, you can model the swing of a golf club if you can imagine one rigid body representing the arm and another representing the golf club. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7166,
+		"nouns": [
+			"example",
+			"model",
+			"golf",
+			"club",
+			"one",
+			"body",
+			"arm",
+			"golf",
+			"club"
+		],
+		"dOIndex": 42,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example"
+		]
+	},
+	{
+		"txt": " We'll get to that example in ",
+		"why": "link",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 7167,
+		"nouns": [
+			"ll",
+			"example"
+		],
+		"dOIndex": 43,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example"
+		]
+	},
+	{
+		"txt": "Chapter 19",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 7168,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 44,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " , but for now let's see how to model a hanging rope or vine and some other springy objects.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7169,
+		"nouns": [
+			"model",
+			"rope",
+			"vine",
+			"springy",
+			"objects"
+		],
+		"dOIndex": 45,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"springy",
+			"objects"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 7170,
+		"nouns": [],
+		"dOIndex": 46,
+		"isQuote": false
+	},
+	{
+		"txt": "Application of linear springs is not the only method available to connect objects, but it has the advantages of being conceptually simple, easy to implement, and effective. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7171,
+		"nouns": [
+			"Application",
+			"springs",
+			"method",
+			"objects",
+			"advantages"
+		],
+		"dOIndex": 47,
+		"nouns2": [
+			"Application",
+			"springs",
+			"objects",
+			"advantages"
+		],
+		"sentiment": {
+			"score": 5,
+			"comparative": 0.17857142857142858,
+			"words": [
+				"effective",
+				"easy",
+				"advantages"
+			],
+			"positive": [
+				"effective",
+				"easy",
+				"advantages"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " One of the potential disadvantages is that you can run into numerical stability problems if the springs are too stiff. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7172,
+		"nouns": [
+			"One",
+			"disadvantages",
+			"stability",
+			"problems",
+			"springs"
+		],
+		"dOIndex": 48,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"disadvantages",
+			"stability",
+			"problems",
+			"springs"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.09090909090909091,
+			"words": [
+				"problems"
+			],
+			"positive": [],
+			"negative": [
+				"problems"
+			]
+		}
+	},
+	{
+		"txt": " We'll talk more about these issues throughout this chapter. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7173,
+		"nouns": [
+			"ll",
+			"issues",
+			"chapter"
+		],
+		"dOIndex": 49,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"chapter"
+		]
+	},
+	{
+		"txt": " Also, the examples we'll cover are in 2D for simplicity, but the techniques apply in 3D, too.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7174,
+		"nouns": [
+			"examples",
+			"ll",
+			"D",
+			"simplicity",
+			"techniques",
+			"D"
+		],
+		"dOIndex": 50,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"examples",
+			"simplicity",
+			"techniques"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.05555555555555555,
+			"words": [
+				"simplicity"
+			],
+			"positive": [
+				"simplicity"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 7175,
+		"nouns": [],
+		"dOIndex": 51,
+		"isQuote": false
+	},
+	{
+		"txt": "Springs and Dampers",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7176,
+		"nouns": [
+			"Springs",
+			"Dampers"
+		],
+		"dOIndex": 52,
+		"nouns2": [
+			"Springs",
+			"Dampers"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "You learned in ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7177,
+		"nouns": [],
+		"dOIndex": 53,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 3 that ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7178,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 54,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7179,
+		"nouns": [],
+		"dOIndex": 55,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7180,
+		"nouns": [],
+		"dOIndex": 56,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "springs are structural elements that, when connected between two objects, apply equal and opposite forces to each object. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7181,
+		"nouns": [
+			"springs",
+			"elements",
+			"two",
+			"objects",
+			"forces",
+			"object"
+		],
+		"dOIndex": 57,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"springs",
+			"elements",
+			"objects"
+		]
+	},
+	{
+		"txt": " This spring force follows ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7182,
+		"nouns": [
+			"force"
+		],
+		"dOIndex": 58,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Hooke's law and is a function of the stretched or compressed length of the spring relative to the rest length of the spring and the spring constant. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7183,
+		"nouns": [
+			"Hooke",
+			"law",
+			"function",
+			"length",
+			"rest",
+			"length"
+		],
+		"dOIndex": 59,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function"
+		]
+	},
+	{
+		"txt": " The spring constant",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7184,
+		"nouns": [],
+		"dOIndex": 60,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " is a quantity that relates the force exerted by the spring to its deflection:Fs = –ks (L – r)",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7185,
+		"nouns": [
+			"quantity",
+			"force",
+			"deflection",
+			"Fs",
+			"–ks",
+			"L",
+			"–",
+			"r"
+		],
+		"dOIndex": 61,
+		"nouns2": [
+			"quantity",
+			"deflection"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7186,
+		"nouns": [],
+		"dOIndex": 62,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7187,
+		"nouns": [],
+		"dOIndex": 63,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Here, Fs is the spring force, ks is the spring constant, L is the stretched or compressed length of the spring, and r is the rest length of the spring. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7188,
+		"nouns": [
+			"Fs",
+			"force",
+			"ks",
+			"L",
+			"length",
+			"r",
+			"rest",
+			"length"
+		],
+		"dOIndex": 64,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " The negative sign in the preceding equation just means that the force is in the opposite direction of the displacement.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7189,
+		"nouns": [
+			"sign",
+			"equation",
+			"force",
+			"direction",
+			"displacement"
+		],
+		"dOIndex": 65,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equation",
+			"direction",
+			"displacement"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.09523809523809523,
+			"words": [
+				"negative"
+			],
+			"positive": [],
+			"negative": [
+				"negative"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7190,
+		"nouns": [],
+		"dOIndex": 66,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7191,
+		"nouns": [],
+		"dOIndex": 67,
+		"isQuote": false
+	},
+	{
+		"txt": "Dampers are usually used in conjunction with springs in numerical simulations. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7192,
+		"nouns": [
+			"Dampers",
+			"conjunction",
+			"springs",
+			"simulations"
+		],
+		"dOIndex": 68,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Dampers",
+			"conjunction",
+			"springs",
+			"simulations"
+		]
+	},
+	{
+		"txt": " They act like viscous drag in that dampers act against velocity. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7193,
+		"nouns": [
+			"act",
+			"drag",
+			"dampers",
+			"act",
+			"velocity"
+		],
+		"dOIndex": 69,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"dampers",
+			"velocity"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.07692307692307693,
+			"words": [
+				"drag",
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " The force developed by a damper is proportional to the relative velocity of the connected objects and a",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7194,
+		"nouns": [
+			"force",
+			"damper",
+			"velocity",
+			"objects"
+		],
+		"dOIndex": 70,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity",
+			"objects"
+		]
+	},
+	{
+		"txt": " damping constant, kd",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7195,
+		"nouns": [
+			"kd"
+		],
+		"dOIndex": 71,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " , that relates relative velocity to damping force.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7196,
+		"nouns": [
+			"velocity",
+			"force"
+		],
+		"dOIndex": 72,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity"
+		]
+	},
+	{
+		"txt": "Fd = –kd (v1 – v2)",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7197,
+		"nouns": [
+			"Fd",
+			"–kd",
+			"v",
+			"–",
+			"v"
+		],
+		"dOIndex": 73,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7198,
+		"nouns": [],
+		"dOIndex": 74,
+		"isQuote": false
+	},
+	{
+		"txt": "This equation shows the damping force, Fd , as a function of the damping constant and the relative velocity of the connected points on the two connected bodies.",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7199,
+		"nouns": [
+			"equation",
+			"force",
+			"Fd",
+			"function",
+			"velocity",
+			"points",
+			"two",
+			"bodies"
+		],
+		"dOIndex": 75,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equation",
+			"function",
+			"velocity"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7200,
+		"nouns": [],
+		"dOIndex": 76,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7201,
+		"nouns": [],
+		"dOIndex": 77,
+		"isQuote": false
+	},
+	{
+		"txt": "Typically, springs and dampers are combined into a single ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7202,
+		"nouns": [
+			"springs",
+			"dampers"
+		],
+		"dOIndex": 78,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Typically",
+			"springs",
+			"dampers"
+		]
+	},
+	{
+		"txt": "spring damper element where a single formula is used to represent the combined force. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7203,
+		"nouns": [
+			"damper",
+			"element",
+			"formula",
+			"force"
+		],
+		"dOIndex": 79,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"element",
+			"formula"
+		]
+	},
+	{
+		"txt": " In vector notation, the formula for a spring damper element connecting two bodies is:F1 = –{ks (L – r) + kd ((v1 – v2) • L)/L} L/L",
+		"why": "p",
+		"tags": [
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7204,
+		"nouns": [
+			"vector",
+			"notation",
+			"formula",
+			"damper",
+			"element",
+			"two",
+			"bodies",
+			"F",
+			"–{ks",
+			"L",
+			"–",
+			"r",
+			"kd",
+			"v",
+			"–",
+			"v",
+			"• L",
+			"/",
+			"L} L",
+			"/ L"
+		],
+		"dOIndex": 80,
+		"nouns2": [
+			"notation",
+			"formula",
+			"element"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7205,
+		"nouns": [],
+		"dOIndex": 81,
+		"isQuote": false
+	},
+	{
+		"txt": "Here, F1 is the force exerted on body 1, while the force, F2, exerted on body 2 is:F2 = –F1",
+		"why": "p",
+		"tags": [
+			"sub",
+			"td",
+			"tr",
+			"tbody",
+			"table",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7206,
+		"nouns": [
+			"F",
+			"force",
+			"body",
+			"force",
+			"F",
+			"body",
+			"F",
+			"–F"
+		],
+		"dOIndex": 82,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7207,
+		"nouns": [],
+		"dOIndex": 83,
+		"isQuote": false
+	},
+	{
+		"txt": "L is the length of the spring damper (L, not in bold print, is the magnitude of the vector L ), which is equal to the vector difference in position between the connected points on bodies 1 and 2. ",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7208,
+		"nouns": [
+			"L",
+			"length",
+			"damper",
+			"L",
+			"print",
+			"magnitude",
+			"vector L",
+			"vector",
+			"difference",
+			"position",
+			"points",
+			"bodies"
+		],
+		"dOIndex": 84,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"magnitude",
+			"difference",
+			"position"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.05,
+			"words": [
+				"bold"
+			],
+			"positive": [
+				"bold"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " If the connected objects are particles, then L is equal to the position of body 1 minus the position of body 2. ",
+		"why": "split inside sentence",
+		"tags": [
+			"strong",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7209,
+		"nouns": [
+			"objects",
+			"particles",
+			"L",
+			"position",
+			"body",
+			"position",
+			"body"
+		],
+		"dOIndex": 85,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"objects",
+			"particles",
+			"position"
+		]
+	},
+	{
+		"txt": " Similarly, v1 and v2 are the velocities of the connected points on bodies 1 and 2. ",
+		"why": "split inside sentence",
+		"tags": [
+			"sub",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7210,
+		"nouns": [
+			"v",
+			"v",
+			"velocities",
+			"points",
+			"bodies"
+		],
+		"dOIndex": 86,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Similarly",
+			"velocities"
+		]
+	},
+	{
+		"txt": " The quantity (v1 – v2) represents the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7211,
+		"nouns": [
+			"quantity",
+			"v",
+			"–",
+			"v"
+		],
+		"dOIndex": 87,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"quantity"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7212,
+		"nouns": [],
+		"dOIndex": 88,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "relative velocity between the connected bodies.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7213,
+		"nouns": [
+			"velocity",
+			"bodies"
+		],
+		"dOIndex": 89,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7214,
+		"nouns": [],
+		"dOIndex": 90,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7215,
+		"nouns": [],
+		"dOIndex": 91,
+		"isQuote": false
+	},
+	{
+		"txt": "It's fairly straightforward to connect particles with springs (and dampers); you need only specify the particles to which the spring is connected and compute the stretched or compressed length of the spring as the particles move relative to each other. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7216,
+		"nouns": [
+			"particles",
+			"springs",
+			"dampers",
+			"particles",
+			"length",
+			"particles",
+			"move"
+		],
+		"dOIndex": 92,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"particles",
+			"springs",
+			"dampers"
+		]
+	},
+	{
+		"txt": " The force generated by the spring is then applied equally (but in opposite directions) to the connected particles. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7217,
+		"nouns": [
+			"force",
+			"directions",
+			"particles"
+		],
+		"dOIndex": 93,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"directions",
+			"particles"
+		]
+	},
+	{
+		"txt": " This is a linear force.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7218,
+		"nouns": [
+			"force"
+		],
+		"dOIndex": 94,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7219,
+		"nouns": [],
+		"dOIndex": 95,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7220,
+		"nouns": [],
+		"dOIndex": 96,
+		"isQuote": false
+	},
+	{
+		"txt": "For rigid bodies, things are a bit more complicated. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7221,
+		"nouns": [
+			"bodies",
+			"things",
+			"bit"
+		],
+		"dOIndex": 97,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " First, not only do you have to specify to which body the spring is attached, but you must also specify the precise points on each object where the spring attaches. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7222,
+		"nouns": [
+			"First",
+			"body",
+			"points",
+			"object"
+		],
+		"dOIndex": 98,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Then, in addition to the linear force applied by the spring to each body, you must also compute the resulting moment on each body causing each to rotate.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7223,
+		"nouns": [
+			"addition",
+			"force",
+			"body",
+			"moment",
+			"body"
+		],
+		"dOIndex": 99,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"addition"
+		],
+		"highfreq": {
+			"each": 3
+		}
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7224,
+		"nouns": [],
+		"dOIndex": 100,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7225,
+		"nouns": [],
+		"dOIndex": 101,
+		"isQuote": false
+	},
+	{
+		"txt": "Connecting Particles",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7226,
+		"nouns": [
+			"Particles"
+		],
+		"dOIndex": 102,
+		"nouns2": [
+			"Connecting",
+			"Particles"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7227,
+		"nouns": [],
+		"dOIndex": 103,
+		"isQuote": false
+	},
+	{
+		"txt": "From ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7228,
+		"nouns": [],
+		"dOIndex": 104,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7229,
+		"nouns": [],
+		"dOIndex": 105,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7230,
+		"nouns": [],
+		"dOIndex": 106,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7231,
+		"nouns": [],
+		"dOIndex": 107,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7232,
+		"nouns": [],
+		"dOIndex": 108,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7233,
+		"nouns": [],
+		"dOIndex": 109,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "swinging vines in Activision's Pitfall to barnacle tongues in Valve Corporation's Half Life , dangling rope like objects have appeared in video games in various incarnations since the very early days of video gaming. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7234,
+		"nouns": [
+			"vines",
+			"Activision",
+			"Pitfall",
+			"barnacle",
+			"tongues",
+			"Valve Corporation",
+			"Half Life",
+			"rope",
+			"objects",
+			"video",
+			"games",
+			"incarnations",
+			"days",
+			"video"
+		],
+		"dOIndex": 110,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Activision",
+			"Pitfall",
+			"barnacle",
+			"tongues",
+			"Corporation",
+			"objects",
+			"incarnations"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.05714285714285714,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Some implementations, such as those in the 1982 versions of Pitfall , are implemented rather simply and unrealistically, while others, such as barnacle tongues, are implemented more realistically in how they dangle and swing. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7235,
+		"nouns": [
+			"implementations",
+			"versions",
+			"Pitfall",
+			"others",
+			"barnacle",
+			"tongues"
+		],
+		"dOIndex": 111,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"implementations",
+			"versions",
+			"Pitfall",
+			"barnacle",
+			"tongues"
+		]
+	},
+	{
+		"txt": " Whether it's a vine, rope, chain, or tongue, you can use particles and springs to simulate realistic rope like behavior. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7236,
+		"nouns": [
+			"vine",
+			"rope",
+			"chain",
+			"tongue",
+			"use",
+			"particles",
+			"springs",
+			"rope",
+			"behavior"
+		],
+		"dOIndex": 112,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Whether",
+			"particles",
+			"springs",
+			"behavior"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.09090909090909091,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " We'll show you how in the following simple example.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7237,
+		"nouns": [
+			"ll",
+			"show",
+			"example"
+		],
+		"dOIndex": 113,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7238,
+		"nouns": [],
+		"dOIndex": 114,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7239,
+		"nouns": [],
+		"dOIndex": 115,
+		"isQuote": false
+	},
+	{
+		"txt": "Rope",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7240,
+		"nouns": [
+			"Rope"
+		],
+		"dOIndex": 116,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7241,
+		"nouns": [],
+		"dOIndex": 117,
+		"isQuote": false
+	},
+	{
+		"txt": "You know from your real life experience that ropes are flexible, although some are more flexible than others. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7242,
+		"nouns": [
+			"life",
+			"experience",
+			"ropes",
+			"are",
+			"others"
+		],
+		"dOIndex": 118,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"experience"
+		]
+	},
+	{
+		"txt": " Ropes are elastic and stretch to varying extents. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7243,
+		"nouns": [
+			"Ropes",
+			"stretch",
+			"extents"
+		],
+		"dOIndex": 119,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"stretch",
+			"extents"
+		]
+	},
+	{
+		"txt": " They drape when suspended by their two ends. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7244,
+		"nouns": [
+			"drape",
+			"two",
+			"ends"
+		],
+		"dOIndex": 120,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.1,
+			"words": [
+				"suspended"
+			],
+			"positive": [],
+			"negative": [
+				"suspended"
+			]
+		}
+	},
+	{
+		"txt": " They bend when swinging or when collapsing on the ground. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7245,
+		"nouns": [
+			"ground"
+		],
+		"dOIndex": 121,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.16666666666666666,
+			"words": [
+				"collapsing"
+			],
+			"positive": [],
+			"negative": [
+				"collapsing"
+			]
+		}
+	},
+	{
+		"txt": " We can capture all these behaviors using simple particles connected with springs. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7246,
+		"nouns": [
+			"behaviors",
+			"particles",
+			"springs"
+		],
+		"dOIndex": 122,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"behaviors",
+			"particles",
+			"springs"
+		]
+	},
+	{
+		"txt": " ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7247,
+		"nouns": [],
+		"dOIndex": 123,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 13 2",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7248,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 124,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " illustrates the rope example we'll cover here.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7249,
+		"nouns": [
+			"rope",
+			"example",
+			"ll"
+		],
+		"dOIndex": 125,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7250,
+		"nouns": [],
+		"dOIndex": 126,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7251,
+		"nouns": [],
+		"dOIndex": 127,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7252,
+		"nouns": [],
+		"dOIndex": 128,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7253,
+		"nouns": [],
+		"dOIndex": 129,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7254,
+		"nouns": [],
+		"dOIndex": 130,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 13 2. Swinging rope",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7255,
+		"nouns": [
+			"Figure",
+			"rope"
+		],
+		"dOIndex": 131,
+		"nouns2": [
+			"Figure",
+			"Swinging"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7256,
+		"nouns": [],
+		"dOIndex": 132,
+		"isQuote": false
+	},
+	{
+		"txt": "The example consists of a rope comprising 10 particles and 9 springs. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7257,
+		"nouns": [
+			"example",
+			"rope",
+			"particles",
+			"springs"
+		],
+		"dOIndex": 133,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"particles",
+			"springs"
+		]
+	},
+	{
+		"txt": " At the start of the simulation, the rope, originally extended straight out to the right, falls under the influence of gravity, swinging left and right until it comes to rest (hanging straight down). ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7258,
+		"nouns": [
+			"start",
+			"simulation",
+			"rope",
+			"right",
+			"influence",
+			"gravity",
+			"right",
+			"rest"
+		],
+		"dOIndex": 134,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulation",
+			"influence",
+			"gravity"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.05714285714285714,
+			"words": [
+				"straight",
+				"straight"
+			],
+			"positive": [
+				"straight",
+				"straight"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The dots represent particles and the lines represent ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7259,
+		"nouns": [
+			"dots",
+			"particles",
+			"lines"
+		],
+		"dOIndex": 135,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"particles"
+		]
+	},
+	{
+		"txt": "springs. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7260,
+		"nouns": [
+			"springs"
+		],
+		"dOIndex": 136,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"springs"
+		]
+	},
+	{
+		"txt": " The topmost particle is fixed, and the illustration on the left in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7261,
+		"nouns": [
+			"particle",
+			"illustration"
+		],
+		"dOIndex": 137,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"particle",
+			"illustration"
+		]
+	},
+	{
+		"txt": "Figure 13 2",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7262,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 138,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " shows the rope swinging down from right to left while the illustration on the right shows the rope swinging back from left to right.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7263,
+		"nouns": [
+			"rope",
+			"right",
+			"illustration",
+			"right",
+			"rope",
+			"right"
+		],
+		"dOIndex": 139,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"illustration"
+		],
+		"highfreq": {
+			"right": 3
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7264,
+		"nouns": [],
+		"dOIndex": 140,
+		"isQuote": false
+	},
+	{
+		"txt": "This example uses all the same code and techniques presented in ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7265,
+		"nouns": [
+			"example",
+			"code",
+			"techniques"
+		],
+		"dOIndex": 141,
+		"nouns2": [
+			"example",
+			"techniques"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 7 through ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7266,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 142,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7267,
+		"nouns": [],
+		"dOIndex": 143,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 9 for simulating particles and rigid bodies. ",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7268,
+		"nouns": [
+			"Chapter",
+			"particles",
+			"bodies"
+		],
+		"dOIndex": 144,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter",
+			"particles"
+		]
+	},
+	{
+		"txt": " Really, the only difference is that we have to compute a new force the spring force on each object. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7269,
+		"nouns": [
+			"difference",
+			"force",
+			"force",
+			"object"
+		],
+		"dOIndex": 145,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Really",
+			"difference"
+		]
+	},
+	{
+		"txt": " But before we do that, we have to define and initialize the springs.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7270,
+		"nouns": [
+			"initialize",
+			"springs"
+		],
+		"dOIndex": 146,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"initialize",
+			"springs"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7271,
+		"nouns": [],
+		"dOIndex": 147,
+		"isQuote": false
+	},
+	{
+		"txt": "Spring structure and variables",
+		"why": "p",
+		"tags": [
+			"h4",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7272,
+		"nouns": [
+			"structure",
+			"variables"
+		],
+		"dOIndex": 148,
+		"nouns2": [
+			"Spring",
+			"structure",
+			"variables"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "The following code sample shows the spring data structure we set up to store each spring's information:",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7273,
+		"nouns": [
+			"code",
+			"sample",
+			"data",
+			"structure",
+			"store",
+			"information"
+		],
+		"dOIndex": 149,
+		"nouns2": [
+			"structure",
+			"information"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7274,
+		"nouns": [],
+		"dOIndex": 150,
+		"isQuote": false
+	},
+	{
+		"txt": "Specifically, this information includes:End1",
+		"why": "p",
+		"tags": [
+			"code",
+			"dt",
+			"dl",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7275,
+		"nouns": [
+			"information",
+			"End"
+		],
+		"dOIndex": 151,
+		"nouns2": [
+			"Specifically",
+			"information"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "A reference to the first particle to which the spring is connectedEnd2",
+		"why": "p",
+		"tags": [
+			"code",
+			"dt",
+			"dl",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7276,
+		"nouns": [
+			"reference",
+			"first",
+			"particle",
+			"connectedEnd2"
+		],
+		"dOIndex": 152,
+		"nouns2": [
+			"reference",
+			"particle",
+			"connectedEnd2"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "A reference to the second particle to which the spring is connectedk",
+		"why": "p",
+		"tags": [
+			"code",
+			"dt",
+			"dl",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7277,
+		"nouns": [
+			"reference",
+			"second",
+			"particle",
+			"connectedk"
+		],
+		"dOIndex": 153,
+		"nouns2": [
+			"reference",
+			"particle",
+			"connectedk"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "The spring constantd",
+		"why": "p",
+		"tags": [
+			"code",
+			"dt",
+			"dl",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7278,
+		"nouns": [
+			"constantd"
+		],
+		"dOIndex": 154,
+		"nouns2": [
+			"constantd"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "The damping constantInitialLength",
+		"why": "p",
+		"tags": [
+			"code",
+			"dt",
+			"dl",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7279,
+		"nouns": [
+			"constantInitialLength"
+		],
+		"dOIndex": 155,
+		"nouns2": [
+			"constantInitialLength"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "The unstretched length of the spring",
+		"why": "p",
+		"tags": [
+			"p",
+			"dd",
+			"dl",
+			"div",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7280,
+		"nouns": [
+			"length"
+		],
+		"dOIndex": 156,
+		"isQuote": false
+	},
+	{
+		"txt": "This structure is appropriate for connecting particles. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7281,
+		"nouns": [
+			"structure",
+			"particles"
+		],
+		"dOIndex": 157,
+		"nouns2": [
+			"structure",
+			"particles"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.25,
+			"words": [
+				"appropriate"
+			],
+			"positive": [
+				"appropriate"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " We'll make a slight modification to this structure later, when we get to the example where we're connecting rigid bodies.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7282,
+		"nouns": [
+			"ll",
+			"modification",
+			"structure",
+			"example",
+			"re",
+			"bodies"
+		],
+		"dOIndex": 158,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"modification",
+			"structure",
+			"example"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7283,
+		"nouns": [],
+		"dOIndex": 159,
+		"isQuote": false
+	},
+	{
+		"txt": "There are defines and variables unique to this example that must be set up as follows:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7284,
+		"nouns": [
+			"variables",
+			"example"
+		],
+		"dOIndex": 160,
+		"nouns2": [
+			"variables",
+			"example"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7285,
+		"nouns": [],
+		"dOIndex": 161,
+		"isQuote": false
+	},
+	{
+		"txt": "As stated earlier, there are 10 particles (objects) and 9 springs in this simulation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7286,
+		"nouns": [
+			"particles",
+			"objects",
+			"springs",
+			"simulation"
+		],
+		"dOIndex": 162,
+		"nouns2": [
+			"particles",
+			"objects",
+			"springs",
+			"simulation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " The arrays Objects and Springs are used to keep track of them. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7287,
+		"nouns": [
+			"arrays",
+			"Objects",
+			"Springs",
+			"track"
+		],
+		"dOIndex": 163,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Objects",
+			"Springs"
+		]
+	},
+	{
+		"txt": " We also set up a few defines representing the spring and damping constants. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7288,
+		"nouns": [
+			"constants"
+		],
+		"dOIndex": 164,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"constants"
+		]
+	},
+	{
+		"txt": " The values shown here are arbitrary, and you can change them to suit whatever behavior you desire. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7289,
+		"nouns": [
+			"values",
+			"change",
+			"suit",
+			"behavior",
+			"desire"
+		],
+		"dOIndex": 165,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"behavior"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.05263157894736842,
+			"words": [
+				"desire"
+			],
+			"positive": [
+				"desire"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The higher the spring constant, the stiffer the springs; whereas the lower the spring constant, the stretchier the springs. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7290,
+		"nouns": [
+			"springs",
+			"stretchier",
+			"springs"
+		],
+		"dOIndex": 166,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"springs",
+			"stretchier"
+		]
+	},
+	{
+		"txt": " Stretchy springs make your rope more elastic. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7291,
+		"nouns": [
+			"Stretchy",
+			"springs",
+			"rope"
+		],
+		"dOIndex": 167,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Stretchy",
+			"springs"
+		]
+	},
+	{
+		"txt": " Keep in mind while tuning these values that if you make the spring constant too high, you'll probably have to make the simulation time step smaller and/or use a robust integration scheme to avoid numerical instabilities.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7292,
+		"nouns": [
+			"mind",
+			"values",
+			"ll",
+			"simulation",
+			"time",
+			"step",
+			"/",
+			"use",
+			"integration",
+			"scheme",
+			"instabilities"
+		],
+		"dOIndex": 168,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulation",
+			"integration",
+			"instabilities"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.02702702702702703,
+			"words": [
+				"avoid",
+				"robust"
+			],
+			"positive": [
+				"robust"
+			],
+			"negative": [
+				"avoid"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7293,
+		"nouns": [],
+		"dOIndex": 169,
+		"isQuote": false
+	},
+	{
+		"txt": "The damping constant controls how quickly the springiness of the springs dampens out. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7294,
+		"nouns": [
+			"controls",
+			"springiness",
+			"springs",
+			"dampens"
+		],
+		"dOIndex": 170,
+		"nouns2": [
+			"controls",
+			"springiness",
+			"springs",
+			"dampens"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " You'll end up tuning this value to get the behavior you desire. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7295,
+		"nouns": [
+			"ll",
+			"end",
+			"value",
+			"behavior",
+			"desire"
+		],
+		"dOIndex": 171,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"behavior"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.07142857142857142,
+			"words": [
+				"desire"
+			],
+			"positive": [
+				"desire"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " A small value can make the rope seem jittery, while a large value will make the stretchiness appear smoother. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7296,
+		"nouns": [
+			"value",
+			"rope",
+			"value",
+			"stretchiness"
+		],
+		"dOIndex": 172,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"stretchiness"
+		]
+	},
+	{
+		"txt": " Higher damping also helps alleviate numerical instabilities to some extent, although it's no substitute for a robust integration scheme.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7297,
+		"nouns": [
+			"instabilities",
+			"extent",
+			"substitute",
+			"integration",
+			"scheme"
+		],
+		"dOIndex": 173,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Higher",
+			"instabilities",
+			"substitute",
+			"integration"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.15,
+			"words": [
+				"robust",
+				"no",
+				"helps"
+			],
+			"positive": [
+				"robust",
+				"helps"
+			],
+			"negative": [
+				"no"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7298,
+		"nouns": [],
+		"dOIndex": 174,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7299,
+		"nouns": [],
+		"dOIndex": 175,
+		"isQuote": false
+	},
+	{
+		"txt": "Initialize the particles and springs",
+		"why": "p",
+		"tags": [
+			"a",
+			"h4",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7300,
+		"nouns": [
+			"Initialize",
+			"particles",
+			"springs"
+		],
+		"dOIndex": 176,
+		"nouns2": [
+			"Initialize",
+			"particles",
+			"springs"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7301,
+		"nouns": [],
+		"dOIndex": 177,
+		"isQuote": false
+	},
+	{
+		"txt": "Initially, our particle rope is set up horizontally, as shown in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7302,
+		"nouns": [
+			"particle",
+			"rope"
+		],
+		"dOIndex": 178,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Initially",
+			"particle"
+		]
+	},
+	{
+		"txt": "Figure 13 3, with the leftmost particle, p0, fixed that is, the particle p0 will not move, and the remainder of the rope will pivot about p0",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7303,
+		"nouns": [
+			"Figure",
+			"leftmost",
+			"particle",
+			"p",
+			"particle",
+			"p",
+			"move",
+			"remainder",
+			"rope",
+			"p"
+		],
+		"dOIndex": 179,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure",
+			"leftmost",
+			"particle",
+			"remainder"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7304,
+		"nouns": [],
+		"dOIndex": 180,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " For convenience, all remaining particles are incrementally indexed from left to right.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7305,
+		"nouns": [
+			"convenience",
+			"particles",
+			"right"
+		],
+		"dOIndex": 181,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"convenience",
+			"particles"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7306,
+		"nouns": [],
+		"dOIndex": 182,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7307,
+		"nouns": [],
+		"dOIndex": 183,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7308,
+		"nouns": [],
+		"dOIndex": 184,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7309,
+		"nouns": [],
+		"dOIndex": 185,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7310,
+		"nouns": [],
+		"dOIndex": 186,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 13 3. Particle rope setup",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7311,
+		"nouns": [
+			"Figure",
+			"Particle",
+			"rope",
+			"setup"
+		],
+		"dOIndex": 187,
+		"nouns2": [
+			"Figure",
+			"Particle"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7312,
+		"nouns": [],
+		"dOIndex": 188,
+		"isQuote": false
+	},
+	{
+		"txt": "There are nine springs, which are indexed from left to right as illustrated in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7313,
+		"nouns": [
+			"nine",
+			"springs",
+			"right"
+		],
+		"dOIndex": 189,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"springs"
+		]
+	},
+	{
+		"txt": "Figure 13 3",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7314,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 190,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7315,
+		"nouns": [],
+		"dOIndex": 191,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Spring 0 connects particle 0 to particle 1, spring 1 connects particle 1 to particle 2, and so on. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7316,
+		"nouns": [
+			"particle",
+			"particle",
+			"particle",
+			"particle"
+		],
+		"dOIndex": 192,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Spring",
+			"particle"
+		],
+		"highfreq": {
+			"particle": 4
+		}
+	},
+	{
+		"txt": " The following code sample shows how all this is initialized:",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7317,
+		"nouns": [
+			"code",
+			"sample"
+		],
+		"dOIndex": 193,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7318,
+		"nouns": [],
+		"dOIndex": 194,
+		"isQuote": false
+	},
+	{
+		"txt": "First, the local variables r and i are declared. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7319,
+		"nouns": [
+			"First",
+			"variables",
+			"r"
+		],
+		"dOIndex": 195,
+		"nouns2": [
+			"variables"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " r will be used to compute the initial, unstretched length of the springs, and i will be used to index the Objects and Springs arrays. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7320,
+		"nouns": [
+			"r",
+			"length",
+			"springs",
+			"index",
+			"Objects",
+			"Springs",
+			"arrays"
+		],
+		"dOIndex": 196,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"springs",
+			"Objects",
+			"Springs"
+		]
+	},
+	{
+		"txt": " Second, Objects[0], the one that is fixed, has its bLocked property set to true , indicating that it does not move (that is, it's locked).",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7321,
+		"nouns": [
+			"Objects[",
+			"one",
+			"property",
+			"move"
+		],
+		"dOIndex": 197,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Second",
+			"Objects[",
+			"property"
+		],
+		"highfreq": {
+			"that": 3
+		},
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.038461538461538464,
+			"words": [
+				"true",
+				"blocked"
+			],
+			"positive": [
+				"true"
+			],
+			"negative": [
+				"blocked"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7322,
+		"nouns": [],
+		"dOIndex": 198,
+		"isQuote": false
+	},
+	{
+		"txt": "Next, the particle positions are initialized starting from the first particle the fixed one positioned at the middle of the screen and proceeding to the rest of the particles, offsetting each to the right by an amount equal to property fLength . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7323,
+		"nouns": [
+			"particle",
+			"positions",
+			"first",
+			"particle",
+			"one",
+			"middle",
+			"screen",
+			"rest",
+			"particles",
+			"right",
+			"amount",
+			"property",
+			"fLength"
+		],
+		"dOIndex": 199,
+		"nouns2": [
+			"particle",
+			"positions",
+			"particles",
+			"property",
+			"fLength"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " fLength is an arbitrary length that you can define, that represents the spacing of the particles and, subsequently, the initial length of the springs connecting the particles.",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7324,
+		"nouns": [
+			"fLength",
+			"length",
+			"particles",
+			"length",
+			"springs",
+			"particles"
+		],
+		"dOIndex": 200,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"fLength",
+			"particles",
+			"springs"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7325,
+		"nouns": [],
+		"dOIndex": 201,
+		"isQuote": false
+	},
+	{
+		"txt": "Finally, we set up the springs, connecting each particle to its neighbor on the right. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7326,
+		"nouns": [
+			"springs",
+			"particle",
+			"neighbor",
+			"right"
+		],
+		"dOIndex": 202,
+		"nouns2": [
+			"Finally",
+			"springs",
+			"particle",
+			"neighbor"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " Starting at the first spring, we set its end references to the index of the particle to its left and right in the properties End1 and End2 , respectively. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7327,
+		"nouns": [
+			"first",
+			"end",
+			"references",
+			"index",
+			"particle",
+			"right",
+			"properties",
+			"End",
+			"End"
+		],
+		"dOIndex": 203,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Starting",
+			"references",
+			"particle",
+			"properties"
+		]
+	},
+	{
+		"txt": " These indices are simply i and i+1, as shown in the preceding code sample within the last for loop. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7328,
+		"nouns": [
+			"indices",
+			"i+",
+			"code",
+			"sample",
+			"loop"
+		],
+		"dOIndex": 204,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"indices"
+		]
+	},
+	{
+		"txt": " The initial length vector of the spring is computed and stored in the vector r, where r = Objects[i+1].vPosition   Objects[i].vPosition . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7329,
+		"nouns": [
+			"length",
+			"vector",
+			"vector",
+			"r",
+			"r",
+			"Objects[i+",
+			"vPosition",
+			"Objects[i]",
+			"vPosition"
+		],
+		"dOIndex": 205,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Objects[i+",
+			"vPosition",
+			"Objects[i]"
+		]
+	},
+	{
+		"txt": " The magnitude of this vector is the initial spring length, which is stored in the spring's property, InitialLength . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7330,
+		"nouns": [
+			"magnitude",
+			"vector",
+			"length",
+			"property",
+			"InitialLength"
+		],
+		"dOIndex": 206,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"magnitude",
+			"property",
+			"InitialLength"
+		]
+	},
+	{
+		"txt": " This step isn't strictly necessary in this example since you already know that the property fLength discussed earlier is the initial length of each spring. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7331,
+		"nouns": [
+			"step",
+			"isn",
+			"t",
+			"example",
+			"property",
+			"fLength",
+			"length"
+		],
+		"dOIndex": 207,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"property",
+			"fLength"
+		]
+	},
+	{
+		"txt": " However, we've done it this general way since you may not necessarily initialize the particle positions as we have simply done.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7332,
+		"nouns": [
+			"ve",
+			"way",
+			"initialize",
+			"particle",
+			"positions"
+		],
+		"dOIndex": 208,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"initialize",
+			"particle",
+			"positions"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7333,
+		"nouns": [],
+		"dOIndex": 209,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7334,
+		"nouns": [],
+		"dOIndex": 210,
+		"isQuote": false
+	},
+	{
+		"txt": "Update the simulation",
+		"why": "p",
+		"tags": [
+			"a",
+			"h4",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7335,
+		"nouns": [
+			"Update",
+			"simulation"
+		],
+		"dOIndex": 211,
+		"nouns2": [
+			"Update",
+			"simulation"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7336,
+		"nouns": [],
+		"dOIndex": 212,
+		"isQuote": false
+	},
+	{
+		"txt": "Updating the particle positions at ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7337,
+		"nouns": [
+			"particle",
+			"positions"
+		],
+		"dOIndex": 213,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Updating",
+			"particle",
+			"positions"
+		]
+	},
+	{
+		"txt": "each simulation time step, under the influence of gravity and spring forces proceeds just like in the earlier examples of ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7338,
+		"nouns": [
+			"simulation",
+			"time",
+			"step",
+			"influence",
+			"gravity",
+			"forces",
+			"proceeds",
+			"examples"
+		],
+		"dOIndex": 214,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulation",
+			"influence",
+			"gravity",
+			"proceeds",
+			"examples"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.09523809523809523,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7339,
+		"nouns": [],
+		"dOIndex": 215,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 8 and ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7340,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 216,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": "Chapter 9",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7341,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 217,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7342,
+		"nouns": [],
+		"dOIndex": 218,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Essentially, you must compute the forces on the particles, integrate the equations of motion, and redraw the scene. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7343,
+		"nouns": [
+			"forces",
+			"particles",
+			"equations",
+			"motion",
+			"scene"
+		],
+		"dOIndex": 219,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Essentially",
+			"particles",
+			"equations"
+		]
+	},
+	{
+		"txt": " As usual in our examples, the function UpdateSimulation is called on to perform these tasks. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7344,
+		"nouns": [
+			"examples",
+			"function",
+			"UpdateSimulation",
+			"tasks"
+		],
+		"dOIndex": 220,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"examples",
+			"function",
+			"UpdateSimulation"
+		]
+	},
+	{
+		"txt": " For the current example, UpdateSimulation looks like this:",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7345,
+		"nouns": [
+			"example",
+			"UpdateSimulation"
+		],
+		"dOIndex": 221,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"UpdateSimulation"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.2222222222222222,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7346,
+		"nouns": [],
+		"dOIndex": 222,
+		"isQuote": false
+	},
+	{
+		"txt": "As you can see, there are several local variables here. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7347,
+		"nouns": [
+			"variables"
+		],
+		"dOIndex": 223,
+		"nouns2": [
+			"variables"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " We'll explain each one as we get to the code where it's used. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7348,
+		"nouns": [
+			"ll",
+			"one",
+			"code"
+		],
+		"dOIndex": 224,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " After the local variable declarations, this function's first task is to reset the aggregate spring forces on each particle to 0. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7349,
+		"nouns": [
+			"declarations",
+			"function",
+			"first",
+			"task",
+			"reset",
+			"forces",
+			"particle"
+		],
+		"dOIndex": 225,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"declarations",
+			"function",
+			"particle"
+		]
+	},
+	{
+		"txt": " Each particle stores the aggregate spring force in the property vSprings , which is a vector. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7350,
+		"nouns": [
+			"particle",
+			"stores",
+			"force",
+			"property",
+			"vSprings",
+			"vector"
+		],
+		"dOIndex": 226,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"particle",
+			"property",
+			"vSprings"
+		]
+	},
+	{
+		"txt": " In this example, each particle will have up to two springs acting on it at any given time.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7351,
+		"nouns": [
+			"example",
+			"particle",
+			"two",
+			"springs",
+			"time"
+		],
+		"dOIndex": 227,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"particle",
+			"springs"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7352,
+		"nouns": [],
+		"dOIndex": 228,
+		"isQuote": false
+	},
+	{
+		"txt": "The next block of code in the for loop computes the springs forces acting on each particle. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7353,
+		"nouns": [
+			"block",
+			"code",
+			"loop",
+			"springs",
+			"forces",
+			"particle"
+		],
+		"dOIndex": 229,
+		"nouns2": [
+			"springs",
+			"particle"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.05555555555555555,
+			"words": [
+				"block"
+			],
+			"positive": [],
+			"negative": [
+				"block"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " There are several steps to this, so we'll go through each one. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7354,
+		"nouns": [
+			"steps",
+			"ll",
+			"one"
+		],
+		"dOIndex": 230,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " First the loop is set up to step through the list of springs. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7355,
+		"nouns": [
+			"First",
+			"loop",
+			"step",
+			"list",
+			"springs"
+		],
+		"dOIndex": 231,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"springs"
+		]
+	},
+	{
+		"txt": " Recall that each spring is connected to two particles, so each step through the loop will compute a spring force and apply it to two separate particles.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7356,
+		"nouns": [
+			"two",
+			"particles",
+			"step",
+			"loop",
+			"force",
+			"two",
+			"particles"
+		],
+		"dOIndex": 232,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Recall",
+			"particles"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7357,
+		"nouns": [],
+		"dOIndex": 233,
+		"isQuote": false
+	},
+	{
+		"txt": "Within the loop, the variable j is used as a convenience to temporarily store the index that refers to the Object to which the spring is attached. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7358,
+		"nouns": [
+			"loop",
+			"j",
+			"convenience",
+			"store",
+			"index",
+			"Object"
+		],
+		"dOIndex": 234,
+		"nouns2": [
+			"Within",
+			"convenience",
+			"Object"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " For each spring j is first set to the spring's End1 property. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7359,
+		"nouns": [
+			"j",
+			"first",
+			"End",
+			"property"
+		],
+		"dOIndex": 235,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"property"
+		]
+	},
+	{
+		"txt": " A temporary variable, pt1, is then set equal to the position of the Object to which j refers. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7360,
+		"nouns": [
+			"pt",
+			"position",
+			"Object",
+			"j"
+		],
+		"dOIndex": 236,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"position",
+			"Object"
+		]
+	},
+	{
+		"txt": " Another temporary variable, v1, is set to the velocity of the Object to which j refers. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7361,
+		"nouns": [
+			"v",
+			"velocity",
+			"Object",
+			"j"
+		],
+		"dOIndex": 237,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Another",
+			"velocity",
+			"Object"
+		]
+	},
+	{
+		"txt": " Next, j is set to the index of End2, the other Object to which the current spring is attached, and that object's position and velocity are stored in pt2 and v2 , respectively. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7362,
+		"nouns": [
+			"j",
+			"index",
+			"End",
+			"Object",
+			"object",
+			"position",
+			"velocity",
+			"pt",
+			"v"
+		],
+		"dOIndex": 238,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Object",
+			"position",
+			"velocity"
+		]
+	},
+	{
+		"txt": " This sort of temporary variable use isn't necessary, of course, but it makes the following lines of code that compute the spring force more readable in our opinion.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7363,
+		"nouns": [
+			"sort",
+			"use",
+			"isn",
+			"t",
+			"course",
+			"lines",
+			"code",
+			"force",
+			"opinion"
+		],
+		"dOIndex": 239,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"opinion"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7364,
+		"nouns": [],
+		"dOIndex": 240,
+		"isQuote": false
+	},
+	{
+		"txt": "vr is a vector that stores the relative velocity between the two ends of the spring. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7365,
+		"nouns": [
+			"vr",
+			"vector",
+			"stores",
+			"velocity",
+			"two",
+			"ends"
+		],
+		"dOIndex": 241,
+		"nouns2": [
+			"velocity"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " We compute vr by subtracting v1 from v2 . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7366,
+		"nouns": [
+			"vr",
+			"v",
+			"v"
+		],
+		"dOIndex": 242,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Similarly, r is a vector that stores the relative distance between the two ends of the spring. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7367,
+		"nouns": [
+			"r",
+			"vector",
+			"stores",
+			"distance",
+			"two",
+			"ends"
+		],
+		"dOIndex": 243,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Similarly",
+			"distance"
+		]
+	},
+	{
+		"txt": " We compute r by subtracting pt1 from pt2 . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7368,
+		"nouns": [
+			"r",
+			"pt",
+			"pt"
+		],
+		"dOIndex": 244,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " The magnitude of r represents the stretched or compressed length of the spring. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7369,
+		"nouns": [
+			"magnitude",
+			"r",
+			"length"
+		],
+		"dOIndex": 245,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"magnitude"
+		]
+	},
+	{
+		"txt": " The change in spring length is computed and stored in dl as follows:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7370,
+		"nouns": [
+			"change",
+			"length",
+			"dl"
+		],
+		"dOIndex": 246,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7371,
+		"nouns": [],
+		"dOIndex": 247,
+		"isQuote": false
+	},
+	{
+		"txt": "dl will be negative if the computed length is shorter than the initial length of the spring. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7372,
+		"nouns": [
+			"dl",
+			"length",
+			"length"
+		],
+		"dOIndex": 248,
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.1111111111111111,
+			"words": [
+				"negative"
+			],
+			"positive": [],
+			"negative": [
+				"negative"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " This implies that the spring is in compression and should act to push the particles away from each other. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7373,
+		"nouns": [
+			"compression",
+			"act",
+			"particles"
+		],
+		"dOIndex": 249,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"compression",
+			"particles"
+		]
+	},
+	{
+		"txt": " A positive dl means the spring is in tension and should act to pull the particles toward each other. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7374,
+		"nouns": [
+			"dl",
+			"tension",
+			"act",
+			"particles"
+		],
+		"dOIndex": 250,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"tension",
+			"particles"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.047619047619047616,
+			"words": [
+				"tension",
+				"positive"
+			],
+			"positive": [
+				"positive"
+			],
+			"negative": [
+				"tension"
+			]
+		}
+	},
+	{
+		"txt": " The line:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7375,
+		"nouns": [
+			"line"
+		],
+		"dOIndex": 251,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7376,
+		"nouns": [],
+		"dOIndex": 252,
+		"isQuote": false
+	},
+	{
+		"txt": "computes the corresponding spring force as a function of dl and the spring constant. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7377,
+		"nouns": [
+			"force",
+			"function",
+			"dl"
+		],
+		"dOIndex": 253,
+		"nouns2": [
+			"function"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " Note that f is a scalar and we have not yet computed its line of action, although we know it acts along the line connecting the particles at End1 and End2 . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7378,
+		"nouns": [
+			"f",
+			"line",
+			"action",
+			"acts",
+			"line",
+			"particles",
+			"End",
+			"End"
+		],
+		"dOIndex": 254,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"particles"
+		]
+	},
+	{
+		"txt": " That line is represented by r , which we computed earlier. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7379,
+		"nouns": [
+			"line",
+			"r"
+		],
+		"dOIndex": 255,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " And the spring force is just f times the unit vector along r . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7380,
+		"nouns": [
+			"force",
+			"f",
+			"times",
+			"unit",
+			"vector",
+			"r"
+		],
+		"dOIndex": 256,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Since we're including damping, we have to use the spring damper equation for the total force acting on each particle, which we call the vector F . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7381,
+		"nouns": [
+			"re",
+			"use",
+			"damper",
+			"equation",
+			"force",
+			"particle",
+			"vector",
+			"F"
+		],
+		"dOIndex": 257,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equation",
+			"particle"
+		]
+	},
+	{
+		"txt": " F is computed as follows:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7382,
+		"nouns": [
+			"F"
+		],
+		"dOIndex": 258,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7383,
+		"nouns": [],
+		"dOIndex": 259,
+		"isQuote": false
+	},
+	{
+		"txt": "The first term on the right side of the equals sign is the Hooke's law–based spring force, and the second term is the damping force. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7384,
+		"nouns": [
+			"first",
+			"term",
+			"right",
+			"side",
+			"sign",
+			"Hooke",
+			"force",
+			"second",
+			"term",
+			"force"
+		],
+		"dOIndex": 260,
+		"isQuote": false
+	},
+	{
+		"txt": " Note here that r is a unit vector previously computed using the line:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7385,
+		"nouns": [
+			"r",
+			"unit",
+			"vector",
+			"line"
+		],
+		"dOIndex": 261,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7386,
+		"nouns": [],
+		"dOIndex": 262,
+		"isQuote": false
+	},
+	{
+		"txt": "Finally, the spring force is applied to each particle connected by the spring. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7387,
+		"nouns": [
+			"force",
+			"particle"
+		],
+		"dOIndex": 263,
+		"nouns2": [
+			"Finally",
+			"particle"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " Remember, the force is equal in magnitude but opposite in direction for each particle. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7388,
+		"nouns": [
+			"force",
+			"magnitude",
+			"direction",
+			"particle"
+		],
+		"dOIndex": 264,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Remember",
+			"magnitude",
+			"direction",
+			"particle"
+		]
+	},
+	{
+		"txt": " The lines:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7389,
+		"nouns": [
+			"lines"
+		],
+		"dOIndex": 265,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7390,
+		"nouns": [],
+		"dOIndex": 266,
+		"isQuote": false
+	},
+	{
+		"txt": "apply the spring force to the particle at the first end of the spring, whereas the lines:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7391,
+		"nouns": [
+			"force",
+			"particle",
+			"first",
+			"end",
+			"lines"
+		],
+		"dOIndex": 267,
+		"nouns2": [
+			"particle"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7392,
+		"nouns": [],
+		"dOIndex": 268,
+		"isQuote": false
+	},
+	{
+		"txt": "apply the opposite spring force to the particle at the second end of the spring.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7393,
+		"nouns": [
+			"force",
+			"particle",
+			"second",
+			"end"
+		],
+		"dOIndex": 269,
+		"nouns2": [
+			"particle"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7394,
+		"nouns": [],
+		"dOIndex": 270,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7395,
+		"nouns": [],
+		"dOIndex": 271,
+		"isQuote": false
+	},
+	{
+		"txt": "That's it for computing and applying the spring forces. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7396,
+		"nouns": [
+			"forces"
+		],
+		"dOIndex": 272,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " The remainder of the code is business as usual, where we compute the force due to gravity and add it to the aggregate spring force for each particle and then integrate the equations of motion. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7397,
+		"nouns": [
+			"remainder",
+			"code",
+			"business",
+			"force",
+			"gravity",
+			"force",
+			"particle",
+			"equations",
+			"motion"
+		],
+		"dOIndex": 273,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"remainder",
+			"business",
+			"gravity",
+			"particle",
+			"equations"
+		]
+	},
+	{
+		"txt": " Finally, we render the scene at each time ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7398,
+		"nouns": [
+			"scene",
+			"time"
+		],
+		"dOIndex": 274,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Finally"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7399,
+		"nouns": [],
+		"dOIndex": 275,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7400,
+		"nouns": [],
+		"dOIndex": 276,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7401,
+		"nouns": [],
+		"dOIndex": 277,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7402,
+		"nouns": [],
+		"dOIndex": 278,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7403,
+		"nouns": [],
+		"dOIndex": 279,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7404,
+		"nouns": [],
+		"dOIndex": 280,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7405,
+		"nouns": [],
+		"dOIndex": 281,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "step.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7406,
+		"nouns": [
+			"step"
+		],
+		"dOIndex": 282,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7407,
+		"nouns": [],
+		"dOIndex": 283,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7408,
+		"nouns": [],
+		"dOIndex": 284,
+		"isQuote": false
+	},
+	{
+		"txt": "Connecting Rigid Bodies",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7409,
+		"nouns": [
+			"Bodies"
+		],
+		"dOIndex": 285,
+		"nouns2": [
+			"Connecting",
+			"Bodies"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7410,
+		"nouns": [],
+		"dOIndex": 286,
+		"isQuote": false
+	},
+	{
+		"txt": "As with particles,",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7411,
+		"nouns": [
+			"particles"
+		],
+		"dOIndex": 287,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"particles"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7412,
+		"nouns": [],
+		"dOIndex": 288,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7413,
+		"nouns": [],
+		"dOIndex": 289,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7414,
+		"nouns": [],
+		"dOIndex": 290,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7415,
+		"nouns": [],
+		"dOIndex": 291,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " you can connect rigid bodies with springs to simulate some interesting things. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7416,
+		"nouns": [
+			"bodies",
+			"springs",
+			"things"
+		],
+		"dOIndex": 292,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"springs"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.14285714285714285,
+			"words": [
+				"interesting"
+			],
+			"positive": [
+				"interesting"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " For example, you may want to simulate something as simple as a linked chain, where each link is connected to the other in series. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7417,
+		"nouns": [
+			"example",
+			"chain",
+			"link",
+			"series"
+		],
+		"dOIndex": 293,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.038461538461538464,
+			"words": [
+				"want"
+			],
+			"positive": [
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Or perhaps you want to simulate connected body parts to simulate rag doll physics or maybe a golfer's swing. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7418,
+		"nouns": [
+			"body",
+			"parts",
+			"rag",
+			"doll",
+			"physics",
+			"golfer"
+		],
+		"dOIndex": 294,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"physics"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.047619047619047616,
+			"words": [
+				"want"
+			],
+			"positive": [
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " All these require some means of connecting rigid bodies. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7419,
+		"nouns": [
+			"require",
+			"bodies"
+		],
+		"dOIndex": 295,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"require"
+		]
+	},
+	{
+		"txt": " In this section we'll show you how to use linear spring dampers, the same we've discussed already, to connect rigid bodies. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7420,
+		"nouns": [
+			"section",
+			"ll",
+			"show",
+			"use",
+			"dampers",
+			"ve",
+			"bodies"
+		],
+		"dOIndex": 296,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"section",
+			"dampers"
+		]
+	},
+	{
+		"txt": " We'll start with a simple analog to the rope example discussed earlier. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7421,
+		"nouns": [
+			"ll",
+			"analog",
+			"rope",
+			"example"
+		],
+		"dOIndex": 297,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example"
+		]
+	},
+	{
+		"txt": " Instead of connecting particles with springs to simulate a dangling rope, we'll connect rigid links to simulate a dangling rope or chain. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7422,
+		"nouns": [
+			"particles",
+			"springs",
+			"rope",
+			"ll",
+			"links",
+			"rope",
+			"chain"
+		],
+		"dOIndex": 298,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Instead",
+			"particles",
+			"springs"
+		]
+	},
+	{
+		"txt": " Later, we'll show you how linear springs can be used to restrain angular motion.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7423,
+		"nouns": [
+			"ll",
+			"show",
+			"springs",
+			"motion"
+		],
+		"dOIndex": 299,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"springs"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7424,
+		"nouns": [],
+		"dOIndex": 300,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7425,
+		"nouns": [],
+		"dOIndex": 301,
+		"isQuote": false
+	},
+	{
+		"txt": "Links",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7426,
+		"nouns": [
+			"Links"
+		],
+		"dOIndex": 302,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7427,
+		"nouns": [],
+		"dOIndex": 303,
+		"isQuote": false
+	},
+	{
+		"txt": "In this example, each link is rigid in that it does not deform; however, the links are connected by springs in a way that allows the ensemble to swing, stretch, and bend in a manner similar to a hanging chain. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7428,
+		"nouns": [
+			"example",
+			"link",
+			"deform",
+			"links",
+			"springs",
+			"way",
+			"ensemble",
+			"stretch",
+			"manner",
+			"chain"
+		],
+		"dOIndex": 304,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"springs",
+			"ensemble",
+			"stretch"
+		]
+	},
+	{
+		"txt": " ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7429,
+		"nouns": [],
+		"dOIndex": 305,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 13 4",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7430,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 306,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " illustrates our swinging linked chain as it swings from right to left and then back toward the right.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7431,
+		"nouns": [
+			"chain",
+			"swings",
+			"right",
+			"right"
+		],
+		"dOIndex": 307,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7432,
+		"nouns": [],
+		"dOIndex": 308,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7433,
+		"nouns": [],
+		"dOIndex": 309,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7434,
+		"nouns": [],
+		"dOIndex": 310,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7435,
+		"nouns": [],
+		"dOIndex": 311,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7436,
+		"nouns": [],
+		"dOIndex": 312,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 13 4. Swinging links",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7437,
+		"nouns": [
+			"Figure",
+			"links"
+		],
+		"dOIndex": 313,
+		"nouns2": [
+			"Figure",
+			"Swinging"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7438,
+		"nouns": [],
+		"dOIndex": 314,
+		"isQuote": false
+	},
+	{
+		"txt": "As in the rope example, the topmost link is connected to a fixed point by a spring, such that the linked chain pivots around and hangs from the fixed point. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7439,
+		"nouns": [
+			"rope",
+			"example",
+			"link",
+			"point",
+			"chain",
+			"pivots",
+			"point"
+		],
+		"dOIndex": 315,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example"
+		]
+	},
+	{
+		"txt": " The rectangles represent each rigid link, with the lines connecting the rectangles representing springs.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7440,
+		"nouns": [
+			"rectangles",
+			"link",
+			"lines",
+			"rectangles",
+			"springs"
+		],
+		"dOIndex": 316,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"rectangles",
+			"springs"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7441,
+		"nouns": [],
+		"dOIndex": 317,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7442,
+		"nouns": [],
+		"dOIndex": 318,
+		"isQuote": false
+	},
+	{
+		"txt": "To model this linked chain, we need only make a few changes to the rope example to address the fact that we're now dealing with rigid bodies that can rotate versus particles. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7443,
+		"nouns": [
+			"model",
+			"chain",
+			"changes",
+			"rope",
+			"example",
+			"address",
+			"fact",
+			"re",
+			"bodies",
+			"particles"
+		],
+		"dOIndex": 319,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"changes",
+			"example",
+			"address",
+			"particles"
+		]
+	},
+	{
+		"txt": " This requires us to specify the point on each body to which the springs are attached, and in addition to computing the spring forces acting on each body, we must also compute the moments due to those forces. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7444,
+		"nouns": [
+			"point",
+			"body",
+			"springs",
+			"addition",
+			"forces",
+			"body",
+			"moments",
+			"forces"
+		],
+		"dOIndex": 320,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"springs",
+			"addition",
+			"moments"
+		]
+	},
+	{
+		"txt": " Aside from these spring force and moment computations, the remainder of the simulation is the same as those discussed in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7445,
+		"nouns": [
+			"force",
+			"moment",
+			"computations",
+			"remainder",
+			"simulation"
+		],
+		"dOIndex": 321,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"computations",
+			"remainder",
+			"simulation"
+		]
+	},
+	{
+		"txt": "Chapter 7 through ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7446,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 322,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7447,
+		"nouns": [],
+		"dOIndex": 323,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 12 .",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7448,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 324,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7449,
+		"nouns": [],
+		"dOIndex": 325,
+		"isQuote": false
+	},
+	{
+		"txt": "Basic structures and variables",
+		"why": "p",
+		"tags": [
+			"h4",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7450,
+		"nouns": [
+			"Basic",
+			"structures",
+			"variables"
+		],
+		"dOIndex": 326,
+		"nouns2": [
+			"structures",
+			"variables"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "We can use the Spring structure shown earlier in the rope example again here with one small modification. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7451,
+		"nouns": [
+			"use",
+			"structure",
+			"rope",
+			"example",
+			"one",
+			"modification"
+		],
+		"dOIndex": 327,
+		"nouns2": [
+			"Spring",
+			"structure",
+			"example",
+			"modification"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " Basically, we need to change the type of the endpoint references, End1 and End2, from integers to a new structure we'll call EndPoint . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7452,
+		"nouns": [
+			"change",
+			"type",
+			"endpoint",
+			"references",
+			"End",
+			"End",
+			"integers",
+			"structure",
+			"ll",
+			"EndPoint"
+		],
+		"dOIndex": 328,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Basically",
+			"endpoint",
+			"references",
+			"integers",
+			"structure",
+			"EndPoint"
+		]
+	},
+	{
+		"txt": " The new Spring structure looks like this:",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7453,
+		"nouns": [
+			"structure"
+		],
+		"dOIndex": 329,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Spring",
+			"structure"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.25,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7454,
+		"nouns": [],
+		"dOIndex": 330,
+		"isQuote": false
+	},
+	{
+		"txt": "The new EndPoint structure is as follows:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7455,
+		"nouns": [
+			"EndPoint",
+			"structure"
+		],
+		"dOIndex": 331,
+		"nouns2": [
+			"EndPoint",
+			"structure"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7456,
+		"nouns": [],
+		"dOIndex": 332,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7457,
+		"nouns": [],
+		"dOIndex": 333,
+		"isQuote": false
+	},
+	{
+		"txt": "Here, ref is the index referring to the Object to which the spring is attached, and pt is the point in the attached Object 's local coordinate system to which the spring is attached. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7458,
+		"nouns": [
+			"ref",
+			"index",
+			"Object",
+			"pt",
+			"point",
+			"Object",
+			"system"
+		],
+		"dOIndex": 334,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Object"
+		],
+		"highfreq": {
+			"attached": 3
+		}
+	},
+	{
+		"txt": " Notice from ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7459,
+		"nouns": [
+			"Notice"
+		],
+		"dOIndex": 335,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Notice"
+		]
+	},
+	{
+		"txt": "Figure 13 4",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7460,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 336,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " that the first spring, the topmost one, is connected to a single object; the other end of it is connected to a fixed point in space. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7461,
+		"nouns": [
+			"first",
+			"one",
+			"object",
+			"end",
+			"point",
+			"space"
+		],
+		"dOIndex": 337,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " We'll use a ref of −1 to indicate that a spring's endpoint is connected to a fixed point in space instead of an object.",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7462,
+		"nouns": [
+			"ll",
+			"use",
+			"ref",
+			"−",
+			"endpoint",
+			"point",
+			"space",
+			"object"
+		],
+		"dOIndex": 338,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"endpoint"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7463,
+		"nouns": [],
+		"dOIndex": 339,
+		"isQuote": false
+	},
+	{
+		"txt": "As in the rope example, we have a few important defines and variables to set up:",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7464,
+		"nouns": [
+			"rope",
+			"example",
+			"variables"
+		],
+		"dOIndex": 340,
+		"nouns2": [
+			"example",
+			"variables"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.125,
+			"words": [
+				"important"
+			],
+			"positive": [
+				"important"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7465,
+		"nouns": [],
+		"dOIndex": 341,
+		"isQuote": false
+	},
+	{
+		"txt": "These are the same as before except now we have 10 springs instead of 9, and Objects is of type RigidBody2D instead of Particle .",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7466,
+		"nouns": [
+			"are",
+			"springs",
+			"Objects",
+			"type",
+			"RigidBody2D",
+			"Particle"
+		],
+		"dOIndex": 342,
+		"nouns2": [
+			"springs",
+			"Objects",
+			"RigidBody2D",
+			"Particle"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7467,
+		"nouns": [],
+		"dOIndex": 343,
+		"isQuote": false
+	},
+	{
+		"txt": "The damping and spring constants play the same role here as they did in the rope example.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7468,
+		"nouns": [
+			"constants",
+			"role",
+			"rope",
+			"example"
+		],
+		"dOIndex": 344,
+		"nouns2": [
+			"constants",
+			"example"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7469,
+		"nouns": [],
+		"dOIndex": 345,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7470,
+		"nouns": [],
+		"dOIndex": 346,
+		"isQuote": false
+	},
+	{
+		"txt": "Initialize",
+		"why": "p",
+		"tags": [
+			"a",
+			"h4",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7471,
+		"nouns": [
+			"Initialize"
+		],
+		"dOIndex": 347,
+		"nouns2": [
+			"Initialize"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7472,
+		"nouns": [],
+		"dOIndex": 348,
+		"isQuote": false
+	},
+	{
+		"txt": "Initially our linked chain is set up horizontally, just like the rope example, but with the link and spring indices shown in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7473,
+		"nouns": [
+			"chain",
+			"rope",
+			"example",
+			"link",
+			"indices"
+		],
+		"dOIndex": 349,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Initially",
+			"example",
+			"indices"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08695652173913043,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "Figure 13 5",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7474,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 350,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7475,
+		"nouns": [],
+		"dOIndex": 351,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Each rectangle represents a rigid link, and a spring attached to the left end of each link connects the link to its neighbor to the left. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7476,
+		"nouns": [
+			"rectangle",
+			"link",
+			"end",
+			"link",
+			"link",
+			"neighbor"
+		],
+		"dOIndex": 352,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"rectangle",
+			"neighbor"
+		],
+		"highfreq": {
+			"link": 3
+		}
+	},
+	{
+		"txt": " In the case of the first link, L0 , the spring connects the left end of the link to a fixed point in space.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7477,
+		"nouns": [
+			"case",
+			"first",
+			"link",
+			"L",
+			"end",
+			"link",
+			"point",
+			"space"
+		],
+		"dOIndex": 353,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7478,
+		"nouns": [],
+		"dOIndex": 354,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7479,
+		"nouns": [],
+		"dOIndex": 355,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7480,
+		"nouns": [],
+		"dOIndex": 356,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7481,
+		"nouns": [],
+		"dOIndex": 357,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7482,
+		"nouns": [],
+		"dOIndex": 358,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 13 5. Linked chain setup",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7483,
+		"nouns": [
+			"Figure",
+			"chain",
+			"setup"
+		],
+		"dOIndex": 359,
+		"nouns2": [
+			"Figure",
+			"Linked"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7484,
+		"nouns": [],
+		"dOIndex": 360,
+		"isQuote": false
+	},
+	{
+		"txt": "The code for this setup is only a little more involved than that for the rope example; the additional complexity is due to having to deal with specific points on the rigid bodies to which each spring is attached. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7485,
+		"nouns": [
+			"code",
+			"setup",
+			"rope",
+			"example",
+			"complexity",
+			"points",
+			"bodies"
+		],
+		"dOIndex": 361,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"complexity"
+		]
+	},
+	{
+		"txt": " The following code sample contains the modified Initialize function:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7486,
+		"nouns": [
+			"code",
+			"sample",
+			"Initialize",
+			"function"
+		],
+		"dOIndex": 362,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Initialize",
+			"function"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7487,
+		"nouns": [],
+		"dOIndex": 363,
+		"isQuote": false
+	},
+	{
+		"txt": "The local variables r and i are the same as before; however, there's a new variable, pt , that we use to temporarily store the coordinates of specific points when converting from one coordinate system to another. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7488,
+		"nouns": [
+			"variables",
+			"r",
+			"pt",
+			"use",
+			"store",
+			"coordinates",
+			"points",
+			"one",
+			"system"
+		],
+		"dOIndex": 364,
+		"nouns2": [
+			"variables",
+			"coordinates"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " We'll see how this is done shortly.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7489,
+		"nouns": [
+			"ll"
+		],
+		"dOIndex": 365,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7490,
+		"nouns": [],
+		"dOIndex": 366,
+		"isQuote": false
+	},
+	{
+		"txt": "After the local variables are declared, the Object positions are initialized, starting from the first Object positioned at the middle of the screen and proceeding to the rest of the Objects, offsetting each to the right by an amount equal to property fLength . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7491,
+		"nouns": [
+			"variables",
+			"Object",
+			"positions",
+			"first",
+			"Object",
+			"middle",
+			"screen",
+			"rest",
+			"Objects",
+			"right",
+			"amount",
+			"property",
+			"fLength"
+		],
+		"dOIndex": 367,
+		"nouns2": [
+			"variables",
+			"Object",
+			"positions",
+			"Objects",
+			"property",
+			"fLength"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " Here, fLength is an arbitrary length representing the length of each rigid body, not the length of the springs connecting each rigid body. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7492,
+		"nouns": [
+			"fLength",
+			"length",
+			"length",
+			"body",
+			"length",
+			"springs",
+			"body"
+		],
+		"dOIndex": 368,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"fLength",
+			"springs"
+		]
+	},
+	{
+		"txt": " As you'll see momentarily, the initial length of all the springs in this example is 0.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7493,
+		"nouns": [
+			"ll",
+			"length",
+			"springs",
+			"example"
+		],
+		"dOIndex": 369,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"springs",
+			"example"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7494,
+		"nouns": [],
+		"dOIndex": 370,
+		"isQuote": false
+	},
+	{
+		"txt": "You should be aware that the coordinates for each object computed here are the coordinates of the object's center of gravity, which in this example we defined as the middle of the rectangle representing each object. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7495,
+		"nouns": [
+			"coordinates",
+			"object",
+			"coordinates",
+			"object",
+			"center",
+			"gravity",
+			"example",
+			"middle",
+			"rectangle",
+			"object"
+		],
+		"dOIndex": 371,
+		"nouns2": [
+			"coordinates",
+			"gravity",
+			"example",
+			"rectangle"
+		],
+		"highfreq": {
+			"object": 3
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " Since these are rigid bodies, not only must you specify their initial positions, but you must also specify their initial orientations as shown in the preceding code sample. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7496,
+		"nouns": [
+			"are",
+			"bodies",
+			"positions",
+			"orientations",
+			"code",
+			"sample"
+		],
+		"dOIndex": 372,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"positions",
+			"orientations"
+		]
+	},
+	{
+		"txt": " The way we have this example set up, each object is initialized with an orientation of 0 degrees.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7497,
+		"nouns": [
+			"way",
+			"example",
+			"object",
+			"orientation",
+			"degrees"
+		],
+		"dOIndex": 373,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"orientation",
+			"degrees"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7498,
+		"nouns": [],
+		"dOIndex": 374,
+		"isQuote": false
+	},
+	{
+		"txt": "The next task is to set up the spring connecting the first link, the one on the left, to a fixed point in space. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7499,
+		"nouns": [
+			"task",
+			"first",
+			"link",
+			"one",
+			"point",
+			"space"
+		],
+		"dOIndex": 375,
+		"isQuote": false
+	},
+	{
+		"txt": " The following code handles this task:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7500,
+		"nouns": [
+			"code",
+			"task"
+		],
+		"dOIndex": 376,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7501,
+		"nouns": [],
+		"dOIndex": 377,
+		"isQuote": false
+	},
+	{
+		"txt": "The first spring, Spring[0], has its first endpoint, End1, set to refer to −1 , which, as explained earlier, means that this end of the spring is connected to some fixed point in space. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7502,
+		"nouns": [
+			"first",
+			"Spring[",
+			"first",
+			"endpoint",
+			"End",
+			"−",
+			"end",
+			"point",
+			"space"
+		],
+		"dOIndex": 378,
+		"nouns2": [
+			"Spring[",
+			"endpoint"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " The location of the point, stored in the End1.pt property, must be specified in global coordinates as shown previously.",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7503,
+		"nouns": [
+			"location",
+			"point",
+			"End",
+			"pt",
+			"property",
+			"coordinates"
+		],
+		"dOIndex": 379,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"location",
+			"property",
+			"coordinates"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7504,
+		"nouns": [],
+		"dOIndex": 380,
+		"isQuote": false
+	},
+	{
+		"txt": "Now the second end of the first spring is connected to the left end of the first link; therefore, End2.ref of the first spring is set to 0, which is the index to the first Object . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7505,
+		"nouns": [
+			"second",
+			"end",
+			"first",
+			"end",
+			"first",
+			"link",
+			"End",
+			"ref",
+			"first",
+			"index",
+			"first",
+			"Object"
+		],
+		"dOIndex": 381,
+		"nouns2": [
+			"Object"
+		],
+		"highfreq": {
+			"___first": 4
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " The point on Object[0] to which the spring is attached is the leftmost end on the centerline of the object; thus, its coordinates relative to the object's center of gravity location and specified in local, body fixed coordinates are:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7506,
+		"nouns": [
+			"point",
+			"Object[",
+			"leftmost",
+			"end",
+			"centerline",
+			"object",
+			"coordinates",
+			"object",
+			"center",
+			"gravity",
+			"location",
+			"body",
+			"coordinates"
+		],
+		"dOIndex": 382,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Object[",
+			"leftmost",
+			"centerline",
+			"coordinates",
+			"gravity",
+			"location"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7507,
+		"nouns": [],
+		"dOIndex": 383,
+		"isQuote": false
+	},
+	{
+		"txt": "Now remember, the points on Objects to which springs are attached are specified in body fixed, local coordinates of each referenced object, whereas any point fixed in space to which a spring is attached and not on an Object must be specified in global, earth fixed coordinates. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7508,
+		"nouns": [
+			"points",
+			"Objects",
+			"springs",
+			"body",
+			"coordinates",
+			"object",
+			"point",
+			"space",
+			"Object",
+			"earth",
+			"coordinates"
+		],
+		"dOIndex": 384,
+		"nouns2": [
+			"Objects",
+			"springs",
+			"coordinates",
+			"Object"
+		],
+		"highfreq": {
+			"fixed": 3
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " You have to keep these coordinates straight and make the appropriate rotations when computing spring lengths throughout the simulation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7509,
+		"nouns": [
+			"coordinates",
+			"rotations",
+			"lengths",
+			"simulation"
+		],
+		"dOIndex": 385,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coordinates",
+			"rotations",
+			"lengths",
+			"simulation"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.14285714285714285,
+			"words": [
+				"appropriate",
+				"straight"
+			],
+			"positive": [
+				"appropriate",
+				"straight"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The code;",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7510,
+		"nouns": [
+			"code"
+		],
+		"dOIndex": 386,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7511,
+		"nouns": [],
+		"dOIndex": 387,
+		"isQuote": false
+	},
+	{
+		"txt": "illustrates how to do this. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7512,
+		"nouns": [],
+		"dOIndex": 388,
+		"isQuote": false
+	},
+	{
+		"txt": " To compute the initial spring length, we need to compute the relative distance between the endpoints of the spring. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7513,
+		"nouns": [
+			"length",
+			"distance",
+			"endpoints"
+		],
+		"dOIndex": 389,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distance",
+			"endpoints"
+		]
+	},
+	{
+		"txt": " In case of the first spring, End1 was specified in global coordinates, but End2 was specified in the local coordinate system of Object[0] . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7514,
+		"nouns": [
+			"case",
+			"first",
+			"End",
+			"coordinates",
+			"End",
+			"system",
+			"Object["
+		],
+		"dOIndex": 390,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coordinates",
+			"Object["
+		]
+	},
+	{
+		"txt": " Therefore, we have to convert the coordinates of End2 from local coordinates to global coordinates before calculating the relative distance between the ends. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7515,
+		"nouns": [
+			"coordinates",
+			"End",
+			"coordinates",
+			"coordinates",
+			"distance",
+			"ends"
+		],
+		"dOIndex": 391,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Therefore",
+			"coordinates",
+			"distance"
+		],
+		"highfreq": {
+			"coordinates": 3
+		}
+	},
+	{
+		"txt": " The preceding line, which calls the VRotate2D function you saw in earlier chapters, rotates the locally specified point, End2.pt, from local to global coordinates; it then adds the Object's position to the result, arriving at a point, pt , in global coordinates coincident with the second endpoint of the spring. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7516,
+		"nouns": [
+			"line",
+			"VRotate2D",
+			"function",
+			"chapters",
+			"point",
+			"End",
+			"pt",
+			"coordinates",
+			"Object",
+			"position",
+			"result",
+			"point",
+			"pt",
+			"coordinates",
+			"second",
+			"endpoint"
+		],
+		"dOIndex": 392,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"VRotate2D",
+			"function",
+			"chapters",
+			"coordinates",
+			"Object",
+			"position",
+			"endpoint"
+		]
+	},
+	{
+		"txt": " The relative distance, r, is the second endpoint, pt, minus the first endpoint, End1.pt .",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7517,
+		"nouns": [
+			"distance",
+			"r",
+			"second",
+			"endpoint",
+			"pt",
+			"first",
+			"endpoint",
+			"End",
+			"pt"
+		],
+		"dOIndex": 393,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distance",
+			"endpoint"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7518,
+		"nouns": [],
+		"dOIndex": 394,
+		"isQuote": false
+	},
+	{
+		"txt": "Finally, we compute the initial length of the spring by taking the magnitude of r and storing the result in the spring's InitialLength property.",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7519,
+		"nouns": [
+			"length",
+			"magnitude",
+			"r",
+			"result",
+			"InitialLength",
+			"property"
+		],
+		"dOIndex": 395,
+		"nouns2": [
+			"Finally",
+			"magnitude",
+			"InitialLength",
+			"property"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7520,
+		"nouns": [],
+		"dOIndex": 396,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7521,
+		"nouns": [],
+		"dOIndex": 397,
+		"isQuote": false
+	},
+	{
+		"txt": "With the first spring out of the way, the Initialize function enters a loop to set up the remaining springs. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7522,
+		"nouns": [
+			"first",
+			"way",
+			"Initialize",
+			"function",
+			"loop",
+			"springs"
+		],
+		"dOIndex": 398,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Initialize",
+			"function",
+			"springs"
+		]
+	},
+	{
+		"txt": " Proceeding from left to right in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7523,
+		"nouns": [
+			"right"
+		],
+		"dOIndex": 399,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Proceeding"
+		]
+	},
+	{
+		"txt": "Figure 13 5, the first endpoint, End1, is connected to the right side of Object[i 1], and the second endpoint, End2, is connected to the left side of Object[i]",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"code",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7524,
+		"nouns": [
+			"Figure",
+			"first",
+			"endpoint",
+			"End",
+			"right",
+			"side",
+			"Object[i",
+			"second",
+			"endpoint",
+			"End",
+			"side",
+			"Object[i]"
+		],
+		"dOIndex": 400,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure",
+			"endpoint",
+			"Object[i",
+			"Object[i]"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7525,
+		"nouns": [],
+		"dOIndex": 401,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Be aware that each endpoint of each spring is specified in different coordinate systems. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7526,
+		"nouns": [
+			"endpoint",
+			"systems"
+		],
+		"dOIndex": 402,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"endpoint",
+			"systems"
+		]
+	},
+	{
+		"txt": " The left end is in the coordinate system of Object[i 1], while the right end is in the coordinate system of Object[i] . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7527,
+		"nouns": [
+			"end",
+			"coordinate",
+			"system",
+			"Object[i",
+			"right",
+			"end",
+			"coordinate",
+			"system",
+			"Object[i]"
+		],
+		"dOIndex": 403,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coordinate",
+			"Object[i",
+			"Object[i]"
+		]
+	},
+	{
+		"txt": " It may seem trivial during this setup, but when things start moving and rotating it is critically important to keep these coordinate systems straight. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7528,
+		"nouns": [
+			"setup",
+			"things",
+			"coordinate",
+			"systems"
+		],
+		"dOIndex": 404,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coordinate",
+			"systems"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.11538461538461539,
+			"words": [
+				"straight",
+				"important"
+			],
+			"positive": [
+				"straight",
+				"important"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Doing so involves transforming each endpoint coordinate from the local system of the body to which it's attached to the global coordinate system. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7529,
+		"nouns": [
+			"endpoint",
+			"system",
+			"body",
+			"system"
+		],
+		"dOIndex": 405,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"endpoint"
+		]
+	},
+	{
+		"txt": " This is illustrated as follows:",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7530,
+		"nouns": [],
+		"dOIndex": 406,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7531,
+		"nouns": [],
+		"dOIndex": 407,
+		"isQuote": false
+	},
+	{
+		"txt": "The first line converts the spring attachment point End2 from the local coordinate system of Object[i] to global coordinates by performing a rotation and translation using functions you've already seen numerous times now. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7532,
+		"nouns": [
+			"first",
+			"line",
+			"converts",
+			"attachment",
+			"point",
+			"End",
+			"system",
+			"Object[i]",
+			"coordinates",
+			"rotation",
+			"translation",
+			"functions",
+			"ve",
+			"times"
+		],
+		"dOIndex": 408,
+		"nouns2": [
+			"converts",
+			"attachment",
+			"Object[i]",
+			"coordinates",
+			"rotation",
+			"translation",
+			"functions"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " The result is temporarily stored in the local variable, pt . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7533,
+		"nouns": [
+			"result",
+			"pt"
+		],
+		"dOIndex": 409,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " The second line converts the spring attachment point End1 from the local coordinate system of Object[i 1] to global coordinates and then subtracts the result from pt, yielding a vector, r , representing the relative distance between the spring's endpoints. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7534,
+		"nouns": [
+			"second",
+			"line",
+			"converts",
+			"attachment",
+			"point",
+			"End",
+			"system",
+			"Object[i",
+			"coordinates",
+			"subtracts",
+			"result",
+			"pt",
+			"vector",
+			"r",
+			"distance",
+			"endpoints"
+		],
+		"dOIndex": 410,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"converts",
+			"attachment",
+			"Object[i",
+			"coordinates",
+			"subtracts",
+			"distance",
+			"endpoints"
+		]
+	},
+	{
+		"txt": " The magnitude of r is the spring's initial length. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7535,
+		"nouns": [
+			"magnitude",
+			"r",
+			"length"
+		],
+		"dOIndex": 411,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"magnitude"
+		]
+	},
+	{
+		"txt": " Performing these same calculations during the simulation will result in the spring's stretched or compressed length. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7536,
+		"nouns": [
+			"calculations",
+			"simulation",
+			"result",
+			"length"
+		],
+		"dOIndex": 412,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Performing",
+			"calculations",
+			"simulation"
+		]
+	},
+	{
+		"txt": " That calculation is performed in UpdateSimulation .",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7537,
+		"nouns": [
+			"calculation",
+			"UpdateSimulation"
+		],
+		"dOIndex": 413,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"calculation",
+			"UpdateSimulation"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7538,
+		"nouns": [],
+		"dOIndex": 414,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7539,
+		"nouns": [],
+		"dOIndex": 415,
+		"isQuote": false
+	},
+	{
+		"txt": "Update",
+		"why": "p",
+		"tags": [
+			"a",
+			"h4",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7540,
+		"nouns": [
+			"Update"
+		],
+		"dOIndex": 416,
+		"nouns2": [
+			"Update"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7541,
+		"nouns": [],
+		"dOIndex": 417,
+		"isQuote": false
+	},
+	{
+		"txt": "The function UpdateSimulation is substantially ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7542,
+		"nouns": [
+			"function",
+			"UpdateSimulation"
+		],
+		"dOIndex": 418,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"function",
+			"UpdateSimulation"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.16666666666666666,
+			"words": [
+				"substantially"
+			],
+			"positive": [
+				"substantially"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "the same as that discussed in the rope example. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7543,
+		"nouns": [
+			"rope",
+			"example"
+		],
+		"dOIndex": 419,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example"
+		]
+	},
+	{
+		"txt": " There are a few differences that we'll highlight here. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7544,
+		"nouns": [
+			"differences",
+			"ll"
+		],
+		"dOIndex": 420,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"differences"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.18181818181818182,
+			"words": [
+				"highlight"
+			],
+			"positive": [
+				"highlight"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Again, these differences are due to the fact that we're now dealing with rigid bodies that rotate rather than simple particles. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7545,
+		"nouns": [
+			"differences",
+			"fact",
+			"re",
+			"bodies",
+			"particles"
+		],
+		"dOIndex": 421,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"differences",
+			"particles"
+		]
+	},
+	{
+		"txt": " The following code sample shows the additions to UpdateSimulation . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7546,
+		"nouns": [
+			"code",
+			"sample",
+			"additions",
+			"UpdateSimulation"
+		],
+		"dOIndex": 422,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"additions",
+			"UpdateSimulation"
+		]
+	},
+	{
+		"txt": " You can see there are a couple of new variables, M and Fo . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7547,
+		"nouns": [
+			"couple",
+			"variables",
+			"M",
+			"Fo"
+		],
+		"dOIndex": 423,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"variables"
+		]
+	},
+	{
+		"txt": " M is used to temporarily store moments due to spring forces Fo in the local coordinates of each Object .",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7548,
+		"nouns": [
+			"M",
+			"store",
+			"moments",
+			"forces",
+			"Fo",
+			"coordinates",
+			"Object"
+		],
+		"dOIndex": 424,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"moments",
+			"coordinates",
+			"Object"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7549,
+		"nouns": [],
+		"dOIndex": 425,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7550,
+		"nouns": [],
+		"dOIndex": 426,
+		"isQuote": false
+	},
+	{
+		"txt": "Just as the property vSprings was initialized to 0 at the start of UpdateSimulation, so too must we initialize vMSprings to 0. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7551,
+		"nouns": [
+			"property",
+			"vSprings",
+			"start",
+			"UpdateSimulation",
+			"initialize",
+			"vMSprings"
+		],
+		"dOIndex": 427,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"property",
+			"vSprings",
+			"UpdateSimulation",
+			"initialize",
+			"vMSprings"
+		]
+	},
+	{
+		"txt": " Recall, vSprings aggregates the spring forces acting on each Object . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7552,
+		"nouns": [
+			"vSprings",
+			"aggregates",
+			"forces",
+			"Object"
+		],
+		"dOIndex": 428,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Recall",
+			"vSprings",
+			"aggregates",
+			"Object"
+		]
+	},
+	{
+		"txt": " For rigid bodies that rotate, we'll use vMSprings to aggregate the moments on each Object resulting from those spring forces:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7553,
+		"nouns": [
+			"bodies",
+			"ll",
+			"use",
+			"vMSprings",
+			"moments",
+			"Object",
+			"forces"
+		],
+		"dOIndex": 429,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"vMSprings",
+			"moments",
+			"Object"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7554,
+		"nouns": [],
+		"dOIndex": 430,
+		"isQuote": false
+	},
+	{
+		"txt": "As in the rope example, UpdateSimulation steps through all the Springs , computing their stretched or compressed length, the relative velocity of each spring's endpoints, and the resulting spring forces. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7555,
+		"nouns": [
+			"rope",
+			"example",
+			"UpdateSimulation",
+			"steps",
+			"Springs",
+			"length",
+			"velocity",
+			"endpoints",
+			"forces"
+		],
+		"dOIndex": 431,
+		"nouns2": [
+			"example",
+			"UpdateSimulation",
+			"Springs",
+			"velocity",
+			"endpoints"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " These calculations are a bit different in this current example because we have to handle rotation, as explained earlier.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7556,
+		"nouns": [
+			"calculations",
+			"bit",
+			"example",
+			"rotation"
+		],
+		"dOIndex": 432,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"calculations",
+			"example",
+			"rotation"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7557,
+		"nouns": [],
+		"dOIndex": 433,
+		"isQuote": false
+	},
+	{
+		"txt": "Upon entering the for loop in the preceding code sample, End1 of the current spring is checked to see if it's connected to a fixed point in space. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7558,
+		"nouns": [
+			"loop",
+			"code",
+			"sample",
+			"End",
+			"point",
+			"space"
+		],
+		"dOIndex": 434,
+		"isQuote": false
+	},
+	{
+		"txt": " If so, the temporary variable pt1 stores the global coordinates of the endpoint, and the variable v1 stores the velocity of the endpoint, which is 0. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7559,
+		"nouns": [
+			"pt",
+			"stores",
+			"coordinates",
+			"endpoint",
+			"v",
+			"stores",
+			"velocity",
+			"endpoint"
+		],
+		"dOIndex": 435,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coordinates",
+			"endpoint",
+			"velocity"
+		]
+	},
+	{
+		"txt": " If the endpoint reference is a valid Object, then we compute the position of the endpoint, stored in pt1, just like we did in the Initialize function, using a coordinate transform as follows:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7560,
+		"nouns": [
+			"endpoint",
+			"reference",
+			"Object",
+			"position",
+			"endpoint",
+			"pt",
+			"Initialize",
+			"function",
+			"coordinate"
+		],
+		"dOIndex": 436,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"endpoint",
+			"reference",
+			"Object",
+			"position",
+			"Initialize",
+			"function",
+			"coordinate"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.058823529411764705,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7561,
+		"nouns": [],
+		"dOIndex": 437,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7562,
+		"nouns": [],
+		"dOIndex": 438,
+		"isQuote": false
+	},
+	{
+		"txt": "We compute the velocity of that point as shown in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7563,
+		"nouns": [
+			"velocity",
+			"point"
+		],
+		"dOIndex": 439,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity"
+		]
+	},
+	{
+		"txt": "Chapter 9 by first computing the velocity of the point due to rotation in body fixed coordinates, converting that to global coordinates, and then adding the result to the Object's ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7564,
+		"nouns": [
+			"Chapter",
+			"first",
+			"velocity",
+			"point",
+			"rotation",
+			"body",
+			"coordinates",
+			"coordinates",
+			"result",
+			"Object"
+		],
+		"dOIndex": 440,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter",
+			"velocity",
+			"rotation",
+			"coordinates",
+			"Object"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7565,
+		"nouns": [],
+		"dOIndex": 441,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7566,
+		"nouns": [],
+		"dOIndex": 442,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "linear velocity. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7567,
+		"nouns": [
+			"velocity"
+		],
+		"dOIndex": 443,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity"
+		]
+	},
+	{
+		"txt": " This is accomplished in the following code:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7568,
+		"nouns": [
+			"code"
+		],
+		"dOIndex": 444,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.25,
+			"words": [
+				"accomplished"
+			],
+			"positive": [
+				"accomplished"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7569,
+		"nouns": [],
+		"dOIndex": 445,
+		"isQuote": false
+	},
+	{
+		"txt": "We then repeat these calculations for the second endpoint of the spring.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7570,
+		"nouns": [
+			"calculations",
+			"second",
+			"endpoint"
+		],
+		"dOIndex": 446,
+		"nouns2": [
+			"calculations",
+			"endpoint"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7571,
+		"nouns": [],
+		"dOIndex": 447,
+		"isQuote": false
+	},
+	{
+		"txt": "Once we've obtained the positions and velocities of the spring endpoints, we compute the spring damper force in the same manner as in the rope example. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7572,
+		"nouns": [
+			"ve",
+			"positions",
+			"velocities",
+			"endpoints",
+			"damper",
+			"force",
+			"manner",
+			"rope",
+			"example"
+		],
+		"dOIndex": 448,
+		"nouns2": [
+			"positions",
+			"velocities",
+			"endpoints",
+			"example"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " The resulting spring forces are aggregated in the vSprings property of each object. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7573,
+		"nouns": [
+			"forces",
+			"vSprings",
+			"property",
+			"object"
+		],
+		"dOIndex": 449,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"vSprings",
+			"property"
+		]
+	},
+	{
+		"txt": " Note that if the spring endpoint reference is a fixed point in space, we do not aggregate the force on that fixed point.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7574,
+		"nouns": [
+			"endpoint",
+			"reference",
+			"point",
+			"space",
+			"force",
+			"point"
+		],
+		"dOIndex": 450,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"endpoint",
+			"reference"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7575,
+		"nouns": [],
+		"dOIndex": 451,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7576,
+		"nouns": [],
+		"dOIndex": 452,
+		"isQuote": false
+	},
+	{
+		"txt": "Since the Objects are rigid bodies here, we now have to compute the moment due to the spring force acting on each object. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7577,
+		"nouns": [
+			"Objects",
+			"bodies",
+			"moment",
+			"force",
+			"object"
+		],
+		"dOIndex": 453,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Objects"
+		]
+	},
+	{
+		"txt": " You must do this so that when we integrate the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7578,
+		"nouns": [],
+		"dOIndex": 454,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "equations of motion, the objects rotate properly.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7579,
+		"nouns": [
+			"equations",
+			"motion",
+			"objects"
+		],
+		"dOIndex": 455,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equations",
+			"objects"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7580,
+		"nouns": [],
+		"dOIndex": 456,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7581,
+		"nouns": [],
+		"dOIndex": 457,
+		"isQuote": false
+	},
+	{
+		"txt": "For the Object connected to End1 of the current spring, the following lines compute the moment:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7582,
+		"nouns": [
+			"Object",
+			"End",
+			"lines",
+			"moment"
+		],
+		"dOIndex": 458,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Object"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7583,
+		"nouns": [],
+		"dOIndex": 459,
+		"isQuote": false
+	},
+	{
+		"txt": "Fo is a vector representing the spring force computed earlier on the current Object in the current Object 's local, body fixed coordinate system. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7584,
+		"nouns": [
+			"Fo",
+			"vector",
+			"force",
+			"Object",
+			"Object",
+			"body",
+			"system"
+		],
+		"dOIndex": 460,
+		"nouns2": [
+			"Object"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " The line:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7585,
+		"nouns": [
+			"line"
+		],
+		"dOIndex": 461,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7586,
+		"nouns": [],
+		"dOIndex": 462,
+		"isQuote": false
+	},
+	{
+		"txt": "transforms F from global to local coordinates of the current Object, Object[j] .",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7587,
+		"nouns": [
+			"F",
+			"coordinates",
+			"Object",
+			"Object[j]"
+		],
+		"dOIndex": 463,
+		"nouns2": [
+			"coordinates",
+			"Object",
+			"Object[j]"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7588,
+		"nouns": [],
+		"dOIndex": 464,
+		"isQuote": false
+	},
+	{
+		"txt": "r is set to the local, body fixed coordinates of the spring attachment point for the current Object, and we compute the resulting moment by taking the vector cross product of r with Fo . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7589,
+		"nouns": [
+			"r",
+			"body",
+			"coordinates",
+			"attachment",
+			"point",
+			"Object",
+			"moment",
+			"vector",
+			"product",
+			"r",
+			"Fo"
+		],
+		"dOIndex": 465,
+		"nouns2": [
+			"coordinates",
+			"attachment",
+			"Object",
+			"product"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " The result is stored in the vector variable M, which gets aggregated in the Object property vMSprings . ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7590,
+		"nouns": [
+			"result",
+			"vector",
+			"M",
+			"Object",
+			"property",
+			"vMSprings"
+		],
+		"dOIndex": 466,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Object",
+			"property",
+			"vMSprings"
+		]
+	},
+	{
+		"txt": " We then perform these same sorts of calculations for the Object connected to the other end of the spring.",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7591,
+		"nouns": [
+			"sorts",
+			"calculations",
+			"Object",
+			"end"
+		],
+		"dOIndex": 467,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"calculations",
+			"Object"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7592,
+		"nouns": [],
+		"dOIndex": 468,
+		"isQuote": false
+	},
+	{
+		"txt": "After these calculations, the rest of UpdateSimulation is the same as that shown earlier; the function integrates the equations of motion and renders the scene.",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7593,
+		"nouns": [
+			"calculations",
+			"rest",
+			"UpdateSimulation",
+			"function",
+			"equations",
+			"motion",
+			"scene"
+		],
+		"dOIndex": 469,
+		"nouns2": [
+			"calculations",
+			"UpdateSimulation",
+			"function",
+			"equations"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7594,
+		"nouns": [],
+		"dOIndex": 470,
+		"isQuote": false
+	},
+	{
+		"txt": "Upon running this simulation, you'll see the linked chain swing down and to the left and then back and forth until the motion dampens out. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7595,
+		"nouns": [
+			"simulation",
+			"ll",
+			"chain",
+			"motion",
+			"dampens"
+		],
+		"dOIndex": 471,
+		"nouns2": [
+			"simulation",
+			"dampens"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " You'll also notice there's some stretch to the springs between the objects that appears to increase as you look from the lower link to the upper link. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7596,
+		"nouns": [
+			"ll",
+			"notice",
+			"stretch",
+			"springs",
+			"objects",
+			"increase",
+			"link",
+			"link"
+		],
+		"dOIndex": 472,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"stretch",
+			"springs",
+			"objects",
+			"increase"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.034482758620689655,
+			"words": [
+				"increase"
+			],
+			"positive": [
+				"increase"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " This is indeed a non uniform stretch in the springs, which makes sense when you consider that the upper spring has more weight, thus more force, pulling down on it than does the lower spring.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7597,
+		"nouns": [
+			"uniform",
+			"stretch",
+			"springs",
+			"sense",
+			"weight",
+			"force"
+		],
+		"dOIndex": 473,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"uniform",
+			"stretch",
+			"springs"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7598,
+		"nouns": [],
+		"dOIndex": 474,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7599,
+		"nouns": [],
+		"dOIndex": 475,
+		"isQuote": false
+	},
+	{
+		"txt": "As in this rope example, you can tune the spring and damping constants to minimize the spring stretch if that gap created by the stretched spring bothers you. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7600,
+		"nouns": [
+			"rope",
+			"example",
+			"tune",
+			"constants",
+			"stretch",
+			"gap"
+		],
+		"dOIndex": 476,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"constants",
+			"stretch"
+		],
+		"highfreq": {
+			"spring": 3
+		},
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.06896551724137931,
+			"words": [
+				"bothers"
+			],
+			"positive": [],
+			"negative": [
+				"bothers"
+			]
+		}
+	},
+	{
+		"txt": " You must keep in mind numerical stability if your springs are too stiff, and here again, you must implement a robust ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7601,
+		"nouns": [
+			"mind",
+			"stability",
+			"springs"
+		],
+		"dOIndex": 477,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"stability",
+			"springs"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08695652173913043,
+			"words": [
+				"robust"
+			],
+			"positive": [
+				"robust"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "integrator.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7602,
+		"nouns": [
+			"integrator"
+		],
+		"dOIndex": 478,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"integrator"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7603,
+		"nouns": [],
+		"dOIndex": 479,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7604,
+		"nouns": [],
+		"dOIndex": 480,
+		"isQuote": false
+	},
+	{
+		"txt": "Rotational Restraint",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7605,
+		"nouns": [
+			"Restraint"
+		],
+		"dOIndex": 481,
+		"nouns2": [
+			"Rotational",
+			"Restraint"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7606,
+		"nouns": [],
+		"dOIndex": 482,
+		"isQuote": false
+	},
+	{
+		"txt": "So far we've used springs only to attach objects in a way that keeps the attachment points together but allows the objects to rotate about the attachment point. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7607,
+		"nouns": [
+			"ve",
+			"springs",
+			"objects",
+			"way",
+			"attachment",
+			"points",
+			"objects",
+			"attachment",
+			"point"
+		],
+		"dOIndex": 483,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"springs",
+			"objects",
+			"attachment"
+		]
+	},
+	{
+		"txt": " This is a so called pinned joint . ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7608,
+		"nouns": [],
+		"dOIndex": 484,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7609,
+		"nouns": [],
+		"dOIndex": 485,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7610,
+		"nouns": [],
+		"dOIndex": 486,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7611,
+		"nouns": [],
+		"dOIndex": 487,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "If you want a fixed joint that minimizes the amount of rotation between the connected objects, you can add another spring to restrain the connected objects' rotation.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7612,
+		"nouns": [
+			"amount",
+			"rotation",
+			"objects",
+			"objects",
+			"rotation"
+		],
+		"dOIndex": 488,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"rotation",
+			"objects"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.037037037037037035,
+			"words": [
+				"want"
+			],
+			"positive": [
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7613,
+		"nouns": [],
+		"dOIndex": 489,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7614,
+		"nouns": [],
+		"dOIndex": 490,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 13 6 illustrates an example comprising two rigid objects connected at their ends, forming a ninety degree angle. ",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7615,
+		"nouns": [
+			"Figure",
+			"example",
+			"two",
+			"objects",
+			"ends",
+			"ninety",
+			"degree",
+			"angle"
+		],
+		"dOIndex": 491,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure",
+			"example",
+			"objects"
+		]
+	},
+	{
+		"txt": " The uppermost end of the first object is connected to a fixed point in space as in our rope and linked chain examples. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7616,
+		"nouns": [
+			"end",
+			"first",
+			"object",
+			"point",
+			"space",
+			"rope",
+			"chain",
+			"examples"
+		],
+		"dOIndex": 492,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"examples"
+		]
+	},
+	{
+		"txt": " Under gravity, the assembly would rotate and swing around this fixed point. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7617,
+		"nouns": [
+			"gravity",
+			"point"
+		],
+		"dOIndex": 493,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"gravity"
+		]
+	},
+	{
+		"txt": " However, unlike the linked chain example, the extra spring prevents the lower link from pivoting around the other end of the first link, as illustrated in ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7618,
+		"nouns": [
+			"chain",
+			"example",
+			"link",
+			"end",
+			"first",
+			"link"
+		],
+		"dOIndex": 494,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"example"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.03571428571428571,
+			"words": [
+				"prevents"
+			],
+			"positive": [],
+			"negative": [
+				"prevents"
+			]
+		}
+	},
+	{
+		"txt": "Figure 13 7",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7619,
+		"nouns": [
+			"Figure"
+		],
+		"dOIndex": 495,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure"
+		]
+	},
+	{
+		"txt": " .",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7620,
+		"nouns": [],
+		"dOIndex": 496,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7621,
+		"nouns": [],
+		"dOIndex": 497,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7622,
+		"nouns": [],
+		"dOIndex": 498,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7623,
+		"nouns": [],
+		"dOIndex": 499,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7624,
+		"nouns": [],
+		"dOIndex": 500,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7625,
+		"nouns": [],
+		"dOIndex": 501,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 13 6. Rotation restraint setup",
+		"why": "link",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7626,
+		"nouns": [
+			"Figure",
+			"Rotation",
+			"restraint",
+			"setup"
+		],
+		"dOIndex": 502,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Figure",
+			"Rotation",
+			"restraint"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7627,
+		"nouns": [],
+		"dOIndex": 503,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7628,
+		"nouns": [],
+		"dOIndex": 504,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7629,
+		"nouns": [],
+		"dOIndex": 505,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7630,
+		"nouns": [],
+		"dOIndex": 506,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Figure 13 7. Rotation restraint in action",
+		"why": "p",
+		"tags": [
+			"a",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7631,
+		"nouns": [
+			"Figure",
+			"Rotation",
+			"restraint",
+			"action"
+		],
+		"dOIndex": 507,
+		"nouns2": [
+			"Figure",
+			"Rotation",
+			"restraint"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7632,
+		"nouns": [],
+		"dOIndex": 508,
+		"isQuote": false
+	},
+	{
+		"txt": "The setup for this example is relatively straightforward and consists of setting the initial positions and orientations of two rigid bodies and connecting three springs.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7633,
+		"nouns": [
+			"setup",
+			"example",
+			"positions",
+			"orientations",
+			"two",
+			"bodies",
+			"three",
+			"springs"
+		],
+		"dOIndex": 509,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"positions",
+			"orientations",
+			"springs"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7634,
+		"nouns": [],
+		"dOIndex": 510,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7635,
+		"nouns": [],
+		"dOIndex": 511,
+		"isQuote": false
+	},
+	{
+		"txt": "This example's Initialize function is as follows:",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7636,
+		"nouns": [
+			"example",
+			"Initialize",
+			"function"
+		],
+		"dOIndex": 512,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"Initialize",
+			"function"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7637,
+		"nouns": [],
+		"dOIndex": 513,
+		"isQuote": false
+	},
+	{
+		"txt": "The two Objects are positioned with the lines:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7638,
+		"nouns": [
+			"two",
+			"Objects",
+			"lines"
+		],
+		"dOIndex": 514,
+		"nouns2": [
+			"Objects"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7639,
+		"nouns": [],
+		"dOIndex": 515,
+		"isQuote": false
+	},
+	{
+		"txt": "Basically, the first Object, Object[0] , is located somewhere toward the top middle of the screen with an initial rotation of ninety degrees so that it stands vertically. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7640,
+		"nouns": [
+			"first",
+			"Object",
+			"Object[",
+			"middle",
+			"screen",
+			"rotation",
+			"ninety",
+			"degrees"
+		],
+		"dOIndex": 516,
+		"nouns2": [
+			"Basically",
+			"Object",
+			"Object[",
+			"rotation",
+			"degrees"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.06896551724137931,
+			"words": [
+				"top"
+			],
+			"positive": [
+				"top"
+			],
+			"negative": []
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " The second Object, Object[1] , is positioned so that it lies horizontally with its left end coincident with the lower end of the first object. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7641,
+		"nouns": [
+			"second",
+			"Object",
+			"Object[",
+			"end",
+			"end",
+			"first",
+			"object"
+		],
+		"dOIndex": 517,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Object",
+			"Object["
+		]
+	},
+	{
+		"txt": " We'll put a spring there momentarily, but first, we'll connect a spring to the upper end of the first object to connect it to a fixed point. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7642,
+		"nouns": [
+			"ll",
+			"first",
+			"ll",
+			"end",
+			"first",
+			"object",
+			"point"
+		],
+		"dOIndex": 518,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " The following code takes care of that spring using the same techniques discussed earlier:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7643,
+		"nouns": [
+			"code",
+			"care",
+			"techniques"
+		],
+		"dOIndex": 519,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"techniques"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.13333333333333333,
+			"words": [
+				"care"
+			],
+			"positive": [
+				"care"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7644,
+		"nouns": [],
+		"dOIndex": 520,
+		"isQuote": false
+	},
+	{
+		"txt": "Now, we connect a spring at the corner formed by the two objects using the following code:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7645,
+		"nouns": [
+			"corner",
+			"two",
+			"objects",
+			"code"
+		],
+		"dOIndex": 521,
+		"nouns2": [
+			"objects"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7646,
+		"nouns": [],
+		"dOIndex": 522,
+		"isQuote": false
+	},
+	{
+		"txt": "If we stop here, the simulation will behave just like the linked chain example, albeit we'll have a very short chain. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7647,
+		"nouns": [
+			"simulation",
+			"chain",
+			"example",
+			"ll",
+			"chain"
+		],
+		"dOIndex": 523,
+		"nouns2": [
+			"simulation",
+			"example"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.045454545454545456,
+			"words": [
+				"like",
+				"stop"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": [
+				"stop"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": " So, to prevent rotation at the corner, we'll add another spring connecting the centers of gravity of the objects. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7648,
+		"nouns": [
+			"rotation",
+			"corner",
+			"ll",
+			"centers",
+			"gravity",
+			"objects"
+		],
+		"dOIndex": 524,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"rotation",
+			"centers",
+			"gravity",
+			"objects"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.047619047619047616,
+			"words": [
+				"prevent"
+			],
+			"positive": [],
+			"negative": [
+				"prevent"
+			]
+		}
+	},
+	{
+		"txt": " You can use other points if you desire; we chose the centers of gravity for convenience. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7649,
+		"nouns": [
+			"use",
+			"points",
+			"desire",
+			"centers",
+			"gravity",
+			"convenience"
+		],
+		"dOIndex": 525,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"centers",
+			"gravity",
+			"convenience"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.05555555555555555,
+			"words": [
+				"desire"
+			],
+			"positive": [
+				"desire"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The following code adds this rotational restraint spring:",
+		"why": "link",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7650,
+		"nouns": [
+			"code",
+			"restraint"
+		],
+		"dOIndex": 526,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"restraint"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7651,
+		"nouns": [],
+		"dOIndex": 527,
+		"isQuote": false
+	},
+	{
+		"txt": "The rest of this simulation is the same as in the linked chain example. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7652,
+		"nouns": [
+			"rest",
+			"simulation",
+			"chain",
+			"example"
+		],
+		"dOIndex": 528,
+		"nouns2": [
+			"simulation",
+			"example"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " There are no other code modifications required. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7653,
+		"nouns": [
+			"code",
+			"modifications"
+		],
+		"dOIndex": 529,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"modifications"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.1111111111111111,
+			"words": [
+				"no"
+			],
+			"positive": [],
+			"negative": [
+				"no"
+			]
+		}
+	},
+	{
+		"txt": " It's all in the setup.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7654,
+		"nouns": [
+			"setup"
+		],
+		"dOIndex": 530,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"a",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7655,
+		"nouns": [],
+		"dOIndex": 531,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7656,
+		"nouns": [],
+		"dOIndex": 532
+	},
+	{
+		"txt": "Now, if you want to allow some amount of rotation or flexibility in the joint, you can do so by tuning the spring constant for the rotation restraint spring. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7657,
+		"nouns": [
+			"amount",
+			"rotation",
+			"flexibility",
+			"rotation",
+			"restraint"
+		],
+		"dOIndex": 533,
+		"nouns2": [
+			"rotation",
+			"flexibility",
+			"restraint"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.06666666666666667,
+			"words": [
+				"allow",
+				"want"
+			],
+			"positive": [
+				"allow",
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Using linear springs creatively, you can model all sorts of joints ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7658,
+		"nouns": [
+			"springs",
+			"model",
+			"sorts",
+			"joints"
+		],
+		"dOIndex": 534,
+		"nouns2": [
+			"springs"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7659,
+		"nouns": [],
+		"dOIndex": 535
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7660,
+		"nouns": [],
+		"dOIndex": 536
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7661,
+		"nouns": [],
+		"dOIndex": 537
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7662,
+		"nouns": [],
+		"dOIndex": 538
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7663,
+		"nouns": [],
+		"dOIndex": 539
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7664,
+		"nouns": [],
+		"dOIndex": 540
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7665,
+		"nouns": [],
+		"dOIndex": 541
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7666,
+		"nouns": [],
+		"dOIndex": 542
+	},
+	{
+		"txt": "very simply.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7667,
+		"nouns": [],
+		"dOIndex": 543
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7668,
+		"nouns": [],
+		"dOIndex": 544
+	}
+]

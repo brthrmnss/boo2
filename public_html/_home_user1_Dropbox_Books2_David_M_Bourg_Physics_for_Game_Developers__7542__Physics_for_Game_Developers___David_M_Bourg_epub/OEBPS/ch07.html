@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg"><head><title>Chapter 7. Real-Time Simulations</title><link rel="stylesheet" type="text/css" href="core.css"/><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"/><link rel="up" href="pt02.html" title="Part II. Rigid-Body Dynamics"/><link rel="prev" href="pt02.html" title="Part II. Rigid-Body Dynamics"/><link rel="next" href="ch08.html" title="Chapter 8. Particles"/></head><body><section class="chapter" title="Chapter 7. Real-Time Simulations" epub:type="chapter" id="real-time_simulations"><div class="titlepage"><div><div><h2 class="title">Chapter 7. Real-Time Simulations</h2></div></div></div><p>This chapter is the first in a <a id="I_indexterm1_id319702" class="indexterm"/><a id="si7.0" class="indexterm"/>series of chapters designed to give you a thorough
+  introduction to the subject of real-time simulation. We say
+  <span class="emphasis"><em>introduction</em></span> because the subject is too vast and
+  complex to adequately treat in a few chapters; however, we say
+  <span class="emphasis"><em>thorough</em></span> because we’ll do more than touch on real-time
+  simulations. In fact, we’ll walk you through the development of two simple
+  simulations, one in two dimensions and the other in three dimensions.</p><p>What we hope to do is give you enough of an understanding of this
+  subject so that you can pursue it further with confidence. In other words,
+  we want you to have a solid understanding of the fundamentals before jumping
+  in to use someone else’s physics engine, or venturing out to write your
+  own.</p><p>In the context of this book, a real-time simulation is a process
+  whereby you calculate the state of the object (or objects) you’re trying to
+  represent on the fly. You don’t rely on prescripted motion sequences to
+  animate your object, but instead you rely on your physics model, the
+  equations of motion, and your differential equation solver to take care of
+  the motion of your object as the simulation progresses. This sort of
+  simulation can be used to model rigid bodies like the airplane in our
+  <code class="literal">FlightSim</code> example, or flexible bodies
+  such as cloth and human figures. Perhaps one of the most fundamental aspects
+  of implementing a real-time rigid-body simulator is solving the equations of
+  motion using numerical integration techniques. For this reason, we’ll spend
+  this entire chapter explaining the numerical integration techniques that
+  you’ll use later in the 2D and 3D simulators that we’ll develop.</p><p>If you refer back for a moment to <a class="xref" href="ch04.html" title="Chapter 4. Kinetics">Chapter 4</a>, where
+  we outlined a generic procedure for solving kinetics problems, you’ll see
+  that we’ve covered a lot of ground so far. The preceding chapters have shown
+  you how to estimate mass properties and develop the governing equations of
+  motion. This chapter will show you how to solve the equations of motion in
+  order to determine acceleration, velocity, and displacement. We’ll follow
+  this chapter up with several showing you how to implement both 2D and 3D
+  rigid-body simulations.</p><div class="sect1" title="Integrating the Equations of Motion"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="integrating_the_equations_of_motion">Integrating the Equations of Motion</h2></div></div></div><p>By now you should <a id="re7.1" class="indexterm"/><a id="eq7.1" class="indexterm"/>have a thorough understanding of the dynamic equations of
+    motion for particles and rigid bodies. If not, you may want to go back and
+    review <a class="xref" href="ch01.html" title="Chapter 1. Basic Concepts">Chapter 1</a> through <a class="xref" href="ch04.html" title="Chapter 4. Kinetics">Chapter 4</a> before reading this one. The next aspect of dealing
+    with the equations of motion is actually solving them in your simulation.
+    The equations of motion that we’ve been discussing can be classified as
+    ordinary differential equations. In <a class="xref" href="ch02.html" title="Chapter 2. Kinematics">Chapter 2</a> and
+    <a class="xref" href="ch04.html" title="Chapter 4. Kinetics">Chapter 4</a>, you were able to solve these differential
+    equations explicitly since you were dealing with simple functions for
+    acceleration, velocity, and displacement. This won’t be the case for your
+    simulations. As you’ll see in later chapters, force and moment
+    calculations for your system can get pretty complicated and may even rely
+    on tabulated empirical data, which will prevent you from writing simple
+    mathematical functions that can be easily integrated. This means that you
+    have to use numerical integration techniques to approximately integrate
+    the equations of motion. We say <span class="emphasis"><em>approximately</em></span> because
+    solutions based on numerical integration won’t be exact and will have a
+    certain amount of error depending on the chosen method.</p><p>We’re going to start with a rather informal explanation of how we’ll
+    apply numerical integration because it will be easier to grasp. Later
+    we’ll get into some of the formal mathematics. Take a look at the
+    differential equation of linear motion for a particle (or rigid body’s
+    center of mass):</p><table style="border: 0; " class="simplelist"><tr><td>F = m dv/dt</td></tr></table><p>Recall that this equation is a statement of force equals mass times acceleration, where
+        <span class="emphasis"><em>F</em></span> is force, <span class="emphasis"><em>m</em></span> is mass, and
+        <span class="emphasis"><em>dv</em></span>/<span class="emphasis"><em>dt</em></span> is the time derivative of velocity, which is
+      acceleration. In the simple examples of the earlier chapters of this book, we rewrote this
+      equation in the following form so it could be integrated explicitly:</p><table style="border: 0; " class="simplelist"><tr><td>dv/dt = F/m</td></tr><tr><td>dv = (F/m) dt</td></tr></table><p>One way to interpret this equation is that an infinitesimally small
+    change in velocity, <span class="emphasis"><em>dv</em></span>, is equal to
+    (<span class="emphasis"><em>F</em></span>/<span class="emphasis"><em>m</em></span>) times an infinitesimally
+    small change in time. In earlier examples, we integrated explicitly by
+    taking the definite integral of the left side of this equation with
+    respect to velocity and the right side with respect to time. In numerical
+    integration you have to take finite steps in time, thus
+    <span class="emphasis"><em>dt</em></span> goes from being infinitely small to some discrete
+    time increment, ∆<span class="emphasis"><em>t</em></span>, and you end up with a discrete
+    change in velocity, ∆<span class="emphasis"><em>v</em></span>:</p><table style="border: 0; " class="simplelist"><tr><td>∆v = (F/m) ∆t</td></tr></table><p>It is important to notice here that this does not give a formula for
+    instantaneous velocity; instead, it gives you only an approximation of the
+    change in velocity. Thus, to approximate the actual velocity of your
+    particle (or rigid body), you have to know what its velocity was before
+    the time change ∆<span class="emphasis"><em>t</em></span>. At the start of your simulation,
+    at time 0, you have to know the starting velocity of your particle. This
+    is an initial condition and is required in order to uniquely define your
+    particle’s velocity as you step <a id="I_indexterm1_id319956" class="indexterm"/>through time using this equation:<sup>[<a id="CHP-7-FN-1" href="#ftn.CHP-7-FN-1" epub:type="noteref" class="footnote">17</a>]</sup></p><table style="border: 0; " class="simplelist"><tr><td>v<sub>t+∆t</sub> = v<sub>t</sub> + (F/m)
+      ∆t</td></tr></table><p>where the initial condition is:</p><table style="border: 0; " class="simplelist"><tr><td>v<sub>t=0</sub> = v<sub>0</sub></td></tr></table><p>Here <span class="emphasis"><em>v</em></span><sub>t</sub> is velocity at
+    some time <span class="emphasis"><em>t</em></span>,
+    <span class="emphasis"><em>v</em></span><sub>t+∆t</sub> is velocity at some time
+    plus the time step, ∆<span class="emphasis"><em>t</em></span> is the time step, and
+    <span class="emphasis"><em>v</em></span><sub>0</sub> is the initial velocity at
+    time 0.</p><p>You can integrate the linear equation of motion one more time in
+    order to approximate your particle’s displacement (or position). Once
+    you’ve determined the new velocity value, at time <span class="emphasis"><em>t</em></span> +
+    ∆<span class="emphasis"><em>t</em></span>, you can approximate displacement using:</p><table style="border: 0; " class="simplelist"><tr><td>s<sub>t+∆t</sub> = s<sub>t</sub> + ∆t
+      (v<sub>t+∆t</sub>)</td></tr></table><p>where the initial condition on displacement is:</p><table style="border: 0; " class="simplelist"><tr><td>s<sub>t=0</sub> = s<sub>0</sub></td></tr></table><p>The integration technique discussed here is known as Euler’s method,
+    and it is the most basic integration method. While Euler’s method is easy
+    to grasp and fairly straightforward to implement, it isn’t necessarily the
+    most accurate method.</p><p>You can reason that the smaller you make your time step—that is, as
+        ∆<span class="emphasis"><em>t</em></span> approaches <span class="emphasis"><em>dt</em></span>—the closer you’ll get to the
+      exact solution. There are, however, computational problems associated with using very small
+      time steps. Specifically, you’ll need a huge number of calculations at very small
+        ∆<span class="emphasis"><em>t</em></span>’s, and since your calculations won’t be exact (depending on
+      numerical precision you’ll be rounding off and truncating numbers), you’ll end up with a
+      buildup of round-off error. This means that there is a practical limit as to how small a time
+      step you can take. Fortunately, there are several numerical integration techniques at your
+      disposal that are designed to increase accuracy for reasonable step sizes.</p><p>Even though we used the linear equation of motion for a particle,
+    this integration technique (and the ones we’ll show you later) applies
+    equally well to the angular equations of <a id="I_indexterm1_id320129" class="indexterm"/><a id="I_indexterm1_id320139" class="indexterm"/>motion.</p></div><div class="sect1" title="Euler’s Method"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="euleras_method">Euler’s Method</h2></div></div></div><p>The preceding <a id="re7.2" class="indexterm"/><a id="eu7.2" class="indexterm"/>explanation of Euler’s method was, as we said, informal. To
+    treat Euler’s method in a more mathematically rigorous way, we’ll look at
+    the Taylor series expansion of a general function,
+    <span class="emphasis"><em>y</em></span>(<span class="emphasis"><em>x</em></span>). Taylor’s theorem<a id="I_indexterm1_id320206" class="indexterm"/><a id="I_indexterm1_id320212" class="indexterm"/> lets you approximate the value of a function at some point
+    by knowing something about that function and its derivatives at some other
+    point. This approximation is expressed as an infinite polynomial series of
+    the form:</p><table style="border: 0; " class="simplelist"><tr><td>y(x + ∆x) = y(x) + (∆x) y'(x) +
+      ((∆x)<sup>2</sup> / 2!) y''(x) +
+      ((∆x)<sup>3</sup> / 3!) y'''(x) + · · ·</td></tr></table><p>where <span class="emphasis"><em>y</em></span> is some function of
+    <span class="emphasis"><em>x</em></span>, (x + ∆<span class="emphasis"><em>x</em></span>) is the new value of
+    <span class="emphasis"><em>x</em></span> at which you want to approximate
+    <span class="emphasis"><em>y</em></span>, <span class="emphasis"><em>y</em></span>' is the first derivative of
+    <span class="emphasis"><em>y</em></span>, <span class="emphasis"><em>y</em></span>'' is the second derivative
+    of <span class="emphasis"><em>y</em></span>, and so on.</p><p>In the case of the equation of motion discussed in the preceding
+    section, the function that you are trying to approximate is the velocity
+    as a function of time. Thus, you can write
+    <span class="emphasis"><em>v</em></span>(<span class="emphasis"><em>t</em></span>) instead of
+    <span class="emphasis"><em>y</em></span>(<span class="emphasis"><em>x</em></span>), which yields the Taylor
+    expansion:</p><table style="border: 0; " class="simplelist"><tr><td>v(t + ∆t) = v(t) + (∆t) v'(t) +
+      ((∆t)<sup>2</sup> / 2!) v''(t) +
+      ((∆t)<sup>3</sup> / 3!) v'''(t) + · · ·</td></tr></table><p>Note here that <span class="emphasis"><em>v</em></span>'(<span class="emphasis"><em>t</em></span>) is
+    equal to <span class="emphasis"><em>dv</em></span>/<span class="emphasis"><em>dt</em></span>, which equals
+    <span class="emphasis"><em>F</em></span>/<span class="emphasis"><em>m</em></span> in the example equation of
+    motion discussed in the preceding section. Note also that you know the
+    value of <span class="emphasis"><em>v</em></span> at time <span class="emphasis"><em>t</em></span>. What you
+    want to find is the value of <span class="emphasis"><em>v</em></span> at time
+    <span class="emphasis"><em>t</em></span> + ∆<span class="emphasis"><em>t</em></span> knowing
+    <span class="emphasis"><em>v</em></span> at time <span class="emphasis"><em>t</em></span> and its derivative
+    at time <span class="emphasis"><em>t</em></span>. As a first approximation, and since you
+    don’t know anything about <span class="emphasis"><em>v</em></span>’s second, third, or
+    higher derivatives, you can truncate the polynomial series after the term
+    (∆<span class="emphasis"><em>t</em></span>) <span class="emphasis"><em>v</em></span>'(<span class="emphasis"><em>t</em></span>),
+    which yields:</p><table style="border: 0; " class="simplelist"><tr><td>v(t + ∆t) = v(t) + (∆t) v'(t)</td></tr></table><p>This is the Euler integration formula that you saw in the last
+    section. Since Euler’s formula goes out only to the term that includes the
+    first derivative, the rest of the series that was left off<a id="tr7.2" class="indexterm"/> is the <span class="emphasis"><em>truncation error</em></span>. These terms
+    that were left off are called<a id="I_indexterm1_id320424" class="indexterm"/> <span class="emphasis"><em>higher-order terms</em></span>, and getting rid of
+    them results in a first-order approximation. The rationale behind this
+    approximation is that the further you go in the series, the smaller the
+    terms and the less influence they have on the approximation. Since
+    ∆<span class="emphasis"><em>t</em></span> is presumed to be a small number,
+    ∆<span class="emphasis"><em>t</em></span><sup>2</sup> is even smaller,
+    ∆<span class="emphasis"><em>t</em></span><sup>3</sup> even smaller, and so
+    on, and since these ∆<span class="emphasis"><em>t</em></span> terms appear in the
+    numerators, each successively higher-order term gets smaller and smaller.
+    In this case, the first truncated term,
+    ((∆<span class="emphasis"><em>t</em></span>)<sup>2</sup> /
+    <span class="emphasis"><em>2</em></span>!) <span class="emphasis"><em>v</em></span>''(<span class="emphasis"><em>t</em></span>),
+    dominates the truncation error, and this method is said to have an error
+    of order (∆<span class="emphasis"><em>t</em></span>)<sup>2</sup>.</p><p>Geometrically, Euler’s method approximates a new value, at the
+    current step, for the function under consideration by extrapolating in the
+    direction of the derivative of the function at the previous step. This is
+    illustrated in <a class="xref" href="ch07.html#euler_integration_step" title="Figure 7-1. Euler integration step">Figure 7-1</a>.</p><div class="figure"><a id="euler_integration_step"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject1_id320505"/><img src="httpatomoreillycomsourceoreillyimages1598926.png" alt="Euler integration step"/></div></div><div class="figure-title">Figure 7-1. Euler integration step</div></div><p><a class="xref" href="ch07.html#euler_integration_step" title="Figure 7-1. Euler integration step">Figure 7-1</a> illustrates the truncation error and shows that
+      Euler’s method will result in a polygonal approximation of the smooth function under
+      consideration. Clearly, if you decrease the step size, you increase the number of polygonal
+      segments and better approximate the function. As we said before, though, this isn’t always
+      efficient to do since the number of computations in your simulation will increase and
+      round-off error will accumulate more rapidly.</p><p>To illustrate Euler’s method in practice, let’s examine the linear
+    equation of motion for the ship example of <a class="xref" href="ch04.html" title="Chapter 4. Kinetics">Chapter 4</a>:</p><table style="border: 0; " class="simplelist"><tr><td>T – (C v) = ma</td></tr></table><p>where <span class="emphasis"><em>T</em></span> is the propeller’s thrust,
+    <span class="emphasis"><em>C</em></span> is a drag coefficient, <span class="emphasis"><em>v</em></span> is
+    the ship’s velocity, <span class="emphasis"><em>m</em></span> its mass, and
+    <span class="emphasis"><em>a</em></span> its acceleration.</p><p><a class="xref" href="ch07.html#euler_integration_comparison" title="Figure 7-2. Euler integration comparison">Figure 7-2</a> shows the Euler
+    integration solution, using a 0.5s time step, superimposed over the exact
+    solution derived in <a class="xref" href="ch04.html" title="Chapter 4. Kinetics">Chapter 4</a> for the ship’s speed over
+    time.</p><div class="figure"><a id="euler_integration_comparison"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject1_id320600"/><img src="httpatomoreillycomsourceoreillyimages1598927.png" alt="Euler integration comparison"/></div></div><div class="figure-title">Figure 7-2. Euler integration comparison</div></div><p>Zooming in on this graph allows you to see the error in the Euler
+    approximation. This is shown in <a class="xref" href="ch07.html#euler_error" title="Figure 7-3. Euler error">Figure 7-3</a>.</p><div class="figure"><a id="euler_error"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject1_id320637"/><img src="httpatomoreillycomsourceoreillyimages1598928.png" alt="Euler error"/></div></div><div class="figure-title">Figure 7-3. Euler error</div></div><p><a class="xref" href="ch07.html#exact_solution_versus_euler_solution" title="Table 7-1. Exact solution versus Euler solution">Table 7-1</a> shows the
+    numerical values of speed versus time for the range shown in <a class="xref" href="ch07.html#euler_error" title="Figure 7-3. Euler error">Figure 7-3</a>. Also shown in <a class="xref" href="ch07.html#exact_solution_versus_euler_solution" title="Table 7-1. Exact solution versus Euler solution">Table 7-1</a> is the percent
+    difference, the error, between the exact solution and the Euler solution
+    at each time step.</p><div class="table"><a id="exact_solution_versus_euler_solution"/><div class="table-title">Table 7-1. Exact solution versus Euler solution</div><div class="table-contents"><table style="border-collapse: collapse; border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; "><colgroup><col class="col1"/><col class="col2"/><col class="col3"/><col class="col4"/></colgroup><thead><tr><td style="text-align: center; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Time
+            (s)</p></td><td style="text-align: center; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Velocity, exact
+            (m/s)</p></td><td style="text-align: center; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Velocity, Euler
+            (m/s)</p></td><td style="text-align: center; vertical-align: bottom; border-bottom: 0.5pt solid ; "><p>Error</p></td></tr></thead><tbody><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>6.5</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>9.559084</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>9.733158</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>1.82%</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>7</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>10.06829</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>10.2465</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>1.77%</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>7.5</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>10.55267</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>10.73418</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>1.72%</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>8</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>11.01342</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>11.19747</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>1.67%</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; "><p>8.5</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; "><p>11.4517</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; "><p>11.63759</p></td><td style="text-align: left; vertical-align: top; "><p>1.62%</p></td></tr></tbody></table></div></div><p>As you can see, the truncation error in this example isn’t too bad.
+    It could be better, though, and we’ll show you some more accurate methods
+    in a moment. Before that, however, you should notice that in this example
+    Euler’s method is also stable—that is, it converges well with the exact
+    solution as shown in <a class="xref" href="ch07.html#convergence" title="Figure 7-4. Convergence">Figure 7-4</a>, where we’ve carried
+    the time <a id="I_indexterm1_id320986" class="indexterm"/>range out further.</p><div class="figure"><a id="convergence"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject1_id321009"/><img src="httpatomoreillycomsourceoreillyimages1598929.png" alt="Convergence"/></div></div><div class="figure-title">Figure 7-4. Convergence</div></div><p>Here’s a code snippet that implements Euler’s method for this
+    example:</p><a id="I_programlisting1_id321030"/><pre class="programlisting">// Global Variables
+float     T;     // thrust
+float     C;     // drag coefficient
+float     V;     // velocity
+float     M;     // mass
+float     S;     // displacement
+
+.
+.
+.
+
+// This function progresses the simulation by dt seconds using
+// Euler's basic method
+void StepSimulation(float dt)
+{
+     float     F;     // total force
+     float     A;     // acceleration
+     float     Vnew;  // new velocity at time t + dt
+     float     Snew;  // new position at time t + dt
+
+     // Calculate the total force
+     F = (T − (C * V));
+
+     // Calculate the acceleration
+     A = F / M;
+
+     // Calculate the new velocity at time t + dt
+     // where V is the velocity at time t
+     Vnew = V + A * dt;
+
+     // Calculate the new displacement at time t + dt
+     // where S is the displacement at time t
+     Snew = S + Vnew * dt;
+
+     // Update old velocity and displacement with the new ones
+     V = Vnew;
+     S = Snew;
+}</pre><p>Although Euler’s method is stable in this example, that isn’t always so, depending on the
+      problem you’re trying to solve. This is something that you must keep in mind when implementing
+      any numerical integration scheme. What we mean by <span class="emphasis"><em>stable</em></span> here is that, in
+      this case, the Euler solution converges with the exact solution. An unstable solution could
+      manifest errors in two ways. First, successive values could oscillate above and below the
+      exact solution, never quite converging on it. Second, successive values could diverge from the
+      exact solution, creating a greater and greater error over time.</p><p>Take a look at <a class="xref" href="ch07.html#unstable_results_using_euleras_method" title="Figure 7-5. Unstable results using Euler’s method">Figure 7-5</a>. This figure shows how
+    Euler’s method can become very unstable. What you see in the graph
+    represents the vibratory motion of a spring-mass system. This is a simple
+    dynamical system that should exhibit regular sinusoidal motion.</p><div class="figure"><a id="unstable_results_using_euleras_method"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject1_id321077"/><img src="httpatomoreillycomsourceoreillyimages1598930.png" alt="Unstable results using Euler’s method"/></div></div><div class="figure-title">Figure 7-5. Unstable results using Euler’s method</div></div><p>It’s clear from the figure that using Euler’s method yields terribly
+    unstable results. You can see how the motion amplitude continues to grow.
+    If this were a game, say, where you have a few objects connected by
+    springs interacting with one another, then this sort of instability would
+    manifest itself by wildly unrealistic motion of those objects. Worse yet,
+    the simulation could blow up, numerically speaking.</p><p>Often, your choice of step size affects stability where smaller step
+    sizes tend to eliminate or minimize instability and larger steps aggravate
+    the problem. If you’re working with a particularly unwieldy function, you
+    might find that you have to decrease your step size substantially in order
+    to achieve stability. This, however, increases the number of computations
+    you need to make. One way around this difficulty is to employ what’s
+    called an <span class="emphasis"><em>adaptive step size method</em></span>, in which
+    <a id="I_indexterm1_id321116" class="indexterm"/>you change your step size on the fly depending on the
+    magnitude of a predicted amount of truncation error from one step to the
+    next. If the truncation error is too large, then you back up a step,
+    decrease your step size, and try again.</p><p>One way to implement this for Euler’s method is to first take a step
+    of size ∆<span class="emphasis"><em>t</em></span> to obtain an estimate at time
+    <span class="emphasis"><em>t</em></span> + ∆<span class="emphasis"><em>t</em></span>, and then take two steps
+    (starting from time <span class="emphasis"><em>t</em></span> again) of size
+    ∆<span class="emphasis"><em>t</em></span>/<span class="emphasis"><em>2</em></span> to obtain another estimate
+    at time <span class="emphasis"><em>t</em></span> + ∆<span class="emphasis"><em>t</em></span>. Since we’ve been
+    talking velocity in the examples so far, let’s call the first estimate
+    <span class="emphasis"><em>v</em></span><sub>1</sub> and the second estimate
+    <span class="emphasis"><em>v</em></span><sub>2</sub>.<sup>[<a id="CHP-7-FN-2" href="#ftn.CHP-7-FN-2" epub:type="noteref" class="footnote">18</a>]</sup> A measure of the truncation error is then:</p><table style="border: 0; " class="simplelist"><tr><td>e<sub>t</sub> = |v<sub>1</sub> –
+      v<sub>2</sub>|</td></tr></table><p>If you wish to keep the truncation error within a specified limit,
+    <span class="emphasis"><em>e</em></span><sub>to</sub>, then you can use the
+    following formula to find out what your step size should be in order to
+    maintain the desired accuracy:</p><table style="border: 0; " class="simplelist"><tr><td>∆t<sub>new</sub> = ∆t<sub>old</sub>
+      (e<sub>to</sub> / e<sub>t</sub>)
+      <sup>(1/2)</sup></td></tr></table><p>Here, ∆<span class="emphasis"><em>t</em></span><sub>old</sub> is the old
+    time step and ∆<span class="emphasis"><em>t</em></span><sub>new</sub> is the new
+    one that you should use to maintain the desired accuracy. You’ll have to
+    make this check for each time step, and if you find that the error
+    warrants a smaller time step, then you’ll have to back up a step and
+    repeat it with the new time step.</p><p>Here’s a revised <code class="literal">StepSimulation</code>
+    function that implements this adaptive step size technique, checking the
+    truncation error on <a id="I_indexterm1_id321272" class="indexterm"/><a id="I_indexterm1_id321282" class="indexterm"/>the velocity integration:</p><a id="I_programlisting1_id321293"/><pre class="programlisting">// New global variable
+float     eto;     // truncation error tolerance
+
+// This function progresses the simulation by dt seconds using
+// Euler's basic method with an adaptive step size
+void StepSimulation(float dt)
+{
+     float     F;     // total force
+     float     A;     // acceleration
+     float     Vnew;  // new velocity at time t + dt
+     float     Snew;  // new position at time t + dt
+     float     V1, V2; // temporary velocity variables
+     float     dtnew;  // new time step
+     float     et;     // truncation error
+
+     // Take one step of size dt to estimate the new velocity
+     F = (T − (C * V));
+     A = F / M;
+     V1 = V + A * dt;
+
+     // Take two steps of size dt/2 to estimate the new velocity
+     F = (T − (C * V));
+     A = F / M;
+     V2 = V + A * (dt/2);
+
+     F = (T − (C * V2));
+     A = F / M;
+     V2 = V2 + A * (dt/2);
+
+     // Estimate the truncation error
+     et = absf(V1 − V2);
+
+     // Estimate a new step size
+     dtnew = dt * SQRT(eto/et);
+
+
+     if (dtnew &lt; dt)
+     { // take at step at the new smaller step size
+          F = (T − (C * V));
+          A = F / M;
+          Vnew = V + A * dtnew;
+          Snew = S + Vnew * dtnew;
+     } else
+     { // original step size is okay
+          Vnew = V1;
+          Snew = S + Vnew * dt;
+     }
+
+     // Update old velocity and displacement with the new ones
+     V = Vnew;
+     S = Snew;
+}</pre></div><div class="sect1" title="Better Methods"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="better_methods">Better Methods</h2></div></div></div><p>At this point, you might <a id="im7.3" class="indexterm"/><a id="eu7.3" class="indexterm"/><a id="re7.3" class="indexterm"/>be wondering why you can’t simply use more terms in the
+    Taylor series to reduce the truncation error of Euler’s method. In fact,
+    this is the basis for several integration methods that offer greater
+    accuracy than Euler’s basic method for a given step size. Part of the
+    difficulty associated with picking up more terms in the Taylor’s series
+    expansion is in being able to determine the second, third, fourth, and
+    higher derivatives of the function you’re trying to integrate. The way
+    around this problem is to perform additional Taylor series expansions to
+    approximate the derivatives of the function under consideration and then
+    substitute those values back into your original expansion.</p><p>Taking this approach to include one <a id="I_indexterm1_id321376" class="indexterm"/><a id="I_indexterm1_id321382" class="indexterm"/>more Taylor term beyond the basic Euler method yields a
+    so-called <span class="emphasis"><em>improved Euler method</em></span> that has a reduced
+    truncation error on the order of
+    (∆<span class="emphasis"><em>t</em></span>)<sup>3</sup> instead of
+    (∆<span class="emphasis"><em>t</em></span>)<sup>2</sup>. The formulas for
+    this method are:</p><table style="border: 0; " class="simplelist"><tr><td>k<sub>1</sub> = (∆t) y'(t, y)</td></tr><tr><td>k<sub>2</sub> = (∆t) y'(t + ∆t, y +
+      k<sub>1</sub>)</td></tr><tr><td>y(t + ∆t) = y(t) + ½ (k<sub>1</sub> +
+      k<sub>2</sub>)</td></tr></table><p>Here <span class="emphasis"><em>y</em></span> is a function of <span class="emphasis"><em>t</em></span>,
+    and <span class="emphasis"><em>y</em></span>' is the derivative as a function of
+    <span class="emphasis"><em>t</em></span> and possibly of <span class="emphasis"><em>y</em></span> depending on
+    the equations you’re trying to solve, and ∆<span class="emphasis"><em>t</em></span> the step
+    size.</p><p>To make this clearer for you, we’ll show these formulas in terms of
+    the ship example equation of motion of <a class="xref" href="ch04.html" title="Chapter 4. Kinetics">Chapter 4</a>, the
+    same example that we discussed in the previous section. In this case,
+    velocity is approximated by the following formulas:</p><table style="border: 0; " class="simplelist"><tr><td>k<sub>1</sub> = ∆t [1/m (T – C
+      v<sub>t</sub>)]</td></tr><tr><td>k<sub>2</sub> = ∆t [1/m (T – C
+      (v<sub>t</sub> + k<sub>1</sub>))]</td></tr><tr><td>v<sub>t+∆t</sub> = v<sub>t</sub> +
+      ½(k<sub>1</sub> + k<sub>2</sub>)</td></tr></table><p>where <span class="emphasis"><em>v</em></span><sub>t</sub> is the velocity
+    at time <span class="emphasis"><em>t</em></span>, and
+    <span class="emphasis"><em>v</em></span><sub>t+∆t</sub> is the new velocity at
+    time <span class="emphasis"><em>t</em></span>+∆<span class="emphasis"><em>t</em></span>.</p><p>Here is the revised <code class="literal">StepSimulation</code> function showing how to implement
+    this method in code:</p><a id="I_programlisting1_id321573"/><pre class="programlisting">// This function progresses the simulation by dt seconds using
+// the "improved" Euler method
+void StepSimulation(float dt)
+{
+     float     F;     // total force
+     float     A;     // acceleration
+     float     Vnew;  // new velocity at time t + dt
+     float     Snew;  // new position at time t + dt
+     float     k1, k2;
+
+
+     F = (T - (C * V));
+     A = F/M;
+     k1 = dt * A;
+
+     F = (T - (C * (V + k1)));
+     A = F/M;
+     k2 = dt * A;
+
+     // Calculate the new velocity at time t + dt
+     // where V is the velocity at time t
+     Vnew = V + (k1 + k2) / 2;
+
+     // Calculate the new displacement at time t + dt
+     // where S is the displacement at time t
+     Snew = S + Vnew * dt;
+
+     // Update old velocity and displacement with the new ones
+     V = Vnew;
+     S = Snew;
+}</pre><p>We can carry out this procedure of taking on more Taylor terms even
+    further. The <a id="ru7.3" class="indexterm"/><a id="ret7.3" class="indexterm"/>popular Runge-Kutta method takes such an approach to reduce
+    the truncation error to the order of
+    (∆<span class="emphasis"><em>t</em></span>)<sup>5</sup>. The integration
+    formulas for this method are as follows:</p><table style="border: 0; " class="simplelist"><tr><td>k<sub>1</sub> = (∆t) y'(t, y)</td></tr><tr><td>k<sub>2</sub> = (∆t) y'(t + ∆t/2, y +
+      k<sub>1</sub>/2)</td></tr><tr><td>k<sub>3</sub> = (∆t) y'(t + ∆t/2, y +
+      k<sub>2</sub>/2)</td></tr><tr><td>k<sub>4</sub> = (∆t) y'(t + ∆t, y +
+      k<sub>3</sub>)</td></tr><tr><td>y(t + ∆t) = y(t) + 1/6 (k<sub>1</sub> + 2
+      (k<sub>2</sub>) + 2 (k<sub>3</sub>) +
+      k<sub>4</sub>)</td></tr></table><p>Applying these formulas to our ship example yields:</p><table style="border: 0; " class="simplelist"><tr><td>k<sub>1</sub> = ∆t [1/m (T – C
+      v<sub>t</sub>)]</td></tr><tr><td>k<sub>2</sub> = ∆t [1/m (T – C
+      (v<sub>t</sub> + k<sub>1</sub>/2))]</td></tr><tr><td>k<sub>3</sub> = ∆t [1/m (T – C
+      (v<sub>t</sub> + k<sub>2</sub>/2))]</td></tr><tr><td>k<sub>4</sub> = ∆t [1/m (T – C
+      (v<sub>t</sub> + k<sub>3</sub>))]</td></tr><tr><td>v<sub>t+∆t</sub> = v<sub>t</sub> + 1/6
+      (k<sub>1</sub> + 2 (k<sub>2</sub>) + 2
+      (k<sub>3</sub>) + k<sub>4</sub>)</td></tr></table><p>For our example, the Runge-Kutta method is implemented as
+    follows:</p><a id="I_programlisting1_id321789"/><pre class="programlisting">// This function progresses the simulation by dt seconds using
+// the Runge-Kutta method
+void StepSimulation(float dt)
+{
+     float     F;     // total force
+     float     A;     // acceleration
+     float     Vnew;  // new velocity at time t + dt
+     float     Snew;  // new position at time t + dt
+     float     k1, k2, k3, k4;
+
+
+     F = (T - (C * V));
+     A = F/M;
+     k1 = dt * A;
+
+     F = (T - (C * (V + k1/2)));
+     A = F/M;
+     k2 = dt * A;
+
+     F = (T - (C * (V + k2/2)));
+     A = F/M;
+     k3 = dt * A;
+
+     F = (T - (C * (V + k3)));
+     A = F/M;
+     k4 = dt * A;
+
+     // Calculate the new velocity at time t + dt
+     // where V is the velocity at time t
+     Vnew = V + (k1 + 2*k2 + 2*k3 + k4) / 6;
+
+     // Calculate the new displacement at time t + dt
+     // where S is the displacement at time t
+     Snew = S + Vnew * dt;
+
+     // Update old velocity and displacement with the new ones
+     V = Vnew;
+     S = Snew;
+}</pre><p>To show you how accuracy is improved over the basic Euler method,
+    we’ve superimposed integration results for the ship example using these
+    two methods over those shown in <a class="xref" href="ch07.html#euler_integration_comparison" title="Figure 7-2. Euler integration comparison">Figure 7-2</a> and <a class="xref" href="ch07.html#euler_error" title="Figure 7-3. Euler error">Figure 7-3</a>. <a class="xref" href="ch07.html#method_comparison" title="Figure 7-6. Method comparison">Figure 7-6</a> and <a class="xref" href="ch07.html#a_closer_look" title="Figure 7-7. A closer look">Figure 7-7</a> show the results, where <a class="xref" href="ch07.html#a_closer_look" title="Figure 7-7. A closer look">Figure 7-7</a> is a zoomed view of 7-6.</p><div class="figure"><a id="method_comparison"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject1_id321842"/><img src="httpatomoreillycomsourceoreillyimages1598931.png" alt="Method comparison"/></div></div><div class="figure-title">Figure 7-6. Method comparison</div></div><div class="figure"><a id="a_closer_look"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject1_id321871"/><img src="httpatomoreillycomsourceoreillyimages1598932.png" alt="A closer look"/></div></div><div class="figure-title">Figure 7-7. A closer look</div></div><p>As you can see from these figures, it’s impossible to discern the curves for the improved
+      Euler and Runge-Kutta methods from the exact solution because they fall almost right on top of
+      each other. These results clearly show the improvement in accuracy over the basic Euler
+      method, whose curve is distinct from the other three. Over the interval from 6.5 to 8.5
+      seconds, the average truncation error is 1.72%, 0.03%, and
+      3.6×10<sup>−6</sup>% for Euler’s method, the improved Euler method, the
+      Runge-Kutta method, respectively. It is obvious, based on these results, that for this
+      problem, the Runge-Kutta method yields substantially better results for a given step size than
+      the other two methods. Of course, you pay for this accuracy, since you have several more
+      computations per step in the Runge-Kutta method.</p><p>Both of these methods are generally more stable than Euler’s method,
+    which is a huge benefit in real-time applications. Recall our discussion
+    earlier about the stability of Euler’s method. <a class="xref" href="ch07.html#unstable_results_using_euleras_method" title="Figure 7-5. Unstable results using Euler’s method">Figure 7-5</a> showed the results of
+    applying Euler’s method to an oscillating dynamical system. There, the
+    motion results that should be sinusoidal were wildly erratic (i.e.,
+    unstable). Applying the improved Euler method, or the Runge-Kutta method,
+    to the same problem yields stable results, as shown in <a class="xref" href="ch07.html#stable_results_using_the_improved_euler" title="Figure 7-8. Stable results using the improved Euler or the Runge-Kutta methods">Figure 7-8</a>.</p><div class="figure"><a id="stable_results_using_the_improved_euler"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject1_id321932"/><img src="httpatomoreillycomsourceoreillyimages1598933.png" alt="Stable results using the improved Euler or the Runge-Kutta methods"/></div></div><div class="figure-title">Figure 7-8. Stable results using the improved Euler or the Runge-Kutta
+      methods</div></div><p>Here the oscillatory motion is clearly sinusoidal, as it should be.
+    The results for this particular problem are almost identical whether you
+    use the improved Euler method or the Runge-Kutta method. Since for this
+    problem the results of both methods are virtually the same, you can save
+    computational time and memory using the improved Euler method versus the
+    Runge-Kutta method. This can be a significant advantage for real-time
+    games. Remember the Runge-Kutta method requires four derivative
+    computations per time step.</p><p>These methods aren’t the only ones at your disposal, but they are the most common. The
+      Runge-Kutta method is particularly popular as a general-purpose numerical integration scheme.
+      Other methods attempt to improve computational efficiency even further—that is, they are
+      designed to minimize truncation error while still allowing you to take relatively large step
+      sizes so as to reduce the number of steps you have to take in your integration. Still other
+      methods are especially tailored for specific problem types. We cite some pretty good
+      references for further reading on this subject in the <a id="I_indexterm1_id321970" class="indexterm"/><a id="I_indexterm1_id321980" class="indexterm"/><a id="I_indexterm1_id321989" class="indexterm"/><a id="I_indexterm1_id321998" class="indexterm"/><a id="I_indexterm1_id322008" class="indexterm"/><a class="link" href="apd.html" title="Appendix D. Bibliography">Bibliography</a>.</p></div><div class="sect1" title="Summary"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="summary-id1">Summary</h2></div></div></div><p>At this point you should be comfortable with the terms that appear in the equations of
+      motion and be able to calculate terms like the sum of forces and moments, mass, and inertia.
+      You should also have a solid understanding of basic numerical integration techniques.
+      Implementing these techniques in code is really straightforward since they are composed of
+      simple polynomial functions. The hard part is developing the derivative function for your
+      problem. In the case of the equations of motion, the derivative function will include all your
+      force and moment calculations for the particle or rigid body that you are modeling. You’ll see
+      some more numerical integration <a id="I_indexterm1_id322037" class="indexterm"/>code when you get to <a class="xref" href="ch08.html" title="Chapter 8. Particles">Chapter 8</a>, <a class="xref" href="ch09.html" title="Chapter 9. 2D Rigid-Body Simulator">Chapter 9</a>, and <a class="xref" href="ch11.html" title="Chapter 11. Rotation in 3D Rigid-Body Simulators">Chapter 11</a>.</p></div><div class="footnotes" epub:type="footnotes"><br/><hr style="width: 100; align: left;"/><div class="footnote" epub:type="footnote" id="ftn.CHP-7-FN-1"><p><sup>[<a href="#CHP-7-FN-1" class="para">17</a>] </sup>In mathematics, this sort of problem is termed an
+        <span class="emphasis"><em>initial value problem</em></span>.</p></div><div class="footnote" epub:type="footnote" id="ftn.CHP-7-FN-2"><p><sup>[<a href="#CHP-7-FN-2" class="para">18</a>] </sup>Even though we’re talking about velocity and time here, these
+        techniques apply to any function—for example, displacement versus
+        time, etc.</p></div></div></section></body></html>

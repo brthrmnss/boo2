@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg"><head><title>Chapter 4. Kinetics</title><link rel="stylesheet" type="text/css" href="core.css"/><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"/><link rel="up" href="pt01.html" title="Part I. Fundamentals"/><link rel="prev" href="ch03.html" title="Chapter 3. Force"/><link rel="next" href="ch05.html" title="Chapter 5. Collisions"/></head><body><section class="chapter" title="Chapter 4. Kinetics" epub:type="chapter" id="kinetics"><div class="titlepage"><div><div><h2 class="title">Chapter 4. Kinetics</h2></div></div></div><p>Recall that kinetics is the study of <a id="ki4.0" class="indexterm"/>the motion of bodies, including the forces that act on them.
+  It’s now time that we combine the material presented in the earlier
+  chapters—namely, kinematics and forces—to study the subject of kinetics. As
+  in <a class="xref" href="ch02.html" title="Chapter 2. Kinematics">Chapter 2</a> on kinematics, we’ll first discuss particle
+  kinetics and then go on to discuss rigid-body kinetics.</p><p>In kinetics, the most important equation that you must <a id="I_indexterm4_id306742" class="indexterm"/>consider is Newton’s second law:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>F</strong></span> = m<span class="strong"><strong>a</strong></span></td></tr></table><p>When rigid bodies are involved, you must also consider that the forces
+  acting on the body will tend to cause rotation of the body in addition to
+  translation. The basic relationship here is:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>M</strong></span><sub>cg</sub> =
+    <span class="strong"><strong>I α</strong></span></td></tr></table><p>where <span class="strong"><strong>M</strong></span><sub>cg</sub> is
+  the vector sum of all moments (torques) acting on the body, <span class="strong"><strong>I</strong></span> is the body moment of inertia tensor, and
+  <span class="strong"><strong>α</strong></span> is the angular acceleration.</p><p>Collectively, these two equations are referred to as <a id="I_indexterm4_id306828" class="indexterm"/>the <span class="emphasis"><em>equations of motion</em></span>.</p><p>There are two types of problems that you will encounter in kinetics. One type is where you
+    know the force(s) acting on the body, or you can estimate them, and you must solve for the
+    resulting acceleration of the body (and subsequently its velocity and displacement). Another
+    type is where you know the body’s acceleration, or can readily determine it using kinematics,
+    and you must solve for the force(s) acting on the body.</p><p>This chapter will primarily discuss the first type of problem, where you know the force(s)
+    acting on the body, which is more common to in-game physics. The second type of problem has
+    become important with the advent of motion-based controllers such as the Sony SixAxis and
+    Nintendo Wii Remote. These controllers rely <a id="I_indexterm4_id306859" class="indexterm"/><a id="I_indexterm4_id306868" class="indexterm"/>on <span class="emphasis"><em>digital accelerometers</em></span> to directly measure the acceleration
+    of a controller. While this is most often used to find the controller’s orientation, it is also
+    possible to integrate the time history of these sensor values to determine velocity and
+    position. Additionally, if you know the mass of the controller or device, you can find the
+    force. Accelerometers are found in most smartphones as well, which also allows for the use of
+    kinematic-based input. So as to not confuse the two types of problems, we’ll discuss the second
+    type, with the acceleration as input, in detail in <a class="xref" href="ch21.html" title="Chapter 21. Accelerometers">Chapter 21</a>.</p><p>Let us stress that you must consider the sum of
+  <span class="emphasis"><em>all</em></span> of the forces acting on the body when solving
+  kinetics problems. These include all applied forces and all reaction forces.
+  Aside from the computational difficulties of solving the equations of
+  motion, one of the more challenging aspects of kinetics is identifying and
+  properly accounting for all of these forces. In later chapters, you’ll look
+  at specific problems where we’ll investigate the particular forces involved.
+  <a id="I_indexterm4_id306900" class="indexterm"/>For now, and for the purpose of generality, let’s stick with
+  the idealized forces introduced in the previous chapter.</p><p>Here is the general procedure for solving kinetics problems of
+  interest to us:</p><div class="orderedlist"><ol class="orderedlist" type="1"><li class="listitem"><p>Calculate the body’s mass properties (mass, center of mass, and
+      moment of inertia).</p></li><li class="listitem"><p>Identify and quantify all forces and moments acting on the
+      body.</p></li><li class="listitem"><p>Take the vector sum of all forces and moments.</p></li><li class="listitem"><p>Solve the equations of motion for linear and angular
+      accelerations.</p></li><li class="listitem"><p>Integrate with respect to time to find linear and angular
+      velocity.</p></li><li class="listitem"><p>Integrate again with respect to time to find linear and angular
+      displacement.</p></li></ol></div><p>This outline makes the solution to kinetics problems seem easier than
+  it actually is because there are a number of complicating factors that
+  you’ll have to overcome. For example, in many cases the forces acting on a
+  body are functions of displacement, velocity, or acceleration. This means
+  that you’ll have to use iterative techniques in order to solve the equations
+  of motion. Further, since you most likely will not be able to derive
+  closed-form solutions for acceleration, you’ll have to numerically integrate
+  in order to estimate velocity and displacement at each instant of time under
+  consideration. These computational aspects will be addressed <a id="I_indexterm4_id306982" class="indexterm"/>further in <a class="xref" href="ch07.html" title="Chapter 7. Real-Time Simulations">Chapter 7</a> through
+  <a class="xref" href="ch13.html" title="Chapter 13. Connecting Objects">Chapter 13</a>.</p><div class="sect1" title="Particle Kinetics in 2D"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="particle_kinetics_in_2d">Particle Kinetics in 2D</h2></div></div></div><p>As in particle <a id="ki4.1" class="indexterm"/><a id="pa4.1" class="indexterm"/><a id="tw4.1" class="indexterm"/>kinematics, in particle kinetics you need to consider only
+    the linear motion of the particle. Thus, the equations of motion will
+    consist of equations of the form <span class="strong"><strong>F</strong></span> =
+    <span class="emphasis"><em>m</em></span><span class="strong"><strong>a</strong></span>, where motion
+    in each coordinate direction will have its own equation. The equations for
+    2D particle motion are:</p><table style="border: 0; " class="simplelist"><tr><td>ΣF<sub>x</sub> = m
+      a<sub>x</sub></td></tr><tr><td>ΣF<sub>y</sub> = m
+      a<sub>y</sub></td></tr></table><p>where ΣF<sub>x</sub> means the sum of all forces in the
+    x-direction, ΣF<sub>y</sub> means the sum of all forces in the
+    y-direction, a<sub>x</sub> is the acceleration in the
+    x-direction, and a<sub>y</sub> is the acceleration in the
+    y-direction.</p><p>The resultant force and acceleration vectors are:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>a</strong></span> = a<sub>x</sub>
+      <span class="strong"><strong>i</strong></span> + a<sub>y</sub>
+      <span class="strong"><strong>j</strong></span></td></tr></table><div class="informalequation"><div class="mediaobject"><img src="eq_0401.png" alt="Particle Kinetics in 2D"/></div></div><table style="border: 0; " class="simplelist"><tr><td>Σ<span class="strong"><strong>F</strong></span> =
+      ΣF<sub>x</sub> <span class="strong"><strong>i</strong></span> +
+      ΣF<sub>y</sub> <span class="strong"><strong>j</strong></span></td></tr><tr><td>ΣF =   
+      <span class="inlinemediaobject"><img src="inleq_0402.png" alt=""/></span>
+      </td></tr></table><p>Let’s look at an example that appears simple but demonstrates the
+    complexity of finding closed-form solutions. <a id="sh4.1" class="indexterm"/>A ship floating in water, initially at rest, starts up its
+    propeller generating a thrust, <span class="emphasis"><em>T</em></span>, which starts the
+    ship moving forward. Assume that the ship’s forward speed is slow and the
+    <a id="I_indexterm4_id307254" class="indexterm"/>resistance to its motion can be approximated by:</p><table style="border: 0; " class="simplelist"><tr><td>R = –C v</td></tr></table><p>where <span class="emphasis"><em>R</em></span> is the total resistance,
+    <span class="emphasis"><em>C</em></span> is a drag coefficient, <span class="emphasis"><em>v</em></span> is
+    the ship speed, and the minus sign indicates that this resistive force
+    opposes the forward motion of the ship. Find formulas for the ship’s
+    speed, acceleration, and distance traveled as functions of time, assuming
+    that the propeller thrust and resistance force vectors act on a line of
+    action passing through the ship’s center of gravity. This assumption lets
+    you treat the ship as a particle instead of a rigid body.</p><p>The first step in solving this problem is to identify all of the
+    forces acting on the ship. <a class="xref" href="ch04.html#free-body_diagram_of_ship" title="Figure 4-1. Free-body diagram of ship">Figure 4-1</a>
+    shows a <span class="emphasis"><em>free-body diagram</em></span> of the ship with all of the
+    forces acting on it—namely, the propeller thrust, <span class="emphasis"><em>T</em></span>;
+    resistance, <span class="emphasis"><em>R</em></span>; the ship’s weight,
+    <span class="emphasis"><em>W</em></span>; and buoyancy, <span class="emphasis"><em>B</em></span>.</p><div class="figure"><a id="free-body_diagram_of_ship"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject4_id307335"/><img src="httpatomoreillycomsourceoreillyimages1598901.png" alt="Free-body diagram of ship"/></div></div><div class="figure-title">Figure 4-1. Free-body diagram of ship</div></div><p>Notice here that the buoyancy force is exactly equal in magnitude to
+    the ship’s weight and opposite in direction; thus, these forces cancel
+    each other out and there will be no motion in the y-direction. This must
+    be the case if the ship is to stay afloat. This observation effectively
+    reduces the problem to a one-dimensional problem with motion in the
+    x-direction, only where the forces acting in the x-direction are the
+    propeller thrust and resistance.</p><p>Now you can write the equation (for motion in the x-direction) <a id="I_indexterm4_id307363" class="indexterm"/><a id="eq4.1" class="indexterm"/>using Newton’s second law, as follows:</p><table style="border: 0; " class="simplelist"><tr><td>ΣF = m a</td></tr><tr><td>T – R = m a</td></tr><tr><td>T – (C v) = m a</td></tr></table><p>Where <span class="emphasis"><em>a</em></span> is the acceleration in the x-direction,
+    and <span class="emphasis"><em>v</em></span> is the speed in the x-direction.</p><p>The next step is to integrate this equation of motion in order to
+    derive a formula for the speed of the ship as a function of time. To do
+    this, you must make the substitution <span class="emphasis"><em>a</em></span> =
+    <span class="emphasis"><em>dv</em></span>/<span class="emphasis"><em>dt</em></span>, rearrange, integrate,
+    <a id="I_indexterm4_id307434" class="indexterm"/>and then solve for speed as follows:</p><table style="border: 0; " class="simplelist"><tr><td>T – (C v) = m (dv/dt)</td></tr><tr><td>dt = (m / (T–Cv)) dv</td></tr><tr><td>∫<sub>(0 to t)</sub> dt = ∫<sub>(v1 to v2)</sub> (m / (T–Cv))
+        dv</td></tr><tr><td>t – 0 = –(m/C) ln(T–Cv) | <sub>(v1 to v2)</sub></td></tr><tr><td>t = –(m/C) ln(T–Cv<sub>2</sub>) + (m/C)
+        ln(T–Cv<sub>1</sub>)</td></tr><tr><td>t = (m/C) [ln(T–Cv<sub>1</sub>) –
+        ln(T–Cv<sub>2</sub>)]</td></tr><tr><td>(C/m) t = ln [(T–Cv<sub>1</sub>) /
+        (T–Cv<sub>2</sub>)]</td></tr><tr><td>e<sup>(C/m) t</sup> = e <sup>ln [(T–Cv1) /
+          (T–Cv2)]</sup></td></tr><tr><td>e<sup>(C/m) t</sup> = (T–Cv<sub>1</sub>) /
+          (T–Cv<sub>2</sub>)</td></tr><tr><td>(T–Cv<sub>2</sub>) = (T–Cv<sub>1</sub>)
+          e<sup>–(C/m)t</sup></td></tr><tr><td>v<sub>2</sub> = (T/C) – e<sup>–(C/m) t</sup> (T/C –
+          v<sub>1</sub>)</td></tr></table><p>where <span class="emphasis"><em>v</em></span><sub>1</sub> is the initial
+    ship speed (which is constant) and
+    <span class="emphasis"><em>v</em></span><sub>2</sub> is the ship speed at time
+    <span class="emphasis"><em>t</em></span>. <span class="emphasis"><em>v</em></span><sub>2</sub> is
+    what you’re after here, since it tells you how fast the ship is traveling
+    at any instant of time.</p><p>Now that you have an equation for speed as a function of time, you
+    can derive an equation for <a id="I_indexterm4_id307595" class="indexterm"/>displacement (distance traveled, in this case) as a function
+    of time. Here, you’ll have to recall the formula <span class="emphasis"><em>v dt</em></span>
+    = <span class="emphasis"><em>ds</em></span>, substitute the previous formula for speed,
+    integrate, rearrange, and solve for distance traveled. These steps are
+    shown here:</p><table style="border: 0; " class="simplelist"><tr><td>v dt = ds</td></tr><tr><td>v<sub>2</sub> dt = ds</td></tr><tr><td>((T/C) – e<sup>–(C/m) t</sup> (T/C –
+      v<sub>1</sub>)) dt = ds</td></tr><tr><td>∫<sub>(0 to t)</sub> (T/C) – e<sup>–(C/m)
+      t</sup> (T/C – v<sub>1</sub>) dt = ∫<sub>(s1
+      to s2)</sub> ds</td></tr><tr><td>(T/C) ∫<sub>(0 to t)</sub> dt – (T/C –
+      v<sub>1</sub>) ∫<sub>(0 to t)</sub>
+      e<sup>–(C/m) t</sup> dt = s<sub>2</sub> –
+      s<sub>1</sub></td></tr><tr><td>[(T/C) t + ((T/C) – v<sub>1</sub>)(m/C)
+      e<sup>–(C/m) t</sup>] <sub>(0 to t)</sub> =
+      s<sub>2</sub> – s<sub>1</sub></td></tr><tr><td>[(T/C) t + ((T/C) – v<sub>1</sub>)(m/C)
+      e<sup>–(C/m) t</sup>] – [0 + ((T/C) –
+      v<sub>1</sub>)(m/C)] = s<sub>2</sub> –
+      s<sub>1</sub></td></tr><tr><td>(T/C) t + (T/C – v<sub>1</sub>) (m/C)
+      e<sup>–(C/m) t</sup> – (T/C – v<sub>1</sub>)
+      (m/C) = s<sub>2</sub> – s<sub>1</sub></td></tr><tr><td>s<sub>2</sub> = s<sub>1</sub> + (T/C) t
+      + (T/C – v<sub>1</sub>) (m/C) e<sup>–(C/m)
+      t</sup> – (T/C – v<sub>1</sub>) (m/C)</td></tr></table><p>Finally you can write an equation for <a id="I_indexterm4_id307778" class="indexterm"/>acceleration by going back to the original equation of
+    motion and solving for acceleration:</p><table style="border: 0; " class="simplelist"><tr><td>T – (C v) = m a</td></tr><tr><td>a = (T – (C v)) / m</td></tr></table><p>where:</p><table style="border: 0; " class="simplelist"><tr><td>v = v<sub>2</sub> = (T/C) – e<sup>–(C/m)
+      t</sup> (T/C – v<sub>1</sub>)</td></tr></table><p>In summary, the equations for velocity, distance traveled, and
+    acceleration are as follows:</p><table style="border: 0; " class="simplelist"><tr><td>v<sub>2</sub> = (T/C) – e<sup>–(C/m)
+      t</sup> (T/C – v<sub>1</sub>)</td></tr><tr><td>s<sub>2</sub> = s<sub>1</sub> + (T/C) t
+      + (T/C – v<sub>1</sub>) (m/C) e<sup>–(C/m)
+      t</sup> – (T/C – v<sub>1</sub>) (m/C)</td></tr><tr><td>a = (T – (C v)) / m</td></tr></table><p>To illustrate the motion of the ship further, we’ve plotted the
+    ship’s speed, distance traveled, and acceleration versus time, as shown in
+    <a class="xref" href="ch04.html#speed_versus_time" title="Figure 4-2. Speed versus time">Figure 4-2</a>, <a class="xref" href="ch04.html#distance_versus_time" title="Figure 4-3. Distance versus time">Figure 4-3</a>, and <a class="xref" href="ch04.html#acceleration_versus_time" title="Figure 4-4. Acceleration versus time">Figure 4-4</a>. To facilitate these illustrations,
+    we’ve assumed the following:</p><div class="itemizedlist"><ul class="itemizedlist"><li class="listitem"><p>The initial ship speed and displacement are 0 at time 0.</p></li><li class="listitem"><p>The propeller thrust is 20,000 thrust units.</p></li><li class="listitem"><p>The ship’s mass is 10,000 mass units.</p></li><li class="listitem"><p>The drag coefficient is 1,000.</p></li></ul></div><div class="figure"><a id="speed_versus_time"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject4_id307946"/><img src="httpatomoreillycomsourceoreillyimages1598902.png" alt="Speed versus time"/></div></div><div class="figure-title">Figure 4-2. Speed versus time</div></div><div class="figure"><a id="distance_versus_time"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject4_id307974"/><img src="httpatomoreillycomsourceoreillyimages1598903.png" alt="Distance versus time"/></div></div><div class="figure-title">Figure 4-3. Distance versus time</div></div><div class="figure"><a id="acceleration_versus_time"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject4_id308003"/><img src="httpatomoreillycomsourceoreillyimages1598904.png" alt="Acceleration versus time"/></div></div><div class="figure-title">Figure 4-4. Acceleration versus time</div></div><p>You’ll notice that the ship’s speed approaches <a id="I_indexterm4_id308024" class="indexterm"/><a id="I_indexterm4_id308034" class="indexterm"/><a id="I_indexterm4_id308044" class="indexterm"/><a id="I_indexterm4_id308054" class="indexterm"/>the steady state speed of 20 speed units, assuming that the
+    propeller thrust remains constant. This corresponds to a reduction in
+    acceleration from a maximum acceleration at time 0 to no acceleration once
+    the steady speed is achieved.</p><p>This example illustrates how to set up the differential equations of
+    motion and integrate them to find velocity, displacement, and
+    acceleration. In this case, you were able to find a closed-form
+    solution—that is, you were able to integrate the equations symbolically to
+    derive new ones. You could do this because we imposed enough constraints
+    on the problem to make it manageable. But you can readily see that if
+    there were more forces acting on the ship, or if the thrust were not held
+    constant but was some function of speed, or if the resistance were a
+    function of speed squared, and so on, the problem gets increasingly
+    complicated—making a closed-form solution much more difficult, if not
+    <a id="I_indexterm4_id308076" class="indexterm"/><a id="I_indexterm4_id308086" class="indexterm"/><a id="I_indexterm4_id308095" class="indexterm"/><a id="I_indexterm4_id308105" class="indexterm"/><a id="I_indexterm4_id308114" class="indexterm"/>impossible.</p></div><div class="sect1" title="Particle Kinetics in 3D"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="particle_kinetics_in_3d">Particle Kinetics in 3D</h2></div></div></div><p>As in kinematics, <a id="ki4.2" class="indexterm"/><a id="pa4.2" class="indexterm"/><a id="th4.2" class="indexterm"/><a id="I_indexterm4_id308188" class="indexterm"/>extending the equations of motion for a particle to three
+    dimensions is easy to do. You simply need to add one more component and
+    will end up with three equations as follows:</p><table style="border: 0; " class="simplelist"><tr><td>ΣF<sub>x</sub> = m
+      a<sub>x</sub></td></tr><tr><td>ΣF<sub>y</sub> = m
+      a<sub>y</sub></td></tr><tr><td>ΣF<sub>z</sub> = m
+      a<sub>z</sub></td></tr></table><p>The resultant force and acceleration vectors are now:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>a</strong></span> = a<sub>x</sub>
+      <span class="strong"><strong>i</strong></span> + a<sub>y</sub>
+      <span class="strong"><strong>j</strong></span> + a<sub>z</sub>
+      <span class="strong"><strong>k</strong></span></td></tr><tr><td>a = 
+        <span class="inlinemediaobject"><img src="inleq_0403.png" alt=""/></span>
+      </td></tr><tr><td>Σ<span class="strong"><strong>F</strong></span> =
+      ΣF<sub>x</sub> <span class="strong"><strong>i</strong></span> +
+      ΣF<sub>y</sub> <span class="strong"><strong>j</strong></span> +
+      ΣF<sub>z</sub> <span class="strong"><strong>k</strong></span></td></tr><tr><td>ΣF = 
+        <span class="inlinemediaobject"><img src="inleq_0404.png" alt=""/></span>
+      </td></tr></table><p>To hammer these concepts home, we want to present another
+    example.</p><p>Let’s go back to the cannon example <a id="sh4.2" class="indexterm"/><a id="the4.2" class="indexterm"/>program discussed in <a class="xref" href="ch02.html" title="Chapter 2. Kinematics">Chapter 2</a>. In that
+    example, we made some simplifying assumptions so we could focus on the
+    kinematics of the problem without complicating it too much. One of the
+    more significant assumptions we made was that there was no drag acting on
+    the projectile as it flew through the air. Physically, this would be valid
+    only if the projectile were moving through a vacuum, which, of course, is
+    unlikely here on Earth. Another significant assumption we made was that
+    there was no wind to act on the projectile and affect its course. These
+    two considerations, drag and wind, are important in real-life projectile
+    problems, so to make this example a little more interesting—and more
+    challenging to the user if this were an actual game—we’ll add these two
+    considerations now.</p><p>First, assume that the projectile is a sphere and the drag force
+    acting on it as it flies through the air is a function of some drag
+    coefficient and the speed of the projectile. This drag force <a id="I_indexterm4_id308408" class="indexterm"/>can be written as follows:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>F</strong></span><sub>d</sub> =
+      –C<sub>d</sub> <span class="strong"><strong>v</strong></span></td></tr><tr><td><span class="strong"><strong>F</strong></span><sub>d</sub> =
+      –C<sub>d</sub> v<sub>x</sub> <span class="strong"><strong>i</strong></span> – C<sub>d</sub>
+      v<sub>y</sub> <span class="strong"><strong>j</strong></span> –
+      C<sub>d</sub> v<sub>z</sub> <span class="strong"><strong>k</strong></span></td></tr></table><p>where <span class="emphasis"><em>C</em></span><sub>d</sub> is the drag
+    coefficient, <span class="emphasis"><em>v</em></span> is the velocity of the projectile
+    (<span class="emphasis"><em>v</em></span><sub>x</sub>,
+    <span class="emphasis"><em>v</em></span><sub>y</sub>, and
+    <span class="emphasis"><em>v</em></span><sub>z</sub> are its components), and
+    the minus sign means that this drag force opposes the projectile’s motion.
+    Actually, we’re cheating a bit here since in reality the fluid dynamic
+    drag would be more a function of speed squared. We’re doing this here to
+    facilitate a closed-form solution. Also, the drag coefficient here would
+    be determined experimentally for each shape. Later, we’ll discuss how
+    experimental data is used on basic shapes to give data for similar
+    ships.</p><p>Second, assume that the projectile is subjected to a blowing wind,
+    the force of which is a function of some drag coefficient and the wind
+    speed. This force can be written as follows:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>F</strong></span><sub>w</sub> =
+      –C<sub>w</sub> <span class="strong"><strong>v</strong></span><sub>w</sub></td></tr><tr><td><span class="strong"><strong>F</strong></span><sub>w</sub> =
+      –C<sub>w</sub> <span class="strong"><strong>v</strong></span><sub>wx</sub> <span class="strong"><strong>i</strong></span> – C<sub>w</sub> <span class="strong"><strong>v</strong></span><sub>wz</sub> <span class="strong"><strong>k</strong></span></td></tr></table><p>where <span class="emphasis"><em>C</em></span><sub>w</sub> is the drag
+    coefficient, <span class="emphasis"><em>v</em></span><sub>w</sub> is the wind
+    speed, and the minus sign means that this force opposes the projectile’s
+    motion when the wind is blowing in a direction opposite of the
+    projectile’s direction of motion. When the wind is blowing with the
+    projectile—say, from behind it—then the wind will actually help the
+    projectile along instead of impede its motion. In general,
+    <span class="emphasis"><em>C</em></span><sub>w</sub> is not necessarily equal to
+    the <span class="emphasis"><em>C</em></span><sub>d</sub> shown in the drag
+    formula. Referring to <a class="xref" href="ch02.html#a_3d_kinematics_example_problem" title="Figure 2-3. A 3D kinematics example problem">Figure 2-3</a>,
+    we’ll define the wind direction <a id="I_indexterm4_id308651" class="indexterm"/>as measured by the angle γ. The <span class="emphasis"><em>x</em></span> and
+    <span class="emphasis"><em>z</em></span> components of <a id="I_indexterm4_id308669" class="indexterm"/>the wind force can now be written in terms of the wind
+    direction, γ, as follows:</p><table style="border: 0; " class="simplelist"><tr><td>F<sub>wx</sub> = F<sub>w</sub> cos γ =
+      –(C<sub>w</sub> v<sub>w</sub>) cos γ</td></tr><tr><td>F<sub>wz</sub> = F<sub>w</sub> sin γ =
+      –(C<sub>w</sub> v<sub>w</sub>) sin γ</td></tr></table><p>We ignored the y-direction as we assume the wind is flowing parallel
+    to the ground. Finally, let’s apply a gravitational force to the
+    projectile instead of specifying the effect of gravity as a constant
+    acceleration, as we did in <a class="xref" href="ch02.html" title="Chapter 2. Kinematics">Chapter 2</a>. This allows you
+    to include the force due to gravity in the equations of motion. Assuming
+    that the projectile is relatively close to sea level, the gravitational
+    force can be written as:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>F</strong></span><sub>g</sub> =
+      –m g <span class="strong"><strong>j</strong></span></td></tr></table><p>where the minus sign indicates that it acts in the negative
+    y-direction (pulling the projectile toward the earth), and
+    <span class="emphasis"><em>g</em></span> on the righthand side of this equation is the
+    acceleration due to gravity at sea level.</p><p>Now that all of the forces have been identified, you can write the
+    equations of motion in each coordinate direction:</p><table style="border: 0; " class="simplelist"><tr><td>ΣF<sub>x</sub> = F<sub>wx</sub> +
+      F<sub>dx</sub> = m (dv<sub>x</sub>/dt)</td></tr><tr><td>ΣF<sub>y</sub> = F<sub>dy</sub> +
+      F<sub>gy</sub> = m (dv<sub>y</sub>/dt)</td></tr><tr><td>ΣF<sub>z</sub> = F<sub>wz</sub> +
+      F<sub>dz</sub> = m (dv<sub>z</sub>/dt)</td></tr></table><p>Note here that we already made the substitution
+    <span class="emphasis"><em>dv</em></span>/<span class="emphasis"><em>dt</em></span> for acceleration in each
+    equation. Following the same procedure shown in the previous section, you
+    now need to integrate each equation of motion twice—once to find an
+    equation for velocity as a function of time, and another to find an
+    equation for displacement as a function of time. As before, we’ll show you
+    how this is done component by component.</p><p>You might be asking yourself, where’s the thrust force from the
+    cannon that propels the projectile in the first place? In this example,
+    we’re looking specifically at the motion of the projectile after it has
+    left the muzzle of the cannon, where there is no longer a thrust force
+    acting on the projectile; it isn’t self-propelled. To account for the
+    effect of the cannon thrust force, which acts over a very short period of
+    time while the projectile is within the cannon, you have to consider the
+    muzzle velocity of the projectile when it initially leaves the cannon. The
+    components of the muzzle velocity in the coordinate directions will become
+    initial velocities in each direction, and they will be included in the
+    equations of motion once they’ve been integrated. The initial velocities
+    will show up in the velocity and displacement equations just like they did
+    in the example in <a class="xref" href="ch02.html" title="Chapter 2. Kinematics">Chapter 2</a>. You’ll see this in the
+    following <a id="I_indexterm4_id308860" class="indexterm"/>sections.</p><div class="sect2" title="X Components"><div class="titlepage"><div><div><h3 class="title" id="x_components-id1">X Components</h3></div></div></div><p>The first step is <a id="I_indexterm4_id308884" class="indexterm"/>to make the appropriate substitutions for the force terms
+      in the equation of motion, and then integrate to find an equation for
+      velocity.</p><table style="border: 0; " class="simplelist"><tr><td>–F<sub>wx</sub> – F<sub>dx</sub> =
+        m(dv<sub>x</sub>/dt)</td></tr><tr><td>–(C<sub>w</sub> v<sub>w</sub> cos γ) –
+        C<sub>d</sub> v<sub>x</sub> = m
+        dv<sub>x</sub>/dt</td></tr><tr><td>dt = m dv<sub>x</sub> /
+        [–(C<sub>w</sub> v<sub>w</sub> cos γ) –
+        C<sub>d</sub> v<sub>x</sub>]</td></tr><tr><td>∫<sub>(0 to t)</sub> dt = ∫<sub>(vx1 to
+        vx2)</sub> –m / [(C<sub>w</sub>
+        v<sub>w</sub> cos γ) + C<sub>d</sub>
+        v<sub>x</sub>] dv<sub>x</sub></td></tr><tr><td>t = –(m/C<sub>d</sub>)
+        ln((C<sub>w</sub> v<sub>w</sub> cos γ) +
+        C<sub>d</sub> v<sub>x</sub>)| <sub>(vx1
+        to vx2)</sub></td></tr><tr><td>t = –(m/C<sub>d</sub>)
+        ln((C<sub>w</sub> v<sub>w</sub> cos γ) +
+        C<sub>d</sub> v<sub>x2</sub>) +
+        (m/C<sub>d</sub>) ln((C<sub>w</sub>
+        v<sub>w</sub> cos γ) + C<sub>d</sub>
+        v<sub>x1</sub>)</td></tr><tr><td>(C<sub>d</sub>/m) t =
+        ln[((C<sub>w</sub> v<sub>w</sub> cos γ) +
+        C<sub>d</sub> v<sub>x1</sub>) /
+        ((C<sub>w</sub> v<sub>w</sub> cos γ) +
+        C<sub>d</sub> v<sub>x2</sub>)]</td></tr><tr><td>e<sup>(C</sup><sub>d</sub>
+        <sup>/m) t</sup> =
+        e<sup>ln[((C</sup><sub>w</sub>
+        <sup>v</sup><sub>w</sub> <sup>cos
+        γ) + Cd v</sup><sub>x1</sub><sup>) / ((Cw
+        vw cos γ) + C</sup><sub>d</sub>
+        <sup>v</sup><sub>x2</sub><sup>)]</sup></td></tr><tr><td>e<sup>(Cd/m) t</sup> =
+        ((C<sub>w</sub> v<sub>w</sub> cos γ) +
+        C<sub>d</sub> v<sub>x1</sub>) /
+        ((C<sub>w</sub> v<sub>w</sub> cos γ) +
+        C<sub>d</sub> v<sub>x2</sub>)</td></tr><tr><td>((C<sub>w</sub> v<sub>w</sub> cos γ) +
+        C<sub>d</sub> v<sub>x2</sub>) =
+        ((C<sub>w</sub> v<sub>w</sub> cos γ) +
+        C<sub>d</sub> v<sub>x1</sub>)
+        e<sup>–(C</sup><sub>d</sub><sup>/m)
+        t</sup></td></tr><tr><td>v<sub>x2</sub> = (1/C<sub>d</sub>) [
+        e<sup>(–C</sup>d<sup>/m) t</sup>
+        (c<sub>w</sub> v<sub>w</sub> cos γ +
+        C<sub>d</sub> v<sub>x1</sub>) –
+        (C<sub>w</sub> v<sub>w</sub> cos γ)]</td></tr></table><p>To get an equation for displacement as a function of time, you
+      need to recall the equation <span class="emphasis"><em>v dt</em></span> =
+      <span class="emphasis"><em>ds</em></span>, make the substitution for
+      <span class="emphasis"><em>v</em></span> (using the preceding equation) and then integrate
+      one more time.</p><table style="border: 0; " class="simplelist"><tr><td>v<sub>x2</sub> dt =
+        ds<sub>x</sub></td></tr><tr><td>(1/C<sub>d</sub>)
+        [e<sup>(–C</sup><sub>d</sub><sup>/m)
+        t</sup> (c<sub>w</sub> v<sub>w</sub>
+        cos γ + C<sub>d</sub> v<sub>x1</sub>) –
+        (c<sub>w</sub> v<sub>w</sub> cos γ)] dt =
+        ds<sub>x</sub></td></tr><tr><td>∫<sub>(0 to t)</sub> (1/C<sub>d</sub>)
+        [e<sup>(–C</sup><sub>d</sub><sup>/m)
+        t</sup> (c<sub>w</sub> v<sub>w</sub>
+        cos γ + C<sub>d</sub> v<sub>x1</sub>) –
+        (c<sub>w</sub> v<sub>w</sub> cos γ)] dt
+        =</td></tr><tr><td>= ∫<sub>(sx1 to sx2)</sub>
+        ds<sub>x</sub></td></tr><tr><td>s<sub>x2</sub> = [(m/C<sub>d</sub>)
+        e<sup>(–C</sup><sub>d</sub><sup>/m)
+        t</sup> (–(C<sub>w</sub> v<sub>w</sub>
+        cos γ) / C<sub>d</sub> – v<sub>x1</sub>) –
+        ((C<sub>w</sub> v<sub>w</sub> cos γ) /
+        C<sub>d</sub>) t] –</td></tr><tr><td>[(m/C<sub>d</sub>) (–(C<sub>w</sub>
+        v<sub>w</sub> cos γ) / C<sub>d</sub> –
+        v<sub>x1</sub>)] + s<sub>x1</sub></td></tr></table><p>Yes, these equations are ugly. Just imagine if we hadn’t made the
+      simplifying assumption that drag is proportional to speed and not speed
+      squared! You would have ended up with some really nice equations with an
+      <span class="emphasis"><em>arctan</em></span> term or two thrown in.</p></div><div class="sect2" title="Y Components"><div class="titlepage"><div><div><h3 class="title" id="y_components-id1">Y Components</h3></div></div></div><p>For the <span class="emphasis"><em>y</em></span> components, <a id="I_indexterm4_id309490" class="indexterm"/>you need to follow the same procedure shown earlier for
+      the <span class="emphasis"><em>x</em></span> components, but with the appropriate
+      y-direction forces. Here’s what it looks like:</p><table style="border: 0; " class="simplelist"><tr><td>–F<sub>dy</sub> – F<sub>gy</sub> = m
+        (dv<sub>y</sub>/dt)</td></tr><tr><td>–C<sub>d</sub> v<sub>y</sub> – m g = m
+        (dv<sub>y</sub>/dt)</td></tr><tr><td>∫<sub>(0 to t)</sub> dt = –m ∫<sub>(vy1 to
+        vy2)</sub> 1/(C<sub>d</sub>
+        v<sub>y</sub> + m g) dv<sub>y</sub></td></tr><tr><td>v<sub>y2</sub> = (1/C<sub>d</sub>)
+        e<sup>(–C</sup><sub>d</sub><sup>/m)t</sup>
+        (C<sub>d</sub> v<sub>y1</sub> + m g) – (m
+        g)/C<sub>d</sub></td></tr></table><p>Now that you have an equation for velocity, you can proceed to get
+      an equation for displacement as before:</p><table style="border: 0; " class="simplelist"><tr><td>v<sub>y2</sub> dt =
+        ds<sub>y</sub></td></tr><tr><td>[(1/C<sub>d</sub>)
+        e<sup>(–C</sup><sub>d</sub><sup>/m)t</sup>
+        (C<sub>d</sub> v<sub>y1</sub> + m g) – (m
+        g)/C<sub>d</sub>] dt = ds<sub>y</sub></td></tr><tr><td>∫<sub>(0 to t)</sub>
+        [(1/C<sub>d</sub>)
+        e<sup>(–C</sup><sub>d</sub><sup>/m)t</sup>
+        (C<sub>d</sub> v<sub>y1</sub> + m g) – (m
+        g)/C<sub>d</sub>] dt = ∫<sub>(sy1 to
+        sy2)</sub> ds<sub>y</sub></td></tr><tr><td>s<sub>y2</sub> = s<sub>y1</sub> +
+        [–(v<sub>y1</sub> + (m g)/C<sub>d</sub>)
+        (m/C<sub>d</sub>)
+        e<sup>(–C</sup><sub>d</sub><sup>/m)t</sup>
+        – t (m g)/C<sub>d</sub>] +
+        [(m/C<sub>d</sub>)(v<sub>y1</sub> + (m
+        g)/C<sub>d</sub>)]</td></tr></table><p>OK, that’s two down and only one more to go.</p></div><div class="sect2" title="Z Components"><div class="titlepage"><div><div><h3 class="title" id="z_components-id1">Z Components</h3></div></div></div><p>With the <span class="emphasis"><em>z</em></span> component, <a id="I_indexterm4_id309752" class="indexterm"/>you get a break. You’ll notice that the equations of
+      motion for the <span class="emphasis"><em>x</em></span> and <span class="emphasis"><em>z</em></span>
+      components look almost the same with the exception of the
+      <span class="emphasis"><em>x</em></span> and <span class="emphasis"><em>z</em></span> subscripts and the
+      sine versus cosine terms. Taking advantage of this fact, you can simply
+      copy the <span class="emphasis"><em>x</em></span> component equations and replace the
+      <span class="emphasis"><em>x</em></span> subscript with a <span class="emphasis"><em>z</em></span> and the
+      cosine terms with sines and be done with it:</p><table style="border: 0; " class="simplelist"><tr><td>v<sub>z2</sub> = (1/C<sub>d</sub>)
+        [e<sup>(–C</sup><sub>d</sub><sup>/m)t</sup>
+        (c<sub>w</sub> v<sub>w</sub> sin γ +
+        C<sub>d</sub> v<sub>z1</sub>) –
+        (c<sub>w</sub> v<sub>w</sub> sin γ)]</td></tr><tr><td>s<sub>z2</sub> = [(m/C<sub>d</sub>)
+        e<sup>(–C</sup><sub>d</sub><sup>/m)t</sup>
+        (–(C<sub>w</sub> v<sub>w</sub> sin γ) /
+        C<sub>d</sub> – v<sub>z1</sub>) –
+        ((C<sub>w</sub> v<sub>w</sub> sin
+        γ)/C<sub>d</sub>) t] –</td></tr><tr><td>[(m/C<sub>d</sub>) (–(C<sub>w</sub>
+        v<sub>w</sub> sin γ)/C<sub>d</sub> –
+        v<sub>z1</sub>)] + s<sub>z1</sub></td></tr></table></div><div class="sect2" title="Cannon Revised"><div class="titlepage"><div><div><h3 class="title" id="cannon_revised">Cannon Revised</h3></div></div></div><p>Now that you have some new equations for the projectile’s
+      displacement in each coordinate direction, you can go to the cannon
+      example source code and replace the old displacement calculation
+      formulas with the new ones. Make the changes in the <code class="literal">DoSimulation</code> function as follows:</p><a id="I_programlisting4_id309937"/><pre class="programlisting">//--------------------------------------------------------------------------------//
+int     DoSimulation(void)
+//--------------------------------------------------------------------------------//
+{
+     .
+     .
+     .
+
+     // new local variables:
+     double     sx1, vx1;
+     double     sy1, vy1;
+     double     sz1, vz1;
+
+     .
+     .
+     .
+
+     // Now we can calculate the position vector at this time
+
+     // Old position vector commented out:
+     //s.i = Vm * cosX * time + xe;
+     //s.j = (Yb + L * cos(Alpha*3.14/180)) + (Vm * cosY * time) −
+          (0.5 * g * time * time);
+     //s.k = Vm * cosZ * time + ze;
+
+     // New position vector calculations:
+     sx1 = xe;
+     vx1 = Vm * cosX;
+
+     sy1 = Yb + L * cos(Alpha * 3.14/180);
+     vy1 = Vm * cosY;
+
+     sz1 = ze;
+     vz1 = Vm * cosZ;
+
+     s.i =((m/Cd) * exp(-(Cd * time)/m) * ((-Cw * Vw * cos(GammaW * 3.14/180))/Cd −
+          vx1) - (Cw * Vw * cos(GammaW * 3.14/180) * time) / Cd ) -
+          ( (m/Cd) * ((-Cw * Vw * cos(GammaW * 3.14/180))/Cd - vx1) ) + sx1;
+
+     s.j = sy1 + ( -(vy1 + (m * g)/Cd) * (m/Cd) * exp(-(Cd*time)/m) −
+          (m * g * time) / Cd ) +  ( (m/Cd) * (vy1 + (m * g)/Cd) );
+
+     s.k =((m/Cd) * exp(-(Cd * time)/m) * ((-Cw * Vw * sin(GammaW * 3.14/180))/Cd −
+          vz1) - (Cw * Vw * sin(GammaW * 3.14/180) * time) / Cd ) -
+          ( (m/Cd) * ((-Cw * Vw * sin(GammaW * 3.14/180))/Cd - vz1) ) + sz1;
+     .
+     .
+     .
+}</pre><p>To take into account the cross wind and drag, you’ll need to add
+      some new global variables to store the wind speed and direction, the
+      mass of the projectile, and the drag coefficients. You’ll also have to
+      add some controls in the dialog window so that you can change these
+      variables when you run the program. <a class="xref" href="ch04.html#revised_cannon_example_screenshot" title="Figure 4-5. Revised cannon example screenshot">Figure 4-5</a> shows how we added these
+      interface controls in the upper-right corner of the main window.</p><div class="figure"><a id="revised_cannon_example_screenshot"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject4_id309975"/><img src="httpatomoreillycomsourceoreillyimages1598905.png" alt="Revised cannon example screenshot"/></div></div><div class="figure-title">Figure 4-5. Revised cannon example screenshot</div></div><p>We also added these lines to the <code class="literal">DemoDlgProc</code> function to handle the new wind
+      speed and direction values:</p><a id="I_programlisting4_id310002"/><pre class="programlisting">//---------------------------------------------------------------------------------//
+LRESULT CALLBACK DemoDlgProc(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
+//---------------------------------------------------------------------------------//
+{
+     .
+     .
+     .
+
+          case WM_INITDIALOG:
+     .
+     .
+     .
+               // New variables:
+               sprintf( str, "%f", m );
+               SetDlgItemText(hDlg, IDC_M, str);
+
+               sprintf( str, "%f", Cd );
+               SetDlgItemText(hDlg, IDC_CD, str);
+
+               sprintf( str, "%f", Vw );
+               SetDlgItemText(hDlg, IDC_VW, str);
+
+               sprintf( str, "%f", GammaW );
+               SetDlgItemText(hDlg, IDC_GAMMAW, str);
+
+               sprintf( str, "%f", Cw );
+               SetDlgItemText(hDlg, IDC_CW, str);
+     .
+     .
+     .
+
+                    case IDC_REFRESH:
+     .
+     .
+     .
+                         // New variables:
+                         GetDlgItemText(hDlg, IDC_M, str, 15);
+                         m = atof(str);
+
+                         GetDlgItemText(hDlg, IDC_CD, str, 15);
+                         Cd = atof(str);
+
+                         GetDlgItemText(hDlg, IDC_VW, str, 15);
+                         Vw = atof(str);
+
+                         GetDlgItemText(hDlg, IDC_GAMMAW, str, 15);
+                         GammaW = atof(str);
+
+                         GetDlgItemText(hDlg, IDC_CW, str, 15);
+                         Cw = atof(str);
+     .
+     .
+     .
+
+                    case IDC_FIRE:
+     .
+     .
+     .
+                         // New variables:
+                         GetDlgItemText(hDlg, IDC_M, str, 15);
+                         m = atof(str);
+
+                         GetDlgItemText(hDlg, IDC_CD, str, 15);
+                         Cd = atof(str);
+
+                         GetDlgItemText(hDlg, IDC_VW, str, 15);
+                         Vw = atof(str);
+
+                         GetDlgItemText(hDlg, IDC_GAMMAW, str, 15);
+                         GammaW = atof(str);
+
+                         GetDlgItemText(hDlg, IDC_CW, str, 15);
+                         Cw = atof(str);
+     .
+     .
+     .
+}</pre><p>After playing with this example program, you should readily see
+      that the trajectory of the projectile is noticeably different from that
+      typically obtained in the original example. By adjusting the values of
+      the wind speed, direction, and drag coefficients, you can dramatically
+      affect the projectile’s trajectory. If you set the wind speed to 0 and
+      the drag coefficients to 1, the trajectory will look like that obtained
+      in the original example, where wind and drag were not taken into
+      account. Be careful, though: don’t set the drag coefficient to 0 because
+      this will result in a “divide by zero” error. We didn’t put the
+      exception handler in the program, but you can see that it will happen by
+      looking at the displacement vector formulas where the drag coefficient
+      appears in the denominator of several terms.</p><p>From a user’s perspective, if this were a video game, the problem
+      of hitting the target becomes much more challenging when wind and drag
+      are taken into account. The wind element is particularly interesting
+      because you can change the wind speed and direction during game play,
+      forcing the user to pay careful attention to the wind in order to
+      accurately hit the <a id="I_indexterm4_id310043" class="indexterm"/><a id="I_indexterm4_id310051" class="indexterm"/><a id="I_indexterm4_id310060" class="indexterm"/><a id="I_indexterm4_id310069" class="indexterm"/>target.</p></div></div><div class="sect1" title="Rigid-Body Kinetics"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="rigid-body_kinetics">Rigid-Body Kinetics</h2></div></div></div><p>You already know <a id="ki4.3" class="indexterm"/><a id="ri4.3" class="indexterm"/>from your study of kinematics in <a class="xref" href="ch02.html" title="Chapter 2. Kinematics">Chapter 2</a> that dealing with rigid bodies adds rotation, or
+    <a id="an4.3" class="indexterm"/><a id="mo4.3" class="indexterm"/>angular motion, into the mix of things to consider. As we
+    stated earlier, the equations of motion now consist of a set of equations
+    that relate forces to linear accelerations and another set of equations
+    that relate moments to angular accelerations. Alternatively, you can think
+    of the equations of motion as relating forces to the rate of change in
+    linear momentum, and moments to the rate of change in angular momentum, as
+    discussed in <a class="xref" href="ch01.html" title="Chapter 1. Basic Concepts">Chapter 1</a>.</p><p>As in kinematics, the procedure for dealing with rigid-body kinetics
+    problems involves two distinct aspects: 1) tracking the translation of the
+    body’s center of mass, where the body is treated as a particle, and 2)
+    tracking the body’s rotation, where you’ll utilize the principles of local
+    coordinates and relative angular velocity and acceleration, as discussed
+    in <a class="xref" href="ch02.html" title="Chapter 2. Kinematics">Chapter 2</a>. Really, the only difference between
+    rigid-body kinematics and kinetics problems is that in kinetics problems
+    we have forces to consider (including their resulting moments).</p><p>The vector equations are repeated here for convenience:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>F</strong></span> = m<span class="strong"><strong>a</strong></span></td></tr><tr><td><span class="strong"><strong>M</strong></span><sub>cg</sub> =
+      <span class="strong"><strong>I α</strong></span></td></tr></table><p>where in two dimensions:</p><table style="border: 0; " class="simplelist"><tr><td>Σ<span class="strong"><strong>F</strong></span> =
+      ΣF<sub>x</sub> <span class="strong"><strong>i</strong></span> +
+      ΣF<sub>y</sub> <span class="strong"><strong>j</strong></span></td></tr><tr><td>ΣF =   
+        <span class="inlinemediaobject"><img src="inleq_0405.png" alt=""/></span>
+      </td></tr></table><p>Going from two-dimensional particle problems to two-dimensional
+    rigid-body problems involves only the addition of one more equation. This
+    equation is, of course, the moment equation relating the sum of all
+    moments acting on the body to the body’s <a id="I_indexterm4_id310274" class="indexterm"/>moment of inertia and its angular acceleration. In plane
+    motion, the axis of rotation of the rigid body is always perpendicular to
+    the coordinate plane. And since there is only one axis of rotation, there
+    is only one inertia term and one <a id="I_indexterm4_id310288" class="indexterm"/><a id="I_indexterm4_id310297" class="indexterm"/>angular acceleration term to consider. Thus, you can
+    write:</p><table style="border: 0; " class="simplelist"><tr><td>M<sub>cg</sub> = I α</td></tr></table><p>where <span class="emphasis"><em>M</em></span><sub>cg</sub> is the total
+    moment and is calculated with the formulas discussed in the section <a class="xref" href="ch03.html#force_and_torque" title="Force and Torque">Force and Torque</a> in <a class="xref" href="ch03.html" title="Chapter 3. Force">Chapter 3</a>, and
+    <span class="emphasis"><em>I</em></span> is calculated about the axis of rotation using the
+    techniques discussed in the section <a class="xref" href="ch01.html#mass_comma_center_of_mass_comma_and_mome" title="Mass, Center of Mass, and Moment of Inertia">Mass, Center of Mass, and Moment of Inertia</a> in <a class="xref" href="ch01.html" title="Chapter 1. Basic Concepts">Chapter 1</a>.</p><p>In their component forms, the set of equations of motion for
+    two-dimensional kinetics problems are:</p><table style="border: 0; " class="simplelist"><tr><td>ΣF<sub>x</sub> = m
+      a<sub>x</sub></td></tr><tr><td>ΣF<sub>y</sub> = m
+      a<sub>y</sub></td></tr><tr><td>ΣM<sub>cg</sub> = I α</td></tr></table><p>Since these equations indicate linear motion on the xy-plane, the
+    angular acceleration will be about the z-axis perpendicular to the
+    xy-plane. Likewise, the moment of inertia, <span class="emphasis"><em>I</em></span>, will be
+    taken about the z-axis.</p><p>Recall from <a class="xref" href="ch03.html" title="Chapter 3. Force">Chapter 3</a> that we calculate moment by
+    taking the cross product of the position vector for the force under
+    consideration and the force vector. This means that, unlike with particle
+    kinetics, you now have to keep track of exactly where on the body each
+    force is applied. This is best illustrated with an example.</p><p>Consider the box of uniform density shown in <a class="xref" href="ch04.html#box-free_body_diagram" title="Figure 4-6. Box-free body diagram">Figure 4-6</a>. Uniform density <a id="I_indexterm4_id310422" class="indexterm"/><a id="I_indexterm4_id310428" class="indexterm"/>means that its center of gravity is at the box’s geometric
+    center. Find the value of the minimum force,
+    <span class="emphasis"><em>F</em></span><sub>p</sub>, applied at the upper edge
+    of the box, required to start tipping the box over.</p><div class="figure"><a id="box-free_body_diagram"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject4_id310458"/><img src="httpatomoreillycomsourceoreillyimages1598906.png" alt="Box-free body diagram"/></div></div><div class="figure-title">Figure 4-6. Box-free body diagram</div></div><p>In <a class="xref" href="ch04.html#box-free_body_diagram" title="Figure 4-6. Box-free body diagram">Figure 4-6</a>,
+    <span class="emphasis"><em>F</em></span><sub>p</sub> is the applied force,
+    <span class="emphasis"><em>R</em></span><sub>1</sub> and
+    <span class="emphasis"><em>R</em></span><sub>2</sub> are the reaction forces at
+    supports one and two, <span class="emphasis"><em>F</em></span><sub>f1</sub> and
+    <span class="emphasis"><em>F</em></span><sub>f2</sub> are the forces due to
+    friction at points one and two, and <span class="emphasis"><em>mg</em></span> is the weight
+    of the box.</p><p>This is an example of the type of problem where you know something
+    about the motion of the object and have to find the value of one or more
+    forces acting on it. To find the value of the force that will be just
+    enough to start tipping the box, you need to look at the instant when the
+    reaction force at support two is 0. This implies that all of the weight of
+    the box is now supported at point one and the box is starting to rotate
+    over. At this instant, just before it starts to rotate, the angular
+    acceleration of the box is 0. Note that the box’s linear acceleration
+    isn’t necessarily 0—that is, you can push on the box and it may slide
+    without actually tipping over.</p><p>The equations of motion for this problem are:</p><table style="border: 0; " class="simplelist"><tr><td>ΣF<sub>x</sub> = F<sub>p</sub> −
+      F<sub>f1</sub> − F<sub>f2</sub> = m
+      a<sub>x</sub></td></tr><tr><td>ΣF<sub>y</sub> = R<sub>1</sub> +
+      R<sub>2</sub> − m g = m a<sub>y</sub> =
+      0</td></tr><tr><td>ΣM<sub>cg</sub> = F<sub>p</sub> (h/2) +
+      R<sub>2</sub> (w/2) − R<sub>1</sub> (w/2) +
+      F<sub>f2</sub> (h/2) + F<sub>f1</sub> (h/2) = I
+      α = 0</td></tr></table><p>Rewriting the second preceding equation when
+    <span class="emphasis"><em>R</em></span><sub>2</sub> is 0 shows that
+    <span class="emphasis"><em>R</em></span><sub>1</sub> is equal to the weight of
+    the box. Further, when <span class="emphasis"><em>R</em></span><sub>2</sub> is
+    0, the <span class="emphasis"><em>R</em></span><sub>2</sub>
+    (<span class="emphasis"><em>w</em></span>/<span class="emphasis"><em>2</em></span>) term drops out of the
+    moment equation, which can be rewritten by solving for
+    <span class="emphasis"><em>F</em></span><sub>p</sub> in terms of
+    <span class="emphasis"><em>R</em></span><sub>1</sub>. Note that when
+    <span class="emphasis"><em>R</em></span><sub>2</sub> goes to 0, so does
+    <span class="emphasis"><em>F</em></span><sub>f2</sub>. After some algebra, the
+    equation looks as follows:</p><table style="border: 0; " class="simplelist"><tr><td>F<sub>p</sub> = mg (w/h) –
+      F<sub>f1</sub></td></tr></table><p>Here you can see that the tipping force, applied to the upper edge,
+    is proportional to the weight and size of the box (actually the ratio of
+    its width to its height), which you can readily appreciate from a physical
+    point of view. The friction term is important here because the existence
+    of the friction force actually helps the box to tip. If the box were on a
+    frictionless surface, it would tend to slide rather than tip.</p><p>In the case of plane motion, or 2D motion, of rigid bodies as
+    discussed here, you are able to readily set up the equations of motion and
+    investigate both the linear as well as angular motion of the body. In
+    generalized three-dimensional motion, the linear motion of rigid bodies is
+    no different from that of particles; you simply track the motion of the
+    rigid body’s center of gravity. In three dimensions, however, rotation
+    gives us some grief, as it is no longer a simple matter of treating
+    rotation about a single axis as in plane motion. In 3D you’ll have to
+    consider rotation about any axis, which leads to some difficulties in
+    representing arbitrary rotations (Euler angles won’t work for us) as well
+    as to complications with determining moments of inertia for rotation about
+    any axis. We’ll discuss these issues <a id="I_indexterm4_id310701" class="indexterm"/><a id="I_indexterm4_id310711" class="indexterm"/><a id="I_indexterm4_id310720" class="indexterm"/><a id="I_indexterm4_id310730" class="indexterm"/>in <a class="xref" href="ch11.html" title="Chapter 11. Rotation in 3D Rigid-Body Simulators">Chapter 11</a>
+    through <a class="xref" href="ch13.html" title="Chapter 13. Connecting Objects">Chapter 13</a>.</p></div></section></body></html>

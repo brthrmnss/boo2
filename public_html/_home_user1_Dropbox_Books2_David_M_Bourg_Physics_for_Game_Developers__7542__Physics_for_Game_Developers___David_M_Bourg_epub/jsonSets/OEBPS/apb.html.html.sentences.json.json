@@ -1,0 +1,1128 @@
+[
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 0
+	},
+	{
+		"index": 2,
+		"txt": "Appendix B. Matrix Operations",
+		"file": "/home/user1/trash/dirOutputSet/_100_Appendix B_ Matrix_Operations_ndix B_ Matrix_Operations____.wav",
+		"duration": 1.02,
+		"sentenceIndex": 14440,
+		"timestamp": 0.5
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 1.52
+	},
+	{
+		"index": 3,
+		"txt": "This appendix implements a class called Matrix3x3 that encapsulates all of the operations you need to handle 3×3 (nine element) matrices when writing 3D rigid body simulations.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_appendix_implements_a_class_ca_D_rigid_body_simulations_____.wav",
+		"duration": 3.31,
+		"sentenceIndex": 14441,
+		"timestamp": 2.02
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 5.33
+	},
+	{
+		"index": 5,
+		"txt": "Matrix3×3 Class",
+		"file": "/home/user1/trash/dirOutputSet/_100_Matrix3_3_Class_Matrix3_3_Class____.wav",
+		"duration": 0.7,
+		"sentenceIndex": 14443,
+		"timestamp": 5.83
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 6.53
+	},
+	{
+		"index": 6,
+		"txt": "The Matrix3x3 class is",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_Matrix3x3_class_is_The_Matrix3x3_class_is____.wav",
+		"duration": 0.85,
+		"sentenceIndex": 14444,
+		"timestamp": 7.03
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 7.88
+	},
+	{
+		"index": 8,
+		"txt": "defined with nine elements, eij, where i represents the ith row and j the jth column.",
+		"file": "/home/user1/trash/dirOutputSet/_100_defined_with_nine_elements__eij__wh_row_and_j_the_jth_column_____.wav",
+		"duration": 2.12,
+		"sentenceIndex": 14446,
+		"timestamp": 8.379999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 10.5
+	},
+	{
+		"index": 9,
+		"txt": "For example, e21 refers to the element on the second row in the first column.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_example__e21_refers_to_the_elem__row_in_the_first_column_____.wav",
+		"duration": 1.83,
+		"sentenceIndex": 14447,
+		"timestamp": 11
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 12.83
+	},
+	{
+		"index": 10,
+		"txt": "Here's how all of the elements are arranged:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_how_all_of_the_elements_are__he_elements_are_arranged_____.wav",
+		"duration": 0.93,
+		"sentenceIndex": 14448,
+		"timestamp": 13.33
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 14.26
+	},
+	{
+		"index": 15,
+		"txt": "The class has two constructors, one of which initializes the matrix elements to zero, and the other of which initializes the elements to those passed to the constructor:",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_class_has_two_constructors__one_assed_to_the_constructor_____.wav",
+		"duration": 3.13,
+		"sentenceIndex": 14453,
+		"timestamp": 14.76
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 17.89
+	},
+	{
+		"index": 18,
+		"txt": "Determinant",
+		"file": "/home/user1/trash/dirOutputSet/_100_Determinant_Determinant____.wav",
+		"duration": 0.26,
+		"sentenceIndex": 14456,
+		"timestamp": 18.39
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 18.650000000000002
+	},
+	{
+		"index": 20,
+		"txt": "The method, det, returns the",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_method__det__returns_the__method__det__returns_the____.wav",
+		"duration": 0.74,
+		"sentenceIndex": 14458,
+		"timestamp": 19.150000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 19.89
+	},
+	{
+		"index": 22,
+		"txt": "determinant of the matrix.",
+		"file": "/home/user1/trash/dirOutputSet/_100_determinant_of_the_matrix__eterminant_of_the_matrix_____.wav",
+		"duration": 0.53,
+		"sentenceIndex": 14460,
+		"timestamp": 20.39
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 20.92
+	},
+	{
+		"index": 23,
+		"txt": "The determinant of a 2×2 matrix:",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_determinant_of_a_2_2_matrix__erminant_of_a_2_2_matrix_____.wav",
+		"duration": 1.14,
+		"sentenceIndex": 14461,
+		"timestamp": 21.42
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 22.560000000000002
+	},
+	{
+		"index": 28,
+		"txt": "is as follows:det [m] = e11 e22 − e21 e12",
+		"file": "/home/user1/trash/dirOutputSet/_100_is_as_follows_det__m____e11_e22___e_t__m____e11_e22___e21_e12____.wav",
+		"duration": 1.89,
+		"sentenceIndex": 14466,
+		"timestamp": 23.060000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 24.950000000000003
+	},
+	{
+		"index": 30,
+		"txt": "We find the determinant of a 3×3 matrix by first expanding the matrix by minors, and then resolving the determinants of the 2×2 minors.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_find_the_determinant_of_a_3_3_ma_inants_of_the_2_2_minors_____.wav",
+		"duration": 3.71,
+		"sentenceIndex": 14468,
+		"timestamp": 25.450000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 29.160000000000004
+	},
+	{
+		"index": 31,
+		"txt": "Here's how you expand a 3×3 matrix by minors:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_how_you_expand_a_3_3_matrix__d_a_3_3_matrix_by_minors_____.wav",
+		"duration": 1.56,
+		"sentenceIndex": 14469,
+		"timestamp": 29.660000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 31.220000000000002
+	},
+	{
+		"index": 36,
+		"txt": "Here's how this all looks in code:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_how_this_all_looks_in_code__w_this_all_looks_in_code_____.wav",
+		"duration": 0.78,
+		"sentenceIndex": 14474,
+		"timestamp": 31.720000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 32.5
+	},
+	{
+		"index": 39,
+		"txt": "Transpose",
+		"file": "/home/user1/trash/dirOutputSet/_100_Transpose_Transpose____.wav",
+		"duration": 0.3,
+		"sentenceIndex": 14477,
+		"timestamp": 33
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 33.3
+	},
+	{
+		"index": 41,
+		"txt": "The method Transpose transposes",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_method_Transpose_transposes_thod_Transpose_transposes____.wav",
+		"duration": 0.76,
+		"sentenceIndex": 14479,
+		"timestamp": 33.8
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 34.559999999999995
+	},
+	{
+		"index": 43,
+		"txt": "the matrix by swapping rows with columns that is, the elements in the first row become the elements in the first column and so on for the second and third rows and columns.",
+		"file": "/home/user1/trash/dirOutputSet/_100_the_matrix_by_swapping_rows_with_co_d_third_rows_and_columns_____.wav",
+		"duration": 3.46,
+		"sentenceIndex": 14481,
+		"timestamp": 35.059999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 38.519999999999996
+	},
+	{
+		"index": 44,
+		"txt": "The following relations are true for transpose operations:(Mt)t = M(s M)t = s (Mt)(M N)t = NtMt(M + N)t = Mt + Ntdet[Mt] = det[M]",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_following_relations_are_true_fo___Mt___Ntdet_Mt____det_M_____.wav",
+		"duration": 4.88,
+		"sentenceIndex": 14482,
+		"timestamp": 39.019999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 43.9
+	},
+	{
+		"index": 46,
+		"txt": "Here M and N are matrices, t is the transpose operator, and s is a scalar.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_M_and_N_are_matrices__t_is_the_rator__and_s_is_a_scalar_____.wav",
+		"duration": 1.86,
+		"sentenceIndex": 14484,
+		"timestamp": 44.4
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 46.26
+	},
+	{
+		"index": 49,
+		"txt": "Here's the Transpose method for our Matrix3x3 class:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_the_Transpose_method_for_our__for_our_Matrix3x3_class_____.wav",
+		"duration": 1.38,
+		"sentenceIndex": 14487,
+		"timestamp": 46.76
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 48.14
+	},
+	{
+		"index": 52,
+		"txt": "Inverse",
+		"file": "/home/user1/trash/dirOutputSet/_100_Inverse_Inverse____.wav",
+		"duration": 0.25,
+		"sentenceIndex": 14490,
+		"timestamp": 48.64
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 48.89
+	},
+	{
+		"index": 54,
+		"txt": "The method Inverse computes",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_method_Inverse_computes_e_method_Inverse_computes____.wav",
+		"duration": 0.59,
+		"sentenceIndex": 14492,
+		"timestamp": 49.39
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 49.980000000000004
+	},
+	{
+		"index": 56,
+		"txt": "the inverse matrix such that the following relation is satisfied:",
+		"file": "/home/user1/trash/dirOutputSet/_100_the_inverse_matrix_such_that_the_fo_ng_relation_is_satisfied_____.wav",
+		"duration": 1.34,
+		"sentenceIndex": 14494,
+		"timestamp": 50.480000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 51.82000000000001
+	},
+	{
+		"index": 58,
+		"txt": "M M−1 = M−1M = I",
+		"file": "/home/user1/trash/dirOutputSet/_100_M_M_1___M_1M___I_M_M_1___M_1M___I____.wav",
+		"duration": 1.64,
+		"sentenceIndex": 14496,
+		"timestamp": 52.32000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 53.96000000000001
+	},
+	{
+		"index": 60,
+		"txt": "Here M−1 is the inverse of matrix M, and I is the identity matrix.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_M_1_is_the_inverse_of_matrix_M_I_is_the_identity_matrix_____.wav",
+		"duration": 1.9,
+		"sentenceIndex": 14498,
+		"timestamp": 54.46000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 56.36000000000001
+	},
+	{
+		"index": 61,
+		"txt": "For a 3×3 matrix, we find the inverse as follows:",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_a_3_3_matrix__we_find_the_inver_d_the_inverse_as_follows_____.wav",
+		"duration": 1.68,
+		"sentenceIndex": 14499,
+		"timestamp": 56.86000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 58.540000000000006
+	},
+	{
+		"index": 66,
+		"txt": "Here Eij represents the cofactor of element eij , which we can find by taking the determinant of the minor of each element.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_Eij_represents_the_cofactor_of_he_minor_of_each_element_____.wav",
+		"duration": 2.48,
+		"sentenceIndex": 14504,
+		"timestamp": 59.040000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 61.52
+	},
+	{
+		"index": 67,
+		"txt": "Only square matrices, those with the same number of rows as columns, can be inverted.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Only_square_matrices__those_with_th_columns__can_be_inverted_____.wav",
+		"duration": 1.91,
+		"sentenceIndex": 14505,
+		"timestamp": 62.02
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 63.93
+	},
+	{
+		"index": 68,
+		"txt": "Note, however, that not all square matrices can be inverted.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Note__however__that_not_all_square__matrices_can_be_inverted_____.wav",
+		"duration": 1.46,
+		"sentenceIndex": 14506,
+		"timestamp": 64.43
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 65.89
+	},
+	{
+		"index": 69,
+		"txt": "A matrix can be inverted only if its determinant is nonzero.",
+		"file": "/home/user1/trash/dirOutputSet/_100_A_matrix_can_be_inverted_only_if_it_s_determinant_is_nonzero_____.wav",
+		"duration": 1.37,
+		"sentenceIndex": 14507,
+		"timestamp": 66.39
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 67.76
+	},
+	{
+		"index": 72,
+		"txt": "The follow relation applies to matrix inversion:(M N)−1 = N−1M−1",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_follow_relation_applies_to_matr_nversion__M_N__1___N_1M_1____.wav",
+		"duration": 2.73,
+		"sentenceIndex": 14510,
+		"timestamp": 68.26
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 70.99000000000001
+	},
+	{
+		"index": 74,
+		"txt": "Here's how matrix inversion looks in code for our Matrix3x3 class:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_s_how_matrix_inversion_looks_i__for_our_Matrix3x3_class_____.wav",
+		"duration": 1.76,
+		"sentenceIndex": 14512,
+		"timestamp": 71.49000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 73.25000000000001
+	},
+	{
+		"index": 77,
+		"txt": "Matrix Addition: The += Operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Matrix_Addition__The____Operator_Addition__The____Operator____.wav",
+		"duration": 1.01,
+		"sentenceIndex": 14515,
+		"timestamp": 73.75000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 74.76000000000002
+	},
+	{
+		"index": 79,
+		"txt": "This operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_operator_This_operator____.wav",
+		"duration": 0.33,
+		"sentenceIndex": 14517,
+		"timestamp": 75.26000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 75.59000000000002
+	},
+	{
+		"index": 84,
+		"txt": "simply adds the passed matrix to the current one on an element by element basis.",
+		"file": "/home/user1/trash/dirOutputSet/_100_simply_adds_the_passed_matrix_to_th_element_by_element_basis_____.wav",
+		"duration": 1.75,
+		"sentenceIndex": 14522,
+		"timestamp": 76.09000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 77.84000000000002
+	},
+	{
+		"index": 85,
+		"txt": "For two matrices to be added, they must be of the same order that is, they must have the same number of rows and columns:",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_two_matrices_to_be_added__they__mber_of_rows_and_columns_____.wav",
+		"duration": 2.46,
+		"sentenceIndex": 14523,
+		"timestamp": 78.34000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 80.80000000000001
+	},
+	{
+		"index": 87,
+		"txt": "Matrix addition (and subtraction) is commutative, associative, and distributive; thus:M + N = N + MM + (N + P) = (M + N) + PM (N + P) = M N + M P(N + P) M = N M + P M",
+		"file": "/home/user1/trash/dirOutputSet/_100_Matrix_addition__and_subtraction__i__M_P_N___P__M___N_M___P_M____.wav",
+		"duration": 6.62,
+		"sentenceIndex": 14525,
+		"timestamp": 81.30000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 87.92000000000002
+	},
+	{
+		"index": 89,
+		"txt": "Matrix Subtraction: The −= Operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Matrix_Subtraction__The____Operator_traction__The____Operator____.wav",
+		"duration": 1.34,
+		"sentenceIndex": 14527,
+		"timestamp": 88.42000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 89.76000000000002
+	},
+	{
+		"index": 91,
+		"txt": "This operator simply subtracts the",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_operator_simply_subtracts_the_ator_simply_subtracts_the____.wav",
+		"duration": 0.72,
+		"sentenceIndex": 14529,
+		"timestamp": 90.26000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 90.98000000000002
+	},
+	{
+		"index": 96,
+		"txt": "passed matrix from the current one on an element by element basis.",
+		"file": "/home/user1/trash/dirOutputSet/_100_passed_matrix_from_the_current_one__element_by_element_basis_____.wav",
+		"duration": 1.41,
+		"sentenceIndex": 14534,
+		"timestamp": 91.48000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 92.89000000000001
+	},
+	{
+		"index": 97,
+		"txt": "For two matrices to be subtracted, they must be of the same order that is, they must have the same number of rows and columns:",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_two_matrices_to_be_subtracted___mber_of_rows_and_columns_____.wav",
+		"duration": 2.58,
+		"sentenceIndex": 14535,
+		"timestamp": 93.39000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 95.97000000000001
+	},
+	{
+		"index": 100,
+		"txt": "Scalar Multiplication: The *= Operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Scalar_Multiplication__The____Opera_lication__The____Operator____.wav",
+		"duration": 1.08,
+		"sentenceIndex": 14538,
+		"timestamp": 96.47000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 97.55000000000001
+	},
+	{
+		"index": 102,
+		"txt": "This operator simply",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_operator_simply_This_operator_simply____.wav",
+		"duration": 0.49,
+		"sentenceIndex": 14540,
+		"timestamp": 98.05000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 98.54
+	},
+	{
+		"index": 107,
+		"txt": "multiplies each element by the scalar s:",
+		"file": "/home/user1/trash/dirOutputSet/_100_multiplies_each_element_by_the_scal__element_by_the_scalar_s_____.wav",
+		"duration": 0.98,
+		"sentenceIndex": 14545,
+		"timestamp": 99.04
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 100.02000000000001
+	},
+	{
+		"index": 109,
+		"txt": "The following relation applies for scalar multiplication (and division):s(M N) = (sM) N = M (s N)",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_following_relation_applies_for__s_M_N_____sM__N___M__s_N_____.wav",
+		"duration": 2.98,
+		"sentenceIndex": 14547,
+		"timestamp": 100.52000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 103.50000000000001
+	},
+	{
+		"index": 111,
+		"txt": "Scalar Division: The /= Operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Scalar_Division__The____Operator_Division__The____Operator____.wav",
+		"duration": 1.06,
+		"sentenceIndex": 14549,
+		"timestamp": 104.00000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 105.06000000000002
+	},
+	{
+		"index": 113,
+		"txt": "This operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_operator_This_operator____.wav",
+		"duration": 0.33,
+		"sentenceIndex": 14551,
+		"timestamp": 105.56000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 105.89000000000001
+	},
+	{
+		"index": 118,
+		"txt": "simply divides each element by the",
+		"file": "/home/user1/trash/dirOutputSet/_100_simply_divides_each_element_by_the_vides_each_element_by_the____.wav",
+		"duration": 0.73,
+		"sentenceIndex": 14556,
+		"timestamp": 106.39000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 107.12000000000002
+	},
+	{
+		"index": 119,
+		"txt": "scalar s:",
+		"file": "/home/user1/trash/dirOutputSet/_100_scalar_s__scalar_s_____.wav",
+		"duration": 0.4,
+		"sentenceIndex": 14557,
+		"timestamp": 107.62000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 108.02000000000002
+	},
+	{
+		"index": 123,
+		"txt": "Matrix Functions and Operators",
+		"file": "/home/user1/trash/dirOutputSet/_100_Matrix_Functions_and_Operators_x_Functions_and_Operators____.wav",
+		"duration": 0.77,
+		"sentenceIndex": 14561,
+		"timestamp": 108.52000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 109.29000000000002
+	},
+	{
+		"index": 125,
+		"txt": "The functions and",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_functions_and_The_functions_and____.wav",
+		"duration": 0.44,
+		"sentenceIndex": 14563,
+		"timestamp": 109.79000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 110.23000000000002
+	},
+	{
+		"index": 126,
+		"txt": "overloaded operators that follow are useful when you are performing operations with two matrices, or with a matrix and a scalar, or a matrix and a vector.",
+		"file": "/home/user1/trash/dirOutputSet/_100_overloaded_operators_that_follow_ar_or_a_matrix_and_a_vector_____.wav",
+		"duration": 3.2,
+		"sentenceIndex": 14564,
+		"timestamp": 110.73000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 113.93000000000002
+	},
+	{
+		"index": 127,
+		"txt": "Here, the matrices are assumed to be of the type Matrix3x3, and vectors of the type Vector, as discussed in",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here__the_matrices_are_assumed_to_b_e_Vector__as_discussed_in____.wav",
+		"duration": 2.7,
+		"sentenceIndex": 14565,
+		"timestamp": 114.43000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 117.13000000000002
+	},
+	{
+		"index": 128,
+		"txt": "Appendix A",
+		"file": "/home/user1/trash/dirOutputSet/_100_Appendix A_Appendix A____.wav",
+		"duration": 0.48,
+		"sentenceIndex": 14566,
+		"timestamp": 117.63000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 118.11000000000003
+	},
+	{
+		"index": 131,
+		"txt": "Matrix Addition: The + Operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Matrix_Addition__The___Operator__Addition__The___Operator____.wav",
+		"duration": 0.85,
+		"sentenceIndex": 14569,
+		"timestamp": 118.61000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 119.46000000000002
+	},
+	{
+		"index": 132,
+		"txt": "This operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_operator_This_operator____.wav",
+		"duration": 0.33,
+		"sentenceIndex": 14570,
+		"timestamp": 119.96000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 120.29000000000002
+	},
+	{
+		"index": 136,
+		"txt": "adds the two matrices together on an element by element basis:",
+		"file": "/home/user1/trash/dirOutputSet/_100_adds_the_two_matrices_together_on_a_element_by_element_basis_____.wav",
+		"duration": 1.43,
+		"sentenceIndex": 14574,
+		"timestamp": 120.79000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 122.22000000000003
+	},
+	{
+		"index": 139,
+		"txt": "Matrix Subtraction: The − Operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Matrix_Subtraction__The___Operator_btraction__The___Operator____.wav",
+		"duration": 0.93,
+		"sentenceIndex": 14577,
+		"timestamp": 122.72000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 123.65000000000003
+	},
+	{
+		"index": 141,
+		"txt": "This operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_operator_This_operator____.wav",
+		"duration": 0.33,
+		"sentenceIndex": 14579,
+		"timestamp": 124.15000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 124.48000000000003
+	},
+	{
+		"index": 145,
+		"txt": "subtracts matrix m2 from m1 on an element by element basis:",
+		"file": "/home/user1/trash/dirOutputSet/_100_subtracts_matrix_m2_from_m1_on_an_e_element_by_element_basis_____.wav",
+		"duration": 1.53,
+		"sentenceIndex": 14583,
+		"timestamp": 124.98000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 126.51000000000003
+	},
+	{
+		"index": 148,
+		"txt": "Scalar Divide: The / Operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Scalar_Divide__The___Operator_ar_Divide__The___Operator____.wav",
+		"duration": 0.84,
+		"sentenceIndex": 14586,
+		"timestamp": 127.01000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 127.85000000000004
+	},
+	{
+		"index": 150,
+		"txt": "This operator divides",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_operator_divides_This_operator_divides____.wav",
+		"duration": 0.51,
+		"sentenceIndex": 14588,
+		"timestamp": 128.35000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 128.86
+	},
+	{
+		"index": 154,
+		"txt": "every element in the matrix m by the scalar s:",
+		"file": "/home/user1/trash/dirOutputSet/_100_every_element_in_the_matrix_m_by_th_matrix_m_by_the_scalar_s_____.wav",
+		"duration": 1.06,
+		"sentenceIndex": 14592,
+		"timestamp": 129.36
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 130.42000000000002
+	},
+	{
+		"index": 157,
+		"txt": "Matrix Multiplication: The * Operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Matrix_Multiplication__The___Operat_plication__The___Operator____.wav",
+		"duration": 0.96,
+		"sentenceIndex": 14595,
+		"timestamp": 130.92000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 131.88000000000002
+	},
+	{
+		"index": 159,
+		"txt": "This operator, when applied",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_operator__when_applied_is_operator__when_applied____.wav",
+		"duration": 0.66,
+		"sentenceIndex": 14597,
+		"timestamp": 132.38000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 133.04000000000002
+	},
+	{
+		"index": 163,
+		"txt": "between two matrices, performs a matrix multiplication.",
+		"file": "/home/user1/trash/dirOutputSet/_100_between_two_matrices__performs_a_ma__a_matrix_multiplication_____.wav",
+		"duration": 1.32,
+		"sentenceIndex": 14601,
+		"timestamp": 133.54000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 134.86
+	},
+	{
+		"index": 164,
+		"txt": "In matrix multiplication, each element, eij, is determined by the product of the ith row in the first matrix and the jth column of the second matrix:",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_matrix_multiplication__each_elem_umn_of_the_second_matrix_____.wav",
+		"duration": 3.38,
+		"sentenceIndex": 14602,
+		"timestamp": 135.36
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 138.74
+	},
+	{
+		"index": 166,
+		"txt": "Two matrices can be multiplied only if one has the same number of columns as the other has rows.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Two_matrices_can_be_multiplied_only_ns_as_the_other_has_rows_____.wav",
+		"duration": 2.05,
+		"sentenceIndex": 14604,
+		"timestamp": 139.24
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 141.29000000000002
+	},
+	{
+		"index": 167,
+		"txt": "Matrix multiplication is not commutative, but it is associative; thus:M N ≠ N M(M N) P = M (N P)",
+		"file": "/home/user1/trash/dirOutputSet/_100_Matrix_multiplication_is_not_commut__N___N_M_M_N__P___M__N_P_____.wav",
+		"duration": 2.97,
+		"sentenceIndex": 14605,
+		"timestamp": 141.79000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 144.76000000000002
+	},
+	{
+		"index": 169,
+		"txt": "Scalar Multiplication: The * Operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Scalar_Multiplication__The___Operat_plication__The___Operator____.wav",
+		"duration": 0.91,
+		"sentenceIndex": 14607,
+		"timestamp": 145.26000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 146.17000000000002
+	},
+	{
+		"index": 171,
+		"txt": "This operator, when",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_operator__when_This_operator__when____.wav",
+		"duration": 0.54,
+		"sentenceIndex": 14609,
+		"timestamp": 146.67000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 147.21
+	},
+	{
+		"index": 175,
+		"txt": "applied between a matrix and a scalar, multiplies each element in the matrix m by the scalar s .",
+		"file": "/home/user1/trash/dirOutputSet/_100_applied_between_a_matrix_and_a_scal_atrix_m_by_the_scalar_s______.wav",
+		"duration": 2.1,
+		"sentenceIndex": 14613,
+		"timestamp": 147.71
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 149.81
+	},
+	{
+		"index": 176,
+		"txt": "Two forms are given here, depending on the order in which the matrix and scalar are encountered:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Two_forms_are_given_here__depending_d_scalar_are_encountered_____.wav",
+		"duration": 1.98,
+		"sentenceIndex": 14614,
+		"timestamp": 150.31
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 152.29
+	},
+	{
+		"index": 179,
+		"txt": "Vector Multiplication: The * Operator",
+		"file": "/home/user1/trash/dirOutputSet/_100_Vector_Multiplication__The___Operat_plication__The___Operator____.wav",
+		"duration": 0.85,
+		"sentenceIndex": 14617,
+		"timestamp": 152.79
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 153.64
+	},
+	{
+		"index": 181,
+		"txt": "This operator,",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_operator__This_operator_____.wav",
+		"duration": 0.38,
+		"sentenceIndex": 14619,
+		"timestamp": 154.14
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 154.51999999999998
+	},
+	{
+		"index": 185,
+		"txt": "when applied between a vector and a matrix, performs a vector multiplication where the ith column in the matrix is multiplied by the ith component in the vector.",
+		"file": "/home/user1/trash/dirOutputSet/_100_when_applied_between_a_vector_and_a__component_in_the_vector_____.wav",
+		"duration": 3.1,
+		"sentenceIndex": 14623,
+		"timestamp": 155.01999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 158.11999999999998
+	},
+	{
+		"index": 186,
+		"txt": "Two forms are given here, depending on the order in which the matrix and vector are",
+		"file": "/home/user1/trash/dirOutputSet/_100_Two_forms_are_given_here__depending_the_matrix_and_vector_are____.wav",
+		"duration": 1.74,
+		"sentenceIndex": 14624,
+		"timestamp": 158.61999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 160.35999999999999
+	},
+	{
+		"index": 187,
+		"txt": "encountered:",
+		"file": "/home/user1/trash/dirOutputSet/_100_encountered__encountered_____.wav",
+		"duration": 0.32,
+		"sentenceIndex": 14625,
+		"timestamp": 160.85999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 161.17999999999998
+	}
+]

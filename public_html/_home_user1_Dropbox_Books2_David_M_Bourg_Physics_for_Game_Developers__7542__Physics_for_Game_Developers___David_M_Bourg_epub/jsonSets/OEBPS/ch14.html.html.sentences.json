@@ -1,0 +1,8194 @@
+[
+	{
+		"txt": "",
+		"why": "br tag like",
+		"sentenceIndex": 7669,
+		"nouns": [],
+		"dOIndex": 0,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 14. Physics Engines",
+		"why": "p",
+		"tags": [
+			"h2",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7670,
+		"nouns": [
+			"Chapter",
+			"Physics Engines"
+		],
+		"dOIndex": 1,
+		"nouns2": [
+			"Chapter",
+			"Physics",
+			"Engines"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "A physics engine is the part of ",
+		"why": "link",
+		"tags": [
+			"p",
+			"section"
+		],
+		"sentenceIndex": 7671,
+		"nouns": [
+			"physics",
+			"engine",
+			"part"
+		],
+		"dOIndex": 2,
+		"nouns2": [
+			"physics"
+		],
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": true,
+		"nounsProcAll": [
+			"physics",
+			"engine",
+			"part"
+		]
+	},
+	{
+		"txt": "your game that contains all the code required for whatever you're trying to simulate using physics based techniques. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7672,
+		"nouns": [
+			"game",
+			"code",
+			"re",
+			"physics",
+			"techniques"
+		],
+		"dOIndex": 3,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"game",
+			"code",
+			"re",
+			"physics",
+			"techniques"
+		],
+		"nouns2": [
+			"physics",
+			"techniques"
+		]
+	},
+	{
+		"txt": " For many game programmers, a physics engine is a real time, rigid body simulator such as the sort we've discussed earlier in this book. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7673,
+		"nouns": [
+			"game",
+			"programmers",
+			"physics",
+			"engine",
+			"time",
+			"body",
+			"simulator",
+			"sort",
+			"ve",
+			"book"
+		],
+		"dOIndex": 4,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"game",
+			"programmers",
+			"physics",
+			"engine",
+			"time",
+			"body",
+			"simulator",
+			"sort",
+			"ve",
+			"book"
+		],
+		"nouns2": [
+			"programmers",
+			"physics",
+			"simulator"
+		]
+	},
+	{
+		"txt": " The open source and licensable physics engines available to you are typically of the rigid body simulator variety. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7674,
+		"nouns": [
+			"source",
+			"licensable",
+			"physics",
+			"engines",
+			"body",
+			"simulator",
+			"variety"
+		],
+		"dOIndex": 5,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"source",
+			"licensable",
+			"physics",
+			"engines",
+			"body",
+			"simulator",
+			"variety"
+		],
+		"nouns2": [
+			"licensable",
+			"physics",
+			"engines",
+			"simulator",
+			"variety"
+		]
+	},
+	{
+		"txt": " Some physics engines are rather generic and are useful for general rigid bodies and particles; others include various connectors and constraints, enabling ragdoll simulation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7675,
+		"nouns": [
+			"physics",
+			"engines",
+			"bodies",
+			"particles",
+			"others",
+			"connectors",
+			"constraints",
+			"ragdoll",
+			"simulation"
+		],
+		"dOIndex": 6,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"physics",
+			"engines",
+			"bodies",
+			"particles",
+			"others",
+			"connectors",
+			"constraints",
+			"ragdoll",
+			"simulation"
+		],
+		"nouns2": [
+			"physics",
+			"engines",
+			"particles",
+			"connectors",
+			"constraints",
+			"ragdoll",
+			"simulation"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.07692307692307693,
+			"words": [
+				"useful"
+			],
+			"positive": [
+				"useful"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Still others focus on soft bodies and fluids. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7676,
+		"nouns": [
+			"others",
+			"focus",
+			"bodies",
+			"fluids"
+		],
+		"dOIndex": 7,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"others",
+			"focus",
+			"bodies",
+			"fluids"
+		]
+	},
+	{
+		"txt": " Fewer actually focus on the physics of some specific thing, like a car or a boat. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7677,
+		"nouns": [
+			"focus",
+			"physics",
+			"car",
+			"boat"
+		],
+		"dOIndex": 8,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"focus",
+			"physics",
+			"car",
+			"boat"
+		],
+		"nouns2": [
+			"physics"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.1111111111111111,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " A simple Internet search on the phrase ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7678,
+		"nouns": [
+			"Internet",
+			"search",
+			"phrase"
+		],
+		"dOIndex": 9,
+		"ignoreDOBcNoQuotes": false,
+		"isQuote": false,
+		"nounsProcAll": [
+			"Internet",
+			"search",
+			"phrase"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"Internet"
+		]
+	},
+	{
+		"txt": " \"game physics engine\" ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7679,
+		"nouns": [
+			"game",
+			"physics",
+			"engine"
+		],
+		"dOIndex": 10,
+		"isQuote": true,
+		"nounsProcAll": [
+			"game",
+			"physics",
+			"engine"
+		],
+		"sfxfx": [],
+		"gspkNameUnknown": "narrator",
+		"nouns2": [
+			"physics"
+		]
+	},
+	{
+		"txt": " will generate many links to potential options for your use. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7680,
+		"nouns": [
+			"links",
+			"options",
+			"use"
+		],
+		"dOIndex": 11,
+		"isQuote": false,
+		"ignoreDOBcNoQuotes": false,
+		"nounsProcAll": [
+			"links",
+			"options",
+			"use"
+		],
+		"sfxfx": [],
+		"nouns2": [
+			"options"
+		]
+	},
+	{
+		"txt": " That said, you could always write your own physics engine.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7681,
+		"nouns": [
+			"said",
+			"physics",
+			"engine"
+		],
+		"dOIndex": 12,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nounsProcAll": [
+			"said",
+			"physics",
+			"engine"
+		],
+		"nouns2": [
+			"physics"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"section"
+		],
+		"sentenceIndex": 7682,
+		"nouns": [],
+		"dOIndex": 13,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7683,
+		"nouns": [],
+		"dOIndex": 14,
+		"isQuote": false
+	},
+	{
+		"txt": "Building Your Own Physics Engine",
+		"why": "p",
+		"tags": [
+			"a",
+			"h2",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7684,
+		"nouns": [
+			"Physics Engine"
+		],
+		"dOIndex": 15,
+		"nouns2": [
+			"Building",
+			"Physics",
+			"Engine"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7685,
+		"nouns": [],
+		"dOIndex": 16,
+		"isQuote": false
+	},
+	{
+		"txt": "We're advocates of ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7686,
+		"nouns": [
+			"re",
+			"advocates"
+		],
+		"dOIndex": 17,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"advocates"
+		]
+	},
+	{
+		"txt": "using physics where you need it. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7687,
+		"nouns": [
+			"physics"
+		],
+		"dOIndex": 18,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"physics"
+		]
+	},
+	{
+		"txt": " Sure, you can write a general purpose physics engine for a game, but if you're creating a game that doesn't require a general purpose physics engine, then don't write one. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7688,
+		"nouns": [
+			"purpose",
+			"physics",
+			"engine",
+			"game",
+			"re",
+			"game",
+			"doesn",
+			"t",
+			"purpose",
+			"physics",
+			"engine",
+			"t",
+			"one"
+		],
+		"dOIndex": 19,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"purpose",
+			"physics"
+		]
+	},
+	{
+		"txt": " That may sound obvious, but sometimes we are compelled to do more than what we need just so we can say we did it. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7689,
+		"nouns": [
+			"sound"
+		],
+		"dOIndex": 20,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.038461538461538464,
+			"words": [
+				"compelled"
+			],
+			"positive": [
+				"compelled"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Aside from the effort ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7690,
+		"nouns": [
+			"effort"
+		],
+		"dOIndex": 21,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "involved, a general purpose physics engine will probably be less efficient than a purpose built physics engine. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7691,
+		"nouns": [
+			"purpose",
+			"physics",
+			"engine",
+			"purpose",
+			"physics",
+			"engine"
+		],
+		"dOIndex": 22,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"purpose",
+			"physics"
+		]
+	},
+	{
+		"txt": " By purpose built, we ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7692,
+		"nouns": [
+			"purpose"
+		],
+		"dOIndex": 23,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"purpose"
+		]
+	},
+	{
+		"txt": "mean designing the physics engine specifically to suit what you're trying to simulate. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7693,
+		"nouns": [
+			"physics",
+			"engine",
+			"suit",
+			"re"
+		],
+		"dOIndex": 24,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"physics"
+		]
+	},
+	{
+		"txt": " For example, a general purpose physics engine would surely include particles, rigid bodies, connectors, other force effectors, and who knows what else fluids, perhaps and be fully 3D. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7694,
+		"nouns": [
+			"example",
+			"purpose",
+			"physics",
+			"engine",
+			"particles",
+			"bodies",
+			"connectors",
+			"force",
+			"effectors",
+			"fluids",
+			"D"
+		],
+		"dOIndex": 25,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"purpose",
+			"physics",
+			"particles",
+			"connectors",
+			"effectors"
+		]
+	},
+	{
+		"txt": " But if you're writing a 2D side scrolling game for a smartphone, you certainly won't need 3D with the associated complexities involved in dealing with rotation and collisions in 3D; and if your game simply involves throwing a ball of fuzz at some arbitrary junk, then you may not even need to deal with rigid bodies at all. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7695,
+		"nouns": [
+			"re",
+			"D",
+			"side",
+			"game",
+			"smartphone",
+			"t",
+			"D",
+			"complexities",
+			"rotation",
+			"collisions",
+			"D",
+			"game",
+			"ball",
+			"fuzz",
+			"junk",
+			"bodies"
+		],
+		"dOIndex": 26,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"smartphone",
+			"complexities",
+			"rotation",
+			"collisions"
+		],
+		"highfreq": {
+			"with": 3
+		},
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.03333333333333333,
+			"words": [
+				"collisions"
+			],
+			"positive": [],
+			"negative": [
+				"collisions"
+			]
+		}
+	},
+	{
+		"txt": " We're being somewhat facetious here, but the point is, unless you must write a general purpose physics engine say, if you plan to license it as a middleware product or use it in a variety of game types then don't write one. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7696,
+		"nouns": [
+			"re",
+			"point",
+			"purpose",
+			"physics",
+			"engine",
+			"plan",
+			"license",
+			"middleware",
+			"product",
+			"use",
+			"variety",
+			"game",
+			"types",
+			"t",
+			"one"
+		],
+		"dOIndex": 27,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"purpose",
+			"physics",
+			"license",
+			"middleware",
+			"product",
+			"variety"
+		]
+	},
+	{
+		"txt": " Instead, write one specifically optimized for the game you're working on.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7697,
+		"nouns": [
+			"one",
+			"game",
+			"re"
+		],
+		"dOIndex": 28,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Instead"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7698,
+		"nouns": [],
+		"dOIndex": 29,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7699,
+		"nouns": [],
+		"dOIndex": 30,
+		"isQuote": false
+	},
+	{
+		"txt": "Let's consider a few examples. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7700,
+		"nouns": [
+			"examples"
+		],
+		"dOIndex": 31,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"examples"
+		]
+	},
+	{
+		"txt": " Let's say you're writing a 3D first person ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7701,
+		"nouns": [
+			"re",
+			"D",
+			"first",
+			"person"
+		],
+		"dOIndex": 32,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "shooter and you want to use physics to simulate how wooden barrels and crates blow apart when shot. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7702,
+		"nouns": [
+			"shooter",
+			"use",
+			"physics",
+			"barrels",
+			"crates",
+			"blow",
+			"shot"
+		],
+		"dOIndex": 33,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"shooter",
+			"physics",
+			"barrels"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.05263157894736842,
+			"words": [
+				"want"
+			],
+			"positive": [
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Typically, such an effect would show pieces of wood flying off in different directions while falling under the influence of gravity. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7703,
+		"nouns": [
+			"effect",
+			"pieces",
+			"wood",
+			"directions",
+			"influence",
+			"gravity"
+		],
+		"dOIndex": 34,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Typically",
+			"directions",
+			"influence",
+			"gravity"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.043478260869565216,
+			"words": [
+				"falling"
+			],
+			"positive": [],
+			"negative": [
+				"falling"
+			]
+		}
+	},
+	{
+		"txt": " You could simulate such an effect in 3D using rigid bodies and you wouldn't even need to consider collisions, unless you wanted the pieces to bounce off each other or other objects. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7704,
+		"nouns": [
+			"effect",
+			"D",
+			"bodies",
+			"wouldn",
+			"t",
+			"collisions",
+			"pieces",
+			"objects"
+		],
+		"dOIndex": 35,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collisions",
+			"objects"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.058823529411764705,
+			"words": [
+				"collisions"
+			],
+			"positive": [],
+			"negative": [
+				"collisions"
+			]
+		}
+	},
+	{
+		"txt": " Ignoring these aspects greatly simplifies the underlying physics engine. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7705,
+		"nouns": [
+			"aspects",
+			"physics",
+			"engine"
+		],
+		"dOIndex": 36,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Ignoring",
+			"aspects",
+			"physics"
+		]
+	},
+	{
+		"txt": " Consider another example. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7706,
+		"nouns": [
+			"example"
+		],
+		"dOIndex": 37,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Consider",
+			"example"
+		]
+	},
+	{
+		"txt": " Let's say you're working on a game involving flying an airplane. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7707,
+		"nouns": [
+			"re",
+			"game",
+			"airplane"
+		],
+		"dOIndex": 38,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"airplane"
+		]
+	},
+	{
+		"txt": " You can use physics to simulate the flight dynamics, as we explain in this book, without the need for particles, connectors, or even collision response.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7708,
+		"nouns": [
+			"use",
+			"physics",
+			"flight",
+			"dynamics",
+			"book",
+			"particles",
+			"connectors",
+			"collision",
+			"response"
+		],
+		"dOIndex": 39,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"physics",
+			"dynamics",
+			"particles",
+			"connectors",
+			"collision",
+			"response"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.07692307692307693,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7709,
+		"nouns": [],
+		"dOIndex": 40,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7710,
+		"nouns": [],
+		"dOIndex": 41,
+		"isQuote": false
+	},
+	{
+		"txt": "The point of all this discussion is that you should consider which aspects of your game will really benefit from physics and write your physics engine to deal specifically with those aspects.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7711,
+		"nouns": [
+			"point",
+			"discussion",
+			"aspects",
+			"game",
+			"benefit",
+			"physics",
+			"physics",
+			"engine",
+			"aspects"
+		],
+		"dOIndex": 42,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"discussion",
+			"aspects",
+			"benefit",
+			"physics"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.0625,
+			"words": [
+				"benefit"
+			],
+			"positive": [
+				"benefit"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7712,
+		"nouns": [],
+		"dOIndex": 43,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7713,
+		"nouns": [],
+		"dOIndex": 44,
+		"isQuote": false
+	},
+	{
+		"txt": "Another thing to consider is whether or not you need real time physics. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7714,
+		"nouns": [
+			"time",
+			"physics"
+		],
+		"dOIndex": 45,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Another",
+			"physics"
+		]
+	},
+	{
+		"txt": " You might expect, after reading the available game physics literature, that your game must include real time simulations ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7715,
+		"nouns": [
+			"game",
+			"physics",
+			"literature",
+			"game",
+			"time",
+			"simulations"
+		],
+		"dOIndex": 46,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"physics",
+			"literature",
+			"simulations"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7716,
+		"nouns": [],
+		"dOIndex": 47,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "if it is to incorporate physics. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7717,
+		"nouns": [
+			"physics"
+		],
+		"dOIndex": 48,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"physics"
+		]
+	},
+	{
+		"txt": " However, there are many ways to include physics in a game without having to solve the physics via real time simulations. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7718,
+		"nouns": [
+			"ways",
+			"physics",
+			"game",
+			"physics",
+			"time",
+			"simulations"
+		],
+		"dOIndex": 49,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"physics",
+			"simulations"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.043478260869565216,
+			"words": [
+				"solve"
+			],
+			"positive": [
+				"solve"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " We show you an example in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7719,
+		"nouns": [
+			"show",
+			"example"
+		],
+		"dOIndex": 50,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example"
+		]
+	},
+	{
+		"txt": "Chapter 19 whereby a golf swing is ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7720,
+		"nouns": [
+			"Chapter",
+			"golf"
+		],
+		"dOIndex": 51,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7721,
+		"nouns": [],
+		"dOIndex": 52,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7722,
+		"nouns": [],
+		"dOIndex": 53,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "simulated in order to determine club head velocity at the time of club ball impact. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7723,
+		"nouns": [
+			"order",
+			"club",
+			"head",
+			"velocity",
+			"time",
+			"club",
+			"ball",
+			"impact"
+		],
+		"dOIndex": 54,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocity"
+		]
+	},
+	{
+		"txt": " In this case, given specific initial parameters, we can solve the swing quickly, almost instantaneously, to determine the club speed, which can then be used as an initial condition for the ball flight. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7724,
+		"nouns": [
+			"case",
+			"parameters",
+			"club",
+			"condition",
+			"ball",
+			"flight"
+		],
+		"dOIndex": 55,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"parameters",
+			"condition"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.02857142857142857,
+			"words": [
+				"solve"
+			],
+			"positive": [
+				"solve"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The ball's flight can be solved quickly as well and not necessarily in real time. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7725,
+		"nouns": [
+			"ball",
+			"flight",
+			"time"
+		],
+		"dOIndex": 56,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.058823529411764705,
+			"words": [
+				"solved"
+			],
+			"positive": [
+				"solved"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " It really depends on how you want to present the result to the player. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7726,
+		"nouns": [
+			"result",
+			"player"
+		],
+		"dOIndex": 57,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.0625,
+			"words": [
+				"want"
+			],
+			"positive": [
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " If your game involves following the flight of the ball as it soars through the air, then you might want to simulate its flight in real time so you can realistically move the ball and camera. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7727,
+		"nouns": [
+			"game",
+			"flight",
+			"ball",
+			"soars",
+			"air",
+			"flight",
+			"time",
+			"move",
+			"ball",
+			"camera"
+		],
+		"dOIndex": 58,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.02631578947368421,
+			"words": [
+				"want"
+			],
+			"positive": [
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " If, however, you simply want to show where the ball ends up, then you need not perform the simulation in real time. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7728,
+		"nouns": [
+			"show",
+			"ball",
+			"ends",
+			"simulation",
+			"time"
+		],
+		"dOIndex": 59,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulation"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.041666666666666664,
+			"words": [
+				"want"
+			],
+			"positive": [
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " For such a simple problem, you can solve for the final ball location quicker than real time. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7729,
+		"nouns": [
+			"problem",
+			"ball",
+			"location",
+			"time"
+		],
+		"dOIndex": 60,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"problem",
+			"location"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.05263157894736842,
+			"words": [
+				"solve",
+				"problem"
+			],
+			"positive": [
+				"solve"
+			],
+			"negative": [
+				"problem"
+			]
+		}
+	},
+	{
+		"txt": " Sometimes, the action you're simulating may happen so fast in real life that you'll want to slow it down for your game. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7730,
+		"nouns": [
+			"action",
+			"re",
+			"life",
+			"ll",
+			"game"
+		],
+		"dOIndex": 61,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Sometimes"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.041666666666666664,
+			"words": [
+				"want"
+			],
+			"positive": [
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Following a golf ball's flight in real time might have the camera moving so fast that your player won't be able to enjoy the beautifully rendered bird's eye view of the course. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7731,
+		"nouns": [
+			"golf",
+			"ball",
+			"flight",
+			"time",
+			"camera",
+			"player",
+			"t",
+			"bird",
+			"eye",
+			"view",
+			"course"
+		],
+		"dOIndex": 62,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Following"
+		],
+		"sentiment": {
+			"score": 5,
+			"comparative": 0.14705882352941177,
+			"words": [
+				"beautifully",
+				"enjoy"
+			],
+			"positive": [
+				"beautifully",
+				"enjoy"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " In this case, you rapidly solve the flight path, save the data, and then animate the scene at a more enjoyable pace of your choosing.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7732,
+		"nouns": [
+			"case",
+			"flight",
+			"path",
+			"data",
+			"scene",
+			"pace"
+		],
+		"dOIndex": 63,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"sentiment": {
+			"score": 5,
+			"comparative": 0.19230769230769232,
+			"words": [
+				"enjoyable",
+				"save",
+				"solve"
+			],
+			"positive": [
+				"enjoyable",
+				"save",
+				"solve"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7733,
+		"nouns": [],
+		"dOIndex": 64,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7734,
+		"nouns": [],
+		"dOIndex": 65,
+		"isQuote": false
+	},
+	{
+		"txt": "We don't want to come across as trying to talk you out of writing a physics engine if you so choose. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7735,
+		"nouns": [
+			"t",
+			"physics",
+			"engine"
+		],
+		"dOIndex": 66,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"physics"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.045454545454545456,
+			"words": [
+				"want"
+			],
+			"positive": [],
+			"negative": [
+				"want"
+			]
+		}
+	},
+	{
+		"txt": " The point of our discussion so far is that you simply don't have to write a generic, real time physics engine in order to use physics in your games. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7736,
+		"nouns": [
+			"point",
+			"discussion",
+			"t",
+			"time",
+			"physics",
+			"engine",
+			"order",
+			"use",
+			"physics",
+			"games"
+		],
+		"dOIndex": 67,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"discussion",
+			"physics"
+		]
+	},
+	{
+		"txt": " You have other options as we've just explained.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7737,
+		"nouns": [
+			"options",
+			"ve"
+		],
+		"dOIndex": 68,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"options"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7738,
+		"nouns": [],
+		"dOIndex": 69,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7739,
+		"nouns": [],
+		"dOIndex": 70,
+		"isQuote": false
+	},
+	{
+		"txt": "Assuming that, after all these considerations, you need to write a physics engine, then we have the following to offer.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7740,
+		"nouns": [
+			"considerations",
+			"physics",
+			"engine",
+			"offer"
+		],
+		"dOIndex": 71,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Assuming",
+			"considerations",
+			"physics"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7741,
+		"nouns": [],
+		"dOIndex": 72,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7742,
+		"nouns": [],
+		"dOIndex": 73,
+		"isQuote": false
+	},
+	{
+		"txt": "A physics engine is just one component of a ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7743,
+		"nouns": [
+			"physics",
+			"engine",
+			"one",
+			"component"
+		],
+		"dOIndex": 74,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"physics",
+			"component"
+		]
+	},
+	{
+		"txt": "game engine. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7744,
+		"nouns": [
+			"game",
+			"engine"
+		],
+		"dOIndex": 75,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " The other components include the graphics engine, audio engine, AI engine, and whatever other engines you may require or whatever other components of a game you may elevate to the status of engine. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7745,
+		"nouns": [
+			"components",
+			"graphics",
+			"engine",
+			"engine",
+			"engine",
+			"engines",
+			"components",
+			"game",
+			"status",
+			"engine"
+		],
+		"dOIndex": 76,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"components",
+			"graphics",
+			"engines"
+		],
+		"highfreq": {
+			"other": 3,
+			"engine": 4
+		}
+	},
+	{
+		"txt": " Whatever the case, the physics engine handles the physics. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7746,
+		"nouns": [
+			"case",
+			"physics",
+			"engine",
+			"physics"
+		],
+		"dOIndex": 77,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Whatever",
+			"physics"
+		]
+	},
+	{
+		"txt": " Depending on whom you talk to, you'll get different ideas on what composes a physics engine. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7747,
+		"nouns": [
+			"ll",
+			"ideas",
+			"physics",
+			"engine"
+		],
+		"dOIndex": 78,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Depending",
+			"physics"
+		]
+	},
+	{
+		"txt": " Some will say that the heart of the physics engine is the collision detection module. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7748,
+		"nouns": [
+			"heart",
+			"physics",
+			"engine",
+			"collision",
+			"detection",
+			"module"
+		],
+		"dOIndex": 79,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"physics",
+			"collision",
+			"detection"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.11764705882352941,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " Well, what if your game doesn't require collision detection, yet it still uses physics to simulate certain behaviors or features? ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7749,
+		"nouns": [
+			"game",
+			"doesn",
+			"t",
+			"collision",
+			"detection",
+			"physics",
+			"behaviors",
+			"features"
+		],
+		"dOIndex": 80,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"detection",
+			"physics",
+			"behaviors",
+			"features"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.045454545454545456,
+			"words": [
+				"certain",
+				"collision"
+			],
+			"positive": [
+				"certain"
+			],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " Then collision detection certainly cannot be the heart of your physics engine. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7750,
+		"nouns": [
+			"collision",
+			"detection",
+			"heart",
+			"physics",
+			"engine"
+		],
+		"dOIndex": 81,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"detection",
+			"physics"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.14285714285714285,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " Some programmers will certainly take issue with these statements. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7751,
+		"nouns": [
+			"programmers",
+			"issue",
+			"statements"
+		],
+		"dOIndex": 82,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"programmers",
+			"statements"
+		]
+	},
+	{
+		"txt": " To them, a physics engine simulates rigid body motion using Newtonian dynamics while taking care of ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7752,
+		"nouns": [
+			"physics",
+			"engine",
+			"body",
+			"motion",
+			"dynamics",
+			"care"
+		],
+		"dOIndex": 83,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"physics",
+			"Newtonian",
+			"dynamics"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.1111111111111111,
+			"words": [
+				"care"
+			],
+			"positive": [
+				"care"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7753,
+		"nouns": [],
+		"dOIndex": 84,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7754,
+		"nouns": [],
+		"dOIndex": 85,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7755,
+		"nouns": [],
+		"dOIndex": 86,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "collision detection and response. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7756,
+		"nouns": [
+			"collision",
+			"detection",
+			"response"
+		],
+		"dOIndex": 87,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"detection",
+			"response"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.4,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " To us, a significant component of a physics engine is the model that is, the idealization of the thing you're trying to simulate in a realistic manner. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7757,
+		"nouns": [
+			"component",
+			"physics",
+			"engine",
+			"model",
+			"idealization",
+			"re",
+			"manner"
+		],
+		"dOIndex": 88,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"component",
+			"physics",
+			"idealization"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.034482758620689655,
+			"words": [
+				"significant"
+			],
+			"positive": [
+				"significant"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " You cannot realistically simulate the flight characteristics of a specific aircraft by treating it as a generic rigid body. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7758,
+		"nouns": [
+			"flight",
+			"characteristics",
+			"aircraft",
+			"body"
+		],
+		"dOIndex": 89,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"characteristics",
+			"aircraft"
+		]
+	},
+	{
+		"txt": " You have to develop a representative model of that aircraft including very specific features; otherwise, it's a hack (which, by the way, we recognize as a valid and long established approach).",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7759,
+		"nouns": [
+			"representative",
+			"model",
+			"aircraft",
+			"features",
+			"hack",
+			"way",
+			"approach"
+		],
+		"dOIndex": 90,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"representative",
+			"aircraft",
+			"features",
+			"approach"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7760,
+		"nouns": [],
+		"dOIndex": 91,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7761,
+		"nouns": [],
+		"dOIndex": 92,
+		"isQuote": false
+	},
+	{
+		"txt": "Earlier, in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7762,
+		"nouns": [],
+		"dOIndex": 93,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Earlier"
+		]
+	},
+	{
+		"txt": "Chapter 7 and ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7763,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 94,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7764,
+		"nouns": [],
+		"dOIndex": 95,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 13, we showed you several example ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7765,
+		"nouns": [
+			"Chapter",
+			"example"
+		],
+		"dOIndex": 96,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter",
+			"example"
+		]
+	},
+	{
+		"txt": "simulations. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7766,
+		"nouns": [
+			"simulations"
+		],
+		"dOIndex": 97,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulations"
+		]
+	},
+	{
+		"txt": " While simple, these examples include many of the required components of a generic physics engine. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7767,
+		"nouns": [
+			"examples",
+			"components",
+			"physics",
+			"engine"
+		],
+		"dOIndex": 98,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"examples",
+			"components",
+			"physics"
+		]
+	},
+	{
+		"txt": " There are the particle and rigid body classes that encapsulate generic object properties and behaviors, physics models that govern object behaviors, collision detection and response systems, and a numerical integrator. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7768,
+		"nouns": [
+			"particle",
+			"body",
+			"classes",
+			"object",
+			"properties",
+			"behaviors",
+			"physics",
+			"models",
+			"object",
+			"behaviors",
+			"collision",
+			"detection",
+			"response",
+			"systems",
+			"integrator"
+		],
+		"dOIndex": 99,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"particle",
+			"classes",
+			"properties",
+			"behaviors",
+			"physics",
+			"collision",
+			"detection",
+			"response",
+			"systems",
+			"integrator"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.0625,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " Additionally, those examples include interfacing the physics code with user input and visual feedback. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7769,
+		"nouns": [
+			"examples",
+			"physics",
+			"code",
+			"user",
+			"input",
+			"feedback"
+		],
+		"dOIndex": 100,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Additionally",
+			"examples",
+			"physics",
+			"feedback"
+		]
+	},
+	{
+		"txt": " These examples also show the basic flow from user input to physics solver to visual feedback.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7770,
+		"nouns": [
+			"examples",
+			"show",
+			"flow",
+			"user",
+			"input",
+			"physics",
+			"solver",
+			"feedback"
+		],
+		"dOIndex": 101,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"examples",
+			"physics",
+			"feedback"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7771,
+		"nouns": [],
+		"dOIndex": 102,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7772,
+		"nouns": [],
+		"dOIndex": 103,
+		"isQuote": false
+	},
+	{
+		"txt": "In summary, the major components of a generic physics engine ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7773,
+		"nouns": [
+			"summary",
+			"components",
+			"physics",
+			"engine"
+		],
+		"dOIndex": 104,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"summary",
+			"components",
+			"physics"
+		]
+	},
+	{
+		"txt": "include:",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7774,
+		"nouns": [],
+		"dOIndex": 105,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [],
+		"sentenceIndex": 7775,
+		"nouns": [],
+		"dOIndex": 106,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7776,
+		"nouns": [],
+		"dOIndex": 107,
+		"isQuote": false
+	},
+	{
+		"txt": "Physics models",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"li",
+			"ul",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7777,
+		"nouns": [
+			"Physics",
+			"models"
+		],
+		"dOIndex": 108,
+		"nouns2": [
+			"Physics"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7778,
+		"nouns": [],
+		"dOIndex": 109,
+		"isQuote": false
+	},
+	{
+		"txt": "Simulated objects manager",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"li",
+			"ul",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7779,
+		"nouns": [
+			"objects",
+			"manager"
+		],
+		"dOIndex": 110,
+		"nouns2": [
+			"Simulated",
+			"objects",
+			"manager"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7780,
+		"nouns": [],
+		"dOIndex": 111,
+		"isQuote": false
+	},
+	{
+		"txt": "Collision detection engine or interface thereto",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"li",
+			"ul",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7781,
+		"nouns": [
+			"Collision",
+			"detection",
+			"engine",
+			"interface"
+		],
+		"dOIndex": 112,
+		"nouns2": [
+			"Collision",
+			"detection",
+			"interface"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.3333333333333333,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7782,
+		"nouns": [],
+		"dOIndex": 113,
+		"isQuote": false
+	},
+	{
+		"txt": "Collision response module",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"li",
+			"ul",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7783,
+		"nouns": [
+			"Collision",
+			"response",
+			"module"
+		],
+		"dOIndex": 114,
+		"nouns2": [
+			"Collision",
+			"response"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.6666666666666666,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7784,
+		"nouns": [],
+		"dOIndex": 115,
+		"isQuote": false
+	},
+	{
+		"txt": "Force effectors",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"li",
+			"ul",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7785,
+		"nouns": [
+			"Force",
+			"effectors"
+		],
+		"dOIndex": 116,
+		"nouns2": [
+			"effectors"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7786,
+		"nouns": [],
+		"dOIndex": 117,
+		"isQuote": false
+	},
+	{
+		"txt": "Numerical integrator",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"li",
+			"ul",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7787,
+		"nouns": [
+			"integrator"
+		],
+		"dOIndex": 118,
+		"nouns2": [
+			"Numerical",
+			"integrator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7788,
+		"nouns": [],
+		"dOIndex": 119,
+		"isQuote": false
+	},
+	{
+		"txt": "Game engine interface",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"li",
+			"ul",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7789,
+		"nouns": [
+			"Game",
+			"engine",
+			"interface"
+		],
+		"dOIndex": 120,
+		"nouns2": [
+			"interface"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7790,
+		"nouns": [],
+		"dOIndex": 121,
+		"isQuote": false
+	},
+	{
+		"txt": "Physics Models",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7791,
+		"nouns": [
+			"Physics",
+			"Models"
+		],
+		"dOIndex": 122,
+		"nouns2": [
+			"Physics",
+			"Models"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7792,
+		"nouns": [],
+		"dOIndex": 123,
+		"isQuote": false
+	},
+	{
+		"txt": "Physics models are ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7793,
+		"nouns": [
+			"Physics",
+			"models"
+		],
+		"dOIndex": 124,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Physics"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7794,
+		"nouns": [],
+		"dOIndex": 125,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7795,
+		"nouns": [],
+		"dOIndex": 126,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "the idealizations of the things you're simulating. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7796,
+		"nouns": [
+			"idealizations",
+			"things",
+			"re"
+		],
+		"dOIndex": 127,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"idealizations"
+		]
+	},
+	{
+		"txt": " If your physics engine is a generic rigid body simulator used to simulate an assortment of solid objects your players can knock around, throw, shoot, and generally interact with in a basic manner, then the physics model will probably be very generic. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7797,
+		"nouns": [
+			"physics",
+			"engine",
+			"body",
+			"simulator",
+			"assortment",
+			"objects",
+			"players",
+			"manner",
+			"physics",
+			"model"
+		],
+		"dOIndex": 128,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"physics",
+			"simulator",
+			"assortment",
+			"objects",
+			"players"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.022727272727272728,
+			"words": [
+				"shoot",
+				"solid"
+			],
+			"positive": [
+				"solid"
+			],
+			"negative": [
+				"shoot"
+			]
+		}
+	},
+	{
+		"txt": " It's probably safe to assume that each object will be subject to gravity's pull, thus mass will be an important attribute. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7798,
+		"nouns": [
+			"object",
+			"subject",
+			"gravity",
+			"mass"
+		],
+		"dOIndex": 129,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"subject",
+			"gravity"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.13043478260869565,
+			"words": [
+				"important",
+				"safe"
+			],
+			"positive": [
+				"important",
+				"safe"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Size will also be important, not only because you'll need to know how big things are when checking for collisions and handling other interactions, but also because size is related to the distribution of the object's mass. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7799,
+		"nouns": [
+			"Size",
+			"ll",
+			"things",
+			"collisions",
+			"interactions",
+			"size",
+			"distribution",
+			"object",
+			"mass"
+		],
+		"dOIndex": 130,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collisions",
+			"interactions",
+			"distribution"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.02564102564102564,
+			"words": [
+				"collisions",
+				"big",
+				"important"
+			],
+			"positive": [
+				"big",
+				"important"
+			],
+			"negative": [
+				"collisions"
+			]
+		}
+	},
+	{
+		"txt": " More precisely, each object will ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7800,
+		"nouns": [
+			"object"
+		],
+		"dOIndex": 131,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "have mass moment of inertia",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7801,
+		"nouns": [
+			"mass",
+			"moment",
+			"inertia"
+		],
+		"dOIndex": 132,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"inertia"
+		]
+	},
+	{
+		"txt": " attributes. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7802,
+		"nouns": [
+			"attributes"
+		],
+		"dOIndex": 133,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"attributes"
+		]
+	},
+	{
+		"txt": " The objects will most likely also have some ascribed ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7803,
+		"nouns": [
+			"objects"
+		],
+		"dOIndex": 134,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"objects"
+		]
+	},
+	{
+		"txt": "coefficient of restitution that will be used during collision response handling. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7804,
+		"nouns": [
+			"coefficient",
+			"restitution",
+			"collision",
+			"response"
+		],
+		"dOIndex": 135,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coefficient",
+			"restitution",
+			"collision",
+			"response"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.16666666666666666,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " Additionally, you might ascribe some friction coefficients ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7805,
+		"nouns": [
+			"friction",
+			"coefficients"
+		],
+		"dOIndex": 136,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Additionally",
+			"friction",
+			"coefficients"
+		]
+	},
+	{
+		"txt": "that may be used during collision response or in situations where the objects may slide along a floor. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7806,
+		"nouns": [
+			"collision",
+			"response",
+			"situations",
+			"objects",
+			"slide",
+			"floor"
+		],
+		"dOIndex": 137,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"response",
+			"situations",
+			"objects"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.10526315789473684,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " As the objects will likely find themselves airborne at some point, you'll probably also include a drag coefficient ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7807,
+		"nouns": [
+			"objects",
+			"point",
+			"ll",
+			"drag",
+			"coefficient"
+		],
+		"dOIndex": 138,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"objects",
+			"coefficient"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.05,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": "for each object. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7808,
+		"nouns": [
+			"object"
+		],
+		"dOIndex": 139,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " All of these parameters will help you differentiate massive objects from lighter ones or compact objects from voluminous ones.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7809,
+		"nouns": [
+			"parameters",
+			"objects",
+			"ones",
+			"objects",
+			"ones"
+		],
+		"dOIndex": 140,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"parameters",
+			"objects"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.1,
+			"words": [
+				"help"
+			],
+			"positive": [
+				"help"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7810,
+		"nouns": [],
+		"dOIndex": 141,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7811,
+		"nouns": [],
+		"dOIndex": 142,
+		"isQuote": false
+	},
+	{
+		"txt": "If your simulation involves more than generic rigid bodies, then your physics will be more specific and perhaps far more elaborate. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7812,
+		"nouns": [
+			"simulation",
+			"bodies",
+			"physics"
+		],
+		"dOIndex": 143,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulation",
+			"physics"
+		],
+		"highfreq": {
+			"more": 3
+		}
+	},
+	{
+		"txt": " A great example of a more complicated model is flight simulation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7813,
+		"nouns": [
+			"example",
+			"model",
+			"flight",
+			"simulation"
+		],
+		"dOIndex": 144,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"simulation"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.23076923076923078,
+			"words": [
+				"great"
+			],
+			"positive": [
+				"great"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " No matter how good your generic rigid body model, it won't fly like any specific aircraft if it flies at all. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7814,
+		"nouns": [
+			"matter",
+			"body",
+			"model",
+			"t",
+			"aircraft"
+		],
+		"dOIndex": 145,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"aircraft"
+		],
+		"sentiment": {
+			"score": 5,
+			"comparative": 0.21739130434782608,
+			"words": [
+				"like",
+				"good",
+				"matter",
+				"no"
+			],
+			"positive": [
+				"like",
+				"good",
+				"matter"
+			],
+			"negative": [
+				"no"
+			]
+		}
+	},
+	{
+		"txt": " You must develop a model that captures flight aerodynamics specific to the aircraft you're simulating. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7815,
+		"nouns": [
+			"model",
+			"flight",
+			"aerodynamics",
+			"aircraft",
+			"re"
+		],
+		"dOIndex": 146,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"aerodynamics",
+			"aircraft"
+		]
+	},
+	{
+		"txt": " ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7816,
+		"nouns": [],
+		"dOIndex": 147,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 15",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7817,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 148,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " shows how to put together a model for an aircraft that can be used in a real time flight simulation.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7818,
+		"nouns": [
+			"model",
+			"aircraft",
+			"time",
+			"flight",
+			"simulation"
+		],
+		"dOIndex": 149,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"aircraft",
+			"simulation"
+		]
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7819,
+		"nouns": [],
+		"dOIndex": 150,
+		"isQuote": false
+	},
+	{
+		"txt": "The other chapters in Part IV of this book are meant to give you a taste of modeling aspects for a variety of things you might simulate in a game. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7820,
+		"nouns": [
+			"chapters",
+			"Part IV",
+			"book",
+			"taste",
+			"aspects",
+			"variety",
+			"things",
+			"game"
+		],
+		"dOIndex": 151,
+		"nouns2": [
+			"chapters",
+			"aspects",
+			"variety"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": " Just as you cannot simulate an aircraft with a generic rigid body model, you cannot simulate a ship with an aircraft model, nor can you simulate a golf ball with a ship model. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7821,
+		"nouns": [
+			"aircraft",
+			"body",
+			"model",
+			"ship",
+			"aircraft",
+			"model",
+			"golf",
+			"ball",
+			"ship",
+			"model"
+		],
+		"dOIndex": 152,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"aircraft"
+		],
+		"highfreq": {
+			"simulate": 3,
+			"with": 3,
+			"model": 3
+		}
+	},
+	{
+		"txt": " The point is that you must spend some time designing your physics model specific to what you're going to simulate in your game. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7822,
+		"nouns": [
+			"point",
+			"time",
+			"physics",
+			"model",
+			"re",
+			"game"
+		],
+		"dOIndex": 153,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"physics"
+		]
+	},
+	{
+		"txt": " Time spent here is just as important to creating a realistic physics engine as time spent on designing a robust integration scheme or collision detection system. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7823,
+		"nouns": [
+			"Time",
+			"physics",
+			"engine",
+			"time",
+			"integration",
+			"scheme",
+			"collision",
+			"detection",
+			"system"
+		],
+		"dOIndex": 154,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"physics",
+			"integration",
+			"collision",
+			"detection"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.07142857142857142,
+			"words": [
+				"collision",
+				"robust",
+				"important"
+			],
+			"positive": [
+				"robust",
+				"important"
+			],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " We can't overstate the importance of the physical model. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7824,
+		"nouns": [
+			"t",
+			"importance",
+			"model"
+		],
+		"dOIndex": 155,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"importance"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.18181818181818182,
+			"words": [
+				"importance"
+			],
+			"positive": [
+				"importance"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The model is what defines the behavior of the thing you're simulating.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7825,
+		"nouns": [
+			"model",
+			"behavior",
+			"re"
+		],
+		"dOIndex": 156,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"behavior"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7826,
+		"nouns": [],
+		"dOIndex": 157,
+		"isQuote": false
+	},
+	{
+		"txt": "Simulated Objects Manager",
+		"why": "p",
+		"tags": [
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7827,
+		"nouns": [
+			"Objects Manager"
+		],
+		"dOIndex": 158,
+		"nouns2": [
+			"Simulated",
+			"Objects",
+			"Manager"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "Your simulated objects manager will be ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7828,
+		"nouns": [
+			"objects",
+			"manager"
+		],
+		"dOIndex": 159,
+		"nouns2": [
+			"objects",
+			"manager"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7829,
+		"nouns": [],
+		"dOIndex": 160,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7830,
+		"nouns": [],
+		"dOIndex": 161,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "responsible for instantiating, initializing, and disposing of objects. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7831,
+		"nouns": [
+			"objects"
+		],
+		"dOIndex": 162,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"objects"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.2222222222222222,
+			"words": [
+				"responsible"
+			],
+			"positive": [
+				"responsible"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " It will also be responsible for maintaining links between object physics and other attributes such as geometry, for example, if in a 3D simulation you use the same polyhedron to render an object and for collision detection and response.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7832,
+		"nouns": [
+			"links",
+			"object",
+			"physics",
+			"attributes",
+			"geometry",
+			"example",
+			"D",
+			"simulation",
+			"use",
+			"polyhedron",
+			"object",
+			"collision",
+			"detection",
+			"response"
+		],
+		"dOIndex": 163,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"physics",
+			"attributes",
+			"geometry",
+			"example",
+			"simulation",
+			"polyhedron",
+			"collision",
+			"detection",
+			"response"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"collision",
+				"responsible"
+			],
+			"positive": [
+				"responsible"
+			],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7833,
+		"nouns": [],
+		"dOIndex": 164,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7834,
+		"nouns": [],
+		"dOIndex": 165,
+		"isQuote": false
+	},
+	{
+		"txt": "You must have some means of managing the objects in your simulation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7835,
+		"nouns": [
+			"objects",
+			"simulation"
+		],
+		"dOIndex": 166,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"objects",
+			"simulation"
+		]
+	},
+	{
+		"txt": " One can imagine many different approaches to managing these objects, and unless your simulation uses just a handful of objects or fewer, essentially what you need is a list of objects of whatever class you've defined. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7836,
+		"nouns": [
+			"One",
+			"approaches",
+			"objects",
+			"simulation",
+			"handful",
+			"objects",
+			"list",
+			"objects",
+			"class",
+			"ve"
+		],
+		"dOIndex": 167,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"approaches",
+			"objects",
+			"simulation",
+			"handful"
+		],
+		"highfreq": {
+			"objects": 3
+		}
+	},
+	{
+		"txt": " You've seen in previous chapters' examples where we use simple arrays of RigidBody type objects or Particle type objects. ",
+		"why": "split inside sentence",
+		"tags": [
+			"code",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7837,
+		"nouns": [
+			"ve",
+			"chapters",
+			"examples",
+			"use",
+			"arrays",
+			"RigidBody",
+			"type",
+			"objects",
+			"Particle",
+			"type",
+			"objects"
+		],
+		"dOIndex": 168,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"chapters",
+			"examples",
+			"RigidBody",
+			"objects",
+			"Particle"
+		]
+	},
+	{
+		"txt": " If all the objects in your simulation are the same, then you need only a single class capturing all their behavior. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7838,
+		"nouns": [
+			"objects",
+			"simulation",
+			"class",
+			"behavior"
+		],
+		"dOIndex": 169,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"objects",
+			"simulation",
+			"behavior"
+		]
+	},
+	{
+		"txt": " However, for more diversity, you should use a list of various classes with each class encapsulating the code required to implement its own physical model. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7839,
+		"nouns": [
+			"diversity",
+			"use",
+			"list",
+			"classes",
+			"class",
+			"code",
+			"model"
+		],
+		"dOIndex": 170,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"diversity",
+			"classes"
+		]
+	},
+	{
+		"txt": " This is particularly important with respect to the forces acting on the model. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7840,
+		"nouns": [
+			"respect",
+			"forces",
+			"model"
+		],
+		"dOIndex": 171,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"respect"
+		],
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.26666666666666666,
+			"words": [
+				"respect",
+				"important"
+			],
+			"positive": [
+				"respect",
+				"important"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " For example, you could have some objects representing projectiles with others representing aircraft. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7841,
+		"nouns": [
+			"example",
+			"objects",
+			"projectiles",
+			"others",
+			"aircraft"
+		],
+		"dOIndex": 172,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"objects",
+			"projectiles",
+			"aircraft"
+		]
+	},
+	{
+		"txt": " These different classes will share some common code (for example, collision detection); however, the way forces are computed on each will vary due to the differences in how they are modeled. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7842,
+		"nouns": [
+			"classes",
+			"share",
+			"code",
+			"example",
+			"collision",
+			"detection",
+			"way",
+			"forces",
+			"differences"
+		],
+		"dOIndex": 173,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"classes",
+			"example",
+			"collision",
+			"detection",
+			"differences"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.030303030303030304,
+			"words": [
+				"collision",
+				"share"
+			],
+			"positive": [
+				"share"
+			],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " With such an approach, each class must have code that implements its particular model. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7843,
+		"nouns": [
+			"approach",
+			"class",
+			"code",
+			"implements",
+			"model"
+		],
+		"dOIndex": 174,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"approach",
+			"implements"
+		]
+	},
+	{
+		"txt": " During integration, the entire list will be traversed, calling the force aggregation method for each object, and the particular class will handle the details suitable for the type of object.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7844,
+		"nouns": [
+			"integration",
+			"list",
+			"force",
+			"aggregation",
+			"method",
+			"object",
+			"class",
+			"details",
+			"type",
+			"object"
+		],
+		"dOIndex": 175,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"During",
+			"integration",
+			"aggregation",
+			"details"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.06451612903225806,
+			"words": [
+				"suitable"
+			],
+			"positive": [
+				"suitable"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7845,
+		"nouns": [],
+		"dOIndex": 176,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7846,
+		"nouns": [],
+		"dOIndex": 177,
+		"isQuote": false
+	},
+	{
+		"txt": "In some simple cases, you need not use different object classes if the types of objects you plan to use are not too different. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7847,
+		"nouns": [
+			"cases",
+			"use",
+			"object",
+			"classes",
+			"types",
+			"objects",
+			"plan",
+			"use"
+		],
+		"dOIndex": 178,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"classes",
+			"objects"
+		]
+	},
+	{
+		"txt": " For example, it would be fairly straightforward to implement a single class capable of handling both particles and rigid bodies. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7848,
+		"nouns": [
+			"example",
+			"class",
+			"both",
+			"particles",
+			"bodies"
+		],
+		"dOIndex": 179,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"particles"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.045454545454545456,
+			"words": [
+				"capable"
+			],
+			"positive": [
+				"capable"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " The object class could include an object type property used to denote whether the object is a particle or a rigid body, and then the class methods would call the appropriate code. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7849,
+		"nouns": [
+			"object",
+			"class",
+			"object",
+			"type",
+			"property",
+			"object",
+			"particle",
+			"body",
+			"class",
+			"methods",
+			"code"
+		],
+		"dOIndex": 180,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"property",
+			"particle",
+			"methods"
+		],
+		"highfreq": {
+			"object": 3
+		},
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.058823529411764705,
+			"words": [
+				"appropriate"
+			],
+			"positive": [
+				"appropriate"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Again, this will work satisfactorily for simple objects with few differences. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7850,
+		"nouns": [
+			"work",
+			"objects",
+			"differences"
+		],
+		"dOIndex": 181,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"objects",
+			"differences"
+		]
+	},
+	{
+		"txt": " If you want to simulate more than two types of objects or if they are very different, you're probably better off using different classes specific to each object being simulated.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7851,
+		"nouns": [
+			"two",
+			"types",
+			"objects",
+			"re",
+			"classes",
+			"object"
+		],
+		"dOIndex": 182,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"objects",
+			"classes"
+		],
+		"sentiment": {
+			"score": 3,
+			"comparative": 0.0967741935483871,
+			"words": [
+				"better",
+				"want"
+			],
+			"positive": [
+				"better",
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7852,
+		"nouns": [],
+		"dOIndex": 183,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7853,
+		"nouns": [],
+		"dOIndex": 184,
+		"isQuote": false
+	},
+	{
+		"txt": "However you structure your classes or lists, the flow of processing your objects will generally be the same. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7854,
+		"nouns": [
+			"structure",
+			"classes",
+			"lists",
+			"flow",
+			"objects"
+		],
+		"dOIndex": 185,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"However",
+			"structure",
+			"classes",
+			"objects"
+		]
+	},
+	{
+		"txt": " Every physics tick  that is, every time step in the physics simulation you must check for object collisions, resolve those collisions, aggregate the usual forces on each object, integrate the equations of motion for each object, and then update each object's state.",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7855,
+		"nouns": [
+			"physics",
+			"time",
+			"step",
+			"physics",
+			"simulation",
+			"check",
+			"object",
+			"collisions",
+			"collisions",
+			"forces",
+			"object",
+			"equations",
+			"motion",
+			"object",
+			"object",
+			"state"
+		],
+		"dOIndex": 186,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"physics",
+			"simulation",
+			"collisions",
+			"equations"
+		],
+		"highfreq": {
+			"object": 4,
+			"each": 3
+		},
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.045454545454545456,
+			"words": [
+				"collisions",
+				"resolve",
+				"collisions"
+			],
+			"positive": [
+				"resolve"
+			],
+			"negative": [
+				"collisions",
+				"collisions"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7856,
+		"nouns": [],
+		"dOIndex": 187,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7857,
+		"nouns": [],
+		"dOIndex": 188,
+		"isQuote": false
+	},
+	{
+		"txt": "As we said, this is the general flow at every physics tick, or time step, which may not be the same as your ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7858,
+		"nouns": [
+			"flow",
+			"physics",
+			"time",
+			"step"
+		],
+		"dOIndex": 189,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"physics"
+		]
+	},
+	{
+		"txt": "rendering steps. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7859,
+		"nouns": [
+			"steps"
+		],
+		"dOIndex": 190,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " For example, for accuracy in your simulation you may have to take small steps around a millisecond or so. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7860,
+		"nouns": [
+			"example",
+			"accuracy",
+			"simulation",
+			"steps",
+			"millisecond"
+		],
+		"dOIndex": 191,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"accuracy",
+			"simulation",
+			"millisecond"
+		]
+	},
+	{
+		"txt": " You wouldn't want to update the graphics every millisecond when you need only about a third as many graphics updates per second. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7861,
+		"nouns": [
+			"wouldn",
+			"t",
+			"graphics",
+			"millisecond",
+			"third",
+			"graphics",
+			"updates",
+			"second"
+		],
+		"dOIndex": 192,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"graphics",
+			"millisecond",
+			"updates"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.041666666666666664,
+			"words": [
+				"want"
+			],
+			"positive": [
+				"want"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Thus, your objects manager will have to be integrated with your overall game engine, and your game engine must be responsible for making sure the physics and graphics are updated appropriately.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7862,
+		"nouns": [
+			"objects",
+			"manager",
+			"game",
+			"engine",
+			"game",
+			"engine",
+			"physics",
+			"graphics"
+		],
+		"dOIndex": 193,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"objects",
+			"manager",
+			"physics",
+			"graphics"
+		],
+		"highfreq": {
+			"your": 3
+		},
+		"sentiment": {
+			"score": 4,
+			"comparative": 0.125,
+			"words": [
+				"appropriately",
+				"responsible"
+			],
+			"positive": [
+				"appropriately",
+				"responsible"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7863,
+		"nouns": [],
+		"dOIndex": 194,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7864,
+		"nouns": [],
+		"dOIndex": 195,
+		"isQuote": false
+	},
+	{
+		"txt": "Collision Detection",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7865,
+		"nouns": [
+			"Collision",
+			"Detection"
+		],
+		"dOIndex": 196,
+		"nouns2": [
+			"Collision",
+			"Detection"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -1,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7866,
+		"nouns": [],
+		"dOIndex": 197,
+		"isQuote": false
+	},
+	{
+		"txt": "If collisions are an ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7867,
+		"nouns": [
+			"collisions"
+		],
+		"dOIndex": 198,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collisions"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.4,
+			"words": [
+				"collisions"
+			],
+			"positive": [],
+			"negative": [
+				"collisions"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7868,
+		"nouns": [],
+		"dOIndex": 199,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "important part of your game, then a robust collision detection system is required.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7869,
+		"nouns": [
+			"part",
+			"game",
+			"collision",
+			"detection",
+			"system"
+		],
+		"dOIndex": 200,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"detection"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.15384615384615385,
+			"words": [
+				"collision",
+				"robust",
+				"important"
+			],
+			"positive": [
+				"robust",
+				"important"
+			],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7870,
+		"nouns": [],
+		"dOIndex": 201,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7871,
+		"nouns": [],
+		"dOIndex": 202,
+		"isQuote": false
+	},
+	{
+		"txt": "Your collision detection system is distinct from the collision response system or module, though the two go hand in hand. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7872,
+		"nouns": [
+			"collision",
+			"detection",
+			"system",
+			"collision",
+			"response",
+			"system",
+			"module",
+			"two",
+			"hand",
+			"hand"
+		],
+		"dOIndex": 203,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"detection",
+			"response"
+		],
+		"sentiment": {
+			"score": -4,
+			"comparative": -0.19047619047619047,
+			"words": [
+				"collision",
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision",
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " Collision detection ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7873,
+		"nouns": [
+			"Collision",
+			"detection"
+		],
+		"dOIndex": 204,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Collision",
+			"detection"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.5,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "is the computational geometry problem of determining if objects collide and, if so, what points are making contact. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7874,
+		"nouns": [
+			"geometry",
+			"problem",
+			"objects",
+			"collide",
+			"points",
+			"contact"
+		],
+		"dOIndex": 205,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"geometry",
+			"problem",
+			"objects",
+			"collide",
+			"contact"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.15789473684210525,
+			"words": [
+				"collide",
+				"problem"
+			],
+			"positive": [],
+			"negative": [
+				"collide",
+				"problem"
+			]
+		}
+	},
+	{
+		"txt": " These points are sometimes called ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7875,
+		"nouns": [
+			"points"
+		],
+		"dOIndex": 206,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "the contact manifold",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7876,
+		"nouns": [
+			"contact",
+			"manifold"
+		],
+		"dOIndex": 207,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"contact",
+			"manifold"
+		]
+	},
+	{
+		"txt": " . ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7877,
+		"nouns": [],
+		"dOIndex": 208,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " They're just the points that are touching, which could be a line or surface, though for simplicity usually the point, end points, or points defining the contact surface boundary are all that are included in the contact manifold.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7878,
+		"nouns": [
+			"re",
+			"points",
+			"line",
+			"surface",
+			"simplicity",
+			"point",
+			"end",
+			"points",
+			"points",
+			"contact",
+			"surface",
+			"boundary",
+			"contact",
+			"manifold"
+		],
+		"dOIndex": 209,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"surface",
+			"simplicity",
+			"contact",
+			"boundary",
+			"manifold"
+		],
+		"highfreq": {
+			"points": 3
+		},
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.02564102564102564,
+			"words": [
+				"simplicity"
+			],
+			"positive": [
+				"simplicity"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7879,
+		"nouns": [],
+		"dOIndex": 210,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7880,
+		"nouns": [],
+		"dOIndex": 211,
+		"isQuote": false
+	},
+	{
+		"txt": "The collision detection system's role is very specific: determine which objects are colliding, what points on each object are involved in the collision, and the velocities of those points. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7881,
+		"nouns": [
+			"collision",
+			"detection",
+			"system",
+			"role",
+			"objects",
+			"points",
+			"object",
+			"collision",
+			"velocities",
+			"points"
+		],
+		"dOIndex": 212,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"detection",
+			"objects",
+			"velocities"
+		],
+		"sentiment": {
+			"score": -5,
+			"comparative": -0.16666666666666666,
+			"words": [
+				"collision",
+				"colliding",
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision",
+				"colliding",
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " It sounds straightforward, but actual implementation can get quite complex. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7882,
+		"nouns": [
+			"implementation"
+		],
+		"dOIndex": 213,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"implementation"
+		]
+	},
+	{
+		"txt": " There are situations where fast moving objects may go right though other objects, especially thin ones, over a single time step, making the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7883,
+		"nouns": [
+			"situations",
+			"objects",
+			"right",
+			"objects",
+			"ones",
+			"time",
+			"step"
+		],
+		"dOIndex": 214,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"situations",
+			"objects"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7884,
+		"nouns": [],
+		"dOIndex": 215,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "collision detection system miss the collision if it relies solely on checking the separation distance between objects and their relative velocity (i.e., it detects a collision if the objects are within some collision tolerance and are also moving toward each other). ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7885,
+		"nouns": [
+			"collision",
+			"detection",
+			"system",
+			"collision",
+			"separation",
+			"distance",
+			"objects",
+			"velocity",
+			"e",
+			"collision",
+			"objects",
+			"collision",
+			"tolerance"
+		],
+		"dOIndex": 216,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"detection",
+			"separation",
+			"distance",
+			"objects",
+			"velocity",
+			"tolerance"
+		],
+		"highfreq": {
+			"collision": 4
+		},
+		"sentiment": {
+			"score": -8,
+			"comparative": -0.19047619047619047,
+			"words": [
+				"tolerance",
+				"collision",
+				"collision",
+				"collision",
+				"miss",
+				"collision"
+			],
+			"positive": [
+				"tolerance"
+			],
+			"negative": [
+				"collision",
+				"collision",
+				"collision",
+				"miss",
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " A robust collision detection system will capture this situation and respond accordingly. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7886,
+		"nouns": [
+			"collision",
+			"detection",
+			"system",
+			"situation"
+		],
+		"dOIndex": 217,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"detection",
+			"situation"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"collision",
+				"robust"
+			],
+			"positive": [
+				"robust"
+			],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " In ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7887,
+		"nouns": [],
+		"dOIndex": 218,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 8",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7888,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 219,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " we simply check if particles moved past the ground over the course of a single time step, for example, and then reset their position to that of the ground plane level. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7889,
+		"nouns": [
+			"check",
+			"particles",
+			"ground",
+			"course",
+			"time",
+			"step",
+			"example",
+			"reset",
+			"position",
+			"ground",
+			"plane",
+			"level"
+		],
+		"dOIndex": 220,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"particles",
+			"example",
+			"position"
+		]
+	},
+	{
+		"txt": " We can handle many situations using such simple techniques, especially when dealing with objects passing through floors or walls; however, other situations may require more complex algorithms to predict if a collision will occur sometime in the near future depending on how fast objects are moving relative to each other. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7890,
+		"nouns": [
+			"situations",
+			"techniques",
+			"objects",
+			"floors",
+			"walls",
+			"situations",
+			"algorithms",
+			"collision",
+			"future",
+			"objects"
+		],
+		"dOIndex": 221,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"situations",
+			"techniques",
+			"objects",
+			"algorithms",
+			"collision"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.038461538461538464,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " This latter case is ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7891,
+		"nouns": [
+			"latter",
+			"case"
+		],
+		"dOIndex": 222,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7892,
+		"nouns": [],
+		"dOIndex": 223,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "called continuous collision detection, and it is covered in many Internet, book, and technical paper sources. ",
+		"why": "split inside sentence",
+		"tags": [
+			"em",
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7893,
+		"nouns": [
+			"collision",
+			"detection",
+			"Internet",
+			"book",
+			"paper",
+			"sources"
+		],
+		"dOIndex": 224,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"detection",
+			"Internet",
+			"sources"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.11764705882352941,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " Many commercial and open source physics engines advertise their capability to handle continuous collision detection.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7894,
+		"nouns": [
+			"source",
+			"physics",
+			"engines",
+			"capability",
+			"collision",
+			"detection"
+		],
+		"dOIndex": 225,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"physics",
+			"engines",
+			"capability",
+			"collision",
+			"detection"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.0625,
+			"words": [
+				"collision",
+				"capability"
+			],
+			"positive": [
+				"capability"
+			],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7895,
+		"nouns": [],
+		"dOIndex": 226,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7896,
+		"nouns": [],
+		"dOIndex": 227,
+		"isQuote": false
+	},
+	{
+		"txt": "Another challenge associated with collision detection is the fact that it can be very time consuming if you have a large or even moderate number of objects in your simulation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7897,
+		"nouns": [
+			"challenge",
+			"collision",
+			"detection",
+			"fact",
+			"time",
+			"number",
+			"objects",
+			"simulation"
+		],
+		"dOIndex": 228,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Another",
+			"challenge",
+			"collision",
+			"detection",
+			"objects",
+			"simulation"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.0967741935483871,
+			"words": [
+				"collision",
+				"challenge"
+			],
+			"positive": [],
+			"negative": [
+				"collision",
+				"challenge"
+			]
+		}
+	},
+	{
+		"txt": " There are various techniques to deal with this. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7898,
+		"nouns": [
+			"techniques"
+		],
+		"dOIndex": 229,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"techniques"
+		]
+	},
+	{
+		"txt": " First, the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7899,
+		"nouns": [
+			"First"
+		],
+		"dOIndex": 230,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "game space is partitioned in some coarse grid like manner, and this grid is used to organize objects depending on which cell they occupy. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7900,
+		"nouns": [
+			"game",
+			"space",
+			"grid",
+			"manner",
+			"grid",
+			"objects",
+			"cell"
+		],
+		"dOIndex": 231,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"objects"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08,
+			"words": [
+				"like"
+			],
+			"positive": [
+				"like"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Then, in the second phase of collision detection, only those ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7901,
+		"nouns": [
+			"second",
+			"phase",
+			"collision",
+			"detection"
+		],
+		"dOIndex": 232,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"detection"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.16666666666666666,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "objects occupying adjacent cells are checked against each other to see if they are colliding. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7902,
+		"nouns": [
+			"objects",
+			"cells"
+		],
+		"dOIndex": 233,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"objects"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.0625,
+			"words": [
+				"colliding"
+			],
+			"positive": [],
+			"negative": [
+				"colliding"
+			]
+		}
+	},
+	{
+		"txt": " Without this grid partitioning, pairwise checks of every object against every other object would be very computationally expensive. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7903,
+		"nouns": [
+			"grid",
+			"pairwise",
+			"checks",
+			"object",
+			"object"
+		],
+		"dOIndex": 234,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Without",
+			"pairwise"
+		]
+	},
+	{
+		"txt": " The second phase of collision detection is often a broad approach using ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7904,
+		"nouns": [
+			"second",
+			"phase",
+			"collision",
+			"detection",
+			"approach"
+		],
+		"dOIndex": 235,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"detection",
+			"approach"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.14285714285714285,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7905,
+		"nouns": [],
+		"dOIndex": 236,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7906,
+		"nouns": [],
+		"dOIndex": 237,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "bounding spheres or bounding boxes, which may be axis  or body aligned. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7907,
+		"nouns": [
+			"spheres",
+			"boxes",
+			"axis",
+			"body"
+		],
+		"dOIndex": 238,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"spheres"
+		]
+	},
+	{
+		"txt": " If the bounding spheres or boxes of each object are found to collide, then the objects likewise may be colliding and further checks will be required; otherwise, we can infer that the objects are not colliding. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7908,
+		"nouns": [
+			"spheres",
+			"boxes",
+			"object",
+			"collide",
+			"objects",
+			"checks",
+			"objects"
+		],
+		"dOIndex": 239,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"spheres",
+			"collide",
+			"objects"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.02631578947368421,
+			"words": [
+				"colliding",
+				"colliding",
+				"collide"
+			],
+			"positive": [
+				"colliding"
+			],
+			"negative": [
+				"colliding",
+				"collide"
+			]
+		}
+	},
+	{
+		"txt": " In the case of a potential collision, these further checks become more complex depending on the geometry of the objects. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7909,
+		"nouns": [
+			"case",
+			"collision",
+			"checks",
+			"geometry",
+			"objects"
+		],
+		"dOIndex": 240,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"geometry",
+			"objects"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.09090909090909091,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " This phase generally involves polygon  and vertex level checks; there are well established techniques for performing such checks that we won't get into here. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7910,
+		"nouns": [
+			"phase",
+			"polygon",
+			"vertex",
+			"level",
+			"checks",
+			"techniques",
+			"checks",
+			"t"
+		],
+		"dOIndex": 241,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"polygon",
+			"techniques"
+		]
+	},
+	{
+		"txt": " Again, there's a wealth of literature on collision detection available online.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7911,
+		"nouns": [
+			"wealth",
+			"literature",
+			"collision",
+			"detection"
+		],
+		"dOIndex": 242,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"literature",
+			"collision",
+			"detection"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.08333333333333333,
+			"words": [
+				"collision",
+				"wealth"
+			],
+			"positive": [
+				"wealth"
+			],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7912,
+		"nouns": [],
+		"dOIndex": 243,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7913,
+		"nouns": [],
+		"dOIndex": 244,
+		"isQuote": false
+	},
+	{
+		"txt": "Collision Response",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7914,
+		"nouns": [
+			"Collision Response"
+		],
+		"dOIndex": 245,
+		"nouns2": [
+			"Collision",
+			"Response"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -1,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		},
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7915,
+		"nouns": [],
+		"dOIndex": 246,
+		"isQuote": false
+	},
+	{
+		"txt": "Once the collision ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7916,
+		"nouns": [
+			"collision"
+		],
+		"dOIndex": 247,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.5,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7917,
+		"nouns": [],
+		"dOIndex": 248,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "detection system does its job, it's time for the collision response system to deal with the colliding objects. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7918,
+		"nouns": [
+			"detection",
+			"system",
+			"job",
+			"time",
+			"collision",
+			"response",
+			"system",
+			"objects"
+		],
+		"dOIndex": 249,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"detection",
+			"collision",
+			"response",
+			"objects"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.15789473684210525,
+			"words": [
+				"colliding",
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"colliding",
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " Earlier in this book, we showed you how to implement an ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7919,
+		"nouns": [
+			"book"
+		],
+		"dOIndex": 250,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Earlier"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7920,
+		"nouns": [],
+		"dOIndex": 251,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7921,
+		"nouns": [],
+		"dOIndex": 252,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "impulse moment collision response method. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7922,
+		"nouns": [
+			"impulse",
+			"moment",
+			"collision",
+			"response",
+			"method"
+		],
+		"dOIndex": 253,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"impulse",
+			"collision",
+			"response"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.3333333333333333,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " Recall that this method assumes that at the instant of collision, the most significant forces acting on the objects are the collision forces, so all other forces can be ignored for that instant. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7923,
+		"nouns": [
+			"method",
+			"instant",
+			"collision",
+			"forces",
+			"objects",
+			"collision",
+			"forces",
+			"forces",
+			"instant"
+		],
+		"dOIndex": 254,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Recall",
+			"instant",
+			"collision",
+			"objects"
+		],
+		"highfreq": {
+			"that": 3,
+			"forces": 3
+		},
+		"sentiment": {
+			"score": -5,
+			"comparative": -0.14285714285714285,
+			"words": [
+				"ignored",
+				"collision",
+				"significant",
+				"collision"
+			],
+			"positive": [
+				"significant"
+			],
+			"negative": [
+				"ignored",
+				"collision",
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " The method then computes the resulting velocities of the objects after colliding and instantly changes their velocities accordingly. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7924,
+		"nouns": [
+			"method",
+			"velocities",
+			"objects",
+			"changes",
+			"velocities"
+		],
+		"dOIndex": 255,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"velocities",
+			"objects",
+			"changes"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.05,
+			"words": [
+				"colliding"
+			],
+			"positive": [],
+			"negative": [
+				"colliding"
+			]
+		}
+	},
+	{
+		"txt": " To perform the required calculations, the collision response system requires the objects colliding, of course, the collision points, and the velocities of those points. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7925,
+		"nouns": [
+			"calculations",
+			"collision",
+			"response",
+			"system",
+			"objects",
+			"course",
+			"collision",
+			"points",
+			"velocities",
+			"points"
+		],
+		"dOIndex": 256,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"calculations",
+			"collision",
+			"response",
+			"objects",
+			"velocities"
+		],
+		"sentiment": {
+			"score": -5,
+			"comparative": -0.19230769230769232,
+			"words": [
+				"collision",
+				"colliding",
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision",
+				"colliding",
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " Also, each object must have some associated mass and ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7926,
+		"nouns": [
+			"object",
+			"mass"
+		],
+		"dOIndex": 257,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "coefficient of restitution, which are likewise used to compute the resulting velocities of the objects after the collision.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7927,
+		"nouns": [
+			"coefficient",
+			"restitution",
+			"velocities",
+			"objects",
+			"collision"
+		],
+		"dOIndex": 258,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"coefficient",
+			"restitution",
+			"velocities",
+			"objects",
+			"collision"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.1111111111111111,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7928,
+		"nouns": [],
+		"dOIndex": 259,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7929,
+		"nouns": [],
+		"dOIndex": 260,
+		"isQuote": false
+	},
+	{
+		"txt": "In practice, the collision response system works ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7930,
+		"nouns": [
+			"practice",
+			"collision",
+			"response",
+			"system",
+			"works"
+		],
+		"dOIndex": 261,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"practice",
+			"collision",
+			"response"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.25,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7931,
+		"nouns": [],
+		"dOIndex": 262,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "hand in hand with the collision detection system, particularly when dealing with objects that may be penetrating each other. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7932,
+		"nouns": [
+			"hand",
+			"hand",
+			"collision",
+			"detection",
+			"system",
+			"objects"
+		],
+		"dOIndex": 263,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"detection",
+			"objects"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.1,
+			"words": [
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " As we mentioned earlier, in many cases an object ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7933,
+		"nouns": [
+			"cases",
+			"object"
+		],
+		"dOIndex": 264,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7934,
+		"nouns": [],
+		"dOIndex": 265,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "penetrating another, such as an object penetrating a wall or floor, can simply be moved so that it is just touching the wall or floor. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7935,
+		"nouns": [
+			"object",
+			"wall",
+			"floor",
+			"wall",
+			"floor"
+		],
+		"dOIndex": 266,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Other cases may be more complicated, and iterative algorithms are used to resolve the penetration. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7936,
+		"nouns": [
+			"cases",
+			"iterative",
+			"algorithms",
+			"penetration"
+		],
+		"dOIndex": 267,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"iterative",
+			"algorithms",
+			"penetration"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.11764705882352941,
+			"words": [
+				"resolve"
+			],
+			"positive": [
+				"resolve"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " For example, if penetration is detected, then the simulation may back up to the previous time step and take a short time step to see if penetration still occurs. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7937,
+		"nouns": [
+			"example",
+			"penetration",
+			"simulation",
+			"time",
+			"step",
+			"time",
+			"step",
+			"penetration"
+		],
+		"dOIndex": 268,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"penetration",
+			"simulation"
+		]
+	},
+	{
+		"txt": " If it does not, the simulation proceeds; otherwise, the simulation takes an even smaller time step. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7938,
+		"nouns": [
+			"simulation",
+			"proceeds",
+			"simulation",
+			"time",
+			"step"
+		],
+		"dOIndex": 269,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"simulation",
+			"proceeds"
+		]
+	},
+	{
+		"txt": " This process repeats until penetration does not occur. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7939,
+		"nouns": [
+			"process",
+			"penetration"
+		],
+		"dOIndex": 270,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"process",
+			"penetration"
+		]
+	},
+	{
+		"txt": " This works fine in many cases; however, sometimes the penetration is never resolved and the simulation could get stuck taking smaller and smaller time steps. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7940,
+		"nouns": [
+			"works",
+			"cases",
+			"penetration",
+			"simulation",
+			"time",
+			"steps"
+		],
+		"dOIndex": 271,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"penetration",
+			"simulation"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.07407407407407407,
+			"words": [
+				"stuck",
+				"resolved",
+				"fine"
+			],
+			"positive": [
+				"resolved",
+				"fine"
+			],
+			"negative": [
+				"stuck"
+			]
+		}
+	},
+	{
+		"txt": " This failure to resolve could be attributed to objects that are just outside the collision distance tolerance at one instant, and due to numerical errors, exceedingly small time steps are required to stay outside of the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7941,
+		"nouns": [
+			"failure",
+			"objects",
+			"collision",
+			"distance",
+			"tolerance",
+			"one",
+			"instant",
+			"errors",
+			"time",
+			"steps"
+		],
+		"dOIndex": 272,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"failure",
+			"objects",
+			"collision",
+			"distance",
+			"tolerance",
+			"instant"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.05263157894736842,
+			"words": [
+				"errors",
+				"tolerance",
+				"collision",
+				"resolve",
+				"failure"
+			],
+			"positive": [
+				"tolerance",
+				"resolve"
+			],
+			"negative": [
+				"errors",
+				"collision",
+				"failure"
+			]
+		}
+	},
+	{
+		"txt": "distance tolerance. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7942,
+		"nouns": [
+			"distance",
+			"tolerance"
+		],
+		"dOIndex": 273,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"distance",
+			"tolerance"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.6666666666666666,
+			"words": [
+				"tolerance"
+			],
+			"positive": [
+				"tolerance"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " Some programmers simply put an iteration limit in the code to prevent the simulation from getting stuck, but the consequences in every situation may be unpredictable. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7943,
+		"nouns": [
+			"programmers",
+			"iteration",
+			"limit",
+			"code",
+			"simulation",
+			"consequences",
+			"situation"
+		],
+		"dOIndex": 274,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"programmers",
+			"iteration",
+			"simulation",
+			"consequences",
+			"situation"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.10714285714285714,
+			"words": [
+				"stuck",
+				"prevent"
+			],
+			"positive": [],
+			"negative": [
+				"stuck",
+				"prevent"
+			]
+		}
+	},
+	{
+		"txt": " The continuous collision detection approach we mentioned earlier avoids this sort of problem by predicting the future collision or penetration and dealing with it ahead of time. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7944,
+		"nouns": [
+			"collision",
+			"detection",
+			"approach",
+			"sort",
+			"problem",
+			"future",
+			"collision",
+			"penetration",
+			"time"
+		],
+		"dOIndex": 275,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"collision",
+			"detection",
+			"approach",
+			"problem",
+			"penetration"
+		],
+		"sentiment": {
+			"score": -7,
+			"comparative": -0.2413793103448276,
+			"words": [
+				"collision",
+				"problem",
+				"avoids",
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"collision",
+				"problem",
+				"avoids",
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": " Whatever the approach, there will be some back and forth and data exchange between your collision detection and response systems to avoid excessive penetration situations.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7945,
+		"nouns": [
+			"approach",
+			"data",
+			"exchange",
+			"collision",
+			"detection",
+			"response",
+			"systems",
+			"penetration",
+			"situations"
+		],
+		"dOIndex": 276,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Whatever",
+			"approach",
+			"exchange",
+			"collision",
+			"detection",
+			"response",
+			"systems",
+			"penetration",
+			"situations"
+		],
+		"sentiment": {
+			"score": -3,
+			"comparative": -0.11538461538461539,
+			"words": [
+				"avoid",
+				"collision"
+			],
+			"positive": [],
+			"negative": [
+				"avoid",
+				"collision"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7946,
+		"nouns": [],
+		"dOIndex": 277,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7947,
+		"nouns": [],
+		"dOIndex": 278,
+		"isQuote": false
+	},
+	{
+		"txt": "Additionally, there are situations when an object may come to rest in contact with another for example, a box resting on the floor. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7948,
+		"nouns": [
+			"situations",
+			"object",
+			"rest",
+			"contact",
+			"example",
+			"box",
+			"floor"
+		],
+		"dOIndex": 279,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Additionally",
+			"situations",
+			"contact",
+			"example"
+		]
+	},
+	{
+		"txt": " There are many ways to deal with such ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7949,
+		"nouns": [
+			"ways"
+		],
+		"dOIndex": 280,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "contact situations, one of which is to just allow the impulse momentum approach to deal with it. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7950,
+		"nouns": [
+			"contact",
+			"situations",
+			"one",
+			"impulse",
+			"momentum",
+			"approach"
+		],
+		"dOIndex": 281,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"contact",
+			"situations",
+			"impulse",
+			"momentum",
+			"approach"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.05555555555555555,
+			"words": [
+				"allow"
+			],
+			"positive": [
+				"allow"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " This works just fine in many cases; however, sometimes the objects in resting contact will jitter with the impulse momentum approach. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7951,
+		"nouns": [
+			"works",
+			"cases",
+			"objects",
+			"contact",
+			"jitter",
+			"impulse",
+			"momentum",
+			"approach"
+		],
+		"dOIndex": 282,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"objects",
+			"contact",
+			"impulse",
+			"momentum",
+			"approach"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.08695652173913043,
+			"words": [
+				"fine"
+			],
+			"positive": [
+				"fine"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " One resolution to this jittering problem is to put those ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7952,
+		"nouns": [
+			"One",
+			"resolution",
+			"problem"
+		],
+		"dOIndex": 283,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"resolution",
+			"problem"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"problem",
+				"resolution"
+			],
+			"positive": [
+				"resolution"
+			],
+			"negative": [
+				"problem"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7953,
+		"nouns": [],
+		"dOIndex": 284,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "objects to sleep that is, if they are found to be colliding, but their relative velocities are smaller than some tolerance, they are put to sleep. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7954,
+		"nouns": [
+			"objects",
+			"velocities",
+			"tolerance"
+		],
+		"dOIndex": 285,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"objects",
+			"velocities",
+			"tolerance"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.037037037037037035,
+			"words": [
+				"tolerance",
+				"colliding"
+			],
+			"positive": [
+				"tolerance"
+			],
+			"negative": [
+				"colliding"
+			]
+		}
+	},
+	{
+		"txt": " A related but somewhat more complicated approach is to compute the contact normal between the object and the floor and set that velocity to 0. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7955,
+		"nouns": [
+			"approach",
+			"contact",
+			"object",
+			"floor",
+			"velocity"
+		],
+		"dOIndex": 286,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"approach",
+			"contact",
+			"velocity"
+		]
+	},
+	{
+		"txt": " This serves as a constraint, preventing the object from penetrating the floor while still allowing it to slide along the floor.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7956,
+		"nouns": [
+			"constraint",
+			"object",
+			"floor",
+			"slide",
+			"floor"
+		],
+		"dOIndex": 287,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"constraint"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.045454545454545456,
+			"words": [
+				"preventing"
+			],
+			"positive": [],
+			"negative": [
+				"preventing"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7957,
+		"nouns": [],
+		"dOIndex": 288,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7958,
+		"nouns": [],
+		"dOIndex": 289,
+		"isQuote": false
+	},
+	{
+		"txt": "Force Effectors",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7959,
+		"nouns": [
+			"Force",
+			"Effectors"
+		],
+		"dOIndex": 290,
+		"nouns2": [
+			"Effectors"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7960,
+		"nouns": [],
+		"dOIndex": 291,
+		"isQuote": false
+	},
+	{
+		"txt": "Force effectors ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7961,
+		"nouns": [
+			"Force",
+			"effectors"
+		],
+		"dOIndex": 292,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"effectors"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7962,
+		"nouns": [],
+		"dOIndex": 293,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7963,
+		"nouns": [],
+		"dOIndex": 294,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "apply direct or indirect force on the objects in your simulations. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7964,
+		"nouns": [
+			"force",
+			"objects",
+			"simulations"
+		],
+		"dOIndex": 295,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"objects",
+			"simulations"
+		]
+	},
+	{
+		"txt": " Your physics engine may include several. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7965,
+		"nouns": [
+			"physics",
+			"engine"
+		],
+		"dOIndex": 296,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"physics"
+		]
+	},
+	{
+		"txt": " For example, if your engine allows users to move objects around with the mouse, then you'll need some virtualization of the force applied by the user via the mouse or a finger on a touch screen. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7966,
+		"nouns": [
+			"example",
+			"engine",
+			"users",
+			"move",
+			"objects",
+			"mouse",
+			"ll",
+			"virtualization",
+			"force",
+			"user",
+			"mouse",
+			"finger",
+			"touch",
+			"screen"
+		],
+		"dOIndex": 297,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example",
+			"objects",
+			"virtualization"
+		]
+	},
+	{
+		"txt": " This is an example of a direct force. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7967,
+		"nouns": [
+			"example",
+			"force"
+		],
+		"dOIndex": 298,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example"
+		]
+	},
+	{
+		"txt": " Another ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7968,
+		"nouns": [],
+		"dOIndex": 299,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Another"
+		]
+	},
+	{
+		"txt": "direct force effector could be a virtual jet engine. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7969,
+		"nouns": [
+			"force",
+			"effector",
+			"jet",
+			"engine"
+		],
+		"dOIndex": 300,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"effector"
+		]
+	},
+	{
+		"txt": " If you associate that virtual engine, which produces some thrust force, with some object, then the associated object will behave as though it were pushed around by the jet.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7970,
+		"nouns": [
+			"engine",
+			"thrust",
+			"force",
+			"object",
+			"object",
+			"jet"
+		],
+		"dOIndex": 301,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7971,
+		"nouns": [],
+		"dOIndex": 302,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7972,
+		"nouns": [],
+		"dOIndex": 303,
+		"isQuote": false
+	},
+	{
+		"txt": "Some examples of indirect force effectors",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7973,
+		"nouns": [
+			"examples",
+			"force",
+			"effectors"
+		],
+		"dOIndex": 304,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"examples",
+			"effectors"
+		]
+	},
+	{
+		"txt": " include gravity and wind. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7974,
+		"nouns": [
+			"gravity",
+			"wind"
+		],
+		"dOIndex": 305,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"gravity"
+		]
+	},
+	{
+		"txt": " ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7975,
+		"nouns": [],
+		"dOIndex": 306,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7976,
+		"nouns": [],
+		"dOIndex": 307,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Gravity applies force on objects by virtue of their mass, but it is typically modeled as body acceleration and not an explicit force. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7977,
+		"nouns": [
+			"Gravity",
+			"force",
+			"objects",
+			"virtue",
+			"mass",
+			"body",
+			"acceleration",
+			"force"
+		],
+		"dOIndex": 308,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Gravity",
+			"objects",
+			"acceleration"
+		]
+	},
+	{
+		"txt": " Wind can be viewed as exerting a pressure force on an object, and that force will be a function of the object's size and drag coefficients.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7978,
+		"nouns": [
+			"Wind",
+			"pressure",
+			"force",
+			"object",
+			"force",
+			"function",
+			"object",
+			"size",
+			"drag",
+			"coefficients"
+		],
+		"dOIndex": 309,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure",
+			"function",
+			"coefficients"
+		],
+		"sentiment": {
+			"score": -2,
+			"comparative": -0.07407407407407407,
+			"words": [
+				"drag",
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"drag",
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7979,
+		"nouns": [],
+		"dOIndex": 310,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7980,
+		"nouns": [],
+		"dOIndex": 311,
+		"isQuote": false
+	},
+	{
+		"txt": "You can imagine all sorts of force effectors, from ones similar to those just described to perhaps some otherworldly ones. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7981,
+		"nouns": [
+			"sorts",
+			"force",
+			"effectors",
+			"ones",
+			"ones"
+		],
+		"dOIndex": 312,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"effectors"
+		]
+	},
+	{
+		"txt": " Whatever you imagine, you must remember that a force has magnitude, direction, and some central point of application. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7982,
+		"nouns": [
+			"force",
+			"magnitude",
+			"direction",
+			"point",
+			"application"
+		],
+		"dOIndex": 313,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Whatever",
+			"magnitude",
+			"direction",
+			"application"
+		]
+	},
+	{
+		"txt": " If you put a jet engine on the side of a box, the box will not only translate but will spin as well. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7983,
+		"nouns": [
+			"jet",
+			"engine",
+			"side",
+			"box",
+			"box"
+		],
+		"dOIndex": 314,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " Wind creates a force that has a",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7984,
+		"nouns": [
+			"Wind",
+			"force"
+		],
+		"dOIndex": 315,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7985,
+		"nouns": [],
+		"dOIndex": 316,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": " center of pressure, which is the point through which you can assume the total wind force acts. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7986,
+		"nouns": [
+			"center",
+			"pressure",
+			"point",
+			"wind",
+			"force",
+			"acts"
+		],
+		"dOIndex": 317,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"pressure"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.05263157894736842,
+			"words": [
+				"pressure"
+			],
+			"positive": [],
+			"negative": [
+				"pressure"
+			]
+		}
+	},
+	{
+		"txt": " The direction of the force and point of application are important for capturing both translation and rotation. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7987,
+		"nouns": [
+			"direction",
+			"force",
+			"point",
+			"application",
+			"both",
+			"translation",
+			"rotation"
+		],
+		"dOIndex": 318,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"direction",
+			"application",
+			"translation",
+			"rotation"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.10526315789473684,
+			"words": [
+				"important"
+			],
+			"positive": [
+				"important"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " As an example, consider the ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7988,
+		"nouns": [
+			"example"
+		],
+		"dOIndex": 319,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"example"
+		]
+	},
+	{
+		"txt": "hovercraft we modeled in ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7989,
+		"nouns": [
+			"hovercraft"
+		],
+		"dOIndex": 320,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"hovercraft"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7990,
+		"nouns": [],
+		"dOIndex": 321,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 9 that included two bow thrusters for steering and a propeller for forward motion. ",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7991,
+		"nouns": [
+			"Chapter",
+			"two",
+			"bow",
+			"thrusters",
+			"propeller",
+			"motion"
+		],
+		"dOIndex": 322,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter",
+			"thrusters",
+			"propeller"
+		]
+	},
+	{
+		"txt": " Each of these direct force effectors the bow thrusters and the propeller is applied at specific locations on the hovercraft. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7992,
+		"nouns": [
+			"force",
+			"effectors",
+			"bow",
+			"thrusters",
+			"propeller",
+			"locations",
+			"hovercraft"
+		],
+		"dOIndex": 323,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"effectors",
+			"thrusters",
+			"propeller",
+			"locations",
+			"hovercraft"
+		]
+	},
+	{
+		"txt": " The bow thrusters are located toward the bow and point sideways in order to create spin, thus allowing some steering. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7993,
+		"nouns": [
+			"bow",
+			"thrusters",
+			"bow",
+			"point",
+			"order"
+		],
+		"dOIndex": 324,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"thrusters"
+		]
+	},
+	{
+		"txt": " The propeller is located on the center line of the hovercraft, which passes through the hovercraft's center of gravity so that it does not create spin and instead simply pushes the craft forward. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7994,
+		"nouns": [
+			"propeller",
+			"center",
+			"line",
+			"hovercraft",
+			"hovercraft",
+			"center",
+			"gravity",
+			"craft"
+		],
+		"dOIndex": 325,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"propeller",
+			"hovercraft",
+			"gravity"
+		]
+	},
+	{
+		"txt": " There's another force effector in ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7995,
+		"nouns": [
+			"force",
+			"effector"
+		],
+		"dOIndex": 326,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"effector"
+		]
+	},
+	{
+		"txt": "that model aerodynamic drag, which is an indirect force effector. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7996,
+		"nouns": [
+			"model",
+			"drag",
+			"force",
+			"effector"
+		],
+		"dOIndex": 327,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"effector"
+		],
+		"sentiment": {
+			"score": -1,
+			"comparative": -0.09090909090909091,
+			"words": [
+				"drag"
+			],
+			"positive": [],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": " The drag force is applied at a point aft of the center of gravity so that it creates some torque, or moment, which in this model helps keep the hovercraft pointed straight; it provides some directional stability.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 7997,
+		"nouns": [
+			"drag",
+			"force",
+			"point",
+			"center",
+			"gravity",
+			"torque",
+			"moment",
+			"model",
+			"hovercraft",
+			"stability"
+		],
+		"dOIndex": 328,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"gravity",
+			"hovercraft",
+			"stability"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.05263157894736842,
+			"words": [
+				"straight",
+				"helps",
+				"drag"
+			],
+			"positive": [
+				"straight",
+				"helps"
+			],
+			"negative": [
+				"drag"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 7998,
+		"nouns": [],
+		"dOIndex": 329,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 7999,
+		"nouns": [],
+		"dOIndex": 330,
+		"isQuote": false
+	},
+	{
+		"txt": "Whatever force effectors you contrive, they all must be aggregated for each object and dealt with in your numerical integrator. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 8000,
+		"nouns": [
+			"force",
+			"effectors",
+			"object",
+			"integrator"
+		],
+		"dOIndex": 331,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Whatever",
+			"effectors",
+			"integrator"
+		]
+	},
+	{
+		"txt": " Thus, your integrator must have some means of accessing all the force effector information required to accurately simulate their effect on each associated object.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 8001,
+		"nouns": [
+			"integrator",
+			"force",
+			"effector",
+			"information",
+			"effect",
+			"object"
+		],
+		"dOIndex": 332,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"integrator",
+			"effector",
+			"information"
+		]
+	},
+	{
+		"txt": "",
+		"why": "br tag like",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 8002,
+		"nouns": [],
+		"dOIndex": 333,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 8003,
+		"nouns": [],
+		"dOIndex": 334,
+		"isQuote": false
+	},
+	{
+		"txt": "Numerical Integrator",
+		"why": "p",
+		"tags": [
+			"a",
+			"h3",
+			"div",
+			"div",
+			"div",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 8004,
+		"nouns": [
+			"Integrator"
+		],
+		"dOIndex": 335,
+		"nouns2": [
+			"Numerical",
+			"Integrator"
+		],
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 8005,
+		"nouns": [],
+		"dOIndex": 336,
+		"isQuote": false
+	},
+	{
+		"txt": "The integrator is responsible ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 8006,
+		"nouns": [
+			"integrator"
+		],
+		"dOIndex": 337,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"integrator"
+		],
+		"sentiment": {
+			"score": 2,
+			"comparative": 0.4,
+			"words": [
+				"responsible"
+			],
+			"positive": [
+				"responsible"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 8007,
+		"nouns": [],
+		"dOIndex": 338,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 8008,
+		"nouns": [],
+		"dOIndex": 339,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 8009,
+		"nouns": [],
+		"dOIndex": 340,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "for solving the equations of motion for each object. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 8010,
+		"nouns": [
+			"equations",
+			"motion",
+			"object"
+		],
+		"dOIndex": 341,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"equations"
+		],
+		"sentiment": {
+			"score": 1,
+			"comparative": 0.1,
+			"words": [
+				"solving"
+			],
+			"positive": [
+				"solving"
+			],
+			"negative": []
+		}
+	},
+	{
+		"txt": " We showed you how to do this earlier, in ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 8011,
+		"nouns": [],
+		"dOIndex": 342,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 7 through ",
+		"why": "lastExUIWasLink",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 8012,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 343,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 8013,
+		"nouns": [],
+		"dOIndex": 344,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false
+	},
+	{
+		"txt": "Chapter 13 . ",
+		"why": "split inside sentence",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 8014,
+		"nouns": [
+			"Chapter"
+		],
+		"dOIndex": 345,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"Chapter"
+		]
+	},
+	{
+		"txt": " In your generic physics engine you'll iterate through all the objects in the simulation to compute their new velocities, positions, and orientations at every time step. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 8015,
+		"nouns": [
+			"physics",
+			"engine",
+			"ll",
+			"iterate",
+			"objects",
+			"simulation",
+			"velocities",
+			"positions",
+			"orientations",
+			"time",
+			"step"
+		],
+		"dOIndex": 346,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"physics",
+			"iterate",
+			"objects",
+			"simulation",
+			"velocities",
+			"positions",
+			"orientations"
+		]
+	},
+	{
+		"txt": " To make these calculations, your integrator must have access to the force effectors associated with each object. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 8016,
+		"nouns": [
+			"calculations",
+			"integrator",
+			"access",
+			"force",
+			"effectors",
+			"object"
+		],
+		"dOIndex": 347,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"calculations",
+			"integrator",
+			"effectors"
+		]
+	},
+	{
+		"txt": " The forces will be used to compute accelerations, which will then be integrated to compute velocities, and those in turn will be used to compute positions and orientations.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 8017,
+		"nouns": [
+			"forces",
+			"accelerations",
+			"velocities",
+			"positions",
+			"orientations"
+		],
+		"dOIndex": 348,
+		"ignoreDOBcNoQuotes": true,
+		"isQuote": false,
+		"nouns2": [
+			"accelerations",
+			"velocities",
+			"positions",
+			"orientations"
+		],
+		"highfreq": {
+			"will": 3,
+			"compute": 3
+		}
+	},
+	{
+		"txt": "",
+		"why": "p",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 8018,
+		"nouns": [],
+		"dOIndex": 349,
+		"isQuote": false
+	},
+	{
+		"txt": "You can handle aggregating the ",
+		"why": "link",
+		"tags": [
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 8019,
+		"nouns": [],
+		"dOIndex": 350
+	},
+	{
+		"txt": "forces in a few ways. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 8020,
+		"nouns": [
+			"forces",
+			"ways"
+		],
+		"dOIndex": 351
+	},
+	{
+		"txt": " You could aggregate all the forces on all objects prior to looping through the objects integrating the equations of motion, but this would require looping through all the objects twice. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 8021,
+		"nouns": [
+			"forces",
+			"objects",
+			"objects",
+			"equations",
+			"motion",
+			"objects"
+		],
+		"dOIndex": 352,
+		"nouns2": [
+			"objects",
+			"equations"
+		],
+		"highfreq": {
+			"objects": 3
+		}
+	},
+	{
+		"txt": " Alternatively, since you're looping through the object list in order to integrate each object's equations of motion, you can simply aggregate each ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 8022,
+		"nouns": [
+			"re",
+			"object",
+			"list",
+			"order",
+			"object",
+			"equations",
+			"motion"
+		],
+		"dOIndex": 353,
+		"nouns2": [
+			"Alternatively",
+			"equations"
+		]
+	},
+	{
+		"txt": "object's forces during the integration step. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 8023,
+		"nouns": [
+			"object",
+			"forces",
+			"integration",
+			"step"
+		],
+		"dOIndex": 354,
+		"nouns2": [
+			"integration"
+		]
+	},
+	{
+		"txt": " A complication arises when object pairs apply forces to each other. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 8024,
+		"nouns": [
+			"complication",
+			"object",
+			"pairs",
+			"forces"
+		],
+		"dOIndex": 355,
+		"nouns2": [
+			"complication"
+		]
+	},
+	{
+		"txt": " A linear spring and damper, for example, connected between two objects, apply equal and opposite forces to each object. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 8025,
+		"nouns": [
+			"damper",
+			"example",
+			"two",
+			"objects",
+			"forces",
+			"object"
+		],
+		"dOIndex": 356,
+		"nouns2": [
+			"example",
+			"objects"
+		]
+	},
+	{
+		"txt": " The force is a function of the relative distance between the objects (the spring component) and their relative velocity (the damping component). ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 8026,
+		"nouns": [
+			"force",
+			"function",
+			"distance",
+			"objects",
+			"component",
+			"velocity",
+			"component"
+		],
+		"dOIndex": 357,
+		"nouns2": [
+			"function",
+			"distance",
+			"objects",
+			"component",
+			"velocity"
+		]
+	},
+	{
+		"txt": " So, if during a given time step you aggregate the forces on one of the objects in the pair, the resulting force will be a function of the current relative position and velocities of the objects. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 8027,
+		"nouns": [
+			"time",
+			"step",
+			"forces",
+			"one",
+			"objects",
+			"pair",
+			"force",
+			"function",
+			"position",
+			"velocities",
+			"objects"
+		],
+		"dOIndex": 358,
+		"nouns2": [
+			"objects",
+			"function",
+			"position",
+			"velocities"
+		]
+	},
+	{
+		"txt": " Integrating that object will give it a new position and velocity. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 8028,
+		"nouns": [
+			"object",
+			"position",
+			"velocity"
+		],
+		"dOIndex": 359,
+		"nouns2": [
+			"Integrating",
+			"position",
+			"velocity"
+		]
+	},
+	{
+		"txt": " Then, when you get to the other object in the pair, if you recomputed the spring force, it will be a function of the new relative position and velocity between the objects that includes the new displacement and velocity of the previously updated object but the old displacement and velocity of the current object. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 8029,
+		"nouns": [
+			"object",
+			"pair",
+			"force",
+			"function",
+			"position",
+			"velocity",
+			"objects",
+			"displacement",
+			"velocity",
+			"object",
+			"displacement",
+			"velocity",
+			"object"
+		],
+		"dOIndex": 360,
+		"nouns2": [
+			"function",
+			"position",
+			"velocity",
+			"objects",
+			"displacement"
+		],
+		"highfreq": {
+			"object": 3,
+			"velocity": 3
+		}
+	},
+	{
+		"txt": " This is inconsistent with Newton's law of ",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 8030,
+		"nouns": [
+			"Newton",
+			"law"
+		],
+		"dOIndex": 361,
+		"nouns2": [
+			"Newton"
+		]
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 8031,
+		"nouns": [],
+		"dOIndex": 362
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [],
+		"sentenceIndex": 8032,
+		"nouns": [],
+		"dOIndex": 363
+	},
+	{
+		"txt": "equal and opposite forces. ",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 8033,
+		"nouns": [
+			"forces"
+		],
+		"dOIndex": 364
+	},
+	{
+		"txt": " You can resolve this problem by storing the force computed for the first object and applying it to the second one without recomputing the spring force for the second object.",
+		"why": "split inside sentence",
+		"tags": [],
+		"sentenceIndex": 8034,
+		"nouns": [
+			"problem",
+			"force",
+			"first",
+			"object",
+			"second",
+			"one",
+			"force",
+			"second",
+			"object"
+		],
+		"dOIndex": 365,
+		"nouns2": [
+			"problem"
+		],
+		"sentiment": {
+			"score": 0,
+			"comparative": 0,
+			"words": [
+				"problem",
+				"resolve"
+			],
+			"positive": [
+				"resolve"
+			],
+			"negative": [
+				"problem"
+			]
+		}
+	},
+	{
+		"txt": "",
+		"why": "link",
+		"tags": [
+			"a",
+			"p",
+			"div",
+			"div",
+			"section"
+		],
+		"sentenceIndex": 8035,
+		"nouns": [],
+		"dOIndex": 366
+	}
+]

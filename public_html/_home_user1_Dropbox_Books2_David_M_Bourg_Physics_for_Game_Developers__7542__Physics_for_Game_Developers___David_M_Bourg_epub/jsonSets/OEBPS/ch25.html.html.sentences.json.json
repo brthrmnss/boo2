@@ -1,0 +1,2234 @@
+[
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 0
+	},
+	{
+		"index": 2,
+		"txt": "Chapter 25. Optical Tracking",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 25_ Optical_Tracking_pter 25_ Optical_Tracking____.wav",
+		"duration": 0.97,
+		"sentenceIndex": 13379,
+		"timestamp": 0.5
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 1.47
+	},
+	{
+		"index": 3,
+		"txt": "In previous chapters we discussed how accelerometers have changed the way that people interact with video games.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_previous_chapters_we_discussed_h_nteract_with_video_games_____.wav",
+		"duration": 2.15,
+		"sentenceIndex": 13380,
+		"timestamp": 1.97
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 4.12
+	},
+	{
+		"index": 4,
+		"txt": "The same sort of innovation is occurring with",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_same_sort_of_innovation_is_occu_ovation_is_occurring_with____.wav",
+		"duration": 0.88,
+		"sentenceIndex": 13381,
+		"timestamp": 4.62
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 5.5
+	},
+	{
+		"index": 5,
+		"txt": "optical sensors.",
+		"file": "/home/user1/trash/dirOutputSet/_100_optical_sensors__optical_sensors_____.wav",
+		"duration": 0.42,
+		"sentenceIndex": 13382,
+		"timestamp": 6
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 6.42
+	},
+	{
+		"index": 6,
+		"txt": "Cameras, both in visual and infrared spectrums, are being used to generate input for games.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Cameras__both_in_visual_and_infrare_generate_input_for_games_____.wav",
+		"duration": 2.06,
+		"sentenceIndex": 13383,
+		"timestamp": 6.92
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 8.98
+	},
+	{
+		"index": 7,
+		"txt": "This chapter will focus on the Microsoft Kinect for Windows SDK and give an overview of how to make a simple game that combines optical tracking with physics.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_chapter_will_focus_on_the_Micr_al_tracking_with_physics_____.wav",
+		"duration": 3.19,
+		"sentenceIndex": 13384,
+		"timestamp": 9.48
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 12.67
+	},
+	{
+		"index": 8,
+		"txt": "First we'll give a short introduction on the technologies these systems use to turn a camera into a tracking device.",
+		"file": "/home/user1/trash/dirOutputSet/_100_First_we_ll_give_a_short_introducti_a_into_a_tracking_device_____.wav",
+		"duration": 2.18,
+		"sentenceIndex": 13385,
+		"timestamp": 13.17
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 15.35
+	},
+	{
+		"index": 11,
+		"txt": "Without getting too detailed, we should start by discussing a few things about digital cameras.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Without_getting_too_detailed__we_sh_gs_about_digital_cameras_____.wav",
+		"duration": 1.9,
+		"sentenceIndex": 13388,
+		"timestamp": 15.85
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 17.75
+	},
+	{
+		"index": 12,
+		"txt": "First, most of us are familiar with the",
+		"file": "/home/user1/trash/dirOutputSet/_100_First__most_of_us_are_familiar_with__us_are_familiar_with_the______.wav",
+		"duration": 0.87,
+		"sentenceIndex": 13389,
+		"timestamp": 18.25
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 19.12
+	},
+	{
+		"index": 13,
+		"txt": "\"megapixel\"",
+		"file": "/home/user1/trash/dirOutputSet/IVONA_2_Kendra_100_megapixel_megapixel______.wav",
+		"duration": 0.31,
+		"sentenceIndex": 13390,
+		"timestamp": 19.62
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 19.93
+	},
+	{
+		"index": 14,
+		"txt": "metric used to describe digital cameras.",
+		"file": "/home/user1/trash/dirOutputSet/_100_metric_used_to_describe_digital_cam_describe_digital_cameras_______.wav",
+		"duration": 0.84,
+		"sentenceIndex": 13391,
+		"timestamp": 20.43
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 21.27
+	},
+	{
+		"index": 15,
+		"txt": "This number is a measure of how many pixels of information the camera records in a single frame.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_number_is_a_measure_of_how_man_ecords_in_a_single_frame_____.wav",
+		"duration": 1.89,
+		"sentenceIndex": 13392,
+		"timestamp": 21.77
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 23.66
+	},
+	{
+		"index": 16,
+		"txt": "It is equal to the height of the frame in pixels multiplied by the width of the frame in pixels.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_is_equal_to_the_height_of_the_fr_h_of_the_frame_in_pixels_____.wav",
+		"duration": 1.76,
+		"sentenceIndex": 13393,
+		"timestamp": 24.16
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 25.92
+	},
+	{
+		"index": 17,
+		"txt": "A pixel, or picture element, contains information on intensity, color, and the location of the pixel relative to some origin.",
+		"file": "/home/user1/trash/dirOutputSet/_100_A_pixel__or_picture_element__contai__relative_to_some_origin_____.wav",
+		"duration": 2.76,
+		"sentenceIndex": 13394,
+		"timestamp": 26.42
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 29.18
+	},
+	{
+		"index": 18,
+		"txt": "The amount of information depends on the bits per pixel and corresponds to the amount of color variation a particular pixel can display.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_amount_of_information_depends_o_icular_pixel_can_display_____.wav",
+		"duration": 2.67,
+		"sentenceIndex": 13395,
+		"timestamp": 29.68
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 32.35
+	},
+	{
+		"index": 19,
+		"txt": "Perhaps you've seen your graphics set to 16 bit or 24 bit modes.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Perhaps_you_ve_seen_your_graphics_s_o_16_bit_or_24_bit_modes_____.wav",
+		"duration": 1.57,
+		"sentenceIndex": 13396,
+		"timestamp": 32.85
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 34.42
+	},
+	{
+		"index": 20,
+		"txt": "This describes how many colors a particular pixel can display.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_describes_how_many_colors_a_pa_icular_pixel_can_display_____.wav",
+		"duration": 1.35,
+		"sentenceIndex": 13397,
+		"timestamp": 34.92
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 36.27
+	},
+	{
+		"index": 21,
+		"txt": "A 24 bit pixel can be one of 16.8 million different colors at any instant.",
+		"file": "/home/user1/trash/dirOutputSet/_100_A_24_bit_pixel_can_be_one_of_16_8_m_nt_colors_at_any_instant_____.wav",
+		"duration": 1.93,
+		"sentenceIndex": 13398,
+		"timestamp": 36.77
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 38.7
+	},
+	{
+		"index": 22,
+		"txt": "It is commonly held that the human eye can differentiate among about 10 million colors; 24 bit color is called",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_is_commonly_held_that_the_human__s__24_bit_color_is_called______.wav",
+		"duration": 2.4,
+		"sentenceIndex": 13399,
+		"timestamp": 39.2
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 41.6
+	},
+	{
+		"index": 23,
+		"txt": "\"true color,\"",
+		"file": "/home/user1/trash/dirOutputSet/IVONA_2_Kendra_100_true_color__true_color_______.wav",
+		"duration": 0.33,
+		"sentenceIndex": 13400,
+		"timestamp": 42.1
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 42.43
+	},
+	{
+		"index": 24,
+		"txt": "as it can display more colors than your eye can recognize.",
+		"file": "/home/user1/trash/dirOutputSet/_100_as_it_can_display_more_colors_than__n_your_eye_can_recognize_______.wav",
+		"duration": 1.14,
+		"sentenceIndex": 13401,
+		"timestamp": 42.93
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 44.07
+	},
+	{
+		"index": 25,
+		"txt": "You might also see 32 bit color modes; these include an extra 8 bits for a transparency channel that tells the computer what to do if this image were put on top of another image.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_might_also_see_32_bit_color_mod__on_top_of_another_image_____.wav",
+		"duration": 3.74,
+		"sentenceIndex": 13402,
+		"timestamp": 44.57
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 48.31
+	},
+	{
+		"index": 26,
+		"txt": "This is sometimes referred to",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_sometimes_referred_to__is_sometimes_referred_to____.wav",
+		"duration": 0.69,
+		"sentenceIndex": 13403,
+		"timestamp": 48.81
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 49.5
+	},
+	{
+		"index": 28,
+		"txt": "as opacity or alpha .",
+		"file": "/home/user1/trash/dirOutputSet/_100_as_opacity_or_alpha___as_opacity_or_alpha______.wav",
+		"duration": 0.6,
+		"sentenceIndex": 13405,
+		"timestamp": 50
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 50.6
+	},
+	{
+		"index": 31,
+		"txt": "Optical tracking and computer vision, in general, work by detecting",
+		"file": "/home/user1/trash/dirOutputSet/_100_Optical_tracking_and_computer_visio_eneral__work_by_detecting____.wav",
+		"duration": 1.5,
+		"sentenceIndex": 13408,
+		"timestamp": 51.1
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 52.6
+	},
+	{
+		"index": 32,
+		"txt": "patterns in this wealth of pixel data.",
+		"file": "/home/user1/trash/dirOutputSet/_100_patterns_in_this_wealth_of_pixel_da_his_wealth_of_pixel_data_____.wav",
+		"duration": 0.72,
+		"sentenceIndex": 13409,
+		"timestamp": 53.1
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 53.82
+	},
+	{
+		"index": 33,
+		"txt": "Pattern recognition is a mature field of computer science research.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Pattern_recognition_is_a_mature_fie_omputer_science_research_____.wav",
+		"duration": 1.37,
+		"sentenceIndex": 13410,
+		"timestamp": 54.32
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 55.69
+	},
+	{
+		"index": 34,
+		"txt": "The human brain is an excellent pattern recognizer.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_human_brain_is_an_excellent_pat_llent_pattern_recognizer_____.wav",
+		"duration": 1.06,
+		"sentenceIndex": 13411,
+		"timestamp": 56.19
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 57.25
+	},
+	{
+		"index": 35,
+		"txt": "For instance, look at",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_instance__look_at_For_instance__look_at____.wav",
+		"duration": 0.56,
+		"sentenceIndex": 13412,
+		"timestamp": 57.75
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 58.31
+	},
+	{
+		"index": 36,
+		"txt": "Figure 25 1",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 25_1_Figure 25_1____.wav",
+		"duration": 0.66,
+		"sentenceIndex": 13413,
+		"timestamp": 58.81
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 59.47
+	},
+	{
+		"index": 38,
+		"txt": "Most of us can't help but see a face in what is in reality a collection of three random shapes.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Most_of_us_can_t_help_but_see_a_fac_n_of_three_random_shapes_____.wav",
+		"duration": 1.99,
+		"sentenceIndex": 13415,
+		"timestamp": 59.97
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 61.96
+	},
+	{
+		"index": 39,
+		"txt": "Our brains are so primed to recognize the basic pattern of a human face that we can do it even when we don't want to",
+		"file": "/home/user1/trash/dirOutputSet/_100_Our_brains_are_so_primed_to_recogni_ven_when_we_don_t_want_to____.wav",
+		"duration": 2.17,
+		"sentenceIndex": 13416,
+		"timestamp": 62.46
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 64.63
+	},
+	{
+		"index": 45,
+		"txt": "Figure 25 1. Four unrelated geometric entities",
+		"file": "/home/user1/trash/dirOutputSet/_100_Figure 25_1_ Four_unrelated_geometr_elated_geometric_entities____.wav",
+		"duration": 1.61,
+		"sentenceIndex": 13422,
+		"timestamp": 65.13
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 66.74
+	},
+	{
+		"index": 47,
+		"txt": "Computers, on the other hand, have a harder time looking at two circles and a few lines and saying,",
+		"file": "/home/user1/trash/dirOutputSet/_100_Computers__on_the_other_hand__have__d_a_few_lines_and_saying_______.wav",
+		"duration": 2.15,
+		"sentenceIndex": 13424,
+		"timestamp": 67.24
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 69.39
+	},
+	{
+		"index": 48,
+		"txt": "\"Hey, this is a smiling face.\"",
+		"file": "/home/user1/trash/dirOutputSet/IVONA_2_Kendra_100_Hey__this_is_a_smiling_face____this_is_a_smiling_face_______.wav",
+		"duration": 0.75,
+		"sentenceIndex": 13425,
+		"timestamp": 69.89
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 70.64
+	},
+	{
+		"index": 51,
+		"txt": "Sensors and SDKs",
+		"file": "/home/user1/trash/dirOutputSet/_100_Sensors_and_SDKs_Sensors_and_SDKs____.wav",
+		"duration": 0.61,
+		"sentenceIndex": 13428,
+		"timestamp": 71.14
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 71.75
+	},
+	{
+		"index": 53,
+		"txt": "The modern",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_modern_The_modern____.wav",
+		"duration": 0.25,
+		"sentenceIndex": 13430,
+		"timestamp": 72.25
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 72.5
+	},
+	{
+		"index": 54,
+		"txt": "interest in computer vision as a consumer input for computer games has led to the development of several SDKs for performing computer vision pattern recognition.",
+		"file": "/home/user1/trash/dirOutputSet/_100_interest_in_computer_vision_as_a_co_sion_pattern_recognition_____.wav",
+		"duration": 3.25,
+		"sentenceIndex": 13431,
+		"timestamp": 73
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 76.25
+	},
+	{
+		"index": 55,
+		"txt": "One such system is Kinect for Windows.",
+		"file": "/home/user1/trash/dirOutputSet/_100_One_such_system_is_Kinect_for_Windo_em_is_Kinect_for_Windows_____.wav",
+		"duration": 0.87,
+		"sentenceIndex": 13432,
+		"timestamp": 76.75
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 77.62
+	},
+	{
+		"index": 56,
+		"txt": "Although Microsoft provides a very high level API with the Kinect, the downside is that you are locked into its hardware.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Although_Microsoft_provides_a_very__locked_into_its_hardware_____.wav",
+		"duration": 2.45,
+		"sentenceIndex": 13433,
+		"timestamp": 78.12
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 80.57000000000001
+	},
+	{
+		"index": 57,
+		"txt": "The popular open source alternative is OpenCV, a library of computer vision algorithms.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_popular_open_source_alternative_mputer_vision_algorithms_____.wav",
+		"duration": 2.12,
+		"sentenceIndex": 13434,
+		"timestamp": 81.07000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 83.19000000000001
+	},
+	{
+		"index": 58,
+		"txt": "Its advantage is that it can use a wide variety of camera hardware and not just the Kinect sensor.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Its_advantage_is_that_it_can_use_a__t_just_the_Kinect_sensor_____.wav",
+		"duration": 1.92,
+		"sentenceIndex": 13435,
+		"timestamp": 83.69000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 85.61000000000001
+	},
+	{
+		"index": 61,
+		"txt": "Kinect",
+		"file": "/home/user1/trash/dirOutputSet/_100_Kinect_Kinect____.wav",
+		"duration": 0.2,
+		"sentenceIndex": 13438,
+		"timestamp": 86.11000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 86.31000000000002
+	},
+	{
+		"index": 63,
+		"txt": "The Kinect was",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_Kinect_was_The_Kinect_was____.wav",
+		"duration": 0.36,
+		"sentenceIndex": 13440,
+		"timestamp": 86.81000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 87.17000000000002
+	},
+	{
+		"index": 65,
+		"txt": "originally developed for the Xbox 360 but has recently been rebranded to include Kinect for Windows.",
+		"file": "/home/user1/trash/dirOutputSet/_100_originally_developed_for_the_Xbox_3_clude_Kinect_for_Windows_____.wav",
+		"duration": 2.23,
+		"sentenceIndex": 13442,
+		"timestamp": 87.67000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 89.90000000000002
+	},
+	{
+		"index": 66,
+		"txt": "As console game design has high entrance requirements, the Kinect for Windows allows more casual developers to try their hand at creating games with optical input.",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_console_game_design_has_high_ent_games_with_optical_input_____.wav",
+		"duration": 3.38,
+		"sentenceIndex": 13443,
+		"timestamp": 90.40000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 93.78000000000002
+	},
+	{
+		"index": 67,
+		"txt": "The system has a hardware component, called the Kinect sensor, and the previously mentioned Kinect SDK that does a lot of the heavy lifting for us in terms of pattern recognition and depth sensing.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_system_has_a_hardware_component_nition_and_depth_sensing_____.wav",
+		"duration": 3.82,
+		"sentenceIndex": 13444,
+		"timestamp": 94.28000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 98.10000000000001
+	},
+	{
+		"index": 68,
+		"txt": "The hardware component consists of an infrared projector, infrared camera, visible light camera, and an array of microphones.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_hardware_component_consists_of___an_array_of_microphones_____.wav",
+		"duration": 2.74,
+		"sentenceIndex": 13445,
+		"timestamp": 98.60000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 101.34
+	},
+	{
+		"index": 69,
+		"txt": "The two cameras and the projector form the basis of the optical tracking system.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_two_cameras_and_the_projector_f__optical_tracking_system_____.wav",
+		"duration": 1.6,
+		"sentenceIndex": 13446,
+		"timestamp": 101.84
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 103.44
+	},
+	{
+		"index": 70,
+		"txt": "The projector sends out infrared light that is invisible to humans.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_projector_sends_out_infrared_li_t_is_invisible_to_humans_____.wav",
+		"duration": 1.34,
+		"sentenceIndex": 13447,
+		"timestamp": 103.94
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 105.28
+	},
+	{
+		"index": 71,
+		"txt": "This light bounces off objects and is reflected back to the Kinect.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_light_bounces_off_objects_and__ected_back_to_the_Kinect_____.wav",
+		"duration": 1.38,
+		"sentenceIndex": 13448,
+		"timestamp": 105.78
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 107.16
+	},
+	{
+		"index": 72,
+		"txt": "The infrared camera records the reflected light pattern, and based on how it has been distorted, calculates how far the object is from the sensor.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_infrared_camera_records_the_ref_bject_is_from_the_sensor_____.wav",
+		"duration": 2.99,
+		"sentenceIndex": 13449,
+		"timestamp": 107.66
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 110.64999999999999
+	},
+	{
+		"index": 73,
+		"txt": "This exact method is carried out in the hardware of the sensor and is proprietary.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_exact_method_is_carried_out_in_ensor_and_is_proprietary_____.wav",
+		"duration": 1.64,
+		"sentenceIndex": 13450,
+		"timestamp": 111.14999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 112.78999999999999
+	},
+	{
+		"index": 74,
+		"txt": "However, the patent applications reveal that a special lens projects circles that, when reflected, become ellipses of varying shapes.",
+		"file": "/home/user1/trash/dirOutputSet/_100_However__the_patent_applications_re_lipses_of_varying_shapes_____.wav",
+		"duration": 2.91,
+		"sentenceIndex": 13451,
+		"timestamp": 113.28999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 116.19999999999999
+	},
+	{
+		"index": 75,
+		"txt": "The shape of the ellipse depends on the depth of the object reflecting it.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_shape_of_the_ellipse_depends_on_the_object_reflecting_it_____.wav",
+		"duration": 1.36,
+		"sentenceIndex": 13452,
+		"timestamp": 116.69999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 118.05999999999999
+	},
+	{
+		"index": 76,
+		"txt": "In general, this is a much improved",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_general__this_is_a_much_improved___this_is_a_much_improved____.wav",
+		"duration": 0.82,
+		"sentenceIndex": 13453,
+		"timestamp": 118.55999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 119.37999999999998
+	},
+	{
+		"index": 77,
+		"txt": "version of depth from focus",
+		"file": "/home/user1/trash/dirOutputSet/_100_version_of_depth_from_focus_rsion_of_depth_from_focus____.wav",
+		"duration": 0.58,
+		"sentenceIndex": 13454,
+		"timestamp": 119.87999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 120.45999999999998
+	},
+	{
+		"index": 78,
+		"txt": ", in which the computer assumes that blurry objects are farther away than objects in focus.",
+		"file": "/home/user1/trash/dirOutputSet/_100___in_which_the_computer_assumes_tha_ay_than_objects_in_focus_____.wav",
+		"duration": 1.9,
+		"sentenceIndex": 13455,
+		"timestamp": 120.95999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 122.85999999999999
+	},
+	{
+		"index": 81,
+		"txt": "As for object detection, the Kinect comes with a great set of algorithms for skeleton direction.",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_for_object_detection__the_Kinect_s_for_skeleton_direction_____.wav",
+		"duration": 1.98,
+		"sentenceIndex": 13458,
+		"timestamp": 123.35999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 125.33999999999999
+	},
+	{
+		"index": 82,
+		"txt": "It can also be trained to detect other objects, but skeleton detection is really its forte.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_can_also_be_trained_to_detect_ot_tion_is_really_its_forte_____.wav",
+		"duration": 1.95,
+		"sentenceIndex": 13459,
+		"timestamp": 125.83999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 127.78999999999999
+	},
+	{
+		"index": 83,
+		"txt": "The skeleton detection is good because of the massive amount of training Microsoft used for the algorithms when creating the SDK.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_skeleton_detection_is_good_beca_ms_when_creating_the_SDK_____.wav",
+		"duration": 2.54,
+		"sentenceIndex": 13460,
+		"timestamp": 128.29
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 130.82999999999998
+	},
+	{
+		"index": 84,
+		"txt": "If you were to use an average computer to run the Kinect skeleton training program, it would take about three years.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_you_were_to_use_an_average_compu_d_take_about_three_years_____.wav",
+		"duration": 2.26,
+		"sentenceIndex": 13461,
+		"timestamp": 131.32999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 133.58999999999997
+	},
+	{
+		"index": 85,
+		"txt": "Luckily, Microsoft had 1,000 computers lying around, so it takes them only a day to run the training simulation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Luckily__Microsoft_had_1_000_comput__the_training_simulation_____.wav",
+		"duration": 2.57,
+		"sentenceIndex": 13462,
+		"timestamp": 134.08999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 136.65999999999997
+	},
+	{
+		"index": 86,
+		"txt": "This gives you an idea of the amount of training you need to provide for consumer level tracking in your own algorithms.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_gives_you_an_idea_of_the_amoun_g_in_your_own_algorithms_____.wav",
+		"duration": 2.29,
+		"sentenceIndex": 13463,
+		"timestamp": 137.15999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 139.44999999999996
+	},
+	{
+		"index": 87,
+		"txt": "The Kinect can track up to six people with two of them being in",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_Kinect_can_track_up_to_six_peop_with_two_of_them_being_in______.wav",
+		"duration": 1.27,
+		"sentenceIndex": 13464,
+		"timestamp": 139.94999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 141.21999999999997
+	},
+	{
+		"index": 88,
+		"txt": "\"active\"",
+		"file": "/home/user1/trash/dirOutputSet/IVONA_2_Kendra_100_active_active______.wav",
+		"duration": 0.19,
+		"sentenceIndex": 13465,
+		"timestamp": 141.71999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 141.90999999999997
+	},
+	{
+		"index": 89,
+		"txt": "mode.",
+		"file": "/home/user1/trash/dirOutputSet/_100_mode__mode_______.wav",
+		"duration": 0.16,
+		"sentenceIndex": 13466,
+		"timestamp": 142.40999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 142.56999999999996
+	},
+	{
+		"index": 90,
+		"txt": "For these 2 people, 20 individual joints are tracked.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_these_2_people__20_individual_j_idual_joints_are_tracked_____.wav",
+		"duration": 1.17,
+		"sentenceIndex": 13467,
+		"timestamp": 143.06999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 144.23999999999995
+	},
+	{
+		"index": 91,
+		"txt": "The sensor can also track people while standing or sitting.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_sensor_can_also_track_people_wh_hile_standing_or_sitting_____.wav",
+		"duration": 1.14,
+		"sentenceIndex": 13468,
+		"timestamp": 144.73999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 145.87999999999994
+	},
+	{
+		"index": 94,
+		"txt": "OpenCV",
+		"file": "/home/user1/trash/dirOutputSet/_100_OpenCV_OpenCV____.wav",
+		"duration": 0.35,
+		"sentenceIndex": 13471,
+		"timestamp": 146.37999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 146.72999999999993
+	},
+	{
+		"index": 96,
+		"txt": "The OpenCV method",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_OpenCV_method_The_OpenCV_method____.wav",
+		"duration": 0.51,
+		"sentenceIndex": 13473,
+		"timestamp": 147.22999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 147.73999999999992
+	},
+	{
+		"index": 98,
+		"txt": "for 3D reconstruction is, well, more open!",
+		"file": "/home/user1/trash/dirOutputSet/_100_for_3D_reconstruction_is__well__mor_tion_is__well__more_open_____.wav",
+		"duration": 1.34,
+		"sentenceIndex": 13475,
+		"timestamp": 148.23999999999992
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 149.57999999999993
+	},
+	{
+		"index": 99,
+		"txt": "The library is designed to work with any common webcam or other camera you can get connected to your computer.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_library_is_designed_to_work_wit_nnected_to_your_computer_____.wav",
+		"duration": 2.16,
+		"sentenceIndex": 13476,
+		"timestamp": 150.07999999999993
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 152.23999999999992
+	},
+	{
+		"index": 100,
+		"txt": "OpenCV works well with stereoscopic cameras and is also capable of attempting to map depth with a single camera.",
+		"file": "/home/user1/trash/dirOutputSet/_100_OpenCV_works_well_with_stereoscopic_pth_with_a_single_camera_____.wav",
+		"duration": 2.36,
+		"sentenceIndex": 13477,
+		"timestamp": 152.73999999999992
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 155.09999999999994
+	},
+	{
+		"index": 101,
+		"txt": "However, those results would not be accurate enough to control a game, so we suggest you stick with two cameras if you're trying to use regular webcams.",
+		"file": "/home/user1/trash/dirOutputSet/_100_However__those_results_would_not_be_g_to_use_regular_webcams_____.wav",
+		"duration": 3.21,
+		"sentenceIndex": 13478,
+		"timestamp": 155.59999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 158.80999999999995
+	},
+	{
+		"index": 104,
+		"txt": "Indeed, finding depth is relatively straightforward using OpenCV.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Indeed__finding_depth_is_relatively_ightforward_using_OpenCV_____.wav",
+		"duration": 1.59,
+		"sentenceIndex": 13481,
+		"timestamp": 159.30999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 160.89999999999995
+	},
+	{
+		"index": 105,
+		"txt": "The built in function ReprojectImageTo3D calculates a vector for each pixel (x,y) based on a disparity map .",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_built_in_function_ReprojectImag_ased_on_a_disparity_map______.wav",
+		"duration": 2.93,
+		"sentenceIndex": 13482,
+		"timestamp": 161.39999999999995
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 164.32999999999996
+	},
+	{
+		"index": 106,
+		"txt": "A disparity map",
+		"file": "/home/user1/trash/dirOutputSet/_100_A_disparity_map_A_disparity_map____.wav",
+		"duration": 0.42,
+		"sentenceIndex": 13483,
+		"timestamp": 164.82999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 165.24999999999994
+	},
+	{
+		"index": 107,
+		"txt": "is a data set that describes how pixels have changed from one image to the next; if you have stereoscopic cameras, this essentially is the reverse of the technique we use in",
+		"file": "/home/user1/trash/dirOutputSet/_100_is_a_data_set_that_describes_how_pi_f_the_technique_we_use_in____.wav",
+		"duration": 3.61,
+		"sentenceIndex": 13484,
+		"timestamp": 165.74999999999994
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 169.35999999999996
+	},
+	{
+		"index": 109,
+		"txt": "Chapter 24 when dealing with 3D displays.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Chapter 24_when_dealing_with_3D_dis_dealing_with_3D_displays_____.wav",
+		"duration": 1.21,
+		"sentenceIndex": 13486,
+		"timestamp": 169.85999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 171.06999999999996
+	},
+	{
+		"index": 110,
+		"txt": "To create a disparity map, OpenCV provides the handy function FindStereoCorrespondenceGC() .",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_create_a_disparity_map__OpenCV_p_tereoCorrespondenceGC________.wav",
+		"duration": 2.13,
+		"sentenceIndex": 13487,
+		"timestamp": 171.56999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 173.69999999999996
+	},
+	{
+		"index": 111,
+		"txt": "This function takes a set of images, assumes them to be from a sterescopic source, and generates a disparity map by systematically comparing them.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_function_takes_a_set_of_images_matically_comparing_them_____.wav",
+		"duration": 3.09,
+		"sentenceIndex": 13488,
+		"timestamp": 174.19999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 177.28999999999996
+	},
+	{
+		"index": 112,
+		"txt": "The documentation is very complete, and there are several books on the subject of OpenCV, including",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_documentation_is_very_complete__ject_of_OpenCV__including____.wav",
+		"duration": 2.15,
+		"sentenceIndex": 13489,
+		"timestamp": 177.78999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 179.93999999999997
+	},
+	{
+		"index": 113,
+		"txt": "Learning OpenCV by",
+		"file": "/home/user1/trash/dirOutputSet/_100_Learning_OpenCV_by_Learning_OpenCV_by____.wav",
+		"duration": 0.61,
+		"sentenceIndex": 13490,
+		"timestamp": 180.43999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 181.04999999999998
+	},
+	{
+		"index": 115,
+		"txt": "Gary Bradski and Adrian Kaehler",
+		"file": "/home/user1/trash/dirOutputSet/_100_Gary_Bradski_and_Adrian_Kaehler_radski_and_Adrian_Kaehler____.wav",
+		"duration": 0.79,
+		"sentenceIndex": 13492,
+		"timestamp": 181.54999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 182.33999999999997
+	},
+	{
+		"index": 116,
+		"txt": "(O'Reilly), so we again will save the details for independent study.",
+		"file": "/home/user1/trash/dirOutputSet/_100__O_Reilly___so_we_again_will_save_t_ls_for_independent_study_____.wav",
+		"duration": 1.46,
+		"sentenceIndex": 13493,
+		"timestamp": 182.83999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 184.29999999999998
+	},
+	{
+		"index": 119,
+		"txt": "Object detection is also",
+		"file": "/home/user1/trash/dirOutputSet/_100_Object_detection_is_also_Object_detection_is_also____.wav",
+		"duration": 0.68,
+		"sentenceIndex": 13496,
+		"timestamp": 184.79999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 185.48
+	},
+	{
+		"index": 120,
+		"txt": "possible with OpenCV.",
+		"file": "/home/user1/trash/dirOutputSet/_100_possible_with_OpenCV__possible_with_OpenCV_____.wav",
+		"duration": 0.6,
+		"sentenceIndex": 13497,
+		"timestamp": 185.98
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 186.57999999999998
+	},
+	{
+		"index": 121,
+		"txt": "The common example in the OpenCV project uses Harr like features to",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_common_example_in_the_OpenCV_pr_ses_Harr_like_features_to____.wav",
+		"duration": 1.61,
+		"sentenceIndex": 13498,
+		"timestamp": 187.07999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 188.69
+	},
+	{
+		"index": 122,
+		"txt": "recognize objects.",
+		"file": "/home/user1/trash/dirOutputSet/_100_recognize_objects__recognize_objects_____.wav",
+		"duration": 0.47,
+		"sentenceIndex": 13499,
+		"timestamp": 189.19
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 189.66
+	},
+	{
+		"index": 123,
+		"txt": "These features are rectangles whose mathematical structure allows for very fast computation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_These_features_are_rectangles_whose_or_very_fast_computation_____.wav",
+		"duration": 1.91,
+		"sentenceIndex": 13500,
+		"timestamp": 190.16
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 192.07
+	},
+	{
+		"index": 124,
+		"txt": "By developing patterns of these rectangles for a given object, a program can detect objects out of the background.",
+		"file": "/home/user1/trash/dirOutputSet/_100_By_developing_patterns_of_these_rec_ts_out_of_the_background_____.wav",
+		"duration": 2.37,
+		"sentenceIndex": 13501,
+		"timestamp": 192.57
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 194.94
+	},
+	{
+		"index": 125,
+		"txt": "For example, one such pattern could be if a selection rectangle includes an edge.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_example__one_such_pattern_could_ctangle_includes_an_edge_____.wav",
+		"duration": 1.67,
+		"sentenceIndex": 13502,
+		"timestamp": 195.44
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 197.10999999999999
+	},
+	{
+		"index": 126,
+		"txt": "The program would detect an edge in the pixel data by finding a sharp gradient between color and/or other attributes.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_program_would_detect_an_edge_in__and_or_other_attributes_____.wav",
+		"duration": 2.3,
+		"sentenceIndex": 13503,
+		"timestamp": 197.60999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 199.91
+	},
+	{
+		"index": 127,
+		"txt": "If you detect the right number of edges in the right position, you have detected your object.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_you_detect_the_right_number_of_e_ave_detected_your_object_____.wav",
+		"duration": 1.71,
+		"sentenceIndex": 13504,
+		"timestamp": 200.41
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 202.12
+	},
+	{
+		"index": 130,
+		"txt": "Hardcoding a pattern for the computer to look for would result in a very narrow set of recognition criteria.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Hardcoding_a_pattern_for_the_comput__of_recognition_criteria_____.wav",
+		"duration": 2.12,
+		"sentenceIndex": 13507,
+		"timestamp": 202.62
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 204.74
+	},
+	{
+		"index": 131,
+		"txt": "Therefore, computer vision algorithms rely on a system of training rather than hard programming.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Therefore__computer_vision_algorith_er_than_hard_programming_____.wav",
+		"duration": 2.09,
+		"sentenceIndex": 13508,
+		"timestamp": 205.24
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 207.33
+	},
+	{
+		"index": 132,
+		"txt": "Specifically, they use cascade classifier training .",
+		"file": "/home/user1/trash/dirOutputSet/_100_Specifically__they_use_cascade_clas_ade_classifier_training______.wav",
+		"duration": 1.23,
+		"sentenceIndex": 13509,
+		"timestamp": 207.83
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 209.06
+	},
+	{
+		"index": 135,
+		"txt": "The training process works well but requires a large image set.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_training_process_works_well_but_quires_a_large_image_set_____.wav",
+		"duration": 1.28,
+		"sentenceIndex": 13512,
+		"timestamp": 209.56
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 210.84
+	},
+	{
+		"index": 136,
+		"txt": "Typical examples require 6,000 negative images and 1,500 positive images.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Typical_examples_require_6_000_nega_nd_1_500_positive_images_____.wav",
+		"duration": 2.33,
+		"sentenceIndex": 13513,
+		"timestamp": 211.34
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 213.67000000000002
+	},
+	{
+		"index": 137,
+		"txt": "The negative images are commonly called background images.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_negative_images_are_commonly_ca_called_background_images_____.wav",
+		"duration": 1.22,
+		"sentenceIndex": 13514,
+		"timestamp": 214.17000000000002
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 215.39000000000001
+	},
+	{
+		"index": 138,
+		"txt": "When training the algorithm, you take 1,200 of your positive images and draw selection rectangles around the object you are trying to detect.",
+		"file": "/home/user1/trash/dirOutputSet/_100_When_training_the_algorithm__you_ta_you_are_trying_to_detect_____.wav",
+		"duration": 3.07,
+		"sentenceIndex": 13515,
+		"timestamp": 215.89000000000001
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 218.96
+	},
+	{
+		"index": 139,
+		"txt": "The computer learns that the pattern in the selection rectangles you've given it is one to be identified.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_computer_learns_that_the_patter__is_one_to_be_identified_____.wav",
+		"duration": 1.94,
+		"sentenceIndex": 13516,
+		"timestamp": 219.46
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 221.4
+	},
+	{
+		"index": 140,
+		"txt": "This will take the average computer a long, long time.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_will_take_the_average_computer_mputer_a_long__long_time_____.wav",
+		"duration": 1.22,
+		"sentenceIndex": 13517,
+		"timestamp": 221.9
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 223.12
+	},
+	{
+		"index": 141,
+		"txt": "The remaining images are used for testing to ensure that your algorithm has satisfactory accuracy in detecting the patterns you've shown it.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_remaining_images_are_used_for_t_patterns_you_ve_shown_it_____.wav",
+		"duration": 2.7,
+		"sentenceIndex": 13518,
+		"timestamp": 223.62
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 226.32
+	},
+	{
+		"index": 142,
+		"txt": "The larger the sample set, including different lighting, the more accurate the system will be.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_larger_the_sample_set__includin_urate_the_system_will_be_____.wav",
+		"duration": 1.87,
+		"sentenceIndex": 13519,
+		"timestamp": 226.82
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 228.69
+	},
+	{
+		"index": 143,
+		"txt": "Once the algorithm is trained to detect a particular object, all you need is the training file usually an .xml file to share that training with another computer.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Once_the_algorithm_is_trained_to_de_ng_with_another_computer_____.wav",
+		"duration": 3.42,
+		"sentenceIndex": 13520,
+		"timestamp": 229.19
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 232.60999999999999
+	},
+	{
+		"index": 146,
+		"txt": "Numerical Differentiation",
+		"file": "/home/user1/trash/dirOutputSet/_100_Numerical_Differentiation_Numerical_Differentiation____.wav",
+		"duration": 0.58,
+		"sentenceIndex": 13523,
+		"timestamp": 233.10999999999999
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 233.69
+	},
+	{
+		"index": 148,
+		"txt": "As previously noted,",
+		"file": "/home/user1/trash/dirOutputSet/_100_As_previously_noted__As_previously_noted_____.wav",
+		"duration": 0.51,
+		"sentenceIndex": 13525,
+		"timestamp": 234.19
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 234.7
+	},
+	{
+		"index": 150,
+		"txt": "there are many ways to collect optical tracking data, but since we are focusing on the physics aspects, we'll now talk about how to process the data to get meaningfully physical simulation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_there_are_many_ways_to_collect_opti_ully_physical_simulation_____.wav",
+		"duration": 3.79,
+		"sentenceIndex": 13527,
+		"timestamp": 235.2
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 238.98999999999998
+	},
+	{
+		"index": 151,
+		"txt": "By combining object detection with depth sensing, we can detect and then track an object as it moves in the camera's field of vision.",
+		"file": "/home/user1/trash/dirOutputSet/_100_By_combining_object_detection_with__camera_s_field_of_vision_____.wav",
+		"duration": 2.75,
+		"sentenceIndex": 13528,
+		"timestamp": 239.48999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 242.23999999999998
+	},
+	{
+		"index": 152,
+		"txt": "Let's assume that you have used the frame rate or internal clock to generate data of the following format:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Let_s_assume_that_you_have_used_the__of_the_following_format_____.wav",
+		"duration": 2.04,
+		"sentenceIndex": 13529,
+		"timestamp": 242.73999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 244.77999999999997
+	},
+	{
+		"index": 154,
+		"txt": "Now, a single data point consisting of three coordinates and a timestamp doesn't allow us to determine what is going on with an object's velocity or acceleration.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now__a_single_data_point_consisting_velocity_or_acceleration_____.wav",
+		"duration": 3.34,
+		"sentenceIndex": 13531,
+		"timestamp": 245.27999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 248.61999999999998
+	},
+	{
+		"index": 155,
+		"txt": "However, as the camera is supplying new position data at around 20–30 Hz, we will generate a time history of position or displacement.",
+		"file": "/home/user1/trash/dirOutputSet/_100_However__as_the_camera_is_supplying_position_or_displacement_____.wav",
+		"duration": 3.2,
+		"sentenceIndex": 13532,
+		"timestamp": 249.11999999999998
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 252.31999999999996
+	},
+	{
+		"index": 156,
+		"txt": "Using techniques similar to the numerical integration we used to take acceleration and turn it into velocities and then turn those velocities into position in earlier chapters, we can apply numerical differentiation to accomplish the reverse.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Using_techniques_similar_to_the_num_o_accomplish_the_reverse_____.wav",
+		"duration": 4.85,
+		"sentenceIndex": 13533,
+		"timestamp": 252.81999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 257.66999999999996
+	},
+	{
+		"index": 157,
+		"txt": "Specifically, we can use the finite difference method.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Specifically__we_can_use_the_finite_finite_difference_method_____.wav",
+		"duration": 1.18,
+		"sentenceIndex": 13534,
+		"timestamp": 258.16999999999996
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 259.34999999999997
+	},
+	{
+		"index": 160,
+		"txt": "For velocity, we need a first order finite difference numerical differentiation scheme.",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_velocity__we_need_a_first_order_l_differentiation_scheme_____.wav",
+		"duration": 1.87,
+		"sentenceIndex": 13537,
+		"timestamp": 259.84999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 261.71999999999997
+	},
+	{
+		"index": 161,
+		"txt": "Because we know the current data point and the previous data point, we are looking backward in time to get the current position.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Because_we_know_the_current_data_po_get_the_current_position_____.wav",
+		"duration": 2.35,
+		"sentenceIndex": 13538,
+		"timestamp": 262.21999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 264.57
+	},
+	{
+		"index": 162,
+		"txt": "This is known",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_known_This_is_known____.wav",
+		"duration": 0.32,
+		"sentenceIndex": 13539,
+		"timestamp": 265.07
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 265.39
+	},
+	{
+		"index": 163,
+		"txt": "as the backward difference scheme",
+		"file": "/home/user1/trash/dirOutputSet/_100_as_the_backward_difference_scheme_ackward_difference_scheme____.wav",
+		"duration": 0.71,
+		"sentenceIndex": 13540,
+		"timestamp": 265.89
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 266.59999999999997
+	},
+	{
+		"index": 165,
+		"txt": "In general, the backward difference is given by:f'(x) = lim h→0 (f(x+h) – f(x)) / h",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_general__the_backward_difference_m_h_0__f_x_h____f_x_____h____.wav",
+		"duration": 2.97,
+		"sentenceIndex": 13542,
+		"timestamp": 267.09999999999997
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 270.07
+	},
+	{
+		"index": 167,
+		"txt": "We must use the backward difference for the first order differentiation, as we know only the present position and past positions.",
+		"file": "/home/user1/trash/dirOutputSet/_100_We_must_use_the_backward_difference_ition_and_past_positions_____.wav",
+		"duration": 2.66,
+		"sentenceIndex": 13544,
+		"timestamp": 270.57
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 273.23
+	},
+	{
+		"index": 168,
+		"txt": "In our case, h is the difference in time between two data points and has a nonzero, fixed value.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_our_case__h_is_the_difference_in_s_a_nonzero__fixed_value_____.wav",
+		"duration": 2.4,
+		"sentenceIndex": 13545,
+		"timestamp": 273.73
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 276.13
+	},
+	{
+		"index": 169,
+		"txt": "Therefore, the equation can be rewritten as:(f(x+h) – f(x)) / h = ∆f(x)/h",
+		"file": "/home/user1/trash/dirOutputSet/_100_Therefore__the_equation_can_be_rewr__h____f_x_____h____f_x__h____.wav",
+		"duration": 2.97,
+		"sentenceIndex": 13546,
+		"timestamp": 276.63
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 279.6
+	},
+	{
+		"index": 171,
+		"txt": "where ∆f(x) is the position at the second timestamp minus the position at the first timestamp, and h is the difference in time.",
+		"file": "/home/user1/trash/dirOutputSet/_100_where__f_x__is_the_position_at_the__s_the_difference_in_time_____.wav",
+		"duration": 2.65,
+		"sentenceIndex": 13548,
+		"timestamp": 280.1
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 282.75
+	},
+	{
+		"index": 172,
+		"txt": "This is relatively straightforward, as we are just calculating the distance traveled divided by the time it took to travel that distance.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_relatively_straightforward___to_travel_that_distance_____.wav",
+		"duration": 2.56,
+		"sentenceIndex": 13549,
+		"timestamp": 283.25
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 285.81
+	},
+	{
+		"index": 173,
+		"txt": "This is the definition of average velocity.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_the_definition_of_average_v_tion_of_average_velocity_____.wav",
+		"duration": 0.84,
+		"sentenceIndex": 13550,
+		"timestamp": 286.31
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 287.15
+	},
+	{
+		"index": 176,
+		"txt": "Note that because we are finding the average velocity between the two data points, if the time delta, h , is too large, this will not accurately approximate the instantaneous velocity of the object.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Note_that_because_we_are_finding_th_s_velocity_of_the_object_____.wav",
+		"duration": 4.35,
+		"sentenceIndex": 13553,
+		"timestamp": 287.65
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 292
+	},
+	{
+		"index": 177,
+		"txt": "You may be tempted to push whatever hardware you have to its limit and get the highest possible sampling rate; however, if the time step is too small, the subtraction of one displacement from another will result in significant round off error using floating point arithmetic.",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_may_be_tempted_to_push_whatever_loating_point_arithmetic_____.wav",
+		"duration": 5.42,
+		"sentenceIndex": 13554,
+		"timestamp": 292.5
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 297.92
+	},
+	{
+		"index": 178,
+		"txt": "You must take care to ensure that when you're selecting a timestamp, (t[i] + h) – t[i] is exactly h .",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_must_take_care_to_ensure_that_w__h____t_i__is_exactly_h______.wav",
+		"duration": 2.87,
+		"sentenceIndex": 13555,
+		"timestamp": 298.42
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 301.29
+	},
+	{
+		"index": 179,
+		"txt": "For more information on tuning these parameters, refer to the classic Numerical Recipes in C .",
+		"file": "/home/user1/trash/dirOutputSet/_100_For_more_information_on_tuning_thes__Numerical_Recipes_in_C______.wav",
+		"duration": 2.03,
+		"sentenceIndex": 13556,
+		"timestamp": 301.79
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 303.82
+	},
+	{
+		"index": 180,
+		"txt": "The function to find velocity from our data structure would be as follows.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_function_to_find_velocity_from__ture_would_be_as_follows_____.wav",
+		"duration": 1.41,
+		"sentenceIndex": 13557,
+		"timestamp": 304.32
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 305.73
+	},
+	{
+		"index": 181,
+		"txt": "Note that in our notation, t[i−1] is behind in time compared to t[i ], so we are using the backward form.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Note_that_in_our_notation__t_i_1__i__using_the_backward_form_____.wav",
+		"duration": 2.83,
+		"sentenceIndex": 13558,
+		"timestamp": 306.23
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 309.06
+	},
+	{
+		"index": 182,
+		"txt": "Your program needs to ensure that t[i−1] exists before executing this function:",
+		"file": "/home/user1/trash/dirOutputSet/_100_Your_program_needs_to_ensure_that_t__executing_this_function_____.wav",
+		"duration": 2.32,
+		"sentenceIndex": 13559,
+		"timestamp": 309.56
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 311.88
+	},
+	{
+		"index": 185,
+		"txt": "To compute the acceleration vector",
+		"file": "/home/user1/trash/dirOutputSet/_100_To_compute_the_acceleration_vector_e_the_acceleration_vector____.wav",
+		"duration": 0.73,
+		"sentenceIndex": 13562,
+		"timestamp": 312.38
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 313.11
+	},
+	{
+		"index": 187,
+		"txt": ", we need to compare two velocities.",
+		"file": "/home/user1/trash/dirOutputSet/_100___we_need_to_compare_two_velocities_o_compare_two_velocities_____.wav",
+		"duration": 0.7,
+		"sentenceIndex": 13564,
+		"timestamp": 313.61
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 314.31
+	},
+	{
+		"index": 188,
+		"txt": "However, we note that to get a velocity, we need two data points.",
+		"file": "/home/user1/trash/dirOutputSet/_100_However__we_note_that_to_get_a_velo__we_need_two_data_points_____.wav",
+		"duration": 1.43,
+		"sentenceIndex": 13565,
+		"timestamp": 314.81
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 316.24
+	},
+	{
+		"index": 189,
+		"txt": "Therefore, a total of three data points is required.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Therefore__a_total_of_three_data_po__data_points_is_required_____.wav",
+		"duration": 1.19,
+		"sentenceIndex": 13566,
+		"timestamp": 316.74
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 317.93
+	},
+	{
+		"index": 190,
+		"txt": "The acceleration we solve for will actually be the acceleration for the middle data point as we compare the backward and forward difference.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_acceleration_we_solve_for_will__d_and_forward_difference_____.wav",
+		"duration": 2.66,
+		"sentenceIndex": 13567,
+		"timestamp": 318.43
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 321.09000000000003
+	},
+	{
+		"index": 191,
+		"txt": "This technique is named the second order central difference .",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_technique_is_named_the_second__rder_central_difference______.wav",
+		"duration": 1.12,
+		"sentenceIndex": 13568,
+		"timestamp": 321.59000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 322.71000000000004
+	},
+	{
+		"index": 192,
+		"txt": "In",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_In____.wav",
+		"duration": 0.17,
+		"sentenceIndex": 13569,
+		"timestamp": 323.21000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 323.38000000000005
+	},
+	{
+		"index": 194,
+		"txt": "general, that form is as follows:f''(x) = (f(x+2h) – 2f(x+h) + f(x)) / h2",
+		"file": "/home/user1/trash/dirOutputSet/_100_general__that_form_is_as_follows_f__h____2f_x_h____f_x_____h2____.wav",
+		"duration": 3.21,
+		"sentenceIndex": 13571,
+		"timestamp": 323.88000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 327.09000000000003
+	},
+	{
+		"index": 196,
+		"txt": "This allows you to compute the acceleration directly without first finding the velocities.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_allows_you_to_compute_the_acce_t_finding_the_velocities_____.wav",
+		"duration": 1.72,
+		"sentenceIndex": 13573,
+		"timestamp": 327.59000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 329.31000000000006
+	},
+	{
+		"index": 197,
+		"txt": "Here again, f(x) is the position reported by the sensor and h is the time step between data points.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Here_again__f_x__is_the_position_re_step_between_data_points_____.wav",
+		"duration": 2.28,
+		"sentenceIndex": 13574,
+		"timestamp": 329.81000000000006
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 332.09000000000003
+	},
+	{
+		"index": 198,
+		"txt": "The same discussion of h applies here as well.",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_same_discussion_of_h_applies_he_f_h_applies_here_as_well_____.wav",
+		"duration": 1.02,
+		"sentenceIndex": 13575,
+		"timestamp": 332.59000000000003
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 333.61
+	},
+	{
+		"index": 199,
+		"txt": "Some tuning of the time step might be required to provide a stable differential.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Some_tuning_of_the_time_step_might__de_a_stable_differential_____.wav",
+		"duration": 1.55,
+		"sentenceIndex": 13576,
+		"timestamp": 334.11
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 335.66
+	},
+	{
+		"index": 200,
+		"txt": "Of particular note with central difference forms is that periodic functions that are in sync with your time step may result in zero slope.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Of_particular_note_with_central_dif_may_result_in_zero_slope_____.wav",
+		"duration": 2.72,
+		"sentenceIndex": 13577,
+		"timestamp": 336.16
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 338.88000000000005
+	},
+	{
+		"index": 201,
+		"txt": "If the motion you are tracking is periodic, you should take care to avoid a time step near the period of oscillation.",
+		"file": "/home/user1/trash/dirOutputSet/_100_If_the_motion_you_are_tracking_is_p_he_period_of_oscillation_____.wav",
+		"duration": 2.33,
+		"sentenceIndex": 13578,
+		"timestamp": 339.38000000000005
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 341.71000000000004
+	},
+	{
+		"index": 202,
+		"txt": "This is called aliasing and is a problem with all signal analysis, including computer graphics displays.",
+		"file": "/home/user1/trash/dirOutputSet/_100_This_is_called_aliasing_and_is_a_pr_mputer_graphics_displays_____.wav",
+		"duration": 2.26,
+		"sentenceIndex": 13579,
+		"timestamp": 342.21000000000004
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 344.47
+	},
+	{
+		"index": 203,
+		"txt": "Also, note that this cannot be computed until at least three time steps have been stored.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Also__note_that_this_cannot_be_comp_e_steps_have_been_stored_____.wav",
+		"duration": 1.89,
+		"sentenceIndex": 13580,
+		"timestamp": 344.97
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 346.86
+	},
+	{
+		"index": 204,
+		"txt": "In our notation, t[i−1] is the center data point, t[i−2] the backward value, and t[i ] the forward value.",
+		"file": "/home/user1/trash/dirOutputSet/_100_In_our_notation__t_i_1__is_the_cent__t_i___the_forward_value_____.wav",
+		"duration": 3.5,
+		"sentenceIndex": 13581,
+		"timestamp": 347.36
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 350.86
+	},
+	{
+		"index": 205,
+		"txt": "The acceleration function would therefore be as follows:",
+		"file": "/home/user1/trash/dirOutputSet/_100_The_acceleration_function_would_the__therefore_be_as_follows_____.wav",
+		"duration": 1.12,
+		"sentenceIndex": 13582,
+		"timestamp": 351.36
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 352.48
+	},
+	{
+		"index": 208,
+		"txt": "Now, let's say that you are tracking a ball in someone's hand.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Now__let_s_say_that_you_are_trackin_a_ball_in_someone_s_hand_____.wav",
+		"duration": 1.34,
+		"sentenceIndex": 13585,
+		"timestamp": 352.98
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 354.32
+	},
+	{
+		"index": 209,
+		"txt": "Until he lets it go, the velocity and acceleration we are calculating could change at any moment in any number of ways.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Until_he_lets_it_go__the_velocity_a_nt_in_any_number_of_ways_____.wav",
+		"duration": 2.56,
+		"sentenceIndex": 13586,
+		"timestamp": 354.82
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 357.38
+	},
+	{
+		"index": 210,
+		"txt": "It is not until the user lets go of the ball that the physics we have discussed takes over.",
+		"file": "/home/user1/trash/dirOutputSet/_100_It_is_not_until_the_user_lets_go_of_ave_discussed_takes_over_____.wav",
+		"duration": 1.75,
+		"sentenceIndex": 13587,
+		"timestamp": 357.88
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 359.63
+	},
+	{
+		"index": 211,
+		"txt": "Hence, you have to optically track it until he completes the throw.",
+		"file": "/home/user1/trash/dirOutputSet/_100_Hence__you_have_to_optically_track__l_he_completes_the_throw_____.wav",
+		"duration": 1.38,
+		"sentenceIndex": 13588,
+		"timestamp": 360.13
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 361.51
+	},
+	{
+		"index": 212,
+		"txt": "Once the ball is released, the physics from the rest of this book applies!",
+		"file": "/home/user1/trash/dirOutputSet/_100_Once_the_ball_is_released__the_phys_est_of_this_book_applies_____.wav",
+		"duration": 1.5,
+		"sentenceIndex": 13589,
+		"timestamp": 362.01
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 363.51
+	},
+	{
+		"index": 213,
+		"txt": "You can then use the position at time of release, the velocity vector, and the acceleration vector to plot its trajectory in the",
+		"file": "/home/user1/trash/dirOutputSet/_100_You_can_then_use_the_position_at_ti_lot_its_trajectory_in_the____.wav",
+		"duration": 2.47,
+		"sentenceIndex": 13590,
+		"timestamp": 364.01
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 366.48
+	},
+	{
+		"index": 215,
+		"txt": "game.",
+		"file": "/home/user1/trash/dirOutputSet/_100_game__game_____.wav",
+		"duration": 0.2,
+		"sentenceIndex": 13592,
+		"timestamp": 366.98
+	},
+	{
+		"txt": "",
+		"file": "/home/user1/trash/dirOutputSet/silent.wav",
+		"duration": "0.5",
+		"timestamp": 367.18
+	}
+]
