@@ -30,10 +30,24 @@ function NewLevelAppFileDirect() {
         self.settings = config
         window.setZoomDefaultDisable = true
 
-        if (window.location.toString().includes('192') == false
+        let isLocal = false
+        if ( window.location.toString().includes('localhost')) {
+            isLocal = true
+        }
+        else if ( window.location.toString().includes('192')) {
+            isLocal = true
+        }
+        else {
+
+        }
+
+
+
+        if ( isLocal == false
             || window.location.toString().includes(':11200')) {
             if (window.location.toString().includes('liveMode2')!=true) {
                 self.settings.isRemoteItem = true
+                console.log('isremoteitem')
             }
 
         }

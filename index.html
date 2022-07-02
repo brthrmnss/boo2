@@ -211,8 +211,11 @@
                 return JSON.stringify( {files:['asd.sf']} )
             }
         }*/
+    window.skipTopMenuDialog = true
+    window.debugMissFs = false
     window.glhCanFixJSON = true
     window.githubLiveMode = true
+
     window.fxRequestUpdateUrl2 = function fxRequestUpdateUrl2(url) {
         //debugger
         //console.error('err', url)
@@ -228,7 +231,13 @@
     }
 
     window.fxApp2Offset = function af(){
+       /* $('#topMenuDialogHolder').hide()
+        $('#topMenuDialogHolder').remove()
+        u.slu( $('#topMenuDialogHolder') )
+        u.opac(0.0)*/
         fxTest_BookReaderV2()
+
+
     }
     setTimeout(function (){
 

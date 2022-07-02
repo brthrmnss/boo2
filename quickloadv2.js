@@ -379,7 +379,7 @@
                 }
 
 
-                p.findCachedItem = p.showAllCachedItems = function showAllCachedItems(str, showResults, str2) {
+               p.dbg_find =  p.findCachedItem = p.showAllCachedItems = function showAllCachedItems(str, showResults, str2) {
                     if (str != null) {
                         console.log('searching for ', str)
                     }
@@ -1186,6 +1186,7 @@ min-height: 300px;
                             if (url.split('/').length > 2) {
                                 if (url.includes('/api/')) {
                                 } else {
+                                    if ( window.debugMissFs != false )
                                     debugger
                                 }
                             }
@@ -1268,7 +1269,6 @@ min-height: 300px;
             function defineLoadUrls() {
 
                 p.loadCSS2 = function loadCSS2(fileCss, fxDone) {
-//                   debugger
 
                     if (self.settings.reloadCache2) {
                         if (self.data.dbgUrl) {
@@ -1372,15 +1372,16 @@ min-height: 300px;
                 var scripts2 = [
                     'http://localhost:10110/lib/bootstrap.min.css',
                     //'http://localhost:10110/lib/jquery-ui.css',
-                    'http://localhost:10110/styles2/qstyles.css',
-                    'http://localhost:10110/styles2/login.css',
-                    'http://localhost:10110/styles2/better.css',
-                    'http://localhost:10110/styles2/list_styles.css',
+                    'http://localhost:10110/styles/qstyles.css',
+                    'http://localhost:10110/styles/login.css',
+                    'http://localhost:10110/styles/better.css',
+                    'http://localhost:10110/styles/list_styles.css',
                 ]
 
                 if (window.githubLiveMode!=true){
-                    scripts2.push('http://localhost:10110/styles2/fonts.css')
+                    scripts2.push('http://localhost:10110/styles/fonts.css')
                 }
+
 
                 /*scripts2 = [
                     'http://localhost:10110/lib/bootstrap.min.css',
@@ -1392,6 +1393,9 @@ min-height: 300px;
                     'http://localhost:10110/styles2/list_styles.css',
                 ]*/
 
+             /*   sh.each(scripts2, function onEach(k,v){
+                    scripts2[k]
+                })*/
 
                 self.loadScript2(scripts2.concat(), self.loadStuff4);
             }
@@ -1409,7 +1413,7 @@ min-height: 300px;
                  document.head.appendChild(newStyle);*/
 
 
-                let droidSans = {}
+              /*  let droidSans = {}
                 droidSans.name = 'Droid Sans'
                 droidSans.fontUrl = 'droidsans.ttf'
                 droidSans.urlFontBase =
@@ -1424,7 +1428,7 @@ min-height: 300px;
                 droidSans.urlFontBase =
                     'http://localhost:10110/styles2/font'
                 self.addFont(droidSans)
-
+*/
 
                 self.loadStuff_FinishedBeforeLoadingUserComponents()
 
@@ -1433,6 +1437,8 @@ min-height: 300px;
 
             p.addFont = function addFont(fontObj) {
 
+
+                asdadsf.g
 
                 if ( window.location.toString().includes('sktype') ){
                     console.warn('skiptype skip')
@@ -1458,7 +1464,7 @@ min-height: 300px;
                 fontObj.fontStyle = sh.dv(fontObj.fontStyle, 'normal')
                 fontObj.fontSrcs = sh.dv(fontObj.fontSrcs, [])
                 fontObj.fontSrcs.push(fontObj.name);
-                debugger
+               // debugger
                 let yyy = []
                 //let urlFontBase
 
