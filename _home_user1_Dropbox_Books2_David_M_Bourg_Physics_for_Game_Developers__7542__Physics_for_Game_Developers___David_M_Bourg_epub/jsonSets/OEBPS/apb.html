@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg"><head><title>Appendix B. Matrix Operations</title><link rel="stylesheet" type="text/css" href="core.css"/><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"/><link rel="up" href="index.html" title="Physics for Game Developers"/><link rel="prev" href="apa.html" title="Appendix A. Vector Operations"/><link rel="next" href="apc.html" title="Appendix C. Quaternion Operations"/></head><body><section class="appendix" title="Appendix B. Matrix Operations" epub:type="appendix" id="matrix_operations"><div class="titlepage"><div><div><h2 class="title">Appendix B. Matrix Operations</h2></div></div></div><p>This appendix implements a class called <code class="literal">Matrix3x3</code> that encapsulates all of the operations
+  you need to handle 3×3 (nine-element) matrices when writing 3D rigid-body
+  simulations.</p><div class="sect1" title="Matrix3×3 Class"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="matrix3t3_class">Matrix3×3 Class</h2></div></div></div><p>The <code class="literal">Matrix3x3</code> class is <a id="I_indexterm_id367275" class="indexterm"/><a id="mab.1" class="indexterm"/>defined with nine elements, e<sub>ij</sub>,
+    where <span class="emphasis"><em>i</em></span> represents the <span class="emphasis"><em>i</em></span>th row
+    and <span class="emphasis"><em>j</em></span> the <span class="emphasis"><em>j</em></span>th column. For
+    example, <span class="emphasis"><em>e</em></span><sub>21</sub> refers to the
+    element on the second row in the first column. Here’s how all of the
+    elements are arranged:</p><div class="informalfigure"><a id="appendixbmatrix1"/><div class="mediaobject"><a id="I_mediaobject_id367333"/><img src="httpatomoreillycomsourceoreillyimages1599038.png" alt="image with no caption"/></div></div><p>The class has two constructors, one of which initializes the matrix elements to zero, and
+      the other of which initializes the elements to those passed to the constructor:</p><a id="I_programlisting_id367356"/><pre class="programlisting">class Matrix3x3 {
+public:
+     // elements eij: i -&gt; row, j -&gt; column
+     float     e11, e12, e13, e21, e22, e23, e31, e32, e33;
+
+     Matrix3x3(void);
+     Matrix3x3(float r1c1, float r1c2, float r1c3,
+               float r2c1, float r2c2, float r2c3,
+               float r3c1, float r3c2, float r3c3 );
+
+     float         det(void);
+     Matrix3x3     Transpose(void);
+     Matrix3x3     Inverse(void);
+
+     Matrix3x3&amp; operator+=(Matrix3x3 m);
+     Matrix3x3&amp; operator-=(Matrix3x3 m);
+     Matrix3x3&amp; operator*=(float s);
+     Matrix3x3&amp; operator/=(float s);
+};
+
+// Constructor
+inline     Matrix3x3::Matrix3x3(void)
+{
+     e11 = 0;
+     e12 = 0;
+     e13 = 0;
+     e21 = 0;
+     e22 = 0;
+     e23 = 0;
+     e31 = 0;
+     e32 = 0;
+     e33 = 0;
+}
+
+// Constructor
+inline     Matrix3x3::Matrix3x3(float r1c1, float r1c2, float r1c3,
+                                float r2c1, float r2c2, float r2c3,
+                                float r3c1, float r3c2, float r3c3 )
+{
+     e11 = r1c1;
+     e12 = r1c2;
+     e13 = r1c3;
+     e21 = r2c1;
+     e22 = r2c2;
+     e23 = r2c3;
+     e31 = r3c1;
+     e32 = r3c2;
+     e33 = r3c3;
+}</pre><div class="sect2" title="Determinant"><div class="titlepage"><div><div><h3 class="title" id="determinant">Determinant</h3></div></div></div><p>The method, <code class="literal">det</code>, returns the
+      <a id="I_indexterm_id367388" class="indexterm"/><a id="I_indexterm_id367396" class="indexterm"/>determinant of the matrix. The determinant of a 2×2
+      matrix:</p><div class="informalfigure"><a id="appendixbmatrix2"/><div class="mediaobject"><a id="I_mediaobject_id367415"/><img src="httpatomoreillycomsourceoreillyimages1599039.png" alt="image with no caption"/></div></div><p>is as follows:</p><table style="border: 0; " class="simplelist"><tr><td>det [m] = e<sub>11</sub>
+        e<sub>22</sub> − e<sub>21</sub>
+        e<sub>12</sub></td></tr></table><p>We find the determinant of a 3×3 matrix by first expanding the
+      matrix by minors, and then resolving the determinants of the 2×2 minors.
+      Here’s how you expand a 3×3 matrix by minors:</p><div class="informalfigure"><a id="appendixbmatrix3"/><div class="mediaobject"><a id="I_mediaobject_id367472"/><img src="httpatomoreillycomsourceoreillyimages1599040.png" alt="image with no caption"/></div></div><p>Here’s how this all looks in code:</p><a id="I_programlisting_id367494"/><pre class="programlisting">inline     float     Matrix3x3::det(void)
+{
+     return    e11*e22*e33 -
+               e11*e32*e23 +
+               e21*e32*e13 -
+               e21*e12*e33 +
+               e31*e12*e23 -
+               e31*e22*e13;
+}</pre></div><div class="sect2" title="Transpose"><div class="titlepage"><div><div><h3 class="title" id="transpose">Transpose</h3></div></div></div><p>The method <code class="literal">Transpose</code> transposes
+      <a id="I_indexterm_id367520" class="indexterm"/><a id="I_indexterm_id367526" class="indexterm"/>the matrix by swapping rows with columns—that is, the
+      elements in the first row become the elements in the first column and so
+      on for the second and third rows and columns. The following relations
+      are true for transpose operations:</p><table style="border: 0; " class="simplelist"><tr><td>(<span class="strong"><strong>M</strong></span><sup>t</sup>)<sup>t</sup>
+        = <span class="strong"><strong>M</strong></span></td></tr><tr><td>(s <span class="strong"><strong>M</strong></span>)<sup>t</sup> = s (<span class="strong"><strong>M</strong></span><sup>t</sup>)</td></tr><tr><td>(<span class="strong"><strong>M
+        N</strong></span>)<sup>t</sup> = <span class="strong"><strong>N</strong></span><sup>t</sup> <span class="strong"><strong>M</strong></span><sup>t</sup></td></tr><tr><td>(<span class="strong"><strong>M</strong></span> + <span class="strong"><strong>N</strong></span>)<sup>t</sup> = <span class="strong"><strong>M</strong></span><sup>t</sup> + <span class="strong"><strong>N</strong></span><sup>t</sup></td></tr><tr><td>det[<span class="strong"><strong>M</strong></span><sup>t</sup>] =
+        det[<span class="strong"><strong>M</strong></span>]</td></tr></table><p>Here <span class="strong"><strong>M</strong></span> and <span class="strong"><strong>N</strong></span> are matrices, <sup>t</sup> is
+      the transpose operator, and <span class="emphasis"><em>s</em></span> is a scalar.</p><p>Here’s the <code class="literal">Transpose</code> method for
+      our <code class="literal">Matrix3x3</code> class:</p><a id="I_programlisting_id367710"/><pre class="programlisting">inline     Matrix3x3     Matrix3x3::Transpose(void)
+{
+     return Matrix3x3(e11,e21,e31,e12,e22,e32,e13,e23,e33);
+}</pre></div><div class="sect2" title="Inverse"><div class="titlepage"><div><div><h3 class="title" id="inverse">Inverse</h3></div></div></div><p>The method <code class="literal">Inverse</code> computes
+      <a id="I_indexterm_id367737" class="indexterm"/><a id="I_indexterm_id367744" class="indexterm"/>the inverse matrix such that the following relation is
+      satisfied:</p><p><span class="strong"><strong>M
+      M</strong></span><sup>−1</sup> = <span class="strong"><strong>M</strong></span><sup>−1</sup> <span class="strong"><strong>M</strong></span> = <span class="strong"><strong>I</strong></span></p><p>Here <span class="strong"><strong>M</strong></span><sup>−1</sup> is the inverse
+      of matrix <span class="strong"><strong>M</strong></span>, and <span class="strong"><strong>I</strong></span> is the identity matrix. For a 3×3 matrix, we
+      find the inverse as follows:</p><div class="informalfigure"><a id="appendixbmatrix4"/><div class="mediaobject"><a id="I_mediaobject_id367817"/><img src="httpatomoreillycomsourceoreillyimages1599041.png" alt="image with no caption"/></div></div><p>Here <span class="emphasis"><em>E</em></span><sub>ij</sub> represents
+      the cofactor of element <span class="emphasis"><em>e</em></span><sub>ij</sub>,
+      which we can find by taking the determinant of the minor of each
+      element. Only square matrices, those with the same number of rows as
+      columns, can be inverted. Note, however, that not all square matrices
+      can be inverted. A matrix can be inverted only if its determinant is
+      nonzero.</p><p>The follow relation applies to matrix inversion:</p><table style="border: 0; " class="simplelist"><tr><td>(<span class="strong"><strong>M
+        N</strong></span>)<sup>−1</sup> = <span class="strong"><strong>N</strong></span><sup>−1</sup> <span class="strong"><strong>M</strong></span><sup>−1</sup></td></tr></table><p>Here’s how matrix inversion looks in code for our <code class="literal">Matrix3x3</code> class:</p><a id="I_programlisting_id367903"/><pre class="programlisting">inline     Matrix3x3     Matrix3x3::Inverse(void)
+{
+     float     d = e11*e22*e33 -
+                   e11*e32*e23 +
+                   e21*e32*e13 -
+                   e21*e12*e33 +
+                   e31*e12*e23 -
+                   e31*e22*e13;
+
+     if (d == 0) d = 1;
+
+     return     Matrix3x3(     (e22*e33-e23*e32)/d,
+                              -(e12*e33-e13*e32)/d,
+                              (e12*e23-e13*e22)/d,
+                              -(e21*e33-e23*e31)/d,
+                              (e11*e33-e13*e31)/d,
+                              -(e11*e23-e13*e21)/d,
+                              (e21*e32-e22*e31)/d,
+                              -(e11*e32-e12*e31)/d,
+                              (e11*e22-e12*e21)/d );
+}</pre></div><div class="sect2" title="Matrix Addition: The += Operator"><div class="titlepage"><div><div><h3 class="title" id="matrix_addition_colon_the_plus_equals_op">Matrix Addition: The += Operator</h3></div></div></div><p>This operator <a id="I_indexterm_id367927" class="indexterm"/><a id="I_indexterm_id367933" class="indexterm"/><a id="I_indexterm_id367943" class="indexterm"/><a id="I_indexterm_id367953" class="indexterm"/><a id="I_indexterm_id367963" class="indexterm"/>simply adds the passed matrix to the current one on an element-by-element basis.
+        For two matrices to be added, they must be of the same <span class="emphasis"><em>order</em></span>—that is,
+        they must have the same number of rows and columns:</p><a id="I_programlisting_id367979"/><pre class="programlisting">inline     Matrix3x3&amp; Matrix3x3::operator+=(Matrix3x3 m)
+{
+     e11 += m.e11;
+     e12 += m.e12;
+     e13 += m.e13;
+     e21 += m.e21;
+     e22 += m.e22;
+     e23 += m.e23;
+     e31 += m.e31;
+     e32 += m.e32;
+     e33 += m.e33;
+     return *this;
+}</pre><p>Matrix addition (and subtraction) is commutative, associative, and
+      distributive; thus:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>M</strong></span> + <span class="strong"><strong>N</strong></span> = <span class="strong"><strong>N</strong></span> +
+        <span class="strong"><strong>M</strong></span></td></tr><tr><td><span class="strong"><strong>M</strong></span> + (<span class="strong"><strong>N</strong></span> + <span class="strong"><strong>P</strong></span>) =
+        (<span class="strong"><strong>M</strong></span> + <span class="strong"><strong>N</strong></span>) + <span class="strong"><strong>P</strong></span></td></tr><tr><td><span class="strong"><strong>M</strong></span> (<span class="strong"><strong>N</strong></span> + <span class="strong"><strong>P</strong></span>) =
+        <span class="strong"><strong>M N</strong></span> + <span class="strong"><strong>M
+        P</strong></span></td></tr><tr><td>(<span class="strong"><strong>N</strong></span> + <span class="strong"><strong>P</strong></span>) <span class="strong"><strong>M</strong></span> =
+        <span class="strong"><strong>N M</strong></span> + <span class="strong"><strong>P
+        M</strong></span></td></tr></table></div><div class="sect2" title="Matrix Subtraction: The −= Operator"><div class="titlepage"><div><div><h3 class="title" id="matrix_subtraction_colon_the_m_equals_op">Matrix Subtraction: The −= Operator</h3></div></div></div><p>This operator simply subtracts the <a id="I_indexterm_id368136" class="indexterm"/><a id="I_indexterm_id368143" class="indexterm"/><a id="I_indexterm_id368152" class="indexterm"/><a id="I_indexterm_id368162" class="indexterm"/><a id="I_indexterm_id368172" class="indexterm"/>passed matrix from the current one on an element-by-element basis. For two
+        matrices to be subtracted, they must be of the same <span class="emphasis"><em>order</em></span>—that is, they
+        must have the same number of rows and columns:</p><a id="I_programlisting_id368189"/><pre class="programlisting">inline     Matrix3x3&amp; Matrix3x3::operator-=(Matrix3x3 m)
+{
+     e11 -= m.e11;
+     e12 -= m.e12;
+     e13 -= m.e13;
+     e21 -= m.e21;
+     e22 -= m.e22;
+     e23 -= m.e23;
+     e31 -= m.e31;
+     e32 -= m.e32;
+     e33 -= m.e33;
+     return *this;
+}</pre></div><div class="sect2" title="Scalar Multiplication: The *= Operator"><div class="titlepage"><div><div><h3 class="title" id="scalar_multiplication_colon_the-id2">Scalar Multiplication: The *= Operator</h3></div></div></div><p>This operator simply <a id="I_indexterm_id368212" class="indexterm"/><a id="I_indexterm_id368222" class="indexterm"/><a id="I_indexterm_id368232" class="indexterm"/><a id="I_indexterm_id368242" class="indexterm"/><a id="I_indexterm_id368252" class="indexterm"/>multiplies each element by the scalar <span class="emphasis"><em>s</em></span>:</p><a id="I_programlisting_id368268"/><pre class="programlisting">inline     Matrix3x3&amp; Matrix3x3::operator*=(float s)
+{
+     e11 *= s;
+     e12 *= s;
+     e13 *= s;
+     e21 *= s;
+     e22 *= s;
+     e23 *= s;
+     e31 *= s;
+     e32 *= s;
+     e33 *= s;
+     return *this;
+}</pre><p>The following relation applies for scalar multiplication (and
+      division):</p><table style="border: 0; " class="simplelist"><tr><td>s(<span class="strong"><strong>M N</strong></span>) = (s<span class="strong"><strong>M</strong></span>) <span class="strong"><strong>N</strong></span> =
+        <span class="strong"><strong>M</strong></span> (s <span class="strong"><strong>N</strong></span>)</td></tr></table></div><div class="sect2" title="Scalar Division: The /= Operator"><div class="titlepage"><div><div><h3 class="title" id="scalar_division_colon_the_solidus_eq">Scalar Division: The /= Operator</h3></div></div></div><p>This operator <a id="I_indexterm_id368332" class="indexterm"/><a id="I_indexterm_id368342" class="indexterm"/><a id="I_indexterm_id368352" class="indexterm"/><a id="I_indexterm_id368361" class="indexterm"/><a id="I_indexterm_id368371" class="indexterm"/>simply divides each element by the <a id="I_indexterm_id368383" class="indexterm"/>scalar <span class="emphasis"><em>s</em></span>:</p><a id="I_programlisting_id368397"/><pre class="programlisting">inline     Matrix3x3&amp; Matrix3x3::operator/=(float s)
+{
+     e11 /= s;
+     e12 /= s;
+     e13 /= s;
+     e21 /= s;
+     e22 /= s;
+     e23 /= s;
+     e31 /= s;
+     e32 /= s;
+     e33 /= s;
+     return *this;
+}</pre></div></div><div class="sect1" title="Matrix Functions and Operators"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="matrix_functions_and_operators">Matrix Functions and Operators</h2></div></div></div><p>The functions and <a id="mab.2" class="indexterm"/>overloaded operators that follow are useful when you are
+    performing operations with two matrices, or with a matrix and a scalar, or
+    a matrix and a vector. Here, the matrices are assumed to be of the type
+    <code class="literal">Matrix3x3</code>, and vectors of the type
+    <code class="literal">Vector</code>, as discussed in <a class="xref" href="apa.html" title="Appendix A. Vector Operations">Appendix A</a>.</p><div class="sect2" title="Matrix Addition: The + Operator"><div class="titlepage"><div><div><h3 class="title" id="matrix_addition_colon_the_plus_operator">Matrix Addition: The + Operator</h3></div></div></div><p>This operator <a id="I_indexterm_id368463" class="indexterm"/><a id="I_indexterm_id368474" class="indexterm"/><a id="I_indexterm_id368484" class="indexterm"/><a id="I_indexterm_id368490" class="indexterm"/>adds the two matrices together on an element-by-element basis:</p><a id="I_programlisting_id368502"/><pre class="programlisting">inline     Matrix3x3 operator+(Matrix3x3 m1, Matrix3x3 m2)
+{
+     return     Matrix3x3(     m1.e11+m2.e11,
+                              m1.e12+m2.e12,
+                              m1.e13+m2.e13,
+                              m1.e21+m2.e21,
+                              m1.e22+m2.e22,
+                              m1.e23+m2.e23,
+                              m1.e31+m2.e31,
+                              m1.e32+m2.e32,
+                              m1.e33+m2.e33);
+}</pre></div><div class="sect2" title="Matrix Subtraction: The − Operator"><div class="titlepage"><div><div><h3 class="title" id="matrix_subtraction_colon_the_m_operator">Matrix Subtraction: The − Operator</h3></div></div></div><p>This operator <a id="I_indexterm_id368525" class="indexterm"/><a id="I_indexterm_id368535" class="indexterm"/><a id="I_indexterm_id368545" class="indexterm"/><a id="I_indexterm_id368552" class="indexterm"/>subtracts matrix <code class="literal">m2</code> from <code class="literal">m1</code> on an element-by-element basis:</p><a id="I_programlisting_id368576"/><pre class="programlisting">inline     Matrix3x3 operator-(Matrix3x3 m1, Matrix3x3 m2)
+{
+     return     Matrix3x3(     m1.e11-m2.e11,
+                              m1.e12-m2.e12,
+                              m1.e13-m2.e13,
+                              m1.e21-m2.e21,
+                              m1.e22-m2.e22,
+                              m1.e23-m2.e23,
+                              m1.e31-m2.e31,
+                              m1.e32-m2.e32,
+                              m1.e33-m2.e33);
+}</pre></div><div class="sect2" title="Scalar Divide: The / Operator"><div class="titlepage"><div><div><h3 class="title" id="scalar_divide_colon_the_solidus_operator">Scalar Divide: The / Operator</h3></div></div></div><p>This operator divides <a id="I_indexterm_id368598" class="indexterm"/><a id="I_indexterm_id368608" class="indexterm"/><a id="I_indexterm_id368618" class="indexterm"/><a id="I_indexterm_id368628" class="indexterm"/>every element in the matrix <code class="literal">m</code> by the scalar
+          <span class="emphasis"><em>s</em></span>:</p><a id="I_programlisting_id368650"/><pre class="programlisting">inline     Matrix3x3 operator/(Matrix3x3 m, float s)
+{
+     return     Matrix3x3(    m.e11/s,
+                              m.e12/s,
+                              m.e13/s,
+                              m.e21/s,
+                              m.e22/s,
+                              m.e23/s,
+                              m.e31/s,
+                              m.e32/s,
+                              m.e33/s);
+}</pre></div><div class="sect2" title="Matrix Multiplication: The * Operator"><div class="titlepage"><div><div><h3 class="title" id="matrix_multiplication_colon_the_asterisk">Matrix Multiplication: The * Operator</h3></div></div></div><p>This operator, when applied <a id="I_indexterm_id368676" class="indexterm"/><a id="I_indexterm_id368686" class="indexterm"/><a id="I_indexterm_id368696" class="indexterm"/><a id="I_indexterm_id368702" class="indexterm"/>between two matrices, performs a matrix multiplication. In matrix
+        multiplication, each element, <span class="emphasis"><em>e</em></span><sub>ij</sub>, is determined
+        by the product of the <span class="emphasis"><em>i</em></span>th row in the first matrix and the
+          <span class="emphasis"><em>j</em></span>th column of the second matrix:</p><a id="I_programlisting_id368728"/><pre class="programlisting">inline     Matrix3x3 operator*(Matrix3x3 m1, Matrix3x3 m2)
+{
+     return Matrix3x3(m1.e11*m2.e11 + m1.e12*m2.e21 + m1.e13*m2.e31,
+                      m1.e11*m2.e12 + m1.e12*m2.e22 + m1.e13*m2.e32,
+                      m1.e11*m2.e13 + m1.e12*m2.e23 + m1.e13*m2.e33,
+                      m1.e21*m2.e11 + m1.e22*m2.e21 + m1.e23*m2.e31,
+                      m1.e21*m2.e12 + m1.e22*m2.e22 + m1.e23*m2.e32,
+                      m1.e21*m2.e13 + m1.e22*m2.e23 + m1.e23*m2.e33,
+                      m1.e31*m2.e11 + m1.e32*m2.e21 + m1.e33*m2.e31,
+                      m1.e31*m2.e12 + m1.e32*m2.e22 + m1.e33*m2.e32,
+                      m1.e31*m2.e13 + m1.e32*m2.e23 + m1.e33*m2.e33 );
+}</pre><p>Two matrices can be multiplied only if one has the same number of
+      columns as the other has rows. Matrix multiplication is not commutative,
+      but it is associative; thus:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>M N</strong></span> ≠ <span class="strong"><strong>N M</strong></span></td></tr><tr><td><span class="strong"><strong>(M N) P = M (N P)</strong></span></td></tr></table></div><div class="sect2" title="Scalar Multiplication: The * Operator"><div class="titlepage"><div><div><h3 class="title" id="scalar_multiplication_colon_the-id3">Scalar Multiplication: The * Operator</h3></div></div></div><p>This operator, when <a id="I_indexterm_id368781" class="indexterm"/><a id="I_indexterm_id368791" class="indexterm"/><a id="I_indexterm_id368801" class="indexterm"/><a id="I_indexterm_id368811" class="indexterm"/>applied between a matrix and a scalar, multiplies each element in the matrix
+          <code class="literal">m</code> by the scalar <span class="emphasis"><em>s</em></span>. Two forms are
+        given here, depending on the order in which the matrix and scalar are encountered:</p><a id="I_programlisting_id368834"/><pre class="programlisting">inline     Matrix3x3 operator*(Matrix3x3 m, float s)
+{
+     return     Matrix3x3(     m.e11*s,
+                              m.e12*s,
+                              m.e13*s,
+                              m.e21*s,
+                              m.e22*s,
+                              m.e23*s,
+                              m.e31*s,
+                              m.e32*s,
+                              m.e33*s);
+}
+
+inline     Matrix3x3 operator*(float s, Matrix3x3 m)
+{
+     return     Matrix3x3(     m.e11*s,
+                              m.e12*s,
+                              m.e13*s,
+                              m.e21*s,
+                              m.e22*s,
+                              m.e23*s,
+                              m.e31*s,
+                              m.e32*s,
+                              m.e33*s);
+}</pre></div><div class="sect2" title="Vector Multiplication: The * Operator"><div class="titlepage"><div><div><h3 class="title" id="vector_multiplication_colon_the_aste-id1">Vector Multiplication: The * Operator</h3></div></div></div><p>This operator, <a id="I_indexterm_id368862" class="indexterm"/><a id="I_indexterm_id368872" class="indexterm"/><a id="I_indexterm_id368881" class="indexterm"/><a id="I_indexterm_id368891" class="indexterm"/>when applied between a vector and a matrix, performs a vector multiplication
+        where the <span class="emphasis"><em>i</em></span>th column in the matrix is multiplied by the
+          <span class="emphasis"><em>i</em></span>th component in the vector. Two forms are given here, depending on
+        the order in which the matrix and vector are <a id="I_indexterm_id368911" class="indexterm"/>encountered:</p><a id="I_programlisting_id368922"/><pre class="programlisting">inline     Vector operator*(Matrix3x3 m, Vector u)
+{
+     return Vector(     m.e11*u.x + m.e12*u.y + m.e13*u.z,
+                         m.e21*u.x + m.e22*u.y + m.e23*u.z,
+                         m.e31*u.x + m.e32*u.y + m.e33*u.z);
+}
+
+inline     Vector operator*(Vector u, Matrix3x3 m)
+{
+     return Vector(     u.x*m.e11 + u.y*m.e21 + u.z*m.e31,
+                         u.x*m.e12 + u.y*m.e22 + u.z*m.e32,
+                         u.x*m.e13 + u.y*m.e23 + u.z*m.e33);
+}</pre></div></div></section></body></html>

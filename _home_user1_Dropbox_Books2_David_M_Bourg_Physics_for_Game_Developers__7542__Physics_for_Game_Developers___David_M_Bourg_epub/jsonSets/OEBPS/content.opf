@@ -1,0 +1,369 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" prefix="ibooks: http://vocabulary.itunes.apple.com/rdf/ibooks/vocabulary-extensions-1.0/" version="3.0" xml:lang="en" unique-identifier="pub-identifier">
+  <metadata>
+    <dc:identifier id="pub-identifier">urn:isbn:9781449302603</dc:identifier>
+    <meta id="meta-identifier" property="dcterms:identifier">urn:isbn:9781449302603</meta>
+    <dc:title id="pub-title">Physics for Game Developers</dc:title>
+    <meta property="dcterms:title" id="meta-title">Physics for Game Developers</meta>
+    <dc:language id="pub-language">en</dc:language>
+    <meta property="dcterms:language" id="meta-language">en</meta>
+    <meta property="dcterms:modified">2013-04-10T06:37:45Z</meta>
+    <!--The preceding date value is actually local time (not UTC) in UTC format because there is no function in XSLT 1.0 to generate a correct UTC time-->
+    <meta property="dcterms:contributor">AmandaKersey</meta>
+    <dc:contributor>AmandaKersey</dc:contributor>
+    <meta property="dcterms:contributor">DavidFutato</meta>
+    <dc:contributor>DavidFutato</dc:contributor>
+    <meta property="dcterms:contributor">RebeccaDemarest</meta>
+    <dc:contributor>RebeccaDemarest</dc:contributor>
+    <meta property="dcterms:contributor">RandyComer</meta>
+    <dc:contributor>RandyComer</dc:contributor>
+    <meta property="dcterms:contributor">LucieHaskins</meta>
+    <dc:contributor>LucieHaskins</dc:contributor>
+    <meta property="dcterms:rights">Copyright © 2013 David M. Bourg and Bryan Bywalec, David M. Bourg, Kenneth Humphreys and Bryan Bywalec</meta>
+    <dc:rights>Copyright © 2013 David M. Bourg and Bryan Bywalec, David M. Bourg, Kenneth Humphreys and Bryan Bywalec</dc:rights>
+    <meta property="dcterms:rightsHolder">David M. Bourg and Bryan Bywalec, David M. Bourg, Kenneth Humphreys and Bryan Bywalec</meta>
+    <meta property="dcterms:publisher">O’Reilly Media</meta>
+    <dc:publisher>O’Reilly Media</dc:publisher>
+    <meta property="dcterms:subject">COMPUTERS / Programming / General</meta>
+    <dc:subject>COMPUTERS / Programming / General</dc:subject>
+    <meta property="dcterms:date">2013-04-10</meta>
+    <dc:date>2013-04-10</dc:date>
+    <meta property="dcterms:description">&lt;p&gt;If you want to enrich your game&amp;#8217;s experience with physics-based realism, the expanded edition of this classic book details physics principles applicable to game development. You&amp;#8217;ll learn about collisions, explosions, sound, projectiles, and other effects used in games on Wii, PlayStation, Xbox, smartphones, and tablets. You&amp;#8217;ll also get a handle on how to take advantage of various sensors such as accelerometers and optical tracking devices.&lt;/p&gt;</meta>
+    <dc:description>&lt;p&gt;If you want to enrich your game&amp;#8217;s experience with physics-based realism, the expanded edition of this classic book details physics principles applicable to game development. You&amp;#8217;ll learn about collisions, explosions, sound, projectiles, and other effects used in games on Wii, PlayStation, Xbox, smartphones, and tablets. You&amp;#8217;ll also get a handle on how to take advantage of various sensors such as accelerometers and optical tracking devices.&lt;/p&gt;</dc:description>
+    <meta property="dcterms:contributor">Isabel Kunkle</meta>
+    <dc:contributor>Isabel Kunkle</dc:contributor>
+    <meta id="meta-creator22" property="dcterms:creator">David M Bourg</meta>
+    <dc:creator id="pub-creator22">David M Bourg and Bryan Bywalec</dc:creator>
+    <meta id="meta-creator23" property="dcterms:creator">Bryan Bywalec</meta>
+    <meta name="cover" content="cover-image"/>
+    <meta property="ibooks:specified-fonts">true</meta>
+  </metadata>
+  <manifest>
+    <item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+    <item id="epub.embedded.font.1" href="DejaVuSerif.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="epub.embedded.font.2" href="DejaVuSans-Bold.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="epub.embedded.font.3" href="UbuntuMono-Regular.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="epub.embedded.font.4" href="UbuntuMono-Bold.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="epub.embedded.font.5" href="UbuntuMono-BoldItalic.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="epub.embedded.font.6" href="UbuntuMono-Italic.otf" media-type="application/vnd.ms-opentype"/>
+    <item id="htmltoc" properties="nav" media-type="application/xhtml+xml" href="bk01-toc.html"/>
+    <item media-type="text/css" id="html-css" href="core.css"/>
+    <item id="cover" href="cover.html" media-type="application/xhtml+xml"/>
+    <item id="cover-image" properties="cover-image" href="orm_front_cover.jpg" media-type="image/jpeg"/>
+    <item id="id-id334202" href="index.html" media-type="application/xhtml+xml"/>
+    <item id="id-id180488" href="upgrade_offer_front.html" media-type="application/xhtml+xml"/>
+    <item id="id-id299148" href="pr02.html" media-type="application/xhtml+xml"/>
+    <item id="id-id332232" href="pt01.html" media-type="application/xhtml+xml"/>
+    <item id="id-id280968" href="ch01.html" media-type="application/xhtml+xml"/>
+    <item id="id-id415830" href="ch02.html" media-type="application/xhtml+xml"/>
+    <item id="id-id404387" href="ch03.html" media-type="application/xhtml+xml"/>
+    <item id="id-id324433" href="ch04.html" media-type="application/xhtml+xml"/>
+    <item id="id-id280584" href="ch05.html" media-type="application/xhtml+xml"/>
+    <item id="id-id327674" href="ch06.html" media-type="application/xhtml+xml"/>
+    <item id="id-id436598" href="pt02.html" media-type="application/xhtml+xml"/>
+    <item id="id-id317786" href="ch07.html" media-type="application/xhtml+xml"/>
+    <item id="id-id392532" href="ch08.html" media-type="application/xhtml+xml"/>
+    <item id="id-id392540" href="ch09.html" media-type="application/xhtml+xml"/>
+    <item id="id-id389627" href="ch10.html" media-type="application/xhtml+xml"/>
+    <item id="id-id389632" href="ch11.html" media-type="application/xhtml+xml"/>
+    <item id="id-id796276" href="ch12.html" media-type="application/xhtml+xml"/>
+    <item id="id-id409026" href="ch13.html" media-type="application/xhtml+xml"/>
+    <item id="id-id460563" href="ch14.html" media-type="application/xhtml+xml"/>
+    <item id="id-id301123" href="pt03.html" media-type="application/xhtml+xml"/>
+    <item id="id-id417385" href="ch15.html" media-type="application/xhtml+xml"/>
+    <item id="id-id417390" href="ch16.html" media-type="application/xhtml+xml"/>
+    <item id="id-id422366" href="ch17.html" media-type="application/xhtml+xml"/>
+    <item id="id-id337425" href="ch18.html" media-type="application/xhtml+xml"/>
+    <item id="id-id337427" href="ch19.html" media-type="application/xhtml+xml"/>
+    <item id="id-id354276" href="pt04.html" media-type="application/xhtml+xml"/>
+    <item id="id-id432198" href="ch20.html" media-type="application/xhtml+xml"/>
+    <item id="id-id448958" href="ch21.html" media-type="application/xhtml+xml"/>
+    <item id="id-id409372" href="ch22.html" media-type="application/xhtml+xml"/>
+    <item id="id-id309000" href="ch23.html" media-type="application/xhtml+xml"/>
+    <item id="id-id301440" href="ch24.html" media-type="application/xhtml+xml"/>
+    <item id="id-id380587" href="ch25.html" media-type="application/xhtml+xml"/>
+    <item id="id-id380590" href="ch26.html" media-type="application/xhtml+xml"/>
+    <item id="id-id299215" href="apa.html" media-type="application/xhtml+xml"/>
+    <item id="id-id433225" href="apb.html" media-type="application/xhtml+xml"/>
+    <item id="id-id796355" href="apc.html" media-type="application/xhtml+xml"/>
+    <item id="id-id792016" href="apd.html" media-type="application/xhtml+xml"/>
+    <item id="id-id792021" href="ix01.html" media-type="application/xhtml+xml"/>
+    <item id="id-id792811" href="author_bios.html" media-type="application/xhtml+xml"/>
+    <item id="id-id792841" href="co02.html" media-type="application/xhtml+xml"/>
+    <item id="id-id792883" href="upgrade_offer_back.html" media-type="application/xhtml+xml"/>
+    <item id="id-id792862" href="copyright.html" media-type="application/xhtml+xml"/>
+    <item id="id454506" href="oreilly_large.png.jpg" media-type="image/jpeg"/>
+    <item id="id989038" href="httpatomoreillycomsourceoreillyimages1598870.png" media-type="image/png"/>
+    <item id="id1089753" href="httpatomoreillycomsourceoreillyimages1598871.png" media-type="image/png"/>
+    <item id="id1043359" href="httpatomoreillycomsourceoreillyimages1598872.png" media-type="image/png"/>
+    <item id="id1043591" href="httpatomoreillycomsourceoreillyimages1598873.png.jpg" media-type="image/jpeg"/>
+    <item id="id987325" href="httpatomoreillycomsourceoreillyimages1598874.png" media-type="image/png"/>
+    <item id="id1085117" href="httpatomoreillycomsourceoreillyimages1598875.png.jpg" media-type="image/jpeg"/>
+    <item id="id986505" href="httpatomoreillycomsourceoreillyimages1598876.png.jpg" media-type="image/jpeg"/>
+    <item id="id1043633" href="httpatomoreillycomsourceoreillyimages1598877.png" media-type="image/png"/>
+    <item id="id989036" href="httpatomoreillycomsourceoreillyimages1598878.png" media-type="image/png"/>
+    <item id="id986536" href="httpatomoreillycomsourceoreillyimages1598879.png" media-type="image/png"/>
+    <item id="id1084539" href="httpatomoreillycomsourceoreillyimages1598880.png" media-type="image/png"/>
+    <item id="id989478" href="httpatomoreillycomsourceoreillyimages1598881.png" media-type="image/png"/>
+    <item id="id1085713" href="httpatomoreillycomsourceoreillyimages1598882.png" media-type="image/png"/>
+    <item id="id1085273" href="eq_0101.png" media-type="image/png"/>
+    <item id="id989992" href="httpatomoreillycomsourceoreillyimages1598883.png" media-type="image/png"/>
+    <item id="id988029" href="inleq_0201.png" media-type="image/png"/>
+    <item id="id988027" href="inleq_0202.png" media-type="image/png"/>
+    <item id="id1043659" href="httpatomoreillycomsourceoreillyimages1598884.png" media-type="image/png"/>
+    <item id="id990035" href="eq_0203.png" media-type="image/png"/>
+    <item id="id990036" href="eq_0204.png" media-type="image/png"/>
+    <item id="id989515" href="eq_0205.png" media-type="image/png"/>
+    <item id="id1042923" href="httpatomoreillycomsourceoreillyimages1598885.png" media-type="image/png"/>
+    <item id="id338337" href="httpatomoreillycomsourceoreillyimages1598886.png" media-type="image/png"/>
+    <item id="id1042921" href="httpatomoreillycomsourceoreillyimages1598887.png" media-type="image/png"/>
+    <item id="id1089312" href="httpatomoreillycomsourceoreillyimages1598888.png" media-type="image/png"/>
+    <item id="id338335" href="httpatomoreillycomsourceoreillyimages1598889.png.jpg" media-type="image/jpeg"/>
+    <item id="id987651" href="httpatomoreillycomsourceoreillyimages1598890.png" media-type="image/png"/>
+    <item id="id366125" href="httpatomoreillycomsourceoreillyimages1598891.png" media-type="image/png"/>
+    <item id="id423901" href="httpatomoreillycomsourceoreillyimages1598892.png" media-type="image/png"/>
+    <item id="id1089767" href="httpatomoreillycomsourceoreillyimages1598893.png" media-type="image/png"/>
+    <item id="id1089766" href="httpatomoreillycomsourceoreillyimages1598894.png" media-type="image/png"/>
+    <item id="id1085422" href="httpatomoreillycomsourceoreillyimages1598895.png" media-type="image/png"/>
+    <item id="id405871" href="httpatomoreillycomsourceoreillyimages1598896.png" media-type="image/png"/>
+    <item id="id1085245" href="httpatomoreillycomsourceoreillyimages1598897.png" media-type="image/png"/>
+    <item id="id988014" href="httpatomoreillycomsourceoreillyimages1598898.png" media-type="image/png"/>
+    <item id="id1044224" href="httpatomoreillycomsourceoreillyimages1598899.png" media-type="image/png"/>
+    <item id="id988015" href="httpatomoreillycomsourceoreillyimages1598900.png" media-type="image/png"/>
+    <item id="id448466" href="eq_0401.png" media-type="image/png"/>
+    <item id="id987148" href="inleq_0402.png" media-type="image/png"/>
+    <item id="id989459" href="httpatomoreillycomsourceoreillyimages1598901.png" media-type="image/png"/>
+    <item id="id986554" href="httpatomoreillycomsourceoreillyimages1598902.png" media-type="image/png"/>
+    <item id="id986553" href="httpatomoreillycomsourceoreillyimages1598903.png" media-type="image/png"/>
+    <item id="id1085724" href="httpatomoreillycomsourceoreillyimages1598904.png" media-type="image/png"/>
+    <item id="id1043689" href="inleq_0403.png" media-type="image/png"/>
+    <item id="id1085181" href="inleq_0404.png" media-type="image/png"/>
+    <item id="id1043688" href="httpatomoreillycomsourceoreillyimages1598905.png" media-type="image/png"/>
+    <item id="id794451" href="inleq_0405.png" media-type="image/png"/>
+    <item id="id988534" href="httpatomoreillycomsourceoreillyimages1598906.png" media-type="image/png"/>
+    <item id="id989695" href="httpatomoreillycomsourceoreillyimages1598907.png" media-type="image/png"/>
+    <item id="id1085738" href="httpatomoreillycomsourceoreillyimages1598908.png" media-type="image/png"/>
+    <item id="id1087153" href="inleq_0501.png" media-type="image/png"/>
+    <item id="id1085341" href="httpatomoreillycomsourceoreillyimages1598909.png" media-type="image/png"/>
+    <item id="id989884" href="inleq_0502.png" media-type="image/png"/>
+    <item id="id1043361" href="httpatomoreillycomsourceoreillyimages1598910.png" media-type="image/png"/>
+    <item id="id328672" href="httpatomoreillycomsourceoreillyimages1598911.png" media-type="image/png"/>
+    <item id="id989666" href="httpatomoreillycomsourceoreillyimages1598912.png" media-type="image/png"/>
+    <item id="id1044251" href="httpatomoreillycomsourceoreillyimages1598913.png" media-type="image/png"/>
+    <item id="id1085159" href="inleq_0601.png" media-type="image/png"/>
+    <item id="id1086278" href="httpatomoreillycomsourceoreillyimages1598914.png" media-type="image/png"/>
+    <item id="id986238" href="inleq_0602.png" media-type="image/png"/>
+    <item id="id990059" href="inleq_0603.png" media-type="image/png"/>
+    <item id="id1084572" href="httpatomoreillycomsourceoreillyimages1598915.png" media-type="image/png"/>
+    <item id="id305027" href="inleq_0604.png" media-type="image/png"/>
+    <item id="id990057" href="inleq_0605.png" media-type="image/png"/>
+    <item id="id1043496" href="httpatomoreillycomsourceoreillyimages1598916.png" media-type="image/png"/>
+    <item id="id1043495" href="inleq_0606.png" media-type="image/png"/>
+    <item id="id306978" href="inleq_0607.png" media-type="image/png"/>
+    <item id="id1044091" href="httpatomoreillycomsourceoreillyimages1598917.png" media-type="image/png"/>
+    <item id="id989739" href="httpatomoreillycomsourceoreillyimages1598918.png" media-type="image/png"/>
+    <item id="id987260" href="httpatomoreillycomsourceoreillyimages1598919.png" media-type="image/png"/>
+    <item id="id987259" href="httpatomoreillycomsourceoreillyimages1598920.png" media-type="image/png"/>
+    <item id="id1043497" href="httpatomoreillycomsourceoreillyimages1598921.png" media-type="image/png"/>
+    <item id="id427795" href="httpatomoreillycomsourceoreillyimages1598922.png" media-type="image/png"/>
+    <item id="id989494" href="httpatomoreillycomsourceoreillyimages1598923.png" media-type="image/png"/>
+    <item id="id1043570" href="inleq_0608.png" media-type="image/png"/>
+    <item id="id1086111" href="httpatomoreillycomsourceoreillyimages1598924.png" media-type="image/png"/>
+    <item id="id1043818" href="httpatomoreillycomsourceoreillyimages1598925.png" media-type="image/png"/>
+    <item id="id1043571" href="httpatomoreillycomsourceoreillyimages1598926.png" media-type="image/png"/>
+    <item id="id988216" href="httpatomoreillycomsourceoreillyimages1598927.png" media-type="image/png"/>
+    <item id="id987813" href="httpatomoreillycomsourceoreillyimages1598928.png" media-type="image/png"/>
+    <item id="id1044112" href="httpatomoreillycomsourceoreillyimages1598929.png" media-type="image/png"/>
+    <item id="id989128" href="httpatomoreillycomsourceoreillyimages1598930.png" media-type="image/png"/>
+    <item id="id987812" href="httpatomoreillycomsourceoreillyimages1598931.png" media-type="image/png"/>
+    <item id="id1043652" href="httpatomoreillycomsourceoreillyimages1598932.png" media-type="image/png"/>
+    <item id="id1044244" href="httpatomoreillycomsourceoreillyimages1598933.png" media-type="image/png"/>
+    <item id="id988983" href="httpatomoreillycomsourceoreillyimages1598934.png" media-type="image/png"/>
+    <item id="id986320" href="httpatomoreillycomsourceoreillyimages1598935.png" media-type="image/png"/>
+    <item id="id1089084" href="httpatomoreillycomsourceoreillyimages1598936.png" media-type="image/png"/>
+    <item id="id1043204" href="httpatomoreillycomsourceoreillyimages1598937.png" media-type="image/png"/>
+    <item id="id1085108" href="httpatomoreillycomsourceoreillyimages1598938.png" media-type="image/png"/>
+    <item id="id1043707" href="httpatomoreillycomsourceoreillyimages1598939.png" media-type="image/png"/>
+    <item id="id1043725" href="httpatomoreillycomsourceoreillyimages1598940.png" media-type="image/png"/>
+    <item id="id989869" href="httpatomoreillycomsourceoreillyimages1598941.png" media-type="image/png"/>
+    <item id="id1043567" href="httpatomoreillycomsourceoreillyimages1598942.png" media-type="image/png"/>
+    <item id="id1085402" href="httpatomoreillycomsourceoreillyimages1598943.png" media-type="image/png"/>
+    <item id="id1044173" href="httpatomoreillycomsourceoreillyimages1598944.png" media-type="image/png"/>
+    <item id="id1042966" href="httpatomoreillycomsourceoreillyimages1598945.png" media-type="image/png"/>
+    <item id="id1043568" href="httpatomoreillycomsourceoreillyimages1598946.png" media-type="image/png"/>
+    <item id="id1085303" href="httpatomoreillycomsourceoreillyimages1598947.png" media-type="image/png"/>
+    <item id="id1086323" href="httpatomoreillycomsourceoreillyimages1598948.png" media-type="image/png"/>
+    <item id="id989961" href="httpatomoreillycomsourceoreillyimages1598949.png" media-type="image/png"/>
+    <item id="id1085538" href="httpatomoreillycomsourceoreillyimages1598950.png" media-type="image/png"/>
+    <item id="id986513" href="httpatomoreillycomsourceoreillyimages1598951.png" media-type="image/png"/>
+    <item id="id986512" href="httpatomoreillycomsourceoreillyimages1598952.png" media-type="image/png"/>
+    <item id="id987451" href="inleq_1101.png" media-type="image/png"/>
+    <item id="id987882" href="httpatomoreillycomsourceoreillyimages1598953.png" media-type="image/png"/>
+    <item id="id1085163" href="httpatomoreillycomsourceoreillyimages1598954.png.jpg" media-type="image/jpeg"/>
+    <item id="id1085321" href="httpatomoreillycomsourceoreillyimages1598955.png" media-type="image/png"/>
+    <item id="id448956" href="httpatomoreillycomsourceoreillyimages1598956.png" media-type="image/png"/>
+    <item id="id664673" href="httpatomoreillycomsourceoreillyimages1598957.png" media-type="image/png"/>
+    <item id="id279910" href="httpatomoreillycomsourceoreillyimages1598958.png" media-type="image/png"/>
+    <item id="id989859" href="httpatomoreillycomsourceoreillyimages1598959.png" media-type="image/png"/>
+    <item id="id790198" href="httpatomoreillycomsourceoreillyimages1598960.png" media-type="image/png"/>
+    <item id="id989803" href="httpatomoreillycomsourceoreillyimages1598961.png" media-type="image/png"/>
+    <item id="id1044263" href="httpatomoreillycomsourceoreillyimages1598962.png" media-type="image/png"/>
+    <item id="id989804" href="httpatomoreillycomsourceoreillyimages1598963.png" media-type="image/png"/>
+    <item id="id990136" href="httpatomoreillycomsourceoreillyimages1598964.png" media-type="image/png"/>
+    <item id="id987445" href="httpatomoreillycomsourceoreillyimages1598965.png" media-type="image/png"/>
+    <item id="id1085962" href="httpatomoreillycomsourceoreillyimages1598966.png" media-type="image/png"/>
+    <item id="id1085367" href="httpatomoreillycomsourceoreillyimages1598967.png" media-type="image/png"/>
+    <item id="id988039" href="httpatomoreillycomsourceoreillyimages1598968.png" media-type="image/png"/>
+    <item id="id1085368" href="httpatomoreillycomsourceoreillyimages1598969.png" media-type="image/png"/>
+    <item id="id1090128" href="httpatomoreillycomsourceoreillyimages1598970.png" media-type="image/png"/>
+    <item id="id1084551" href="httpatomoreillycomsourceoreillyimages1598971.png" media-type="image/png"/>
+    <item id="id987342" href="httpatomoreillycomsourceoreillyimages1598972.png" media-type="image/png"/>
+    <item id="id990028" href="inleq_1601.png" media-type="image/png"/>
+    <item id="id990029" href="httpatomoreillycomsourceoreillyimages1598973.png" media-type="image/png"/>
+    <item id="id987093" href="httpatomoreillycomsourceoreillyimages1598974.png" media-type="image/png"/>
+    <item id="id986225" href="inleq_1602.png" media-type="image/png"/>
+    <item id="id1042996" href="httpatomoreillycomsourceoreillyimages1598975.png" media-type="image/png"/>
+    <item id="id989620" href="httpatomoreillycomsourceoreillyimages1598976.png" media-type="image/png"/>
+    <item id="id1085281" href="inleq_1701.png" media-type="image/png"/>
+    <item id="id989997" href="httpatomoreillycomsourceoreillyimages1598977.png.jpg" media-type="image/jpeg"/>
+    <item id="id986379" href="httpatomoreillycomsourceoreillyimages1598978.png" media-type="image/png"/>
+    <item id="id1085279" href="httpatomoreillycomsourceoreillyimages1598979.png" media-type="image/png"/>
+    <item id="id1086274" href="httpatomoreillycomsourceoreillyimages1598980.png" media-type="image/png"/>
+    <item id="id989880" href="httpatomoreillycomsourceoreillyimages1598981.png" media-type="image/png"/>
+    <item id="id1043044" href="inleq_1702.png" media-type="image/png"/>
+    <item id="id1085595" href="inleq_1703.png" media-type="image/png"/>
+    <item id="id987315" href="httpatomoreillycomsourceoreillyimages1598982.png.jpg" media-type="image/jpeg"/>
+    <item id="id989653" href="httpatomoreillycomsourceoreillyimages1598983.png.jpg" media-type="image/jpeg"/>
+    <item id="id1085957" href="httpatomoreillycomsourceoreillyimages1598984.png" media-type="image/png"/>
+    <item id="id987252" href="httpatomoreillycomsourceoreillyimages1598985.png" media-type="image/png"/>
+    <item id="id1044049" href="httpatomoreillycomsourceoreillyimages1598986.png" media-type="image/png"/>
+    <item id="id1085956" href="eq_1801.png" media-type="image/png"/>
+    <item id="id986468" href="httpatomoreillycomsourceoreillyimages1598987.png" media-type="image/png"/>
+    <item id="id986388" href="httpatomoreillycomsourceoreillyimages1598988.png" media-type="image/png"/>
+    <item id="id1085382" href="httpatomoreillycomsourceoreillyimages1598989.png" media-type="image/png"/>
+    <item id="id988545" href="inleq_1901.png" media-type="image/png"/>
+    <item id="id1086115" href="inleq_1902.png" media-type="image/png"/>
+    <item id="id989498" href="inleq_1903.png" media-type="image/png"/>
+    <item id="id988544" href="inleq_1904.png" media-type="image/png"/>
+    <item id="id988863" href="inleq_1905.png" media-type="image/png"/>
+    <item id="id1043792" href="inleq_1906.png" media-type="image/png"/>
+    <item id="id1043524" href="inleq_1907.png" media-type="image/png"/>
+    <item id="id1087173" href="inleq_1908.png" media-type="image/png"/>
+    <item id="id1043215" href="httpatomoreillycomsourceoreillyimages1598990.png" media-type="image/png"/>
+    <item id="id1043969" href="inleq_1909.png" media-type="image/png"/>
+    <item id="id1043967" href="inleq_1910.png" media-type="image/png"/>
+    <item id="id987817" href="inleq_1911.png" media-type="image/png"/>
+    <item id="id987818" href="inleq_1912.png" media-type="image/png"/>
+    <item id="id1043730" href="inleq_1913.png" media-type="image/png"/>
+    <item id="id988612" href="inleq_1914.png" media-type="image/png"/>
+    <item id="id987819" href="inleq_1915.png" media-type="image/png"/>
+    <item id="id1044188" href="httpatomoreillycomsourceoreillyimages1598991.png.jpg" media-type="image/jpeg"/>
+    <item id="id1085373" href="httpatomoreillycomsourceoreillyimages1598992.png.jpg" media-type="image/jpeg"/>
+    <item id="id1044180" href="httpatomoreillycomsourceoreillyimages1598993.png.jpg" media-type="image/jpeg"/>
+    <item id="id988679" href="httpatomoreillycomsourceoreillyimages1598994.png" media-type="image/png"/>
+    <item id="id989523" href="httpatomoreillycomsourceoreillyimages1598995.png" media-type="image/png"/>
+    <item id="id1044179" href="httpatomoreillycomsourceoreillyimages1598996.png.jpg" media-type="image/jpeg"/>
+    <item id="id988996" href="httpatomoreillycomsourceoreillyimages1598997.png" media-type="image/png"/>
+    <item id="id988995" href="httpatomoreillycomsourceoreillyimages1598998.png" media-type="image/png"/>
+    <item id="id986563" href="httpatomoreillycomsourceoreillyimages1598999.png" media-type="image/png"/>
+    <item id="id1042912" href="httpatomoreillycomsourceoreillyimages1599000.png" media-type="image/png"/>
+    <item id="id1093078" href="httpatomoreillycomsourceoreillyimages1599001.png" media-type="image/png"/>
+    <item id="id1085296" href="httpatomoreillycomsourceoreillyimages1599002.png" media-type="image/png"/>
+    <item id="id988586" href="eq_2201.png" media-type="image/png"/>
+    <item id="id1086099" href="eq_2202.png" media-type="image/png"/>
+    <item id="id988886" href="eq_2203.png" media-type="image/png"/>
+    <item id="id987247" href="httpatomoreillycomsourceoreillyimages1599003.png.jpg" media-type="image/jpeg"/>
+    <item id="id1085788" href="httpatomoreillycomsourceoreillyimages1599004.png.jpg" media-type="image/jpeg"/>
+    <item id="id986443" href="httpatomoreillycomsourceoreillyimages1599005.png" media-type="image/png"/>
+    <item id="id1099931" href="httpatomoreillycomsourceoreillyimages1599006.png" media-type="image/png"/>
+    <item id="id1085787" href="httpatomoreillycomsourceoreillyimages1599007.png" media-type="image/png"/>
+    <item id="id990176" href="httpatomoreillycomsourceoreillyimages1599008.png" media-type="image/png"/>
+    <item id="id987823" href="httpatomoreillycomsourceoreillyimages1599009.png" media-type="image/png"/>
+    <item id="id986251" href="httpatomoreillycomsourceoreillyimages1599010.png" media-type="image/png"/>
+    <item id="id989824" href="httpatomoreillycomsourceoreillyimages1599011.png" media-type="image/png"/>
+    <item id="id986252" href="httpatomoreillycomsourceoreillyimages1599012.png" media-type="image/png"/>
+    <item id="id989713" href="httpatomoreillycomsourceoreillyimages1599013.png" media-type="image/png"/>
+    <item id="id1042933" href="httpatomoreillycomsourceoreillyimages1599014.png" media-type="image/png"/>
+    <item id="id1085430" href="httpatomoreillycomsourceoreillyimages1599015.png" media-type="image/png"/>
+    <item id="id989656" href="httpatomoreillycomsourceoreillyimages1599016.png.jpg" media-type="image/jpeg"/>
+    <item id="id987540" href="httpatomoreillycomsourceoreillyimages1599017.png" media-type="image/png"/>
+    <item id="id1085871" href="httpatomoreillycomsourceoreillyimages1599018.png" media-type="image/png"/>
+    <item id="id1090086" href="httpatomoreillycomsourceoreillyimages1599019.png" media-type="image/png"/>
+    <item id="id986444" href="httpatomoreillycomsourceoreillyimages1599020.png.jpg" media-type="image/jpeg"/>
+    <item id="id1085443" href="httpatomoreillycomsourceoreillyimages1599021.png" media-type="image/png"/>
+    <item id="id986275" href="httpatomoreillycomsourceoreillyimages1599022.png" media-type="image/png"/>
+    <item id="id986473" href="httpatomoreillycomsourceoreillyimages1599023.png" media-type="image/png"/>
+    <item id="id986477" href="httpatomoreillycomsourceoreillyimages1599024.png" media-type="image/png"/>
+    <item id="id1085150" href="httpatomoreillycomsourceoreillyimages1599025.png" media-type="image/png"/>
+    <item id="id1043145" href="httpatomoreillycomsourceoreillyimages1599026.png" media-type="image/png"/>
+    <item id="id987103" href="httpatomoreillycomsourceoreillyimages1599027.png" media-type="image/png"/>
+    <item id="id1085864" href="httpatomoreillycomsourceoreillyimages1599028.png" media-type="image/png"/>
+    <item id="id989905" href="httpatomoreillycomsourceoreillyimages1599029.png" media-type="image/png"/>
+    <item id="id1089747" href="inleq_aa01.png" media-type="image/png"/>
+    <item id="id1089748" href="httpatomoreillycomsourceoreillyimages1599030.png" media-type="image/png"/>
+    <item id="id1043648" href="httpatomoreillycomsourceoreillyimages1599031.png" media-type="image/png"/>
+    <item id="id1086310" href="inleq_aa02.png" media-type="image/png"/>
+    <item id="id986422" href="httpatomoreillycomsourceoreillyimages1599032.png" media-type="image/png"/>
+    <item id="id1085790" href="httpatomoreillycomsourceoreillyimages1599033.png" media-type="image/png"/>
+    <item id="id1043243" href="httpatomoreillycomsourceoreillyimages1599034.png" media-type="image/png"/>
+    <item id="id1084579" href="httpatomoreillycomsourceoreillyimages1599035.png" media-type="image/png"/>
+    <item id="id987358" href="httpatomoreillycomsourceoreillyimages1599036.png" media-type="image/png"/>
+    <item id="id989988" href="httpatomoreillycomsourceoreillyimages1599037.png" media-type="image/png"/>
+    <item id="id986499" href="httpatomoreillycomsourceoreillyimages1599038.png" media-type="image/png"/>
+    <item id="id987357" href="httpatomoreillycomsourceoreillyimages1599039.png" media-type="image/png"/>
+    <item id="id987656" href="httpatomoreillycomsourceoreillyimages1599040.png" media-type="image/png"/>
+    <item id="id988569" href="httpatomoreillycomsourceoreillyimages1599041.png" media-type="image/png"/>
+    <item id="id987661" href="inleq_ac01.png" media-type="image/png"/>
+    <item id="id1085391" href="httpatomoreillycomsourceoreillyimages1599042.png" media-type="image/png"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="cover" linear="yes"/>
+    <itemref idref="id-id334202"/>
+    <itemref idref="id-id180488"/>
+    <itemref idref="id-id299148"/>
+    <itemref idref="id-id332232"/>
+    <itemref idref="id-id280968"/>
+    <itemref idref="id-id415830"/>
+    <itemref idref="id-id404387"/>
+    <itemref idref="id-id324433"/>
+    <itemref idref="id-id280584"/>
+    <itemref idref="id-id327674"/>
+    <itemref idref="id-id436598"/>
+    <itemref idref="id-id317786"/>
+    <itemref idref="id-id392532"/>
+    <itemref idref="id-id392540"/>
+    <itemref idref="id-id389627"/>
+    <itemref idref="id-id389632"/>
+    <itemref idref="id-id796276"/>
+    <itemref idref="id-id409026"/>
+    <itemref idref="id-id460563"/>
+    <itemref idref="id-id301123"/>
+    <itemref idref="id-id417385"/>
+    <itemref idref="id-id417390"/>
+    <itemref idref="id-id422366"/>
+    <itemref idref="id-id337425"/>
+    <itemref idref="id-id337427"/>
+    <itemref idref="id-id354276"/>
+    <itemref idref="id-id432198"/>
+    <itemref idref="id-id448958"/>
+    <itemref idref="id-id409372"/>
+    <itemref idref="id-id309000"/>
+    <itemref idref="id-id301440"/>
+    <itemref idref="id-id380587"/>
+    <itemref idref="id-id380590"/>
+    <itemref idref="id-id299215"/>
+    <itemref idref="id-id433225"/>
+    <itemref idref="id-id796355"/>
+    <itemref idref="id-id792016"/>
+    <itemref idref="id-id792021"/>
+    <itemref idref="id-id792811"/>
+    <itemref idref="id-id792841"/>
+    <itemref idref="id-id792883"/>
+    <itemref idref="id-id792862"/>
+  </spine>
+  <guide>
+    <reference href="cover.html" type="cover" title="Cover"/>
+    <reference href="bk01-toc.html" type="toc" title="Table of Contents"/>
+    <reference href="index.html" type="text"/>
+  </guide>
+</package>

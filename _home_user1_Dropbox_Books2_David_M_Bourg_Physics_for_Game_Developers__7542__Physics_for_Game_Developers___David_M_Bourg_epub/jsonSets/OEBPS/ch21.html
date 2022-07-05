@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg"><head><title>Chapter 21. Accelerometers</title><link rel="stylesheet" type="text/css" href="core.css"/><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"/><link rel="up" href="pt04.html" title="Part IV. Digital Physics"/><link rel="prev" href="ch20.html" title="Chapter 20. Touch Screens"/><link rel="next" href="ch22.html" title="Chapter 22. Gaming from One Place to Another"/></head><body><section class="chapter" title="Chapter 21. Accelerometers" epub:type="chapter" id="accelerometers"><div class="titlepage"><div><div><h2 class="title">Chapter 21. Accelerometers</h2></div></div></div><p>Accelerometers are a <a id="ac21.0" class="indexterm"/>good introduction to a class of electronic <a id="mi21.0" class="indexterm"/><a id="me21.0" class="indexterm"/>components called <span class="emphasis"><em>microelectromechanical systems</em></span> (MEMS). An
+    accelerometer can either be one-axis, two-axis, or three-axis. This designates how many
+    different directions it can simultaneously measure acceleration. Most gaming devices have
+    three-axis accelerometers.</p><p>As far as game development is concerned, acceleration values are typically delivered to your
+    program via an API with units in multiples of <span class="emphasis"><em>g</em></span>. One <span class="emphasis"><em>g</em></span>
+    is equal to the acceleration caused by gravity on the Earth, or 9.8
+      m/s<sup>2</sup>. Let’s pretend that we have a one-axis accelerometer and we
+    orient it such that the axis is pointing toward the center of the earth. It would register
+      1<span class="emphasis"><em>g</em></span>. Now, if we travel far away from any mass, such that there is no
+    gravity, the accelerometer will read 0. If we then accelerate it such that in one second it goes
+    from 0 m/s to 9.8 m/s, the accelerometer will read a steady 1<span class="emphasis"><em>g</em></span> during that
+    one-second interval. Indeed, it is impossible to tell the difference between acceleration due to
+    gravity and acceleration due to changing velocity.</p><p>Real-life motion is generally nonsteady. Depending on your application’s goals, you might
+    have to apply different smoothing functions such as <span class="emphasis"><em>high-pass</em></span> or
+      <span class="emphasis"><em>low-pass filters</em></span>. This <a id="I_indexterm2_id353595" class="indexterm"/><a id="I_indexterm2_id353601" class="indexterm"/><a id="I_indexterm2_id353607" class="indexterm"/>amounts <a id="I_indexterm2_id353618" class="indexterm"/>to <span class="emphasis"><em>digital signal processing</em></span>, a topic that has consumed entire
+    texts. One example we can recommend is <span class="emphasis"><em>Digital Signal Processing: A Computer Science
+      Perspective</em></span> by <a id="I_indexterm2_id353632" class="indexterm"/>Jonathan Y. Stein (Wiley).</p><p>Also, many accelerometers have a method to set <a id="I_indexterm2_id353643" class="indexterm"/>the <span class="emphasis"><em>polling rate</em></span>, or the number of times per second that the
+    program requests updates from the accelerometer. This is <a id="I_indexterm2_id353656" class="indexterm"/>called <span class="emphasis"><em>frequency</em></span> and is given in hertz (Hz). This parameter can
+    be used to enhance the performance of the program when fine resolution of the acceleration over
+    time is not needed.</p><p>When you accept input from an accelerometer—or do any other kind of signal processing—you
+    have to accept that input won’t come precisely when you want it. The operating systems normally
+    used for gaming—Windows, OS X, Linux—are not real-time environments. This means that although
+    you set the polling rate at once a second, this guarantees only that the data will be delivered
+      <span class="emphasis"><em>no sooner than</em></span> once a second. If something distracts the operating
+    system, such as the arrival of packets on the network, the signal you get from the accelerometer
+    may be delayed.</p><div class="sect1" title="Accelerometer Theory"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="accelerometer_theory">Accelerometer Theory</h2></div></div></div><p>The way in which <a id="ac21.1" class="indexterm"/>MEMS measure accelerometers is more basic in principle than you may think. The
+      major accomplishment is miniaturizing the technology until it can fit inside a computer chip!
+      To clearly illustrate the basic principle, we will first show you the mechanics of it in the
+      macro-scale version of a known mass and spring. Let’s say you build something like the
+      contraption shown in <a class="xref" href="ch21.html#simple_accelerometer_in_absence_of_accel" title="Figure 21-1. Simple accelerometer in absence of acceleration">Figure 21-1</a> and take it on
+      an elevator in an area where there is no gravity. We’ll worry about the effects of gravity in
+      a minute.</p><div class="figure"><a id="simple_accelerometer_in_absence_of_accel"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject2_id353737"/><img style="width: 120.472440944882; " src="httpatomoreillycomsourceoreillyimages1598997.png" alt="Simple accelerometer in absence of acceleration"/></div></div><div class="figure-title">Figure 21-1. Simple accelerometer in absence of acceleration</div></div><p>As you can see, the device consists of a known mass at the end of a spring next to a
+      measuring stick. When the elevator is not accelerating, the mass is at the 0 mark. When the
+      elevator accelerates up or down, the mass at the end of the spring resists that <a id="I_indexterm2_id353763" class="indexterm"/>acceleration and tends to stay at rest. This is <a id="I_indexterm2_id353775" class="indexterm"/>Newton’s first law in action. Inertial loading causes the spring to stretch or
+      compress. If the elevator is accelerating upward, the <a id="I_indexterm2_id353789" class="indexterm"/><a id="I_indexterm2_id353799" class="indexterm"/>mass will cause the <a id="I_indexterm2_id353810" class="indexterm"/>spring to stretch downward. Recall from <a class="xref" href="ch03.html" title="Chapter 3. Force">Chapter 3</a> that the force
+      acting on a spring is linearly dependent on the displacement of the mass via the
+      equation:</p><table style="border: 0; " class="simplelist"><tr><td>F<sub>n</sub> = kd</td></tr></table><p>We can directly measure the <a id="I_indexterm2_id353843" class="indexterm"/>displacement, <span class="emphasis"><em>d</em></span>, so we can determine the force in that
+      direction, <span class="emphasis"><em>n</em></span>. As the mass is known, voilà!</p><table style="border: 0; " class="simplelist"><tr><td>a<sub>n</sub> = m/F<sub>n</sub></td></tr></table><p>As an aside, the fact that you can tell that you are accelerating without having to look
+      outside the elevator is what makes this a “noninertial frame of reference,” as discussed in
+        <a class="xref" href="ch02.html" title="Chapter 2. Kinematics">Chapter 2</a>. No worries if you don’t totally understand that; it isn’t
+      important for what we are discussing here.</p><p>Now, let’s put our elevator back on earth. With the same device, the mass will not be at 0
+      even if the elevator is not accelerating because <a id="I_indexterm2_id353893" class="indexterm"/>gravity is pulling it down. Previously we used units of inches, which we then
+      converted to force and finally to acceleration. However, we now have a direct measure of the
+      acceleration due to gravity and could easily place a mark on where the mass is and call it
+        1<span class="emphasis"><em>g</em></span>. Also we could place marks along the ruler at the same intervals.
+      Now, we accelerate the elevator upward at 9.8 m/s<sup>2</sup>. The mass should
+      move down the scale to 2<span class="emphasis"><em>g</em></span>, and anyone standing in the elevator would feel
+      twice as heavy as normal.</p><p>Let’s say we wanted to accelerate the elevator downward at 9.8
+        m/s<sup>2</sup>. We could easily do this by just releasing the brakes and
+      letting gravity do the work. Now in freefall we don’t feel gravity at all, right? That’s
+      because the downward acceleration is canceling the acceleration due to gravity. The mass will
+      be back at 0 just like out in space, far from any gravitational bodies. It is for this reason,
+      and not a lack of gravity, that astronauts float around. They are in freefall around the
+      earth.</p><p>Lastly, if we accelerate the elevator downward at 2<span class="emphasis"><em>g</em></span>, the mass would
+      move to the −1<span class="emphasis"><em>g</em></span> mark on the ruler. This is because the downward
+      acceleration is now overwhelming gravity. Those in the elevator would find themselves standing
+      on the ceiling feeling exactly as they would standing on the ground! In fact, one of <a id="I_indexterm2_id353944" class="indexterm"/>Einstein’s accomplishments was showing that it is impossible to distinguish
+      gravity from inertial accelerations. We’ll leave the details of that for independent study and
+      get back to accelerometers in the form of <a id="I_indexterm2_id353954" class="indexterm"/>MEMS.</p><div class="sect2" title="MEMS Accelerometers"><div class="titlepage"><div><div><h3 class="title" id="mems_accelerometers">MEMS Accelerometers</h3></div></div></div><p>Micro-scale accelerometers are not that much different from the machine previously
+        described but generally use a cantilevered beam instead of a spring. To track more than one
+        axis, sometimes three discrete accelerometers are placed out of plane with respect to one
+        another. Alternatively, more complex models use elements that can sense all three directions
+        within a single integrated sensor. These generally give better results.</p><p>The only important difference from the aforementioned examples, besides MEMS being
+        thousands of times smaller in scale than the mass and spring, is how to measure the
+        deflection of the test mass. There are three common methods employed in accelerometers. For
+        most game devices where extreme accuracy isn’t required, the deflection is usually measured
+        as a change in capacitance. This is somewhat the same way that capacitive touch screens
+        work, as described in <a class="xref" href="ch20.html" title="Chapter 20. Touch Screens">Chapter 20</a>, and is shown in <a class="xref" href="ch21.html#mems_cantilever_accelerometer" title="Figure 21-2. MEMS cantilever accelerometer">Figure 21-2</a>.</p><div class="figure"><a id="mems_cantilever_accelerometer"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject2_id354011"/><img src="httpatomoreillycomsourceoreillyimages1598998.png" alt="MEMS cantilever accelerometer"/></div></div><div class="figure-title">Figure 21-2. MEMS cantilever accelerometer</div></div><p>The beam deflects under the influence of the external accelerations of the test mass and
+        brings two charged plates farther or closer together. This changes the capacitance of the
+        system. This change can then be calibrated to the imposed acceleration.</p><p>Other methods include integrating <a id="I_indexterm2_id354038" class="indexterm"/>a piezoresister in the beam itself so that the deflection of the beam changes
+        the resistance of the circuit. Although this ultimately gives better results, these are
+        harder to manufacture. For the most demanding applications, there are accelerometers using
+        piezoelectric elements based on quartz crystals. These are very sensitive even during
+        high-frequency changes in acceleration but are generally not used in sensing human-input
+          <a id="I_indexterm2_id354050" class="indexterm"/><a id="I_indexterm2_id354059" class="indexterm"/><a id="I_indexterm2_id354069" class="indexterm"/>motion.</p></div><div class="sect2" title="Common Accelerometer Specifications"><div class="titlepage"><div><div><h3 class="title" id="common_accelerometer_specifications">Common Accelerometer Specifications</h3></div></div></div><p>To help you better <a id="I_indexterm2_id354093" class="indexterm"/>experiment with accelerometers, we’ve collected the specifications on a few of
+        the most common accelerometers in use at the time of writing. The future may hold cheap
+        accelerometers based on quantum tunneling<a id="I_indexterm2_id354106" class="indexterm"/> that can provide almost limitless accuracy, but <a class="xref" href="ch21.html#current_common_accelerometers" title="Table 21-1. Current common accelerometers">Table 21-1</a> outlines what you’ll generally be working with
+        for now.</p><div class="table"><a id="current_common_accelerometers"/><div class="table-title">Table 21-1. Current common accelerometers</div><div class="table-contents"><table style="border-collapse: collapse; border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; "><colgroup><col class="col1"/><col class="col2"/><col class="col3"/><col class="col4"/></colgroup><thead><tr><td style="text-align: left; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+                <p>Device</p>
+              </td><td style="text-align: left; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+                <p>Accelerometer chip</p>
+              </td><td style="text-align: left; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+                <p>Sensor range</p>
+              </td><td style="text-align: left; vertical-align: bottom; border-bottom: 0.5pt solid ; ">
+                <p>Sampling rate</p>
+              </td></tr></thead><tbody><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+                <p>iPhone/iPad/ Motorola Droid</p>
+              </td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+                <p>LIS331D</p>
+              </td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+                <p>±2<span class="emphasis"><em>g</em></span>*</p>
+              </td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; ">
+                <p>100 Hz or 400 Hz</p>
+              </td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+                <p>Nintendo Wii</p>
+              </td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+                <p>ADXl330</p>
+              </td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+                <p>±3<span class="emphasis"><em>g</em></span></p>
+              </td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; ">
+                <p>x-/y-axis: 0.5 Hz to 1600 Hz</p>
+                <p>z-axis: 0.5 Hz to 550 Hz</p>
+              </td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; ">
+                <p>Sony Six Axis</p>
+              </td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; ">
+                <p>Not published</p>
+              </td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; ">
+                <p>±3<span class="emphasis"><em>g</em></span></p>
+              </td><td style="text-align: left; vertical-align: top; ">
+                <p>100 Hz</p>
+              </td></tr></tbody></table></div></div><div class="note" title="Note"><h3 class="title">Note</h3><p>The chip LIS221D is actually capable of two modes. One mode is
+            ±2<span class="emphasis"><em>g</em></span> and the other is ±8<span class="emphasis"><em>g</em></span>. This is dynamically
+          selectable according to the chips datasheet; however, neither iOS nor Android allows
+          developers to change the mode through the API.</p></div><p>The 2<span class="emphasis"><em>g</em></span> limit for phones can cause problems when you’re attempting
+        to record motion. This limitation will be discussed later in this chapter. The larger range
+        of Wii and Sony controllers demonstrate that they are dedicated to gaming where larger
+        accelerations are expected.</p></div><div class="sect2" title="Data Clipping"><div class="titlepage"><div><div><h3 class="title" id="data_clipping">Data Clipping</h3></div></div></div><p>The human arm is <a id="I_indexterm2_id354434" class="indexterm"/><a id="I_indexterm2_id354443" class="indexterm"/>capable of exceeding the ±2<span class="emphasis"><em>g</em></span> range of the iPhone’s sensor
+        easily. The values reported by the API will actually exceed 2<span class="emphasis"><em>g</em></span> up to
+        about 2.3<span class="emphasis"><em>g</em></span>. The accuracy of these values that exceed the specification
+        is unknown. Regardless, they are probably at least as accurate as the option of trying to
+        recreate the data, so if required they can be used. All values above this upper limit will
+        be reported as the upper limit such that if you graphed the values, they would look like
+          <a class="xref" href="ch21.html#acceleration_graph_showing_clipping" title="Figure 21-3. Acceleration graph showing clipping">Figure 21-3</a>.</p><div class="figure"><a id="acceleration_graph_showing_clipping"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject2_id354481"/><img src="httpatomoreillycomsourceoreillyimages1598999.png" alt="Acceleration graph showing clipping"/></div></div><div class="figure-title">Figure 21-3. Acceleration graph showing clipping</div></div><p>There are several different ways to handle data clipping. One is to discard the data and
+        alert the user that he has exceeded the available range. Another is to attempt to recreate
+        the missing data. If you are recording the data for later processing, you can use both
+        segment 1 and segment 2 to fit the curve between the point at which the data began to be
+        clipped and the point in which meaningful data collection is resumed. This is highly
+        application dependent, and the curve used to fit the data will have to be matched to the
+        activity at hand. If you are recording the data for later processing, you can use both
+        segment 1 and segment 2 to give your data.</p><p>If you are attempting to process the signal in real time, you’ll have only segment 1 to
+        work from. This could result in a discontinuity when meaningful data collection resumes, and
+        you’ll have to decide how to deal with that given the particulars of what you are doing with
+        the data.</p></div></div><div class="sect1" title="Sensing Orientation"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="sensing_orientation">Sensing Orientation</h2></div></div></div><p>Sensing rotation in <a id="I_indexterm2_id354525" class="indexterm"/><a id="I_indexterm2_id354535" class="indexterm"/><a id="I_indexterm2_id354545" class="indexterm"/>three degrees of freedom amounts to sensing a rigid body’s orientation and is a
+      complex problem that cannot be fully resolved using only accelerometers. Think about holding
+      the device vertically. If you rotate the device about the axis described by the gravity
+      vector, none of the accelerometers will measure any change in the force acting on their test
+      masses. We can’t measure that degree of freedom. To do so, we’d need to fix a <a id="I_indexterm2_id354560" class="indexterm"/>gyroscope to the device, and even these run into problems when a body is free to
+      rotate about all three axes. See <a class="xref" href="ch11.html" title="Chapter 11. Rotation in 3D Rigid-Body Simulators">Chapter 11</a> for a
+      discussion on Euler angles.</p><p>Now let’s discuss what we can accomplish. First, <a class="xref" href="ch21.html#accelerometer_coordinate_system" title="Figure 21-4. Accelerometer coordinate system">Figure 21-4</a> demonstrates the coordinate system<a id="I_indexterm2_id354583" class="indexterm"/> we’ll use; the actual coordinate system used will be determined by the
+      manufacturer of your device, so make sure to check its documentation.</p><div class="figure"><a id="accelerometer_coordinate_system"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject2_id354607"/><img src="httpatomoreillycomsourceoreillyimages1599000.png" alt="Accelerometer coordinate system"/></div></div><div class="figure-title">Figure 21-4. Accelerometer coordinate system</div></div><p>Now if we make some assumptions based on how a user will hold our device, we can determine
+      some “gross” orientations. For illustration, <a class="xref" href="ch21.html#gross_acceleration_values_and_orientatio" title="Table 21-2. Gross acceleration values and orientations">Table 21-2</a> gives some idea of what each value
+      would be for each gross direction, assuming the coordinate system shown in <a class="xref" href="ch21.html#accelerometer_coordinate_system" title="Figure 21-4. Accelerometer coordinate system">Figure 21-4</a>.</p><div class="table"><a id="gross_acceleration_values_and_orientatio"/><div class="table-title">Table 21-2. Gross acceleration values and orientations</div><div class="table-contents"><table style="border-collapse: collapse; border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; "><colgroup><col class="col1"/><col class="col2"/><col class="col3"/><col class="col4"/></colgroup><thead><tr><td style="text-align: left; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>Device orientation</p>
+            </td><td style="text-align: left; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>X</p>
+            </td><td style="text-align: left; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>Y</p>
+            </td><td style="text-align: left; vertical-align: bottom; border-bottom: 0.5pt solid ; ">
+              <p>Z</p>
+            </td></tr></thead><tbody><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>Face down on table</p>
+            </td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>0</p>
+            </td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>0</p>
+            </td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; ">
+              <p>1</p>
+            </td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>Face up on table</p>
+            </td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>0</p>
+            </td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>0</p>
+            </td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; ">
+              <p>−1</p>
+            </td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>Horizontal on table, right side down</p>
+            </td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>1</p>
+            </td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>0</p>
+            </td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; ">
+              <p>0</p>
+            </td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>Horizontal on table, left side down</p>
+            </td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>−1</p>
+            </td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>0</p>
+            </td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; ">
+              <p>0</p>
+            </td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>Vertical on table, bottom down</p>
+            </td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>0</p>
+            </td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>−1</p>
+            </td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; ">
+              <p>0</p>
+            </td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; ">
+              <p>Vertical on table, top down</p>
+            </td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; ">
+              <p>0</p>
+            </td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; ">
+              <p>1</p>
+            </td><td style="text-align: left; vertical-align: top; ">
+              <p>0</p>
+            </td></tr></tbody></table></div></div><p>There are a few things to note here. First, if you were to hold the phone in these
+      orientations with your hand, the accelerometer is sensitive enough to pick up small deviations
+      from true vertical. We are considering these the “gross” orientations such that these small
+      deviations should be ignored.</p></div><div class="sect1" title="Sensing Tilt"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="sensing_tilt">Sensing Tilt</h2></div></div></div><p>Although we can’t <a id="ac21.3" class="indexterm"/><a id="I_indexterm2_id355087" class="indexterm"/>determine exactly what angle the user is holding the phone about all three axes,
+      we can pick one axis, assume that it is pointing down, and then find the change in the angle
+      from that assumption over time. For instance, if the phone is lying on a table, the average
+      acceleration in the z-direction will be −1, and in the other directions, 0. Even if the user
+      spins the phone, the values will remain as previously indicated and we cannot sense that
+      rotation. However, if the user lifts one edge from the table—we’ll call this tilting it—then
+      the accelerometer will register different values. Some of the acceleration due to gravity will
+      act on the other two axes. By sensing this change, an accelerometer will allow us to determine
+      at what angle the device is tilted.</p><div class="sect2" title="Using Tilt to Control a Sprite"><div class="titlepage"><div><div><h3 class="title" id="using_tilt_to_control_a_sprite">Using Tilt to Control a Sprite</h3></div></div></div><p>Here we will <a id="ti21.3.1" class="indexterm"/><a id="ac21.3.1" class="indexterm"/>show you how to implement code for a simple game that asks the user to move an
+        avatar to a target by tilting the phone. First, we will briefly show an example of
+        determining the rotation about a single axis. Let’s assume we have an accelerometer rotated
+        at some arbitrary angle, α, which is what our algorithm will solve for. As previously
+        discussed, accelerometers generally report values as multiples of near earth gravity,
+          <span class="emphasis"><em>g</em></span>. For the following example, we are concerned only with the x- and
+        y-axis values, a<sub>x</sub> and a<sub>y</sub>, respectively. If the
+        device were in the “upright” position, then a<sub>x</sub> would equal 0 and
+          a<sub>y</sub> would equal 1. After rotating the device, we’d see different
+        values that are related to our angle α by use of the arctangent function. In this case,
+        because <a id="I_indexterm2_id355174" class="indexterm"/>the <span class="emphasis"><em>single-argument atan function</em></span> included in most
+        programming languages doesn’t differentiate between diametrically opposed directions, it is
+        beneficial to use the <span class="emphasis"><em>two-argument function</em></span>. The relevant C code is as
+        follows:</p><a id="I_programlisting2_id355191"/><pre class="programlisting">#define PI 3.14159
+
+float find2dAngle(void){
+
+    //LOCAL VARIABLES
+    float alpha,
+    double ax, ay;
+
+    //POLL ACCELEROMETER FOR ACCELERATIONS, API SPECIFIC
+    ax = getXacceleration();
+    ay = getYacceleration();
+
+    //FIND ANGLE
+    alpha = atan2(ay,ax);
+
+    if (alpha &gt;= 0){
+        alpha = alpha * (180/PI);
+    else {
+        alpha = alpha * (-180/PI) + 180;
+    }
+
+    return alpha;
+}</pre><p>This is pretty straightforward, but there are a few things to point out. First, the way
+        in which your program will get results from the accelerometer will vary greatly between
+        platforms, so we have encapsulated that API-specific code in a <code class="literal">getXacceleration()</code> function. In fact, most operating systems will be
+        continuously polling the accelerometer in a separate thread, so you’ll have to have a
+        logical operator that tells your accelerometer object when you actually want to see those
+        values passed to your program. Example Objective-C code for the accelerometer in the iPhone
+        will be shown later. Secondly, you’ll notice that we are using an <code class="literal">if</code> statement that changes the radians to degrees in such a way as to return
+        proper 0°–360° answers. This avoids having to pay attention to the sign, as
+          <code class="literal">atan2</code> returns only answers between 0° and 180°, using a negative value
+        to represent the other half of the range. For example, an output of 0° means the device is
+        vertical, an output of 90° means the device is rotated 90° to the left, and an output of
+        180° means the device is upside down.</p><p>Now let’s extend this to two dimensions. This will tell us not only how far the phone is
+        from vertical about one axis, but its inclination about the y-axis as well.</p></div><div class="sect2" title="Two Degrees of Freedom"><div class="titlepage"><div><div><h3 class="title" id="two_degrees_of_freedom">Two Degrees of Freedom</h3></div></div></div><p>Now let’s say that we want to <a id="de21.3.2" class="indexterm"/>develop a game in which we control a sprite moving in a 2D world. The user would
+        hold the device as if it were lying on a table and look down from above. He or she would
+        then tilt the phone out of that plane to get the sprite to move in the desired direction.
+        The fraction of gravity that the accelerometer is now experiencing in the x- and
+        y-directions will be inputs into our simulation.</p><p>The example will be demonstrated <a id="ob21.3.2" class="indexterm"/>using Objective-C code for the iPhone, and we’ll be using the Qwartz2D graphics
+        framework. If you aren’t familiar with Objective-C, don’t worry—we’ll explain what we are
+        doing in each step, and you can port that code to whatever language you are working
+        in.</p><p>The first step will be to set up our accelerometer. In this case we are going to
+        initialize it in our <em class="filename">tiltViewController.m</em> file so that
+        we have:</p><a id="I_programlisting2_id355303"/><pre class="programlisting">- (void)viewDidLoad
+{
+    UIAccelerometer *accelerometer = [UIAccelerometer sharedAccelerometer];
+    accelerometer.delegate  = self;
+    accelerometer.updateInterval = kPollingRate;
+    [super viewDidLoad];
+}</pre><p>The important concept here is that we have defined a name for our accelerometer object,
+          <code class="literal">accelerometer</code>, and we have set its <code class="literal">updateInterval</code> property to <code class="literal">kPollingRate</code>. This constant was defined in <em class="filename">tiltViewController.h</em> as <code class="literal">(1.0f/60.0f)</code>, which
+        corresponds to 60 Hz. In other words, this tells the operating system to update our
+        program’s accelerometer object 60 times a second. Also in <em class="filename">tiltViewController.m</em>, we write what happens when the accelerometer object gets
+        updated via the accelerometer’s <code class="literal">didAccelerate:</code> function
+        as follows:</p><a id="I_programlisting2_id355359"/><pre class="programlisting">- (void)accelerometer:(UIAccelerometer *)accelerometer 
+didAccelerate:(UIAcceleration *)acceleration{
+    [(SpriteView *)self.view setAcceleration:acceleration];
+    [(SpriteView *)self.view draw];
+}</pre><p>This function is called every time the acceleration object is updated and does two
+        things. First, it takes the acceleration data from the accelerometer and passes it to the
+          <code class="literal">SpriteView</code> class, which we’ll talk about in a second.
+        Then it tells the <code class="literal">SpriteView</code> to go ahead and redraw
+        itself.</p><p>The <code class="literal">SpriteView</code> class is where the action happens and
+        consists of a header file, <em class="filename">SpriteView.h</em>, where we
+        define the following global variables:</p><div class="variablelist"><dl><dt><span class="term"><code class="literal">UIImage *sprite</code></span></dt><dd><p>A pointer to the image that will be used to represent our sprite on the
+              screen.</p></dd><dt><span class="term"><code class="literal">currentPos</code></span></dt><dd><p>The position on the screen where we want the sprite to be drawn.</p></dd><dt><span class="term"><code class="literal">prevPos</code></span></dt><dd><p>The previous position of the sprite on the screen. We will use this to tell the
+              draw function what parts of the screen need to be redrawn.</p></dd><dt><span class="term"><code class="literal">UIAcceleration *acceleration</code></span></dt><dd><p>A special Objective-C data type to hold data from the accelerometer.</p></dd><dt><span class="term"><code class="literal">CGFloat xVelocity</code> and <code class="literal">CGFloat yVelocity</code></span></dt><dd><p>Float variables to hold the current velocity in the x-direction and y-direction,
+              respectively.</p></dd><dt><span class="term"><code class="literal">CGFloat convertX</code> and <code class="literal">CGFloat convertY</code></span></dt><dd><p>Float variables to hold the ratios for converting our physics engine’s results in
+              meters to pixels based on an assumed world size.</p></dd></dl></div><p>Additionally, we’ve defined the following global constants:</p><div class="variablelist"><dl><dt><span class="term"><code class="literal">g</code></span></dt><dd><p>Near earth gravity value, set at 9.8 m/s<sup>2</sup>. This will
+              convert the accelerometer’s values from <span class="emphasis"><em>g</em></span> to
+                m/s<sup>2</sup> for use in calculating velocity. This can also be
+              tuned to represent an arbitrary acceleration instead of just using gravity as the
+              force (e.g., percent of jet engine thrust).</p></dd><dt><span class="term"><code class="literal">kWorldHeight</code> and <code class="literal">kWorldWidth</code></span></dt><dd><p>These values are used to allow the programmer to change the assumed world
+              dimensions. Higher values mean each pixel is a greater distance in meters. The world
+              will always be scaled to fit on the screen, so a large world means the sprite will
+              appear to move slower (a few pixels at a time) for a given acceleration. Note that our
+              current code doesn’t scale the sprite.</p></dd></dl></div><p>Now we’ll show you how we use these variables in <em class="filename">SpriteView.m</em> to move our sprite on our screen as a result of the accelerometer
+        values. First, we have some initialization to do, which takes place in the <code class="literal">initWithCoder:</code> method that runs the first time the view is
+        loaded:</p><a id="I_programlisting2_id355617"/><pre class="programlisting">-(id)initWithCoder:(NSCoder *)coder {
+    if((self = [super initWithCoder:coder])){
+        self.sprite = [UIImage imageNamed:@"sprite.png"];
+        self.currentPos = CGPointMake((self.bounds.size.width / 2.0f) +
+(sprite.size.width / 2.0f), (self.bounds.size.height /2.0f)+(sprite.size.height /2.0f));
+        xVelocity = 0.0f;
+        yVelcoity = 0.0f;
+
+        convertX = self.bounds.size.width / kWorldWidth;
+        convertY = self.bounds.size.height / kWorldHeight;
+
+    }
+    return self;
+}</pre><p>Most of this is pretty straightforward. We tell our program where to find the sprite
+        image we’ve chosen and set its initial position to the center of the screen. We also set its
+        initial velocity to 0 in both directions. We then go ahead and initialize our <code class="literal">convertX</code> and <code class="literal">convertY</code>
+        variables based on the <code class="literal">self.bounds.size</code> property, which
+        gives the bounds of the view in pixels. We’ll show exactly how this affects our program
+        later. Next, we’ll write a custom <code class="literal">mutator</code> for the
+          <code class="literal">CurrentPos</code> variable:</p><a id="I_programlisting2_id355665"/><pre class="programlisting">- (void)setCurrentPos:(CGPoint)newPos {
+    prevPos = currentPos;
+    currentPos = newPos;
+
+    if(currentPos.x &lt;0){
+        currentPos.x = 0;
+        xVelocity = 0.0f;
+    }
+    if(currentPos.y &lt;0){
+        currentPos.y = 0;
+        yVelcoity = 0.0f;
+    }
+    if(currentPos.x &gt; self.bounds.size.width - sprite.size.width){
+        currentPos.x = self.bounds.size.width - sprite.size.width;
+        xVelocity = 0.0f;
+    }
+    if(currentPos.y &gt; self.bounds.size.height - sprite.size.height){
+        currentPos.y = self.bounds.size.height - sprite.size.height;
+        yVelocity = 0.0f;
+    }
+
+    CGRect curSpriteRect = CGRectMake(currentPos.x, currentPos.y, 
+currentPos.x+sprite.size.width, currentPos.y+sprite.size.height);
+    CGRect prevSpriteRect = CGRectMake(prevPos.x, prevPos.y, 
+prevPos.x+sprite.size.width, currentPos.y+sprite.size.height);
+    [self setNeedsDisplayInRect:CGRectUnion(curSpriteRect, prevSpriteRect)];
+
+}</pre><p>In case you are unfamiliar with Objective-C, when you define a class instance variable
+        it will automatically define a mutator that simply updates the value of the variable to the
+        value you are passing it. However, in the preceding example we are overriding that mutator
+        to do some additional work. The first thing we do is to set the <code class="literal">prevPos</code> variable to the current position of the sprite and then update the
+          <code class="literal">currentPos</code> with the value the mutator was given.
+        However, our physics engine isn’t going to include collision response with the screen
+        boundaries, so we go on to check if the sprite has reached the screen edge. If so, we simply
+        tell the program to leave it on the edge and to set the velocity in that direction to 0.
+        Lastly, we define a couple of rectangles based on the new position of the sprite and the old
+        position of the sprite. After we union those rectangles together, we tell the operating
+        system to redraw the screen in that area with the <code class="literal">setNeedDisplayInRect:</code> method. As you might recall, our accelerometer object is
+        calling the <code class="literal">draw</code> method every time it updates, and it is
+        in this method that we will put our physics engine:</p><a id="I_programlisting2_id355714"/><pre class="programlisting">- (void)draw {
+    static NSDate *lastUpdateTime;
+
+    if (lastUpdateTime != nil) {
+        NSTimeInterval secondsSinceUpdate = -([lastUpdateTime
+timeIntervalSinceNow]); //calculates interval in seconds from last update
+
+        //Calculate displacement
+        CGFloat deltaX = xVelocity * secondsSinceUpdate + 
+((acceleration.x*g*secondsSinceUpdate*secondsSinceUpdate)/2); // METERS
+        CGFloat deltaY = yVelocity * secondsSinceUpdate + 
+((acceleration.y*g*secondsSinceUpdate*secondsSinceUpdate)/2); // METERS
+
+        //Converts from meters to pixels based on defined World size
+        deltaX = deltaX * convertX;
+        deltaY = deltaY * convertY;
+
+        //Calculate new velocity at new current position
+        xVelocity = xVelocity + acceleration.x * g * secondsSinceUpdate; //assumes
+acceleration was constant over last update interval
+        yVelocity = yVelocity - (acceleration.y * g * secondsSinceUpdate); //assumes 
+acceleration was constant over last update interval
+
+        //Mutate currentPos which will update screen
+        self.currentPos = CGPointMake(self.currentPos.x + deltaX, 
+self.currentPos.y + deltaY);
+
+    }
+
+    [lastUpdateTime release];
+    lastUpdateTime = [[NSDate alloc] init];
+
+}</pre><p>Previously, we discussed issues with timing when working with accelerometer data. In
+        this case, Objective-C makes it very easy to get the correct elapsed time in seconds. We
+        first define a static variable, <code class="literal">lastUpdateTime</code>, as an
+          <code class="literal">NSDate</code> type. This type has a built-in function to give
+        the time interval in seconds from now, which we assign to an <code class="literal">NSTimeInterval</code> variable. Skipping down to the last two lines, we are simply
+        updating the last update time by releasing and reinitializing the variable. As it is static,
+        it will remain even after the function returns. If you are using a lower-level language, you
+        might have to write your own <code class="literal">timeIntervalSinceNow</code>
+        function that takes into account the particular clock frequency of the system.</p><p>Now that we have our time interval in seconds, we can calculate our new position. Recall
+        from <a class="xref" href="ch02.html" title="Chapter 2. Kinematics">Chapter 2</a>:</p><table style="border: 0; " class="simplelist"><tr><td>s<sub>2</sub> = s<sub>1</sub> + v<sub>1</sub> t
+          + (a t<sup>2</sup>)/2</td></tr></table><p>which we have rearranged to be:</p><table style="border: 0; " class="simplelist"><tr><td>Δs = s<sub>2</sub> − s<sub>1</sub> =
+            v<sub>1</sub> t + (a t<sup>2</sup>)/2</td></tr></table><p>This gets programmed as:</p><a id="I_programlisting2_id355829"/><pre class="programlisting">        <span class="strong"><strong>CGFloat deltaX = xVelocity * secondsSinceUpdate + ((acceleration.x*g*secondsSinceUpdate*secondsSinceUpdate)/2); // METERS</strong></span></pre><p>We then convert this displacement in meters to displacement in pixels using an
+        appropriate ratio for the size of our world. Before we can move on, we have to calculate our
+        new velocity at our new position. So we again assume the acceleration as constant over the
+        update interval, and recalling:</p><table style="border: 0; " class="simplelist"><tr><td>v<sub>2</sub> = v<sub>1</sub> + a Δt</td></tr></table><p>from <a class="xref" href="ch02.html" title="Chapter 2. Kinematics">Chapter 2</a>, we can solve for the new <code class="literal">xVelocity</code> with:</p><a id="I_programlisting2_id355878"/><pre class="programlisting"><span class="strong"><strong>xVelocity = xVelocity + acceleration.x * g * secondsSinceUpdate;</strong></span></pre><p>As you can see from the complete method description, the code of the y-direction is
+        similar. Finally, we call the <code class="literal">currentPos</code> mutator to set
+        the new position based on the change in displacements. Recall that this is a custom mutator
+        that also tells the operating system to update the display. After the <code class="literal">draw</code> method is finished, the accelerometer waits 1/60 of a
+        second and then calls it again. You could extend this program by adding in friction, fluid
+        resistance, and collisions with the screen boundaries using the methods outlined in the
+        other chapters of this <a id="I_indexterm2_id355910" class="indexterm"/><a id="I_indexterm2_id355919" class="indexterm"/><a id="I_indexterm2_id355928" class="indexterm"/><a id="I_indexterm2_id355938" class="indexterm"/><a id="I_indexterm2_id355947" class="indexterm"/>book.</p></div></div></section></body></html>

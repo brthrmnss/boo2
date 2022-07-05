@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg"><head><title>Chapter 23. Pressure Sensors and Load Cells</title><link rel="stylesheet" type="text/css" href="core.css"/><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"/><link rel="up" href="pt04.html" title="Part IV. Digital Physics"/><link rel="prev" href="ch22.html" title="Chapter 22. Gaming from One Place to Another"/><link rel="next" href="ch24.html" title="Chapter 24. 3D Display"/></head><body><section class="chapter" title="Chapter 23. Pressure Sensors and Load Cells" epub:type="chapter" id="pressure_sensors_and_load_cells"><div class="titlepage"><div><div><h2 class="title">Chapter 23. Pressure Sensors and Load Cells</h2></div></div></div><p>Pressure sensors <a id="pr23.0" class="indexterm"/>are an evolution of the simple button. A simple button has two
+  states, on or off, which can be used to trigger simple atomic actions in a
+  video game such as firing a gun or opening a door. However, simple buttons
+  are not capable of informing the program how you, the user, hits that
+  button. Did you hit it quickly? Did you barely touch it at all? The only
+  thing the program can interpret is that you did in fact hit the
+  button.</p><p>With pressure sensors, the program has the ability to discern
+  <span class="emphasis"><em>how</em></span> the user pressed the button. This information can
+  be used as incremental input, such as the player raising a firearm before
+  pressing the button harder to actually fire. Additionally, pressure sensors
+  can be used to create novel forms of human-input devices. While pressure
+  sensitivity is not uncommon in the more traditional console gaming markets,
+  there is also a recent push to move the sensors into touch-screen devices
+  like the Nintendo DS and cell phone gaming market. Pressure-sensitive touch
+  screens are currently beyond state of the art, however, so we’ll primarily
+  discuss the traditional methods already in widespread adoption.</p><p>In addition to pressure sensors, some new gaming consoles <a id="I_indexterm4_id357954" class="indexterm"/><a id="I_indexterm4_id357965" class="indexterm"/>use <span class="emphasis"><em>load cells</em></span> to allow the player to use
+  shifts in his or her body weight as input. The method by which this data is
+  collected and how the center of gravity is determined will be discussed in
+  this chapter. Lastly, some smartphones now include <a id="I_indexterm4_id357982" class="indexterm"/>a <span class="emphasis"><em>barometer</em></span>, a pressure sensor that
+  measures the pressure of the atmosphere. What it is used for and the type of
+  information it can provide will also be discussed.</p><div class="sect1" title="Under Pressure"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="under_pressure">Under Pressure</h2></div></div></div><p>As discussed in <a class="xref" href="ch03.html" title="Chapter 3. Force">Chapter 3</a>,
+    <span class="emphasis"><em>pressure</em></span> is a <a id="I_indexterm4_id358019" class="indexterm"/>force applied over an area. Imagine a concrete block sitting
+    on a steel plate. The weight of the block will be evenly distributed over
+    the area of contact, creating a pressure on the steel plate. Gas and
+    liquid can apply pressure as well. The weight of the air pressing down on
+    us is what is known <a id="I_indexterm4_id358033" class="indexterm"/><a id="I_indexterm4_id358039" class="indexterm"/>as <span class="emphasis"><em>atmospheric</em></span> pressure.</p><p>Let’s cover a quick example of how to calculate pressure just to
+    illustrate the concepts involved. <a id="I_indexterm4_id358057" class="indexterm"/><a id="I_indexterm4_id358070" class="indexterm"/>Pressure has many different units, but all of them can be
+    equated to a force divided by an area. For this chapter we’ll stick with
+    Newtons per square meter, as this is easiest to visualize. The SI derived
+    unit (a unit of measure made up of other fundamental units) is called a
+    Pascal, which is just 1 N/m<sup>2</sup>.</p><div class="sect2" title="Example Effects of High Pressure"><div class="titlepage"><div><div><h3 class="title" id="example_effects_of_high_pressure">Example Effects of High Pressure</h3></div></div></div><p>In <a class="xref" href="ch03.html" title="Chapter 3. Force">Chapter 3</a>, we discussed the concept of buoyancy
+      and how it arises from <a id="I_indexterm4_id358107" class="indexterm"/><a id="I_indexterm4_id358114" class="indexterm"/>hydrostatic pressure. Here, we’ll show the tremendous
+      forces that hydrostatic pressure can cause on a submerged object. Let’s
+      imagine we have a steel ball filled with normal atmospheric pressure at
+      sea level, or about 101,000 N/m<sup>2</sup>. While this
+      seems like a lot, your body is used to dealing with this pressure, so
+      you don’t even notice it on a daily basis! Now we are going to take this
+      ball and drop it into the Marianas trench, the deepest known part of the
+      ocean. The water depth here is approximately 10,900 meters. The formula
+      for calculating the pressure due to water (hydrostatic pressure)
+      is:</p><table style="border: 0; " class="simplelist"><tr><td>P(h) = ρ × g × h</td></tr></table><p>where ρ is the mass density of water, <span class="emphasis"><em>g</em></span> is force due to gravity,
+        and <span class="emphasis"><em>h</em></span> is the height of the water column above the object.</p><p>Here we take the standard density for saltwater, 1025
+      kg/m<sup>3</sup>, and calculate what the pressure
+      is:</p><table style="border: 0; " class="simplelist"><tr><td>P(10,900) = (1025 kg/m<sup>3</sup>) × (9.8
+        m/s<sup>2</sup>) × (10,900 m) = 109,490,500
+        N/m<sup>2</sup></td></tr></table><p><a class="xref" href="ch23.html#pressure_differential" title="Figure 23-1. Pressure differential">Figure 23-1</a> shows how the pressures
+      act against our steel ball.</p><div class="figure"><a id="pressure_differential"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject4_id358202"/><img src="httpatomoreillycomsourceoreillyimages1599003.png.jpg" alt="Pressure differential"/></div></div><div class="figure-title">Figure 23-1. Pressure differential</div></div><p>It is clear that the water pressure acting on the sphere is much
+      larger than the air pressure we trapped inside before sinking it. Also,
+      note that pressure always acts normal to the surface. If you happen to
+      apply a force to the vertex of an object, you’ll have trouble modeling
+      the right effect because a vertex does not have a well-defined normal.
+      We can overcome this only by applying pressure to the faces of polygons
+      or by averaging the direction of the pressure on either side of the
+      vertex. Returning to our example, the net pressure differential on the
+      steel ball is:</p><table style="border: 0; " class="simplelist"><tr><td>P(water) − P(air) = 10,949,100
+        N/m<sup>2</sup>− 101,000
+        N/m<sup>2</sup> = 10,848,100
+        N/m<sup>2</sup></td></tr></table><p>This is the pressure you would feel if 1,870 elephants were
+      standing on a 1-square-meter plate on top of you. If our steel ball had
+      walls that were too thin to withstand this pressure differential, it
+      would implode. To put this all into perspective, a steel ball in space
+      would have a pressure differential of only 1 atmosphere pushing out. It
+      is thus much harder to design a structure to go to the bottom of the sea
+      than it is to go to the moon. Indeed, more men have stepped foot on the
+      lunar surface than have visited the bottom of the sea.</p><p>If the ball were open to the sea, then the pressure would act
+      equally on each side of the steel boundary. Without a pressure
+      differential, there would be no force to crush the ball; however, there
+      would still be compression of the steel shell <a id="I_indexterm4_id358264" class="indexterm"/>itself.</p></div></div><div class="sect1" title="Button Mashing"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="button_mashing">Button Mashing</h2></div></div></div><p>While the <a id="pr23.2" class="indexterm"/><a id="bu23.2" class="indexterm"/>preceding example highlights some important concepts about
+    pressure in general, it is not usually the type of pressure used as input
+    to a game. The most common types of pressure sensors you’ll experience in
+    video games are pressure-sensitive buttons that indirectly measure the
+    amount of pressure the user is exerting on the button and convert this to
+    a relative value. Both Sony and Microsoft have incorporated
+    pressure-sensitive (also known as <span class="emphasis"><em>analog</em></span>) buttons
+    into their controllers for the PlayStation and Xbox series of
+    consoles.</p><p>The method by which you can detect how hard a user is pressing a
+    button varies from very simple to very complex. We’ll focus on Sony’s
+    method, which is very elegant. A typical push button is just two contacts
+    separated by an insulator, most commonly air. When the button is pushed,
+    the upper contact moves down and touches the lower contact. This completes
+    a circuit, causing a voltage spike, which the device interprets as a
+    button press. This is another example of a digital sensor—it is either on
+    or off. The buttons in Sony’s controller work a bit differently. In State
+    A in <a class="xref" href="ch23.html#pressure-sensitive_button" title="Figure 23-2. Pressure-sensitive button">Figure 23-2</a>, we can see that the
+    button is not yet pressed and an air gap exists between the solid
+    conductor and the domed flexible conductor. In State B the button is
+    depressed with minimal pressure, and the dome just barely makes contact.
+    The button is now activated. If the user continues to press down harder on
+    the button, the dome deflects and increases the area of contact with the
+    fixed conductor; the larger the contact area, the greater the conductivity
+    of the connection. This causes a rise in the current flowing in the
+    circuit.</p><div class="figure"><a id="pressure-sensitive_button"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject4_id358353"/><img src="httpatomoreillycomsourceoreillyimages1599004.png.jpg" alt="Pressure-sensitive button"/></div></div><div class="figure-title">Figure 23-2. Pressure-sensitive button</div></div><p>By measuring this increase in current, the controller knows how far
+    down the button is being pressed. In State D in <a class="xref" href="ch23.html#pressure-sensitive_button" title="Figure 23-2. Pressure-sensitive button">Figure 23-2</a>, the button is at its limit of
+    travel and the dome has deflected to its maximum contact area. The
+    difference between this maximum and the minimum required to detect contact
+    determines the absolute lowest and highest pressure the button is able to
+    differentiate. For instance, let us assume that if the button were
+    depressed completely, the current would register at
+    <span class="emphasis"><em>I</em></span><sub>max</sub>. If the button were not
+    pressed at all, of course, the current would be 0. If we call the current
+    <span class="emphasis"><em>I</em></span>(<span class="emphasis"><em>t</em></span>) for any time,
+    <span class="emphasis"><em>t</em></span>, we see that the ratio
+    <span class="emphasis"><em>I</em></span>(<span class="emphasis"><em>t</em></span>)/<span class="emphasis"><em>I</em></span><sub>max</sub>
+    gives a nondimensional quantity for how far down the button is pressed.
+    During this operation, the hardware converts the analog voltage to a
+    digital representation suitable for input to a program. For the Sony
+    example, this value is calculated by the hardware and passed as part of
+    the data stream from the controller with hex values between 0x00 to 0xFF,
+    or in other words, integers 0 to 255 in decimal. This means that each
+    button’s travel is divided into 255 parts that your program can
+    register.</p><p>While 255 individual increments are beyond the human ability to
+    control fingertip pressure, different ranges of pressure have practical
+    uses in games. For example, you could program your button to raise a
+    weapon with a half-press (0 to 127), bring the weapon to the shoulder with
+    more pressure (127 to 250), and to fire when totally depressed (250 to
+    255). Of course, those values would have to be tuned for the desired level
+    of sensitivity. Another example would be to control the throttle on a car
+    by using the values of 0 to 255 as thrust multipliers.</p><p>Another use of knowing a button’s position <a id="I_indexterm4_id358431" class="indexterm"/>would be tracking it over time. With a time history of
+    position, you can differentiate to get velocity and again to get
+    acceleration. This would allow the program to differentiate between a
+    button that is either slowly depressed or quickly depressed. Most hardware
+    doesn’t help you here, so you’ll have to store the values and calculate
+    the velocities in whatever increments are appropriate for your program. As
+    real-time velocity sensing might be taxing to the user as real-time input,
+    the best use would be as input to something that the user doesn’t have to
+    control constantly. Imagine having to keep a button pressed down at the
+    correct pressure for your gameplay for longer than a few minutes; I can
+    feel my wrist cramping now. However, the pressure button is useful for
+    many inputs. For example, how far a button is pressed down might be used
+    to draw back the head of a putter, while the speed at which the button is
+    released could be used to determine the speed at which the putter is
+    brought back to the <a id="I_indexterm4_id358451" class="indexterm"/><a id="I_indexterm4_id358459" class="indexterm"/>ball.</p><div class="sect2" title="Load Cells"><div class="titlepage"><div><div><h3 class="title" id="load_cells">Load Cells</h3></div></div></div><p>Beyond simple <a id="pr23.2.1" class="indexterm"/><a id="I_indexterm4_id358498" class="indexterm"/>buttons, there are other novel ways to use pressure
+      sensors to allow a user to interact with your games. For example,
+      Nintendo’s Wii uses a balance board peripheral based on load cells to
+      detect a person’s <a id="I_indexterm4_id358511" class="indexterm"/>stance.</p><div class="note" title="Note"><h3 class="title">Note</h3><p>The original idea for the Nintendo balance board came to video
+        game designer Shigeru Miyamoto after he was inspired by watching sumo
+        wrestlers weigh themselves with each leg on a different scale. They
+        are too heavy to use one scale!</p></div><div class="sect3" title="Tiny scales"><div class="titlepage"><div><div><h4 class="title" id="tiny_scales">Tiny scales</h4></div></div></div><p>Load cells work <a id="I_indexterm4_id358542" class="indexterm"/>differently than the pressure-sensitive buttons
+        described previously, but like pressure-sensitive buttons, they come
+        in different types, all of which measure the load pressing on them.
+        The most common way, and the one used in the Nintendo balance board
+        we’ll discuss shortly, is through what is <a id="I_indexterm4_id358556" class="indexterm"/>called a <span class="emphasis"><em>strain gauge</em></span>.</p><p>A strain gauge, as you might be able to guess, does not measure
+        force directly but instead measures how much strain the gauge is
+        experiencing. Strain is a measure of how much a rigid body has
+        deformed independent of its rigid-body motion. While there are several
+        notions of strain in continuum mechanics, the one we are concerned
+        with here is often <a id="I_indexterm4_id358574" class="indexterm"/>referred to as <span class="emphasis"><em>engineering strain</em></span>.
+        This type of strain quantifies how much a structural element has
+        deformed compared to its original, or <span class="emphasis"><em>rest</em></span>,
+        length. We normalize this by dividing the change in length over the
+        rest length. By testing the material, one can develop a stress versus
+        strain curve that relates how much stress it takes to cause a certain
+        amount of strain. Once the pressure that causes an amount of strain is
+        known, it is possible to determine the amount of load. Now you might
+        be wondering how the strain gauge measures the amount that the Wii’s
+        legs compress when you stand on them.</p><p>One of the most common electronic strain <a id="I_indexterm4_id358598" class="indexterm"/>gauges is the <span class="emphasis"><em>piezoresistive strain
+        gauge</em></span>. The simplest example of a piezoresistive strain
+        gauge would be a single wire. If you were to elongate a wire from its
+        rest length, the cross-sectional area decreases. This causes a rise in
+        the electrical resistance of the wire. After measuring the rest
+        resistance, you can use the difference to determine how much the wire
+        has elongated. Knowing the mechanical properties of the wire, you can
+        also determine how much force it takes to stretch the wire.</p><p>To make strain gauges sensitive without having long linear wire
+        elements, the conductive material is often arranged in a
+        strain-sensitive pattern, as shown in <a class="xref" href="ch23.html#typical_strain-sensitive_pattern" title="Figure 23-3. Typical strain-sensitive pattern">Figure 23-3</a>. This looping back and
+        forth of the conductor allows for great sensitivity without increasing
+        the physical space the sensor occupies. Here the rest length would be
+        18 times longer than the physical length of the sensor.</p><div class="figure"><a id="typical_strain-sensitive_pattern"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject4_id358637"/><img src="httpatomoreillycomsourceoreillyimages1599005.png" alt="Typical strain-sensitive pattern"/></div></div><div class="figure-title">Figure 23-3. Typical strain-sensitive pattern</div></div></div><div class="sect3" title="Center of gravity"><div class="titlepage"><div><div><h4 class="title" id="center_of_gravity">Center of gravity</h4></div></div></div><p>The board <a id="lo23.2.1.2" class="indexterm"/><a id="ce23.2.1.2" class="indexterm"/>has four legs, each of which houses a load sensor. The
+        board uses strain gauges similar to those discussed earlier. These
+        gauges elongate when a force is applied to them. The elongation
+        changes the electrical resistance of the circuit of which the strips
+        are a part, and this is reported back to the controller. <a class="xref" href="ch23.html#balance_board_example" title="Figure 23-4. Balance board example">Figure 23-4</a> shows two sensor outputs. The first
+        is with the user standing so that her center of gravity is over the
+        center of the board. The second state shows what the board’s sensors
+        would measure after the user has shifted her center of gravity.</p><div class="figure"><a id="balance_board_example"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject4_id358721"/><img src="httpatomoreillycomsourceoreillyimages1599006.png" alt="Balance board example"/></div></div><div class="figure-title">Figure 23-4. Balance board example</div></div><p>It is easy to intuitively recognize that the center of gravity
+        must be over the center of the board in State A and toward the
+        lower-right corner in State B. However, to get the exact location of
+        the center of gravity in State B, we’ll have to do a little more work.
+        First things first: we have to define a coordinate system. This is
+        shown in <a class="xref" href="ch23.html#balance_board_coordinate_system" title="Figure 23-5. Balance board coordinate system">Figure 23-5</a>.</p><div class="figure"><a id="balance_board_coordinate_system"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject4_id358761"/><img src="httpatomoreillycomsourceoreillyimages1599007.png" alt="Balance board coordinate system"/></div></div><div class="figure-title">Figure 23-5. Balance board coordinate system</div></div><p>This coordinate system is arbitrary. If the board isn’t a
+        perfect square, such as with the Wii board, then the coordinates of
+        the load cells must be changed accordingly. Now that we have defined
+        the location of the center of the board and the position of the load
+        cells, we can use a <a id="we23.2.1.2" class="indexterm"/>weighted average to compute the location of the user’s
+        center of gravity. The weight that we give each value will depend on
+        how much of the user’s weight is on each of the four corners. That
+        weight will “pull” the center of gravity toward the location of the
+        load cells as defined in our coordinate system. How much each load
+        cell mathematically pulls the center of gravity will be based on the
+        weight supported at that location. This is most easily determined via
+        two tables, one for the <span class="emphasis"><em>x</em></span> coordinate (<a class="xref" href="ch23.html#x_coordinate_weighted_average" title="Table 23-1. x coordinate weighted average">Table 23-1</a>) and one for the
+        <span class="emphasis"><em>y</em></span> coordinate (<a class="xref" href="ch23.html#y_coordinate_weighted_average" title="Table 23-2. y coordinate weighted average">Table 23-2</a>).</p><div class="table"><a id="x_coordinate_weighted_average"/><div class="table-title">Table 23-1. x coordinate weighted average</div><div class="table-contents"><table style="border-collapse: collapse; border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; "><colgroup><col class="col1"/><col class="col2"/><col class="col3"/><col class="col4"/></colgroup><thead><tr><td style="text-align: center; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Load
+                cell</p></td><td style="text-align: center; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Weight</p></td><td style="text-align: center; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Arm</p></td><td style="text-align: center; vertical-align: bottom; border-bottom: 0.5pt solid ; "><p>Weight ×
+                Arm</p></td></tr></thead><tbody><tr><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>(1,1)</p></td><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>30</p></td><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>1</p></td><td style="text-align: center; vertical-align: top; border-bottom: 0.5pt solid ; "><p>30</p></td></tr><tr><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>(−1,1)</p></td><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>15</p></td><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>−1</p></td><td style="text-align: center; vertical-align: top; border-bottom: 0.5pt solid ; "><p>−15</p></td></tr><tr><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>(−1,−1)</p></td><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>20</p></td><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>−1</p></td><td style="text-align: center; vertical-align: top; border-bottom: 0.5pt solid ; "><p>−20</p></td></tr><tr><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>(1,−1)</p></td><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>35</p></td><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>1</p></td><td style="text-align: center; vertical-align: top; border-bottom: 0.5pt solid ; "><p>35</p></td></tr><tr><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p><span class="strong"><strong>Total:</strong></span></p></td><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>100</p></td><td style="border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "> </td><td style="text-align: center; vertical-align: top; border-bottom: 0.5pt solid ; "><p>30</p></td></tr><tr><td style="border-right: 0.5pt solid ; "> </td><td style="border-right: 0.5pt solid ; "> </td><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; "><p><span class="strong"><strong>Average:</strong></span></p></td><td style="text-align: center; vertical-align: top; "><p>30/100 =
+                0.30</p></td></tr></tbody></table></div></div><p><a class="xref" href="ch23.html#x_coordinate_weighted_average" title="Table 23-1. x coordinate weighted average">Table 23-1</a> takes the
+        weight in each corner and multiplies that value by the value of its
+        <span class="emphasis"><em>x</em></span> coordinate. This is equivalent to a moment.
+        Taking the sum of those moments (30) and dividing by the total weight
+        gives the average value of 0.30, or .3 units to the right in our
+        coordinate system. The y-axis is treated similarly.</p><div class="table"><a id="y_coordinate_weighted_average"/><div class="table-title">Table 23-2. y coordinate weighted average</div><div class="table-contents"><table style="border-collapse: collapse; border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; "><colgroup><col class="col1"/><col class="col2"/><col class="col3"/><col class="col4"/></colgroup><thead><tr><td style="text-align: center; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Load
+                cell</p></td><td style="text-align: center; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Weight</p></td><td style="text-align: center; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Arm</p></td><td style="text-align: center; vertical-align: bottom; border-bottom: 0.5pt solid ; "><p>Weight ×
+                Arm</p></td></tr></thead><tbody><tr><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>(1,1)</p></td><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>30</p></td><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>1</p></td><td style="text-align: center; vertical-align: top; border-bottom: 0.5pt solid ; "><p>30</p></td></tr><tr><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>(−1,1)</p></td><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>15</p></td><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>1</p></td><td style="text-align: center; vertical-align: top; border-bottom: 0.5pt solid ; "><p>15</p></td></tr><tr><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>(−1,−1)</p></td><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>20</p></td><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>−1</p></td><td style="text-align: center; vertical-align: top; border-bottom: 0.5pt solid ; "><p>−20</p></td></tr><tr><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>(1,−1)</p></td><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>35</p></td><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>−1</p></td><td style="text-align: center; vertical-align: top; border-bottom: 0.5pt solid ; "><p>−35</p></td></tr><tr><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p><span class="strong"><strong>Total:</strong></span></p></td><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>100</p></td><td style="border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "> </td><td style="text-align: center; vertical-align: top; border-bottom: 0.5pt solid ; "><p>−10</p></td></tr><tr><td style="border-right: 0.5pt solid ; "> </td><td style="border-right: 0.5pt solid ; "> </td><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; "><p><span class="strong"><strong>Average:</strong></span></p></td><td style="text-align: center; vertical-align: top; "><p>−10/100 =
+                −0.10</p></td></tr></tbody></table></div></div><p>Using a similar weighted average as shown in <a class="xref" href="ch23.html#y_coordinate_weighted_average" title="Table 23-2. y coordinate weighted average">Table 23-2</a>, we see that the user’s
+        center of gravity is −0.10, or 0.1 units behind the center. If we were
+        using this to control an onscreen sprite, we could define a 2D
+        direction vector based on this information.</p><p>In addition to just determining the center of gravity, you can
+        use this information to make educated guesses on what else the user is
+        doing to cause the load distributions. After computing the center of
+        gravity, the Wii uses what Nintendo <a id="I_indexterm4_id359499" class="indexterm"/><a id="I_indexterm4_id359506" class="indexterm"/>calls a <span class="emphasis"><em>motion-identifying condition
+        table</em></span> to guess what movements the user is making. The table
+        correlates the ratio of the sum of the load values to the body weight
+        of the user and the position of the center of gravity to determine
+        body orientation. For example, the Wii can tell if both of the user’s
+        feet are on the board, or if the user is accelerating part of his leg.
+        The table provided in the Wii patent is reproduced in <a class="xref" href="ch23.html#motion-identifying_condition_table" title="Table 23-3. Motion-identifying condition table">Table 23-3</a>.</p><div class="table"><a id="motion-identifying_condition_table"/><div class="table-title">Table 23-3. Motion-identifying condition table</div><div class="table-contents"><table style="border-collapse: collapse; border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; "><colgroup><col class="col1"/><col class="col2"/><col class="col3"/></colgroup><thead><tr><td style="text-align: center; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Motion</p></td><td style="text-align: center; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Ratio of load
+                value to body weight value</p></td><td style="text-align: center; vertical-align: bottom; border-bottom: 0.5pt solid ; "><p>Position of the
+                center of gravity</p></td></tr></thead><tbody><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Right foot
+                riding</p></td><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>25 to
+                75%</p></td><td style="text-align: center; vertical-align: top; border-bottom: 0.5pt solid ; "><p>+0.01 to
+                +1.0</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Both feet
+                riding</p></td><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>More than
+                95%</p></td><td style="text-align: center; vertical-align: top; border-bottom: 0.5pt solid ; "><p>−0.7 to
+                +0.7</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Left foot
+                riding</p></td><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>25 to
+                75%</p></td><td style="text-align: center; vertical-align: top; border-bottom: 0.5pt solid ; "><p>−1.0 to
+                −0.01</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Left thigh
+                lifting</p></td><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>More than
+                100%</p></td><td style="text-align: center; vertical-align: top; border-bottom: 0.5pt solid ; "><p>+0.01 to
+                +1.0</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Right thigh
+                lifting</p></td><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>More than
+                100%</p></td><td style="text-align: center; vertical-align: top; border-bottom: 0.5pt solid ; "><p>−1.0 to
+                −0.01</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; "><p>Both feet putting
+                <a id="I_indexterm4_id359774" class="indexterm"/><a id="I_indexterm4_id359784" class="indexterm"/><a id="I_indexterm4_id359794" class="indexterm"/><a id="I_indexterm4_id359803" class="indexterm"/>down</p></td><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; "><p>Less than
+                5%</p></td><td style="text-align: center; vertical-align: top; "><p>Not
+                considered</p></td></tr></tbody></table></div></div></div></div></div><div class="sect1" title="Barometers"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="barometers">Barometers</h2></div></div></div><p>Continuing our <a id="ba23.3" class="indexterm"/>exploration of new user input methods, especially in the
+    rapidly maturing mobile device gaming market, now we’ll discuss an
+    interesting inclusion in the latest smartphones: a barometer. Unlike
+    buttons and balance boards, whose pressure sensors only indirectly handle
+    pressure, barometers directly measure the fluid pressure that the
+    atmosphere exerts on the sensor.</p><p>The sensors used in mobile phones today are <a id="I_indexterm4_id359867" class="indexterm"/>piezoresistive <a id="I_indexterm4_id359874" class="indexterm"/><a id="I_indexterm4_id359881" class="indexterm"/>microelectromechanical systems (MEMS) and are very accurate.
+    As shown in <a class="xref" href="ch23.html#mems_piezoresistive_pressure_sensor" title="Figure 23-6. MEMS piezoresistive pressure sensor">Figure 23-6</a>, the
+    sensors consist of a void machined into a piece of silicon. The diaphragm
+    is then bonded to a stiff material such as steel or glass. As we are
+    trying to measure <span class="emphasis"><em>absolute pressure</em></span>, this bond is
+    airtight. Using a material called <span class="emphasis"><em>monocrystalline semiconductor
+    silicon</em></span> to form the void ensures that the entire diaphragm acts
+    much like a piezoresistive strain gauge.</p><div class="figure"><a id="mems_piezoresistive_pressure_sensor"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject4_id359912"/><img style="width: 394.2; " src="httpatomoreillycomsourceoreillyimages1599008.png" alt="MEMS piezoresistive pressure sensor"/></div></div><div class="figure-title">Figure 23-6. MEMS piezoresistive pressure sensor</div></div><p>Now we have a situation similar to the steel ball in the ocean, only
+    this time it is a tiny silicon ball in the ocean of air surrounding the
+    earth. When the sensor is moved deeper or shallower in the atmospheric
+    ocean, the pressure on the outside of the diaphragm changes. This causes
+    the pressure differential to change and a force to be exerted on the
+    silicon diaphragm. This force causes a deflection that changes the
+    resistance of the piezoresistive material and can therefore be measured by
+    the sensor. This part will be taken care of by the hardware and the
+    encoded value sent to the operating system.</p><p>To give you an example, in the Android operating system, the API has a public method,
+        <code class="literal">getAltitude(float p0, float p)</code>, to determine altitude, <a id="I_indexterm4_id359954" class="indexterm"/>in meters, between the sensor pressure and the pressure at sea level. It usually
+      reads the current <a id="I_indexterm4_id359966" class="indexterm"/><a id="I_indexterm4_id359972" class="indexterm"/>atmospheric pressure, <code class="literal">p</code>, from the sensor by
+      listening to sensor manager callback interface method <code class="literal">abstract void
+        onSensorChanged(SensorEvent event)</code>. Here the class <code class="literal">event</code> holds the sensor values, the accuracy of those values, a reference to the
+      sensor itself, and a timestamp for when the event occurred. The pressure is <a id="I_indexterm4_id360002" class="indexterm"/><a id="I_indexterm4_id360008" class="indexterm"/>reported in hectoPascals (hPa) or 100 N/m<sup>2</sup>. The
+      sea-level pressure, <code class="literal">p0</code>, that this is compared to is either
+      obtained from an online database or is set at the constant <code class="literal">SensorManager.PRESSURE_STANDARD_ATMOSPHERE</code>. As pressure at sea level changes with
+      different weather conditions, we obtain higher accuracy by retrieving it from a nearby airport
+      or other weather station via the Internet. To get the change in altitude between two points,
+      you must repeat this process twice as follows:</p><a id="I_programlisting4_id359946"/><pre class="programlisting">float altitude_difference = 
+getAltitude(SensorManager.PRESSURE_STANDARD_ATMOSPHERE, 
+     pressure_at_point2) -
+getAltitude(SensorManager.PRESSURE_STANDARD_ATMOSPHERE,
+     pressure_at_point1);</pre><p>At first it may seem strange for your cell phone to have a barometer
+    in it; however, the barometer’s ability to detect the air pressure allows
+    you to make a good guess on your altitude. As shown in <a class="xref" href="ch22.html" title="Chapter 22. Gaming from One Place to Another">Chapter 22</a>, in order to determine your
+    position via <a id="I_indexterm4_id360051" class="indexterm"/><a id="I_indexterm4_id360060" class="indexterm"/>GPS you have to solve a four-dimensional set of linear
+    equations. The time required to solve these equations can be dramatically
+    decreased if you know approximately where you are to begin with.
+    Currently, the position of which cell phone tower your phone is connected
+    to is used as a starting point. Using a barometer allows the device to
+    guess its altitude to further reduce the time to obtain a GPS fix.</p><p>While the sensor was included for a specific purpose, it can also be
+    adapted as an input device. For instance, the Bosch BMP180 currently being
+    included in devices is accurate to plus or minus one meter. In fact,
+    Google Maps<a id="I_indexterm4_id360081" class="indexterm"/> now provides indoor directions, including knowing what
+    floor you are on in airports and shopping malls. This functionality could
+    be used to aid in the location-based gaming discussed in <a class="xref" href="ch22.html" title="Chapter 22. Gaming from One Place to Another">Chapter 22</a> by giving it greater
+    resolution in the vertical dimension. It could also be used to determine
+    if the user is holding the phone near her feet or her head, further
+    augmenting the orientation sensing discussed in <a class="xref" href="ch21.html" title="Chapter 21. Accelerometers">Chapter 21</a>. Of course, it can also be used to help
+    weather forecasting and allow you to have real-life changes in pressure
+    affect in-game <a id="I_indexterm4_id360103" class="indexterm"/>events.</p></div></section></body></html>

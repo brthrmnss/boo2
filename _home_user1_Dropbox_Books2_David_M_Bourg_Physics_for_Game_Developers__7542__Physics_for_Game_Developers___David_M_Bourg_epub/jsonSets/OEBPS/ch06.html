@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg"><head><title>Chapter 6. Projectiles</title><link rel="stylesheet" type="text/css" href="core.css"/><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"/><link rel="up" href="pt01.html" title="Part I. Fundamentals"/><link rel="prev" href="ch05.html" title="Chapter 5. Collisions"/><link rel="next" href="pt02.html" title="Part II. Rigid-Body Dynamics"/></head><body><section class="chapter" title="Chapter 6. Projectiles" epub:type="chapter" id="projectiles"><div class="titlepage"><div><div><h2 class="title">Chapter 6. Projectiles</h2></div></div></div><p>This chapter is the first <a id="pr6.0" class="indexterm"/>in a series of chapters that discuss specific real-world
+  phenomena and systems, such as projectile motion and airplanes, with the
+  goal of giving you a solid understanding of their real-life behavior. This
+  understanding will help you to model these or similar systems accurately in
+  your games. Instead of relying on purely idealized formulas, we’ll present a
+  wide variety of practical formulas and data that you can use. We’ve chosen
+  the examples in this and later chapters to illustrate common forces and
+  phenomena that exists in many systems, not just the ones we’ll be discussing
+  here. For example, while <a class="xref" href="ch16.html" title="Chapter 16. Ships and Boats">Chapter 16</a>, “Ships and
+  Boats,” discusses buoyancy in detail, buoyancy is not limited to ships; any
+  object immersed in a fluid experiences buoyant forces. The same applies for
+  the topics discussed in this chapter and <a class="xref" href="ch15.html" title="Chapter 15. Aircraft">Chapter 15</a>, <a class="xref" href="ch17.html" title="Chapter 17. Cars and Hovercraft">Chapter 17</a>, <a class="xref" href="ch18.html" title="Chapter 18. Guns and Explosions">Chapter 18</a>,
+  and <a class="xref" href="ch19.html" title="Chapter 19. Sports">Chapter 19</a>.</p><p>Once you understand what’s supposed to happen with these and similar
+  systems, you’ll be in a better position to interpret your simulation results
+  to determine if they make sense—that is, if they are realistic enough.
+  You’ll also be better educated on what factors are most important for a
+  given system such that you can make appropriate simplifying assumptions to
+  help ease your effort. Basically, when designing and optimizing your code,
+  you’ll know where to cut things out without sacrificing realism. This gets
+  into the subject <a id="I_indexterm6_id315553" class="indexterm"/>of <span class="emphasis"><em>parameter tuning</em></span>.</p><p>Over the next few chapters, we want to give you enough of an
+  understanding of certain physical phenomenon such that you can tune your
+  models for the desired behavior. If you are modeling several similar objects
+  in your simulation but want each one to behave slightly differently, then
+  you have to tune the forces that get applied to each object in order to
+  achieve the varying behavior. Since forces govern the behavior of objects in
+  your simulations, we’ll be focusing on force calculations with the intent of
+  showing you how and why certain forces are what they are instead of simply
+  using the idealized formulas discussed in <a class="xref" href="ch03.html" title="Chapter 3. Force">Chapter 3</a>.
+  Parameter tuning isn’t just limited to tuning your model’s behavior—it also
+  involves dealing with numerical issues, such as numerical stability in your
+  integration algorithms. We’ll discuss these issues more when we show you
+  several simulation examples in <a class="xref" href="ch07.html" title="Chapter 7. Real-Time Simulations">Chapter 7</a>
+  through <a class="xref" href="ch14.html" title="Chapter 14. Physics Engines">Chapter 14</a>.</p><p>We’ve devoted this entire chapter to projectile motion because so many
+  physical problems that may find their way into your games fall in this
+  category. Further, the forces governing projectile motion affect many other
+  systems that aren’t necessarily projectiles—for example, the drag force
+  experienced by projectiles is similar to that experienced by airplanes,
+  cars, or any other object moving through a fluid such as air or
+  water.</p><p>A projectile is an object that is placed in motion by a force acting
+  over a very short period of time, which, as you know from <a class="xref" href="ch05.html" title="Chapter 5. Collisions">Chapter 5</a>, is also called an impulse. <a id="I_indexterm6_id315606" class="indexterm"/>After the projectile is set in motion by the initial impulse
+  during the launching phase, the projectile enters into the projectile motion
+  phase, where there is no longer a thrust or propulsive force acting on it.
+  As you know already from the examples presented in <a class="xref" href="ch02.html" title="Chapter 2. Kinematics">Chapter 2</a> and <a class="xref" href="ch04.html" title="Chapter 4. Kinetics">Chapter 4</a>, there are other
+  forces that act on projectiles. (For the moment, we’re not talking about
+  self-propelled “projectiles” such as rockets since, due to their propulsive
+  force, they don’t follow “classical” projectile motion until after they’ve
+  expended their fuel.)</p><p>In the simplest case, neglecting aerodynamic effects, the only force
+  acting on a projectile other than the initial impulsive force is <a id="I_indexterm6_id315636" class="indexterm"/>gravitation. For situations where the projectile is near the
+  earth’s surface, the problem reduces to a constant acceleration problem.
+  Assuming that the earth’s surface is flat—that is, that its curvature is
+  large compared to the range of the projectile—the following statements
+  describe projectile motion:</p><div class="itemizedlist"><ul class="itemizedlist"><li class="listitem"><p>The trajectory is parabolic.</p></li><li class="listitem"><p>The maximum range, for a given launch velocity, occurs when the
+      launch angle is 45°.</p></li><li class="listitem"><p>The velocity at impact is equal to the launch velocity when the
+      launch point and impact point are at the same level.</p></li><li class="listitem"><p>The vertical component of velocity is 0 at the apex of the
+      trajectory.</p></li><li class="listitem"><p>The time required to reach the apex is equal to the time required
+      to descend from the apex to the point of impact assuming that the launch
+      point and impact point are at the same level.</p></li><li class="listitem"><p>The time required to descend from the apex to the point of impact
+      equals the time required for an object to fall the same vertical
+      distance when dropped straight down from a height equal to the height of
+      the <a id="I_indexterm6_id315700" class="indexterm"/>apex.</p></li></ul></div><div class="sect1" title="Simple Trajectories"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="simple_trajectories">Simple Trajectories</h2></div></div></div><p>There are four simple <a id="pr6.1" class="indexterm"/><a id="tr6.1" class="indexterm"/>classes of projectile motion problems that we’ll
+    summarize:</p><div class="itemizedlist"><ul class="itemizedlist"><li class="listitem"><p>When the target and launch point are at the same level</p></li><li class="listitem"><p>When the target is at a level higher than the launch
+        point</p></li><li class="listitem"><p>When the target is at a level lower than the launch point</p></li><li class="listitem"><p>When the projectile is dropped from a moving system (like an
+        airplane) above the target</p></li></ul></div><p>In the first type of problem, the launch point and the target point
+    are located on the same horizontal plane. In <a class="xref" href="ch06.html#target_and_launch_point_at_same_level" title="Figure 6-1. Target and launch point at same level">Figure 6-1</a>,
+    <span class="emphasis"><em>v</em></span><sub>0</sub> is the initial velocity of
+    the projectile at the time of launch, φ is the launch angle,
+    <span class="emphasis"><em>R</em></span> is the range of the projectile, and
+    <span class="emphasis"><em>h</em></span> is the height of the apex of the trajectory.</p><div class="figure"><a id="target_and_launch_point_at_same_level"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject6_id315831"/><img src="httpatomoreillycomsourceoreillyimages1598913.png" alt="Target and launch point at same level"/></div></div><div class="figure-title">Figure 6-1. Target and launch point at same level</div></div><p>To solve this type of problem, use the formulas shown in <a class="xref" href="ch06.html#formulasmtarget_and_launch_point_at_same" title="Table 6-1. Formulas—target and launch point at same level">Table 6-1</a>. Note, in these
+    formulas <span class="emphasis"><em>t</em></span> represents any time instant after launch,
+    and <span class="emphasis"><em>T</em></span> represents the total time from launch to
+    impact.</p><div class="table"><a id="formulasmtarget_and_launch_point_at_same"/><div class="table-title">Table 6-1. Formulas—target and launch point at same level</div><div class="table-contents"><table style="border-collapse: collapse; border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; "><colgroup><col class="col1"/><col class="col2"/></colgroup><thead><tr><td style="text-align: left; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>To
+            calculate:</p></td><td style="text-align: left; vertical-align: bottom; border-bottom: 0.5pt solid ; "><p>Use this
+            formula:</p></td></tr></thead><tbody><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>x(t)</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>(v<sub>o</sub>
+            cos φ) t</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>y(t)</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>(v<sub>o</sub>
+            sin φ) t – (g t<sup>2</sup>) / 2</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>v<sub>x</sub>(t)</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>v<sub>o</sub>
+            cos φ</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>v<sub>y</sub>(t)</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>v<sub>o</sub>
+            sin φ – g t</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>v(t)</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>
+              <span class="inlinemediaobject"><img src="inleq_0601.png" alt=""/></span>   
+            </p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>h</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>(v<sub>o</sub><sup>2</sup>
+            sin<sup>2</sup> φ) / (2 g)</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>R</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>v<sub>o</sub> T
+            cos φ</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; "><p>T</p></td><td style="text-align: left; vertical-align: top; "><p>(2
+            v<sub>o</sub> sin φ) / g</p></td></tr></tbody></table></div></div><p>Remember to keep your units consistent when applying these formulas.
+    If you are working in the SI (metric) system, length and distance values
+    should be in meters (m); time should be in seconds (s); speed should be in
+    meters per second (m/s); and acceleration should be in meters per second
+    squared (m/s<sup>2</sup>). In the SI system,
+    <span class="emphasis"><em>g</em></span> is 9.8 m/s<sup>2</sup>.</p><p>In the second type of problem, the launch point is located on a
+    lower horizontal plane than the target. In <a class="xref" href="ch06.html#target_higher_than_launch_point" title="Figure 6-2. Target higher than launch point">Figure 6-2</a>, the launch point’s
+    <span class="emphasis"><em>y</em></span> coordinate is lower than the target’s
+    <span class="emphasis"><em>y</em></span> coordinate.</p><div class="figure"><a id="target_higher_than_launch_point"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject6_id316206"/><img src="httpatomoreillycomsourceoreillyimages1598914.png" alt="Target higher than launch point"/></div></div><div class="figure-title">Figure 6-2. Target higher than launch point</div></div><p>For this type of problem, use the formulas shown in <a class="xref" href="ch06.html#formulasmtarget_higher_than_launch_point" title="Table 6-2. Formulas—target higher than launch point">Table 6-2</a>. Notice that most of
+    these formulas are the same as those shown in <a class="xref" href="ch06.html#formulasmtarget_and_launch_point_at_same" title="Table 6-1. Formulas—target and launch point at same level">Table 6-1</a>.</p><div class="table"><a id="formulasmtarget_higher_than_launch_point"/><div class="table-title">Table 6-2. Formulas—target higher than launch point</div><div class="table-contents"><table style="border-collapse: collapse; border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; "><colgroup><col class="col1"/><col class="col2"/></colgroup><thead><tr><td style="text-align: left; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>To
+            calculate:</p></td><td style="text-align: left; vertical-align: bottom; border-bottom: 0.5pt solid ; "><p>Use this
+            formula:</p></td></tr></thead><tbody><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>(t)</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>(v<sub>o</sub>
+            cos φ) t</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>y(t)</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>(v<sub>o</sub>
+            sin φ) t – (g t<sup>2</sup>) / 2</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>v<sub>x</sub>(t)</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>v<sub>o</sub>
+            cos φ</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>v<sub>y</sub>(t)</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>v<sub>o</sub>
+            sin φ – g t</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>v(t)</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>
+              <span class="inlinemediaobject"><img src="inleq_0602.png" alt=""/></span>   
+              
+            </p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>h</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>(v<sub>o</sub><sup>2</sup>
+            sin<sup>2</sup> φ) / (2 g)</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>R</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>v<sub>o</sub> T
+            cos φ</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; "><p>T</p></td><td style="text-align: left; vertical-align: top; "><p>(v<sub>o</sub>
+            sin φ) / g + 
+              <span class="inlinemediaobject"><img src="inleq_0603.png" alt=""/></span> 
+            </p></td></tr></tbody></table></div></div><p>Actually, the only formula that has changed is that for
+    <span class="emphasis"><em>T</em></span>, where it has been revised to account for the
+    difference in elevation between the target and the launch point.</p><p>In the third type of problem, the target is located on a plane lower
+    than the launch point; in <a class="xref" href="ch06.html#target_lower_than_launch_point" title="Figure 6-3. Target lower than launch point">Figure 6-3</a>, the target’s
+    <span class="emphasis"><em>y</em></span> coordinate is lower than the launch point’s
+    <span class="emphasis"><em>y</em></span> coordinate.</p><div class="figure"><a id="target_lower_than_launch_point"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject6_id316578"/><img src="httpatomoreillycomsourceoreillyimages1598915.png" alt="Target lower than launch point"/></div></div><div class="figure-title">Figure 6-3. Target lower than launch point</div></div><p><a class="xref" href="ch06.html#formulasmtarget_lower_than_launch_point" title="Table 6-3. Formulas—target lower than launch point">Table 6-3</a> shows the
+    formulas to use for this type of problem. Here again, almost all of the
+    formulas are the same as those shown in <a class="xref" href="ch06.html#formulasmtarget_and_launch_point_at_same" title="Table 6-1. Formulas—target and launch point at same level">Table 6-1</a>.</p><div class="table"><a id="formulasmtarget_lower_than_launch_point"/><div class="table-title">Table 6-3. Formulas—target lower than launch point</div><div class="table-contents"><table style="border-collapse: collapse; border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; "><colgroup><col class="col1"/><col class="col2"/></colgroup><thead><tr><td style="text-align: left; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>To
+            calculate:</p></td><td style="text-align: left; vertical-align: bottom; border-bottom: 0.5pt solid ; "><p>Use this
+            formula:</p></td></tr></thead><tbody><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>x(t)</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>(v<sub>o</sub>
+            cos φ) t</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>y(t)</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>(v<sub>o</sub>
+            sin φ) t – (g t<sup>2</sup>) / 2</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>v<sub>x</sub>(t)</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>v<sub>o</sub>
+            cos φ</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>v<sub>y</sub>(t)</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>v<sub>o</sub>
+            sin φ – g t</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>v(t)</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p><span class="inlinemediaobject"><img src="inleq_0604.png" alt=""/></span>   </p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>h</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>b +
+            (v<sub>o</sub><sup>2</sup>
+            sin<sup>2</sup> φ) / (2 g)</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>R</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>v<sub>o</sub> T
+            cos φ</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; "><p>T</p></td><td style="text-align: left; vertical-align: top; "><p>(v<sub>o</sub>
+              sin φ) / g + <span class="inlinemediaobject"><img src="inleq_0605.png" alt=""/></span>   </p></td></tr></tbody></table></div></div><p>The only formulas that have changed are the formulas for
+    <span class="emphasis"><em>h</em></span> and <span class="emphasis"><em>T</em></span>, which have been revised
+    to account for the difference in elevation between the target and the
+    launch point (except this time the target is lower than the launch
+    point).</p><p>Finally, the fourth type of problem involves dropping the projectile
+    from a moving system, such as an airplane. In this case, the initial
+    velocity of the projectile is horizontal and equal to the speed of the
+    vehicle dropping it. <a class="xref" href="ch06.html#projectile_dropped_from_a_moving_system" title="Figure 6-4. Projectile dropped from a moving system">Figure 6-4</a> illustrates this type
+    of problem.</p><div class="figure"><a id="projectile_dropped_from_a_moving_system"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject6_id316947"/><img src="httpatomoreillycomsourceoreillyimages1598916.png" alt="Projectile dropped from a moving system"/></div></div><div class="figure-title">Figure 6-4. Projectile dropped from a moving system</div></div><p><a class="xref" href="ch06.html#formulasmprojectile_dropped_from_a_movin" title="Table 6-4. Formulas—projectile dropped from a moving system">Table 6-4</a> shows
+    the formulas to use to solve this type of problem. Note here that when
+    v<sub>o</sub> is 0, the problem reduces to a simple free-fall
+    problem in which the projectile drops straight down.</p><div class="table"><a id="formulasmprojectile_dropped_from_a_movin"/><div class="table-title">Table 6-4. Formulas—projectile dropped from a moving system</div><div class="table-contents"><table style="border-collapse: collapse; border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; "><colgroup><col class="col1"/><col class="col2"/></colgroup><thead><tr><td style="text-align: left; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>To
+            calculate:</p></td><td style="text-align: left; vertical-align: bottom; border-bottom: 0.5pt solid ; "><p>Use this
+            formula:</p></td></tr></thead><tbody><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>x(t)</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>v<sub>o</sub>
+            t</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>y(t)</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>h – (g
+            t<sup>2</sup>) / 2</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>v<sub>x</sub>(t)</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>v<sub>o</sub></p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>v<sub>y</sub>(t)</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>– g t</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>v(t)</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>
+              <span class="inlinemediaobject"><img src="inleq_0606.png" alt=""/></span>   
+              
+            </p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>h</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>(g
+            t<sup>2</sup>) / 2</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>R</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>v<sub>o</sub>
+            T</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; "><p>T</p></td><td style="text-align: left; vertical-align: top; "><p><span class="inlinemediaobject"><img src="inleq_0607.png" alt=""/></span>  </p></td></tr></tbody></table></div></div><p>These formulas are useful if you’re writing a game that does not
+    require a more accurate treatment of projectile motion—that is, if you
+    don’t need or want to consider the other forces that can act on a
+    projectile when in motion. If you are going for more accuracy, you’ll have
+    to consider these other forces and treat the problem as we <a id="I_indexterm6_id317266" class="indexterm"/><a id="I_indexterm6_id317276" class="indexterm"/>did in <a class="xref" href="ch04.html" title="Chapter 4. Kinetics">Chapter 4</a>’s example.</p></div><div class="sect1" title="Drag"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="drag">Drag</h2></div></div></div><p>In <a class="xref" href="ch03.html" title="Chapter 3. Force">Chapter 3</a> and <a class="xref" href="ch04.html" title="Chapter 4. Kinetics">Chapter 4</a>, we
+    <a id="pr6.2" class="indexterm"/><a id="fl6.2" class="indexterm"/>showed you the idealized formulas for viscous fluid dynamic
+    drag as well as how to implement drag in the equations of motion for a
+    projectile. This was illustrated in the example program discussed in <a class="xref" href="ch04.html" title="Chapter 4. Kinetics">Chapter 4</a>. Recall that the drag force is a vector just like
+    any other force and that it acts on the line of action of the velocity
+    vector but in a direction opposing velocity. While those formulas work in
+    a game simulation, as we said before, they don’t tell the whole story.
+    While we can’t treat the subject of fluid dynamics in its entirety in this
+    book, we do want to give you a better understanding of drag than just the
+    simple idealized equation presented earlier.</p><p>Analytical methods can show that the drag on an object moving
+    through a fluid is proportional to its speed, size, shape, and the density
+    and viscosity of the fluid through which it is moving. You can also come
+    to these conclusions by drawing on your own real-life experience. For
+    example, when waving your hand through the air, you feel very little
+    resistance; however, if you put your hand out of a car window traveling at
+    100 km/h, then you feel much greater resistance (drag force) on your hand.
+    This is because drag is <a id="I_indexterm6_id317370" class="indexterm"/><a id="I_indexterm6_id317380" class="indexterm"/>speed dependent. When you wave your hand underwater—say, in
+    a swimming pool—you’ll feel a greater drag force on your hand than you do
+    when waving it in the air. This is because water is more dense and viscous
+    than air. As you wave your hand underwater, you’ll notice a significant
+    difference in drag depending on the orientation of your hand. If your palm
+    is in line with the direction of motion—that is, you are leading with your
+    palm—then you’ll feel a greater drag force than you would if your hand
+    were turned 90 degrees as though you were executing a karate chop through
+    the water. This tells you that drag is a function of the shape of the
+    object. You get the idea.</p><p>To facilitate our discussion of fluid dynamic drag, let’s look at
+    the flow around a <a id="sp6.2" class="indexterm"/><a id="fls6.2" class="indexterm"/>sphere moving through a fluid such as air or water. If the
+    sphere is moving slowly through the fluid, the flow pattern around the
+    sphere would look something like <a class="xref" href="ch06.html#flow_pattern_around_slowly_moving_sphere" title="Figure 6-5. Flow pattern around slowly moving sphere">Figure 6-5</a>.</p><div class="figure"><a id="flow_pattern_around_slowly_moving_sphere"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject6_id317450"/><img src="httpatomoreillycomsourceoreillyimages1598917.png" alt="Flow pattern around slowly moving sphere"/></div></div><div class="figure-title">Figure 6-5. Flow pattern around slowly moving sphere</div></div><p><span class="emphasis"><em>Bernoulli’s equation</em></span>, which <a id="I_indexterm6_id317473" class="indexterm"/><a id="I_indexterm6_id317479" class="indexterm"/><a id="I_indexterm6_id317489" class="indexterm"/>relates pressure to velocity in fluid flow, says that as the
+    fluid moves around the sphere and speeds up, the pressure in the fluid
+    (locally) will go down. The equation, presented by Daniel <a id="I_indexterm6_id317502" class="indexterm"/><a id="I_indexterm6_id317508" class="indexterm"/>Bernoulli in 1738, applies to frictionless incompressible
+    fluid flow and looks like this:<sup>[<a id="CHP-6-FN-1" href="#ftn.CHP-6-FN-1" epub:type="noteref" class="footnote">15</a>]</sup></p><table style="border: 0; " class="simplelist"><tr><td>P / γ + z + V<sup>2</sup> / (2g) =
+      constant</td></tr></table><p>where <span class="emphasis"><em>P</em></span> is the pressure at a point in the fluid
+    volume under consideration, γ is the specific weight of the fluid,
+    <span class="emphasis"><em>z</em></span> is the elevation of the point under consideration,
+    <span class="emphasis"><em>V</em></span> is the fluid velocity at that point, and
+    <span class="emphasis"><em>g</em></span> is the acceleration due to gravity. As you can see,
+    if the expression on the left is to remain constant, and assuming that
+    <span class="emphasis"><em>z</em></span> is constant, then if velocity increases the
+    pressure must decrease. Likewise, if pressure increases, then velocity
+    must decrease.</p><p>As you can see in <a class="xref" href="ch06.html#flow_pattern_around_slowly_moving_sphere" title="Figure 6-5. Flow pattern around slowly moving sphere">Figure 6-5</a>, the pressure will
+    be greatest at the stagnation point,
+    <span class="emphasis"><em>S</em></span><sub>l</sub>, and will decrease around
+    the leading side of the sphere and then start to increase again around the
+    back of the sphere. In an ideal fluid with no friction, the pressure is
+    fully recovered behind the sphere and there is a trailing stagnation
+    point, <span class="emphasis"><em>S</em></span><sub>t</sub>, whose pressure is
+    equal to the pressure at the leading stagnation point. Since the pressure
+    fore and aft of the sphere is equal and opposite, there is no net drag
+    force acting on the sphere.</p><p>The pressure on the top and bottom of the sphere will be lower than
+    at the stagnation points since the fluid velocity is greater over the top
+    and bottom. Since this is a case of symmetric flow around the sphere,
+    there will be no net pressure difference between the top and bottom of the
+    sphere.</p><p>In a real fluid there is friction, which affects the flow around the
+    sphere such that the pressure is never fully recovered on the aft side of
+    the sphere. As the fluid flows around the sphere, a thin layer sticks to
+    the surface of the sphere due to friction. In <a id="I_indexterm6_id317607" class="indexterm"/><a id="I_indexterm6_id317617" class="indexterm"/>this <span class="emphasis"><em>boundary layer</em></span>, the speed of the
+    fluid varies from 0 at the sphere surface to the ideal free stream
+    velocity, as illustrated in <a class="xref" href="ch06.html#velocity_gradient_within_boundary_layer" title="Figure 6-6. Velocity gradient within boundary layer">Figure 6-6</a>.</p><div class="figure"><a id="velocity_gradient_within_boundary_layer"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject6_id317646"/><img src="httpatomoreillycomsourceoreillyimages1598918.png" alt="Velocity gradient within boundary layer"/></div></div><div class="figure-title">Figure 6-6. Velocity gradient within boundary layer</div></div><p>This velocity gradient represents a momentum transfer from the
+    sphere to the fluid and gives rise to the frictional component of drag.
+    Since a certain amount of fluid is <span class="emphasis"><em>sticking</em></span> to the
+    sphere, you can think of this as the energy required to accelerate the
+    fluid and move it along with the sphere. (If the flow within this boundary
+    layer is laminar, then the viscous shear stress between fluid “layers”
+    gives rise to friction drag. When the flow is turbulent, the velocity
+    gradient and thus the transfer of momentum gives rise to friction
+    drag.)</p><p>Moving further aft along the sphere, the boundary layer grows in
+    thickness and will not be able to maintain its adherence to the sphere
+    surface, and it will separate at some point. Beyond <a id="I_indexterm6_id317685" class="indexterm"/><a id="I_indexterm6_id317695" class="indexterm"/>this <span class="emphasis"><em>separation point</em></span>, the flow will be
+    turbulent, and this is called <a id="I_indexterm6_id317706" class="indexterm"/><a id="I_indexterm6_id317716" class="indexterm"/>the <span class="emphasis"><em>turbulent wake</em></span>. In this region, the
+    fluid pressure is lower than that at the front of the sphere. This
+    pressure differential gives rise to the pressure component of drag. <a class="xref" href="ch06.html#flow_pattern_around_sphere_showing_separ" title="Figure 6-7. Flow pattern around sphere showing separation">Figure 6-7</a> shows how the flow
+    might look.</p><div class="figure"><a id="flow_pattern_around_sphere_showing_separ"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject6_id317744"/><img src="httpatomoreillycomsourceoreillyimages1598919.png" alt="Flow pattern around sphere showing separation"/></div></div><div class="figure-title">Figure 6-7. Flow pattern around sphere showing separation</div></div><p>For a slowly moving sphere, the separation point will be
+    approximately 80° from the leading edge.</p><p>Now, if you were to roughen the surface of the sphere, you’ll affect
+    the flow around it. As you would expect, this roughened sphere will have a
+    higher friction drag component. However, more importantly, the flow will
+    adhere to the sphere longer and the separation point will be pushed
+    further back to approximately 115°, as shown in <a class="xref" href="ch06.html#flow_around_a_roughened_sphere" title="Figure 6-8. Flow around a roughened sphere">Figure 6-8</a>.</p><div class="figure"><a id="flow_around_a_roughened_sphere"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject6_id317789"/><img src="httpatomoreillycomsourceoreillyimages1598920.png" alt="Flow around a roughened sphere"/></div></div><div class="figure-title">Figure 6-8. Flow around a roughened sphere</div></div><p>This will reduce the size of the turbulent wake and the pressure
+    differential, thus decreasing the pressure drag. It’s paradoxical but true
+    that, all other things being equal, a slightly roughened sphere will have
+    less <span class="emphasis"><em>total</em></span> drag than a smooth one. Ever wonder why
+    golf balls have dimples? If so, there’s your answer.</p><p>The total drag on the sphere depends very much on the nature of the
+    flow around the sphere—that is, whether the flow is laminar or turbulent.
+    This is best illustrated by looking at some experimental data. <a class="xref" href="ch06.html#total_drag_coefficient_for_a_smooth_sphe" title="Figure 6-9. Total drag coefficient for a smooth sphere versus Reynolds number">Figure 6-9</a> shows a typical
+    curve of the total drag coefficient for a sphere plotted as a<a id="I_indexterm6_id317827" class="indexterm"/><a id="I_indexterm6_id317836" class="indexterm"/> function of the <span class="emphasis"><em>Reynolds
+    number</em></span>.</p><div class="figure"><a id="total_drag_coefficient_for_a_smooth_sphe"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject6_id317881"/><img src="httpatomoreillycomsourceoreillyimages1598921.png" alt="Total drag coefficient for a smooth sphere versus Reynolds numberThe curve shown here is intended to demonstrate the trend of Cd versus Rn for a smooth sphere. For more accurate drag coefficient data for spheres and other shapes, refer to any college-level fluid mechanics text, such as Robert L. Daugherty, Joseph B. Franzini, and E. John Finnemore’s Fluid Mechanics with Engineering Applications (McGraw-Hill)."/></div></div><div class="figure-title">Figure 6-9. Total drag coefficient for a smooth sphere versus Reynolds
+      number<sup>[<a id="CHP-6-FN-2" href="#ftn.CHP-6-FN-2" epub:type="noteref" class="footnote">16</a>]</sup></div></div><p>The Reynolds number (commonly denoted
+    <span class="emphasis"><em>N</em></span><sub>r</sub> or
+    <span class="emphasis"><em>R</em></span><sub>n</sub>) is a dimensionless number
+    that represents the speed of fluid flow around an object. It’s a little
+    more than just a speed measure, since it includes a characteristic length
+    for the object and the viscosity and density of the fluid. <a id="I_indexterm6_id317916" class="indexterm"/><a id="I_indexterm6_id317924" class="indexterm"/>The formula for the Reynolds number is:</p><table style="border: 0; " class="simplelist"><tr><td>R<sub>n</sub> = (v L)/υ</td></tr></table><p>or,</p><table style="border: 0; " class="simplelist"><tr><td>R<sub>n</sub> = (v L ρ)/µ</td></tr></table><p>where <span class="emphasis"><em>v</em></span> is speed, <span class="emphasis"><em>L</em></span> is a
+    characteristic length of the object (diameter for a sphere),
+    <span class="emphasis"><em>υ</em></span> is the kinematic viscosity of the fluid, ρ is the
+    fluid mass density, and µ is the absolute viscosity of the fluid. For the
+    Reynolds number to work out as a dimensionless number velocity, length and
+    kinematic viscosity must have units of m/s, m, and
+    m<sup>2</sup>/s, respectively, within the SI
+    system.</p><p>This number is useful for non-dimensionalizing data measured from
+    tests on an object of given size (like a model) such that you can scale
+    the data to estimate the data for similar objects of different size. Here
+    “similar” means that the objects are geometrically similar, just different
+    scales, and that the flow pattern around the objects is similar. For a
+    sphere the characteristic length is diameter, so you can use drag data
+    obtained from a small model sphere of given diameter to estimate the drag
+    for a larger sphere of different diameter. A more useful application of
+    this scaling technique is estimating the viscous drag on ship or airplane
+    appendages based on model test data obtained from wind tunnel or tow tank
+    experiments.</p><p>The Reynolds number is used as an indicator of the nature of fluid
+    flow. A low Reynolds number generally indicates laminar flow, while a high
+    Reynolds number generally indicates turbulent flow. Somewhere in between,
+    there is a transition range where the flow makes the transition from
+    laminar to turbulent flow. For carefully controlled experiments, this
+    transition (<span class="emphasis"><em>critical</em></span>) Reynolds number can
+    consistently be determined. However, in general the ambient flow field
+    around an object—that is, whether it has low or high turbulence—will
+    affect when this transition occurs. Further, the transition Reynolds
+    number is specific to the type of problem being investigated (for example,
+    whether you’re looking at flow within pipes, the flow around a ship, or
+    the flow around an airplane, etc.).</p><p>We calculate the total <a id="I_indexterm6_id318014" class="indexterm"/><a id="I_indexterm6_id318025" class="indexterm"/>drag coefficient,
+    <span class="emphasis"><em>C</em></span><sub>d</sub>, by measuring the total
+    resistance, <span class="emphasis"><em>R</em></span><sub>t</sub>, from tests and
+    using the following formula:</p><table style="border: 0; " class="simplelist"><tr><td>C<sub>d</sub> = R<sub>t</sub> / (0.5 ρ
+      v<sup>2</sup> A)</td></tr></table><p>where <span class="emphasis"><em>A</em></span> is a characteristic area that depends
+    on the object being studied. For a sphere, <span class="emphasis"><em>A</em></span> is
+    typically the projected frontal area of the sphere, which is equal to the
+    area of a circle of diameter equal to that of the sphere. By comparison,
+    for ship hulls, <span class="emphasis"><em>A</em></span> is typically taken as the
+    underwater surface area of the hull. If you work out the units on the
+    righthand side of this equation, you’ll see that the drag coefficient is
+    nondimensional (i.e., it has no units).</p><p>Given the total drag coefficient, you can estimate the total
+    resistance (drag) using the following formula:</p><table style="border: 0; " class="simplelist"><tr><td>R<sub>t</sub> = (0.5 ρ v<sup>2</sup>
+      A) C<sub>d</sub></td></tr></table><p>This is a better equation to use than the ones given in <a class="xref" href="ch03.html" title="Chapter 3. Force">Chapter 3</a>, assuming you have sufficient information
+    available—namely, the total drag coefficient, density, velocity, and area.
+    Note the dependence of total resistance on velocity squared. To get
+    <span class="emphasis"><em>R</em></span><sub>t</sub> in units of newtons (N),
+    you must have velocity in m/s, area in m<sup>2</sup>, and
+    density in kg/m<sup>3</sup> (remember
+    C<sub>d</sub> is dimensionless).</p><p>Turning back now to <a class="xref" href="ch06.html#total_drag_coefficient_for_a_smooth_sphe" title="Figure 6-9. Total drag coefficient for a smooth sphere versus Reynolds number">Figure 6-9</a>, you can make a
+    couple of observations. First, you can see that the total drag coefficient
+    decreases as the Reynolds number increases. This is due to the formation
+    of the separation point and its subsequent move aft on the sphere as the
+    Reynolds number increases and the relative reduction in pressure drag, as
+    discussed previously. At a Reynolds number of approximately 250,000, there
+    is a dramatic reduction in drag. This is a result of the flow becoming
+    fully turbulent with a corresponding reduction in pressure <a id="I_indexterm6_id318155" class="indexterm"/>drag.</p><p>In the <code class="literal">Cannon2</code> example in <a class="xref" href="ch04.html" title="Chapter 4. Kinetics">Chapter 4</a>, we <a id="I_indexterm6_id318182" class="indexterm"/><a id="I_indexterm6_id318191" class="indexterm"/><a id="I_indexterm6_id318201" class="indexterm"/>implemented the ideal formula for air drag on the
+    projectile. In that case we used a constant value of drag coefficient that
+    was arbitrarily defined. As we said earlier, it would be better to use the
+    formula presented in this chapter for total drag along with the total drag
+    coefficient data shown in <a class="xref" href="ch06.html#total_drag_coefficient_for_a_smooth_sphe" title="Figure 6-9. Total drag coefficient for a smooth sphere versus Reynolds number">Figure 6-9</a> to estimate the drag
+    on the projectile. While this is more “accurate,” it does complicate
+    matters for you. Specifically, the drag coefficient is now a function of
+    the <a id="I_indexterm6_id318221" class="indexterm"/>Reynolds number, which is a function of velocity. You’ll
+    have to set up a table of drag coefficients versus the Reynolds number and
+    interpolate this table given the Reynolds number calculated at each time
+    step. As an alternative, you can fit the drag coefficient data to a curve
+    to derive a formula that you can use instead; however, the drag
+    coefficient data may be such that you’ll have to use a piecewise approach
+    and derive curve fits for each segment of the drag coefficient curve. The
+    sphere data presented herein is one such case. The data does not lend
+    itself nicely to a single polynomial curve fit over the full range of the
+    Reynolds number. In such cases, you’ll end up with a handful of formulas
+    for drag coefficient, with each formula valid over a limited range of
+    Reynolds numbers.</p><p>While the <code class="literal">Cannon2</code> example does
+    have its limitations, it is useful to see the effects of drag on the
+    trajectory of the projectile. The obvious effect is that the trajectory is
+    no longer parabolic. You can see in <a class="xref" href="ch06.html#cannon2_example_comma_trajectories" title="Figure 6-10. Cannon2 example, trajectories">Figure 6-10</a> that the trajectory
+    appears to drop off much more sharply when the projectile is making its
+    descent after reaching its apex height.</p><div class="figure"><a id="cannon2_example_comma_trajectories"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject6_id318267"/><img src="httpatomoreillycomsourceoreillyimages1598922.png" alt="Cannon2 example, trajectories"/></div></div><div class="figure-title">Figure 6-10. Cannon2 example, trajectories</div></div><p>Another important effect of drag on trajectory (this applies to
+    objects in free fall as well) is the fact that drag will limit the maximum
+    vertical velocity attainable. This limit is the so-called
+    <span class="emphasis"><em>terminal velocity</em></span>. <a id="I_indexterm6_id318292" class="indexterm"/><a id="I_indexterm6_id318299" class="indexterm"/><a id="I_indexterm6_id318309" class="indexterm"/><a id="I_indexterm6_id318318" class="indexterm"/>Consider an object in free fall for a moment. As the object
+    accelerates toward the earth at the gravitation acceleration, its velocity
+    increases. As velocity increases, so does drag since drag is a function of
+    velocity. At some speed the drag force retarding the object’s motion will
+    increase to a point where it is equal to the gravitational force that’s
+    pulling the object toward the earth. In the absence of any other forces
+    that may affect motion, the net acceleration on the object is 0, and it
+    continues its descent at the constant terminal velocity.</p><p>Let us illustrate this further. Go back to the formula we derived
+    for the <span class="emphasis"><em>y</em></span> component (vertical component) of velocity
+    for the projectile modeled in the <code class="literal">Cannon2</code> example. Here it is again so you don’t
+    have to flip back to <a class="xref" href="ch04.html" title="Chapter 4. Kinetics">Chapter 4</a>:</p><table style="border: 0; " class="simplelist"><tr><td>v<sub>y2</sub> = (1 / C<sub>d</sub>)
+      e<sup>(–C</sup>d<sup>/m)t</sup>
+      (C<sub>d</sub> v<sub>y1</sub> + m g) – (m g) /
+      C<sub>d</sub></td></tr></table><p>It isn’t obvious from looking at this equation, but the velocity
+    component, <span class="emphasis"><em>v</em></span><sub>y2</sub>, asymptotes to
+    some constant value as time increases. To help you visualize this, we’ve
+    plotted this equation, as shown in <a class="xref" href="ch06.html#terminal_velocity" title="Figure 6-11. Terminal velocity">Figure 6-11</a>.</p><div class="figure"><a id="terminal_velocity"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject6_id318416"/><img src="httpatomoreillycomsourceoreillyimages1598923.png" alt="Terminal velocity"/></div></div><div class="figure-title">Figure 6-11. Terminal velocity</div></div><p>As you can see, over time the velocity reaches a maximum absolute
+    value of about −107.25 speed units. The negative velocities indicate that
+    the velocity is in the negative y-direction—that is, the object is falling
+    toward the earth in this case. (For this calculation we arbitrarily
+    assumed a mass of 100, a drag coefficient of 30, and an initial velocity
+    of 0.)</p><p>Assuming an initial velocity of 0 and equating the formula for total
+    resistance shown earlier to the weight of an object, you can derive the
+    following formula for terminal velocity for an object in free fall:</p><table style="border: 0; " class="simplelist"><tr><td>v<sub>t</sub> = 
+        <span class="inlinemediaobject"><img src="inleq_0608.png" alt=""/></span>   
+      
+      </td></tr></table><p>The trick in applying this formula is in determining the right value
+    for the <a id="I_indexterm6_id318473" class="indexterm"/>drag coefficient. Just for fun, let’s assume a drag
+    coefficient of 0.5 and calculate the terminal velocity for several
+    different objects. This exercise will allow you to see the influence of
+    the object’s size on terminal velocity. <a class="xref" href="ch06.html#terminal_velocities_for_various_objects" title="Table 6-5. Terminal velocities for various objects">Table 6-5</a> gives the terminal
+    velocities for various objects in free fall using an air density of 1.225
+    kg/m<sup>3</sup> (air at standard atmospheric pressure at
+    15°C). Using this equation with density in
+    kg/m<sup>3</sup> means that <span class="emphasis"><em>m</em></span> must be
+    in kg, <span class="emphasis"><em>g</em></span> in m/s<sup>2</sup>, and
+    <span class="emphasis"><em>A</em></span> in m<sup>2</sup> in order to get
+    the terminal speed in m/s. We went ahead and converted from m/s to
+    kilometers per hour (km/h) to present the results in <a class="xref" href="ch06.html#terminal_velocities_for_various_objects" title="Table 6-5. Terminal velocities for various objects">Table 6-5</a>. The weight of each
+    object shown in this table is simply its mass, <span class="emphasis"><em>m</em></span>,
+    times <span class="emphasis"><em>g</em></span>.</p><div class="table"><a id="terminal_velocities_for_various_objects"/><div class="table-title">Table 6-5. Terminal velocities for various objects</div><div class="table-contents"><table style="border-collapse: collapse; border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; "><colgroup><col class="col1"/><col class="col2"/><col class="col3"/><col class="col4"/></colgroup><thead><tr><td style="text-align: left; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Object<sup/></p></td><td style="text-align: left; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Weight
+            (N<sup/>)</p></td><td style="text-align: left; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Area
+            (m<sup>2</sup>)</p></td><td style="text-align: left; vertical-align: bottom; border-bottom: 0.5pt solid ; "><p>Terminal velocity
+            (km/h<sup/>)</p></td></tr></thead><tbody><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Skydiver in free
+            fall</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>801</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>0.84</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>201</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Skydiver with open
+            parachute</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>801</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>21.02</p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>40</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Baseball (2.88 in
+            diameter)</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>1.42</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>4.19×10<sup>−3</sup></p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>121</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>Golf ball (1.65 in
+            diameter)</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>0.5</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; "><p>1.40×10<sup>−3</sup></p></td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; "><p>116</p></td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; "><p>Raindrop (0.16 in
+            diameter)</p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; "><p>3.34×10<sup>−4</sup></p></td><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; "><p>1.29×10<sup>−5</sup></p></td><td style="text-align: left; vertical-align: top; "><p>32</p></td></tr></tbody></table></div></div><p>Although we’ve talked mostly about spheres in this section, the discussions on fluid flow
+      generally apply to any object moving through a fluid. Of course, the more complex the object’s
+      geometry, the harder it is to analyze the drag forces on it. Other factors such as surface
+      condition, and whether or not the object is at the interface between two fluids (such as a
+      ship in the ocean) further complicate the analysis. In practice, scale model tests are
+      particularly useful. In the <a class="link" href="apd.html" title="Appendix D. Bibliography">Bibliography</a>, we give several
+      sources where you can find more practical drag data for objects other than <a id="I_indexterm6_id318868" class="indexterm"/>spheres.</p></div><div class="sect1" title="Magnus Effect"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="magnus_effect">Magnus Effect</h2></div></div></div><p>The <span class="emphasis"><em>Magnus effect</em></span> (also known as the
+    <span class="emphasis"><em>Robbins effect</em></span>) is<a id="pr6.3" class="indexterm"/><a id="ro6.3" class="indexterm"/><a id="ma6.3" class="indexterm"/> quite an interesting phenomenon. You know from the previous
+    section that an object moving through a fluid encounters drag. What would
+    happen if that object were now spinning as it moved through the fluid? For
+    example, consider the <a id="I_indexterm6_id318935" class="indexterm"/><a id="I_indexterm6_id318945" class="indexterm"/>sphere that we talked about earlier and assume that while
+    moving through a fluid such as air or water, it spins about an axis
+    passing through its center of mass. What happens when the sphere spins is
+    the interesting part—it actually generates lift! That’s right,
+    <span class="emphasis"><em>lift</em></span>. <a id="li6.3" class="indexterm"/>From everyday experience, most people usually associate lift
+    with a wing-like shape such as an airplane wing or a hydrofoil. It is far
+    less well known that cylinders and spheres can produce lift as well—that
+    is, as long as they are spinning. We’ll use the moving sphere to explain
+    what’s happening here.</p><p>From the previous section on drag, you know that for a fast-moving
+    sphere there will be some point on the sphere where the flow separates,
+    creating a turbulent wake behind the sphere. Recall that the pressure
+    acting on the sphere within this turbulent wake is lower than the pressure
+    acting on the leading surface of the sphere, and this pressure
+    differential gives rise to the pressure drag component. When the sphere is
+    spinning—say, clockwise—about a horizontal axis passing through its
+    center, as shown in <a class="xref" href="ch06.html#spinning_sphere" title="Figure 6-12. Spinning sphere">Figure 6-12</a>, the fluid passing
+    over the top of the sphere will be sped up while the fluid passing under
+    the sphere will be retarded.</p><div class="figure"><a id="spinning_sphere"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject6_id319007"/><img src="httpatomoreillycomsourceoreillyimages1598924.png" alt="Spinning sphere"/></div></div><div class="figure-title">Figure 6-12. Spinning sphere</div></div><p>Remember, because of friction, there is a thin boundary layer of
+    fluid that attaches to the sphere’s surface. At the sphere’s surface, the
+    velocity of the fluid in the boundary layer is 0 relative to the sphere.
+    The velocity increases within the boundary layer as you move further away
+    from the sphere’s surface. In the case of the spinning sphere, there is
+    now a difference in fluid pressure above and below the sphere due to the
+    increase in velocity above the sphere and the decrease in velocity below
+    the sphere. Further, the separation point on the top side of the sphere
+    will be pushed further back along the sphere. The end result is an
+    asymmetric flow pattern around the sphere with a net lift force (due to
+    the pressure differential) perpendicular to the direction of flow. If the
+    surface of the sphere is roughened a little, not only will frictional drag
+    increase, but this lift effect will increase as well.</p><p>Don’t let the term <span class="emphasis"><em>lift</em></span> confuse you into
+    thinking that this force always acts to lift, or elevate, the sphere. The
+    effect of this lift force on the sphere’s trajectory is very much tied to
+    the axis of rotation about which the sphere is spinning as related to the
+    direction in which the sphere is traveling (that is, its angular
+    velocity).</p><p>The magnitude of the Magnus force is proportional to the speed of travel, rate of spin,
+      density of fluid, size of the object, and nature of the fluid flow. This force is not easy to
+      calculate analytically, and as with many problems in fluid dynamics, you must rely on
+      experimental data to accurately estimate it for a specific object under specific conditions.
+      There are, however, some analytical techniques that will allow you to approximate the Magnus
+      force. Without going into the theoretical details, you can apply the <span class="emphasis"><em>Kutta-Joukouski
+        theroem</em></span> to estimate the lift force on rotating objects such as cylinders and
+      spheres. The Kutta-Joukouski theorem is <a id="I_indexterm6_id319058" class="indexterm"/>based on a frictionless idealization of fluid flow involving the concept of
+      circulation around the object (like a vortex around the object). You can find the details of
+      this theory in any fluid dynamics text (we give some references in the <a class="link" href="apd.html" title="Appendix D. Bibliography">Bibliography</a>), so we won’t go into the details here. However,
+      we will give you some results.</p><p>For a spinning circular cylinder moving through a fluid, you can use
+    this formula to estimate the Magnus lift force:</p><table style="border: 0; " class="simplelist"><tr><td>F<sub>L</sub> = 2 π ρ L v
+      r<sup>2</sup> ω</td></tr></table><p>where <span class="emphasis"><em>v</em></span> is the speed of travel,
+    <span class="emphasis"><em>L</em></span> is the length of the cylinder,
+    <span class="emphasis"><em>r</em></span> is its radius, and ω is its angular velocity in
+    radians per second (rad/s). If you have spin, <span class="emphasis"><em>n</em></span>, in
+    revolutions per second (rps), then ω = 2 π <span class="emphasis"><em>n</em></span>. If you
+    have spin, <span class="emphasis"><em>n</em></span>, in revolutions per minute (rpm), then ω
+    = (2 π <span class="emphasis"><em>n</em></span>) / 60.</p><p>For a spinning sphere moving through a fluid, you can use this
+    formula:</p><table style="border: 0; " class="simplelist"><tr><td>F<sub>L</sub> = (2 π ρ v
+      r<sup>4</sup> ω) / (2 r)</td></tr></table><p>where <span class="emphasis"><em>r</em></span> is the radius of the sphere. Consistent
+    units for these equations would yield lift force in pounds in the English
+    system or newtons in the SI system. In the SI system, the appropriate
+    units for these quantities are kg/m<sup>3</sup>, m/s, and
+    m, respectively.</p><p>Keep in mind that these formulas only approximate the Magnus force;
+    they’ll get you in the ballpark, but they are not exact and actually could
+    be off by up to 50% depending on the situation. These formulas assume that
+    1) there is no slip between the fluid and the rotating surface of the
+    object, 2) there is no friction, 3) surface roughness is not taken into
+    account, and 4) there is no boundary layer.</p><p>At any rate, these equations will allow you to approximate the
+    Magnus effect for flying objects in your games, where you’ll be able to
+    model the relative differences between objects of different size that may
+    be traveling at different speeds with different spin rates. You’ll get the
+    look right. If numerical accuracy is what you’re looking for, then you’ll
+    have to turn to experimental data for your <a id="I_indexterm6_id319174" class="indexterm"/>specific problem.</p><p>Similar to the drag data shown in the previous section, experimental
+    lift data is generally presented in terms of lift coefficient. Using an
+    equation similar to the drag equation, you can calculate the <a id="I_indexterm6_id319190" class="indexterm"/>lift force with the following equation:</p><table style="border: 0; " class="simplelist"><tr><td>F<sub>L</sub> = (0.5 ρ v<sup>2</sup>
+      A) C<sub>L</sub></td></tr></table><p>As usual, it’s not as simple as this equation makes it appear. The
+    trick is in determining the lift coefficient, C<sub>L</sub>,
+    which is a function of surface conditions, the Reynolds number, velocity,
+    and spin rate. Further, experiments show that the drag coefficient is also
+    affected by spin.</p><p>For example, consider a <a id="I_indexterm6_id319234" class="indexterm"/><a id="I_indexterm6_id319244" class="indexterm"/>golf ball struck perfectly (right!) such that the ball spins
+    about a horizontal axis perpendicular to its direction of travel while in
+    flight. In this case the Magnus force will tend to lift the ball higher in
+    the air, increasing its flight time and range. For a golf ball struck such
+    that its initial velocity is 58 m/s with a take-off angle of 10 degrees,
+    the increase in range due to Magnus lift is on the order of 59 meters;
+    thus, it’s clear that this effect is significant. In fact, over the long
+    history of the game of golf, people have attempted to maximize this
+    effect. In the late 1800s, when golf balls were still made with smooth
+    surfaces, players observed that used balls with roughened surfaces flew
+    even better than smooth balls. This observation prompted manufacturers to
+    start making balls with rough surfaces so as to maximize the Magnus lift
+    effect. The dimples that you see on modern golf balls are the result of
+    many decades of experience and research and are thought to be
+    optimum.</p><p>Typically a golf ball takes off from the club with an initial
+    velocity on the order of 76 m/s, with a backspin on the order of 60
+    revolutions per second (rps). For these initial conditions, the
+    corresponding Magnus lift coefficient is within the range of 0.1 to 0.35.
+    Depending on the spin rate, this lift coefficient can be as high as 0.45,
+    and the lift force acting on the ball can be as much as 50% of the ball’s
+    weight.</p><p>If the golf ball is struck with a less-than-perfect stroke (that’s
+    more like it), the Magnus lift force may work against you. For example, if
+    your swing is such that the ball leaves the club head spinning about an
+    axis that is not horizontal, then the ball’s trajectory will curve,
+    resulting in a slice or a draw. If you top the ball such that the upper
+    surface of the ball is spinning away from you, then the ball will tend to
+    curve downward much more rapidly, significantly reducing the range of your
+    shot.</p><p>As another example, consider a <a id="I_indexterm6_id319283" class="indexterm"/><a id="I_indexterm6_id319293" class="indexterm"/>baseball pitched such that it’s spinning with topspin about
+    a horizontal axis perpendicular to its direction of travel. Here the
+    Magnus force will tend to cause the ball to curve in a downward direction,
+    making it drop more rapidly than it otherwise would without spin. If the
+    pitcher spins the ball such that the axis of rotation is not horizontal,
+    then the ball will curve out of the vertical plane. Another trick that
+    pitchers use is to give the ball backspin, making it appear (to the
+    batter) to actually rise. This rising fastball does not
+    <span class="emphasis"><em>actually</em></span> rise, but because of the Magnus lift force
+    it falls much less rapidly than it would without spin.</p><p>For a typical pitched speed and spin rate of 45 m/s and 30 rps,
+    respectively, the lift force can be up to 33% of the ball’s weight. For a
+    typical curveball, the lift coefficient is within the range of 0.1 to 0.2,
+    and for flyballs it can be up to 0.4.</p><p>These are only two examples; however, you need not look far to find
+    other examples of the Magnus force in action. Think about the behavior of
+    cricket balls, soccer balls, tennis balls, or ping-pong balls when they
+    spin in flight. Bullets fired from a gun with a rifling barrel also spin
+    and are affected by this Magnus force. There have even been sailboats
+    built with tall, vertical, rotating cylindrical “sails” that use the
+    Magnus force for propulsion. We’ve also seen technical articles describing
+    a propeller with spinning cylindrical blades instead of airfoil-type
+    blades.</p><p>To further illustrate the Magnus effect, we’ve prepared a simple
+    example program that simulates a ball being thrown with varying amounts of
+    backspin (or topspin). This example is based on the cannon example, so
+    here again, the code should look familiar to you. In this example we’ve
+    neglected drag, so the only forces that the ball will see are due to
+    gravity and the Magnus effect. We did this to isolate the lift-generating
+    effect of spin and to keep the equations of motion clearer.</p><p>Since most of the code for this example is identical, or very
+    similar, to the previous cannon examples, we won’t repeat it here. We
+    will, however, show you the global variables used in this simulation along
+    with a revised <code class="literal">DoSimulation</code> function
+    that takes care of the equations of motion:</p><a id="I_programlisting6_id319348"/><pre class="programlisting">//----------------------------------------------------------------------------//
+// Global variables required for this simulation
+//----------------------------------------------------------------------------//
+TVector          V1;     // Initial velocity (given), m/s
+TVector          V2;     // Velocity vector at time t, m/s
+double           m;      // Projectile mass (given), kg
+TVector          s1;     // Initial position (given), m
+TVector          s2;     // The projectile's position (displacement) vector, m
+double           time;   // The time from the instant the projectile
+                         // is launched, s
+double           tInc;   // The time increment to use when stepping
+                         // through the simulation, s
+double           g;      // acceleration due to gravity (given), m/s^2
+double           spin;   // spin in rpm (given)
+double           omega;  // spin in radians per second
+double           radius; // radius of projectile (given), m
+
+#define          PI     3.14159f
+#define          RHO     1.225f       // kg/m^3
+
+//----------------------------------------------------------------------------//
+int     DoSimulation(void)
+//----------------------------------------------------------------------------//
+{
+     double     C = PI * PI * RHO * radius * radius * radius * omega;
+     double     t;
+
+     // step to the next time in the simulation
+     time+=tInc;
+     t = time;
+
+     // Calc. V2:
+     V2.i = 1.0f/(1.0f-(t/m)*(t/m)*C*C) * (V1.i + C * V1.j * (t/m) −
+            C * g * (t*t)/m);
+     V2.j = V1.j + (t/m)*C*V2.i - g*t;
+
+     // Calc. S2:
+     s2.i = s1.i + V1.i * t + (1.0f/2.0f) * (C/m * V2.j) * (t*t);
+     s2.j = s1.j + V1.j * t + (1.0f/2.0f) * ( ((C*V2.i) - m*g)/m ) * (t*t);
+
+
+     // Check for collision with ground (x-z plane)
+     if(s2.j &lt;= 0)
+          return 2;
+
+     // Cut off the simulation if it's taking too long
+     // This is so the program does not get stuck in the while loop
+     if(time&gt;60)
+          return 3;
+
+     return 0;
+}</pre><p>The heart of this simulation is the lines that calculate <code class="literal">V2</code> and <code class="literal">s2</code>,
+    the instantaneous velocity and position of the projectile, respectively.
+    The equations of motion here come from the 2D kinetic equations of motion
+    including gravity, as discussed in <a class="xref" href="ch04.html" title="Chapter 4. Kinetics">Chapter 4</a>, combined
+    with the following formula (shown earlier) for estimating the Magnus lift
+    on a spinning sphere:</p><table style="border: 0; " class="simplelist"><tr><td>F<sub>L</sub> = (2 π<sup>2</sup> ρ v
+      r<sup>4</sup> ω) / (2 r)</td></tr></table><p>You can see the effect of spin on the projectile’s trajectory by
+    providing the sample program with different values for spin in revolutions
+    per minute. The program converts this to radians per second and stores
+    this value in the variable <code class="literal">omega</code>. A
+    positive spin value indicates bottom spin such that the bottom of the
+    sphere is spinning away from you, while a negative spin indicates topspin,
+    where the top of the ball spins away from you. Bottom spin generates a
+    positive lift force that will tend to extend the range of the projectile,
+    while topspin generates negative lift that will force the projectile
+    toward the ground, shortening its range. (Note that this example assumes
+    that the spin axis is horizontal and perpendicular to the plane of the
+    screen.) <a class="xref" href="ch06.html#magnus_effect_sample_program" title="Figure 6-13. Magnus effect sample program">Figure 6-13</a> illustrates this
+    <a id="I_indexterm6_id319436" class="indexterm"/><a id="I_indexterm6_id319445" class="indexterm"/><a id="I_indexterm6_id319455" class="indexterm"/>behavior.</p><div class="figure"><a id="magnus_effect_sample_program"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject6_id319477"/><img src="httpatomoreillycomsourceoreillyimages1598925.png" alt="Magnus effect sample program"/></div></div><div class="figure-title">Figure 6-13. Magnus effect sample program</div></div></div><div class="sect1" title="Variable Mass"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="variable_mass">Variable Mass</h2></div></div></div><p>In <a class="xref" href="ch01.html" title="Chapter 1. Basic Concepts">Chapter 1</a> we <a id="I_indexterm6_id319509" class="indexterm"/><a id="I_indexterm6_id319519" class="indexterm"/><a id="I_indexterm6_id319529" class="indexterm"/>mentioned that some problems in dynamics involve variable
+    mass. We’ll look at variable mass here since it applies to self-propelled
+    projectiles such as rockets. When a rocket is producing thrust to
+    accelerate, it loses mass (fuel) at some rate. When all of the fuel is
+    consumed (burnout), the rocket no longer produces thrust and has reached
+    its maximum speed. After burnout you can treat the trajectory of the
+    rocket just as you would a non-self-propelled projectile, as discussed
+    earlier. However, while the rocket is producing thrust, you need to
+    consider its mass change since this will affect its motion.</p><p>In cases where the mass change of the object under consideration is
+    such that the mass being expelled or taken in has 0 absolute velocity—like
+    a ship consuming fuel, for example—you can set up the equations of motion
+    as you normally would, where the sum of the forces equals the rate of
+    change in momentum. However, in this case mass will be a function of time,
+    and your equations of motion will look like this:</p><table style="border: 0; " class="simplelist"><tr><td>ΣF = m a = d/dt (m v) =m (dv/dt) + (dm/dt) v</td></tr></table><p>You can proceed to solve them just as you would normally, but keep
+    in mind the time dependence of mass.</p><p>A rocket, on the other hand, expels mass at some nonzero velocity,
+    and you can’t use the preceding approach to properly account for its mass
+    change. In this case, you need to consider the relative velocity between
+    the expelled mass and the rocket itself. The linear equation of motion now
+    looks like this:</p><table style="border: 0; " class="simplelist"><tr><td>ΣF = m dv/dt + dm/dt u</td></tr></table><p>where <span class="emphasis"><em>u</em></span> is the relative velocity between the
+    expelled mass and the object (the rocket in this case).</p><p>For a rocket traveling straight up, neglecting air resistance and
+    the pressure at the exhaust nozzle, the only force acting on the rocket is
+    due to gravity. But the rocket is expelling mass (burning fuel). How it
+    expels this mass is not important here, since the forces involved are
+    internal to the rocket; we need to consider only the external forces. Let
+    the fuel burn rate be <span class="emphasis"><em>–m’</em></span>. The equation of motion (in
+    the vertical direction) for the rocket is as follows:</p><table style="border: 0; " class="simplelist"><tr><td>ΣF = m dv/dt + dm/dt u</td></tr><tr><td>−mg = m dv/dt − m’ u</td></tr></table><p>If you rearrange this so that it looks like there’s only an
+    <span class="emphasis"><em>ma</em></span> term on the right of this equation, you
+    get:</p><table style="border: 0; " class="simplelist"><tr><td>m’ u − mg = m dv/dt = ma</td></tr></table><p>Here you can see that the thrust that propels the rocket into the
+    air is equal to <span class="emphasis"><em>m’u</em></span>. Since the fuel burn rate is
+    constant, the mass of the rocket at any instant in time is equal
+    to:</p><table style="border: 0; " class="simplelist"><tr><td>m = m<sub>o</sub> − m’ t</td></tr></table><p>where <span class="emphasis"><em>m</em></span><sub>o</sub> is the initial
+    mass, and the burn rate, <span class="emphasis"><em>m’</em></span>, is in the form mass per
+    unit time.</p></div><div class="footnotes" epub:type="footnotes"><br/><hr style="width: 100; align: left;"/><div class="footnote" epub:type="footnote" id="ftn.CHP-6-FN-1"><p><sup>[<a href="#CHP-6-FN-1" class="para">15</a>] </sup>In a real fluid with friction, this equation will have extra
+        terms that account for energy losses due to friction.</p></div><div class="footnote" epub:type="footnote" id="ftn.CHP-6-FN-2"><p><sup>[<a href="#CHP-6-FN-2" class="para">16</a>] </sup>The curve shown here is intended to demonstrate the trend of
+          C<sub>d</sub> versus R<sub>n</sub> for a
+          smooth sphere. For more accurate drag coefficient data for spheres
+          and other shapes, refer to any college-level fluid mechanics text,
+          such as Robert L. Daugherty, Joseph B. Franzini, and E. John
+          Finnemore’s <span class="emphasis"><em>Fluid Mechanics with Engineering
+          Applications</em></span> (McGraw-Hill).</p></div></div></section></body></html>

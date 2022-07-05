@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg"><head><title>Appendix A. Vector Operations</title><link rel="stylesheet" type="text/css" href="core.css"/><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"/><link rel="up" href="index.html" title="Physics for Game Developers"/><link rel="prev" href="ch26.html" title="Chapter 26. Sound"/><link rel="next" href="apb.html" title="Appendix B. Matrix Operations"/></head><body><section class="appendix" title="Appendix A. Vector Operations" epub:type="appendix" id="vector_operations"><div class="titlepage"><div><div><h2 class="title">Appendix A. Vector Operations</h2></div></div></div><p>This appendix implements a class called <code class="literal">Vector</code> that encapsulates all of the vector
+  operations that you need when writing 2D or 3D rigid-body simulations.
+  Although <code class="literal">Vector</code> represents 3D vectors,
+  you can easily reduce it to handle 2D vectors by eliminating all of the
+  <span class="emphasis"><em>z</em></span> terms or simply constraining the
+  <span class="emphasis"><em>z</em></span> terms to 0 where appropriate in your
+  implementation.</p><div class="sect1" title="Vector Class"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="vector_class">Vector Class</h2></div></div></div><p>The <code class="literal">Vector</code> class is <a id="vea1" class="indexterm"/><a id="I_indexterm_id364866" class="indexterm"/>defined with three components—<span class="emphasis"><em>x</em></span>, <span class="emphasis"><em>y</em></span>, and
+        <span class="emphasis"><em>z</em></span>—along with several methods and operators that implement basic vector
+      operations. The class has two constructors, one of which initializes the vector components to
+      0, and the other of which initializes the vector components to those passed to the
+      constructor:</p><a id="I_programlisting_id364890"/><pre class="programlisting">//------------------------------------------------------------------------
+// Vector Class and vector functions
+//------------------------------------------------------------------------
+class Vector {
+public:
+     float x;
+     float y;
+     float z;
+
+     Vector(void);
+     Vector(float xi, float yi, float zi);
+
+     float Magnitude(void);
+     void  Normalize(void);
+     void  Reverse(void);
+
+     Vector&amp; operator+=(Vector u);
+     Vector&amp; operator-=(Vector u);
+     Vector&amp; operator*=(float s);
+     Vector&amp; operator/=(float s);
+
+     Vector operator-(void);
+
+};
+
+// Constructor
+inline Vector::Vector(void)
+{
+     x = 0;
+     y = 0;
+     z = 0;
+}
+
+// Constructor
+inline Vector::Vector(float xi, float yi, float zi)
+{
+     x = xi;
+     y = yi;
+     z = zi;
+}</pre><div class="sect2" title="Magnitude"><div class="titlepage"><div><div><h3 class="title" id="magnitude-id1">Magnitude</h3></div></div></div><p>The <code class="literal">Magnitude</code> method <a id="I_indexterm_id364922" class="indexterm"/><a id="I_indexterm_id364933" class="indexterm"/><a id="I_indexterm_id364945" class="indexterm"/>simply calculates the scalar magnitude of the vector
+      according to the formula:</p><table style="border: 0; " class="simplelist"><tr><td>|<span class="strong"><strong>v</strong></span>| = 
+        
+          <span class="inlinemediaobject"><img src="inleq_aa01.png" alt=""/></span>   
+          
+        </td></tr></table><p>This is for a zero-based vector where the components are specified
+      relative to the origin. The magnitude of a vector is equal to its
+      length, as illustrated in <a class="xref" href="apa.html#vector_length_open_parenthesis_magnitude" title="Figure A-1. Vector length (magnitude)">Figure A-1</a>.</p><div class="figure"><a id="vector_length_open_parenthesis_magnitude"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject_id365005"/><img style="width: 152.36220472441; " src="httpatomoreillycomsourceoreillyimages1599030.png" alt="Vector length (magnitude)"/></div></div><div class="figure-title">Figure A-1. Vector length (magnitude)</div></div><p>Here’s the code that calculates the vector magnitude for our
+      <code class="literal">Vector</code> class:</p><a id="I_programlisting_id365035"/><pre class="programlisting">inline     float Vector::Magnitude(void)
+{
+     return (float) sqrt(x*x + y*y + z*z);
+}</pre><p>Note, you can calculate the components of a vector if you know its
+      length <a id="I_indexterm_id365044" class="indexterm"/>and <span class="emphasis"><em>direction angles</em></span>. Direction
+      angles are the angles between each coordinate axis and the vector, as
+      shown in <a class="xref" href="apa.html#direction_angles" title="Figure A-2. Direction angles">Figure A-2</a>.</p><div class="figure"><a id="direction_angles"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject_id365073"/><img src="httpatomoreillycomsourceoreillyimages1599031.png" alt="Direction angles"/></div></div><div class="figure-title">Figure A-2. Direction angles</div></div><p>The components of the vector shown in this figure are:</p><table style="border: 0; " class="simplelist"><tr><td>v<sub>x</sub> = |<span class="strong"><strong>v</strong></span>| cos φ<sub>x</sub></td></tr><tr><td>v<sub>y</sub> = |<span class="strong"><strong>v</strong></span>| cos φ<sub>y</sub></td></tr><tr><td>v<sub>z</sub> = |<span class="strong"><strong>v</strong></span>| cos φ<sub>z</sub></td></tr></table><p>The cosines of the direction angles seen in these equations are
+      known <a id="I_indexterm_id365151" class="indexterm"/><a id="I_indexterm_id365158" class="indexterm"/>as <span class="emphasis"><em>direction cosines</em></span>. The sum of the
+      squares of the direction cosines is always equal to 1:</p><table style="border: 0; " class="simplelist"><tr><td>cos<sup>2</sup> φ<sub>x</sub> +
+        cos<sup>2</sup> φ<sub>y</sub> +
+        cos<sup>2</sup> φ<sub>z</sub> = 1</td></tr></table></div><div class="sect2" title="Normalize"><div class="titlepage"><div><div><h3 class="title" id="normalize">Normalize</h3></div></div></div><p>The <code class="literal">Normalize</code> method
+      normalizes, <a id="I_indexterm_id365222" class="indexterm"/><a id="I_indexterm_id365232" class="indexterm"/>or converts, the vector to a unit vector satisfying the
+      following equation:</p><table style="border: 0; " class="simplelist"><tr><td>|<span class="strong"><strong>v</strong></span>| = 
+        
+          <span class="inlinemediaobject"><img src="inleq_aa02.png" alt=""/></span>   
+        
+        </td></tr></table><p>In other words, the length of the normalized vector is 1 unit. If
+      <span class="strong"><strong>v</strong></span> is a non-unit vector with
+      components <span class="emphasis"><em>x</em></span>, <span class="emphasis"><em>y</em></span>, and
+      <span class="emphasis"><em>z</em></span>, then we can calculate the unit vector <span class="strong"><strong>u</strong></span> from <span class="strong"><strong>v</strong></span> as
+      follows:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>u</strong></span> = <span class="strong"><strong>v</strong></span> / |<span class="strong"><strong>v</strong></span>| =
+        (x / |<span class="strong"><strong>v</strong></span>|) <span class="strong"><strong>I</strong></span> + (y / |<span class="strong"><strong>v</strong></span>|) <span class="strong"><strong>j</strong></span> + (z
+        / |<span class="strong"><strong>v</strong></span>|) <span class="strong"><strong>k</strong></span></td></tr></table><p>Here |<span class="strong"><strong>v</strong></span>| is simply the
+      magnitude, or length, of vector <span class="strong"><strong>v</strong></span> as
+      described earlier.</p><p>Here’s the code that converts our <code class="literal">Vector</code> class vector to a unit vector:</p><a id="I_programlisting_id365388"/><pre class="programlisting">inline     void  Vector::Normalize(void)
+{
+     float m = (float) sqrt(x*x + y*y + z*z);
+     if(m &lt;= tol) m = 1;
+     x /= m;
+     y /= m;
+     z /= m;
+
+     if (fabs(x) &lt; tol) x = 0.0f;
+     if (fabs(y) &lt; tol) y = 0.0f;
+     if (fabs(z) &lt; tol) z = 0.0f;
+}</pre><p>In this function, <code class="literal">tol</code> is a
+      float type tolerance; for example:</p><a id="I_programlisting_id365406"/><pre class="programlisting">float    const    tol = 0.0001f;</pre></div><div class="sect2" title="Reverse"><div class="titlepage"><div><div><h3 class="title" id="reverse">Reverse</h3></div></div></div><p>The <code class="literal">Reverse</code> method reverses the <a id="I_indexterm_id365428" class="indexterm"/><a id="I_indexterm_id365436" class="indexterm"/>direction of the vector, which is accomplished by simply taking the negative of
+        each component. After calling <code class="literal">Reverse</code>, the vector will
+        point in a direction opposite to the direction it was pointing before <code class="literal">Reverse</code> was called:</p><a id="I_programlisting_id365461"/><pre class="programlisting">inline     void  Vector::Reverse(void)
+{
+     x = -x;
+     y = -y;
+     z = -z;
+}</pre><p>This operation is illustrated in <a class="xref" href="apa.html#vector_reversal" title="Figure A-3. Vector reversal">Figure A-3</a>.</p><div class="figure"><a id="vector_reversal"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject_id365486"/><img src="httpatomoreillycomsourceoreillyimages1599032.png" alt="Vector reversal"/></div></div><div class="figure-title">Figure A-3. Vector reversal</div></div></div><div class="sect2" title="Vector Addition: The += Operator"><div class="titlepage"><div><div><h3 class="title" id="vector_addition_colon_the_plus_equals_op">Vector Addition: The += Operator</h3></div></div></div><p>This summation operator is <a id="I_indexterm_id365518" class="indexterm"/><a id="I_indexterm_id365528" class="indexterm"/><a id="I_indexterm_id365538" class="indexterm"/><a id="I_indexterm_id365544" class="indexterm"/><a id="I_indexterm_id365554" class="indexterm"/>used for vector addition, whereby the passed vector is
+      added to the current vector, component by component. Graphically,
+      vectors are added in tip-to-tail fashion, as illustrated in <a class="xref" href="apa.html#vector_addition" title="Figure A-4. Vector addition">Figure A-4</a>.</p><div class="figure"><a id="vector_addition"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject_id365583"/><img src="httpatomoreillycomsourceoreillyimages1599033.png" alt="Vector addition"/></div></div><div class="figure-title">Figure A-4. Vector addition</div></div><p>Here’s the code that adds the vector <span class="strong"><strong>u</strong></span> to our <code class="literal">Vector</code> class vector:</p><a id="I_programlisting_id365617"/><pre class="programlisting">inline Vector&amp; Vector::operator+=(Vector u)
+{
+     x += u.x;
+     y += u.y;
+     z += u.z;
+     return *this;
+}</pre></div><div class="sect2" title="Vector Subtraction: The −= Operator"><div class="titlepage"><div><div><h3 class="title" id="vector_subtraction_colon_the_m_equals_op">Vector Subtraction: The −= Operator</h3></div></div></div><p>This subtraction operator is <a id="I_indexterm_id365637" class="indexterm"/><a id="I_indexterm_id365647" class="indexterm"/><a id="I_indexterm_id365657" class="indexterm"/><a id="I_indexterm_id365663" class="indexterm"/><a id="I_indexterm_id365673" class="indexterm"/>used to subtract the passed vector from the current one,
+      which is performed on a component-by-component basis. Vector subtraction
+      is very similar to vector addition except that you take the reverse of
+      the second vector and add it to the first, as illustrated in <a class="xref" href="apa.html#vector_subtraction" title="Figure A-5. Vector subtraction">Figure A-5</a>.</p><div class="figure"><a id="vector_subtraction"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject_id365703"/><img src="httpatomoreillycomsourceoreillyimages1599034.png" alt="Vector subtraction"/></div></div><div class="figure-title">Figure A-5. Vector subtraction</div></div><p>Here’s the code that subtracts vector <span class="strong"><strong>u</strong></span> from our <code class="literal">Vector</code> class vector:</p><a id="I_programlisting_id365736"/><pre class="programlisting">inline     Vector&amp; Vector::operator-=(Vector u)
+{
+     x -= u.x;
+     y -= u.y;
+     z -= u.z;
+     return *this;
+}</pre></div><div class="sect2" title="Scalar Multiplication: The *= Operator"><div class="titlepage"><div><div><h3 class="title" id="scalar_multiplication_colon_the">Scalar Multiplication: The *= Operator</h3></div></div></div><p>This is the scalar <a id="I_indexterm_id365756" class="indexterm"/><a id="I_indexterm_id365766" class="indexterm"/><a id="I_indexterm_id365776" class="indexterm"/><a id="I_indexterm_id365786" class="indexterm"/><a id="I_indexterm_id365796" class="indexterm"/>multiplication operator that’s used to multiply a vector
+      by a scalar, effectively scaling the vector’s length. When you multiply
+      a vector by a scalar, you simply multiply each vector component by the
+      scalar quantity to obtain the new vector. The new vector points in the
+      same direction as the unscaled one, but its length will be different
+      (unless the scale factor is 1). This is illustrated in <a class="xref" href="apa.html#scalar_multiplication" title="Figure A-6. Scalar multiplication">Figure A-6</a>.</p><div class="figure"><a id="scalar_multiplication"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject_id365827"/><img src="httpatomoreillycomsourceoreillyimages1599035.png" alt="Scalar multiplication"/></div></div><div class="figure-title">Figure A-6. Scalar multiplication</div></div><p>Here’s the code that scales our <code class="literal">Vector</code> class vector:</p><a id="I_programlisting_id365855"/><pre class="programlisting">inline     Vector&amp; Vector::operator*=(float s)
+{
+     x *= s;
+     y *= s;
+     z *= s;
+     return *this;
+}</pre></div><div class="sect2" title="Scalar Division: The /= Operator"><div class="titlepage"><div><div><h3 class="title" id="scalar_division_colon_the_solidus_equals">Scalar Division: The /= Operator</h3></div></div></div><p>This scalar <a id="I_indexterm_id365873" class="indexterm"/><a id="I_indexterm_id365884" class="indexterm"/><a id="I_indexterm_id365894" class="indexterm"/><a id="I_indexterm_id365904" class="indexterm"/><a id="I_indexterm_id365914" class="indexterm"/>division operator is similar to the scalar multiplication operator except each
+        vector component is divided by the passed scalar quantity:</p><a id="I_programlisting_id365927"/><pre class="programlisting">inline     Vector&amp; Vector::operator/=(float s)
+{
+     x /= s;
+     y /= s;
+     z /= s;
+     return *this;
+}</pre></div><div class="sect2" title="Conjugate: The − Operator"><div class="titlepage"><div><div><h3 class="title" id="conjugate_colon_the_m_operator">Conjugate: The − Operator</h3></div></div></div><p>The conjugate <a id="I_indexterm_id365947" class="indexterm"/><a id="I_indexterm_id365957" class="indexterm"/><a id="I_indexterm_id365963" class="indexterm"/><a id="I_indexterm_id365972" class="indexterm"/>operator simply takes the negative of each vector component and can be used when
+        you are subtracting one vector from another or for reversing the direction of the vector.
+        Applying the conjugate operator is the same as reversing a vector, as <a id="I_indexterm_id365986" class="indexterm"/>discussed earlier:</p><a id="I_programlisting_id365998"/><pre class="programlisting">inline     Vector Vector::operator-(void)
+{
+     return Vector(-x, -y, -z);
+}</pre></div></div><div class="sect1" title="Vector Functions and Operators"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="vector_functions_and_operators">Vector Functions and Operators</h2></div></div></div><p>The following <a id="vea.2" class="indexterm"/>functions and overloaded operators are useful when you are
+    performing operations with two vectors, or with a vector and a scalar,
+    where the vector is based on the <code class="literal">Vector</code>
+    class.</p><div class="sect2" title="Vector Addition: The + Operator"><div class="titlepage"><div><div><h3 class="title" id="vector_addition_colon_the_plus_operator">Vector Addition: The + Operator</h3></div></div></div><p>This addition <a id="I_indexterm_id366053" class="indexterm"/><a id="I_indexterm_id366063" class="indexterm"/><a id="I_indexterm_id366073" class="indexterm"/><a id="I_indexterm_id366083" class="indexterm"/>operator adds vector <span class="strong"><strong>v</strong></span>
+      to vector <span class="strong"><strong>u</strong></span> according to the
+      formula:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>u</strong></span> + <span class="strong"><strong>v</strong></span> = (u<sub>x</sub> +
+        v<sub>x</sub>) <span class="strong"><strong>i</strong></span> +
+        (u<sub>y</sub> + v<sub>y</sub>) <span class="strong"><strong>j</strong></span> + (u<sub>z</sub> +
+        v<sub>z</sub>) <span class="strong"><strong>k</strong></span></td></tr></table><p>Here’s the code:</p><a id="I_programlisting_id366167"/><pre class="programlisting">inline     Vector operator+(Vector u, Vector v)
+{
+     return Vector(u.x + v.x, u.y + v.y, u.z + v.z);
+}</pre></div><div class="sect2" title="Vector Subtraction: The − Operator"><div class="titlepage"><div><div><h3 class="title" id="vector_subtraction_colon_the_m_operator">Vector Subtraction: The − Operator</h3></div></div></div><p>This subtraction<a id="I_indexterm_id366186" class="indexterm"/><a id="I_indexterm_id366197" class="indexterm"/><a id="I_indexterm_id366207" class="indexterm"/><a id="I_indexterm_id366217" class="indexterm"/> operator subtracts vector <span class="strong"><strong>v</strong></span> from vector <span class="strong"><strong>u</strong></span> according to the formula:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>u</strong></span> − <span class="strong"><strong>v</strong></span> = (u<sub>x</sub> −
+        v<sub>x</sub>) <span class="strong"><strong>i</strong></span> +
+        (u<sub>y</sub> − v<sub>y</sub>) <span class="strong"><strong>j</strong></span> + (u<sub>z</sub> −
+        v<sub>z</sub>) <span class="strong"><strong>k</strong></span></td></tr></table><p>Here’s the code:</p><a id="I_programlisting_id366301"/><pre class="programlisting">inline     Vector operator-(Vector u, Vector v)
+{
+     return Vector(u.x - v.x, u.y - v.y, u.z - v.z);
+}</pre></div><div class="sect2" title="Vector Cross Product: The ^ Operator"><div class="titlepage"><div><div><h3 class="title" id="vector_cross_product_colon_the_carret_op">Vector Cross Product: The ^ Operator</h3></div></div></div><p>This cross-product operator <a id="I_indexterm_id366324" class="indexterm"/><a id="I_indexterm_id366330" class="indexterm"/><a id="I_indexterm_id366337" class="indexterm"/><a id="I_indexterm_id366346" class="indexterm"/>takes the vector cross product between vectors <span class="strong"><strong>u</strong></span> and <span class="strong"><strong>v</strong></span>
+      (<span class="strong"><strong>u</strong></span> × <span class="strong"><strong>v</strong></span>) and returns a vector perpendicular to both
+      <span class="strong"><strong>u</strong></span> and <span class="strong"><strong>v</strong></span> according to the formula:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>u</strong></span> × <span class="strong"><strong>v</strong></span> = (u<sub>y</sub> *
+        v<sub>z</sub> − u<sub>z</sub> *
+        v<sub>y</sub>) <span class="strong"><strong>i</strong></span> +
+        (−u<sub>x</sub> * v<sub>z</sub> +
+        u<sub>z</sub> * v<sub>x</sub>) <span class="strong"><strong>j</strong></span> + (u<sub>x</sub> *
+        v<sub>y</sub> − u<sub>y</sub> *
+        v<sub>x</sub>) <span class="strong"><strong>k</strong></span></td></tr></table><p>The resulting vector is perpendicular to the plane that contains
+      vectors <span class="strong"><strong>u</strong></span> and <span class="strong"><strong>v</strong></span>. The direction in which this resulting vector
+      points can be determined by the <span class="emphasis"><em>right hand rule</em></span>. If
+      you place the two vectors <span class="strong"><strong>u</strong></span> and
+      <span class="strong"><strong>v</strong></span> tail to tail, as shown in <a class="xref" href="apa.html#vector_cross_product-id1" title="Figure A-7. Vector cross product">Figure A-7</a>, and curl your fingers (of your
+      right hand) in the direction from <span class="strong"><strong>u</strong></span>
+      to <span class="strong"><strong>v</strong></span>, then your thumb will point in
+      the direction of the resulting vector.</p><div class="figure"><a id="vector_cross_product-id1"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject_id366533"/><img src="httpatomoreillycomsourceoreillyimages1599036.png" alt="Vector cross product"/></div></div><div class="figure-title">Figure A-7. Vector cross product</div></div><p>In this case, the resulting vector points out of the page along
+      the z-axis since the vectors <span class="strong"><strong>u</strong></span> and
+      <span class="strong"><strong>v</strong></span> lie in the plane formed by the x-
+      and y-axes.</p><p>If two vectors are parallel, then their cross product will be 0.
+      This is useful when you need to determine whether or not two vectors are
+      indeed parallel.</p><p>The cross-product operation is distributive; however, it is not
+      commutative:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>u</strong></span> × <span class="strong"><strong>v ≠ v</strong></span> × <span class="strong"><strong>u</strong></span></td></tr><tr><td><span class="strong"><strong>u</strong></span> × <span class="strong"><strong>v = −</strong></span>(<span class="strong"><strong>v</strong></span> ×
+        <span class="strong"><strong>u</strong></span>)</td></tr><tr><td>s (<span class="strong"><strong>u</strong></span> × <span class="strong"><strong>v</strong></span>) = (s)(<span class="strong"><strong>u</strong></span>) × <span class="strong"><strong>v</strong></span> =
+        <span class="strong"><strong>u</strong></span> × (s)(<span class="strong"><strong>v</strong></span>)</td></tr><tr><td><span class="strong"><strong>u</strong></span> × ( <span class="strong"><strong>v + p</strong></span>) = (<span class="strong"><strong>u</strong></span> × <span class="strong"><strong>v</strong></span>) +
+        (<span class="strong"><strong>u</strong></span> × <span class="strong"><strong>p</strong></span>)</td></tr></table><p>Here’s the code that takes the cross product of vectors <span class="strong"><strong>u</strong></span> and <span class="strong"><strong>v</strong></span>:</p><a id="I_programlisting_id366724"/><pre class="programlisting">inline     Vector operator^(Vector u, Vector v)
+{
+     return Vector(     u.y*v.z - u.z*v.y,
+                         -u.x*v.z + u.z*v.x,
+                         u.x*v.y - u.y*v.x );
+}</pre><p>Vector cross products are handy when you need to find normal
+      (perpendicular) vectors. For example, when performing collision
+      detection you often need to find the vector normal to the face of a
+      polygon. You can construct two vectors in the plane of the polygon using
+      the polygon’s vertices and then take the cross product of these two
+      vectors to get normal vector.</p></div><div class="sect2" title="Vector Dot Product: The * Operator"><div class="titlepage"><div><div><h3 class="title" id="vector_dot_product_colon_the_asterisk_op">Vector Dot Product: The * Operator</h3></div></div></div><p>This operator <a id="I_indexterm_id366754" class="indexterm"/><a id="I_indexterm_id366763" class="indexterm"/><a id="I_indexterm_id366773" class="indexterm"/><a id="I_indexterm_id366783" class="indexterm"/><a id="I_indexterm_id366789" class="indexterm"/>takes the vector dot product between the vectors <span class="strong"><strong>u</strong></span> and <span class="strong"><strong>v</strong></span>,
+      according to the formula:</p><table style="border: 0; " class="simplelist"><tr><td><span class="strong"><strong>u</strong></span> • <span class="strong"><strong>v</strong></span> = (u<sub>x</sub> *
+        v<sub>x</sub>) + (u<sub>y</sub> *
+        v<sub>y</sub>) + (u<sub>z</sub> *
+        v<sub>z</sub>)</td></tr></table><p>The dot product represents the projection of the vector <span class="strong"><strong>u</strong></span> onto the vector <span class="strong"><strong>v</strong></span>, as illustrated in <a class="xref" href="apa.html#vector_dot_product" title="Figure A-8. Vector dot product">Figure A-8</a>.</p><div class="figure"><a id="vector_dot_product"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject_id366883"/><img src="httpatomoreillycomsourceoreillyimages1599037.png" alt="Vector dot product"/></div></div><div class="figure-title">Figure A-8. Vector dot product</div></div><p>In this figure, <span class="emphasis"><em>P</em></span> is the result of the dot
+      product, and it is a scalar. You can also calculate the dot product if
+      you the know the angle between the vectors:</p><table style="border: 0; " class="simplelist"><tr><td>P = <span class="strong"><strong>u</strong></span> • <span class="strong"><strong>v</strong></span> = |<span class="strong"><strong>u|</strong></span>
+        |<span class="strong"><strong>v|</strong></span> cos θ</td></tr></table><p>Here’s the code that takes the dot product of <span class="strong"><strong>u</strong></span> and <span class="strong"><strong>v</strong></span>:</p><a id="I_programlisting_id366959"/><pre class="programlisting">// Vector dot product
+inline     float operator*(Vector u, Vector v)
+{
+     return (u.x*v.x + u.y*v.y + u.z*v.z);
+}</pre><p>Vector dot products are handy when you need to find the magnitude
+      of a vector projected onto another one. Going back to collision
+      detection as an example, you often have to determine the closest
+      distance from a point, which may be a polygon vertex on one body (body
+      1) to a polygon face on another body (body 2). If you construct a vector
+      from the face under consideration on body 2, using any of its vertices,
+      to the point under consideration from body 1, then you can find the
+      closest distance of that point from the plane of body 2’s face by taking
+      the dot product of that point with the normal vector to the plane. (If
+      the normal vector is not of unit length, then you’ll have to divide the
+      result by the magnitude of the normal vector.)</p></div><div class="sect2" title="Scalar Multiplication: The * Operator"><div class="titlepage"><div><div><h3 class="title" id="scalar_multiplication_colon_the-id1">Scalar Multiplication: The * Operator</h3></div></div></div><p>This operator <a id="I_indexterm_id366986" class="indexterm"/><a id="I_indexterm_id366996" class="indexterm"/><a id="I_indexterm_id367006" class="indexterm"/><a id="I_indexterm_id367016" class="indexterm"/>multiplies the vector <span class="strong"><strong>u</strong></span> by the scalar
+          <span class="emphasis"><em>s</em></span> on a component-by-component basis. There are two versions of this
+        overloaded operator depending on the order in which the vector and scalar are
+        encountered:</p><a id="I_programlisting_id367039"/><pre class="programlisting">inline     Vector operator*(float s, Vector u)
+{
+     return Vector(u.x*s, u.y*s, u.z*s);
+}
+
+
+inline     Vector operator*(Vector u, float s)
+{
+     return Vector(u.x*s, u.y*s, u.z*s);
+}</pre></div><div class="sect2" title="Scalar Division: The / Operator"><div class="titlepage"><div><div><h3 class="title" id="scalar_division_colon_the_solidus_operat">Scalar Division: The / Operator</h3></div></div></div><p>This operator divides the <a id="I_indexterm_id367060" class="indexterm"/><a id="I_indexterm_id367070" class="indexterm"/><a id="I_indexterm_id367080" class="indexterm"/><a id="I_indexterm_id367090" class="indexterm"/>vector <span class="strong"><strong>u</strong></span> by the scalar <span class="emphasis"><em>s</em></span>
+        on a component-by-component basis:</p><a id="I_programlisting_id367112"/><pre class="programlisting">inline     Vector operator/(Vector u, float s)
+{
+     return Vector(u.x/s, u.y/s, u.z/s);
+}</pre></div><div class="sect2" title="Triple Scalar Product"><div class="titlepage"><div><div><h3 class="title" id="triple_scalar_product">Triple Scalar Product</h3></div></div></div><p>This function <a id="I_indexterm_id367134" class="indexterm"/><a id="I_indexterm_id367140" class="indexterm"/><a id="I_indexterm_id367150" class="indexterm"/>takes the triple scalar product of the vectors <span class="strong"><strong>u</strong></span>, <span class="strong"><strong>v</strong></span>, and
+      <span class="strong"><strong>w</strong></span> according to the formula:</p><table style="border: 0; " class="simplelist"><tr><td>s = <span class="strong"><strong>u</strong></span> • (<span class="strong"><strong>v</strong></span> × <span class="strong"><strong>w</strong></span>)</td></tr></table><p>Here, the result, <span class="emphasis"><em>s</em></span>, is a scalar. The code is
+      as <a id="I_indexterm_id367213" class="indexterm"/>follows:</p><a id="I_programlisting_id367225"/><pre class="programlisting">inline     float TripleScalarProduct(Vector u, Vector v, Vector w)
+{
+     return float(     (u.x * (v.y*w.z - v.z*w.y)) +
+                         (u.y * (-v.x*w.z + v.z*w.x)) +
+                         (u.z * (v.x*w.y - v.y*w.x)) );
+}</pre></div></div></section></body></html>

@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg"><head><title>Chapter 10. Implementing Collision Response</title><link rel="stylesheet" type="text/css" href="core.css"/><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"/><link rel="up" href="pt02.html" title="Part II. Rigid-Body Dynamics"/><link rel="prev" href="ch09.html" title="Chapter 9. 2D Rigid-Body Simulator"/><link rel="next" href="ch11.html" title="Chapter 11. Rotation in 3D Rigid-Body Simulators"/></head><body><section class="chapter" title="Chapter 10. Implementing Collision Response" epub:type="chapter" id="implementing_collision_response"><div class="titlepage"><div><div><h2 class="title">Chapter 10. Implementing Collision Response</h2></div></div></div><p>In this chapter, we’ll show you how to add a <a id="ho10.0" class="indexterm"/><a id="co10.0" class="indexterm"/><a id="si10.0" class="indexterm"/><a id="tw10.0" class="indexterm"/>little excitement to the hovercraft example discussed in the preceding chapter.
+    Specifically, we’ll add another hovercraft and show you how to add collision response so that
+    the hovercraft can crash into each other and bounce off like a couple of bumper cars. This is an
+    important element for many types of games, so it’s crucial that you understand the code that
+    we’ll present here. Now would be a good time to go back and review <a class="xref" href="ch05.html" title="Chapter 5. Collisions">Chapter 5</a>
+    to refresh your memory on the fundamentals of rigid-body collision response since we’ll use the
+    principles and formulas discussed there to develop the collision response algorithms for the
+    hovercraft simulation. In <a class="xref" href="ch08.html" title="Chapter 8. Particles">Chapter 8</a> you saw how to implement linear collision
+    response for particles, and now we’ll show you how to handle angular effects.</p><p>To start simply, we’ll first show you how to implement collision response as if the
+    hovercraft were a couple of particles just like those in <a class="xref" href="ch08.html" title="Chapter 8. Particles">Chapter 8</a>. This
+    approach uses only linear impulse and does not include angular effects, so the results will be
+    somewhat unrealistic for these hovercraft; however, this approach is applicable to other types
+    of problems that you may be interested in (for example, billiard ball collisions). Plus, taking
+    this approach allows us to show you very clearly the distinction between linear and angular
+    effects. Including angular effects will make the simulation much more realistic; when the
+    hovercraft crash into each other, not only will they bounce off each other, but they will also
+    spin.</p><p>Before diving into collisions, let’s add another hovercraft to the example we started in
+      <a class="xref" href="ch09.html" title="Chapter 9. 2D Rigid-Body Simulator">Chapter 9</a>. Recall in that example, we had a single craft that
+    you could control using the keyboard. Now, we’ll add another hovercraft that simply moves under
+    constant forward thrust. Later, when we add collision detection and response you’ll be able to
+    run into this new hovercraft to alter its course.</p><p>Referring back to the example from <a class="xref" href="ch09.html" title="Chapter 9. 2D Rigid-Body Simulator">Chapter 9</a>, we need to add
+    another craft as follows:</p><a id="I_programlisting4_id326953"/><pre class="programlisting">RigidBody2D    Craft2;</pre><p>We’re calling the new hovercraft, very creatively, <code class="literal">Craft2</code>. In the <code class="literal">Initialize</code> function, we must now
+    add the following code:</p><a id="I_programlisting4_id326976"/><pre class="programlisting">bool    Initialize(void)
+{
+.
+.
+.
+    Craft2.vPosition.x = _WINWIDTH/2;
+    Craft2.vPosition.y = _WINHEIGHT/2;
+    Craft2.fOrientation = 90;
+.
+.
+.
+}</pre><p>This new code sample positions the second hovercraft in the middle of the screen and
+    pointing toward the bottom.</p><p>There are a few required changes to <code class="literal">UpdateSimulation</code> as
+    well. First, add <code class="literal">Craft2.UpdateBodyEuler(dt);</code> right after the
+    line <code class="literal">Craft.UpdateBodyEuler(dt);</code>. Then, add <code class="literal">DrawCraft(Craft2, RGB(200, 200, 0));</code> after the similar line that
+    draws the first <code class="literal">Craft</code>. <code class="literal">Craft2</code> will be drawn yellow to distinguish it from the first <code class="literal">Craft</code>. Finally, add the following lies at the end of <code class="literal">UpdateSimulation</code>:</p><a id="I_programlisting4_id327041"/><pre class="programlisting">    if(Craft2.vPosition.x &gt; _WINWIDTH) Craft2.vPosition.x = 0;
+    if(Craft2.vPosition.x &lt; 0) Craft2.vPosition.x = _WINWIDTH;
+    if(Craft2.vPosition.y &gt; _WINHEIGHT) Craft2.vPosition.y = 0;
+    if(Craft2.vPosition.y &lt; 0) Craft2.vPosition.y = _WINHEIGHT;</pre><p>Now, we can add the code to handle collision detection and response, allowing you to ram
+    your hovercraft into the new one we just added.</p><div class="sect1" title="Linear Collision Response"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="linear_collision_response">Linear Collision Response</h2></div></div></div><p>In this section, <a id="li10.1" class="indexterm"/><a id="co10.1" class="indexterm"/>we’ll show you how to implement simple collision response, assuming that the two
+      hovercraft are particles. We’re going to implement only bare-minimum collision detection in
+      this simulation; however, regardless of the level of sophistication of your collision
+      detection routines, there are very specific pieces of information that you must collect from
+      your collision detection routine(s) in order for your physics-based collision response
+      routines to work.</p><p>To revise the hovercraft example of the previous chapter to include simple collision
+      response, you’ll have to modify the <code class="literal">UpdateSimulation</code>
+      function and add a couple more functions: <code class="literal">CheckForCollision</code>
+      and <code class="literal">ApplyImpulse</code>.</p><p>Before showing you <code class="literal">CheckForCollision</code>, we want to
+      explain what your <a id="I_indexterm4_id327140" class="indexterm"/>collision detection function must do. First, it must let you know whether or not
+      there is a collision occurring between the hovercraft. Secondly, it must let you know if the
+      hovercraft are penetrating each other. Thirdly, if the hovercraft are colliding, it must tell
+      you what the collision normal vector is and what the relative velocity<a id="I_indexterm4_id327154" class="indexterm"/><a id="I_indexterm4_id327164" class="indexterm"/> is between the colliding hovercraft.</p><p>To determine whether or not there is a collision, you need to consider two factors:</p><div class="itemizedlist"><ul class="itemizedlist"><li class="listitem"><p>Whether or not the objects are close enough, within numerical tolerances, to be
+          considered in colliding contact</p></li><li class="listitem"><p>What the relative normal velocity is between the objects</p></li></ul></div><p>If the objects aren’t close to each other, they obviously have not collided. If they are
+      within your tolerance for contact, then they may be colliding; and if they are touching and
+      overlapping such that they are moving inside each other, they are penetrating, as illustrated
+      in <a class="xref" href="ch10.html#collision_nomenclature" title="Figure 10-1. Collision nomenclature">Figure 10-1</a>. If your collision detection routine finds that
+      the two objects are indeed close enough to be in colliding contact, then you have to do
+      another check on the relative normal velocity to see if they are moving away from each other
+      or toward each other. A collision occurs when the objects are in contact and the contact
+      points are moving toward each other.</p><div class="figure"><a id="collision_nomenclature"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject4_id327225"/><img src="httpatomoreillycomsourceoreillyimages1598943.png" alt="Collision nomenclature"/></div></div><div class="figure-title">Figure 10-1. Collision nomenclature</div></div><p>Penetration is <a id="I_indexterm4_id327246" class="indexterm"/><a id="I_indexterm4_id327252" class="indexterm"/>important because if your objects overlap during the simulation, the results won’t
+      look realistic—you’ll have one hovercraft moving inside the other. What you have to do is
+      detect this penetration condition and then back up your simulation, reduce the time step, and
+      try again. You keep doing this until they are no longer penetrating or they are within
+      tolerance to be considered colliding.</p><p>You need to determine the normal velocity vector of the collision in order to calculate
+      the <a id="I_indexterm4_id327273" class="indexterm"/><a id="I_indexterm4_id327285" class="indexterm"/><a id="I_indexterm4_id327295" class="indexterm"/>collision impulse that will be used to simulate their response to the collision.
+      For simple cases, determining this normal vector is fairly straightforward. In the case of
+      particles or spheres, the collision normal is simply along the line that connects the centers
+      of gravity of each colliding object; this <a id="I_indexterm4_id327309" class="indexterm"/><a id="I_indexterm4_id327315" class="indexterm"/>is <span class="emphasis"><em>central impact</em></span>, as discussed in <a class="xref" href="ch05.html" title="Chapter 5. Collisions">Chapter 5</a>, and is the same as that used for the particle example in <a class="xref" href="ch08.html" title="Chapter 8. Particles">Chapter 8</a>.</p><p>Now take a look at the function we’ve prepared for this simulation to check for
+      collisions:</p><a id="I_programlisting4_id327344"/><pre class="programlisting">int     CheckForCollision (pRigidBody2D body1, pRigidBody2D body2)
+{
+     Vector    d;
+     float     r;
+     int       retval = 0;
+     float     s;
+     Vector    v1, v2;
+     float     Vrn;
+
+     r = body1-&gt;ColRadius + body2-&gt;ColRadius;
+     d = body1-&gt;vPosition - body2-&gt;vPosition;
+     s = d.Magnitude() - r;
+
+     d.Normalize();
+     vCollisionNormal = d;
+
+     v1 = body1-&gt;vVelocity;
+     v2 = body2-&gt;vVelocity;
+     vRelativeVelocity = v1 - v2;
+
+     Vrn = vRelativeVelocity * vCollisionNormal;
+     if((fabs(s) &lt;= ctol) &amp;&amp; (Vrn &lt; 0.0))
+     {
+          retval = 1; // collision;
+          CollisionBody1 = body1;
+          CollisionBody2 = body2;
+     } else      if(s &lt; -ctol)
+     {
+          retval = −1; // interpenetrating
+     } else
+          retval = 0; // no collision
+
+     return retval;
+}</pre><p>This function uses a simple bounding circle check <a id="I_indexterm4_id327359" class="indexterm"/><a id="I_indexterm4_id327366" class="indexterm"/>to determine whether or not the hovercraft are colliding. The first thing it does
+      is calculate the distance, <code class="literal">r</code>, that represents the absolute
+      minimum separation between these hovercraft when they are in contact. <code class="literal">ColRadius</code> is the radius of the bounding circle of the hovercraft. We must compute
+      it for each hovercraft upon initialization as follows:</p><a id="I_programlisting4_id327392"/><pre class="programlisting">-&gt;ColRadius = SQRT(fLength*fLength + fWidth*fWidth);</pre><p>Next, the distance separating the hovercraft at the time this function is called is
+      determined and stored in the variable <code class="literal">d</code>. Since we’re
+      assuming that these hovercraft are particles, determining <code class="literal">d</code>
+      is simply a matter of calculating the distance between the coordinates of each craft’s center
+      of gravity. In terms of vectors, this is simply the position vector of one craft minus the
+      position vector of the other.</p><p>Once the function has <code class="literal">d</code> and <code class="literal">r</code>, it needs to determine the actual amount of space, <code class="literal">s</code>, separating the hovercraft’s bounding circles. After this separation is
+      determined, the function normalizes the vector <code class="literal">d</code>. Since the
+      vector <code class="literal">d</code> is along the line that separates the hovercraft’s
+      centers of gravity, normalizing it yields the collision normal vector that we need for our
+      collision response calculations. The collision normal vector is saved in the global variable
+        <code class="literal">vCollisionNormal</code>.</p><p>After calculating the collision normal, this function goes on to determine the <a id="I_indexterm4_id327462" class="indexterm"/><a id="I_indexterm4_id327474" class="indexterm"/>relative velocity between the hovercraft. In vector form, this is simply the
+      difference between the velocity vectors of each craft. Note that the velocity vectors used
+      here must be in global coordinates, not body-fixed (local) coordinates. Since what’s really
+      needed to determine if a collision is made is the<a id="I_indexterm4_id327488" class="indexterm"/> relative <span class="emphasis"><em>normal</em></span> velocity, the function proceeds to take the
+      vector dot product of the relative velocity and the collision normal vectors, saving the
+      result in the variable <code class="literal">Vrn</code>.</p><p>At this point, all of the calculations are complete, and the only thing left to do is make
+      the appropriate checks to determine if there is a collision, penetration, or no collision at
+      all.</p><p>The first check is to see if the hovercraft are colliding. We determine this by comparing
+      the absolute value of the separation between the hovercraft, <code class="literal">s</code>, with a <a id="I_indexterm4_id327524" class="indexterm"/>distance tolerance, <code class="literal">ctol</code>. If the absolute value
+      of <code class="literal">s</code> is less than <code class="literal">ctol</code>,
+      a collision might be occurring. The second requirement is that the relative normal velocity be
+      negative, which implies that the points of impact on the hovercraft are moving toward each
+      other. If there is a collision, the function returns a <code class="literal">1</code> to
+      indicate that collision response is necessary.</p><p>If the hovercraft are found not to be colliding, then we perform a second check to see if
+      they’ve moved so close together that they are penetrating each other. In this case, if
+        <code class="literal">s</code> is less than <code class="literal">–ctol</code>,
+      the hovercraft are penetrating and the function returns a <code class="literal">−1</code>. If the hovercraft are not colliding and not penetrating, then the function
+      simply returns a <code class="literal">0</code>, indicating that no further action is
+      required.</p><p>Before moving on, let’s say a word or two about <code class="literal">ctol</code>—the collision tolerance distance. This value is subject to tuning. There’s no
+      single value that works well in all cases. You must consider the overall sizes of the objects
+      potentially colliding, the step size you’re using, and how far the colliding objects are from
+      the viewer while being rendered (i.e., their scale). Basically, you should choose a value that
+      makes collisions look correct, so that on the one hand objects do not appear to be penetrating
+      each other, and on the other hand you do not report a collision when objects do not appear to
+      be touching at all.</p><p>Take a look now at the other new function, <code class="literal">ApplyImpulse</code>:</p><a id="I_programlisting4_id327616"/><pre class="programlisting">void     ApplyImpulse(pRigidBody2D body1, pRigidBody2D body2)
+{
+     float j;
+
+
+     j =  (-(1+fCr) * (vRelativeVelocity*vCollisionNormal)) /
+          ( (vCollisionNormal*vCollisionNormal) *
+            (1/body1-&gt;fMass + 1/body2-&gt;fMass) );
+
+     body1-&gt;vVelocity += (j * vCollisionNormal) / body1-&gt;fMass;
+     body2-&gt;vVelocity -= (j * vCollisionNormal) / body2-&gt;fMass;
+}</pre><p>This is a simple but crucial function for collision response. What it does is calculate
+      the linear collision impulse as a function of the colliding hovercraft’s relative normal
+      velocity, masses, and coefficient of restitution, using the formula that we showed you in
+        <a class="xref" href="ch05.html" title="Chapter 5. Collisions">Chapter 5</a>. Further, it applies this impulse to each hovercraft,
+      effectively changing their velocities in response to the collision. Note that the impulse is
+      applied to one hovercraft and then the negative impulse applied to the other.</p><p>With those two new functions complete, it’s now time to revise <code class="literal">UpdateSimulation</code> to handle collision detection and response as the simulation
+      steps through time. Here’s what the new <code class="literal">UpdateSimulation</code>
+      function looks like:</p><a id="I_programlisting4_id327654"/><pre class="programlisting">void     UpdateSimulation(float dt)
+{
+     float     dtime = dt;
+     bool      tryAgain = true;
+     int       check=0;
+     RigidBody2D     craft1Copy, craft2Copy;
+     bool      didPen = false;
+     int       count = 0;
+
+
+    Craft.SetThrusters(false, false);
+
+    if (IsKeyDown(VK_UP))
+        Craft.ModulateThrust(true);
+
+    if (IsKeyDown(VK_DOWN))
+        Craft.ModulateThrust(false);
+
+    if (IsKeyDown(VK_RIGHT))
+        Craft.SetThrusters(true, false);
+
+    if (IsKeyDown(VK_LEFT))
+        Craft.SetThrusters(false, true);
+
+
+     while(tryAgain &amp;&amp; dtime &gt; tol)
+     {
+          tryAgain = false;
+          memcpy(&amp;craft1Copy, &amp;Craft, sizeof(RigidBody2D));
+          memcpy(&amp;craft2Copy, &amp;Craft2, sizeof(RigidBody2D));
+
+          Craft.UpdateBodyEuler(dtime);
+          Craft2.UpdateBodyEuler(dtime);
+
+          CollisionBody1 = 0;
+          CollisionBody2 = 0;
+          check = CheckForCollision(&amp;craft1Copy, &amp;craft2Copy);
+
+          if(check == PENETRATING)
+          {
+               dtime = dtime/2;
+               tryAgain = true;
+               didPen = true;
+          } else if(check == COLLISION)
+          {
+               if(CollisionBody1 != 0 &amp;&amp; CollisionBody2 != 0)
+                    ApplyImpulse(CollisionBody1,  CollisionBody2);
+          }
+     }
+
+     if(!didPen)
+     {
+          memcpy(&amp;Craft, &amp;craft1Copy, sizeof(RigidBody2D));
+          memcpy(&amp;Craft2, &amp;craft2Copy, sizeof(RigidBody2D));
+     }
+}</pre><p>Obviously, this version is more complicated than the original version. There’s one main
+      reason for this:<a id="I_indexterm4_id327675" class="indexterm"/><a id="I_indexterm4_id327681" class="indexterm"/> penetration could occur because the hovercraft can move far enough within a
+      single time step to become overlapped. Visually, this situation is unappealing and
+      unrealistic, so you should to try to prevent it.</p><p>The first thing this function does is enter a <code class="literal">while</code>
+      loop:</p><a id="I_programlisting4_id327705"/><pre class="programlisting">     while(tryAgain &amp;&amp; dtime &gt; tol)
+     {
+         .
+         .
+         .
+     }</pre><p>This loop is used to back up the simulation if penetration has occurred on the initial
+      time step. What happens is this: the function first tries to update the hovercraft and then
+      checks to see if there is a collision. If there is a collision, then it gets handled by
+      applying the impulse. If there is penetration, however, then you know the time step was too
+      big and you have to try again. When this occurs, <code class="literal">tryAgain</code>
+      is set to <code class="literal">true</code>, the time step is cut in half, and another
+      attempt is made. The function stays in this loop as long as there is penetration or until the
+      time step has been reduced to a size small enough to force an exit to the loop. The purpose of
+      this looping is to find the largest step size, less than or equal to <code class="literal">dt</code>, that can be taken and still avoid penetration. You either want a collision or
+      no collision.</p><p>You might ask yourself when does small become too small in terms of time step? Too small
+      is obviously when the time step approaches 0 and your entire simulation grinds to a halt.
+      Therefore, you may want to put in some criteria to exit this loop before things slow down too
+      much. This is all subject to tuning, by the way, and it also depends on the value you set for
+        <code class="literal">ctol</code>. We can’t stress enough the importance of tuning
+      these parameters. Basically, you must strive for visual realism while keeping your frame rates
+      up to required levels.</p><p>Looking inside this <code class="literal">while</code> loop reveals what’s going on.
+      First, <code class="literal">tryAgain</code> is set to <code class="literal">false</code>, optimistically assuming that there will be no penetration, and we make
+      copies of the hovercraft’s states, reflecting the last successful call to <code class="literal">UpdateSimulation</code>.</p><p>Next, we make the usual call to <code class="literal">UpdateBody</code> for each
+      copy of the hovercraft. Then a call to the collision detection function, <code class="literal">CheckForCollision</code>, is made to see if <code class="literal">Craft</code> is colliding with or penetrating <code class="literal">Craft2</code>.
+      If there is penetration, then <code class="literal">tryAgain</code> is set to <code class="literal">true</code>, <code class="literal">dtime</code> is cut in half,
+        <code class="literal">didPen</code> is set to <code class="literal">true</code>,
+      and the function takes another lap through the <code class="literal">while</code> loop.
+        <code class="literal">didPen</code> is a flag that lets us know that a penetration
+      condition did occur.</p><p>If there was a collision, the function handles it by applying the appropriate
+      impulse:</p><a id="I_programlisting4_id327858"/><pre class="programlisting">     if(CollisionBody1 != 0 &amp;&amp; CollisionBody2 != 0)
+          ApplyImpulse(CollisionBody1,  CollisionBody2);</pre><p>After getting through the <code class="literal">while</code> loop, the updated
+      hovercraft states are saved and <code class="literal">UpdateSimulation</code> is
+      complete.</p><p>The last bit of code you need to add includes a few new global variables and <code class="literal">define</code>s:</p><a id="I_programlisting4_id327892"/><pre class="programlisting">#define     LINEARDRAGCOEFFICIENT        0.25f
+#define     COEFFICIENTOFRESTITUTION     0.5f
+#define     COLLISIONTOLERANCE           2.0f
+
+Vector      vCollisionNormal;
+Vector      vRelativeVelocity;
+float       fCr = COEFFICIENTOFRESTITUTION;
+float const ctol = COLLISIONTOLERANCE;</pre><p>The only one we haven’t mentioned so far, although you’ve seen it in <code class="literal">ApplyImpulse</code>, is <code class="literal">fCr</code>, the
+      coefficient of restitution. Here we have it set to 0.5, which means that the collisions are
+      halfway between perfectly elastic and perfectly inelastic (refer back to our earlier
+      discussions on coefficients of restitution in <a class="xref" href="ch05.html" title="Chapter 5. Collisions">Chapter 5</a> if you’ve forgotten
+      these terms). This is one of those parameters that you’ll have to tune to get the desired
+      behavior.</p><p>While we’re on the subject of tuning, we should mention that you’ll also have to play with
+      the linear drag coefficient used to calculate the drag force on the hovercraft. While this
+      coefficient is used to simulate fluid dynamic drag, it also plays an important role in terms
+      of numerical stability. You need some damping in your simulation so that your integrator does
+      not blow up—that is, damping helps keep your simulation stable.</p><p>That’s pretty much it as far as implementing basic collision response. If you run this
+      example, you’ll be able to drive the hovercraft into each other and bounce off accordingly.
+      You can play around with the mass of each hovercraft and the coefficient of restitution to see
+      how the craft behave when one is more massive than the other, or when the collision is
+      somewhere between perfectly elastic and perfectly inelastic.</p><p>You may notice that the collision response in this example sometimes looks a little
+      strange. Keep in mind that’s because this collision response algorithm, so far, assumes that
+      the hovercraft are round when in fact they are rectangular. This approach will work just fine
+      for round objects like billiard balls, but to get the level of realism required for non-round
+      rigid bodies you need to include angular effects. We’ll show you how to do that in the
+        <a id="I_indexterm4_id327946" class="indexterm"/><a id="I_indexterm4_id327955" class="indexterm"/>next section.</p></div><div class="sect1" title="Angular Effects"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="angular_effects">Angular Effects</h2></div></div></div><p>Including angular <a id="an10.2" class="indexterm"/><a id="co10.2" class="indexterm"/>effects will yield more realistic collision responses for these rigid bodies, the
+      hovercraft. To get this to work, you’ll have to make several changes to <code class="literal">ApplyImpulse</code> and <code class="literal">CheckForCollision;</code>. <code class="literal">UpdateSimulation</code> will
+      remain unchanged. The more extensive changes are in <code class="literal">CheckForCollision</code>, so we’ll discuss it first.</p><p>The new version of <code class="literal">CheckForCollision</code> will do more than
+      a simple bounding circle check. Here, each hovercraft will be represented by a polygon with
+      four edges and four vertices, and the types of contact that will be checked for are
+      vertex-vertex and vertex-edge contact (see <a class="xref" href="ch10.html#types_of_collision" title="Figure 10-2. Types of collision">Figure 10-2</a>).<sup>[<a id="CHP-10-FN-1" href="#ftn.CHP-10-FN-1" epub:type="noteref" class="footnote">19</a>]</sup></p><div class="figure"><a id="types_of_collision"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject4_id328069"/><img src="httpatomoreillycomsourceoreillyimages1598944.png" alt="Types of collision"/></div></div><div class="figure-title">Figure 10-2. Types of collision</div></div><p>In addition to the tasks discussed in the last section, this new version of <code class="literal">CheckForCollision</code> must also determine the exact point of contact
+      between the hovercraft. This is a very important distinction between this new version and the
+      last. You need to know the point of contact because in order to affect the angular velocity,
+      you must apply the impulse at the point of contact. In the last section, the normal to the
+      contact point always passed through the center of gravity of the hovercraft because we assumed
+      they were spheres; that’s not the case here.</p><p>This now brings up the challenge of finding the collision normal. There are two cases to
+      consider here. In edge-vertex collisions, the normal is always perpendicular to the edge
+      that’s involved in the collision. In vertex-vertex collisions, however, the normal is
+      ambiguous, so we’ve resorted to taking the normal parallel to the line connecting the
+      hovercraft’s centers of gravity.</p><p>All of these considerations make <code class="literal">CheckForCollisions</code> a
+      little more involved than in the previous section. The following code listing shows what we
+      mean:</p><a id="I_programlisting4_id328122"/><pre class="programlisting">int     CheckForCollision(pRigidBody2D body1, pRigidBody2D body2)
+{
+     Vector    d;
+     float     r;
+     int       retval = 0;
+     float     s;
+     Vector    vList1[4], vList2[4];
+     float     wd, lg;
+     int       i,j;
+     bool      haveNodeNode = false;
+     bool      interpenetrating = false;
+     bool      haveNodeEdge = false;
+     Vector    v1, v2, u;
+     Vector    edge, p, proj;
+     float     dist, dot;
+     float     Vrn;
+
+     // First check to see if the bounding circles are colliding
+     r = body1-&gt;fLength/2 + body2-&gt;fLength/2;
+     d = body1-&gt;vPosition - body2-&gt;vPosition;
+     s = d.Magnitude() - r;
+
+     if(s &lt;= ctol)
+     {   // We have a possible collision, check further
+          // build vertex lists for each hovercraft
+          wd = body1-&gt;fWidth;
+          lg = body1-&gt;fLength;
+          vList1[0].y = wd/2;          vList1[0].x = lg/2;
+          vList1[1].y = -wd/2;         vList1[1].x = lg/2;
+          vList1[2].y = -wd/2;         vList1[2].x = -lg/2;
+          vList1[3].y = wd/2;          vList1[3].x = -lg/2;
+
+          for(i=0; i&lt;4; i++)
+          {
+               VRotate2D(body1-&gt;fOrientation, vList1[i]);
+               vList1[i] = vList1[i] + body1-&gt;vPosition;
+          }
+
+          wd = body2-&gt;fWidth;
+          lg = body2-&gt;fLength;
+          vList2[0].y = wd/2;          vList2[0].x = lg/2;
+          vList2[1].y = -wd/2;         vList2[1].x = lg/2;
+          vList2[2].y = -wd/2;         vList2[2].x = -lg/2;
+          vList2[3].y = wd/2;          vList2[3].x = -lg/2;
+
+          for(i=0; i&lt;4; i++)
+          {
+               VRotate2D(body2-&gt;fOrientation, vList2[i]);
+               vList2[i] = vList2[i] + body2-&gt;vPosition;
+          }
+
+          // Check for vertex-vertex collision
+          for(i=0; i&lt;4 &amp;&amp; !haveNodeNode; i++)
+          {
+               for(j=0; j&lt;4 &amp;&amp; !haveNodeNode; j++)
+               {
+
+                    vCollisionPoint = vList1[i];
+                    body1-&gt;vCollisionPoint = vCollisionPoint −
+                                             body1-&gt;vPosition;
+
+                    body2-&gt;vCollisionPoint = vCollisionPoint −
+                                             body2-&gt;vPosition;
+
+                    vCollisionNormal = body1-&gt;vPosition −
+                                       body2-&gt;vPosition;
+
+                    vCollisionNormal.Normalize();
+
+                    v1 = body1-&gt;vVelocityBody +
+                        (body1-&gt;vAngularVelocity^body1-&gt;vCollisionPoint);
+
+                    v2 = body2-&gt;vVelocityBody +
+                        (body2-&gt;vAngularVelocity^body2-&gt;vCollisionPoint);
+
+                    v1 = VRotate2D(body1-&gt;fOrientation, v1);
+                    v2 = VRotate2D(body2-&gt;fOrientation, v2);
+
+                    vRelativeVelocity = v1 - v2;
+                    Vrn = vRelativeVelocity * vCollisionNormal;
+
+                    if( ArePointsEqual(vList1[i],
+                                       vList2[j]) &amp;&amp;
+                        (Vrn &lt; 0.0) )
+                         haveNodeNode = true;
+
+               }
+          }
+
+          // Check for vertex-edge collision
+          if(!haveNodeNode)
+          {
+               for(i=0; i&lt;4 &amp;&amp; !haveNodeEdge; i++)
+               {
+                    for(j=0; j&lt;3 &amp;&amp; !haveNodeEdge; j++)
+                    {
+                         if(j==2)
+                              edge = vList2[0] - vList2[j];
+                         else
+                              edge = vList2[j+1] - vList2[j];
+                         u = edge;
+                         u.Normalize();
+
+                         p = vList1[i] - vList2[j];
+                         proj = (p * u) * u;
+
+                         d = p^u;
+                         dist = d.Magnitude();
+
+                         vCollisionPoint = vList1[i];
+                         body1-&gt;vCollisionPoint = vCollisionPoint −
+                                                  body1-&gt;vPosition;
+
+                         body2-&gt;vCollisionPoint = vCollisionPoint −
+                                                  body2-&gt;vPosition;
+
+                         vCollisionNormal = ((u^p)^u);
+                         vCollisionNormal.Normalize();
+
+                         v1 = body1-&gt;vVelocityBody +
+                             (body1-&gt;vAngularVelocity ^
+                              body1-&gt;vCollisionPoint);
+
+                         v2 = body2-&gt;vVelocityBody +
+                             (body2-&gt;vAngularVelocity ^
+                              body2-&gt;vCollisionPoint);
+
+                         v1 = VRotate2D(body1-&gt;fOrientation, v1);
+                         v2 = VRotate2D(body2-&gt;fOrientation, v2);
+
+                         vRelativeVelocity = (v1 - v2);
+                         Vrn = vRelativeVelocity * vCollisionNormal;
+
+                         if( (proj.Magnitude() &gt; 0.0f) &amp;&amp;
+                             (proj.Magnitude() &lt;= edge.Magnitude()) &amp;&amp;
+                             (dist &lt;= ctol) &amp;&amp;
+                             (Vrn &lt; 0.0) )
+                              haveNodeEdge = true;
+                    }
+               }
+          }
+
+          // Check for penetration
+          if(!haveNodeNode &amp;&amp; !haveNodeEdge)
+          {
+               for(i=0; i&lt;4 &amp;&amp; !interpenetrating; i++)
+               {
+                    for(j=0; j&lt;4 &amp;&amp; !interpenetrating; j++)
+                    {
+                         if(j==3)
+                              edge = vList2[0] - vList2[j];
+                         else
+                              edge = vList2[j+1] - vList2[j];
+
+                         p = vList1[i] - vList2[j];
+                         dot = p * edge;
+                         if(dot &lt; 0)
+                         {
+                              interpenetrating = true;
+                         }
+                    }
+               }
+       }
+
+       if(interpenetrating)
+       {
+               retval = −1;
+       } else if(haveNodeNode || haveNodeEdge)
+       {
+               retval = 1;
+       } else
+               retval = 0;
+
+     } else
+     {
+          retval = 0;
+     }
+
+     return retval;
+}</pre><p>The first thing that <code class="literal">CheckForCollision</code> does is perform
+      a quick bounding-circle check to see if there is a possible collision. If no collision is
+      detected, the function simply exits, returning <code class="literal">0</code>. This is
+      the same bounding-circle check<a id="I_indexterm4_id328196" class="indexterm"/><a id="I_indexterm4_id328202" class="indexterm"/> performed in the earlier version:</p><a id="I_programlisting4_id328214"/><pre class="programlisting">     r = body1-&gt;fLength/2 + body2-&gt;fLength/2;
+     d = body1-&gt;vPosition - body2-&gt;vPosition;
+     s = d.Magnitude() - r;
+
+     if(s &lt;= ctol)
+     {
+          .
+          .
+          .
+     } else
+          retval = 0;
+     }</pre><p>If the bounding-circle check indicates the possibility of a collision, then <code class="literal">CheckForCollision</code> proceeds by setting up a couple of polygons,
+      represented by vertex lists, for each hovercraft:</p><a id="I_programlisting4_id328232"/><pre class="programlisting">          wd = body1-&gt;fWidth;
+          lg = body1-&gt;fLength;
+          vList1[0].y = wd/2;          vList1[0].x = lg/2;
+          vList1[1].y = -wd/2;         vList1[1].x = lg/2;
+          vList1[2].y = -wd/2;         vList1[2].x = -lg/2;
+          vList1[3].y = wd/2;          vList1[3].x = -lg/2;
+
+          for(i=0; i&lt;4; i++)
+          {
+               VRotate2D(body1-&gt;fOrientation, vList1[i]);
+               vList1[i] = vList1[i] + body1-&gt;vPosition;
+          }
+
+          wd = body2-&gt;fWidth;
+          lg = body2-&gt;fLength;
+          vList2[0].y = wd/2;          vList2[0].x = lg/2;
+          vList2[1].y = -wd/2;         vList2[1].x = lg/2;
+          vList2[2].y = -wd/2;         vList2[2].x = -lg/2;
+          vList2[3].y = wd/2;          vList2[3].x = -lg/2;
+          for(i=0; i&lt;4; i++)
+          {
+               VRotate2D(body2-&gt;fOrientation, vList2[i]);
+               vList2[i] = vList2[i] + body2-&gt;vPosition;
+          }</pre><p>The vertex lists are initialized in unrotated body-fixed (local) coordinates based on the
+      length and width of the hovercraft. The vertices are then rotated to reflect the orientation
+      of each hovercraft. After that, the position of each hovercraft is added to each vertex to
+      convert from local coordinates to global coordinates</p><p>Checking first for vertex-vertex collisions, the <a id="vv10.2" class="indexterm"/><a id="covv10.2" class="indexterm"/>function iterates through each vertex in one list, comparing it with each vertex
+      in the other list to see if the points are coincident.</p><a id="I_programlisting4_id328285"/><pre class="programlisting">          // Check for vertex-vertex collision
+          for(i=0; i&lt;4 &amp;&amp; !haveNodeNode; i++)
+          {
+               for(j=0; j&lt;4 &amp;&amp; !haveNodeNode; j++)
+               {
+
+                    vCollisionPoint = vList1[i];
+                    body1-&gt;vCollisionPoint = vCollisionPoint −
+                                             body1-&gt;vPosition;
+
+                    body2-&gt;vCollisionPoint = vCollisionPoint −
+                                             body2-&gt;vPosition;
+
+                    vCollisionNormal = body1-&gt;vPosition −
+                                       body2-&gt;vPosition;
+
+                    vCollisionNormal.Normalize();
+
+                    v1 = body1-&gt;vVelocityBody +
+                        (body1-&gt;vAngularVelocity^body1-&gt;vCollisionPoint);
+
+                    v2 = body2-&gt;vVelocityBody +
+                        (body2-&gt;vAngularVelocity^body2-&gt;vCollisionPoint);
+
+                    v1 = VRotate2D(body1-&gt;fOrientation, v1);
+                    v2 = VRotate2D(body2-&gt;fOrientation, v2);
+
+                    vRelativeVelocity = v1 - v2;
+                    Vrn = vRelativeVelocity * vCollisionNormal;
+
+                    if( ArePointsEqual(vList1[i],
+                                       vList2[j]) &amp;&amp;
+                                       (Vrn &lt; 0.0) )
+                         haveNodeNode = true;
+
+               }
+          }</pre><p>This comparison makes a call to another new function, <code class="literal">ArePointsEqual</code>:</p><a id="I_programlisting4_id328311"/><pre class="programlisting">                    if( ArePointsEqual(vList1[i],
+                                       vList2[j]) &amp;&amp;
+                                       (Vrn &lt; 0.0) )
+                         haveNodeNode = true;</pre><p><code class="literal">ArePointsEqual</code> simply checks to see if the points are
+      within a specified distance from each other, as shown here:</p><a id="I_programlisting4_id328329"/><pre class="programlisting">bool     ArePointsEqual(Vector p1, Vector p2)
+{
+     // Points are equal if each component is within ctol of each other
+     if(  (fabs(p1.x - p2.x) &lt;= ctol) &amp;&amp;
+          (fabs(p1.y - p2.y) &lt;= ctol) &amp;&amp;
+          (fabs(p1.z - p2.z) &lt;= ctol) )
+          return true;
+     else
+          return false;
+}</pre><p>Within the nested <code class="literal">for</code> loops of the vertex-vertex check,
+      we perform a number of important calculations to determine the collision normal vector and
+      relative velocity that are required for collision response.</p><p>First, we calculate the collision point, which is simply the coordinates of a vertex that
+      is involved in the collision. Note that this point will be in global coordinates, so it will
+      have to be converted to local coordinates for each hovercraft in order to be useful for
+      collision response. Here’s how that’s done:</p><a id="I_programlisting4_id328355"/><pre class="programlisting">                    vCollisionPoint = vList1[i];
+                    body1-&gt;vCollisionPoint = vCollisionPoint −
+                                             body1-&gt;vPosition;
+
+                    body2-&gt;vCollisionPoint = vCollisionPoint −
+                                             body2-&gt;vPosition;</pre><p>The second calculation is aimed at determining the collision normal vector, which for
+      vertex-vertex collisions we’ve assumed is along the line connecting the centers of gravity of
+      each hovercraft. The calculation is the same as that shown in the earlier version of <code class="literal">CheckForCollision</code>:</p><a id="I_programlisting4_id328375"/><pre class="programlisting">                    vCollisionNormal = body1-&gt;vPosition −
+                                       body2-&gt;vPosition;
+
+                    vCollisionNormal.Normalize();</pre><p>The third and final calculation is aimed at determining the relative velocity between the
+      points of impact. This is an important distinction from the earlier version, since the
+      velocities of the points of impact on each body are functions of the linear and angular
+      velocities of the hovercraft:</p><a id="I_programlisting4_id328389"/><pre class="programlisting">                    v1 = body1-&gt;vVelocityBody +
+                        (body1-&gt;vAngularVelocity^body1-&gt;vCollisionPoint);
+
+                    v2 = body2-&gt;vVelocityBody +
+                        (body2-&gt;vAngularVelocity^body2-&gt;vCollisionPoint);
+
+                    v1 = VRotate2D(body1-&gt;fOrientation, v1);
+                    v2 = VRotate2D(body2-&gt;fOrientation, v2);
+
+                    vRelativeVelocity = v1 - v2;
+                    Vrn = vRelativeVelocity * vCollisionNormal;</pre><p>Here, <code class="literal">v1</code> and <code class="literal">v2</code>
+      represent the velocities of the points of collision relative to each hovercraft in local
+      coordinates, which are then converted to global coordinates. Once we’ve obtained the relative
+      velocity, <code class="literal">vRelativeVelocity</code>, we obtain the relative normal
+      velocity, <code class="literal">Vrn</code>, by taking the dot product of the relative
+      velocity with the collision normal <a id="I_indexterm4_id328429" class="indexterm"/><a id="I_indexterm4_id328438" class="indexterm"/>vector.</p><p>If there is no vertex-vertex collision, <code class="literal">CheckForCollision</code> proceeds to check for <a id="ve10.2" class="indexterm"/><a id="cove10.2" class="indexterm"/>vertex-edge collisions:</p><a id="I_programlisting4_id328486"/><pre class="programlisting">          // Check for vertex-edge collision
+          if(!haveNodeNode)
+          {
+               for(i=0; i&lt;4 &amp;&amp; !haveNodeEdge; i++)
+               {
+                    for(j=0; j&lt;3 &amp;&amp; !haveNodeEdge; j++)
+                    {
+                         if(j==3)
+                              edge = vList2[0] - vList2[j];
+                         else
+                              edge = vList2[j+1] - vList2[j];
+                         u = edge;
+                         u.Normalize();
+
+                         p = vList1[i] - vList2[j];
+                         proj = (p * u) * u;
+
+                         d = p^u;
+                         dist = d.Magnitude();
+
+                         vCollisionPoint = vList1[i];
+                         body1-&gt;vCollisionPoint = vCollisionPoint −
+                                                  body1-&gt;vPosition;
+
+                         body2-&gt;vCollisionPoint = vCollisionPoint −
+                                                  body2-&gt;vPosition;
+
+                         vCollisionNormal = ((u^p)^u);
+                         vCollisionNormal.Normalize();
+
+                         v1 = body1-&gt;vVelocityBody +
+                             (body1-&gt;vAngularVelocity ^
+                              body1-&gt;vCollisionPoint);
+
+                         v2 = body2-&gt;vVelocityBody +
+                             (body2-&gt;vAngularVelocity ^
+                              body2-&gt;vCollisionPoint);
+
+                         v1 = VRotate2D(body1-&gt;fOrientation, v1);
+                         v2 = VRotate2D(body2-&gt;fOrientation, v2);
+
+                         vRelativeVelocity = (v1 - v2);
+                         Vrn = vRelativeVelocity * vCollisionNormal;
+
+                         if( (proj.Magnitude() &gt; 0.0f) &amp;&amp;
+                             (proj.Magnitude() &lt;= edge.Magnitude()) &amp;&amp;
+                             (dist &lt;= ctol) &amp;&amp;
+                             (Vrn &lt; 0.0) )
+                              haveNodeEdge = true;
+                    }
+               }
+          }</pre><p>Here, the nested <code class="literal">for</code> loops check each vertex in one
+      list to see if it is in contact with each edge built from the vertices in the other list.
+      After building the edge under consideration, we save and normalize a copy of it to represent a
+      unit vector pointing along the edge:</p><a id="I_programlisting4_id328519"/><pre class="programlisting">                         if(j==3)
+                              edge = vList2[0] - vList2[j];
+                         else
+                              edge = vList2[j+1] - vList2[j];
+                         u = edge;
+                         u.Normalize();</pre><p>Variable <code class="literal">u</code> represents that unit vector, and it will be
+      used in subsequent calculations. The next set of calculations determines the location of the
+      projection of the vertex under consideration onto the edge under consideration, as well as the
+      minimum distance from the vertex to edge:</p><a id="I_programlisting4_id328539"/><pre class="programlisting">                         p = vList1[i] - vList2[j];
+                         proj = (p * u) * u;
+
+                         d = p^u;
+                         dist = d.Magnitude();</pre><p>Variable <code class="literal">p</code> is a vector from the first vertex on the
+      edge to the vertex under consideration, and <code class="literal">proj</code> is the
+      distance from the first edge vertex, along the edge, to the point upon which the vertex
+      projects. <code class="literal">dist</code> is the minimum distance from the vertex to
+      the edge. <a class="xref" href="ch10.html#vertex-edge_check" title="Figure 10-3. Vertex-edge check">Figure 10-3</a> illustrates this geometry.</p><div class="figure"><a id="vertex-edge_check"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject4_id328585"/><img src="httpatomoreillycomsourceoreillyimages1598945.png" alt="Vertex-edge check"/></div></div><div class="figure-title">Figure 10-3. Vertex-edge check</div></div><p>If there is a collision, the global location of the point of impact is equal to the vertex
+      under consideration, which we must convert to local coordinates for each hovercraft, as shown
+      here:</p><a id="I_programlisting4_id328610"/><pre class="programlisting">                         vCollisionPoint = vList1[i];
+                         body1-&gt;vCollisionPoint = vCollisionPoint −
+                                                  body1-&gt;vPosition;
+
+                         body2-&gt;vCollisionPoint = vCollisionPoint −
+                                                  body2-&gt;vPosition;</pre><p>Since, in this type of collision, the collision normal vector is perpendicular to the
+      edge, you can determine it by taking the result of the cross product of <code class="literal">u</code> and <code class="literal">p</code> and crossing it with
+        <code class="literal">u</code> as follows:</p><a id="I_programlisting4_id328641"/><pre class="programlisting">                         vCollisionNormal = ((u^p)^u);
+                         vCollisionNormal.Normalize();</pre><p>These calculations give you a unit length vector in the plane of vectors <code class="literal">u</code> and <code class="literal">p</code> and perpendicular to
+      the edge.</p><p>Next, the relative velocity between the points of impact on each hovercraft is determined,
+      just as in the vertex-vertex collision check:</p><a id="I_programlisting4_id328668"/><pre class="programlisting">                         v1 = body1-&gt;vVelocityBody +
+                             (body1-&gt;vAngularVelocity ^
+                              body1-&gt;vCollisionPoint);
+
+                         v2 = body2-&gt;vVelocityBody +
+                             (body2-&gt;vAngularVelocity ^
+                              body2-&gt;vCollisionPoint);
+
+                         v1 = VRotate2D(body1-&gt;fOrientation, v1);
+                         v2 = VRotate2D(body2-&gt;fOrientation, v2);
+
+                         vRelativeVelocity = (v1 - v2);
+                         Vrn = vRelativeVelocity * vCollisionNormal;</pre><p>In determining whether or not the vertex under consideration is in fact colliding with an
+      edge, you have to check to see if the distance from the vertex is within your collision
+      tolerance, and you also have to make sure the vertex actually projects onto the edge (that is,
+      it does not project beyond the endpoints of the edge). Additionally, you need to make sure the
+      relative normal velocity indicates that the points of contact are moving toward each other.
+      Here’s how this check looks:</p><a id="I_programlisting4_id328687"/><pre class="programlisting">                         if( (proj.Magnitude() &gt; 0.0f) &amp;&amp;
+                             (proj.Magnitude() &lt;= edge.Magnitude()) &amp;&amp;
+                             (dist &lt;= ctol) &amp;&amp;
+                             (Vrn &lt; 0.0) )
+                              haveNodeEdge = true;</pre><p>After <code class="literal">CheckForCollision</code> checks for vertex-vertex and
+      vertex-edge collisions, it goes on to check for penetration:</p><a id="I_programlisting4_id328706"/><pre class="programlisting">          if(!haveNodeNode &amp;&amp; !haveNodeEdge)
+          {
+               for(i=0; i&lt;4 &amp;&amp; !interpenetrating; i++)
+               {
+                    for(j=0; j&lt;4 &amp;&amp; !interpenetrating; j++)
+                    {
+                         if(j==3)
+                              edge = vList2[0] - vList2[j];
+                         else
+                              edge = vList2[j+1] - vList2[j];
+
+                         p = vList1[i] - vList2[j];
+                         dot = p * edge;
+                         if(dot &lt; 0)
+                         {
+                              interpenetrating = true;
+                         }
+                    }
+               }
+       }</pre><p>This check is a standard point-in-polygon check using the vector dot product to determine
+      if any vertex of one polygon lies within the bounds of the other polygon. After this check,
+      the function simply returns the appropriate result. Here again, <code class="literal">0</code> indicates no collision or penetration, <code class="literal">1</code>
+      indicates a collision, and <code class="literal">−1</code> indicates penetration.</p><p>With <code class="literal">CheckForCollision</code> out of the way, turn your
+      attention to <code class="literal">ApplyImpulse</code>, which also has to be revised to
+      include angular effects. Specifically, you need to use the impulse formula that includes
+      angular as well as linear effects (see <a class="xref" href="ch05.html" title="Chapter 5. Collisions">Chapter 5</a>), and you also have to
+      apply the impulse to the hovercraft’s angular velocities in addition to their linear
+      velocities. Here’s how the new <code class="literal">ApplyImpulse</code> function
+      looks:</p><a id="I_programlisting4_id328770"/><pre class="programlisting">void     ApplyImpulse(pRigidBody2D body1, pRigidBody2D body2)
+{
+     float j;
+
+     j = (-(1+fCr) * (vRelativeVelocity*vCollisionNormal)) /
+          ( (1/body1-&gt;fMass + 1/body2-&gt;fMass) +
+          (vCollisionNormal * (((body1-&gt;vCollisionPoint ^
+           vCollisionNormal)/body1-&gt;fInertia)^body1-&gt;vCollisionPoint)) +
+          (vCollisionNormal * (((body2-&gt;vCollisionPoint ^
+           vCollisionNormal)/body2-&gt;fInertia)^body2-&gt;vCollisionPoint))
+          );
+
+     body1-&gt;vVelocity += (j * vCollisionNormal) / body1-&gt;fMass;
+     body1-&gt;vAngularVelocity += (body1-&gt;vCollisionPoint ^
+                                 (j * vCollisionNormal)) /
+                                 body1-&gt;fInertia;
+
+     body2-&gt;vVelocity -= (j * vCollisionNormal) / body2-&gt;fMass;
+     body2-&gt;vAngularVelocity -= (body2-&gt;vCollisionPoint ^
+                                 (j * vCollisionNormal)) /
+                                 body2-&gt;fInertia;
+}</pre><p>Remember, the impulse is applied to one hovercraft while its negative is applied to the
+      other.</p><p>That does it for this new version of the hovercraft simulation. If you run the program
+      now, you’ll see that you can crash the hovercraft into each other and they bounce and rotate
+      accordingly. This makes for a much more realistic simulation than the simple, linear collision
+      response approach of the last section. Here again, you can play with the mass of each
+      hovercraft and the coefficient of restitution to see how these parameters affect the collision
+      response between the <a id="I_indexterm4_id328796" class="indexterm"/><a id="I_indexterm4_id328805" class="indexterm"/><a id="I_indexterm4_id328814" class="indexterm"/><a id="I_indexterm4_id328824" class="indexterm"/><a id="I_indexterm4_id328833" class="indexterm"/><a id="I_indexterm4_id328842" class="indexterm"/><a id="I_indexterm4_id328852" class="indexterm"/><a id="I_indexterm4_id328861" class="indexterm"/>hovercraft.</p></div><div class="footnotes" epub:type="footnotes"><br/><hr style="width: 100; align: left;"/><div class="footnote" epub:type="footnote" id="ftn.CHP-10-FN-1"><p><sup>[<a href="#CHP-10-FN-1" class="para">19</a>] </sup>Note that this function does not handle multiple contact points.</p></div></div></section></body></html>

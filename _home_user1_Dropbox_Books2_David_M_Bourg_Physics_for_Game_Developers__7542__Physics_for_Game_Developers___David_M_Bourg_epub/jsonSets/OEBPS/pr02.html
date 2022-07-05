@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg"><head><title>Preface</title><link rel="stylesheet" type="text/css" href="core.css"/><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"/><link rel="up" href="index.html" title="Physics for Game Developers"/><link rel="prev" href="upgrade_offer_front.html" title="Special Upgrade Offer"/><link rel="next" href="pt01.html" title="Part I. Fundamentals"/></head><body><section class="preface" title="Preface" epub:type="preface" id="preface"><div class="titlepage"><div><div><h2 class="title">Preface</h2></div></div></div><div class="sect1" title="Who Is This Book For?"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="I_sect1_id286310">Who Is This Book For?</h2></div></div></div><p>Simply put, this book is targeted at computer game developers who do not have a strong
+      mechanics or physics background, charged with the task of incorporating <span class="emphasis"><em>real
+        physics</em></span> in their games. </p><p>As a game developer, and very likely as a gamer yourself, you’ve seen products being
+      advertised as “ultra-realistic,” or as using “real-world physics.” At the same time you, or
+      perhaps your company’s marketing department, are wondering how you can spice up your own games
+      with such realism. Or perhaps you want to try something completely new that requires you to
+      explore real physics. The only problem is that you threw your college physics text in the lake
+      after final exams and haven’t touched the subject since. Maybe you licensed a really cool
+      physics engine, but you have no idea how the underlying principles work and how they will
+      affect what you’re trying to model. Or, perhaps you are charged with the task of tuning
+      someone else’s physics code but you really don’t understand how it works. Well then, this book
+      is for you. </p><p>Sure you could scour the Internet, trade journals, and magazines for information and
+      how-to’s on adding physics-based realism to your games. You could even fish out that old
+      physics text and start from scratch. However, you’re likely to find that either the material
+      is too general to be applied directly, or too advanced requiring you to search for other
+      sources to get up to speed on the basics. This book will pull together the information you
+      need and will serve as the starting point for you, the game developer, in your effort to
+      enrich your game’s content with physics-based realism. </p><p>This book is not a recipe book that simply gives sample code for a miscellaneous set of
+      problems. The Internet is full of such example programs (some very good ones we might add).
+      Rather than give you a collection of specific solutions to specific problems, our aim is to
+      arm you with a thorough and fundamental understanding of the relevant topics such that you can
+      formulate your own solutions to a variety of problems. We’ll do this by explaining, in detail,
+      the principles of physics applicable to game development, and by providing complimentary hand
+      calculation examples in addition to sample programs. </p></div><div class="sect1" title="What We Assume You Know"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="I_sect1_id286370">What We Assume You Know</h2></div></div></div><p> Although we don’t assume that you are a physics expert, we do assume that you have at
+      least a basic college level understanding of classical physics typical of non-physics and
+      non-engineering majors. It is not essential that your physics background is fresh in your mind
+      as the first several chapters of this book review the subjects relevant to game physics. </p><p>We also assume that you are proficient in trigonometry, vector, and matrix math, although
+      we do include reference material in the appendices. Further, we assume that you have at least
+      a basic college level understanding of calculus, including integration and differentiation of
+      explicit functions. Numerical integration and differentiation is a different story, and we
+      cover these techniques in detail in the later chapters of this book. </p></div><div class="sect1" title="Mechanics"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="I_sect1_id286399">Mechanics</h2></div></div></div><p> Most people that we’ve talked to when we was developing the concept for this book
+      immediately thought of flight simulators when the phrases “real physics” and “real-time
+      simulation” came up. Certainly cutting edge flight simulations are relevant in this context;
+      however, many different types of games, and specific game elements, stand to benefit from
+      physics-based realism. </p><p>Consider this example: You’re working on the next blockbuster hunting game complete with
+      first-person 3D, beautiful textures, and an awesome sound track to set the mood, but something
+      is missing. That something is realism. Specifically, you want the game to “feel” more real by
+      challenging the gamer’s marksmanship, and you want to do this by adding considerations such as
+      distance to target, wind speed and direction, and muzzle velocity, among others. Moreover, you
+      don’t want to fake these elements, but rather, you’d like to realistically model them based on
+      the principles of physics. Gary Powell, with MathEngine Plc, put it like this “The illusion
+      and immersive experience of the virtual world, so carefully built up with high polygon models,
+      detailed textures and advanced lighting, is so often shattered as soon as objects start to
+      move and interact.”<sup>[<a id="id326051" href="#ftn.id326051" epub:type="noteref" class="footnote">1</a>]</sup> “It’s all about interactivity and immersiveness,” says Dr. Steven Collins, CEO of Havok.com.<sup>[<a id="id309949" href="#ftn.id309949" epub:type="noteref" class="footnote">2</a>]</sup> We think both these guys or right on target. Why invest so much time and effort
+      making your game world look as realistic as possible, but not take the extra step to make it
+      behave just as realistically? </p><p>Here are a few examples of specific game elements that stand to benefit, in terms of
+      realism, from the use of real physics:</p><div class="itemizedlist"><ul class="itemizedlist"><li class="listitem"><p>The trajectory of rockets and missiles including the effects of fuel burn off</p></li><li class="listitem"><p>The collision of objects such as billiard balls </p></li><li class="listitem"><p>The effects of gravitation between large objects such as planets and battle stations
+        </p></li><li class="listitem"><p>The stability of cars racing around tight curves </p></li><li class="listitem"><p>The dynamics of boats and other waterborne vehicles </p></li><li class="listitem"><p>The flight path of a baseball after being struck by a bat </p></li><li class="listitem"><p>The flight of a playing card being tossed into a hat </p></li></ul></div><p>This is by no means an exhaustive list, but just a few examples to get you in the right
+      frame of mind, so to speak. Pretty much anything in your games that bounces around, flies,
+      rolls, slides, or isn’t sitting dead still can be realistically modeled to create compelling,
+      believable content for your games. </p><p>So how can this realism be achieved? By using physics, of course, which brings us back to
+      the title of this section, the subject of <span class="emphasis"><em>mechanics</em></span>. Physics is a vast
+      field of science that covers many different, but related subjects. The subject most applicable
+      to realistic game content is the subject of mechanics, which is really what’s meant by “real
+      physics.” </p><p>By definition, mechanics is the study of bodies at rest and in motion, and of the effect
+      of forces on them. The subject of mechanics is subdivided into <span class="emphasis"><em>statics</em></span>,
+      which specifically focuses on bodies at rest, and <span class="emphasis"><em>dynamics</em></span>, which focuses
+      on bodies in motion. One of the oldest and most studied subjects of physics, the formal
+      origins of mechanics can be traced back more than 2000 years to Aristotle. An even earlier
+      treatment of the subject was formalized in <span class="emphasis"><em>Problems of Mechanics</em></span>, but the
+      origins of this work are unknown. Although some of these early works attributed some physical
+      phenomena to magical elements, the contributions of such great minds as Galileo, Kepler,
+      Euler, Lagrange, d’Alembert, Newton, and Einstein, to name a few, have helped develop our
+      understanding of this subject to such a degree that we have been able to achieve the
+      remarkable state of technological advancement that we see today. </p><p>Because you want your game content to be alive and active, we’ll primarily look at bodies
+      in motion and will thus delve into the details of the subject of dynamics. Within the subject
+      of dynamics there are even more specific subjects to investigate, namely,
+        <span class="emphasis"><em>kinematics</em></span>, which focuses on the motion of bodies without regard to the
+      forces that act on the body, and <span class="emphasis"><em>kinetics</em></span>, which considers both the
+      motion of bodies and the forces that act on or otherwise affect bodies in motion. We’ll take a
+      very close look at these two subjects throughout this book. </p></div><div class="sect1" title="Digital Physics"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="I_sect1_id286570">Digital Physics</h2></div></div></div><p>This book’s first edition focused exclusively on mechanics. More than a decade after its
+      release we’ve broadened our definition of game physics to include <span class="emphasis"><em>digital
+        physics</em></span> not in the cosmological sense but in the context of the physics
+      associated with such devices as smart phones and their unique user interaction experience. As
+      more platforms such as the Wii, PlayStation, X Box and smart phones come out and are expanded
+      developers will have to keep up with and understand the new input and sensors technologies
+      that accompany these platforms in order to keep producing fresh gaming experiences. But you
+      shouldn’t look at this as a burden, and instead look at it as an opportunity to enhance the
+      user’s interactive experience with your games. </p></div><div class="sect1" title="Arrangement of This Book"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="I_sect1_id286592">Arrangement of This Book</h2></div></div></div><p> Physics-based realism is not new to gaming, and in fact many games on the shelves these
+      days advertise their physics engines. Also, many 3D modeling and animation tools have physics
+      engines built in to help realistically animate specific types of motion. Naturally, there are
+      magazine articles that appear every now and then that discuss various aspects of physics-based
+      game content. In parallel, but at a different level, research in the area of real-time rigid body<sup>[<a id="id328167" href="#ftn.id328167" epub:type="noteref" class="footnote">3</a>]</sup> simulation has been active for many years, and the technical journals are full of
+      papers that deal with various aspects of this subject. You’ll find papers on subjects ranging
+      from the simulation of multiple, connected rigid bodies to the simulation of cloth. However,
+      while these are fascinating subjects and valuable resources, as we hinted earlier, many of
+      them are of limited immediate use to the game developer as they first require a solid
+      understanding of the subject of mechanics requiring you to learn the basics from other
+      sources. Further, many of them focus primarily on the mathematics involved in solving the
+      equations of motion and don’t address the practical treatment of the forces acting on the body
+      or system being simulated. </p><p>We asked John Nagle, with Animats, what is, in his opinion, the most difficult part of
+      developing a physics-based simulation for games and his response was developing numerically
+      stable, robust code.<sup>[<a id="id149326" href="#ftn.id149326" epub:type="noteref" class="footnote">4</a>]</sup> Gary Powell echoed this when he told me that minimizing the amount of parameter
+      tuning to produce stable, realistic behavior was one of the most difficult challenges. We
+      agree; speed and robustness in dealing with the mathematics of bodies in motion are crucial
+      elements of a simulator. And on top of that, so are completeness and accuracy in representing
+      the interacting forces that initiate and perpetuate the simulation in the first place. As
+      you’ll see later in this book, forces govern the behavior of objects in your simulation and
+      you need to model them accurately if your objects are to behave realistically. </p><p>This prerequisite understanding of mechanics and the real world nature of forces that may
+      act on a particular body or system have governed the organization of this book. Generally,
+      this book is organized in four parts with each building on the material covered in previous
+      parts: </p><p>
+      </p><div class="variablelist"><dl><dt><span class="term">
+            <a class="xref" href="pt01.html" title="Part I. Fundamentals">Part I</a></span></dt><dd><p>A mechanics refresher, comprising Chapters <a class="xref" href="ch01.html" title="Chapter 1. Basic Concepts">1</a> through <a class="xref" href="ch06.html" title="Chapter 6. Projectiles">6</a>.</p></dd><dt><span class="term"><a class="xref" href="ch01.html" title="Chapter 1. Basic Concepts">Chapter 1, <em>Basic Concepts</em></a></span></dt><dd><p>This warm up chapter covers the most basic of principles that are used and
+              referred to throughout this book.  The specific topics addressed include mass and
+              center of mass, Newton’s Laws, inertia, units and measures, and vectors. </p></dd></dl></div><p>
+      </p><div class="variablelist"><dl><dt><span class="term">
+            <a class="xref" href="ch02.html" title="Chapter 2. Kinematics">Chapter 2, <em>Kinematics</em></a></span></dt><dd><p>This chapter covers such topics as linear and angular velocity, acceleration,
+              momentum, and the general motion of particles and rigid bodies in two and three
+              dimensions.</p></dd></dl></div><p>
+      </p><div class="variablelist"><dl><dt><span class="term">
+            <a class="xref" href="ch03.html" title="Chapter 3. Force">Chapter 3, <em>Force</em></a></span></dt><dd><p>The principles of force and torque are covered in this chapter, which serves as a
+              bridge from the subject of kinematics to that of kinetics.  General categories of
+              forces are discussed including drag forces, force fields, and pressure.</p></dd></dl></div><p>
+      </p><div class="variablelist"><dl><dt><span class="term">
+            <a class="xref" href="ch04.html" title="Chapter 4. Kinetics">Chapter 4, <em>Kinetics</em></a></span></dt><dd><p>This chapter combines elements of Chapters <a class="xref" href="ch02.html" title="Chapter 2. Kinematics">2</a> and <a class="xref" href="ch03.html" title="Chapter 3. Force">3</a> to address the subject of kinetics and explains
+              the difference between kinematics and kinetics.  Further discussion treats the
+              kinetics of particles and rigid bodies in two and three dimensions.</p></dd></dl></div><p>
+      </p><div class="variablelist"><dl><dt><span class="term">
+            <a class="xref" href="ch05.html" title="Chapter 5. Collisions">Chapter 5, <em>Collisions</em></a></span></dt><dd><p>In this chapter we’ll cover particle and rigid body collision response, that is,
+              what happens after two objects run in to each other.</p></dd></dl></div><p>
+      </p><div class="variablelist"><dl><dt><span class="term">
+            <a class="xref" href="ch06.html" title="Chapter 6. Projectiles">Chapter 6, <em>Projectiles</em></a></span></dt><dd><p>This chapter will focus on the physics of simple projectiles laying the ground
+              work for further specific modeling treatment in later chapters. </p></dd></dl></div><p>
+      </p><div class="variablelist"><dl><dt><span class="term"><a class="xref" href="pt02.html" title="Part II. Rigid-Body Dynamics">Part II</a></span></dt><dd><p>An introduction to real time simulations, comprising Chapters <a class="xref" href="ch07.html" title="Chapter 7. Real-Time Simulations">7</a> through <a class="xref" href="ch14.html" title="Chapter 14. Physics Engines">14</a>.</p></dd></dl></div><p>
+      </p><div class="variablelist"><dl><dt><span class="term">
+            <a class="xref" href="ch07.html" title="Chapter 7. Real-Time Simulations">Chapter 7, <em>Real-Time Simulations</em></a></span></dt><dd><p>This chapter will introduce real-time simulations and detail the core of such
+              simulations—the numerical integrator. Various methods will be presented and coverage
+              will include stability and tuning. </p></dd></dl></div><p>
+      </p><div class="variablelist"><dl><dt><span class="term">
+            <a class="xref" href="ch08.html" title="Chapter 8. Particles">Chapter 8, <em>Particles</em></a></span></dt><dd><p>Before diving into rigid body simulations, this chapter will show how to implement
+              a particle simulation, which will be extended in the next chapter to include rigid
+              bodies.</p></dd></dl></div><p>
+      </p><div class="variablelist"><dl><dt><span class="term">
+            <a class="xref" href="ch09.html" title="Chapter 9. 2D Rigid-Body Simulator">Chapter 9, <em>2D Rigid-Body Simulator</em></a></span></dt><dd><p>This chapter will extend the particle simulator from the previous chapter showing
+              how to implement rigid bodies, which primarily consists of adding rotation and dealing
+              with the inertia tensor.</p></dd></dl></div><p>
+      </p><div class="variablelist"><dl><dt><span class="term">
+            <a class="xref" href="ch10.html" title="Chapter 10. Implementing Collision Response">Chapter 10, <em>Implementing Collision Response</em></a></span></dt><dd><p>Collision detection and response will be combined to implement real‐time collision
+              capabilities in the 2D simulator.</p></dd></dl></div><p>
+      </p><div class="variablelist"><dl><dt><span class="term">
+            <a class="xref" href="ch11.html" title="Chapter 11. Rotation in 3D Rigid-Body Simulators">Chapter 11, <em>Rotation in 3D Rigid-Body Simulators</em></a></span></dt><dd><p>This chapter will address how to handle rigid body rotation in 3D including how to
+              deal with the inertia tensor. Then we’ll show the reader how to extend the 2D
+              simulator to 3D.</p></dd></dl></div><p>
+      </p><div class="variablelist"><dl><dt><span class="term"><a class="xref" href="ch12.html" title="Chapter 12. 3D Rigid-Body Simulator">Chapter 12, <em>3D Rigid-Body Simulator</em></a></span></dt><dd><p>Multiple unconnected bodies will be incorporated in the simulator in this chapter.
+              Introduction of multiple bodies requires resolution of multiple rigid body collisions,
+              which can be very tricky. Issues of stability and realism will be covered. </p></dd></dl></div><p>
+      </p><div class="variablelist"><dl><dt><span class="term"><a class="xref" href="ch13.html" title="Chapter 13. Connecting Objects">Chapter 13, <em>Connecting Objects</em></a></span></dt><dd><p>Taking things a step further, this chapter will show how to join rigid bodies
+              forming connected bodies, which may be used to simulate human bodies, complex vehicles
+              that may blow apart, among many other game objects. Various connector types will be
+              considered. </p></dd></dl></div><p>
+      </p><div class="variablelist"><dl><dt><span class="term"><a class="xref" href="ch14.html" title="Chapter 14. Physics Engines">Chapter 14, <em>Physics Engines</em></a></span></dt><dd><p>In this chapter, specific aspects of automobile performance are addressed,
+              including aerodynamic drag, rolling resistance, skidding distance, and roadway
+              banking.</p></dd></dl></div><p>
+      </p><div class="variablelist"><dl><dt><span class="term"><a class="xref" href="pt03.html" title="Part III. Physical Modeling">Part III</a></span></dt><dd><p> A look at some real world problems, comprising Chapters <a class="xref" href="ch15.html" title="Chapter 15. Aircraft">15</a> through <a class="xref" href="ch19.html" title="Chapter 19. Sports">19</a>.</p></dd></dl></div><p>
+      </p><div class="variablelist"><dl><dt><span class="term"><a class="xref" href="ch15.html" title="Chapter 15. Aircraft">Chapter 15, <em>Aircraft</em></a></span></dt><dd><p>This chapter focuses on the elements of flight including propulsor forces, drag,
+              geometry, mass, and most importantly lift.</p></dd></dl></div><p>
+      </p><div class="variablelist"><dl><dt><span class="term">
+            <a class="xref" href="ch16.html" title="Chapter 16. Ships and Boats">Chapter 16, <em>Ships and Boats</em></a></span></dt><dd><p>The fundamental elements of floating vehicles are discussed in this chapter,
+              including floatation, stability, volume, drag, and speed. </p></dd></dl></div><p>
+      </p><div class="variablelist"><dl><dt><span class="term">
+            <a class="xref" href="ch17.html" title="Chapter 17. Cars and Hovercraft">Chapter 17, <em>Cars and Hovercraft</em></a></span></dt><dd><p>In this chapter, specific aspects of automobile performance are addressed,
+              including aerodynamic drag, rolling resistance, skidding distance, and roadway
+              banking. Additionally hovercraft shares some of the same characteristics of both cars
+              and boats. This chapter will consider those characteristics that distinguish the
+              hovercraft as a unique vehicle.  Topics covered include hovering flight, aerostatic
+              lift, and directional control </p></dd></dl></div><p>
+      </p><div class="variablelist"><dl><dt><span class="term"><a class="xref" href="ch18.html" title="Chapter 18. Guns and Explosions">Chapter 18, <em>Guns and Explosions</em></a></span></dt><dd><p>This chapter will focus on the physics of guns including power, recoil, and
+              projectile flight. Since we generally want things to explode when hit with a large
+              projectile, this chapter will also address the physics of and modeling
+              explosions.</p></dd></dl></div><p>
+      </p><div class="variablelist"><dl><dt><span class="term"><a class="xref" href="ch19.html" title="Chapter 19. Sports">Chapter 19, <em>Sports</em></a></span></dt><dd><p>This chapter will focus on the physics of ball sports such as baseball, golf, and
+              tennis. Coverage will go beyond projectile physics and include such topics as
+              including pitching, bat swing, bat‐ball impact, golf club swing and club ball impact,
+              plus tennis racket swinging and racket/ball impacts.</p></dd></dl></div><p>
+      </p><div class="variablelist"><dl><dt><span class="term"><a class="xref" href="pt04.html" title="Part IV. Digital Physics">Part IV</a></span></dt><dd><p>Chapters in this part of the book will explain the physics behind accelerometers,
+              touch screens, GPS and other gizmos showing the reader how to leverage these elements
+              in their games, comprising Chapters <a class="xref" href="ch20.html" title="Chapter 20. Touch Screens">20</a> through <a class="xref" href="ch26.html" title="Chapter 26. Sound">26</a>.</p></dd></dl></div><p>
+      </p><div class="variablelist"><dl><dt><span class="term"><a class="xref" href="ch20.html" title="Chapter 20. Touch Screens">Chapter 20, <em>Touch Screens</em></a></span></dt><dd><p>Touch screens facilitate virtual tactile interfaces with mobile device games, such
+              as those made for the iPhone. This chapter will explain the physics of touch screen
+              and how the reader can leverage this interface in their games particularly with
+              respect to virtual physical interaction with game elements through gesturing.</p></dd></dl></div><p>
+      </p><div class="variablelist"><dl><dt><span class="term">
+            <a class="xref" href="ch21.html" title="Chapter 21. Accelerometers">Chapter 21, <em>Accelerometers</em></a></span></dt><dd><p>Accelerometers are now widely used in mobile devices and game controllers allowing
+              virtual physical interaction between players and game objects. This chapter will
+              explain how accelerometers work, what data they provide and how that data can be
+              manipulated with respect to virtual physical interaction with game elements. Topics
+              covered will include, but not be limited to integration of acceleration data to derive
+              velocities and displacements and rotations.</p></dd></dl></div><p>
+      </p><div class="variablelist"><dl><dt><span class="term"> <a class="xref" href="ch22.html" title="Chapter 22. Gaming from One Place to Another">Chapter 22, <em>Gaming from One Place to Another</em></a></span></dt><dd><p>Mobile devices commonly have GPS capabilities and this chapter will explain the
+              physics of the GPS system including relativistic effects. Further, GPS data will be
+              explained and this chapter showing the reader how to manipulate that data for virtual
+              interaction with game elements. For example, we’ll show the reader how to
+              differentiate GPS data to derive speed and acceleration among other manipulations.
+            </p></dd></dl></div><p>
+      </p><div class="variablelist"><dl><dt><span class="term">
+            <a class="xref" href="ch23.html" title="Chapter 23. Pressure Sensors and Load Cells">Chapter 23, <em>Pressure Sensors and Load Cells</em></a></span></dt><dd><p>Pressure sensing devices are used in games as a means of allowing players to
+              interact with game elements, for example, the Wii balance board uses pressure sensors
+              allowing players to interact with the Wii Fit game. This chapter will explain the
+              physics behind such pressure sensors, what data they generate, and how to manipulate
+              that data for game interaction.</p></dd></dl></div><p>
+      </p><div class="variablelist"><dl><dt><span class="term"><a class="xref" href="ch24.html" title="Chapter 24. 3D Display">Chapter 24, <em>3D Display</em></a></span></dt><dd><p>The new PlayStation Move and Microsoft’s Kinect use optical tracking systems to
+              detect the position of players’ game controllers or gestures. This chapter will
+              explain the physics behind optical tracking and how to leverage this technology in
+              games.</p></dd></dl></div><p>
+      </p><div class="variablelist"><dl><dt><span class="term"><a class="xref" href="ch25.html" title="Chapter 25. Optical Tracking">Chapter 25, <em>Optical Tracking</em></a></span></dt><dd><p>As televisions and handheld game consoles race to implement 3D displays, several
+              different technologies are being developed. By understanding the physics of the
+              glasses dependent stereoscopic displays, the new “glasses free” autostereoscopic
+              displays, and looking forward to holography and volumetric displays, developers will
+              be better positioned to leverage these effects in their games.</p></dd></dl></div><p>
+      </p><div class="variablelist"><dl><dt><span class="term">
+            <a class="xref" href="ch26.html" title="Chapter 26. Sound">Chapter 26, <em>Sound</em></a></span></dt><dd><p>Sound is a particularly important part of a game’s immersive experience; however,
+              to date no book on game physics addresses the physics of sound. This chapter will
+              focus on sound physics including such topics of sound speed and the Doppler Effect.
+              Discussions will also include why sound physics is often ignored in games, for
+              example, when simulating explosions in outer space. </p></dd></dl></div><p>
+      </p><div class="variablelist"><dl><dt><span class="term"><a class="xref" href="apa.html" title="Appendix A. Vector Operations">Appendix A</a></span></dt><dd><p>This appendix shows you how to implement a C++ class that captures all of the
+              vector operations that you’ll need to when writing 2D or 3D simulations. </p></dd></dl></div><p>
+      </p><div class="variablelist"><dl><dt><span class="term"><a class="xref" href="apb.html" title="Appendix B. Matrix Operations">Appendix B</a></span></dt><dd><p>This appendix implements a class that captures all of the operations you need to
+              handle 3x3 matrices.</p></dd></dl></div><p>
+      </p><div class="variablelist"><dl><dt><span class="term"><a class="xref" href="apc.html" title="Appendix C. Quaternion Operations">Appendix C</a></span></dt><dd><p>This appendix implements a class that captures all of the operations you need to
+              handle quaternions when writing 3D rigid body simulations.</p></dd></dl></div><p>
+    </p><p><a class="xref" href="pt01.html" title="Part I. Fundamentals">Part I</a> focuses on fundamental topics in
+      Newtonian mechanics such as kinematics and kinetics. Kinematics deals with the motion of
+      objects. We’ll cover both linear and angular velocity and acceleration. Kinetics deals with
+      forces and resulting motion. Part I serves as a primer for <a class="xref" href="pt02.html" title="Part II. Rigid-Body Dynamics">Part II</a> that covers rigid body dynamics. Readers already versed in
+      classical mechanics can skip <a class="xref" href="pt01.html" title="Part I. Fundamentals">Part I</a> without loss
+      of continuity.</p><p><a class="xref" href="pt02.html" title="Part II. Rigid-Body Dynamics">Part II</a> focuses on rigid body dynamics and
+      development of both single and multi-body simulations. This part covers numerical integration,
+      real-time simulation of particles and rigid bodies, and connected rigid bodies. Generally,
+      this part covers what most game programmers consider elements of a physics engine. </p><p><a class="xref" href="pt03.html" title="Part III. Physical Modeling">Part III</a> focuses on physical modeling. The aim
+      of this part is to provide valuable physical insight for the reader so they can make better
+      judgments on what to include in their models and what they can safely leave out without
+      sacrificing physical realism. We cannot and do not attempt to cover all the possible things
+      you might want to simulate. Instead we cover several typical things you may try to simulate in
+      a game such as aircraft, boats, sports balls, among others with the purpose of giving you some
+      insight into the physical nature of those things and some of the choices you must make when
+      developing suitable models. </p><p><a class="xref" href="pt04.html" title="Part IV. Digital Physics">Part IV</a> covers digital physics in a broad
+      sense. This is an exciting topic as it relates to the technologies associated with mobile
+      platforms, such as smart phones like the iPhone, and ground breaking game systems such as the
+      Nentendo Wii. Chapters in this part of the book will explain the physics behind
+      accelerometers, touch screens, GPS and other gizmos showing the reader how to leverage these
+      elements in their games. We recognize that these topics are not what most game programmers
+      typically think about when they think of game physics; however, the technologies covered play
+      an increasingly important role in modern mobile games and we feel it important to explain the
+      underlying physics behind them with the hope that you’ll be better able to leverage these
+      technologies in your games. </p><p>In addition to resources pertaining to real-time simulations, the <a class="link" href="apd.html" title="Appendix D. Bibliography">Bibliography</a> at the end of this book will provide sources of information on
+      mechanics, mathematics, and other specific technical subjects, such as books on
+      aerodynamics.</p></div><div class="sect1" title="Conventions Used in This Book"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="I_sect1_id286597">Conventions Used in This Book</h2></div></div></div><p>The following typographical conventions are used in this book:</p><div class="variablelist"><dl><dt><span class="term"><code class="literal">Constant width</code></span></dt><dd><p>Used to indicate command-line computer output, code examples, Registry keys, and
+            keyboard accelerators (see “Keyboard Accelerators” later in this book).</p></dd><dt><span class="term"><em class="replaceable"><code>Constant width italic</code></em></span></dt><dd><p>Used to indicate variables in code examples.</p></dd><dt><span class="term"><span class="emphasis"><em>Italic</em></span></span></dt><dd><p>Introduces new terms and to indicate URLs, variables, filenames and directories,
+            commands, and file extensions.</p></dd><dt><span class="term"><span class="bold"><strong>Bold</strong></span></span></dt><dd><p>Indicates vector variables.</p></dd></dl></div><div class="tip" title="Tip"><h3 class="title">Tip</h3><p>This icon signifies a tip, suggestion, or general note.</p></div><div class="caution" title="Caution"><h3 class="title">Caution</h3><p>This icon indicates a warning or caution.</p></div><p>We use boldface type to indicate a vector quantity, such as force, <span class="bold"><strong>F</strong></span>. When referring to the magnitude only of a vector quantity, we use standard
+      type. For example, the magnitude of the vector force, <span class="bold"><strong>F</strong></span>, is F
+      with components along the coordinate axes, Fx, Fy, and Fz. In the code samples throughout the
+      book, we use the * (asterisk) to indicate vector dot product, or scalar product, operations
+      depending on the context, and we use the ^ (caret) to indicate vector cross product. </p></div><div class="sect1" title="Using Code Examples"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="I_sect1_id287764">Using Code Examples</h2></div></div></div><p>This book is here to help you get your job done. In general, if this book includes code
+      examples, you may use the code in your programs and documentation. You do not need to contact
+      us for permission unless you’re reproducing a significant portion of the code. For example,
+      writing a program that uses several chunks of code from this book does not require permission.
+      Selling or distributing a CD-ROM of examples from O’Reilly books does require permission.
+      Answering a question by citing this book and quoting example code does not require permission.
+      Incorporating a significant amount of example code from this book into your product’s
+      documentation does require permission.</p><p>We appreciate, but do not require, attribution. An attribution usually includes the title,
+      author, publisher, and ISBN. For example: “<span class="emphasis"><em>Physics for Game Developers, 2nd
+        Edition</em></span> by David M. Bourg and Bryan Bywalec (O’Reilly). Copyright 2013 David M.
+      Bourg and Bryan Bywalec, 978-1-449-39251-2.”</p><p>If you feel your use of code examples falls outside fair use or the permission given
+      above, feel free to contact us at <span class="email"><a class="email" href="mailto:permissions@oreilly.com">permissions@oreilly.com</a></span>.</p></div><div class="sect1" title="Safari® Books Online"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="I_sect1_id287799">Safari® Books Online</h2></div></div></div><div class="note" title="Note"><h3 class="title">Note</h3><p>Safari Books Online (<a class="ulink" href="http://my.safaribooksonline.com/?portal=oreilly" target="_top">www.safaribooksonline.com</a>)
+        is an on-demand digital library that delivers expert <a class="ulink" href="http://www.safaribooksonline.com/content" target="_top">content</a> in both book and video form
+        from the world’s leading authors in technology and business.</p></div><p>Technology professionals, software developers, web designers, and business and creative
+      professionals use Safari Books Online as their primary resource for research, problem solving,
+      learning, and certification training.</p><p>Safari Books Online offers a range of <a class="ulink" href="http://www.safaribooksonline.com/subscriptions" target="_top">product mixes</a> and pricing
+      programs for <a class="ulink" href="http://www.safaribooksonline.com/organizations-teams" target="_top">organizations</a>, <a class="ulink" href="http://www.safaribooksonline.com/government" target="_top">government
+        agencies</a>, and <a class="ulink" href="http://www.safaribooksonline.com/individuals" target="_top">individuals</a>. Subscribers have
+      access to thousands of books, training videos, and prepublication manuscripts in one fully
+      searchable database from publishers like O’Reilly Media, Prentice Hall Professional,
+      Addison-Wesley Professional, Microsoft Press, Sams, Que, Peachpit Press, Focal Press, Cisco
+      Press, John Wiley &amp; Sons, Syngress, Morgan Kaufmann, IBM Redbooks, Packt, Adobe Press, FT
+      Press, Apress, Manning, New Riders, McGraw-Hill, Jones &amp; Bartlett, Course Technology, and
+      dozens <a class="ulink" href="http://www.safaribooksonline.com/publishers" target="_top">more</a>. For more information about Safari Books Online, please visit us <a class="ulink" href="http://www.safaribooksonline.com/" target="_top">online</a>.</p></div><div class="sect1" title="How to Contact Us"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="I_sect1_id287901">How to Contact Us</h2></div></div></div><p>Please address comments and questions concerning this book to the publisher:</p><table style="border: 0; " class="simplelist"><tr><td>O’Reilly Media, Inc.</td></tr><tr><td>1005 Gravenstein Highway North</td></tr><tr><td>Sebastopol, CA 95472</td></tr><tr><td>800-998-9938 (in the United States or Canada)</td></tr><tr><td>707-829-0515 (international or local)</td></tr><tr><td>707-829-0104 (fax)</td></tr></table><p>We have a web page for this book, where we list errata, examples, and any additional
+      information. You can access this page at <a class="ulink" href="http://oreil.ly/Physics-GameDev2" target="_top">http://oreil.ly/Physics-GameDev2</a>.</p><p>To comment or ask technical questions about this book, send email to
+        <span class="email"><a class="email" href="mailto:bookquestions@oreilly.com">bookquestions@oreilly.com</a></span>.</p><p>For more information about our books, courses, conferences, and news, see our website at
+        <a class="ulink" href="http://www.oreilly.com" target="_top">http://www.oreilly.com</a>.</p><p>Find us on Facebook: <a class="ulink" href="http://facebook.com/oreilly" target="_top">http://facebook.com/oreilly</a></p><p>Follow us on Twitter: <a class="ulink" href="http://twitter.com/oreillymedia" target="_top">http://twitter.com/oreillymedia</a></p><p>Watch us on YouTube: <a class="ulink" href="http://www.youtube.com/oreillymedia" target="_top">http://www.youtube.com/oreillymedia</a></p></div><div class="sect1" title="Acknowledgments"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="I_sect1_id287997">Acknowledgments</h2></div></div></div><p>We want to thank Andy Oram, the editor of this edition of the book, for his skillful
+      review of our writing and his insightful comments and suggestions, not to mention his
+      patience. We also want to express my appreciation to O’Reilly for agreeing to take on this
+      project giving us the opportunity to expand on the original edition. Furthermore, special
+      thanks go to all of the production and technical staff at O’Reilly. </p><p>We’d also like to thank the technical reviewers, Christian Stober and Paul Zirkle, whose
+      valuable insight added much to this edition. </p><p>Individually, David would like to thank his loving wife and best friend, Helena, for her
+      endless support and encouragement, and his wonderful daughter, Natalia, for making every day
+      special. </p><p>Bryan would like to thank his co-author David for the opportunity to help with the second
+      edition and would also like to thank his parents, Barry and Sharon, for raising him to be
+      curious about the world. Lastly, he would like to thank his fiancée, Anne Hasuly, for her
+      support without which many chapters would still be half-finished. </p></div><div class="footnotes" epub:type="footnotes"><br/><hr style="width: 100; align: left;"/><div class="footnote" epub:type="footnote" id="ftn.id326051"><p><sup>[<a href="#id326051" class="para">1</a>] </sup>At the time of this book’s first edition, Gary Powell worked for MathEngine Plc. Their
+          products included Dynamics Toolkit 2 and Collision Toolkit 1, which handled single and
+          multiple body dynamics. Currently the company operates under the name CM Labs.</p></div><div class="footnote" epub:type="footnote" id="ftn.id309949"><p><sup>[<a href="#id309949" class="para">2</a>] </sup>At the time of this book’s first edition, Dr. Collins was the CEO of Havok.com. Their
+          technology handled rigid body, soft body, cloth, and fluid and particle dynamics. Intel
+          purchased Havok in 2005. </p></div><div class="footnote" epub:type="footnote" id="ftn.id328167"><p><sup>[<a href="#id328167" class="para">3</a>] </sup>A rigid body is formally defined as a body, composed of a system of particles, whose
+          particles remain at fixed distances from each other with no relative translation or
+          rotation among particles. Although the subject of mechanics deals with flexible bodies and
+          even fluids such as water, we’ll focus our attention on bodies that are rigid.</p></div><div class="footnote" epub:type="footnote" id="ftn.id149326"><p><sup>[<a href="#id149326" class="para">4</a>] </sup>At the time of this book’s first edition, John Nagle was the developer of Falling
+          Bodies, a dynamics plug-in for Softimage|3D. </p></div></div></section></body></html>

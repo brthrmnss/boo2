@@ -1,0 +1,1345 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" xmlns:m="http://www.w3.org/1998/Math/MathML" xmlns:pls="http://www.w3.org/2005/01/pronunciation-lexicon" xmlns:ssml="http://www.w3.org/2001/10/synthesis" xmlns:svg="http://www.w3.org/2000/svg"><head><title>Chapter 19. Sports</title><link rel="stylesheet" type="text/css" href="core.css"/><meta name="generator" content="DocBook XSL Stylesheets V1.76.1"/><link rel="up" href="pt03.html" title="Part III. Physical Modeling"/><link rel="prev" href="ch18.html" title="Chapter 18. Guns and Explosions"/><link rel="next" href="pt04.html" title="Part IV. Digital Physics"/></head><body><section class="chapter" title="Chapter 19. Sports" epub:type="chapter" id="sports"><div class="titlepage"><div><div><h2 class="title">Chapter 19. Sports</h2></div></div></div><p>The topic of <a id="I_indexterm5_id348297" class="indexterm"/>sports is nearly as vast as all of the subjects we’ve covered combined. There is a
+    sport for everyone, and a sport that takes advantage of each of the physical models we’ve
+    discussed so far. The topic ranges from games full of accessories, such as golf or polo, to
+    running, where all you need are your own two feet.</p><p>One of the most attractive aspects of sports for the game programmer is that they take place
+    in a limited physical space by design. Unlike a first-person shooter where the player will
+    eventually reach an artificial boundary, in a sports game the player will not expect to be able
+    to walk out of the court. Almost all sports have defined dimensions that are relatively easy to
+    model. <a class="xref" href="ch19.html#various_field_dimensions" title="Table 19-1. Various field dimensions">Table 19-1</a> lists a few sports and their professional
+    field dimensions.</p><div class="table"><a id="various_field_dimensions"/><div class="table-title">Table 19-1. Various field dimensions</div><div class="table-contents"><table style="border-collapse: collapse; border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; "><colgroup><col class="col1"/><col class="col2"/></colgroup><thead><tr><td style="text-align: left; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+            <p>Sport</p>
+          </td><td style="text-align: left; vertical-align: bottom; border-bottom: 0.5pt solid ; ">
+            <p>Field size</p>
+          </td></tr></thead><tbody><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+            <p>Soccer (football)</p>
+          </td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; ">
+            <p>90–120 m long by 45–90 m wide</p>
+          </td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+            <p>Football (including end zones)</p>
+          </td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; ">
+            <p>109.7 m long by 48.8 m wide</p>
+          </td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+            <p>Baseball</p>
+          </td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; ">
+            <p>27.4 m between bases; 18.39 from pitcher’s mound to home base; outfield
+              varies</p>
+          </td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+            <p>Basketball (international)</p>
+          </td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; ">
+            <p>28 m by 15 m</p>
+          </td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; ">
+            <p>Ice hockey (international)</p>
+          </td><td style="text-align: left; vertical-align: top; ">
+            <p>61 m by 30 m</p>
+          </td></tr></tbody></table></div></div><p>As you can see, other than baseball—where the shape of the outfield changes depending on
+    what stadium you are in—modeling these field sizes is a rather straightforward exercise.</p><p>Additionally, the one thing that sports have in common is that they have a human actor. In
+    this chapter we’ll explore how the human action can be simulated as input for the other physical
+    simulations we’ve discussed. Specifically, we’ll show you an example of how to model a person
+    swinging a golf club using accurate physiological models. <a id="I_indexterm5_id348542" class="indexterm"/><a id="I_indexterm5_id348548" class="indexterm"/><a id="I_indexterm5_id348558" class="indexterm"/>This is called <span class="emphasis"><em>biomechanics</em></span>. Before we get into that, another
+    important thing to understand when you’re modeling sports is the limits of the human body.
+    Although records are broken in every Olympics, no human being is able to jump 10 feet vertically
+    into the air. Unless you are breaking the limits of biomechanics on purpose, doing so will
+    decrease the realism of your game. The biomechanical statistics of what would be considered an
+    outstanding athlete are given in <a class="xref" href="ch19.html#table_of_human_performance" title="Table 19-2. Table of human performance">Table 19-2</a>.</p><div class="table"><a id="table_of_human_performance"/><div class="table-title">Table 19-2. Table of human performance</div><div class="table-contents"><table style="border-collapse: collapse; border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; "><colgroup><col class="col1"/><col class="col2"/><col class="col3"/></colgroup><thead><tr><td style="text-align: left; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+            <p>Physical attribute</p>
+          </td><td style="text-align: left; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+            <p>Average value</p>
+          </td><td style="text-align: center; vertical-align: bottom; border-bottom: 0.5pt solid ; ">
+            <p>Record value</p>
+          </td></tr></thead><tbody><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+            <p>Jump from standstill (vertical)</p>
+          </td><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+            <p>81 cm</p>
+          </td><td style="text-align: center; vertical-align: top; border-bottom: 0.5pt solid ; ">
+            <p>155 cm</p>
+          </td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+            <p>Running jump height (high jump)</p>
+          </td><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+            <p>1.83 m</p>
+          </td><td style="text-align: center; vertical-align: top; border-bottom: 0.5pt solid ; ">
+            <p>2.45 m</p>
+          </td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+            <p>Jump distance</p>
+          </td><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+            <p>5.0 m</p>
+          </td><td style="text-align: center; vertical-align: top; border-bottom: 0.5pt solid ; ">
+            <p>8.95 m</p>
+          </td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+            <p>Throwing speed</p>
+          </td><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+            <p>24.5 m/s</p>
+          </td><td style="text-align: center; vertical-align: top; border-bottom: 0.5pt solid ; ">
+            <p>46.0 m/s</p>
+          </td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+            <p>Running speed over 100 m</p>
+          </td><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+            <p>7.5 m/s</p>
+          </td><td style="text-align: center; vertical-align: top; border-bottom: 0.5pt solid ; ">
+            <p>10 m/s</p>
+          </td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; ">
+            <p>Running speed over 10,000 m</p>
+          </td><td style="text-align: center; vertical-align: top; border-right: 0.5pt solid ; ">
+            <p>3.7 m/s</p>
+          </td><td style="text-align: center; vertical-align: top; ">
+            <p>6.3 m/s</p>
+          </td></tr></tbody></table></div></div><p>Almost all sports records are available online somewhere, so <a class="xref" href="ch19.html#table_of_human_performance" title="Table 19-2. Table of human performance">Table 19-2</a> is by no means exhaustive. However, it is a good idea
+    to use these values to limit your simulations of human actions in your video games. Obviously,
+    part of the excitement of playing video games is to be able to jump higher and run faster than
+    you otherwise could, but a good survey of biomechanics will at least let you know what is
+    extraordinary and what is not. Now let’s take a look at how we would model a human actor in a
+    sports game.</p><div class="sect1" title="Modeling a Golf Swing"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="modeling_a_golf_swing">Modeling a Golf Swing</h2></div></div></div><p>Let’s say you’re writing a <a id="sp19.1" class="indexterm"/><a id="go19.1" class="indexterm"/>golf game and you want include a little realism. An obvious important element of
+      the game is the golf swing. Another is the club-to-ball impact, and still another is the
+      trajectory of the ball in flight. You can use the <a id="I_indexterm5_id348968" class="indexterm"/>projectile motion modeling techniques discussed earlier in <a class="xref" href="ch02.html" title="Chapter 2. Kinematics">Chapter 2</a>, <a class="xref" href="ch04.html" title="Chapter 4. Kinetics">Chapter 4</a>, and <a class="xref" href="ch06.html" title="Chapter 6. Projectiles">Chapter 6</a> to
+      model the ball’s flight, and the collision response techniques in <a class="xref" href="ch05.html" title="Chapter 5. Collisions">Chapter 5</a>
+      to model the club-to-ball impact. But what about the golf swing?</p><p>Well, before we show you one way to model a golf swing, let’s talk about why you would
+      want to do so in the first place. To model club-to-ball impact, you need to know the club head
+      velocity at the time of impact. That velocity is a function of the swing. The golfer raises
+      the club through his backswing, torques his body, and brings the club head down in an arc
+      while applying a torque with his wrists. As the club swings down, the wrist torque reverses,
+      and the club whips through the downswing until the club head collides with the ball. (Or, in
+      our case, collides with the ground!) Now, there are many subtle details we’ve omitted here
+      with regard to technique and the physics, but you get the idea. At any rate, the swing
+      determines the club head velocity at the moment of impact, which in turn determines the
+      velocity of the ball after impact.</p><p>If you were writing a game for the Wii or some other platform that can capture a player’s
+      motion, then you can relate the player’s swing motion to the initial torque applied to a
+      virtual golf club, thus determining, through some model, the swing dynamics and resulting club
+      head velocity.</p><p>Golfers take swing technique seriously and so do scientists who study golf swing dynamics.
+      In an effort to understand what makes a good swing or how to improve a swing, there are many
+      scientists out there actively studying the golf swing physics. As a result, there are many
+      mathematical models of varying degrees of realism and complexity that aim to examine the golf
+      swing. One example is the so-called <span class="emphasis"><em>two-rod model</em></span> as <a id="I_indexterm5_id349028" class="indexterm"/><a id="I_indexterm5_id349034" class="indexterm"/>described in <a id="jo19.1" class="indexterm"/>Theodore P. Jorgensen’s book <span class="emphasis"><em>The Physics of Golf</em></span>. In his
+      book, Dr. Jorgensen describes the two-rod model in detail, including assumptions and
+      simplifications, and provides the resulting equations that must be solved to simulate a golf
+      swing based on this model. He even provides empirical data used to validate the results of the
+      mathematical model. As shown in <a class="xref" href="ch19.html#two-rod_model_of_golf_swing" title="Figure 19-1. Two-rod model of golf swing">Figure 19-1</a>, the two-rod
+      model assumes that the golfer’s arm is one rod that extends from the shoulders to the wrists.
+      This is the<a id="I_indexterm5_id349069" class="indexterm"/>
+      <span class="emphasis"><em>arm rod</em></span>. The club is represented by another rod that extends from the
+      wrist end of the arm rod to the club head.</p><div class="figure"><a id="two-rod_model_of_golf_swing"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject5_id349091"/><img src="httpatomoreillycomsourceoreillyimages1598987.png" alt="Two-rod model of golf swing"/></div></div><div class="figure-title">Figure 19-1. Two-rod model of golf swing</div></div><p>This model is essentially a double pendulum. More specifically, it is a driven double
+      pendulum since the model assumes a torque applied at the shoulder end of the arm rod, and
+      another torque applied at the wrist joint connecting the arm rod to the club rod. We won’t
+      repeat Dr. Jorgensen’s development of the model here; instead, we’ll show you how to solve the
+      resulting equations:</p><p>Those equations can be found in the Technical Appendix—Section 4 of Dr. Jorgensen’s
+      book—but are listed here for convenience.</p><p>Equation 1:</p><div class="informalfigure"><a id="image_no_caption-id2"/><div class="mediaobject"><a id="I_mediaobject5_id349136"/><img src="httpatomoreillycomsourceoreillyimages1598988.png" alt="image with no caption"/></div></div><p>Equation 2:</p><div class="informalfigure"><a id="image_no_caption-id3"/><div class="mediaobject"><a id="I_mediaobject5_id349164"/><img src="httpatomoreillycomsourceoreillyimages1598989.png" alt="image with no caption"/></div></div><p><a class="xref" href="ch19.html#symbols_used_in_golf_swing_model" title="Table 19-3. Symbols used in golf swing model">Table 19-3</a> explains what each symbol
+      represents.</p><div class="table"><a id="symbols_used_in_golf_swing_model"/><div class="table-title">Table 19-3. Symbols used in golf swing model</div><div class="table-contents"><table style="border-collapse: collapse; border-top: 0.5pt solid ; border-bottom: 0.5pt solid ; border-left: 0.5pt solid ; border-right: 0.5pt solid ; "><colgroup><col class="col1"/><col class="col2"/></colgroup><thead><tr><td style="text-align: left; vertical-align: bottom; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>Symbol</p>
+            </td><td style="text-align: left; vertical-align: bottom; border-bottom: 0.5pt solid ; ">
+              <p>Meaning</p>
+            </td></tr></thead><tbody><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>J</p>
+            </td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; ">
+              <p>Mass moment of inertia of the rod representing the arm. Units are
+                  kg-m<sup>2</sup>.</p>
+            </td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>I</p>
+            </td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; ">
+              <p>Mass moment of inertia of the rod representing the club. Units are
+                  kg-m<sup>2</sup>.</p>
+            </td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>M<sub>c</sub></p>
+            </td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; ">
+              <p>Mass of the club. Units are kg.</p>
+            </td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>R</p>
+            </td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; ">
+              <p>Length of the rod representing the arm. Units are m.</p>
+            </td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>S</p>
+            </td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; ">
+              <p>First moment of the rod representing the club about the wrist axis (where the
+                club rod connects to the arm rod). Units are kg-m.</p>
+            </td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>α</p>
+            </td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; ">
+              <p>Angle swept by arm rod from initial backswing position. Units are
+                radians.</p>
+            </td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>β</p>
+            </td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; ">
+              <p>Wrist-cock angle. Units are radians.</p>
+            </td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>g</p>
+            </td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; ">
+              <p>Acceleration due to gravity. Constant 9.8
+                m/s<sup>2</sup>.</p>
+            </td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>Θ</p>
+            </td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; ">
+              <p>Angle between arm rod and vertical axis. Units are radians.</p>
+            </td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>a</p>
+            </td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; ">
+              <p>Horizontal acceleration of the shoulder. Units are
+                  m/s<sup>2</sup>.</p>
+            </td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>S<sub>A</sub></p>
+            </td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; ">
+              <p>First moment of the arm rod about the shoulder axis. Units are kg-m.</p>
+            </td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; border-bottom: 0.5pt solid ; ">
+              <p>Q<sub>α</sub></p>
+            </td><td style="text-align: left; vertical-align: top; border-bottom: 0.5pt solid ; ">
+              <p>Torque applied at the shoulder to the arm rod. Units are N-m.</p>
+            </td></tr><tr><td style="text-align: left; vertical-align: top; border-right: 0.5pt solid ; ">
+              <p>Q<sub>β</sub></p>
+            </td><td style="text-align: left; vertical-align: top; ">
+              <p>Torque applied at the wrist joint to the club rod. Units are N-m.</p>
+            </td></tr></tbody></table></div></div><p>These equations represent a coupled system of nonlinear differential equations. They are
+      coupled in that they both depend on the unknown quantities α and β. They are clearly
+      differential equations, as they both include time derivatives of the unknown quantities. And
+      they are nonlinear because they include sines and cosines of one of the unknowns along with
+      derivatives of the other unknown raised to some power greater than 1.</p><p>So, how do we solve these equations? Well, we can’t do so in closed form and must resort
+      to numerical means. There are a number of ways to proceed, but the approach we’ll use is to
+      first solve Equation 2 for <span class="inlinemediaobject"><img src="inleq_1901.png" alt=""/></span> and substitute the result into Equation 1. Then, we’ll numerically integrate
+      the result using a fourth-order <a id="I_indexterm5_id349673" class="indexterm"/>Runge-Kutta scheme, as described in <a class="xref" href="ch07.html" title="Chapter 7. Real-Time Simulations">Chapter 7</a>.</p><p>More specifically, at each time step Equation 1 with <span class="inlinemediaobject"><img src="inleq_1902.png" alt=""/></span> replaced by the expression derived from Equation 1 will be solved for <span class="inlinemediaobject"><img src="inleq_1903.png" alt=""/></span>. Once <span class="inlinemediaobject"><img src="inleq_1904.png" alt=""/></span> is found, we can find <span class="inlinemediaobject"><img src="inleq_1905.png" alt=""/></span> using the second equation previously solved for <span class="inlinemediaobject"><img src="inleq_1906.png" alt=""/></span>. Next, we can integrate <span class="inlinemediaobject"><img src="inleq_1907.png" alt=""/></span> and <span class="inlinemediaobject"><img src="inleq_1908.png" alt=""/></span> to find α and β. This process then repeats for each time step.</p><p>Again, this is only one method of solving these equations. Normally, when faced with a
+      system of equations, practitioners use matrix schemes to solve the equations simultaneously.
+      This is almost necessary for systems of equations that involve more than two equations.
+      However, with just two equations, as we have here, we can avoid expensive matrix inversion
+      computation by using the technique we just described.</p><div class="sect2" title="Solving the Golf Swing Equations"><div class="titlepage"><div><div><h3 class="title" id="solving_the_golf_swing_equations">Solving the Golf Swing Equations</h3></div></div></div><p>Now we’ll show you how to implement the solution we described in a simple console
+        application. The example solves the two governing equations for α and β over time, the
+        results of which can then be used to determine the club head velocity at any time instant
+        using kinematic equations as described in <a class="xref" href="ch02.html" title="Chapter 2. Kinematics">Chapter 2</a> (see the section
+          <a class="xref" href="ch02.html#rigid-body_kinematics" title="Rigid-Body Kinematics">Rigid-Body Kinematics</a>). Alternatively, you can use the following
+        equation, which Dr. Jorgensen gives for the club head velocity in his book:</p><div class="informalfigure"><a id="image_no_caption-id4"/><div class="mediaobject"><a id="I_mediaobject5_id349805"/><img src="httpatomoreillycomsourceoreillyimages1598990.png" alt="image with no caption"/></div></div><p>We’ll use Jorgensen’s equation in this example.</p><p>Since the angles of interest are computed in units of radians, but we want to report
+        them in units of degrees, we first create a few <code class="literal">define</code>s
+        to make the conversions for us:</p><a id="I_programlisting5_id349838"/><pre class="programlisting">#define    RADIANS(d)    (d/180.0*3.14159)
+#define    DEGREES(r)    (r*180.0/3.14159)</pre><p>Next, we declare and initialize all of the variables. The initial values used here are
+        some typical values that we assumed. You can change these values to simulate different
+        swings:</p><a id="I_programlisting5_id349849"/><pre class="programlisting">// Variables
+double alpha = 0.0;
+double alpha_dot = 0.0;
+double alpha_dotdot = 0.0;
+double beta = RADIANS(120.0);
+double beta_dot = 0.0;
+double beta_dotdot = 0.0;
+
+double J = 1.15; // kg m^2
+double I = 0.08; // kg m^2
+double Mc = 0.4; // kg
+double R = 0.62; // m
+double L = 1.1; // m
+double S = 0.4*1.1*0.75; // kg m
+double g = 9.8; // m/s^2
+double gamma = RADIANS(135.0);
+double theta = gamma - alpha;
+double SA = 7.3*0.62*0.5; // kg m
+double Qalpha = 100; // N m
+double Qbeta = −10; // N m
+double a = 0.1*g; // m/s^2
+double dt = 0.0025; // s
+double time = 0; // s
+double Vc = 0;</pre><p>Next we define two functions that we will use to compute the second time derivatives of
+        α and β (i.e., <span class="inlinemediaobject"><img src="inleq_1909.png" alt=""/></span> and <span class="inlinemediaobject"><img src="inleq_1910.png" alt=""/></span>). These functions simply use Equations 1 and 2 solved for <span class="inlinemediaobject"><img src="inleq_1911.png" alt=""/></span> and <span class="inlinemediaobject"><img src="inleq_1912.png" alt=""/></span>, respectively.</p><p><code class="literal">ComputeAlphaDotDot</code>, which solves for <span class="inlinemediaobject"><img src="inleq_1913.png" alt=""/></span>, is shown here:</p><a id="I_programlisting5_id349925"/><pre class="programlisting">double ComputeAlphaDotDot(void)
+{
+    double A, B, C, D, F, G;
+    double num, denom;
+
+    A = (J + I + Mc * R * R + 2 * R * S * cos(beta));
+    B = -(I + R * S * cos(beta));
+    F = Qalpha - (beta_dot * beta_dot - 2 * alpha_dot * beta_dot) * R * S *
+        sin(beta) + S * (g * sin(theta + beta) - a * cos(theta + beta))
+        + (SA + Mc * R) * (g * sin(theta) - a * cos(theta));
+
+    C = B;
+    D = I;
+    G = Qbeta - alpha_dot * alpha_dot * R * S * sin(beta) −
+        S * (g * sin(theta + beta) - a * cos(theta + beta));
+
+    num = (F - (B * G / D));
+    denom = (A-(B*C/D));
+    return (F - (B * G / D)) / (A-(B*C/D));
+}</pre><p>The local variables <code class="literal">A</code>, <code class="literal">B</code>, <code class="literal">C</code>, <code class="literal">D</code>,
+          <code class="literal">F</code>, and <code class="literal">G</code> are
+        convenience variables used to organize the terms in Equation 1. This function returns the
+        second derivative of α.</p><p><code class="literal">ComputeBetaDotDot</code>, shown next, is very similar to
+          <code class="literal">ComputeAlphaDotDot</code> but solves Equation 2 instead. This
+        function returns the second derivative of β:</p><a id="I_programlisting5_id349993"/><pre class="programlisting">double ComputeBetaDotDot(void)
+{
+    double C, D, G;
+
+    C = -(I + R * S * cos(beta));
+    D = I;
+    G = Qbeta - alpha_dot * alpha_dot * R * S * sin(beta) −
+        S * (g * sin(theta + beta) - a * cos(theta + beta));
+
+    return (G - C * alpha_dotdot) / D;
+}</pre><p>The solution to Equations 1 and 2 follows the <a id="I_indexterm5_id350004" class="indexterm"/>Runge-Kutta scheme we showed you in <a class="xref" href="ch07.html" title="Chapter 7. Real-Time Simulations">Chapter 7</a>.
+        Four intermediate steps are taken for each time step. The time step size is controlled by
+          <code class="literal">dt</code>, which we’ve set to 0.0025s. If you simply used <a id="I_indexterm5_id350023" class="indexterm"/>Euler’s method, you’d have to reduce this step size quite a bit to obtain a
+        stable solution. We implemented the solution in the main function of our console example.
+        The code is as follows:</p><a id="I_programlisting5_id350037"/><pre class="programlisting">int _tmain(int argc, _TCHAR* argv[])
+{
+    double    a, at;
+    double    b, bt;
+    int       i;
+    FILE*     fp;
+    double    phi;
+    double    Vc2;
+
+    double  ak1, ak2, ak3, ak4;
+    double  bk1, bk2, bk3, bk4;
+
+    FILE*     fdebug;
+
+    fp = fopen("results.txt", "w");
+    fdebug = fopen("debug.txt", "w");
+
+    for(i = 0; i&lt;200; i++)
+    {
+        time += dt;
+
+        if(time&gt;=0.1)
+        {
+            Qbeta = 0;
+        }
+
+        // save results of previous time step
+        a = alpha;
+        b = beta;
+        at = alpha_dot;
+        bt = beta_dot;
+
+        // integrate alpha'' and beta''
+
+        // The K1 Step:
+        alpha_dotdot = ComputeAlphaDotDot();
+        beta_dotdot = ComputeBetaDotDot();
+
+        ak1 = alpha_dotdot * dt;
+        bk1 = beta_dotdot * dt;
+
+        alpha_dot = at + ak1/2;
+        beta_dot = bt + bk1/2;
+
+        // The K2 Step:
+        alpha_dotdot = ComputeAlphaDotDot();
+        beta_dotdot = ComputeBetaDotDot();
+
+        ak2 = alpha_dotdot * dt;
+        bk2 = beta_dotdot * dt;
+
+        alpha_dot = at + ak2/2;
+        beta_dot = bt + bk2/2;
+
+        // The K3 Step:
+        alpha_dotdot = ComputeAlphaDotDot();
+        beta_dotdot = ComputeBetaDotDot();
+
+        ak3 = alpha_dotdot * dt;
+        bk3 = beta_dotdot * dt;
+
+        alpha_dot = at + ak3;
+        beta_dot = bt + bk3;
+
+        // The K3 Step:
+        alpha_dotdot = ComputeAlphaDotDot();
+        beta_dotdot = ComputeBetaDotDot();
+
+        ak4 = alpha_dotdot * dt;
+        bk4 = beta_dotdot * dt;
+
+        alpha_dot = at + (ak1 + 2*ak2 + 2*ak3 + ak4) / 6;
+        beta_dot = bt + (bk1 + 2*bk2 + 2*bk3 + bk4) / 6;
+
+        alpha = a + alpha_dot * dt;
+        beta = b + beta_dot * dt;
+
+        theta = gamma - alpha;
+        Vc2 = (R*R + L*L + 2 * R * L * cos(beta)) * ( alpha_dot * alpha_dot)
+             + L*L * beta_dot * beta_dot
+              - 2 * (L*L + R * L * cos(beta)) * alpha_dot * beta_dot;
+
+        Vc = sqrt(Vc2);
+
+        phi = theta + beta;
+        fprintf(fp, "%f, %f, %f, %f, %f, %f\n", time, DEGREES(theta),
+                      DEGREES(alpha), DEGREES(beta), DEGREES(phi), Vc);
+
+        fprintf(fdebug, "%f, %f, %f, %f, %f, %f, %f\n", time, DEGREES(alpha),
+                 alpha_dot, alpha_dotdot, DEGREES(beta), beta_dot, beta_dotdot);
+    }
+
+    fclose(fp);
+    fclose(fdebug);
+    return 0;
+}</pre><p>Local variables <code class="literal">a</code>, <code class="literal">at</code>, <code class="literal">b</code>, and <code class="literal">bt</code> are used to temporarily store the previous time step’s results for α and β
+        and their first derivatives. <code class="literal">i</code> is a counter variable.
+          <code class="literal">fp</code> is a file pointer that we’ll use to write results
+        out to a text file. <code class="literal">phi</code> is used to store the sum of θ +
+        β. And <code class="literal">Vc2</code> is the square of the club head velocity
+        calculated according to Jorgensen’s equation. The variables <code class="literal">ak1</code> through <code class="literal">ak4</code>, and <code class="literal">bk1</code> through <code class="literal">bk4</code>, are used to
+        store intermediate results of the Runge-Kutta integration scheme. <code class="literal">fdebug</code> is a file pointer to a file we used for writing debugging
+        information.</p><p>After the output and debug files are opened, the function enters a loop to perform the
+        integration over 200 time steps. You can change the number of time steps as you see fit for
+        your application. Keep in mind that the swing event, from start to striking the ball, takes
+        place over a very short period of time—only fractions of a second long.</p><p>Upon entering the loop, you’ll see some code that checks how much time has elapsed; if
+        that time is greater than 0.1s, the wrist torque, <code class="literal">Qbeta</code>,
+        is set to 0. This is a crude model of how the wrist torque that’s initially applied is
+        released, allowing the club to swing past the arm. Depending on the swing you’re modeling,
+        this torque could actually reverse direction, forcing the club past the arm even more. Dr.
+        Jorgensen’s book explains all this in detail, even giving experimental results.</p><p>Next, results of the previous time step are saved in the variables <code class="literal">a</code>, <code class="literal">b</code>, <code class="literal">at</code>, and <code class="literal">bt</code>. The first time
+        step simply stores the initial values. Now, the integration starts for the first step,
+          <code class="literal">k1</code> (see <a class="xref" href="ch07.html" title="Chapter 7. Real-Time Simulations">Chapter 7</a>). Each
+        of these steps involves computing <span class="inlinemediaobject"><img src="inleq_1914.png" alt=""/></span> and <span class="inlinemediaobject"><img src="inleq_1915.png" alt=""/></span> using the functions <code class="literal">ComputeAlphaDotDot</code>
+        and <code class="literal">ComputeBetaDotDot</code>. The <code class="literal">k1</code> results are then calculated and used to compute intermediate results for the
+        first time derivatives of α and β. All four intermediate steps are carried out in a similar
+        manner.</p><p>Finally, the current time step’s results for <code class="literal">alpha_dot</code> and <code class="literal">beta_dot</code>, along with <code class="literal">alpha</code> and <code class="literal">beta</code>, are computed.
+        Also, the square of the club head velocity, <code class="literal">Vc2</code>, is
+        computed using Jorgensen’s equation shown earlier; and the club head velocity, <code class="literal">Vc</code>, results from the square root of <code class="literal">Vc2</code>.</p><p>Results of interest are then written to the output and debug files. So, that’s pretty
+        much it. After the loop finishes, the files are closed and the application
+        terminates.</p><p>If this were an actual game, you would use the club head velocity results along with the
+        collision response method we showed in <a class="xref" href="ch03.html" title="Chapter 3. Force">Chapter 3</a> to determine the golf ball’s
+        trajectory. You could model the flight path of the golf ball using the methods we <a id="I_indexterm5_id350314" class="indexterm"/><a id="I_indexterm5_id350323" class="indexterm"/><a id="I_indexterm5_id350332" class="indexterm"/>showed you in <a class="xref" href="ch06.html" title="Chapter 6. Projectiles">Chapter 6</a>.</p></div></div><div class="sect1" title="Billiards"><div class="titlepage"><div><div><h2 class="title" style="clear: both" id="billiards">Billiards</h2></div></div></div><p>Now let’s take <a id="sp19.2" class="indexterm"/><a id="bi19.2" class="indexterm"/>a look at a different example. You may not think of billiards as a sport, but it
+      is recognized internationally as a cue sport. Cue sports are a family of sports that include
+      billiards, pool, snooker, and other related variations. For simplicity, we’ll stick with the
+      term <span class="emphasis"><em>billiards</em></span>, although the topics presented apply to all cue
+      sports.</p><p>Billiards is a good example of an activity that takes place over a limited physical space.
+      Thus, when writing a billiards video game you need only concern yourself with a very finite
+      space composed of well-established geometry. Billiard tables are typically 1.37 m × 2.74 m
+      (4.5 ft × 9 ft), with some longer and some smaller depending on the game, style, and space
+      available. Tables are typically cloth-covered slate. Balls vary in size between games and
+      regions, with American-style pool balls measuring about 57 mm (2.25 inches) in diameter. Balls
+      used to be made of wood, clay, or ivory, but nowadays they are plastic.</p><p>All these characteristics are important little details that you must consider if you’re
+      going to make a realistic billiards video game. The slate table and hard plastic balls have
+      certain <a id="I_indexterm5_id350406" class="indexterm"/>impact characteristics. The cloth-covered table provides some resistance to
+      rolling. Side bumpers are not as hard as the slate table, thus yielding different impact
+      characteristics. Fortunately, data on billiard tables and balls is readily available on the
+      Web. And simulating billiards in a video game is fairly straightforward.</p><p>Billiards makes an interesting example because <a id="I_indexterm5_id350424" class="indexterm"/>collisions are the heart of the game, and such an example also gives us an
+      opportunity to demonstrate rolling contact. <a class="xref" href="ch19.html#elapsed_time_equals_0.398s" title="Figure 19-2. Elapsed time = 0.398s">Figure 19-2</a> and
+        <a class="xref" href="ch19.html#elapsed_time_equals_0.440s" title="Figure 19-3. Elapsed time = 0.440s">Figure 19-3</a> illustrate the example we’ll focus on. We have
+      three object balls (the ones that get struck with the cue ball) set up in the middle of the
+      table in a loose triangle configuration.</p><div class="figure"><a id="elapsed_time_equals_0.398s"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject5_id350458"/><img style="width: 394.2; " src="httpatomoreillycomsourceoreillyimages1598991.png.jpg" alt="Elapsed time = 0.398s"/></div></div><div class="figure-title">Figure 19-2. Elapsed time = 0.398s</div></div><p>The cue ball comes from the right at a set speed (see <a class="xref" href="ch19.html#elapsed_time_equals_0.398s" title="Figure 19-2. Elapsed time = 0.398s">Figure 19-2</a>) and then impacts the eight ball (see <a class="xref" href="ch19.html#elapsed_time_equals_0.440s" title="Figure 19-3. Elapsed time = 0.440s">Figure 19-3</a>).</p><div class="figure"><a id="elapsed_time_equals_0.440s"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject5_id350503"/><img style="width: 394.2; " src="httpatomoreillycomsourceoreillyimages1598992.png.jpg" alt="Elapsed time = 0.440s"/></div></div><div class="figure-title">Figure 19-3. Elapsed time = 0.440s</div></div><p>After the initial impact between the cue ball and the eight ball, the eight ball moves to
+      the left and impacts two more balls. These balls then shoot off diagonally. Most of the energy
+      from the eight ball is transferred to the two other balls, so the eight ball quickly comes to
+      rest while being kissed by the cue ball. The other two balls continue rolling away diagonally
+      (see <a class="xref" href="ch19.html#elapsed_time_equals_0.566s" title="Figure 19-4. Elapsed time = 0.566s">Figure 19-4</a>).</p><div class="figure"><a id="elapsed_time_equals_0.566s"/><div class="figure-contents"><div class="mediaobject"><a id="I_mediaobject5_id350546"/><img src="httpatomoreillycomsourceoreillyimages1598993.png.jpg" alt="Elapsed time = 0.566s"/></div></div><div class="figure-title">Figure 19-4. Elapsed time = 0.566s</div></div><p>In this example, we’ll show you how to handle ball-ball collisions, ball-table collisions,
+      ball-table contact, aerodynamic drag on the ball, rolling resistance, friction between balls
+      at the time of impact, and friction between the balls and <a id="I_indexterm5_id350569" class="indexterm"/>table.</p><div class="sect2" title="Implementation"><div class="titlepage"><div><div><h3 class="title" id="implementation">Implementation</h3></div></div></div><p>If you’ve read and <a id="bi19.2.1" class="indexterm"/>studied the examples presented in <a class="xref" href="ch07.html" title="Chapter 7. Real-Time Simulations">Chapter 7</a>
+        through <a class="xref" href="ch13.html" title="Chapter 13. Connecting Objects">Chapter 13</a>, then the implementation of this billiards
+        example will be very familiar to you; we use the same basic approach. During each simulation
+        time step, we calculate all the forces acting on each ball; integrate the equations of
+        motion, updating each ball’s position and velocity; and then check for and deal with
+        collisions.</p><p>The rigid-body class used in <a id="I_indexterm5_id350626" class="indexterm"/>this example is very similar to that used for the airplane example in <a class="xref" href="ch15.html" title="Chapter 15. Aircraft">Chapter 15</a>. Even though the balls are compact and round, and it’s tempting to
+        treat them as particles, you must treat them as <a id="I_indexterm5_id350644" class="indexterm"/><a id="I_indexterm5_id350656" class="indexterm"/>3D rigid bodies in order to capture rolling and spinning, which are important
+        elements of billiard ball dynamics. The rigid-body class adopted for this billiards example
+        is as follows.</p><a id="I_programlisting5_id350672"/><pre class="programlisting">typedef struct _RigidBody {
+    float        fMass;      // Total mass (constant)
+    Matrix3x3    mInertia;   // Mass moment of inertia in body coordinates
+    Matrix3x3    mInertiaInverse;// Inverse of mass moment of inertia matrix
+    Vector    vPosition;     // Position in earth coordinates
+    Vector    vVelocity;     // Velocity in earth coordinates
+    Vector    vVelocityBody;  // Velocity in body coordinates
+    Vector    vAcceleration;  // Acceleration of cg in earth space
+    Vector    vAngularAcceleration; //Angular acceleration in body coordinates
+    Vector    vAngularAccelerationGlobal; // Angular acceleration
+                                          // in global coordinates
+    Vector    vAngularVelocity; // Angular velocity in body coordinates
+    Vector    vAngularVelocityGlobal; // Angular velocity in global coordinates
+    Vector    vEulerAngles;   // Euler angles in body coordinates
+    float     fSpeed;      // Speed (magnitude of the velocity)
+    Quaternion  qOrientation;    // Orientation in earth coordinates
+    Vector    vForces;        // Total force on body
+    Vector    vMoments;       // Total moment (torque) on body
+    Matrix3x3  mIeInverse;  // Inverse of moment of inertia in earth coordinates
+    float      fRadius;     // Ball radius
+} RigidBody, *pRigidBody;</pre><p>As you can see, this class looks very similar to the rigid-body classes we’ve used
+        throughout this book, and in particular that used in the airplane example. All the usual
+        suspects are here, and the comments in this code sample state what each class member
+        represents. One particular property you have not seen yet is <code class="literal">fRadius</code>—this is simply the billiard ball’s radius, which is used when we are
+        checking for collisions and calculating drag forces.</p><p>As we discussed in <a class="xref" href="ch14.html" title="Chapter 14. Physics Engines">Chapter 14</a>, since there are multiple objects
+        in this simulation that may collide, we’re going to iterate through all the objects,
+        checking for collisions while storing the collision data. Since there are not that many
+        objects in this simulation, we don’t really need to partition the game space in order to
+        optimize the collision detection checks (refer to <a class="xref" href="ch14.html" title="Chapter 14. Physics Engines">Chapter 14</a>). The
+        data we need to store for each collision is included in the following <code class="literal">Collision</code> structure:</p><a id="I_programlisting5_id350724"/><pre class="programlisting">typedef struct    _Collision {
+    int       body1;
+    int       body2;
+    Vector    vCollisionNormal;
+    Vector    vCollisionPoint;
+    Vector    vRelativeVelocity;
+    Vector    vRelativeAcceleration;
+    Vector    vCollisionTangent;
+}   Collision, *pCollision;</pre><p>The first two properties are indices to the two bodies involved in the collision. The
+        next property, <code class="literal">vCollisionNormal</code>, stores the normal vector
+        at the point of contact of the collision with the vector pointing outward from <code class="literal">body2</code>. The next property, <code class="literal">vCollisionPoint</code>, stores the coordinates of the point of contact in global
+        coordinates. Since we’re dealing with spheres (billiard balls), the collision manifold will
+        always consist of a single point for each ball-ball or ball-table collision. The next two
+        properties store the relative velocity and acceleration between the two bodies at the point
+        of collision. The data is stored in <code class="literal">vRelativeVelocity</code> and
+          <code class="literal">vRelativeAcceleration</code>, respectively. To capture
+        friction at the point of contact, we need to know the tangent vector to the bodies at the
+        point of contact. This tangent is stored in <code class="literal">vCollisionTangent</code>.</p><p>We set up several global <code class="literal">define</code>s to hold key data,
+        allowing us to easily tune the simulation:</p><a id="I_programlisting5_id350788"/><pre class="programlisting">#define    BALLDIAMETER              0.05715f
+#define    BALLWEIGHT                1.612f
+#define    GRAVITY                   −9.87f
+#define    LINEARDRAGCOEFFICIENT     0.5f
+#define    ANGULARDRAGCOEFFICIENT    0.05f
+#define    FRICTIONFACTOR            0.5f
+#define    COEFFICIENTOFRESTITUTION  0.8f
+#define    COEFFICIENTOFRESTITUTIONGROUND  0.1f
+#define    FRICTIONCOEFFICIENTBALLS     0.1f
+#define    FRICTIONCOEFFICIENTGROUND    0.1f
+#define    ROLLINGRESISTANCECOEFFICIENT 0.025f</pre><p>The first three <code class="literal">define</code>s represent the billiard ball
+        diameter in meters, the ball weight in newtons, and the acceleration due to gravity in
+          m/s<sup>2</sup>. The ball diameter and weight are typical values for
+        American-style billiard balls (i.e., 2.25 inches and 5.8 oz on average).</p><p>The remaining defines are self-explanatory and represent nondimensional coefficients
+        such as drag coefficients and coefficients of restitution. The values you see are what we
+        came up with after tuning the simulation. You’ll surely tune these yourself if you develop
+        your own billiards game.</p><p>We use three important global variables for this simulation, as shown here:</p><a id="I_programlisting5_id350824"/><pre class="programlisting">RigidBody      Bodies[NUMBODIES];
+Collision      Collisions[NUMBODIES*8];
+int            NumCollisions = 0;</pre><p><code class="literal">Bodies</code> is an array of <code class="literal">RigidBody</code> types and represents the collection of the billiard balls. Here we’ve
+        defined <code class="literal">NUMBODIES</code> as 4, so there are four billiard balls
+        in this simulation. We’ve adopted the convention that the cue ball will always <a id="I_indexterm5_id350853" class="indexterm"/>be <code class="literal">Bodies[0]</code>.</p></div><div class="sect2" title="Initialization"><div class="titlepage"><div><div><h3 class="title" id="initialization">Initialization</h3></div></div></div><p>At the beginning <a id="bi19.2.2" class="indexterm"/>of the simulation, we have to initialize all four billiard balls. We use one
+        function, <code class="literal">InitializeObjects</code>, for this task. It’s a long
+        function, but it’s really simple. The code is shown on this and the following pages.
+          <code class="literal">Bodies[0]</code> is the cue ball, and it is positioned 50 ball
+        diameters along the negative x-axis away from the object balls. There’s no magic to this
+        number; we picked it arbitrarily. Now, we did deliberately set the z-position of the cue
+        ball (all the balls, for that matter) to one-half the diameter so that the balls would be
+        just touching the table at the start of the simulation.</p><p>To have the cue ball roll from right to left, we gave it an initial velocity of 7 m/s
+        along the positive x-axis. With this initial velocity, the cue ball will begin sliding
+        across the table for some short distance as it also starts to roll due to the friction
+        between the ball and table. You can see in the upcoming code sample that all the other
+        kinematic properties are set to 0 for the cue ball. For the object balls, all of their
+        kinematic properties are set to 0.</p><p>We encourage you to experiment with different initial values for the cue ball’s
+        kinematic properties. For example, try setting the angular velocity about any of the
+        coordinate axes to something other than 0. Doing so will allow you to see how a spinning
+        ball may move slightly left or right depending on the spin. It’s also fun to see how spin
+        affects the object balls upon collision with the cue ball.</p><p>Aside from setting the positions and kinematic properties of the balls, <code class="literal">InitializeObjects</code> also initializes mass properties. We used the
+        previously defined <code class="literal">BALLWEIGHT</code> divided by the acceleration
+        due to gravity to determine the ball mass. For mass moment of inertia, we simply used the
+        equations for a solid sphere we showed you way back in <a class="xref" href="ch01.html" title="Chapter 1. Basic Concepts">Chapter 1</a>:</p><a id="I_programlisting5_id350954"/><pre class="programlisting">void InitializeObjects(int configuration)
+{
+    float      iRoll, iPitch, iYaw;
+    int        i;
+    float      Ixx, Iyy, Izz;
+    float      s;
+
+    /////////////////////////////////////////////////////
+    // Initialize the cue ball:
+    // Set initial position
+    Bodies[0].vPosition.x = -BALLDIAMETER*50.0f;
+    Bodies[0].vPosition.y = 0.0f;
+    Bodies[0].vPosition.z = BALLDIAMETER/2.0f;
+
+    // Set initial velocity
+    s = 7.0;
+    Bodies[0].vVelocity.x = s;
+    Bodies[0].vVelocity.y = 0.0f;
+    Bodies[0].vVelocity.z = 0.0f;
+    Bodies[0].fSpeed = s;
+
+    // Set initial angular velocity
+    Bodies[0].vAngularVelocity.x = 0.0f; // rotate about long'l axis
+    Bodies[0].vAngularVelocity.y = 0.0f; // rotate about transverse axis
+    Bodies[0].vAngularVelocity.z = 0.0f; // rotate about vertical axis
+
+    Bodies[0].vAngularAcceleration.x = 0.0f;
+    Bodies[0].vAngularAcceleration.y = 0.0f;
+    Bodies[0].vAngularAcceleration.z = 0.0f;
+
+    Bodies[0].vAcceleration.x = 0.0f;
+    Bodies[0].vAcceleration.y = 0.0f;
+    Bodies[0].vAcceleration.z = 0.0f;
+
+    // Set the initial forces and moments
+    Bodies[0].vForces.x = 0.0f;
+    Bodies[0].vForces.y = 0.0f;
+    Bodies[0].vForces.z = 0.0f;
+
+    Bodies[0].vMoments.x = 0.0f;
+    Bodies[0].vMoments.y = 0.0f;
+    Bodies[0].vMoments.z = 0.0f;
+
+    // Zero the velocity in body space coordinates
+    Bodies[0].vVelocityBody.x = 0.0f;
+    Bodies[0].vVelocityBody.y = 0.0f;
+    Bodies[0].vVelocityBody.z = 0.0f;
+
+    // Set the initial orientation
+    iRoll = 0.0f;
+    iPitch = 0.0f;
+    iYaw = 0.0f;
+    Bodies[0].qOrientation = MakeQFromEulerAngles(iRoll, iPitch, iYaw);
+
+    // Set the mass properties
+    Bodies[0].fMass = BALLWEIGHT/(-g);
+
+    Ixx = 2.0f * Bodies[0].fMass / 5.0f * (BALLDIAMETER/2*BALLDIAMETER/2);
+    Izz = Iyy = Ixx;
+
+    Bodies[0].mInertia.e11 = Ixx;
+    Bodies[0].mInertia.e12 = 0;
+    Bodies[0].mInertia.e13 = 0;
+    Bodies[0].mInertia.e21 = 0;
+    Bodies[0].mInertia.e22 = Iyy;
+    Bodies[0].mInertia.e23 = 0;
+    Bodies[0].mInertia.e31 = 0;
+    Bodies[0].mInertia.e32 = 0;
+    Bodies[0].mInertia.e33 = Izz;
+
+    Bodies[0].mInertiaInverse = Bodies[0].mInertia.Inverse();
+
+    Bodies[0].fRadius = BALLDIAMETER/2;
+
+
+    /////////////////////////////////////////////////////
+    // Initialize the other balls
+    for(i=1; i&lt;NUMBODIES; i++)
+    {
+        // Set initial position
+        if(i==1)
+        {
+            Bodies[i].vPosition.x = 0.0;
+            Bodies[i].vPosition.y = -(BALLDIAMETER/2.0f+0.25*BALLDIAMETER);
+            Bodies[i].vPosition.z = BALLDIAMETER/2.0f;
+        } else if(i==2) {
+            Bodies[i].vPosition.x = 0.0;
+            Bodies[i].vPosition.y = BALLDIAMETER/2.0f+0.25*BALLDIAMETER;
+            Bodies[i].vPosition.z = BALLDIAMETER/2.0f;
+        } else {
+            Bodies[i].vPosition.x = -BALLDIAMETER;
+            Bodies[i].vPosition.y = 0.0f;
+            Bodies[i].vPosition.z = BALLDIAMETER/2.0f;
+        }
+
+        // Set initial velocity
+        Bodies[i].vVelocity.x = 0.0f;
+        Bodies[i].vVelocity.y = 0.0f;
+        Bodies[i].vVelocity.z = 0.0f;
+        Bodies[i].fSpeed = 0.0f;
+
+        // Set initial angular velocity
+        Bodies[i].vAngularVelocity.x = 0.0f;
+        Bodies[i].vAngularVelocity.y = 0.0f;
+        Bodies[i].vAngularVelocity.z = 0.0f;
+
+        Bodies[i].vAngularAcceleration.x = 0.0f;
+        Bodies[i].vAngularAcceleration.y = 0.0f;
+        Bodies[i].vAngularAcceleration.z = 0.0f;
+
+        Bodies[i].vAcceleration.x = 0.0f;
+        Bodies[i].vAcceleration.y = 0.0f;
+        Bodies[i].vAcceleration.z = 0.0f;
+
+        // Set the initial forces and moments
+        Bodies[i].vForces.x = 0.0f;
+        Bodies[i].vForces.y = 0.0f;
+        Bodies[i].vForces.z = 0.0f;
+
+        Bodies[i].vMoments.x = 0.0f;
+        Bodies[i].vMoments.y = 0.0f;
+        Bodies[i].vMoments.z = 0.0f;
+
+        // Zero the velocity in body space coordinates
+        Bodies[i].vVelocityBody.x = 0.0f;
+        Bodies[i].vVelocityBody.y = 0.0f;
+        Bodies[i].vVelocityBody.z = 0.0f;
+
+        // Set the initial orientation
+        iRoll = 0.0f;
+        iPitch = 0.0f;
+        iYaw = 0.0f;
+        Bodies[i].qOrientation = MakeQFromEulerAngles(iRoll, iPitch, iYaw);
+
+        // Set the mass properties
+        Bodies[i].fMass = BALLWEIGHT/(-g);
+        Ixx = 2.0f * Bodies[i].fMass / 5.0f * (BALLDIAMETER*BALLDIAMETER);
+        Izz = Iyy = Ixx;
+
+        Bodies[i].mInertia.e11 = Ixx;
+        Bodies[i].mInertia.e12 = 0;
+        Bodies[i].mInertia.e13 = 0;
+        Bodies[i].mInertia.e21 = 0;
+        Bodies[i].mInertia.e22 = Iyy;
+        Bodies[i].mInertia.e23 = 0;
+        Bodies[i].mInertia.e31 = 0;
+        Bodies[i].mInertia.e32 = 0;
+        Bodies[i].mInertia.e33 = Izz;
+
+        Bodies[i].mInertiaInverse = Bodies[i].mInertia.Inverse();
+        Bodies[i].fRadius = BALLDIAMETER/2;
+    }
+}</pre></div><div class="sect2" title="Stepping the Simulation"><div class="titlepage"><div><div><h3 class="title" id="stepping_the_simulation">Stepping the Simulation</h3></div></div></div><p>During each time <a id="I_indexterm5_id351012" class="indexterm"/><a id="I_indexterm5_id351022" class="indexterm"/>step, the simulation’s main loop makes a call to <code class="literal">StepSimulation</code>. This function, shown next, is almost identical to the <code class="literal">StepSimulation</code> functions we covered in the other examples shown
+        throughout this book, so there really are no surprises here. <code class="literal">StepSimulation</code> first makes a call to <code class="literal">CalcObjectForces</code>, which we’ll discuss momentarily, and then proceeds to
+        integrate the equations of motion for each ball. We use a basic <a id="I_indexterm5_id351060" class="indexterm"/>Euler scheme here for simplicity. After integrating, <code class="literal">StepSimulation</code> makes a few function calls to deal with collisions. We’ll cover
+        those shortly.</p><a id="I_programlisting5_id351080"/><pre class="programlisting">void StepSimulation(float dtime)
+{
+    Vector     Ae;
+    int        i;
+    float      dt = dtime;
+    int        check = NOCOLLISION;
+    int        c = 0;
+
+    // Calculate all of the forces and moments on the balls:
+    CalcObjectForces();
+
+    // Integrate the equations of motion:
+    for(i=0; i&lt;NUMBODIES; i++)
+    {
+        // Calculate the acceleration in earth space:
+        Ae = Bodies[i].vForces / Bodies[i].fMass;
+        Bodies[i].vAcceleration = Ae;
+
+        // Calculate the velocity in earth space:
+        Bodies[i].vVelocity += Ae * dt;
+
+        // Calculate the position in earth space:
+        Bodies[i].vPosition += Bodies[i].vVelocity * dt;
+
+        // Now handle the rotations:
+        float    mag;
+
+        Bodies[i].vAngularAcceleration = Bodies[i].mInertiaInverse *
+                                    (Bodies[i].vMoments -
+                                    (Bodies[i].vAngularVelocity^
+                                    (Bodies[i].mInertia *
+        Bodies[i].vAngularVelocity)));
+
+        Bodies[i].vAngularVelocity += Bodies[i].vAngularAcceleration * dt;
+
+        // Calculate the new rotation quaternion:
+        Bodies[i].qOrientation += (Bodies[i].qOrientation *
+                                   Bodies[i].vAngularVelocity) *
+                                   (0.5f * dt);
+
+        // Now normalize the orientation quaternion:
+        mag = Bodies[i].qOrientation.Magnitude();
+        if (mag != 0)
+            Bodies[i].qOrientation /= mag;
+
+        // Calculate the velocity in body space:
+        Bodies[i].vVelocityBody = QVRotate(~Bodies[i].qOrientation,
+                                    Bodies[i].vVelocity);
+
+        // Get the angular velocity in global coords:
+        Bodies[i].vAngularVelocityGlobal = QVRotate(Bodies[i].qOrientation,
+                                    Bodies[i].vAngularVelocity);
+
+        // Get the angular acceleration in global coords:
+        Bodies[i].vAngularAccelerationGlobal = QVRotate(Bodies[i].qOrientation,
+                                    Bodies[i].vAngularAcceleration);
+
+        // Get the inverse intertia tensor in global coordinates
+        Matrix3x3 R, RT;
+        R = MakeMatrixFromQuaternion(Bodies[i].qOrientation);
+        RT = R.Transpose();
+        Bodies[i].mIeInverse = R * Bodies[i].mInertiaInverse * RT;
+
+        // Calculate the air speed:
+        Bodies[i].fSpeed = Bodies[i].vVelocity.Magnitude();
+
+        // Get the Euler angles for our information
+        Vector u;
+
+        u = MakeEulerAnglesFromQ(Bodies[i].qOrientation);
+        Bodies[i].vEulerAngles.x = u.x;    // roll
+        Bodies[i].vEulerAngles.y = u.y;    // pitch
+        Bodies[i].vEulerAngles.z = u.z;    // yaw
+    }
+
+    // Handle Collisions    :
+    check = CheckForCollisions();
+    if(check == COLLISION)
+        ResolveCollisions();
+}</pre></div><div class="sect2" title="Calculating Forces"><div class="titlepage"><div><div><h3 class="title" id="calculating_forces">Calculating Forces</h3></div></div></div><p>The first <a id="bi19.2.4" class="indexterm"/><a id="fo19.2.4" class="indexterm"/>function call made by <code class="literal">StepSimulation</code> is a
+        call to <code class="literal">CalcObjectForces</code>, which is responsible for
+        computing all the forces on each ball except collision forces. This is the same approach
+        used in previous examples. The entire <code class="literal">CalcObjectForces</code>
+        source code is included here:</p><a id="I_programlisting5_id351175"/><pre class="programlisting">void CalcObjectForces(void)
+{
+    Vector    Fb, Mb;
+    Vector    vDragVector;
+    Vector    vAngularDragVector;
+    int       i, j;
+    Vector    ContactForce;
+    Vector    pt;
+    int       check = NOCOLLISION;
+    pCollision    pCollisionData;
+    Vector    FrictionForce;
+    Vector    fDir;
+    double    speed;
+    Vector    FRn, FRt;
+
+    for(i=0; i&lt;NUMBODIES; i++)
+    {
+        // Reset forces and moments:
+        Bodies[i].vForces.x = 0.0f;
+        Bodies[i].vForces.y = 0.0f;
+        Bodies[i].vForces.z = 0.0f;
+
+        Bodies[i].vMoments.x = 0.0f;
+        Bodies[i].vMoments.y = 0.0f;
+        Bodies[i].vMoments.z = 0.0f;
+
+        Fb.x = 0.0f;    Mb.x = 0.0f;
+        Fb.y = 0.0f;    Mb.y = 0.0f;
+        Fb.z = 0.0f;    Mb.z = 0.0f;
+
+        // Do drag force:
+        vDragVector = -Bodies[i].vVelocityBody;
+        vDragVector.Normalize();
+        speed = Bodies[i].vVelocityBody.Magnitude();
+        Fb += vDragVector * ((1.0f/2.0f)*speed * speed * rho *
+            LINEARDRAGCOEFFICIENT * pow(Bodies[i].fRadius,2) *
+            Bodies[i].fRadius*pi);
+
+        vAngularDragVector = -Bodies[i].vAngularVelocity;
+        vAngularDragVector.Normalize();
+        Mb += vAngularDragVector * (Bodies[i].vAngularVelocity.Magnitude() *
+            Bodies[i].vAngularVelocity.Magnitude() * rho * ANGULARDRAGCOEFFICIENT
+            * 4 * pow(Bodies[i].fRadius,2)*pi);
+
+        // Convert forces from model space to earth space:
+        Bodies[i].vForces = QVRotate(Bodies[i].qOrientation, Fb);
+
+        // Apply gravity:
+        Bodies[i].vForces.z += GRAVITY * Bodies[i].fMass;
+
+        // Save the moments:
+        Bodies[i].vMoments += Mb;
+
+        // Handle contacts with ground plane:
+        Bodies[i].vAcceleration = Bodies[i].vForces / Bodies[i].fMass;
+        Bodies[i].vAngularAcceleration = Bodies[i].mInertiaInverse *
+                                    (Bodies[i].vMoments -
+                                    (Bodies[i].vAngularVelocity^
+                                    (Bodies[i].mInertia *
+                                     Bodies[i].vAngularVelocity)));
+
+
+        // Resolve ground plane contacts:
+        FlushCollisionData();
+        pCollisionData = Collisions;
+        NumCollisions = 0;
+        if(DOCONTACT)
+            check = CheckGroundPlaneContacts(pCollisionData, i);
+        if((check == CONTACT) &amp;&amp; DOCONTACT)
+        {    j = 0;
+            {
+                assert(NumCollisions &lt;= 1);
+
+                ContactForce = (Bodies[i].fMass * (-Bodies[i].vAcceleration *
+                            Collisions[j].vCollisionNormal)) *
+                            Collisions[j].vCollisionNormal;
+
+                if(DOFRICTION)
+                {
+                    double vt = fabs(Collisions[j].vRelativeVelocity *
+                            Collisions[j].vCollisionTangent);
+                    if(vt &gt; VELOCITYTOLERANCE)
+                    {
+                        // Kinetic:
+                        FrictionForce = (ContactForce.Magnitude() *
+                                    FRICTIONCOEFFICIENTGROUND) *
+                                    Collisions[j].vCollisionTangent;
+                    } else {
+                        // Static:
+                        FrictionForce = (ContactForce.Magnitude() *
+                                    FRICTIONCOEFFICIENTGROUND * 2 *
+                                    vt/VELOCITYTOLERANCE) *
+                                    Collisions[j].vCollisionTangent;
+                    }
+
+                } else
+                    FrictionForce.x = FrictionForce.y = FrictionForce.z = 0;
+
+                // Do rolling resistance:
+                if(Bodies[i].vAngularVelocity.Magnitude() &gt; VELOCITYTOLERANCE)
+                {
+                    FRn = ContactForce.Magnitude() *
+                          Collisions[j].vCollisionNormal;
+                    Collisions[j].vCollisionTangent.Normalize();
+                    Vector m = (Collisions[j].vCollisionTangent
+                                *(ROLLINGRESISTANCECOEFFICIENT *
+                                Bodies[i].fRadius))^FRn;
+                    double mag = m.Magnitude();
+                    Vector a = Bodies[i].vAngularVelocity;
+                    a.Normalize();
+                    Bodies[i].vMoments += -a * mag;
+                }
+
+                // accumlate contact and friction forces and moments
+                Bodies[i].vForces += ContactForce;
+                Bodies[i].vForces += FrictionForce;
+
+                ContactForce = QVRotate(~Bodies[i].qOrientation, ContactForce);
+                FrictionForce = QVRotate(~Bodies[i].qOrientation,
+                                   FrictionForce);
+                pt = Collisions[j].vCollisionPoint - Bodies[i].vPosition;
+                pt = QVRotate(~Bodies[i].qOrientation, pt);
+                Bodies[i].vMoments += pt^ContactForce;
+                Bodies[i].vMoments += pt^FrictionForce;
+
+            }
+        }
+
+    }
+}</pre><p>As you can see, upon entering <code class="literal">CalcObjectForces</code> the
+        code enters a loop that cycles through all the billiard ball objects, computing the forces
+        acting on each. The first force computed is simple <a id="I_indexterm5_id351232" class="indexterm"/>aerodynamic drag. Both linear and angular drag are computed. We compute the
+        magnitude of the linear drag by multiplying the linear drag coefficient by
+          1/2ρ<span class="emphasis"><em>V</em></span>2<span class="emphasis"><em>r</em></span>2π<span class="emphasis"><em>r</em></span>, where ρ is the
+        density of air, <span class="emphasis"><em>V</em></span> is the ball’s linear speed, and
+          <span class="emphasis"><em>r</em></span> is the ball’s radius. We compute the magnitude of the angular drag
+        moment by multiplying the angular drag coefficient by ωρ4<span class="emphasis"><em>r</em></span>2π, where ω
+        is angular speed. Since drag retards motion, the linear drag and angular drag vectors are
+        simply the opposite of the linear and angular velocity vectors, respectively. Normalizing
+        those vectors and then multiplying by the respective drag magnitudes yields the linear and
+        angular drag force and moment vectors.</p><p>The next set of forces calculated in <code class="literal">CalcObjectForces</code>
+        is the <a id="I_indexterm5_id351282" class="indexterm"/>contact forces between the table top and each ball. There are three contact
+        forces. One is the vertical force that keeps the balls from falling through the table,
+        another is the friction force that arises as the balls slide along the table, and the third
+        is rolling resistance. These forces arise only if the ball is in contact with the table.
+        We’ll address how to determine whether a ball is in contact with the table later in this
+        chapter. For now, we’ll assume there’s contact and show you how to compute the contact
+        forces.</p><p>To compute the vertical force<a id="I_indexterm5_id351305" class="indexterm"/> required to keep the ball from falling through the table, we must first compute
+        the ball’s linear acceleration<a id="I_indexterm5_id351313" class="indexterm"/><a id="I_indexterm5_id351325" class="indexterm"/>, which is equal to the sum of forces (excluding contact forces) acting on the
+        ball divided by the ball’s mass. Next, we take the negative dot product of that acceleration
+        and the vector perpendicular to the table surface and multiply the result by the ball’s
+        mass. This yields the magnitude of the contact force, and to get the vector we multiply that
+        magnitude by the unit vector perpendicular to the table’s surface. The following two lines
+        of code perform these calculations:</p><a id="I_programlisting5_id351342"/><pre class="programlisting">Bodies[i].vAcceleration = Bodies[i].vForces / Bodies[i].fMass;
+
+ContactForce = (Bodies[i].fMass * (-Bodies[i].vAcceleration *
+                            Collisions[j].vCollisionNormal)) *
+                            Collisions[j].vCollisionNormal;</pre><p>The <code class="literal">vCollisionNormal</code> vector is determined by <code class="literal">CheckGroundPlaneContacts</code>, which we’ll cover later. As with
+        collisions, <code class="literal">CheckGroundPlaneContacts</code> fills in a data
+        structure containing the point of contact, relative velocity between the ball and table at
+        the point of contact, and the contact normal and tangent vectors, among other data.</p><p>To compute the <a id="I_indexterm5_id351376" class="indexterm"/><a id="I_indexterm5_id351383" class="indexterm"/>sliding friction force, we must first determine the tangential component of the
+        relative velocity between the ball and table. If the ball is sliding or slipping as it
+        rolls, then the relative tangential velocity will be greater than 0. If the ball is rolling
+        without sliding, then the relative velocity will be 0. In either case, there will be a
+        friction force; in the former case, we’ll use the kinetic friction coefficient, and in the
+        latter we’ll use the static friction coefficient. Friction force is computed in the same way
+        we showed you in <a class="xref" href="ch03.html" title="Chapter 3. Force">Chapter 3</a>. The following lines of code perform all these
+        calculations:</p><a id="I_programlisting5_id351407"/><pre class="programlisting">                ContactForce = (Bodies[i].fMass * (-Bodies[i].vAcceleration *
+                            Collisions[j].vCollisionNormal)) *
+                            Collisions[j].vCollisionNormal;
+
+                double vt = fabs(Collisions[j].vRelativeVelocity *
+                            Collisions[j].vCollisionTangent);
+                if(vt &gt; VELOCITYTOLERANCE)
+                {
+                    // Kinetic:
+                    FrictionForce = (ContactForce.Magnitude() *
+                                FRICTIONCOEFFICIENTGROUND) *
+                                Collisions[j].vCollisionTangent;
+                } else {
+                    // Static:
+                    FrictionForce = (ContactForce.Magnitude() *
+                                FRICTIONCOEFFICIENTGROUND * 2 *
+                                vt/VELOCITYTOLERANCE) *
+                                Collisions[j].vCollisionTangent;
+                }</pre><p>Keep in mind that these forces will create moments if they do not act through the ball’s
+        center of gravity. So, after computing and aggregating these forces, you must also resolve
+        any moments created and aggregate those using the same formulas we’ve shown through this
+        book. The following lines of code take care of these tasks:</p><a id="I_programlisting5_id351428"/><pre class="programlisting">                // accumlate contact and friction forces and moments
+                Bodies[i].vForces += ContactForce;
+                Bodies[i].vForces += FrictionForce;
+
+                ContactForce = QVRotate(~Bodies[i].qOrientation, ContactForce);
+                FrictionForce = QVRotate(~Bodies[i].qOrientation,
+                                FrictionForce);
+                pt = Collisions[j].vCollisionPoint - Bodies[i].vPosition;
+                pt = QVRotate(~Bodies[i].qOrientation, pt);
+                Bodies[i].vMoments += pt^ContactForce;
+                Bodies[i].vMoments += pt^FrictionForce;</pre><p>Rolling resistance <a id="I_indexterm5_id351441" class="indexterm"/><a id="I_indexterm5_id351447" class="indexterm"/>arises by virtue of small deformations in the cloth-covered table creating a
+        little divot that the ball must overcome as it rolls. This divot shifts the center of
+        application of the contact force just a little bit in the direction of rolling. That small
+        offset results in a moment when multiplied by the contact force. The resulting moment
+        opposes rolling; otherwise, without some other resistance the ball would continue rolling
+        unrealistically. The following code <a id="I_indexterm5_id351463" class="indexterm"/><a id="I_indexterm5_id351472" class="indexterm"/>computes the rolling resistance:</p><a id="I_programlisting5_id351484"/><pre class="programlisting">                // Do rolling resistance:
+                if(Bodies[i].vAngularVelocity.Magnitude() &gt; VELOCITYTOLERANCE)
+                {
+                    FRn = ContactForce.Magnitude() *
+                          Collisions[j].vCollisionNormal;
+                    Collisions[j].vCollisionTangent.Normalize();
+                    Vector m = (Collisions[j].vCollisionTangent
+                                *(ROLLINGRESISTANCECOEFFICIENT *
+                                Bodies[i].fRadius))^FRn;
+                    double mag = m.Magnitude();
+                    Vector a = Bodies[i].vAngularVelocity;
+                    a.Normalize();
+                    Bodies[i].vMoments += -a * mag;
+                }</pre></div><div class="sect2" title="Handling Collisions"><div class="titlepage"><div><div><h3 class="title" id="handling_collisions">Handling Collisions</h3></div></div></div><p>Earlier you <a id="bi19.2.5" class="indexterm"/><a id="cr19.2.5" class="indexterm"/><a id="cd19.2.5" class="indexterm"/><a id="co19.2.5" class="indexterm"/>saw where <code class="literal">StepSimulation</code> makes a few function
+        calls to deal with collision checking and response. You also saw where <code class="literal">CalcObjectForces</code> makes a function call that checks for contacts.
+        The functions that check for collisions or contacts make use of the <code class="literal">Collisions</code> array we showed you earlier. This array stores all the relevant
+        information pertaining to collisions or contacts—the collision or contact manifold, <a id="I_indexterm5_id351590" class="indexterm"/>normal and tangent vectors, relative velocity, etc.</p><p>The first function we’ll consider is <code class="literal">CheckForCollisions</code>, which is called toward the end of <code class="literal">StepSimulation</code>. <code class="literal">CheckForCollisions</code> checks
+        for ball-ball collisions; we have a separate function to check for ball-table collisions
+        that we’ll get to later. <code class="literal">CheckForCollisions</code> relies on
+        concepts we’ve already discussed and showed you in earlier chapters, so we’ll summarize its
+        action here. Basically, two billiard balls are colliding if 1) they are headed toward each
+        other, and 2) the distance separating their centers is less than or equal to the sum of
+        their radii. If both of these criteria are met, then a collision is recorded and all
+        relevant data is stored in the <code class="literal">Collisions</code> array:</p><a id="I_programlisting5_id351636"/><pre class="programlisting">int    CheckForCollisions(void)
+{
+    int         status = NOCOLLISION;
+    int         i, j;
+    Vector      d;
+    pCollision  pCollisionData;
+    int         check = NOCOLLISION;
+    float       r;
+    float       s;
+    Vector      tmp;
+
+    FlushCollisionData();
+    pCollisionData = Collisions;
+    NumCollisions = 0;
+
+    // check object collisions with each other
+    for(i=0; i&lt;NUMBODIES; i++)
+    {
+        for(j=0; j&lt;NUMBODIES; j++)
+            if((j!=i) &amp;&amp; !CollisionRecordedAlready(i, j))
+            {
+                // do a bounding sphere check
+                d = Bodies[i].vPosition - Bodies[j].vPosition;
+                r = Bodies[i].fRadius + Bodies[j].fRadius;
+                s = d.Magnitude() - r;
+                if(s &lt; COLLISIONTOLERANCE)
+                {// possible collision
+                    Vector   pt1, pt2, vel1, vel2, n, Vr;
+                    float    Vrn;
+
+                    pt1 = (Bodies[i].vPosition + Bodies[j].vPosition)/2;
+                    tmp = pt2 = pt1;
+
+                    pt1 = pt1-Bodies[i].vPosition;
+                    pt2 = pt2-Bodies[j].vPosition;
+
+                    vel1 = Bodies[i].vVelocity +
+                           (Bodies[i].vAngularVelocityGlobal^pt1);
+                    vel2 = Bodies[j].vVelocity +
+                           (Bodies[j].vAngularVelocityGlobal^pt2);
+
+                    n = d;
+                    n.Normalize();
+
+                    Vr = (vel1 - vel2);
+                    Vrn = Vr * n;
+
+                    if(Vrn &lt; -VELOCITYTOLERANCE)
+                    {
+                        // Have a collision so fill the data structure
+                        assert(NumCollisions &lt; (NUMBODIES*8));
+                        if(NumCollisions &lt; (NUMBODIES*8))
+                        {
+                            pCollisionData-&gt;body1 = i;
+                            pCollisionData-&gt;body2 = j;
+                            pCollisionData-&gt;vCollisionNormal = n;
+                            pCollisionData-&gt;vCollisionPoint = tmp;
+                            pCollisionData-&gt;vRelativeVelocity = Vr;
+                            pCollisionData-&gt;vCollisionTangent = (n^Vr)^n;
+                            pCollisionData-&gt;vCollisionTangent.Normalize();
+
+                            pCollisionData++;
+                            NumCollisions++;
+                            status = COLLISION;
+                        }                                                }
+                }
+            }
+    }
+
+    for(i=0; i&lt;NUMBODIES; i++)
+        {
+            check = NOCOLLISION;
+
+            assert(NumCollisions &lt; (NUMBODIES*8));
+            check = CheckGroundPlaneCollisions(pCollisionData, i);
+            if(check == COLLISION)
+            {
+                status = COLLISION;
+                pCollisionData++;
+                NumCollisions++;
+            }
+        }
+
+    return status;
+}</pre><p>Since <code class="literal">CheckForCollisions</code> loops through all of the
+        balls checking for collisions with every other ball, it is possible that a collision would
+        be recorded twice. For example, the <span class="emphasis"><em>i</em></span>th ball may be found to be
+        colliding with the <span class="emphasis"><em>j</em></span>th ball, and later the <span class="emphasis"><em>j</em></span>th
+        ball would also be found to be colliding with the <span class="emphasis"><em>i</em></span>th ball. We don’t
+        want to record that information twice, so we use the following function to check if a
+        collision between two particular balls is already recorded. If so, we skip re-recording the
+        data:</p><a id="I_programlisting5_id351695"/><pre class="programlisting">bool CollisionRecordedAlready(int i, int j)
+{
+    int k;
+    int b1, b2;
+
+    for(k=0; k&lt;NumCollisions; k++)
+    {
+        b1 = Collisions[k].body1;
+        b2 = Collisions[k].body2;
+
+        if( ((b1 == i) &amp;&amp; (b2 == j)) ||
+            ((b1 == j) &amp;&amp; (b2 == i)) )
+            return true;
+    }
+
+    return false;
+}</pre><p>Checking ball-table collisions is fairly straightforward as well. If 1) a ball is found
+        to be headed toward the table with some velocity greater than 0 (or some small threshold),
+        and 2) the ball’s vertical position to its center is less than or equal to its radius, then
+        we record a collision. <code class="literal">CheckGroundPlaneCollisions</code> handles
+        this for us:</p><a id="I_programlisting5_id351715"/><pre class="programlisting">int    CheckGroundPlaneCollisions(pCollision CollisionData, int body1)
+{
+    Vector    tmp;
+    Vector    vel1;
+    Vector    pt1;
+    Vector    Vr;
+    float     Vrn;
+    Vector    n;
+    int       status = NOCOLLISION;
+
+    if(Bodies[body1].vPosition.z &lt;= (Bodies[body1].fRadius))
+    {
+        pt1 = Bodies[body1].vPosition;
+        pt1.z = COLLISIONTOLERANCE;
+        tmp = pt1;
+        pt1 = pt1-Bodies[body1].vPosition;
+        vel1 = Bodies[body1].vVelocity/*Body*/ +
+               (Bodies[body1].vAngularVelocityGlobal^pt1);
+
+        n.x = 0;
+        n.y = 0;
+        n.z = 1;
+
+        Vr = vel1;
+        Vrn = Vr * n;
+
+        if(Vrn &lt; -VELOCITYTOLERANCE)
+        {
+            // Have a collision so fill the data structure
+            assert(NumCollisions &lt; (NUMBODIES*8));
+            if(NumCollisions &lt; (NUMBODIES*8))
+            {
+                CollisionData-&gt;body1 = body1;
+                CollisionData-&gt;body2 = −1;
+                CollisionData-&gt;vCollisionNormal = n;
+                CollisionData-&gt;vCollisionPoint = tmp;
+                CollisionData-&gt;vRelativeVelocity = Vr;
+
+                CollisionData-&gt;vCollisionTangent = (n^Vr)^n;
+                CollisionData-&gt;vCollisionTangent.Reverse();
+
+                CollisionData-&gt;vCollisionTangent.Normalize();
+                status = COLLISION;
+            }
+        }
+    }
+
+    return status;
+}</pre><p>Resolving collisions, whether ball-ball or ball-table collisions, uses the same approach
+        we’ve already shown you. Thus, we won’t go over the code again, and will instead just show
+        you the function that implements collision response:</p><a id="I_programlisting5_id351737"/><pre class="programlisting">void ResolveCollisions(void)
+{
+    int       i;
+    double    j;
+    Vector    pt1, pt2, vB1V, vB2V, vB1AV, vB2AV;
+    float     fCr = COEFFICIENTOFRESTITUTION;
+    int       b1, b2;
+    float     Vrt;
+    float     muB = FRICTIONCOEFFICIENTBALLS;
+    float     muG = FRICTIONCOEFFICIENTGROUND;
+    bool      dofriction = DOFRICTION;
+
+    for(i=0; i&lt;NumCollisions; i++)
+    {
+        b1 = Collisions[i].body1;
+        b2 = Collisions[i].body2;
+
+        if( (b1 != −1) &amp;&amp; (b1 != b2) )
+        {
+            if(b2 != −1) // not ground plane
+            {
+                pt1 = Collisions[i].vCollisionPoint - Bodies[b1].vPosition;
+                pt2 = Collisions[i].vCollisionPoint - Bodies[b2].vPosition;
+
+                // Calculate impulse:
+                j = (-(1+fCr) * (Collisions[i].vRelativeVelocity *
+                    Collisions[i].vCollisionNormal)) /
+                    ((1/Bodies[b1].fMass + 1/Bodies[b2].fMass) +
+                    (Collisions[i].vCollisionNormal * ( ( (pt1 ^
+                     Collisions[i].vCollisionNormal) *
+                     Bodies[b1].mIeInverse )^pt1) ) +
+                    (Collisions[i].vCollisionNormal * ( ( (pt2 ^
+                     Collisions[i].vCollisionNormal) *
+                     Bodies[b2].mIeInverse )^pt2) ) );
+
+                Vrt = Collisions[i].vRelativeVelocity *
+                      Collisions[i].vCollisionTangent;
+
+                if(fabs(Vrt) &gt; 0.0 &amp;&amp; dofriction) {
+                    Bodies[b1].vVelocity +=
+                            ((j * Collisions[i].vCollisionNormal) +
+                            ((muB * j) * Collisions[i].vCollisionTangent)) /
+                            Bodies[b1].fMass;
+                    Bodies[b1].vAngularVelocityGlobal +=
+                            (pt1 ^ ((j * Collisions[i].vCollisionNormal) +
+                            ((muB * j) * Collisions[i].vCollisionTangent))) *
+                            Bodies[b1].mIeInverse;
+                    Bodies[b1].vAngularVelocity =
+                            QVRotate(~Bodies[b1].qOrientation,
+                            Bodies[b1].vAngularVelocityGlobal);
+
+                    Bodies[b2].vVelocity +=
+                            ((-j * Collisions[i].vCollisionNormal) + ((muB *
+                            j) * Collisions[i].vCollisionTangent)) /
+                            Bodies[b2].fMass;
+                    Bodies[b2].vAngularVelocityGlobal +=
+                            (pt2 ^ ((-j * Collisions[i].vCollisionNormal) +
+                            ((muB * j) * Collisions[i].vCollisionTangent)))
+                            * Bodies[b2].mIeInverse;
+
+                    Bodies[b2].vAngularVelocity =
+                            QVRotate(~Bodies[b2].qOrientation,
+                            Bodies[b2].vAngularVelocityGlobal);
+
+                } else {
+                    // Apply impulse:
+                    Bodies[b1].vVelocity +=
+                            (j * Collisions[i].vCollisionNormal) /
+                            Bodies[b1].fMass;
+                    Bodies[b1].vAngularVelocityGlobal +=
+                            (pt1 ^ (j * Collisions[i].vCollisionNormal)) *
+                            Bodies[b1].mIeInverse;
+                    Bodies[b1].vAngularVelocity =
+                            QVRotate(~Bodies[b1].qOrientation,
+                            Bodies[b1].vAngularVelocityGlobal);
+
+                    Bodies[b2].vVelocity -=
+                            (j * Collisions[i].vCollisionNormal) /
+                            Bodies[b2].fMass;
+                    Bodies[b2].vAngularVelocityGlobal -=
+                            (pt2 ^ (j * Collisions[i].vCollisionNormal)) *
+                            Bodies[b2].mIeInverse;
+                    Bodies[b2].vAngularVelocity =
+                            QVRotate(~Bodies[b2].qOrientation,
+                            Bodies[b2].vAngularVelocityGlobal);
+                }
+
+            } else { // Ground plane:
+                fCr = COEFFICIENTOFRESTITUTIONGROUND;
+                pt1 = Collisions[i].vCollisionPoint - Bodies[b1].vPosition;
+
+                // Calculate impulse:
+                j = (-(1+fCr) * (Collisions[i].vRelativeVelocity *
+                    Collisions[i].vCollisionNormal)) /
+                    ( (1/Bodies[b1].fMass) +
+                    (Collisions[i].vCollisionNormal *
+                    ( ( (pt1 ^ Collisions[i].vCollisionNormal) *
+                    Bodies[b1].mIeInverse )^pt1)));
+
+                Vrt = Collisions[i].vRelativeVelocity *
+                     Collisions[i].vCollisionTangent;
+
+                if(fabs(Vrt) &gt; 0.0 &amp;&amp; dofriction) {
+                    Bodies[b1].vVelocity +=
+                            ( (j * Collisions[i].vCollisionNormal) + ((muG *
+                            j) * Collisions[i].vCollisionTangent) ) /
+                            Bodies[b1].fMass;
+                    Bodies[b1].vAngularVelocityGlobal +=
+                            (pt1 ^ ((j * Collisions[i].vCollisionNormal) +
+                            ((muG * j) * Collisions[i].vCollisionTangent))) *
+                            Bodies[b1].mIeInverse;
+                    Bodies[b1].vAngularVelocity =
+                            QVRotate(~Bodies[b1].qOrientation,
+                            Bodies[b1].vAngularVelocityGlobal);
+                } else {
+                    // Apply impulse:
+                    Bodies[b1].vVelocity +=
+                            (j * Collisions[i].vCollisionNormal) /
+                            Bodies[b1].fMass;
+                    Bodies[b1].vAngularVelocityGlobal +=
+                            (pt1 ^ (j * Collisions[i].vCollisionNormal)) *
+                            Bodies[b1].mIeInverse;
+                    Bodies[b1].vAngularVelocity =
+                            QVRotate(~Bodies[b1].qOrientation,
+                            Bodies[b1].vAngularVelocityGlobal);
+                }
+            }
+        }
+    }
+}</pre><p>The final function we need to show you is <code class="literal">CheckGroundPlaneContacts</code>. Recall that this function is called from <code class="literal">CalcObjectForces</code> in order to determine if a ball is in resting
+        contact with the table. If the ball’s vertical position is less than or equal to its radius
+        plus some small tolerance, and if the ball’s vertical velocity is 0 (or nearly so within
+        some small tolerance), then we consider the ball in contact with the table. If there’s a
+        contact, the relevant data gets stored in the <code class="literal">Collisions</code>
+        array and used to resolve the contact, not the collision, in <code class="literal">CalcObjectForces</code>:</p><a id="I_programlisting5_id351825"/><pre class="programlisting">int    CheckGroundPlaneContacts(pCollision CollisionData, int body1)
+{
+
+    Vector    v1[8];
+    Vector    tmp;
+    Vector    u, v;
+    Vector    f[4];
+    Vector    vel1;
+    Vector    pt1;
+    Vector    Vr;
+    float     Vrn;
+    Vector    n;
+    int       status = NOCOLLISION;
+    Vector    Ar;
+    float     Arn;
+
+    if(Bodies[body1].vPosition.z &lt;= (Bodies[body1].fRadius + COLLISIONTOLERANCE))
+    {
+        pt1 = Bodies[body1].vPosition;
+        pt1.z = COLLISIONTOLERANCE;
+        tmp = pt1;
+        pt1 = pt1-Bodies[body1].vPosition;
+        vel1 = Bodies[body1].vVelocity/*Body*/ +
+              (Bodies[body1].vAngularVelocityGlobal^pt1);
+
+        n.x = 0;
+        n.y = 0;
+        n.z = 1;
+
+        Vr = vel1;
+        Vrn = Vr * n;
+
+        if(fabs(Vrn) &lt;= VELOCITYTOLERANCE) // at rest
+        {
+            // Check the relative acceleration:
+            Ar = Bodies[body1].vAcceleration +
+                (Bodies[body1].vAngularVelocityGlobal ^
+                (Bodies[body1].vAngularVelocityGlobal^pt1)) +
+                (Bodies[body1].vAngularAccelerationGlobal ^ pt1);
+
+            Arn = Ar * n;
+
+            if(Arn &lt;= 0.0f)
+            {
+                // We have a contact so fill the data structure
+                assert(NumCollisions &lt; (NUMBODIES*8));
+                if(NumCollisions &lt; (NUMBODIES*8))
+                {
+                    CollisionData-&gt;body1 = body1;
+                    CollisionData-&gt;body2 = −1;
+                    CollisionData-&gt;vCollisionNormal = n;
+                    CollisionData-&gt;vCollisionPoint = tmp;
+                    CollisionData-&gt;vRelativeVelocity = Vr;
+                    CollisionData-&gt;vRelativeAcceleration = Ar;
+
+                    CollisionData-&gt;vCollisionTangent = (n^Vr)^n;
+                    CollisionData-&gt;vCollisionTangent.Reverse();
+
+                    CollisionData-&gt;vCollisionTangent.Normalize();
+                    CollisionData++;
+                    NumCollisions++;
+                    status = CONTACT;
+                }
+            }
+        }
+    }
+
+    return status;
+}</pre><p>That’s all there is to this billiards example. As you can see, we used substantially the
+        same methods shown in other examples throughout this book to implement this example. About
+        the only new information we’ve shown here is how to compute rolling resistance. With a
+        little effort, you can combine the material presented in this example with the projectile
+        motion material presented in <a class="xref" href="ch06.html" title="Chapter 6. Projectiles">Chapter 6</a> to model all sorts of sports
+        balls. Whether you’re modeling a billiard ball bouncing off a table or a basketball bouncing
+        off a backboard, the methods are the same. The only things that will change are the
+        empirical coefficients you use to model each ball and surface. Have <a id="I_indexterm5_id351860" class="indexterm"/><a id="I_indexterm5_id351871" class="indexterm"/><a id="I_indexterm5_id351880" class="indexterm"/><a id="I_indexterm5_id351889" class="indexterm"/><a id="I_indexterm5_id351899" class="indexterm"/>fun.</p></div></div></section></body></html>
