@@ -280,6 +280,7 @@ function NewLevelAppFileDirect() {
     }
 
 
+
     p.addInitFiles = function addInitFiles() {
         window.initApp = function initApp() {
             console.log('...retry reload....')

@@ -303,54 +303,6 @@
                     k = k.replace(window.location.host, 'localhost:10110')
                     //https://localhost:10110
                     return k
-
-                    k = k.replace('127.0.0.1:33031', 'localhost:10110')
-
-                    let key2 = k
-
-                    if (k.includes('quickload')) {
-                        //debugger
-                    }
-                    if (k.includes('comps/a')) {
-                        //debugger
-                    }
-                    if (key2.includes('Dropbox')) {
-                        let parts = []
-                        /*if ( key.includes('=')) {
-                            parts = [k.before('='), '=', k.after('Dropbox')]
-                            parts = parts.join('')
-                            parts = parts.split('\\').join('/')
-                            key2 = parts
-                        } else {
-                            parts = [  k.after('Dropbox')]
-                            parts = parts.join('')
-                            parts = parts.split('\\').join('/')
-                            key2 = parts
-                        }*/
-
-                        parts = [k.after('Dropbox')]
-                        parts = parts.join('')
-                        parts = parts.split('\\').join('/')
-                        key2 = parts
-
-                        //console.log(key2)
-                    }
-
-
-                    /*if (key2.includes('Dropbox') && key2.includes('=')) {
-                        let parts = []
-                        parts = [k.before('='), '=', k.after('Dropbox')]
-                        parts = parts.join('')
-                        parts = parts.split('\\').join('/')
-                        key2 = parts
-                        //console.log(key2)
-                    }*/
-                    if (self.adjustKeysToCache != true) {
-                        console.warn('skip this', k, 'to', key2)
-                        //return k
-                    }
-
-                    return key2
                 }
 
                 p.onCachedUpdateKeysTest = function onCachedUpdateKeysTest() {
