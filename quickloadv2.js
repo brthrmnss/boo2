@@ -49,7 +49,6 @@
         window.QuickLoad = true
         window.quickloadv2 = true;
 
-
         function cid(fx) {
             var args = Array.prototype.slice.call(arguments, 0);
             args = args.slice(1, args.length)
@@ -156,7 +155,7 @@
             //ql.onCachedUpdateKeys()
 
 
-            p.ql_updatePrototypes = function ql_updatePrototypes(){
+            p.ql_updatePrototypes = function ql_updatePrototypes() {
 
 
                 String.prototype.afterFirst = function afterFirst(value) {
@@ -167,14 +166,11 @@
                 }
 
 
-
                 String.prototype.gsub = function gsub(from, to) {
                     let split = this.split(from)
                     split = split.join(to)
                     return split;
                 }
-
-
 
 
                 String.prototype.after = function after(value) {
@@ -200,10 +196,7 @@
             self.ql_updatePrototypes()
 
 
-
             p.addAutilityMethodsToSH = function addAutilityMethodsToSH() {
-
-
 
 
                 if (window.sh == null) {
@@ -252,7 +245,6 @@
                     str = str.replace(/\s/g, '')
                     return str;
                 }
-
 
 
             }
@@ -331,7 +323,7 @@
                 }
 
 
-               p.dbg_find =  p.findCachedItem = p.showAllCachedItems = function showAllCachedItems(str, showResults, str2) {
+                p.dbg_find = p.findCachedItem = p.showAllCachedItems = function showAllCachedItems(str, showResults, str2) {
                     if (str != null) {
                         console.log('searching for ', str)
                     }
@@ -546,7 +538,7 @@
                                 if (oldContents == null) {
                                     if (urlAlt.endsWith('/')) {
                                         urlAlt = urlAlt.slice(0, -1)
-                                    }else {
+                                    } else {
                                         urlAlt += '/'
                                     }
                                     oldContents = self.data.cache [urlAlt]
@@ -554,10 +546,10 @@
                                 //  debugger
 
 
-                                if (oldContents == null)       {
+                                if (oldContents == null) {
                                     if (window.skipLoadFilesOrDir3) {
                                         let skip = window.skipLoadFilesOrDir3(url)
-                                            oldContents = skip
+                                        oldContents = skip
                                     }
                                 }
                                 if (oldContents == null) {
@@ -565,8 +557,6 @@
                                     window.skipLoadFilesOrDir3
                                     debugger
                                 }
-
-
 
 
                                 // oldContents = JSON.stringify({files: []})
@@ -791,7 +781,7 @@ min-height: 300px;
                     let data = {}
 
 
-                    if ( window.fxRedirectUrls2 ) {
+                    if (window.fxRedirectUrls2) {
                         urlCacheFile = window.fxRedirectUrls2(urlCacheFile)
                     }
 
@@ -811,7 +801,7 @@ min-height: 300px;
                             cfg.strs = window.vsr
 
 
-                            p.ql_updateSh = function ql_updateSh(){
+                            p.ql_updateSh = function ql_updateSh() {
 
                                 sh.lines2 = function strLines(strInput) {
                                     let str = strInput.trim().split('\n')
@@ -861,14 +851,14 @@ min-height: 300px;
                             let ttt = sh.gsubBulk(cfg)
 
 
-                            if ( ttt.includes('/themes/minimal_v0/staticz/fonts/')) {
+                            if (ttt.includes('/themes/minimal_v0/staticz/fonts/')) {
                                 ttt = ttt.gsub('/themes/minimal_v0/staticz/fonts/',
                                     '/fonts/')
 
                                 ttt = ttt.gsub('/themes/minimal_v0/staticz/font/',
                                     '/fonts/')
 
-                                 self.settings.ql_overrideFontUrlBase  = '/fonts'
+                                self.settings.ql_overrideFontUrlBase = '/fonts'
 
 
                             } else {
@@ -1138,8 +1128,8 @@ min-height: 300px;
                             if (url.split('/').length > 2) {
                                 if (url.includes('/api/')) {
                                 } else {
-                                    if ( window.debugMissFs != false )
-                                    debugger
+                                    if (window.debugMissFs != false)
+                                        debugger
                                 }
                             }
                             return $.oldAjax.apply(null, args)
@@ -1294,6 +1284,8 @@ min-height: 300px;
                     }
 
                     url = self.utils.unlocalize(url)
+                    console.log('url', url, window.Ionic)
+
                     jQuery.getScript(url)
                         .done(function onLoaded() {
                         })
@@ -1330,7 +1322,7 @@ min-height: 300px;
                     'http://localhost:10110/styles/list_styles.css',
                 ]
 
-                if (window.githubLiveMode!=true){
+                if (window.githubLiveMode != true) {
                     scripts2.push('http://localhost:10110/styles/fonts.css')
                 }
 
@@ -1345,9 +1337,9 @@ min-height: 300px;
                     'http://localhost:10110/styles2/list_styles.css',
                 ]*/
 
-             /*   sh.each(scripts2, function onEach(k,v){
-                    scripts2[k]
-                })*/
+                /*   sh.each(scripts2, function onEach(k,v){
+                       scripts2[k]
+                   })*/
 
                 self.loadScript2(scripts2.concat(), self.loadStuff4);
             }
@@ -1365,22 +1357,22 @@ min-height: 300px;
                  document.head.appendChild(newStyle);*/
 
 
-              /*  let droidSans = {}
-                droidSans.name = 'Droid Sans'
-                droidSans.fontUrl = 'droidsans.ttf'
-                droidSans.urlFontBase =
-                    'http://localhost:10110/styles2/font'
-                self.addFont(droidSans)
+                /*  let droidSans = {}
+                  droidSans.name = 'Droid Sans'
+                  droidSans.fontUrl = 'droidsans.ttf'
+                  droidSans.urlFontBase =
+                      'http://localhost:10110/styles2/font'
+                  self.addFont(droidSans)
 
-                droidSans = {}
-                droidSans.name = 'Droid Sans'
-                droidSans.localName = 'Droid Sans Bold'
-                droidSans.fontWeightStr = '700'
-                droidSans.fontUrl = 'droidsans-700.ttf'
-                droidSans.urlFontBase =
-                    'http://localhost:10110/styles2/font'
-                self.addFont(droidSans)
-*/
+                  droidSans = {}
+                  droidSans.name = 'Droid Sans'
+                  droidSans.localName = 'Droid Sans Bold'
+                  droidSans.fontWeightStr = '700'
+                  droidSans.fontUrl = 'droidsans-700.ttf'
+                  droidSans.urlFontBase =
+                      'http://localhost:10110/styles2/font'
+                  self.addFont(droidSans)
+  */
 
                 self.loadStuff_FinishedBeforeLoadingUserComponents()
 
@@ -1404,6 +1396,7 @@ min-height: 300px;
                          b()
                          return
                      }*/
+
                     self.addDirSubs__(a, b, true)
                 }
 
@@ -1417,6 +1410,16 @@ min-height: 300px;
                 //self.loadStuff5()
             }
             p.addDir2 = function addDir2(config, onlyMatches, loadSkipMatches) {
+
+
+                let addAutoLoadingDir = null //sh.cid(window.fxAddReloadDirs , config)
+                if (window.fxAddReloadDirs) {
+                    addAutoLoadingDir = window.fxAddReloadDirs(config)
+                }
+                if (addAutoLoadingDir == false) {
+                    return
+                }
+
                 let info = {}
                 //   cfg.urlPath = urlPath;
                 if (config.urlPath) {
@@ -1426,6 +1429,7 @@ min-height: 300px;
                     info.onlyMatches = onlyMatches;
                     info.loadSkipMatches = loadSkipMatches;
                 }
+
                 self.data.dirs.push(info)
             }
 
@@ -1542,6 +1546,8 @@ min-height: 300px;
                         onLoad_QuickBasics_LoadDirZ('/mnt/db/Dropbox/projects/crypto/mp/GrammarHelperServer/sharedResourcesGrid/comps2')
                         onLoad_QuickBasics_LoadDirZ('/mnt/db/Dropbox/projects/crypto/mp/GrammarHelperServer/sharedResourcesGrid/comps3')
                         onLoad_QuickBasics_LoadDirZ('/mnt/db/Dropbox/projects/crypto/mp/GrammarHelperServer/sharedResourcesGrid/frameworkV2')
+                        //onLoad_QuickBasics_LoadDirZ('/mnt/db/Dropbox/projects/crypto/mp/GrammarHelperServer/sharedResourcesGrid/frameworkV3')
+
                     }
                     if (window.quickLoad_loadDirs) {
                         sh.each(window.quickLoad_loadDirs, function on(k, v) {
@@ -1615,7 +1621,6 @@ min-height: 300px;
                         window.quickLoaderLoaded = true
 
 
-
                         StartScrolling()
                         sh.cid(self.settings.fxDone)
                         if (window.startApp) {
@@ -1627,9 +1632,6 @@ min-height: 300px;
 
                 loadSt9f()
             }
-
-
-
 
 
             p.utils = {}
@@ -1644,7 +1646,6 @@ min-height: 300px;
             }
 
 
-
             p.utils.unlocalize = function unlocalize(url) {
                 /* if ( url == null ) {
                      console.warn('url is null', url)
@@ -1653,10 +1654,7 @@ min-height: 300px;
  */
 
 
-
-
                 if (url == null) {
-                    debugger
                     console.warn('url is null', url)
                     console.error('url is null', url)
                     return
@@ -1703,7 +1701,9 @@ min-height: 300px;
                             if (window.location.href.includes('android_asset')) {
                                 host = '192.168.1.179:10110'
                             }
-
+                            if (window.Ionic ) {
+                                host = '192.168.1.179:10110'
+                            }
 
                             url = 'http://' + host + '/' + url
                             // url = url.replace('localhost/',  host)
@@ -1877,7 +1877,7 @@ min-height: 300px;
                     }
                     urlPre = urlPre.split('//').join('/')
                     var instance = new window.CountDownTo0Helper();
-                  //  debugger
+                    //  debugger
                     let cfgQueue = {};
                     cfgQueue.debug = false;
                     cfgQueue.fxDone = function onFinishedLoadingAllQueueItems() {
@@ -1898,10 +1898,10 @@ min-height: 300px;
                     cfg.url = self.utils.unlocalize(cfg.url)
 
 
-                    if ( window.skipLoadFilesOrDir2 ) {
-                        let skip = window.skipLoadFilesOrDir2( cfg)
-                        if ( skip ==false ) {
-                            setTimeout(function (){
+                    if (window.skipLoadFilesOrDir2) {
+                        let skip = window.skipLoadFilesOrDir2(cfg)
+                        if (skip == false) {
+                            setTimeout(function () {
                                 sh.cid(cfg.fxDone)
                                 sh.cid(cfg.fxDone2)
                             }, 20)
@@ -1910,7 +1910,7 @@ min-height: 300px;
                     }
 
                     console.log('---', cfg.url)
-                  //  debugger
+                    //  debugger
                     uiUtils.getUrl(cfg.url, function onGotUrl(list) {
                         //debugger
                         let dbgModeListingUrl = false
@@ -1948,8 +1948,8 @@ min-height: 300px;
 
                             self.data.qDirs[cfg.url] = list.files
 
-                            if ( self.data.addSubDirsListForce.includes(cfg.urlPath) ) {
-                                urlScript = cfg.urlPath +'/'+ listItem;
+                            if (self.data.addSubDirsListForce.includes(cfg.urlPath)) {
+                                urlScript = cfg.urlPath + '/' + listItem;
                                 //debugger
                             } else {
 
@@ -1961,7 +1961,6 @@ min-height: 300px;
                                     console.warn('skipped', listItem, cfg)
                                     return
                                 }
-
 
 
                             }
@@ -2047,9 +2046,9 @@ min-height: 300px;
                             window.lastScript = urlScript
 
 
-                            if ( window.skipLoadFilesOrDir ) {
+                            if (window.skipLoadFilesOrDir) {
                                 let skip = window.skipLoadFilesOrDir(listItem, cfg)
-                                if ( skip ==false ) {
+                                if (skip == false) {
                                     asd.g
                                     instance.removeCountDownItem(urlScript)
                                     return

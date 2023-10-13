@@ -6,8 +6,6 @@ function NewLevelAppFileDirect() {
     self.data = {}
 
     p.init = function initNewLevelAppFileDirect(config = {}) {
-
-
         if (window.githubLiveMode) {
             window.fxRedirectUrls2 = function fxRedier(url) {
                 url = url.after('trash/')
@@ -25,34 +23,54 @@ function NewLevelAppFileDirect() {
           window.urlPreUI = '/themes/minimal_v0/'
           */
         } else {
-
         }
+
         self.settings = config
         window.setZoomDefaultDisable = true
 
+        let location = window.location.toString()
+
         let isLocal = false
-        if ( window.location.toString().includes('localhost')) {
+        if (window.location.toString().includes('localhost')) {
             isLocal = true
-        }
-        else if ( window.location.toString().includes('192')) {
+        } else if (window.location.toString().includes('192')) {
             isLocal = true
+        } else if (location.includes('file:///android_asset/www/index.html')) {
+            isLocal = true
+        } else {
         }
-        else {
-
+        if (window.location.toString().includes('https://')) {
+            self.settings.isRemoteItem = true
+            isLocal = false
         }
-
-
-
-        if ( isLocal == false
+        if (isLocal == false
             || window.location.toString().includes(':11200')) {
-            if (window.location.toString().includes('liveMode2')!=true) {
+            if (window.location.toString().includes('liveMode2') != true) {
                 self.settings.isRemoteItem = true
                 console.log('isremoteitem')
             }
+        }
+    }
+
+
+    p.loadQuickLoader = function loadQuickLoader(a) {
+        let url = 'http://192.168.1.179:10110'
+            + '/grid/grid/G:/Dropbox/projects/crypto/mp/GrammarHelperServer/sharedResourcesGrid/js/quick_base/quickloadv2.js'
+        if (self.settings.isRemoteItem) {
+            url = 'quickloadv2.js'
+             url =  '/grid/grid/G:/Dropbox/projects/crypto/mp/GrammarHelperServer/sharedResourcesGrid/js/quick_base/quickloadv2.js'
 
         }
+        if (window.QuickLoadV2 == null) {
+            window.loadJS2(url, self.onLoadedQuickLoad)
+        } else {
+            self.onLoadedQuickLoad()
+        }
+    }
 
-
+    p.loadNewLevelAppFileDirect = function testNewLevelAppFileDirect(config) {
+        self.createLoadMethod()
+        p.loadJQuery()
     }
 
     p.createLoadMethod = function createLoadMethod() {
@@ -109,27 +127,13 @@ function NewLevelAppFileDirect() {
         window.debuggerM = true;
     }
 
-
     p.loadJQuery = function loadJQuery(a) {
         let url = 'http://192.168.1.179:10110/jquery.js'
+        //debugger
         if (self.settings.isRemoteItem) {
-            url = 'jquery.js'
+            url = '/jquery.js'
         }
         window.loadJS2(url, self.loadQuickLoader)
-    }
-
-    p.loadQuickLoader = function loadQuickLoader(a) {
-        let url = 'http://192.168.1.179:10110'
-            + '/grid/grid/G:/Dropbox/projects/crypto/mp/GrammarHelperServer/sharedResourcesGrid/js/quick_base/quickloadv2.js'
-        if (self.settings.isRemoteItem) {
-            url = 'quickloadv2.js'
-        }
-        if (window.QuickLoadV2 == null) {
-            window.loadJS2(url, self.onLoadedQuickLoad)
-        } else {
-            self.onLoadedQuickLoad()
-        }
-
     }
 
     p.onLoadedQuickLoad = function onLoadedQuickLoad() {
@@ -137,68 +141,6 @@ function NewLevelAppFileDirect() {
         self.addInitFiles()
         self.loadAppQL()
     }
-
-
-    p.loadAppQL = function loadAppQL() {
-
-
-        if (window.urlGPreUrl == null) {
-            window.urlGPreUrl = 'http://localhost:10110/grid/grid/' +
-                'G:/Dropbox/projects/crypto/mp/GrammarHelperServer/sharedResourcesGrid'// +
-            //'/comps
-            window.urlGPreUrl = '/mnt/db/Dropbox/projects/crypto/mp/' +
-                'GrammarHelperServer/sharedResourcesGrid'// +
-            window.urlGPreUrl = 'http://localhost:10110/api/fileList?file=' + (window.urlGPreUrl)
-        }
-
-
-        if (window.location.href.includes('android_asset')) {
-            window.urlGPreUrl = window.urlGPreUrl.replace('localhost', '192.168.1.179')
-        }
-
-
-        window.validQApps = ['appInv']
-
-
-        //window.urlPreUI = ''
-        var instance = new QuickLoadV2();
-        var config = {};
-        if (window.fdCachedMode) {
-            config.cacheFile = 'http://localhost:10110/api/fileList?file=' + ('/home/user1/trash/storedFiles2_Presentation/react.templates.min.html')
-        }
-        //config.saveFileCache = true
-        instance.init(config)
-
-        // return
-
-        /*  instance.addDir2(dirBase + 'dialog/')
-          instance.addDir2(dirBase + 'actions/')
-*/
-
-
-        if (window.fxUpdateFxToLoadNLAF) {
-            window.fxUpdateFxToLoadNLAF(instance)
-        } else {
-            let dirBase = '/mnt/db/Dropbox/projects/crypto/mp/Evernote/logViewer/public_html/rrr/'
-            window.urlPreUI_BaseOverride = dirBase
-            instance.addDirSubs(dirBase)
-        }
-
-
-        instance.loadStuff();
-
-        config.fxDone = function () {
-
-            console.log('finished item')
-            window.initApp()
-
-            sh.cid(window.fxInit2)
-            sh.cid(window.fxWhenBaseAppLoaded)
-        }
-
-
-    }
-
 
     p.preUrlStuff = function preUrlStuff(a) {
         window.noSearch = true;
@@ -279,8 +221,6 @@ function NewLevelAppFileDirect() {
         }
     }
 
-
-
     p.addInitFiles = function addInitFiles() {
         window.initApp = function initApp() {
             console.log('...retry reload....')
@@ -289,6 +229,14 @@ function NewLevelAppFileDirect() {
                 setTimeout(initApp, 250)
                 return
             }
+
+
+            if ( window.skipInitQlApp ) {
+                console.log('window.skipInitQlApp', 'debugger', '')
+                return
+            }
+
+
             //console.log('...wha is this?....')
             if (qCX.waitForCommand(qCX.c.SETUP_APP_AREAS_PLAYR, initApp)) {
                 return;
@@ -308,11 +256,66 @@ function NewLevelAppFileDirect() {
         window.uv2 = true
     }
 
+    p.loadAppQL = function loadAppQL() {
 
-    p.loadNewLevelAppFileDirect = function testNewLevelAppFileDirect(config) {
-        self.createLoadMethod()
-        p.loadJQuery()
+
+        if (window.urlGPreUrl == null) {
+            window.urlGPreUrl = 'http://localhost:10110/grid/grid/' +
+                'G:/Dropbox/projects/crypto/mp/GrammarHelperServer/sharedResourcesGrid'// +
+            //'/comps
+            window.urlGPreUrl = '/mnt/db/Dropbox/projects/crypto/mp/' +
+                'GrammarHelperServer/sharedResourcesGrid'// +
+            window.urlGPreUrl = 'http://localhost:10110/api/fileList?file=' + (window.urlGPreUrl)
+        }
+
+
+        if (window.location.href.includes('android_asset')) {
+            window.urlGPreUrl = window.urlGPreUrl.replace('localhost', '192.168.1.179')
+        }
+
+
+        window.validQApps = ['appInv']
+
+
+        //window.urlPreUI = ''
+        var instance = new QuickLoadV2();
+        var config = {};
+        if (window.fdCachedMode) {
+            config.cacheFile = 'http://localhost:10110/api/fileList?file=' + ('/home/user1/trash/storedFiles2_Presentation/react.templates.min.html')
+        }
+        //config.saveFileCache = true
+        instance.init(config)
+
+        // return
+
+        /*  instance.addDir2(dirBase + 'dialog/')
+          instance.addDir2(dirBase + 'actions/')
+*/
+
+
+        if (window.fxUpdateFxToLoadNLAF) {
+            window.fxUpdateFxToLoadNLAF(instance)
+        } else {
+            let dirBase = '/mnt/db/Dropbox/projects/crypto/mp/Evernote/logViewer/public_html/rrr/'
+            window.urlPreUI_BaseOverride = dirBase
+            instance.addDirSubs(dirBase)
+        }
+
+        instance.loadStuff();
+
+        config.fxDone = function () {
+
+            console.log('finished item')
+            window.initApp()
+
+            sh.cid(window.fxInit2)
+            sh.cid(window.fxWhenBaseAppLoaded)
+        }
+
+
     }
+
+
     p.testNewLevelAppFileDirect = function testNewLevelAppFileDirect(config) {
     }
 
