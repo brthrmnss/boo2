@@ -102,11 +102,11 @@ function NewLevelAppFileDirectV2() {
         var config = {};
         i.init(config)
 
+
         i.add(self.loadJQuery)
         i.add(self.loadQuickLoaderV4)
         i.add(self.onLoadedQuickLoad)
         i.add(self.loadAppQL)
-        i.add(self.makeMenu)
         i.add(self.makeServerHelperUrls)
         i.add(self.initUserFx)
         i.add(function onf(cb, t) {
@@ -317,18 +317,13 @@ function NewLevelAppFileDirectV2() {
         //makeMayorMenu()
     }
 
-    p.makeMenu = function makeMenu(cb) {
-        cb()
-    }
+
     p.makeServerHelperUrls = function makeServerHelperUrls(cb) {
         cb()
     }
     p.initUserFx = function initUserFx(cb) {
         cb()
     }
-    /*   p.initUserFx = function initUserFx(cb){
-           cb()
-       }*/
 
     p.testNewLevelAppFileDirectV2 = function testNewLevelAppFileDirectV2(config) {
     }
