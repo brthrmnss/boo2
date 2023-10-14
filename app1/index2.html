@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Log Viewer</title>
+    <meta name="robots" content="noindex"/>
+    <meta http-equiv="Cache-Control" content="no-cache"/>
+    <meta http-equiv="Expires" content="-1"/>
+    <meta http-equiv="Pragma" content="no-cache"/>
+
+
+<body>
+<script>
+    window.reloaderAllowedDirs= []
+    window.reloaderAllowedDirs.push('rrr/bookReaderR')
+    window.reloaderAllowedDirs.push('rrr/moonreaderApp')
+    window.reloaderAllowedDirs.push('rrr/moonreaderAppCommands')
+    window.reloaderAllowedDirs.push('rrr/pasteReaderR')
+    window.reloaderAllowedDirs.push('rrr/svgCars')
+    window.reloaderAllowedDirs.push('rrr/svgCloth')
+    window.reloaderAllowedDirs.push('rrr/svgCloth/svgClothProgs')
+    window.reloaderAllowedDirs.push('rrr/svgCloth/svgVOs')
+    window.reloaderAllowedDirs.push('rrr/rc2')
+    window.reloaderAllowedDirs.push('rrr/aruco-js2')
+    window.reloaderAllowedDirs.push('rrr/tts2023')
+
+    if ( window.location.toString().includes('rc2') ) {
+        window.reloader_getAuthRemote = 'localhost:10110/api/fileList?file='
+        //bookr2paste
+        window.skipInitQlApp = true
+
+        window.fxFilterReloadDirs = function fxFilterReloadDirs(){
+            asdfasdfadsf.g
+        }
+
+        window.fxAddReloadDirs = function fxFilterReloadDirs(dir){
+            if ( dir.includes('rrr/actions')== true) {
+                return true
+            }
+            if ( dir.includes('rrr/rc2')== true) {
+                return true
+            }
+            if ( dir.includes('asdfadf')== false) {
+                 return false
+            }
+           // debugger
+        }
+    }
+
+    window.fdCachedMode=true
+
+
+    window.fdCachedModeUrl = '../../react.templates.min.html'
+
+    window.fxStartApp = function fxStartApp(){
+        //return
+        let i = new InitQAppTest();
+        window.InitQAppTestInst = i
+        var config = {};
+        i.init(config)
+        i.testInitQAppTest();
+    }
+
+</script>
+<script src="react.3.2.23.min.js" ></script>
+<script src="NewLevelAppFileDirectV2.js" ></script>
+
+
+</body>
+</html>
